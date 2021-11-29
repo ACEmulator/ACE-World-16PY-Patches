@@ -132,6 +132,10 @@ VALUES (22904,   176,   2.04)  /* Fester Other VI */
      , (22904,  2084,   2.04)  /* Belly of Lead */
      , (22904,  2088,   2.04)  /* Senescence */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22904,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22904, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22904, 9,  9310,  0, 0, 0.1, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
      , (22904, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */

@@ -177,6 +177,10 @@ VALUES (27461,    63,  2.015)  /* Acid Stream VI */
      , (27461,  1554,  2.005)  /* Blade Lure III */
      , (27461,  1618,  2.005)  /* Blood Loather III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27461,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27461, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27461,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

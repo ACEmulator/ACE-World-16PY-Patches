@@ -127,3 +127,7 @@ VALUES (8108,    76,  2.115)  /* Lightning Bolt II */
      , (8108,  1238,  2.044)  /* Drain Health Other II */
      , (8108,  1309,   2.04)  /* Armor Self III */
      , (8108,  1417,  2.044)  /* Slowness Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8108,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8108, 414) /* PLAYER_DEATH_EVENT */;

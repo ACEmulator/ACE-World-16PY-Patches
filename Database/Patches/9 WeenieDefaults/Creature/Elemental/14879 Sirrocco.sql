@@ -127,6 +127,10 @@ VALUES (14879,    74,  2.004)  /* Frost Bolt VI */
      , (14879,  1787,  2.004)  /* Halo of Frost */
      , (14879,  2128,  2.004)  /* Ilservian's Flame */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14879,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14879, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14879, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
      , (14879, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

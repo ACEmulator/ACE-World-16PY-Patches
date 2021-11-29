@@ -122,3 +122,7 @@ VALUES (21169,    77,   2.11)  /* Lightning Bolt III */
      , (21169,  1239,  2.006)  /* Drain Health Other III */
      , (21169,  1309,  2.006)  /* Armor Self III */
      , (21169,  1324,  2.013)  /* Imperil Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21169,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (21169, 414) /* PLAYER_DEATH_EVENT */;

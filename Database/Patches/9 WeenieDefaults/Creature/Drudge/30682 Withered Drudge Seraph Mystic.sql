@@ -123,6 +123,10 @@ VALUES (30682,  1089,   2.05)  /* Lightning Vulnerability Other VI */
      , (30682,  2123,   2.05)  /* Celdiseth's Searing */
      , (30682,  2140,   2.05)  /* Alset's Coil */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30682,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30682, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30682,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

@@ -126,6 +126,10 @@ VALUES (27798,    69,   2.08)  /* Shock Wave VI */
      , (27798,  1327,  2.048)  /* Imperil Other VI */
      , (27798,  1343,  2.048)  /* Weakness Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27798,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27798, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27798,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

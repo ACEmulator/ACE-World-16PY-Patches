@@ -124,6 +124,10 @@ VALUES (31018,  1342,   2.02)  /* Weakness Other V */
      , (31018,  2122,   2.02)  /* Disintegration */
      , (31018,  2140,   2.02)  /* Alset's Coil */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31018,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31018, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31018,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

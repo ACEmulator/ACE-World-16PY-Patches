@@ -111,6 +111,10 @@ VALUES (29310,   129,    2.1)  /* Acid Volley V */
      , (29310,  1597,   2.04)  /* Turn Blade V */
      , (29310,  1794,    2.1)  /* Acid Streak V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29310,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29310, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29310,  5 /* HeartBeat */,  0.095, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

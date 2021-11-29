@@ -126,6 +126,10 @@ VALUES (25860,   573,   2.01)  /* Creature Enchantment Ineptitude Other V */
      , (25860,  2162,   2.02)  /* Olthoi's Gift */
      , (25860,  2717,   2.04)  /* Acid Arc VII */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25860,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25860, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25860,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

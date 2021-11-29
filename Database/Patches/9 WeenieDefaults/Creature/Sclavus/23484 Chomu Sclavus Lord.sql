@@ -146,6 +146,10 @@ VALUES (23484,    63,  2.093)  /* Acid Stream VI */
      , (23484,  1200,   2.01)  /* Enfeeble Other VI */
      , (23484,  1265,   2.01)  /* Drain Mana Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23484,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23484, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23484, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
      , (23484, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

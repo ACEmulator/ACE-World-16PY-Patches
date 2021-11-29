@@ -121,3 +121,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8583,  2021,  2.028)  /* Thaumaturgic Shroud */
      , (8583,  2022,  2.028)  /* Soul Shroud */
      , (8583,  2026,  2.028)  /* Nerve Burn */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8583,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8583, 414) /* PLAYER_DEATH_EVENT */;

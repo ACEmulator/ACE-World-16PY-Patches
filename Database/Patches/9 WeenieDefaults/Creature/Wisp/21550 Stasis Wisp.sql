@@ -115,6 +115,10 @@ VALUES (21550,    73,   2.15)  /* Frost Bolt V */
      , (21550,  1264,   2.67)  /* Drain Mana Other V */
      , (21550,  1419,   2.17)  /* Slowness Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21550,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (21550, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21550, 9, 30910,  0, 0, 0.05, False) /* Create Halaetan Magic Page 5 (30910) for ContainTreasure */
      , (21550, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

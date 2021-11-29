@@ -126,6 +126,10 @@ VALUES (7626,    61,   2.08)  /* Acid Stream IV */
      , (7626,  1325,      2)  /* Imperil Other IV */
      , (7626,  1341,      2)  /* Weakness Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7626,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7626, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7626,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

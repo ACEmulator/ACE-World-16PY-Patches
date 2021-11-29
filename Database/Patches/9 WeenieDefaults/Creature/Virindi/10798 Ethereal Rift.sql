@@ -122,6 +122,10 @@ VALUES (10798,    78,  2.115)  /* Lightning Bolt IV */
      , (10798,  1112,  2.115)  /* Blade Protection Self IV */
      , (10798,  1136,  2.115)  /* Piercing Protection Self IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10798,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10798, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10798, 0.5, 10789, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.819152, 0, 0, -0.573577) /* Generate Terebrous Hollow Minion (10789) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (10798, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.965926, 0, 0, -0.258819) /* Generate Virindi Observer (10825) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */

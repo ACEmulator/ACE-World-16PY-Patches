@@ -117,6 +117,10 @@ VALUES (28055,    79,    2.1)  /* Lightning Bolt V */
      , (28055,  1372,   2.06)  /* Frailty Other VI */
      , (28055,  1788,    2.1)  /* Eye of the Storm */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28055,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28055, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28055, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (28055, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

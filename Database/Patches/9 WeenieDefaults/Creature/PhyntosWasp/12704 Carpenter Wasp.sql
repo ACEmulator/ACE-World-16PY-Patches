@@ -97,6 +97,9 @@ VALUES (12704,  0,  2,  3,  0.5,   15,   12,   12,   12,    5,    4,    4,    4,
      , (12704, 17,  1,  3, 0.75,   15,   12,   12,   12,    5,    4,    4,    4,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
      , (12704, 21,  4,  0,    0,   15,   12,   12,   12,    5,    4,    4,    4,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (12704, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12704, 9, 13089,  0, 0, 0.3, False) /* Create Carpenter Wasp Wing (13089) for ContainTreasure */
      , (12704, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;

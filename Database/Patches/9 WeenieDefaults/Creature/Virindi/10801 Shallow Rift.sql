@@ -123,6 +123,10 @@ VALUES (10801,     7,  2.044)  /* Harm Other I */
      , (10801,   654,  2.032)  /* Mana Conversion Mastery Self II */
      , (10801,  1084,  2.044)  /* Lightning Vulnerability Other I */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10801,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10801, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10801,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

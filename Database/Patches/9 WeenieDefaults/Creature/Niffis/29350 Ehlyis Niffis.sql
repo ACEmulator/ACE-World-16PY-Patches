@@ -125,6 +125,10 @@ VALUES (29350,   517,      2)  /* Acid Protection Self III */
      , (29350,  1441,  2.028)  /* Bafflement Other III */
      , (29350,  1465,  2.028)  /* Feeblemind Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29350,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29350, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29350,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

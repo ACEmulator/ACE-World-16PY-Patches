@@ -146,6 +146,10 @@ VALUES (23488,    62,  2.093)  /* Acid Stream V */
      , (23488,  1199,   2.01)  /* Enfeeble Other V */
      , (23488,  1264,   2.01)  /* Drain Mana Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23488,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23488, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23488, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (23488, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */

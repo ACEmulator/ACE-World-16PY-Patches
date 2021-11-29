@@ -75,9 +75,6 @@ VALUES (72520,   1, 0x02000001) /* Setup */
      , (72520,   4, 0x30000000) /* CombatTable */
      , (72520,   8, 0x06001036) /* Icon */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (72520,   0, 0x00000000) /* Undef */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72520,   1,  90, 0, 0) /* Strength */
      , (72520,   2, 100, 0, 0) /* Endurance */

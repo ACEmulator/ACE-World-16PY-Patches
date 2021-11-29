@@ -135,6 +135,10 @@ VALUES (25665,  1241,  2.009)  /* Drain Health Other V */
      , (25665,  2282,   2.01)  /* Futility */
      , (25665,  2318,   2.01)  /* Gravity Well */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25665,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25665, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25665,  3 /* Death */,   0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

@@ -121,3 +121,7 @@ VALUES (5705,     6,  2.015)  /* Heal Self I */
      , (5705,   274,  2.008)  /* Magic Resistance Self I */
      , (5705,  1030,  2.008)  /* Cold Protection Self I */
      , (5705,  1237,  2.008)  /* Drain Health Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5705,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5705, 414) /* PLAYER_DEATH_EVENT */;

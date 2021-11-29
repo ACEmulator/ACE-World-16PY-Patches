@@ -105,6 +105,10 @@ VALUES (31004,  0,  4,  2,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,
      , (31004,  7,  4, 25,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (31004,  8,  4, 140, 0.75,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31004,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31004, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31004, 9, 31348,  1, 0, 0.01, False) /* Create Lugian Sentinel's Insignia (31348) for ContainTreasure */
      , (31004, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */

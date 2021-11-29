@@ -110,6 +110,10 @@ VALUES (29298,  0, 32, 20,  0.3,   60,   54,   48,   60,   60,   48,   66,   60,
      , (29298,  8, 32, 20,  0.4,   60,   54,   48,   60,   60,   48,   66,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (29298, 22, 32, 15,  0.3,   60,   54,   48,   60,   60,   48,   66,   60,    0, 0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Breath */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29298,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29298, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29298,  5 /* HeartBeat */,  0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

@@ -120,3 +120,7 @@ VALUES (2608,     6,  2.015)  /* Heal Self I */
      , (2608,  1249,   2.01)  /* Drain Stamina Other I */
      , (2608,  1260,   2.01)  /* Drain Mana Other I */
      , (2608,  1415,  2.005)  /* Slowness Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (2608,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (2608, 414) /* PLAYER_DEATH_EVENT */;

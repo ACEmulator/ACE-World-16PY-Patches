@@ -128,6 +128,10 @@ VALUES (10954,    84,  2.055)  /* Flame Bolt V */
      , (10954,  1372,   2.04)  /* Frailty Other VI */
      , (10954,  1444,   2.04)  /* Bafflement Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10954,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10954, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10954,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

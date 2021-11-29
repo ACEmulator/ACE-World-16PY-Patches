@@ -114,6 +114,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12017,    28,   2.03)  /* Frost Bolt I */
      , (12017,    70,   2.01)  /* Frost Bolt II */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (12017, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12017, 9,  3703,  0, 0, 0.65, False) /* Create Red Phyntos Wasp Wing (3703) for ContainTreasure */
      , (12017, 9,     0,  0, 0, 0.35, False) /* Create nothing for ContainTreasure */;

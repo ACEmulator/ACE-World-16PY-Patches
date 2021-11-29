@@ -174,6 +174,10 @@ VALUES (8815,    61,  2.013)  /* Acid Stream IV */
      , (8815,  1442,  2.009)  /* Bafflement Other IV */
      , (8815,  1466,  2.009)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8815,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8815, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8815, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (8815, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

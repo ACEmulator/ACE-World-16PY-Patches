@@ -108,6 +108,10 @@ VALUES (25869,  0,  4,  0,    0,  475,  309,  356,  356,  475,  475,  475,  475,
      , (25869,  7,  4,  0,    0,  475,  309,  356,  356,  475,  475,  475,  475,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (25869,  8,  4, 140, 0.75,  475,  309,  356,  356,  475,  475,  475,  475,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25869,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25869, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25869, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (25869, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */

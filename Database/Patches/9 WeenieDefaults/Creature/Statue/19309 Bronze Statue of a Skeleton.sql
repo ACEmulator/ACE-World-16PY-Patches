@@ -132,6 +132,10 @@ VALUES (19309,    88,   2.08)  /* Force Bolt III */
      , (19309,  1394,   2.02)  /* Clumsiness Other IV */
      , (19309,  1418,   2.02)  /* Slowness Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19309,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19309, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (19309,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

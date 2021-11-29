@@ -138,6 +138,10 @@ VALUES (19542,    63,   2.01)  /* Acid Stream VI */
      , (19542,  1176,   2.01)  /* Harm Other VI */
      , (19542,  1312,      2)  /* Armor Self VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19542,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19542, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (19542,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

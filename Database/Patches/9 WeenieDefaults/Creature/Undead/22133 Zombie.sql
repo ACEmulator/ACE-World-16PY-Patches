@@ -176,6 +176,10 @@ VALUES (22133,    61,  2.013)  /* Acid Stream IV */
      , (22133,  1442,  2.009)  /* Bafflement Other IV */
      , (22133,  1466,  2.009)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22133,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22133, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22133, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (22133, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */

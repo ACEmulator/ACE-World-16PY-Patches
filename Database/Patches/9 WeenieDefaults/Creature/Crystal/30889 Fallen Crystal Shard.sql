@@ -128,6 +128,10 @@ VALUES (30889,  2056,  2.083)  /* Ataxia */
      , (30889,  2185,  2.083)  /* Robustify */
      , (30889,  2328,  2.083)  /* Vitality Siphon */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30889,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30889, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30889, 9, 23853,  0, 0, 0.0125, False) /* Create Seared Shard (23853) for ContainTreasure */
      , (30889, 9, 23854,  0, 0, 0.0125, False) /* Create Chilled Shard (23854) for ContainTreasure */

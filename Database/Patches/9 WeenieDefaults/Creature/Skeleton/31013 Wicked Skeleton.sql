@@ -136,6 +136,10 @@ VALUES (31013,  2074,    2.1)  /* Gossamer Flesh */
      , (31013,  2168,    2.1)  /* Gelidite's Gift */
      , (31013,  2174,    2.1)  /* Archer's Gift */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31013,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31013, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31013, 9, 31343,  0, 0, 0.085, False) /* Create Skeletal Jawbone (31343) for ContainTreasure */
      , (31013, 9,     0,  0, 0, 0.915, False) /* Create nothing for ContainTreasure */

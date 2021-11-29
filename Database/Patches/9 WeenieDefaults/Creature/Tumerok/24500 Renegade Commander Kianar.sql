@@ -111,6 +111,10 @@ VALUES (24500,  0,  4,  0,    0,  430,  430,  430,  430,  430,  430,  430,  430,
      , (24500,  7,  4,  0,    0,  430,  430,  430,  430,  430,  430,  430,  430,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (24500,  8,  4,  3, 0.75,  430,  430,  430,  430,  430,  430,  430,  430,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24500,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24500, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24500, 2, 24568,  0, 0, 0, False) /* Create Renegade Bow (24568) for Wield */
      , (24500, 2, 15431, 250, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */

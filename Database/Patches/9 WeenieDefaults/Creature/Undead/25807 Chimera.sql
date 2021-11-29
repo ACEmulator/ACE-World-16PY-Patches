@@ -132,6 +132,10 @@ VALUES (25807,  2162,    2.1)  /* Olthoi's Gift */
      , (25807,  2172,    2.1)  /* Astyrrian's Gift */
      , (25807,  2174,    2.1)  /* Archer's Gift */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25807,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25807, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25807, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
      , (25807, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */

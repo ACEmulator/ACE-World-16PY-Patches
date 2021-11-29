@@ -151,6 +151,10 @@ VALUES (22905,    63,  2.037)  /* Acid Stream VI */
      , (22905,  2228,  2.037)  /* Broadside of a Barn */
      , (22905,  2318,  2.037)  /* Gravity Well */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22905,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22905, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22905, 9,  7045,  0, 0, 0.05, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
      , (22905, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */

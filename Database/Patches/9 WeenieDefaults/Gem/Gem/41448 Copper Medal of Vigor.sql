@@ -4,8 +4,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (41448, 'ace41448-coppermedalofvigor', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (41448,   0,         36) /* Undef */
-     , (41448,   1,       2048) /* ItemType - Gem */
+VALUES (41448,   1,       2048) /* ItemType - Gem */
      , (41448,   5,         50) /* EncumbranceVal */
      , (41448,  11,          1) /* MaxStackSize */
      , (41448,  12,          1) /* StackSize */

@@ -172,3 +172,7 @@ VALUES (7819,    59,  2.026)  /* Acid Stream II */
      , (7819,   172,  2.015)  /* Fester Other II */
      , (7819,  1220,   2.06)  /* Mana Drain Other II */
      , (7819,  1340,  2.015)  /* Weakness Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7819,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7819, 414) /* PLAYER_DEATH_EVENT */;

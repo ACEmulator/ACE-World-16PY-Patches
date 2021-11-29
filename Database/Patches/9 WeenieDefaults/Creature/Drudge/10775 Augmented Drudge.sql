@@ -135,6 +135,10 @@ VALUES (10775,    84,   2.06)  /* Flame Bolt V */
      , (10775,  1395,  2.045)  /* Clumsiness Other V */
      , (10775,  1419,  2.045)  /* Slowness Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10775,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10775, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10775,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

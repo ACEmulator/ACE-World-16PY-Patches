@@ -117,6 +117,10 @@ VALUES (196,    70,   2.06)  /* Frost Bolt II */
      , (196,  1061,   2.02)  /* Cold Vulnerability Other II */
      , (196,  1250,   2.02)  /* Drain Stamina Other II */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (196,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (196, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (196,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

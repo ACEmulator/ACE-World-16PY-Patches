@@ -124,6 +124,10 @@ VALUES (27254,    58,   2.06)  /* Acid Stream I */
      , (27254,    65,   2.02)  /* Shock Wave II */
      , (27254,  1249,   2.06)  /* Drain Stamina Other I */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27254,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27254, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27254,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

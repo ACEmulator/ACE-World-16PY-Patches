@@ -116,6 +116,10 @@ VALUES (27989,  0,  4,  0,    0,  295,  251,  310,  295,  295,  177,  369,  266,
      , (27989,  8,  4, 105, 0.75,  350,  298,  367,  350,  350,  210,  438,  315,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (27989, 20,  1, 100, 0.75,  320,  272,  336,  320,  320,  192,  400,  288,    0, 2,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0) /* Claw */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27989,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27989, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27989,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

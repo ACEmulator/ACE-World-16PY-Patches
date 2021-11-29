@@ -117,6 +117,10 @@ VALUES (9053,    82,   2.28)  /* Flame Bolt III */
      , (9053,  1798,    2.1)  /* Flame Streak III */
      , (9053,  1799,    2.1)  /* Flame Streak IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (9053,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (9053, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (9053,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

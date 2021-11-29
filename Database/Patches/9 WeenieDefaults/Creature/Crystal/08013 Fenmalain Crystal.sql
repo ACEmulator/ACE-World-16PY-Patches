@@ -129,6 +129,10 @@ VALUES (8013,    76,   2.11)  /* Lightning Bolt II */
      , (8013,  1309,   2.04)  /* Armor Self III */
      , (8013,  1417,   2.04)  /* Slowness Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8013,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8013, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
      , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */

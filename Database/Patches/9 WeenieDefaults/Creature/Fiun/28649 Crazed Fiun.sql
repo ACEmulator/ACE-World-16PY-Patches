@@ -116,6 +116,10 @@ VALUES (28649,    82,   2.08)  /* Flame Bolt III */
      , (28649,  1153,   2.04)  /* Piercing Vulnerability Other III */
      , (28649,  1798,   2.07)  /* Flame Streak III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28649,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28649, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28649,  5 /* HeartBeat */,  0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

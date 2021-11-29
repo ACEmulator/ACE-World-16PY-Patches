@@ -112,6 +112,10 @@ VALUES (14874,  0,  2,  5,    0,   50,   45,   45,   45,   45,   55,   55,   60,
      , (14874, 20,  2, 20, 0.75,   50,   45,   45,   45,   45,   55,   55,   60,    0, 2,  0.5,  0.2,    0,  0.5,  0.2,    0,  0.5,  0.2,    0,  0.5,  0.2,    0) /* Claw */
      , (14874, 22, 64, 20,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14874,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14874, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14874,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

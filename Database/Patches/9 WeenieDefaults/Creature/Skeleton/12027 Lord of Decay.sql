@@ -139,6 +139,10 @@ VALUES (12027,  0,  4,  0,    0,   80,   22,   14,   40,   14,   64,    2,   14,
      , (12027,  7,  4,  0,    0,   55,   15,    9,   28,   10,   44,    1,   10,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (12027,  8,  4,  5, 0.75,   70,   19,   12,   35,   13,   56,    1,   13,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (12027,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (12027, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (12027,  3 /* Death */,   0.02, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

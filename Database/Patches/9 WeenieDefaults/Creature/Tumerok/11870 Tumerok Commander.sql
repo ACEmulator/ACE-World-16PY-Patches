@@ -142,6 +142,10 @@ VALUES (11870,    60,  2.013)  /* Acid Stream III */
      , (11870,  1173,  2.008)  /* Harm Other III */
      , (11870,  1197,  2.008)  /* Enfeeble Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11870,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11870, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11870, 1,  3695,  0, 0, 0.8, False) /* Create Gold Tumerok Insignia (3695) for Contain */
      , (11870, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */

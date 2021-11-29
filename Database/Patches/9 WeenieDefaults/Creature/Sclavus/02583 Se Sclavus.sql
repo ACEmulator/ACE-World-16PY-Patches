@@ -136,6 +136,10 @@ VALUES (2583,     2,   2.05)  /* Strength Self I */
      , (2583,  1373,   2.05)  /* Coordination Self I */
      , (2583,  1397,   2.05)  /* Quickness Self I */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (2583,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (2583, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2583, 9,  9260,  0, 0, 0.03, False) /* Create Small Sclavus Hide (9260) for ContainTreasure */
      , (2583, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

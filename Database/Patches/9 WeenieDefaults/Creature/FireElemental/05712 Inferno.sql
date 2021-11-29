@@ -130,6 +130,10 @@ VALUES (5712,    84,  2.004)  /* Flame Bolt V */
      , (5712,  1241,  2.008)  /* Drain Health Other V */
      , (5712,  1311,  2.008)  /* Armor Self V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5712,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5712, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5712, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */
      , (5712, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

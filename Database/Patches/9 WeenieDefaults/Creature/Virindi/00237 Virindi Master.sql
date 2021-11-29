@@ -136,6 +136,10 @@ VALUES (237,    60,  2.011)  /* Acid Stream III */
      , (237,  1666,  2.032)  /* Stamina to Health Self III */
      , (237,  1678,  2.032)  /* Stamina to Mana Self III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (237,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (237, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (237,  3 /* Death */,   0.03, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

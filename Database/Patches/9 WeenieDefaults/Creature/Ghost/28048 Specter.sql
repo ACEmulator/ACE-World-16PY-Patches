@@ -125,6 +125,10 @@ VALUES (28048,    95,   2.05)  /* Whirling Blade IV */
      , (28048,  1840,   2.05)  /* Bed of Blades */
      , (28048,  2756,   2.05)  /* Blade Arc IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28048,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28048, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28048,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

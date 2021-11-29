@@ -118,6 +118,10 @@ VALUES (195,    66,   2.06)  /* Shock Wave III */
      , (195,  1393,  2.005)  /* Clumsiness Other III */
      , (195,  1417,  2.005)  /* Slowness Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (195,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (195, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (195,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

@@ -165,6 +165,10 @@ VALUES (8817,    74,  2.032)  /* Frost Bolt VI */
      , (8817,  1420,  2.023)  /* Slowness Other VI */
      , (8817,  1468,  2.023)  /* Feeblemind Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8817,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8817, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8817, 9,  6059,  0, 0, 0.05, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (8817, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */

@@ -152,6 +152,10 @@ VALUES (23089,    74,  2.036)  /* Frost Bolt VI */
      , (23089,  1254,  2.009)  /* Drain Stamina Other VI */
      , (23089,  1265,  2.009)  /* Drain Mana Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23089,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23089, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23089, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23089, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */

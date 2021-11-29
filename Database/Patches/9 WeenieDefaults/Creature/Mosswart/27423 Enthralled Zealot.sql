@@ -128,6 +128,10 @@ VALUES (27423,    80,    2.1)  /* Lightning Bolt VI */
      , (27423,  1312,   2.01)  /* Armor Self VI */
      , (27423,  1327,   2.01)  /* Imperil Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27423,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27423, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27423,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

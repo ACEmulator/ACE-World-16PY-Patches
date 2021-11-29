@@ -123,6 +123,10 @@ VALUES (21164,    82,  2.138)  /* Flame Bolt III */
      , (21164,  1324,  2.017)  /* Imperil Other III */
      , (21164,  1798,  2.004)  /* Flame Streak III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21164,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (21164, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (21164,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

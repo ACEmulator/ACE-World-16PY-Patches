@@ -152,6 +152,10 @@ VALUES (7123,    61,  2.005)  /* Acid Stream IV */
      , (7123,  1442,  2.015)  /* Bafflement Other IV */
      , (7123,  1466,  2.015)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7123,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7123, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7123, 9,  5873,  0, 0, 0.01, False) /* Create Seal (5873) for ContainTreasure */
      , (7123, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */

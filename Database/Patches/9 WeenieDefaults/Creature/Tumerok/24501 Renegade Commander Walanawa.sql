@@ -143,6 +143,10 @@ VALUES (24501,   234,  2.012)  /* Vulnerability Other VI */
      , (24501,  2144,  2.015)  /* Crushing Shame */
      , (24501,  2146,  2.015)  /* Evisceration */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24501,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24501, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24501, 2, 24569,  0, 0, 0, False) /* Create Renegade Crossbow (24569) for Wield */
      , (24501, 2, 15440, 250, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */

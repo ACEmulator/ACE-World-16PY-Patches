@@ -121,6 +121,10 @@ VALUES (14563,    63,  2.115)  /* Acid Stream VI */
      , (14563,  1088,  2.044)  /* Lightning Vulnerability Other V */
      , (14563,  1175,  2.044)  /* Harm Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14563,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14563, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14563, -1, 14556, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dim Virindi Energy Cluster (14556) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (14563, -1, 14556, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dim Virindi Energy Cluster (14556) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

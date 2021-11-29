@@ -125,6 +125,10 @@ VALUES (20632,  1051,      2)  /* Bludgeoning Vulnerability Other IV */
      , (20632,  1240,      2)  /* Drain Health Other IV */
      , (20632,  1325,      2)  /* Imperil Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (20632,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (20632, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (20632,  3 /* Death */,   0.03, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

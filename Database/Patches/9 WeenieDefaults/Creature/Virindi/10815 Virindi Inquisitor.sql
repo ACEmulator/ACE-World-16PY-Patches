@@ -129,6 +129,10 @@ VALUES (10815,   279,      2)  /* Magic Resistance Self VI */
      , (10815,  1801,  2.055)  /* Flame Streak VI */
      , (10815,  1831,  2.055)  /* Whirling Blade Streak VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10815,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10815, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10815,  3 /* Death */,   0.03, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

@@ -111,3 +111,7 @@ VALUES (7818,   174,   2.17)  /* Fester Other IV */
      , (7818,  1198,   2.17)  /* Enfeeble Other IV */
      , (7818,  1222,   2.17)  /* Mana Drain Other IV */
      , (7818,  1263,   2.67)  /* Drain Mana Other IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7818,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7818, 414) /* PLAYER_DEATH_EVENT */;

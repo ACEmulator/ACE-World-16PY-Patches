@@ -456,6 +456,10 @@ VALUES (11500,    27,  2.011)  /* Flame Bolt I */
      , (11500,    86,  2.011)  /* Force Bolt I */
      , (11500,    92,  2.011)  /* Whirling Blade I */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11500,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11500, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11500, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */
      , (11500, 9, 25557,  0, 0, 0.05, False) /* Create Eye Patch (25557) for ContainTreasure */

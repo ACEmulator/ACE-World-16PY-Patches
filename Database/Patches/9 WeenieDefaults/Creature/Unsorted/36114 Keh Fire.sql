@@ -31,10 +31,6 @@ VALUES (36114,   1, 0x020006FA) /* Setup */
      , (36114,   3, 0x20000015) /* SoundTable */
      , (36114,   8, 0x060030CC) /* Icon */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36114, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36114,  6 /* Give */,      1, 36067 /* Atuakeh Dust */, NULL, NULL, NULL, NULL, NULL, NULL);
 

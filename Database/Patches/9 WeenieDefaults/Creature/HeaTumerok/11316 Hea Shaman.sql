@@ -161,6 +161,10 @@ VALUES (11316,    59,   2.05)  /* Acid Stream II */
      , (11316,  1197,   2.05)  /* Enfeeble Other III */
      , (11316,  1221,   2.05)  /* Mana Drain Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11316,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11316, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
      , (11316, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */

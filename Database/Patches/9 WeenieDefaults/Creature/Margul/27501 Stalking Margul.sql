@@ -122,6 +122,10 @@ VALUES (27501,    72,   2.04)  /* Frost Bolt IV */
      , (27501,  2168,   2.02)  /* Gelidite's Gift */
      , (27501,  2728,   2.04)  /* Frost Arc IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27501,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27501, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27501,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

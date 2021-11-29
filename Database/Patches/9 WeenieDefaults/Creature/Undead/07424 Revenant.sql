@@ -148,6 +148,10 @@ VALUES (7424,    60,  2.028)  /* Acid Stream III */
      , (7424,  1441,  2.013)  /* Bafflement Other III */
      , (7424,  1465,  2.013)  /* Feeblemind Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7424,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7424, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7424, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (7424, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

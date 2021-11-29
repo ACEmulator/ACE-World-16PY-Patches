@@ -157,6 +157,10 @@ VALUES (9146,    62,   2.04)  /* Acid Stream V */
      , (9146,  1199,  2.023)  /* Enfeeble Other V */
      , (9146,  1223,  2.023)  /* Mana Drain Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (9146,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (9146, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9146, 2,  9137,  0, 0, 1, False) /* Create Vanguard Leader's Crossbow (9137) for Wield */
      , (9146, 2,   305,  1, 0, 1, False) /* Create Quarrel (305) for Wield */

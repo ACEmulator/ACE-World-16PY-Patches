@@ -123,3 +123,7 @@ VALUES (8405,    82,   2.11)  /* Flame Bolt III */
      , (8405,  1159,   2.01)  /* Heal Self IV */
      , (8405,  1239,  2.006)  /* Drain Health Other III */
      , (8405,  1309,  2.006)  /* Armor Self III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8405,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8405, 414) /* PLAYER_DEATH_EVENT */;

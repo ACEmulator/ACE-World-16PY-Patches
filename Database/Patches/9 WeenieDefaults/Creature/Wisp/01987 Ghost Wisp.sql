@@ -119,6 +119,10 @@ VALUES (1987,    70,    2.3)  /* Frost Bolt II */
      , (1987,  1250,   2.67)  /* Drain Stamina Other II */
      , (1987,  1261,   2.67)  /* Drain Mana Other II */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1987,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1987, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1987, 9,  8668,  0, 0, 0.03, False) /* Create Sickly Wisp Heart (8668) for ContainTreasure */
      , (1987, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -129,6 +129,10 @@ VALUES (30754,  1160,  2.008)  /* Heal Self V */
      , (30754,  1377,    2.1)  /* Coordination Self V */
      , (30754,  1401,   2.01)  /* Quickness Self V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30754,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30754, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30754,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

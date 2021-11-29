@@ -123,6 +123,10 @@ VALUES (8562,    89,  2.105)  /* Force Bolt IV */
      , (8562,  1394,  2.023)  /* Clumsiness Other IV */
      , (8562,  1418,  2.023)  /* Slowness Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8562,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8562, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8562,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

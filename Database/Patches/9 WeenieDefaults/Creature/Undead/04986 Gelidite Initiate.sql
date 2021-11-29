@@ -137,3 +137,7 @@ VALUES (4986,    72,  2.147)  /* Frost Bolt IV */
      , (4986,  1092,  2.004)  /* Fire Protection Self IV */
      , (4986,  1221,   2.05)  /* Mana Drain Other III */
      , (4986,  1239,   2.02)  /* Drain Health Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (4986,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (4986, 414) /* PLAYER_DEATH_EVENT */;

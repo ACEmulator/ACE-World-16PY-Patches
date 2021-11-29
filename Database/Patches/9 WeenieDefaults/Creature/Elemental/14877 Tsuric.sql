@@ -128,6 +128,10 @@ VALUES (14877,    63,  2.004)  /* Acid Stream VI */
      , (14877,  1783,  2.004)  /* Searing Disc */
      , (14877,  1788,  2.004)  /* Eye of the Storm */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14877,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14877, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14877, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (14877, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

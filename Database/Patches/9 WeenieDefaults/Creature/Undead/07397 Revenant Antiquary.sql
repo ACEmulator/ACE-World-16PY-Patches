@@ -157,6 +157,10 @@ VALUES (7397,    62,  2.028)  /* Acid Stream V */
      , (7397,  1443,  2.013)  /* Bafflement Other V */
      , (7397,  1467,  2.013)  /* Feeblemind Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7397,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7397, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7397, 8,  7398,  0, 0, 1, False) /* Create Laboratory Key (7398) for Treasure */
      , (7397, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */

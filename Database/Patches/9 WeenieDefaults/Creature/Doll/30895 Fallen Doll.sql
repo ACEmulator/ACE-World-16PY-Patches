@@ -121,6 +121,10 @@ VALUES (30895,    91,   2.02)  /* Force Bolt VI */
      , (30895,  1619,   2.01)  /* Blood Loather IV */
      , (30895,  2723,   2.02)  /* Force Arc VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30895,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30895, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30895,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

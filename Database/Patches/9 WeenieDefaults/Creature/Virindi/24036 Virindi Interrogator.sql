@@ -132,6 +132,10 @@ VALUES (24036,    67,  2.105)  /* Shock Wave IV */
      , (24036,  1442,   2.04)  /* Bafflement Other IV */
      , (24036,  1466,   2.04)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24036,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24036, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24036,  3 /* Death */,   0.03, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

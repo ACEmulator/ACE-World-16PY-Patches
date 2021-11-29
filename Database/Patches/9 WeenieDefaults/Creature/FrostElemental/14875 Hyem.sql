@@ -124,6 +124,10 @@ VALUES (14875,    73,  2.004)  /* Frost Bolt V */
      , (14875,  1419,  2.008)  /* Slowness Other V */
      , (14875,  1812,  2.004)  /* Frost Streak V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14875,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14875, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14875, 9,  6876,  0, 0, 0.001, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (14875, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */

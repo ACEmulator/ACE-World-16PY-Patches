@@ -115,6 +115,10 @@ VALUES (21552,    79,   2.15)  /* Lightning Bolt V */
      , (21552,  1264,   2.67)  /* Drain Mana Other V */
      , (21552,  1395,   2.17)  /* Clumsiness Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21552,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (21552, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21552, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (21552, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

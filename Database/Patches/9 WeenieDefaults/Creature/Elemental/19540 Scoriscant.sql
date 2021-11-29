@@ -128,6 +128,10 @@ VALUES (19540,    63,  2.004)  /* Acid Stream VI */
      , (19540,  1783,  2.004)  /* Searing Disc */
      , (19540,  1785,  2.004)  /* Cassius' Ring of Fire */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19540,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19540, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19540, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (19540, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

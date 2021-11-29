@@ -149,6 +149,10 @@ VALUES (30885,    61,  2.015)  /* Acid Stream IV */
      , (30885,  1330,  2.011)  /* Strength Self IV */
      , (30885,  1400,  2.011)  /* Quickness Self IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30885,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30885, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30885, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */
      , (30885, 9, 30863,  0, 0, 1, False) /* Create Banished Spear (30863) for ContainTreasure */;

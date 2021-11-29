@@ -98,6 +98,10 @@ VALUES (11489,  0,  2, 50, 0.75,  200,  200,  240,  160,  200,  200,  200,  200,
      , (11489, 16,  4,  0,    0,  200,  200,  240,  160,  200,  200,  200,  200,    0, 2,  0.5, 0.48,  0.1,  0.5,  0.6,  0.1,  0.5, 0.48,  0.1,  0.5,  0.6, 0.22) /* Torso */
      , (11489, 17,  4,  0,    0,  200,  200,  240,  160,  200,  200,  200,  200,    0, 2,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0, 0.28) /* Tail */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11489,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11489, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (11489,  5 /* HeartBeat */,    0.1, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

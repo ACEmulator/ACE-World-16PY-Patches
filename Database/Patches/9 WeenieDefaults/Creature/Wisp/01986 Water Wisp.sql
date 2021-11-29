@@ -118,3 +118,7 @@ VALUES (1986,    70,    2.3)  /* Frost Bolt II */
      , (1986,  1238,   2.67)  /* Drain Health Other II */
      , (1986,  1250,   2.67)  /* Drain Stamina Other II */
      , (1986,  1261,   2.67)  /* Drain Mana Other II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1986,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1986, 414) /* PLAYER_DEATH_EVENT */;

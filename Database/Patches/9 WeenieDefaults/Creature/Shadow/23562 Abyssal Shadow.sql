@@ -152,6 +152,10 @@ VALUES (23562,    73,  2.032)  /* Frost Bolt V */
      , (23562,  1419,  2.023)  /* Slowness Other V */
      , (23562,  1467,  2.023)  /* Feeblemind Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23562,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23562, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23562, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23562, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */

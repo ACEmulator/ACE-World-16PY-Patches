@@ -123,6 +123,10 @@ VALUES (7093,    85,   2.04)  /* Flame Bolt VI */
      , (7093,  1343,   2.03)  /* Weakness Other VI */
      , (7093,  1468,   2.03)  /* Feeblemind Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7093,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7093, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7093, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
      , (7093, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

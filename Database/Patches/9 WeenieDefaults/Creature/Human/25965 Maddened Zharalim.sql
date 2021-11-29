@@ -134,6 +134,10 @@ VALUES (25965,  1161,   2.05)  /* Heal Self VI */
      , (25965,  1666,   2.05)  /* Stamina to Health Self III */
      , (25965,  1678,   2.05)  /* Stamina to Mana Self III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25965,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25965, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25965,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

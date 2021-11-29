@@ -130,6 +130,10 @@ VALUES (20190,    74,  2.138)  /* Frost Bolt VI */
      , (20190,  1420,  2.017)  /* Slowness Other VI */
      , (20190,  1813,  2.004)  /* Frost Streak VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (20190,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (20190, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (20190,  3 /* Death */,   0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

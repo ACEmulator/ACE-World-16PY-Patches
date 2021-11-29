@@ -137,6 +137,10 @@ VALUES (24314,  1241,   2.08)  /* Drain Health Other V */
      , (24314,  1395,  2.067)  /* Clumsiness Other V */
      , (24314,  1443,  2.067)  /* Bafflement Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24314,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24314, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24314, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
      , (24314, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */

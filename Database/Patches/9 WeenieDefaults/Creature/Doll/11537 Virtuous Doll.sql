@@ -115,6 +115,10 @@ VALUES (11537,    27,  2.005)  /* Flame Bolt I */
      , (11537,    76, 2.0025)  /* Lightning Bolt II */
      , (11537,    81, 2.0025)  /* Flame Bolt II */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11537,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11537, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (11537,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

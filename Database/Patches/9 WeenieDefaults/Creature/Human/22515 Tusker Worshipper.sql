@@ -125,6 +125,10 @@ VALUES (22515,  0,  4,  0,    0,  260,  234,  260,  286,  104,  104,  260,  156,
      , (22515,  7,  4,  0,    0,  260,  234,  260,  286,  104,  104,  260,  156,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (22515,  8,  4,  2, 0.75,  260,  234,  260,  286,  104,  104,  260,  156,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22515,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22515, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22515, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (22515, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

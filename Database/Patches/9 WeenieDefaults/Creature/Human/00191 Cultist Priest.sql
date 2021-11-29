@@ -439,6 +439,10 @@ VALUES (191,    62,   2.09)  /* Acid Stream V */
      , (191,  1311,      2)  /* Armor Self V */
      , (191,  1326,    2.1)  /* Imperil Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (191,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (191, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (191, 2, 12193,  0, 39, 0, False) /* Create Dho Vest and Robe (12193) for Wield */
      , (191, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

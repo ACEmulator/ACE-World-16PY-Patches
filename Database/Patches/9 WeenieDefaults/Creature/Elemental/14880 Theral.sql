@@ -128,6 +128,10 @@ VALUES (14880,    74,  2.004)  /* Frost Bolt VI */
      , (14880,  1785,  2.004)  /* Cassius' Ring of Fire */
      , (14880,  1787,  2.004)  /* Halo of Frost */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14880,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14880, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14880, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (14880, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

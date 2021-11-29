@@ -157,6 +157,10 @@ VALUES (4127,    60,  2.013)  /* Acid Stream III */
      , (4127,  1441,  2.009)  /* Bafflement Other III */
      , (4127,  1465,  2.009)  /* Feeblemind Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (4127,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (4127, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (4127,  5 /* HeartBeat */,   0.07, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

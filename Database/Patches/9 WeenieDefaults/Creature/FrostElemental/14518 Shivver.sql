@@ -122,3 +122,7 @@ VALUES (14518,    71,  2.138)  /* Frost Bolt III */
      , (14518,  1239,  2.008)  /* Drain Health Other III */
      , (14518,  1324,  2.017)  /* Imperil Other III */
      , (14518,  1810,  2.004)  /* Frost Streak III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14518,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14518, 414) /* PLAYER_DEATH_EVENT */;

@@ -145,6 +145,10 @@ VALUES (12020,    63,  2.093)  /* Acid Stream VI */
      , (12020,  1200,   2.01)  /* Enfeeble Other VI */
      , (12020,  1265,   2.01)  /* Drain Mana Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (12020,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (12020, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12020, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (12020, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */

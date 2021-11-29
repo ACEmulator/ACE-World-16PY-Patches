@@ -123,6 +123,10 @@ VALUES (25882,  2122,  2.115)  /* Disintegration */
      , (25882,  2161,  2.115)  /* Blessing of the Arrow Turner */
      , (25882,  2717,  2.115)  /* Acid Arc VII */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25882,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25882, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25882, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (25882, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

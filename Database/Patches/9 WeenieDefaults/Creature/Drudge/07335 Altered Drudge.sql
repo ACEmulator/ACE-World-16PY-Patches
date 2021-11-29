@@ -130,6 +130,10 @@ VALUES (7335,    78,  2.075)  /* Lightning Bolt IV */
      , (7335,  1443,   2.03)  /* Bafflement Other V */
      , (7335,  1467,   2.03)  /* Feeblemind Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7335,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7335, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7335,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

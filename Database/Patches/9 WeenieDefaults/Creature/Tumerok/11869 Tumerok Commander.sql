@@ -141,6 +141,10 @@ VALUES (11869,    60,  2.013)  /* Acid Stream III */
      , (11869,  1173,  2.008)  /* Harm Other III */
      , (11869,  1197,  2.008)  /* Enfeeble Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11869,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11869, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11869, 9, 11821,  0, 0, 0.05, False) /* Create Falcon Spear-Head (11821) for ContainTreasure */
      , (11869, 9, 11822,  0, 0, 0.05, False) /* Create Falcon Symbol (11822) for ContainTreasure */

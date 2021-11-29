@@ -122,6 +122,10 @@ VALUES (8542,    80,  2.083)  /* Lightning Bolt VI */
      , (8542,  1312,  2.083)  /* Armor Self VI */
      , (8542,  1420,  2.083)  /* Slowness Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8542,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8542, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8542,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

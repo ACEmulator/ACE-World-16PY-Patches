@@ -123,6 +123,10 @@ VALUES (7607,    83,   2.08)  /* Flame Bolt IV */
      , (7607,  1418,   2.03)  /* Slowness Other IV */
      , (7607,  1442,   2.03)  /* Bafflement Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7607,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7607, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7607, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */
      , (7607, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

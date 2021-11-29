@@ -123,6 +123,10 @@ VALUES (24133,   170,  2.083)  /* Regeneration Self VI */
      , (24133,  2129,    2.1)  /* Sizzling Fury */
      , (24133,  2745,    2.1)  /* Flame Arc VII */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24133,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24133, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24133, 9, 23853,  0, 0, 0.00625, False) /* Create Seared Shard (23853) for ContainTreasure */
      , (24133, 9, 23854,  0, 0, 0.00625, False) /* Create Chilled Shard (23854) for ContainTreasure */

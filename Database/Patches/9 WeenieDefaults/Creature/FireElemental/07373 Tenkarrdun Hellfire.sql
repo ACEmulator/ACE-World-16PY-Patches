@@ -122,6 +122,10 @@ VALUES (7373,    84,    2.1)  /* Flame Bolt V */
      , (7373,  1342,   2.05)  /* Weakness Other V */
      , (7373,  1467,   2.05)  /* Feeblemind Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7373,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7373, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7373,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

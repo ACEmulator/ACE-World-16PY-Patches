@@ -122,6 +122,10 @@ VALUES (7092,    84,  2.083)  /* Flame Bolt V */
      , (7092,  1371,   2.03)  /* Frailty Other V */
      , (7092,  1395,   2.03)  /* Clumsiness Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7092,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7092, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7092, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
      , (7092, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

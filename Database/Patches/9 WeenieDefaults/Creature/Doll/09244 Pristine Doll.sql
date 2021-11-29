@@ -122,6 +122,10 @@ VALUES (9244,    71,  2.013)  /* Frost Bolt III */
      , (9244,  1369,   2.01)  /* Frailty Other III */
      , (9244,  1417,   2.01)  /* Slowness Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (9244,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (9244, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (9244,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

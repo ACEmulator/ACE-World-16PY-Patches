@@ -132,6 +132,10 @@ VALUES (8968,    61,   2.05)  /* Acid Stream IV */
      , (8968,  1341,   2.05)  /* Weakness Other IV */
      , (8968,  1466,   2.03)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8968,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8968, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8968, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
      , (8968, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */

@@ -120,6 +120,10 @@ VALUES (9100,   198,   2.17)  /* Exhaustion Other V */
      , (9100,  1242,   2.67)  /* Drain Health Other VI */
      , (9100,  1394,   2.17)  /* Clumsiness Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (9100,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (9100, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (9100,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

@@ -121,6 +121,10 @@ VALUES (19312,  0,  4,  0,    0,  140,  168,  168,  182,  168,  168,  112,  140,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19312,  1159,      2)  /* Heal Self IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19312,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19312, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19312, 9, 19213,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19213) for ContainTreasure */
      , (19312, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

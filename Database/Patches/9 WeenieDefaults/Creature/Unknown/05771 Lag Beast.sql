@@ -116,3 +116,7 @@ VALUES (5771,   196,   2.08)  /* Exhaustion Other III */
      , (5771,  1420,   2.08)  /* Slowness Other VI */
      , (5771,  1443,   2.08)  /* Bafflement Other V */
      , (5771,  1679,   2.08)  /* Stamina to Mana Self IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5771,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5771, 414) /* PLAYER_DEATH_EVENT */;

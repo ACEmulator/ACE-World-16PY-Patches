@@ -124,6 +124,10 @@ VALUES (30892,  2122,  2.115)  /* Disintegration */
      , (30892,  2161,  2.115)  /* Blessing of the Arrow Turner */
      , (30892,  2717,  2.115)  /* Acid Arc VII */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30892,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30892, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30892, 9, 30857,  0, 0, 1, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
      , (30892, 9, 30868,  0, 0, 1, False) /* Create Crossbow of the Fallen (30868) for ContainTreasure */;

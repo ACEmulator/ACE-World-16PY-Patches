@@ -111,6 +111,9 @@ VALUES (28253,    62,    2.2)  /* Acid Stream V */
      , (28253,  1794,    2.1)  /* Acid Streak V */
      , (28253,  2715,    2.1)  /* Acid Arc V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28253, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28253, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (28253, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

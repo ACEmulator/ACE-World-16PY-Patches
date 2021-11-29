@@ -137,6 +137,10 @@ VALUES (22897,    74,  2.071)  /* Frost Bolt VI */
      , (22897,  2168,  2.071)  /* Gelidite's Gift */
      , (22897,  2170,  2.071)  /* Inferno's Gift */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22897,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22897, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22897,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

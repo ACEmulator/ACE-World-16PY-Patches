@@ -128,6 +128,10 @@ VALUES (19537,    74,  2.004)  /* Frost Bolt VI */
      , (19537,  1787,  2.004)  /* Halo of Frost */
      , (19537,  1788,  2.004)  /* Eye of the Storm */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19537,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19537, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19537, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (19537, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

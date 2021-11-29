@@ -121,3 +121,7 @@ VALUES (2610,    65,  2.034)  /* Shock Wave II */
      , (2610,  1261,   2.01)  /* Drain Mana Other II */
      , (2610,  1368,  2.005)  /* Frailty Other II */
      , (2610,  1416,  2.005)  /* Slowness Other II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (2610,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (2610, 414) /* PLAYER_DEATH_EVENT */;

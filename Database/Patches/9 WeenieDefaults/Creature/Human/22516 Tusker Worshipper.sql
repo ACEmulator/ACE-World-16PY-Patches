@@ -143,6 +143,10 @@ VALUES (22516,    62,   2.09)  /* Acid Stream V */
      , (22516,  1312,      2)  /* Armor Self VI */
      , (22516,  1327,    2.1)  /* Imperil Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22516,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22516, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22516, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (22516, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

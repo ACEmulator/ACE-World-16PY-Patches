@@ -33,10 +33,6 @@ VALUES (52015,   1, 0x02000AB7) /* Setup */
      , (52015,   6, 0x04001140) /* PaletteBase */
      , (52015,   8, 0x0600210C) /* Icon */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52015, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52015,   1,   196, 0, 0, 296) /* MaxHealth */
      , (52015,   3,   196, 0, 0, 396) /* MaxStamina */

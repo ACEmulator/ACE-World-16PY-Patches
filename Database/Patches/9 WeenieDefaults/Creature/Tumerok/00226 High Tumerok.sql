@@ -150,6 +150,10 @@ VALUES (226,    60,  2.014)  /* Acid Stream III */
      , (226,  1329,  2.004)  /* Strength Self III */
      , (226,  1399,  2.004)  /* Quickness Self III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (226,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (226, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (226, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
      , (226, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */

@@ -142,6 +142,10 @@ VALUES (11874,    60,  2.013)  /* Acid Stream III */
      , (11874,  1173,  2.008)  /* Harm Other III */
      , (11874,  1197,  2.008)  /* Enfeeble Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11874,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11874, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11874, 9, 11865,  0, 0, 0.05, False) /* Create Shreth Spear-Head (11865) for ContainTreasure */
      , (11874, 9, 11866,  0, 0, 0.05, False) /* Create Shreth Symbol (11866) for ContainTreasure */

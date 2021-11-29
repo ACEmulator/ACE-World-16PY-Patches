@@ -159,6 +159,10 @@ VALUES (28054,  2053,      2)  /* Executor's Blessing */
      , (28054,  3110,   2.05)  /* Sear Flesh */
      , (28054,  3180,      2)  /* Eradicate All Magic Self */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28054,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28054, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28054,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

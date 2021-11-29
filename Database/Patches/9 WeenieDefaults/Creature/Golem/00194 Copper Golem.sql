@@ -120,6 +120,10 @@ VALUES (194,    66,   2.05)  /* Shock Wave III */
      , (194,   139,   2.02)  /* Lightning Volley III */
      , (194,  1292,   2.02)  /* Mana to Health Self III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (194,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (194, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (194,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

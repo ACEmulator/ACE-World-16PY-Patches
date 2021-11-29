@@ -158,6 +158,10 @@ VALUES (1463,    61,  2.028)  /* Acid Stream IV */
      , (1463,  1442,  2.013)  /* Bafflement Other IV */
      , (1463,  1466,  2.013)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1463,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1463, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1463, 8,  1436,  0, 0, 1, False) /* Create Hammer of Lightning (1436) for Treasure */
      , (1463, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */

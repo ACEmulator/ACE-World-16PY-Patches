@@ -153,6 +153,10 @@ VALUES (2481,    61,  2.033)  /* Acid Stream IV */
      , (2481,  1198,  2.053)  /* Enfeeble Other IV */
      , (2481,  1222,  2.053)  /* Mana Drain Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (2481,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (2481, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2481, 1,  2201,  0, 0, 1, False) /* Create Tumerok Priest's Key (2201) for Contain */
      , (2481, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */

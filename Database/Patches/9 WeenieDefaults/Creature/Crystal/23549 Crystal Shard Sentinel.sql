@@ -119,6 +119,10 @@ VALUES (23549,  2121,  2.125)  /* Corrosive Flash */
      , (23549,  2737,  2.125)  /* Lightning Arc VI */
      , (23549,  2745,  2.125)  /* Flame Arc VII */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23549,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23549, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23549, 9,  6056,  0, 0, 0.005, False) /* Create Small Shard (6056) for ContainTreasure */
      , (23549, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

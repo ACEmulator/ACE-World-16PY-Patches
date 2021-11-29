@@ -142,3 +142,7 @@ VALUES (4984,    73,    2.1)  /* Frost Bolt V */
      , (4984,  1418,  2.009)  /* Slowness Other IV */
      , (4984,  1442,  2.009)  /* Bafflement Other IV */
      , (4984,  1466,  2.009)  /* Feeblemind Other IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (4984,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (4984, 414) /* PLAYER_DEATH_EVENT */;

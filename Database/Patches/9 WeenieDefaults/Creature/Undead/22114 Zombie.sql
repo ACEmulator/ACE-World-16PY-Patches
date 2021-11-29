@@ -176,6 +176,10 @@ VALUES (22114,    61,  2.013)  /* Acid Stream IV */
      , (22114,  1442,  2.009)  /* Bafflement Other IV */
      , (22114,  1466,  2.009)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22114,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22114, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22114, 9, 22216,  0, 0, 1, False) /* Create Staff of Nullification (22216) for ContainTreasure */
      , (22114, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

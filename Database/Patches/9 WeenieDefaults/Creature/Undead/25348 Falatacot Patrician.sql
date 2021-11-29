@@ -137,6 +137,10 @@ VALUES (25348,    63,   2.01)  /* Acid Stream VI */
      , (25348,  1156,  2.011)  /* Piercing Vulnerability Other VI */
      , (25348,  1327,  2.011)  /* Imperil Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25348,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25348, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25348,  3 /* Death */,   0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

@@ -35,10 +35,6 @@ VALUES (36092,   1, 0x02000041) /* Setup */
      , (36092,   6, 0x040009B2) /* PaletteBase */
      , (36092,   8, 0x06001227) /* Icon */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36092, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36092,   1, 140, 0, 0) /* Strength */
      , (36092,   2, 150, 0, 0) /* Endurance */

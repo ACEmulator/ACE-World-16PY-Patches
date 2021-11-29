@@ -118,6 +118,10 @@ VALUES (9099,    84,    2.3)  /* Flame Bolt V */
      , (9099,  1785,  2.067)  /* Cassius' Ring of Fire */
      , (9099,  1801,    2.3)  /* Flame Streak VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (9099,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (9099, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (9099,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

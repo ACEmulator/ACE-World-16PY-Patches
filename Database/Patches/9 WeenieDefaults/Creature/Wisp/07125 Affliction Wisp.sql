@@ -119,6 +119,10 @@ VALUES (7125,    80,   2.15)  /* Lightning Bolt VI */
      , (7125,  1265,   2.67)  /* Drain Mana Other VI */
      , (7125,  2762,   2.17)  /* Martyr's Hecatomb III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7125,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7125, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7125, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (7125, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

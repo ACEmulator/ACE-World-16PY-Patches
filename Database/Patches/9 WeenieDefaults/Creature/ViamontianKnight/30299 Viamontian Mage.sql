@@ -121,6 +121,10 @@ VALUES (30299,   113,   2.02)  /* Lightning Blast V */
      , (30299,  1087,   2.02)  /* Lightning Vulnerability Other IV */
      , (30299,  1154,   2.02)  /* Piercing Vulnerability Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30299,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30299, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30299,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

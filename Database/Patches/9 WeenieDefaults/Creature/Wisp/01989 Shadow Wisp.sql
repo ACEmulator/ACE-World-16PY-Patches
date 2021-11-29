@@ -119,6 +119,10 @@ VALUES (1989,    71,    2.3)  /* Frost Bolt III */
      , (1989,  1251,   2.67)  /* Drain Stamina Other III */
      , (1989,  1262,   2.67)  /* Drain Mana Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1989,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1989, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1989, 9,  8666,  0, 0, 0.03, False) /* Create Pulsating Wisp Heart (8666) for ContainTreasure */
      , (1989, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

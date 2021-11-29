@@ -119,6 +119,10 @@ VALUES (25755,    67,   2.05)  /* Shock Wave IV */
      , (25755,  1241,   2.01)  /* Drain Health Other V */
      , (25755,  1834,   2.07)  /* Firestorm */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25755,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25755, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25755,  3 /* Death */,    0.8, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

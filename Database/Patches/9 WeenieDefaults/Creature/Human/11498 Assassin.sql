@@ -415,6 +415,10 @@ VALUES (11498,  0,  4,  0,    0,  205,  185,  205,  226,   82,   82,  205,  123,
      , (11498,  7,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11498,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11498,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11498, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11498, 9, 28861,  0, 0, 0.05, False) /* Create Pirate Hook (28861) for ContainTreasure */
      , (11498, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

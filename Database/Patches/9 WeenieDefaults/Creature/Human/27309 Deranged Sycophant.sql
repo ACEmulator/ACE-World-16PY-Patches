@@ -141,6 +141,10 @@ VALUES (27309,  2073,   2.08)  /* Adja's Intervention */
      , (27309,  2759,   2.06)  /* Blade Arc VII */
      , (27309,  3185,   2.08)  /* Eradicate Creature Magic Self */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27309,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27309, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27309, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (27309, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

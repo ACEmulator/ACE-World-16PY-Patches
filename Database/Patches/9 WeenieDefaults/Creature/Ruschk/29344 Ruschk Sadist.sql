@@ -124,6 +124,10 @@ VALUES (29344,   175,   2.04)  /* Fester Other V */
      , (29344,  1064,   2.05)  /* Cold Vulnerability Other V */
      , (29344,  1980,   2.03)  /* Purge Life Magic Other */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29344,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29344, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29344,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

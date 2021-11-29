@@ -113,6 +113,10 @@ VALUES (11879,  0,  4,  0,    0,   20,   20,   20,   20,   20,   20,   20,   20,
      , (11879,  7,  4,  0,    0,   40,   40,   40,   40,   40,   40,   40,   40,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11879,  8,  4,  5, 0.75,   20,   20,   20,   20,   20,   20,   20,   20,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11879,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11879, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11879, 9, 11789,  0, 0, 0.05, False) /* Create Serpent Banner (11789) for ContainTreasure */
      , (11879, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

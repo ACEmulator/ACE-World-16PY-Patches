@@ -153,6 +153,10 @@ VALUES (4104,    62,  2.014)  /* Acid Stream V */
      , (4104,  1330,  2.004)  /* Strength Self IV */
      , (4104,  1400,  2.004)  /* Quickness Self IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (4104,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (4104, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4104, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
      , (4104, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */

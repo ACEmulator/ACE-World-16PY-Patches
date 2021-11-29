@@ -133,6 +133,10 @@ VALUES (11987,    83,  2.115)  /* Flame Bolt IV */
      , (11987,  1309,   2.04)  /* Armor Self III */
      , (11987,  1419,  2.042)  /* Slowness Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11987,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11987, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11987, 9,  6056,  0, 0, 0.5, False) /* Create Small Shard (6056) for ContainTreasure */
      , (11987, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */

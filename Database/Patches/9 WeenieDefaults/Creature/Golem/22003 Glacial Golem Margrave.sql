@@ -128,6 +128,10 @@ VALUES (22003,   108,   2.02)  /* Frost Blast IV */
      , (22003,  1310,   2.02)  /* Armor Self IV */
      , (22003,  1325,   2.02)  /* Imperil Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22003,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22003, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22003,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

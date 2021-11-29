@@ -123,6 +123,10 @@ VALUES (29351,    73,   2.03)  /* Frost Bolt V */
      , (29351,  1311,   2.01)  /* Armor Self V */
      , (29351,  1326,   2.12)  /* Imperil Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29351,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29351, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29351,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

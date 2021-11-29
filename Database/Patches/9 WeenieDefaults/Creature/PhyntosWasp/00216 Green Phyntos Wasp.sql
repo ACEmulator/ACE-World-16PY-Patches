@@ -108,6 +108,9 @@ VALUES (216,  0,  2,  4,  0.5,   15,   12,   12,    8,    7,    7,    7,    7,  
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (216,    58,  2.038)  /* Acid Stream I */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (216, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (216, 9,  3701,  0, 0, 0.15, False) /* Create Green Phyntos Wasp Wing (3701) for ContainTreasure */
      , (216, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

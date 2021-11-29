@@ -139,6 +139,10 @@ VALUES (24317,    80,  2.067)  /* Lightning Bolt VI */
      , (24317,  1396,  2.067)  /* Clumsiness Other VI */
      , (24317,  1444,  2.067)  /* Bafflement Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24317,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24317, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24317, 9,  9310,  0, 0, 0.06, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
      , (24317, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */

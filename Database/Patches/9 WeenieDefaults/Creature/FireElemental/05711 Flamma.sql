@@ -128,6 +128,10 @@ VALUES (5711,    82,   2.11)  /* Flame Bolt III */
      , (5711,  1239,  2.006)  /* Drain Health Other III */
      , (5711,  1309,  2.006)  /* Armor Self III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5711,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5711, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (5711,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

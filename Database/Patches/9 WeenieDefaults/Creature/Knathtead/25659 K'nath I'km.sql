@@ -110,6 +110,10 @@ VALUES (25659,  1241,   2.01)  /* Drain Health Other V */
      , (25659,  2134,   2.25)  /* Fusillade */
      , (25659,  2724,   2.25)  /* Force Arc VII */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25659,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25659, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25659,  5 /* HeartBeat */,  0.095, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

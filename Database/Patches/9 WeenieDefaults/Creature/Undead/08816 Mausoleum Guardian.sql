@@ -175,6 +175,10 @@ VALUES (8816,    61,  2.013)  /* Acid Stream IV */
      , (8816,  1442,  2.009)  /* Bafflement Other IV */
      , (8816,  1466,  2.009)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8816,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8816, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8816, 1,  8785,  0, 0, 0, False) /* Create Empyrean Scalemail Shirt (8785) for Contain */
      , (8816, 1,  8788,  0, 0, 0, False) /* Create Obsidian Dagger (8788) for Contain */

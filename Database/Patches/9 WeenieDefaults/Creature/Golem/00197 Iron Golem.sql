@@ -117,6 +117,10 @@ VALUES (197,  2074,   2.15)  /* Gossamer Flesh */
      , (197,  2170,   2.15)  /* Inferno's Gift */
      , (197,  2745,   2.15)  /* Flame Arc VII */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (197,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (197, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (197,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

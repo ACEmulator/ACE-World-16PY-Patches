@@ -109,6 +109,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7183,    77,   2.07)  /* Lightning Bolt III */
      , (7183,   139,   2.07)  /* Lightning Volley III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7183, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7183, 9,  8426,  0, 0, 0.08, False) /* Create Jungle Phyntos Wasp Wing (8426) for ContainTreasure */
      , (7183, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */

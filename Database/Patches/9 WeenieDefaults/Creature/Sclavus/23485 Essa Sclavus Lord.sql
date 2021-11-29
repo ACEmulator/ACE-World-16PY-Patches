@@ -141,6 +141,10 @@ VALUES (23485,    62,   2.02)  /* Acid Stream V */
      , (23485,  1419,   2.05)  /* Slowness Other V */
      , (23485,  1467,   2.05)  /* Feeblemind Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23485,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23485, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23485, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
      , (23485, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

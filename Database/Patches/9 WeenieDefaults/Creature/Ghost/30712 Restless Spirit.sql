@@ -125,6 +125,10 @@ VALUES (30712,   897,   2.02)  /* Healing Ineptitude Other VI */
      , (30712,  2146,   2.05)  /* Evisceration */
      , (30712,  2758,   2.05)  /* Blade Arc VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30712,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30712, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30712,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

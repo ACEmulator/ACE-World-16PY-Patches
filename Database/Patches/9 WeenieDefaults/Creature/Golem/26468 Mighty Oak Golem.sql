@@ -131,6 +131,10 @@ VALUES (26468,    67,  2.016)  /* Shock Wave IV */
      , (26468,  1394,  2.007)  /* Clumsiness Other IV */
      , (26468,  1418,  2.007)  /* Slowness Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (26468,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (26468, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (26468,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

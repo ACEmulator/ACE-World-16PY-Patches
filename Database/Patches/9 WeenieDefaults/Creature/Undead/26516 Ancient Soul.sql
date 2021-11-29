@@ -139,6 +139,10 @@ VALUES (26516,    63,   2.01)  /* Acid Stream VI */
      , (26516,  1840,   2.01)  /* Bed of Blades */
      , (26516,  1842,   2.01)  /* Spike Strafe */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (26516,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (26516, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (26516,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

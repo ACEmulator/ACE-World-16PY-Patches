@@ -138,6 +138,10 @@ VALUES (30648,    74,  2.075)  /* Frost Bolt VI */
      , (30648,  1396,   2.02)  /* Clumsiness Other VI */
      , (30648,  1420,   2.02)  /* Slowness Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30648,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30648, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30648,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

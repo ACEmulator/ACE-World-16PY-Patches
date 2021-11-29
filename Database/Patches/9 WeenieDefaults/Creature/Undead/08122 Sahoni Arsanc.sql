@@ -144,6 +144,10 @@ VALUES (8122,    59,   2.03)  /* Acid Stream II */
      , (8122,  1441,   2.01)  /* Bafflement Other III */
      , (8122,  1465,   2.01)  /* Feeblemind Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8122,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8122, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8122, 9,  8087,  0, 0, 1, False) /* Create Urgently Written Note (8087) for ContainTreasure */
      , (8122, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */

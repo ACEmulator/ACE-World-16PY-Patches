@@ -123,6 +123,10 @@ VALUES (25881,   102,  2.115)  /* Acid Blast VI */
      , (25881,  1138,  2.115)  /* Piercing Protection Self VI */
      , (25881,  2716,  2.115)  /* Acid Arc VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25881,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25881, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25881, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (25881, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

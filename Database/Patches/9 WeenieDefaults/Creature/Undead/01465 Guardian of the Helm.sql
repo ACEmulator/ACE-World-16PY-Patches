@@ -155,6 +155,10 @@ VALUES (1465,    61,  2.013)  /* Acid Stream IV */
      , (1465,  1442,  2.009)  /* Bafflement Other IV */
      , (1465,  1466,  2.009)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1465,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1465, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1465, 9,  1517,  0, 0, 1, False) /* Create Fiery Shield (1517) for ContainTreasure */
      , (1465, 9,  1518,  0, 0, 1, False) /* Create Superior Helmet (1518) for ContainTreasure */;

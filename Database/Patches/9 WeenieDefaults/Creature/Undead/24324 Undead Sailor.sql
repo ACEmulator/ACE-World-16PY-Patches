@@ -155,6 +155,10 @@ VALUES (24324,    62,   2.01)  /* Acid Stream V */
      , (24324,  1443,  2.011)  /* Bafflement Other V */
      , (24324,  1467,  2.011)  /* Feeblemind Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24324,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24324, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24324, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (24324, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */

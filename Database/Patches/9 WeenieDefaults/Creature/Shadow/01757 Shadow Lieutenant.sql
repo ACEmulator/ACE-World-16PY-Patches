@@ -166,6 +166,10 @@ VALUES (1757,    71,  2.036)  /* Frost Bolt III */
      , (1757,  1666,  2.009)  /* Stamina to Health Self III */
      , (1757,  1678,  2.009)  /* Stamina to Mana Self III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1757,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1757, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1757, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (1757, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */

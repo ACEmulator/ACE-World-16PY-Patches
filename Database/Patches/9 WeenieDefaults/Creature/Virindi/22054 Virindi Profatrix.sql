@@ -133,6 +133,10 @@ VALUES (22054,   278,      2)  /* Magic Resistance Self V */
      , (22054,  1830,  2.055)  /* Whirling Blade Streak V */
      , (22054,  2762,  2.001)  /* Martyr's Hecatomb III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22054,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22054, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22054,  3 /* Death */,   0.02, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

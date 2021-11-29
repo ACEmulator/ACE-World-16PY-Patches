@@ -180,6 +180,10 @@ VALUES (11517,    62,  2.015)  /* Acid Stream V */
      , (11517,  1331,  2.011)  /* Strength Self V */
      , (11517,  1401,  2.011)  /* Quickness Self V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11517,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11517, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11517, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (11517, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

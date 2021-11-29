@@ -141,6 +141,10 @@ VALUES (1765,    60,  2.014)  /* Acid Stream III */
      , (1765,  1251,  2.025)  /* Drain Stamina Other III */
      , (1765,  1262,  2.025)  /* Drain Mana Other III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1765,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1765, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (1765,  5 /* HeartBeat */,  0.015, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

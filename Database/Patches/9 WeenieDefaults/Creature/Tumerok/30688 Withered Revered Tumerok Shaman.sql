@@ -145,6 +145,10 @@ VALUES (30688,    63,  2.015)  /* Acid Stream VI */
      , (30688,  1265,  2.012)  /* Drain Mana Other VI */
      , (30688,  1468,  2.012)  /* Feeblemind Other VI */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30688,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30688, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30688, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
      , (30688, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */

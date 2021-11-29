@@ -147,6 +147,10 @@ VALUES (8423,    15,  2.008)  /* Vulnerability Other I */
      , (8423,  1670,  2.011)  /* Stamina to Mana Other I */
      , (8423,  1705,  2.011)  /* Health to Mana Other I */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8423,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8423, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8423,  3 /* Death */,    0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

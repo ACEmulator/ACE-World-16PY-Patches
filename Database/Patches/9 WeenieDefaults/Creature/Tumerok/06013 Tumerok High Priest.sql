@@ -163,6 +163,10 @@ VALUES (6013,    62,   2.04)  /* Acid Stream V */
      , (6013,  1199,  2.023)  /* Enfeeble Other V */
      , (6013,  1223,  2.023)  /* Mana Drain Other V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (6013,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (6013, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6013, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
      , (6013, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */

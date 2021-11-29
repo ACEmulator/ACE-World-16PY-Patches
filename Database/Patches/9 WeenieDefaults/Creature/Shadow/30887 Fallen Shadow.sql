@@ -147,6 +147,10 @@ VALUES (30887,    74,  2.036)  /* Frost Bolt VI */
      , (30887,  2228,   2.01)  /* Broadside of a Barn */
      , (30887,  2318,   2.01)  /* Gravity Well */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30887,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30887, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30887, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (30887, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */

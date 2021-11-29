@@ -109,6 +109,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7105,    72,    2.2)  /* Frost Bolt IV */
      , (7105,   136,    2.2)  /* Frost Volley IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7105, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7105,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

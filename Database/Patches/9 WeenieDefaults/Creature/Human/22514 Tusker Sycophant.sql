@@ -145,3 +145,7 @@ VALUES (22514,    63,   2.08)  /* Acid Stream VI */
      , (22514,  2166,   2.04)  /* Tusker's Gift */
      , (22514,  2765,   2.04)  /* Martyr's Hecatomb VI */
      , (22514,  2772,   2.04)  /* Martyr's Tenacity VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22514,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22514, 414) /* PLAYER_DEATH_EVENT */;

@@ -132,6 +132,10 @@ VALUES (1608,    60,   2.02)  /* Acid Stream III */
      , (1608,  1374,  2.005)  /* Coordination Self II */
      , (1608,  1398,  2.005)  /* Quickness Self II */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1608,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1608, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (1608,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

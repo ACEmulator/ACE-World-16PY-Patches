@@ -120,6 +120,10 @@ VALUES (28716,  1783,  2.025)  /* Searing Disc */
      , (28716,  2159,  2.015)  /* Storm's Blessing */
      , (28716,  2161,  2.015)  /* Blessing of the Arrow Turner */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28716,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28716, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28716,  3 /* Death */, 0.3333, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

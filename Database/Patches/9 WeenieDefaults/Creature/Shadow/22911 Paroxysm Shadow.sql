@@ -150,6 +150,10 @@ VALUES (22911,    72,  2.032)  /* Frost Bolt IV */
      , (22911,  1394,  2.023)  /* Clumsiness Other IV */
      , (22911,  1466,  2.023)  /* Feeblemind Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22911,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22911, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22911,  3 /* Death */,   0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

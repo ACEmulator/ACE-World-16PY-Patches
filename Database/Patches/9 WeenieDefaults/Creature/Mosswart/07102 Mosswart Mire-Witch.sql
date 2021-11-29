@@ -140,6 +140,10 @@ VALUES (7102,    61,  2.018)  /* Acid Stream IV */
      , (7102,  1394,   2.05)  /* Clumsiness Other IV */
      , (7102,  1418,   2.05)  /* Slowness Other IV */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7102,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7102, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7102,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

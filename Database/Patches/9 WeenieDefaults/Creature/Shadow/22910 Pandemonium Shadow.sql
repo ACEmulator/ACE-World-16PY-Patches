@@ -154,6 +154,10 @@ VALUES (22910,    72,  2.032)  /* Frost Bolt IV */
      , (22910,  1466,  2.023)  /* Feeblemind Other IV */
      , (22910,  2762,   2.02)  /* Martyr's Hecatomb III */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22910,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22910, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22910,  3 /* Death */,   0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

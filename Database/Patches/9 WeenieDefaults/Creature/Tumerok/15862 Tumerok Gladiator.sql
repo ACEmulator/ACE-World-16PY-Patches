@@ -118,6 +118,10 @@ VALUES (15862,  0,  4,  0,    0,  130,  130,  130,  130,  130,  130,  130,  130,
      , (15862,  7,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (15862,  8,  4, 10, 0.75,  110,  110,  110,  110,  110,  110,  110,  110,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (15862,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (15862, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (15862, 9, 15814,  1, 0, 1, False) /* Create Gate Key (15814) for ContainTreasure */
      , (15862, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */

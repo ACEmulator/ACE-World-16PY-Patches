@@ -122,6 +122,10 @@ VALUES (29506,    73,   2.06)  /* Frost Bolt V */
      , (29506,  1818,   2.05)  /* Lightning Streak V */
      , (29506,  1830,   2.08)  /* Whirling Blade Streak V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29506,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29506, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29506,  5 /* HeartBeat */,  0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 

@@ -127,3 +127,7 @@ VALUES (8109,     6,   2.04)  /* Heal Self I */
      , (8109,  1084,  2.044)  /* Lightning Vulnerability Other I */
      , (8109,  1237,  2.044)  /* Drain Health Other I */
      , (8109,  1415,  2.044)  /* Slowness Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8109,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8109, 414) /* PLAYER_DEATH_EVENT */;

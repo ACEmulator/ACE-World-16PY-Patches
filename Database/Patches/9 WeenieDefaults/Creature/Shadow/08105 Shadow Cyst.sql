@@ -166,6 +166,10 @@ VALUES (8105,    73,  2.036)  /* Frost Bolt V */
      , (8105,  1680,  2.009)  /* Stamina to Mana Self V */
      , (8105,  1703,  2.009)  /* Health to Mana Self V */;
 
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8105,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8105, 414) /* PLAYER_DEATH_EVENT */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8105, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (8105, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
