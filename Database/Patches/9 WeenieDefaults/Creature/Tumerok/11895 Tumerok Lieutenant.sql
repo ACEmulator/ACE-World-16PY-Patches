@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11895;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11895, 'tumerokhaft', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11895, 'tumerokhaft', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11895,   1,         16) /* ItemType - Creature */
@@ -162,6 +162,10 @@ VALUES (11895,    59,  2.013)  /* Acid Stream II */
      , (11895,  1157,  2.015)  /* Heal Self II */
      , (11895,  1172,  2.008)  /* Harm Other II */
      , (11895,  1196,  2.008)  /* Enfeeble Other II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11895,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11895, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11895, 9, 11834,  0, 0, 0.05, False) /* Create Sturdy Banner Haft (11834) for ContainTreasure */

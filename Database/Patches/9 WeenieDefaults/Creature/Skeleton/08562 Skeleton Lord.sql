@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8562;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8562, 'skeletonlordfortarcher', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8562, 'skeletonlordfortarcher', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8562,   1,         16) /* ItemType - Creature */
@@ -122,6 +122,10 @@ VALUES (8562,    89,  2.105)  /* Force Bolt IV */
      , (8562,  1370,  2.023)  /* Frailty Other IV */
      , (8562,  1394,  2.023)  /* Clumsiness Other IV */
      , (8562,  1418,  2.023)  /* Slowness Other IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8562,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8562, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8562,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

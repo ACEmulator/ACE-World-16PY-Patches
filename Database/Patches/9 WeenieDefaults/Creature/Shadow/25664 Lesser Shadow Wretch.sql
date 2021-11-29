@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25664;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25664, 'shadowwretch', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25664, 'shadowwretch', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25664,   1,         16) /* ItemType - Creature */
@@ -152,6 +152,10 @@ VALUES (25664,    73,  2.032)  /* Frost Bolt V */
      , (25664,  1326,  2.023)  /* Imperil Other V */
      , (25664,  1419,  2.023)  /* Slowness Other V */
      , (25664,  1467,  2.023)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25664,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25664, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25664, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */

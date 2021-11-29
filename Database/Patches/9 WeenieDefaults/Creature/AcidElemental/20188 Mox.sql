@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20188;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20188, 'acidelementalmox', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (20188, 'acidelementalmox', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20188,   1,         16) /* ItemType - Creature */
@@ -122,3 +122,7 @@ VALUES (20188,    60,  2.014)  /* Acid Stream III */
      , (20188,  1309,      2)  /* Armor Self III */
      , (20188,  1324,  2.017)  /* Imperil Other III */
      , (20188,  1792,  2.002)  /* Acid Streak III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (20188,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (20188, 414) /* PLAYER_DEATH_EVENT */;

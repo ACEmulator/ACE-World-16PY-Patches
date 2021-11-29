@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28246;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28246, 'ghostspirit', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (28246, 'ghostspirit', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28246,   1,         16) /* ItemType - Creature */
@@ -124,6 +124,10 @@ VALUES (28246,    95,   2.05)  /* Whirling Blade IV */
      , (28246,  1829,   2.05)  /* Whirling Blade Streak IV */
      , (28246,  1840,   2.05)  /* Bed of Blades */
      , (28246,  2755,   2.05)  /* Blade Arc III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28246,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28246, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28246,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

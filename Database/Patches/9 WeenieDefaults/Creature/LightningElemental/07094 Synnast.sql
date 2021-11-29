@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7094;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7094, 'lightningelementalsynnast', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7094, 'lightningelementalsynnast', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7094,   1,         16) /* ItemType - Creature */
@@ -124,6 +124,10 @@ VALUES (7094,    80,  2.004)  /* Lightning Bolt VI */
      , (7094,  1242,  2.008)  /* Drain Health Other VI */
      , (7094,  1312,  2.008)  /* Armor Self VI */
      , (7094,  1327,  2.017)  /* Imperil Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7094,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7094, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7094, 2,  6383,  3, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21168;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21168, 'lightningelementalcharge', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (21168, 'lightningelementalcharge', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21168,   1,         16) /* ItemType - Creature */
@@ -122,6 +122,10 @@ VALUES (21168,    77,  2.138)  /* Lightning Bolt III */
      , (21168,  1239,  2.008)  /* Drain Health Other III */
      , (21168,  1324,  2.017)  /* Imperil Other III */
      , (21168,  1816,  2.004)  /* Lightning Streak III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21168,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (21168, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (21168,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

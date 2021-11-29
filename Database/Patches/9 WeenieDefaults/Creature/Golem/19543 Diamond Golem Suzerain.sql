@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19543;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19543, 'golemdiamondsuzerain', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (19543, 'golemdiamondsuzerain', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19543,   1,         16) /* ItemType - Creature */
@@ -129,6 +129,10 @@ VALUES (19543,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */
      , (19543,  2073,   2.01)  /* Adja's Intervention */
      , (19543,  2144,    2.1)  /* Crushing Shame */
      , (19543,  2328,   2.01)  /* Vitality Siphon */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19543,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19543, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (19543,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

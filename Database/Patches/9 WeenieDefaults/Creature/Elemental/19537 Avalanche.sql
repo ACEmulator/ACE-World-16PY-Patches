@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19537;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19537, 'eluvicelementalavalanche', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (19537, 'eluvicelementalavalanche', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19537,   1,         16) /* ItemType - Creature */
@@ -127,6 +127,10 @@ VALUES (19537,    74,  2.004)  /* Frost Bolt VI */
      , (19537,  1343,  2.017)  /* Weakness Other VI */
      , (19537,  1787,  2.004)  /* Halo of Frost */
      , (19537,  1788,  2.004)  /* Eye of the Storm */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19537,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19537, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19537, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

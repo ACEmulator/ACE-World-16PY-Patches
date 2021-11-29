@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42017, 'ace42017-flameguardian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (42017, 'ace42017-flameguardian', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42017,   1,         16) /* ItemType - Creature */
@@ -69,10 +69,6 @@ VALUES (42017,   1, 0x0200089D) /* Setup */
      , (42017,   4, 0x30000000) /* CombatTable */
      , (42017,   8, 0x06001B42) /* Icon */
      , (42017,  22, 0x34000083) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42017, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42017,   1, 320, 0, 0) /* Strength */

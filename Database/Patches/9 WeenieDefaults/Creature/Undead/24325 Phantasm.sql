@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24325;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24325, 'zombiephantasm', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24325, 'zombiephantasm', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24325,   1,         16) /* ItemType - Creature */
@@ -167,6 +167,10 @@ VALUES (24325,    62,   2.01)  /* Acid Stream V */
      , (24325,  1419,  2.011)  /* Slowness Other V */
      , (24325,  1443,  2.011)  /* Bafflement Other V */
      , (24325,  1467,  2.011)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24325,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24325, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24325, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

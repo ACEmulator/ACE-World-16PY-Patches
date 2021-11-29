@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24496;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24496, 'lugianrenegadegeneral', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24496, 'lugianrenegadegeneral', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24496,   1,         16) /* ItemType - Creature */
@@ -111,6 +111,10 @@ VALUES (24496,  0,  4,  2,  0.3,  460,  262,  262,  262,  166,   78,  396,  368,
      , (24496,  6,  4,  2,  0.3,  490,  279,  279,  279,  176,   83,  421,  392,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (24496,  7,  4, 25,  0.3,  290,  165,  165,  165,  104,   49,  249,  232,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (24496,  8,  4, 20, 0.75,  490,  279,  279,  279,  176,   83,  421,  392,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24496,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24496, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24496, 2, 24567,  0, 0, 0, False) /* Create Quadruple-bladed Axe (24567) for Wield */

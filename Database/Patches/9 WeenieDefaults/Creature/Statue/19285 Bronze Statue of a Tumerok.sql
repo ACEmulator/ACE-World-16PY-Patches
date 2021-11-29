@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19285, 'statuereplicahightumeroksmall', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (19285, 'statuereplicahightumeroksmall', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19285,   1,         16) /* ItemType - Creature */
@@ -163,6 +163,10 @@ VALUES (19285,    62,  2.015)  /* Acid Stream V */
      , (19285,  1223,  2.012)  /* Mana Drain Other V */
      , (19285,  1331,  2.011)  /* Strength Self V */
      , (19285,  1401,  2.011)  /* Quickness Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19285,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19285, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19285, 9, 19255,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19255) for ContainTreasure */

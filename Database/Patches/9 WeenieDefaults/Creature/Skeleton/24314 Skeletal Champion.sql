@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24314;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24314, 'skeletonchampion', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24314, 'skeletonchampion', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24314,   1,         16) /* ItemType - Creature */
@@ -136,6 +136,10 @@ VALUES (24314,  1241,   2.08)  /* Drain Health Other V */
      , (24314,  1342,  2.067)  /* Weakness Other V */
      , (24314,  1395,  2.067)  /* Clumsiness Other V */
      , (24314,  1443,  2.067)  /* Bafflement Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24314,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24314, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24314, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */

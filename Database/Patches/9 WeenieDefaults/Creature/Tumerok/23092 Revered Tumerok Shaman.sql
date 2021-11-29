@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23092;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23092, 'tumerokreveredshaman', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (23092, 'tumerokreveredshaman', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23092,   1,         16) /* ItemType - Creature */
@@ -146,6 +146,10 @@ VALUES (23092,    63,  2.015)  /* Acid Stream VI */
      , (23092,  1200,  2.012)  /* Enfeeble Other VI */
      , (23092,  1265,  2.012)  /* Drain Mana Other VI */
      , (23092,  1468,  2.012)  /* Feeblemind Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23092,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23092, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23092, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */

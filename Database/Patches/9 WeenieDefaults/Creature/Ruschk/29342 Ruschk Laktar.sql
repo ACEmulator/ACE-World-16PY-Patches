@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29342;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29342, 'ruschklaktar', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (29342, 'ruschklaktar', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,         16) /* ItemType - Creature */
@@ -128,6 +128,10 @@ VALUES (29342,   176,   2.02)  /* Fester Other VI */
      , (29342,  2178,   2.02)  /* Decrepitude's Grasp */
      , (29342,  2180,   2.02)  /* Energy Flux */
      , (29342,  3197,  2.025)  /* Nullify Life Magic Other */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29342,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29342, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29342,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
