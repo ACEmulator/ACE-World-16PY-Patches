@@ -28,7 +28,8 @@ VALUES (34441,   1, True ) /* Stuck */
      , (34441,  19, False) /* Attackable */
      , (34441,  41, True ) /* ReportCollisionsAsEnvironment */
      , (34441,  42, True ) /* AllowEdgeSlide */
-     , (34441,  52, True ) /* AiImmobile */;
+     , (34441,  52, True ) /* AiImmobile */
+     , (34441,  82, True ) /* DontTurnOrMoveWhenGiving */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34441,  39,     1.5) /* DefaultScale */
