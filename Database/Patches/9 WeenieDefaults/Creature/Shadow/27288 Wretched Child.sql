@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27288;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27288, 'shadowchildwretched', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (27288, 'shadowchildwretched', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27288,   1,         16) /* ItemType - Creature */
@@ -147,6 +147,10 @@ VALUES (27288,  2053,  2.005)  /* Executor's Blessing */
      , (27288,  2329,   2.02)  /* Essence Void */
      , (27288,  2330,   2.02)  /* Vigor Siphon */
      , (27288,  3214,   2.01)  /* Sorrow */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27288,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27288, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27288,  3 /* Death */,   0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

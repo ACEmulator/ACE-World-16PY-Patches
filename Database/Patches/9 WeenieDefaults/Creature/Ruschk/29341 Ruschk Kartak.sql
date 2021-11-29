@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29341;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29341, 'ruschkkartak', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (29341, 'ruschkkartak', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29341,   1,         16) /* ItemType - Creature */
@@ -122,6 +122,10 @@ VALUES (29341,  0,  4,  0,    0,  330,  410,  335,  440,  440,  355,  440,  440,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29341,   222,  2.045)  /* Mana Depletion Other V */
      , (29341,  1065,  2.055)  /* Cold Vulnerability Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29341,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29341, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29341,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

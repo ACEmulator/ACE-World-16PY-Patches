@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 16;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (16, 'zombieundead', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (16, 'zombieundead', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16,   1,         16) /* ItemType - Creature */
@@ -156,3 +156,7 @@ VALUES (16,    27,  2.021)  /* Flame Bolt I */
      , (16,    93,  2.004)  /* Whirling Blade II */
      , (16,   171,  2.025)  /* Fester Other I */
      , (16,  1219,   2.05)  /* Mana Drain Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (16,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (16, 414) /* PLAYER_DEATH_EVENT */;

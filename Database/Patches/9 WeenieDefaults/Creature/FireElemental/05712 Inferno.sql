@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5712;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5712, 'fireelementalinferno', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (5712, 'fireelementalinferno', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5712,   1,         16) /* ItemType - Creature */
@@ -129,6 +129,10 @@ VALUES (5712,    84,  2.004)  /* Flame Bolt V */
      , (5712,  1160,  2.013)  /* Heal Self V */
      , (5712,  1241,  2.008)  /* Drain Health Other V */
      , (5712,  1311,  2.008)  /* Armor Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5712,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5712, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5712, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */

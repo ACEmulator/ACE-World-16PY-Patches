@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24498;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24498, 'tumerokchampionrenegade', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24498, 'tumerokchampionrenegade', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24498,   1,         16) /* ItemType - Creature */
@@ -172,6 +172,10 @@ VALUES (24498,    63,  2.015)  /* Acid Stream VI */
      , (24498,  1223,  2.012)  /* Mana Drain Other V */
      , (24498,  1331,  2.011)  /* Strength Self V */
      , (24498,  1401,  2.011)  /* Quickness Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24498,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24498, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24498, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

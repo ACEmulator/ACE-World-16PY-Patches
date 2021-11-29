@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24483;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24483, 'golemobsidianmini', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24483, 'golemobsidianmini', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24483,   1,         16) /* ItemType - Creature */
@@ -126,6 +126,10 @@ VALUES (24483,    69,  2.016)  /* Shock Wave VI */
      , (24483,  1265,   2.01)  /* Drain Mana Other VI */
      , (24483,  1396,  2.007)  /* Clumsiness Other VI */
      , (24483,  1420,  2.007)  /* Slowness Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24483,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24483, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24483,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

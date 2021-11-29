@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7183;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7183, 'phyntoswaspjungle', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7183, 'phyntoswaspjungle', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7183,   1,         16) /* ItemType - Creature */
@@ -108,6 +108,9 @@ VALUES (7183,  0,  2, 10,  0.5,  140,  112,  112,   70,   90,   90,   90,   24, 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7183,    77,   2.07)  /* Lightning Bolt III */
      , (7183,   139,   2.07)  /* Lightning Volley III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7183, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7183, 9,  8426,  0, 0, 0.08, False) /* Create Jungle Phyntos Wasp Wing (8426) for ContainTreasure */

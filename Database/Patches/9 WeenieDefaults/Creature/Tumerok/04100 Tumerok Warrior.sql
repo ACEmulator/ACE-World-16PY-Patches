@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4100;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4100, 'tumerokwarriorarcher', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (4100, 'tumerokwarriorarcher', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4100,   1,         16) /* ItemType - Creature */
@@ -177,6 +177,10 @@ VALUES (4100,    59,  2.013)  /* Acid Stream II */
      , (4100,  1157,  2.015)  /* Heal Self II */
      , (4100,  1172,  2.008)  /* Harm Other II */
      , (4100,  1196,  2.008)  /* Enfeeble Other II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (4100,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (4100, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4100, 8,   301,  0, 0, 0.06, False) /* Create Battle Axe (301) for Treasure */

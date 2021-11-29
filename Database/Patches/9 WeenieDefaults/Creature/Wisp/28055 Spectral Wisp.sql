@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28055;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28055, 'wispspectral', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (28055, 'wispspectral', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28055,   1,         16) /* ItemType - Creature */
@@ -116,6 +116,10 @@ VALUES (28055,    79,    2.1)  /* Lightning Bolt V */
      , (28055,  1264,   2.06)  /* Drain Mana Other V */
      , (28055,  1372,   2.06)  /* Frailty Other VI */
      , (28055,  1788,    2.1)  /* Eye of the Storm */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28055,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28055, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28055, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */

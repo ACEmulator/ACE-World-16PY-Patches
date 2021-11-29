@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24274;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24274, 'banderlingaggressor', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24274, 'banderlingaggressor', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24274,   1,         16) /* ItemType - Creature */
@@ -130,6 +130,10 @@ VALUES (24274,    69,   2.08)  /* Shock Wave VI */
      , (24274,  2164,   2.08)  /* Swordsman's Gift */
      , (24274,  2166,   2.08)  /* Tusker's Gift */
      , (24274,  2328,  2.008)  /* Vitality Siphon */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24274,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24274, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24274,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

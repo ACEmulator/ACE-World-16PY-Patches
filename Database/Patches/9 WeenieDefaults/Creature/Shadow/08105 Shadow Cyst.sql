@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8105;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8105, 'shadowcyst', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8105, 'shadowcyst', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8105,   1,         16) /* ItemType - Creature */
@@ -165,6 +165,10 @@ VALUES (8105,    73,  2.036)  /* Frost Bolt V */
      , (8105,  1668,  2.009)  /* Stamina to Health Self V */
      , (8105,  1680,  2.009)  /* Stamina to Mana Self V */
      , (8105,  1703,  2.009)  /* Health to Mana Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8105,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8105, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8105, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for ContainTreasure */

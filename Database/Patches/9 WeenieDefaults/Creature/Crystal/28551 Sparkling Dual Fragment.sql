@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28551;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28551, 'crystaldualfragmentsparkling', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (28551, 'crystaldualfragmentsparkling', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28551,   1,         16) /* ItemType - Creature */
@@ -127,6 +127,10 @@ VALUES (28551,    83,  2.115)  /* Flame Bolt IV */
      , (28551,  1240,  2.042)  /* Drain Health Other IV */
      , (28551,  1310,   2.04)  /* Armor Self IV */
      , (28551,  1419,  2.042)  /* Slowness Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28551,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28551, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28551, 9,  6056,  0, 0, 0.02, False) /* Create Small Shard (6056) for ContainTreasure */

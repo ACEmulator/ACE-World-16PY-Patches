@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23616;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23616, 'crystalshard', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (23616, 'crystalshard', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23616,   1,         16) /* ItemType - Creature */
@@ -121,6 +121,10 @@ VALUES (23616,   169,  2.083)  /* Regeneration Self V */
      , (23616,  1241,  2.083)  /* Drain Health Other V */
      , (23616,  1395,  2.083)  /* Clumsiness Other V */
      , (23616,  1467,  2.083)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23616,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23616, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23616, 9, 23853,  0, 0, 0.00625, False) /* Create Seared Shard (23853) for ContainTreasure */

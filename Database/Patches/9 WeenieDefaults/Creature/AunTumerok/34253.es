@@ -4,6 +4,7 @@ Use:
 			QuestSuccess:
 				- Tell: Greetings, budhi. You have done well and, were I close enough to hear it, surely the keh of Halaetan would sing. Here is a reward - I am told this piece of paper is worth something to your kind. The plague still continues, however, and you may continue culling the Polar Carenzi if you find more livers.
 				- Give: 11710
+				- AddCharacterTitle: InitiateoftheHunt 
 				- EraseQuest: DiseasedPolarLiver_Completed
 				- Goto: CounterReset
 			QuestFailure:
@@ -11,6 +12,7 @@ Use:
 					QuestSuccess:
 						- Tell: Greetings, budhi. You have done well and Palenqual sings its praises. Here is a reward - I am told this piece of paper is worth something to your kind. The plague still continues, however, and you may continue culling the Carenzi Stalkers if you find more livers.
 						- Give: 11710
+						- AddCharacterTitle: ApprenticeoftheHunt 
 						- EraseQuest: DiseasedStalkerLiver_Completed
 						- Goto: CounterReset
 					QuestFailure:
@@ -18,6 +20,7 @@ Use:
 							QuestSuccess:
 								- Tell: Greetings, budhi. You have done well and Palenqual sings its praises. Here is a reward - I am told this piece of paper is worth something to your kind. The plague still continues, however, and you may continue culling the Feral Carenzi if you find more livers.
 								- Give: 11710
+								- AddCharacterTitle: DiscipleoftheHunt 
 								- EraseQuest: DiseasedFeralLiver_Completed
 								- Goto: CounterReset
 							QuestFailure:
@@ -25,6 +28,7 @@ Use:
 									QuestSuccess:
 										- Tell: Greetings, budhi. You have done well and Palenqual sings its praises. Here is a reward - I am told this piece of paper is worth something to your kind. The plague still continues, however, and you may continue culling the Carnivorous Carenzi if you find more livers.
 										- Give: 11710
+										- AddCharacterTitle: SeekeroftheHunt 
 										- EraseQuest: DiseasedCarnivorousLiver_Completed
 										- Goto: CounterReset
 									QuestFailure:
@@ -32,6 +36,7 @@ Use:
 											QuestSuccess:
 												- Tell: Greetings, budhi. You have done well in attempting to cleanse this plague, despite how dark their native land is. Here is a reward - I am told this piece of paper is worth something to your kind. The plague still continues, however, and you may continue culling the Mangy Carenzi if you find more livers.
 												- Give: 11710
+												- AddCharacterTitle: ChampionoftheHunt 
 												- EraseQuest: DiseasedMangyLiver_Completed
 												- Goto: CounterReset
 											QuestFailure:
@@ -39,6 +44,7 @@ Use:
 													QuestSuccess:
 														- Tell: Greetings, budhi. You have done well in attempting to cleanse this plague, despite how dark their native land is. Here is a reward - I am told this piece of paper is worth something to your kind. The plague still continues, however, and you may continue culling the Tainted Carenzi if you find more livers.
 														- Give: 11710
+														- AddCharacterTitle: MasteroftheHunt 
 														- EraseQuest: DiseasedTaintedLiver_Completed
 														- Goto: CounterReset
 													QuestFailure:

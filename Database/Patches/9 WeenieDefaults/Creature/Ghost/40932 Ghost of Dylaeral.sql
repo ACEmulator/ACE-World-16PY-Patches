@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40932;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40932, 'ace40932-ghostofdylaeral', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (40932, 'ace40932-ghostofdylaeral', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40932,   1,         16) /* ItemType - Creature */
@@ -62,10 +62,6 @@ VALUES (40932,   1, 0x020016E7) /* Setup */
      , (40932,   3, 0x200000B6) /* SoundTable */
      , (40932,   8, 0x06003447) /* Icon */
      , (40932,  22, 0x340000AB) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40932, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40932,   1, 140, 0, 0) /* Strength */

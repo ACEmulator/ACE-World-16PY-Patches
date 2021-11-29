@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25861;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25861, 'margulgraal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25861, 'margulgraal', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25861,   1,         16) /* ItemType - Creature */
@@ -125,6 +125,10 @@ VALUES (25861,    85,   2.04)  /* Flame Bolt VI */
      , (25861,  2074,   2.03)  /* Gossamer Flesh */
      , (25861,  2170,   2.02)  /* Inferno's Gift */
      , (25861,  2744,   2.04)  /* Flame Arc VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25861,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25861, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25861,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

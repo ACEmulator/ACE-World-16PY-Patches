@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22516, 'humantuskerworshippermage', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (22516, 'humantuskerworshippermage', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22516,   1,         16) /* ItemType - Creature */
@@ -142,6 +142,10 @@ VALUES (22516,    62,   2.09)  /* Acid Stream V */
      , (22516,  1241,   2.04)  /* Drain Health Other V */
      , (22516,  1312,      2)  /* Armor Self VI */
      , (22516,  1327,    2.1)  /* Imperil Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22516,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22516, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22516, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */

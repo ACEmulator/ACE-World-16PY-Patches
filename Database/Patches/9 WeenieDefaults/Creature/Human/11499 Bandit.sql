@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11499;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11499, 'humanbandit_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11499, 'humanbandit_xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11499,   1,         16) /* ItemType - Creature */
@@ -444,3 +444,7 @@ VALUES (11499,  0,  4,  0,    0,   25,   23,   25,   28,   10,   10,   25,   15,
      , (11499,  6,  4,  0,    0,   30,   27,   30,   33,   12,   12,   30,   18,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (11499,  7,  4,  0,    0,   30,   27,   30,   33,   12,   12,   30,   18,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11499,  8,  4,  2, 0.75,   25,   23,   25,   28,   10,   10,   25,   15,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11499,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11499, 414) /* PLAYER_DEATH_EVENT */;

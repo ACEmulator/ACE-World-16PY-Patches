@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30755;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30755, 'acidelementalvirulence', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (30755, 'acidelementalvirulence', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30755,   1,         16) /* ItemType - Creature */
@@ -123,6 +123,10 @@ VALUES (30755,   176,  2.017)  /* Fester Other VI */
      , (30755,  2121,  2.004)  /* Corrosive Flash */
      , (30755,  2122,  2.004)  /* Disintegration */
      , (30755,  2159,  2.008)  /* Storm's Blessing */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30755,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30755, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30755, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */

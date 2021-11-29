@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31025;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31025, 'thrungusfiremorel', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31025, 'thrungusfiremorel', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31025,   1,         16) /* ItemType - Creature */
@@ -113,6 +113,10 @@ VALUES (31025,  0, 16, 192,  0.3,  554,  499,  444,  554,  444,  554,  610,  554
      , (31025,  7,  4,  0,    0,  554,  499,  444,  554,  444,  554,  610,  554,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (31025,  8, 16, 240,  0.4,  554,  499,  444,  554,  444,  554,  610,  554,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (31025, 22, 32, 174,  0.3,  554,  499,  444,  554,  444,  554,  610,  554,    0, 2, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Breath */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31025,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31025, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31025,  5 /* HeartBeat */,  0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

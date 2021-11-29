@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22904;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22904, 'darkrevenantguardian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (22904, 'darkrevenantguardian', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22904,   1,         16) /* ItemType - Creature */
@@ -131,6 +131,10 @@ VALUES (22904,   176,   2.04)  /* Fester Other VI */
      , (22904,  1254,   2.04)  /* Drain Stamina Other VI */
      , (22904,  2084,   2.04)  /* Belly of Lead */
      , (22904,  2088,   2.04)  /* Senescence */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22904,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22904, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22904, 9,  9310,  0, 0, 0.1, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */

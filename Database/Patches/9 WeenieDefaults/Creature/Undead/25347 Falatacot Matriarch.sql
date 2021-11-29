@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25347;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25347, 'zombieundeadmatriarch', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25347, 'zombieundeadmatriarch', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25347,   1,         16) /* ItemType - Creature */
@@ -137,6 +137,10 @@ VALUES (25347,    63,   2.01)  /* Acid Stream VI */
      , (25347,  1156,  2.011)  /* Piercing Vulnerability Other VI */
      , (25347,  1840,   2.01)  /* Bed of Blades */
      , (25347,  1842,   2.01)  /* Spike Strafe */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25347,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25347, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25347,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

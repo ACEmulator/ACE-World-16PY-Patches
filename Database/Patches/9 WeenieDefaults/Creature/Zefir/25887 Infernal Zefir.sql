@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25887;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25887, 'zefirinfernal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25887, 'zefirinfernal', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25887,   1,         16) /* ItemType - Creature */
@@ -120,6 +120,10 @@ VALUES (25887,    69,   2.03)  /* Shock Wave VI */
      , (25887,  1264,   2.01)  /* Drain Mana Other V */
      , (25887,  1372,   2.02)  /* Frailty Other VI */
      , (25887,  1420,   2.02)  /* Slowness Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25887,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25887, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25887, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */

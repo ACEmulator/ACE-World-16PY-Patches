@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27309;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27309, 'humanderangedsycophant', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (27309, 'humanderangedsycophant', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27309,   1,         16) /* ItemType - Creature */
@@ -140,6 +140,10 @@ VALUES (27309,  2073,   2.08)  /* Adja's Intervention */
      , (27309,  2752,   2.06)  /* Shock Arc VII */
      , (27309,  2759,   2.06)  /* Blade Arc VII */
      , (27309,  3185,   2.08)  /* Eradicate Creature Magic Self */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27309,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27309, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27309, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */

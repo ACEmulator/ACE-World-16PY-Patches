@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1988;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1988, 'wispdark', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (1988, 'wispdark', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1988,   1,         16) /* ItemType - Creature */
@@ -118,6 +118,10 @@ VALUES (1988,    70,    2.3)  /* Frost Bolt II */
      , (1988,  1238,   2.67)  /* Drain Health Other II */
      , (1988,  1250,   2.67)  /* Drain Stamina Other II */
      , (1988,  1261,   2.67)  /* Drain Mana Other II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1988,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1988, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1988, 9,  8668,  0, 0, 0.03, False) /* Create Sickly Wisp Heart (8668) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 189;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (189, 'culthighpriest', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (189, 'culthighpriest', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (189,   1,         16) /* ItemType - Creature */
@@ -446,6 +446,10 @@ VALUES (189,    63,   2.12)  /* Acid Stream VI */
      , (189,  1326,   2.05)  /* Imperil Other V */
      , (189,  1342,   2.05)  /* Weakness Other V */
      , (189,  2764,   2.05)  /* Martyr's Hecatomb V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (189,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (189, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (189, 2, 25810,  0, 39, 0, False) /* Create Suikan Robe (25810) for Wield */

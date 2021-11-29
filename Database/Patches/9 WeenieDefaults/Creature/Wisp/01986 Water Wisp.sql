@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1986;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1986, 'wispwater', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (1986, 'wispwater', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1986,   1,         16) /* ItemType - Creature */
@@ -118,3 +118,7 @@ VALUES (1986,    70,    2.3)  /* Frost Bolt II */
      , (1986,  1238,   2.67)  /* Drain Health Other II */
      , (1986,  1250,   2.67)  /* Drain Stamina Other II */
      , (1986,  1261,   2.67)  /* Drain Mana Other II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1986,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (1986, 414) /* PLAYER_DEATH_EVENT */;

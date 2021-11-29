@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19270;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19270, 'statuereplicaextremeshadowsmall', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (19270, 'statuereplicaextremeshadowsmall', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19270,   1,         16) /* ItemType - Creature */
@@ -146,6 +146,10 @@ VALUES (19270,    73,  2.032)  /* Frost Bolt V */
      , (19270,  1311,  2.006)  /* Armor Self V */
      , (19270,  1419,  2.023)  /* Slowness Other V */
      , (19270,  1467,  2.023)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (19270,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (19270, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19270, 9, 19250,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue (19250) for ContainTreasure */

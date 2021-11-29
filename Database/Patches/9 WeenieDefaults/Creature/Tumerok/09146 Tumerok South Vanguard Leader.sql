@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9146;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9146, 'tumerokvanguardleadersouth', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (9146, 'tumerokvanguardleadersouth', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9146,   1,         16) /* ItemType - Creature */
@@ -156,6 +156,10 @@ VALUES (9146,    62,   2.04)  /* Acid Stream V */
      , (9146,  1175,  2.023)  /* Harm Other V */
      , (9146,  1199,  2.023)  /* Enfeeble Other V */
      , (9146,  1223,  2.023)  /* Mana Drain Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (9146,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (9146, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9146, 2,  9137,  0, 0, 1, False) /* Create Vanguard Leader's Crossbow (9137) for Wield */
