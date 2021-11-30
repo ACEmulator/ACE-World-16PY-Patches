@@ -15,7 +15,7 @@ VALUES (52515,   1,          1) /* ItemType - MeleeWeapon */
      , (52515,  45,          4) /* DamageType - Bludgeon */
      , (52515,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (52515,  47,          6) /* AttackType - Thrust, Slash */
-     , (52515,  48,         45) /* WeaponSkill - LightWeapons */
+     , (52515,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (52515,  49,         25) /* WeaponTime */
      , (52515,  51,          1) /* CombatUse - Melee */
      , (52515,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
