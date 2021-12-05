@@ -30,7 +30,7 @@ VALUES (34567,   1, 'Tanada Clan Master''s Medallion') /* Name */
      , (34567,  20, 'Tanada Clan Master''s Medallions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34567,   1,   33554688) /* Setup */
-     , (34567,   3,  536870932) /* SoundTable */
-     , (34567,   8,  100689272) /* Icon */
-     , (34567,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34567,   1, 0x02000100) /* Setup */
+     , (34567,   3, 0x20000014) /* SoundTable */
+     , (34567,   8, 0x06006578) /* Icon */
+     , (34567,  22, 0x3400002B) /* PhysicsEffectTable */;

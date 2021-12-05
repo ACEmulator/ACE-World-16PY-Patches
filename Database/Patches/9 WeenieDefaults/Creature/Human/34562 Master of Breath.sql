@@ -80,10 +80,6 @@ VALUES (34562,   1, 0x02000001) /* Setup */
                                    Wield 100x Deadly Armor Piercing Arrow (15431) | Probability: 100% */
      , (34562,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34562, 8040, 0x96D80027, 112.567, 152.885, 121.244, -0.647604, 0, 0, -0.761977) /* PCAPRecordedLocation */
-/* @teleloc 0x96D80027 [112.567001 152.884995 121.244003] -0.647604 0.000000 0.000000 -0.761977 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34562,   1, 220, 0, 0) /* Strength */
      , (34562,   2, 240, 0, 0) /* Endurance */
