@@ -35,7 +35,7 @@ Use:
 													- Delay: 1, Tell: If this school is like the schools they maintained on Ispar, you will have to defeat the Master of each school - Storms, Wind, and Breath - and prove your worthiness to three shrines, before being allowed to see the Enlightened Master of the school. The Enlightened Master should be carrying a jade medallion which I would very much like to see. You will have to take it from him by force. If you are up to this dangerous task, the entrance to the Tanada school, which they call the House of Air, is located at 68 S, 45 E.
 													- StampQuest: TanadaHouseofStormsStarted
 		TestFailure:
-			- Tell: Please return when you are more experienced.
+			- Tell: You are not strong enough to help me.  I mean no offense.  I would not want to send you forth to a hopeless task.
 
 Give: Enlightened Masters Medallion (87654)
 	- TurnToTarget
@@ -80,3 +80,38 @@ Give: Tachi of Grace (34341)
 	- TurnToTarget
 	- Tell: Very well. It is a pity that you do not wish to keep it, but not all have use for blades, so I understand. I hope this practical knowledge is more useful to you.
 	- AwardLevelProportionalXP: 3%, 0 - 2,064,801
+
+Give: Tanada Clan Masters Medallion (34567)
+	- TurnToTarget
+	- InqQuest: TanadaClanMedallionTurnIn
+		QuestSuccess:
+			- IncrementQuest: TanadaClanMedallionTurnIn, 1
+			- InqQuest: ReceivedTitleInitiateoftheBlade
+				QuestSuccess:
+					- Goto: MedallionReward
+				QuestFailure:
+					- InqQuestSolves: TanadaClanMedallionTurnIn, 25
+						QuestSuccess:
+							- InqQuest: TanadaHouseofWaterQuest_Flag
+								QuestSuccess:
+									- Tell: You have brought Kiri-san and I 25 of these medallions now. Your aid in this requires a special reward. Here, allow me to reward you appropriately.
+									- AwardLevelProportionalXP: 3%, 0 - 1,386,393
+									- AddCharacterTitle: InitiateoftheBlade
+									- StampQuest: ReceivedTitleInitiateoftheBlade
+									- Delay: 1, DirectBroadcast: Sayuji Jina grants you the title, "Initiate of the Blade".
+									- Delay: 1, Tell: If you find any more of these, please bring them to either Ookami Kiri, or myself. Your assistance in this is greatly appreciated.
+								QuestFailure: 
+									- Goto: MedallionReward
+						QuestFailure:
+							- Goto: MedallionReward
+				QuestFailure:
+					- Goto: MedallionReward 
+		QuestFailure:
+			- Tell: A medallion from one of the elusive Tanada Clan? This may aid in my research into their appearance in Dereth. I will gladly reward you for any of these that you come across. Here, allow me to reward you for this one.
+			- StampQuest: TanadaClanMedallionTurnIn
+			- AwardLevelProportionalXP: 3%, 0 - 1,386,393
+			
+GotoSet: MedallionReward
+	- Delay: 1, Tell: Thank you for this. I should be able to add this to my research into the Tanada Clan, and hopefully come up with a method to free the Tanada from their corruption. Here, allow me to reward you once again.
+	- AwardLevelProportionalXP: 3%, 0 - 1,386,393
+	- Delay: 1, Tell: If you find any more of these, please bring them to either Ookami Kiri, or myself. Your assistance in this is greatly appreciated.
