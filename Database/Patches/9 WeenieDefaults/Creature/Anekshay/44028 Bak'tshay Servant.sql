@@ -21,7 +21,6 @@ VALUES (44028,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44028,   1, True ) /* Stuck */
      , (44028,   6, True ) /* AiUsesMana */
-     , (44028,  10, True ) /* AttackerAi */
      , (44028,  11, False) /* IgnoreCollisions */
      , (44028,  12, True ) /* ReportCollisions */
      , (44028,  13, False) /* Ethereal */
