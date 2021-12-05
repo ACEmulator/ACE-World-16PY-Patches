@@ -385,26 +385,6 @@ VALUES (0x702E1072, 0x702E1078, '2019-02-10 00:00:00') /* Imprinting Mote (34884
      , (0x702E1072, 0x702E107C, '2019-02-10 00:00:00') /* Imprinting Mote (34884) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1073,  8384, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Southwest Shore Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1074,  8390, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands South Landbridge Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1075,  8385, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Southeast Shore */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1076,  8383, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Desert Northeast Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1077,  8389, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands North Landbridge Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E1078, 34884, 0x02E10121, 193.376, -273.332, -17.9868, -0.939279, 0, 0, -0.343154,  True, '2021-11-07 08:12:46'); /* Imprinting Mote */
 /* @teleloc 0x02E10121 [193.376007 -273.332001 -17.986799] -0.939279 0.000000 0.000000 -0.343154 */
 
@@ -423,7 +403,3 @@ VALUES (0x702E107B, 34884, 0x02E10129, 194.066, -291.82, -17.9868, -0.972059, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E107C, 34884, 0x02E1011D, 187.856, -258.86, -17.9868, 0.897973, 0, 0, 0.44005,  True, '2021-11-07 08:12:46'); /* Imprinting Mote */
 /* @teleloc 0x02E1011D [187.856003 -258.859985 -17.986799] 0.897973 0.000000 0.000000 0.440050 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E107D,  8388, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Northwest Shore Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
