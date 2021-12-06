@@ -21,8 +21,7 @@ VALUES (31003,   1,         16) /* ItemType - Creature */
      , (31003, 146,    1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31003,   1, True ) /* Stuck */
-     , (31003, 101, True ) /* CanGenerateRare */;
+VALUES (31003,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31003,   1,       5) /* HeartbeatInterval */

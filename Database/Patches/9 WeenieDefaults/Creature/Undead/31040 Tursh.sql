@@ -29,8 +29,7 @@ VALUES (31040,   1, True ) /* Stuck */
      , (31040,  13, False) /* Ethereal */
      , (31040,  14, True ) /* GravityStatus */
      , (31040,  15, True ) /* LightsStatus */
-     , (31040,  19, True ) /* Attackable */
-     , (31040, 101, True ) /* CanGenerateRare */;
+     , (31040,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31040,   1,       5) /* HeartbeatInterval */
