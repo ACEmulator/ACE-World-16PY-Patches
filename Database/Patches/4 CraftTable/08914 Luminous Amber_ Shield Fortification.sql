@@ -4,12 +4,11 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (8914, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue the item with the magics of the luminous amber.', 0, 0, 'You fail to imbue the item, destroying it in the process!', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (8914, 0,   9, 2097152, 4, 'You can only apply this augmentaion to a shield!') /* Target.ValidLocations - Shield NotEqual 2097152 */
-     , (8914, 0, 105, 1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
-     , (8914, 0, 373, 3, 3, 'This item has already been imbued!') /* Target.GearCritResist GreaterThanEqual 3 */;
+VALUES (8914, 0,   9, 2097152, 4, 'You can only apply this augmentaion to a shield!') /* ValidLocations - Shield */
+     , (8914, 0, 373,       3, 3, 'This item has already been imbued!') /* Target.GearCritResist GreaterThanEqual 3 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8914, True, 0, 0, 0, False, 0, 1, 0);
+VALUES (8914, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - None */;
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -25,4 +24,6 @@ VALUES (8914, 53441 /* Luminous Amber: Shield Fortification */,    44 /* Buckler
      , (8914, 53441 /* Luminous Amber: Shield Fortification */,    93 /* Round Shield */, '2021-11-01 00:00:00')
      , (8914, 53441 /* Luminous Amber: Shield Fortification */,    94 /* Large Round Shield */, '2021-11-01 00:00:00')
      , (8914, 53441 /* Luminous Amber: Shield Fortification */,    95 /* Tower Shield */, '2021-11-01 00:00:00')
-     , (8914, 53441 /* Luminous Amber: Shield Fortification */, 21158 /* Covenant Shield */, '2021-11-01 00:00:00');
+     , (8914, 53441 /* Luminous Amber: Shield Fortification */, 21158 /* Covenant Shield */, '2021-11-01 00:00:00')
+     , (8914, 53441 /* Luminous Amber: Shield Fortification */, 28163 /* Round Shield */, '2005-02-09 10:00:00')
+     , (8914, 53441 /* Luminous Amber: Shield Fortification */, 37291 /* Olthoi Shield */, '2005-02-09 10:00:00');
