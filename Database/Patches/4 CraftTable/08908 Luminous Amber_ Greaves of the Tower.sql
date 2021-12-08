@@ -4,11 +4,11 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (8908, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue the item with the magics of the luminous amber.', 0, 0, 'You fail to imbue the item, destroying it in the process!', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (8908, 0,   9, 16384, 4, 'You can only apply this augmentaion to a greaves-slot item!') /* ValidLocations - LowerLegArmor */
-     , (8908, 0, 311,     1, 3, 'This item has already been imbued!') /* Target.ImbueStackingBits GreaterThanEqual 1 */;
+VALUES (8908, 0,   9, 16384, 4, 'You can only apply this augmentaion to a greaves-slot item!') /* Target.ValidLocations - LowerLegArmor NotEqual 16384 */
+     , (8908, 0, 311, 1, 3, 'This item has already been imbued!') /* Target.ImbueStackingBits GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8908, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - None */;
+VALUES (8908, True, 0, 0, 0, False, 0, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -35,9 +35,14 @@ VALUES (8908, 53295 /* Luminous Amber: Greaves of the Tower */,    65 /* Leather
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */,  6045 /* Celdon Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */,  6047 /* Amuli Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 21155 /* Covenant Greaves */, '2021-11-01 00:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24623 /* Fine Olthoi Greaves */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24624 /* Good Olthoi Greaves */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24897 /* Greater Olthoi Greaves */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24898 /* Lesser Olthoi Greaves */, '2005-02-09 10:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 25644 /* Leather Greaves */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 25645 /* Leather Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 25647 /* Leather Pants */, '2021-11-01 00:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 25656 /* Koujia Leggings */, '2005-02-09 10:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 27218 /* Chiran Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 27224 /* Lorica Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 27231 /* Nariyid Leggings */, '2021-11-01 00:00:00')
@@ -45,21 +50,16 @@ VALUES (8908, 53295 /* Luminous Amber: Greaves of the Tower */,    65 /* Leather
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 28621 /* Diforsa Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 28622 /* Tenassa Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 28634 /* Diforsa Greaves */, '2021-11-01 00:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 30513 /* Greaves of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 30514 /* Gelidite Greaves */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 37194 /* Olthoi Greaves */, '2005-02-09 10:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 37200 /* Olthoi Alduressa Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 37201 /* Olthoi Amuli Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 37202 /* Olthoi Celdon Leggings */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 37203 /* Olthoi Koujia Leggings */, '2021-11-01 00:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 38466 /* Celestial Hand Greaves */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 38475 /* Eldrytch Web Greaves */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 38484 /* Radiant Blood Greaves */, '2005-02-09 10:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 42752 /* Haebrean Greaves */, '2021-11-01 00:00:00')
      , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 43051 /* Knorr Academy Greaves */, '2021-11-01 00:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 43831 /* Sedgemail Leather Pants */, '2021-11-01 00:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24623 /* Fine Olthoi Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24624 /* Good Olthoi Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24897 /* Greater Olthoi Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 24898 /* Lesser Olthoi Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 25656 /* Koujia Leggings */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 37194 /* Olthoi Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 30514 /* Gelidite Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 30513 /* Greaves of Leikotha's Tears' */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 38466 /* Celestial Hand Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 38475 /* Eldrytch Web Hand Greaves */, '2005-02-09 10:00:00')
-     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 38484 /* Radiant Blood Hand Greaves */, '2005-02-09 10:00:00');
+     , (8908, 53295 /* Luminous Amber: Greaves of the Tower */, 43831 /* Sedgemail Leather Pants */, '2021-11-01 00:00:00');

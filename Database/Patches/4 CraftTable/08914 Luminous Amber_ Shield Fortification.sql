@@ -4,11 +4,11 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (8914, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue the item with the magics of the luminous amber.', 0, 0, 'You fail to imbue the item, destroying it in the process!', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (8914, 0,   9, 2097152, 4, 'You can only apply this augmentaion to a shield!') /* ValidLocations - Shield */
-     , (8914, 0, 373,       3, 3, 'This item has already been imbued!') /* Target.GearCritResist GreaterThanEqual 3 */;
+VALUES (8914, 0,   9, 2097152, 4, 'You can only apply this augmentaion to a shield!') /* Target.ValidLocations - Shield NotEqual 2097152 */
+     , (8914, 0, 373, 3, 3, 'This item has already been imbued!') /* Target.GearCritResist GreaterThanEqual 3 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8914, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - None */;
+VALUES (8914, True, 0, 0, 0, False, 0, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 

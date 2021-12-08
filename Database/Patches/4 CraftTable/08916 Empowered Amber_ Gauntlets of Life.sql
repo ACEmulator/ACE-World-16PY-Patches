@@ -4,53 +4,53 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (8916, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue the item with the magics of the empowered amber.', 0, 0, 'You fail to imbue the item, destroying it in the process!', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (8916, 0,   9, 32, 4, 'You can only apply this augmentaion to a gauntlet-slot item!') /* ValidLocations - HandWear */
-	 , (8916, 0, 379,  1, 3, 'This item has already been imbued!') /* Target.GearMaxHealthInt - GreaterThanEqual 1 */;
+VALUES (8916, 0,   9, 32, 4, 'You can only apply this augmentaion to a gauntlet-slot item!') /* Target.ValidLocations - HandWear NotEqual 32 */
+     , (8916, 0, 379, 1, 3, 'This item has already been imbued!') /* Target.GearMaxHealth GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8916, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - None */;
+VALUES (8916, True, 0, 0, 0, False, 0, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  379, 1, 1, 1) /* On Source.SuccessTarget SetValue GearMaxHealthInt  */;
+VALUES (@parent_id, 0, 379, 1, 1, 1) /* On Source.SuccessTarget SetValue GearMaxHealth 1 to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8916;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    55 /* Chainmail Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    56 /* Leather Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    57 /* Platemail Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    58 /* Scalemail Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    59 /* Studded Leather Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 21153 /* Covenant Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 25642 /* Leather Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 25646 /* Long Leather Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 27216 /* Chiran Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 27222 /* Lorica Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 27228 /* Nariyid Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 43830 /* Sedgemail Leather Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 28632 /* Diforsa Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 30951 /* Alduressa Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37187 /* Olthoi Alduressa Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 42750 /* Haebrean Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37189 /* Olthoi Celdon Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37190 /* Olthoi Koujia Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37188 /* Olthoi Amuli Gauntlets */, '2005-02-09 10:00:00')
-	 , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    56 /* Leather Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    57 /* Platemail Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    58 /* Scalemail Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,    59 /* Studded Leather Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */,   121 /* Gloves */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 21153 /* Covenant Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 24619 /* Fine Olthoi Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 24620 /* Good Olthoi Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 24893 /* Greater Olthoi Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 24894 /* Lesser Olthoi Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 24946 /* Antius' Celdon Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 25514 /* Antius' Celdon Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 25642 /* Leather Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 25646 /* Long Leather Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 25654 /* Platemail Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 27216 /* Chiran Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 27222 /* Lorica Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 27228 /* Nariyid Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 28632 /* Diforsa Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 30510 /* Adept's Fervor */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 30525 /* Gauntlets of Leikotha's Tears */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 30526 /* Gelidite Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 30534 /* Gauntlets of the Crimson Star */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 30951 /* Alduressa Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37187 /* Olthoi Alduressa Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37188 /* Olthoi Amuli Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37189 /* Olthoi Celdon Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37190 /* Olthoi Koujia Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 37191 /* Olthoi Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 38464 /* Celestial Hand Gauntlets */, '2005-02-09 10:00:00')
      , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 38473 /* Eldrytch Web Gauntlets */, '2005-02-09 10:00:00')
-     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 38482 /* Radiant Blood Gauntlets */, '2005-02-09 10:00:00');
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 38482 /* Radiant Blood Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 42750 /* Haebrean Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00')
+     , (8916, 53068 /* Empowered Amber: Gauntlets of Life */, 43830 /* Sedgemail Leather Gauntlets */, '2005-02-09 10:00:00');
