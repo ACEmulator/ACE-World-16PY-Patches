@@ -27,3 +27,6 @@ VALUES (30044,   1, 'Statue of Eleonora du Bellenesse') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30044,   1, 0x02001235) /* Setup */
      , (30044,   8, 0x06005AF6) /* Icon */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (30044, 0, 1000);

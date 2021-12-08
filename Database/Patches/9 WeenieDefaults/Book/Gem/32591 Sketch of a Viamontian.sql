@@ -24,3 +24,6 @@ VALUES (32591,   1, 0x02000155) /* Setup */
      , (32591,   3, 0x20000014) /* SoundTable */
      , (32591,   8, 0x060062BD) /* Icon */
      , (32591,  22, 0x3400002B) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (32591, 0, 1000);
