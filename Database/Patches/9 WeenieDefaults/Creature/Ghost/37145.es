@@ -24,3 +24,13 @@ Use:
                     - Tell: Begone! Only Lord Cynreft may visit the prisoner.
                     - Tell: You have not heard of the prisoner? So powerful and so very mad. Once he entertained the court of Mhoire with his antics, but that was before the betrayal. Now he is imprisoned here for all time.
                     - Tell: Go now. You have no business here.
+                    
+Give: 37126
+    - InqQuest: GaveJailerPyramid
+        QuestSuccess:
+            - Give: 37126
+            - Tell: Sorry, I don't have anymore to trade right now.
+        QuestFailure:
+            - Tell: Oh, it won't do to have these things in everyones hands.
+            - Tell: Here take this instead.
+            - Give: 35383
