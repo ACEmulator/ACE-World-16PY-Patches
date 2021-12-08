@@ -30,7 +30,7 @@ VALUES (70274,   1, 0x02000155) /* Setup */
      , (70274,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (70274, 0, 0);
+VALUES (70274, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (70274, 0, 0xFFFFFFFF, 'Master Alizari', 'prewritten', True, 'Despite the best efforts of skilled scouts and diviners, these "Mukkir" are difficult creatures to track down. We have had only limited contact with them, and those encounters have been fleeting and inconclusive. They are clever enough to avoid large parties, and dangerous enough to overwhelm our Knights and Eaters when they are out alone or in pairs. We came upon the corpse of one Eater that was perforated with multiple stab wounds and scorched with acid. Great hunks of soft, putrefied flesh were missing from the carcass - these Mukkir are the only creature we have encountered in this whole strange world that seem willing to eat the flesh of our hunting beasts.')

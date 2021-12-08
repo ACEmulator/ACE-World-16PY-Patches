@@ -30,7 +30,7 @@ VALUES (70272,   1, 0x02000155) /* Setup */
      , (70272,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (70272, 0, 0);
+VALUES (70272, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (70272, 0, 0xFFFFFFFF, 'Mistress Halmera', 'prewritten', False, 'My search team has uncovered limited evidence of the Mukkir. A group of our Eaters fell upon one isolated Mukkir and overwhelmed it. From the wounds inflicted upon our hunting beasts, the Mukkir are quite vicious and capable fighters. All the same, the unfortunate and isolated creature was overwhelmed by the gnashing teeth of three enraged Eaters. Sadly, our beasts of hunting devoured most of the Mukkir''s carcass before one of my Knights could call them off. All that is left are hunks of torn meat and shards of chewed carapace.')
