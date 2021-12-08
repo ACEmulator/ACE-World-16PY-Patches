@@ -14,7 +14,7 @@ VALUES (35615,   1,          1) /* ItemType - MeleeWeapon */
      , (35615,  45,         32) /* DamageType - Acid */
      , (35615,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (35615,  47,          2) /* AttackType - Thrust */
-     , (35615,  48,         44) /* WeaponSkill */
+     , (35615,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (35615,  49,         20) /* WeaponTime */
      , (35615,  51,          1) /* CombatUse - Melee */
      , (35615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -58,7 +58,7 @@ VALUES (35615,   1, 0x020009A5) /* Setup */
      , (35615,  55,       2178) /* ProcSpell - Decrepitude's Grasp */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35615,  2096,      2) /* Aura of Infected Caress */
-     , (35615,  2101,      2) /* Aura of Cragstone's Will */
-     , (35615,  2106,      2) /* Aura of Elysa's Sight */
-     , (35615,  2116,      2) /* Aura of Atlan's Alacrity */;
+VALUES (35615,  2096,      2)  /* Aura of Infected Caress */
+     , (35615,  2101,      2)  /* Aura of Cragstone's Will */
+     , (35615,  2106,      2)  /* Aura of Elysa's Sight */
+     , (35615,  2116,      2)  /* Aura of Atlan's Alacrity */;
