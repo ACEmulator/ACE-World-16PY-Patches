@@ -15,7 +15,7 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 0,  376, 2, 1, 1) /* On Source.SuccessTarget SetValue GearHealingBoostInt  */;
 
-DELETE FROM `cook_book` WHERE `recipe_Id` = 8912;
+DELETE FROM `cook_book` WHERE `recipe_Id` = 8913;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (8913, 53301 /* Luminous Amber: Helm of Healing */,    35 /* Chainmail Basinet */, '2005-02-09 10:00:00')
