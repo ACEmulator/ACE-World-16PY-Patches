@@ -31,6 +31,7 @@ Give: 37126
             - Give: 37126
             - Tell: Sorry, I don't have anymore to trade right now.
         QuestFailure:
+            - StampQuest: GaveJailerPyramid
             - Tell: Oh, it won't do to have these things in everyones hands.
             - Tell: Here take this instead.
             - Give: 35383
