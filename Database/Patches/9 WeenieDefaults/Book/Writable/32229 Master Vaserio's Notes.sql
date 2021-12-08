@@ -30,7 +30,7 @@ VALUES (32229,   1, 0x02000155) /* Setup */
      , (32229,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (32229, 0, 0);
+VALUES (32229, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (32229, 0, 0xFFFFFFFF, 'Master Vaserio', 'prewritten', True, 'After a long and seemingly fruitless dig, we finally managed to locate the underground Falatacot compound that our sources had told us we would find. The dark tunnels of the Falatacot were infested with Mukkir, most of which we managed to capture or slay. They provided me with enough living and dead test subjects to make significant strides in my appointed investigation.')

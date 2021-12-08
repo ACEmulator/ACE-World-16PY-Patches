@@ -34,7 +34,7 @@ VALUES (70050,   1, 0x02000155) /* Setup */
      , (70050,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (70050, 0, 0);
+VALUES (70050, 12, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (70050, 0, 0xFFFFFFFF, 'Carlo di Cenza', 'prewritten', False, 'She told me to run, but I simply could not do it. I watched the battle. I watched as Sir Bellas was pierced with half a dozen arrows. I watched as Eleonora fell.
