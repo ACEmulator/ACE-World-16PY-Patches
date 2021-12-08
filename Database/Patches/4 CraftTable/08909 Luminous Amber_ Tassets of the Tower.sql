@@ -4,12 +4,11 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (8909, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue the item with the magics of the luminous amber.', 0, 0, 'You fail to imbue the item, destroying it in the process!', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (8909, 0,   9, 8192, 4, 'You can only apply this augmentaion to a tassets-slot item!') /* Target.ValidLocations - UpperLegArmor NotEqual 8192 */
-     , (8909, 0, 105, 1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
-     , (8909, 0, 311, 1, 3, 'This item has already been imbued!') /* Target.ImbueStackingBits GreaterThanEqual 1 */;
+VALUES (8909, 0,   9, 8192, 4, 'You can only apply this augmentaion to a tassets-slot item!') /* ValidLocations - UpperLegArmor */
+     , (8909, 0, 311,    1, 3, 'This item has already been imbued!') /* Target.ImbueStackingBits GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8909, True, 0, 0, 0, False, 0, 1, 0);
+VALUES (8909, True, 0, 0, 0, False, 0, 1, 0); /* Mutation Filter - None */;
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -38,19 +37,30 @@ VALUES (8909, 53296 /* Luminous Amber: Tassets of the Tower */,    80 /* Chainma
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 21159 /* Covenant Tassets */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25645 /* Leather Leggings */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25647 /* Leather Pants */, '2021-11-01 00:00:00')
-     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25650 /* Leather Shorts */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25652 /* Leather Tassets */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 27218 /* Chiran Leggings */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 27224 /* Lorica Leggings */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 27231 /* Nariyid Leggings */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 28620 /* Alduressa Leggings */, '2021-11-01 00:00:00')
-     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 28621 /* Diforsa Leggings */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 28622 /* Tenassa Leggings */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 28626 /* Diforsa Tassets */, '2021-11-01 00:00:00')
-     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37200 /* Olthoi Alduressa Leggings */, '2021-11-01 00:00:00')
-     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37201 /* Olthoi Amuli Leggings */, '2021-11-01 00:00:00')
-     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37202 /* Olthoi Celdon Leggings */, '2021-11-01 00:00:00')
-     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37203 /* Olthoi Koujia Leggings */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 42756 /* Haebrean Tassets */, '2021-11-01 00:00:00')
      , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 43054 /* Knorr Academy Tassets */, '2021-11-01 00:00:00')
-     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 43831 /* Sedgemail Leather Pants */, '2021-11-01 00:00:00');
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 43831 /* Sedgemail Leather Pants */, '2021-11-01 00:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 28621 /* Diforsa Leggings */, '2005-02-09 10:00:00')
+	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37200 /* Olthoi Alduressa Leggings */, '2005-02-09 10:00:00')
+	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
+	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
+	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
+	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 24631 /* Fine Olthoi Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 24632 /* Good Olthoi Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 24905 /* Greater Olthoi Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 24906 /* Lesser Olthoi Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37212 /* Olthoi Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25656 /* Koujia Leggings */, '2005-02-09 10:00:00')     
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 30515 /* Gelidite Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 30516 /* Tassets of Leikotha's Tears' */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 38469 /* Celestial Hand Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 38478 /* Eldrytch Web Hand Tassets */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 38487 /* Radiant Blood Hand Tassets */, '2005-02-09 10:00:00');
