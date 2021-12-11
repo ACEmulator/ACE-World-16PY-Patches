@@ -58,7 +58,7 @@ VALUES (72523,   1,       5) /* HeartbeatInterval */
      , (72523, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72523,   1, 'Hallway Caster') /* Name */
+VALUES (72523,   1, 'Hall of Agony') /* Name */
      , (72523,   3, 'Male') /* Sex */
      , (72523,   4, 'Sho') /* HeritageGroup */;
 

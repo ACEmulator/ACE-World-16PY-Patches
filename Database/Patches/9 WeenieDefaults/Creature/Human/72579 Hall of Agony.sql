@@ -60,7 +60,7 @@ VALUES (72579,   1,       5) /* HeartbeatInterval */
      , (72579, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72579,   1, 'Arcane Death') /* Name */
+VALUES (72579,   1, 'Hall of Agony') /* Name */
      , (72579,   3, 'Male') /* Sex */
      , (72579,   4, 'Sho') /* HeritageGroup */;
 

@@ -103,7 +103,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7654D034, 0x7654D06F, '2021-08-12 13:50:19') /* Lever (29592) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D03A, 72523, 0x654D02CF, 140, -140, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Hallway Caster */
+VALUES (0x7654D03A, 72523, 0x654D02CF, 140, -140, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [140.000000 -140.000000 -35.994999] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -582,49 +582,49 @@ VALUES (0x7654D0CD, 72572, 0x654D010A, 162.996, -55.7639, -65.945, 0.707107, 0, 
 /* @teleloc 0x654D010A [162.996002 -55.763901 -65.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0CE, 72582, 0x654D02CF, 140.015, -139, -35.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0CE, 72582, 0x654D02CF, 140.015, -139, -35.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [140.014999 -139.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0CF, 72578, 0x654D02CF, 141.095, -139, -35.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0CF, 72578, 0x654D02CF, 141.095, -139, -35.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [141.095001 -139.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D0, 72578, 0x654D02CF, 138.902, -139, -35.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D0, 72578, 0x654D02CF, 138.902, -139, -35.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [138.901993 -139.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D1, 72584, 0x654D02CF, 141, -139.977, -35.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D1, 72584, 0x654D02CF, 141, -139.977, -35.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [141.000000 -139.977005 -35.994999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D2, 72580, 0x654D02CF, 141, -141.115, -35.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D2, 72580, 0x654D02CF, 141, -141.115, -35.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [141.000000 -141.115005 -35.994999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D3, 72580, 0x654D02CF, 141, -138.988, -35.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D3, 72580, 0x654D02CF, 141, -138.988, -35.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [141.000000 -138.988007 -35.994999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D4, 72583, 0x654D02CF, 140.001, -141, -35.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D4, 72583, 0x654D02CF, 140.001, -141, -35.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [140.001007 -141.000000 -35.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D5, 72579, 0x654D02CF, 141.047, -141, -35.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D5, 72579, 0x654D02CF, 141.047, -141, -35.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [141.046997 -141.000000 -35.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D6, 72579, 0x654D02CF, 138.864, -141, -35.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D6, 72579, 0x654D02CF, 138.864, -141, -35.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [138.863998 -141.000000 -35.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D7, 72585, 0x654D02CF, 139, -139.965, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D7, 72585, 0x654D02CF, 139, -139.965, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [139.000000 -139.964996 -35.994999] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D8, 72581, 0x654D02CF, 139, -141.009, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D8, 72581, 0x654D02CF, 139, -141.009, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [139.000000 -141.009003 -35.994999] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654D0D9, 72581, 0x654D02CF, 139, -138.99, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Arcane Death */
+VALUES (0x7654D0D9, 72581, 0x654D02CF, 139, -138.99, -35.995, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Hall of Agony */
 /* @teleloc 0x654D02CF [139.000000 -138.990005 -35.994999] 0.707107 0.000000 0.000000 0.707107 */
