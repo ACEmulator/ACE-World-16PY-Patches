@@ -16,7 +16,7 @@ VALUES (44163,   1,       2048) /* ItemType - Gem */
      , (44163,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44163,  94,         16) /* TargetType - Creature */
      , (44163, 280,        100) /* SharedCooldown */
-     , (44163, 349,          1) /* UseCreatesContractId - Contract_1_The_Shadows_of_Bitter_Winter */;
+     , (44163, 349,          27) /* UseCreatesContractId - Contract_1_The_Shadows_of_Bitter_Winter */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44163,  22, True ) /* Inscribable */
