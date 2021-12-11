@@ -1,28 +1,60 @@
-Give: Frozen Black Crystal (87519)
+Give: Scrap of Shadow Essence (35992)
 	- TurnToTarget
-	- Tell: Ahh, a frozen crystal shard. The mages in the Order have had some luck with figuring out what this was. It seems that this is a fragment of some sort of Totem, similar to the Ice Totems built by the Ruschk.
-	- Delay: 1, Tell: We haven't been able to reconstruct the totem yet, as the pieces are small and badly damaged, but we are hoping to collect enough pieces to reconstruct at least one complete totem.
-	- Delay: 1, Tell: It is our hope to use this totem to learn more about the Mukkir, and possibly make a weapon against them.
-	- Delay: 1, Tell: It was a great risk and noble act that you undertook in acquiring this crystal and bringing it here. Sarkin has given me these medallions to award to those whom have aided us in this.
-	- Give: 33154
-	- Goto: GiveXP
+	- InqQuest: ProdigalShadowRepeat
+		QuestSuccess:
+			- Tell: Once again, you have stepped up where few others would and protected Dereth from the rise of a creature who could spell the end of all of us. Please, accept these rewards.
+			- AwardLevelProportionalXP: 30%, 0 - 297,235,855
+			- AwardLuminance: 15,000 
+			- Give: 35982
+			- Give: 20630, 6
+			- Give: 38918
+			- Delay: 1, Tell: Remember, the Aegis I have given you is a rare symbol amongst our Order, and that to carry and display one is considered a great honor.
+			- EraseQuest: ProdigalShadowFlag
+		QuestFailure:
+			- Tell: What is this?
+			- Delay: 1, DirectBroadcast: You explain where and how you came to have the Essence to Riordin Nightbane. 
+			- Delay: 1, Tell: This creature must've been truly powerful to have its essence survive its death...
+			- AwardLevelProportionalXP: 30%, 0 - 297,235,855
+			- AwardLuminance: 15,000 
+			- Delay: 1, Tell: You have done us all a great service, in aiding in the death of a Shadow such as this one. Please, it would honor me if you would accept these humble rewards for your noble and courageous act.
+			- Give: 35982
+			- Give: 20630, 6
+			- Give: 38918
+			- Delay: 1, DirectBroadcast: Riordin Nightbane grants you the title, "Prodigal Shadow Slayer". 
+			- AddCharacterTitle: ProdigalShadowSlayer
+			- Delay: 1, Tell: Know that the Aegis I have given you is a rare symbol amongst our Order, and that to carry and display one is considered a great honor.
+			- StampQuest: ProdigalShadowRepeat
+			- EraseQuest: ProdigalShadowFlag
+			
+Give: Aegis of the Golden Flame (35982)
+	- TurnToTarget
+	- Tell: You do not wish this as a reward? Very well, but remember that its ownership and display infers a certain level of respect in our Order. But the decision is yours. Please, accept this in exchange for the aegis.
+	- AwardLevelProportionalXP: 5%, 0 - 49,539,309
 
-GotoSet: GiveXP
-	- InqIntStat: 25, 80 - 999
-		TestSuccess:
-			- AwardLevelProportionalXP: 33%, 0 - 70,000,000
-		TestFailure:
-			- InqIntStat: 25, 65 - 79
-				TestSuccess:
-					- AwardLevelProportionalXP: 50%, 0 - 15,000,000
-				TestFailure:
-					- InqIntStat: 25, 50 - 64
-						TestSuccess:
-							- AwardLevelProportionalXP: 66%, 0 - 9,000,000
-						TestFailure:
-							- InqIntStat: 25, 1 - 49
-								TestSuccess:
-									- AwardLevelProportionalXP: 100%, 0 - 5,000,000
+Give: 87519
+    - TurnToTarget
+    - Tell: Ahh, a frozen crystal shard. The mages in the Order have had some luck with figuring out what this was. It seems that this is a fragment of some sort of Totem, similar to the Ice Totems built by the Ruschk.
+    - Delay: 1, Tell: We haven't been able to reconstruct the totem yet, as the pieces are small and badly damaged, but we are hoping to collect enough pieces to reconstruct at least one complete totem.
+    - Delay: 1, Tell: It is our hope to use this totem to learn more about the Mukkir, and possibly make a weapon against them.
+    - Delay: 1, Tell: It was a great risk and noble act that you undertook in acquiring this crystal and bringing it here. Sarkin has given me these medallions to award to those whom have aided us in this.
+    - Give: 33154
+    - Goto: GiveXP
+        GotoSet:
+            - InqIntStat: Level, 80 - 999
+                TestSuccess:
+                    - AwardLevelProportionalXP: 33%, 0 - 70,000,000
+                TestFailure:
+                    - InqIntStat: Level, 65 - 79
+                        TestSuccess:
+                            - AwardLevelProportionalXP: 50%, 0 - 15,000,000
+                        TestFailure:
+                            - InqIntStat: Level, 50 - 64
+                                TestSuccess:
+                                    - AwardLevelProportionalXP: 66%, 0 - 9,000,000
+                                TestFailure:
+                                    - InqIntStat: Level, 1 - 49
+                                        TestSuccess:
+                                            - AwardLevelProportionalXP: 100%, 0 - 5,000,000
 
 Give: 34573
     - TurnToTarget
@@ -36,7 +68,7 @@ Give: 34573
                 QuestSuccess:
                     - Tell: The final statue requested, wonderful. With these three statues, my colleagues should be able to figure out what those shadows and their Raven Hand helpers are up to in the Valley. These three should hold them for a while, about a week if I had to guess. If you find any more of these statues before then, however, I'll pay you in good, old fashioned Trade Notes for them.
                     - Delay: 1, Tell: Now, for the reward both promised to you, and rightly earned.
-                    - AwardLevelProportionalXP: 20%
+                    - AwardLevelProportionalXP: 20%, 0 - 37,456,440
                     - Delay: 1, Tell: Also, if you have any more of those small shadow statues, my colleagues do not need them at the moment, but I'd be interested in buying them off you for, say... 100,000 pyreals a piece?
                     - StampQuest: SmallShadowStatueTurnIns_wait
                     - EraseQuest: SmallShadowStatueTurnIns
