@@ -17,7 +17,7 @@ VALUES (44142,   1,       2048) /* ItemType - Gem */
      , (44142,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44142,  94,         16) /* TargetType - Creature */
      , (44142, 280,        100) /* SharedCooldown */
-     , (44142, 349,          5) /* UseCreatesContractId - Contract_5_Reign_of_Terror */;
+     , (44142, 349,          49) /* UseCreatesContractId - Contract_5_Reign_of_Terror */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44142,  22, True ) /* Inscribable */
