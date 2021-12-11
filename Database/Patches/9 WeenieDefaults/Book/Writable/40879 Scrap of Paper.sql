@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (40879, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (40879, 0, 4294967295, '-', 'prewritten', False, '
+VALUES (40879, 0, 0xFFFFFFFF, '-', 'prewritten', False, '
 I''m afraid, something dark, very dark is happening. Screams came from the depths of Mar''uun reaching across the chasm to me. A darkness spread acrosss Mar''uun. I''ve managed to barricade myself in the corner. I don''t feel very safe, but I may be. I dream of rescue, were it possible. As I write this I can feel the darkness coming. 
 
 <the writing on the note becomes unkempt>

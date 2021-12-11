@@ -190,7 +190,7 @@ VALUES (0x78902056, 40948, 0x890201D0, 35.7519, -172.492, 0.005, 0.707107, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78902057, 40987, 0x890201EF, 61.9297, -158.51, 0.005, 0.92388, 0, 0, 0.382684, False, '2021-11-22 11:28:16'); /* Grocer Khamal al-Rachard */
-/* @teleloc 0x890201EF [61.929699 -158.509995 0.005000] 0.923880 0.000000 0.000000 0.382683 */
+/* @teleloc 0x890201EF [61.929699 -158.509995 0.005000] 0.923880 0.000000 0.000000 0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78902058, 40977, 0x89020194, 23.0449, -157.013, 0.005, 0, 0, 0, -1, False, '2021-11-22 11:28:53'); /* Jinmi al-Evv */
@@ -201,9 +201,9 @@ VALUES (0x78902059, 40988, 0x89020214, 44.0017, -119.127, 6.356, 0.035687, 0, 0,
 /* @teleloc 0x89020214 [44.001701 -119.126999 6.356000] 0.035687 0.000000 0.000000 -0.999363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7890205A, 72778, 0x890201E5, 51.0684, -127.198, 0.029, 0, 0, 0, -1, False, '2021-11-22 11:39:24');
+VALUES (0x7890205A, 72778, 0x890201E5, 51.0684, -127.198, 0.029, 0, 0, 0, -1, False, '2021-11-22 11:39:24'); /* Jean */
 /* @teleloc 0x890201E5 [51.068401 -127.197998 0.029000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7890205B, 72779, 0x890201E5, 49.0078, -127.218, 0.029, 0.382683, 0, 0, -0.92388, False, '2021-11-22 11:39:46');
+VALUES (0x7890205B, 72779, 0x890201E5, 49.0078, -127.218, 0.029, 0.382683, 0, 0, -0.92388, False, '2021-11-22 11:39:46'); /* Luc */
 /* @teleloc 0x890201E5 [49.007801 -127.218002 0.029000] 0.382683 0.000000 0.000000 -0.923880 */

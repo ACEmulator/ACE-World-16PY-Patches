@@ -25,8 +25,8 @@ VALUES (0x78903005, 72766, 0x89030107, 9.96709, -6.08173, 0.055, 0, 0, 0, -1, Fa
 /* @teleloc 0x89030107 [9.967090 -6.081730 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78903006, 72770, 0x89030119, 50, -7.74481, 0.005, 1, -0, -0, -0, False, '2021-11-21 11:02:13'); /* Electric Plane Stopgap */
-/* @teleloc 0x89030119 [50.000000 -7.744810 0.005000] 1.000000 -0.000000 -0.000000 -0.000000 */
+VALUES (0x78903006, 72770, 0x89030119, 50, -7.74481, 0.005, 1, 0, 0, 0, False, '2021-11-21 11:02:13'); /* Electric Plane Stopgap */
+/* @teleloc 0x89030119 [50.000000 -7.744810 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78903007, 72767, 0x89030119, 49.9762, -6.13239, 0.055, 0, 0, 0, -1, False, '2021-11-21 11:02:30'); /* Electric Zenith Gen */

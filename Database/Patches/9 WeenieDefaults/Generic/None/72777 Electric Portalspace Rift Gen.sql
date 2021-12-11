@@ -29,4 +29,3 @@ VALUES (72777, 0.25, 72773, 180, 1, 1, 1, 4, -1, 0, 0, 0x890201E6, 53.834, -176.
      , (72777, 0.5, 72773, 180, 1, 1, 1, 4, -1, 0, 0, 0x89020178, 0.244141, -170.004, 0.055, 1, 0, 0, 0) /* Generate Portalspace Rift (72773) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72777, 0.75, 72773, 180, 1, 1, 1, 4, -1, 0, 0, 0x89020201, 79.5449, -128.846, 0.055, 1, 0, 0, 0) /* Generate Portalspace Rift (72773) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72777, 1, 72773, 180, 1, 1, 1, 4, -1, 0, 0, 0x890201E2, 46.2176, -19.2148, 0.055, 0, 0, 0, -1) /* Generate Portalspace Rift (72773) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
-

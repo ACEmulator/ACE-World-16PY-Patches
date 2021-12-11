@@ -28,5 +28,4 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (72775, 0.25, 72771, 180, 1, 1, 1, 4, -1, 0, 0, 0x890201AA, 26.3555, -132.769, 0.055, 1, 0, 0, 0) /* Generate Portalspace Rift (72771) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72775, 0.5, 72771, 180, 1, 1, 1, 4, -1, 0, 0, 0x890201E5, 54.0449, -131.718, 0.055, 0.707107, 0, 0, 0.707107) /* Generate Portalspace Rift (72771) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72775, 0.75, 72771, 180, 1, 1, 1, 4, -1, 0, 0, 0x890201CF, 39.0371, -159.036, 0.055, 1, 0, 0, 0) /* Generate Portalspace Rift (72771) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72775, 1, 72771, 180, 1, 1, 1, 4, -1, 0, 0, 0x890201EF, 63.6101, -161.376, 0.055, 0.707107, -0, -0, -0.707107) /* Generate Portalspace Rift (72771) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
-
+     , (72775, 1, 72771, 180, 1, 1, 1, 4, -1, 0, 0, 0x890201EF, 63.6101, -161.376, 0.055, 0.707107, 0, 0, -0.707107) /* Generate Portalspace Rift (72771) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

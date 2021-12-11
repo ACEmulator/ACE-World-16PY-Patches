@@ -49,8 +49,7 @@ VALUES (40508,   1, 0x020000D8) /* Setup */
      , (40508,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40508,  4982,      2) /* Nimble Fingers - Lockpick */
-     , (40508,  4983,      2) /* Nimble Fingers - Alchemy */
-     , (40508,  4984,      2) /* Nimble Fingers - Cooking */
-     , (40508,  4985,      2) /* Nimble Fingers - Fletching */;
-
+VALUES (40508,  4982,      2)  /* Nimble Fingers - Lockpick */
+     , (40508,  4983,      2)  /* Nimble Fingers - Alchemy */
+     , (40508,  4984,      2)  /* Nimble Fingers - Cooking */
+     , (40508,  4985,      2)  /* Nimble Fingers - Fletching */;
