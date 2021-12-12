@@ -131,3 +131,7 @@ VALUES (0x7E632022, 37442, 0xE6320026, 108.884, 140.844, 33.005, -0.918051, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E632023, 38151, 0xE6320103, 109.033, 136.564, 30.005, 0.38792, 0, 0, 0.921693, False, '2021-11-01 00:00:00'); /* Captain Warner */
 /* @teleloc 0xE6320103 [109.032997 136.563995 30.004999] 0.387920 0.000000 0.000000 0.921693 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E632024, 87808, 0xE632010F, 2.606271, 163.8322, 32.455, 0.722872, 0, 0, -0.690982, False, '2021-12-11 19:51:00'); /* Blair Event Gen */
+/* @teleloc 0xE632010F [2.606271 163.832199 32.455002] 0.722872 0.000000 0.000000 -0.690982 */

@@ -81,3 +81,7 @@ VALUES (0x72CB5017, 32071, 0x2CB50003, 5.54095, 55.498, 0.005, 0.960631, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CB5018, 32070, 0x2CB50003, 7.57861, 55.2219, 0.005, 0.981312, 0, 0, 0.192422, False, '2021-11-01 00:00:00'); /* Caprice du Bellenesse */
 /* @teleloc 0x2CB50003 [7.578610 55.221901 0.005000] 0.981312 0.000000 0.000000 0.192422 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72CB5019, 87798, 0x2CB50116, 4.443018, 36.79896, 2.555, 0.91581, 0, 0, -0.401613, False, '2021-12-11 19:30:48'); /* Jan Event Gen */
+/* @teleloc 0x2CB50116 [4.443018 36.798962 2.555000] 0.915810 0.000000 0.000000 -0.401613 */

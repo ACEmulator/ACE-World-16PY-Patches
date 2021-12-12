@@ -87,3 +87,7 @@ VALUES (0x738F701C, 28697, 0x38F70001, 19.3284, 11.4639, 2.01048, -0.884867, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738F701D, 28693, 0x38F70001, 15.2122, 9.3649, 2.01048, -0.997352, 0, 0, -0.072724,  True, '2021-11-01 00:00:00'); /* Fiun Ruun */
 /* @teleloc 0x38F70001 [15.212200 9.364900 2.010480] -0.997352 0.000000 0.000000 -0.072724 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x738F701E, 87792, 0x38F70031, 144.1339, 11.18353, 2.055, -0.961705, 0, 0, -0.274087, False, '2021-12-11 19:26:50'); /* Raymond Event Gen */
+/* @teleloc 0x38F70031 [144.133896 11.183530 2.055000] -0.961705 0.000000 0.000000 -0.274087 */

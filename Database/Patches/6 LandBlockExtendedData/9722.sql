@@ -255,3 +255,7 @@ VALUES (0x79722054, 36533, 0x9722014C, 55.379, 102.904, 102.005, -0.796833, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79722055, 32217, 0x9722001E, 74.19, 126.42, 102.005, 0.738526, 0, 0, 0.674225, False, '2021-11-01 00:00:00'); /* Qath al-Haddash */
 /* @teleloc 0x9722001E [74.190002 126.419998 102.004997] 0.738526 0.000000 0.000000 0.674225 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79722056, 87800, 0x9722001C, 80.7242, 93.0213, 102.055, -0.999442, 0, 0, -0.03341, False, '2021-12-11 19:34:37'); /* Natalie Event Gen */
+/* @teleloc 0x9722001C [80.724197 93.021301 102.055000] -0.999442 0.000000 0.000000 -0.033410 */

@@ -18,3 +18,7 @@ VALUES (0x7CF95002, 0x7CF95001, '2005-02-09 10:00:00') /* Emissary of Asheron (1
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF953EA, 33558, 0xCF950037, 161.523, 147.169, 19.937, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Asheron's Island */
 /* @teleloc 0xCF950037 [161.522995 147.169006 19.937000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CF953EB, 87804, 0xCF950037, 166.3102, 156.5108, 20.055, 0.676793, 0, 0, 0.736174, False, '2021-12-11 19:43:24'); /* Chrissy Event Gen */
+/* @teleloc 0xCF950037 [166.310196 156.510803 20.055000] 0.676793 0.000000 0.000000 0.736174 */
