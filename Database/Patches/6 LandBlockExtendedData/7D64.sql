@@ -109,12 +109,12 @@ VALUES (0x77D6401A,  1154, 0x7D640000, 86.9412, 66.5654, 20.805, 0.669975, 0, 0,
 /* @teleloc 0x7D640000 [86.941200 66.565399 20.805000] 0.669975 0.000000 0.000000 0.742384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6401A, 0x77D64019, '2005-02-09 10:00:00') /* Akyafi ibn Sumwar (5365) */
-     , (0x77D6401A, 0x77D64022, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x77D6401A, 0x77D6403D, '2005-02-09 10:00:00') /* Small Creepy Statue (25992) */
-     , (0x77D6401A, 0x77D64043, '2005-02-09 10:00:00') /* Apprentice Alchemist (27741) */
-     , (0x77D6401A, 0x77D6404D, '2005-02-09 10:00:00') /* Mara al-Luq (5179) */
-     , (0x77D6401A, 0x77D6404E, '2005-02-09 10:00:00') /* Ma'yad ibn Ibsar (5366) */;
+VALUES (0x77D6401A, 0x77D64019, '2021-11-01 00:00:00') /* Akyafi ibn Sumwar (5365) */
+     , (0x77D6401A, 0x77D64022, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x77D6401A, 0x77D6403D, '2021-11-01 00:00:00') /* Small Creepy Statue (25992) */
+     , (0x77D6401A, 0x77D64043, '2021-11-01 00:00:00') /* Apprentice Alchemist (27741) */
+     , (0x77D6401A, 0x77D6404D, '2021-11-01 00:00:00') /* Mara al-Luq (5179) */
+     , (0x77D6401A, 0x77D6404E, '2021-11-01 00:00:00') /* Ma'yad ibn Ibsar (5366) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6401B,  8377, 0x7D640140, 91.3656, 58.5145, 12.9546, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Beer Keg */
@@ -149,11 +149,11 @@ VALUES (0x77D64026,  7923, 0x7D640000, 60.4073, 94.7986, 12.005, 0.753985, 0, 0,
 /* @teleloc 0x7D640000 [60.407299 94.798599 12.005000] 0.753985 0.000000 0.000000 0.656892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D64026, 0x77D6404F, '2005-02-09 10:00:00') /* Salvaging Forge (30461) */
-     , (0x77D64026, 0x77D64050, '2005-02-09 10:00:00') /* Alchemy Forge (30465) */
-     , (0x77D64026, 0x77D64051, '2005-02-09 10:00:00') /* Cooking Forge (30466) */
-     , (0x77D64026, 0x77D64052, '2005-02-09 10:00:00') /* Fletching Forge (30467) */
-     , (0x77D64026, 0x77D64053, '2005-02-09 10:00:00') /* Lockpick Forge (30460) */;
+VALUES (0x77D64026, 0x77D6404F, '2021-11-01 00:00:00') /* Salvaging Forge (30461) */
+     , (0x77D64026, 0x77D64050, '2021-11-01 00:00:00') /* Alchemy Forge (30465) */
+     , (0x77D64026, 0x77D64051, '2021-11-01 00:00:00') /* Cooking Forge (30466) */
+     , (0x77D64026, 0x77D64052, '2021-11-01 00:00:00') /* Fletching Forge (30467) */
+     , (0x77D64026, 0x77D64053, '2021-11-01 00:00:00') /* Lockpick Forge (30460) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6402A, 14930, 0x7D64014C, 91.4248, 35.7012, 12.005, -0.729114, 0, 0, -0.684392, False, '2021-11-01 00:00:00'); /* Wedding Planner */
@@ -260,17 +260,17 @@ VALUES (0x77D6405D,  3953, 0x7D640000, 74.9746, 103.29, 12.005, 0.342535, 0, 0, 
 /* @teleloc 0x7D640000 [74.974602 103.290001 12.005000] 0.342535 0.000000 0.000000 0.939505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6405D, 0x77D6405C, '2005-02-09 10:00:00');
+VALUES (0x77D6405D, 0x77D6405C, '2021-11-01 00:00:00');
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6405E,  1154, 0x7D640015, 64.5098, 102.84, 12.005, 0.645592, 0, 0, 0.763682, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x7D640015 [64.509804 102.839996 12.005000] 0.645592 0.000000 0.000000 0.763682 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6405E, 0x77D64060, '2019-02-19 06:17:23') /* Ghaziyah (44896) */
-     , (0x77D6405E, 0x77D64061, '2019-02-19 06:17:23') /* Pathwarden Qanara bint Qolosh (33616) */
-     , (0x77D6405E, 0x77D64062, '2019-02-19 06:17:23') /* A'shadieeyah (44892) */
-     , (0x77D6405E, 0x77D6406B, '2019-02-10 00:00:00') /* Nawaf (42721) */;
+VALUES (0x77D6405E, 0x77D64060, '2021-11-01 00:00:00') /* Ghaziyah (44896) */
+     , (0x77D6405E, 0x77D64061, '2021-11-01 00:00:00') /* Pathwarden Qanara bint Qolosh (33616) */
+     , (0x77D6405E, 0x77D64062, '2021-11-01 00:00:00') /* A'shadieeyah (44892) */
+     , (0x77D6405E, 0x77D6406B, '2021-11-01 00:00:00') /* Nawaf (42721) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6405F, 33610, 0x7D640015, 61, 105, 12, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Gharu'udim Pathwarden Chest */

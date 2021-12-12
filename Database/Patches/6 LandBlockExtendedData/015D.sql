@@ -17,8 +17,8 @@ VALUES (0x7015D003,  4145, 0x015D0103, 120, -20, -30, 1, 0, 0, 0, False, '2021-1
 /* @teleloc 0x015D0103 [120.000000 -20.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D003, 0x7015D005, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
-     , (0x7015D003, 0x7015D0B2, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x7015D003, 0x7015D005, '2021-11-01 00:00:00') /* Pressure Plate (2131) */
+     , (0x7015D003, 0x7015D0B2, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D004,  4999, 0x015D0103, 120, -20, -30, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chilly Air Level 3 */
@@ -41,8 +41,8 @@ VALUES (0x7015D008,  4145, 0x015D0106, 130, -10, -30, 0.707107, 0, 0, -0.707107,
 /* @teleloc 0x015D0106 [130.000000 -10.000000 -30.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D008, 0x7015D001, '2005-02-09 10:00:00') /* Button (269) */
-     , (0x7015D008, 0x7015D0C4, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x7015D008, 0x7015D001, '2021-11-01 00:00:00') /* Button (269) */
+     , (0x7015D008, 0x7015D0C4, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D009,  4999, 0x015D0106, 130, -10, -30, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Chilly Air Level 3 */
@@ -65,8 +65,8 @@ VALUES (0x7015D00D,  4145, 0x015D0109, 140, -20, -30, 0, 0, 0, -1, False, '2021-
 /* @teleloc 0x015D0109 [140.000000 -20.000000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D00D, 0x7015D00B, '2005-02-09 10:00:00') /* Button (269) */
-     , (0x7015D00D, 0x7015D0C7, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x7015D00D, 0x7015D00B, '2021-11-01 00:00:00') /* Button (269) */
+     , (0x7015D00D, 0x7015D0C7, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D00E,  5112, 0x015D010A, 140, -35, -30, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Magical Portal */
@@ -145,7 +145,7 @@ VALUES (0x7015D022,  4067, 0x015D0115, 180, -26, -29.067, 0.707107, 0, 0, -0.707
 /* @teleloc 0x015D0115 [180.000000 -26.000000 -29.066999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D022, 0x7015D021, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x7015D022, 0x7015D021, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D024,  4999, 0x015D0115, 180, -26, -30, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chilly Air Level 3 */
@@ -260,14 +260,14 @@ VALUES (0x7015D040,  4067, 0x015D0121, 205.203, -43.481, -27, 0, 0, 0, -1, False
 /* @teleloc 0x015D0121 [205.203003 -43.480999 -27.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D040, 0x7015D03D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x7015D040, 0x7015D03D, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D041,  4067, 0x015D0121, 205.206, -43.4392, -28.1035, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Frost Trap */
 /* @teleloc 0x015D0121 [205.205994 -43.439201 -28.103500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D041, 0x7015D03F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x7015D041, 0x7015D03F, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D042,  4999, 0x015D0121, 206, -39, -29.9, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chilly Air Level 3 */
@@ -790,26 +790,26 @@ VALUES (0x7015D0C9,  7923, 0x015D024D, 10.5617, -53.5662, 36, 0.707107, 0, 0, -0
 /* @teleloc 0x015D024D [10.561700 -53.566200 36.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D0C9, 0x7015D018, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D01D, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D03A, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D03B, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
-     , (0x7015D0C9, 0x7015D093, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0A2, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0AD, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0B4, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0BA, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0BB, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0BC, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0BD, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0BE, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0BF, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0C0, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0C1, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0C2, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0C3, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
-     , (0x7015D0C9, 0x7015D0C5, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
-     , (0x7015D0C9, 0x7015D0C6, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */;
+VALUES (0x7015D0C9, 0x7015D018, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D01D, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D03A, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D03B, '2021-11-01 00:00:00') /* Gelidite Acolyte (4984) */
+     , (0x7015D0C9, 0x7015D093, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0A2, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0AD, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0B4, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0BA, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0BB, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0BC, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0BD, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0BE, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0BF, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0C0, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0C1, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0C2, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0C3, '2021-11-01 00:00:00') /* Gelidite Acolyte (4984) */
+     , (0x7015D0C9, 0x7015D0C5, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0C9, 0x7015D0C6, '2021-11-01 00:00:00') /* Gelidite Initiate (4986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D0CB,  6049, 0x015D0251, 16.5708, -56.3716, 36, -0.976296, 0, 0, -0.216439, False, '2021-11-01 00:00:00'); /* Memorial */
@@ -824,8 +824,8 @@ VALUES (0x7015D0CD,  7923, 0x015D024D, 11.0716, -46.7407, 36.005, 1, 0, 0, 0, Fa
 /* @teleloc 0x015D024D [11.071600 -46.740700 36.005001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D0CD, 0x7015D014, '2005-02-09 10:00:00') /* Gelidite Lord (5868) */
-     , (0x7015D0CD, 0x7015D017, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */;
+VALUES (0x7015D0CD, 0x7015D014, '2021-11-01 00:00:00') /* Gelidite Lord (5868) */
+     , (0x7015D0CD, 0x7015D017, '2021-11-01 00:00:00') /* Gelidite Acolyte (4984) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D0CE, 43403, 0x015D0252, 28.8727, -43.1115, 36.0065, 0.368384, 0, 0, 0.929674, False, '2021-11-01 00:00:00'); /* Liam of Gelid */
@@ -836,8 +836,8 @@ VALUES (0x7015D0CF, 15759, 0x015D024F, 24.8842, -41.2833, 36.055, -0.120541, 0, 
 /* @teleloc 0x015D024F [24.884199 -41.283298 36.055000] -0.120541 0.000000 0.000000 -0.992708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D0CF, 0x7015D0D0, '2020-06-12 13:46:00') /* Dericost Token of the Aura of Retribution (43424) */
-     , (0x7015D0CF, 0x7015D0D1, '2020-06-12 13:46:28') /* Dericost Token of the Aura of Destruction (43426) */;
+VALUES (0x7015D0CF, 0x7015D0D0, '2021-11-01 00:00:00') /* Dericost Token of the Aura of Retribution (43424) */
+     , (0x7015D0CF, 0x7015D0D1, '2021-11-01 00:00:00') /* Dericost Token of the Aura of Destruction (43426) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D0D0, 43424, 0x015D0252, 27.4164, -42.2772, 37.0417, 0.345029, 0, 0, 0.938592,  True, '2021-11-01 00:00:00'); /* Dericost Token of the Aura of Retribution */

@@ -13,11 +13,11 @@ VALUES (0x70070003,  1154, 0x00700106, 16.7485, -2.75706, -35.9955, -0.305701, 0
 /* @teleloc 0x00700106 [16.748501 -2.757060 -35.995499] -0.305701 0.000000 0.000000 -0.952128 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70070003, 0x70070005, '2019-02-10 00:00:00') /* Harbinger (33231) */
-     , (0x70070003, 0x70070006, '2019-02-10 00:00:00') /* Child of Frost (32949) */
-     , (0x70070003, 0x70070007, '2019-02-10 00:00:00') /* Child of Acid (32947) */
-     , (0x70070003, 0x70070008, '2019-02-10 00:00:00') /* Child of Fire (32948) */
-     , (0x70070003, 0x70070009, '2019-02-10 00:00:00') /* Child of Lightning (32950) */;
+VALUES (0x70070003, 0x70070005, '2021-11-01 00:00:00') /* Harbinger (33231) */
+     , (0x70070003, 0x70070006, '2021-11-01 00:00:00') /* Child of Frost (32949) */
+     , (0x70070003, 0x70070007, '2021-11-01 00:00:00') /* Child of Acid (32947) */
+     , (0x70070003, 0x70070008, '2021-11-01 00:00:00') /* Child of Fire (32948) */
+     , (0x70070003, 0x70070009, '2021-11-01 00:00:00') /* Child of Lightning (32950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70070005, 33231, 0x00700101, 1.24262, -11.985, -35.985, -0.7736, 0, 0, 0.633674,  True, '2021-11-01 00:00:00'); /* Harbinger */
@@ -44,7 +44,7 @@ VALUES (0x700706A5,  1154, 0x00700101, -3.90521, -14.5094, -36, 0.702182, 0, 0, 
 /* @teleloc 0x00700101 [-3.905210 -14.509400 -36.000000] 0.702182 0.000000 0.000000 0.711998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700706A5, 0x700706A6, '2020-01-30 00:00:00') /* Exploration Marker (39843) */;
+VALUES (0x700706A5, 0x700706A6, '2021-11-01 00:00:00') /* Exploration Marker (39843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700706A6, 39843, 0x00700101, -3.90521, -14.5094, -36, 0.702182, 0, 0, 0.711998,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

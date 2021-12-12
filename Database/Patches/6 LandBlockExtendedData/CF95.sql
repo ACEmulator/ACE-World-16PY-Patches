@@ -13,7 +13,7 @@ VALUES (0x7CF95002,  7923, 0xCF950000, 158.841, 149.622, 20.005, -0.803664, 0, 0
 /* @teleloc 0xCF950000 [158.841003 149.621994 20.004999] -0.803664 0.000000 0.000000 0.595084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF95002, 0x7CF95001, '2005-02-09 10:00:00') /* Emissary of Asheron (19714) */;
+VALUES (0x7CF95002, 0x7CF95001, '2021-11-01 00:00:00') /* Emissary of Asheron (19714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF953EA, 33558, 0xCF950037, 161.523, 147.169, 19.937, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Asheron's Island */

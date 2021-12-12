@@ -33,35 +33,35 @@ VALUES (0x701E5009,  4095, 0x01E50105, 83.2688, -46.3129, -26.8301, 1, 0, 0, 0, 
 /* @teleloc 0x01E50105 [83.268799 -46.312901 -26.830099] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E5009, 0x701E5007, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
+VALUES (0x701E5009, 0x701E5007, '2021-11-01 00:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E500A,  4086, 0x01E50105, 83.5463, -46.4045, -27.4587, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x01E50105 [83.546303 -46.404499 -27.458700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E500A, 0x701E5005, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701E500A, 0x701E5005, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E500B,  4074, 0x01E50105, 76.9862, -46.3687, -27.4587, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x01E50105 [76.986198 -46.368698 -27.458700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E500B, 0x701E5006, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701E500B, 0x701E5006, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E500C,  4098, 0x01E50105, 76.5091, -46.5, -27.6995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x01E50105 [76.509102 -46.500000 -27.699499] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E500C, 0x701E5004, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701E500C, 0x701E5004, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E500D,  4092, 0x01E50105, 82.9838, -46.1005, -27.3651, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x01E50105 [82.983803 -46.100498 -27.365101] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E500D, 0x701E5008, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
+VALUES (0x701E500D, 0x701E5008, '2021-11-01 00:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E500E,  2131, 0x01E50105, 79.9535, -46.9048, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -72,7 +72,7 @@ VALUES (0x701E500F,  4080, 0x01E50105, 76.9199, -46.4031, -27.0308, 1, 0, 0, 0, 
 /* @teleloc 0x01E50105 [76.919899 -46.403099 -27.030800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E500F, 0x701E500E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701E500F, 0x701E500E, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E5010,  1987, 0x01E50106, 80, -60, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Ghost Wisp */
@@ -411,136 +411,136 @@ VALUES (0x701E50A7,  7924, 0x01E5020E, 80.9138, -70.6635, 0.005, 0.020795, 0, 0,
 /* @teleloc 0x01E5020E [80.913803 -70.663498 0.005000] 0.020795 0.000000 0.000000 -0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E50A7, 0x701E5000, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5010, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
-     , (0x701E50A7, 0x701E5011, '2005-02-09 10:00:00') /* Mosswart Overchief (1257) */
-     , (0x701E50A7, 0x701E5014, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5021, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E5037, '2005-02-09 10:00:00') /* Braggart Mosswart (1256) */
-     , (0x701E50A7, 0x701E504B, '2005-02-09 10:00:00') /* Drudge Slave Keyholder (1255) */
-     , (0x701E50A7, 0x701E504C, '2005-02-09 10:00:00') /* Personal note (2196) */
-     , (0x701E50A7, 0x701E5066, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E50A7, 0x701E5067, '2005-02-09 10:00:00') /* Mosswart Keeper (1259) */
-     , (0x701E50A7, 0x701E5068, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5073, '2005-02-09 10:00:00') /* Ravenous Mosswart (1258) */
-     , (0x701E50A7, 0x701E5077, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5078, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5079, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E507A, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E507B, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E507C, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E507D, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E507E, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E507F, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5080, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5081, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5082, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5083, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5084, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5085, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5086, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5088, '2005-02-09 10:00:00') /* Mosswart Chief (210) */
-     , (0x701E50A7, 0x701E5089, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E508A, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E508B, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E508C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E508D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E508E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E508F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E5090, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E5091, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E5092, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E5093, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E5094, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E5095, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E5096, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E5097, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E5098, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E5099, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E509A, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E509B, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E509C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E509D, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E509E, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E509F, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50A0, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50A1, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50A2, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50A4, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50A5, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50A9, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50AA, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50AB, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50AC, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50AE, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50AF, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50B0, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50B1, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50B2, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50B3, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50B4, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50B5, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50B6, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50B8, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50B9, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50BA, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50BC, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50BD, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50BE, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50BF, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50C0, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50C1, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50C2, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50C3, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50C5, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50C6, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50C7, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50C8, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50C9, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50CA, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50CB, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50CC, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50CD, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50CE, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50CF, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50D1, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50D2, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50D3, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50D4, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50D5, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50D6, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50D7, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50D8, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
-     , (0x701E50A7, 0x701E50D9, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50DB, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50DC, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50DD, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50DE, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50DF, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50E0, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50E1, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50E2, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50E3, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50E4, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x701E50A7, 0x701E50E5, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50E6, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E50A7, 0x701E50E7, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50E8, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50E9, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50EA, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50EB, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50EC, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E50A7, 0x701E50ED, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50EE, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E50A7, 0x701E50EF, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;
+VALUES (0x701E50A7, 0x701E5000, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5010, '2021-11-01 00:00:00') /* Ghost Wisp (1987) */
+     , (0x701E50A7, 0x701E5011, '2021-11-01 00:00:00') /* Mosswart Overchief (1257) */
+     , (0x701E50A7, 0x701E5014, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5021, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E5037, '2021-11-01 00:00:00') /* Braggart Mosswart (1256) */
+     , (0x701E50A7, 0x701E504B, '2021-11-01 00:00:00') /* Drudge Slave Keyholder (1255) */
+     , (0x701E50A7, 0x701E504C, '2021-11-01 00:00:00') /* Personal note (2196) */
+     , (0x701E50A7, 0x701E5066, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E50A7, 0x701E5067, '2021-11-01 00:00:00') /* Mosswart Keeper (1259) */
+     , (0x701E50A7, 0x701E5068, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5073, '2021-11-01 00:00:00') /* Ravenous Mosswart (1258) */
+     , (0x701E50A7, 0x701E5077, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5078, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5079, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E507A, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E507B, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E507C, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E507D, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E507E, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E507F, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5080, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5081, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5082, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5083, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5084, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5085, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5086, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5088, '2021-11-01 00:00:00') /* Mosswart Chief (210) */
+     , (0x701E50A7, 0x701E5089, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E508A, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E508B, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E508C, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E508D, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E508E, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E508F, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E5090, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E5091, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E5092, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E5093, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E5094, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E5095, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E5096, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E5097, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E5098, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E5099, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E509A, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E509B, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E509C, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E509D, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E509E, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E509F, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50A0, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50A1, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50A2, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50A4, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50A5, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50A9, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50AA, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50AB, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50AC, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50AE, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50AF, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50B0, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50B1, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50B2, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50B3, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50B4, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50B5, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50B6, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50B8, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50B9, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50BA, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50BC, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50BD, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50BE, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50BF, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50C0, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50C1, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50C2, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50C3, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50C5, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50C6, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50C7, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50C8, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50C9, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50CA, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50CB, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50CC, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50CD, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50CE, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50CF, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50D1, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50D2, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50D3, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50D4, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50D5, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50D6, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50D7, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50D8, '2021-11-01 00:00:00') /* Dark Wisp (1988) */
+     , (0x701E50A7, 0x701E50D9, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50DB, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50DC, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50DD, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50DE, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50DF, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50E0, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50E1, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50E2, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50E3, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50E4, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x701E50A7, 0x701E50E5, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50E6, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E50A7, 0x701E50E7, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50E8, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50E9, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50EA, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50EB, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50EC, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E50A7, 0x701E50ED, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50EE, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E50A7, 0x701E50EF, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E50A8, 15759, 0x01E5020E, 84.9561, -69.7898, 0.005, 0.020795, 0, 0, -0.999784, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x01E5020E [84.956100 -69.789803 0.005000] 0.020795 0.000000 0.000000 -0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E50A8, 0x701E503A, '2005-02-09 10:00:00') /* Piece of parchment (2194) */
-     , (0x701E50A8, 0x701E5058, '2005-02-09 10:00:00') /* Piece of parchment (2195) */;
+VALUES (0x701E50A8, 0x701E503A, '2021-11-01 00:00:00') /* Piece of parchment (2194) */
+     , (0x701E50A8, 0x701E5058, '2021-11-01 00:00:00') /* Piece of parchment (2195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E50A9,  1632, 0x01E50217, 90, -100, 0.0042, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Drudge Slave */

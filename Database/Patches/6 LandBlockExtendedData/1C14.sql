@@ -5,24 +5,24 @@ VALUES (0x71C14000,  3955, 0x1C140000, 159.318, 14.0563, 56.005, 0.051217, 0, 0,
 /* @teleloc 0x1C140000 [159.317993 14.056300 56.005001] 0.051217 0.000000 0.000000 0.998688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C14000, 0x71C14001, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14002, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14003, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14004, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14005, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14007, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14008, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
-     , (0x71C14000, 0x71C1400A, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
-     , (0x71C14000, 0x71C1400B, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x71C14000, 0x71C1400C, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x71C14000, 0x71C1400F, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71C14000, 0x71C14010, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14011, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14012, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14013, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
-     , (0x71C14000, 0x71C14014, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x71C14000, 0x71C14017, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
-     , (0x71C14000, 0x71C14019, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */;
+VALUES (0x71C14000, 0x71C14001, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14002, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14003, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14004, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14005, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14007, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14008, '2021-11-01 00:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71C14000, 0x71C1400A, '2021-11-01 00:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71C14000, 0x71C1400B, '2021-11-01 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C14000, 0x71C1400C, '2021-11-01 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C14000, 0x71C1400F, '2021-11-01 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71C14000, 0x71C14010, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14011, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14012, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14013, '2021-11-01 00:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71C14000, 0x71C14014, '2021-11-01 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C14000, 0x71C14017, '2021-11-01 00:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C14000, 0x71C14019, '2021-11-01 00:00:00') /* Withered Raider Justicar (30691) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C14001, 30686, 0x1C140000, 151.184, 22.8708, 56.0065, -0.99862, 0, 0, -0.052513,  True, '2021-11-01 00:00:00'); /* Withered Transcendent Tumerok */
@@ -101,7 +101,7 @@ VALUES (0x71C146A5,  1154, 0x1C140021, 97.3754, 22.4281, 56, 0.953973, 0, 0, 0.2
 /* @teleloc 0x1C140021 [97.375397 22.428101 56.000000] 0.953973 0.000000 0.000000 0.299891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C146A5, 0x71C146A6, '2020-01-30 00:00:00') /* Exploration Marker (39749) */;
+VALUES (0x71C146A5, 0x71C146A6, '2021-11-01 00:00:00') /* Exploration Marker (39749) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C146A6, 39749, 0x1C140021, 97.3754, 22.4281, 56, 0.953973, 0, 0, 0.299891,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

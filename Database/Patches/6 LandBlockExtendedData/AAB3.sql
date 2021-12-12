@@ -13,10 +13,10 @@ VALUES (0x7AAB3002,  7923, 0xAAB30100, 33.3675, 88.9636, 116.005, -0.871817, 0, 
 /* @teleloc 0xAAB30100 [33.367500 88.963600 116.004997] -0.871817 0.000000 0.000000 0.489832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB3002, 0x7AAB3001, '2005-02-09 10:00:00') /* Sir Rylanan (14413) */
-     , (0x7AAB3002, 0x7AAB3003, '2005-02-09 10:00:00') /* Sentry (14457) */
-     , (0x7AAB3002, 0x7AAB3004, '2005-02-09 10:00:00') /* Sentry (14458) */
-     , (0x7AAB3002, 0x7AAB300A, '2021-10-11 17:20:00') /* Royal Guard (33805) */;
+VALUES (0x7AAB3002, 0x7AAB3001, '2021-11-01 00:00:00') /* Sir Rylanan (14413) */
+     , (0x7AAB3002, 0x7AAB3003, '2021-11-01 00:00:00') /* Sentry (14457) */
+     , (0x7AAB3002, 0x7AAB3004, '2021-11-01 00:00:00') /* Sentry (14458) */
+     , (0x7AAB3002, 0x7AAB300A, '2021-11-01 00:00:00') /* Royal Guard (33805) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB3003, 14457, 0xAAB30000, 16.9439, 84.4401, 116.005, -0.719467, 0, 0, -0.694527,  True, '2021-11-01 00:00:00'); /* Sentry */
@@ -39,8 +39,8 @@ VALUES (0x7AAB3007,  7924, 0xAAB30000, 111.102, 60.4717, 127.205, -0.804254, 0, 
 /* @teleloc 0xAAB30000 [111.101997 60.471699 127.205002] -0.804254 0.000000 0.000000 0.594285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB3007, 0x7AAB3006, '2005-02-09 10:00:00') /* Sentry (12725) */
-     , (0x7AAB3007, 0x7AAB3008, '2005-02-09 10:00:00') /* Aun Kielerea (27268) */;
+VALUES (0x7AAB3007, 0x7AAB3006, '2021-11-01 00:00:00') /* Sentry (12725) */
+     , (0x7AAB3007, 0x7AAB3008, '2021-11-01 00:00:00') /* Aun Kielerea (27268) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB3008, 27268, 0xAAB30000, 33.1758, 82.3987, 124.805, 0.999938, 0, 0, -0.01112,  True, '2021-11-01 00:00:00'); /* Aun Kielerea */

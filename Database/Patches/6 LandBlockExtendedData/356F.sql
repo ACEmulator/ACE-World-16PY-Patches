@@ -21,11 +21,11 @@ VALUES (0x7356F004,  7924, 0x356F0000, 155.783, 65.1405, 36.005, 0.999951, 0, 0,
 /* @teleloc 0x356F0000 [155.783005 65.140503 36.005001] 0.999951 0.000000 0.000000 -0.009899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7356F004, 0x7356F000, '2005-02-09 10:00:00') /* Guruk Smasher (27989) */
-     , (0x7356F004, 0x7356F001, '2005-02-09 10:00:00') /* Guruk Smasher (27989) */
-     , (0x7356F004, 0x7356F002, '2005-02-09 10:00:00') /* Guruk Smasher (27989) */
-     , (0x7356F004, 0x7356F003, '2005-02-09 10:00:00') /* Guruk Smasher (27989) */
-     , (0x7356F004, 0x7356F005, '2005-02-09 10:00:00') /* Guardian (29217) */;
+VALUES (0x7356F004, 0x7356F000, '2021-11-01 00:00:00') /* Guruk Smasher (27989) */
+     , (0x7356F004, 0x7356F001, '2021-11-01 00:00:00') /* Guruk Smasher (27989) */
+     , (0x7356F004, 0x7356F002, '2021-11-01 00:00:00') /* Guruk Smasher (27989) */
+     , (0x7356F004, 0x7356F003, '2021-11-01 00:00:00') /* Guruk Smasher (27989) */
+     , (0x7356F004, 0x7356F005, '2021-11-01 00:00:00') /* Guardian (29217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7356F005, 29217, 0x356F010A, 155, 76, 13.805, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Guardian */
@@ -40,7 +40,7 @@ VALUES (0x7356F6A5,  1154, 0x356F0034, 155.968, 83.9982, 45.06, 0.999632, 0, 0, 
 /* @teleloc 0x356F0034 [155.968002 83.998199 45.060001] 0.999632 0.000000 0.000000 -0.027123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7356F6A5, 0x7356F6A6, '2020-01-30 00:00:00') /* Exploration Marker (39754) */;
+VALUES (0x7356F6A5, 0x7356F6A6, '2021-11-01 00:00:00') /* Exploration Marker (39754) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7356F6A6, 39754, 0x356F0034, 155.968, 83.9982, 45.06, 0.999632, 0, 0, -0.027123,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

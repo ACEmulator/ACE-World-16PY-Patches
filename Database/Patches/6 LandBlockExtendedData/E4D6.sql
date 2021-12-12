@@ -25,8 +25,8 @@ VALUES (0x7E4D6005,  1154, 0xE4D60107, 76.1942, 54.6066, 7.205, 0.215785, 0, 0, 
 /* @teleloc 0xE4D60107 [76.194199 54.606602 7.205000] 0.215785 0.000000 0.000000 -0.976441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D6005, 0x7E4D6006, '2021-05-24 00:00:00') /* Mayor Trenlach (43753) */
-     , (0x7E4D6005, 0x7E4D6007, '2021-05-24 00:00:00') /* Kaneth al-Evv (43752) */;
+VALUES (0x7E4D6005, 0x7E4D6006, '2021-11-01 00:00:00') /* Mayor Trenlach (43753) */
+     , (0x7E4D6005, 0x7E4D6007, '2021-11-01 00:00:00') /* Kaneth al-Evv (43752) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D6006, 43753, 0xE4D6010F, 36.398, 64.6731, 8.005, 0.839653, 0, 0, -0.543123,  True, '2021-11-01 00:00:00'); /* Mayor Trenlach */
@@ -41,33 +41,33 @@ VALUES (0x7E4D6008,  1154, 0xE4D6010F, 36.398, 64.6731, 8.005, 0.839653, 0, 0, -
 /* @teleloc 0xE4D6010F [36.397999 64.673103 8.005000] 0.839653 0.000000 0.000000 -0.543123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D6008, 0x7E4D6015, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D6016, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D6017, '2021-05-24 00:00:00') /* Banderling Smasher (43488) */
-     , (0x7E4D6008, 0x7E4D6018, '2021-05-24 00:00:00') /* Banderling Crusher (43485) */
-     , (0x7E4D6008, 0x7E4D6019, '2021-05-24 00:00:00') /* Grievver Violator (43487) */
-     , (0x7E4D6008, 0x7E4D601A, '2021-05-24 00:00:00') /* Banderling Crusher (43485) */
-     , (0x7E4D6008, 0x7E4D601B, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D601C, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D601D, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D601E, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D601F, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D6020, '2021-05-24 00:00:00') /* Banderling Crusher (43485) */
-     , (0x7E4D6008, 0x7E4D6021, '2021-05-24 00:00:00') /* Grievver Violator (43487) */
-     , (0x7E4D6008, 0x7E4D6022, '2021-05-24 00:00:00') /* Burrowing Grievver (43486) */
-     , (0x7E4D6008, 0x7E4D6023, '2021-05-24 00:00:00') /* Grievver Violator (43487) */
-     , (0x7E4D6008, 0x7E4D6024, '2021-05-24 00:00:00') /* Banderling Crusher (43485) */
-     , (0x7E4D6008, 0x7E4D6025, '2021-05-24 00:00:00') /* Grievver Violator (43487) */
-     , (0x7E4D6008, 0x7E4D6026, '2021-05-24 00:00:00') /* Black Coral Golem (40289) */
-     , (0x7E4D6008, 0x7E4D6027, '2021-05-24 00:00:00') /* Maguth Moarsman (40479) */
-     , (0x7E4D6008, 0x7E4D6028, '2021-05-24 00:00:00') /* Aggressive Swarm (31849) */
-     , (0x7E4D6008, 0x7E4D6029, '2021-05-24 00:00:00') /* Maguth Moarsman (40479) */
-     , (0x7E4D6008, 0x7E4D602A, '2021-05-24 00:00:00') /* Maguth Moarsman (40479) */
-     , (0x7E4D6008, 0x7E4D602B, '2021-05-24 00:00:00') /* Sand Lurker (40471) */
-     , (0x7E4D6008, 0x7E4D602C, '2021-05-24 00:00:00') /* Aggressive Swarm (31849) */
-     , (0x7E4D6008, 0x7E4D602D, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D602E, '2021-05-24 00:00:00') /* Townsperson (43688) */
-     , (0x7E4D6008, 0x7E4D602F, '2021-05-24 00:00:00') /* Townsperson (43688) */;
+VALUES (0x7E4D6008, 0x7E4D6015, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D6016, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D6017, '2021-11-01 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D6008, 0x7E4D6018, '2021-11-01 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6008, 0x7E4D6019, '2021-11-01 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6008, 0x7E4D601A, '2021-11-01 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6008, 0x7E4D601B, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D601C, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D601D, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D601E, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D601F, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D6020, '2021-11-01 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6008, 0x7E4D6021, '2021-11-01 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6008, 0x7E4D6022, '2021-11-01 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D6008, 0x7E4D6023, '2021-11-01 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6008, 0x7E4D6024, '2021-11-01 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6008, 0x7E4D6025, '2021-11-01 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6008, 0x7E4D6026, '2021-11-01 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D6008, 0x7E4D6027, '2021-11-01 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D6008, 0x7E4D6028, '2021-11-01 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D6008, 0x7E4D6029, '2021-11-01 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D6008, 0x7E4D602A, '2021-11-01 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D6008, 0x7E4D602B, '2021-11-01 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D6008, 0x7E4D602C, '2021-11-01 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D6008, 0x7E4D602D, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D602E, '2021-11-01 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6008, 0x7E4D602F, '2021-11-01 00:00:00') /* Townsperson (43688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D6015, 43688, 0xE4D60116, 42.8238, 82.3039, 7.205, 0.10406, 0, 0, 0.994571,  True, '2021-11-01 00:00:00'); /* Townsperson */

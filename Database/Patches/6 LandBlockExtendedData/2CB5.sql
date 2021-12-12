@@ -33,10 +33,10 @@ VALUES (0x72CB5007,  5086, 0x2CB50106, 29.9541, 92.8776, 4.405, 0.919408, 0, 0, 
 /* @teleloc 0x2CB50106 [29.954100 92.877602 4.405000] 0.919408 0.000000 0.000000 0.393306 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CB5007, 0x72CB5006, '2005-02-09 10:00:00') /* Shalon ibn Mayar the Collector (11346) */
-     , (0x72CB5007, 0x72CB5008, '2005-02-09 10:00:00') /* Mazur ibn Stounis (10866) */
-     , (0x72CB5007, 0x72CB5009, '2005-02-09 10:00:00')
-     , (0x72CB5007, 0x72CB500D, '2005-02-09 10:00:00') /* Balarazo (28258) */;
+VALUES (0x72CB5007, 0x72CB5006, '2021-11-01 00:00:00') /* Shalon ibn Mayar the Collector (11346) */
+     , (0x72CB5007, 0x72CB5008, '2021-11-01 00:00:00') /* Mazur ibn Stounis (10866) */
+     , (0x72CB5007, 0x72CB5009, '2021-11-01 00:00:00')
+     , (0x72CB5007, 0x72CB500D, '2021-11-01 00:00:00') /* Balarazo (28258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CB5008, 10866, 0x2CB50000, 6.04761, 23.4479, 0.005, 0.980902, 0, 0, 0.194504,  True, '2021-11-01 00:00:00'); /* Mazur ibn Stounis */

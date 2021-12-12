@@ -5,115 +5,115 @@ VALUES (0x700F13E8,  7932, 0x00F10625, 107.273, -146.994, 0.005, 0.354613, 0, 0,
 /* @teleloc 0x00F10625 [107.273003 -146.994003 0.005000] 0.354613 0.000000 0.000000 -0.935013 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F13E8, 0x700F1455, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F1456, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1457, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1458, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F1459, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F145A, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F145B, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F145C, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F145D, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F145E, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F145F, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F1460, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1461, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1462, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F1463, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F1464, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F1465, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F1466, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F1467, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F1468, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1469, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F146A, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F146B, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F146C, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F146D, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F146E, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F146F, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1470, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1471, '2019-04-08 08:19:56') /* Wretched (25665) */
-     , (0x700F13E8, 0x700F1472, '2019-04-08 08:19:56') /* Wretched (25665) */
-     , (0x700F13E8, 0x700F1473, '2019-04-08 08:19:56') /* Abyssal Child (27284) */
-     , (0x700F13E8, 0x700F1474, '2019-04-08 08:19:56') /* Abyssal Child (27284) */
-     , (0x700F13E8, 0x700F1475, '2019-04-08 08:19:56') /* Void Knight (25663) */
-     , (0x700F13E8, 0x700F1476, '2019-04-08 08:19:56') /* Void Knight (25663) */
-     , (0x700F13E8, 0x700F1477, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1478, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1479, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F147A, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F147B, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F147C, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F147D, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F147E, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F147F, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F1480, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F1481, '2019-04-08 08:19:56') /* Wretched (25665) */
-     , (0x700F13E8, 0x700F1482, '2019-04-08 08:19:56') /* Biaka (25859) */
-     , (0x700F13E8, 0x700F1483, '2019-04-08 08:19:56') /* Small Shadow Child (6535) */
-     , (0x700F13E8, 0x700F1484, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1485, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F1486, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F1487, '2019-04-08 08:19:56') /* Wretched (25665) */
-     , (0x700F13E8, 0x700F1488, '2019-04-08 08:19:56') /* Biaka (25859) */
-     , (0x700F13E8, 0x700F1489, '2019-04-08 08:19:56') /* Small Shadow Child (6535) */
-     , (0x700F13E8, 0x700F148A, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F148B, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F148C, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F148D, '2019-04-08 08:19:56') /* Biaka (25859) */
-     , (0x700F13E8, 0x700F148E, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F148F, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F1490, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F1491, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F1492, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1493, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1494, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F1495, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1496, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F1497, '2019-04-08 08:19:56') /* Biaka (25859) */
-     , (0x700F13E8, 0x700F1498, '2019-04-08 08:19:56') /* Void Knight (25663) */
-     , (0x700F13E8, 0x700F1499, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F149A, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F149B, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F149C, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F149D, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F149E, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F149F, '2019-04-08 08:19:56') /* Hellion (25863) */
-     , (0x700F13E8, 0x700F14A0, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F14A1, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F14A2, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14A3, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14A4, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14A5, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14A6, '2019-04-08 08:19:56') /* Wretched (25665) */
-     , (0x700F13E8, 0x700F14A7, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14A8, '2019-04-08 08:19:56') /* Wretched (25665) */
-     , (0x700F13E8, 0x700F14A9, '2019-04-08 08:19:56') /* Raven Augur (31402) */
-     , (0x700F13E8, 0x700F14AA, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F14AB, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F14AC, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F14AD, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F14AE, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F14AF, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14B0, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14B1, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14B2, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14B3, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14B4, '2019-04-08 08:19:56') /* Penumbral Horror (31398) */
-     , (0x700F13E8, 0x700F14B5, '2019-04-08 08:19:56') /* Raven Hunter (31405) */
-     , (0x700F13E8, 0x700F14B6, '2019-04-08 08:19:56') /* Raven Conscript (31400) */
-     , (0x700F13E8, 0x700F14B7, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F14B8, '2019-04-08 08:19:56') /* Obsidian Sentient Fragment (31418) */
-     , (0x700F13E8, 0x700F14B9, '2019-04-08 08:19:56') /* High Archon Kraest (31718) */;
+VALUES (0x700F13E8, 0x700F1455, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F1456, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1457, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1458, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F1459, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F145A, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F145B, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F145C, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F145D, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F145E, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F145F, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F1460, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1461, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1462, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F1463, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F1464, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F1465, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F1466, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F1467, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F1468, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1469, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F146A, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F146B, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F146C, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F146D, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F146E, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F146F, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1470, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1471, '2021-11-01 00:00:00') /* Wretched (25665) */
+     , (0x700F13E8, 0x700F1472, '2021-11-01 00:00:00') /* Wretched (25665) */
+     , (0x700F13E8, 0x700F1473, '2021-11-01 00:00:00') /* Abyssal Child (27284) */
+     , (0x700F13E8, 0x700F1474, '2021-11-01 00:00:00') /* Abyssal Child (27284) */
+     , (0x700F13E8, 0x700F1475, '2021-11-01 00:00:00') /* Void Knight (25663) */
+     , (0x700F13E8, 0x700F1476, '2021-11-01 00:00:00') /* Void Knight (25663) */
+     , (0x700F13E8, 0x700F1477, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1478, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1479, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F147A, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F147B, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F147C, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F147D, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F147E, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F147F, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F1480, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F1481, '2021-11-01 00:00:00') /* Wretched (25665) */
+     , (0x700F13E8, 0x700F1482, '2021-11-01 00:00:00') /* Biaka (25859) */
+     , (0x700F13E8, 0x700F1483, '2021-11-01 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F13E8, 0x700F1484, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1485, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F1486, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F1487, '2021-11-01 00:00:00') /* Wretched (25665) */
+     , (0x700F13E8, 0x700F1488, '2021-11-01 00:00:00') /* Biaka (25859) */
+     , (0x700F13E8, 0x700F1489, '2021-11-01 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F13E8, 0x700F148A, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F148B, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F148C, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F148D, '2021-11-01 00:00:00') /* Biaka (25859) */
+     , (0x700F13E8, 0x700F148E, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F148F, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F1490, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F1491, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F1492, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1493, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1494, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F1495, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1496, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F1497, '2021-11-01 00:00:00') /* Biaka (25859) */
+     , (0x700F13E8, 0x700F1498, '2021-11-01 00:00:00') /* Void Knight (25663) */
+     , (0x700F13E8, 0x700F1499, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F149A, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F149B, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F149C, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F149D, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F149E, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F149F, '2021-11-01 00:00:00') /* Hellion (25863) */
+     , (0x700F13E8, 0x700F14A0, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F14A1, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F14A2, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14A3, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14A4, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14A5, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14A6, '2021-11-01 00:00:00') /* Wretched (25665) */
+     , (0x700F13E8, 0x700F14A7, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14A8, '2021-11-01 00:00:00') /* Wretched (25665) */
+     , (0x700F13E8, 0x700F14A9, '2021-11-01 00:00:00') /* Raven Augur (31402) */
+     , (0x700F13E8, 0x700F14AA, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F14AB, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F14AC, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F14AD, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F14AE, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F14AF, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14B0, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14B1, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14B2, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14B3, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14B4, '2021-11-01 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F13E8, 0x700F14B5, '2021-11-01 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F13E8, 0x700F14B6, '2021-11-01 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F13E8, 0x700F14B7, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F14B8, '2021-11-01 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F13E8, 0x700F14B9, '2021-11-01 00:00:00') /* High Archon Kraest (31718) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F13E9, 15759, 0x00F10151, 116.974, -124.011, -71.995, -0.994995, 0, 0, 0.099924, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x00F10151 [116.973999 -124.011002 -71.995003] -0.994995 0.000000 0.000000 0.099924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F13E9, 0x700F1453, '2019-04-08 08:19:56') /* Unreadable Dericost Tome (31412) */
-     , (0x700F13E9, 0x700F1454, '2019-04-08 08:19:56') /* Journal of High Archon Kraest (31414) */;
+VALUES (0x700F13E9, 0x700F1453, '2021-11-01 00:00:00') /* Unreadable Dericost Tome (31412) */
+     , (0x700F13E9, 0x700F1454, '2021-11-01 00:00:00') /* Journal of High Archon Kraest (31414) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F13EA, 31420, 0x00F1013F, 100, -150, -72.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
@@ -428,58 +428,58 @@ VALUES (0x700F1438,  2180, 0x00F105F5, 145.495, -90, -6, -0.707107, 0, 0, -0.707
 /* @teleloc 0x00F105F5 [145.494995 -90.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F1438, 0x700F1448, '2019-04-08 08:19:56') /* Lever (2609) */;
+VALUES (0x700F1438, 0x700F1448, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F1439,  2180, 0x00F10528, 74.108, -90, -6, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F10528 [74.108002 -90.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F1439, 0x700F1447, '2019-04-08 08:19:56') /* Lever (2609) */;
+VALUES (0x700F1439, 0x700F1447, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F143A,  4472, 0x00F101DB, 114.74, -40, -42, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F101DB [114.739998 -40.000000 -42.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F143A, 0x700F1449, '2019-04-08 08:19:56') /* Lever (2609) */
-     , (0x700F143A, 0x700F144E, '2019-04-08 08:19:56') /* Lever (285) */;
+VALUES (0x700F143A, 0x700F1449, '2021-11-01 00:00:00') /* Lever (2609) */
+     , (0x700F143A, 0x700F144E, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F143B,  2180, 0x00F101C9, 100, -44.757, -42, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F101C9 [100.000000 -44.757000 -42.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F143B, 0x700F144B, '2019-04-08 08:19:56') /* Lever (2609) */;
+VALUES (0x700F143B, 0x700F144B, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F143C,  2180, 0x00F101BA, 90, -44.7558, -42, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F101BA [90.000000 -44.755798 -42.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F143C, 0x700F144A, '2019-04-08 08:19:56') /* Lever (2609) */;
+VALUES (0x700F143C, 0x700F144A, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F143D,  2180, 0x00F101D0, 100, -75.257, -42, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F101D0 [100.000000 -75.257004 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F143D, 0x700F1451, '2019-04-08 08:19:56') /* Lever (2609) */;
+VALUES (0x700F143D, 0x700F1451, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F143E,  4472, 0x00F101E3, 112.982, -80, -42, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F101E3 [112.982002 -80.000000 -42.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F143E, 0x700F144F, '2019-04-08 08:19:56') /* Lever (285) */
-     , (0x700F143E, 0x700F1450, '2019-04-08 08:19:56') /* Lever (2609) */;
+VALUES (0x700F143E, 0x700F144F, '2021-11-01 00:00:00') /* Lever (285) */
+     , (0x700F143E, 0x700F1450, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F143F,  2180, 0x00F101BF, 90, -75.2558, -42, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F101BF [90.000000 -75.255798 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F143F, 0x700F1452, '2019-04-08 08:19:56') /* Lever (2609) */;
+VALUES (0x700F143F, 0x700F1452, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F1440,  5625, 0x00F10150, 115.251, -110, -72, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -974,7 +974,7 @@ VALUES (0x700F16A5,  1154, 0x00F1012D, 93.653, -146.317, -72, 0.934063, 0, 0, -0
 /* @teleloc 0x00F1012D [93.653000 -146.317001 -72.000000] 0.934063 0.000000 0.000000 -0.357109 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F16A5, 0x700F16A6, '2020-01-30 00:00:00') /* Exploration Marker (39808) */;
+VALUES (0x700F16A5, 0x700F16A6, '2021-11-01 00:00:00') /* Exploration Marker (39808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F16A6, 39808, 0x00F1012D, 93.653, -146.317, -72, 0.934063, 0, 0, -0.357109,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

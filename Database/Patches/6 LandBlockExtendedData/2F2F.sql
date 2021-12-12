@@ -169,7 +169,7 @@ VALUES (0x72F2F03D,  7924, 0x2F2F002B, 143.322, 60.215, 146.052, -0.999267, 0, 0
 /* @teleloc 0x2F2F002B [143.322006 60.215000 146.052002] -0.999267 0.000000 0.000000 -0.038286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2F03D, 0x72F2F03E, '2020-11-16 07:48:37') /* AerbaxPortal Controller (87062) */;
+VALUES (0x72F2F03D, 0x72F2F03E, '2021-11-01 00:00:00') /* AerbaxPortal Controller (87062) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F03E, 87062, 0x2F2F002B, 142.989, 56.1849, 146.002, -0.999326, 0, 0, 0.036696,  True, '2021-11-01 00:00:00'); /* AerbaxPortal Controller */
@@ -404,8 +404,8 @@ VALUES (0x72F2F6A5,  1154, 0x2F2F002C, 126.494, 75.0148, 2, -0.043259, 0, 0, -0.
 /* @teleloc 0x2F2F002C [126.494003 75.014801 2.000000] -0.043259 0.000000 0.000000 -0.999064 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2F6A5, 0x72F2F6A6, '2020-01-30 00:00:00') /* Exploration Marker (39787) */
-     , (0x72F2F6A5, 0x72F2F6A7, '2020-01-30 00:00:00') /* Exploration Marker (39840) */;
+VALUES (0x72F2F6A5, 0x72F2F6A6, '2021-11-01 00:00:00') /* Exploration Marker (39787) */
+     , (0x72F2F6A5, 0x72F2F6A7, '2021-11-01 00:00:00') /* Exploration Marker (39840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F6A6, 39787, 0x2F2F002C, 126.494, 75.0148, 2, -0.043259, 0, 0, -0.999064,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

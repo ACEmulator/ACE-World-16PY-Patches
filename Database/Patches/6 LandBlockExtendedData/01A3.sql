@@ -69,18 +69,18 @@ VALUES (0x701A3010,  1154, 0x01A30133, 19.8738, -10.8065, -102, 0, 0, 0, -1, Fal
 /* @teleloc 0x01A30133 [19.873800 -10.806500 -102.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A3010, 0x701A3005, '2005-02-09 10:00:00') /* Phantasm (24325) */
-     , (0x701A3010, 0x701A3006, '2005-02-09 10:00:00') /* Phantasm (24325) */
-     , (0x701A3010, 0x701A3009, '2005-02-09 10:00:00') /* Skeletal Hero (24315) */
-     , (0x701A3010, 0x701A300A, '2005-02-09 10:00:00') /* Skeletal Hero (24315) */
-     , (0x701A3010, 0x701A300D, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3010, 0x701A300E, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3010, 0x701A3011, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3010, 0x701A3012, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3010, 0x701A3013, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3010, 0x701A3014, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3010, 0x701A3016, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3010, 0x701A3017, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */;
+VALUES (0x701A3010, 0x701A3005, '2021-11-01 00:00:00') /* Phantasm (24325) */
+     , (0x701A3010, 0x701A3006, '2021-11-01 00:00:00') /* Phantasm (24325) */
+     , (0x701A3010, 0x701A3009, '2021-11-01 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A3010, 0x701A300A, '2021-11-01 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A3010, 0x701A300D, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3010, 0x701A300E, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3010, 0x701A3011, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3010, 0x701A3012, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3010, 0x701A3013, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3010, 0x701A3014, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3010, 0x701A3016, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3010, 0x701A3017, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3011, 24313, 0x01A30138, 29.1408, -30.3184, -101.997, 0.006763, 0, 0, -0.999977,  True, '2021-11-01 00:00:00'); /* Armored Skeleton */
@@ -151,16 +151,16 @@ VALUES (0x701A3021,  1154, 0x01A3017D, 47.7777, -53.0972, -90, 0.942641, 0, 0, -
 /* @teleloc 0x01A3017D [47.777699 -53.097198 -90.000000] 0.942641 0.000000 0.000000 -0.333807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A3021, 0x701A3001, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A3021, 0x701A3002, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A3021, 0x701A3003, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A3021, 0x701A301A, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3021, 0x701A301B, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3021, 0x701A301C, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3021, 0x701A301D, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3021, 0x701A301E, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3021, 0x701A301F, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A3021, 0x701A3020, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
+VALUES (0x701A3021, 0x701A3001, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A3021, 0x701A3002, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A3021, 0x701A3003, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A3021, 0x701A301A, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3021, 0x701A301B, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3021, 0x701A301C, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3021, 0x701A301D, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3021, 0x701A301E, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3021, 0x701A301F, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A3021, 0x701A3020, '2021-11-01 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3022,  1922, 0x01A30184, 39.2968, -16.8493, -84, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Chest */
@@ -231,31 +231,31 @@ VALUES (0x701A3032,  1154, 0x01A30192, 50, -30, -84, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x01A30192 [50.000000 -30.000000 -84.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A3032, 0x701A3023, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3032, 0x701A3024, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3032, 0x701A3025, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3032, 0x701A3026, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3032, 0x701A3028, '2005-02-09 10:00:00') /* Skeletal Hero (24315) */
-     , (0x701A3032, 0x701A3029, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3032, 0x701A302A, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3032, 0x701A302B, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A3032, 0x701A302E, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A302F, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A3030, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A3031, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A3033, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A3034, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A3035, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3032, 0x701A3036, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3032, 0x701A3038, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A3039, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A303A, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A303B, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A303C, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A303D, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A303E, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A303F, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3032, 0x701A3040, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */;
+VALUES (0x701A3032, 0x701A3023, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3032, 0x701A3024, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3032, 0x701A3025, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3032, 0x701A3026, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3032, 0x701A3028, '2021-11-01 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A3032, 0x701A3029, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3032, 0x701A302A, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3032, 0x701A302B, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A3032, 0x701A302E, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A302F, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A3030, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A3031, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A3033, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A3034, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A3035, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3032, 0x701A3036, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3032, 0x701A3038, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A3039, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A303A, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A303B, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A303C, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A303D, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A303E, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A303F, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3032, 0x701A3040, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3033, 24291, 0x01A301AC, 66.6701, -37.8161, -77.996, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Merciless Monouga */
@@ -370,31 +370,31 @@ VALUES (0x701A304E,  1154, 0x01A301F1, 82.5394, -29.6157, -60, -0.707107, 0, 0, 
 /* @teleloc 0x01A301F1 [82.539398 -29.615700 -60.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A304E, 0x701A3041, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3042, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3043, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3044, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3045, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3046, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A304E, 0x701A3047, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A304E, 0x701A3048, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3049, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A304A, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A304C, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A304E, 0x701A304D, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A304E, 0x701A3050, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A304E, 0x701A3051, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A304E, 0x701A3052, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A304E, 0x701A3053, '2005-02-09 10:00:00') /* Direland Rat (24310) */
-     , (0x701A304E, 0x701A3059, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A305C, '2005-02-09 10:00:00') /* Skeletal Hero (24315) */
-     , (0x701A304E, 0x701A305D, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
-     , (0x701A304E, 0x701A305F, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3060, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3061, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3062, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A304E, 0x701A3063, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A304E, 0x701A3064, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */;
+VALUES (0x701A304E, 0x701A3041, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3042, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3043, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3044, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3045, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3046, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A304E, 0x701A3047, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A304E, 0x701A3048, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3049, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A304A, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A304C, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A304E, 0x701A304D, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A304E, 0x701A3050, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A304E, 0x701A3051, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A304E, 0x701A3052, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A304E, 0x701A3053, '2021-11-01 00:00:00') /* Direland Rat (24310) */
+     , (0x701A304E, 0x701A3059, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A305C, '2021-11-01 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A304E, 0x701A305D, '2021-11-01 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A304E, 0x701A305F, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3060, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3061, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3062, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A304E, 0x701A3063, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A304E, 0x701A3064, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A304F,  1301, 0x01A301F4, 75.25, -30, -60, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -537,23 +537,23 @@ VALUES (0x701A3071,  1154, 0x01A30245, 70, -30, -42, 0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x01A30245 [70.000000 -30.000000 -42.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A3071, 0x701A3068, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3071, 0x701A3069, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3071, 0x701A306A, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A306B, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A306C, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3071, 0x701A306D, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A306E, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
-     , (0x701A3071, 0x701A3072, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3071, 0x701A3073, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3071, 0x701A3074, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3071, 0x701A3075, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A3076, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A3077, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A3078, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A3079, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A307A, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A3071, 0x701A307B, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */;
+VALUES (0x701A3071, 0x701A3068, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3071, 0x701A3069, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3071, 0x701A306A, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A306B, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A306C, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3071, 0x701A306D, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A306E, '2021-11-01 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A3071, 0x701A3072, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3071, 0x701A3073, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3071, 0x701A3074, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3071, 0x701A3075, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A3076, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A3077, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A3078, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A3079, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A307A, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A3071, 0x701A307B, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3072, 24287, 0x01A3024A, 79.5078, -38.7385, -41.996, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bloodthirsty Monouga */
@@ -604,19 +604,19 @@ VALUES (0x701A307D,  1154, 0x01A3029F, 20, -70, -12, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x01A3029F [20.000000 -70.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A307D, 0x701A307C, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A307E, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A307D, 0x701A307F, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A3080, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A3081, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A307D, 0x701A3082, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A307D, 0x701A3085, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A3086, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A3087, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A3088, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A3089, '2005-02-09 10:00:00') /* Pugnacious Monouga (24292) */
-     , (0x701A307D, 0x701A308A, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A307D, 0x701A308C, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */;
+VALUES (0x701A307D, 0x701A307C, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A307E, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A307D, 0x701A307F, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A3080, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A3081, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A307D, 0x701A3082, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A307D, 0x701A3085, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A3086, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A3087, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A3088, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A3089, '2021-11-01 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A307D, 0x701A308A, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A307D, 0x701A308C, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A307E, 24287, 0x01A302A4, 31.8608, -57.4318, -11.996, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bloodthirsty Monouga */
@@ -699,19 +699,19 @@ VALUES (0x701A3091,  1154, 0x01A302D7, 80, -30, -12, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x01A302D7 [80.000000 -30.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A3091, 0x701A308D, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A308E, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A308F, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3090, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3093, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3094, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3095, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3096, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3097, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3098, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A3099, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A309A, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */
-     , (0x701A3091, 0x701A309B, '2005-02-09 10:00:00') /* Bloodthirsty Monouga (24287) */;
+VALUES (0x701A3091, 0x701A308D, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A308E, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A308F, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3090, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3093, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3094, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3095, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3096, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3097, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3098, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A3099, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A309A, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A3091, 0x701A309B, '2021-11-01 00:00:00') /* Bloodthirsty Monouga (24287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3092,  3629, 0x01A302ED, 30, -30, 0, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */
@@ -766,14 +766,14 @@ VALUES (0x701A309E, 15759, 0x01A3012E, 2.00304, -19.297, -101.995, 0.996668, 0, 
 /* @teleloc 0x01A3012E [2.003040 -19.297001 -101.995003] 0.996668 0.000000 0.000000 0.081570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A309E, 0x701A309D, '2005-02-09 10:00:00') /* Suzuhara Baijin's Care Package (30399) */;
+VALUES (0x701A309E, 0x701A309D, '2021-11-01 00:00:00') /* Suzuhara Baijin's Care Package (30399) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A36A5,  1154, 0x01A3012B, 63.723, -63.6771, -108, 0.385543, 0, 0, -0.92269, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01A3012B [63.723000 -63.677101 -108.000000] 0.385543 0.000000 0.000000 -0.922690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A36A5, 0x701A36A6, '2020-01-30 00:00:00') /* Exploration Marker (39806) */;
+VALUES (0x701A36A5, 0x701A36A6, '2021-11-01 00:00:00') /* Exploration Marker (39806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A36A6, 39806, 0x01A3012B, 63.723, -63.6771, -108, 0.385543, 0, 0, -0.92269,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

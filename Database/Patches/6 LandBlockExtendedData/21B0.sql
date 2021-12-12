@@ -101,10 +101,10 @@ VALUES (0x721B001A,  5085, 0x21B00118, 18.3353, 151.706, 4.405, -0.999922, 0, 0,
 /* @teleloc 0x21B00118 [18.335300 151.705994 4.405000] -0.999922 0.000000 0.000000 0.012480 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721B001A, 0x721B0014, '2005-02-09 10:00:00') /* Merlonna Farel the Collector (11345) */
-     , (0x721B001A, 0x721B0019, '2005-02-09 10:00:00') /* Aurten Rhell (25672) */
-     , (0x721B001A, 0x721B001C, '2005-02-09 10:00:00') /* Town Crier (5774) */
-     , (0x721B001A, 0x721B001D, '2005-02-09 10:00:00') /* Aun Arenura the Crafter (29858) */;
+VALUES (0x721B001A, 0x721B0014, '2021-11-01 00:00:00') /* Merlonna Farel the Collector (11345) */
+     , (0x721B001A, 0x721B0019, '2021-11-01 00:00:00') /* Aurten Rhell (25672) */
+     , (0x721B001A, 0x721B001C, '2021-11-01 00:00:00') /* Town Crier (5774) */
+     , (0x721B001A, 0x721B001D, '2021-11-01 00:00:00') /* Aun Arenura the Crafter (29858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721B001B,   509, 0x21B00000, 50.6199, 116.939, 0.005, -0.000097, 0, 0, 1, False, '2021-11-01 00:00:00'); /* Life Stone */

@@ -189,8 +189,8 @@ VALUES (0x7A1A4034,  7923, 0xA1A40000, 76.5484, 44.2252, 66.005, 0.648727, 0, 0,
 /* @teleloc 0xA1A40000 [76.548401 44.225201 66.004997] 0.648727 0.000000 0.000000 -0.761021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A4034, 0x7A1A4057, '2005-02-09 10:00:00') /* Sword of Frozen Fury (24067) */
-     , (0x7A1A4034, 0x7A1A4065, '2005-02-09 10:00:00') /* Apprentice Cook (28185) */;
+VALUES (0x7A1A4034, 0x7A1A4057, '2021-11-01 00:00:00') /* Sword of Frozen Fury (24067) */
+     , (0x7A1A4034, 0x7A1A4065, '2021-11-01 00:00:00') /* Apprentice Cook (28185) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A4035,  7923, 0xA1A40000, 41.1208, 125.941, 50.005, -0.020619, 0, 0, 0.999787, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */
@@ -237,9 +237,9 @@ VALUES (0x7A1A4050,  7925, 0xA1A40165, 83.6237, 85.655, 55.705, -0.012127, 0, 0,
 /* @teleloc 0xA1A40165 [83.623703 85.654999 55.705002] -0.012127 0.000000 0.000000 -0.999926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A4050, 0x7A1A404D, '2005-02-09 10:00:00') /* Tiffany Comfore (22074) */
-     , (0x7A1A4050, 0x7A1A404E, '2005-02-09 10:00:00') /* Wils Morrem (22076) */
-     , (0x7A1A4050, 0x7A1A404F, '2005-02-09 10:00:00') /* Copper Vanurp (22075) */;
+VALUES (0x7A1A4050, 0x7A1A404D, '2021-11-01 00:00:00') /* Tiffany Comfore (22074) */
+     , (0x7A1A4050, 0x7A1A404E, '2021-11-01 00:00:00') /* Wils Morrem (22076) */
+     , (0x7A1A4050, 0x7A1A404F, '2021-11-01 00:00:00') /* Copper Vanurp (22075) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A4054, 22893, 0xA1A40000, 67.9252, 146.228, 50.0055, 0.12786, 0, 0, -0.991792,  True, '2021-11-01 00:00:00'); /* Student */
@@ -250,7 +250,7 @@ VALUES (0x7A1A4055,  7923, 0xA1A40000, 69.3239, 145.342, 50.005, -0.520388, 0, 0
 /* @teleloc 0xA1A40000 [69.323898 145.341995 50.005001] -0.520388 0.000000 0.000000 0.853930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A4055, 0x7A1A4054, '2005-02-09 10:00:00') /* Student (22893) */;
+VALUES (0x7A1A4055, 0x7A1A4054, '2021-11-01 00:00:00') /* Student (22893) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A4056, 23631, 0xA1A40000, 72.3336, 101.754, 154.912, 0.999314, 0, 0, -0.037031, False, '2021-11-01 00:00:00'); /* April 2003 Raining Mad Cows Gen */

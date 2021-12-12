@@ -113,9 +113,9 @@ VALUES (0x78A04023,  7923, 0x8A0402C7, 160, -90, 12, 0, 0, 0, -1, False, '2021-1
 /* @teleloc 0x8A0402C7 [160.000000 -90.000000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A04023, 0x78A04018, '2019-10-19 05:18:30') /* Black Rabbit (2566) */
-     , (0x78A04023, 0x78A04019, '2019-10-19 05:18:30') /* Black Rabbit (2566) */
-     , (0x78A04023, 0x78A04026, '2019-10-19 05:18:30') /* Russet Rat (4132) */;
+VALUES (0x78A04023, 0x78A04018, '2021-11-01 00:00:00') /* Black Rabbit (2566) */
+     , (0x78A04023, 0x78A04019, '2021-11-01 00:00:00') /* Black Rabbit (2566) */
+     , (0x78A04023, 0x78A04026, '2021-11-01 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A04024,   165, 0x8A0402C8, 160, -100, 12.05, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Pool */
@@ -194,9 +194,9 @@ VALUES (0x78A04038, 15759, 0x8A04021D, 130, -73, 12, -0.707107, 0, 0, -0.707107,
 /* @teleloc 0x8A04021D [130.000000 -73.000000 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A04038, 0x78A04039, '2019-10-19 05:18:30') /* Night Club Shirt (69990) */
-     , (0x78A04038, 0x78A0403A, '2019-10-19 05:18:30') /* Night Club Shirt (69990) */
-     , (0x78A04038, 0x78A0403B, '2019-10-19 05:18:30') /* Night Club Shirt (69990) */;
+VALUES (0x78A04038, 0x78A04039, '2021-11-01 00:00:00') /* Night Club Shirt (69990) */
+     , (0x78A04038, 0x78A0403A, '2021-11-01 00:00:00') /* Night Club Shirt (69990) */
+     , (0x78A04038, 0x78A0403B, '2021-11-01 00:00:00') /* Night Club Shirt (69990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A04039, 69990, 0x8A04021D, 125.7, -74, 13, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Night Club Shirt */

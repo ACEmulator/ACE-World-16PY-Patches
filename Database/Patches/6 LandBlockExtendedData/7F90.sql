@@ -29,7 +29,7 @@ VALUES (0x77F90006,  1154, 0x7F900112, 101.828, 155.553, 147.205, -0.001317, 0, 
 /* @teleloc 0x7F900112 [101.828003 155.552994 147.205002] -0.001317 0.000000 0.000000 0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F90006, 0x77F90004, '2005-02-09 10:00:00') /* Kuyiza bint Zayi the Translator (5695) */;
+VALUES (0x77F90006, 0x77F90004, '2021-11-01 00:00:00') /* Kuyiza bint Zayi the Translator (5695) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F90007,  8266, 0x7F900000, 110.697, 142.459, 144.005, 0.704148, 0, 0, -0.710054,  True, '2021-11-01 00:00:00'); /* Diyas al-Yat */
@@ -40,10 +40,10 @@ VALUES (0x77F90008,  3951, 0x7F900000, 109.222, 141.47, 144.005, 0.059366, 0, 0,
 /* @teleloc 0x7F900000 [109.222000 141.470001 144.005005] 0.059366 0.000000 0.000000 0.998236 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F90008, 0x77F90007, '2005-02-09 10:00:00') /* Diyas al-Yat (8266) */
-     , (0x77F90008, 0x77F9000C, '2005-02-09 10:00:00') /* Ecorto the Lost Director (12262) */
-     , (0x77F90008, 0x77F9000D, '2005-02-09 10:00:00') /* Arcanum Researcher (16892) */
-     , (0x77F90008, 0x77F9000E, '2005-02-09 10:00:00') /* Apprentice Alchemist (28183) */;
+VALUES (0x77F90008, 0x77F90007, '2021-11-01 00:00:00') /* Diyas al-Yat (8266) */
+     , (0x77F90008, 0x77F9000C, '2021-11-01 00:00:00') /* Ecorto the Lost Director (12262) */
+     , (0x77F90008, 0x77F9000D, '2021-11-01 00:00:00') /* Arcanum Researcher (16892) */
+     , (0x77F90008, 0x77F9000E, '2021-11-01 00:00:00') /* Apprentice Alchemist (28183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F90009,  8864, 0x7F900119, 110.709, 158.773, 144.005, 0.92388, 0, 0, -0.382683, False, '2021-11-01 00:00:00'); /* History Shelf */

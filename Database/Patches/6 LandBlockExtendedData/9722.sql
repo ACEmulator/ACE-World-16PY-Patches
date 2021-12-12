@@ -153,8 +153,8 @@ VALUES (0x79722027,  7923, 0x9722015A, 79.3742, 132.522, 102.005, 0.654786, 0, 0
 /* @teleloc 0x9722015A [79.374199 132.522003 102.004997] 0.654786 0.000000 0.000000 0.755815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79722027, 0x79722026, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x79722027, 0x79722040, '2005-02-09 10:00:00') /* Small Creepy Statue (25989) */;
+VALUES (0x79722027, 0x79722026, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x79722027, 0x79722040, '2021-11-01 00:00:00') /* Small Creepy Statue (25989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79722028, 12304, 0x97220000, 80.0702, 126.096, 102.005, -0.999972, 0, 0, 0.00744, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */
@@ -201,8 +201,8 @@ VALUES (0x79722045,  7923, 0x97220000, 115.117, 56.1522, 105.605, 0.844339, 0, 0
 /* @teleloc 0x97220000 [115.116997 56.152199 105.605003] 0.844339 0.000000 0.000000 0.535809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79722045, 0x79722044, '2005-02-09 10:00:00') /* Aun Maerirea (27265) */
-     , (0x79722045, 0x7972204D, '2005-02-09 10:00:00') /* Journeyman Alchemist (28918) */;
+VALUES (0x79722045, 0x79722044, '2021-11-01 00:00:00') /* Aun Maerirea (27265) */
+     , (0x79722045, 0x7972204D, '2021-11-01 00:00:00') /* Journeyman Alchemist (28918) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79722046,   509, 0x97220000, 146.035, 65.7887, 102.005, 0.939079, 0, 0, -0.343703, False, '2021-11-01 00:00:00'); /* Life Stone */

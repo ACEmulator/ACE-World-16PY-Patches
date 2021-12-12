@@ -185,7 +185,7 @@ VALUES (0x7C95B02D,  7923, 0xC95B0158, 126.403, 89.8153, 16.405, -0.529568, 0, 0
 /* @teleloc 0xC95B0158 [126.403000 89.815300 16.405001] -0.529568 0.000000 0.000000 0.848268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95B02D, 0x7C95B02E, '2005-02-09 10:00:00') /* Tsua Kagemata (8402) */;
+VALUES (0x7C95B02D, 0x7C95B02E, '2021-11-08 06:01:47') /* Tsua Kagemata (8402) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95B02E,  8402, 0xC95B0158, 127.14, 88.3978, 16.405, -0.858886, 0, 0, 0.512167,  True, '2021-11-08 06:01:47'); /* Tsua Kagemata */
@@ -204,10 +204,10 @@ VALUES (0x7C95B033,  7923, 0xC95B0162, 55.6808, 79.2939, 12.005, 0.667814, 0, 0,
 /* @teleloc 0xC95B0162 [55.680801 79.293900 12.005000] 0.667814 0.000000 0.000000 0.744328 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95B033, 0x7C95B032, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x7C95B033, 0x7C95B034, '2005-02-09 10:00:00') /* Tsua's Apprentice (12205) */
-     , (0x7C95B033, 0x7C95B049, '2005-02-09 10:00:00') /* Ro Bi-Jor, Apprentice Tailor (24160) */
-     , (0x7C95B033, 0x7C95B04C, '2005-02-09 10:00:00') /* Jojii Shrine (25830) */;
+VALUES (0x7C95B033, 0x7C95B032, '2021-11-08 06:01:47') /* Agent of the Arcanum (12050) */
+     , (0x7C95B033, 0x7C95B034, '2021-11-08 06:01:47') /* Tsua's Apprentice (12205) */
+     , (0x7C95B033, 0x7C95B049, '2021-11-08 06:01:47') /* Ro Bi-Jor, Apprentice Tailor (24160) */
+     , (0x7C95B033, 0x7C95B04C, '2021-11-08 06:01:47') /* Jojii Shrine (25830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95B034, 12205, 0xC95B0158, 127.431, 91.0297, 16.405, -0.508197, 0, 0, 0.861241,  True, '2021-11-08 06:01:47'); /* Tsua's Apprentice */
@@ -254,8 +254,8 @@ VALUES (0x7C95B04B,  5085, 0xC95B0113, 78.7588, 153.097, 13.605, -0.740259, 0, 0
 /* @teleloc 0xC95B0113 [78.758797 153.097000 13.605000] -0.740259 0.000000 0.000000 0.672322 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95B04B, 0x7C95B04A, '2005-02-09 10:00:00') /* Dusty Sollerets (24137) */
-     , (0x7C95B04B, 0x7C95B055, '2005-02-09 10:00:00') /* Apprentice Fletcher (28190) */;
+VALUES (0x7C95B04B, 0x7C95B04A, '2021-11-08 06:01:47') /* Dusty Sollerets (24137) */
+     , (0x7C95B04B, 0x7C95B055, '2021-11-08 06:01:47') /* Apprentice Fletcher (28190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95B04C, 25830, 0xC95B0000, 79.631, 112.448, 12.005, 0.573576, 0, 0, -0.819152,  True, '2021-11-08 06:01:47'); /* Jojii Shrine */

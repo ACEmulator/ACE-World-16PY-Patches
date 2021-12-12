@@ -245,8 +245,8 @@ VALUES (0x78852050,  7924, 0x8852014B, 11.3373, 143.164, -41.595, 0.969344, 0, 0
 /* @teleloc 0x8852014B [11.337300 143.164001 -41.595001] 0.969344 0.000000 0.000000 -0.245708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78852050, 0x78852051, '2019-03-23 02:20:17') /* Bronze Gauntlet Lesser Lord (41588) */
-     , (0x78852050, 0x78852052, '2019-03-23 02:20:17') /* Dull Aetherium Ore Stockpile (70701) */;
+VALUES (0x78852050, 0x78852051, '2021-11-01 00:00:00') /* Bronze Gauntlet Lesser Lord (41588) */
+     , (0x78852050, 0x78852052, '2021-11-01 00:00:00') /* Dull Aetherium Ore Stockpile (70701) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78852051, 41588, 0x88520029, 131.956, 12.2227, 31.5189, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bronze Gauntlet Lesser Lord */

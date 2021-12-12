@@ -29,18 +29,18 @@ VALUES (0x79146006,  7924, 0x91460000, 51.0818, 20.3128, 13.3905, -0.628452, 0, 
 /* @teleloc 0x91460000 [51.081799 20.312799 13.390500] -0.628452 0.000000 0.000000 -0.777849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79146006, 0x79146001, '2005-02-09 10:00:00') /* Tumerok Fighter (4101) */
-     , (0x79146006, 0x79146002, '2005-02-09 10:00:00') /* Tumerok Fighter (4101) */
-     , (0x79146006, 0x79146003, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x79146006, 0x79146004, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
-     , (0x79146006, 0x79146005, '2005-02-09 10:00:00') /* Drudge Slave (1632) */;
+VALUES (0x79146006, 0x79146001, '2021-11-01 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x79146006, 0x79146002, '2021-11-01 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x79146006, 0x79146003, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x79146006, 0x79146004, '2021-11-01 00:00:00') /* Drudge Slave (1632) */
+     , (0x79146006, 0x79146005, '2021-11-01 00:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791466A5,  1154, 0x91460004, 0.693652, 94.7727, 19.6932, 0.056418, 0, 0, -0.998407, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x91460004 [0.693652 94.772697 19.693199] 0.056418 0.000000 0.000000 -0.998407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791466A5, 0x791466A6, '2020-01-30 00:00:00') /* Exploration Marker (39758) */;
+VALUES (0x791466A5, 0x791466A6, '2021-11-01 00:00:00') /* Exploration Marker (39758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791466A6, 39758, 0x91460004, 0.693652, 94.7727, 19.6932, 0.056418, 0, 0, -0.998407,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

@@ -117,16 +117,16 @@ VALUES (0x7DA7501C,  1154, 0xDA750000, 117.818, 118.813, 18.005, 0.216609, 0, 0,
 /* @teleloc 0xDA750000 [117.818001 118.813004 18.004999] 0.216609 0.000000 0.000000 -0.976258 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA7501C, 0x7DA75015, '2005-02-09 10:00:00') /* Binthura the Beggar (2225) */
-     , (0x7DA7501C, 0x7DA75027, '2005-02-09 10:00:00') /* Orcud the Beggar (2223) */
-     , (0x7DA7501C, 0x7DA75028, '2005-02-09 10:00:00') /* Dinsmal the Beggar (2224) */
-     , (0x7DA7501C, 0x7DA75037, '2005-02-09 10:00:00') /* Royal Guard Tabbeth (28414) */
-     , (0x7DA7501C, 0x7DA75038, '2005-02-09 10:00:00') /* Gorak (28516) */
-     , (0x7DA7501C, 0x7DA75039, '2005-02-09 10:00:00') /* Tiatus Lugian (7101) */
-     , (0x7DA7501C, 0x7DA7503A, '2005-02-09 10:00:00') /* Extas Lugian (7100) */
-     , (0x7DA7501C, 0x7DA7503B, '2005-02-09 10:00:00') /* Lugian Juggernaut (24284) */
-     , (0x7DA7501C, 0x7DA7503C, '2005-02-09 10:00:00') /* Journeyman Alchemist (28917) */
-     , (0x7DA7501C, 0x7DA7503D, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
+VALUES (0x7DA7501C, 0x7DA75015, '2021-11-01 00:00:00') /* Binthura the Beggar (2225) */
+     , (0x7DA7501C, 0x7DA75027, '2021-11-01 00:00:00') /* Orcud the Beggar (2223) */
+     , (0x7DA7501C, 0x7DA75028, '2021-11-01 00:00:00') /* Dinsmal the Beggar (2224) */
+     , (0x7DA7501C, 0x7DA75037, '2021-11-01 00:00:00') /* Royal Guard Tabbeth (28414) */
+     , (0x7DA7501C, 0x7DA75038, '2021-11-01 00:00:00') /* Gorak (28516) */
+     , (0x7DA7501C, 0x7DA75039, '2021-11-01 00:00:00') /* Tiatus Lugian (7101) */
+     , (0x7DA7501C, 0x7DA7503A, '2021-11-01 00:00:00') /* Extas Lugian (7100) */
+     , (0x7DA7501C, 0x7DA7503B, '2021-11-01 00:00:00') /* Lugian Juggernaut (24284) */
+     , (0x7DA7501C, 0x7DA7503C, '2021-11-01 00:00:00') /* Journeyman Alchemist (28917) */
+     , (0x7DA7501C, 0x7DA7503D, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA7501D,  2221, 0xDA750146, 156.873, 58.6982, 18.005, 0.037305, 0, 0, -0.999304, False, '2021-11-01 00:00:00'); /* Barkeep Mordmor */
@@ -265,7 +265,7 @@ VALUES (0x7DA756A5,  1154, 0xDA750035, 154.634, 97.9081, 18, -0.691286, 0, 0, -0
 /* @teleloc 0xDA750035 [154.634003 97.908096 18.000000] -0.691286 0.000000 0.000000 -0.722581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA756A5, 0x7DA756A6, '2020-01-30 00:00:00') /* Exploration Marker (39826) */;
+VALUES (0x7DA756A5, 0x7DA756A6, '2021-11-01 00:00:00') /* Exploration Marker (39826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA756A6, 39826, 0xDA750035, 154.634, 97.9081, 18, -0.691286, 0, 0, -0.722581,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

@@ -9,31 +9,31 @@ VALUES (0x700D9001,  7924, 0x00D902C6, 61.0963, -158.886, 0.055, 0.999556, 0, 0,
 /* @teleloc 0x00D902C6 [61.096298 -158.886002 0.055000] 0.999556 0.000000 0.000000 -0.029809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D9001, 0x700D9002, '2021-07-21 10:51:52') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9003, '2021-07-21 10:52:02') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9004, '2021-07-21 10:52:14') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9005, '2021-07-21 10:52:25') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9006, '2021-07-21 10:52:34') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9007, '2021-07-21 10:52:54') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9008, '2021-07-21 10:53:08') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9009, '2021-07-21 10:53:22') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D900A, '2021-07-21 10:53:35') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D900B, '2021-07-21 10:53:48') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D900C, '2021-07-21 10:54:01') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D900D, '2021-07-21 10:54:16') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D900E, '2021-07-21 10:54:32') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D900F, '2021-07-21 10:54:42') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9010, '2021-07-21 10:54:56') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9011, '2021-07-21 10:55:13') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9012, '2021-07-21 10:55:22') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9013, '2021-07-21 10:55:36') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9014, '2021-07-21 10:55:50') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9015, '2021-07-21 10:56:16') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9016, '2021-07-21 10:56:27') /* Blighted Desolation Moarsman (37406) */
-     , (0x700D9001, 0x700D9017, '2021-07-21 10:56:42') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9018, '2021-07-21 10:56:54') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D9019, '2021-07-21 10:57:06') /* Blighted Miry Moarsman (37405) */
-     , (0x700D9001, 0x700D901A, '2021-07-21 11:00:21') /* Blightfinger (87474) */;
+VALUES (0x700D9001, 0x700D9002, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9003, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9004, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9005, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9006, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9007, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9008, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9009, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D900A, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D900B, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D900C, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D900D, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D900E, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D900F, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9010, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9011, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9012, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9013, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9014, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9015, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9016, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x700D9001, 0x700D9017, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9018, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D9019, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x700D9001, 0x700D901A, '2021-11-01 00:00:00') /* Blightfinger (87474) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D9002, 37405, 0x00D902AF, 49.354, -149.578, 0.0064, 0.280909, 0, 0, -0.959734,  True, '2021-11-01 00:00:00'); /* Blighted Miry Moarsman */

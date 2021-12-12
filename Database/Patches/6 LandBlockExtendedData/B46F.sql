@@ -17,10 +17,10 @@ VALUES (0x7B46F003,  7923, 0xB46F0000, 140.652, 129.139, 22.005, -0.741088, 0, 0
 /* @teleloc 0xB46F0000 [140.651993 129.139008 22.004999] -0.741088 0.000000 0.000000 -0.671408 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46F003, 0x7B46F000, '2005-02-09 10:00:00') /* Oak Target Drudge (6077) */
-     , (0x7B46F003, 0x7B46F001, '2005-02-09 10:00:00') /* Oak Target Drudge (6077) */
-     , (0x7B46F003, 0x7B46F002, '2005-02-09 10:00:00') /* Oak Target Drudge (6077) */
-     , (0x7B46F003, 0x7B46F004, '2005-02-09 10:00:00') /* Straw Target Drudge (6075) */;
+VALUES (0x7B46F003, 0x7B46F000, '2021-11-01 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x7B46F003, 0x7B46F001, '2021-11-01 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x7B46F003, 0x7B46F002, '2021-11-01 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x7B46F003, 0x7B46F004, '2021-11-01 00:00:00') /* Straw Target Drudge (6075) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46F004,  6075, 0xB46F0000, 133.768, 90.6338, 22.005, 0.233386, 0, 0, -0.972384,  True, '2021-11-01 00:00:00'); /* Straw Target Drudge */

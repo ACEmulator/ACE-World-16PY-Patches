@@ -13,21 +13,21 @@ VALUES (0x74AF3003,  4219, 0x4AF30100, 60, 55.2769, 12.6064, 0.707107, 0, 0, -0.
 /* @teleloc 0x4AF30100 [60.000000 55.276901 12.606400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AF3003, 0x74AF3004, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3005, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3006, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3007, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3008, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (39011) */
-     , (0x74AF3003, 0x74AF3009, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF300A, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF300B, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF300C, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF300E, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF300F, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3010, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3011, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3012, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
-     , (0x74AF3003, 0x74AF3015, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */;
+VALUES (0x74AF3003, 0x74AF3004, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3005, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3006, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3007, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3008, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (39011) */
+     , (0x74AF3003, 0x74AF3009, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300A, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300B, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300C, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300E, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300F, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3010, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3011, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3012, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3015, '2021-11-01 00:00:00') /* Blighted Grimy Moarsman (37418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AF3004, 37418, 0x4AF30100, 60, 55.2769, 12.6064, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Blighted Grimy Moarsman */

@@ -5,78 +5,78 @@ VALUES (0x7001B000,  7923, 0x001B0211, 60, -340, 12.005, 1, 0, 0, 0, False, '202
 /* @teleloc 0x001B0211 [60.000000 -340.000000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001B000, 0x7001B01C, '2019-02-15 14:34:36') /* Silver Legion Quartermaster (29395) */
-     , (0x7001B000, 0x7001B033, '2019-02-15 14:34:36') /* Silver Legion Doorkeeper (29415) */
-     , (0x7001B000, 0x7001B046, '2019-02-15 14:34:36') /* Captain Argenne (29400) */
-     , (0x7001B000, 0x7001B047, '2019-02-15 14:34:36') /* Silver Legion Bodyguard (29399) */
-     , (0x7001B000, 0x7001B048, '2019-02-15 14:34:36') /* Silver Legion Bodyguard (29399) */
-     , (0x7001B000, 0x7001B049, '2019-02-15 14:34:36') /* Silver Legion Bodyguard (29399) */
-     , (0x7001B000, 0x7001B04A, '2019-02-15 14:34:36') /* Silver Legion Bodyguard (29399) */;
+VALUES (0x7001B000, 0x7001B01C, '2021-11-01 00:00:00') /* Silver Legion Quartermaster (29395) */
+     , (0x7001B000, 0x7001B033, '2021-11-01 00:00:00') /* Silver Legion Doorkeeper (29415) */
+     , (0x7001B000, 0x7001B046, '2021-11-01 00:00:00') /* Captain Argenne (29400) */
+     , (0x7001B000, 0x7001B047, '2021-11-01 00:00:00') /* Silver Legion Bodyguard (29399) */
+     , (0x7001B000, 0x7001B048, '2021-11-01 00:00:00') /* Silver Legion Bodyguard (29399) */
+     , (0x7001B000, 0x7001B049, '2021-11-01 00:00:00') /* Silver Legion Bodyguard (29399) */
+     , (0x7001B000, 0x7001B04A, '2021-11-01 00:00:00') /* Silver Legion Bodyguard (29399) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001B001, 24129, 0x001B01D2, 75.1181, -332.183, 6.005, 0.020304, 0, 0, -0.999794, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 2 Min.) */
 /* @teleloc 0x001B01D2 [75.118103 -332.183014 6.005000] 0.020304 0.000000 0.000000 -0.999794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001B001, 0x7001B009, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B00A, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B00B, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B00C, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B00D, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B00E, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B00F, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B010, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B011, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B012, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B013, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B014, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B015, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B016, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B017, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */
-     , (0x7001B001, 0x7001B018, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */
-     , (0x7001B001, 0x7001B019, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */
-     , (0x7001B001, 0x7001B01A, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B01B, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */
-     , (0x7001B001, 0x7001B01D, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B01E, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B01F, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B020, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B021, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B022, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B023, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B024, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B025, '2019-02-15 14:34:36') /* Viamontian War Wizard (29301) */
-     , (0x7001B001, 0x7001B026, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B027, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */
-     , (0x7001B001, 0x7001B028, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B029, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B02A, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B02B, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B02C, '2019-02-15 14:34:36') /* Extas Raider (8138) */
-     , (0x7001B001, 0x7001B02D, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B02E, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B02F, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B030, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B031, '2019-02-15 14:34:36') /* Viamontian Knight (30290) */
-     , (0x7001B001, 0x7001B032, '2019-02-15 14:34:36') /* Viamontian Knight (30290) */
-     , (0x7001B001, 0x7001B034, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (30294) */
-     , (0x7001B001, 0x7001B035, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (30294) */
-     , (0x7001B001, 0x7001B036, '2019-02-15 14:34:36') /* Viamontian Warcaster (30296) */
-     , (0x7001B001, 0x7001B037, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (30294) */
-     , (0x7001B001, 0x7001B038, '2019-02-15 14:34:36') /* Viamontian Warcaster (30296) */
-     , (0x7001B001, 0x7001B039, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B03A, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x7001B001, 0x7001B03B, '2019-02-15 14:34:36') /* Viamontian War Wizard (29301) */
-     , (0x7001B001, 0x7001B03C, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B03D, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B03E, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B03F, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B040, '2019-02-15 14:34:36') /* Viamontian War Wizard (29301) */
-     , (0x7001B001, 0x7001B041, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B042, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B043, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B044, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001B001, 0x7001B045, '2019-02-15 14:34:36') /* Viamontian War Wizard (29301) */;
+VALUES (0x7001B001, 0x7001B009, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B00A, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B00B, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B00C, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B00D, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B00E, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B00F, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B010, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B011, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B012, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B013, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B014, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B015, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B016, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B017, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B001, 0x7001B018, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B001, 0x7001B019, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B001, 0x7001B01A, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B01B, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B001, 0x7001B01D, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B01E, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B01F, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B020, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B021, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B022, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B023, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B024, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B025, '2021-11-01 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7001B001, 0x7001B026, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B027, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B001, 0x7001B028, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B029, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B02A, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B02B, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B02C, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B001, 0x7001B02D, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B02E, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B02F, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B030, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B031, '2021-11-01 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001B001, 0x7001B032, '2021-11-01 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001B001, 0x7001B034, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001B001, 0x7001B035, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001B001, 0x7001B036, '2021-11-01 00:00:00') /* Viamontian Warcaster (30296) */
+     , (0x7001B001, 0x7001B037, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001B001, 0x7001B038, '2021-11-01 00:00:00') /* Viamontian Warcaster (30296) */
+     , (0x7001B001, 0x7001B039, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B03A, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B001, 0x7001B03B, '2021-11-01 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7001B001, 0x7001B03C, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B03D, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B03E, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B03F, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B040, '2021-11-01 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7001B001, 0x7001B041, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B042, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B043, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B044, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B001, 0x7001B045, '2021-11-01 00:00:00') /* Viamontian War Wizard (29301) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001B002, 29440, 0x001B016F, 80, -3, 0.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Exit Silver Legion Keep */
@@ -91,7 +91,7 @@ VALUES (0x7001B004, 30287, 0x001B01CE, 84, -340, 6, 0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x001B01CE [84.000000 -340.000000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001B004, 0x7001B006, '2019-02-15 14:34:36') /* Lever (2609) */;
+VALUES (0x7001B004, 0x7001B006, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001B005, 29373, 0x001B025B, 256, -340, 18, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Silver Legion Door */

@@ -9,12 +9,12 @@ VALUES (0x71038001,  7925, 0x10380035, 161.319, 107.4, 48.055, 0.017209, 0, 0, 0
 /* @teleloc 0x10380035 [161.319000 107.400002 48.055000] 0.017209 0.000000 0.000000 0.999852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71038001, 0x71038002, '2020-11-26 22:03:01') /* Virindi Profatrix (22054) */
-     , (0x71038001, 0x71038003, '2020-11-26 22:03:19') /* Virindi Profatrix (22054) */
-     , (0x71038001, 0x71038004, '2020-11-26 22:03:25') /* Virindi Profatrix (22054) */
-     , (0x71038001, 0x71038005, '2020-11-26 22:03:44') /* Pandemonium Shadow (22910) */
-     , (0x71038001, 0x71038006, '2020-11-26 22:03:48') /* Pandemonium Shadow (22910) */
-     , (0x71038001, 0x71038007, '2020-11-26 22:04:00') /* Pandemonium Shadow (22910) */;
+VALUES (0x71038001, 0x71038002, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71038001, 0x71038003, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71038001, 0x71038004, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71038001, 0x71038005, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71038001, 0x71038006, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71038001, 0x71038007, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71038002, 22054, 0x1038003D, 175.464, 112.124, 48.029, 0.166432, 0, 0, 0.986053,  True, '2021-11-01 00:00:00'); /* Virindi Profatrix */
