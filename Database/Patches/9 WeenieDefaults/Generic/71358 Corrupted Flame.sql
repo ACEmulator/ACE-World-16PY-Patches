@@ -4,15 +4,14 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (71358, 'ace71358-corruptedflame', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (71358,   1,         63) /* ItemType */
+VALUES (71358,   1,         128) /* ItemType */
      , (71358,   8,        120) /* Mass */
      , (71358,  16,         32) /* ItemUseable - Remote */
      , (71358,  83,       2048) /* ActivationResponse - Emote */
      , (71358,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (71358,  95,          8) /* RadarBlipColor - Yellow */
      , (71358, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (71358, 267,       1800) /* Lifespan */
-     , (71358, 307,        225) /* DamageRating */;
+     , (71358, 267,       1800) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71358,   1, True ) /* Stuck */
