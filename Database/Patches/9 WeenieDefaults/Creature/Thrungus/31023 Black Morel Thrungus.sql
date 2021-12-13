@@ -27,7 +27,6 @@ VALUES (31023,   1, True ) /* Stuck */
      , (31023,  13, False) /* Ethereal */
      , (31023,  14, True ) /* GravityStatus */
      , (31023,  19, True ) /* Attackable */
-     , (31023, 101, True ) /* CanGenerateRare */
      , (31023, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

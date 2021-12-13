@@ -13,7 +13,7 @@ VALUES (0x701F500F,  4145, 0x01F50114, 150, -75.259, -35.995, 1, 0, 0, 0, False,
 /* @teleloc 0x01F50114 [150.000000 -75.259003 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F500F, 0x701F5010, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F500F, 0x701F5010, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5010,  2131, 0x01F50114, 150.027, -77.5728, -35.995, 1, 0, 0, 0,  True, '2021-11-07 08:12:46'); /* Pressure Plate */
@@ -32,14 +32,14 @@ VALUES (0x701F501E,  7562, 0x01F5012C, 184.03, -58.7746, -34.39, 0.999912, 0, 0,
 /* @teleloc 0x01F5012C [184.029999 -58.774601 -34.389999] 0.999912 0.000000 0.000000 -0.013266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F501E, 0x701F501D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F501E, 0x701F501D, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F501F,  7562, 0x01F5012C, 183.805, -61.1705, -34.4836, 0.756229, 0, 0, -0.654307, False, '2021-11-07 08:12:46'); /* Magic trap */
 /* @teleloc 0x01F5012C [183.804993 -61.170502 -34.483601] 0.756229 0.000000 0.000000 -0.654307 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F501F, 0x701F501C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F501F, 0x701F501C, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5024,  5625, 0x01F50138, 70, -34.75, -30, 0, 0, 0, -1, False, '2021-11-07 08:12:46'); /* Door */
@@ -134,14 +134,14 @@ VALUES (0x701F504C,  7561, 0x01F5015C, 102.404, -76.7162, -28.3231, -0.999452, 0
 /* @teleloc 0x01F5015C [102.403999 -76.716202 -28.323099] -0.999452 0.000000 0.000000 -0.033103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F504C, 0x701F504B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F504C, 0x701F504B, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F504D,  7562, 0x01F5015C, 98.0364, -76.2075, -28.283, -0.999452, 0, 0, -0.033103, False, '2021-11-07 08:12:46'); /* Magic trap */
 /* @teleloc 0x01F5015C [98.036400 -76.207497 -28.283001] -0.999452 0.000000 0.000000 -0.033103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F504D, 0x701F504A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F504D, 0x701F504A, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F504F,  2131, 0x01F5015F, 110.539, -20.5263, -32.995, 0.707107, 0, 0, -0.707107,  True, '2021-11-07 08:12:46'); /* Pressure Plate */
@@ -156,8 +156,8 @@ VALUES (0x701F5052,  4145, 0x01F50164, 110, -25.25, -30, 1, 0, 0, 0, False, '202
 /* @teleloc 0x01F50164 [110.000000 -25.250000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F5052, 0x701F504F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
-     , (0x701F5052, 0x701F5064, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x701F5052, 0x701F504F, '2021-11-07 08:12:46') /* Pressure Plate (2131) */
+     , (0x701F5052, 0x701F5064, '2021-11-07 08:12:46') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5053,  5619, 0x01F50168, 112.754, -47.2081, -29.6071, -0.999957, 0, 0, 0.00926, False, '2021-11-07 08:12:46'); /* Hot Air */
@@ -196,14 +196,14 @@ VALUES (0x701F5062,  7562, 0x01F50173, 117.746, -76.434, -28.5371, -0.997836, 0,
 /* @teleloc 0x01F50173 [117.746002 -76.433998 -28.537100] -0.997836 0.000000 0.000000 -0.065755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F5062, 0x701F5060, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F5062, 0x701F5060, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5063,  7561, 0x01F50173, 122.333, -76.8616, -28.2696, -0.997836, 0, 0, -0.065755, False, '2021-11-07 08:12:46'); /* Magic trap */
 /* @teleloc 0x01F50173 [122.333000 -76.861603 -28.269600] -0.997836 0.000000 0.000000 -0.065755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F5063, 0x701F5061, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F5063, 0x701F5061, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5064,   285, 0x01F50174, 124.889, -93.7251, -28.5, 0.707107, 0, 0, -0.707107,  True, '2021-11-07 08:12:46'); /* Lever */
@@ -218,7 +218,7 @@ VALUES (0x701F506A,  4067, 0x01F50182, 129.917, -90.5152, -28.149, 0, 0, 0, -1, 
 /* @teleloc 0x01F50182 [129.917007 -90.515198 -28.149000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F506A, 0x701F5069, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F506A, 0x701F5069, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F506E,  5624, 0x01F50188, 135.245, -50, -30, -0.707107, 0, 0, -0.707107, False, '2021-11-07 08:12:46'); /* Door */
@@ -265,15 +265,15 @@ VALUES (0x701F508E,  4145, 0x01F501CA, 50, -74.105, -17.995, 0, 0, 0, -1, False,
 /* @teleloc 0x01F501CA [50.000000 -74.105003 -17.995001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F508E, 0x701F508D, '2005-02-09 10:00:00') /* Lever (286) */
-     , (0x701F508E, 0x701F50E3, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x701F508E, 0x701F508D, '2021-11-07 08:12:46') /* Lever (286) */
+     , (0x701F508E, 0x701F50E3, '2021-11-07 08:12:46') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5094,  4139, 0x01F501CD, 63.23, -70, -17.995, -0.707107, 0, 0, -0.707107, False, '2021-11-07 08:12:46'); /* Door */
 /* @teleloc 0x01F501CD [63.230000 -70.000000 -17.995001] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F5094, 0x701F5025, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x701F5094, 0x701F5025, '2021-11-07 08:12:46') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5097,  5624, 0x01F501D2, 60, -75.25, -18, 1, 0, 0, 0, False, '2021-11-07 08:12:46'); /* Door */
@@ -464,14 +464,14 @@ VALUES (0x701F50C9,  7562, 0x01F50225, 50.0252, -142.449, 1.67687, 0.999753, 0, 
 /* @teleloc 0x01F50225 [50.025200 -142.449005 1.676870] 0.999753 0.000000 0.000000 0.022233 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F50C9, 0x701F50CB, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F50C9, 0x701F50CB, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F50CA,  7561, 0x01F50225, 50.0735, -138.223, 1.85075, -0.998494, 0, 0, -0.054868, False, '2021-11-07 08:12:46'); /* Magic trap */
 /* @teleloc 0x01F50225 [50.073502 -138.223007 1.850750] -0.998494 0.000000 0.000000 -0.054868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F50CA, 0x701F50CC, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F50CA, 0x701F50CC, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F50CB,  2131, 0x01F50225, 50.0195, -141.366, 0.005, 1, 0, 0, 0,  True, '2021-11-07 08:12:46'); /* Pressure Plate */
@@ -486,71 +486,71 @@ VALUES (0x701F50CD,  7443, 0x01F50226, 50, -145.696, 0.908, -0.999988, 0, 0, -0.
 /* @teleloc 0x01F50226 [50.000000 -145.695999 0.908000] -0.999988 0.000000 0.000000 -0.004895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F50CD, 0x701F50D3, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701F50CD, 0x701F50D3, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F50D2,  7923, 0x01F50228, 46.7304, -169.162, 0, 1, 0, 0, 0, False, '2021-11-07 08:12:46'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01F50228 [46.730400 -169.162003 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F50D2, 0x701F5122, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F5123, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F5124, '2005-02-09 10:00:00') /* Firestorm (7092) */
-     , (0x701F50D2, 0x701F5125, '2005-02-09 10:00:00') /* Firestorm (7092) */
-     , (0x701F50D2, 0x701F5126, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F50D2, 0x701F5127, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F50D2, 0x701F5128, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F50D2, 0x701F5129, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F512A, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F512B, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F512C, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F512D, '2005-02-09 10:00:00') /* Mist Golem (22933) */
-     , (0x701F50D2, 0x701F512E, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F50D2, 0x701F512F, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F5130, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5131, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5132, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F5133, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F5159, '2005-02-09 10:00:00') /* Firestorm (7092) */
-     , (0x701F50D2, 0x701F515A, '2005-02-09 10:00:00') /* Hellfire (7093) */
-     , (0x701F50D2, 0x701F515B, '2005-02-09 10:00:00') /* Hellfire (7093) */
-     , (0x701F50D2, 0x701F515C, '2005-02-09 10:00:00') /* Firestorm (7092) */
-     , (0x701F50D2, 0x701F515D, '2005-02-09 10:00:00') /* Hellfire (7093) */
-     , (0x701F50D2, 0x701F515E, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F515F, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5160, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F5161, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F5162, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F5163, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F50D2, 0x701F5164, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F5165, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F50D2, 0x701F5166, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5167, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5168, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
-     , (0x701F50D2, 0x701F5169, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
-     , (0x701F50D2, 0x701F516A, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F516B, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F516C, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F516D, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F516E, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F516F, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F5170, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5171, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5172, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5173, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F517A, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F517B, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F517C, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F517D, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F517E, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F50D2, 0x701F517F, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F5180, '2005-02-09 10:00:00') /* Mist Golem (22933) */
-     , (0x701F50D2, 0x701F5181, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F5182, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F50D2, 0x701F5183, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F50D2, 0x701F5184, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x701F50D2, 0x701F5185, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F50D2, 0x701F5186, '2005-02-09 10:00:00') /* Relic Bones (7179) */;
+VALUES (0x701F50D2, 0x701F5122, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F5123, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F5124, '2021-11-07 08:12:46') /* Firestorm (7092) */
+     , (0x701F50D2, 0x701F5125, '2021-11-07 08:12:46') /* Firestorm (7092) */
+     , (0x701F50D2, 0x701F5126, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F50D2, 0x701F5127, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F50D2, 0x701F5128, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F50D2, 0x701F5129, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F512A, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F512B, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F512C, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F512D, '2021-11-07 08:12:46') /* Mist Golem (22933) */
+     , (0x701F50D2, 0x701F512E, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F50D2, 0x701F512F, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F5130, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5131, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5132, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F5133, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F5159, '2021-11-07 08:12:46') /* Firestorm (7092) */
+     , (0x701F50D2, 0x701F515A, '2021-11-07 08:12:46') /* Hellfire (7093) */
+     , (0x701F50D2, 0x701F515B, '2021-11-07 08:12:46') /* Hellfire (7093) */
+     , (0x701F50D2, 0x701F515C, '2021-11-07 08:12:46') /* Firestorm (7092) */
+     , (0x701F50D2, 0x701F515D, '2021-11-07 08:12:46') /* Hellfire (7093) */
+     , (0x701F50D2, 0x701F515E, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F515F, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5160, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F5161, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F5162, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F5163, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F50D2, 0x701F5164, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F5165, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F50D2, 0x701F5166, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5167, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5168, '2021-11-07 08:12:46') /* Dark Revenant (4217) */
+     , (0x701F50D2, 0x701F5169, '2021-11-07 08:12:46') /* Dark Revenant (4217) */
+     , (0x701F50D2, 0x701F516A, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F516B, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F516C, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F516D, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F516E, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F516F, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F5170, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5171, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5172, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5173, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F517A, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F517B, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F517C, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F517D, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F517E, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F50D2, 0x701F517F, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F5180, '2021-11-07 08:12:46') /* Mist Golem (22933) */
+     , (0x701F50D2, 0x701F5181, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F5182, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F50D2, 0x701F5183, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F50D2, 0x701F5184, '2021-11-07 08:12:46') /* Diamond Golem (4216) */
+     , (0x701F50D2, 0x701F5185, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F50D2, 0x701F5186, '2021-11-07 08:12:46') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F50D3,  2131, 0x01F50228, 50.0344, -166.136, 0, 1, 0, 0, 0,  True, '2021-11-07 08:12:46'); /* Pressure Plate */
@@ -669,8 +669,8 @@ VALUES (0x701F50F9,  4139, 0x01F50286, 70, -115.25, 6, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0x01F50286 [70.000000 -115.250000 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F50F9, 0x701F50E4, '2005-02-09 10:00:00') /* Lever (285) */
-     , (0x701F50F9, 0x701F50F2, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x701F50F9, 0x701F50E4, '2021-11-07 08:12:46') /* Lever (285) */
+     , (0x701F50F9, 0x701F50F2, '2021-11-07 08:12:46') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F50FC,   568, 0x01F5028E, 84.75, -120, 6, -0.707107, 0, 0, 0.707107, False, '2021-11-07 08:12:46'); /* Door */
@@ -1173,87 +1173,87 @@ VALUES (0x701F5178,  7925, 0x01F50228, 46.792, -170.353, 0.005, 1, 0, 0, 0, Fals
 /* @teleloc 0x01F50228 [46.792000 -170.352997 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F5178, 0x701F5134, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F5135, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F5136, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F5137, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F5138, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F5139, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F513A, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F513B, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
-     , (0x701F5178, 0x701F513D, '2005-02-09 10:00:00') /* Inferno (7487) */
-     , (0x701F5178, 0x701F513E, '2005-02-09 10:00:00') /* Inferno (7487) */
-     , (0x701F5178, 0x701F514D, '2005-02-09 10:00:00') /* Inferno (7487) */
-     , (0x701F5178, 0x701F514E, '2005-02-09 10:00:00') /* Inferno (7487) */
-     , (0x701F5178, 0x701F5174, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
-     , (0x701F5178, 0x701F5175, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
-     , (0x701F5178, 0x701F5176, '2005-02-09 10:00:00') /* Dark Revenant (7422) */
-     , (0x701F5178, 0x701F5177, '2005-02-09 10:00:00') /* Dark Revenant (7422) */;
+VALUES (0x701F5178, 0x701F5134, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F5135, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F5136, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F5137, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F5138, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F5139, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F513A, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F513B, '2021-11-07 08:12:46') /* Umbris Shadow (4254) */
+     , (0x701F5178, 0x701F513D, '2021-11-07 08:12:46') /* Inferno (7487) */
+     , (0x701F5178, 0x701F513E, '2021-11-07 08:12:46') /* Inferno (7487) */
+     , (0x701F5178, 0x701F514D, '2021-11-07 08:12:46') /* Inferno (7487) */
+     , (0x701F5178, 0x701F514E, '2021-11-07 08:12:46') /* Inferno (7487) */
+     , (0x701F5178, 0x701F5174, '2021-11-07 08:12:46') /* Diamond Golem (7421) */
+     , (0x701F5178, 0x701F5175, '2021-11-07 08:12:46') /* Diamond Golem (7421) */
+     , (0x701F5178, 0x701F5176, '2021-11-07 08:12:46') /* Dark Revenant (7422) */
+     , (0x701F5178, 0x701F5177, '2021-11-07 08:12:46') /* Dark Revenant (7422) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5179,  7923, 0x01F50228, 46.752, -167.963, 0.005, 1, 0, 0, 0, False, '2021-11-07 08:12:46'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01F50228 [46.751999 -167.962997 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F5179, 0x701F50FF, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F5179, 0x701F5100, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F5101, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F5102, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5103, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5104, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F5105, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F5106, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F5107, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5108, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5109, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F510A, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F510B, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F510C, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F510D, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F510E, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F510F, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5110, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F5111, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5112, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F5113, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5114, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
-     , (0x701F5179, 0x701F5115, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x701F5179, 0x701F5116, '2005-02-09 10:00:00') /* Mist Golem (22933) */
-     , (0x701F5179, 0x701F5117, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5118, '2005-02-09 10:00:00') /* Mist Golem (22933) */
-     , (0x701F5179, 0x701F5119, '2005-02-09 10:00:00') /* Mist Golem (22933) */
-     , (0x701F5179, 0x701F511A, '2005-02-09 10:00:00') /* Mist Golem (22933) */
-     , (0x701F5179, 0x701F511B, '2005-02-09 10:00:00') /* Mist Golem (22933) */
-     , (0x701F5179, 0x701F511C, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F511D, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F511E, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F5179, 0x701F511F, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F5179, 0x701F5120, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F5179, 0x701F5121, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
-     , (0x701F5179, 0x701F513C, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F5179, 0x701F513F, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5140, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5141, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F5142, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F5143, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5144, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F5179, 0x701F5145, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F5179, 0x701F5146, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F5179, 0x701F5148, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5149, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F514A, '2005-02-09 10:00:00') /* Great Revenant (24320) */
-     , (0x701F5179, 0x701F514B, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F514C, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F514F, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5150, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5151, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x701F5179, 0x701F5152, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F5153, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F5154, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x701F5179, 0x701F5155, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
-     , (0x701F5179, 0x701F5156, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
-     , (0x701F5179, 0x701F5157, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
-     , (0x701F5179, 0x701F5158, '2005-02-09 10:00:00') /* Olthoi Noble Grub (24962) */;
+VALUES (0x701F5179, 0x701F50FF, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F5179, 0x701F5100, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F5101, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F5102, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5103, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5104, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F5105, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F5106, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F5107, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5108, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5109, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F510A, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F510B, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F510C, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F510D, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F510E, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F510F, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5110, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F5111, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5112, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F5113, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5114, '2021-11-07 08:12:46') /* Cursed Wisp (7126) */
+     , (0x701F5179, 0x701F5115, '2021-11-07 08:12:46') /* Wasteland Rat (7107) */
+     , (0x701F5179, 0x701F5116, '2021-11-07 08:12:46') /* Mist Golem (22933) */
+     , (0x701F5179, 0x701F5117, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5118, '2021-11-07 08:12:46') /* Mist Golem (22933) */
+     , (0x701F5179, 0x701F5119, '2021-11-07 08:12:46') /* Mist Golem (22933) */
+     , (0x701F5179, 0x701F511A, '2021-11-07 08:12:46') /* Mist Golem (22933) */
+     , (0x701F5179, 0x701F511B, '2021-11-07 08:12:46') /* Mist Golem (22933) */
+     , (0x701F5179, 0x701F511C, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F511D, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F511E, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F5179, 0x701F511F, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F5179, 0x701F5120, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F5179, 0x701F5121, '2021-11-07 08:12:46') /* Nubilous Golem (23082) */
+     , (0x701F5179, 0x701F513C, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F5179, 0x701F513F, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5140, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5141, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F5142, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F5143, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5144, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F5179, 0x701F5145, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F5179, 0x701F5146, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F5179, 0x701F5148, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5149, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F514A, '2021-11-07 08:12:46') /* Great Revenant (24320) */
+     , (0x701F5179, 0x701F514B, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F514C, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F514F, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5150, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5151, '2021-11-07 08:12:46') /* Relic Bones (7179) */
+     , (0x701F5179, 0x701F5152, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F5153, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F5154, '2021-11-07 08:12:46') /* Cursed Bones (7178) */
+     , (0x701F5179, 0x701F5155, '2021-11-07 08:12:46') /* Dark Revenant (4217) */
+     , (0x701F5179, 0x701F5156, '2021-11-07 08:12:46') /* Dark Revenant (4217) */
+     , (0x701F5179, 0x701F5157, '2021-11-07 08:12:46') /* Dark Revenant (4217) */
+     , (0x701F5179, 0x701F5158, '2021-11-07 08:12:46') /* Olthoi Noble Grub (24962) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F517A,  7179, 0x01F5022C, 57.6073, -110.064, 0.005, 0.720669, 0, 0, 0.69328,  True, '2021-11-07 08:12:46'); /* Relic Bones */
@@ -1312,7 +1312,7 @@ VALUES (0x701F5187,  5085, 0x01F50222, 48.2895, -107.131, 0.055, 0.874507, 0, 0,
 /* @teleloc 0x01F50222 [48.289501 -107.130997 0.055000] 0.874507 0.000000 0.000000 -0.485014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F5187, 0x701F5188, '2021-06-08 11:48:39') /* Nexus-keyed Mana Shard (40911) */;
+VALUES (0x701F5187, 0x701F5188, '2021-11-07 08:12:46') /* Nexus-keyed Mana Shard (40911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F5188, 40911, 0x01F5015D, 96.6093, -93.4713, -28.9798, 0.373374, 0, 0, 0.927681,  True, '2021-11-07 08:12:46'); /* Nexus-keyed Mana Shard */

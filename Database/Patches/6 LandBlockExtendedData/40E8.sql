@@ -5,18 +5,18 @@ VALUES (0x740E8000,  7924, 0x40E8001D, 89, 104, 199.79, 0.999798, 0, 0, -0.02011
 /* @teleloc 0x40E8001D [89.000000 104.000000 199.789993] 0.999798 0.000000 0.000000 -0.020113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E8000, 0x740E8002, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E8003, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E8004, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E8005, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E8006, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E8007, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E8008, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E8009, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E800A, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E800B, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E800C, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E8000, 0x740E800D, '2019-02-15 14:34:36') /* Platinum Legion Castellan (30553) */;
+VALUES (0x740E8000, 0x740E8002, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E8003, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E8004, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E8005, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E8006, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E8007, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E8008, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E8009, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E800A, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E800B, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E800C, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8000, 0x740E800D, '2021-11-01 00:00:00') /* Platinum Legion Castellan (30553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E8001,  1032, 0x40E8001D, 80, 104, 199.79, 0.999798, 0, 0, -0.020114, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Zaikhal */

@@ -5,8 +5,8 @@ VALUES (0x7302F001,  4219, 0x302F0006, 21.3136, 126.464, 4.00455, -0.230566, 0, 
 /* @teleloc 0x302F0006 [21.313601 126.463997 4.004550] -0.230566 0.000000 0.000000 -0.973057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7302F001, 0x7302F042, '2019-02-10 00:00:00') /* Virindi Artificer (36968) */
-     , (0x7302F001, 0x7302F043, '2019-02-10 00:00:00') /* East Gate Stone (37027) */;
+VALUES (0x7302F001, 0x7302F042, '2021-11-01 00:00:00') /* Virindi Artificer (36968) */
+     , (0x7302F001, 0x7302F043, '2021-11-01 00:00:00') /* East Gate Stone (37027) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7302F042, 36968, 0x302F0033, 148, 60, 8.029, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Virindi Artificer */
@@ -21,13 +21,13 @@ VALUES (0x7302F1D5,  1542, 0x302F0006, 4.83693, 121.053, 3.8858, -0.230566, 0, 0
 /* @teleloc 0x302F0006 [4.836930 121.053001 3.885800] -0.230566 0.000000 0.000000 -0.973057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7302F1D5, 0x7302F1D6, '2019-02-10 00:00:00') /* Singularity Caul (10794) */
-     , (0x7302F1D5, 0x7302F1DA, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x7302F1D5, 0x7302F1DB, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x7302F1D5, 0x7302F1DC, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x7302F1D5, 0x7302F1DD, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x7302F1D5, 0x7302F1DE, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x7302F1D5, 0x7302F1EC, '2019-02-10 00:00:00') /* Singularity Caul (10794) */;
+VALUES (0x7302F1D5, 0x7302F1D6, '2021-11-01 00:00:00') /* Singularity Caul (10794) */
+     , (0x7302F1D5, 0x7302F1DA, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x7302F1D5, 0x7302F1DB, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x7302F1D5, 0x7302F1DC, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x7302F1D5, 0x7302F1DD, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x7302F1D5, 0x7302F1DE, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x7302F1D5, 0x7302F1EC, '2021-11-01 00:00:00') /* Singularity Caul (10794) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7302F1D6, 10794, 0x302F0006, 4.83693, 121.053, 3.8858, -0.230566, 0, 0, -0.973057,  True, '2021-11-01 00:00:00'); /* Singularity Caul */
@@ -66,7 +66,7 @@ VALUES (0x7302F1EE,  7924, 0x302F0003, 22.5399, 56.3997, 146.055, -0.692867, 0, 
 /* @teleloc 0x302F0003 [22.539900 56.399700 146.054993] -0.692867 0.000000 0.000000 -0.721066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7302F1EE, 0x7302F1EF, '2020-12-01 07:12:12') /* AerbaxPortal Controller (87062) */;
+VALUES (0x7302F1EE, 0x7302F1EF, '2021-11-01 00:00:00') /* AerbaxPortal Controller (87062) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7302F1EF, 87062, 0x302F000B, 24.1912, 56.4773, 146.005, -0.692867, 0, 0, -0.721066,  True, '2021-11-01 00:00:00'); /* AerbaxPortal Controller */

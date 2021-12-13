@@ -105,23 +105,23 @@ VALUES (0x7016601B,  5485, 0x0166015B, 10, -40, 18, 0, 0, 0, -1, False, '2021-11
 /* @teleloc 0x0166015B [10.000000 -40.000000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7016601B, 0x70166000, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x70166001, '2019-10-03 00:00:00') /* Mosswart Mire-Witch (7102) */
-     , (0x7016601B, 0x70166004, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x70166005, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x70166006, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x70166009, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x7016600A, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x7016600C, '2019-10-03 00:00:00') /* Mosswart Mire-Witch (7102) */
-     , (0x7016601B, 0x7016600D, '2019-10-03 00:00:00') /* Mosswart Mire-Witch (7102) */
-     , (0x7016601B, 0x7016600E, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x7016600F, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x70166010, '2019-10-03 00:00:00') /* Mosswart Mire-Witch (7102) */
-     , (0x7016601B, 0x70166012, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x70166014, '2019-10-03 00:00:00') /* Mosswart Mire-Witch (7102) */
-     , (0x7016601B, 0x70166019, '2019-10-03 00:00:00') /* Mosswart Mire-Witch (7102) */
-     , (0x7016601B, 0x7016601E, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */
-     , (0x7016601B, 0x7016601F, '2019-10-03 00:00:00') /* Mosswart Muck Stalker (27864) */;
+VALUES (0x7016601B, 0x70166000, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x70166001, '2021-11-01 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7016601B, 0x70166004, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x70166005, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x70166006, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x70166009, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x7016600A, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x7016600C, '2021-11-01 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7016601B, 0x7016600D, '2021-11-01 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7016601B, 0x7016600E, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x7016600F, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x70166010, '2021-11-01 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7016601B, 0x70166012, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x70166014, '2021-11-01 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7016601B, 0x70166019, '2021-11-01 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7016601B, 0x7016601E, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7016601B, 0x7016601F, '2021-11-01 00:00:00') /* Mosswart Muck Stalker (27864) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016601E, 27864, 0x0166017B, 58.1569, -1.70011, 18.0033, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mosswart Muck Stalker */

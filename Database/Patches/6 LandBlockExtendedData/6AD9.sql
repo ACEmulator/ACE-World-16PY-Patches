@@ -5,12 +5,12 @@ VALUES (0x76AD9000,  7924, 0x6AD9000F, 30.2726, 164.063, 311.47, 0.333521, 0, 0,
 /* @teleloc 0x6AD9000F [30.272600 164.063004 311.470001] 0.333521 0.000000 0.000000 -0.942743 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76AD9000, 0x76AD9002, '2019-03-23 02:20:17') /* Banderling Enforcer (7346) */
-     , (0x76AD9000, 0x76AD9003, '2019-03-23 02:20:17') /* Banderling Enforcer (7346) */
-     , (0x76AD9000, 0x76AD9004, '2019-03-23 02:20:17') /* Banderling Enforcer (7346) */
-     , (0x76AD9000, 0x76AD9005, '2019-03-23 02:20:17') /* Banderling Thrasher (7086) */
-     , (0x76AD9000, 0x76AD9006, '2019-03-23 02:20:17') /* Banderling Thrasher (7086) */
-     , (0x76AD9000, 0x76AD9007, '2019-03-23 02:20:17') /* Banderling Thrasher (7086) */;
+VALUES (0x76AD9000, 0x76AD9002, '2021-11-01 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x76AD9000, 0x76AD9003, '2021-11-01 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x76AD9000, 0x76AD9004, '2021-11-01 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x76AD9000, 0x76AD9005, '2021-11-01 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x76AD9000, 0x76AD9006, '2021-11-01 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x76AD9000, 0x76AD9007, '2021-11-01 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76AD9001, 70054, 0x6AD9000F, 31.6229, 161.876, 310.005, 0.256612, 0, 0, -0.966515, False, '2021-11-01 00:00:00'); /* Pack */

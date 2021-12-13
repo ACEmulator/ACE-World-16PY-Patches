@@ -5,12 +5,12 @@ VALUES (0x73EF0000,  7924, 0x3EF00039, 169.874, 7.66211, 4.005, 0.536737, 0, 0, 
 /* @teleloc 0x3EF00039 [169.873993 7.662110 4.005000] 0.536737 0.000000 0.000000 0.843750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EF0000, 0x73EF0004, '2021-11-01 16:16:26') /* Ruschk Sadist (29344) */
-     , (0x73EF0000, 0x73EF0005, '2021-11-01 16:16:26') /* Ruschk Sadist (29344) */
-     , (0x73EF0000, 0x73EF0006, '2021-11-01 16:16:26') /* Ruschk Sadist (29344) */
-     , (0x73EF0000, 0x73EF0007, '2021-11-01 16:16:26') /* Ruschk Kartak (29341) */
-     , (0x73EF0000, 0x73EF0008, '2021-11-01 16:16:26') /* Ruschk Kartak (29341) */
-     , (0x73EF0000, 0x73EF0009, '2021-11-01 16:16:26') /* Ruschk Kartak (29341) */;
+VALUES (0x73EF0000, 0x73EF0004, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EF0000, 0x73EF0005, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EF0000, 0x73EF0006, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EF0000, 0x73EF0007, '2021-11-01 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF0000, 0x73EF0008, '2021-11-01 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF0000, 0x73EF0009, '2021-11-01 00:00:00') /* Ruschk Kartak (29341) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EF0001, 31301, 0x3EF00039, 168.733, 10.4421, 4, 0.050973, 0, 0, -0.9987, False, '2021-11-01 00:00:00'); /* Ruschk Fire */

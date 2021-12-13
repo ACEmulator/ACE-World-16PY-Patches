@@ -9,7 +9,7 @@ VALUES (0x73E0D004,  1154, 0x3E0D0026, 108, 132, 2.94674, -0.153788, 0, 0, -0.98
 /* @teleloc 0x3E0D0026 [108.000000 132.000000 2.946740] -0.153788 0.000000 0.000000 -0.988104 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E0D004, 0x73E0D005, '2019-02-10 00:00:00') /* Shrine of the Eye of T'thuun (38255) */;
+VALUES (0x73E0D004, 0x73E0D005, '2021-11-01 00:00:00') /* Shrine of the Eye of T'thuun (38255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0D005, 38255, 0x3E0D0026, 108, 132, 2.94674, -0.153788, 0, 0, -0.988104,  True, '2021-11-01 00:00:00'); /* Shrine of the Eye of T'thuun */
@@ -20,7 +20,7 @@ VALUES (0x73E0D006,  1154, 0x3E0D000C, 39.7742, 75.5623, 9.58046, 0.010594, 0, 0
 /* @teleloc 0x3E0D000C [39.774200 75.562302 9.580460] 0.010594 0.000000 0.000000 -0.999944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E0D006, 0x73E0D007, '2019-02-10 00:00:00') /* Devon the Collector (40461) */;
+VALUES (0x73E0D006, 0x73E0D007, '2021-11-01 00:00:00') /* Devon the Collector (40461) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0D007, 40461, 0x3E0D000C, 39.7742, 75.5623, 9.58046, 0.010594, 0, 0, -0.999944,  True, '2021-11-01 00:00:00'); /* Devon the Collector */

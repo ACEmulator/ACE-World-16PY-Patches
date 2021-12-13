@@ -23,7 +23,7 @@ VALUES (31232,   1, 0x02000155) /* Setup */
      , (31232,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (31232, 1, 1000);
+VALUES (31232, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (31232, 0, 0xFFFFFFFF, 'Luressi di Maki', 'prewritten', False, 'The cities of Sanamar and Silyun have long been at odds. Before the rebel Eleonora was executed, our two cities were at war. Once her body was delivered to the Duke of Bellenesse, that war came to a close. But the end of that war did not erase the tension that exists between the Loyalists of Sanamar and the Rebels of Silyun. Rumor has it that the Grand Knight of Sanamar and the Grand Mother of Silyun seek the assistance of all who would aid them in this cold, silent conflict.')

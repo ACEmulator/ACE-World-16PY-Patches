@@ -21,31 +21,31 @@ VALUES (0x76651004, 15759, 0x6651011D, 11.9522, -10.7574, 24.055, 1, 0, 0, 0, Fa
 /* @teleloc 0x6651011D [11.952200 -10.757400 24.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76651004, 0x76651006, '2021-08-08 08:39:06') /* O-Yoroi Helm (46552) */
-     , (0x76651004, 0x76651007, '2021-08-08 08:41:01') /* O-Yoroi Coat (46615) */
-     , (0x76651004, 0x7665100B, '2021-08-08 08:44:18') /* Reinforced Shou-jen Shozoku Gauntlets (46643) */
-     , (0x76651004, 0x7665100D, '2021-08-08 08:44:59') /* Reinforced Shou-jen Shozoku Trousers (46644) */
-     , (0x76651004, 0x7665100F, '2021-08-08 08:45:51') /* Reinforced Shou-jen Shozoku Jacket (46642) */
-     , (0x76651004, 0x76651010, '2021-08-08 08:48:34') /* O-Yoroi Leggings (46345) */
-     , (0x76651004, 0x76651011, '2021-08-08 08:49:12') /* O-Yoroi Sandals (46553) */
-     , (0x76651004, 0x76651012, '2021-08-08 08:49:33') /* O-Yoroi Gauntlets (46551) */
-     , (0x76651004, 0x76651013, '2021-08-08 08:53:17') /* Legendary Key (72474) */
-     , (0x76651004, 0x76651014, '2021-08-08 08:53:21') /* Legendary Key (72474) */
-     , (0x76651004, 0x76651015, '2021-08-08 08:53:23') /* Legendary Key (72474) */
-     , (0x76651004, 0x76651016, '2021-08-08 08:54:14') /* Legendary Key (72474) */
-     , (0x76651004, 0x76651017, '2021-08-08 08:54:32') /* Legendary Key (72474) */
-     , (0x76651004, 0x76651018, '2021-08-08 08:54:35') /* Legendary Key (72474) */
-     , (0x76651004, 0x76651019, '2021-08-08 08:54:37') /* Legendary Key (72474) */
-     , (0x76651004, 0x7665101A, '2021-08-08 08:54:41') /* Legendary Key (72474) */
-     , (0x76651004, 0x7665101B, '2021-08-08 09:09:06') /* Reinforced Shou-jen Jika-Tabi (46641) */
-     , (0x76651004, 0x7665101C, '2021-08-08 09:10:59') /* Reinforced Shou-jen Shozoku Mask (46645) */;
+VALUES (0x76651004, 0x76651006, '2021-11-01 00:00:00') /* O-Yoroi Helm (46552) */
+     , (0x76651004, 0x76651007, '2021-11-01 00:00:00') /* O-Yoroi Coat (46615) */
+     , (0x76651004, 0x7665100B, '2021-11-01 00:00:00') /* Reinforced Shou-jen Shozoku Gauntlets (46643) */
+     , (0x76651004, 0x7665100D, '2021-11-01 00:00:00') /* Reinforced Shou-jen Shozoku Trousers (46644) */
+     , (0x76651004, 0x7665100F, '2021-11-01 00:00:00') /* Reinforced Shou-jen Shozoku Jacket (46642) */
+     , (0x76651004, 0x76651010, '2021-11-01 00:00:00') /* O-Yoroi Leggings (46345) */
+     , (0x76651004, 0x76651011, '2021-11-01 00:00:00') /* O-Yoroi Sandals (46553) */
+     , (0x76651004, 0x76651012, '2021-11-01 00:00:00') /* O-Yoroi Gauntlets (46551) */
+     , (0x76651004, 0x76651013, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x76651014, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x76651015, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x76651016, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x76651017, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x76651018, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x76651019, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x7665101A, '2021-11-01 00:00:00') /* Legendary Key (72474) */
+     , (0x76651004, 0x7665101B, '2021-11-01 00:00:00') /* Reinforced Shou-jen Jika-Tabi (46641) */
+     , (0x76651004, 0x7665101C, '2021-11-01 00:00:00') /* Reinforced Shou-jen Shozoku Mask (46645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76651005,  7925, 0x6651011D, 11.9878, -9.47919, 24.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x6651011D [11.987800 -9.479190 24.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76651005, 0x7665102A, '2021-08-08 09:53:34') /* First Lieutenant (72540) */;
+VALUES (0x76651005, 0x7665102A, '2021-11-01 00:00:00') /* First Lieutenant (72540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76651006, 46552, 0x6651011D, 7.51711, -6.62265, 24.9225, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* O-Yoroi Helm */

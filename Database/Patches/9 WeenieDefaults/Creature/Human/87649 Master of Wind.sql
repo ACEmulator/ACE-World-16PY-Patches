@@ -22,7 +22,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87649,   1, True ) /* Stuck */
      , (87649,   6, True ) /* AiUsesMana */
      , (87649,   7, True ) /* AiUseHumanMagicAnimations */
-     , (87649,  10, True ) /* AttackerAi */
      , (87649,  11, False) /* IgnoreCollisions */
      , (87649,  12, True ) /* ReportCollisions */
      , (87649,  13, False) /* Ethereal */;

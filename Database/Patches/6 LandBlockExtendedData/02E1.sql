@@ -113,75 +113,75 @@ VALUES (0x702E101B,  7932, 0x02E10290, 309.427, -257.739, -11.995, 0.640997, 0, 
 /* @teleloc 0x02E10290 [309.427002 -257.739014 -11.995000] 0.640997 0.000000 0.000000 0.767544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E101B, 0x702E1001, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101B, 0x702E1008, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101B, 0x702E1014, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101B, 0x702E1015, '2005-02-09 10:00:00') /* Horrible Mu-miyah (1765) */
-     , (0x702E101B, 0x702E1016, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
-     , (0x702E101B, 0x702E1017, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
-     , (0x702E101B, 0x702E1018, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
-     , (0x702E101B, 0x702E1019, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */;
+VALUES (0x702E101B, 0x702E1001, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101B, 0x702E1008, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101B, 0x702E1014, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101B, 0x702E1015, '2021-11-07 08:12:46') /* Horrible Mu-miyah (1765) */
+     , (0x702E101B, 0x702E1016, '2021-11-07 08:12:46') /* Greater Mu-miyah (1764) */
+     , (0x702E101B, 0x702E1017, '2021-11-07 08:12:46') /* Greater Mu-miyah (1764) */
+     , (0x702E101B, 0x702E1018, '2021-11-07 08:12:46') /* Greater Mu-miyah (1764) */
+     , (0x702E101B, 0x702E1019, '2021-11-07 08:12:46') /* Greater Mu-miyah (1764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E101C,  4219, 0x02E10290, 309.971, -261.718, -11.995, 0.640997, 0, 0, 0.767544, False, '2021-11-07 08:12:46'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x02E10290 [309.971008 -261.717987 -11.995000] 0.640997 0.000000 0.000000 0.767544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E101C, 0x702E1000, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1002, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1003, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1004, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1005, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1006, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1007, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1009, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E100A, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E100B, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E100C, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E100D, '2005-02-09 10:00:00') /* Granite Golem (195) */
-     , (0x702E101C, 0x702E100E, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E100F, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1010, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1011, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1012, '2005-02-09 10:00:00') /* Granite Golem (195) */
-     , (0x702E101C, 0x702E1013, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E101E, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
-     , (0x702E101C, 0x702E1020, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1023, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1024, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1025, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1026, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1027, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1028, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E102A, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E102B, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E102C, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E102D, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E102E, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E102F, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
-     , (0x702E101C, 0x702E1030, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
-     , (0x702E101C, 0x702E1033, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1034, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1035, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1038, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1039, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E103A, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E103B, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E103C, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E103D, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E103E, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E103F, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1040, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1041, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1042, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1043, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1044, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1045, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1046, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1047, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1048, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E1049, '2005-02-09 10:00:00') /* Iron Golem (197) */
-     , (0x702E101C, 0x702E104A, '2005-02-09 10:00:00') /* Iron Golem (197) */;
+VALUES (0x702E101C, 0x702E1000, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1002, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1003, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1004, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1005, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1006, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1007, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1009, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E100A, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E100B, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E100C, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E100D, '2021-11-07 08:12:46') /* Granite Golem (195) */
+     , (0x702E101C, 0x702E100E, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E100F, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1010, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1011, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1012, '2021-11-07 08:12:46') /* Granite Golem (195) */
+     , (0x702E101C, 0x702E1013, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E101E, '2021-11-07 08:12:46') /* Obsidian Golem (201) */
+     , (0x702E101C, 0x702E1020, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1023, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1024, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1025, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1026, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1027, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1028, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E102A, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E102B, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E102C, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E102D, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E102E, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E102F, '2021-11-07 08:12:46') /* Obsidian Golem (201) */
+     , (0x702E101C, 0x702E1030, '2021-11-07 08:12:46') /* Obsidian Golem (201) */
+     , (0x702E101C, 0x702E1033, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1034, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1035, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1038, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1039, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E103A, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E103B, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E103C, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E103D, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E103E, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E103F, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1040, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1041, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1042, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1043, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1044, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1045, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1046, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1047, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1048, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E1049, '2021-11-07 08:12:46') /* Iron Golem (197) */
+     , (0x702E101C, 0x702E104A, '2021-11-07 08:12:46') /* Iron Golem (197) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E101D,  7935, 0x02E10295, 310, -270, -11.995, 1, 0, 0, 0, False, '2021-11-07 08:12:46'); /* The Floating City */
@@ -204,7 +204,7 @@ VALUES (0x702E1021,  7561, 0x02E102B7, 27.7603, -29.9714, -3.46044, -0.660263, 0
 /* @teleloc 0x02E102B7 [27.760300 -29.971399 -3.460440] -0.660263 0.000000 0.000000 -0.751034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E1021, 0x702E1022, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x702E1021, 0x702E1022, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E1022,  2131, 0x02E102B7, 26.5603, -30.0188, -5.995, -0.937841, 0, 0, -0.347065,  True, '2021-11-07 08:12:46'); /* Pressure Plate */
@@ -295,7 +295,7 @@ VALUES (0x702E1037,  7561, 0x02E10394, 37.0835, -169.817, 2.53288, 0.696706, 0, 
 /* @teleloc 0x02E10394 [37.083500 -169.817001 2.532880] 0.696706 0.000000 0.000000 0.717357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E1037, 0x702E1036, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x702E1037, 0x702E1036, '2021-11-07 08:12:46') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E1038,   197, 0x02E1039E, 61.0181, -10.136, 0.01, 0.696707, 0, 0, -0.717356,  True, '2021-11-07 08:12:46'); /* Iron Golem */
@@ -378,31 +378,11 @@ VALUES (0x702E1072, 15759, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.30
 /* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E1072, 0x702E1078, '2019-02-10 00:00:00') /* Imprinting Mote (34884) */
-     , (0x702E1072, 0x702E1079, '2019-02-10 00:00:00') /* Imprinting Mote (34884) */
-     , (0x702E1072, 0x702E107A, '2019-02-10 00:00:00') /* Imprinting Mote (34884) */
-     , (0x702E1072, 0x702E107B, '2019-02-10 00:00:00') /* Imprinting Mote (34884) */
-     , (0x702E1072, 0x702E107C, '2019-02-10 00:00:00') /* Imprinting Mote (34884) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1073,  8384, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Southwest Shore Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1074,  8390, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands South Landbridge Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1075,  8385, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Southeast Shore */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1076,  8383, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Desert Northeast Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1077,  8389, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands North Landbridge Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */
+VALUES (0x702E1072, 0x702E1078, '2021-11-07 08:12:46') /* Imprinting Mote (34884) */
+     , (0x702E1072, 0x702E1079, '2021-11-07 08:12:46') /* Imprinting Mote (34884) */
+     , (0x702E1072, 0x702E107A, '2021-11-07 08:12:46') /* Imprinting Mote (34884) */
+     , (0x702E1072, 0x702E107B, '2021-11-07 08:12:46') /* Imprinting Mote (34884) */
+     , (0x702E1072, 0x702E107C, '2021-11-07 08:12:46') /* Imprinting Mote (34884) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E1078, 34884, 0x02E10121, 193.376, -273.332, -17.9868, -0.939279, 0, 0, -0.343154,  True, '2021-11-07 08:12:46'); /* Imprinting Mote */
@@ -423,7 +403,3 @@ VALUES (0x702E107B, 34884, 0x02E10129, 194.066, -291.82, -17.9868, -0.972059, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E107C, 34884, 0x02E1011D, 187.856, -258.86, -17.9868, 0.897973, 0, 0, 0.44005,  True, '2021-11-07 08:12:46'); /* Imprinting Mote */
 /* @teleloc 0x02E1011D [187.856003 -258.859985 -17.986799] 0.897973 0.000000 0.000000 0.440050 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E107D,  8388, 0x02E1028D, 310, -250, -12.063, 0.953717, 0, 0, -0.300706, False, '2021-11-07 08:12:46'); /* Direlands Northwest Shore Portal */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -12.063000] 0.953717 0.000000 0.000000 -0.300706 */

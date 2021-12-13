@@ -205,15 +205,15 @@ VALUES (0x7BC9F034,  7923, 0xBC9F0000, 176.596, 87.138, 32.005, 0.58705, 0, 0, -
 /* @teleloc 0xBC9F0000 [176.595993 87.138000 32.005001] 0.587050 0.000000 0.000000 -0.809551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9F034, 0x7BC9F051, '2005-02-09 10:00:00') /* Alec (28475) */
-     , (0x7BC9F034, 0x7BC9F052, '2005-02-09 10:00:00') /* Barnar the Tinker (7240) */
-     , (0x7BC9F034, 0x7BC9F053, '2005-02-09 10:00:00') /* Guard Hamdyn (29766) */
-     , (0x7BC9F034, 0x7BC9F054, '2005-02-09 10:00:00') /* Guard Fassel (29770) */
-     , (0x7BC9F034, 0x7BC9F055, '2005-02-09 10:00:00') /* Guard Sorchia (29768) */
-     , (0x7BC9F034, 0x7BC9F056, '2005-02-09 10:00:00') /* Guard Ellyon (29771) */
-     , (0x7BC9F034, 0x7BC9F057, '2005-02-09 10:00:00') /* Guard Lo Pan (29772) */
-     , (0x7BC9F034, 0x7BC9F058, '2005-02-09 10:00:00') /* Guard Haigh (29767) */
-     , (0x7BC9F034, 0x7BC9F059, '2005-02-09 10:00:00') /* Guard Devon (29769) */;
+VALUES (0x7BC9F034, 0x7BC9F051, '2021-11-01 00:00:00') /* Alec (28475) */
+     , (0x7BC9F034, 0x7BC9F052, '2021-11-01 00:00:00') /* Barnar the Tinker (7240) */
+     , (0x7BC9F034, 0x7BC9F053, '2021-11-01 00:00:00') /* Guard Hamdyn (29766) */
+     , (0x7BC9F034, 0x7BC9F054, '2021-11-01 00:00:00') /* Guard Fassel (29770) */
+     , (0x7BC9F034, 0x7BC9F055, '2021-11-01 00:00:00') /* Guard Sorchia (29768) */
+     , (0x7BC9F034, 0x7BC9F056, '2021-11-01 00:00:00') /* Guard Ellyon (29771) */
+     , (0x7BC9F034, 0x7BC9F057, '2021-11-01 00:00:00') /* Guard Lo Pan (29772) */
+     , (0x7BC9F034, 0x7BC9F058, '2021-11-01 00:00:00') /* Guard Haigh (29767) */
+     , (0x7BC9F034, 0x7BC9F059, '2021-11-01 00:00:00') /* Guard Devon (29769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9F035, 69997, 0xBC9F003C, 181.605, 88.619, 32.005, 0.714421, 0, 0, 0.699716, False, '2021-11-01 00:00:00'); /* Night Club Attendant Generator */
@@ -260,10 +260,10 @@ VALUES (0x7BC9F04B,  7923, 0xBC9F0000, 93.8722, 75.8065, 54.005, -0.695294, 0, 0
 /* @teleloc 0xBC9F0000 [93.872200 75.806503 54.005001] -0.695294 0.000000 0.000000 -0.718726 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9F04B, 0x7BC9F032, '2005-02-09 10:00:00') /* Lieutenant Kenneth (11809) */
-     , (0x7BC9F04B, 0x7BC9F03A, '2005-02-09 10:00:00') /* Glysander Cartoth (15810) */
-     , (0x7BC9F04B, 0x7BC9F04A, '2005-02-09 10:00:00') /* Royal Guard (24248) */
-     , (0x7BC9F04B, 0x7BC9F04C, '2005-02-09 10:00:00') /* Sign (25722) */;
+VALUES (0x7BC9F04B, 0x7BC9F032, '2021-11-01 00:00:00') /* Lieutenant Kenneth (11809) */
+     , (0x7BC9F04B, 0x7BC9F03A, '2021-11-01 00:00:00') /* Glysander Cartoth (15810) */
+     , (0x7BC9F04B, 0x7BC9F04A, '2021-11-01 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F04B, 0x7BC9F04C, '2021-11-01 00:00:00') /* Sign (25722) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9F04C, 25722, 0xBC9F0000, 174.182, 39.2257, 32.005, 0.593239, 0, 0, -0.805027,  True, '2021-11-01 00:00:00'); /* Sign */

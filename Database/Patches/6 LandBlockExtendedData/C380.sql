@@ -29,7 +29,7 @@ VALUES (0x7C380007,  1154, 0xC3800109, 58.9318, 130.872, 34.005, 0.716519, 0, 0,
 /* @teleloc 0xC3800109 [58.931801 130.871994 34.005001] 0.716519 0.000000 0.000000 0.697568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C380007, 0x7C38000F, '2005-02-09 10:00:00') /* Ercel (5048) */;
+VALUES (0x7C380007, 0x7C38000F, '2021-11-01 00:00:00') /* Ercel (5048) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C380008,  4427, 0xC3800000, 9.2318, 140.64, 34.005, 0.991393, 0, 0, -0.130922, False, '2021-11-01 00:00:00'); /* Lytelthorpe Outpost */

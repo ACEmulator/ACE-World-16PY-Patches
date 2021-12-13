@@ -21,10 +21,10 @@ VALUES (0x7574D004, 15759, 0x574D0103, 10, -40, -5.995, 0.714421, 0, 0, 0.699716
 /* @teleloc 0x574D0103 [10.000000 -40.000000 -5.995000] 0.714421 0.000000 0.000000 0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7574D004, 0x7574D005, '2005-02-09 10:00:00') /* Note from a Scout (24258) */
-     , (0x7574D004, 0x7574D006, '2005-02-09 10:00:00') /* Note from a Scout (24258) */
-     , (0x7574D004, 0x7574D007, '2005-02-09 10:00:00') /* Note from a Scout (24258) */
-     , (0x7574D004, 0x7574D009, '2005-02-09 10:00:00') /* Note from a Scout (24258) */;
+VALUES (0x7574D004, 0x7574D005, '2021-11-01 00:00:00') /* Note from a Scout (24258) */
+     , (0x7574D004, 0x7574D006, '2021-11-01 00:00:00') /* Note from a Scout (24258) */
+     , (0x7574D004, 0x7574D007, '2021-11-01 00:00:00') /* Note from a Scout (24258) */
+     , (0x7574D004, 0x7574D009, '2021-11-01 00:00:00') /* Note from a Scout (24258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574D005, 24258, 0x574D0103, 11.5558, -39.501, -5.921, 0.852525, 0, 0, 0.522687,  True, '2021-11-01 00:00:00'); /* Note from a Scout */
@@ -79,16 +79,16 @@ VALUES (0x7574D011,  7923, 0x574D0160, 140, -17.9983, 0.005, 1, 0, 0, 0, False, 
 /* @teleloc 0x574D0160 [140.000000 -17.998301 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7574D011, 0x7574D003, '2005-02-09 10:00:00') /* Olthoi Mutilator (23481) */
-     , (0x7574D011, 0x7574D008, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x7574D011, 0x7574D00A, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x7574D011, 0x7574D00B, '2005-02-09 10:00:00') /* Olthoi Warrior (23482) */
-     , (0x7574D011, 0x7574D00C, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x7574D011, 0x7574D00D, '2005-02-09 10:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x7574D011, 0x7574D00E, '2005-02-09 10:00:00') /* Olthoi Mutilator (23481) */
-     , (0x7574D011, 0x7574D00F, '2005-02-09 10:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x7574D011, 0x7574D010, '2005-02-09 10:00:00') /* Olthoi Mutilator (23481) */
-     , (0x7574D011, 0x7574D013, '2005-02-09 10:00:00') /* Olthoi Mutilator (23481) */;
+VALUES (0x7574D011, 0x7574D003, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7574D011, 0x7574D008, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x7574D011, 0x7574D00A, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x7574D011, 0x7574D00B, '2021-11-01 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7574D011, 0x7574D00C, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x7574D011, 0x7574D00D, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x7574D011, 0x7574D00E, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7574D011, 0x7574D00F, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x7574D011, 0x7574D010, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7574D011, 0x7574D013, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574D012,  5627, 0x574D0165, 140.004, -25.3974, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -103,7 +103,7 @@ VALUES (0x7574D6A5,  1154, 0x574D0107, 10.0321, -46.3923, -6, -0.003904, 0, 0, -
 /* @teleloc 0x574D0107 [10.032100 -46.392300 -6.000000] -0.003904 0.000000 0.000000 -0.999992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7574D6A5, 0x7574D6A6, '2020-01-30 00:00:00') /* Exploration Marker (39807) */;
+VALUES (0x7574D6A5, 0x7574D6A6, '2021-11-01 00:00:00') /* Exploration Marker (39807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574D6A6, 39807, 0x574D0107, 10.0321, -46.3923, -6, -0.003904, 0, 0, -0.999992,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

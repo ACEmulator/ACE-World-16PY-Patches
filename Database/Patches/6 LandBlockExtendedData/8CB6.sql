@@ -5,16 +5,16 @@ VALUES (0x78CB6000,  7923, 0x8CB60000, 185.916, 68.1771, 55.472, -0.736948, 0, 0
 /* @teleloc 0x8CB60000 [185.916000 68.177101 55.472000] -0.736948 0.000000 0.000000 0.675950 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB6000, 0x78CB6001, '2005-02-09 10:00:00') /* Tumerok Scout (4099) */
-     , (0x78CB6000, 0x78CB6002, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
-     , (0x78CB6000, 0x78CB6003, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
-     , (0x78CB6000, 0x78CB6004, '2005-02-09 10:00:00') /* Tumerok Fighter (4101) */
-     , (0x78CB6000, 0x78CB6005, '2005-02-09 10:00:00') /* Tumerok Fighter (4101) */
-     , (0x78CB6000, 0x78CB6006, '2005-02-09 10:00:00') /* Tumerok Priest (4105) */
-     , (0x78CB6000, 0x78CB6007, '2005-02-09 10:00:00') /* Tumerok Scout (4099) */
-     , (0x78CB6000, 0x78CB6008, '2005-02-09 10:00:00') /* Tumerok Scout (4099) */
-     , (0x78CB6000, 0x78CB6009, '2005-02-09 10:00:00') /* Tumerok Scout (4099) */
-     , (0x78CB6000, 0x78CB600B, '2005-02-09 10:00:00') /* Tumerok Priest (4105) */;
+VALUES (0x78CB6000, 0x78CB6001, '2021-11-01 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB6000, 0x78CB6002, '2021-11-01 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x78CB6000, 0x78CB6003, '2021-11-01 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x78CB6000, 0x78CB6004, '2021-11-01 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x78CB6000, 0x78CB6005, '2021-11-01 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x78CB6000, 0x78CB6006, '2021-11-01 00:00:00') /* Tumerok Priest (4105) */
+     , (0x78CB6000, 0x78CB6007, '2021-11-01 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB6000, 0x78CB6008, '2021-11-01 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB6000, 0x78CB6009, '2021-11-01 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB6000, 0x78CB600B, '2021-11-01 00:00:00') /* Tumerok Priest (4105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB6001,  4099, 0x8CB60000, 182.748, 57.7646, 41.6719, -0.684052, 0, 0, -0.729433,  True, '2021-11-01 00:00:00'); /* Tumerok Scout */

@@ -61,11 +61,11 @@ VALUES (0x7482D480,  7924, 0x482D0025, 108.637, 110.385, 6.055, -0.695391, 0, 0,
 /* @teleloc 0x482D0025 [108.637001 110.385002 6.055000] -0.695391 0.000000 0.000000 -0.718632 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7482D480, 0x7482D481, '2020-10-23 15:31:16') /* Shambling Archivist (38713) */
-     , (0x7482D480, 0x7482D482, '2020-10-23 17:20:27') /* Corrupted Dread (37452) */
-     , (0x7482D480, 0x7482D483, '2020-10-23 17:20:38') /* Corrupted Dread (37452) */
-     , (0x7482D480, 0x7482D484, '2020-10-23 17:21:02') /* Corrupted Dread (37452) */
-     , (0x7482D480, 0x7482D485, '2020-10-23 17:21:32') /* Corrupted Dread (37452) */;
+VALUES (0x7482D480, 0x7482D481, '2021-11-01 00:00:00') /* Shambling Archivist (38713) */
+     , (0x7482D480, 0x7482D482, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482D480, 0x7482D483, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482D480, 0x7482D484, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482D480, 0x7482D485, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482D481, 38713, 0x482D0025, 108.637, 110.385, 6.00825, -0.695391, 0, 0, -0.718632,  True, '2021-11-01 00:00:00'); /* Shambling Archivist */
@@ -184,10 +184,10 @@ VALUES (0x7482D4AE, 72210, 0x482D0025, 106.072, 108.445, 6.055, 0.676416, 0, 0, 
 /* @teleloc 0x482D0025 [106.071999 108.445000 6.055000] 0.676416 0.000000 0.000000 -0.736520 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7482D4AE, 0x7482D4AF, '2021-04-11 10:33:37') /* Wight Blade Sorcerer (46815) */
-     , (0x7482D4AE, 0x7482D4B0, '2021-04-11 10:35:14') /* Wight Blade Sorcerer (46815) */
-     , (0x7482D4AE, 0x7482D4B1, '2021-04-11 10:36:06') /* Wight Blade Sorcerer (46815) */
-     , (0x7482D4AE, 0x7482D4B2, '2021-04-11 10:37:34') /* Wight Blade Sorcerer (46815) */;
+VALUES (0x7482D4AE, 0x7482D4AF, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482D4AE, 0x7482D4B0, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482D4AE, 0x7482D4B1, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482D4AE, 0x7482D4B2, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482D4AF, 46815, 0x482D0020, 86.5052, 182.558, 13.5358, 0.861984, 0, 0, 0.506935,  True, '2021-11-01 00:00:00'); /* Wight Blade Sorcerer */

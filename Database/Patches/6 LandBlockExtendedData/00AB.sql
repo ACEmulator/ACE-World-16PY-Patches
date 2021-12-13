@@ -101,60 +101,60 @@ VALUES (0x700AB019, 80140, 0x00AB0109, 49.7578, -34.6875, -29.945, 0.707107, 0, 
 /* @teleloc 0x00AB0109 [49.757801 -34.687500 -29.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB019, 0x700AB001, '2005-02-09 10:00:00') /* Statue of Death (80102) */;
+VALUES (0x700AB019, 0x700AB001, '2021-11-01 00:00:00') /* Statue of Death (80102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB01A, 80142, 0x00AB0109, 47.3958, -34.5039, -29.945, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* DCA Lum1 Linkable Generator */
 /* @teleloc 0x00AB0109 [47.395802 -34.503899 -29.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB01A, 0x700AB008, '2005-02-09 10:00:00') /* Statue of Illuminating Death (80103) */;
+VALUES (0x700AB01A, 0x700AB008, '2021-11-01 00:00:00') /* Statue of Illuminating Death (80103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB01B, 80143, 0x00AB0108, 41.9685, -50.7617, -29.945, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* DCA Lum2 Linkable Generator */
 /* @teleloc 0x00AB0108 [41.968498 -50.761700 -29.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB01B, 0x700AB002, '2005-02-09 10:00:00') /* Statue of Illuminating Death (80135) */;
+VALUES (0x700AB01B, 0x700AB002, '2021-11-01 00:00:00') /* Statue of Illuminating Death (80135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB01C, 80144, 0x00AB010B, 57.9408, -19.543, -29.945, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* DCA Lum3 Linkable Generator */
 /* @teleloc 0x00AB010B [57.940800 -19.542999 -29.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB01C, 0x700AB003, '2005-02-09 10:00:00') /* Statue of Illuminating Death (80136) */;
+VALUES (0x700AB01C, 0x700AB003, '2021-11-01 00:00:00') /* Statue of Illuminating Death (80136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB01D, 80145, 0x00AB0118, 27.2377, -17.1719, -23.945, 0.382683, 0, 0, -0.92388, False, '2021-11-01 00:00:00'); /* DCA Lum4 Linkable Generator */
 /* @teleloc 0x00AB0118 [27.237700 -17.171900 -23.945000] 0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB01D, 0x700AB004, '2005-02-09 10:00:00') /* Statue of Illuminating Death (80137) */;
+VALUES (0x700AB01D, 0x700AB004, '2021-11-01 00:00:00') /* Statue of Illuminating Death (80137) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB01E, 80146, 0x00AB013F, 72.8364, -52.7617, -23.945, 0.92388, 0, 0, 0.382683, False, '2021-11-01 00:00:00'); /* DCA Lum5 Linkable Generator */
 /* @teleloc 0x00AB013F [72.836403 -52.761700 -23.945000] 0.923880 0.000000 0.000000 0.382683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB01E, 0x700AB005, '2005-02-09 10:00:00') /* Statue of Illuminating Death (80138) */;
+VALUES (0x700AB01E, 0x700AB005, '2021-11-01 00:00:00') /* Statue of Illuminating Death (80138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB01F, 80147, 0x00AB0103, 31.2422, -30.957, -29.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* DCA HiLum1 Linkable Generator */
 /* @teleloc 0x00AB0103 [31.242201 -30.957001 -29.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB01F, 0x700AB007, '2005-02-09 10:00:00') /* Statue of High Illumination (80104) */;
+VALUES (0x700AB01F, 0x700AB007, '2021-11-01 00:00:00') /* Statue of High Illumination (80104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB020, 80148, 0x00AB0110, 67.8248, -39.7031, -29.945, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* DCA HiLum2 Linkable Generator */
 /* @teleloc 0x00AB0110 [67.824799 -39.703098 -29.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB020, 0x700AB00A, '2005-02-09 10:00:00') /* Statue of High Illumination (80139) */;
+VALUES (0x700AB020, 0x700AB00A, '2021-11-01 00:00:00') /* Statue of High Illumination (80139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AB021, 80149, 0x00AB010A, 48.7562, -37.1328, -29.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* DCA ExLum1 Linkable Generator */
 /* @teleloc 0x00AB010A [48.756199 -37.132801 -29.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AB021, 0x700AB009, '2005-02-09 10:00:00') /* Statue of Extreme Illumination (80105) */;
+VALUES (0x700AB021, 0x700AB009, '2021-11-01 00:00:00') /* Statue of Extreme Illumination (80105) */;

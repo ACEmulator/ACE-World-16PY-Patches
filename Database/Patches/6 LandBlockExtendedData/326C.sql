@@ -5,40 +5,40 @@ VALUES (0x7326C001,  4219, 0x326C0010, 43.9894, 175.651, 304.005, 0.939693, 0, 0
 /* @teleloc 0x326C0010 [43.989399 175.651001 304.005005] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326C001, 0x7326C002, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
-     , (0x7326C001, 0x7326C003, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
-     , (0x7326C001, 0x7326C004, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
-     , (0x7326C001, 0x7326C005, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
-     , (0x7326C001, 0x7326C006, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C007, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
-     , (0x7326C001, 0x7326C008, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
-     , (0x7326C001, 0x7326C009, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
-     , (0x7326C001, 0x7326C00A, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
-     , (0x7326C001, 0x7326C00B, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
-     , (0x7326C001, 0x7326C00C, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
-     , (0x7326C001, 0x7326C00D, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
-     , (0x7326C001, 0x7326C00E, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C00F, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
-     , (0x7326C001, 0x7326C010, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
-     , (0x7326C001, 0x7326C011, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C012, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
-     , (0x7326C001, 0x7326C013, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
-     , (0x7326C001, 0x7326C014, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
-     , (0x7326C001, 0x7326C015, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C016, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
-     , (0x7326C001, 0x7326C017, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C018, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C019, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C01A, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
-     , (0x7326C001, 0x7326C01B, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
-     , (0x7326C001, 0x7326C01C, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C022, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326C001, 0x7326C023, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
-     , (0x7326C001, 0x7326C026, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
-     , (0x7326C001, 0x7326C027, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
-     , (0x7326C001, 0x7326C02E, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
-     , (0x7326C001, 0x7326C030, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
-     , (0x7326C001, 0x7326C031, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */;
+VALUES (0x7326C001, 0x7326C002, '2021-11-01 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7326C001, 0x7326C003, '2021-11-01 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7326C001, 0x7326C004, '2021-11-01 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326C001, 0x7326C005, '2021-11-01 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7326C001, 0x7326C006, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C007, '2021-11-01 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7326C001, 0x7326C008, '2021-11-01 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326C001, 0x7326C009, '2021-11-01 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7326C001, 0x7326C00A, '2021-11-01 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7326C001, 0x7326C00B, '2021-11-01 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7326C001, 0x7326C00C, '2021-11-01 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326C001, 0x7326C00D, '2021-11-01 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7326C001, 0x7326C00E, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C00F, '2021-11-01 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7326C001, 0x7326C010, '2021-11-01 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7326C001, 0x7326C011, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C012, '2021-11-01 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7326C001, 0x7326C013, '2021-11-01 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326C001, 0x7326C014, '2021-11-01 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7326C001, 0x7326C015, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C016, '2021-11-01 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7326C001, 0x7326C017, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C018, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C019, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C01A, '2021-11-01 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7326C001, 0x7326C01B, '2021-11-01 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326C001, 0x7326C01C, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C022, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326C001, 0x7326C023, '2021-11-01 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7326C001, 0x7326C026, '2021-11-01 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7326C001, 0x7326C027, '2021-11-01 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7326C001, 0x7326C02E, '2021-11-01 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7326C001, 0x7326C030, '2021-11-01 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7326C001, 0x7326C031, '2021-11-01 00:00:00') /* Incalescent Crystalline Wisp (40131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326C002, 40128, 0x326C0010, 43.9894, 175.651, 304.005, 0.939693, 0, 0, -0.34202,  True, '2021-11-01 00:00:00'); /* Corroding Crystalline Wisp */
@@ -181,11 +181,11 @@ VALUES (0x7326C039,  1542, 0x326C002E, 124.154, 126.443, 304, 1, 0, 0, 0, False,
 /* @teleloc 0x326C002E [124.153999 126.443001 304.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326C039, 0x7326C03A, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x7326C039, 0x7326C03B, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x7326C039, 0x7326C03C, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x7326C039, 0x7326C03D, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x7326C039, 0x7326C040, '2019-02-10 00:00:00') /* Crystal (40124) */;
+VALUES (0x7326C039, 0x7326C03A, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x7326C039, 0x7326C03B, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x7326C039, 0x7326C03C, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x7326C039, 0x7326C03D, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x7326C039, 0x7326C040, '2021-11-01 00:00:00') /* Crystal (40124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326C03A, 40124, 0x326C002E, 124.154, 126.443, 304, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal */

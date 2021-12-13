@@ -349,7 +349,7 @@ VALUES (0x7F83807D,  2181, 0xF8380028, 108.038, 177.421, 10.082, -0.999995, 0, 0
 /* @teleloc 0xF8380028 [108.038002 177.421005 10.082000] -0.999995 0.000000 0.000000 0.003093 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F83807D, 0x7F8380F9, '2020-09-05 00:00:00') /* Gate Warden Kris (41178) */;
+VALUES (0x7F83807D, 0x7F8380F9, '2021-11-01 00:00:00') /* Gate Warden Kris (41178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F83807E,  5625, 0xF8380027, 108.001, 162.283, 10, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -360,42 +360,42 @@ VALUES (0x7F83807F,  7924, 0xF838012A, 157.505, 187.999, -7.995, 0.905894, 0, 0,
 /* @teleloc 0xF838012A [157.505005 187.998993 -7.995000] 0.905894 0.000000 0.000000 -0.423504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F83807F, 0x7F8380C0, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380C1, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380C2, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380C3, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380C4, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380C5, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380C6, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380C7, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380C8, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380C9, '2020-09-05 00:00:00') /* Large Ardent Moarsman (41183) */
-     , (0x7F83807F, 0x7F8380CA, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380CB, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380CC, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380CD, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380CE, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380CF, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380D0, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380D1, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380D2, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380D3, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380D4, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380D5, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380D6, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380D7, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380D8, '2020-09-05 00:00:00') /* Large Verdant Moarsman (41185) */
-     , (0x7F83807F, 0x7F8380D9, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380DA, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380DB, '2020-09-05 00:00:00') /* Ardent Moarsman (41180) */
-     , (0x7F83807F, 0x7F8380DC, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380DD, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380DE, '2020-09-05 00:00:00') /* Verdant Moarsman (41181) */
-     , (0x7F83807F, 0x7F8380DF, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380E0, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380E1, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380E2, '2020-09-05 00:00:00') /* Blessed Moarsman (41182) */
-     , (0x7F83807F, 0x7F8380E3, '2020-09-05 00:00:00') /* Large Blessed Moarsman (41184) */;
+VALUES (0x7F83807F, 0x7F8380C0, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380C1, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380C2, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380C3, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380C4, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380C5, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380C6, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380C7, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380C8, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380C9, '2021-11-01 00:00:00') /* Large Ardent Moarsman (41183) */
+     , (0x7F83807F, 0x7F8380CA, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380CB, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380CC, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380CD, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380CE, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380CF, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380D0, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380D1, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380D2, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380D3, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380D4, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380D5, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380D6, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380D7, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380D8, '2021-11-01 00:00:00') /* Large Verdant Moarsman (41185) */
+     , (0x7F83807F, 0x7F8380D9, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380DA, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380DB, '2021-11-01 00:00:00') /* Ardent Moarsman (41180) */
+     , (0x7F83807F, 0x7F8380DC, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380DD, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380DE, '2021-11-01 00:00:00') /* Verdant Moarsman (41181) */
+     , (0x7F83807F, 0x7F8380DF, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380E0, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380E1, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380E2, '2021-11-01 00:00:00') /* Blessed Moarsman (41182) */
+     , (0x7F83807F, 0x7F8380E3, '2021-11-01 00:00:00') /* Large Blessed Moarsman (41184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F8380C0, 41180, 0xF8380184, 150.722, 227.232, -1.9936, 0.778191, 0, 0, -0.628027,  True, '2021-11-01 00:00:00'); /* Ardent Moarsman */
@@ -546,15 +546,15 @@ VALUES (0x7F8380EF,  1154, 0xF8380020, 85.071, 189.134, 14.005, -0.65473, 0, 0, 
 /* @teleloc 0xF8380020 [85.070999 189.134003 14.005000] -0.654730 0.000000 0.000000 -0.755863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F8380EF, 0x7F8380F0, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F1, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F2, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F3, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F4, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F5, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F6, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F7, '2020-09-05 00:00:00') /* Prison Guard (41179) */
-     , (0x7F8380EF, 0x7F8380F8, '2020-09-05 00:00:00') /* Avarin (41177) */;
+VALUES (0x7F8380EF, 0x7F8380F0, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F1, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F2, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F3, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F4, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F5, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F6, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F7, '2021-11-01 00:00:00') /* Prison Guard (41179) */
+     , (0x7F8380EF, 0x7F8380F8, '2021-11-01 00:00:00') /* Avarin (41177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F8380F0, 41179, 0xF8380020, 85.071, 189.134, 14.005, -0.65473, 0, 0, -0.755863,  True, '2021-11-01 00:00:00'); /* Prison Guard */

@@ -21,7 +21,7 @@ VALUES (0x7BE72004,  1154, 0xBE720102, 107, 108, 1.2, -0.707107, 0, 0, -0.707107
 /* @teleloc 0xBE720102 [107.000000 108.000000 1.200000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE72004, 0x7BE72005, '2019-02-10 00:00:00') /* Hassha (32673) */;
+VALUES (0x7BE72004, 0x7BE72005, '2021-11-01 00:00:00') /* Hassha (32673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE72005, 32673, 0xBE720102, 107, 108, 1.2, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Hassha */

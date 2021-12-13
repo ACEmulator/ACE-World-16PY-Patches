@@ -27,9 +27,7 @@ VALUES (29348,   1, True ) /* Stuck */
      , (29348,  12, True ) /* ReportCollisions */
      , (29348,  13, False) /* Ethereal */
      , (29348,  14, True ) /* GravityStatus */
-     , (29348,  19, True ) /* Attackable */
-     , (29348, 101, True ) /* CanGenerateRare */
-     , (29348, 102, True ) /* CorpseGeneratedRare */;
+     , (29348,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29348,   1,       5) /* HeartbeatInterval */

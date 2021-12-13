@@ -301,24 +301,24 @@ VALUES (0x7F93B15B,  4219, 0xF93B0733, 52.949, 149.08, -21.995, -0.911775, 0, 0,
 /* @teleloc 0xF93B0733 [52.949001 149.080002 -21.995001] -0.911775 0.000000 0.000000 0.410689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F93B15B, 0x7F93B192, '2019-02-10 00:00:00') /* Apostate Nexus Master (43260) */
-     , (0x7F93B15B, 0x7F93B220, '2019-02-10 00:00:00') /* Apostate Nexus Guardian (43262) */
-     , (0x7F93B15B, 0x7F93B224, '2019-02-10 00:00:00') /* Door (21545) */
-     , (0x7F93B15B, 0x7F93B24D, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
-     , (0x7F93B15B, 0x7F93B24E, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
-     , (0x7F93B15B, 0x7F93B24F, '2019-02-10 00:00:00') /* Wailing Statue (26568) */
-     , (0x7F93B15B, 0x7F93B250, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
-     , (0x7F93B15B, 0x7F93B251, '2019-02-10 00:00:00') /* Door (21545) */
-     , (0x7F93B15B, 0x7F93B252, '2019-02-10 00:00:00') /* Wailing Statue (26544) */
-     , (0x7F93B15B, 0x7F93B255, '2019-02-10 00:00:00') /* Wailing Statue (26568) */
-     , (0x7F93B15B, 0x7F93B256, '2019-02-10 00:00:00') /* Wailing Statue (26544) */
-     , (0x7F93B15B, 0x7F93B257, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
-     , (0x7F93B15B, 0x7F93B25C, '2019-02-10 00:00:00') /* Rock Wall (37569) */
-     , (0x7F93B15B, 0x7F93B260, '2019-02-10 00:00:00') /* Rock Wall (37569) */
-     , (0x7F93B15B, 0x7F93B26E, '2019-02-10 00:00:00') /* Rock Wall (37569) */
-     , (0x7F93B15B, 0x7F93B27C, '2019-02-10 00:00:00') /* Thick Rock Wall (51646) */
-     , (0x7F93B15B, 0x7F93B347, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
-     , (0x7F93B15B, 0x7F93B440, '2021-08-23 10:11:04') /* Empyrean Rescue Event Starter (87502) */;
+VALUES (0x7F93B15B, 0x7F93B192, '2021-11-01 00:00:00') /* Apostate Nexus Master (43260) */
+     , (0x7F93B15B, 0x7F93B220, '2021-11-01 00:00:00') /* Apostate Nexus Guardian (43262) */
+     , (0x7F93B15B, 0x7F93B224, '2021-11-01 00:00:00') /* Door (21545) */
+     , (0x7F93B15B, 0x7F93B24D, '2021-11-01 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B24E, '2021-11-01 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B24F, '2021-11-01 00:00:00') /* Wailing Statue (26568) */
+     , (0x7F93B15B, 0x7F93B250, '2021-11-01 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B251, '2021-11-01 00:00:00') /* Door (21545) */
+     , (0x7F93B15B, 0x7F93B252, '2021-11-01 00:00:00') /* Wailing Statue (26544) */
+     , (0x7F93B15B, 0x7F93B255, '2021-11-01 00:00:00') /* Wailing Statue (26568) */
+     , (0x7F93B15B, 0x7F93B256, '2021-11-01 00:00:00') /* Wailing Statue (26544) */
+     , (0x7F93B15B, 0x7F93B257, '2021-11-01 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B25C, '2021-11-01 00:00:00') /* Rock Wall (37569) */
+     , (0x7F93B15B, 0x7F93B260, '2021-11-01 00:00:00') /* Rock Wall (37569) */
+     , (0x7F93B15B, 0x7F93B26E, '2021-11-01 00:00:00') /* Rock Wall (37569) */
+     , (0x7F93B15B, 0x7F93B27C, '2021-11-01 00:00:00') /* Thick Rock Wall (51646) */
+     , (0x7F93B15B, 0x7F93B347, '2021-11-01 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B440, '2021-11-01 00:00:00') /* Empyrean Rescue Event Starter (87502) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B192, 43260, 0xF93B0568, 101.268, 41.704, -33.971, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Apostate Nexus Master */
@@ -393,10 +393,10 @@ VALUES (0x7F93B348, 15759, 0xF93B013A, 212.709, 189.185, -117.945, -0.384934, 0,
 /* @teleloc 0xF93B013A [212.709000 189.184998 -117.945000] -0.384934 0.000000 0.000000 0.922944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F93B348, 0x7F93B365, '2019-02-10 00:00:00') /* Legendary Key (51648) */
-     , (0x7F93B348, 0x7F93B366, '2019-02-10 00:00:00') /* Legendary Key (51648) */
-     , (0x7F93B348, 0x7F93B367, '2019-02-10 00:00:00') /* Legendary Key (51648) */
-     , (0x7F93B348, 0x7F93B368, '2019-02-10 00:00:00') /* Legendary Key (51648) */;
+VALUES (0x7F93B348, 0x7F93B365, '2021-11-01 00:00:00') /* Legendary Key (51648) */
+     , (0x7F93B348, 0x7F93B366, '2021-11-01 00:00:00') /* Legendary Key (51648) */
+     , (0x7F93B348, 0x7F93B367, '2021-11-01 00:00:00') /* Legendary Key (51648) */
+     , (0x7F93B348, 0x7F93B368, '2021-11-01 00:00:00') /* Legendary Key (51648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B365, 51648, 0xF93B012A, 214.374, 178.03, -117.976, -0.00804, 0, 0, 0.999968,  True, '2021-11-01 00:00:00'); /* Legendary Key */

@@ -5,7 +5,6 @@ VALUES (8911, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8911, 0,   9, 1024, 4, 'You can only apply this augmentaion to a girth-slot item!') /* Target.ValidLocations - AbdomenArmor NotEqual 1024 */
-     , (8911, 0, 105, 1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
      , (8911, 0, 371, 1, 3, 'This item has already been imbued!') /* Target.GearDamageResist GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -36,10 +35,16 @@ VALUES (8911, 53298 /* Luminous Amber: Girth of the Bulwark */,    60 /* Leather
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */,  6045 /* Celdon Leggings */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */,  6047 /* Amuli Leggings */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 21154 /* Covenant Girth */, '2021-11-01 00:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 24621 /* Fine Olthoi Girth */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 24622 /* Good Olthoi Girth */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 24623 /* Fine Olthoi Greaves */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 24624 /* Good Olthoi Greaves */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 24947 /* Antius' Celdon Girth */, '2005-02-09 10:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 25643 /* Leather Girth */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 25645 /* Leather Leggings */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 25647 /* Leather Pants */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 25650 /* Leather Shorts */, '2021-11-01 00:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 25656 /* Koujia Leggings */, '2005-02-09 10:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 27218 /* Chiran Leggings */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 27224 /* Lorica Leggings */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 27229 /* Nariyid Girth */, '2021-11-01 00:00:00')
@@ -48,11 +53,17 @@ VALUES (8911, 53298 /* Luminous Amber: Girth of the Bulwark */,    60 /* Leather
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 28621 /* Diforsa Leggings */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 28622 /* Tenassa Leggings */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 28633 /* Diforsa Girth */, '2021-11-01 00:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 30517 /* Gelidite Girth */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 30518 /* Girth of Leikotha's Tears */, '2005-02-09 10:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37192 /* Olthoi Celdon Girth */, '2021-11-01 00:00:00')
-     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37200 /* Olthoi Alduressa Leggings */, '2021-11-01 00:00:00')
-     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37201 /* Olthoi Amuli Leggings */, '2021-11-01 00:00:00')
-     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37202 /* Olthoi Celdon Leggings */, '2021-11-01 00:00:00')
-     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37203 /* Olthoi Koujia Leggings */, '2021-11-01 00:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37193 /* Olthoi Girth */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37200 /* Olthoi Alduressa Leggings */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 38465 /* Celestial Hand Girth */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 38474 /* Eldrytch Web Girth */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 38483 /* Radiant Blood Girth */, '2005-02-09 10:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 42751 /* Haebrean Girth */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 43050 /* Knorr Academy Girth */, '2021-11-01 00:00:00')
      , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 43831 /* Sedgemail Leather Pants */, '2021-11-01 00:00:00');

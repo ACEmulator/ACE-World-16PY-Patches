@@ -5,16 +5,16 @@ VALUES (0x73EF4000,  7924, 0x3EF40023, 110.844, 59.5855, 110.669, 0.647267, 0, 0
 /* @teleloc 0x3EF40023 [110.844002 59.585499 110.668999] 0.647267 0.000000 0.000000 -0.762264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EF4000, 0x73EF4001, '2021-11-01 16:16:26') /* Royal Inquisitor (32295) */
-     , (0x73EF4000, 0x73EF4002, '2021-11-01 16:16:26') /* Royal Inquisitor (32295) */
-     , (0x73EF4000, 0x73EF4003, '2021-11-01 16:16:26') /* Viamontian Lord (28656) */
-     , (0x73EF4000, 0x73EF4004, '2021-11-01 16:16:26') /* Viamontian Hand (28655) */
-     , (0x73EF4000, 0x73EF4005, '2021-11-01 16:16:26') /* Bloated Eater (31019) */
-     , (0x73EF4000, 0x73EF4006, '2021-11-01 16:16:26') /* Bloated Eater (31019) */
-     , (0x73EF4000, 0x73EF4008, '2021-11-01 16:16:26') /* Viamontian Lord (28656) */
-     , (0x73EF4000, 0x73EF4009, '2021-11-01 16:16:26') /* Viamontian Hand (28655) */
-     , (0x73EF4000, 0x73EF400A, '2021-11-01 16:16:26') /* Viamontian Lord (28656) */
-     , (0x73EF4000, 0x73EF400B, '2021-11-01 16:16:26') /* Viamontian Hand (28655) */;
+VALUES (0x73EF4000, 0x73EF4001, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73EF4000, 0x73EF4002, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73EF4000, 0x73EF4003, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73EF4000, 0x73EF4004, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x73EF4000, 0x73EF4005, '2021-11-01 00:00:00') /* Bloated Eater (31019) */
+     , (0x73EF4000, 0x73EF4006, '2021-11-01 00:00:00') /* Bloated Eater (31019) */
+     , (0x73EF4000, 0x73EF4008, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73EF4000, 0x73EF4009, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x73EF4000, 0x73EF400A, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73EF4000, 0x73EF400B, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EF4001, 32295, 0x3EF40100, 134.559, 56.8842, 106.101, 0.720076, 0, 0, -0.693895,  True, '2021-11-01 00:00:00'); /* Royal Inquisitor */

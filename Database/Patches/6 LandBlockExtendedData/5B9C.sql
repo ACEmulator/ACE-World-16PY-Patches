@@ -21,8 +21,8 @@ VALUES (0x75B9C004,  1154, 0x5B9C0000, 101.539, 142.636, 14.005, -0.172001, 0, 0
 /* @teleloc 0x5B9C0000 [101.539001 142.636002 14.005000] -0.172001 0.000000 0.000000 0.985097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9C004, 0x75B9C003, '2005-02-09 10:00:00') /* Gunther Danby (9676) */
-     , (0x75B9C004, 0x75B9C005, '2005-02-09 10:00:00') /* Leather Crafter (4213) */;
+VALUES (0x75B9C004, 0x75B9C003, '2021-11-01 00:00:00') /* Gunther Danby (9676) */
+     , (0x75B9C004, 0x75B9C005, '2021-11-01 00:00:00') /* Leather Crafter (4213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9C005,  4213, 0x5B9C0000, 125.283, 136.667, 14.005, -0.510865, 0, 0, -0.859661,  True, '2021-11-01 00:00:00'); /* Leather Crafter */
@@ -45,8 +45,8 @@ VALUES (0x75B9C009,  7923, 0x5B9C0000, 101.152, 135.013, 14.005, 0.597594, 0, 0,
 /* @teleloc 0x5B9C0000 [101.152000 135.013000 14.005000] 0.597594 0.000000 0.000000 -0.801799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9C009, 0x75B9C008, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x75B9C009, 0x75B9C00D, '2005-02-09 10:00:00') /* Journeyman Fletcher (28924) */;
+VALUES (0x75B9C009, 0x75B9C008, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x75B9C009, 0x75B9C00D, '2021-11-01 00:00:00') /* Journeyman Fletcher (28924) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9C00A, 23631, 0x5B9C0000, 105.902, 115.642, 102.688, -0.733086, 0, 0, 0.680136, False, '2021-11-01 00:00:00'); /* April 2003 Raining Mad Cows Gen */

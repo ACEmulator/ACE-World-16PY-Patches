@@ -5,9 +5,9 @@ VALUES (0x7B89E001,  4219, 0xB89E002F, 136.79, 161.126, 74.4834, -0.915073, 0, 0
 /* @teleloc 0xB89E002F [136.789993 161.126007 74.483398] -0.915073 0.000000 0.000000 0.403288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B89E001, 0x7B89E00C, '2019-02-10 00:00:00') /* Wall (35584) */
-     , (0x7B89E001, 0x7B89E013, '2019-02-10 00:00:00') /* Wall (35582) */
-     , (0x7B89E001, 0x7B89E014, '2019-02-10 00:00:00') /* Wall (35582) */;
+VALUES (0x7B89E001, 0x7B89E00C, '2021-11-01 00:00:00') /* Wall (35584) */
+     , (0x7B89E001, 0x7B89E013, '2021-11-01 00:00:00') /* Wall (35582) */
+     , (0x7B89E001, 0x7B89E014, '2021-11-01 00:00:00') /* Wall (35582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B89E00C, 35584, 0xB89E003F, 180, 154.8, 77.5, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Wall */

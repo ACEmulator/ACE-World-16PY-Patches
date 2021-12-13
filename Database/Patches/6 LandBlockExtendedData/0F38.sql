@@ -5,21 +5,21 @@ VALUES (0x70F38001,  7924, 0x0F38003B, 178.009, 67.5636, -0.0936, 0.126306, 0, 0
 /* @teleloc 0x0F38003B [178.009003 67.563599 -0.093600] 0.126306 0.000000 0.000000 -0.991991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F38001, 0x70F38002, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F3800F, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F38027, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F38028, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F38029, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F3802A, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F3802B, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F3802C, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37406) */
-     , (0x70F38001, 0x70F3802D, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F3802E, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F3802F, '2019-02-10 00:00:00') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F38030, '2021-07-21 10:31:41') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F38031, '2021-07-21 10:31:52') /* Blighted Miry Moarsman (37405) */
-     , (0x70F38001, 0x70F38032, '2021-07-21 10:33:20') /* Blighted Desolation Moarsman (37406) */
-     , (0x70F38001, 0x70F38033, '2021-07-21 10:33:56') /* Blighted Desolation Moarsman (37406) */;
+VALUES (0x70F38001, 0x70F38002, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F3800F, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F38027, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F38028, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F38029, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F3802A, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F3802B, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F3802C, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x70F38001, 0x70F3802D, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F3802E, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F3802F, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F38030, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F38031, '2021-11-01 00:00:00') /* Blighted Miry Moarsman (37405) */
+     , (0x70F38001, 0x70F38032, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */
+     , (0x70F38001, 0x70F38033, '2021-11-01 00:00:00') /* Blighted Desolation Moarsman (37406) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F38002, 37405, 0x0F38003B, 178.009, 67.5636, -0.0936, 0.126306, 0, 0, -0.991991,  True, '2021-11-01 00:00:00'); /* Blighted Miry Moarsman */
@@ -82,5 +82,5 @@ VALUES (0x70F38033, 37406, 0x0F380185, 326.454, 116.77, -23.5936, 0.8484, 0, 0, 
 /* @teleloc 0x0F380185 [326.454010 116.769997 -23.593599] 0.848400 0.000000 0.000000 0.529356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F38034, 87472, 0x0F380150, 296.937, 106.86, -23.608, -0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Shroud Cabal Ley-Leech */
+VALUES (0x70F38034, 87478, 0x0F380150, 296.937, 106.86, -23.608, -0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Blightfinger's Warrens */
 /* @teleloc 0x0F380150 [296.937012 106.860001 -23.608000] -0.707107 0.000000 0.000000 0.707107 */

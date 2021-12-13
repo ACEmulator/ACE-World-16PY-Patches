@@ -229,9 +229,9 @@ VALUES (0x7B47041F, 15759, 0xB470014F, 128.223, 80.1945, 42.005, -0.040202, 0, 0
 /* @teleloc 0xB470014F [128.223007 80.194504 42.005001] -0.040202 0.000000 0.000000 0.999192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B47041F, 0x7B470420, '2019-09-02 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
-     , (0x7B47041F, 0x7B470421, '2019-09-02 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
-     , (0x7B47041F, 0x7B470422, '2019-09-02 00:00:00') /* Explorer Light Weapons Gem (45981) */;
+VALUES (0x7B47041F, 0x7B470420, '2021-11-01 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
+     , (0x7B47041F, 0x7B470421, '2021-11-01 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
+     , (0x7B47041F, 0x7B470422, '2021-11-01 00:00:00') /* Explorer Light Weapons Gem (45981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B470420, 45990, 0xB470014F, 128.984, 76.2593, 42.5533, 0.263145, 0, 0, -0.964756,  True, '2021-11-01 00:00:00'); /* Explorer Heavy Weapons Gem */
