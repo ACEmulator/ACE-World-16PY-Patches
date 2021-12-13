@@ -112,3 +112,7 @@ VALUES (0x717B201A, 32074, 0x17B2002B, 137.554, 48.9581, 44.005, 0.526587, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B201B, 42852, 0x17B2001B, 77.595, 58.6918, 45.1646, 0.477473, 0, 0, 0.878646, False, '2021-11-01 00:00:00'); /* Portal to Town Network */
 /* @teleloc 0x17B2001B [77.595001 58.691799 45.164600] 0.477473 0.000000 0.000000 0.878646 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x717B201C, 87806, 0x17B20121, 60.22892, 82.83234, 50.455, 0.354748, 0, 0, 0.934962, False, '2021-12-11 19:45:57'); /* Cindy Event Gen */
+/* @teleloc 0x17B20121 [60.228920 82.832336 50.455002] 0.354748 0.000000 0.000000 0.934962 */

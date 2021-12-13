@@ -53,3 +53,7 @@ VALUES (0x7AAB3009,  3955, 0xAAB30000, 33.4366, 80.6756, 124.805, 0.934569, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB300A, 33805, 0xAAB3000C, 25.9395, 93.6577, 116.005, 0.924758, 0, 0, 0.380555,  True, '2021-11-01 00:00:00'); /* Royal Guard */
 /* @teleloc 0xAAB3000C [25.939501 93.657700 116.004997] 0.924758 0.000000 0.000000 0.380555 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AAB300B, 87802, 0xAAB30023, 106.9868, 56.48169, 127.255, 0.99994, 0, 0, 0.010959, False, '2021-12-11 19:41:10'); /* Michelle Event Gen */
+/* @teleloc 0xAAB30023 [106.986801 56.481689 127.254997] 0.999940 0.000000 0.000000 0.010959 */

@@ -323,3 +323,7 @@ VALUES (0x77D64070, 44189, 0x7D64001B, 81.8409, 63.649, 15.605, -0.996757, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D64071, 44207, 0x7D64001B, 78.7634, 64.2902, 15.605, 0.977384, 0, 0, -0.211471, False, '2021-11-01 00:00:00'); /* Abd-al-Matin Basshir */
 /* @teleloc 0x7D64001B [78.763397 64.290199 15.605000] 0.977384 0.000000 0.000000 -0.211471 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77D64072, 87818, 0x7D64014E, 87.89706, 37.72078, 8.056001, -0.175269, 0, 0, 0.984521, False, '2021-12-11 20:10:00'); /* Kim Event Gen */
+/* @teleloc 0x7D64014E [87.897057 37.720779 8.056001] -0.175269 0.000000 0.000000 0.984521 */
