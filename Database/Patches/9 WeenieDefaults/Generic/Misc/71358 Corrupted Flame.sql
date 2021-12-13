@@ -4,7 +4,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (71358, 'ace71358-corruptedflame', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (71358,   1,         128) /* ItemType */
+VALUES (71358,   1,        128) /* ItemType - Misc */
      , (71358,   8,        120) /* Mass */
      , (71358,  16,         32) /* ItemUseable - Remote */
      , (71358,  83,       2048) /* ActivationResponse - Emote */
