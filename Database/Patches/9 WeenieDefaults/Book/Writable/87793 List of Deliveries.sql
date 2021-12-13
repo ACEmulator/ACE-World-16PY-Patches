@@ -25,7 +25,8 @@ VALUES (87793,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87793,   1, 'List of Deliveries') /* Name */
-     , (87793,  16, 'A list detailing the destinations of the packages given to you by Raymond.') /* LongDesc */;
+     , (87793,  16, 'A list detailing the destinations of the packages given to you by Raymond.') /* LongDesc */
+     , (87793,  20, 'Lists of Deliveries') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87793,   1, 0x02000155) /* Setup */
@@ -41,6 +42,6 @@ VALUES (87793, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Greenspire - Jan
 
 Qalaba''r - Natalie
 
-Holtburg - Jan
+Holtburg - Michelle
 
-Eastham - Jan');
+Eastham - Chrissy');
