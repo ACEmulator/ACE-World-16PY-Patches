@@ -26,7 +26,8 @@ VALUES (87794,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87794,   1, 'List of Deliveries') /* Name */
-     , (87794,  16, 'A list detailing the destinations of the packages given to you by Raymond.') /* LongDesc */;
+     , (87794,  16, 'A list detailing the destinations of the packages given to you by Raymond.') /* LongDesc */
+     , (87794,  20, 'Lists of Deliveries') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87794,   1, 0x02000155) /* Setup */
