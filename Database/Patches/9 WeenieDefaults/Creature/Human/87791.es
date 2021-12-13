@@ -72,6 +72,7 @@ Use:
 					- Delay: 1, Tell: Here is a list with the names and towns that each present needs to go to.
 					- Delay: 1, Tell: Time is of the essence, you only have 30 minutes to make all four of the deliveries. Hurry along now!
 					- StampQuest: GiftGopher_Start
+					- EraseQuest: GiftGopher_Count
 					- Goto: RandoList
 	
 GotoSet: RandoList, Probability: 0.33
