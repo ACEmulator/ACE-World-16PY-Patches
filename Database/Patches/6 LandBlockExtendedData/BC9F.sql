@@ -346,5 +346,5 @@ VALUES (0x7BC9F435, 43065, 0xBC9F003C, 178.418, 78.8008, 32.198, 0.667696, 0, 0,
 /* @teleloc 0xBC9F003C [178.417999 78.800797 32.198002] 0.667696 0.000000 0.000000 0.744434 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BC9F436, 87812, 0xBC9F0111, 179.5581, 13.56663, 32.055, 0.35818, 0, 0, -0.933653, False, '2021-12-11 20:01:04'); /* Janet Event Gen */
-/* @teleloc 0xBC9F0111 [179.558105 13.566630 32.055000] 0.358180 0.000000 0.000000 -0.933653 */
+VALUES (0x7BC9F436, 87812, 0xBC9F0111, 179.558, 13.5666, 32.055, 0.35818, 0, 0, -0.933653, False, '2021-12-11 20:01:04'); /* Janet Event Gen */
+/* @teleloc 0xBC9F0111 [179.557999 13.566600 32.055000] 0.358180 0.000000 0.000000 -0.933653 */

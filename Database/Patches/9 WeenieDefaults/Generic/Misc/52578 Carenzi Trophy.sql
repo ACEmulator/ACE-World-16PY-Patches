@@ -20,7 +20,7 @@ VALUES (52578,   1, 'Carenzi Trophy') /* Name */
      , (52578,  16, 'A trophy of a Carenzi. Something seems not quite right about this little guy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52578,   1,   33561644) /* Setup */
-     , (52578,   3,  536870932) /* SoundTable */
-     , (52578,   8,  100693301) /* Icon */
-     , (52578,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52578,   1, 0x02001C2C) /* Setup */
+     , (52578,   3, 0x20000014) /* SoundTable */
+     , (52578,   8, 0x06007535) /* Icon */
+     , (52578,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (52581,   1, 'Mistletoe') /* Name */
      , (52581,  15, 'A beautiful assembly of shrubs, flowers and berries. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52581,   1,   33561645) /* Setup */
-     , (52581,   3,  536870932) /* SoundTable */
-     , (52581,   8,  100693304) /* Icon */
-     , (52581,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52581,   1, 0x02001C2D) /* Setup */
+     , (52581,   3, 0x20000014) /* SoundTable */
+     , (52581,   8, 0x06007538) /* Icon */
+     , (52581,  22, 0x3400002B) /* PhysicsEffectTable */;

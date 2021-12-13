@@ -13,10 +13,7 @@ VALUES (87794,   1,       8192) /* ItemType - Writable */
      , (87794,  33,          1) /* Bonded - Bonded */
      , (87794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87794, 114,          1) /* Attuned - Attuned */
-     , (87794, 174,          1) /* AppraisalPages */
-     , (87794, 175,          1) /* AppraisalMaxPages */
-     , (87794, 267,       1800) /* Lifespan */
-     , (87794, 268,       1800) /* RemainingLifespan */;
+     , (87794, 267,       1800) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87794,  11, True ) /* IgnoreCollisions */
@@ -41,7 +38,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (87794, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (87794, 0, 4294967295, 'Unknown', 'prewritten', False, 'Redspire - Cindy
+VALUES (87794, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Redspire - Cindy
 
 Mayoi - Blair
 

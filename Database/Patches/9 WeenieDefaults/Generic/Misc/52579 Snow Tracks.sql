@@ -20,7 +20,7 @@ VALUES (52579,   1, 'Snow Tracks') /* Name */
      , (52579,  16, 'A pile of snow with strange looking tracks running through it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52579,   1,   33561641) /* Setup */
-     , (52579,   3,  536870932) /* SoundTable */
-     , (52579,   8,  100693294) /* Icon */
-     , (52579,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52579,   1, 0x02001C29) /* Setup */
+     , (52579,   3, 0x20000014) /* SoundTable */
+     , (52579,   8, 0x0600752E) /* Icon */
+     , (52579,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -325,5 +325,5 @@ VALUES (0x7A1A408C, 80022, 0xA1A40026, 107.398, 128.911, 50.005, 0.873799, 0, 0,
 /* @teleloc 0xA1A40026 [107.398003 128.910995 50.005001] 0.873799 0.000000 0.000000 0.486287 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A1A408D, 87816, 0xA1A4001A, 91.65938, 34.89634, 69.55501, 0.914465, 0, 0, 0.404665, False, '2021-12-11 20:08:02'); /* Joanne Event Gen */
-/* @teleloc 0xA1A4001A [91.659378 34.896339 69.555008] 0.914465 0.000000 0.000000 0.404665 */
+VALUES (0x7A1A408D, 87816, 0xA1A4001A, 91.6594, 34.8963, 69.555, 0.914465, 0, 0, 0.404665, False, '2021-12-11 20:08:02'); /* Joanne Event Gen */
+/* @teleloc 0xA1A4001A [91.659401 34.896301 69.555000] 0.914465 0.000000 0.000000 0.404665 */

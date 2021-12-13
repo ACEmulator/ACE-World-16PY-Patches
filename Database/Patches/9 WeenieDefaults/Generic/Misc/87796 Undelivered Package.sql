@@ -12,8 +12,7 @@ VALUES (87796,   1,        128) /* ItemType - Misc */
      , (87796,  33,          1) /* Bonded - Bonded */
      , (87796,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87796, 114,          1) /* Attuned - Attuned */
-     , (87796, 267,       1800) /* Lifespan */
-     , (87796, 268,       1800) /* RemainingLifespan */;
+     , (87796, 267,       1800) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87796,  11, True ) /* IgnoreCollisions */
@@ -29,7 +28,7 @@ VALUES (87796,   1, 'Undelivered Package') /* Name */
      , (87796,  16, 'A package given to you by Raymond that must be delivered right away.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87796,   1,   33560155) /* Setup */
-     , (87796,   3,  536870932) /* SoundTable */
-     , (87796,   8,  100693282) /* Icon */
-     , (87796,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (87796,   1, 0x0200165B) /* Setup */
+     , (87796,   3, 0x20000014) /* SoundTable */
+     , (87796,   8, 0x06007522) /* Icon */
+     , (87796,  22, 0x3400002B) /* PhysicsEffectTable */;

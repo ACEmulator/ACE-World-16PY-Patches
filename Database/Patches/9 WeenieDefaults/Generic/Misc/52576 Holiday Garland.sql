@@ -20,7 +20,7 @@ VALUES (52576,   1, 'Holiday Garland') /* Name */
      , (52576,  15, 'A festive garland that adds the holiday spirit to any home.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52576,   1,   33561646) /* Setup */
-     , (52576,   3,  536870932) /* SoundTable */
-     , (52576,   8,  100693306) /* Icon */
-     , (52576,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52576,   1, 0x02001C2E) /* Setup */
+     , (52576,   3, 0x20000014) /* SoundTable */
+     , (52576,   8, 0x0600753A) /* Icon */
+     , (52576,  22, 0x3400002B) /* PhysicsEffectTable */;

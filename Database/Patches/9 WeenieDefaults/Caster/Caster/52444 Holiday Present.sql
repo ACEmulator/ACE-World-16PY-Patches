@@ -36,19 +36,7 @@ VALUES (52444,   1, 'Holiday Present') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52444,   1, 0x0200165B) /* Setup */
-     , (52444,   8, 0x06002975) /* Icon */
-     , (52444, 8001,  270762008) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (52444, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (52444, 8005,      32929) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Position */
-     , (52444, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52444, 8040, 0xF216002E, 130.992, 132.3609, -0.071, 0.620562, 0.620562, -0.338973, -0.338973) /* PCAPRecordedLocation */
-/* @teleloc 0xF216002E [130.992000 132.360900 -0.071000] 0.620562 0.620562 -0.338973 -0.338973 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52444, 8000, 0x857EFFAF) /* PCAPRecordedObjectIID */
-     , (52444, 8008, 0x500F7704) /* PCAPRecordedParentIID */;
+     , (52444,   8, 0x06002975) /* Icon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52444,  2227,      2)  /* DeceptionMasterySelf7 */;
+VALUES (52444,  2227,      2)  /* Ketnan's Blessing */;
