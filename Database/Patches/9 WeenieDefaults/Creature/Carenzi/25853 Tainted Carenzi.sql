@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25853;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25853, 'carenzitainted', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (25853, 'carenzitainted', 10, '2021-11-01 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25853,   1,         16) /* ItemType - Creature */
@@ -104,12 +104,8 @@ VALUES (25853,  0,  2, 150, 0.75,  500,  500,  600,  500,  450,  500,  500,  450
      , (25853, 16,  1, 150, 0.75,  500,  500,  600,  500,  450,  500,  500,  450,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.8,  0.6,  0.3,  0.8,  0.6,  0.3) /* Torso */
      , (25853, 17,  1, 150,  0.9,  500,  500,  600,  500,  450,  500,  500,  450,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
-INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (25853,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (25853, 414) /* PLAYER_DEATH_EVENT */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25853,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (25853,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
