@@ -29,13 +29,13 @@ VALUES (0x71B7F008,  1542, 0x1B7F0000, 70.5009, 42.8901, 80.005, -0.996727, 0, 0
 /* @teleloc 0x1B7F0000 [70.500900 42.890099 80.004997] -0.996727 0.000000 0.000000 -0.080845 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B7F008, 0x71B7F002, '2005-02-09 10:00:00') /* Meat (265) */
-     , (0x71B7F008, 0x71B7F003, '2005-02-09 10:00:00') /* Meat (265) */
-     , (0x71B7F008, 0x71B7F004, '2005-02-09 10:00:00') /* Meat (265) */
-     , (0x71B7F008, 0x71B7F005, '2005-02-09 10:00:00') /* Meat (265) */
-     , (0x71B7F008, 0x71B7F006, '2005-02-09 10:00:00') /* Meat (265) */
-     , (0x71B7F008, 0x71B7F007, '2005-02-09 10:00:00') /* Meat (265) */
-     , (0x71B7F008, 0x71B7F01E, '2005-02-09 10:00:00') /* Meat (265) */;
+VALUES (0x71B7F008, 0x71B7F002, '2021-11-01 00:00:00') /* Meat (265) */
+     , (0x71B7F008, 0x71B7F003, '2021-11-01 00:00:00') /* Meat (265) */
+     , (0x71B7F008, 0x71B7F004, '2021-11-01 00:00:00') /* Meat (265) */
+     , (0x71B7F008, 0x71B7F005, '2021-11-01 00:00:00') /* Meat (265) */
+     , (0x71B7F008, 0x71B7F006, '2021-11-01 00:00:00') /* Meat (265) */
+     , (0x71B7F008, 0x71B7F007, '2021-11-01 00:00:00') /* Meat (265) */
+     , (0x71B7F008, 0x71B7F01E, '2021-11-01 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B7F009,  1154, 0x1B7F0000, 72.7475, 43.2367, 80.005, -0.545285, 0, 0, 0.83825, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
@@ -62,34 +62,34 @@ VALUES (0x71B7F012,  1154, 0x1B7F0000, 41.4922, 118.231, 80.005, 0.999984, 0, 0,
 /* @teleloc 0x1B7F0000 [41.492199 118.231003 80.004997] 0.999984 0.000000 0.000000 0.005577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B7F012, 0x71B7F02C, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F02D, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F02E, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F02F, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x71B7F012, 0x71B7F030, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F031, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x71B7F012, 0x71B7F032, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x71B7F012, 0x71B7F033, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F034, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F035, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F036, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F037, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F039, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x71B7F012, 0x71B7F03A, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x71B7F012, 0x71B7F03B, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F03C, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F03D, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
-     , (0x71B7F012, 0x71B7F03E, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x71B7F012, 0x71B7F03F, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x71B7F012, 0x71B7F040, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
-     , (0x71B7F012, 0x71B7F042, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
-     , (0x71B7F012, 0x71B7F043, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x71B7F012, 0x71B7F044, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
-     , (0x71B7F012, 0x71B7F045, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
-     , (0x71B7F012, 0x71B7F046, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x71B7F012, 0x71B7F047, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x71B7F012, 0x71B7F048, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x71B7F012, 0x71B7F049, '2005-02-09 10:00:00') /* Extas Raider (8138) */;
+VALUES (0x71B7F012, 0x71B7F02C, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F02D, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F02E, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F02F, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F012, 0x71B7F030, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F031, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F012, 0x71B7F032, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F012, 0x71B7F033, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F034, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F035, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F036, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F037, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F039, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F012, 0x71B7F03A, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F012, 0x71B7F03B, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F03C, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F03D, '2021-11-01 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F012, 0x71B7F03E, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F012, 0x71B7F03F, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F012, 0x71B7F040, '2021-11-01 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71B7F012, 0x71B7F042, '2021-11-01 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71B7F012, 0x71B7F043, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F012, 0x71B7F044, '2021-11-01 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71B7F012, 0x71B7F045, '2021-11-01 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71B7F012, 0x71B7F046, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F012, 0x71B7F047, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F012, 0x71B7F048, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F012, 0x71B7F049, '2021-11-01 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B7F013,   891, 0x1B7F0000, 37.1539, 112.989, 80.005, -0.023468, 0, 0, -0.999725, False, '2021-11-01 00:00:00'); /* Brown Cow Generator */
@@ -228,7 +228,7 @@ VALUES (0x71B7F6A5,  1154, 0x1B7F0006, 9.53777, 134.996, 95.2, 0.727062, 0, 0, 0
 /* @teleloc 0x1B7F0006 [9.537770 134.996002 95.199997] 0.727062 0.000000 0.000000 0.686571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B7F6A5, 0x71B7F6A6, '2020-01-30 00:00:00') /* Exploration Marker (39753) */;
+VALUES (0x71B7F6A5, 0x71B7F6A6, '2021-11-01 00:00:00') /* Exploration Marker (39753) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B7F6A6, 39753, 0x1B7F0006, 9.53777, 134.996, 95.2, 0.727062, 0, 0, 0.686571,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

@@ -17,50 +17,50 @@ VALUES (0x700E703C,  4219, 0x00E70284, 80, -67, 48.0083, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x00E70284 [80.000000 -67.000000 48.008301] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700E703C, 0x700E703D, '2019-02-10 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E703E, '2019-02-10 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E703F, '2019-02-10 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7040, '2019-02-10 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7041, '2019-02-10 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7042, '2019-02-10 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7043, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7044, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7045, '2019-02-10 00:00:00') /* Strange Pillar (38024) */
-     , (0x700E703C, 0x700E7046, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7047, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7048, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7049, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E704A, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E704B, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E704C, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E704D, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E704E, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E704F, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7050, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7051, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7052, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7053, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7054, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7055, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7056, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7057, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7058, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7059, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E705B, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E705C, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E705D, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7063, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7064, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7065, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7066, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7067, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7068, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E7069, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E706A, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E706B, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E706C, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E706D, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */
-     , (0x700E703C, 0x700E706E, '2019-02-10 00:00:00') /* Lost Menilesh Denizen (38076) */;
+VALUES (0x700E703C, 0x700E703D, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E703C, 0x700E703E, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E703C, 0x700E703F, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E703C, 0x700E7040, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E703C, 0x700E7041, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E703C, 0x700E7042, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E703C, 0x700E7043, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7044, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7045, '2021-11-01 00:00:00') /* Strange Pillar (38024) */
+     , (0x700E703C, 0x700E7046, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7047, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7048, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7049, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E704A, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E704B, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E704C, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E704D, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E704E, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E704F, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7050, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7051, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7052, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7053, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7054, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7055, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7056, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7057, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7058, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7059, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E705B, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E705C, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E705D, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7063, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7064, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7065, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7066, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7067, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7068, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E7069, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E706A, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E706B, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E706C, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E706D, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+     , (0x700E703C, 0x700E706E, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E703D, 38084, 0x00E70284, 80, -67, 48.0083, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Menilesh Guard */
@@ -195,7 +195,7 @@ VALUES (0x700E705E,  4219, 0x00E70289, 90, -79.2411, 48.0098, 1, 0, 0, 0, False,
 /* @teleloc 0x00E70289 [90.000000 -79.241096 48.009800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700E705E, 0x700E705F, '2019-02-10 00:00:00') /* Lord Rytheran (38080) */;
+VALUES (0x700E705E, 0x700E705F, '2021-11-01 00:00:00') /* Lord Rytheran (38080) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E705F, 38080, 0x00E70289, 90, -79.2411, 48.0098, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lord Rytheran */
@@ -206,7 +206,7 @@ VALUES (0x700E7061,  5085, 0x00E7011C, 88.9419, -178.825, 0.041, 0.747329, 0, 0,
 /* @teleloc 0x00E7011C [88.941902 -178.824997 0.041000] 0.747329 0.000000 0.000000 -0.664455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700E7061, 0x700E7062, '2019-02-10 00:00:00') /* Ring of Remembrance (38081) */;
+VALUES (0x700E7061, 0x700E7062, '2021-11-01 00:00:00') /* Ring of Remembrance (38081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E7062, 38081, 0x00E7011C, 88.9419, -178.825, 0.041, 0.747329, 0, 0, -0.664455,  True, '2021-11-01 00:00:00'); /* Ring of Remembrance */

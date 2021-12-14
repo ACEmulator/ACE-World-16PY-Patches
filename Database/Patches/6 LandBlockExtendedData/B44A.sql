@@ -73,20 +73,20 @@ VALUES (0x7B44A198,  7924, 0xB44A002B, 135.868, 58.8222, 11.5615, 0.061326, 0, 0
 /* @teleloc 0xB44A002B [135.867996 58.822201 11.561500] 0.061326 0.000000 0.000000 0.998118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B44A198, 0x7B44A155, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A15D, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A16A, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A16B, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A16E, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A16F, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A170, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A171, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A172, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A173, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A17E, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A180, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A181, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A182, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A183, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A185, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44A198, 0x7B44A197, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */;
+VALUES (0x7B44A198, 0x7B44A155, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A15D, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A16A, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A16B, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A16E, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A16F, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A170, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A171, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A172, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A173, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A17E, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A180, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A181, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A182, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A183, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A185, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44A198, 0x7B44A197, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */;

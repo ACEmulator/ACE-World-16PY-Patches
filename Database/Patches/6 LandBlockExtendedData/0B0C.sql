@@ -9,7 +9,7 @@ VALUES (0x70B0C006,  4219, 0x0B0C0103, 108.344, 156.067, 278.655, -0.697688, 0, 
 /* @teleloc 0x0B0C0103 [108.344002 156.067001 278.654999] -0.697688 0.000000 0.000000 0.716402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B0C006, 0x70B0C007, '2019-02-10 00:00:00') /* Shadow Cyst (33165) */;
+VALUES (0x70B0C006, 0x70B0C007, '2021-11-01 00:00:00') /* Shadow Cyst (33165) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0C007, 33165, 0x0B0C0103, 108.344, 156.067, 278.655, -0.697688, 0, 0, 0.716402,  True, '2021-11-01 00:00:00'); /* Shadow Cyst */
@@ -20,7 +20,7 @@ VALUES (0x70B0C008,  4219, 0x0B0C0027, 104.81, 152.957, 109.804, -0.997383, 0, 0
 /* @teleloc 0x0B0C0027 [104.809998 152.957001 109.804001] -0.997383 0.000000 0.000000 -0.072292 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B0C008, 0x70B0C009, '2020-11-25 09:20:35') /* Spawn Watcher (87070) */;
+VALUES (0x70B0C008, 0x70B0C009, '2021-11-01 00:00:00') /* Spawn Watcher (87070) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0C009, 87070, 0x0B0C0027, 106.419, 153.249, 109.888, -0.997383, 0, 0, -0.072292,  True, '2021-11-01 00:00:00'); /* Spawn Watcher */

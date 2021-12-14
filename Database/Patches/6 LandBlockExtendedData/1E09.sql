@@ -9,12 +9,12 @@ VALUES (0x71E0900A, 24129, 0x1E090035, 159.214, 99.0509, 16.9407, -0.327067, 0, 
 /* @teleloc 0x1E090035 [159.214005 99.050903 16.940701] -0.327067 0.000000 0.000000 -0.945001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E0900A, 0x71E0900B, '2019-02-10 00:00:00') /* Fire Golem (31874) */
-     , (0x71E0900A, 0x71E0900C, '2019-02-10 00:00:00') /* Fire Golem (31874) */
-     , (0x71E0900A, 0x71E0900D, '2019-02-10 00:00:00') /* Fire Golem (31874) */
-     , (0x71E0900A, 0x71E0900E, '2019-02-10 00:00:00') /* Fire Golem (31874) */
-     , (0x71E0900A, 0x71E0900F, '2019-02-10 00:00:00') /* Fire Golem (31874) */
-     , (0x71E0900A, 0x71E09010, '2019-02-10 00:00:00') /* Fire Golem (31874) */;
+VALUES (0x71E0900A, 0x71E0900B, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900C, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900D, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900E, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900F, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E09010, '2021-11-01 00:00:00') /* Fire Golem (31874) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E0900B, 31874, 0x1E090035, 159.214, 99.0509, 16.9407, -0.327067, 0, 0, -0.945001,  True, '2021-11-01 00:00:00'); /* Fire Golem */
@@ -45,7 +45,7 @@ VALUES (0x71E09011,  1154, 0x1E090007, 20.0339, 147.996, 48.0025, -0.939204, 0, 
 /* @teleloc 0x1E090007 [20.033899 147.996002 48.002499] -0.939204 0.000000 0.000000 -0.343360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E09011, 0x71E09012, '2019-02-10 00:00:00') /* Water Guardian (31971) */;
+VALUES (0x71E09011, 0x71E09012, '2021-11-01 00:00:00') /* Water Guardian (31971) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E09012, 31971, 0x1E090007, 20.0339, 147.996, 48.0025, -0.939204, 0, 0, -0.34336,  True, '2021-11-01 00:00:00'); /* Water Guardian */

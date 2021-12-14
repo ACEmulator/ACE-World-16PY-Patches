@@ -33,8 +33,8 @@ VALUES (0x7BA9F007,  1154, 0xBA9F0000, 34.6064, 187.303, 56.005, -0.028589, 0, 0
 /* @teleloc 0xBA9F0000 [34.606400 187.302994 56.005001] -0.028589 0.000000 0.000000 0.999591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA9F007, 0x7BA9F006, '2005-02-09 10:00:00') /* Bretself the Translator (5693) */
-     , (0x7BA9F007, 0x7BA9F00A, '2005-02-09 10:00:00') /* Arcanum Researcher (16892) */;
+VALUES (0x7BA9F007, 0x7BA9F006, '2021-11-01 00:00:00') /* Bretself the Translator (5693) */
+     , (0x7BA9F007, 0x7BA9F00A, '2021-11-01 00:00:00') /* Arcanum Researcher (16892) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9F009,  8864, 0xBA9F0100, 29.0884, 183.381, 56.005, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* History Shelf */

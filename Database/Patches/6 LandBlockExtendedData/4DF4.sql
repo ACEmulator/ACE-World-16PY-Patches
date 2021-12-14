@@ -5,10 +5,10 @@ VALUES (0x74DF4001,  1154, 0x4DF40100, 57.6905, 143.546, -5.19598, 0.039048, 0, 
 /* @teleloc 0x4DF40100 [57.690498 143.546005 -5.195980] 0.039048 0.000000 0.000000 -0.999237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DF4001, 0x74DF4002, '2019-02-10 00:00:00') /* Uber Penguin (28660) */
-     , (0x74DF4001, 0x74DF4003, '2019-02-10 00:00:00') /* Uber Penguin (28660) */
-     , (0x74DF4001, 0x74DF4004, '2019-02-10 00:00:00') /* Harrak the White Spear (33513) */
-     , (0x74DF4001, 0x74DF4005, '2019-02-10 00:00:00') /* Uber Penguin (28660) */;
+VALUES (0x74DF4001, 0x74DF4002, '2021-11-01 00:00:00') /* Uber Penguin (28660) */
+     , (0x74DF4001, 0x74DF4003, '2021-11-01 00:00:00') /* Uber Penguin (28660) */
+     , (0x74DF4001, 0x74DF4004, '2021-11-01 00:00:00') /* Harrak the White Spear (33513) */
+     , (0x74DF4001, 0x74DF4005, '2021-11-01 00:00:00') /* Uber Penguin (28660) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DF4002, 28660, 0x4DF40100, 57.6905, 143.546, -5.19598, 0.039048, 0, 0, -0.999237,  True, '2021-11-01 00:00:00'); /* Uber Penguin */

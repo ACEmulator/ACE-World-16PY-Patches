@@ -9,28 +9,28 @@ VALUES (0x72D11005,  7923, 0x2D110000, 85.614, 149.036, 56.005, 0.94322, 0, 0, -
 /* @teleloc 0x2D110000 [85.613998 149.035995 56.005001] 0.943220 0.000000 0.000000 -0.332170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D11005, 0x72D11000, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x72D11005, 0x72D11006, '2005-02-09 10:00:00') /* Garaena the Emissary (7402) */
-     , (0x72D11005, 0x72D11012, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x72D11005, 0x72D1101C, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D1101D, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72D11005, 0x72D1101E, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x72D11005, 0x72D1101F, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x72D11005, 0x72D11020, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72D11005, 0x72D11021, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72D11005, 0x72D11022, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72D11005, 0x72D11023, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72D11005, 0x72D11024, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D11025, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72D11005, 0x72D11026, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72D11005, 0x72D11027, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x72D11005, 0x72D11028, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D11029, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D1102A, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D1102B, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D1102C, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D1102D, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x72D11005, 0x72D1102E, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */;
+VALUES (0x72D11005, 0x72D11000, '2021-11-01 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D11005, 0x72D11006, '2021-11-01 00:00:00') /* Garaena the Emissary (7402) */
+     , (0x72D11005, 0x72D11012, '2021-11-01 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D11005, 0x72D1101C, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D1101D, '2021-11-01 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72D11005, 0x72D1101E, '2021-11-01 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D11005, 0x72D1101F, '2021-11-01 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D11005, 0x72D11020, '2021-11-01 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72D11005, 0x72D11021, '2021-11-01 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72D11005, 0x72D11022, '2021-11-01 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72D11005, 0x72D11023, '2021-11-01 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72D11005, 0x72D11024, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D11025, '2021-11-01 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72D11005, 0x72D11026, '2021-11-01 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72D11005, 0x72D11027, '2021-11-01 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D11005, 0x72D11028, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D11029, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D1102A, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D1102B, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D1102C, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D1102D, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x72D11005, 0x72D1102E, '2021-11-01 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D11006,  7402, 0x2D110000, 82.6887, 171.336, 56.0083, -0.992742, 0, 0, -0.120263,  True, '2021-11-01 00:00:00'); /* Garaena the Emissary */
@@ -57,14 +57,14 @@ VALUES (0x72D1101A,  8548, 0x2D110100, 82.7472, 174.095, 50.9975, 0.999993, 0, 0
 /* @teleloc 0x2D110100 [82.747200 174.095001 50.997501] 0.999993 0.000000 0.000000 -0.003812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D1101A, 0x72D11018, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x72D1101A, 0x72D11018, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D1101B,  8548, 0x2D110100, 85.1734, 174.077, 50.6096, 0.999993, 0, 0, -0.003812, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x2D110100 [85.173401 174.076996 50.609600] 0.999993 0.000000 0.000000 -0.003812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D1101B, 0x72D11019, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x72D1101B, 0x72D11019, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D1101C,  7107, 0x2D110000, 109.77, 155.834, 60.062, 0.385814, 0, 0, -0.922577,  True, '2021-11-01 00:00:00'); /* Wasteland Rat */

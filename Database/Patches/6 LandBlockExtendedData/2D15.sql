@@ -69,21 +69,21 @@ VALUES (0x72D15023,  7924, 0x2D150000, 60.2866, 79.4155, 56.005, 0.963106, 0, 0,
 /* @teleloc 0x2D150000 [60.286598 79.415497 56.005001] 0.963106 0.000000 0.000000 -0.269123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D15023, 0x72D15014, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
-     , (0x72D15023, 0x72D15015, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x72D15023, 0x72D15016, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
-     , (0x72D15023, 0x72D15017, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
-     , (0x72D15023, 0x72D15018, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
-     , (0x72D15023, 0x72D15019, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x72D15023, 0x72D1501A, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
-     , (0x72D15023, 0x72D1501B, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
-     , (0x72D15023, 0x72D1501C, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
-     , (0x72D15023, 0x72D1501D, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
-     , (0x72D15023, 0x72D1501E, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
-     , (0x72D15023, 0x72D1501F, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
-     , (0x72D15023, 0x72D15020, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
-     , (0x72D15023, 0x72D15021, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
-     , (0x72D15023, 0x72D15022, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */;
+VALUES (0x72D15023, 0x72D15014, '2021-11-01 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15023, 0x72D15015, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x72D15023, 0x72D15016, '2021-11-01 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15023, 0x72D15017, '2021-11-01 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D15023, 0x72D15018, '2021-11-01 00:00:00') /* Tiatus Raider (8137) */
+     , (0x72D15023, 0x72D15019, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D15023, 0x72D1501A, '2021-11-01 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D15023, 0x72D1501B, '2021-11-01 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D15023, 0x72D1501C, '2021-11-01 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15023, 0x72D1501D, '2021-11-01 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x72D15023, 0x72D1501E, '2021-11-01 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15023, 0x72D1501F, '2021-11-01 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72D15023, 0x72D15020, '2021-11-01 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15023, 0x72D15021, '2021-11-01 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15023, 0x72D15022, '2021-11-01 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D15024,  1923, 0x2D150100, 153.924, 78.8207, 49.66, -0.694964, 0, 0, 0.719044, False, '2021-11-01 00:00:00'); /* Chest */
@@ -98,7 +98,7 @@ VALUES (0x72D156A5,  1154, 0x2D15002C, 132.373, 83.95, 60.05, 0.664625, 0, 0, 0.
 /* @teleloc 0x2D15002C [132.373001 83.949997 60.049999] 0.664625 0.000000 0.000000 0.747177 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D156A5, 0x72D156A6, '2020-01-30 00:00:00') /* Exploration Marker (39833) */;
+VALUES (0x72D156A5, 0x72D156A6, '2021-11-01 00:00:00') /* Exploration Marker (39833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D156A6, 39833, 0x2D15002C, 132.373, 83.95, 60.05, 0.664625, 0, 0, 0.747177,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

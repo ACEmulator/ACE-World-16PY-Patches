@@ -77,7 +77,7 @@ VALUES (0x7472C1E3, 72210, 0x472C0035, 158.506, 113.967, 8.34349, 0.996349, 0, 0
 /* @teleloc 0x472C0035 [158.505997 113.967003 8.343490] 0.996349 0.000000 0.000000 -0.085372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7472C1E3, 0x7472C1E4, '2021-04-11 10:59:21') /* Wight Blade Sorcerer (46815) */;
+VALUES (0x7472C1E3, 0x7472C1E4, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7472C1E4, 46815, 0x472C0036, 163.43, 125.072, 14.7715, -0.681166, 0, 0, 0.732129,  True, '2021-11-01 00:00:00'); /* Wight Blade Sorcerer */
@@ -112,10 +112,10 @@ VALUES (0x7472C1EB,  7924, 0x472C0035, 156.761, 114.294, 8.51607, -0.992111, 0, 
 /* @teleloc 0x472C0035 [156.761002 114.293999 8.516070] -0.992111 0.000000 0.000000 0.125365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7472C1EB, 0x7472C1EC, '2021-04-12 19:47:59') /* Corrupted Dread (37452) */
-     , (0x7472C1EB, 0x7472C1ED, '2021-04-12 19:48:26') /* Corrupted Dread (37452) */
-     , (0x7472C1EB, 0x7472C1EE, '2021-04-12 19:48:45') /* Corrupted Dread (37452) */
-     , (0x7472C1EB, 0x7472C1EF, '2021-04-12 19:49:00') /* Corrupted Dread (37452) */;
+VALUES (0x7472C1EB, 0x7472C1EC, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7472C1EB, 0x7472C1ED, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7472C1EB, 0x7472C1EE, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7472C1EB, 0x7472C1EF, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7472C1EC, 37452, 0x472C0337, 82.6648, 91.0593, -4.371, 0.903098, 0, 0, -0.429435,  True, '2021-11-01 00:00:00'); /* Corrupted Dread */

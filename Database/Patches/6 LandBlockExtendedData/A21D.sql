@@ -5,21 +5,21 @@ VALUES (0x7A21D000,  7923, 0xA21D0000, 153.653, 54.5307, 541.924, 0.174316, 0, 0
 /* @teleloc 0xA21D0000 [153.653000 54.530701 541.924011] 0.174316 0.000000 0.000000 -0.984690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21D000, 0x7A21D005, '2005-02-09 10:00:00') /* Lithos Raider (8141) */
-     , (0x7A21D000, 0x7A21D006, '2005-02-09 10:00:00') /* Lithos Raider (8141) */
-     , (0x7A21D000, 0x7A21D007, '2005-02-09 10:00:00') /* Lithos Raider (8141) */
-     , (0x7A21D000, 0x7A21D008, '2005-02-09 10:00:00') /* Obeloth Raider (8142) */
-     , (0x7A21D000, 0x7A21D009, '2005-02-09 10:00:00') /* Obeloth Raider (8142) */
-     , (0x7A21D000, 0x7A21D00A, '2005-02-09 10:00:00') /* Obeloth Raider (8142) */;
+VALUES (0x7A21D000, 0x7A21D005, '2021-11-01 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21D000, 0x7A21D006, '2021-11-01 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21D000, 0x7A21D007, '2021-11-01 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21D000, 0x7A21D008, '2021-11-01 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21D000, 0x7A21D009, '2021-11-01 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21D000, 0x7A21D00A, '2021-11-01 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21D001,  7924, 0xA21D0000, 151.125, 52.5772, 542.306, 0.27175, 0, 0, -0.962368, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xA21D0000 [151.125000 52.577202 542.306030] 0.271750 0.000000 0.000000 -0.962368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21D001, 0x7A21D002, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x7A21D001, 0x7A21D003, '2005-02-09 10:00:00') /* Extas Raider (8138) */
-     , (0x7A21D001, 0x7A21D004, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */;
+VALUES (0x7A21D001, 0x7A21D002, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7A21D001, 0x7A21D003, '2021-11-01 00:00:00') /* Extas Raider (8138) */
+     , (0x7A21D001, 0x7A21D004, '2021-11-01 00:00:00') /* Tiatus Raider (8137) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21D002,  8138, 0xA21D0000, 149.987, 49.8222, 541.233, 0.501395, 0, 0, -0.865218,  True, '2021-11-01 00:00:00'); /* Extas Raider */
@@ -62,7 +62,7 @@ VALUES (0x7A21D6A5,  1154, 0xA21D002B, 121.75, 52.1331, 560, 0.731689, 0, 0, 0.6
 /* @teleloc 0xA21D002B [121.750000 52.133099 560.000000] 0.731689 0.000000 0.000000 0.681639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21D6A5, 0x7A21D6A6, '2020-01-30 00:00:00') /* Exploration Marker (39793) */;
+VALUES (0x7A21D6A5, 0x7A21D6A6, '2021-11-01 00:00:00') /* Exploration Marker (39793) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21D6A6, 39793, 0xA21D002B, 121.75, 52.1331, 560, 0.731689, 0, 0, 0.681639,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

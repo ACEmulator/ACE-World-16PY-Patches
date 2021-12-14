@@ -97,7 +97,7 @@ VALUES (0x7A9B301C,  7923, 0xA9B3000E, 33.352, 125.221, 93.992, 0.707107, 0, 0, 
 /* @teleloc 0xA9B3000E [33.352001 125.221001 93.991997] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B301C, 0x7A9B301D, '2019-11-17 10:00:00') /* The Chicken (25578) */;
+VALUES (0x7A9B301C, 0x7A9B301D, '2021-11-01 00:00:00') /* The Chicken (25578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B301D, 25578, 0xA9B30006, 18.0792, 125.216, 93.992, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* The Chicken */

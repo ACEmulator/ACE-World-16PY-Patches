@@ -9,10 +9,10 @@ VALUES (0x7A21E001,  3955, 0xA21E0000, 128.21, 47.9667, 565.005, 0.874153, 0, 0,
 /* @teleloc 0xA21E0000 [128.210007 47.966702 565.005005] 0.874153 0.000000 0.000000 -0.485651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21E001, 0x7A21E000, '2005-02-09 10:00:00') /* Aurutis (9467) */
-     , (0x7A21E001, 0x7A21E006, '2005-02-09 10:00:00') /* Lord Kresovus (9406) */
-     , (0x7A21E001, 0x7A21E00A, '2005-02-09 10:00:00') /* Master Ulkas (9407) */
-     , (0x7A21E001, 0x7A21E00D, '2005-02-09 10:00:00') /* Captain K'rank (28515) */;
+VALUES (0x7A21E001, 0x7A21E000, '2021-11-01 00:00:00') /* Aurutis (9467) */
+     , (0x7A21E001, 0x7A21E006, '2021-11-01 00:00:00') /* Lord Kresovus (9406) */
+     , (0x7A21E001, 0x7A21E00A, '2021-11-01 00:00:00') /* Master Ulkas (9407) */
+     , (0x7A21E001, 0x7A21E00D, '2021-11-01 00:00:00') /* Captain K'rank (28515) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21E002,  9410, 0xA21E0000, 75.7615, 129.583, 560.162, -0.89607, 0, 0, -0.443913, False, '2021-11-01 00:00:00'); /* Outside Linvak Tukal */

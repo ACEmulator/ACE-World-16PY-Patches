@@ -13,186 +13,186 @@ VALUES (0x78704131,  4219, 0x870403EE, 7.15985, -56.9502, 0.005, -0.702864, 0, 0
 /* @teleloc 0x870403EE [7.159850 -56.950199 0.005000] -0.702864 0.000000 0.000000 -0.711324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78704131, 0x78704132, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704133, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704134, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704135, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704136, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704137, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704138, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704139, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870413A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870413B, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870413C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870413D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870413E, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870413F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704140, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704141, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704142, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704143, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704144, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704145, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704146, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704147, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704148, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704149, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870414A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870414B, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870414C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870414D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870414E, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870414F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704150, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704151, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704152, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704153, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704154, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704155, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704156, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704157, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704158, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704159, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870415A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870415B, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870415C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870415D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870415E, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870415F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704160, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704161, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704162, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704163, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704164, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704165, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704166, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704167, '2019-02-10 00:00:00') /* Intense Shivering Pillar (40430) */
-     , (0x78704131, 0x78704168, '2019-02-10 00:00:00') /* Intense Shivering Pillar (40430) */
-     , (0x78704131, 0x78704169, '2019-02-10 00:00:00') /* Intense Shivering Pillar (40430) */
-     , (0x78704131, 0x7870416A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870416B, '2019-02-10 00:00:00') /* Intense Shivering Pillar (40430) */
-     , (0x78704131, 0x7870416C, '2019-02-10 00:00:00') /* Intense Shivering Pillar (40430) */
-     , (0x78704131, 0x7870416D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870416E, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870416F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704170, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704171, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704172, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704173, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704174, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704175, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704176, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704177, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704178, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704179, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870417A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870417B, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870417C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870417D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870417E, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870417F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704180, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704181, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704182, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704183, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704184, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704185, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704186, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704187, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704188, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704189, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870418A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870418B, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870418C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870418D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870418E, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870418F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704190, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704191, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x78704192, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704193, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704194, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704195, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704196, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704197, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704198, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x78704199, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870419A, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x7870419B, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870419C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870419D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x7870419E, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x7870419F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041A0, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041A1, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041A2, '2019-02-10 00:00:00') /* Crystalline Wisp (40126) */
-     , (0x78704131, 0x787041A3, '2019-02-10 00:00:00') /* Crystalline Wisp (40125) */
-     , (0x78704131, 0x787041A4, '2019-02-10 00:00:00') /* Crystalline Wisp (40126) */
-     , (0x78704131, 0x787041A5, '2019-02-10 00:00:00') /* Crystalline Wisp (40125) */
-     , (0x78704131, 0x787041A6, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041A7, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041A8, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041A9, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041AA, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041AB, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041AC, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041AD, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041AE, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041AF, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B0, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B1, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B2, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B3, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B4, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B5, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B6, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B7, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041B8, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041B9, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041BA, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041BB, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041BC, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041BD, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041BE, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041BF, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041C0, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041C1, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041C2, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041C3, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041C4, '2019-02-10 00:00:00') /* Crystalline Wisp (40126) */
-     , (0x78704131, 0x787041C5, '2019-02-10 00:00:00') /* Crystalline Wisp (40126) */
-     , (0x78704131, 0x787041C6, '2019-02-10 00:00:00') /* Crystalline Wisp (40125) */
-     , (0x78704131, 0x787041C7, '2019-02-10 00:00:00') /* Crystalline Wisp (40125) */
-     , (0x78704131, 0x787041C8, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041C9, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041CA, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041CB, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041CC, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041CD, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041CE, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041CF, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D0, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D1, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D2, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D3, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041D4, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D5, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041D6, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D7, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D8, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041D9, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041DA, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041DB, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041DC, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041DD, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041DE, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041DF, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041E0, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041E1, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041E2, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041E3, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
-     , (0x78704131, 0x787041E4, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
-     , (0x78704131, 0x787041E5, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */;
+VALUES (0x78704131, 0x78704132, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704133, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704134, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704135, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704136, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704137, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704138, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704139, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870413A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870413B, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870413C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870413D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870413E, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870413F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704140, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704141, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704142, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704143, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704144, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704145, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704146, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704147, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704148, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704149, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870414A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870414B, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870414C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870414D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870414E, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870414F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704150, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704151, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704152, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704153, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704154, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704155, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704156, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704157, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704158, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704159, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870415A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870415B, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870415C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870415D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870415E, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870415F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704160, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704161, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704162, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704163, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704164, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704165, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704166, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704167, '2021-11-01 00:00:00') /* Intense Shivering Pillar (40430) */
+     , (0x78704131, 0x78704168, '2021-11-01 00:00:00') /* Intense Shivering Pillar (40430) */
+     , (0x78704131, 0x78704169, '2021-11-01 00:00:00') /* Intense Shivering Pillar (40430) */
+     , (0x78704131, 0x7870416A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870416B, '2021-11-01 00:00:00') /* Intense Shivering Pillar (40430) */
+     , (0x78704131, 0x7870416C, '2021-11-01 00:00:00') /* Intense Shivering Pillar (40430) */
+     , (0x78704131, 0x7870416D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870416E, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870416F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704170, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704171, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704172, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704173, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704174, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704175, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704176, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704177, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704178, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704179, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870417A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870417B, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870417C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870417D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870417E, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870417F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704180, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704181, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704182, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704183, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704184, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704185, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704186, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704187, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704188, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704189, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870418A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870418B, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870418C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870418D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870418E, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870418F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704190, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704191, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x78704192, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704193, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704194, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704195, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704196, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704197, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704198, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x78704199, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870419A, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x7870419B, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870419C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870419D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x7870419E, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x7870419F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041A0, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041A1, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041A2, '2021-11-01 00:00:00') /* Crystalline Wisp (40126) */
+     , (0x78704131, 0x787041A3, '2021-11-01 00:00:00') /* Crystalline Wisp (40125) */
+     , (0x78704131, 0x787041A4, '2021-11-01 00:00:00') /* Crystalline Wisp (40126) */
+     , (0x78704131, 0x787041A5, '2021-11-01 00:00:00') /* Crystalline Wisp (40125) */
+     , (0x78704131, 0x787041A6, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041A7, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041A8, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041A9, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041AA, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041AB, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041AC, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041AD, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041AE, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041AF, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B0, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B1, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B2, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B3, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B4, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B5, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B6, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B7, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041B8, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041B9, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041BA, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041BB, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041BC, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041BD, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041BE, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041BF, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041C0, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041C1, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041C2, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041C3, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041C4, '2021-11-01 00:00:00') /* Crystalline Wisp (40126) */
+     , (0x78704131, 0x787041C5, '2021-11-01 00:00:00') /* Crystalline Wisp (40126) */
+     , (0x78704131, 0x787041C6, '2021-11-01 00:00:00') /* Crystalline Wisp (40125) */
+     , (0x78704131, 0x787041C7, '2021-11-01 00:00:00') /* Crystalline Wisp (40125) */
+     , (0x78704131, 0x787041C8, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041C9, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041CA, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041CB, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041CC, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041CD, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041CE, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041CF, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D0, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D1, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D2, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D3, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041D4, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D5, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041D6, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D7, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D8, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041D9, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041DA, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041DB, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041DC, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041DD, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041DE, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041DF, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041E0, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041E1, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041E2, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041E3, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */
+     , (0x78704131, 0x787041E4, '2021-11-01 00:00:00') /* Intense Aggregate Crystalline Wisp (40429) */
+     , (0x78704131, 0x787041E5, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78704132, 40428, 0x870403EE, 7.15985, -56.9502, 0.005, -0.702864, 0, 0, -0.711324,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
@@ -919,11 +919,11 @@ VALUES (0x787041E6,  1154, 0x87040390, 30.0544, -29.7935, -54, -0.423155, 0, 0, 
 /* @teleloc 0x87040390 [30.054399 -29.793501 -54.000000] -0.423155 0.000000 0.000000 -0.906057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787041E6, 0x787041E7, '2019-02-10 00:00:00') /* Crystal (40110) */
-     , (0x787041E6, 0x787041E8, '2019-02-10 00:00:00') /* Crystal (40113) */
-     , (0x787041E6, 0x787041E9, '2019-02-10 00:00:00') /* Crystal (40112) */
-     , (0x787041E6, 0x787041EA, '2019-02-10 00:00:00') /* Crystal (40114) */
-     , (0x787041E6, 0x787041EB, '2019-02-10 00:00:00') /* Crystal (40111) */;
+VALUES (0x787041E6, 0x787041E7, '2021-11-01 00:00:00') /* Crystal (40110) */
+     , (0x787041E6, 0x787041E8, '2021-11-01 00:00:00') /* Crystal (40113) */
+     , (0x787041E6, 0x787041E9, '2021-11-01 00:00:00') /* Crystal (40112) */
+     , (0x787041E6, 0x787041EA, '2021-11-01 00:00:00') /* Crystal (40114) */
+     , (0x787041E6, 0x787041EB, '2021-11-01 00:00:00') /* Crystal (40111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787041E7, 40110, 0x87040390, 30.0544, -29.7935, -54, -0.423155, 0, 0, -0.906057,  True, '2021-11-01 00:00:00'); /* Crystal */
@@ -950,63 +950,63 @@ VALUES (0x787041EC,  1542, 0x870403DE, 0, -50, 0, 1, 0, 0, 0, False, '2021-11-01
 /* @teleloc 0x870403DE [0.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787041EC, 0x787041ED, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041EE, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041EF, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F0, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F1, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F2, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F3, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F4, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F5, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F6, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F7, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F8, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041F9, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041FA, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041FB, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041FC, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041FD, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041FE, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x787041FF, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704200, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704201, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704202, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704203, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704204, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704205, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704206, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704207, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704208, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704209, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870420A, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870420B, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870420C, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870420D, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870420E, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x7870420F, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x78704210, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x78704211, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x78704212, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x78704213, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x78704214, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x78704215, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704216, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704217, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704218, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704219, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870421A, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870421B, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870421C, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870421D, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870421E, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x7870421F, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704220, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704221, '2019-02-10 00:00:00') /* Crystalline Resin (40146) */
-     , (0x787041EC, 0x78704222, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704223, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704224, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x787041EC, 0x78704225, '2019-02-10 00:00:00') /* Crystal (40124) */;
+VALUES (0x787041EC, 0x787041ED, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041EE, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041EF, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F0, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F1, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F2, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F3, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F4, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F5, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F6, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F7, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F8, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041F9, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041FA, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041FB, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041FC, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041FD, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041FE, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x787041FF, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704200, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704201, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704202, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704203, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704204, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704205, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704206, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704207, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704208, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704209, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870420A, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870420B, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870420C, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870420D, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870420E, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x7870420F, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x78704210, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x78704211, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x78704212, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x78704213, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x78704214, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x78704215, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704216, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704217, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704218, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704219, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870421A, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870421B, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870421C, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870421D, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870421E, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x7870421F, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704220, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704221, '2021-11-01 00:00:00') /* Crystalline Resin (40146) */
+     , (0x787041EC, 0x78704222, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704223, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704224, '2021-11-01 00:00:00') /* Crystal (40124) */
+     , (0x787041EC, 0x78704225, '2021-11-01 00:00:00') /* Crystal (40124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787041ED, 40124, 0x870403DE, 0, -50, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal */

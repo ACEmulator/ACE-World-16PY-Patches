@@ -49,8 +49,8 @@ VALUES (0x7A3A400B,  1154, 0xA3A40104, 55.2757, 81.1693, 71.005, 0.999799, 0, 0,
 /* @teleloc 0xA3A40104 [55.275700 81.169296 71.004997] 0.999799 0.000000 0.000000 0.020048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A400B, 0x7A3A4008, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
-     , (0x7A3A400B, 0x7A3A400A, '2005-02-09 10:00:00') /* Collector (3917) */;
+VALUES (0x7A3A400B, 0x7A3A4008, '2021-11-01 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7A3A400B, 0x7A3A400A, '2021-11-01 00:00:00') /* Collector (3917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A400C,  5148, 0xA3A40108, 105.364, 110.266, 80.3789, 0.696308, 0, 0, 0.717743, False, '2021-11-01 00:00:00'); /* Flames */
@@ -81,10 +81,10 @@ VALUES (0x7A3A43E8, 15274, 0xA3A40031, 155.472, 16.9896, 98, 0.469091, 0, 0, 0.8
 /* @teleloc 0xA3A40031 [155.472000 16.989599 98.000000] 0.469091 0.000000 0.000000 0.883150 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A43E8, 0x7A3A43E9, '2019-11-21 00:00:00') /* Famished Eater (32315) */
-     , (0x7A3A43E8, 0x7A3A43EA, '2019-11-21 00:00:00') /* Famished Eater (32315) */
-     , (0x7A3A43E8, 0x7A3A43EB, '2019-11-21 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A3A43E8, 0x7A3A43EC, '2019-11-21 00:00:00') /* Eater (32316) */;
+VALUES (0x7A3A43E8, 0x7A3A43E9, '2021-11-01 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A43E8, 0x7A3A43EA, '2021-11-01 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A43E8, 0x7A3A43EB, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A43E8, 0x7A3A43EC, '2021-11-01 00:00:00') /* Eater (32316) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A43E9, 32315, 0xA3A40032, 152.622, 28.023, 97.6647, -0.861019, 0, 0, -0.508573,  True, '2021-11-01 00:00:00'); /* Famished Eater */
