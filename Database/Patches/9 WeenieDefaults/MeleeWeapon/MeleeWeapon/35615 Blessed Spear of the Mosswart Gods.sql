@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35615;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35615, 'ace35615-blessedspearofthemosswartgods', 6, '2021-12-08 08:39:07') /* MeleeWeapon */;
+VALUES (35615, 'ace35615-blessedspearofthemosswartgods', 6, '2021-12-14 05:15:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35615,   1,          1) /* ItemType - MeleeWeapon */
