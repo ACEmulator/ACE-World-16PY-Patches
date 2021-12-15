@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36651;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36651, 'ace36651-boulder', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36651, 'ace36651-boulder', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36651,   1,         16) /* ItemType - Creature */
@@ -19,6 +19,8 @@ VALUES (36651,   1, True ) /* Stuck */
      , (36651,  14, True ) /* GravityStatus */
      , (36651,  19, True ) /* Attackable */
      , (36651,  29, True ) /* NoCorpse */
+     , (36651,  52, True ) /* AiImmobile */
+     , (36651,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (36651,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

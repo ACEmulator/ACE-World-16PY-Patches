@@ -53,10 +53,10 @@ VALUES (0x700AF093,  1154, 0x00AF0118, 37, -13.0434, 0, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x00AF0118 [37.000000 -13.043400 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AF093, 0x700AF094, '2019-02-10 00:00:00') /* Garbage Barrel (34726) */
-     , (0x700AF093, 0x700AF095, '2019-02-10 00:00:00') /* Garbage Barrel (34726) */
-     , (0x700AF093, 0x700AF096, '2019-02-10 00:00:00') /* Colosseum Arena (34727) */
-     , (0x700AF093, 0x700AF097, '2019-02-10 00:00:00') /* Advanced Colosseum Arena (34728) */;
+VALUES (0x700AF093, 0x700AF094, '2021-11-01 00:00:00') /* Garbage Barrel (34726) */
+     , (0x700AF093, 0x700AF095, '2021-11-01 00:00:00') /* Garbage Barrel (34726) */
+     , (0x700AF093, 0x700AF096, '2021-11-01 00:00:00') /* Colosseum Arena (34727) */
+     , (0x700AF093, 0x700AF097, '2021-11-01 00:00:00') /* Advanced Colosseum Arena (34728) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF094, 34726, 0x00AF0118, 37, -13.0434, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Garbage Barrel */
@@ -79,11 +79,11 @@ VALUES (0x700AF112, 28282, 0x00AF0117, 40, 0, 0.0075, 0, 0, 0, -1, False, '2021-
 /* @teleloc 0x00AF0117 [40.000000 0.000000 0.007500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700AF112, 0x700AF114, '2019-02-10 00:00:00') /* Master Arbitrator (34441) */
-     , (0x700AF112, 0x700AF115, '2019-02-10 00:00:00') /* Colosseum Ticket Vendor (34442) */
-     , (0x700AF112, 0x700AF116, '2019-02-10 00:00:00') /* Gladiator Diemos (35869) */
-     , (0x700AF112, 0x700AF117, '2019-02-10 00:00:00') /* The Master (35870) */
-     , (0x700AF112, 0x700AF11C, '2019-02-10 00:00:00') /* Arena of the Pumpkin King (36532) */;
+VALUES (0x700AF112, 0x700AF114, '2021-11-01 00:00:00') /* Master Arbitrator (34441) */
+     , (0x700AF112, 0x700AF115, '2021-11-01 00:00:00') /* Colosseum Ticket Vendor (34442) */
+     , (0x700AF112, 0x700AF116, '2021-11-01 00:00:00') /* Gladiator Diemos (35869) */
+     , (0x700AF112, 0x700AF117, '2021-11-01 00:00:00') /* The Master (35870) */
+     , (0x700AF112, 0x700AF11C, '2021-11-01 00:00:00') /* Arena of the Pumpkin King (36532) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF113, 71705, 0x00AF0117, 38, 4.4, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena One Stopgap Generator */

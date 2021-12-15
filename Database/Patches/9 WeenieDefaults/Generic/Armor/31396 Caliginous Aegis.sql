@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31396;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31396, 'ace31396-caliginousaegis', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (31396, 'ace31396-caliginousaegis', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31396,   1,          2) /* ItemType - Armor */
@@ -12,7 +12,6 @@ VALUES (31396,   1,          2) /* ItemType - Armor */
      , (31396,  28,        440) /* ArmorLevel */
      , (31396,  36,       9999) /* ResistMagic */
      , (31396,  51,          4) /* CombatUse - Shield */
-     , (31396,  52,          3) /* ParentLocation - Shield */
      , (31396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31396, 106,        350) /* ItemSpellcraft */
      , (31396, 107,       3000) /* ItemCurMana */

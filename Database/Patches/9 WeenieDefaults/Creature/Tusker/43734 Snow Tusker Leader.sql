@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43734;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43734, 'ace43734-snowtuskerleader', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43734, 'ace43734-snowtuskerleader', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43734,   1,         16) /* ItemType - Creature */
      , (43734,   2,          8) /* CreatureType - Tusker */
      , (43734,   3,          8) /* PaletteTemplate - Green */
-     , (43734,   6,        255) /* ItemsCapacity */
-     , (43734,   7,        255) /* ContainersCapacity */
+     , (43734,   6,         -1) /* ItemsCapacity */
+     , (43734,   7,         -1) /* ContainersCapacity */
      , (43734,  16,          1) /* ItemUseable - No */
      , (43734,  25,        240) /* Level */
      , (43734,  27,          0) /* ArmorType - None */
@@ -39,7 +39,6 @@ VALUES (43734,   1,       5) /* HeartbeatInterval */
      , (43734,  17,     0.4) /* ArmorModVsFire */
      , (43734,  18,       1) /* ArmorModVsAcid */
      , (43734,  19,       1) /* ArmorModVsElectric */
-     , (43734,  27,       5) /* RotationSpeed */
      , (43734,  31,      23) /* VisualAwarenessRange */
      , (43734,  34,     2.5) /* PowerupTime */
      , (43734,  36,       1) /* ChargeSpeed */

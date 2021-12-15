@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5868;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5868, 'lichlordfrore', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (5868, 'lichlordfrore', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5868,   1,         16) /* ItemType - Creature */
@@ -154,6 +154,10 @@ VALUES (5868,    62,   2.01)  /* Acid Stream V */
      , (5868,  1419,  2.011)  /* Slowness Other V */
      , (5868,  1443,  2.011)  /* Bafflement Other V */
      , (5868,  1467,  2.011)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5868,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5868, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5868, 1, 26008, 240, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gelidite Golem (26008) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

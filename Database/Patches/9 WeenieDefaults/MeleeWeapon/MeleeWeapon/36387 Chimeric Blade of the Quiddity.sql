@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36387;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36387, 'ace36387-chimericbladeofthequiddity', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (36387, 'ace36387-chimericbladeofthequiddity', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36387,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (36387,   1,          1) /* ItemType - MeleeWeapon */
      , (36387,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (36387,  49,         35) /* WeaponTime */
      , (36387,  51,          1) /* CombatUse - Melee */
-     , (36387,  53,        101) /* PlacementPosition - Resting */
      , (36387,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36387, 106,        475) /* ItemSpellcraft */
      , (36387, 107,       2700) /* ItemCurMana */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42161;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42161, 'ace42161-belligtowerbase', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (42161, 'ace42161-belligtowerbase', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42161,   1,      65536) /* ItemType - Portal */
@@ -17,8 +17,7 @@ VALUES (42161,   1, True ) /* Stuck */
      , (42161,  13, True ) /* Ethereal */
      , (42161,  14, True ) /* GravityStatus */
      , (42161,  15, True ) /* LightsStatus */
-     , (42161,  19, True ) /* Attackable */
-     , (42161,  88, True ) /* PortalShowDestination */;
+     , (42161,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42161,  39,     0.8) /* DefaultScale */

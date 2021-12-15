@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9060;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9060, 'manachargetitan', 37, '2021-11-01 00:00:00') /* ManaStone */;
+VALUES (9060, 'manachargetitan', 37, '2021-11-17 16:56:08') /* ManaStone */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9060,   1,     524288) /* ItemType - ManaStone */
@@ -10,7 +10,6 @@ VALUES (9060,   1,     524288) /* ItemType - ManaStone */
      , (9060,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (9060,  18,          1) /* UiEffects - Magical */
      , (9060,  19,       9000) /* Value */
-     , (9060,  53,        101) /* PlacementPosition - Resting */
      , (9060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9060,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (9060, 107,       5000) /* ItemCurMana */

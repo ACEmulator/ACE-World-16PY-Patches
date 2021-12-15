@@ -105,9 +105,9 @@ VALUES (0x749B6019,  7923, 0x49B60000, 28.6717, 179.036, 239.087, -0.990312, 0, 
 /* @teleloc 0x49B60000 [28.671700 179.035995 239.087006] -0.990312 0.000000 0.000000 -0.138859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B6019, 0x749B6018, '2005-02-09 10:00:00') /* Mairisa bint Fuda (5874) */
-     , (0x749B6019, 0x749B603C, '2005-02-09 10:00:00') /* Small Creepy Statue (25988) */
-     , (0x749B6019, 0x749B603E, '2005-02-09 10:00:00') /* Journeyman Fletcher (28923) */;
+VALUES (0x749B6019, 0x749B6018, '2021-11-01 00:00:00') /* Mairisa bint Fuda (5874) */
+     , (0x749B6019, 0x749B603C, '2021-11-01 00:00:00') /* Small Creepy Statue (25988) */
+     , (0x749B6019, 0x749B603E, '2021-11-01 00:00:00') /* Journeyman Fletcher (28923) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B601A,  6113, 0x49B60100, 32.3143, 159.636, 240.005, -0.410659, 0, 0, 0.911789, False, '2021-11-01 00:00:00'); /* Plateau Spice Merchant */
@@ -126,7 +126,7 @@ VALUES (0x749B6020,  7923, 0x49B60126, 87.0821, 137.261, 240.005, -0.999984, 0, 
 /* @teleloc 0x49B60126 [87.082100 137.261002 240.005005] -0.999984 0.000000 0.000000 0.005680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B6020, 0x749B601F, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
+VALUES (0x749B6020, 0x749B601F, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B6021, 12304, 0x49B60000, 79.2538, 140.423, 240.005, 0.717058, 0, 0, -0.697014, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31336;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31336, 'ace31336-fakeniffispearl', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (31336, 'ace31336-fakeniffispearl', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31336,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (31336,   1,        128) /* ItemType - Misc */
      , (31336,  16,          1) /* ItemUseable - No */
      , (31336,  19,          0) /* Value */
      , (31336,  33,          1) /* Bonded - Bonded */
-     , (31336,  53,        101) /* PlacementPosition - Resting */
      , (31336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31336, 114,          1) /* Attuned - Attuned */;
 

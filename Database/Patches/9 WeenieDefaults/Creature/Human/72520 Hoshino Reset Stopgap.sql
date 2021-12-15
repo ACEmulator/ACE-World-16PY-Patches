@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72520, 'ace72520-hoshinoresetstopgap', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (72520, 'ace72520-hoshinoresetstopgap', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72520,   1,         16) /* ItemType - Creature */
@@ -74,9 +74,6 @@ VALUES (72520,   1, 0x02000001) /* Setup */
      , (72520,   3, 0x20000001) /* SoundTable */
      , (72520,   4, 0x30000000) /* CombatTable */
      , (72520,   8, 0x06001036) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (72520,   0, 0x00000000) /* Undef */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72520,   1,  90, 0, 0) /* Strength */

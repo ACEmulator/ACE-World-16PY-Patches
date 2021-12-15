@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87683;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87683, 'ace87683-tanadatempleofblackwater', 7, '2021-11-08 06:01:47') /* Portal */;
+VALUES (87683, 'ace87683-tanadatempleofblackwater', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87683,   1,      65536) /* ItemType - Portal */
@@ -11,8 +11,7 @@ VALUES (87683,   1,      65536) /* ItemType - Portal */
      , (87683, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (87683,   1, True ) /* Stuck */
-     , (87683,  88, True ) /* PortalShowDestination */;
+VALUES (87683,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87683,  54,    -0.1) /* UseRadius */;

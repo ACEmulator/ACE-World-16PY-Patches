@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80043;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80043, 'ace80043-viamontstagingareaportal', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (80043, 'ace80043-viamontstagingareaportal', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80043,   1,      65536) /* ItemType - Portal */
@@ -13,8 +13,7 @@ VALUES (80043,   1,      65536) /* ItemType - Portal */
      , (80043, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (80043,   1, True ) /* Stuck */
-     , (80043,  88, True ) /* PortalShowDestination */;
+VALUES (80043,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80043,  54,    -0.1) /* UseRadius */;

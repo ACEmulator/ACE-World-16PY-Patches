@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31018, 'grievverviolatorhighyield', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31018, 'grievverviolatorhighyield', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31018,   1,         16) /* ItemType - Creature */
@@ -28,9 +28,7 @@ VALUES (31018,   1, False) /* Stuck */
      , (31018,  12, True ) /* ReportCollisions */
      , (31018,  13, False) /* Ethereal */
      , (31018,  19, True ) /* Attackable */
-     , (31018,  50, True ) /* NeverFailCasting */
-     , (31018, 101, True ) /* CanGenerateRare */
-     , (31018, 102, True ) /* CorpseGeneratedRare */;
+     , (31018,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31018,   1,       5) /* HeartbeatInterval */
@@ -123,6 +121,10 @@ VALUES (31018,  1342,   2.02)  /* Weakness Other V */
      , (31018,  1443,   2.02)  /* Bafflement Other V */
      , (31018,  2122,   2.02)  /* Disintegration */
      , (31018,  2140,   2.02)  /* Alset's Coil */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31018,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31018, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31018,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

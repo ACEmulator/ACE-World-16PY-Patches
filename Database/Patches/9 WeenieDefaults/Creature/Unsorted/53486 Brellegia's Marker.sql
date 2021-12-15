@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53486;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53486, 'ace53486-brellegiasmarker', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (53486, 'ace53486-brellegiasmarker', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53486,   1,         16) /* ItemType - Creature */
-     , (53486,   6,        255) /* ItemsCapacity */
-     , (53486,   7,        255) /* ContainersCapacity */
+     , (53486,   6,         -1) /* ItemsCapacity */
+     , (53486,   7,         -1) /* ContainersCapacity */
      , (53486,  16,         32) /* ItemUseable - Remote */
      , (53486,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53486,  95,          8) /* RadarBlipColor - Yellow */

@@ -13,8 +13,8 @@ VALUES (0x7F65C3EA,  4219, 0xF65C003A, 184.339, 46.7119, 20.055, -0.991079, 0, 0
 /* @teleloc 0xF65C003A [184.339005 46.711899 20.055000] -0.991079 0.000000 0.000000 0.133274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F65C3EA, 0x7F65C3EB, '2020-06-29 15:28:32') /* Shadowy Pillar (52271) */
-     , (0x7F65C3EA, 0x7F65C3EC, '2020-06-29 15:28:53') /* Shadowy Pillar (52271) */;
+VALUES (0x7F65C3EA, 0x7F65C3EB, '2021-11-01 00:00:00') /* Shadowy Pillar (52271) */
+     , (0x7F65C3EA, 0x7F65C3EC, '2021-11-01 00:00:00') /* Shadowy Pillar (52271) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F65C3EB, 52271, 0xF65C0039, 178.13, 16.6104, 20, -0.960892, 0, 0, -0.276925,  True, '2021-11-01 00:00:00'); /* Shadowy Pillar */

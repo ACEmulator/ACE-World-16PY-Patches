@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71211;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71211, 'ace71211-enhancedcoruscatingispariancrossbow', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (71211, 'ace71211-enhancedcoruscatingispariancrossbow', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71211,   1,        256) /* ItemType - MissileWeapon */
@@ -19,12 +19,15 @@ VALUES (71211,   1,        256) /* ItemType - MissileWeapon */
      , (71211,  49,         45) /* WeaponTime */
      , (71211,  50,          2) /* AmmoType - Bolt */
      , (71211,  51,          2) /* CombatUse - Missile */
+     , (71211,  52,          2) /* ParentLocation - LeftHand */
+     , (71211,  53,          3) /* PlacementPosition - LeftHand */
      , (71211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71211, 106,        350) /* ItemSpellcraft */
      , (71211, 107,        400) /* ItemCurMana */
      , (71211, 108,        400) /* ItemMaxMana */
      , (71211, 109,        250) /* ItemDifficulty */
      , (71211, 114,          1) /* Attuned - Attuned */
+     , (71211, 151,          2) /* HookType - Wall */
      , (71211, 158,          2) /* WieldRequirements - RawSkill */
      , (71211, 159,         47) /* WieldSkillType - MissileWeapons */
      , (71211, 160,        360) /* WieldDifficulty */

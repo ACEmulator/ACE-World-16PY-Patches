@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8818;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8818, 'shadowheartleaderupper', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8818, 'shadowheartleaderupper', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8818,   1,         16) /* ItemType - Creature */
@@ -164,6 +164,10 @@ VALUES (8818,    74,  2.032)  /* Frost Bolt VI */
      , (8818,  1312,  2.006)  /* Armor Self VI */
      , (8818,  1420,  2.023)  /* Slowness Other VI */
      , (8818,  1468,  2.023)  /* Feeblemind Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8818,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8818, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8818, 1,  8787,  0, 0, 1, False) /* Create Shadow Captain's Heaume (8787) for Contain */

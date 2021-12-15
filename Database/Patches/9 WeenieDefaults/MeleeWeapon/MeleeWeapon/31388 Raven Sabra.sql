@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31388;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31388, 'ace31388-ravensabra', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (31388, 'ace31388-ravensabra', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31388,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,6 @@ VALUES (31388,   1,          1) /* ItemType - MeleeWeapon */
      , (31388,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (31388,  49,          0) /* WeaponTime */
      , (31388,  51,          1) /* CombatUse - Melee */
-     , (31388,  52,          1) /* ParentLocation - RightHand */
      , (31388,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31388, 114,          1) /* Attuned - Attuned */
      , (31388, 353,          2) /* WeaponType - Sword */;

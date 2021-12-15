@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24275;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24275, 'banderlingantagonist', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24275, 'banderlingantagonist', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24275,   1,         16) /* ItemType - Creature */
@@ -130,6 +130,10 @@ VALUES (24275,    73,   2.03)  /* Frost Bolt V */
      , (24275,  1241,      2)  /* Drain Health Other V */
      , (24275,  1311,      2)  /* Armor Self V */
      , (24275,  1326,   2.12)  /* Imperil Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24275,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24275, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24275,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

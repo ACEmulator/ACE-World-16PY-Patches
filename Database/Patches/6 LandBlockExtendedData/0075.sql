@@ -281,7 +281,7 @@ VALUES (0x70075045,  7924, 0x00750484, 244.95, -166.347, 0.055, 0.05662, 0, 0, 0
 /* @teleloc 0x00750484 [244.949997 -166.347000 0.055000] 0.056620 0.000000 0.000000 0.998396 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70075045, 0x70075046, '2021-10-13 15:28:48') /* Shadow Aspect of Grael (87605) */;
+VALUES (0x70075045, 0x70075046, '2021-11-01 00:00:00') /* Shadow Aspect of Grael (87605) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70075046, 87605, 0x00750484, 238.272, -166.198, 0.00825, 0.00665, 0, 0, 0.999978,  True, '2021-11-01 00:00:00'); /* Shadow Aspect of Grael */

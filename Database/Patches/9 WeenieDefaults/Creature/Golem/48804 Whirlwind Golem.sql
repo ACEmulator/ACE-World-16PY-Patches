@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48804;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48804, 'ace48804-whirlwindgolem', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (48804, 'ace48804-whirlwindgolem', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48804,   1,         16) /* ItemType - Creature */
@@ -21,8 +21,7 @@ VALUES (48804,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48804,   1, True ) /* Stuck */
-     , (48804,   6, True ) /* AiUsesMana */
-     , (48804,  10, True ) /* AttackerAi */;
+     , (48804,   6, True ) /* AiUsesMana */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48804,   1,       5) /* HeartbeatInterval */
@@ -38,7 +37,6 @@ VALUES (48804,   1,       5) /* HeartbeatInterval */
      , (48804,  17,       1) /* ArmorModVsFire */
      , (48804,  18,       1) /* ArmorModVsAcid */
      , (48804,  19,       1) /* ArmorModVsElectric */
-     , (48804,  27,       3) /* RotationSpeed */
      , (48804,  31,      22) /* VisualAwarenessRange */
      , (48804,  34,       1) /* PowerupTime */
      , (48804,  36,       1) /* ChargeSpeed */

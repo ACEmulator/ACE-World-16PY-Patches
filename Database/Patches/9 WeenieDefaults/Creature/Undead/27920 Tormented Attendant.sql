@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27920;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27920, 'undeadtorturedattendant', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (27920, 'undeadtorturedattendant', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27920,   1,         16) /* ItemType - Creature */
@@ -137,3 +137,7 @@ VALUES (27920,    62,   2.01)  /* Acid Stream V */
      , (27920,  1155,  2.011)  /* Piercing Vulnerability Other V */
      , (27920,  1840,   2.01)  /* Bed of Blades */
      , (27920,  1842,   2.01)  /* Spike Strafe */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27920,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27920, 414) /* PLAYER_DEATH_EVENT */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87047;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87047, 'KnorrQudditySeedEventStarter', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (87047, 'KnorrQudditySeedEventStarter', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87047,   1,         16) /* ItemType - Creature */
@@ -26,6 +26,7 @@ VALUES (87047,   1, True ) /* Stuck */
      , (87047,  19, True ) /* Attackable */
      , (87047,  29, True ) /* NoCorpse */
      , (87047,  52, True ) /* AiImmobile */
+     , (87047,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (87047,  83, True ) /* NpcLooksLikeObject */
      , (87047, 103, True ) /* NonProjectileMagicImmune */
      , (87047, 118, True ) /* NeverAttack */;

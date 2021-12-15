@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31228;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31228, 'ace31228-runicdoorguardian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31228, 'ace31228-runicdoorguardian', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31228,   1,         16) /* ItemType - Creature */
@@ -14,13 +14,15 @@ VALUES (31228,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31228,   1, True ) /* Stuck */
+     , (31228,   8, True ) /* AllowGive */
      , (31228,  11, True ) /* IgnoreCollisions */
      , (31228,  12, True ) /* ReportCollisions */
      , (31228,  14, True ) /* GravityStatus */
      , (31228,  19, False) /* Attackable */
      , (31228,  41, True ) /* ReportCollisionsAsEnvironment */
      , (31228,  42, True ) /* AllowEdgeSlide */
-     , (31228,  52, False) /* AiImmobile */
+     , (31228,  52, True ) /* AiImmobile */
+     , (31228,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (31228,  83, True ) /* NpcLooksLikeObject */
      , (31228, 118, True ) /* NeverAttack */;
 

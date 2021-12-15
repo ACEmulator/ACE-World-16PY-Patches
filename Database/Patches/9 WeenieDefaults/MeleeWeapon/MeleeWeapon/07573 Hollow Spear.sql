@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7573;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7573, 'spearhollow', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (7573, 'spearhollow', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7573,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (7573,   1,          1) /* ItemType - MeleeWeapon */
      , (7573,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (7573,  49,         30) /* WeaponTime */
      , (7573,  51,          1) /* CombatUse - Melee */
-     , (7573,  52,          1) /* ParentLocation - RightHand */
-     , (7573,  53,          1) /* PlacementPosition - RightHandCombat */
      , (7573,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7573, 114,          1) /* Attuned - Attuned */
      , (7573, 353,          5) /* WeaponType - Spear */;

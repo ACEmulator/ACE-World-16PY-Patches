@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20187;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20187, 'acidelementalbuillic', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (20187, 'acidelementalbuillic', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20187,   1,         16) /* ItemType - Creature */
@@ -122,6 +122,10 @@ VALUES (20187,    61,  2.014)  /* Acid Stream IV */
      , (20187,  1310,  2.008)  /* Armor Self IV */
      , (20187,  1325,  2.017)  /* Imperil Other IV */
      , (20187,  1793,  2.002)  /* Acid Streak IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (20187,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (20187, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20187, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

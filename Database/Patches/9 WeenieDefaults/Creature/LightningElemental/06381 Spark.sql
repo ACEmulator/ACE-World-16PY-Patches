@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6381;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6381, 'lightningelementalspark', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (6381, 'lightningelementalspark', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6381,   1,         16) /* ItemType - Creature */
@@ -120,3 +120,7 @@ VALUES (6381,    15,   2.01)  /* Vulnerability Other I */
      , (6381,  1085,   2.01)  /* Lightning Vulnerability Other II */
      , (6381,  1157,  2.008)  /* Heal Self II */
      , (6381,  1237,  2.006)  /* Drain Health Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (6381,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (6381, 414) /* PLAYER_DEATH_EVENT */;

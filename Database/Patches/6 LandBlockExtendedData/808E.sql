@@ -5,12 +5,12 @@ VALUES (0x7808E000,  7924, 0x808E0015, 58.7822, 114.532, 124.005, -0.682584, 0, 
 /* @teleloc 0x808E0015 [58.782200 114.531998 124.004997] -0.682584 0.000000 0.000000 -0.730807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7808E000, 0x7808E002, '2019-02-15 14:34:36') /* Viamontian Mercenary (28651) */
-     , (0x7808E000, 0x7808E003, '2019-02-15 14:34:36') /* Viamontian Mercenary (28651) */
-     , (0x7808E000, 0x7808E004, '2019-02-15 14:34:36') /* Viamontian Mercenary (28651) */
-     , (0x7808E000, 0x7808E005, '2019-02-15 14:34:36') /* Viamontian Mage (29304) */
-     , (0x7808E000, 0x7808E006, '2019-02-15 14:34:36') /* Viamontian Mage (29304) */
-     , (0x7808E000, 0x7808E007, '2019-02-15 14:34:36') /* Viamontian Mage (29304) */;
+VALUES (0x7808E000, 0x7808E002, '2021-11-01 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7808E000, 0x7808E003, '2021-11-01 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7808E000, 0x7808E004, '2021-11-01 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7808E000, 0x7808E005, '2021-11-01 00:00:00') /* Viamontian Mage (29304) */
+     , (0x7808E000, 0x7808E006, '2021-11-01 00:00:00') /* Viamontian Mage (29304) */
+     , (0x7808E000, 0x7808E007, '2021-11-01 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7808E001, 29433, 0x808E000D, 32, 109, 123.937, 0.887011, 0, 0, -0.461749, False, '2021-11-01 00:00:00'); /* Copper Legion Keep */

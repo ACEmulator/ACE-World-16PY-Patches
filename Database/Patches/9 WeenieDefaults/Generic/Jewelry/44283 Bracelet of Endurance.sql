@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44283;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44283, 'ace44283-braceletofendurance', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (44283, 'ace44283-braceletofendurance', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44283,   1,          8) /* ItemType - Jewelry */
@@ -10,7 +10,6 @@ VALUES (44283,   1,          8) /* ItemType - Jewelry */
      , (44283,   9,     196608) /* ValidLocations - WristWear */
      , (44283,  16,          1) /* ItemUseable - No */
      , (44283,  19,         20) /* Value */
-     , (44283,  53,        101) /* PlacementPosition - Resting */
      , (44283,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44283, 106,        450) /* ItemSpellcraft */
      , (44283, 107,       3000) /* ItemCurMana */

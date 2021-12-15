@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19414;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19414, 'soundmakerbase', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (19414, 'soundmakerbase', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19414,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (19414,   1,        128) /* ItemType - Misc */
      , (19414,   8,         25) /* Mass */
      , (19414,  16,          1) /* ItemUseable - No */
      , (19414,  19,          0) /* Value */
-     , (19414,  53,        101) /* PlacementPosition - Resting */
      , (19414,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
      , (19414, 150,        103) /* HookPlacement - Hook */
      , (19414, 151,          9) /* HookType - Floor, Yard */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42002;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42002, 'ace42002-flamesofhumility', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (42002, 'ace42002-flamesofhumility', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42002,   1,         16) /* ItemType - Creature */
@@ -10,31 +10,7 @@ VALUES (42002,   1,         16) /* ItemType - Creature */
      , (42002,  16,         32) /* ItemUseable - Remote */
      , (42002,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42002,  95,          8) /* RadarBlipColor - Yellow */
-     , (42002, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (42002, 307,          0) /* DamageRating */
-     , (42002, 308,          0) /* DamageResistRating */
-     , (42002, 313,          0) /* CritRating */
-     , (42002, 314,          0) /* CritDamageRating */
-     , (42002, 315,          0) /* CritResistRating */
-     , (42002, 316,          0) /* CritDamageResistRating */
-     , (42002, 370,          0) /* GearDamage */
-     , (42002, 371,          0) /* GearDamageResist */
-     , (42002, 372,          0) /* GearCrit */
-     , (42002, 373,          0) /* GearCritResist */
-     , (42002, 374,          0) /* GearCritDamage */
-     , (42002, 375,          0) /* GearCritDamageResist */
-     , (42002, 376,          0) /* GearHealingBoost */
-     , (42002, 377,          0) /* GearNetherResist */
-     , (42002, 378,          0) /* GearLifeResist */
-     , (42002, 379,          0) /* GearMaxHealth */
-     , (42002, 381,          0) /* PKDamageRating */
-     , (42002, 382,          0) /* PKDamageResistRating */
-     , (42002, 383,          0) /* GearPKDamageRating */
-     , (42002, 384,          0) /* GearPKDamageResistRating */
-     , (42002, 386,          0) /* Overpower */
-     , (42002, 387,          0) /* OverpowerResist */
-     , (42002, 388,          0) /* GearOverpower */
-     , (42002, 389,          0) /* GearOverpowerResist */;
+     , (42002, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42002,   1, True ) /* Stuck */
@@ -52,10 +28,6 @@ VALUES (42002,   1, 0x02001944) /* Setup */
      , (42002,   2, 0x0900019B) /* MotionTable */
      , (42002,   3, 0x20000001) /* SoundTable */
      , (42002,   8, 0x06001066) /* Icon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42002, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42002,  1 /* Refuse */,      1, 72204 /* Mhoire Sword of Virtue */, NULL, NULL, NULL, NULL, NULL, NULL);

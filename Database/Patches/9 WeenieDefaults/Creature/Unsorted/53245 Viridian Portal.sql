@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53245;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53245, 'ace53245-viridianportal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (53245, 'ace53245-viridianportal', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53245,   1,         16) /* ItemType - Creature */
@@ -11,8 +11,7 @@ VALUES (53245,   1,         16) /* ItemType - Creature */
      , (53245,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53245,  95,          4) /* RadarBlipColor - Purple */
      , (53245, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (53245, 267,         20) /* Lifespan */
-     , (53245, 268,         20) /* RemainingLifespan */;
+     , (53245, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53245,   1, True ) /* Stuck */
@@ -41,10 +40,6 @@ VALUES (53245,   1, 0x0200169D) /* Setup */
      , (53245,   3, 0x2000008C) /* SoundTable */
      , (53245,   8, 0x0600106B) /* Icon */
      , (53245,  22, 0x3400002A) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53245, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (53245,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33026;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33026, 'ace33026-souldrinker', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (33026, 'ace33026-souldrinker', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33026,   1,          1) /* ItemType - MeleeWeapon */
@@ -53,6 +53,3 @@ VALUES (33026,   1, 0x020014F5) /* Setup */
      , (33026,   8, 0x060030BD) /* Icon */
      , (33026,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33026,  55,       3911) /* ProcSpell - Spiral of Souls */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33026,  3911,      0)  /* Spiral of Souls */;

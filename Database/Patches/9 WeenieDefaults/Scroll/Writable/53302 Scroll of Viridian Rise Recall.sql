@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53302;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53302, 'ace53302-scrollofviridianriserecall', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (53302, 'ace53302-scrollofviridianriserecall', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53302,   1,       8192) /* ItemType - Writable */
@@ -30,6 +30,3 @@ VALUES (53302,   1, 0x0200018A) /* Setup */
      , (53302,   8, 0x06003441) /* Icon */
      , (53302,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53302,  28,       6321) /* Spell - Viridian Rise Recall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53302,  6321,      2)  /* Viridian Rise Recall */;

@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42805;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42805, 'ace42805-barkeeperlazzaro', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (42805, 'ace42805-barkeeperlazzaro', 12, '2021-11-17 16:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42805,   1,         16) /* ItemType - Creature */
      , (42805,   2,         31) /* CreatureType - Human */
-     , (42805,   6,        255) /* ItemsCapacity */
-     , (42805,   7,        255) /* ContainersCapacity */
+     , (42805,   6,         -1) /* ItemsCapacity */
+     , (42805,   7,         -1) /* ContainersCapacity */
      , (42805,  16,         32) /* ItemUseable - Remote */
      , (42805,  25,          7) /* Level */
      , (42805,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
@@ -98,7 +98,7 @@ VALUES (42805, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (42805, 4, 44447, -1, 0, 0, False) /* Create Contract for Deewain's Dark Cavern (44447) for Shop */
      , (42805, 4, 44584, -1, 0, 0, False) /* Create Contract for Kill: Tenebrous Rifts (44584) for Shop */
      , (42805, 4, 44585, -1, 0, 0, False) /* Create Contract for Kill: Umbral Rifts (44585) for Shop */
-     , (42805, 4, 44656, -1, 0, 0, False) /* Create  (44656) for Shop */
+     , (42805, 4, 44656, -1, 0, 0, False) /* Create Contract for Jester Released (44656) for Shop */
      , (42805, 4, 44818, -1, 0, 0, False) /* Create  (44818) for Shop */
      , (42805, 4, 45686, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Drudge (45686) for Shop */
      , (42805, 4, 45687, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Human (45687) for Shop */

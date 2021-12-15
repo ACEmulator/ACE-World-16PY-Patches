@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20586;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20586, 'scrollswordmasteryself7', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (20586, 'scrollswordmasteryself7', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20586,   1,       8192) /* ItemType - Writable */
      , (20586,   5,         30) /* EncumbranceVal */
      , (20586,  16,          8) /* ItemUseable - Contained */
      , (20586,  19,       2000) /* Value */
-     , (20586,  53,        101) /* PlacementPosition - Resting */
      , (20586,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,6 +31,3 @@ VALUES (20586,   1, 0x0200018A) /* Setup */
      , (20586,   8, 0x0600711E) /* Icon */
      , (20586,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20586,  28,       2309) /* Spell - Heavy Weapon Mastery Self VII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20586,  2309,      2)  /* Heavy Weapon Mastery Self VII */;

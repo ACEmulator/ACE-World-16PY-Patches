@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33590;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33590, 'ace33590-asheronstower', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (33590, 'ace33590-asheronstower', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33590,   1,      65536) /* ItemType - Portal */
      , (33590,  16,         32) /* ItemUseable - Remote */
-     , (33590,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (33590,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (33590, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (33590, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
@@ -15,8 +15,7 @@ VALUES (33590,   1, True ) /* Stuck */
      , (33590,  12, True ) /* ReportCollisions */
      , (33590,  13, True ) /* Ethereal */
      , (33590,  15, True ) /* LightsStatus */
-     , (33590,  19, True ) /* Attackable */
-     , (33590,  88, True ) /* PortalShowDestination */;
+     , (33590,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33590,   1, 'Asheron''s Tower') /* Name */;

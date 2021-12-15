@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26597;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (26597, 'spearixir2', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (26597, 'spearixir2', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26597,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,7 +18,6 @@ VALUES (26597,   1,          1) /* ItemType - MeleeWeapon */
      , (26597,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (26597,  49,         15) /* WeaponTime */
      , (26597,  51,          1) /* CombatUse - Melee */
-     , (26597,  53,        101) /* PlacementPosition - Resting */
      , (26597,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26597, 106,        325) /* ItemSpellcraft */
      , (26597, 107,       1200) /* ItemCurMana */

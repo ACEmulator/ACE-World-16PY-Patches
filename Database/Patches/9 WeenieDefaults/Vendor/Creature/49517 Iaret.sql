@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49517;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49517, 'ace49517-iaret', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (49517, 'ace49517-iaret', 12, '2021-11-17 16:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49517,   1,         16) /* ItemType - Creature */
      , (49517,   2,         51) /* CreatureType - Empyrean */
      , (49517,   3,          8) /* PaletteTemplate - Green */
-     , (49517,   6,        255) /* ItemsCapacity */
-     , (49517,   7,        255) /* ContainersCapacity */
+     , (49517,   6,         -1) /* ItemsCapacity */
+     , (49517,   7,         -1) /* ContainersCapacity */
      , (49517,  16,         32) /* ItemUseable - Remote */
      , (49517,  25,          7) /* Level */
      , (49517,  74,    2656384) /* MerchandiseItemTypes - Misc, Gem, Caster, ManaStone, MagicWieldable */

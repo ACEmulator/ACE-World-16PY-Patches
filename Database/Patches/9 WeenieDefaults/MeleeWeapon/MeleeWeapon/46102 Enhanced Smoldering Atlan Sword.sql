@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46102;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46102, 'ace46102-enhancedsmolderingatlansword', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46102, 'ace46102-enhancedsmolderingatlansword', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46102,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (46102,   1,          1) /* ItemType - MeleeWeapon */
      , (46102,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46102,  49,         35) /* WeaponTime */
      , (46102,  51,          1) /* CombatUse - Melee */
-     , (46102,  52,          1) /* ParentLocation - RightHand */
      , (46102,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46102, 106,        350) /* ItemSpellcraft */
      , (46102, 107,        750) /* ItemCurMana */
@@ -33,11 +32,7 @@ VALUES (46102,   1,          1) /* ItemType - MeleeWeapon */
      , (46102, 263,         16) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46102,  11, True ) /* IgnoreCollisions */
-     , (46102,  13, True ) /* Ethereal */
-     , (46102,  14, True ) /* GravityStatus */
-     , (46102,  19, True ) /* Attackable */
-     , (46102,  22, True ) /* Inscribable */
+VALUES (46102,  22, True ) /* Inscribable */
      , (46102,  69, False) /* IsSellable */
      , (46102,  99, True ) /* Ivoryable */;
 

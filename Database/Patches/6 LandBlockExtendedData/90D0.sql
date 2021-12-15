@@ -37,8 +37,8 @@ VALUES (0x790D0008,  7923, 0x90D00000, 64.5901, 113.213, 297.205, 0.946173, 0, 0
 /* @teleloc 0x90D00000 [64.590103 113.212997 297.204987] 0.946173 0.000000 0.000000 -0.323661 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790D0008, 0x790D0007, '2005-02-09 10:00:00') /* Silencia's Magma Golem (6356) */
-     , (0x790D0008, 0x790D000C, '2005-02-09 10:00:00') /* Journeyman Cook (28921) */;
+VALUES (0x790D0008, 0x790D0007, '2021-11-01 00:00:00') /* Silencia's Magma Golem (6356) */
+     , (0x790D0008, 0x790D000C, '2021-11-01 00:00:00') /* Journeyman Cook (28921) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790D0009,  7355, 0x90D00000, 22.281, 186.569, 277.105, 0.267717, 0, 0, -0.963498, False, '2021-11-01 00:00:00'); /* Erupt Esper Gen */

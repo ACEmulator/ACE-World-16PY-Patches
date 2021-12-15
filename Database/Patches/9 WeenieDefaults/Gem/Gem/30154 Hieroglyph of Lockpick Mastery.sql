@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30154;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30154, 'gemrareeternallockpick', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30154, 'gemrareeternallockpick', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30154,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30154,   1, 0x020009A7) /* Setup */
      , (30154,  28,       4586) /* Spell - Incantation of Lockpick Mastery Self */
      , (30154,  50, 0x06005B4C) /* IconOverlay */
      , (30154,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30154,  4586,      2)  /* Incantation of Lockpick Mastery Self */;

@@ -9,8 +9,8 @@ VALUES (0x736ED001,  7924, 0x36ED0101, 51.5, 84, 81.137, -0.711094, 0, 0, -0.703
 /* @teleloc 0x36ED0101 [51.500000 84.000000 81.137001] -0.711094 0.000000 0.000000 -0.703098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736ED001, 0x736ED002, '2005-02-09 10:00:00') /* Engorged Eater (28642) */
-     , (0x736ED001, 0x736ED003, '2005-02-09 10:00:00') /* Engorged Eater (28642) */;
+VALUES (0x736ED001, 0x736ED002, '2021-11-01 00:00:00') /* Engorged Eater (28642) */
+     , (0x736ED001, 0x736ED003, '2021-11-01 00:00:00') /* Engorged Eater (28642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736ED002, 28642, 0x36ED0100, 59.6796, 80.3818, 81.205, 0.725667, 0, 0, 0.688046,  True, '2021-11-01 00:00:00'); /* Engorged Eater */

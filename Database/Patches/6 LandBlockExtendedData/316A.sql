@@ -5,8 +5,8 @@ VALUES (0x7316A001,  4219, 0x316A002E, 140.26, 123.501, 298.482, -0.876578, 0, 0
 /* @teleloc 0x316A002E [140.259995 123.500999 298.481995] -0.876578 0.000000 0.000000 -0.481260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7316A001, 0x7316A002, '2019-02-10 00:00:00') /* Crystal (40109) */
-     , (0x7316A001, 0x7316A003, '2019-02-10 00:00:00') /* Bound Wisp (40098) */;
+VALUES (0x7316A001, 0x7316A002, '2021-11-01 00:00:00') /* Crystal (40109) */
+     , (0x7316A001, 0x7316A003, '2021-11-01 00:00:00') /* Bound Wisp (40098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7316A002, 40109, 0x316A002E, 140.26, 123.501, 298.482, -0.876578, 0, 0, -0.48126,  True, '2021-11-01 00:00:00'); /* Crystal */

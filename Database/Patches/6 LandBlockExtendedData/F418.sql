@@ -17,9 +17,9 @@ VALUES (0x7F418003,  7925, 0xF4180000, 125.032, 184.679, 99.105, -0.081836, 0, 0
 /* @teleloc 0xF4180000 [125.031998 184.679001 99.105003] -0.081836 0.000000 0.000000 0.996646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F418003, 0x7F418001, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
-     , (0x7F418003, 0x7F418002, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
-     , (0x7F418003, 0x7F418009, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */;
+VALUES (0x7F418003, 0x7F418001, '2021-11-01 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F418003, 0x7F418002, '2021-11-01 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F418003, 0x7F418009, '2021-11-01 00:00:00') /* Slithayr Eye Stalk (4261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F418004,  8514, 0xF4180115, 33.8706, 18.1776, 191.005, -0.134863, 0, 0, -0.990864, False, '2021-11-01 00:00:00'); /* Mistress' Chest */
@@ -78,8 +78,8 @@ VALUES (0x7F418011, 15759, 0xF4180112, 36.6139, 18.1517, 169.855, 0.999995, 0, 0
 /* @teleloc 0xF4180112 [36.613899 18.151699 169.854996] 0.999995 0.000000 0.000000 0.003055 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F418011, 0x7F418012, '2020-06-12 13:50:17') /* Light Falatacot Token of the Aura of Specialization Mastery (43523) */
-     , (0x7F418011, 0x7F418013, '2020-06-12 13:50:44') /* Light Falatacot Token of the Aura of Invulnerability (43447) */;
+VALUES (0x7F418011, 0x7F418012, '2021-11-01 00:00:00') /* Light Falatacot Token of the Aura of Specialization Mastery (43523) */
+     , (0x7F418011, 0x7F418013, '2021-11-01 00:00:00') /* Light Falatacot Token of the Aura of Invulnerability (43447) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F418012, 43523, 0xF4180112, 32.8561, 17.081, 170.842, 0.01774, 0, 0, 0.999843,  True, '2021-11-01 00:00:00'); /* Light Falatacot Token of the Aura of Specialization Mastery */

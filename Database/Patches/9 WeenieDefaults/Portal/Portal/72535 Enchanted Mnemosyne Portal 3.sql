@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72535;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72535, '72535-enchantedmnemosyneportal3', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (72535, '72535-enchantedmnemosyneportal3', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72535,   1,      65536) /* ItemType - Portal */
@@ -17,8 +17,7 @@ VALUES (72535,   1, True ) /* Stuck */
      , (72535,  13, True ) /* Ethereal */
      , (72535,  14, True ) /* GravityStatus */
      , (72535,  15, True ) /* LightsStatus */
-     , (72535,  19, True ) /* Attackable */
-     , (72535,  88, True ) /* PortalShowDestination */;
+     , (72535,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72535,  39,    0.75) /* DefaultScale */

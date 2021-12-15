@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30080;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30080, 'arrowheadrareeternalfrogcrotch', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (30080, 'arrowheadrareeternalfrogcrotch', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30080,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
@@ -16,7 +16,6 @@ VALUES (30080,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (30080,  17,        156) /* RareId */
      , (30080,  19,          0) /* Value */
      , (30080,  33,         -1) /* Bonded - Slippery */
-     , (30080,  53,        101) /* PlacementPosition - Resting */
      , (30080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30080,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 

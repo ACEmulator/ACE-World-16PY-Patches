@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36237;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36237, 'ace36237-loshoenspack', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36237, 'ace36237-loshoenspack', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36237,   1,         16) /* ItemType - Creature */
-     , (36237,   6,        255) /* ItemsCapacity */
-     , (36237,   7,        255) /* ContainersCapacity */
+     , (36237,   6,         -1) /* ItemsCapacity */
+     , (36237,   7,         -1) /* ContainersCapacity */
      , (36237,  16,         32) /* ItemUseable - Remote */
      , (36237,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (36237,  95,          8) /* RadarBlipColor - Yellow */
@@ -19,6 +19,8 @@ VALUES (36237,   1, True ) /* Stuck */
      , (36237,  14, True ) /* GravityStatus */
      , (36237,  19, False) /* Attackable */
      , (36237,  42, True ) /* AllowEdgeSlide */
+     , (36237,  52, True ) /* AiImmobile */
+     , (36237,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (36237,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -1,12 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38017, 'ace38017-jester', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (38017, 'ace38017-jester', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38017,   1,         16) /* ItemType - Creature */
      , (38017,   2,         51) /* CreatureType - Empyrean */
-     , (38017,   3,         39) /* PaletteTemplate - Black */
      , (38017,   6,         -1) /* ItemsCapacity */
      , (38017,   7,         -1) /* ContainersCapacity */
      , (38017,  16,         32) /* ItemUseable - Remote */
@@ -15,17 +14,17 @@ VALUES (38017,   1,         16) /* ItemType - Creature */
      , (38017,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38017,  95,          8) /* RadarBlipColor - Yellow */
      , (38017, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (38017, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (38017, 134,          2) /* PlayerKillerStatus - NPK */
      , (38017, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38017,   1, True ) /* Stuck */
+     , (38017,   8, True ) /* AllowGive */
      , (38017,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38017,   1,       3) /* HeartbeatInterval */
      , (38017,   2,       0) /* HeartbeatTimestamp */
-     , (38017,  12,     0.5) /* Shade */
      , (38017,  39,     1.3) /* DefaultScale */
      , (38017,  54,       3) /* UseRadius */;
 

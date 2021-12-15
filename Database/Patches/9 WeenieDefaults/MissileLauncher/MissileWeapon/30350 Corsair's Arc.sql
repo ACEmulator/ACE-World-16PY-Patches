@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30350;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30350, 'bowrarecorsairsarc', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (30350, 'bowrarecorsairsarc', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30350,   1,        256) /* ItemType - MissileWeapon */
@@ -22,7 +22,7 @@ VALUES (30350,   1,        256) /* ItemType - MissileWeapon */
      , (30350,  50,          1) /* AmmoType - Arrow */
      , (30350,  51,          2) /* CombatUse - Missile */
      , (30350,  52,          2) /* ParentLocation - LeftHand */
-     , (30350,  53,        101) /* PlacementPosition - Resting */
+     , (30350,  53,          3) /* PlacementPosition - LeftHand */
      , (30350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30350, 106,        350) /* ItemSpellcraft */
      , (30350, 107,       1800) /* ItemCurMana */

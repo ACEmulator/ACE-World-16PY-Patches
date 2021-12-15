@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11503;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11503, 'humanhighwayman_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11503, 'humanhighwayman_xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11503,   1,         16) /* ItemType - Creature */
@@ -443,6 +443,10 @@ VALUES (11503,  0,  4,  0,    0,  100,   90,  100,  110,   40,   40,  100,   60,
      , (11503,  6,  4,  0,    0,  100,   90,  100,  110,   40,   40,  100,   60,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (11503,  7,  4,  0,    0,  100,   90,  100,  110,   40,   40,  100,   60,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11503,  8,  4,  2, 0.75,  100,   90,  100,  110,   40,   40,  100,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11503,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11503, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11503, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */

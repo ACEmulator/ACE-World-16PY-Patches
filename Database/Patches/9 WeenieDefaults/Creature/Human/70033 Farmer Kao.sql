@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70033, 'ace70033-farmerkao', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70033, 'ace70033-farmerkao', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70033,   1,         16) /* ItemType - Creature */
@@ -19,6 +19,7 @@ VALUES (70033,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70033,   1, True ) /* Stuck */
+     , (70033,   8, True ) /* AllowGive */
      , (70033,  11, True ) /* IgnoreCollisions */
      , (70033,  12, True ) /* ReportCollisions */
      , (70033,  14, True ) /* GravityStatus */

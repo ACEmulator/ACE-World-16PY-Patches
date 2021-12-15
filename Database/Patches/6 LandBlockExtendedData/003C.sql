@@ -5,30 +5,30 @@ VALUES (0x7003C3E8,  7932, 0x003C0114, 90.4092, -188.624, -71.995, 0.999892, 0, 
 /* @teleloc 0x003C0114 [90.409203 -188.623993 -71.995003] 0.999892 0.000000 0.000000 -0.014664 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003C3E8, 0x7003C3E9, '2019-06-25 05:01:10') /* Bur Lizk (31876) */
-     , (0x7003C3E8, 0x7003C3EA, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3EB, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3EC, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3ED, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3EE, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3EF, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3F0, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3F1, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3F2, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3F3, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3F4, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3F5, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3F6, '2019-06-25 05:01:10') /* Surface (1596) */
-     , (0x7003C3E8, 0x7003C3F7, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3F8, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3F9, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3FA, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3FB, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3FC, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3FD, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C3FE, '2019-06-25 05:01:10') /* Undead Minion (31877) */
-     , (0x7003C3E8, 0x7003C3FF, '2019-06-25 05:01:10') /* Revenant (1463) */
-     , (0x7003C3E8, 0x7003C400, '2019-06-25 05:01:10') /* Undead Minion (31877) */;
+VALUES (0x7003C3E8, 0x7003C3E9, '2021-11-01 00:00:00') /* Bur Lizk (31876) */
+     , (0x7003C3E8, 0x7003C3EA, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3EB, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3EC, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3ED, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3EE, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3EF, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3F0, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3F1, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3F2, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3F3, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3F4, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3F5, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3F6, '2021-11-01 00:00:00') /* Surface (1596) */
+     , (0x7003C3E8, 0x7003C3F7, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3F8, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3F9, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3FA, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3FB, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3FC, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3FD, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C3FE, '2021-11-01 00:00:00') /* Undead Minion (31877) */
+     , (0x7003C3E8, 0x7003C3FF, '2021-11-01 00:00:00') /* Revenant (1463) */
+     , (0x7003C3E8, 0x7003C400, '2021-11-01 00:00:00') /* Undead Minion (31877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003C3E9, 31876, 0x003C0114, 90.4092, -188.624, -71.995, 0.999892, 0, 0, -0.014664,  True, '2021-11-01 00:00:00'); /* Bur Lizk */
@@ -147,7 +147,7 @@ VALUES (0x7003C405,  1154, 0x003C0164, 63.5041, -43.706, -29.9878, 0.707107, 0, 
 /* @teleloc 0x003C0164 [63.504101 -43.706001 -29.987801] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003C405, 0x7003C404, '2019-06-25 05:01:10') /* Undead Miner (1524) */;
+VALUES (0x7003C405, 0x7003C404, '2021-11-01 00:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003C406,  1524, 0x003C0165, 60.2056, -47.1412, -29.945, -0.317822, 0, 0, -0.94815,  True, '2021-11-01 00:00:00'); /* Undead Miner */
@@ -162,8 +162,8 @@ VALUES (0x7003C408,  1154, 0x003C0165, 60.3436, -50.0192, -29.9878, 0.707107, 0,
 /* @teleloc 0x003C0165 [60.343601 -50.019199 -29.987801] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003C408, 0x7003C406, '2019-06-25 05:01:10') /* Undead Miner (1524) */
-     , (0x7003C408, 0x7003C407, '2019-06-25 05:01:10') /* Undead Miner (1524) */;
+VALUES (0x7003C408, 0x7003C406, '2021-11-01 00:00:00') /* Undead Miner (1524) */
+     , (0x7003C408, 0x7003C407, '2021-11-01 00:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003C409,  1524, 0x003C0184, 30.0136, -100.023, -23.9925, 0.992612, 0, 0, -0.121328,  True, '2021-11-01 00:00:00'); /* Undead Miner */
@@ -174,8 +174,8 @@ VALUES (0x7003C40A,  1154, 0x003C0184, 29.1709, -100.743, -24, -0.879025, 0, 0, 
 /* @teleloc 0x003C0184 [29.170900 -100.742996 -24.000000] -0.879025 0.000000 0.000000 -0.476775 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003C40A, 0x7003C409, '2019-06-25 05:01:10') /* Undead Miner (1524) */
-     , (0x7003C40A, 0x7003C40B, '2019-06-25 05:01:10') /* Undead Miner (1524) */;
+VALUES (0x7003C40A, 0x7003C409, '2021-11-01 00:00:00') /* Undead Miner (1524) */
+     , (0x7003C40A, 0x7003C40B, '2021-11-01 00:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003C40B,  1524, 0x003C0187, 29.9636, -95.5291, -23.95, 0.398949, 0, 0, -0.916973,  True, '2021-11-01 00:00:00'); /* Undead Miner */
@@ -194,7 +194,7 @@ VALUES (0x7003C40E,  1154, 0x003C01D1, 60, -80, -6, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x003C01D1 [60.000000 -80.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003C40E, 0x7003C40D, '2019-06-25 05:01:10') /* Undead Miner (1524) */;
+VALUES (0x7003C40E, 0x7003C40D, '2021-11-01 00:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003C40F,  1296, 0x003C01D3, 60, -119.022, -6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -221,7 +221,7 @@ VALUES (0x7003C414,  1154, 0x003C01E1, 80.7059, -99.1063, -6, 1, 0, 0, 0, False,
 /* @teleloc 0x003C01E1 [80.705902 -99.106300 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003C414, 0x7003C413, '2019-06-25 05:01:10') /* Undead Miner (1524) */;
+VALUES (0x7003C414, 0x7003C413, '2021-11-01 00:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003C415,   171, 0x003C01F0, 123.63, -6.71824, -6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Vat */
@@ -252,9 +252,9 @@ VALUES (0x7003C41B,  1154, 0x003C0239, 86.441, -30.126, 0.005, 0.406757, 0, 0, 0
 /* @teleloc 0x003C0239 [86.441002 -30.125999 0.005000] 0.406757 0.000000 0.000000 0.913537 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003C41B, 0x7003C41C, '2019-04-08 08:19:56') /* Undead Miner (1524) */
-     , (0x7003C41B, 0x7003C41D, '2019-04-08 08:19:56') /* Undead Miner (1524) */
-     , (0x7003C41B, 0x7003C41E, '2019-04-08 08:19:56') /* Undead Miner (1524) */;
+VALUES (0x7003C41B, 0x7003C41C, '2021-11-01 00:00:00') /* Undead Miner (1524) */
+     , (0x7003C41B, 0x7003C41D, '2021-11-01 00:00:00') /* Undead Miner (1524) */
+     , (0x7003C41B, 0x7003C41E, '2021-11-01 00:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003C41C,  1524, 0x003C01F1, 120.021, -21.685, -5.995, -0.01412, 0, 0, -0.9999,  True, '2021-11-01 00:00:00'); /* Undead Miner */

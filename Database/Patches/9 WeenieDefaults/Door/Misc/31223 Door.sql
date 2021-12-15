@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31223;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31223, 'ace31223-door', 19, '2021-11-01 00:00:00') /* Door */;
+VALUES (31223, 'ace31223-door', 19, '2021-11-17 16:56:08') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31223,   1,        128) /* ItemType - Misc */
      , (31223,  16,         32) /* ItemUseable - Remote */
      , (31223,  19,          0) /* Value */
      , (31223,  38,        300) /* ResistLockpick */
-     , (31223,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */;
+     , (31223,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31223,   1, True ) /* Stuck */

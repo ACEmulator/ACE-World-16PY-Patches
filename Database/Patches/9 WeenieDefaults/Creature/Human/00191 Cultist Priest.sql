@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 191;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (191, 'cultpriest', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (191, 'cultpriest', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (191,   1,         16) /* ItemType - Creature */
@@ -438,6 +438,10 @@ VALUES (191,    62,   2.09)  /* Acid Stream V */
      , (191,  1241,   2.04)  /* Drain Health Other V */
      , (191,  1311,      2)  /* Armor Self V */
      , (191,  1326,    2.1)  /* Imperil Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (191,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (191, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (191, 2, 12193,  0, 39, 0, False) /* Create Dho Vest and Robe (12193) for Wield */

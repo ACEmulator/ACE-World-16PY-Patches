@@ -5,22 +5,22 @@ VALUES (0x72B20000,  7924, 0x2B20001B, 91.8377, 52.4286, 200.005, -0.999452, 0, 
 /* @teleloc 0x2B20001B [91.837700 52.428600 200.005005] -0.999452 0.000000 0.000000 -0.033092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B20000, 0x72B2001F, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20020, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20021, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20022, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20023, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20024, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20025, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20026, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20027, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20028, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B20029, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B2002A, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B2002B, '2019-03-23 02:20:17') /* Bandit Forger (31339) */
-     , (0x72B20000, 0x72B2002C, '2019-03-23 02:20:17') /* Famished Eater (31225) */
-     , (0x72B20000, 0x72B2002D, '2019-03-23 02:20:17') /* Famished Eater (31225) */
-     , (0x72B20000, 0x72B2002E, '2019-03-23 02:20:17') /* Gronk the Hammer (31338) */;
+VALUES (0x72B20000, 0x72B2001F, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20020, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20021, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20022, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20023, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20024, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20025, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20026, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20027, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20028, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B20029, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B2002A, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B2002B, '2021-11-01 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B20000, 0x72B2002C, '2021-11-01 00:00:00') /* Famished Eater (31225) */
+     , (0x72B20000, 0x72B2002D, '2021-11-01 00:00:00') /* Famished Eater (31225) */
+     , (0x72B20000, 0x72B2002E, '2021-11-01 00:00:00') /* Gronk the Hammer (31338) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B20001, 31341, 0x2B200024, 107.961, 85.5609, 199.937, -0.400626, 0, 0, -0.916242, False, '2021-11-01 00:00:00'); /* Bandit Castle */
@@ -207,7 +207,7 @@ VALUES (0x72B206A5,  1154, 0x2B20001C, 80.0965, 74.8801, 200, -0.912917, 0, 0, 0
 /* @teleloc 0x2B20001C [80.096497 74.880096 200.000000] -0.912917 0.000000 0.000000 0.408145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B206A5, 0x72B206A6, '2020-01-30 00:00:00') /* Exploration Marker (39822) */;
+VALUES (0x72B206A5, 0x72B206A6, '2021-11-01 00:00:00') /* Exploration Marker (39822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B206A6, 39822, 0x2B20001C, 80.0965, 74.8801, 200, -0.912917, 0, 0, 0.408145,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

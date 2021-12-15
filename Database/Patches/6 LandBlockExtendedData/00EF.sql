@@ -85,23 +85,23 @@ VALUES (0x700EF06F, 32351, 0x00EF0145, 54.75, -30, -36, -0.707107, 0, 0, 0.70710
 /* @teleloc 0x00EF0145 [54.750000 -30.000000 -36.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EF06F, 0x700EF011, '2019-02-10 00:00:00') /* Lever (2609) */
-     , (0x700EF06F, 0x700EF06E, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700EF06F, 0x700EF011, '2021-11-01 00:00:00') /* Lever (2609) */
+     , (0x700EF06F, 0x700EF06E, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EF070, 32351, 0x00EF0146, 45.25, -30, -36, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Gate */
 /* @teleloc 0x00EF0146 [45.250000 -30.000000 -36.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EF070, 0x700EF06D, '2019-02-10 00:00:00') /* Lever (286) */
-     , (0x700EF070, 0x700EF071, '2019-02-10 00:00:00') /* Gate (32351) */;
+VALUES (0x700EF070, 0x700EF06D, '2021-11-01 00:00:00') /* Lever (286) */
+     , (0x700EF070, 0x700EF071, '2021-11-01 00:00:00') /* Gate (32351) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EF071, 32351, 0x00EF0147, 50, -34.786, -35.9393, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Gate */
 /* @teleloc 0x00EF0147 [50.000000 -34.785999 -35.939301] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EF071, 0x700EF00B, '2019-02-10 00:00:00') /* Lever (2609) */;
+VALUES (0x700EF071, 0x700EF00B, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EF072, 34058, 0x00EF0113, 38.06, -120, -42.063, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */
@@ -120,80 +120,80 @@ VALUES (0x700EF075,  1154, 0x00EF0100, 36.9308, -70.5515, -48, 0.981891, 0, 0, -
 /* @teleloc 0x00EF0100 [36.930801 -70.551498 -48.000000] 0.981891 0.000000 0.000000 -0.189448 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EF075, 0x700EF076, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
-     , (0x700EF075, 0x700EF077, '2019-02-10 00:00:00') /* Patrician Phaerix (34048) */
-     , (0x700EF075, 0x700EF078, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF079, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF07A, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF07B, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF07C, '2019-02-10 00:00:00') /* Patrician Kilkitris (34047) */
-     , (0x700EF075, 0x700EF07D, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF07E, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
-     , (0x700EF075, 0x700EF07F, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF080, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
-     , (0x700EF075, 0x700EF081, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
-     , (0x700EF075, 0x700EF082, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF083, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF084, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF085, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
-     , (0x700EF075, 0x700EF086, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF087, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF088, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF089, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF08A, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF08B, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF08C, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF08D, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF08E, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF08F, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF090, '2019-02-10 00:00:00') /* Lunnum (34046) */
-     , (0x700EF075, 0x700EF091, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF092, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF093, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF094, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF095, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF096, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF097, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF098, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF099, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF09A, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF09B, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF09C, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF09D, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF09E, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF09F, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF0A0, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF0A1, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0A2, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0A3, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF0A4, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0A5, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0A6, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0A7, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0A8, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0A9, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0AA, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0AB, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0AC, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0AD, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0AE, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0AF, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0B0, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0B1, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0B2, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0B3, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0B4, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0B5, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0B6, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0B7, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0B8, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0B9, '2019-02-10 00:00:00') /* Afesse Sclavus (34043) */
-     , (0x700EF075, 0x700EF0BA, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0BB, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0BC, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0BD, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
-     , (0x700EF075, 0x700EF0BE, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
-     , (0x700EF075, 0x700EF0BF, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */;
+VALUES (0x700EF075, 0x700EF076, '2021-11-01 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700EF075, 0x700EF077, '2021-11-01 00:00:00') /* Patrician Phaerix (34048) */
+     , (0x700EF075, 0x700EF078, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF079, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF07A, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF07B, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF07C, '2021-11-01 00:00:00') /* Patrician Kilkitris (34047) */
+     , (0x700EF075, 0x700EF07D, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF07E, '2021-11-01 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700EF075, 0x700EF07F, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF080, '2021-11-01 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700EF075, 0x700EF081, '2021-11-01 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700EF075, 0x700EF082, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF083, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF084, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF085, '2021-11-01 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700EF075, 0x700EF086, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF087, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF088, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF089, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF08A, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF08B, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF08C, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF08D, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF08E, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF08F, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF090, '2021-11-01 00:00:00') /* Lunnum (34046) */
+     , (0x700EF075, 0x700EF091, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF092, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF093, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF094, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF095, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF096, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF097, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF098, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF099, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF09A, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF09B, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF09C, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF09D, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF09E, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF09F, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF0A0, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF0A1, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0A2, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0A3, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF0A4, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0A5, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0A6, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0A7, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0A8, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0A9, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0AA, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0AB, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0AC, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0AD, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0AE, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0AF, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0B0, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0B1, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0B2, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0B3, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0B4, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0B5, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0B6, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0B7, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0B8, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0B9, '2021-11-01 00:00:00') /* Afesse Sclavus (34043) */
+     , (0x700EF075, 0x700EF0BA, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0BB, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0BC, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0BD, '2021-11-01 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x700EF075, 0x700EF0BE, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x700EF075, 0x700EF0BF, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EF076, 34044, 0x00EF0100, 36.9308, -70.5515, -48, 0.981891, 0, 0, -0.189448,  True, '2021-11-01 00:00:00'); /* Illu Sclavus */

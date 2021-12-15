@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31311, 'ace31311-lostpet', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (31311, 'ace31311-lostpet', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31311,   1,       8192) /* ItemType - Writable */
@@ -27,6 +27,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31311, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31311, 0, 0xFFFFFFFF, 'Xsao Lann', '', False, '**REWARD**
+VALUES (31311, 0, 0xFFFFFFFF, 'Xsao Lann', 'prewritten', False, '**REWARD**
 
 Lost pet. Responds to the name Darling. If you see her please contact Xsao Lann at 1.5N 71.6W.');

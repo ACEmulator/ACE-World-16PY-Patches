@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35672;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35672, 'ace35672-fork', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35672, 'ace35672-fork', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35672,   1,          1) /* ItemType - MeleeWeapon */
      , (35672,   5,          5) /* EncumbranceVal */
      , (35672,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (35672,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (35672,  16,          1) /* ItemUseable - No */
      , (35672,  19,          5) /* Value */
      , (35672,  37,       9999) /* ResistItemAppraisal */

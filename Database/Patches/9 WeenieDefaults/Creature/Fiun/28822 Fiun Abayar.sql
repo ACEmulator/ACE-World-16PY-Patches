@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28822;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28822, 'fiunmaddenedabayar', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (28822, 'fiunmaddenedabayar', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28822,   1,         16) /* ItemType - Creature */
@@ -26,8 +26,7 @@ VALUES (28822,   1, True ) /* Stuck */
      , (28822,  12, True ) /* ReportCollisions */
      , (28822,  13, False) /* Ethereal */
      , (28822,  14, True ) /* GravityStatus */
-     , (28822,  19, True ) /* Attackable */
-     , (28822, 101, True ) /* CanGenerateRare */;
+     , (28822,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28822,   1,       5) /* HeartbeatInterval */
@@ -125,6 +124,10 @@ VALUES (28822,  2121,   2.04)  /* Corrosive Flash */
      , (28822,  2144,   2.04)  /* Crushing Shame */
      , (28822,  2146,   2.04)  /* Evisceration */
      , (28822,  2147,   2.04)  /* Rending Wind */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28822,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28822, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28822,  5 /* HeartBeat */,  0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

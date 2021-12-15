@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5369;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5369, 'zombiecovecrypt', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (5369, 'zombiecovecrypt', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5369,   1,         16) /* ItemType - Creature */
@@ -157,6 +157,10 @@ VALUES (5369,    27,  2.021)  /* Flame Bolt I */
      , (5369,    93,  2.004)  /* Whirling Blade II */
      , (5369,   171,  2.025)  /* Fester Other I */
      , (5369,  1219,   2.05)  /* Mana Drain Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5369,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5369, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5369, 1,  5368,  0, 0, 0, False) /* Create Tumerok Key (5368) for Contain */;

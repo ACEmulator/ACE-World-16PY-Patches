@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15862;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15862, 'tumerokgladiator_thorstenarmor', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (15862, 'tumerokgladiator_thorstenarmor', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15862,   1,         16) /* ItemType - Creature */
@@ -117,6 +117,10 @@ VALUES (15862,  0,  4,  0,    0,  130,  130,  130,  130,  130,  130,  130,  130,
      , (15862,  6,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (15862,  7,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (15862,  8,  4, 10, 0.75,  110,  110,  110,  110,  110,  110,  110,  110,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (15862,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (15862, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (15862, 9, 15814,  1, 0, 1, False) /* Create Gate Key (15814) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42040;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42040, 'ace42040-nobleremains', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (42040, 'ace42040-nobleremains', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42040,   1,         16) /* ItemType - Creature */
@@ -21,6 +21,8 @@ VALUES (42040,   1, True ) /* Stuck */
      , (42040,  13, False) /* Ethereal */
      , (42040,  14, True ) /* GravityStatus */
      , (42040,  19, True ) /* Attackable */
+     , (42040,  52, True ) /* AiImmobile */
+     , (42040,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (42040,  83, True ) /* NpcLooksLikeObject */
      , (42040, 103, True ) /* NonProjectileMagicImmune */
      , (42040, 118, True ) /* NeverAttack */;

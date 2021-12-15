@@ -61,31 +61,31 @@ VALUES (0x7644400E,  7923, 0x64440144, 90, -300, -23.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x64440144 [90.000000 -300.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644400E, 0x7644400D, '2005-02-09 10:00:00') /* Arikas, Warden of Knorr (24001) */
-     , (0x7644400E, 0x764440D6, '2005-02-09 10:00:00') /* Bookshelf (23996) */;
+VALUES (0x7644400E, 0x7644400D, '2021-11-01 00:00:00') /* Arikas, Warden of Knorr (24001) */
+     , (0x7644400E, 0x764440D6, '2021-11-01 00:00:00') /* Bookshelf (23996) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644400F,  4219, 0x64440144, 92.4869, -298.117, -23.995, -0.999193, 0, 0, 0.04016, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x64440144 [92.486900 -298.117004 -23.995001] -0.999193 0.000000 0.000000 0.040160 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644400F, 0x76444045, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x76444046, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x76444048, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x76444078, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x76444079, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440A9, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440AA, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440B3, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440B4, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440BA, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440C0, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440CA, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440CD, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440CE, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440CF, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440D0, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */
-     , (0x7644400F, 0x764440D4, '2005-02-09 10:00:00') /* Acidic Diamond Golem (15267) */;
+VALUES (0x7644400F, 0x76444045, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x76444046, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x76444048, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x76444078, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x76444079, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440A9, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440AA, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440B3, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440B4, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440BA, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440C0, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440CA, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440CD, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440CE, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440CF, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440D0, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7644400F, 0x764440D4, '2021-11-01 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76444010,   568, 0x6444014A, 90, -315.25, -24, -1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -288,17 +288,17 @@ VALUES (0x764440D7, 15759, 0x64440361, 60, -40, 18.005, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x64440361 [60.000000 -40.000000 18.004999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764440D7, 0x764440D8, '2005-02-09 10:00:00') /* Key to the Sentinel Cache (23995) */
-     , (0x764440D7, 0x764440D9, '2005-02-09 10:00:00') /* Key to the Elder Cache (23994) */
-     , (0x764440D7, 0x764440DA, '2005-02-09 10:00:00') /* Key to the Defender Cache (23993) */
-     , (0x764440D7, 0x764440DB, '2005-02-09 10:00:00') /* Weathered Tome (24107) */
-     , (0x764440D7, 0x764440DC, '2005-02-09 10:00:00') /* Encrusted Tome (24115) */
-     , (0x764440D7, 0x764440DD, '2005-02-09 10:00:00') /* Worn Tome (24119) */
-     , (0x764440D7, 0x764440DE, '2005-02-09 10:00:00') /* Hidden Tome (24117) */
-     , (0x764440D7, 0x764440DF, '2005-02-09 10:00:00') /* Decrepit Tome (24121) */
-     , (0x764440D7, 0x764440E0, '2005-02-09 10:00:00') /* Old Tome (24113) */
-     , (0x764440D7, 0x764440E1, '2005-02-09 10:00:00') /* Aged Tome (24111) */
-     , (0x764440D7, 0x764440E2, '2005-02-09 10:00:00') /* Withered Tome (24109) */;
+VALUES (0x764440D7, 0x764440D8, '2021-11-01 00:00:00') /* Key to the Sentinel Cache (23995) */
+     , (0x764440D7, 0x764440D9, '2021-11-01 00:00:00') /* Key to the Elder Cache (23994) */
+     , (0x764440D7, 0x764440DA, '2021-11-01 00:00:00') /* Key to the Defender Cache (23993) */
+     , (0x764440D7, 0x764440DB, '2021-11-01 00:00:00') /* Weathered Tome (24107) */
+     , (0x764440D7, 0x764440DC, '2021-11-01 00:00:00') /* Encrusted Tome (24115) */
+     , (0x764440D7, 0x764440DD, '2021-11-01 00:00:00') /* Worn Tome (24119) */
+     , (0x764440D7, 0x764440DE, '2021-11-01 00:00:00') /* Hidden Tome (24117) */
+     , (0x764440D7, 0x764440DF, '2021-11-01 00:00:00') /* Decrepit Tome (24121) */
+     , (0x764440D7, 0x764440E0, '2021-11-01 00:00:00') /* Old Tome (24113) */
+     , (0x764440D7, 0x764440E1, '2021-11-01 00:00:00') /* Aged Tome (24111) */
+     , (0x764440D7, 0x764440E2, '2021-11-01 00:00:00') /* Withered Tome (24109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764440D8, 23995, 0x64440361, 56.0596, -42.2927, 18.9736, 0.731689, 0, 0, 0.681639,  True, '2021-11-01 00:00:00'); /* Key to the Sentinel Cache */

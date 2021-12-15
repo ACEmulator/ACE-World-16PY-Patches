@@ -21,4 +21,38 @@ Give: Medallion of the Sword (87670)
 	- Delay: 1, Tell: This is the response Master Seijuro has sent? Very well, I will get it to my Mistress with all haste. Thank you for your assistance in this. It is greatly appreciated.
 	- Delay: 1, Tell: Here, take this letter to Sayuji Jina, in Shoushi. I believe she has a reward for you, for all that you have done to aid us.
 	- Give: 87671
-	
+
+Give: Tanada Clan Masters Medallion (34567)
+	- TurnToTarget
+	- InqQuest: TanadaClanMedallionTurnIn
+		QuestSuccess:
+			- IncrementQuest: TanadaClanMedallionTurnIn, 1
+			- InqQuest: ReceivedTitleInitiateoftheBlade
+				QuestSuccess:
+					- Goto: MedallionReward
+				QuestFailure:
+					- InqQuestSolves: TanadaClanMedallionTurnIn, 25
+						QuestSuccess:
+							- InqQuest: TanadaHouseofWaterQuest_Flag
+								QuestSuccess:
+									- Tell: You have brought Jina-san and I 25 of these medallions now. Your aid in this requires a special reward. Here, allow me to reward you appropriately.
+									- AwardLevelProportionalXP: 3%, 0 - 1,386,393
+									- AddCharacterTitle: InitiateoftheBlade
+									- StampQuest: ReceivedTitleInitiateoftheBlade
+									- Delay: 1, DirectBroadcast: Ookami Kiri grants you the title, "Initiate of the Blade".
+									- Delay: 1, Tell: If you find any more of these, please bring them to either Sayuji Jina, or myself. Your assistance in this is greatly appreciated.
+								QuestFailure: 
+									- Goto: MedallionReward
+						QuestFailure:
+							- Goto: MedallionReward
+				QuestFailure:
+					- Goto: MedallionReward 
+		QuestFailure:
+			- Tell: A medallion from one of the elusive Tanada Clan? This may aid in my research into their appearance in Dereth. I will gladly reward you for any of these that you come across. Here, allow me to reward you for this one.
+			- StampQuest: TanadaClanMedallionTurnIn
+			- AwardLevelProportionalXP: 3%, 0 - 1,386,393
+			
+GotoSet: MedallionReward
+	- Delay: 1, Tell: Thank you for this. I should be able to add this to my research into the Tanada Clan, and hopefully come up with a method to free the Tanada from their corruption. Here, allow me to reward you once again.
+	- AwardLevelProportionalXP: 3%, 0 - 1,386,393
+	- Delay: 1, Tell: If you find any more of these, please bring them to either Sayuji Jina, or myself. Your assistance in this is greatly appreciated.

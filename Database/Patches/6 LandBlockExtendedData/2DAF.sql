@@ -9,13 +9,13 @@ VALUES (0x72DAF008, 24129, 0x2DAF0018, 51.3585, 190.145, -0.438, 0.726705, 0, 0,
 /* @teleloc 0x2DAF0018 [51.358501 190.145004 -0.438000] 0.726705 0.000000 0.000000 -0.686950 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DAF008, 0x72DAF009, '2019-02-10 00:00:00') /* Water Golem (31875) */
-     , (0x72DAF008, 0x72DAF00A, '2019-02-10 00:00:00') /* Water Golem (31875) */
-     , (0x72DAF008, 0x72DAF00B, '2019-02-10 00:00:00') /* Water Golem (31875) */
-     , (0x72DAF008, 0x72DAF00C, '2019-02-10 00:00:00') /* Water Golem (31875) */
-     , (0x72DAF008, 0x72DAF00D, '2019-02-10 00:00:00') /* Water Golem (31875) */
-     , (0x72DAF008, 0x72DAF00E, '2019-02-10 00:00:00') /* Water Golem (31875) */
-     , (0x72DAF008, 0x72DAF00F, '2019-02-10 00:00:00') /* Water Golem (31875) */;
+VALUES (0x72DAF008, 0x72DAF009, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00A, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00B, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00C, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00D, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00E, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00F, '2021-11-01 00:00:00') /* Water Golem (31875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DAF009, 31875, 0x2DAF0018, 51.3585, 190.145, -0.438, 0.726705, 0, 0, -0.68695,  True, '2021-11-01 00:00:00'); /* Water Golem */
@@ -50,7 +50,7 @@ VALUES (0x72DAF010,  1154, 0x2DAF000E, 46.1814, 121.79, 48.0025, 0.940087, 0, 0,
 /* @teleloc 0x2DAF000E [46.181400 121.790001 48.002499] 0.940087 0.000000 0.000000 0.340934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DAF010, 0x72DAF011, '2019-02-10 00:00:00') /* Flame Guardian (31972) */;
+VALUES (0x72DAF010, 0x72DAF011, '2021-11-01 00:00:00') /* Flame Guardian (31972) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DAF011, 31972, 0x2DAF000E, 46.1814, 121.79, 48.0025, 0.940087, 0, 0, 0.340934,  True, '2021-11-01 00:00:00'); /* Flame Guardian */

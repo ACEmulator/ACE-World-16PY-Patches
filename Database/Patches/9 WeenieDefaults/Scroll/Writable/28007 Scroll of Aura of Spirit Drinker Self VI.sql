@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28007;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28007, 'scrollspiritdrinker6', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (28007, 'scrollspiritdrinker6', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28007,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (28007,   1,       8192) /* ItemType - Writable */
      , (28007,   8,         90) /* Mass */
      , (28007,  16,          8) /* ItemUseable - Contained */
      , (28007,  19,       1000) /* Value */
-     , (28007,  53,        101) /* PlacementPosition - Resting */
      , (28007,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

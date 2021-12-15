@@ -73,17 +73,17 @@ VALUES (0x7B44918C,  7924, 0xB449003F, 179.988, 150.252, 14.9768, 0.686407, 0, 0
 /* @teleloc 0xB449003F [179.988007 150.251999 14.976800] 0.686407 0.000000 0.000000 -0.727218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B44918C, 0x7B449123, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449128, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449134, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449135, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449136, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B44913B, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449140, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449141, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449142, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449143, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B44918C, 0x7B449147, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */;
+VALUES (0x7B44918C, 0x7B449123, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449128, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449134, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449135, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449136, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B44913B, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449140, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449141, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449142, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449143, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449147, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B44918D, 72181, 0xB4490037, 147, 149.5, 10, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Viridian Root Portal 1 Gen */

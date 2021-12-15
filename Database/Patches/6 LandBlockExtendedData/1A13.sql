@@ -5,58 +5,58 @@ VALUES (0x71A13001,  7924, 0x1A130040, 175.043, 188.368, 0.00715, 0.82446, 0, 0,
 /* @teleloc 0x1A130040 [175.042999 188.367996 0.007150] 0.824460 0.000000 0.000000 -0.565921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A13001, 0x71A13002, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13003, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13004, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13006, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13007, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13008, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13009, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1300A, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1300B, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A1300C, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A1300D, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1300E, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1300F, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13010, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13011, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13012, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13013, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13014, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13015, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13016, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13017, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13018, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13019, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A1301A, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1301B, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1301C, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1301D, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1301E, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30684) */
-     , (0x71A13001, 0x71A1301F, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13020, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13021, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13022, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13023, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13024, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13025, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13026, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13027, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13028, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13029, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1302A, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A1302B, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A1302C, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A1302D, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A1302E, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A1302F, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
-     , (0x71A13001, 0x71A13030, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13031, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13032, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13033, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13034, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
-     , (0x71A13001, 0x71A13035, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */;
+VALUES (0x71A13001, 0x71A13002, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13003, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13004, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13005, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13006, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13007, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13008, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13009, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1300A, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1300B, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A1300C, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A1300D, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1300E, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1300F, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13010, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13011, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13012, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13013, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13014, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13015, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13016, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13017, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13018, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13019, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A1301A, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1301B, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1301C, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1301D, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1301E, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30684) */
+     , (0x71A13001, 0x71A1301F, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13020, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13021, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13022, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13023, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13024, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13025, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13026, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13027, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13028, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13029, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1302A, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A1302B, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A1302C, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A1302D, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A1302E, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A1302F, '2021-11-08 06:01:47') /* Withered Banderling Hierophant (30683) */
+     , (0x71A13001, 0x71A13030, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13031, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13032, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13033, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13034, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */
+     , (0x71A13001, 0x71A13035, '2021-11-08 06:01:47') /* Withered Banderling Paragon (35830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A13002, 30683, 0x1A130040, 175.043, 188.368, 0.00715, 0.82446, 0, 0, -0.565921,  True, '2021-11-08 06:01:47'); /* Withered Banderling Hierophant */
@@ -271,7 +271,7 @@ VALUES (0x71A13036,  5085, 0x1A13003C, 170.926, 86.0844, 0.057, 0.999983, 0, 0, 
 /* @teleloc 0x1A13003C [170.925995 86.084396 0.057000] 0.999983 0.000000 0.000000 0.005861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A13036, 0x71A13037, '2019-02-10 00:00:00') /* The Withering (30762) */;
+VALUES (0x71A13036, 0x71A13037, '2021-11-08 06:01:47') /* The Withering (30762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A13037, 30762, 0x1A13003C, 170.926, 86.0844, 0.057, 0.999983, 0, 0, 0.005861,  True, '2021-11-08 06:01:47'); /* The Withering */

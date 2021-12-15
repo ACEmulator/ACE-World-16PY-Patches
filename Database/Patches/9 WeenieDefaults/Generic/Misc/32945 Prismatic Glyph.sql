@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32945;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32945, 'ace32945-prismaticglyph', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (32945, 'ace32945-prismaticglyph', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32945,   1,        128) /* ItemType - Misc */
@@ -11,7 +11,7 @@ VALUES (32945,   1,        128) /* ItemType - Misc */
      , (32945,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32945,  19,       5000) /* Value */
      , (32945,  33,          1) /* Bonded - Bonded */
-     , (32945,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (32945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32945,  94,          2) /* TargetType - Armor */
      , (32945, 114,          1) /* Attuned - Attuned */;
 

@@ -9,7 +9,7 @@ VALUES (0x7B8E8001,  3955, 0xB8E80000, 106.646, 161.535, 15.3514, -0.493569, 0, 
 /* @teleloc 0xB8E80000 [106.646004 161.535004 15.351400] -0.493569 0.000000 0.000000 -0.869707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8E8001, 0x7B8E8000, '2005-02-09 10:00:00') /* Nightmare Wisp (7127) */;
+VALUES (0x7B8E8001, 0x7B8E8000, '2021-11-01 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8E8002, 28063, 0xB8E80103, 184.636, 132.213, -1.795, -0.668338, 0, 0, 0.743858, False, '2021-11-01 00:00:00'); /* Coral Tunnels */
@@ -76,27 +76,27 @@ VALUES (0x7B8E8011,  7925, 0xB8E80103, 173.839, 132.737, -1.795, 0.663538, 0, 0,
 /* @teleloc 0xB8E80103 [173.839005 132.737000 -1.795000] 0.663538 0.000000 0.000000 -0.748142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8E8011, 0x7B8E8003, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x7B8E8011, 0x7B8E8004, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
-     , (0x7B8E8011, 0x7B8E8005, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x7B8E8011, 0x7B8E8006, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x7B8E8011, 0x7B8E8007, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x7B8E8011, 0x7B8E8008, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x7B8E8011, 0x7B8E8009, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x7B8E8011, 0x7B8E800A, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x7B8E8011, 0x7B8E800B, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x7B8E8011, 0x7B8E800C, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x7B8E8011, 0x7B8E800D, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
-     , (0x7B8E8011, 0x7B8E800E, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x7B8E8011, 0x7B8E800F, '2005-02-09 10:00:00') /* Relic Bones (7179) */
-     , (0x7B8E8011, 0x7B8E8010, '2005-02-09 10:00:00') /* Relic Bones (7179) */;
+VALUES (0x7B8E8011, 0x7B8E8003, '2021-11-01 00:00:00') /* Relic Bones (7179) */
+     , (0x7B8E8011, 0x7B8E8004, '2021-11-01 00:00:00') /* Cursed Bones (7178) */
+     , (0x7B8E8011, 0x7B8E8005, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8011, 0x7B8E8006, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8011, 0x7B8E8007, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8011, 0x7B8E8008, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8011, 0x7B8E8009, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8011, 0x7B8E800A, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x7B8E8011, 0x7B8E800B, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x7B8E8011, 0x7B8E800C, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x7B8E8011, 0x7B8E800D, '2021-11-01 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8011, 0x7B8E800E, '2021-11-01 00:00:00') /* Relic Bones (7179) */
+     , (0x7B8E8011, 0x7B8E800F, '2021-11-01 00:00:00') /* Relic Bones (7179) */
+     , (0x7B8E8011, 0x7B8E8010, '2021-11-01 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8E86A5,  1154, 0xB8E80028, 105.753, 182.472, 89, 0.911675, 0, 0, 0.410912, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB8E80028 [105.752998 182.472000 89.000000] 0.911675 0.000000 0.000000 0.410912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8E86A5, 0x7B8E86A6, '2020-01-30 00:00:00') /* Exploration Marker (39829) */;
+VALUES (0x7B8E86A5, 0x7B8E86A6, '2021-11-01 00:00:00') /* Exploration Marker (39829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8E86A6, 39829, 0xB8E80028, 105.753, 182.472, 89, 0.911675, 0, 0, 0.410912,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

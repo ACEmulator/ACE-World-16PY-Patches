@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70099;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70099, 'ace70099-waterislandaccess', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (70099, 'ace70099-waterislandaccess', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70099,   1,      65536) /* ItemType - Portal */
@@ -16,8 +16,7 @@ VALUES (70099,   1, True ) /* Stuck */
      , (70099,  11, False) /* IgnoreCollisions */
      , (70099,  12, True ) /* ReportCollisions */
      , (70099,  13, True ) /* Ethereal */
-     , (70099,  15, True ) /* LightsStatus */
-     , (70099,  88, True ) /* PortalShowDestination */;
+     , (70099,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70099,  54,    -0.1) /* UseRadius */;

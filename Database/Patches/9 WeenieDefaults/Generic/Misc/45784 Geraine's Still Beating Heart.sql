@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45784;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45784, 'ace45784-gerainesstillbeatingheart', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (45784, 'ace45784-gerainesstillbeatingheart', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45784,   1,        128) /* ItemType - Misc */
@@ -10,8 +10,7 @@ VALUES (45784,   1,        128) /* ItemType - Misc */
      , (45784,  19,          0) /* Value */
      , (45784,  33,          1) /* Bonded - Bonded */
      , (45784,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45784, 267,        600) /* Lifespan */
-     , (45784, 268,        600) /* RemainingLifespan */;
+     , (45784, 267,        600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45784,  22, True ) /* Inscribable */;

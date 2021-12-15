@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87426;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87426, 'ace87426-channelingrepugnantmeleestaff', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (87426, 'ace87426-channelingrepugnantmeleestaff', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87426,   1,          1) /* ItemType - MeleeWeapon */
@@ -17,8 +17,6 @@ VALUES (87426,   1,          1) /* ItemType - MeleeWeapon */
      , (87426,  48,         45) /* WeaponSkill - LightWeapons */
      , (87426,  49,         30) /* WeaponTime */
      , (87426,  51,          1) /* CombatUse - Melee */
-     , (87426,  52,          1) /* ParentLocation - RightHand */
-     , (87426,  53,          1) /* PlacementPosition - RightHandCombat */
      , (87426,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87426, 106,        800) /* ItemSpellcraft */
      , (87426, 107,       3000) /* ItemCurMana */

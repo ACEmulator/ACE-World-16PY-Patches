@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43593;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43593, 'ace43593-snowtuskerwarrior', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43593, 'ace43593-snowtuskerwarrior', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43593,   1,         16) /* ItemType - Creature */
      , (43593,   2,          8) /* CreatureType - Tusker */
-     , (43593,   6,        255) /* ItemsCapacity */
-     , (43593,   7,        255) /* ContainersCapacity */
+     , (43593,   6,         -1) /* ItemsCapacity */
+     , (43593,   7,         -1) /* ContainersCapacity */
      , (43593,  16,          1) /* ItemUseable - No */
      , (43593,  25,        240) /* Level */
      , (43593,  27,          0) /* ArmorType - None */
@@ -40,7 +40,6 @@ VALUES (43593,   1,       5) /* HeartbeatInterval */
      , (43593,  17,     0.4) /* ArmorModVsFire */
      , (43593,  18,       1) /* ArmorModVsAcid */
      , (43593,  19,       1) /* ArmorModVsElectric */
-     , (43593,  27,       5) /* RotationSpeed */
      , (43593,  31,      23) /* VisualAwarenessRange */
      , (43593,  34,     2.5) /* PowerupTime */
      , (43593,  36,       1) /* ChargeSpeed */

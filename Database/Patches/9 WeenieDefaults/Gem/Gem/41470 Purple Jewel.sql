@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41470;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41470, 'ace41470-purplejewel', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (41470, 'ace41470-purplejewel', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41470,   1,       2048) /* ItemType - Gem */
@@ -10,7 +10,6 @@ VALUES (41470,   1,       2048) /* ItemType - Gem */
      , (41470,  12,          1) /* StackSize */
      , (41470,  16,          1) /* ItemUseable - No */
      , (41470,  19,        250) /* Value */
-     , (41470,  53,        101) /* PlacementPosition - Resting */
      , (41470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

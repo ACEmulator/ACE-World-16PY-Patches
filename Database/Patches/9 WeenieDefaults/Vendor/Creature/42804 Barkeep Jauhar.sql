@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42804;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42804, 'ace42804-barkeepjauhar', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (42804, 'ace42804-barkeepjauhar', 12, '2021-11-17 16:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42804,   1,         16) /* ItemType - Creature */
      , (42804,   2,         31) /* CreatureType - Human */
-     , (42804,   6,        255) /* ItemsCapacity */
-     , (42804,   7,        255) /* ContainersCapacity */
+     , (42804,   6,         -1) /* ItemsCapacity */
+     , (42804,   7,         -1) /* ContainersCapacity */
      , (42804,  16,         32) /* ItemUseable - Remote */
      , (42804,  25,          5) /* Level */
      , (42804,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
@@ -72,7 +72,7 @@ VALUES (42804, 2,  2598,  0, 17, 0.9818, False) /* Create Pants (2598) for Wield
      , (42804, 4, 45755, -1, 0, 0, False) /* Create Contract for Bobo's Medicine (45755) for Shop */
      , (42804, 4, 45756, -1, 0, 0, False) /* Create Contract for Sepulcher of Nightmares (45756) for Shop */
      , (42804, 4, 45757, -1, 0, 0, False) /* Create Contract for Mhoire Castle (45757) for Shop */
-     , (42804, 4, 45758, -1, 0, 0, False) /* Create  (45758) for Shop */
+     , (42804, 4, 45758, -1, 0, 0, False) /* Create Contract for Kidnapped Handmaiden (45758) for Shop */
      , (42804, 4, 45759, -1, 0, 0, False) /* Create Contract for Mhoire Oubliette (45759) for Shop */
      , (42804, 4, 49565, -1, 0, 0, False) /* Create Contract for Defeat Hoshino Kei (49565) for Shop */
      , (42804, 4, 49566, -1, 0, 0, False) /* Create Contract for Ritual Investigation (49566) for Shop */

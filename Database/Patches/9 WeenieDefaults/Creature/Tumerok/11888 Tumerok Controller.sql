@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11888;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11888, 'tumerokcrestreedshark', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11888, 'tumerokcrestreedshark', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11888,   1,         16) /* ItemType - Creature */
@@ -141,6 +141,10 @@ VALUES (11888,    60,  2.013)  /* Acid Stream III */
      , (11888,  1158,  2.015)  /* Heal Self III */
      , (11888,  1173,  2.008)  /* Harm Other III */
      , (11888,  1197,  2.008)  /* Enfeeble Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11888,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11888, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11888, 9, 11815,  0, 0, 0.05, False) /* Create Reedshark Crest (11815) for ContainTreasure */

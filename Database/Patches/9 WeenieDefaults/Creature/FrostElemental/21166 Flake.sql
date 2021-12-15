@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21166;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21166, 'frostelementalflake', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (21166, 'frostelementalflake', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21166,   1,         16) /* ItemType - Creature */
@@ -121,3 +121,7 @@ VALUES (21166,     6,  2.015)  /* Heal Self I */
      , (21166,   274,  2.008)  /* Magic Resistance Self I */
      , (21166,  1060,  2.013)  /* Cold Vulnerability Other I */
      , (21166,  1237,  2.008)  /* Drain Health Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21166,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (21166, 414) /* PLAYER_DEATH_EVENT */;
