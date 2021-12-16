@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22514;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22514, 'humantuskersycophantmage', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (22514, 'humantuskersycophantmage', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22514,   1,         16) /* ItemType - Creature */
@@ -145,3 +145,7 @@ VALUES (22514,    63,   2.08)  /* Acid Stream VI */
      , (22514,  2166,   2.04)  /* Tusker's Gift */
      , (22514,  2765,   2.04)  /* Martyr's Hecatomb VI */
      , (22514,  2772,   2.04)  /* Martyr's Tenacity VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22514,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22514, 414) /* PLAYER_DEATH_EVENT */;

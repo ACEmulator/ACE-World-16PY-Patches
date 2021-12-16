@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2018, 'trothyrwarhammer', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (2018, 'trothyrwarhammer', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2018,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,7 +18,6 @@ VALUES (2018,   1,          1) /* ItemType - MeleeWeapon */
      , (2018,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (2018,  49,         40) /* WeaponTime */
      , (2018,  51,          1) /* CombatUse - Melee */
-     , (2018,  53,        101) /* PlacementPosition - Resting */
      , (2018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2018, 150,        103) /* HookPlacement - Hook */
      , (2018, 151,          2) /* HookType - Wall */

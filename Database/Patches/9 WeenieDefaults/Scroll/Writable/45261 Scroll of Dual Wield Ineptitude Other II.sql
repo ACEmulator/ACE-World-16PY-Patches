@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45261;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45261, 'ace45261-scrollofdualwieldineptitudeotherii', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (45261, 'ace45261-scrollofdualwieldineptitudeotherii', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45261,   1,       8192) /* ItemType - Writable */
      , (45261,   5,         30) /* EncumbranceVal */
      , (45261,  16,          8) /* ItemUseable - Contained */
      , (45261,  19,          5) /* Value */
-     , (45261,  53,        101) /* PlacementPosition - Resting */
      , (45261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,6 +29,3 @@ VALUES (45261,   1, 0x0200018A) /* Setup */
      , (45261,   8, 0x0600711B) /* Icon */
      , (45261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45261,  28,       5788) /* Spell - Dual Wield Ineptitude Other II */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45261,  5788,      2)  /* Dual Wield Ineptitude Other II */;

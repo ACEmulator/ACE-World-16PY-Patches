@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36940;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36940, 'ace36940-planaracademyheadmastersrooms', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (36940, 'ace36940-planaracademyheadmastersrooms', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36940,   1,      65536) /* ItemType - Portal */
      , (36940,  16,          1) /* ItemUseable - No */
-     , (36940,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (36940,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (36940, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (36940, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
@@ -15,8 +15,7 @@ VALUES (36940,   1, True ) /* Stuck */
      , (36940,  12, True ) /* ReportCollisions */
      , (36940,  13, True ) /* Ethereal */
      , (36940,  15, True ) /* LightsStatus */
-     , (36940,  19, True ) /* Attackable */
-     , (36940,  88, True ) /* PortalShowDestination */;
+     , (36940,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36940,   1, 'Planar Academy Headmaster''s Rooms') /* Name */;

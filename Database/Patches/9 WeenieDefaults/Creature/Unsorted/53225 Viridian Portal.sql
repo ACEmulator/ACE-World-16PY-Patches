@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53225;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53225, 'ace53225-viridianportal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (53225, 'ace53225-viridianportal', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53225,   1,         16) /* ItemType - Creature */
@@ -11,8 +11,7 @@ VALUES (53225,   1,         16) /* ItemType - Creature */
      , (53225,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53225,  95,          4) /* RadarBlipColor - Purple */
      , (53225, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (53225, 267,         20) /* Lifespan */
-     , (53225, 268,         20) /* RemainingLifespan */;
+     , (53225, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53225,   1, True ) /* Stuck */

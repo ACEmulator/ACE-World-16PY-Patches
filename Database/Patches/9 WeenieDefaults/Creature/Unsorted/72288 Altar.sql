@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72288;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72288, 'ace72288-altar', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (72288, 'ace72288-altar', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72288,   1,         16) /* ItemType - Creature */
-     , (72288,   6,        255) /* ItemsCapacity */
-     , (72288,   7,        255) /* ContainersCapacity */
+     , (72288,   6,         -1) /* ItemsCapacity */
+     , (72288,   7,         -1) /* ContainersCapacity */
      , (72288,  16,         32) /* ItemUseable - Remote */
      , (72288,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (72288,  95,          3) /* RadarBlipColor - White */
@@ -15,6 +15,7 @@ VALUES (72288,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72288,   1, True ) /* Stuck */
+     , (72288,   8, True ) /* AllowGive */
      , (72288,  12, True ) /* ReportCollisions */
      , (72288,  13, False) /* Ethereal */
      , (72288,  19, False) /* Attackable */

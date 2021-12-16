@@ -5,7 +5,7 @@ VALUES (0x7410A000,  7924, 0x410A0025, 119.116, 105.043, -0.845, 0.957998, 0, 0,
 /* @teleloc 0x410A0025 [119.115997 105.042999 -0.845000] 0.957998 0.000000 0.000000 0.286775 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7410A000, 0x7410A001, '2020-09-15 00:15:04') /* Coral Tower (71100) */;
+VALUES (0x7410A000, 0x7410A001, '2021-11-01 00:00:00') /* Coral Tower (71100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7410A001, 71100, 0x410A0025, 119.116, 105.043, -0.9, 0.957998, 0, 0, 0.286775,  True, '2021-11-01 00:00:00'); /* Coral Tower */
@@ -16,19 +16,19 @@ VALUES (0x7410A002,  7923, 0x410A0025, 114.817, 100.47, -0.845, 0.936199, 0, 0, 
 /* @teleloc 0x410A0025 [114.817001 100.470001 -0.845000] 0.936199 0.000000 0.000000 -0.351471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7410A002, 0x7410A003, '2020-09-15 00:15:46') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A004, '2020-09-15 00:15:49') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A005, '2020-09-15 00:15:52') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A006, '2020-09-15 00:15:54') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A007, '2020-09-15 00:15:55') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A008, '2020-09-15 00:15:58') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A009, '2020-09-15 00:15:59') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A00A, '2020-09-15 00:16:03') /* Coral Golem (7507) */
-     , (0x7410A002, 0x7410A00B, '2020-09-15 00:16:38') /* Corrupted Coral Golem (40469) */
-     , (0x7410A002, 0x7410A00C, '2020-09-15 00:17:12') /* Deep-sea Lava Golem (40468) */
-     , (0x7410A002, 0x7410A00D, '2020-09-15 00:17:15') /* Deep-sea Lava Golem (40468) */
-     , (0x7410A002, 0x7410A00E, '2020-09-15 00:17:21') /* Deep-sea Lava Golem (40468) */
-     , (0x7410A002, 0x7410A00F, '2020-09-15 00:17:49') /* Corrupted Coral Golem (40466) */;
+VALUES (0x7410A002, 0x7410A003, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A004, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A005, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A006, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A007, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A008, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A009, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A00A, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A002, 0x7410A00B, '2021-11-01 00:00:00') /* Corrupted Coral Golem (40469) */
+     , (0x7410A002, 0x7410A00C, '2021-11-01 00:00:00') /* Deep-sea Lava Golem (40468) */
+     , (0x7410A002, 0x7410A00D, '2021-11-01 00:00:00') /* Deep-sea Lava Golem (40468) */
+     , (0x7410A002, 0x7410A00E, '2021-11-01 00:00:00') /* Deep-sea Lava Golem (40468) */
+     , (0x7410A002, 0x7410A00F, '2021-11-01 00:00:00') /* Corrupted Coral Golem (40466) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7410A003,  7507, 0x410A0025, 114.719, 102.323, -0.89, 0.725427, 0, 0, -0.688299,  True, '2021-11-01 00:00:00'); /* Coral Golem */

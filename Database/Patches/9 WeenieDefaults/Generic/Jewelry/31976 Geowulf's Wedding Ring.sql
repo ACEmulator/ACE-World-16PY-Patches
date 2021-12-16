@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31976;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31976, 'ace31976-geowulfsweddingring', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (31976, 'ace31976-geowulfsweddingring', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31976,   1,          8) /* ItemType - Jewelry */
@@ -11,7 +11,6 @@ VALUES (31976,   1,          8) /* ItemType - Jewelry */
      , (31976,  16,          1) /* ItemUseable - No */
      , (31976,  19,       1000) /* Value */
      , (31976,  33,          1) /* Bonded - Bonded */
-     , (31976,  53,        101) /* PlacementPosition - Resting */
      , (31976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31976, 114,          1) /* Attuned - Attuned */;
 

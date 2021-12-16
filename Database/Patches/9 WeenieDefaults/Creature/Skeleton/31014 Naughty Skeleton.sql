@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31014, 'skeletonnaughtyhighyield', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31014, 'skeletonnaughtyhighyield', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31014,   1,         16) /* ItemType - Creature */
@@ -41,7 +41,6 @@ VALUES (31014,   1,       5) /* HeartbeatInterval */
      , (31014,  17,    0.85) /* ArmorModVsFire */
      , (31014,  18,    0.32) /* ArmorModVsAcid */
      , (31014,  19,    0.49) /* ArmorModVsElectric */
-     , (31014,  27,    5.01) /* RotationSpeed */
      , (31014,  31,      16) /* VisualAwarenessRange */
      , (31014,  34,       1) /* PowerupTime */
      , (31014,  36,       1) /* ChargeSpeed */
@@ -136,6 +135,10 @@ VALUES (31014,  2074,    2.1)  /* Gossamer Flesh */
      , (31014,  2166,    2.1)  /* Tusker's Gift */
      , (31014,  2168,    2.1)  /* Gelidite's Gift */
      , (31014,  2174,    2.1)  /* Archer's Gift */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31014,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31014, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31014, 9, 31344,  0, 0, 0.085, False) /* Create Skeletal Jawbone (31344) for ContainTreasure */

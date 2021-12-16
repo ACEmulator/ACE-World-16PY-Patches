@@ -65,30 +65,30 @@ VALUES (0x7009F06C,  4219, 0x009F01FF, 18, -299.75, -5.99, 1, 0, 0, 0, False, '2
 /* @teleloc 0x009F01FF [18.000000 -299.750000 -5.990000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7009F06C, 0x7009F071, '2019-02-10 00:00:00') /* Watcher's Wall (35483) */
-     , (0x7009F06C, 0x7009F078, '2019-02-10 00:00:00') /* Wall (36654) */
-     , (0x7009F06C, 0x7009F07F, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
-     , (0x7009F06C, 0x7009F080, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
-     , (0x7009F06C, 0x7009F081, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
-     , (0x7009F06C, 0x7009F082, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
-     , (0x7009F06C, 0x7009F083, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x7009F06C, 0x7009F084, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x7009F06C, 0x7009F086, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
-     , (0x7009F06C, 0x7009F087, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
-     , (0x7009F06C, 0x7009F088, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
-     , (0x7009F06C, 0x7009F089, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x7009F06C, 0x7009F08A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x7009F06C, 0x7009F08B, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
-     , (0x7009F06C, 0x7009F08C, '2019-02-10 00:00:00') /* Abyssal Shadow Lugian (36645) */
-     , (0x7009F06C, 0x7009F08D, '2019-02-10 00:00:00') /* Abyssal Shadow Lugian (36645) */
-     , (0x7009F06C, 0x7009F08E, '2019-02-10 00:00:00') /* Abyssal Shadow Lugian (36645) */
-     , (0x7009F06C, 0x7009F08F, '2019-02-10 00:00:00') /* Abyssal Shadow Lugian (36645) */
-     , (0x7009F06C, 0x7009F090, '2019-02-10 00:00:00') /* Abyssal Shadow Lugian (36645) */
-     , (0x7009F06C, 0x7009F091, '2019-02-10 00:00:00') /* Abyssal Shadow Lugian (36645) */
-     , (0x7009F06C, 0x7009F092, '2019-02-10 00:00:00') /* Boulder (36651) */
-     , (0x7009F06C, 0x7009F093, '2019-02-10 00:00:00') /* Shadow Kresovus (36646) */
-     , (0x7009F06C, 0x7009F0A9, '2019-02-10 00:00:00') /* Shadow Kresovus (36648) */
-     , (0x7009F06C, 0x7009F0AA, '2019-02-10 00:00:00') /* Shadow Kresovus (36647) */;
+VALUES (0x7009F06C, 0x7009F071, '2021-11-01 00:00:00') /* Watcher's Wall (35483) */
+     , (0x7009F06C, 0x7009F078, '2021-11-01 00:00:00') /* Wall (36654) */
+     , (0x7009F06C, 0x7009F07F, '2021-11-01 00:00:00') /* Virindi Consul (23489) */
+     , (0x7009F06C, 0x7009F080, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7009F06C, 0x7009F081, '2021-11-01 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7009F06C, 0x7009F082, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7009F06C, 0x7009F083, '2021-11-01 00:00:00') /* Virindi Executor (9264) */
+     , (0x7009F06C, 0x7009F084, '2021-11-01 00:00:00') /* Virindi Executor (9264) */
+     , (0x7009F06C, 0x7009F086, '2021-11-01 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7009F06C, 0x7009F087, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7009F06C, 0x7009F088, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7009F06C, 0x7009F089, '2021-11-01 00:00:00') /* Virindi Executor (9264) */
+     , (0x7009F06C, 0x7009F08A, '2021-11-01 00:00:00') /* Virindi Executor (9264) */
+     , (0x7009F06C, 0x7009F08B, '2021-11-01 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7009F06C, 0x7009F08C, '2021-11-01 00:00:00') /* Abyssal Shadow Lugian (36645) */
+     , (0x7009F06C, 0x7009F08D, '2021-11-01 00:00:00') /* Abyssal Shadow Lugian (36645) */
+     , (0x7009F06C, 0x7009F08E, '2021-11-01 00:00:00') /* Abyssal Shadow Lugian (36645) */
+     , (0x7009F06C, 0x7009F08F, '2021-11-01 00:00:00') /* Abyssal Shadow Lugian (36645) */
+     , (0x7009F06C, 0x7009F090, '2021-11-01 00:00:00') /* Abyssal Shadow Lugian (36645) */
+     , (0x7009F06C, 0x7009F091, '2021-11-01 00:00:00') /* Abyssal Shadow Lugian (36645) */
+     , (0x7009F06C, 0x7009F092, '2021-11-01 00:00:00') /* Boulder (36651) */
+     , (0x7009F06C, 0x7009F093, '2021-11-01 00:00:00') /* Shadow Kresovus (36646) */
+     , (0x7009F06C, 0x7009F0A9, '2021-11-01 00:00:00') /* Shadow Kresovus (36648) */
+     , (0x7009F06C, 0x7009F0AA, '2021-11-01 00:00:00') /* Shadow Kresovus (36647) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F06D, 35482, 0x009F01FF, 18, -299.75, -5.99, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Watcher's Guard */
@@ -243,8 +243,8 @@ VALUES (0x7009F0C3,  4219, 0x009F021A, 70, -287, -5.99, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x009F021A [70.000000 -287.000000 -5.990000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7009F0C3, 0x7009F0C8, '2019-02-10 00:00:00') /* Lord Kresovus (36753) */
-     , (0x7009F0C3, 0x7009F0F4, '2021-06-22 15:51:08') /* Fake Lord Kresovus Event Controller (87443) */;
+VALUES (0x7009F0C3, 0x7009F0C8, '2021-11-01 00:00:00') /* Lord Kresovus (36753) */
+     , (0x7009F0C3, 0x7009F0F4, '2021-11-01 00:00:00') /* Fake Lord Kresovus Event Controller (87443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F0C5, 36696, 0x009F0161, 90, -230, -42, -0.004204, 0, 0, 0.999991, False, '2021-11-01 00:00:00'); /* Pillar of the Mind */
@@ -263,31 +263,31 @@ VALUES (0x7009F0C9,  4142, 0x009F0214, 70, -230.1, -4.9, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x009F0214 [70.000000 -230.100006 -4.900000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7009F0C9, 0x7009F0CA, '2019-02-10 00:00:00') /* Pristine White Mattekar Hide (36703) */
-     , (0x7009F0C9, 0x7009F0D1, '2019-02-10 00:00:00') /* Spear of Purity (36680) */
-     , (0x7009F0C9, 0x7009F0D2, '2019-02-10 00:00:00') /* Sack of Granite (36666) */
-     , (0x7009F0C9, 0x7009F0D3, '2019-02-10 00:00:00') /* Pyreal Bar (36676) */
-     , (0x7009F0C9, 0x7009F0D4, '2019-02-10 00:00:00') /* Crown of the First King (36656) */
-     , (0x7009F0C9, 0x7009F0D5, '2019-02-10 00:00:00') /* Chalice of Morkindmity (36655) */
-     , (0x7009F0C9, 0x7009F0D6, '2019-02-10 00:00:00') /* Gauntlets of Power (36658) */
-     , (0x7009F0C9, 0x7009F0D7, '2019-02-10 00:00:00') /* Sack of Brass (36664) */
-     , (0x7009F0C9, 0x7009F0D8, '2019-02-10 00:00:00') /* Sack of Black Opal (36663) */
-     , (0x7009F0C9, 0x7009F0D9, '2019-02-10 00:00:00') /* Chorizite Pea (36675) */
-     , (0x7009F0C9, 0x7009F0DA, '2019-02-10 00:00:00') /* Hammer of the Ages (36659) */
-     , (0x7009F0C9, 0x7009F0DB, '2019-02-10 00:00:00') /* Treasure (36684) */
-     , (0x7009F0C9, 0x7009F0DC, '2019-02-10 00:00:00') /* Sack of Fire Opal (36665) */
-     , (0x7009F0C9, 0x7009F0DD, '2019-02-10 00:00:00') /* Scepter of Might (36662) */
-     , (0x7009F0C9, 0x7009F0DE, '2019-02-10 00:00:00') /* Bastion of Tukal (36660) */
-     , (0x7009F0C9, 0x7009F0DF, '2019-02-10 00:00:00') /* Sack of Steel (36670) */
-     , (0x7009F0C9, 0x7009F0E0, '2019-02-10 00:00:00') /* Bolt of Velvet (36671) */
-     , (0x7009F0C9, 0x7009F0E1, '2019-02-10 00:00:00') /* Crest of Kings (36679) */
-     , (0x7009F0C9, 0x7009F0E2, '2019-02-10 00:00:00') /* Ulkra's Sword (36683) */
-     , (0x7009F0C9, 0x7009F0E3, '2019-02-10 00:00:00') /* Staff of Clarity (36681) */
-     , (0x7009F0C9, 0x7009F0E4, '2019-02-10 00:00:00') /* Sack of Iron (36668) */
-     , (0x7009F0C9, 0x7009F0E5, '2019-02-10 00:00:00') /* Helm of the Crag (36661) */
-     , (0x7009F0C9, 0x7009F0E6, '2019-02-10 00:00:00') /* Sack of Green Garnet (36667) */
-     , (0x7009F0C9, 0x7009F0E7, '2019-02-10 00:00:00') /* Cutters Cup (36657) */
-     , (0x7009F0C9, 0x7009F0E8, '2019-02-10 00:00:00') /* Robes of Grey Dawn (36677) */;
+VALUES (0x7009F0C9, 0x7009F0CA, '2021-11-01 00:00:00') /* Pristine White Mattekar Hide (36703) */
+     , (0x7009F0C9, 0x7009F0D1, '2021-11-01 00:00:00') /* Spear of Purity (36680) */
+     , (0x7009F0C9, 0x7009F0D2, '2021-11-01 00:00:00') /* Sack of Granite (36666) */
+     , (0x7009F0C9, 0x7009F0D3, '2021-11-01 00:00:00') /* Pyreal Bar (36676) */
+     , (0x7009F0C9, 0x7009F0D4, '2021-11-01 00:00:00') /* Crown of the First King (36656) */
+     , (0x7009F0C9, 0x7009F0D5, '2021-11-01 00:00:00') /* Chalice of Morkindmity (36655) */
+     , (0x7009F0C9, 0x7009F0D6, '2021-11-01 00:00:00') /* Gauntlets of Power (36658) */
+     , (0x7009F0C9, 0x7009F0D7, '2021-11-01 00:00:00') /* Sack of Brass (36664) */
+     , (0x7009F0C9, 0x7009F0D8, '2021-11-01 00:00:00') /* Sack of Black Opal (36663) */
+     , (0x7009F0C9, 0x7009F0D9, '2021-11-01 00:00:00') /* Chorizite Pea (36675) */
+     , (0x7009F0C9, 0x7009F0DA, '2021-11-01 00:00:00') /* Hammer of the Ages (36659) */
+     , (0x7009F0C9, 0x7009F0DB, '2021-11-01 00:00:00') /* Treasure (36684) */
+     , (0x7009F0C9, 0x7009F0DC, '2021-11-01 00:00:00') /* Sack of Fire Opal (36665) */
+     , (0x7009F0C9, 0x7009F0DD, '2021-11-01 00:00:00') /* Scepter of Might (36662) */
+     , (0x7009F0C9, 0x7009F0DE, '2021-11-01 00:00:00') /* Bastion of Tukal (36660) */
+     , (0x7009F0C9, 0x7009F0DF, '2021-11-01 00:00:00') /* Sack of Steel (36670) */
+     , (0x7009F0C9, 0x7009F0E0, '2021-11-01 00:00:00') /* Bolt of Velvet (36671) */
+     , (0x7009F0C9, 0x7009F0E1, '2021-11-01 00:00:00') /* Crest of Kings (36679) */
+     , (0x7009F0C9, 0x7009F0E2, '2021-11-01 00:00:00') /* Ulkra's Sword (36683) */
+     , (0x7009F0C9, 0x7009F0E3, '2021-11-01 00:00:00') /* Staff of Clarity (36681) */
+     , (0x7009F0C9, 0x7009F0E4, '2021-11-01 00:00:00') /* Sack of Iron (36668) */
+     , (0x7009F0C9, 0x7009F0E5, '2021-11-01 00:00:00') /* Helm of the Crag (36661) */
+     , (0x7009F0C9, 0x7009F0E6, '2021-11-01 00:00:00') /* Sack of Green Garnet (36667) */
+     , (0x7009F0C9, 0x7009F0E7, '2021-11-01 00:00:00') /* Cutters Cup (36657) */
+     , (0x7009F0C9, 0x7009F0E8, '2021-11-01 00:00:00') /* Robes of Grey Dawn (36677) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F0CA, 36703, 0x009F0214, 70, -230.1, -4.9, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Pristine White Mattekar Hide */
@@ -394,22 +394,22 @@ VALUES (0x7009F0F0,  7923, 0x009F0206, 32.3936, -292.787, -5.945, 0.730065, 0, 0
 /* @teleloc 0x009F0206 [32.393600 -292.786987 -5.945000] 0.730065 0.000000 0.000000 0.683377 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7009F0F0, 0x7009F06D, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F06E, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F06F, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F070, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F073, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F074, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F075, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F076, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */
-     , (0x7009F0F0, 0x7009F077, '2019-02-10 00:00:00') /* Watcher's Guard (35482) */;
+VALUES (0x7009F0F0, 0x7009F06D, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F06E, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F06F, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F070, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F073, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F074, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F075, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F076, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */
+     , (0x7009F0F0, 0x7009F077, '2021-11-01 00:00:00') /* Watcher's Guard (35482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F0F1,  7924, 0x009F0204, 28.3473, -238.729, -5.945, 0.832066, 0, 0, 0.554677, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x009F0204 [28.347300 -238.729004 -5.945000] 0.832066 0.000000 0.000000 0.554677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7009F0F1, 0x7009F072, '2019-02-10 00:00:00') /* Watcher in the Warren (35481) */;
+VALUES (0x7009F0F1, 0x7009F072, '2021-11-01 00:00:00') /* Watcher in the Warren (35481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F0F2, 87440, 0x009F021A, 73.2031, -288.138, -5.945, 0.999687, 0, 0, -0.024997, False, '2021-11-01 00:00:00'); /* Fake Lord Kresovus Gen */

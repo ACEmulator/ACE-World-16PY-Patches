@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14877;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14877, 'stormelementaltsuric', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (14877, 'stormelementaltsuric', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14877,   1,         16) /* ItemType - Creature */
@@ -127,6 +127,10 @@ VALUES (14877,    63,  2.004)  /* Acid Stream VI */
      , (14877,  1327,  2.017)  /* Imperil Other VI */
      , (14877,  1783,  2.004)  /* Searing Disc */
      , (14877,  1788,  2.004)  /* Eye of the Storm */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14877,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14877, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14877, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */

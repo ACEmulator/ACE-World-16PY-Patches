@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72041;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72041, 'ace72041-gateway', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (72041, 'ace72041-gateway', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72041,   1,      65536) /* ItemType - Portal */
@@ -10,8 +10,7 @@ VALUES (72041,   1,      65536) /* ItemType - Portal */
      , (72041,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (72041, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (72041, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (72041, 267,         60) /* Lifespan */
-     , (72041, 268,         -4) /* RemainingLifespan */;
+     , (72041, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72041,   1, True ) /* Stuck */

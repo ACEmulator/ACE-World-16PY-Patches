@@ -49,23 +49,23 @@ VALUES (0x71DB100E,  7924, 0x1DB10000, 119.176, 172.133, -0.095, -0.154223, 0, 0
 /* @teleloc 0x1DB10000 [119.176003 172.132996 -0.095000] -0.154223 0.000000 0.000000 -0.988036 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DB100E, 0x71DB1004, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
-     , (0x71DB100E, 0x71DB1005, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
-     , (0x71DB100E, 0x71DB1006, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
-     , (0x71DB100E, 0x71DB1007, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
-     , (0x71DB100E, 0x71DB1008, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
-     , (0x71DB100E, 0x71DB1009, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
-     , (0x71DB100E, 0x71DB100A, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
-     , (0x71DB100E, 0x71DB100B, '2005-02-09 10:00:00') /* Hea Windreave (11524) */
-     , (0x71DB100E, 0x71DB100C, '2005-02-09 10:00:00') /* Hea Windreave (11524) */
-     , (0x71DB100E, 0x71DB100D, '2005-02-09 10:00:00') /* Hea Windreave (11524) */;
+VALUES (0x71DB100E, 0x71DB1004, '2021-11-01 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71DB100E, 0x71DB1005, '2021-11-01 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB100E, 0x71DB1006, '2021-11-01 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB100E, 0x71DB1007, '2021-11-01 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB100E, 0x71DB1008, '2021-11-01 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB100E, 0x71DB1009, '2021-11-01 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB100E, 0x71DB100A, '2021-11-01 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB100E, 0x71DB100B, '2021-11-01 00:00:00') /* Hea Windreave (11524) */
+     , (0x71DB100E, 0x71DB100C, '2021-11-01 00:00:00') /* Hea Windreave (11524) */
+     , (0x71DB100E, 0x71DB100D, '2021-11-01 00:00:00') /* Hea Windreave (11524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB16A5,  1154, 0x1DB10030, 142.4, 190.416, 0, 0.228585, 0, 0, 0.973524, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x1DB10030 [142.399994 190.416000 0.000000] 0.228585 0.000000 0.000000 0.973524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DB16A5, 0x71DB16A6, '2020-01-30 00:00:00') /* Exploration Marker (39769) */;
+VALUES (0x71DB16A5, 0x71DB16A6, '2021-11-01 00:00:00') /* Exploration Marker (39769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB16A6, 39769, 0x1DB10030, 142.4, 190.416, 0, 0.228585, 0, 0, 0.973524,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

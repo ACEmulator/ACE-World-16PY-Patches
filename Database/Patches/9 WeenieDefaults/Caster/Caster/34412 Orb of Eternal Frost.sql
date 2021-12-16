@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34412;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34412, 'ace34412-orbofeternalfrost', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (34412, 'ace34412-orbofeternalfrost', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34412,   1,      32768) /* ItemType - Caster */
@@ -12,8 +12,6 @@ VALUES (34412,   1,      32768) /* ItemType - Caster */
      , (34412,  19,       2300) /* Value */
      , (34412,  33,          1) /* Bonded - Bonded */
      , (34412,  46,        512) /* DefaultCombatStyle - Magic */
-     , (34412,  52,          1) /* ParentLocation - RightHand */
-     , (34412,  53,          1) /* PlacementPosition - RightHandCombat */
      , (34412,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (34412,  94,         16) /* TargetType - Creature */
      , (34412, 106,         10) /* ItemSpellcraft */

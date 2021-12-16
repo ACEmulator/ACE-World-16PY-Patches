@@ -185,41 +185,41 @@ VALUES (0x701E902D,  3955, 0x01E901C1, 140, -140, -12, 0, 0, 0, -1, False, '2021
 /* @teleloc 0x01E901C1 [140.000000 -140.000000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E902D, 0x701E9031, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902D, 0x701E9032, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902D, 0x701E906F, '2005-02-09 10:00:00') /* Black Rat (218) */
-     , (0x701E902D, 0x701E9071, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902D, 0x701E9072, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902D, 0x701E9091, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902D, 0x701E9092, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902D, 0x701E9096, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902D, 0x701E9098, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
+VALUES (0x701E902D, 0x701E9031, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902D, 0x701E9032, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902D, 0x701E906F, '2021-11-01 00:00:00') /* Black Rat (218) */
+     , (0x701E902D, 0x701E9071, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902D, 0x701E9072, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902D, 0x701E9091, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902D, 0x701E9092, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902D, 0x701E9096, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902D, 0x701E9098, '2021-11-01 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E902E,  3953, 0x01E901C1, 139.379, -141.452, -12, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen (30 min.) */
 /* @teleloc 0x01E901C1 [139.378998 -141.451996 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E902E, 0x701E902C, '2005-02-09 10:00:00') /* Cow (14) */
-     , (0x701E902E, 0x701E9030, '2005-02-09 10:00:00') /* Brown Rat (220) */;
+VALUES (0x701E902E, 0x701E902C, '2021-11-01 00:00:00') /* Cow (14) */
+     , (0x701E902E, 0x701E9030, '2021-11-01 00:00:00') /* Brown Rat (220) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E902F,  1154, 0x01E901C1, 141.511, -140.147, -12, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01E901C1 [141.511002 -140.147003 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E902F, 0x701E9006, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
-     , (0x701E902F, 0x701E9009, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
-     , (0x701E902F, 0x701E900C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E902F, 0x701E900F, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E902F, 0x701E9010, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E902F, 0x701E9012, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
-     , (0x701E902F, 0x701E9015, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E902F, 0x701E9017, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E902F, 0x701E9044, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E902F, 0x701E906C, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E902F, 0x701E9077, '2005-02-09 10:00:00') /* Undead (16) */
-     , (0x701E902F, 0x701E90BC, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */;
+VALUES (0x701E902F, 0x701E9006, '2021-11-01 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701E902F, 0x701E9009, '2021-11-01 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701E902F, 0x701E900C, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E902F, 0x701E900F, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E902F, 0x701E9010, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E902F, 0x701E9012, '2021-11-01 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701E902F, 0x701E9015, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E902F, 0x701E9017, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E902F, 0x701E9044, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E902F, 0x701E906C, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E902F, 0x701E9077, '2021-11-01 00:00:00') /* Undead (16) */
+     , (0x701E902F, 0x701E90BC, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9030,   220, 0x01E901CA, 153.499, -96.6018, -11.9912, -0.325671, 0, 0, -0.945483,  True, '2021-11-01 00:00:00'); /* Brown Rat */
@@ -298,7 +298,7 @@ VALUES (0x701E9042,  4079, 0x01E9020B, 31.4143, -199.747, -4.46187, 0.707107, 0,
 /* @teleloc 0x01E9020B [31.414301 -199.746994 -4.461870] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9042, 0x701E9041, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701E9042, 0x701E9041, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9043,   947, 0x01E90217, 40, -90, -5.9945, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Barker Mosswart */
@@ -369,96 +369,96 @@ VALUES (0x701E9053,  7923, 0x01E90253, 58.9434, -168.676, -6, 0.707107, 0, 0, -0
 /* @teleloc 0x01E90253 [58.943401 -168.675995 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9053, 0x701E9047, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9053, 0x701E9051, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9053, 0x701E905D, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E9053, 0x701E9063, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E9053, 0x701E9087, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E9053, 0x701E9088, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E9053, 0x701E908F, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E9053, 0x701E909F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9053, 0x701E90AA, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
+VALUES (0x701E9053, 0x701E9047, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9053, 0x701E9051, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9053, 0x701E905D, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E9053, 0x701E9063, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E9053, 0x701E9087, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E9053, 0x701E9088, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E9053, 0x701E908F, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E9053, 0x701E909F, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9053, 0x701E90AA, '2021-11-01 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9054,  3955, 0x01E90253, 60.8961, -169.077, -6, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x01E90253 [60.896099 -169.076996 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9054, 0x701E903A, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x701E9054, 0x701E9081, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E9054, 0x701E908E, '2005-02-09 10:00:00') /* Black Rat (218) */
-     , (0x701E9054, 0x701E90A0, '2005-02-09 10:00:00') /* Mosswart Chief (210) */
-     , (0x701E9054, 0x701E90A2, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E9054, 0x701E90A5, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E9054, 0x701E90A6, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9054, 0x701E90A7, '2005-02-09 10:00:00') /* Brown Rat (220) */
-     , (0x701E9054, 0x701E90B1, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
+VALUES (0x701E9054, 0x701E903A, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701E9054, 0x701E9081, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E9054, 0x701E908E, '2021-11-01 00:00:00') /* Black Rat (218) */
+     , (0x701E9054, 0x701E90A0, '2021-11-01 00:00:00') /* Mosswart Chief (210) */
+     , (0x701E9054, 0x701E90A2, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E9054, 0x701E90A5, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E9054, 0x701E90A6, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9054, 0x701E90A7, '2021-11-01 00:00:00') /* Brown Rat (220) */
+     , (0x701E9054, 0x701E90B1, '2021-11-01 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9055,  1154, 0x01E90253, 60, -170, -6, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01E90253 [60.000000 -170.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9055, 0x701E9080, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E9055, 0x701E909C, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x701E9055, 0x701E90A8, '2005-02-09 10:00:00') /* Brown Rat (220) */
-     , (0x701E9055, 0x701E90A9, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E9055, 0x701E90AD, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9055, 0x701E90B6, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */;
+VALUES (0x701E9055, 0x701E9080, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E9055, 0x701E909C, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701E9055, 0x701E90A8, '2021-11-01 00:00:00') /* Brown Rat (220) */
+     , (0x701E9055, 0x701E90A9, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E9055, 0x701E90AD, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9055, 0x701E90B6, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9056,  3953, 0x01E90253, 58.6931, -170.03, -6, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen (30 min.) */
 /* @teleloc 0x01E90253 [58.693100 -170.029999 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9056, 0x701E9036, '2005-02-09 10:00:00') /* Mosswart Feeder (1470) */
-     , (0x701E9056, 0x701E90B7, '2005-02-09 10:00:00') /* Drudge Slinker (1468) */;
+VALUES (0x701E9056, 0x701E9036, '2021-11-01 00:00:00') /* Mosswart Feeder (1470) */
+     , (0x701E9056, 0x701E90B7, '2021-11-01 00:00:00') /* Drudge Slinker (1468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9057,  1154, 0x01E90253, 61.3281, -170.16, -6, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01E90253 [61.328098 -170.160004 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9057, 0x701E9037, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9057, 0x701E9043, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9057, 0x701E904D, '2005-02-09 10:00:00') /* Black Rat (218) */
-     , (0x701E9057, 0x701E905E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9057, 0x701E905F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9057, 0x701E9061, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
-     , (0x701E9057, 0x701E9085, '2005-02-09 10:00:00') /* Black Rat (218) */
-     , (0x701E9057, 0x701E90B9, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E9057, 0x701E90BA, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
+VALUES (0x701E9057, 0x701E9037, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9057, 0x701E9043, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9057, 0x701E904D, '2021-11-01 00:00:00') /* Black Rat (218) */
+     , (0x701E9057, 0x701E905E, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9057, 0x701E905F, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9057, 0x701E9061, '2021-11-01 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701E9057, 0x701E9085, '2021-11-01 00:00:00') /* Black Rat (218) */
+     , (0x701E9057, 0x701E90B9, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E9057, 0x701E90BA, '2021-11-01 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9058,  1154, 0x01E90253, 62.3055, -168.726, -6, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01E90253 [62.305500 -168.725998 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9058, 0x701E9048, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
-     , (0x701E9058, 0x701E905C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9058, 0x701E907A, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E9058, 0x701E9084, '2005-02-09 10:00:00') /* Black Rat (218) */
-     , (0x701E9058, 0x701E9097, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
-     , (0x701E9058, 0x701E90B8, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
+VALUES (0x701E9058, 0x701E9048, '2021-11-01 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701E9058, 0x701E905C, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9058, 0x701E907A, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E9058, 0x701E9084, '2021-11-01 00:00:00') /* Black Rat (218) */
+     , (0x701E9058, 0x701E9097, '2021-11-01 00:00:00') /* Drudge Prowler (192) */
+     , (0x701E9058, 0x701E90B8, '2021-11-01 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E9059,  1154, 0x01E90254, 60, -180, -6, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01E90254 [60.000000 -180.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E9059, 0x701E9034, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x701E9059, 0x701E9040, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x701E9059, 0x701E90AB, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
+VALUES (0x701E9059, 0x701E9034, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x701E9059, 0x701E9040, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701E9059, 0x701E90AB, '2021-11-01 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E905A,  1154, 0x01E90254, 58.1965, -179.744, -6, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01E90254 [58.196499 -179.744003 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E905A, 0x701E90AE, '2005-02-09 10:00:00') /* Brown Rat (220) */
-     , (0x701E905A, 0x701E90AF, '2005-02-09 10:00:00') /* Brown Rat (220) */
-     , (0x701E905A, 0x701E90B2, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
-     , (0x701E905A, 0x701E90B5, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
+VALUES (0x701E905A, 0x701E90AE, '2021-11-01 00:00:00') /* Brown Rat (220) */
+     , (0x701E905A, 0x701E90AF, '2021-11-01 00:00:00') /* Brown Rat (220) */
+     , (0x701E905A, 0x701E90B2, '2021-11-01 00:00:00') /* Drudge Robber (1464) */
+     , (0x701E905A, 0x701E90B5, '2021-11-01 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E905B,   568, 0x01E90259, 65.25, -70, -6, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -597,7 +597,7 @@ VALUES (0x701E907C,  4074, 0x01E90377, 61.4593, -201.089, 0.949625, 1, 0, 0, 0, 
 /* @teleloc 0x01E90377 [61.459301 -201.089005 0.949625] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E907C, 0x701E907B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701E907C, 0x701E907B, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E907D,   278, 0x01E90379, 60, -195.25, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -668,7 +668,7 @@ VALUES (0x701E908D,  1542, 0x01E903AA, 100, -120, 0, 0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x01E903AA [100.000000 -120.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E908D, 0x701E908C, '2005-02-09 10:00:00') /* Beautiful key (2218) */;
+VALUES (0x701E908D, 0x701E908C, '2021-11-01 00:00:00') /* Beautiful key (2218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E908E,   218, 0x01E903AA, 99.4982, -117.87, 0.0084, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Black Rat */
@@ -719,7 +719,7 @@ VALUES (0x701E909A,  4083, 0x01E90432, 59.6726, -99.7243, 6.92287, 1, 0, 0, 0, F
 /* @teleloc 0x01E90432 [59.672600 -99.724297 6.922870] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E909A, 0x701E9099, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x701E909A, 0x701E9099, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E909B,  4009, 0x01E90437, 58.6632, -189.749, 6, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Cheap Alu. Warrior Generator */
@@ -866,7 +866,7 @@ VALUES (0x701E90D2,  7924, 0x01E90105, 72.4767, -162.536, -17.945, -0.0125, 0, 0
 /* @teleloc 0x01E90105 [72.476700 -162.535995 -17.945000] -0.012500 0.000000 0.000000 -0.999922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E90D2, 0x701E90D3, '2020-11-02 13:26:07') /* StrangeDeviceTwo Controller (87023) */;
+VALUES (0x701E90D2, 0x701E90D3, '2021-11-01 00:00:00') /* StrangeDeviceTwo Controller (87023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E90D3, 87023, 0x01E90105, 73.6756, -161.548, -17.995, -0.779425, 0, 0, -0.626495,  True, '2021-11-01 00:00:00'); /* StrangeDeviceTwo Controller */
@@ -881,7 +881,7 @@ VALUES (0x701E90D5,  7924, 0x01E904A7, 127.661, -67.0654, 6.055, 0.599587, 0, 0,
 /* @teleloc 0x01E904A7 [127.661003 -67.065399 6.055000] 0.599587 0.000000 0.000000 -0.800309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E90D5, 0x701E90D6, '2020-11-02 21:15:36') /* StrangeDeviceFour Controller (87032) */;
+VALUES (0x701E90D5, 0x701E90D6, '2021-11-01 00:00:00') /* StrangeDeviceFour Controller (87032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E90D6, 87032, 0x01E904A7, 127.874, -66.3376, 6.005, 0.599587, 0, 0, -0.800309,  True, '2021-11-01 00:00:00'); /* StrangeDeviceFour Controller */

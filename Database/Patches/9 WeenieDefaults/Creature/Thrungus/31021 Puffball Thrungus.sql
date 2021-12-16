@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31021;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31021, 'thrunguspuffball', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31021, 'thrunguspuffball', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31021,   1,         16) /* ItemType - Creature */
@@ -27,7 +27,6 @@ VALUES (31021,   1, True ) /* Stuck */
      , (31021,  13, False) /* Ethereal */
      , (31021,  14, True ) /* GravityStatus */
      , (31021,  19, True ) /* Attackable */
-     , (31021, 101, True ) /* CanGenerateRare */
      , (31021, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -118,6 +117,10 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31021,    97,   2.12)  /* Whirling Blade VI */
      , (31021,   526,   2.07)  /* Acid Vulnerability Other VI */
      , (31021,  2054,   2.06)  /* Synaptic Misfire */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31021,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31021, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31021,  5 /* HeartBeat */,  0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

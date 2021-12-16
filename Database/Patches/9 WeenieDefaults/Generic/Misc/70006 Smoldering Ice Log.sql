@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70006;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70006, 'ace70006-smolderingicelog', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (70006, 'ace70006-smolderingicelog', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70006,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (70006,   1,        128) /* ItemType - Misc */
      , (70006,  19,          0) /* Value */
      , (70006,  22,       1000) /* AvailableCharacter */
      , (70006,  33,          1) /* Bonded - Bonded */
-     , (70006,  53,        101) /* PlacementPosition - Resting */
      , (70006,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70006, 114,          1) /* Attuned - Attuned */;
 

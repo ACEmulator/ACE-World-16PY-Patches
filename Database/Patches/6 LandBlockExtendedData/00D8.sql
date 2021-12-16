@@ -25,52 +25,52 @@ VALUES (0x700D8005,  4219, 0x00D80233, 53.2349, -183.658, 0.055, -0.682606, 0, 0
 /* @teleloc 0x00D80233 [53.234901 -183.658005 0.055000] -0.682606 0.000000 0.000000 0.730786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D8005, 0x700D8001, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8002, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8003, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8004, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8006, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8007, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D8008, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D8009, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D800A, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D800B, '2019-02-10 00:00:00') /* Majordomo of the South Cloister (87203) */
-     , (0x700D8005, 0x700D800C, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D800D, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D800E, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D800F, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8010, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8011, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8012, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8013, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8014, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8015, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8016, '2019-02-10 00:00:00') /* Celestial Illuminator (87201) */
-     , (0x700D8005, 0x700D8017, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8018, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D8019, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D801A, '2019-02-10 00:00:00') /* Majordomo of the North Cloister (87202) */
-     , (0x700D8005, 0x700D801B, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D801C, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D801D, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D801E, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D801F, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D8020, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D8021, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D8022, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D8023, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D8024, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
-     , (0x700D8005, 0x700D8025, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D8026, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8027, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8028, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D8029, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D802A, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D802B, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D802C, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D802D, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
-     , (0x700D8005, 0x700D802E, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D802F, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */;
+VALUES (0x700D8005, 0x700D8001, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8002, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8003, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8004, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8006, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8007, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D8008, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D8009, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D800A, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D800B, '2021-11-01 00:00:00') /* Majordomo of the South Cloister (87203) */
+     , (0x700D8005, 0x700D800C, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D800D, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D800E, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D800F, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8010, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8011, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8012, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8013, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8014, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8015, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8016, '2021-11-01 00:00:00') /* Celestial Illuminator (87201) */
+     , (0x700D8005, 0x700D8017, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8018, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D8019, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D801A, '2021-11-01 00:00:00') /* Majordomo of the North Cloister (87202) */
+     , (0x700D8005, 0x700D801B, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D801C, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D801D, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D801E, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D801F, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D8020, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D8021, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D8022, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D8023, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D8024, '2021-11-01 00:00:00') /* Blood Priestess (37177) */
+     , (0x700D8005, 0x700D8025, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D8026, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8027, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8028, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D8029, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D802A, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D802B, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D802C, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D802D, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
+     , (0x700D8005, 0x700D802E, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D802F, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8006, 37179, 0x00D80244, 95.7316, -177.036, 0.00825, 0.540311, 0, 0, 0.841466,  True, '2021-11-01 00:00:00'); /* Imperial Guard */
@@ -245,9 +245,9 @@ VALUES (0x700D8030,  4142, 0x00D801C0, 146.234, -182.714, -5.945, -0.679551, 0, 
 /* @teleloc 0x00D801C0 [146.233994 -182.714005 -5.945000] -0.679551 0.000000 0.000000 -0.733629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D8030, 0x700D8031, '2019-02-10 00:00:00') /* South Cloister Key Half (87210) */
-     , (0x700D8030, 0x700D8032, '2019-02-10 00:00:00') /* North Cloister Key Half (87209) */
-     , (0x700D8030, 0x700D8033, '2019-02-10 00:00:00') /* Rytheran's Untranslated Journal (37167) */;
+VALUES (0x700D8030, 0x700D8031, '2021-11-01 00:00:00') /* South Cloister Key Half (87210) */
+     , (0x700D8030, 0x700D8032, '2021-11-01 00:00:00') /* North Cloister Key Half (87209) */
+     , (0x700D8030, 0x700D8033, '2021-11-01 00:00:00') /* Rytheran's Untranslated Journal (37167) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8031, 87210, 0x00D80132, 211.384, -363.193, -11.995, 0.609592, 0, 0, 0.792715,  True, '2021-11-01 00:00:00'); /* South Cloister Key Half */

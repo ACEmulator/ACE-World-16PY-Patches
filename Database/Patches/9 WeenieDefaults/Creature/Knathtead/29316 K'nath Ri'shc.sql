@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29316;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29316, 'knathrishc', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (29316, 'knathrishc', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29316,   1,         16) /* ItemType - Creature */
@@ -112,6 +112,10 @@ VALUES (29316,   108,   2.06)  /* Frost Blast IV */
      , (29316,  1341,   2.04)  /* Weakness Other IV */
      , (29316,  1817,   2.06)  /* Lightning Streak IV */
      , (29316,  2728,   2.07)  /* Frost Arc IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29316,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29316, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29316, 9,  5789,  0, 0, 0.2, False) /* Create Brown Lump (5789) for ContainTreasure */

@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44307;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44307, 'ace44307-altaroftheblackcrystal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (44307, 'ace44307-altaroftheblackcrystal', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44307,   1,         16) /* ItemType - Creature */
-     , (44307,   6,        255) /* ItemsCapacity */
-     , (44307,   7,        255) /* ContainersCapacity */
+     , (44307,   6,         -1) /* ItemsCapacity */
+     , (44307,   7,         -1) /* ContainersCapacity */
      , (44307,  16,         32) /* ItemUseable - Remote */
-     , (44307,  93,    4260884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP, EdgeSlide */
+     , (44307,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (44307,  95,          8) /* RadarBlipColor - Yellow */
      , (44307, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
@@ -19,6 +19,8 @@ VALUES (44307,   1, True ) /* Stuck */
      , (44307,  14, True ) /* GravityStatus */
      , (44307,  19, False) /* Attackable */
      , (44307,  42, True ) /* AllowEdgeSlide */
+     , (44307,  52, True ) /* AiImmobile */
+     , (44307,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (44307,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

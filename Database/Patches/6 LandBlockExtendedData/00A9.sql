@@ -29,15 +29,15 @@ VALUES (0x700A907B,  1154, 0x00A90155, 70.2123, -19.0841, 0, 0.0575, 0, 0, -0.99
 /* @teleloc 0x00A90155 [70.212303 -19.084101 0.000000] 0.057500 0.000000 0.000000 -0.998345 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A907B, 0x700A907C, '2020-06-23 00:00:00') /* Horrid Remoran (39512) */
-     , (0x700A907B, 0x700A907D, '2020-06-23 00:00:00') /* Tortured Spirit (34978) */
-     , (0x700A907B, 0x700A907E, '2020-06-23 00:00:00') /* Laisu Sclavus (34975) */
-     , (0x700A907B, 0x700A907F, '2020-06-23 00:00:00') /* Tortured Spirit (34978) */
-     , (0x700A907B, 0x700A9080, '2020-06-23 00:00:00') /* Laisu Sclavus (34975) */
-     , (0x700A907B, 0x700A9081, '2020-06-23 00:00:00') /* Laisu Sclavus (34975) */
-     , (0x700A907B, 0x700A9082, '2020-06-23 00:00:00') /* Laisu Sclavus (34975) */
-     , (0x700A907B, 0x700A9083, '2020-06-23 00:00:00') /* Laisu Sclavus (34975) */
-     , (0x700A907B, 0x700A9084, '2020-06-23 00:00:00') /* Laisu Sclavus (34975) */;
+VALUES (0x700A907B, 0x700A907C, '2021-11-01 00:00:00') /* Horrid Remoran (39512) */
+     , (0x700A907B, 0x700A907D, '2021-11-01 00:00:00') /* Tortured Spirit (34978) */
+     , (0x700A907B, 0x700A907E, '2021-11-01 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700A907B, 0x700A907F, '2021-11-01 00:00:00') /* Tortured Spirit (34978) */
+     , (0x700A907B, 0x700A9080, '2021-11-01 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700A907B, 0x700A9081, '2021-11-01 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700A907B, 0x700A9082, '2021-11-01 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700A907B, 0x700A9083, '2021-11-01 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700A907B, 0x700A9084, '2021-11-01 00:00:00') /* Laisu Sclavus (34975) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A907C, 39512, 0x00A90155, 70.2123, -19.0841, 0, 0.0575, 0, 0, -0.998345,  True, '2021-11-01 00:00:00'); /* Horrid Remoran */

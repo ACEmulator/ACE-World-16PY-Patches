@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41948;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41948, 'ace41948-mhoirecastlecourtyardportal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (41948, 'ace41948-mhoirecastlecourtyardportal', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41948,   1,         16) /* ItemType - Creature */
@@ -11,8 +11,7 @@ VALUES (41948,   1,         16) /* ItemType - Creature */
      , (41948,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41948,  95,          4) /* RadarBlipColor - Purple */
      , (41948, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (41948, 267,         20) /* Lifespan */
-     , (41948, 268,         20) /* RemainingLifespan */;
+     , (41948, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41948,   1, True ) /* Stuck */

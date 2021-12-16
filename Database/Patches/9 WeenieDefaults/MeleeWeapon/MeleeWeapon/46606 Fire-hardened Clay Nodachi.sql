@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46606;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46606, 'ace46606-firehardenedclaynodachi', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46606, 'ace46606-firehardenedclaynodachi', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46606,   1,          1) /* ItemType - MeleeWeapon */
      , (46606,   3,         25) /* PaletteTemplate - DarkCopperMetal */
      , (46606,   5,        450) /* EncumbranceVal */
      , (46606,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (46606,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (46606,  16,          1) /* ItemUseable - No */
      , (46606,  18,         32) /* UiEffects - Fire */
      , (46606,  19,       1150) /* Value */

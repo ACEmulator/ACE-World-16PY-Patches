@@ -5,11 +5,11 @@ VALUES (0x7002F000, 24129, 0x002F0104, 14.9848, 3.52755, 2.2013, -0.999995, 0, 0
 /* @teleloc 0x002F0104 [14.984800 3.527550 2.201300] -0.999995 0.000000 0.000000 -0.003092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7002F000, 0x7002F002, '2019-02-15 14:34:36') /* Tursh (31040) */
-     , (0x7002F000, 0x7002F003, '2019-02-15 14:34:36') /* Ruschk Draktehn (29343) */
-     , (0x7002F000, 0x7002F004, '2019-02-15 14:34:36') /* Ruschk Draktehn (29343) */
-     , (0x7002F000, 0x7002F005, '2019-02-15 14:34:36') /* Ruschk Draktehn (29343) */
-     , (0x7002F000, 0x7002F006, '2019-02-15 14:34:36') /* Ruschk Draktehn (29343) */;
+VALUES (0x7002F000, 0x7002F002, '2021-11-01 00:00:00') /* Tursh (31040) */
+     , (0x7002F000, 0x7002F003, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x7002F000, 0x7002F004, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x7002F000, 0x7002F005, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x7002F000, 0x7002F006, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7002F001, 31042, 0x002F010F, 29.4948, -29.5912, 0.005, -0.921483, 0, 0, -0.388418, False, '2021-11-01 00:00:00'); /* Surface */

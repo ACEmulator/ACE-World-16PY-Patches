@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32083;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32083, 'ace32083-instructions', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (32083, 'ace32083-instructions', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32083,   1,       8192) /* ItemType - Writable */
@@ -10,7 +10,6 @@ VALUES (32083,   1,       8192) /* ItemType - Writable */
      , (32083,  19,          0) /* Value */
      , (32083,  22,       1000) /* AvailableCharacter */
      , (32083,  33,          0) /* Bonded - Normal */
-     , (32083,  53,        101) /* PlacementPosition - Resting */
      , (32083,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32083, 114,          0) /* Attuned - Normal */;
 
@@ -37,6 +36,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (32083, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32083, 0, 0xFFFFFFFF, 'Sir Binwas Loc', '', False, 'The island of Marae Lassel was much too easy a fight. I must assume the Queen has pulled back her forces to some more valuable target. I simply cannot believe her soldiers are this inept.
+VALUES (32083, 0, 0xFFFFFFFF, 'Sir Binwas Loc', 'prewritten', False, 'The island of Marae Lassel was much too easy a fight. I must assume the Queen has pulled back her forces to some more valuable target. I simply cannot believe her soldiers are this inept.
  
 You are to scout the hills around Stonehold. If we are to make meaningful progress into Dereth, we will need to take this town. You would be wise to approach it with caution, however. We cannot expect another victory as simple as that of Marae Lassel.');

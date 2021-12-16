@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48075;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48075, 'ace48075-acidsilifi', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (48075, 'ace48075-acidsilifi', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48075,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (48075,   1,          1) /* ItemType - MeleeWeapon */
      , (48075,  48,         45) /* WeaponSkill - LightWeapons */
      , (48075,  49,         25) /* WeaponTime */
      , (48075,  51,          1) /* CombatUse - Melee */
-     , (48075,  52,          1) /* ParentLocation - RightHand */
-     , (48075,  53,          1) /* PlacementPosition - RightHandCombat */
      , (48075,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48075, 151,          2) /* HookType - Wall */
      , (48075, 353,          3) /* WeaponType - Axe */;

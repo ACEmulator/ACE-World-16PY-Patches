@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32661;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32661, 'ace32661-ciandrasstoneinfuserinstructions', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (32661, 'ace32661-ciandrasstoneinfuserinstructions', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32661,   1,       8192) /* ItemType - Writable */
@@ -27,17 +27,17 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (32661, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32661, 0, 0xFFFFFFFF, 'Ciandra', '', False, 'Using the Repaired Stone Infuser:
+VALUES (32661, 0, 0xFFFFFFFF, 'Ciandra', 'prewritten', False, 'Using the Repaired Stone Infuser:
 
 The process is fairly simple, as the tool itself does most of the work. Firstly, you''ll need a Repaired Stone Infuser. Secondly, you''ll need a Decanter of Essence. If you need Decanters of Essence, my Apprentice in Xarabydun can direct you in how to get some.
 
 To charge the Repaired Stone Infuser, simply use the Decanter of Essence on it. This will charge the Stone Infuser, which will be ready for the next step.')
-     , (32661, 1, 0xFFFFFFFF, 'Ciandra', '', False, 'The Shadowfire Stone:
+     , (32661, 1, 0xFFFFFFFF, 'Ciandra', 'prewritten', False, 'The Shadowfire Stone:
 
 To create a usable Shadowfire Stone, you will need the following two items: a Charged Stone Infuser, and a Dormant Shadowfire Stone. The dormant stone can be acquired by bringing a Repaired Shadow Stone and a Decanter of Essence to the Shade of Farelaith, on the northeast coast of Osteth. He should be located at 74.3N, 58.6E. Give him the repaired stone first, and then the decanter. He has graciously agreed to do the rest.
 
 Once you have both a Charged Stone Infuser and a Dormant Shadowfire Stone, all you need to do is use the charged Infuser on the dormant stone. The Mana in the Infuser will awaken the Shadowfire Stone. This will, unfortunately, destroy the Stone Infuser, but there seems to be a good number of them in Atlan''s Laboratory, so more can be gathered. Please limit yourself to once a month for these, as we don''t want to use up the supply.')
-     , (32661, 2, 0xFFFFFFFF, 'Ciandra', '', False, 'Once you have a Shadowfire Stone, you can use it with any unstoned Perfect Isparian Weapon to make a Shadowfire Isparian Weapon. There are a couple of important notes about this.
+     , (32661, 2, 0xFFFFFFFF, 'Ciandra', 'prewritten', False, 'Once you have a Shadowfire Stone, you can use it with any unstoned Perfect Isparian Weapon to make a Shadowfire Isparian Weapon. There are a couple of important notes about this.
 
 First, the Shadowfire Stone doesn''t fit into any Atlan Weapon. It just doesn''t work. Second, the Shadowfire Stone only seems to work with the most perfect of Isparian Weapons. It will not set into the lesser versions of the weapons. Lastly, and most importantly, once the Shadowfire Stone is set into an Isparian Weapon, the change is both dramatic and PERMANENT. The entire structure of the weapon changes, and there is no tool that will remove the stone once it is set in place.
 

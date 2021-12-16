@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42111;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42111, 'ace42111-storagebox', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (42111, 'ace42111-storagebox', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42111,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,7 @@ VALUES (42111,   1,        128) /* ItemType - Misc */
      , (42111,  16,          1) /* ItemUseable - No */
      , (42111,  19,          0) /* Value */
      , (42111,  33,          1) /* Bonded - Bonded */
-     , (42111,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (42111,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42111, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

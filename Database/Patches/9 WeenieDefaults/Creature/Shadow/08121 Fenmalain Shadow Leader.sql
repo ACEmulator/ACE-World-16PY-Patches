@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8121;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8121, 'shadowfenmalain', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8121, 'shadowfenmalain', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8121,   1,         16) /* ItemType - Creature */
@@ -163,6 +163,10 @@ VALUES (8121,    71,   2.04)  /* Frost Bolt III */
      , (8121,  1292,   2.01)  /* Mana to Health Self III */
      , (8121,  1666,   2.01)  /* Stamina to Health Self III */
      , (8121,  1678,   2.01)  /* Stamina to Mana Self III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8121,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8121, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8121, 9,  8085,  0, 0, 1, False) /* Create Oozing Lump (8085) for ContainTreasure */

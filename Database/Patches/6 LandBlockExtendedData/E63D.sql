@@ -137,8 +137,8 @@ VALUES (0x7E63D021,  7923, 0xE63D014C, 104.245, 61.7964, 86.005, -0.202749, 0, 0
 /* @teleloc 0xE63D014C [104.245003 61.796398 86.004997] -0.202749 0.000000 0.000000 0.979231 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E63D021, 0x7E63D020, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x7E63D021, 0x7E63D03D, '2005-02-09 10:00:00') /* Small Creepy Statue (25987) */;
+VALUES (0x7E63D021, 0x7E63D020, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7E63D021, 0x7E63D03D, '2021-11-01 00:00:00') /* Small Creepy Statue (25987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E63D022, 12304, 0xE63D0000, 102.536, 54.7218, 86.005, 0.999884, 0, 0, 0.015255, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */

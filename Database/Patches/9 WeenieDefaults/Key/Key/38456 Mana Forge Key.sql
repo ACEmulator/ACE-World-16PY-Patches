@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38456;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38456, 'ace38456-manaforgekey', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (38456, 'ace38456-manaforgekey', 22, '2021-11-17 16:56:08') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38456,   1,      16384) /* ItemType - Key */
@@ -10,7 +10,6 @@ VALUES (38456,   1,      16384) /* ItemType - Key */
      , (38456,  18,         64) /* UiEffects - Lightning */
      , (38456,  19,      10000) /* Value */
      , (38456,  33,          0) /* Bonded - Normal */
-     , (38456,  53,        101) /* PlacementPosition - Resting */
      , (38456,  91,          1) /* MaxStructure */
      , (38456,  92,          1) /* Structure */
      , (38456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

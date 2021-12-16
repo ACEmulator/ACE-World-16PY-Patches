@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8405;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8405, 'fireelementalflammanofall', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8405, 'fireelementalflammanofall', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8405,   1,         16) /* ItemType - Creature */
@@ -123,3 +123,7 @@ VALUES (8405,    82,   2.11)  /* Flame Bolt III */
      , (8405,  1159,   2.01)  /* Heal Self IV */
      , (8405,  1239,  2.006)  /* Drain Health Other III */
      , (8405,  1309,  2.006)  /* Armor Self III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8405,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8405, 414) /* PLAYER_DEATH_EVENT */;

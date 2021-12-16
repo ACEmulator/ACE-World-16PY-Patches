@@ -13,8 +13,8 @@ VALUES (0x7979A003,  4219, 0x979A0007, 21.366, 161.506, 39.2546, -0.907051, 0, 0
 /* @teleloc 0x979A0007 [21.365999 161.505997 39.254601] -0.907051 0.000000 0.000000 0.421021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7979A003, 0x7979A004, '2020-11-02 08:39:46') /* StrangeDeviceOne Watcher (87020) */
-     , (0x7979A003, 0x7979A005, '2020-11-02 08:40:09') /* StrangeDeviceOne Controller (87021) */;
+VALUES (0x7979A003, 0x7979A004, '2021-11-01 00:00:00') /* StrangeDeviceOne Watcher (87020) */
+     , (0x7979A003, 0x7979A005, '2021-11-01 00:00:00') /* StrangeDeviceOne Controller (87021) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7979A004, 87020, 0x979A0007, 22.2764, 160.429, 39.0668, -0.987296, 0, 0, 0.158895,  True, '2021-11-01 00:00:00'); /* StrangeDeviceOne Watcher */

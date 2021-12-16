@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46268;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46268, 'ace46268-weepingcrossbowcast', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (46268, 'ace46268-weepingcrossbowcast', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46268,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (46268,   1,        128) /* ItemType - Misc */
      , (46268,  16,          1) /* ItemUseable - No */
      , (46268,  19,       5000) /* Value */
      , (46268,  33,          1) /* Bonded - Bonded */
-     , (46268,  53,        101) /* PlacementPosition - Resting */
      , (46268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46268, 114,          1) /* Attuned - Attuned */;
 

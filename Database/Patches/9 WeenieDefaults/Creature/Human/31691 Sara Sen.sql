@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31691;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31691, 'ace31691-sarasen', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31691, 'ace31691-sarasen', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31691,   1,         16) /* ItemType - Creature */
      , (31691,   2,         31) /* CreatureType - Human */
-     , (31691,   6,        255) /* ItemsCapacity */
-     , (31691,   7,        255) /* ContainersCapacity */
+     , (31691,   6,         -1) /* ItemsCapacity */
+     , (31691,   7,         -1) /* ContainersCapacity */
      , (31691,  16,         32) /* ItemUseable - Remote */
      , (31691,  25,         29) /* Level */
      , (31691,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,6 +19,7 @@ VALUES (31691,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31691,   1, True ) /* Stuck */
+     , (31691,   8, True ) /* AllowGive */
      , (31691,  11, True ) /* IgnoreCollisions */
      , (31691,  12, True ) /* ReportCollisions */
      , (31691,  14, True ) /* GravityStatus */

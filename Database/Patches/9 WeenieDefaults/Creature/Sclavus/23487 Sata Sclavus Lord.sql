@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23487;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23487, 'sclavussatalord', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (23487, 'sclavussatalord', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23487,   1,         16) /* ItemType - Creature */
@@ -140,6 +140,10 @@ VALUES (23487,    62,   2.02)  /* Acid Stream V */
      , (23487,   525,   2.05)  /* Acid Vulnerability Other V */
      , (23487,  1155,   2.05)  /* Piercing Vulnerability Other V */
      , (23487,  1467,   2.05)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23487,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23487, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23487, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */

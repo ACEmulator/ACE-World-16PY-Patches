@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8013;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8013, 'crystalfenmalain', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8013, 'crystalfenmalain', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8013,   1,         16) /* ItemType - Creature */
@@ -128,6 +128,10 @@ VALUES (8013,    76,   2.11)  /* Lightning Bolt II */
      , (8013,  1239,   2.04)  /* Drain Health Other III */
      , (8013,  1309,   2.04)  /* Armor Self III */
      , (8013,  1417,   2.04)  /* Slowness Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8013,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8013, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */

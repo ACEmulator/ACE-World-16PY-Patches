@@ -25,14 +25,14 @@ VALUES (0x74CE201D,  1154, 0x4CE20106, 77.505, 177.95, 64.805, 1, 0, 0, 0, False
 /* @teleloc 0x4CE20106 [77.504997 177.949997 64.805000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CE201D, 0x74CE201E, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
-     , (0x74CE201D, 0x74CE2020, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
-     , (0x74CE201D, 0x74CE2021, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46533) */
-     , (0x74CE201D, 0x74CE2022, '2019-02-10 00:00:00') /* Sarcophagus (52295) */
-     , (0x74CE201D, 0x74CE2023, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
-     , (0x74CE201D, 0x74CE2060, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
-     , (0x74CE201D, 0x74CE20A8, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
-     , (0x74CE201D, 0x74CE20E8, '2019-02-10 00:00:00') /* Spectral Archer (46501) */;
+VALUES (0x74CE201D, 0x74CE201E, '2021-11-01 00:00:00') /* Spectral Minion (46529) */
+     , (0x74CE201D, 0x74CE2020, '2021-11-01 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74CE201D, 0x74CE2021, '2021-11-01 00:00:00') /* Spectral Nanjou Shou-jen (46533) */
+     , (0x74CE201D, 0x74CE2022, '2021-11-01 00:00:00') /* Sarcophagus (52295) */
+     , (0x74CE201D, 0x74CE2023, '2021-11-01 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74CE201D, 0x74CE2060, '2021-11-01 00:00:00') /* Spectral Archer (46499) */
+     , (0x74CE201D, 0x74CE20A8, '2021-11-01 00:00:00') /* Spectral Minion (46531) */
+     , (0x74CE201D, 0x74CE20E8, '2021-11-01 00:00:00') /* Spectral Archer (46501) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE201E, 46529, 0x4CE20106, 77.505, 177.95, 64.805, -0.095335, 0, 0, -0.995445,  True, '2021-11-01 00:00:00'); /* Spectral Minion */

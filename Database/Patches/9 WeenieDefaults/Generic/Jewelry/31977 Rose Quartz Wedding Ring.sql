@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31977;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31977, 'ace31977-rosequartzweddingring', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (31977, 'ace31977-rosequartzweddingring', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31977,   1,          8) /* ItemType - Jewelry */
@@ -11,8 +11,6 @@ VALUES (31977,   1,          8) /* ItemType - Jewelry */
      , (31977,  18,          1) /* UiEffects - Magical */
      , (31977,  19,       5000) /* Value */
      , (31977,  33,          1) /* Bonded - Bonded */
-     , (31977,  52,          2) /* ParentLocation - LeftHand */
-     , (31977,  53,        101) /* PlacementPosition - Resting */
      , (31977,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31977, 106,        300) /* ItemSpellcraft */
      , (31977, 107,       2000) /* ItemCurMana */

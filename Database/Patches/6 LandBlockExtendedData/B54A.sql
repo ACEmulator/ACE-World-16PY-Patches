@@ -5,21 +5,21 @@ VALUES (0x7B54A000,  1154, 0xB54A000C, 30.7, 91, 118.005, -0.939693, 0, 0, -0.34
 /* @teleloc 0xB54A000C [30.700001 91.000000 118.004997] -0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B54A000, 0x7B54A001, '2019-02-10 00:00:00') /* Brellegia (53280) */
-     , (0x7B54A000, 0x7B54A002, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53275) */
-     , (0x7B54A000, 0x7B54A003, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53275) */
-     , (0x7B54A000, 0x7B54A004, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53275) */
-     , (0x7B54A000, 0x7B54A005, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53274) */
-     , (0x7B54A000, 0x7B54A006, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53274) */
-     , (0x7B54A000, 0x7B54A008, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53273) */
-     , (0x7B54A000, 0x7B54A009, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53273) */
-     , (0x7B54A000, 0x7B54A00A, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53276) */
-     , (0x7B54A000, 0x7B54A00B, '2019-02-10 00:00:00') /* Doriathazaar (53272) */
-     , (0x7B54A000, 0x7B54A00C, '2019-02-10 00:00:00') /* Summercrown (53451) */
-     , (0x7B54A000, 0x7B54A00D, '2019-02-10 00:00:00') /* Aangesilus (53281) */
-     , (0x7B54A000, 0x7B54A00E, '2019-02-10 00:00:00') /* Dridge (53306) */
-     , (0x7B54A000, 0x7B54A00F, '2019-02-10 00:00:00') /* Kervim'telek (53271) */
-     , (0x7B54A000, 0x7B54A010, '2019-02-10 00:00:00') /* Swift (53283) */;
+VALUES (0x7B54A000, 0x7B54A001, '2021-11-01 00:00:00') /* Brellegia (53280) */
+     , (0x7B54A000, 0x7B54A002, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53275) */
+     , (0x7B54A000, 0x7B54A003, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53275) */
+     , (0x7B54A000, 0x7B54A004, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53275) */
+     , (0x7B54A000, 0x7B54A005, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53274) */
+     , (0x7B54A000, 0x7B54A006, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53274) */
+     , (0x7B54A000, 0x7B54A008, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53273) */
+     , (0x7B54A000, 0x7B54A009, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53273) */
+     , (0x7B54A000, 0x7B54A00A, '2021-11-01 00:00:00') /* Doriathazaar's Horde (53276) */
+     , (0x7B54A000, 0x7B54A00B, '2021-11-01 00:00:00') /* Doriathazaar (53272) */
+     , (0x7B54A000, 0x7B54A00C, '2021-11-01 00:00:00') /* Summercrown (53451) */
+     , (0x7B54A000, 0x7B54A00D, '2021-11-01 00:00:00') /* Aangesilus (53281) */
+     , (0x7B54A000, 0x7B54A00E, '2021-11-01 00:00:00') /* Dridge (53306) */
+     , (0x7B54A000, 0x7B54A00F, '2021-11-01 00:00:00') /* Kervim'telek (53271) */
+     , (0x7B54A000, 0x7B54A010, '2021-11-01 00:00:00') /* Swift (53283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54A001, 53280, 0xB54A000C, 30.7, 91, 118.005, -0.939693, 0, 0, -0.34202,  True, '2021-11-01 00:00:00'); /* Brellegia */
@@ -90,7 +90,7 @@ VALUES (0x7B54A011, 15759, 0xB54A001D, 86.0167, 110.633, 117.999, 0.998266, 0, 0
 /* @teleloc 0xB54A001D [86.016701 110.633003 117.999001] 0.998266 0.000000 0.000000 -0.058860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B54A011, 0x7B54A012, '2019-02-10 00:00:00') /* Token of the New Paragon (53479) */;
+VALUES (0x7B54A011, 0x7B54A012, '2021-11-01 00:00:00') /* Token of the New Paragon (53479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54A012, 53479, 0xB54A001D, 86.0167, 110.633, 117.999, 0.998266, 0, 0, -0.05886,  True, '2021-11-01 00:00:00'); /* Token of the New Paragon */
@@ -101,27 +101,27 @@ VALUES (0x7B54A013,  1154, 0xB54A0021, 113.183, 1.83517, 27.0228, 0.974881, 0, 0
 /* @teleloc 0xB54A0021 [113.182999 1.835170 27.022800] 0.974881 0.000000 0.000000 0.222727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B54A013, 0x7B54A014, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A015, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A016, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A017, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A018, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A019, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A01A, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A01B, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A01C, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A01D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A01E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A01F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A020, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A021, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A022, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A023, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A024, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A025, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A026, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A027, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B54A013, 0x7B54A028, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */;
+VALUES (0x7B54A013, 0x7B54A014, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A015, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A016, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A017, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A018, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A019, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A01A, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A01B, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A01C, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A01D, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A01E, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A01F, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A020, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A021, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A022, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A023, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A024, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A025, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A026, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A027, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A013, 0x7B54A028, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54A014, 53375, 0xB54A0020, 85.6971, 188.88, 14.3207, 0.669118, 0, 0, 0.743157,  True, '2021-11-01 00:00:00'); /* Sath'tik Eyestalk */

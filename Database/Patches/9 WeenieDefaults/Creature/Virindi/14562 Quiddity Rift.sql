@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14562;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14562, 'riftquiddityinvokingmid', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (14562, 'riftquiddityinvokingmid', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14562,   1,         16) /* ItemType - Creature */
@@ -119,6 +119,10 @@ VALUES (14562,    80,  2.115)  /* Lightning Bolt VI */
      , (14562,  1093,  2.115)  /* Fire Protection Self V */
      , (14562,  1113,  2.115)  /* Blade Protection Self V */
      , (14562,  1137,  2.115)  /* Piercing Protection Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14562,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14562, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14562, -1, 14558, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Vibrant Virindi Energy Cluster (14558) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24179;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24179, 'stoneheartmajor', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (24179, 'stoneheartmajor', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24179,   1,       2048) /* ItemType - Gem */
@@ -16,7 +16,6 @@ VALUES (24179,   1,       2048) /* ItemType - Gem */
      , (24179,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24179,  19,          0) /* Value */
      , (24179,  33,          1) /* Bonded - Bonded */
-     , (24179,  53,        101) /* PlacementPosition - Resting */
      , (24179,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24179,  94,        128) /* TargetType - Misc */
      , (24179, 114,          1) /* Attuned - Attuned */;

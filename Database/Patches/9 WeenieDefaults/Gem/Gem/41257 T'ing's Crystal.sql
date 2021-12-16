@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41257;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41257, 'ace41257-tingscrystal', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (41257, 'ace41257-tingscrystal', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41257,   1,       2048) /* ItemType - Gem */
@@ -16,7 +16,6 @@ VALUES (41257,   1,       2048) /* ItemType - Gem */
      , (41257,  19,          0) /* Value */
      , (41257,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (41257,  33,         -1) /* Bonded - Slippery */
-     , (41257,  53,        101) /* PlacementPosition - Resting */
      , (41257,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41257,  94,         16) /* TargetType - Creature */
      , (41257, 106,        325) /* ItemSpellcraft */

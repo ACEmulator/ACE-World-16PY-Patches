@@ -77,7 +77,7 @@ VALUES (0x72D30411,  7924, 0x2D30002B, 139.33, 51.8718, 190.105, 1, 0, 0, 0, Fal
 /* @teleloc 0x2D30002B [139.330002 51.871799 190.104996] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D30411, 0x72D30412, '2021-01-13 13:38:35') /* Lothus Guardian of Sorrows (51830) */;
+VALUES (0x72D30411, 0x72D30412, '2021-11-01 00:00:00') /* Lothus Guardian of Sorrows (51830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D30412, 51830, 0x2D30002B, 139.33, 51.8718, 190.079, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lothus Guardian of Sorrows */

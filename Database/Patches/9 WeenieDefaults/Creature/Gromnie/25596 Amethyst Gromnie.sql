@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25596;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25596, 'gromnieamethyst', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25596, 'gromnieamethyst', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25596,   1,         16) /* ItemType - Creature */
@@ -110,6 +110,9 @@ VALUES (25596,  0, 64, 140, 0.75,  300,  450,  450,  450,  450,  450,  270,  600
      , (25596,  8, 64, 140, 0.75,  300,  450,  450,  450,  450,  450,  270,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0, 0.03, 0.22,    0,    0, 0.22) /* Foot */
      , (25596,  9, 64, 140,  0.5,  300,  450,  450,  450,  450,  450,  270,  600,    0, 1,  0.1,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Horn */
      , (25596, 22, 64, 140,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25596, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25596,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

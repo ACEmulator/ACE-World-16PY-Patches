@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45960;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45960, 'ace45960-amateurexplorervambraces', 2, '2021-11-01 00:00:00') /* Clothing */;
+VALUES (45960, 'ace45960-amateurexplorervambraces', 2, '2021-11-17 16:56:08') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45960,   1,          2) /* ItemType - Armor */
@@ -12,7 +12,6 @@ VALUES (45960,   1,          2) /* ItemType - Armor */
      , (45960,  16,          1) /* ItemUseable - No */
      , (45960,  19,        100) /* Value */
      , (45960,  28,        240) /* ArmorLevel */
-     , (45960,  53,        101) /* PlacementPosition - Resting */
      , (45960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45960, 106,        250) /* ItemSpellcraft */
      , (45960, 107,        400) /* ItemCurMana */

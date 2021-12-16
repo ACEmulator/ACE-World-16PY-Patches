@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34024;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34024, 'ace34024-silifiofcrimsonnight', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (34024, 'ace34024-silifiofcrimsonnight', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34024,   1,          1) /* ItemType - MeleeWeapon */
@@ -35,7 +35,6 @@ VALUES (34024,   1,          1) /* ItemType - MeleeWeapon */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34024,  22, True ) /* Inscribable */
      , (34024,  69, False) /* IsSellable */
-     , (34024,  85, True ) /* AppraisalHasAllowedWielder */
      , (34024,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

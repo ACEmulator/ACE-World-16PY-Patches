@@ -9,8 +9,8 @@ VALUES (0x72E6C009, 14595, 0x2E6C011E, -278, 121.75, -35.6, 0, 0, 0, -1, False, 
 /* @teleloc 0x2E6C011E [-278.000000 121.750000 -35.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C009, 0x72E6C008, '2005-02-09 10:00:00') /* Lever (14565) */
-     , (0x72E6C009, 0x72E6C00A, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C009, 0x72E6C008, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x72E6C009, 0x72E6C00A, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C00A, 14565, 0x2E6C011F, -278, 117, -35.626, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -25,8 +25,8 @@ VALUES (0x72E6C00E, 14598, 0x2E6C012D, -278, 72.25, -35.6, 1, 0, 0, 0, False, '2
 /* @teleloc 0x2E6C012D [-278.000000 72.250000 -35.599998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C00E, 0x72E6C00D, '2005-02-09 10:00:00') /* Lever (14565) */
-     , (0x72E6C00E, 0x72E6C011, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C00E, 0x72E6C00D, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x72E6C00E, 0x72E6C011, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C011, 14565, 0x2E6C0130, -278, 67, -35.626, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -37,7 +37,7 @@ VALUES (0x72E6C021,  2179, 0x2E6C015E, -218, 122.25, -35.6, 0, 0, 0, -1, False, 
 /* @teleloc 0x2E6C015E [-218.000000 122.250000 -35.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C021, 0x72E6C02A, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C021, 0x72E6C02A, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C023,   568, 0x2E6C0163, -218, 92.25, -35.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -60,7 +60,7 @@ VALUES (0x72E6C028,  2179, 0x2E6C0169, -218, 71.75, -35.6, 1, 0, 0, 0, False, '2
 /* @teleloc 0x2E6C0169 [-218.000000 71.750000 -35.599998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C028, 0x72E6C02B, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C028, 0x72E6C02B, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C02A, 14565, 0x2E6C016F, -210.5, 97, -35.626, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -75,7 +75,7 @@ VALUES (0x72E6C02F,  2179, 0x2E6C0175, -198, 122.25, -35.6, 0, 0, 0, -1, False, 
 /* @teleloc 0x2E6C0175 [-198.000000 122.250000 -35.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C02F, 0x72E6C021, '2005-02-09 10:00:00') /* Door (2179) */;
+VALUES (0x72E6C02F, 0x72E6C021, '2021-11-01 00:00:00') /* Door (2179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C031,   568, 0x2E6C017A, -198, 92.25, -35.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -98,14 +98,14 @@ VALUES (0x72E6C036,  2179, 0x2E6C0180, -198, 71.75, -35.6, 1, 0, 0, 0, False, '2
 /* @teleloc 0x2E6C0180 [-198.000000 71.750000 -35.599998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C036, 0x72E6C028, '2005-02-09 10:00:00') /* Door (2179) */;
+VALUES (0x72E6C036, 0x72E6C028, '2021-11-01 00:00:00') /* Door (2179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C03A,  2179, 0x2E6C0192, -172.75, 97, -35.6, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C0192 [-172.750000 97.000000 -35.599998] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C03A, 0x72E6C0C8, '2005-02-09 10:00:00') /* Lever (40779) */;
+VALUES (0x72E6C03A, 0x72E6C0C8, '2021-11-01 00:00:00') /* Lever (40779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C048, 14565, 0x2E6C01AF, -138, 127, -35.626, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -116,8 +116,8 @@ VALUES (0x72E6C049, 14564, 0x2E6C01B0, -138, 121.75, -35.6, 0, 0, 0, -1, False, 
 /* @teleloc 0x2E6C01B0 [-138.000000 121.750000 -35.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C049, 0x72E6C048, '2005-02-09 10:00:00') /* Lever (14565) */
-     , (0x72E6C049, 0x72E6C04A, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C049, 0x72E6C048, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x72E6C049, 0x72E6C04A, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C04A, 14565, 0x2E6C01B1, -138, 117, -35.626, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -132,8 +132,8 @@ VALUES (0x72E6C04E, 14596, 0x2E6C01BF, -138, 72.25, -35.6, 1, 0, 0, 0, False, '2
 /* @teleloc 0x2E6C01BF [-138.000000 72.250000 -35.599998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C04E, 0x72E6C04D, '2005-02-09 10:00:00') /* Lever (14565) */
-     , (0x72E6C04E, 0x72E6C050, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C04E, 0x72E6C04D, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x72E6C04E, 0x72E6C050, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C050, 14565, 0x2E6C01C2, -138, 67, -35.626, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -168,101 +168,101 @@ VALUES (0x72E6C07C, 43882, 0x2E6C02D5, -223.25, 107, -17.6, -0.707107, 0, 0, 0.7
 /* @teleloc 0x2E6C02D5 [-223.250000 107.000000 -17.600000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C07C, 0x72E6C07E, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C07C, 0x72E6C07E, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C07D, 43882, 0x2E6C02D6, -232.75, 107, -17.6, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02D6 [-232.750000 107.000000 -17.600000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C07D, 0x72E6C0E7, '2005-02-09 10:00:00') /* Lever (40782) */
-     , (0x72E6C07D, 0x72E6C1B3, '2005-02-09 10:00:00') /* Lever (40782) */
-     , (0x72E6C07D, 0x72E6C1B4, '2005-02-09 10:00:00') /* Lever (40782) */
-     , (0x72E6C07D, 0x72E6C1B5, '2005-02-09 10:00:00') /* Lever (40782) */;
+VALUES (0x72E6C07D, 0x72E6C0E7, '2021-11-01 00:00:00') /* Lever (40782) */
+     , (0x72E6C07D, 0x72E6C1B3, '2021-11-01 00:00:00') /* Lever (40782) */
+     , (0x72E6C07D, 0x72E6C1B4, '2021-11-01 00:00:00') /* Lever (40782) */
+     , (0x72E6C07D, 0x72E6C1B5, '2021-11-01 00:00:00') /* Lever (40782) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C07E, 43882, 0x2E6C02D7, -228, 102.25, -17.6, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02D7 [-228.000000 102.250000 -17.600000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C07E, 0x72E6C07D, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C07E, 0x72E6C07D, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C089,  2179, 0x2E6C02F1, -208, 126.25, -17.6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02F1 [-208.000000 126.250000 -17.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C089, 0x72E6C077, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C089, 0x72E6C077, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C08A,  2179, 0x2E6C02F1, -208, 131.75, -17.6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02F1 [-208.000000 131.750000 -17.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C08A, 0x72E6C0AE, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C08A, 0x72E6C0AE, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C08F, 43882, 0x2E6C02F5, -208, 102.25, -17.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02F5 [-208.000000 102.250000 -17.600000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C08F, 0x72E6C090, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C08F, 0x72E6C090, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C090, 43882, 0x2E6C02F6, -212.75, 107, -17.6, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02F6 [-212.750000 107.000000 -17.600000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C090, 0x72E6C092, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C090, 0x72E6C092, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C091, 43882, 0x2E6C02F7, -203.25, 107, -17.6, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02F7 [-203.250000 107.000000 -17.600000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C091, 0x72E6C0A6, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C091, 0x72E6C0A6, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C092, 43882, 0x2E6C02F8, -208, 111.75, -17.6, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02F8 [-208.000000 111.750000 -17.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C092, 0x72E6C091, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C092, 0x72E6C091, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C099,  2179, 0x2E6C0301, -208, 66.25, -17.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C0301 [-208.000000 66.250000 -17.600000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C099, 0x72E6C078, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C099, 0x72E6C078, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C09A,  2179, 0x2E6C0301, -208, 62.25, -17.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C0301 [-208.000000 62.250000 -17.600000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C09A, 0x72E6C0AF, '2005-02-09 10:00:00') /* Lever (14565) */;
+VALUES (0x72E6C09A, 0x72E6C0AF, '2021-11-01 00:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0A5, 43882, 0x2E6C0317, -183.25, 107, -17.6, -0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C0317 [-183.250000 107.000000 -17.600000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0A5, 0x72E6C0A7, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C0A5, 0x72E6C0A7, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0A6, 43882, 0x2E6C0318, -192.75, 107, -17.6, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C0318 [-192.750000 107.000000 -17.600000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0A6, 0x72E6C0A5, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C0A6, 0x72E6C0A5, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0A7, 43882, 0x2E6C0319, -188, 102.25, -17.6, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C0319 [-188.000000 102.250000 -17.600000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0A7, 0x72E6C07C, '2005-02-09 10:00:00') /* Door (43882) */;
+VALUES (0x72E6C0A7, 0x72E6C07C, '2021-11-01 00:00:00') /* Door (43882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0AE, 14565, 0x2E6C032F, -168, 107, -17.626, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -277,234 +277,234 @@ VALUES (0x72E6C0B5, 43883, 0x2E6C02DB, -232.75, 87, -17.6, -0.707107, 0, 0, -0.7
 /* @teleloc 0x2E6C02DB [-232.750000 87.000000 -17.600000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0B5, 0x72E6C0BC, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0B5, 0x72E6C0BC, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0B6, 43883, 0x2E6C02DC, -223.25, 87, -17.6, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02DC [-223.250000 87.000000 -17.600000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0B6, 0x72E6C0B7, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0B6, 0x72E6C0B7, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0B7, 43883, 0x2E6C02DD, -228, 91.75, -17.6, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02DD [-228.000000 91.750000 -17.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0B7, 0x72E6C0B5, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0B7, 0x72E6C0B5, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0B8, 43883, 0x2E6C02FC, -208, 82.25, -17.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02FC [-208.000000 82.250000 -17.600000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0B8, 0x72E6C0BA, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0B8, 0x72E6C0BA, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0B9, 43883, 0x2E6C02FD, -212.75, 87, -17.6, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02FD [-212.750000 87.000000 -17.600000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0B9, 0x72E6C0BB, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0B9, 0x72E6C0BB, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0BA, 43883, 0x2E6C02FE, -203.25, 87, -17.6, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02FE [-203.250000 87.000000 -17.600000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0BA, 0x72E6C0B9, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0BA, 0x72E6C0B9, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0BB, 43883, 0x2E6C02FF, -208, 91.75, -17.6, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C02FF [-208.000000 91.750000 -17.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0BB, 0x72E6C0B6, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0BB, 0x72E6C0B6, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0BC, 43883, 0x2E6C031D, -192.75, 87, -17.6, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C031D [-192.750000 87.000000 -17.600000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0BC, 0x72E6C0BD, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0BC, 0x72E6C0BD, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0BD, 43883, 0x2E6C031E, -183.25, 87, -17.6, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C031E [-183.250000 87.000000 -17.600000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0BD, 0x72E6C0BE, '2005-02-09 10:00:00') /* Door (43883) */;
+VALUES (0x72E6C0BD, 0x72E6C0BE, '2021-11-01 00:00:00') /* Door (43883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0BE, 43883, 0x2E6C031F, -188, 91.75, -17.6, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x2E6C031F [-188.000000 91.750000 -17.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0BE, 0x72E6C0E8, '2005-02-09 10:00:00') /* Lever (40785) */
-     , (0x72E6C0BE, 0x72E6C1B0, '2005-02-09 10:00:00') /* Lever (40785) */
-     , (0x72E6C0BE, 0x72E6C1B1, '2005-02-09 10:00:00') /* Lever (40785) */
-     , (0x72E6C0BE, 0x72E6C1B2, '2005-02-09 10:00:00') /* Lever (40785) */;
+VALUES (0x72E6C0BE, 0x72E6C0E8, '2021-11-01 00:00:00') /* Lever (40785) */
+     , (0x72E6C0BE, 0x72E6C1B0, '2021-11-01 00:00:00') /* Lever (40785) */
+     , (0x72E6C0BE, 0x72E6C1B1, '2021-11-01 00:00:00') /* Lever (40785) */
+     , (0x72E6C0BE, 0x72E6C1B2, '2021-11-01 00:00:00') /* Lever (40785) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0BF,  4219, 0x2E6C02D3, -228.042, 106.298, -17.595, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x2E6C02D3 [-228.042007 106.297997 -17.594999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C0BF, 0x72E6C0C0, '2019-02-10 00:00:00') /* Progenitor of Frost (40780) */
-     , (0x72E6C0BF, 0x72E6C0C1, '2019-02-10 00:00:00') /* Progenitor of Fire (40781) */
-     , (0x72E6C0BF, 0x72E6C0C2, '2019-02-10 00:00:00') /* Progenitor of Shadow (40783) */
-     , (0x72E6C0BF, 0x72E6C0C3, '2019-02-10 00:00:00') /* Progenitor of Lightning (40786) */
-     , (0x72E6C0BF, 0x72E6C0C4, '2019-02-10 00:00:00') /* Progenitor of Acid (40787) */
-     , (0x72E6C0BF, 0x72E6C0C9, '2019-02-10 00:00:00') /* Spectral Progenitor (40784) */
-     , (0x72E6C0BF, 0x72E6C0CA, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0CB, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0CC, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C0CD, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C0CE, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C0CF, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C0D0, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C0D1, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C0D2, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C0D3, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C0D4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0D5, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C0D6, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C0D7, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0D8, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0D9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0DA, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C0DB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0DC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0DD, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C0DE, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0DF, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0E0, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C0E1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0E2, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C0E3, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C0E9, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C0EA, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C0EB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0EC, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0ED, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C0EE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0EF, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C0F0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0F9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0FA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0FB, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0FC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C0FD, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0FE, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C0FF, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C100, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C101, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C102, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C103, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C104, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C105, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C106, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C107, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C108, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C109, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C10A, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C10B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C10C, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C10D, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C10E, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C10F, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C110, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C111, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C112, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C113, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C114, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C115, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C116, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C117, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C118, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C119, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C11A, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C11B, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C11C, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C11D, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C11E, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C11F, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C120, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C121, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C122, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C123, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C124, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C125, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C126, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C127, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C128, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C129, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C12A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C12B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C12C, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C12D, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C12E, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C12F, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C130, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C131, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C132, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C133, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C134, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C135, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C136, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C137, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C138, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C139, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C13A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C13B, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C13C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C13D, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C13E, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C13F, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C140, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C141, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C142, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C143, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C144, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C145, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C146, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C147, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C148, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C149, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C14A, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C14B, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C14C, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C14D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
-     , (0x72E6C0BF, 0x72E6C14E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
-     , (0x72E6C0BF, 0x72E6C187, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C188, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C189, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C18A, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C18B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C18C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C18D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C18E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C18F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C190, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C191, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C193, '2019-02-10 00:00:00') /* Ancient Golem (40775) */
-     , (0x72E6C0BF, 0x72E6C194, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C195, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
-     , (0x72E6C0BF, 0x72E6C196, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C197, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C198, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C199, '2019-02-10 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
-     , (0x72E6C0BF, 0x72E6C19A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
-     , (0x72E6C0BF, 0x72E6C19B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
-     , (0x72E6C0BF, 0x72E6C19C, '2019-02-10 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */;
+VALUES (0x72E6C0BF, 0x72E6C0C0, '2021-11-01 00:00:00') /* Progenitor of Frost (40780) */
+     , (0x72E6C0BF, 0x72E6C0C1, '2021-11-01 00:00:00') /* Progenitor of Fire (40781) */
+     , (0x72E6C0BF, 0x72E6C0C2, '2021-11-01 00:00:00') /* Progenitor of Shadow (40783) */
+     , (0x72E6C0BF, 0x72E6C0C3, '2021-11-01 00:00:00') /* Progenitor of Lightning (40786) */
+     , (0x72E6C0BF, 0x72E6C0C4, '2021-11-01 00:00:00') /* Progenitor of Acid (40787) */
+     , (0x72E6C0BF, 0x72E6C0C9, '2021-11-01 00:00:00') /* Spectral Progenitor (40784) */
+     , (0x72E6C0BF, 0x72E6C0CA, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0CB, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0CC, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C0CD, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C0CE, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C0CF, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C0D0, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C0D1, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C0D2, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C0D3, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C0D4, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0D5, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C0D6, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C0D7, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0D8, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0D9, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0DA, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C0DB, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0DC, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0DD, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C0DE, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0DF, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0E0, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C0E1, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0E2, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C0E3, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C0E9, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C0EA, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C0EB, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0EC, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0ED, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C0EE, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0EF, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C0F0, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F1, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F2, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F3, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F4, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F5, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F6, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F7, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F8, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0F9, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0FA, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0FB, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0FC, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C0FD, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0FE, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C0FF, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C100, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C101, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C102, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C103, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C104, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C105, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C106, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C107, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C108, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C109, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C10A, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C10B, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C10C, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C10D, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C10E, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C10F, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C110, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C111, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C112, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C113, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C114, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C115, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C116, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C117, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C118, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C119, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C11A, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C11B, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C11C, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C11D, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C11E, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C11F, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C120, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C121, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C122, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C123, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C124, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C125, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C126, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C127, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C128, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C129, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C12A, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C12B, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C12C, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C12D, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C12E, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C12F, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C130, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C131, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C132, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C133, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C134, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C135, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C136, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C137, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C138, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C139, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C13A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C13B, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C13C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C13D, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C13E, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C13F, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C140, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C141, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C142, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C143, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C144, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C145, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C146, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C147, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C148, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C149, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C14A, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C14B, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C14C, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C14D, '2021-11-01 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E6C0BF, 0x72E6C14E, '2021-11-01 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E6C0BF, 0x72E6C187, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C188, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C189, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C18A, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C18B, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C18C, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C18D, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C18E, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C18F, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C190, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C191, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C193, '2021-11-01 00:00:00') /* Ancient Golem (40775) */
+     , (0x72E6C0BF, 0x72E6C194, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C195, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */
+     , (0x72E6C0BF, 0x72E6C196, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C197, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C198, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C199, '2021-11-01 00:00:00') /* Intense Shivering Crystalline Wisp (40773) */
+     , (0x72E6C0BF, 0x72E6C19A, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40774) */
+     , (0x72E6C0BF, 0x72E6C19B, '2021-11-01 00:00:00') /* Intense Corroding Crystalline Wisp (40778) */
+     , (0x72E6C0BF, 0x72E6C19C, '2021-11-01 00:00:00') /* Intense Voltaic Crystalline Wisp (40777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C0C0, 40780, 0x2E6C02D3, -228.042, 106.298, -17.595, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Progenitor of Frost */
@@ -1143,12 +1143,12 @@ VALUES (0x72E6C19D,  1154, 0x2E6C016F, -208.066, 94.25, -35.594, 1, 0, 0, 0, Fal
 /* @teleloc 0x2E6C016F [-208.065994 94.250000 -35.594002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C19D, 0x72E6C19E, '2019-02-10 00:00:00') /* Shade of Ja'qu (40799) */
-     , (0x72E6C19D, 0x72E6C19F, '2019-02-10 00:00:00') /* Crystal (40123) */
-     , (0x72E6C19D, 0x72E6C1A0, '2019-02-10 00:00:00') /* Crystal (40120) */
-     , (0x72E6C19D, 0x72E6C1A1, '2019-02-10 00:00:00') /* Crystal (40122) */
-     , (0x72E6C19D, 0x72E6C1A2, '2019-02-10 00:00:00') /* Crystal (40121) */
-     , (0x72E6C19D, 0x72E6C1A3, '2019-02-10 00:00:00') /* Crystal (40091) */;
+VALUES (0x72E6C19D, 0x72E6C19E, '2021-11-01 00:00:00') /* Shade of Ja'qu (40799) */
+     , (0x72E6C19D, 0x72E6C19F, '2021-11-01 00:00:00') /* Crystal (40123) */
+     , (0x72E6C19D, 0x72E6C1A0, '2021-11-01 00:00:00') /* Crystal (40120) */
+     , (0x72E6C19D, 0x72E6C1A1, '2021-11-01 00:00:00') /* Crystal (40122) */
+     , (0x72E6C19D, 0x72E6C1A2, '2021-11-01 00:00:00') /* Crystal (40121) */
+     , (0x72E6C19D, 0x72E6C1A3, '2021-11-01 00:00:00') /* Crystal (40091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C19E, 40799, 0x2E6C016F, -208.066, 94.25, -35.594, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Shade of Ja'qu */
@@ -1179,17 +1179,17 @@ VALUES (0x72E6C1A4,  1542, 0x2E6C0151, -233.136, 93.844, -35.6, -0.481561, 0, 0,
 /* @teleloc 0x2E6C0151 [-233.136002 93.844002 -35.599998] -0.481561 0.000000 0.000000 -0.876413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C1A4, 0x72E6C1A5, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A6, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A7, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A8, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A9, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AA, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AB, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AC, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AD, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AE, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AF, '2019-02-10 00:00:00') /* Essence Lock (40902) */;
+VALUES (0x72E6C1A4, 0x72E6C1A5, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1A6, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1A7, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1A8, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1A9, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1AA, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1AB, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1AC, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1AD, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1AE, '2021-11-01 00:00:00') /* Torch (293) */
+     , (0x72E6C1A4, 0x72E6C1AF, '2021-11-01 00:00:00') /* Essence Lock (40902) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C1A5,   293, 0x2E6C0151, -233.136, 93.844, -35.6, -0.481561, 0, 0, -0.876413,  True, '2021-11-01 00:00:00'); /* Torch */

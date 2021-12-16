@@ -49,13 +49,13 @@ VALUES (0x7B12800B,  4219, 0xB1280000, 110.805, 50.3341, 170.199, 0.198945, 0, 0
 /* @teleloc 0xB1280000 [110.805000 50.334099 170.199005] 0.198945 0.000000 0.000000 0.980011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B12800B, 0x7B128004, '2005-02-09 10:00:00') /* Dual Fragment (8012) */
-     , (0x7B12800B, 0x7B128005, '2005-02-09 10:00:00') /* Dual Fragment (8012) */
-     , (0x7B12800B, 0x7B128006, '2005-02-09 10:00:00') /* Dual Fragment (8012) */
-     , (0x7B12800B, 0x7B128007, '2005-02-09 10:00:00') /* Dual Fragment (8012) */
-     , (0x7B12800B, 0x7B128008, '2005-02-09 10:00:00') /* Dual Fragment (8012) */
-     , (0x7B12800B, 0x7B128009, '2005-02-09 10:00:00') /* Dual Fragment (8012) */
-     , (0x7B12800B, 0x7B12800A, '2005-02-09 10:00:00') /* Dual Fragment (8012) */;
+VALUES (0x7B12800B, 0x7B128004, '2021-11-01 00:00:00') /* Dual Fragment (8012) */
+     , (0x7B12800B, 0x7B128005, '2021-11-01 00:00:00') /* Dual Fragment (8012) */
+     , (0x7B12800B, 0x7B128006, '2021-11-01 00:00:00') /* Dual Fragment (8012) */
+     , (0x7B12800B, 0x7B128007, '2021-11-01 00:00:00') /* Dual Fragment (8012) */
+     , (0x7B12800B, 0x7B128008, '2021-11-01 00:00:00') /* Dual Fragment (8012) */
+     , (0x7B12800B, 0x7B128009, '2021-11-01 00:00:00') /* Dual Fragment (8012) */
+     , (0x7B12800B, 0x7B12800A, '2021-11-01 00:00:00') /* Dual Fragment (8012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B12800C, 23602, 0xB1280000, 113.386, 46.7951, 170.199, 0.396918, 0, 0, -0.917854, False, '2021-11-01 00:00:00'); /* Runed Chest */

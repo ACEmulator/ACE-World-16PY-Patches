@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34276;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34276, 'ace34276-ancientempyreantrinket', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (34276, 'ace34276-ancientempyreantrinket', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34276,   1,       2048) /* ItemType - Gem */
@@ -12,7 +12,6 @@ VALUES (34276,   1,       2048) /* ItemType - Gem */
      , (34276,  15,      10000) /* StackUnitValue */
      , (34276,  16,          1) /* ItemUseable - No */
      , (34276,  19,      10000) /* Value */
-     , (34276,  53,        101) /* PlacementPosition - Resting */
      , (34276,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

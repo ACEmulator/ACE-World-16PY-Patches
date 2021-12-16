@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30158;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30158, 'gemrareeternalmagicitemtinkering', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30158, 'gemrareeternalmagicitemtinkering', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30158,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30158,   1, 0x020009A7) /* Setup */
      , (30158,  28,       4592) /* Spell - Incantation of Magic Item Tinkering Expertise Self */
      , (30158,  50, 0x06005B50) /* IconOverlay */
      , (30158,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30158,  4592,      2)  /* Incantation of Magic Item Tinkering Expertise Self */;

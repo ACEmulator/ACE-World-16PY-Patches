@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41582;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41582, 'ace41582-bronzegauntletguardian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (41582, 'ace41582-bronzegauntletguardian', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41582,   1,         16) /* ItemType - Creature */
      , (41582,   2,         99) /* CreatureType - GearKnight */
-     , (41582,   6,        255) /* ItemsCapacity */
-     , (41582,   7,        255) /* ContainersCapacity */
+     , (41582,   6,         -1) /* ItemsCapacity */
+     , (41582,   7,         -1) /* ContainersCapacity */
      , (41582,  16,          1) /* ItemUseable - No */
      , (41582,  25,         80) /* Level */
      , (41582,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -28,7 +28,6 @@ VALUES (41582,  13,       1) /* ArmorModVsSlash */
      , (41582,  17,     1.5) /* ArmorModVsFire */
      , (41582,  18,     0.5) /* ArmorModVsAcid */
      , (41582,  19,    0.75) /* ArmorModVsElectric */
-     , (41582,  27,    5.01) /* RotationSpeed */
      , (41582,  31,      33) /* VisualAwarenessRange */
      , (41582,  34,       1) /* PowerupTime */
      , (41582,  36,       1) /* ChargeSpeed */

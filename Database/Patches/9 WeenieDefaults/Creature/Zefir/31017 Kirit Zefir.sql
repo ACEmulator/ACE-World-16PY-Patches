@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31017, 'zefirkirithighyield', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31017, 'zefirkirithighyield', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31017,   1,         16) /* ItemType - Creature */
@@ -29,8 +29,6 @@ VALUES (31017,   1, True ) /* Stuck */
      , (31017,  13, False) /* Ethereal */
      , (31017,  19, True ) /* Attackable */
      , (31017,  50, True ) /* NeverFailCasting */
-     , (31017, 101, True ) /* CanGenerateRare */
-     , (31017, 102, True ) /* CorpseGeneratedRare */
      , (31017, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -121,6 +119,10 @@ VALUES (31017,    68,   2.05)  /* Shock Wave V */
      , (31017,  2084,   2.04)  /* Belly of Lead */
      , (31017,  2132,   2.05)  /* The Spike */
      , (31017,  2146,   2.06)  /* Evisceration */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31017,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31017, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31017,  3 /* Death */,   0.02, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

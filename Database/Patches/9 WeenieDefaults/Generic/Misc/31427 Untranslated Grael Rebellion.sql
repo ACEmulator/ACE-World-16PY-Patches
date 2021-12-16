@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31427;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31427, 'ace31427-untranslatedgraelrebellion', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (31427, 'ace31427-untranslatedgraelrebellion', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31427,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (31427,   1,        128) /* ItemType - Misc */
      , (31427,  19,          0) /* Value */
      , (31427,  22,       1000) /* AvailableCharacter */
      , (31427,  33,          1) /* Bonded - Bonded */
-     , (31427,  53,        101) /* PlacementPosition - Resting */
      , (31427,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31427, 114,          1) /* Attuned - Attuned */;
 

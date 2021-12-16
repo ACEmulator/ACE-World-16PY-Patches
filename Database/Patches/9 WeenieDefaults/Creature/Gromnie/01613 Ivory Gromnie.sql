@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1613;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1613, 'gromnieivory', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (1613, 'gromnieivory', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1613,   1,         16) /* ItemType - Creature */
@@ -108,6 +108,9 @@ VALUES (1613,  0,  2, 15, 0.75,   70,   70,   70,   70,   34,   32,   70,   70, 
      , (1613,  8,  4, 10, 0.75,   60,   60,   60,   60,   29,   28,   60,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0, 0.03, 0.22,    0,    0, 0.22) /* Foot */
      , (1613,  9,  2, 15,  0.5,   50,   50,   50,   50,   24,   23,   50,   50,    0, 1,  0.1,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Horn */
      , (1613, 22, 16, 12,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1613, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (1613,  5 /* HeartBeat */,   0.05, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

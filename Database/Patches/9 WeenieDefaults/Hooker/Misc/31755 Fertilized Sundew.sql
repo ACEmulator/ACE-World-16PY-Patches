@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31755;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31755, 'ace31755-fertilizedsundew', 64, '2021-11-01 00:00:00') /* Hooker */;
+VALUES (31755, 'ace31755-fertilizedsundew', 64, '2021-11-17 16:56:08') /* Hooker */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31755,   1,        128) /* ItemType - Misc */
      , (31755,   5,        100) /* EncumbranceVal */
      , (31755,  16,         32) /* ItemUseable - Remote */
      , (31755,  19,        100) /* Value */
-     , (31755,  53,        101) /* PlacementPosition - Resting */
      , (31755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31755, 150,        103) /* HookPlacement - Hook */
      , (31755, 151,          9) /* HookType - Floor, Yard */

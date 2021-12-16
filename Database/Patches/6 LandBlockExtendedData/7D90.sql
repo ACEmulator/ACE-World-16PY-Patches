@@ -5,12 +5,12 @@ VALUES (0x77D90000,  7924, 0x7D900023, 107.78, 53.9235, 124.005, 0.694126, 0, 0,
 /* @teleloc 0x7D900023 [107.779999 53.923500 124.004997] 0.694126 0.000000 0.000000 0.719854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D90000, 0x77D90002, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x77D90000, 0x77D90003, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x77D90000, 0x77D90004, '2019-02-15 14:34:36') /* Viamontian Man-at-Arms (28657) */
-     , (0x77D90000, 0x77D90005, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */
-     , (0x77D90000, 0x77D90006, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */
-     , (0x77D90000, 0x77D90007, '2019-02-15 14:34:36') /* Viamontian Warcaster (29300) */;
+VALUES (0x77D90000, 0x77D90002, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x77D90000, 0x77D90003, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x77D90000, 0x77D90004, '2021-11-01 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x77D90000, 0x77D90005, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x77D90000, 0x77D90006, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x77D90000, 0x77D90007, '2021-11-01 00:00:00') /* Viamontian Warcaster (29300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D90001, 29439, 0x7D900023, 102, 71, 123.937, 0.887011, 0, 0, -0.461749, False, '2021-11-01 00:00:00'); /* Silver Legion Keep */

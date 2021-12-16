@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46069;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46069, 'ace46069-enhancedsparkingatlanbow', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (46069, 'ace46069-enhancedsparkingatlanbow', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46069,   1,        256) /* ItemType - MissileWeapon */
@@ -9,8 +9,8 @@ VALUES (46069,   1,        256) /* ItemType - MissileWeapon */
      , (46069,   5,        980) /* EncumbranceVal */
      , (46069,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46069,  16,          1) /* ItemUseable - No */
-     , (46069,  18,       1024) /* UiEffects - Slashing */
-     , (46069,  19,        100) /* Value */
+     , (46069,  18,          1) /* UiEffects - Magical */
+     , (46069,  19,       8000) /* Value */
      , (46069,  33,          1) /* Bonded - Bonded */
      , (46069,  44,          8) /* Damage */
      , (46069,  45,         64) /* DamageType - Electric */
@@ -19,6 +19,8 @@ VALUES (46069,   1,        256) /* ItemType - MissileWeapon */
      , (46069,  49,         45) /* WeaponTime */
      , (46069,  50,          1) /* AmmoType - Arrow */
      , (46069,  51,          2) /* CombatUse - Missile */
+     , (46069,  52,          2) /* ParentLocation - LeftHand */
+     , (46069,  53,          3) /* PlacementPosition - LeftHand */
      , (46069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46069, 106,        350) /* ItemSpellcraft */
      , (46069, 107,        400) /* ItemCurMana */
@@ -33,13 +35,8 @@ VALUES (46069,   1,        256) /* ItemType - MissileWeapon */
      , (46069, 263,         64) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46069,  11, True ) /* IgnoreCollisions */
-     , (46069,  13, True ) /* Ethereal */
-     , (46069,  14, True ) /* GravityStatus */
-     , (46069,  19, True ) /* Attackable */
-     , (46069,  22, True ) /* Inscribable */
+VALUES (46069,  22, True ) /* Inscribable */
      , (46069,  69, False) /* IsSellable */
-     , (46069,  85, True ) /* AppraisalHasAllowedWielder */
      , (46069,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

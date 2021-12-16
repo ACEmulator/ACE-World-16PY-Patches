@@ -13,19 +13,19 @@ VALUES (0x7576E004,  7924, 0x576E015B, 40.4617, -9.66336, 0.0065, 0.678557, 0, 0
 /* @teleloc 0x576E015B [40.461700 -9.663360 0.006500] 0.678557 0.000000 0.000000 0.734548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7576E004, 0x7576E005, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
-     , (0x7576E004, 0x7576E006, '2019-02-10 00:00:00') /* Panumbris Shadow (43856) */
-     , (0x7576E004, 0x7576E007, '2019-02-10 00:00:00') /* Formless Shadow (45705) */
-     , (0x7576E004, 0x7576E008, '2019-02-10 00:00:00') /* Formless Shadow (45705) */
-     , (0x7576E004, 0x7576E009, '2019-02-10 00:00:00') /* Panumbris Shadow (43856) */
-     , (0x7576E004, 0x7576E00A, '2019-02-10 00:00:00') /* Formless Shadow (45705) */
-     , (0x7576E004, 0x7576E00B, '2019-02-10 00:00:00') /* Formless Shadow (45705) */
-     , (0x7576E004, 0x7576E00C, '2019-02-10 00:00:00') /* Formless Shadow (45705) */
-     , (0x7576E004, 0x7576E00D, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
-     , (0x7576E004, 0x7576E00E, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
-     , (0x7576E004, 0x7576E00F, '2019-02-10 00:00:00') /* Panumbris Shadow (43856) */
-     , (0x7576E004, 0x7576E010, '2019-02-10 00:00:00') /* Formless Shadow (45705) */
-     , (0x7576E004, 0x7576E011, '2019-02-10 00:00:00') /* Geraine (45704) */;
+VALUES (0x7576E004, 0x7576E005, '2021-11-01 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x7576E004, 0x7576E006, '2021-11-01 00:00:00') /* Panumbris Shadow (43856) */
+     , (0x7576E004, 0x7576E007, '2021-11-01 00:00:00') /* Formless Shadow (45705) */
+     , (0x7576E004, 0x7576E008, '2021-11-01 00:00:00') /* Formless Shadow (45705) */
+     , (0x7576E004, 0x7576E009, '2021-11-01 00:00:00') /* Panumbris Shadow (43856) */
+     , (0x7576E004, 0x7576E00A, '2021-11-01 00:00:00') /* Formless Shadow (45705) */
+     , (0x7576E004, 0x7576E00B, '2021-11-01 00:00:00') /* Formless Shadow (45705) */
+     , (0x7576E004, 0x7576E00C, '2021-11-01 00:00:00') /* Formless Shadow (45705) */
+     , (0x7576E004, 0x7576E00D, '2021-11-01 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7576E004, 0x7576E00E, '2021-11-01 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7576E004, 0x7576E00F, '2021-11-01 00:00:00') /* Panumbris Shadow (43856) */
+     , (0x7576E004, 0x7576E010, '2021-11-01 00:00:00') /* Formless Shadow (45705) */
+     , (0x7576E004, 0x7576E011, '2021-11-01 00:00:00') /* Geraine (45704) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576E005, 43855, 0x576E015B, 40.4617, -9.66336, 0.0065, 0.678557, 0, 0, 0.734548,  True, '2021-11-01 00:00:00'); /* Panumbris Shadow */

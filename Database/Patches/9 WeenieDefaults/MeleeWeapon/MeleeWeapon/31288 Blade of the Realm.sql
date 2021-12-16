@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31288;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31288, 'ace31288-bladeoftherealm', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (31288, 'ace31288-bladeoftherealm', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31288,   1,          1) /* ItemType - MeleeWeapon */
@@ -16,7 +16,6 @@ VALUES (31288,   1,          1) /* ItemType - MeleeWeapon */
      , (31288,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (31288,  49,         40) /* WeaponTime */
      , (31288,  51,          1) /* CombatUse - Melee */
-     , (31288,  52,          1) /* ParentLocation - RightHand */
      , (31288,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31288, 106,        400) /* ItemSpellcraft */
      , (31288, 107,       2000) /* ItemCurMana */

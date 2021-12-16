@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40923;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40923, 'ace40923-boundspectralhandmaiden', 10, '2021-11-07 08:12:46') /* Creature */;
+VALUES (40923, 'ace40923-boundspectralhandmaiden', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40923,   1,         16) /* ItemType - Creature */
@@ -76,10 +76,6 @@ VALUES (40923,   1, 0x02001120) /* Setup */
      , (40923,   7, 0x10000563) /* ClothingBase */
      , (40923,   8, 0x06003447) /* Icon */
      , (40923,  22, 0x340000AB) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40923, 8040, 0xB5F0012B, 97.8446, -36.1827, -81.3868, 0.995975, 0, 0, -0.089634) /* PCAPRecordedLocation */
-/* @teleloc 0xB5F0012B [97.844597 -36.182701 -81.386803] 0.995975 0.000000 0.000000 -0.089634 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40923,   1, 350, 0, 0) /* Strength */

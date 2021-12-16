@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43399;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43399, 'ace43399-voidmagicwardenofenlightenment', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43399, 'ace43399-voidmagicwardenofenlightenment', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43399,   1,         16) /* ItemType - Creature */
@@ -25,6 +25,8 @@ VALUES (43399,   1, True ) /* Stuck */
      , (43399,  19, False) /* Attackable */
      , (43399,  41, True ) /* ReportCollisionsAsEnvironment */
      , (43399,  42, True ) /* AllowEdgeSlide */
+     , (43399,  52, True ) /* AiImmobile */
+     , (43399,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (43399,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

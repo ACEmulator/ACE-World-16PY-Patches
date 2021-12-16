@@ -13,15 +13,15 @@ VALUES (0x7400C002,  1154, 0x400C0023, 101.876, 64.5132, 0.005, -0.744259, 0, 0,
 /* @teleloc 0x400C0023 [101.875999 64.513199 0.005000] -0.744259 0.000000 0.000000 0.667891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7400C002, 0x7400C003, '2020-08-02 00:00:00') /* Master Mage (38842) */
-     , (0x7400C002, 0x7400C004, '2020-08-02 00:00:00') /* Master Mage (38842) */
-     , (0x7400C002, 0x7400C005, '2020-08-02 00:00:00') /* Master Archer (38839) */
-     , (0x7400C002, 0x7400C006, '2020-08-02 00:00:00') /* Master Archer (38839) */
-     , (0x7400C002, 0x7400C007, '2020-08-02 00:00:00') /* Master Archer (38839) */
-     , (0x7400C002, 0x7400C008, '2020-08-02 00:00:00') /* Master Archer (38839) */
-     , (0x7400C002, 0x7400C00A, '2020-08-02 00:00:00') /* Master Soldier (38845) */
-     , (0x7400C002, 0x7400C00B, '2020-08-02 00:00:00') /* Master Soldier (38845) */
-     , (0x7400C002, 0x7400C00C, '2020-08-02 00:00:00') /* Master Soldier (41835) */;
+VALUES (0x7400C002, 0x7400C003, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x7400C002, 0x7400C004, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x7400C002, 0x7400C005, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x7400C002, 0x7400C006, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x7400C002, 0x7400C007, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x7400C002, 0x7400C008, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x7400C002, 0x7400C00A, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x7400C002, 0x7400C00B, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x7400C002, 0x7400C00C, '2021-11-01 00:00:00') /* Master Soldier (41835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7400C003, 38842, 0x400C0023, 114.579, 63.5525, 1.77791, -0.716875, 0, 0, 0.697202,  True, '2021-11-01 00:00:00'); /* Master Mage */
@@ -64,8 +64,8 @@ VALUES (0x7400C00D,  1154, 0x400C0023, 111.88, 63.7981, 0.005, -0.747854, 0, 0, 
 /* @teleloc 0x400C0023 [111.879997 63.798100 0.005000] -0.747854 0.000000 0.000000 -0.663863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7400C00D, 0x7400C00E, '2020-08-02 00:00:00') /* Jin Kyong (43124) */
-     , (0x7400C00D, 0x7400C00F, '2020-08-02 00:00:00') /* Fort Commander (41834) */;
+VALUES (0x7400C00D, 0x7400C00E, '2021-11-01 00:00:00') /* Jin Kyong (43124) */
+     , (0x7400C00D, 0x7400C00F, '2021-11-01 00:00:00') /* Fort Commander (41834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7400C00E, 43124, 0x400C0023, 111.88, 63.7981, 0.005, -0.747854, 0, 0, -0.663863,  True, '2021-11-01 00:00:00'); /* Jin Kyong */
@@ -80,7 +80,7 @@ VALUES (0x7400C010,  1542, 0x400C0023, 108.347, 70.538, 0.143463, 0.723461, 0, 0
 /* @teleloc 0x400C0023 [108.347000 70.538002 0.143463] 0.723461 0.000000 0.000000 -0.690365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7400C010, 0x7400C011, '2020-08-02 00:00:00') /* Celestial Hand Supplies (41832) */;
+VALUES (0x7400C010, 0x7400C011, '2021-11-01 00:00:00') /* Celestial Hand Supplies (41832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7400C011, 41832, 0x400C0023, 108.347, 70.538, 0.143463, 0.723461, 0, 0, -0.690365,  True, '2021-11-01 00:00:00'); /* Celestial Hand Supplies */

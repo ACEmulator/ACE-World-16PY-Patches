@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41513;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41513, 'ace41513-pathwardentrinket', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (41513, 'ace41513-pathwardentrinket', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41513,   1,          8) /* ItemType - Jewelry */
@@ -9,7 +9,6 @@ VALUES (41513,   1,          8) /* ItemType - Jewelry */
      , (41513,   9,   67108864) /* ValidLocations - TrinketOne */
      , (41513,  16,          1) /* ItemUseable - No */
      , (41513,  19,         50) /* Value */
-     , (41513,  53,        101) /* PlacementPosition - Resting */
      , (41513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41513, 106,         50) /* ItemSpellcraft */
      , (41513, 107,       6000) /* ItemCurMana */

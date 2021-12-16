@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46135;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46135, 'ace46135-enhancedshiveringatlanwand', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (46135, 'ace46135-enhancedshiveringatlanwand', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46135,   1,      32768) /* ItemType - Caster */
@@ -22,8 +22,6 @@ VALUES (46135,   1,      32768) /* ItemType - Caster */
      , (46135, 108,        500) /* ItemMaxMana */
      , (46135, 109,        250) /* ItemDifficulty */
      , (46135, 114,          1) /* Attuned - Attuned */
-     , (46135, 115,        250) /* ItemSkillLevelLimit */
-     , (46135, 150,        103) /* HookPlacement - Hook */
      , (46135, 151,          2) /* HookType - Wall */
      , (46135, 158,          2) /* WieldRequirements - RawSkill */
      , (46135, 159,         34) /* WieldSkillType - WarMagic */
@@ -32,7 +30,6 @@ VALUES (46135,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46135,  22, True ) /* Inscribable */
-     , (46135,  23, True ) /* DestroyOnSell */
      , (46135,  69, False) /* IsSellable */
      , (46135,  99, True ) /* Ivoryable */;
 

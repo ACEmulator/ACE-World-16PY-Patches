@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36570;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36570, 'ace36570-salvagedbrass', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (36570, 'ace36570-salvagedbrass', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36570,   1, 1073741824) /* ItemType - TinkeringMaterial */
@@ -41,4 +41,5 @@ VALUES (36570,   1, 0x02000181) /* Setup */
      , (36570,   6, 0x04000BEF) /* PaletteBase */
      , (36570,   7, 0x100003CE) /* ClothingBase */
      , (36570,   8, 0x060066F1) /* Icon */
-     , (36570,  22, 0x3400002B) /* PhysicsEffectTable */;
+     , (36570,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36570,  50, 0x060026C9) /* IconOverlay */;

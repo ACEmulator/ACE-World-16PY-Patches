@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45536;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45536, 'ace45536-academydagger', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (45536, 'ace45536-academydagger', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45536,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,8 +18,6 @@ VALUES (45536,   1,          1) /* ItemType - MeleeWeapon */
      , (45536,  48,         45) /* WeaponSkill - LightWeapons */
      , (45536,  49,         15) /* WeaponTime */
      , (45536,  51,          1) /* CombatUse - Melee */
-     , (45536,  52,          1) /* ParentLocation - RightHand */
-     , (45536,  53,          1) /* PlacementPosition - RightHandCombat */
      , (45536,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45536, 151,          2) /* HookType - Wall */
      , (45536, 353,          6) /* WeaponType - Dagger */;

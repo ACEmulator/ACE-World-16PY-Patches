@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34197;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34197, 'ace34197-yellowanniversarysparkler', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (34197, 'ace34197-yellowanniversarysparkler', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34197,   1,      32768) /* ItemType - Caster */
@@ -11,8 +11,6 @@ VALUES (34197,   1,      32768) /* ItemType - Caster */
      , (34197,  16,          1) /* ItemUseable - No */
      , (34197,  19,         10) /* Value */
      , (34197,  46,        512) /* DefaultCombatStyle - Magic */
-     , (34197,  52,          1) /* ParentLocation - RightHand */
-     , (34197,  53,        101) /* PlacementPosition - Resting */
      , (34197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34197,  94,         16) /* TargetType - Creature */
      , (34197, 151,          2) /* HookType - Wall */;

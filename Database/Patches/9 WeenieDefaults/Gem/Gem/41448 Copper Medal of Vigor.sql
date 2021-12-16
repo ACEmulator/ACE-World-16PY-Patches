@@ -1,11 +1,10 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41448;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41448, 'ace41448-coppermedalofvigor', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (41448, 'ace41448-coppermedalofvigor', 38, '2021-11-29 06:19:28') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (41448,   0,         36) /* Undef */
-     , (41448,   1,       2048) /* ItemType - Gem */
+VALUES (41448,   1,       2048) /* ItemType - Gem */
      , (41448,   5,         50) /* EncumbranceVal */
      , (41448,  11,          1) /* MaxStackSize */
      , (41448,  12,          1) /* StackSize */
@@ -14,7 +13,6 @@ VALUES (41448,   0,         36) /* Undef */
      , (41448,  16,          8) /* ItemUseable - Contained */
      , (41448,  18,         16) /* UiEffects - BoostStamina */
      , (41448,  19,          0) /* Value */
-     , (41448,  53,        101) /* PlacementPosition - Resting */
      , (41448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41448,  94,         16) /* TargetType - Creature */
      , (41448, 151,         11) /* HookType - Floor, Wall, Yard */

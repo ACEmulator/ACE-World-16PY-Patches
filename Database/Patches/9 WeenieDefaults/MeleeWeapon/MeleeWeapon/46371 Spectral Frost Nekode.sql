@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46371;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46371, 'ace46371-spectralfrostnekode', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46371, 'ace46371-spectralfrostnekode', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46371,   1,          1) /* ItemType - MeleeWeapon */
      , (46371,   5,        350) /* EncumbranceVal */
      , (46371,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (46371,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46371,  16,          1) /* ItemUseable - No */
      , (46371,  18,        128) /* UiEffects - Frost */
      , (46371,  19,        340) /* Value */

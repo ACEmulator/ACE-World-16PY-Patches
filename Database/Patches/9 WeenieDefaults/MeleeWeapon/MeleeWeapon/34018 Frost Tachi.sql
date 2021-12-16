@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34018, 'ace34018-frosttachi', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (34018, 'ace34018-frosttachi', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34018,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (34018,   1,          1) /* ItemType - MeleeWeapon */
      , (34018,  48,         11) /* WeaponSkill - Sword */
      , (34018,  49,         25) /* WeaponTime */
      , (34018,  51,          1) /* CombatUse - Melee */
-     , (34018,  52,          1) /* ParentLocation - RightHand */
-     , (34018,  53,        101) /* PlacementPosition - Resting */
      , (34018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34018, 353,          2) /* WeaponType - Sword */;
 

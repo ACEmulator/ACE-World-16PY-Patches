@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43521;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43521, 'ace43521-cellarkey', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (43521, 'ace43521-cellarkey', 22, '2021-11-17 16:56:08') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43521,   1,      16384) /* ItemType - Key */
      , (43521,   5,         50) /* EncumbranceVal */
      , (43521,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (43521,  19,         50) /* Value */
-     , (43521,  53,        101) /* PlacementPosition - Resting */
      , (43521,  91,          2) /* MaxStructure */
      , (43521,  92,          2) /* Structure */
      , (43521,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

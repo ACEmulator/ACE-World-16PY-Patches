@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36913;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36913, 'ace36913-grandbed', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (36913, 'ace36913-grandbed', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36913,   1,        128) /* ItemType - Misc */
      , (36913,   5,       2000) /* EncumbranceVal */
      , (36913,  16,          1) /* ItemUseable - No */
      , (36913,  19,       5000) /* Value */
-     , (36913,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (36913,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36913, 150,        103) /* HookPlacement - Hook */
      , (36913, 151,          1) /* HookType - Floor */;
 

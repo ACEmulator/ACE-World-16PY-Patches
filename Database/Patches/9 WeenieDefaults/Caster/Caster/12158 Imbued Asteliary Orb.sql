@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12158;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12158, 'orbasteliaryimbued', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (12158, 'orbasteliaryimbued', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12158,   1,      32768) /* ItemType - Caster */
@@ -29,7 +29,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12158,  22, True ) /* Inscribable */
      , (12158,  23, True ) /* DestroyOnSell */
      , (12158,  69, False) /* IsSellable */
-     , (12158,  94, True ) /* AppraisalHasAllowedActivator */
      , (12158,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

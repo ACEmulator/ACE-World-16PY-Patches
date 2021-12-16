@@ -13,14 +13,14 @@ VALUES (0x73C0D004,  1154, 0x3C0D0012, 49.244, 26.5338, 0.005, -0.429287, 0, 0, 
 /* @teleloc 0x3C0D0012 [49.243999 26.533800 0.005000] -0.429287 0.000000 0.000000 0.903168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C0D004, 0x73C0D005, '2019-02-10 00:00:00') /* Master Soldier (38846) */
-     , (0x73C0D004, 0x73C0D006, '2019-02-10 00:00:00') /* Master Mage (38843) */
-     , (0x73C0D004, 0x73C0D007, '2019-02-10 00:00:00') /* Master Archer (38840) */
-     , (0x73C0D004, 0x73C0D008, '2019-02-10 00:00:00') /* Master Archer (38840) */
-     , (0x73C0D004, 0x73C0D009, '2019-02-10 00:00:00') /* Master Archer (38840) */
-     , (0x73C0D004, 0x73C0D00A, '2019-02-10 00:00:00') /* Master Soldier (41839) */
-     , (0x73C0D004, 0x73C0D00B, '2019-02-10 00:00:00') /* Master Mage (38843) */
-     , (0x73C0D004, 0x73C0D00C, '2019-02-10 00:00:00') /* Master Archer (38840) */;
+VALUES (0x73C0D004, 0x73C0D005, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x73C0D004, 0x73C0D006, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x73C0D004, 0x73C0D007, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x73C0D004, 0x73C0D008, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x73C0D004, 0x73C0D009, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x73C0D004, 0x73C0D00A, '2021-11-01 00:00:00') /* Master Soldier (41839) */
+     , (0x73C0D004, 0x73C0D00B, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x73C0D004, 0x73C0D00C, '2021-11-01 00:00:00') /* Master Archer (38840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C0D005, 38846, 0x3C0D0012, 49.244, 26.5338, 0.005, -0.429287, 0, 0, 0.903168,  True, '2021-11-01 00:00:00'); /* Master Soldier */
@@ -59,8 +59,8 @@ VALUES (0x73C0D00D,  1154, 0x3C0D0012, 49.0592, 32.7517, 0.005, -0.147165, 0, 0,
 /* @teleloc 0x3C0D0012 [49.059200 32.751701 0.005000] -0.147165 0.000000 0.000000 -0.989112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C0D00D, 0x73C0D00E, '2019-02-10 00:00:00') /* Chun Hei (43125) */
-     , (0x73C0D00D, 0x73C0D00F, '2019-02-10 00:00:00') /* Fort Commander (41840) */;
+VALUES (0x73C0D00D, 0x73C0D00E, '2021-11-01 00:00:00') /* Chun Hei (43125) */
+     , (0x73C0D00D, 0x73C0D00F, '2021-11-01 00:00:00') /* Fort Commander (41840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C0D00E, 43125, 0x3C0D0012, 49.0592, 32.7517, 0.005, -0.147165, 0, 0, -0.989112,  True, '2021-11-01 00:00:00'); /* Chun Hei */
@@ -75,8 +75,8 @@ VALUES (0x73C0D010,  1542, 0x3C0D000A, 40.3551, 30.4978, 0.110338, -0.380885, 0,
 /* @teleloc 0x3C0D000A [40.355099 30.497801 0.110338] -0.380885 0.000000 0.000000 -0.924622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C0D010, 0x73C0D011, '2019-02-10 00:00:00') /* Eldrytch Web Supplies (41833) */
-     , (0x73C0D010, 0x73C0D012, '2019-02-10 00:00:00') /* Eldrytch Web Supplies (41833) */;
+VALUES (0x73C0D010, 0x73C0D011, '2021-11-01 00:00:00') /* Eldrytch Web Supplies (41833) */
+     , (0x73C0D010, 0x73C0D012, '2021-11-01 00:00:00') /* Eldrytch Web Supplies (41833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C0D011, 41833, 0x3C0D000A, 40.3551, 30.4978, 0.110338, -0.380885, 0, 0, -0.924622,  True, '2021-11-01 00:00:00'); /* Eldrytch Web Supplies */

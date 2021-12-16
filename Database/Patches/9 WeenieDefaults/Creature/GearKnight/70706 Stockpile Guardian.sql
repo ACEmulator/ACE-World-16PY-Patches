@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70706;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70706, 'ace70706-stockpileguardian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70706, 'ace70706-stockpileguardian', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70706,   1,         16) /* ItemType - Creature */
      , (70706,   2,         99) /* CreatureType - GearKnight */
-     , (70706,   6,        255) /* ItemsCapacity */
-     , (70706,   7,        255) /* ContainersCapacity */
+     , (70706,   6,         -1) /* ItemsCapacity */
+     , (70706,   7,         -1) /* ContainersCapacity */
      , (70706,  16,          1) /* ItemUseable - No */
      , (70706,  25,        185) /* Level */
      , (70706,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -34,7 +34,6 @@ VALUES (70706,   1,       5) /* HeartbeatInterval */
      , (70706,  17,     1.5) /* ArmorModVsFire */
      , (70706,  18,     0.5) /* ArmorModVsAcid */
      , (70706,  19,    0.75) /* ArmorModVsElectric */
-     , (70706,  27,    5.01) /* RotationSpeed */
      , (70706,  31,      33) /* VisualAwarenessRange */
      , (70706,  34,       1) /* PowerupTime */
      , (70706,  36,       1) /* ChargeSpeed */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11522;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11522, 'tumerokheashaman_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11522, 'tumerokheashaman_xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11522,   1,         16) /* ItemType - Creature */
@@ -143,6 +143,10 @@ VALUES (11522,    62,   2.04)  /* Acid Stream V */
      , (11522,  1174,  2.023)  /* Harm Other IV */
      , (11522,  1199,  2.023)  /* Enfeeble Other V */
      , (11522,  1222,  2.023)  /* Mana Drain Other IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11522,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11522, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11522, 9, 11456,  0, 0, 0.04, False) /* Create Totem of Volkama (11456) for ContainTreasure */

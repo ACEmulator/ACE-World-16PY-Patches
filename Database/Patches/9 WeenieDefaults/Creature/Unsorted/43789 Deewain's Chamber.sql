@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43789;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43789, 'ace43789-deewainschamber', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43789, 'ace43789-deewainschamber', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43789,   1,         16) /* ItemType - Creature */
@@ -11,12 +11,13 @@ VALUES (43789,   1,         16) /* ItemType - Creature */
      , (43789,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43789,  95,          4) /* RadarBlipColor - Purple */
      , (43789, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (43789, 267,        300) /* Lifespan */
-     , (43789, 268,        300) /* RemainingLifespan */;
+     , (43789, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43789,   1, True ) /* Stuck */
      , (43789,  19, False) /* Attackable */
+     , (43789,  52, True ) /* AiImmobile */
+     , (43789,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (43789,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

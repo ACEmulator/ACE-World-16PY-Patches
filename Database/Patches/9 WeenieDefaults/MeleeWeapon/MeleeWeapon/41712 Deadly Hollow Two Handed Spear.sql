@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41712;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41712, 'ace41712-deadlyhollowtwohandedspear', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (41712, 'ace41712-deadlyhollowtwohandedspear', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41712,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,8 +18,6 @@ VALUES (41712,   1,          1) /* ItemType - MeleeWeapon */
      , (41712,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41712,  49,         30) /* WeaponTime */
      , (41712,  51,          5) /* CombatUse - TwoHanded */
-     , (41712,  52,          1) /* ParentLocation - RightHand */
-     , (41712,  53,          1) /* PlacementPosition - RightHandCombat */
      , (41712,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41712, 114,          1) /* Attuned - Attuned */
      , (41712, 151,          2) /* HookType - Wall */

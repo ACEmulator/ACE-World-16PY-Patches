@@ -5,80 +5,80 @@ VALUES (0x700553E8,  7923, 0x00550104, 196.516, -183.146, -39.8247, 0.91343, 0, 
 /* @teleloc 0x00550104 [196.516006 -183.145996 -39.824699] 0.913430 0.000000 0.000000 -0.406996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700553E8, 0x700553F5, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x700553F6, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x700553F7, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x700553F8, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x700553F9, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x700553FA, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x700553FB, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x700553FC, '2019-07-16 01:21:56') /* Restless Spirit (30712) */
-     , (0x700553E8, 0x700553FD, '2019-07-16 01:21:56') /* Restless Spirit (30712) */
-     , (0x700553E8, 0x700553FE, '2019-07-16 01:21:56') /* Restless Spirit (30712) */
-     , (0x700553E8, 0x700553FF, '2019-07-16 01:21:56') /* Restless Spirit (30712) */
-     , (0x700553E8, 0x70055400, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055401, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055402, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055403, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055404, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055405, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055406, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055407, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x70055408, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x70055409, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x7005540A, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x7005540B, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x7005540C, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x7005540D, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x7005540E, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x7005540F, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x70055410, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x70055411, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055412, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055413, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055414, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055415, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x70055416, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055417, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055418, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x70055419, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x7005541A, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x7005541B, '2019-07-16 01:21:56') /* Pressure Plate Restless Spirit (70089) */
-     , (0x700553E8, 0x7005541C, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x7005541D, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x7005541E, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x7005541F, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055420, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055421, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055422, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055423, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055424, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055425, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x70055426, '2019-07-16 01:21:56') /* Pestilence Rat (25879) */
-     , (0x700553E8, 0x70055427, '2019-07-16 01:21:56') /* Pressure Plate Pestilence Rat (70090) */
-     , (0x700553E8, 0x70055428, '2019-07-16 01:21:56') /* Royal Thaumaturge (29303) */
-     , (0x700553E8, 0x70055429, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005542A, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005542B, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005542C, '2019-07-16 01:21:56') /* Royal Thaumaturge (29303) */
-     , (0x700553E8, 0x7005542D, '2019-07-16 01:21:56') /* Royal Thaumaturge (29303) */
-     , (0x700553E8, 0x7005542E, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005542F, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x70055430, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x70055431, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x70055432, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x70055433, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x70055434, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x70055435, '2019-07-16 01:21:56') /* Royal Thaumaturge (29303) */
-     , (0x700553E8, 0x70055436, '2019-07-16 01:21:56') /* Royal Thaumaturge (29303) */
-     , (0x700553E8, 0x70055437, '2019-07-16 01:21:56') /* Royal Thaumaturge (29303) */
-     , (0x700553E8, 0x70055438, '2019-07-16 01:21:56') /* Royal Thaumaturge (29303) */
-     , (0x700553E8, 0x70055439, '2019-07-16 01:21:56') /* Viamontian Seeker (70041) */
-     , (0x700553E8, 0x7005543A, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005543B, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005543C, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005543D, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */
-     , (0x700553E8, 0x7005543E, '2019-07-16 01:21:56') /* Viamontian Tribune (28652) */;
+VALUES (0x700553E8, 0x700553F5, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x700553F6, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x700553F7, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x700553F8, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x700553F9, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x700553FA, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x700553FB, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x700553FC, '2021-11-01 00:00:00') /* Restless Spirit (30712) */
+     , (0x700553E8, 0x700553FD, '2021-11-01 00:00:00') /* Restless Spirit (30712) */
+     , (0x700553E8, 0x700553FE, '2021-11-01 00:00:00') /* Restless Spirit (30712) */
+     , (0x700553E8, 0x700553FF, '2021-11-01 00:00:00') /* Restless Spirit (30712) */
+     , (0x700553E8, 0x70055400, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055401, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055402, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055403, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055404, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055405, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055406, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055407, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x70055408, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x70055409, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x7005540A, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x7005540B, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x7005540C, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x7005540D, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x7005540E, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x7005540F, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x70055410, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x70055411, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055412, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055413, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055414, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055415, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x70055416, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055417, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055418, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x70055419, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x7005541A, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x7005541B, '2021-11-01 00:00:00') /* Pressure Plate Restless Spirit (70089) */
+     , (0x700553E8, 0x7005541C, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x7005541D, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x7005541E, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x7005541F, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055420, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055421, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055422, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055423, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055424, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055425, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x70055426, '2021-11-01 00:00:00') /* Pestilence Rat (25879) */
+     , (0x700553E8, 0x70055427, '2021-11-01 00:00:00') /* Pressure Plate Pestilence Rat (70090) */
+     , (0x700553E8, 0x70055428, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x700553E8, 0x70055429, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005542A, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005542B, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005542C, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x700553E8, 0x7005542D, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x700553E8, 0x7005542E, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005542F, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x70055430, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x70055431, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x70055432, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x70055433, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x70055434, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x70055435, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x700553E8, 0x70055436, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x700553E8, 0x70055437, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x700553E8, 0x70055438, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x700553E8, 0x70055439, '2021-11-01 00:00:00') /* Viamontian Seeker (70041) */
+     , (0x700553E8, 0x7005543A, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005543B, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005543C, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005543D, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x700553E8, 0x7005543E, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700553E9, 70088, 0x005502BD, 429.928, -285.72, 0.005, -0.000084, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Surface */

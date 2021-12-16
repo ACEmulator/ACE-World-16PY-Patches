@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30176;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30176, 'gemrareeternalsword', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30176, 'gemrareeternalsword', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30176,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30176,   1, 0x020009A7) /* Setup */
      , (30176,  28,       4624) /* Spell - Incantation of Heavy Weapon Mastery Self */
      , (30176,  50, 0x06005B29) /* IconOverlay */
      , (30176,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30176,  4624,      2)  /* Incantation of Heavy Weapon Mastery Self */;

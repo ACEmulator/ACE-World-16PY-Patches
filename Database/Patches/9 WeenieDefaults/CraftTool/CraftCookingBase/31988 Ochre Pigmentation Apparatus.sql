@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31988;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31988, 'ace31988-ochrepigmentationapparatus', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (31988, 'ace31988-ochrepigmentationapparatus', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31988,   1,    4194304) /* ItemType - CraftCookingBase */
@@ -13,7 +13,6 @@ VALUES (31988,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31988,  15,      10000) /* StackUnitValue */
      , (31988,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31988,  19,      10000) /* Value */
-     , (31988,  53,        101) /* PlacementPosition - Resting */
      , (31988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31988,  94,          2) /* TargetType - Armor */;
 

@@ -81,17 +81,17 @@ VALUES (0x70080026, 15759, 0x00800133, 92.25, -43.25, 0.9465, 0.707107, 0, 0, -0
 /* @teleloc 0x00800133 [92.250000 -43.250000 0.946500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70080026, 0x70080027, '2019-02-10 00:00:00') /* Silveran Wand Token (33495) */
-     , (0x70080026, 0x70080028, '2019-02-10 00:00:00') /* Silveran Sword Token (33485) */
-     , (0x70080026, 0x70080029, '2019-02-10 00:00:00') /* Silveran Staff Token (33490) */
-     , (0x70080026, 0x7008002A, '2019-02-10 00:00:00') /* Silveran Spear Token (33488) */
-     , (0x70080026, 0x7008002B, '2019-02-10 00:00:00') /* Silveran Mace Token (33487) */
-     , (0x70080026, 0x7008002C, '2019-02-10 00:00:00') /* Silveran Dagger Token (33489) */
-     , (0x70080026, 0x7008002D, '2019-02-10 00:00:00') /* Silveran Claw Token (33491) */
-     , (0x70080026, 0x7008002E, '2019-02-10 00:00:00') /* Silveran Bow Token (33492) */
-     , (0x70080026, 0x7008002F, '2019-02-10 00:00:00') /* Silveran Crossbow Token (33493) */
-     , (0x70080026, 0x70080030, '2019-02-10 00:00:00') /* Silveran Axe Token (33486) */
-     , (0x70080026, 0x70080031, '2019-02-10 00:00:00') /* Silveran Atlatl Token (33494) */;
+VALUES (0x70080026, 0x70080027, '2021-11-01 00:00:00') /* Silveran Wand Token (33495) */
+     , (0x70080026, 0x70080028, '2021-11-01 00:00:00') /* Silveran Sword Token (33485) */
+     , (0x70080026, 0x70080029, '2021-11-01 00:00:00') /* Silveran Staff Token (33490) */
+     , (0x70080026, 0x7008002A, '2021-11-01 00:00:00') /* Silveran Spear Token (33488) */
+     , (0x70080026, 0x7008002B, '2021-11-01 00:00:00') /* Silveran Mace Token (33487) */
+     , (0x70080026, 0x7008002C, '2021-11-01 00:00:00') /* Silveran Dagger Token (33489) */
+     , (0x70080026, 0x7008002D, '2021-11-01 00:00:00') /* Silveran Claw Token (33491) */
+     , (0x70080026, 0x7008002E, '2021-11-01 00:00:00') /* Silveran Bow Token (33492) */
+     , (0x70080026, 0x7008002F, '2021-11-01 00:00:00') /* Silveran Crossbow Token (33493) */
+     , (0x70080026, 0x70080030, '2021-11-01 00:00:00') /* Silveran Axe Token (33486) */
+     , (0x70080026, 0x70080031, '2021-11-01 00:00:00') /* Silveran Atlatl Token (33494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70080027, 33495, 0x00800133, 92.25, -43.25, 0.9465, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Silveran Wand Token */

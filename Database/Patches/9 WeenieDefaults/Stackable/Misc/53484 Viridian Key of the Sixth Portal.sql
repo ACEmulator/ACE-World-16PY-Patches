@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53484;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53484, 'ace53484-viridiankeyofthesixthportal', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (53484, 'ace53484-viridiankeyofthesixthportal', 51, '2021-11-17 16:56:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53484,   1,        128) /* ItemType - Misc */
@@ -14,10 +14,8 @@ VALUES (53484,   1,        128) /* ItemType - Misc */
      , (53484,  19,          1) /* Value */
      , (53484,  33,          1) /* Bonded - Bonded */
      , (53484,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53484,  98, 1485849095) /* CreationTimestamp */
      , (53484, 114,          1) /* Attuned - Attuned */
-     , (53484, 267,      15000) /* Lifespan */
-     , (53484, 268,      14998) /* RemainingLifespan */;
+     , (53484, 267,      15000) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53484,  69, False) /* IsSellable */;

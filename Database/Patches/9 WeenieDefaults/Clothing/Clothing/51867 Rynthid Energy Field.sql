@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51867;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51867, 'ace51867-rynthidenergyfield', 2, '2021-11-01 00:00:00') /* Clothing */;
+VALUES (51867, 'ace51867-rynthidenergyfield', 2, '2021-11-17 16:56:08') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51867,   1,          4) /* ItemType - Clothing */
@@ -55,6 +55,3 @@ VALUES (51867,   1, 0x02001B2A) /* Setup */
      , (51867,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51867,  50, 0x06006C37) /* IconOverlay */
      , (51867,  55,       6151) /* ProcSpell - Crimson Storm */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51867,  6151,      2)  /* Crimson Storm */;

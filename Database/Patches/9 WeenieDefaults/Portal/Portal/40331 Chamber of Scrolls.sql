@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40331;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40331, 'ace40331-chamberofscrolls', 7, '2021-11-08 06:01:47') /* Portal */;
+VALUES (40331, 'ace40331-chamberofscrolls', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40331,   1,      65536) /* ItemType - Portal */
@@ -17,8 +17,7 @@ VALUES (40331,   1, True ) /* Stuck */
      , (40331,  13, True ) /* Ethereal */
      , (40331,  14, True ) /* GravityStatus */
      , (40331,  15, True ) /* LightsStatus */
-     , (40331,  19, True ) /* Attackable */
-     , (40331,  88, True ) /* PortalShowDestination */;
+     , (40331,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40331,  54,    -0.1) /* UseRadius */;

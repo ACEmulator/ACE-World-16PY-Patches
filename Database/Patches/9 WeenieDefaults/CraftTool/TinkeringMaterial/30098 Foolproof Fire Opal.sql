@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30098;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30098, 'materialrarefoolprooffireopal', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (30098, 'materialrarefoolprooffireopal', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30098,   1, 1073741824) /* ItemType - TinkeringMaterial */
@@ -13,7 +13,6 @@ VALUES (30098,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30098,  17,        174) /* RareId */
      , (30098,  19,         30) /* Value */
      , (30098,  33,          1) /* Bonded - Bonded */
-     , (30098,  53,        101) /* PlacementPosition - Resting */
      , (30098,  91,        100) /* MaxStructure */
      , (30098,  92,        100) /* Structure */
      , (30098,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

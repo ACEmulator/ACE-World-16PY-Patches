@@ -13,14 +13,14 @@ VALUES (0x726EC00D,  1154, 0x26EC003E, 174.68, 121.367, 80.0077, 0.648537, 0, 0,
 /* @teleloc 0x26EC003E [174.679993 121.366997 80.007698] 0.648537 0.000000 0.000000 0.761183 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726EC00D, 0x726EC00E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
-     , (0x726EC00D, 0x726EC00F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
-     , (0x726EC00D, 0x726EC010, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x726EC00D, 0x726EC011, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x726EC00D, 0x726EC012, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x726EC00D, 0x726EC013, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
-     , (0x726EC00D, 0x726EC014, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
-     , (0x726EC00D, 0x726EC015, '2019-02-10 00:00:00') /* Chicken (24937) */;
+VALUES (0x726EC00D, 0x726EC00E, '2021-11-01 00:00:00') /* Auroch Yearling (182) */
+     , (0x726EC00D, 0x726EC00F, '2021-11-01 00:00:00') /* Auroch Yearling (182) */
+     , (0x726EC00D, 0x726EC010, '2021-11-01 00:00:00') /* Chicken (24937) */
+     , (0x726EC00D, 0x726EC011, '2021-11-01 00:00:00') /* Chicken (24937) */
+     , (0x726EC00D, 0x726EC012, '2021-11-01 00:00:00') /* Chicken (24937) */
+     , (0x726EC00D, 0x726EC013, '2021-11-01 00:00:00') /* Auroch Yearling (182) */
+     , (0x726EC00D, 0x726EC014, '2021-11-01 00:00:00') /* Auroch Yearling (182) */
+     , (0x726EC00D, 0x726EC015, '2021-11-01 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726EC00E,   182, 0x26EC003E, 174.68, 121.367, 80.0077, 0.648537, 0, 0, 0.761183,  True, '2021-11-01 00:00:00'); /* Auroch Yearling */
@@ -59,8 +59,8 @@ VALUES (0x726EC016,  1154, 0x26EC0036, 152.226, 136.195, 80.005, 0.588885, 0, 0,
 /* @teleloc 0x26EC0036 [152.225998 136.195007 80.004997] 0.588885 0.000000 0.000000 -0.808217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726EC016, 0x726EC017, '2019-02-10 00:00:00') /* Fratellodunon Ribellarista (30439) */
-     , (0x726EC016, 0x726EC018, '2019-02-10 00:00:00') /* Fratellone Ribellarista (30438) */;
+VALUES (0x726EC016, 0x726EC017, '2021-11-01 00:00:00') /* Fratellodunon Ribellarista (30439) */
+     , (0x726EC016, 0x726EC018, '2021-11-01 00:00:00') /* Fratellone Ribellarista (30438) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726EC017, 30439, 0x26EC0036, 152.226, 136.195, 80.005, 0.588885, 0, 0, -0.808217,  True, '2021-11-01 00:00:00'); /* Fratellodunon Ribellarista */

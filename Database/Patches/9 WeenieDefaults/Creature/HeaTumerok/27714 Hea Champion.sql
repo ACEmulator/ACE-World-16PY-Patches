@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27714;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27714, 'tumerokheachampion', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (27714, 'tumerokheachampion', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27714,   1,         16) /* ItemType - Creature */
@@ -157,6 +157,10 @@ VALUES (27714,    62,  2.015)  /* Acid Stream V */
      , (27714,  1223,  2.012)  /* Mana Drain Other V */
      , (27714,  1331,  2.011)  /* Strength Self V */
      , (27714,  1401,  2.011)  /* Quickness Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27714,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27714, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27714, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */;

@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31004;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31004, 'lugiantukorasentinelhighyield', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31004, 'lugiantukorasentinelhighyield', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31004,   1,         16) /* ItemType - Creature */
      , (31004,   2,          5) /* CreatureType - Lugian */
      , (31004,   3,          8) /* PaletteTemplate - Green */
-     , (31004,   6,        255) /* ItemsCapacity */
-     , (31004,   7,        255) /* ContainersCapacity */
+     , (31004,   6,         -1) /* ItemsCapacity */
+     , (31004,   7,         -1) /* ContainersCapacity */
      , (31004,  16,          1) /* ItemUseable - No */
      , (31004,  25,        185) /* Level */
      , (31004,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -17,8 +17,7 @@ VALUES (31004,   1,         16) /* ItemType - Creature */
      , (31004, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31004,   1, True ) /* Stuck */
-     , (31004, 101, True ) /* CanGenerateRare */;
+VALUES (31004,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31004,   1,       5) /* HeartbeatInterval */
@@ -104,6 +103,10 @@ VALUES (31004,  0,  4,  2,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,
      , (31004,  6,  4,  2,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (31004,  7,  4, 25,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (31004,  8,  4, 140, 0.75,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31004,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31004, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31004, 9, 31348,  1, 0, 0.01, False) /* Create Lugian Sentinel's Insignia (31348) for ContainTreasure */

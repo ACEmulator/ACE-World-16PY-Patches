@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44995;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44995, 'ace44995-book2thegurogsandthebeginningsoftheplan', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (44995, 'ace44995-book2thegurogsandthebeginningsoftheplan', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44995,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (44995,   1,       8192) /* ItemType - Writable */
      , (44995,  16,          8) /* ItemUseable - Contained */
      , (44995,  19,          0) /* Value */
      , (44995,  33,          1) /* Bonded - Bonded */
-     , (44995,  53,        101) /* PlacementPosition - Resting */
      , (44995,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44995, 114,          1) /* Attuned - Attuned */;
 

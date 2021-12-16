@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27429;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27429, 'shadowwraithconsumed', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (27429, 'shadowwraithconsumed', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27429,   1,         16) /* ItemType - Creature */
@@ -152,6 +152,10 @@ VALUES (27429,   234,   2.02)  /* Vulnerability Other VI */
      , (27429,  2142,   2.04)  /* Tempest */
      , (27429,  2328,   2.01)  /* Vitality Siphon */
      , (27429,  2329,   2.01)  /* Essence Void */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27429,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27429, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace (27445) for ContainTreasure */

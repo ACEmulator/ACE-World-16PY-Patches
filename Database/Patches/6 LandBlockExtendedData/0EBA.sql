@@ -9,11 +9,11 @@ VALUES (0x70EBA001,  4219, 0x0EBA0000, 102.698, 66.6581, 2.005, -0.959978, 0, 0,
 /* @teleloc 0x0EBA0000 [102.697998 66.658096 2.005000] -0.959978 0.000000 0.000000 -0.280077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70EBA001, 0x70EBA000, '2005-02-09 10:00:00') /* Hea Arantah (10978) */
-     , (0x70EBA001, 0x70EBA008, '2005-02-09 10:00:00') /* Hea Kiriona the Shopkeep (11381) */
-     , (0x70EBA001, 0x70EBA00A, '2005-02-09 10:00:00') /* Hea Riketura the Collector (11343) */
-     , (0x70EBA001, 0x70EBA00B, '2005-02-09 10:00:00') /* Hea Ihipura the Crafter (11344) */
-     , (0x70EBA001, 0x70EBA011, '2005-02-09 10:00:00') /* Hea Mutuona (10922) */;
+VALUES (0x70EBA001, 0x70EBA000, '2021-11-01 00:00:00') /* Hea Arantah (10978) */
+     , (0x70EBA001, 0x70EBA008, '2021-11-01 00:00:00') /* Hea Kiriona the Shopkeep (11381) */
+     , (0x70EBA001, 0x70EBA00A, '2021-11-01 00:00:00') /* Hea Riketura the Collector (11343) */
+     , (0x70EBA001, 0x70EBA00B, '2021-11-01 00:00:00') /* Hea Ihipura the Crafter (11344) */
+     , (0x70EBA001, 0x70EBA011, '2021-11-01 00:00:00') /* Hea Mutuona (10922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70EBA002, 11375, 0x0EBA0000, 160.009, 7.99654, 0.005, -0.700517, 0, 0, -0.713636, False, '2021-11-01 00:00:00'); /* Hea Rangaua the Elder Shaman */

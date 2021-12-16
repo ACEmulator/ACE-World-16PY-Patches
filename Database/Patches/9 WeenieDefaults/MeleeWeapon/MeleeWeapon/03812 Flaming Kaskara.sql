@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3812;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3812, 'kaskarafire', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (3812, 'kaskarafire', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3812,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (3812,   1,          1) /* ItemType - MeleeWeapon */
      , (3812,  48,         45) /* WeaponSkill - LightWeapons */
      , (3812,  49,         35) /* WeaponTime */
      , (3812,  51,          1) /* CombatUse - Melee */
-     , (3812,  53,        101) /* PlacementPosition - Resting */
      , (3812,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3812, 150,        103) /* HookPlacement - Hook */
      , (3812, 151,          2) /* HookType - Wall */

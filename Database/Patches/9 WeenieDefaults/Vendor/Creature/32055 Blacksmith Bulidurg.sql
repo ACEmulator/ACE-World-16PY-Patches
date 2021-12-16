@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32055;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32055, 'ace32055-blacksmithbulidurg', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (32055, 'ace32055-blacksmithbulidurg', 12, '2021-11-17 16:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32055,   1,         16) /* ItemType - Creature */
      , (32055,   2,         90) /* CreatureType - Merwart */
      , (32055,   3,         77) /* PaletteTemplate - BlueGreen */
-     , (32055,   6,        255) /* ItemsCapacity */
-     , (32055,   7,        255) /* ContainersCapacity */
+     , (32055,   6,         -1) /* ItemsCapacity */
+     , (32055,   7,         -1) /* ContainersCapacity */
      , (32055,  16,         32) /* ItemUseable - Remote */
      , (32055,  25,          6) /* Level */
      , (32055,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87422;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87422, 'ace87422-mucoralteredopal', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (87422, 'ace87422-mucoralteredopal', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87422,   1, 1073741824) /* ItemType - TinkeringMaterial */
@@ -35,5 +35,5 @@ VALUES (87422,   1, 0x02000181) /* Setup */
      , (87422,   7, 0x100003CE) /* ClothingBase */
      , (87422,   8, 0x060026BE) /* Icon */
      , (87422,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (87422,  50, 0x060026D7) /* IconOverlay */
+     , (87422,  50, 0x06002708) /* IconOverlay */
      , (87422,  52, 0x06003358) /* IconUnderlay */;
