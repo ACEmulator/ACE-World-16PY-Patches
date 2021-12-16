@@ -24,6 +24,7 @@ Use:
                     - Give: 37126
 
 GotoSet: Boot
+    - EraseQuest: JesterReachedCell
     - DirectBroadcast: The Jester waggles his finger in your face.
     - Tell: Naughty naughty! You tried to trick your old pal the Jester! I already gave you a present! You need to learn a lesson little one.
     - DirectBroadcast: Jester tells you, "This will hurt you more than it hurts me."
