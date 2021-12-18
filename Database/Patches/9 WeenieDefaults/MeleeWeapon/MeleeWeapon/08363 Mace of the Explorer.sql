@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8363;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8363, 'maceexplorer', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (8363, 'maceexplorer', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8363,   1,          1) /* ItemType - MeleeWeapon */
@@ -30,11 +30,7 @@ VALUES (8363,   1,          1) /* ItemType - MeleeWeapon */
      , (8363, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8363,  11, True ) /* IgnoreCollisions */
-     , (8363,  13, True ) /* Ethereal */
-     , (8363,  14, True ) /* GravityStatus */
-     , (8363,  19, True ) /* Attackable */
-     , (8363,  22, True ) /* Inscribable */
+VALUES (8363,  22, True ) /* Inscribable */
      , (8363,  23, True ) /* DestroyOnSell */
      , (8363,  99, True ) /* Ivoryable */;
 
@@ -46,7 +42,7 @@ VALUES (8363,   5,  -0.061) /* ManaRate */
      , (8363,  29,       1) /* WeaponDefense */
      , (8363,  62,       1) /* WeaponOffense */
      , (8363,  63,       1) /* DamageMod */
-     , (8363, 136,       1) /* CriticalMultiplier */;
+     , (8363, 136,     2.5) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8363,   1, 'Mace of the Explorer') /* Name */

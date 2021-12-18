@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24033, 'quarterstaffmitequeen', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (24033, 'quarterstaffmitequeen', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24033,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,10 +28,7 @@ VALUES (24033,   1,          1) /* ItemType - MeleeWeapon */
      , (24033, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24033,  11, True ) /* IgnoreCollisions */
-     , (24033,  13, True ) /* Ethereal */
-     , (24033,  14, True ) /* GravityStatus */
-     , (24033,  19, True ) /* Attackable */
+VALUES (24033,  19, True ) /* Attackable */
      , (24033,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -43,7 +40,7 @@ VALUES (24033,   5,  -0.025) /* ManaRate */
      , (24033,  39,     0.6) /* DefaultScale */
      , (24033,  62,    1.05) /* WeaponOffense */
      , (24033,  63,       1) /* DamageMod */
-     , (24033, 136,       1) /* CriticalMultiplier */;
+     , (24033, 136,     2.5) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24033,   1, 'Mite Queen''s Staff') /* Name */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35547;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35547, 'ace35547-doomhammer', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35547, 'ace35547-doomhammer', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35547,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,11 +26,7 @@ VALUES (35547,   1,          1) /* ItemType - MeleeWeapon */
      , (35547, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35547,  11, True ) /* IgnoreCollisions */
-     , (35547,  13, True ) /* Ethereal */
-     , (35547,  14, True ) /* GravityStatus */
-     , (35547,  19, True ) /* Attackable */
-     , (35547,  22, True ) /* Inscribable */
+VALUES (35547,  22, True ) /* Inscribable */
      , (35547,  69, False) /* IsSellable */
      , (35547,  99, False) /* Ivoryable */;
 
@@ -42,7 +38,7 @@ VALUES (35547,  21,       0) /* WeaponLength */
      , (35547,  39,     1.6) /* DefaultScale */
      , (35547,  62,     1.6) /* WeaponOffense */
      , (35547,  63,       1) /* DamageMod */
-     , (35547, 136,       1) /* CriticalMultiplier */
+     , (35547, 136,     2.5) /* CriticalMultiplier */
      , (35547, 156,    0.05) /* ProcSpellRate */
      , (35547, 157,       1) /* ResistanceModifier */;
 

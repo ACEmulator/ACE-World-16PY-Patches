@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35553;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35553, 'ace35553-lordsblade', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35553, 'ace35553-lordsblade', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35553,   1,          1) /* ItemType - MeleeWeapon */
@@ -29,11 +29,7 @@ VALUES (35553,   1,          1) /* ItemType - MeleeWeapon */
      , (35553, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35553,  11, True ) /* IgnoreCollisions */
-     , (35553,  13, True ) /* Ethereal */
-     , (35553,  14, True ) /* GravityStatus */
-     , (35553,  19, True ) /* Attackable */
-     , (35553,  22, True ) /* Inscribable */
+VALUES (35553,  22, True ) /* Inscribable */
      , (35553,  69, False) /* IsSellable */
      , (35553,  99, False) /* Ivoryable */;
 
@@ -45,7 +41,7 @@ VALUES (35553,   5,  -0.033) /* ManaRate */
      , (35553,  39,     1.1) /* DefaultScale */
      , (35553,  62,    1.63) /* WeaponOffense */
      , (35553,  63,       1) /* DamageMod */
-     , (35553, 136,       1) /* CriticalMultiplier */
+     , (35553, 136,     2.5) /* CriticalMultiplier */
      , (35553, 147,    0.25) /* CriticalFrequency */
      , (35553, 156,    0.05) /* ProcSpellRate */
      , (35553, 157,       1) /* ResistanceModifier */;

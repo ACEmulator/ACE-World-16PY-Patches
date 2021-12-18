@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24239;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24239, 'axeolthoi', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (24239, 'axeolthoi', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24239,   1,          1) /* ItemType - MeleeWeapon */
@@ -30,11 +30,7 @@ VALUES (24239,   1,          1) /* ItemType - MeleeWeapon */
      , (24239, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24239,  11, True ) /* IgnoreCollisions */
-     , (24239,  13, True ) /* Ethereal */
-     , (24239,  14, True ) /* GravityStatus */
-     , (24239,  19, True ) /* Attackable */
-     , (24239,  22, True ) /* Inscribable */;
+VALUES (24239,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24239,   5,   -0.05) /* ManaRate */
@@ -46,7 +42,7 @@ VALUES (24239,   5,   -0.05) /* ManaRate */
      , (24239,  62,     1.1) /* WeaponOffense */
      , (24239,  63,       1) /* DamageMod */
      , (24239,  77,       1) /* PhysicsScriptIntensity */
-     , (24239, 136,       1) /* CriticalMultiplier */;
+     , (24239, 136,     2.5) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24239,   1, 'Acid Olthoi Axe') /* Name */;
