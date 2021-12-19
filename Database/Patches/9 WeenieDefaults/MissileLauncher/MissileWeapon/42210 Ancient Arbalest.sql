@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42210;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42210, 'ace42210-ancientarbalest', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
+VALUES (42210, 'ace42210-ancientarbalest', 3, '2021-12-18 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42210,   1,        256) /* ItemType - MissileWeapon */
@@ -40,7 +40,7 @@ VALUES (42210,   5,  -0.025) /* ManaRate */
      , (42210,  39,    1.25) /* DefaultScale */
      , (42210,  62,       1) /* WeaponOffense */
      , (42210,  63,     2.3) /* DamageMod */
-     , (42210, 136,       1) /* CriticalMultiplier */;
+     , (42210, 136,     2.5) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42210,   1, 'Ancient Arbalest') /* Name */;

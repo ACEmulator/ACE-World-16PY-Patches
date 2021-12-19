@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30347;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30347, 'atlatlrarehoodedserpentslinger', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (30347, 'atlatlrarehoodedserpentslinger', 3, '2021-12-18 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30347,   1,        256) /* ItemType - MissileWeapon */
@@ -42,11 +42,7 @@ VALUES (30347,   4,          0) /* ItemTotalXp */
      , (30347,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30347,  11, True ) /* IgnoreCollisions */
-     , (30347,  13, True ) /* Ethereal */
-     , (30347,  14, True ) /* GravityStatus */
-     , (30347,  19, True ) /* Attackable */
-     , (30347,  22, True ) /* Inscribable */
+VALUES (30347,  22, True ) /* Inscribable */
      , (30347, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -60,7 +56,7 @@ VALUES (30347,   5,   -0.05) /* ManaRate */
      , (30347,  63,     2.9) /* DamageMod */
      , (30347, 110,    1.67) /* BulkMod */
      , (30347, 111,       1) /* SizeMod */
-     , (30347, 136,       1) /* CriticalMultiplier */;
+     , (30347, 136,       3) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30347,   1, 'Hooded Serpent Slinger') /* Name */

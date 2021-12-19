@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30322;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30322, 'spearrarestargharun', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (30322, 'spearrarestargharun', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30322,   1,          1) /* ItemType - MeleeWeapon */
@@ -37,11 +37,7 @@ VALUES (30322,   4,          0) /* ItemTotalXp */
      , (30322,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30322,  11, True ) /* IgnoreCollisions */
-     , (30322,  13, True ) /* Ethereal */
-     , (30322,  14, True ) /* GravityStatus */
-     , (30322,  19, True ) /* Attackable */
-     , (30322,  22, True ) /* Inscribable */;
+VALUES (30322,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30322,   5,  -0.033) /* ManaRate */
@@ -52,7 +48,7 @@ VALUES (30322,   5,  -0.033) /* ManaRate */
      , (30322,  39,     1.1) /* DefaultScale */
      , (30322,  62,    1.18) /* WeaponOffense */
      , (30322,  63,       1) /* DamageMod */
-     , (30322, 136,       1) /* CriticalMultiplier */;
+     , (30322, 136,       3) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30322,   1, 'Star of Gharu''n') /* Name */

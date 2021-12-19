@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34341;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34341, 'ace34341-tachiofgrace', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (34341, 'ace34341-tachiofgrace', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34341,   1,          1) /* ItemType - MeleeWeapon */
@@ -44,7 +44,7 @@ VALUES (34341,   5,  -0.033) /* ManaRate */
      , (34341,  29,    1.15) /* WeaponDefense */
      , (34341,  62,    1.08) /* WeaponOffense */
      , (34341,  63,       1) /* DamageMod */
-     , (34341, 136,       1) /* CriticalMultiplier */
+     , (34341, 136,       3) /* CriticalMultiplier */
      , (34341, 149,    1.05) /* WeaponMissileDefense */
      , (34341, 150,    1.02) /* WeaponMagicDefense */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30343;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30343, 'axeraresmite', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (30343, 'axeraresmite', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30343,   1,          1) /* ItemType - MeleeWeapon */
@@ -36,11 +36,7 @@ VALUES (30343,   4,          0) /* ItemTotalXp */
      , (30343,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30343,  11, True ) /* IgnoreCollisions */
-     , (30343,  13, True ) /* Ethereal */
-     , (30343,  14, True ) /* GravityStatus */
-     , (30343,  19, True ) /* Attackable */
-     , (30343,  22, True ) /* Inscribable */;
+VALUES (30343,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30343,   5,   -0.05) /* ManaRate */
@@ -51,7 +47,7 @@ VALUES (30343,   5,   -0.05) /* ManaRate */
      , (30343,  39,     1.1) /* DefaultScale */
      , (30343,  62,    1.18) /* WeaponOffense */
      , (30343,  63,       1) /* DamageMod */
-     , (30343, 136,       1) /* CriticalMultiplier */;
+     , (30343, 136,       3) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30343,   1, 'Smite') /* Name */

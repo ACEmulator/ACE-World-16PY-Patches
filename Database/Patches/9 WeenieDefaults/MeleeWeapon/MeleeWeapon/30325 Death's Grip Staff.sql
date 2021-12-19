@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30325;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30325, 'staffraredeathsgripstaff', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (30325, 'staffraredeathsgripstaff', 6, '2021-12-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30325,   1,          1) /* ItemType - MeleeWeapon */
@@ -37,10 +37,7 @@ VALUES (30325,   4,          0) /* ItemTotalXp */
      , (30325,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30325,  11, True ) /* IgnoreCollisions */
-     , (30325,  13, True ) /* Ethereal */
-     , (30325,  14, True ) /* GravityStatus */
-     , (30325,  22, True ) /* Inscribable */;
+VALUES (30325,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30325,   5,   -0.05) /* ManaRate */
@@ -51,7 +48,7 @@ VALUES (30325,   5,   -0.05) /* ManaRate */
      , (30325,  39,     0.9) /* DefaultScale */
      , (30325,  62,    1.18) /* WeaponOffense */
      , (30325,  63,       1) /* DamageMod */
-     , (30325, 136,       1) /* CriticalMultiplier */;
+     , (30325, 136,       3) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30325,   1, 'Death''s Grip Staff') /* Name */
