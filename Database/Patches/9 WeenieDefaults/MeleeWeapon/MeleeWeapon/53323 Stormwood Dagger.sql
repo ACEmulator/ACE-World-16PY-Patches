@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53323;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53323, 'ace53323-stormwooddagger', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (53323, 'ace53323-stormwooddagger', 6, '2021-12-19 12:54:05') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53323,   1,          1) /* ItemType - MeleeWeapon */
@@ -13,7 +13,7 @@ VALUES (53323,   1,          1) /* ItemType - MeleeWeapon */
      , (53323,  44,         58) /* Damage */
      , (53323,  45,         64) /* DamageType - Electric */
      , (53323,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (53323,  47,         46) /* AttackType - Thrust, Slash, Kick, DoubleSlash */
+     , (53323,  47,          6) /* AttackType - Thrust, Slash */
      , (53323,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (53323,  49,         40) /* WeaponTime */
      , (53323,  51,          1) /* CombatUse - Melee */
