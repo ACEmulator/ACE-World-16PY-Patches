@@ -100,18 +100,18 @@ VALUES (72662,   1,  5325, 0, 0, 5500) /* MaxHealth */
      , (72662,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72662, 33, 0, 2, 0, 220, 0, 0) /* LifeMagic */
-     , (72662, 34, 0, 2, 0, 220, 0, 0) /* WarMagic */
-     , (72662, 31, 0, 2, 0, 220, 0, 0) /* CreatureMagic */
-     , (72662, 44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons */
-     , (72662, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons */
-     , (72662, 46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
-     , (72662, 51, 0, 2, 0, 507, 0, 0) /* SneakAttack */
-     , (72662, 52, 0, 2, 0, 507, 0, 0) /* DirtyFighting */
-     , (72662, 49, 0, 2, 0, 447, 0, 0) /* DualWield */
-     , (72662, 15, 0, 2, 0, 363, 0, 0) /* MagicDefense */
-     , (72662,  6, 0, 2, 0, 427, 0, 0) /* MeleeDefense */
-     , (72662,  7, 0, 2, 0, 580, 0, 0) /* MissileDefense */;
+VALUES (72662,  33, 0, 2, 0, 210, 0, 0) /* LifeMagic */
+     , (72662,  34, 0, 2, 0, 210, 0, 0) /* WarMagic */
+     , (72662,  31, 0, 2, 0, 210, 0, 0) /* CreatureMagic */
+     , (72662,  44, 0, 2, 0, 540, 0, 0) /* HeavyWeapons */
+     , (72662,  45, 0, 2, 0, 540, 0, 0) /* LightWeapons */
+     , (72662,  46, 0, 2, 0, 540, 0, 0) /* FinesseWeapons */
+     , (72662,  51, 0, 2, 0, 530, 0, 0) /* SneakAttack */
+     , (72662,  52, 0, 2, 0, 540, 0, 0) /* DirtyFighting */
+     , (72662,  49, 0, 2, 0, 550, 0, 0) /* DualWield */
+     , (72662,  15, 0, 2, 0, 340, 0, 0) /* MagicDefense */
+     , (72662,   6, 0, 2, 0, 450, 0, 0) /* MeleeDefense */
+     , (72662,   7, 0, 2, 0, 570, 0, 0) /* MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72662,  4435,   2.06) /* Incantation of Blade Blast */

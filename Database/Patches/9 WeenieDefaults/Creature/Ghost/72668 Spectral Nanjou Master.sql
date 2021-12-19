@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72668;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72668, 'ace72668-spectralnanjoumaser', 10, '2021-09-24 02:47:04') /* Creature */;
+VALUES (72668, 'ace72668-spectralnanjoumaser', 10, '2021-11-23 02:40:39') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72668,   1,         16) /* ItemType - Creature */
@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72668,   1, 'Spectral Nanjou Master') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72668,   1,   33561479) /* Setup */
-     , (72668,   2,  150994945) /* MotionTable */
-     , (72668,   3,  536870942) /* SoundTable */
-     , (72668,   4,  805306368) /* CombatTable */
-     , (72668,   6,   67108990) /* PaletteBase */
-     , (72668,   7,  268437544) /* ClothingBase */
-     , (72668,   8,  100669124) /* Icon */
-     , (72668,  22,  872415269) /* PhysicsEffectTable */
+VALUES (72668,   1, 0x02001B87) /* Setup */
+     , (72668,   2, 0x09000001) /* MotionTable */
+     , (72668,   3, 0x2000001E) /* SoundTable */
+     , (72668,   4, 0x30000000) /* CombatTable */
+     , (72668,   6, 0x0400007E) /* PaletteBase */
+     , (72668,   7, 0x10000828) /* ClothingBase */
+     , (72668,   8, 0x060016C4) /* Icon */
+     , (72668,  22, 0x34000025) /* PhysicsEffectTable */
      , (72668,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -98,22 +98,22 @@ VALUES (72668,   1, 400, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (72668,   1, 19535, 0, 0,19725) /* MaxHealth */
-     , (72668,   3,  4620, 0, 0, 5000) /* MaxStamina */
-     , (72668,   5,  2000, 0, 0, 2500) /* MaxMana */;
+     , (72668,   3,  5970, 0, 0, 6350) /* MaxStamina */
+     , (72668,   5,  7780, 0, 0, 8280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72668, 33, 0, 2, 0, 250, 0, 0) /* LifeMagic */
-     , (72668, 34, 0, 2, 0, 250, 0, 0) /* WarMagic */
-     , (72668, 31, 0, 2, 0, 250, 0, 0) /* CreatureMagic */
-     , (72668, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons */
-     , (72668, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons */
-     , (72668, 46, 0, 2, 0, 500, 0, 0) /* FinesseWeapons */
-     , (72668, 51, 0, 2, 0, 500, 0, 0) /* SneakAttack */
-     , (72668, 49, 0, 2, 0, 480, 0, 0) /* DualWield */
-     , (72668, 47, 0, 2, 0, 210, 0, 0) /* MissileWeapons */
-     , (72668, 15, 0, 2, 0, 384, 0, 0) /* MagicDefense */
-     , (72668,  6, 0, 2, 0, 440, 0, 0) /* MeleeDefense */
-     , (72668,  7, 0, 2, 0, 580, 0, 0) /* MissileDefense */;
+VALUES (72668,  33, 0, 2, 0, 240, 0, 0) /* LifeMagic */
+     , (72668,  34, 0, 2, 0, 240, 0, 0) /* WarMagic */
+     , (72668,  31, 0, 2, 0, 240, 0, 0) /* CreatureMagic */
+     , (72668,  44, 0, 2, 0, 560, 0, 0) /* HeavyWeapons */
+     , (72668,  45, 0, 2, 0, 560, 0, 0) /* LightWeapons */
+     , (72668,  46, 0, 2, 0, 550, 0, 0) /* FinesseWeapons */
+     , (72668,  51, 0, 2, 0, 550, 0, 0) /* SneakAttack */
+     , (72668,  52, 0, 2, 0, 560, 0, 0) /* DirtyFighting */
+     , (72668,  49, 0, 2, 0, 570, 0, 0) /* DualWield */
+     , (72668,  15, 0, 2, 0, 380, 0, 0) /* MagicDefense */
+     , (72668,   6, 0, 2, 0, 470, 0, 0) /* MeleeDefense */
+     , (72668,   7, 0, 2, 0, 580, 0, 0) /* MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72668,  3060,   2.06) /* Poison Blood */
@@ -177,6 +177,6 @@ VALUES (72668, 2, 46372,  1, 0,    0, False) /* Create Spectral Tachi (46372) fo
      , (72668, 9, 72637,  0, 0,    1, False) /* Create Spectral Nanjou Master's Sword (72637) for Contain */
      , (72668, 9, 72637,  0, 0,    1, False) /* Create Spectral Nanjou Master's Sword (72637) for Contain */
      , (72668, 9, 72637,  0, 0,    1, False) /* Create Spectral Nanjou Master's Sword (72637) for Contain */;
-     
+
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (72668, -1, 72664, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Spectral Ruby Nanjou Shou-jen (72664) (x1)  - Location to (re)Generate: Scatter */;

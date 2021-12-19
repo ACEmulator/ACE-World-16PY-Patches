@@ -94,10 +94,10 @@ VALUES (72655,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (72655,  8,  4, 600, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72655,  4457,   2.02)  /* Incantation of Whirling Blade */
-     , (72655,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */
-     , (72655,  4633,   2.02)  /* Incantation of Vulnerability Other */
-     , (72655,  5842,   2.02)  /* Incantation of Shield Ineptitude Other */;
+VALUES (72655,  4457,   2.05)  /* Incantation of Whirling Blade */
+     , (72655,  4475,   2.053)  /* Incantation of Blade Vulnerability Other */
+     , (72655,  4633,   2.056)  /* Incantation of Vulnerability Other */
+     , (72655,  5842,   2.059)  /* Incantation of Shield Ineptitude Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (72655, 2, 46374,  1, 0, 0, False) /* Create  (46374) for Wield */;
@@ -106,11 +106,11 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (72655,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
      , (72655,  34, 0, 2, 0, 200, 0, 0) /* WarMagic */
      , (72655,  31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
-     , (72655,  44, 0, 2, 0, 517, 0, 0) /* HeavyWeapons */
-     , (72655,  45, 0, 2, 0, 517, 0, 0) /* LightWeapons */
-     , (72655,  46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
-     , (72655,  51, 0, 2, 0, 517, 0, 0) /* SneakAttack */
-     , (72655,  49, 0, 2, 0, 437, 0, 0) /* DualWield */
-     , (72655,  15, 0, 2, 0, 343, 0, 0) /* MagicDefense */
-     , (72655,   6, 0, 2, 0, 367, 0, 0) /* MeleeDefense */
+     , (72655,  44, 0, 2, 0, 515, 0, 0) /* HeavyWeapons */
+     , (72655,  45, 0, 2, 0, 515, 0, 0) /* LightWeapons */
+     , (72655,  46, 0, 2, 0, 505, 0, 0) /* FinesseWeapons */
+     , (72655,  51, 0, 2, 0, 505, 0, 0) /* SneakAttack */
+     , (72655,  49, 0, 2, 0, 525, 0, 0) /* DualWield */
+     , (72655,  15, 0, 2, 0, 340, 0, 0) /* MagicDefense */
+     , (72655,   6, 0, 2, 0, 420, 0, 0) /* MeleeDefense */
      , (72655,   7, 0, 2, 0, 560, 0, 0) /* MissileDefense */;

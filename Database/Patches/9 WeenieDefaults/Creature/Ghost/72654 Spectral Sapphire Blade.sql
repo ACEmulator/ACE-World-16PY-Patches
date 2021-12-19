@@ -103,11 +103,11 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (72654,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
      , (72654,  34, 0, 2, 0, 200, 0, 0) /* WarMagic */
      , (72654,  31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
-     , (72654,  44, 0, 2, 0, 517, 0, 0) /* HeavyWeapons */
-     , (72654,  45, 0, 2, 0, 517, 0, 0) /* LightWeapons */
-     , (72654,  46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
-     , (72654,  51, 0, 2, 0, 517, 0, 0) /* SneakAttack */
-     , (72654,  49, 0, 2, 0, 437, 0, 0) /* DualWield */
-     , (72654,  15, 0, 2, 0, 343, 0, 0) /* MagicDefense */
-     , (72654,   6, 0, 2, 0, 367, 0, 0) /* MeleeDefense */
+     , (72654,  44, 0, 2, 0, 515, 0, 0) /* HeavyWeapons */
+     , (72654,  45, 0, 2, 0, 515, 0, 0) /* LightWeapons */
+     , (72654,  46, 0, 2, 0, 505, 0, 0) /* FinesseWeapons */
+     , (72654,  51, 0, 2, 0, 505, 0, 0) /* SneakAttack */
+     , (72654,  49, 0, 2, 0, 525, 0, 0) /* DualWield */
+     , (72654,  15, 0, 2, 0, 340, 0, 0) /* MagicDefense */
+     , (72654,   6, 0, 2, 0, 420, 0, 0) /* MeleeDefense */
      , (72654,   7, 0, 2, 0, 560, 0, 0) /* MissileDefense */;

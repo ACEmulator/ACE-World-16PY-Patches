@@ -17,10 +17,7 @@ VALUES (72657,   1,      16) /* ItemType - Creature */
      , (72657,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
      , (72657, 101,     263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
      , (72657, 133,       2) /* ShowableOnRadar - ShowMovement */
-     , (72657, 146, 1850000) /* XpOverride */
-     , (72657, 307,      20) /* DamageRating */
-     , (72657, 313,      15) /* CritRating */
-     , (72657, 316,      10) /* CritDamageResistRating */;
+     , (72657, 146, 1850000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72657,   1, True ) /* Stuck */
@@ -76,17 +73,17 @@ VALUES (72657,   1,   33561479) /* Setup */
      , (72657,  35,       2105) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (72657,   1, 550, 0, 0) /* Strength */
-     , (72657,   2, 550, 0, 0) /* Endurance */
-     , (72657,   3, 320, 0, 0) /* Quickness */
-     , (72657,   4, 380, 0, 0) /* Coordination */
-     , (72657,   5, 480, 0, 0) /* Focus */
-     , (72657,   6, 480, 0, 0) /* Self */;
+VALUES (72657,   1, 340, 0, 0) /* Strength */
+     , (72657,   2, 350, 0, 0) /* Endurance */
+     , (72657,   3, 310, 0, 0) /* Quickness */
+     , (72657,   4, 370, 0, 0) /* Coordination */
+     , (72657,   5, 460, 0, 0) /* Focus */
+     , (72657,   6, 460, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (72657,   1,  2800, 0, 0, 2975) /* MaxHealth */
-     , (72657,   3,  3000, 0, 0, 3350) /* MaxStamina */
-     , (72657,   5,  4800, 0, 0, 5280) /* MaxMana */;
+VALUES (72657,   1,  4000, 0, 0, 4175) /* MaxHealth */
+     , (72657,   3,  2800, 0, 0, 3350) /* MaxStamina */
+     , (72657,   5,  4800, 0, 0, 5260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72657,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -119,15 +116,15 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (72657, -1, 72658, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Spectral Sapphire Gatekeeper (72658) (x1)  - Location to (re)Generate: Scatter */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72657,  33, 0, 2, 0, 220, 0, 0) /* LifeMagic */
-     , (72657,  34, 0, 2, 0, 220, 0, 0) /* WarMagic */
-     , (72657,  31, 0, 2, 0, 220, 0, 0) /* CreatureMagic */
-     , (72657,  44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons */
-     , (72657,  45, 0, 2, 0, 450, 0, 0) /* LightWeapons */
-     , (72657,  46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
-     , (72657,  51, 0, 2, 0, 507, 0, 0) /* SneakAttack */
-     , (72657,  52, 0, 2, 0, 507, 0, 0) /* DirtyFighting */
-     , (72657,  49, 0, 2, 0, 447, 0, 0) /* DualWield */
-     , (72657,  15, 0, 2, 0, 363, 0, 0) /* MagicDefense */
-     , (72657,   6, 0, 2, 0, 427, 0, 0) /* MeleeDefense */
-     , (72657,   7, 0, 2, 0, 580, 0, 0) /* MissileDefense */;
+VALUES (72657,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
+     , (72657,  34, 0, 2, 0, 200, 0, 0) /* WarMagic */
+     , (72657,  31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
+     , (72657,  44, 0, 2, 0, 515, 0, 0) /* HeavyWeapons */
+     , (72657,  45, 0, 2, 0, 515, 0, 0) /* LightWeapons */
+     , (72657,  46, 0, 2, 0, 505, 0, 0) /* FinesseWeapons */
+     , (72657,  51, 0, 2, 0, 505, 0, 0) /* SneakAttack */
+     , (72657,  52, 0, 2, 0, 515, 0, 0) /* DirtyFighting */
+     , (72657,  49, 0, 2, 0, 525, 0, 0) /* DualWield */
+     , (72657,  15, 0, 2, 0, 340, 0, 0) /* MagicDefense */
+     , (72657,   6, 0, 2, 0, 420, 0, 0) /* MeleeDefense */
+     , (72657,   7, 0, 2, 0, 560, 0, 0) /* MissileDefense */;

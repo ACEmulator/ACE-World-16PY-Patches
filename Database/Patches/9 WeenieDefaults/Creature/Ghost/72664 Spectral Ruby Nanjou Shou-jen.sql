@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72664;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72664, 'ace72664-spectralrubyblade', 10, '2021-09-24 10:25:00') /* Creature */;
+VALUES (72664, 'ace72664-spectralrubyblade', 10, '2021-11-23 02:38:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72664,   1,         16) /* ItemType - Creature */
@@ -59,13 +59,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72664,   1, 'Spectral Ruby Nanjou Shou-jen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72664,   1,   33561479) /* Setup */
-     , (72664,   2,  150994945) /* MotionTable */
-     , (72664,   3,  536870942) /* SoundTable */
-     , (72664,   4,  805306368) /* CombatTable */
-     , (72664,   6,   67108990) /* PaletteBase */
-     , (72664,   7,  268437544) /* ClothingBase */
-     , (72664,   8,  100669124) /* Icon */
+VALUES (72664,   1, 0x02001B87) /* Setup */
+     , (72664,   2, 0x09000001) /* MotionTable */
+     , (72664,   3, 0x2000001E) /* SoundTable */
+     , (72664,   4, 0x30000000) /* CombatTable */
+     , (72664,   6, 0x0400007E) /* PaletteBase */
+     , (72664,   7, 0x10000828) /* ClothingBase */
+     , (72664,   8, 0x060016C4) /* Icon */
      , (72664,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -90,25 +90,26 @@ VALUES (72664,   1, 380, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (72664,   1,  6725, 0, 0, 6900) /* MaxHealth */
      , (72664,   3,  3000, 0, 0, 3350) /* MaxStamina */
-     , (72664,   5,  4790, 0, 0, 5280) /* MaxMana */;
+     , (72664,   5,  4600, 0, 0, 5090) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72664, 33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
-     , (72664, 34, 0, 2, 0, 200, 0, 0) /* WarMagic */
-     , (72664, 31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
-     , (72664, 44, 0, 2, 0, 517, 0, 0) /* HeavyWeapons */
-     , (72664, 45, 0, 2, 0, 517, 0, 0) /* LightWeapons */
-     , (72664, 46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
-     , (72664, 51, 0, 2, 0, 517, 0, 0) /* SneakAttack */
-     , (72664, 49, 0, 2, 0, 437, 0, 0) /* DualWield */
-     , (72664, 15, 0, 2, 0, 343, 0, 0) /* MagicDefense */
-     , (72664,  6, 0, 2, 0, 367, 0, 0) /* MeleeDefense */
-     , (72664,  7, 0, 2, 0, 560, 0, 0) /* MissileDefense */;
+VALUES (72664,  33, 0, 2, 0, 220, 0, 0) /* LifeMagic */
+     , (72664,  34, 0, 2, 0, 220, 0, 0) /* WarMagic */
+     , (72664,  31, 0, 2, 0, 220, 0, 0) /* CreatureMagic */
+     , (72664,  44, 0, 2, 0, 555, 0, 0) /* HeavyWeapons */
+     , (72664,  45, 0, 2, 0, 555, 0, 0) /* LightWeapons */
+     , (72664,  46, 0, 2, 0, 545, 0, 0) /* FinesseWeapons */
+     , (72664,  51, 0, 2, 0, 545, 0, 0) /* SneakAttack */
+     , (72664,  49, 0, 2, 0, 565, 0, 0) /* DualWield */
+     , (72664,  15, 0, 2, 0, 350, 0, 0) /* MagicDefense */
+     , (72664,   6, 0, 2, 0, 460, 0, 0) /* MeleeDefense */
+     , (72664,   7, 0, 2, 0, 580, 0, 0) /* MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72664,  4475,   2.08) /* Incantation of Blade Vulnerability Other */
      , (72664,  4489,   2.08) /* Incantation of Fester Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72664, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
-     , (72664, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */;
+VALUES (72664, 2, 46372,  1, 0,    0, False) /* Create Spectral Tachi (46372) for Wield */
+     , (72664, 2, 46375,  1, 0,    0, False) /* Create Spectral Nekode (46375) for Wield */;
+
