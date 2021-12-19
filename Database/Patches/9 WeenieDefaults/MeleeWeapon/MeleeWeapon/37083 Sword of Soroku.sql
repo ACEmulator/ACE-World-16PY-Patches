@@ -43,7 +43,7 @@ VALUES (37083,   5,  -0.033) /* ManaRate */
      , (37083,  62,     1.1) /* WeaponOffense */
      , (37083,  63,       1) /* DamageMod */
      , (37083, 147,    0.31) /* CriticalFrequency */
-     , (37083, 156,    0.05) /* ProcSpellRate */;
+     , (37083, 156,    0.08) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37083,   1, 'Sword of Soroku') /* Name */
