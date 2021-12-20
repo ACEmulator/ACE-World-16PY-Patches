@@ -24,7 +24,8 @@ VALUES (72782,  39,    0.75) /* DefaultScale */
      , (72782,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72782,   1, 'Blessed Cave') /* Name */;
+VALUES (72782,   1, 'Blessed Cave') /* Name */
+     , (72782,  37, 'BlessedCaveStarted_0912') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72782,   1, 0x02001698) /* Setup */
