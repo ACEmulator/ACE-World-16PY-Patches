@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72670;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72670, 'ace72670-darviss', 10, '2021-09-24 02:39:46') /* Creature */;
+VALUES (72670, 'ace72670-darviss', 10, '2021-12-20 08:47:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72670,   1,         16) /* ItemType - Creature */
@@ -33,12 +33,12 @@ VALUES (72670,   1, 'Darviss') /* Name */
      , (72670,   5, 'Recruiter of Souls') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72670,   1,   33561479) /* Setup */
-     , (72670,   2,  150994945) /* MotionTable */
-     , (72670,   3,  536870913) /* SoundTable */
-     , (72670,   6,   67108990) /* PaletteBase */
-     , (72670,   7,  268437563) /* ClothingBase */
-     , (72670,   8,  100669124) /* Icon */;
+VALUES (72670,   1, 0x02001B87) /* Setup */
+     , (72670,   2, 0x09000001) /* MotionTable */
+     , (72670,   3, 0x20000001) /* SoundTable */
+     , (72670,   6, 0x0400007E) /* PaletteBase */
+     , (72670,   7, 0x1000083B) /* ClothingBase */
+     , (72670,   8, 0x060016C4) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72670,   1, 250, 0, 0) /* Strength */
@@ -60,10 +60,10 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 1, 21 /* InqQuest */, 0, 1, NULL, 'NinjaAcademyFinished_0812@4', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 1, 21 /* InqQuest */, 0, 1, NULL, 'NinjaAcademyFinished_0812@3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72670, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@4', NULL, NULL, NULL);
+VALUES (72670, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@3', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -71,7 +71,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'Timer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72670, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@4', NULL, NULL, NULL);
+VALUES (72670, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@3', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -100,10 +100,10 @@ VALUES (72670, 1 /* Refuse */, 1, 72637, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 21 /* InqQuest */, 0, 1, NULL, 'NinjaAcademyFinished_0812@5', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 21 /* InqQuest */, 0, 1, NULL, 'NinjaAcademyFinished_0812@4', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72670, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@5', NULL, NULL, NULL);
+VALUES (72670, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@4', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -111,7 +111,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'Timer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72670, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@5', NULL, NULL, NULL);
+VALUES (72670, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'NinjaAcademyFinished_0812@4', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -124,10 +124,10 @@ VALUES (72670, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'NinjaAcademyStarted_
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-72637', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 72637, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-72637_2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 72637, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72670, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'OwnsItem-72637', NULL, NULL, NULL);
+VALUES (72670, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'OwnsItem-72637_2', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -141,7 +141,17 @@ VALUES (@parent_id, 0, 74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL, N
      , (@parent_id, 6, 18 /* DirectBroadcast */, 0, 1, NULL, 'Darviss takes the sword from your hand.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 7, 10 /* Tell */, 0, 1, NULL, 'Well done. Many have tried, and many have failed. This deed will show Hoshino Kei you may be worthy when the time comes.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 8, 10 /* Tell */, 0, 1, NULL, 'Do not let this victory swell your ego. Continue to wreak havoc on your enemies throughout this land and one day she may come for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 9, 10 /* Tell */, 0, 1, NULL, 'I have nothing more for you at this time. If you seek further tasks find Kousha, they may have more work for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 9, 10 /* Tell */, 0, 1, NULL, 'I have nothing more for you at this time. If you seek further tasks find Kousha, they may have more work for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 10, 102 /* InqQuestBitsOn */, 0, 1, NULL, 'LegendaryQuestsB@4', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 262144, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (72670, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'LegendaryQuestsB@4', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'LegendaryQuestsB', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 262144, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 22 /* StampQuest */, 0, 1, NULL, 'LegendaryQuestCounter_0913', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72670, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'NinjaAcademyStarted_0812@4', NULL, NULL, NULL);

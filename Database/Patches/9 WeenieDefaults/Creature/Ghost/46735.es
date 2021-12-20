@@ -61,11 +61,9 @@ Refuse: 46729
                             - Generate
                             - Tell: The Tanada are weaker now. We are closer to our goal of eliminating them from our midst.
                             - Tell: She will be pleased with your work; you have done well. We have no further need for your services at this time.
-                            - Say: You Nanjou belong to her now. You will serve her will. You will obey. Begone from my sight!, Extent: 20
+                            - Say: You Nanjou belong to her now. You will serve her will. You will obey. Begone from my sight!, Extent: 0
                         TestFailure:
                             - Tell: You have not brought enough of the masks I requested.
                 QuestFailure: 
                     - Tell: You have not slaughtered enough of their recruits.
                     - DirectBroadcast: You've killed %tqc out of %tqm Tanada Neophytes.
-
-

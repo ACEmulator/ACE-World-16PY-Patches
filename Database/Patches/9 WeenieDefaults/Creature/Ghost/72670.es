@@ -29,6 +29,10 @@ Refuse: 72637
                             - Tell: Well done. Many have tried, and many have failed. This deed will show Hoshino Kei you may be worthy when the time comes.
                             - Tell: Do not let this victory swell your ego. Continue to wreak havoc on your enemies throughout this land and one day she may come for you.
                             - Tell: I have nothing more for you at this time. If you seek further tasks find Kousha, they may have more work for you.
+                            - InqQuestBitsOn: LegendaryQuestsB, 0x40000
+                                QuestFailure:
+                                    - SetQuestBitsOn: LegendaryQuestsB, 0x40000
+                                    - StampQuest: LegendaryQuestCounter_0913
                 QuestFailure:
                     - Tell: You must speak to me outside to start the trial again.
 GotoSet: Timer

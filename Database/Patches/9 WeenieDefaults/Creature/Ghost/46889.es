@@ -55,3 +55,7 @@ Refuse: 72599
             - Tell: Take these rewards, but keep the tale of our interactions silent. Even someone as hardy as yourself would be crushed by the reprisal of both the Tanada and our forces. Let us not forget that the Tanada would show you no mercy for your slaughter of their recruits.
             - Tell: The logical course of actions would be for all to forget we ever spoke. Revenge would only place you in the middle of a war that even you could not win.
             - Tell: I trust that we have an agreement.
+            - InqQuestBitsOn: LegendaryQuestsB, 0x800
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsB, 0x800
+                    - StampQuest: LegendaryQuestCounter_0913

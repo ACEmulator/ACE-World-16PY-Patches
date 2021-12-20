@@ -43,4 +43,7 @@ Refuse: 72625
             - Tell: Only time will tell.
             - DirectBroadcast: Kinchou begins studying the scroll.
             - Tell: I require nothing further from you. You are dismissed.
-    
+            - InqQuestBitsOn: LegendaryQuestsB, 0x1000
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsB, 0x1000
+                    - StampQuest: LegendaryQuestCounter_0913
