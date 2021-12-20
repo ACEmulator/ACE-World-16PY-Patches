@@ -103,10 +103,10 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (72598, 33, 0, 2, 0, 180, 0, 0) /* LifeMagic */
      , (72598, 34, 0, 2, 0, 180, 0, 0) /* WarMagic */
      , (72598, 31, 0, 2, 0, 180, 0, 0) /* CreatureMagic */
-     , (72598, 41, 0, 2, 0, 420, 0, 0) /* TwoHanded */
-     , (72598, 51, 0, 2, 0, 447, 0, 0) /* SneakAttack */
-     , (72598, 52, 0, 2, 0, 447, 0, 0) /* DirtyFighting */
-     , (72598, 49, 0, 2, 0, 447, 0, 0) /* DualWield */
+     , (72598, 41, 0, 2, 0, 520, 0, 0) /* TwoHanded */
+     , (72598, 51, 0, 2, 0, 547, 0, 0) /* SneakAttack */
+     , (72598, 52, 0, 2, 0, 490, 0, 0) /* DirtyFighting */
+     , (72598, 49, 0, 2, 0, 567, 0, 0) /* DualWield */
      , (72598, 15, 0, 2, 0, 383, 0, 0) /* MagicDefense */
      , (72598,  6, 0, 2, 0, 547, 0, 0) /* MeleeDefense */
      , (72598,  7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
