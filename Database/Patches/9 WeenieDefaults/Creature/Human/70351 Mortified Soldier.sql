@@ -305,7 +305,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Is this all the information you''ve found.. there has to be more.. If you have, I would be most interested to learn what you have found.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70351, 2,    72,  0, 87, 1, False) /* Create Platemail Hauberk (72) for Wield */
+VALUES (70351, 2,    72,  0, 87, 0.4507, False) /* Create Platemail Hauberk (72) for Wield */
      , (70351, 2,    82,  0, 87, 1, False) /* Create Platemail Leggings (82) for Wield */
-     , (70351, 2,   107,  0, 87, 1, False) /* Create Sollerets (107) for Wield */
-     , (70351, 2,    57,  0, 87, 1, False) /* Create Platemail Gauntlets (57) for Wield */;
+     , (70351, 2, 42755,  0, 93, 1, False) /* Create Haebran Boots (42755) for Wield */;
