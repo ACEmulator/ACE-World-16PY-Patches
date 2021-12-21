@@ -12,6 +12,8 @@ Use:
     - TurnToTarget
     - InqQuest: JesterFree0308
         QuestSuccess:
+            - EraseQuest: OnJesterPart2
+            - EraseQuest: JesterReachedCell
             - DirectBroadcast: The Jester waggles his finger in your face.
             - Tell: Naughty naughty! You tried to trick your old pal the Jester! I already gave you a present! You need to learn a lesson little one.
             - DirectBroadcast: Jester tells you, "This will hurt you more than it hurts me."
