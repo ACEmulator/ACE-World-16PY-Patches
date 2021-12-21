@@ -52,6 +52,7 @@ GotoSet: OwnsAB
             - Tell: Thank you for bringing this to me.
             - AwardNoShareXP: 150,000,000
             - AwardLuminance: 10,000
+            - Give: 20630, 8
 
 GotoSet: OwnsA
     - Tell: Is this all the information you've found.. there has to be more.. If you have, I would be most interested to learn what you have found.
