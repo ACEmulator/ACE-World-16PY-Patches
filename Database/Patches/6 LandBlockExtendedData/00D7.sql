@@ -541,7 +541,7 @@ VALUES (0x700D7087, 72673, 0x00D7011B, 12.9994, -120, 6.00249, 0.707107, 0, 0, 0
 /* @teleloc 0x00D7011B [12.999400 -120.000000 6.002490] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D7088, 72256, 0x00D7018F, 104.895, -80, 6.055, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Jester's Cell */
+VALUES (0x700D7088, 72256, 0x00D7018F, 104.895, -80, 6.055, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Jester''s Cell */
 /* @teleloc 0x00D7018F [104.894997 -80.000000 6.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

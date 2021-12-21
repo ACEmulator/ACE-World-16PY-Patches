@@ -8,10 +8,10 @@ VALUES (47168,   1,        128) /* ItemType - Misc */
      , (47168,   5,         50) /* EncumbranceVal */
      , (47168,  16,          8) /* ItemUseable - Contained */
      , (47168,  19,          0) /* Value */
-     , (47168,  33,          0) /* Bonded - Bonded */
+     , (47168,  33,          0) /* Bonded - Normal */
      , (47168,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47168,  94,         16) /* TargetType - Creature */
-     , (47168, 114,          0) /* Attuned - Attuned */
+     , (47168, 114,          0) /* Attuned - Normal */
      , (47168, 266,      47170) /* PetClass - Pet Snow Tuskie */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -307,4 +307,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Is this all the information
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (70351, 2,    72,  0, 87, 0.4507, False) /* Create Platemail Hauberk (72) for Wield */
      , (70351, 2,    82,  0, 87, 1, False) /* Create Platemail Leggings (82) for Wield */
-     , (70351, 2, 42755,  0, 93, 1, False) /* Create Haebran Boots (42755) for Wield */;
+     , (70351, 2, 42755,  0, 93, 1, False) /* Create Haebrean Boots (42755) for Wield */;
