@@ -13,6 +13,8 @@ VALUES (36861,   1,         16) /* ItemType - Creature */
      , (36861,  25,        135) /* Level */
      , (36861,  40,          2) /* CombatMode - Melee */
      , (36861,  68,          3) /* TargetingTactic - Random, Focused */
+     , (36861,  81,          1) /* MaxGeneratedObjects */
+     , (36861,  82,          0) /* InitGeneratedObjects */
      , (36861,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36861, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36861, 140,          1) /* AiOptions - CanOpenDoors */
@@ -45,6 +47,7 @@ VALUES (36861,   1,       5) /* HeartbeatInterval */
      , (36861,  31,      18) /* VisualAwarenessRange */
      , (36861,  34,       1) /* PowerupTime */
      , (36861,  36,       1) /* ChargeSpeed */
+     , (36861,  43,       2) /* GeneratorRadius */
      , (36861,  64,    0.86) /* ResistSlash */
      , (36861,  65,    0.55) /* ResistPierce */
      , (36861,  66,    0.57) /* ResistBludgeon */
@@ -128,6 +131,14 @@ VALUES (36861,    85,  2.055)  /* Flame Bolt VI */
      , (36861,  1343,   2.04)  /* Weakness Other VI */
      , (36861,  1372,   2.04)  /* Frailty Other VI */
      , (36861,  1444,   2.04)  /* Bafflement Other VI */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (36861,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36861,  3 /* Death */,   0.03, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -226,3 +237,6 @@ VALUES (36861, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (
      , (36861, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
      , (36861, 9, 41470,  0, 0, 0.0125, False) /* Create Purple Jewel (41470) for ContainTreasure */
      , (36861, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36861, 1, 36863, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Champion Virindi (36863) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
