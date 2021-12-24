@@ -10,7 +10,6 @@ VALUES (42301,   1,        256) /* ItemType - MissileWeapon */
      , (42301,  16,          1) /* ItemUseable - No */
      , (42301,  18,          1) /* UiEffects - Magical */
      , (42301,  19,       6000) /* Value */
-     , (42301,  33,         -2) /* Bonded - Destroy */
      , (42301,  46,         32) /* DefaultCombatStyle - Crossbow */
      , (42301,  48,         47) /* WeaponSkill - MissileWeapons */
      , (42301,  49,         60) /* WeaponTime */
@@ -31,11 +30,7 @@ VALUES (42301,   1,        256) /* ItemType - MissileWeapon */
      , (42301, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42301,  11, True ) /* IgnoreCollisions */
-     , (42301,  13, True ) /* Ethereal */
-     , (42301,  14, True ) /* GravityStatus */
-     , (42301,  19, True ) /* Attackable */
-     , (42301,  22, True ) /* Inscribable */;
+VALUES (42301,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42301,   5,  -0.033) /* ManaRate */
