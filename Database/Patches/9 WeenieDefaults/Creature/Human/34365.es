@@ -24,7 +24,7 @@ Give: Medallion of the Sword (87670)
 
 Give: Tanada Clan Masters Medallion (34567)
 	- TurnToTarget
-	- InqQuest: TanadaClanMedallionTurnIn
+	- InqQuestSolves: TanadaClanMedallionTurnIn, 1
 		QuestSuccess:
 			- IncrementQuest: TanadaClanMedallionTurnIn, 1
 			- InqQuest: ReceivedTitleInitiateoftheBlade
@@ -45,8 +45,6 @@ Give: Tanada Clan Masters Medallion (34567)
 									- Goto: MedallionReward
 						QuestFailure:
 							- Goto: MedallionReward
-				QuestFailure:
-					- Goto: MedallionReward 
 		QuestFailure:
 			- Tell: A medallion from one of the elusive Tanada Clan? This may aid in my research into their appearance in Dereth. I will gladly reward you for any of these that you come across. Here, allow me to reward you for this one.
 			- StampQuest: TanadaClanMedallionTurnIn
