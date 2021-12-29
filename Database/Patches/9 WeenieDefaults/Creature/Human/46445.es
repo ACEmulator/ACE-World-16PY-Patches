@@ -41,3 +41,7 @@ Refuse: 46622
     - Give: Trade Note (250,000) (20630), 35
     - AddCharacterTitle: Captain
     - DirectBroadcast: You have earned the title of "Captain".
+    - InqQuestBitsOn: LegendaryQuestsA, 0x200
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x200
+            - StampQuest: LegendaryQuestCounter_0913
