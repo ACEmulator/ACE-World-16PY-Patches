@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37083;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37083, 'ace37083-swordofsoroku', 6, '2021-11-07 08:12:46') /* MeleeWeapon */;
+VALUES (37083, 'ace37083-swordofsoroku', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37083,   1,          1) /* ItemType - MeleeWeapon */
@@ -42,7 +42,8 @@ VALUES (37083,   5,  -0.033) /* ManaRate */
      , (37083,  29,     1.1) /* WeaponDefense */
      , (37083,  62,     1.1) /* WeaponOffense */
      , (37083,  63,       1) /* DamageMod */
-     , (37083, 147,    0.31) /* CriticalFrequency */;
+     , (37083, 147,    0.31) /* CriticalFrequency */
+     , (37083, 156,    0.08) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37083,   1, 'Sword of Soroku') /* Name */
