@@ -16,14 +16,14 @@ GotoSet: CheckPrereq
 GotoSet: Intro
     - InqQuest: TanadaSlaughterFinished_0912
         QuestSuccess:
-            - Tell: You have already completed your task. We have no further need for your services at this time.
-            - DirectBroadcast: You must wait %tqt before completing this quest again.             
+            - Tell: You have already completed your task. We have no further need for your services at this time.           
         QuestFailure:
             - InqQuestSolves: TanadaSlaughterKillTask_0912@KillTaskInProgress, 1 - 9999
                 QuestSuccess:
                     - Tell: Have you slaughtered their recruits? Give me the masks I requested if so. We must send a message that joining the Tanada will only ensure defeat.
                 QuestFailure:
-                    - StampQuest: TanadaSlaughterKillTask_0912
+                    - SetQuestCompletions: TanadaSlaughterKillTask_0912, 0
+                    - StampQuest: TanadaToresenTempleCanEnter
                     - Tell: Darviss advised me of your potential. We will put this to the test.
                     - Tell: The Tanada clan continues to recruit and train new blood, ensuring a strong and prosperous future. This we cannot allow.
                     - Tell: Kill the seed before it sprouts and the field will never grow.
@@ -39,6 +39,12 @@ Give: 72626
     - Give: Trade Note (250,000) (20630), 9
     - Tell: Interesting...yes, this will do.
     - Tell: The Tanada are weaker now. We are closer to our goal of eliminating them from our midst.
+    - InqQuest: TanadaSlaughterScrollFinished_0912
+        QuestSuccess:
+            - InqQuestBitsOn: LegendaryQuestsB, 0x1000
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsB, 0x1000
+                    - StampQuest: LegendaryQuestCounter_0913
 
 Refuse: 46729
     - InqQuest: TanadaSlaughterFinished_0912
@@ -62,6 +68,12 @@ Refuse: 46729
                             - Tell: The Tanada are weaker now. We are closer to our goal of eliminating them from our midst.
                             - Tell: She will be pleased with your work; you have done well. We have no further need for your services at this time.
                             - Say: You Nanjou belong to her now. You will serve her will. You will obey. Begone from my sight!, Extent: 0
+                            - InqQuest: TanadaSlaughterScrollFinished_0912
+                                QuestSuccess:
+                                    - InqQuestBitsOn: LegendaryQuestsB, 0x1000
+                                        QuestFailure:
+                                            - SetQuestBitsOn: LegendaryQuestsB, 0x1000
+                                            - StampQuest: LegendaryQuestCounter_0913
                         TestFailure:
                             - Tell: You have not brought enough of the masks I requested.
                 QuestFailure: 
