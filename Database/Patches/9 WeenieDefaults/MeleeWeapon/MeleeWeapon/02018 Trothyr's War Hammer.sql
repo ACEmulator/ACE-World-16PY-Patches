@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2018, 'trothyrwarhammer', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (2018, 'trothyrwarhammer', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2018,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,11 +24,7 @@ VALUES (2018,   1,          1) /* ItemType - MeleeWeapon */
      , (2018, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2018,  11, True ) /* IgnoreCollisions */
-     , (2018,  13, True ) /* Ethereal */
-     , (2018,  14, True ) /* GravityStatus */
-     , (2018,  19, True ) /* Attackable */
-     , (2018,  22, True ) /* Inscribable */
+VALUES (2018,  22, True ) /* Inscribable */
      , (2018,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,7 +34,7 @@ VALUES (2018,  21,     0.6) /* WeaponLength */
      , (2018,  29,       1) /* WeaponDefense */
      , (2018,  62,       1) /* WeaponOffense */
      , (2018,  63,       1) /* DamageMod */
-     , (2018, 136,       1) /* CriticalMultiplier */;
+     , (2018, 136,     2.5) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2018,   1, 'Trothyr''s War Hammer') /* Name */;

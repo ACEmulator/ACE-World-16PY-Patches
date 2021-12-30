@@ -1,5 +1,5 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.042
-    - Say: My Love, where have you gone?
+    - Say: My Love, where have you gone?, Extent: 20
     
 Use:
     - TurnToTarget
@@ -16,6 +16,7 @@ GotoSet: CheckPart1Wait
 GotoSet: CheckFreedJester
     - InqQuest: FreedJester
         QuestSuccess:
+            - EraseQuest: FreedJester
             - StampQuest: JesterCanDoPart2
             - Tell: My love is free! You have set my soul to rest my dear. May others know you as I do, the "Jester's Emancipator."
             - AddCharacterTitle: 576
