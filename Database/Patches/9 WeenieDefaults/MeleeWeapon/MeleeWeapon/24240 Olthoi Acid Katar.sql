@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24240;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24240, 'katarolthoi', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (24240, 'katarolthoi', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24240,   1,          1) /* ItemType - MeleeWeapon */
@@ -30,11 +30,7 @@ VALUES (24240,   1,          1) /* ItemType - MeleeWeapon */
      , (24240, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24240,  11, True ) /* IgnoreCollisions */
-     , (24240,  13, True ) /* Ethereal */
-     , (24240,  14, True ) /* GravityStatus */
-     , (24240,  19, True ) /* Attackable */
-     , (24240,  22, True ) /* Inscribable */;
+VALUES (24240,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24240,   5,   -0.05) /* ManaRate */
@@ -44,7 +40,7 @@ VALUES (24240,   5,   -0.05) /* ManaRate */
      , (24240,  29,     1.1) /* WeaponDefense */
      , (24240,  62,     1.1) /* WeaponOffense */
      , (24240,  63,       1) /* DamageMod */
-     , (24240, 136,       1) /* CriticalMultiplier */
+     , (24240, 136,       2) /* CriticalMultiplier */
      , (24240, 147,   0.333) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
