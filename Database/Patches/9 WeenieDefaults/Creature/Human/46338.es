@@ -32,7 +32,7 @@ Give: 72806
     - Delay: 1, Tell: You should go. Don't keep them waiting, such heroics must be shared with the world!
     - DirectBroadcast: Kraytuss laughs under his breath. 
     - Tell: Here's the reward I promised you. Off you go now; Kraytuss has a lot of important stuff going on right now.
-    - AwardNoShareXP: 297,235,856
+    - AwardLevelProportionalXP: 100%, 0 - 297,235,856
     - AwardLuminance: 18,000
     - Give: 20630, 8
     - InqQuestBitsOn: LegendaryQuestsB, 0x10
