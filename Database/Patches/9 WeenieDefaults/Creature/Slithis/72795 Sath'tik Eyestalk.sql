@@ -63,7 +63,7 @@ VALUES (72795,   1,       5) /* HeartbeatInterval */
      , (72795, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72795,   1, "Sath''tik Eyestalk") /* Name */;
+VALUES (72795,   1, 'Sath''tik Eyestalk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72795,   1, 0x02001059) /* Setup */

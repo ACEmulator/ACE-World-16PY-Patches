@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72797;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72797, 'ace72797-sathtiktentacle', 10, '2021-12-19 09:05:34') /* Creature */;
+VALUES (72797, 'ace72797-sathtiktentacle', 10, '2021-12-30 04:27:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72797,   1,         16) /* ItemType - Creature */
@@ -59,7 +59,7 @@ VALUES (72797,   1,       5) /* HeartbeatInterval */
      , (72797, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72797,   1, "Sath''tik Tentacle") /* Name */;
+VALUES (72797,   1, 'Sath''tik Tentacle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72797,   1, 0x02001059) /* Setup */
@@ -98,10 +98,11 @@ VALUES (72797,  6, 0, 2, 0, 378, 0, 0) /* MeleeDefense        Trained */
      , (72797, 47, 0, 2, 0, 240, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72797,  2070,  2.05 ) /* Heart Rend */
-     , (72797,  2162,  2.053) /* Olthoi's Gift */
-     , (72797,  2178,  2.056) /* Decrepitude's Grasp */
-     , (72797,  2329,  2.059) /* Essence Void */;
+VALUES (72797,  2070,   2.04) /* Heart Rend */
+     , (72797,  2162,   2.04) /* Olthoi's Gift */
+     , (72797,  2178,   2.04) /* Decrepitude's Grasp */
+     , (72797,  2329,   2.05) /* Essence Void */
+     , (72797,  2328,   2.05) /* Vitality Siphon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (72797, 2, 33459,  1, 0,    0, False) /* Create Shadow Bolt (33459) for Wield */;
