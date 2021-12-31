@@ -57,7 +57,11 @@ VALUES (0x7584E000, 0x7584E030, '2021-12-22 17:15:35') /* Warding Crystal (72804
      , (0x7584E000, 0x7584E08F, '2021-12-29 13:10:26') /* Slithis Tendril Vine (72808) */
      , (0x7584E000, 0x7584E090, '2021-12-29 13:10:38') /* Slithis Tendril Vine (72808) */
      , (0x7584E000, 0x7584E091, '2021-12-29 13:12:20') /* Slithis Tendril Vine (72808) */
-     , (0x7584E000, 0x7584E092, '2021-12-29 13:12:38') /* Slithis Tendril Vine (72808) */;
+     , (0x7584E000, 0x7584E092, '2021-12-29 13:12:38') /* Slithis Tendril Vine (72808) */
+     , (0x7584E000, 0x7584E093, '2021-12-30 21:13:32') /* Slithis Tendril Vine (72808) */
+     , (0x7584E000, 0x7584E094, '2021-12-30 21:13:48') /* Slithis Tendril Vine (72808) */
+     , (0x7584E000, 0x7584E095, '2021-12-30 21:14:04') /* Slithis Tendril Vine (72808) */
+     , (0x7584E000, 0x7584E096, '2021-12-30 21:14:13') /* Slithis Tendril Vine (72808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584E001,   278, 0x584E021A, 90, -124.75, 0.055, 1, 0, 0, 0, False, '2021-12-22 16:48:27'); /* Door */
@@ -626,3 +630,19 @@ VALUES (0x7584E091, 72808, 0x584E0225, 90.0499, -210.053, -0.015, 0.707107, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584E092, 72808, 0x584E0280, 169.981, -210.061, -0.015, 0.707107, 0, 0, 0.707107,  True, '2021-12-29 13:12:38'); /* Slithis Tendril Vine */
 /* @teleloc 0x584E0280 [169.981003 -210.061005 -0.015000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584E093, 72808, 0x584E010F, 359.98, -13.3212, -54.015, 0, 0, 0, -1,  True, '2021-12-30 21:13:32'); /* Slithis Tendril Vine */
+/* @teleloc 0x584E010F [359.980011 -13.321200 -54.014999] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584E094, 72808, 0x584E010A, 350.022, -13.3147, -54.015, 0, 0, 0, -1,  True, '2021-12-30 21:13:48'); /* Slithis Tendril Vine */
+/* @teleloc 0x584E010A [350.022003 -13.314700 -54.014999] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584E095, 72808, 0x584E010E, 349.994, -46.7119, -54.015, 1, 0, 0, 0,  True, '2021-12-30 21:14:04'); /* Slithis Tendril Vine */
+/* @teleloc 0x584E010E [349.993988 -46.711899 -54.014999] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584E096, 72808, 0x584E0113, 359.991, -46.6356, -54.015, 1, 0, 0, 0,  True, '2021-12-30 21:14:13'); /* Slithis Tendril Vine */
+/* @teleloc 0x584E0113 [359.990997 -46.635601 -54.014999] 1.000000 0.000000 0.000000 0.000000 */
