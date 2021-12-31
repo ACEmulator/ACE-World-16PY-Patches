@@ -40,7 +40,7 @@ VALUES (72811,   1,       5) /* HeartbeatInterval */
      , (72811,  17,    0.67) /* ArmorModVsFire */
      , (72811,  18,    0.75) /* ArmorModVsAcid */
      , (72811,  19,    0.75) /* ArmorModVsElectric */
-     , (72811,  31,      24) /* VisualAwarenessRange */
+     , (72811,  31,      35) /* VisualAwarenessRange */
      , (72811,  34,     1.5) /* PowerupTime */
      , (72811,  36,       1) /* ChargeSpeed */
      , (72811,  39,     1.4) /* DefaultScale */
