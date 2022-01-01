@@ -25,7 +25,7 @@ VALUES (33097,   1,          1) /* ItemType - MeleeWeapon */
      , (33097, 158,          7) /* WieldRequirements - Level */
      , (33097, 159,          1) /* WieldSkillType - Axe */
      , (33097, 160,        140) /* WieldDifficulty */
-     , (33097, 263,          4) /* ResistanceModifierType */
+     , (33097, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (33097, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

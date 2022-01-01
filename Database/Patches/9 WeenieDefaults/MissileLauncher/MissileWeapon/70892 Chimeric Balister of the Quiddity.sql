@@ -29,7 +29,7 @@ VALUES (70892,   1,        256) /* ItemType - MissileWeapon */
      , (70892, 158,          7) /* WieldRequirements - Level */
      , (70892, 159,         47) /* WieldSkillType - MissileWeapons */
      , (70892, 160,        120) /* WieldDifficulty */
-     , (70892, 263,          1) /* ResistanceModifierType */
+     , (70892, 263,          1) /* ResistanceModifierType - Slash */
      , (70892, 267,      10800) /* Lifespan */
      , (70892, 353,          9) /* WeaponType - Crossbow */;
 

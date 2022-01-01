@@ -21,7 +21,7 @@ VALUES (35547,   1,          1) /* ItemType - MeleeWeapon */
      , (35547,  65,          1) /* Placement - RightHandCombat */
      , (35547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35547, 114,          0) /* Attuned - Normal */
-     , (35547, 263,          4) /* ResistanceModifierType */
+     , (35547, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (35547, 267,      10800) /* Lifespan */
      , (35547, 353,          3) /* WeaponType - Axe */;
 

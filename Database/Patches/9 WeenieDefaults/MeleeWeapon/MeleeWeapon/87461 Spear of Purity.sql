@@ -28,7 +28,7 @@ VALUES (87461,   1,          1) /* ItemType - MeleeWeapon */
      , (87461, 158,          2) /* WieldRequirements - RawSkill */
      , (87461, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (87461, 160,        400) /* WieldDifficulty */
-     , (87461, 263,          2) /* ResistanceModifierType */
+     , (87461, 263,          2) /* ResistanceModifierType - Pierce */
      , (87461, 265,         10) /* EquipmentSetId - ArmMindHeart */
      , (87461, 353,          5) /* WeaponType - Spear */;
 

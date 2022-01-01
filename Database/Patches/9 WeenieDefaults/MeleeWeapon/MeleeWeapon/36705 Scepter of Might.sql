@@ -27,7 +27,7 @@ VALUES (36705,   1,          1) /* ItemType - MeleeWeapon */
      , (36705, 158,          2) /* WieldRequirements - RawSkill */
      , (36705, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (36705, 160,        400) /* WieldDifficulty */
-     , (36705, 263,          4) /* ResistanceModifierType */
+     , (36705, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (36705, 265,         10) /* EquipmentSetId - ArmMindHeart */
      , (36705, 353,          4) /* WeaponType - Mace */;
 

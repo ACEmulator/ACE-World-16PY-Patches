@@ -15,8 +15,8 @@ VALUES (5390,   1,        128) /* ItemType - Misc */
      , (5390,  95,          8) /* RadarBlipColor - Yellow */
      , (5390, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5390, 142,          1) /* GeneratorTimeType - RealTime */
-     , (5390, 143, 1635847260) /* GeneratorStartTime - 11/02/2021 14:01:00 */
-     , (5390, 144, 1636192740) /* GeneratorEndTime - 11/06/2021 13:59:00 */
+     , (5390, 143, 1635847260) /* GeneratorStartTime - 11/02/2021 10:01:00 */
+     , (5390, 144, 1636192740) /* GeneratorEndTime - 11/06/2021 09:59:00 */
      , (5390, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

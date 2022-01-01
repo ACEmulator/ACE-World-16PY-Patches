@@ -25,7 +25,7 @@ VALUES (87462,   1,      32768) /* ItemType - Caster */
      , (87462, 158,          7) /* WieldRequirements - Level */
      , (87462, 159,          1) /* WieldSkillType - Axe */
      , (87462, 160,        120) /* WieldDifficulty */
-     , (87462, 263,          4) /* ResistanceModifierType */
+     , (87462, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (87462, 265,         10) /* EquipmentSetId - ArmMindHeart */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
