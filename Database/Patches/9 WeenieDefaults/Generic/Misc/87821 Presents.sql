@@ -14,7 +14,8 @@ VALUES (87821,   1,        128) /* ItemType - Misc */
      , (87821, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (87821,  11, True ) /* IgnoreCollisions */
+VALUES (87821,   1, True ) /* Stuck */
+,(87821,  11, True ) /* IgnoreCollisions */
      , (87821,  13, True ) /* Ethereal */
      , (87821,  24, True ) /* UiHidden */;
 
