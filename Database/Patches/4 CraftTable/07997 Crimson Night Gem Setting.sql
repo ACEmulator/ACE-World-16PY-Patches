@@ -10,7 +10,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 0,  49, -20, 2, 1) /* On Source.SuccessTarget Add WeaponTime -20 to Target */
-     , (@parent_id, 0, 263, 64, 1, 1) /* On Source.SuccessTarget SetValue ResistanceModifierType 64 to Target */
+     , (@parent_id, 0, 263, 64, 1, 1) /* On Source.SuccessTarget SetValue ResistanceModifierType - Electric to Target */
      , (@parent_id, 0, 160, 20, 2, 1) /* On Source.SuccessTarget Add WieldDifficulty 20 to Target */;
 
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
