@@ -292,10 +292,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7E74E04D, 0x7E74E04B, '2021-11-17 16:56:08') /* Shosa Kiroji Matanui (11811) */
      , (0x7E74E04D, 0x7E74E0A8, '2021-11-17 16:56:08') /* Sign (25722) */
      , (0x7E74E04D, 0x7E74E0B8, '2021-11-17 16:56:08') /* Li Fong (28477) */
-     , (0x7E74E04D, 0x7E74E200, '2021-11-17 16:56:08') /* Saving Asherons MB Controller (87400) */
-     , (0x7E74E04D, 0x7E74E201, '2021-11-17 16:56:08') /* BoshBosh StopGap (87310) */
-     , (0x7E74E04D, 0x7E74E202, '2021-11-17 16:56:08')
-     , (0x7E74E04D, 0x7E74E203, '2021-11-17 16:56:08') /* Bottom Imprisoned Monouga Controller (87358) */;
+     , (0x7E74E04D, 0x7E74E201, '2021-11-17 16:56:08') /* BoshBosh StopGap (87310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E054, 16919, 0xE74E0000, 51.7673, 40.3306, 32, -0.809658, 0, 0, -0.586902, False, '2021-11-17 16:56:08'); /* Pedestal Weak Spot */
@@ -618,20 +615,8 @@ VALUES (0x7E74E10A, 72399, 0xE74E001C, 82.8455, 80.5972, 32.055, 1, 0, 0, 0, Fal
 /* @teleloc 0xE74E001C [82.845497 80.597198 32.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E200, 87400, 0xE74E001C, 78.7963, 93.4058, 32.0075, -0.10607, 0, 0, -0.994359,  True, '2021-11-17 16:56:08'); /* Saving Asherons MB Controller */
-/* @teleloc 0xE74E001C [78.796303 93.405800 32.007500] -0.106070 0.000000 0.000000 -0.994359 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E201, 87310, 0xE74E001C, 77.3945, 93.7083, 32.005, -0.10607, 0, 0, -0.994359,  True, '2021-11-17 16:56:08'); /* BoshBosh StopGap */
 /* @teleloc 0xE74E001C [77.394501 93.708298 32.005001] -0.106070 0.000000 0.000000 -0.994359 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E202, 87381, 0xE74E001C, 82.1196, 93.1776, 32.0075, 0.00623, 0, 0, -0.999981,  True, '2021-11-17 16:56:08');
-/* @teleloc 0xE74E001C [82.119598 93.177597 32.007500] 0.006230 0.000000 0.000000 -0.999981 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E203, 87358, 0xE74E001C, 80.5843, 93.1584, 32.0075, 0.00623, 0, 0, -0.999981,  True, '2021-11-17 16:56:08'); /* Bottom Imprisoned Monouga Controller */
-/* @teleloc 0xE74E001C [80.584297 93.158401 32.007500] 0.006230 0.000000 0.000000 -0.999981 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E204, 40322, 0xE74E001F, 96, 160, 32.005, 0, 0, 0, -1, False, '2021-11-17 16:56:08'); /* Tanada Sajo */
