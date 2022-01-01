@@ -20,7 +20,7 @@ VALUES (43812,  26,      15) /* MaximumVelocity */
      , (43812,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43812,   1, 'Missle') /* Name */;
+VALUES (43812,   1, 'Missile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43812,   1, 0x02001A49) /* Setup */
