@@ -8,7 +8,7 @@ VALUES (80018,  81,          1) /* MaxGeneratedObjects */
      , (80018,  82,          1) /* InitGeneratedObjects */
      , (80018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80018, 142,          1) /* GeneratorTimeType - RealTime */
-     , (80018, 143, 1670130060) /* GeneratorStartTime - 12/04/2022 05:01:00 */
+     , (80018, 143, 1638594060) /* GeneratorStartTime - 12/04/2021 05:01:00 */
      , (80018, 144, 1641099540) /* GeneratorEndTime - 01/02/2022 04:59:00 */
      , (80018, 145,          3) /* GeneratorEndDestructionType - Kill */;
 
