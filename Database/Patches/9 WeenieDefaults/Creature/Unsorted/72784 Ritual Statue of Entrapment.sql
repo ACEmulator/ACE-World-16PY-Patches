@@ -68,6 +68,24 @@ VALUES (72784,   1, 0x02001695) /* Setup */
      , (72784,   8, 0x060030C4) /* Icon */
      , (72784,  22, 0x34000060) /* PhysicsEffectTable */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (72784,   1,   1, 0, 0) /* Strength */
+     , (72784,   2,   1, 0, 0) /* Endurance */
+     , (72784,   3,   1, 0, 0) /* Quickness */
+     , (72784,   4,   1, 0, 0) /* Coordination */
+     , (72784,   5,   1, 0, 0) /* Focus */
+     , (72784,   6,   1, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (72784,   1, 49575, 0, 0, 50000) /* MaxHealth */
+     , (72784,   3,  1150, 0, 0, 2000) /* MaxStamina */
+     , (72784,   5,  1110, 0, 0, 2000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (72784,  6, 0, 3, 0,   1, 0, 0) /* MeleeDefense        Specialized */
+     , (72784,  7, 0, 3, 0,   1, 0, 0) /* MissileDefense      Specialized */
+     , (72784, 15, 0, 3, 0,   1, 0, 0) /* MagicDefense        Specialized */;
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72784,  0,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (72784,  1,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
@@ -79,24 +97,5 @@ VALUES (72784,  0,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,
      , (72784,  7,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (72784,  8,  4, 60, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (72784,   1, 1, 0, 0) /* Strength */
-     , (72784,   2, 1, 0, 0) /* Endurance */
-     , (72784,   3, 1, 0, 0) /* Quickness */
-     , (72784,   4, 1, 0, 0) /* Coordination */
-     , (72784,   5, 1, 0, 0) /* Focus */
-     , (72784,   6, 1, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (72784,   1, 49575, 0, 0,50000) /* MaxHealth */
-     , (72784,   3,  1150, 0, 0, 2000) /* MaxStamina */
-     , (72784,   5,  1110, 0, 0, 2000) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72784,  6, 0, 3, 0, 1, 0, 0) /* MeleeDefense        Specialized */
-     , (72784,  7, 0, 3, 0, 1, 0, 0) /* MissileDefense      Specialized */
-     , (72784, 15, 0, 3, 0, 1, 0, 0) /* MagicDefense        Specialized */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72784, 9, 72785,  1, 0,    0, False) /* Create Spirit of Bist'elle (72785) for ContainTreasure */;
-
+VALUES (72784, 9, 72785,  1, 0, 0, False) /* Create Spirit of Bist''elle (72785) for ContainTreasure */;

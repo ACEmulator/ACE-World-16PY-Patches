@@ -542,5 +542,5 @@ VALUES (0x7F81E0A4, 72794, 0xF81E02BA, -14.6319, -1.08676, -67.545, -0.932253, 0
 /* @teleloc 0xF81E02BA [-14.631900 -1.086760 -67.544998] -0.932253 0.000000 0.000000 -0.361807 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F81E0A5, 72794, 0xF81E0290, 37.58151, 87.6467, -73.54499, 0.924485, 0, 0, 0.38122, False, '2021-12-30 19:58:58'); /* Gromnus Single Gen */
-/* @teleloc 0xF81E0290 [37.581509 87.646698 -73.544991] 0.924485 0.000000 0.000000 0.381220 */
+VALUES (0x7F81E0A5, 72794, 0xF81E0290, 37.5815, 87.6467, -73.545, 0.924485, 0, 0, 0.38122, False, '2021-12-30 19:58:58'); /* Gromnus Single Gen */
+/* @teleloc 0xF81E0290 [37.581501 87.646698 -73.544998] 0.924485 0.000000 0.000000 0.381220 */

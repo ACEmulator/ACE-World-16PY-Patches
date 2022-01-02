@@ -6,8 +6,8 @@ VALUES (72797, 'ace72797-sathtiktentacle', 10, '2021-12-30 04:27:17') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72797,   1,         16) /* ItemType - Creature */
      , (72797,   2,         36) /* CreatureType - Slithis */
-     , (72797,   6,        255) /* ItemsCapacity */
-     , (72797,   7,        255) /* ContainersCapacity */
+     , (72797,   6,         -1) /* ItemsCapacity */
+     , (72797,   7,         -1) /* ContainersCapacity */
      , (72797,  16,          1) /* ItemUseable - No */
      , (72797,  25,        200) /* Level */
      , (72797,  27,          0) /* ArmorType - None */
@@ -70,12 +70,6 @@ VALUES (72797,   1, 0x02001059) /* Setup */
      , (72797,  22, 0x34000064) /* PhysicsEffectTable */
      , (72797,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72797,  0, 16, 20, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (72797, 23,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
-     , (72797, 24,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
-     , (72797, 25,  4, 10, 0.75,  380,  190,  190,  190,  190,  190,  190,  190,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72797,   1, 320, 0, 0) /* Strength */
      , (72797,   2, 340, 0, 0) /* Endurance */
@@ -86,7 +80,7 @@ VALUES (72797,   1, 320, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (72797,   1,   850, 0, 0, 1020) /* MaxHealth */
-     , (72797,   3,  1040, 0, 0,  700) /* MaxStamina */
+     , (72797,   3,  1040, 0, 0, 700) /* MaxStamina */
      , (72797,   5,   750, 0, 0, 1130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
@@ -97,13 +91,18 @@ VALUES (72797,  6, 0, 2, 0, 378, 0, 0) /* MeleeDefense        Trained */
      , (72797, 45, 0, 2, 0, 357, 0, 0) /* LightWeapons        Trained */
      , (72797, 47, 0, 2, 0, 240, 0, 0) /* MissileWeapons      Trained */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (72797,  0, 16, 20, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (72797, 23,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
+     , (72797, 24,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
+     , (72797, 25,  4, 10, 0.75,  380,  190,  190,  190,  190,  190,  190,  190,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72797,  2070,   2.04) /* Heart Rend */
-     , (72797,  2162,   2.04) /* Olthoi's Gift */
-     , (72797,  2178,   2.04) /* Decrepitude's Grasp */
-     , (72797,  2329,   2.05) /* Essence Void */
-     , (72797,  2328,   2.05) /* Vitality Siphon */;
+VALUES (72797,  2070,   2.04)  /* Heart Rend */
+     , (72797,  2162,   2.04)  /* Olthoi's Gift */
+     , (72797,  2178,   2.04)  /* Decrepitude's Grasp */
+     , (72797,  2329,   2.05)  /* Essence Void */
+     , (72797,  2328,   2.05)  /* Vitality Siphon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72797, 2, 33459,  1, 0,    0, False) /* Create Shadow Bolt (33459) for Wield */;
-
+VALUES (72797, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;
