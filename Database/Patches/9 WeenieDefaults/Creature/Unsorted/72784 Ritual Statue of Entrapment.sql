@@ -98,4 +98,4 @@ VALUES (72784,  0,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,
      , (72784,  8,  4, 60, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72784, 9, 72785,  1, 0, 0, False) /* Create Spirit of Bist''elle (72785) for ContainTreasure */;
+VALUES (72784, 9, 72785,  1, 0, 0, False) /* Create Spirit of Bist'elle (72785) for ContainTreasure */;
