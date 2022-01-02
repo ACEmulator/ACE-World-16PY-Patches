@@ -14,6 +14,8 @@ VALUES (36852,   1,         16) /* ItemType - Creature */
      , (36852,  25,        115) /* Level */
      , (36852,  40,          2) /* CombatMode - Melee */
      , (36852,  68,          3) /* TargetingTactic - Random, Focused */
+     , (36852,  81,          1) /* MaxGeneratedObjects */
+     , (36852,  82,          0) /* InitGeneratedObjects */
      , (36852,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (36852, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (36852, 113,          2) /* Gender - Female */
@@ -50,6 +52,7 @@ VALUES (36852,   1,       5) /* HeartbeatInterval */
      , (36852,  34,     1.1) /* PowerupTime */
      , (36852,  36,       1) /* ChargeSpeed */
      , (36852,  39,       1) /* DefaultScale */
+     , (36852,  43,       2) /* GeneratorRadius */
      , (36852,  64,    0.85) /* ResistSlash */
      , (36852,  65,     0.5) /* ResistPierce */
      , (36852,  66,    0.69) /* ResistBludgeon */
@@ -165,6 +168,14 @@ VALUES (36852,    74,  2.032)  /* Frost Bolt VI */
      , (36852,  1420,  2.023)  /* Slowness Other VI */
      , (36852,  1468,  2.023)  /* Feeblemind Other VI */;
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (36852,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36852, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (36852, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
@@ -174,3 +185,6 @@ VALUES (36852, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for Con
      , (36852, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (36852, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers (27388) for ContainTreasure */
      , (36852, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36852, 1, 36846, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Champion Shadow (36846) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
