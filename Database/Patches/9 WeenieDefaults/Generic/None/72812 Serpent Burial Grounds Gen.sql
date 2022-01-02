@@ -27,4 +27,4 @@ VALUES (72812,   1, 0x0200026B) /* Setup */
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (72812, 0.33, 72800, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sclavus Neophyte (72800) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (72812, 0.66, 72801, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sclavus Neophyte (72801) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72812,    1, 72811, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sclavus Neophyte (72811) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (72812, 1, 72811, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sclavus Neophyte (72811) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

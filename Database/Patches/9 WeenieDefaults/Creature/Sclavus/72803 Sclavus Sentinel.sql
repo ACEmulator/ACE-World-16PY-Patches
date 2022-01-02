@@ -72,17 +72,6 @@ VALUES (72803,   1, 0x02001813) /* Setup */
      , (72803,   8, 0x060016C0) /* Icon */
      , (72803,  22, 0x34000030) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72803,  0,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (72803,  1,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (72803,  2,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (72803,  3,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (72803,  4,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (72803,  5,  4,250, 0.75,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (72803,  6,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (72803,  7,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (72803,  8,  4,250, 0.75,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72803,   1, 405, 0, 0) /* Strength */
      , (72803,   2, 385, 0, 0) /* Endurance */
@@ -110,16 +99,27 @@ VALUES (72803,  6, 0, 3, 0, 460, 0, 0) /* MeleeDefense        Specialized */
      , (72803, 47, 0, 3, 0, 400, 0, 0) /* MissileWeapons      Specialized */
      , (72803, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (72803,  0,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (72803,  1,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (72803,  2,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (72803,  3,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (72803,  4,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (72803,  5,  4, 250, 0.75,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (72803,  6,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (72803,  7,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (72803,  8,  4, 250, 0.75,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72803,  2176,   2.02) /* Enervation */
-     , (72803,  4433,   2.03) /* Incantation of Acid Stream */
-     , (72803,  4439,   2.03) /* Incantation of Flame Bolt */
-     , (72803,  4451,   2.03) /* Incantation of Lightning Bolt */
-     , (72803,  4453,   2.03) /* Incantation of Lightning Volley */
-     , (72803,  4487,   2.02) /* Incantation of Exhaustion Other */;
+VALUES (72803,  2176,   2.02)  /* Enervation */
+     , (72803,  4433,   2.03)  /* Incantation of Acid Stream */
+     , (72803,  4439,   2.03)  /* Incantation of Flame Bolt */
+     , (72803,  4451,   2.03)  /* Incantation of Lightning Bolt */
+     , (72803,  4453,   2.03)  /* Incantation of Lightning Volley */
+     , (72803,  4487,   2.02)  /* Incantation of Exhaustion Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72803,  1, 72807,  1, 0,   1, False) /* Create Legendary Key (72807) for Contain */
-     , (72803, 10, 38928,  1, 0,   1, True) /* Create T'thuun Sword (38928) for WieldTreasure */
-     , (72803, 10, 40266,  1, 0, 0.5, True) /* Create Aegis (40266) for WieldTreasure */
-     , (72803, 10, 38922,  1, 0, 0.5, True) /* Create Shield (38922) for WieldTreasure */;
+VALUES (72803, 1, 72807,  1, 0, 1, False) /* Create Legendary Key (72807) for Contain */
+     , (72803, 10, 38928,  1, 0, 1, True) /* Create T'thuun Sword (38928) for WieldTreasure */
+     , (72803, 10, 40266,  1, 0, 0.5, True) /* Create T'thuun Aegis (40266) for WieldTreasure */
+     , (72803, 10, 38922,  1, 0, 0.5, True) /* Create T'thuun Shield (38922) for WieldTreasure */;
