@@ -324,7 +324,7 @@ VALUES (8934, 53305 /* Gem of Verdant Force */,   301 /* Battle Axe */, '2021-11
      , (8934, 53305 /* Gem of Verdant Force */, 31766 /* Lightning Lugian Hammer */, '2021-11-01 00:00:00')
      , (8934, 53305 /* Gem of Verdant Force */, 31767 /* Flaming Lugian Hammer */, '2021-11-01 00:00:00')
      , (8934, 53305 /* Gem of Verdant Force */, 31768 /* Frost War Axe */, '2021-11-01 00:00:00')
-     , (8934, 53305 /* Gem of Verdant Force */, 31769 /* Lugian War Axe */, '2021-11-01 00:00:00')
+     , (8934, 53305 /* Gem of Verdant Force */, 31769 /* War Axe */, '2021-11-01 00:00:00')
      , (8934, 53305 /* Gem of Verdant Force */, 31770 /* Acid War Axe */, '2021-11-01 00:00:00')
      , (8934, 53305 /* Gem of Verdant Force */, 31771 /* Lightning War Axe */, '2021-11-01 00:00:00')
      , (8934, 53305 /* Gem of Verdant Force */, 31772 /* Flaming War Axe */, '2021-11-01 00:00:00')

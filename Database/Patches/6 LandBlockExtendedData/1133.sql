@@ -20,12 +20,12 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x71133008, 0x71133006, '2005-02-09 10:00:00') /* Aun Aukherea (27262) */
      , (0x71133008, 0x71133007, '2005-02-09 10:00:00') /* Aun Khekierea (27267) */
      , (0x71133008, 0x71133009, '2005-02-09 10:00:00') /* Aludi al-Jaladh (30629) */
-     , (0x71133008, 0x7113300A, '2005-02-09 10:00:00') /* Aludi al-Jaladh (30629) */;
+     , (0x71133008, 0x7113300A, '2005-02-09 10:00:00') /* Aun Javhalrea, the Game Warden (36866) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71133009, 30629, 0x11330000, 88.5902, 110.812, 66.005, -0.714805, 0, 0, -0.699323,  True, '2005-02-09 10:00:00'); /* Aludi al-Jaladh */
 /* @teleloc 0x11330000 [88.590202 110.811996 66.004997] -0.714805 0.000000 0.000000 -0.699323 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7113300A, 36866, 0x1133001D, 90.8618, 101.34, 66.0065, 0.728529, 0, 0, 0.685015, True, '2021-12-22 08:25:58'); /* Aun Javhalrea, the Game Warden */
+VALUES (0x7113300A, 36866, 0x1133001D, 90.8618, 101.34, 66.0065, 0.728529, 0, 0, 0.685015,  True, '2021-12-22 08:25:58'); /* Aun Javhalrea, the Game Warden */
 /* @teleloc 0x1133001D [90.861801 101.339996 66.006500] 0.728529 0.000000 0.000000 0.685015 */
