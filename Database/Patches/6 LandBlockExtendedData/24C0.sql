@@ -481,5 +481,5 @@ VALUES (0x724C00BC, 87832, 0x24C0059E, -79.9418, 52.2569, 130.455, 0.500008, 0, 
 /* @teleloc 0x24C0059E [-79.941803 52.256901 130.455002] 0.500008 0.000000 0.000000 0.866021 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x724C00BD, 87832, 0x24C0059B, -98.42554, 22.98168, 130.455, 0.7621, 0, 0, -0.647459, False, '2021-12-29 18:38:28'); /* Roots of Skuld Generator */
-/* @teleloc 0x24C0059B [-98.425537 22.981680 130.455002] 0.762100 0.000000 0.000000 -0.647459 */
+VALUES (0x724C00BD, 87832, 0x24C0059B, -98.4255, 22.9817, 130.455, 0.7621, 0, 0, -0.647459, False, '2021-12-29 18:38:28'); /* Roots of Skuld Generator */
+/* @teleloc 0x24C0059B [-98.425499 22.981701 130.455002] 0.762100 0.000000 0.000000 -0.647459 */
