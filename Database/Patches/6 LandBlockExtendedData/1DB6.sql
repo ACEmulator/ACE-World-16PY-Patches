@@ -207,3 +207,7 @@ VALUES (0x71DB6030, 28472, 0x1DB60000, 117.911, 125.846, 120.006, -0.642076, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB6034, 42852, 0x1DB6003C, 181.401, 93.5886, 120.198, 0.999787, 0, 0, 0.020653, False, '2021-11-01 00:00:00'); /* Portal to Town Network */
 /* @teleloc 0x1DB6003C [181.401001 93.588600 120.197998] 0.999787 0.000000 0.000000 0.020653 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DB6035, 39054, 0x1DB60106, 179.028, 128.739, 120.006, 0.997655, 0, 0, -0.068447, False, '2021-12-22 10:51:02'); /* Aun Kimintari */
+/* @teleloc 0x1DB60106 [179.028000 128.738998 120.005997] 0.997655 0.000000 0.000000 -0.068447 */
