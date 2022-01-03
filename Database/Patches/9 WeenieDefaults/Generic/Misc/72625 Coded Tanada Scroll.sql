@@ -17,12 +17,12 @@ VALUES (72625,  22, True ) /* Inscribable */
      , (72625,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72625,  1, 'Coded Tanada Scroll') /* Name */
-     , (72625, 16, 'A scroll with a coded message found on a Tanada Nanjou Jogensha.') /* LongDesc */
-     , (72625, 33, 'CodedTanadaScrollPickup') /* Quest */;
+VALUES (72625,   1, 'Coded Tanada Scroll') /* Name */
+     , (72625,  16, 'A scroll with a coded message found on a Tanada Nanjou Jogensha.') /* LongDesc */
+     , (72625,  33, 'CodedTanadaScrollPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72625,   1,   33554773) /* Setup */
-     , (72625,   3,  536870932) /* SoundTable */
-     , (72625,   8,  100667503) /* Icon */
-     , (72625,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72625,   1, 0x02000155) /* Setup */
+     , (72625,   3, 0x20000014) /* SoundTable */
+     , (72625,   8, 0x0600106F) /* Icon */
+     , (72625,  22, 0x3400002B) /* PhysicsEffectTable */;

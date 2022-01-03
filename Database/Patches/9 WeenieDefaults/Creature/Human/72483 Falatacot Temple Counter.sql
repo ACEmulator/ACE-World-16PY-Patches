@@ -140,4 +140,4 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (72483, -1, 72486, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Vicar Archer Gen (72486) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (72483, -1, 72487, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Vicar Blade Master Gen (72487) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (72483, -1, 72488, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Vicar Minion Gen (72488) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72483, -1, 72652, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Archer Gen (72652) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (72483, -1, 72652, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Something (72652) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

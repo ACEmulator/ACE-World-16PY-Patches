@@ -16,7 +16,7 @@ VALUES (46907,   1,       2048) /* ItemType - Gem */
      , (46907,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (46907,  94,         16) /* TargetType - Creature */
      , (46907, 280,        100) /* SharedCooldown */
-     , (46907, 349,        253) /* UseCreatesContractId */;
+     , (46907, 349,        253) /* UseCreatesContractId - Contract_253_Tanada_Slaughter */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46907,  22, True ) /* Inscribable */
@@ -31,7 +31,7 @@ VALUES (46907,   1, 'Contract for Tanada Slaughter') /* Name */
      , (46907,  16, 'Assault the Tanada Toresen Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46907,   1,   33557625) /* Setup */
-     , (46907,   3,  536870932) /* SoundTable */
-     , (46907,   8,  100691928) /* Icon */
-     , (46907,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46907,   1, 0x02000C79) /* Setup */
+     , (46907,   3, 0x20000014) /* SoundTable */
+     , (46907,   8, 0x06006FD8) /* Icon */
+     , (46907,  22, 0x3400002B) /* PhysicsEffectTable */;

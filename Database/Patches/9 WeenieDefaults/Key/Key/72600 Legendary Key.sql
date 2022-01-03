@@ -24,14 +24,14 @@ VALUES (72600,  22, True ) /* Inscribable */
      , (72600,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72600,  1, 'Legendary Key') /* Name */
-     , (72600, 13, 'legarmormagicweaponchest') /* KeyCode */
-     , (72600, 14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* Use */
-     , (72600, 16, 'A key only heard about in whispers and myths.') /* LongDesc */
-     , (72600, 33, 'NanjouStockadeKeyPickup') /* Quest */;
+VALUES (72600,   1, 'Legendary Key') /* Name */
+     , (72600,  13, 'legarmormagicweaponchest') /* KeyCode */
+     , (72600,  14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* Use */
+     , (72600,  16, 'A key only heard about in whispers and myths.') /* LongDesc */
+     , (72600,  33, 'NanjouStockadeKeyPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72600,   1,   33554784) /* Setup */
-     , (72600,   3,  536870932) /* SoundTable */
-     , (72600,   8,  100693001) /* Icon */
-     , (72600,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72600,   1, 0x02000160) /* Setup */
+     , (72600,   3, 0x20000014) /* SoundTable */
+     , (72600,   8, 0x06007409) /* Icon */
+     , (72600,  22, 0x3400002B) /* PhysicsEffectTable */;

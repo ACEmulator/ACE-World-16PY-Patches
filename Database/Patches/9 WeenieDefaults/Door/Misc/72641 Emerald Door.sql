@@ -32,8 +32,8 @@ VALUES (72641,   1, 'Emerald Door') /* Name */
      , (72641,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72641,   1,   33555023) /* Setup */
-     , (72641,   2,  150994966) /* MotionTable */
-     , (72641,   3,  536870946) /* SoundTable */
-     , (72641,   8,  100668183) /* Icon */
-     , (72641,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72641,   1, 0x0200024F) /* Setup */
+     , (72641,   2, 0x09000016) /* MotionTable */
+     , (72641,   3, 0x20000022) /* SoundTable */
+     , (72641,   8, 0x06001317) /* Icon */
+     , (72641,  22, 0x3400002B) /* PhysicsEffectTable */;

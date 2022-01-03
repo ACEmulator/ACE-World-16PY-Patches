@@ -32,8 +32,8 @@ VALUES (72596,   1, 'Lower Chamber Door') /* Name */
      , (72596,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72596,   1,   33555023) /* Setup */
-     , (72596,   2,  150994966) /* MotionTable */
-     , (72596,   3,  536870946) /* SoundTable */
-     , (72596,   8,  100668183) /* Icon */
-     , (72596,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72596,   1, 0x0200024F) /* Setup */
+     , (72596,   2, 0x09000016) /* MotionTable */
+     , (72596,   3, 0x20000022) /* SoundTable */
+     , (72596,   8, 0x06001317) /* Icon */
+     , (72596,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -30,7 +30,7 @@ VALUES (72616,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72616,  11,     180) /* ResetInterval */
-	 , (72616,  39,     1.1) /* DefaultScale */
+     , (72616,  39,     1.1) /* DefaultScale */
      , (72616,  43,       1) /* GeneratorRadius */
      , (72616,  54,       1) /* UseRadius */;
 
@@ -40,13 +40,13 @@ VALUES (72616,   1, 'Chorizite Chest') /* Name */
      , (72616,  33, 'chestchorizite72616') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72616,   1,   33554556) /* Setup */
-     , (72616,   2,  150994948) /* MotionTable */
-     , (72616,   3,  536870945) /* SoundTable */
-     , (72616,   7,  268436312) /* ClothingBase */
-	 , (72616,   6,   67113005) /* PalleteBase */
-     , (72616,   8,  100672485) /* Icon */
-     , (72616,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72616,   1, 0x0200007C) /* Setup */
+     , (72616,   2, 0x09000004) /* MotionTable */
+     , (72616,   3, 0x20000021) /* SoundTable */
+     , (72616,   6, 0x0400102D) /* PaletteBase */
+     , (72616,   7, 0x10000358) /* ClothingBase */
+     , (72616,   8, 0x060023E5) /* Icon */
+     , (72616,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72616, -1, 2001, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2003 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+VALUES (72616, -1, 2001, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2001 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

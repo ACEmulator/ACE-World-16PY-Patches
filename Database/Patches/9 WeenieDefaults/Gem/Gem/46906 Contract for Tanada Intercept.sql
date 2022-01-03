@@ -16,7 +16,7 @@ VALUES (46906,   1,       2048) /* ItemType - Gem */
      , (46906,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (46906,  94,         16) /* TargetType - Creature */
      , (46906, 280,        100) /* SharedCooldown */
-     , (46906, 349,        254) /* UseCreatesContractId */;
+     , (46906, 349,        254) /* UseCreatesContractId - Contract_254_Tanada_Intercept */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46906,  22, True ) /* Inscribable */
@@ -31,7 +31,7 @@ VALUES (46906,   1, 'Contract for Tanada Intercept') /* Name */
      , (46906,  16, 'Retrieve information from the Tanada Toresen Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46906,   1,   33557625) /* Setup */
-     , (46906,   3,  536870932) /* SoundTable */
-     , (46906,   8,  100691928) /* Icon */
-     , (46906,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46906,   1, 0x02000C79) /* Setup */
+     , (46906,   3, 0x20000014) /* SoundTable */
+     , (46906,   8, 0x06006FD8) /* Icon */
+     , (46906,  22, 0x3400002B) /* PhysicsEffectTable */;

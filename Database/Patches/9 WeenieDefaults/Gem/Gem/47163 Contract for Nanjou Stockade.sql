@@ -16,7 +16,7 @@ VALUES (47163,   1,       2048) /* ItemType - Gem */
      , (47163,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (47163,  94,         16) /* TargetType - Creature */
      , (47163, 280,        100) /* SharedCooldown */
-     , (47163, 349,        259) /* UseCreatesContractId */;
+     , (47163, 349,        259) /* UseCreatesContractId - Contract_259_Nanjou_Stockade */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47163,  22, True ) /* Inscribable */
@@ -31,7 +31,7 @@ VALUES (47163,   1, 'Contract for Nanjou Stockade') /* Name */
      , (47163,  16, 'Search the area for Lieutenant Karul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47163,   1,   33557625) /* Setup */
-     , (47163,   3,  536870932) /* SoundTable */
-     , (47163,   8,  100691928) /* Icon */
-     , (47163,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47163,   1, 0x02000C79) /* Setup */
+     , (47163,   3, 0x20000014) /* SoundTable */
+     , (47163,   8, 0x06006FD8) /* Icon */
+     , (47163,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -16,20 +16,19 @@ VALUES (72601,   1, True ) /* Stuck */
      , (72601,  13, True ) /* Ethereal */
      , (72601,  14, True ) /* GravityStatus */
      , (72601,  15, True ) /* LightsStatus */
-     , (72601,  19, True ) /* Attackable */
-     , (72601,  88, True ) /* PortalShowDestination */;
+     , (72601,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72601,  54, -0.1) /* UseRadius */;
+VALUES (72601,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72601,   1, 'Surface') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72601,   1,   33554867) /* Setup */
-     , (72601,   2,  150994947) /* MotionTable */
-     , (72601,   8,  100667499) /* Icon */;
+VALUES (72601,   1, 0x020001B3) /* Setup */
+     , (72601,   2, 0x09000003) /* MotionTable */
+     , (72601,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72601, 2, 1256194084, 108.000000, 90.000000, 70.004997, 1.000000, 0.000000, 0.000000, 0.000000) /* Destination */
+VALUES (72601, 2, 0x4AE00024, 108, 90, 70.005, 1, 0, 0, 0) /* Destination */
 /* @teleloc 0x4AE00024 [108.000000 90.000000 70.004997] 1.000000 0.000000 0.000000 0.000000 */;

@@ -6,7 +6,7 @@ VALUES (72659, 'ace72659-spectralemeraldblade', 10, '2021-11-23 02:36:52') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72659,   1,         16) /* ItemType - Creature */
      , (72659,   2,         77) /* CreatureType - Ghost */
-     , (72659,   3,          9) /* PalletteTemplate - Grey */
+     , (72659,   3,          9) /* PaletteTemplate - Grey */
      , (72659,   6,         -1) /* ItemsCapacity */
      , (72659,   7,         -1) /* ContainersCapacity */
      , (72659,  16,          1) /* ItemUseable - No */
@@ -30,7 +30,7 @@ VALUES (72659,   1,       5) /* HeartbeatInterval */
      , (72659,   3,       2) /* HealthRate */
      , (72659,   4,       5) /* StaminaRate */
      , (72659,   5,       1) /* ManaRate */
-     , (72659,  12,     0.5) /* PaletteBase */
+     , (72659,  12,     0.5) /* Shade */
      , (72659,  13,       1) /* ArmorModVsSlash */
      , (72659,  14,       1) /* ArmorModVsPierce */
      , (72659,  15,       1) /* ArmorModVsBludgeon */
@@ -68,17 +68,6 @@ VALUES (72659,   1, 0x02001B87) /* Setup */
      , (72659,   8, 0x060016C4) /* Icon */
      , (72659,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72659,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (72659,  1,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (72659,  2,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (72659,  3,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (72659,  4,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (72659,  5,  4,600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (72659,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (72659,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (72659,  8,  4,600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72659,   1, 350, 0, 0) /* Strength */
      , (72659,   2, 350, 0, 0) /* Endurance */
@@ -93,23 +82,33 @@ VALUES (72659,   1,  5025, 0, 0, 5200) /* MaxHealth */
      , (72659,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72659,  33, 0, 2, 0, 210, 0, 0) /* LifeMagic */
-     , (72659,  34, 0, 2, 0, 210, 0, 0) /* WarMagic */
-     , (72659,  31, 0, 2, 0, 210, 0, 0) /* CreatureMagic */
-     , (72659,  44, 0, 2, 0, 540, 0, 0) /* HeavyWeapons */
-     , (72659,  45, 0, 2, 0, 540, 0, 0) /* LightWeapons */
-     , (72659,  46, 0, 2, 0, 540, 0, 0) /* FinesseWeapons */
-     , (72659,  51, 0, 2, 0, 530, 0, 0) /* SneakAttack */
-     , (72659,  49, 0, 2, 0, 550, 0, 0) /* DualWield */
-     , (72659,  15, 0, 2, 0, 340, 0, 0) /* MagicDefense */
-     , (72659,   6, 0, 2, 0, 450, 0, 0) /* MeleeDefense */
-     , (72659,   7, 0, 2, 0, 570, 0, 0) /* MissileDefense */;
+VALUES (72659,  6, 0, 2, 0, 450, 0, 0) /* MeleeDefense        Trained */
+     , (72659,  7, 0, 2, 0, 570, 0, 0) /* MissileDefense      Trained */
+     , (72659, 15, 0, 2, 0, 340, 0, 0) /* MagicDefense        Trained */
+     , (72659, 31, 0, 2, 0, 210, 0, 0) /* CreatureEnchantment Trained */
+     , (72659, 33, 0, 2, 0, 210, 0, 0) /* LifeMagic           Trained */
+     , (72659, 34, 0, 2, 0, 210, 0, 0) /* WarMagic            Trained */
+     , (72659, 44, 0, 2, 0, 540, 0, 0) /* HeavyWeapons        Trained */
+     , (72659, 45, 0, 2, 0, 540, 0, 0) /* LightWeapons        Trained */
+     , (72659, 46, 0, 2, 0, 540, 0, 0) /* FinesseWeapons      Trained */
+     , (72659, 49, 0, 2, 0, 550, 0, 0) /* DualWield           Trained */
+     , (72659, 51, 0, 2, 0, 530, 0, 0) /* SneakAttack         Trained */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (72659,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (72659,  1,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (72659,  2,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (72659,  3,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (72659,  4,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (72659,  5,  4, 600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (72659,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (72659,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (72659,  8,  4, 600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72659,  4475,   2.08) /* Incantation of Blade Vulnerability Other */
-     , (72659,  4489,   2.08) /* Incantation of Fester Other */;
+VALUES (72659,  4475,   2.08)  /* Incantation of Blade Vulnerability Other */
+     , (72659,  4489,   2.08)  /* Incantation of Fester Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72659, 2, 46373,  1, 0,    0, False) /* Create Spectral Tachi (46373) for Wield */
-     , (72659, 2, 46372,  1, 0,    0, False) /* Create Spectral Tachi (46372) for Wield */;
-
+VALUES (72659, 2, 46373,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */
+     , (72659, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */;

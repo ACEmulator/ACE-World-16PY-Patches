@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72617;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72617, '72617-bladevulpressureplate', 24, '2005-02-09 10:00:00') /* PressurePlate */;
+VALUES (72617, 'ace72617-something', 24, '2005-02-09 10:00:00') /* PressurePlate */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72617,   1,        128) /* ItemType - Misc */
@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72617,   1, 'Something') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72617,   1,   33555536) /* Setup */
-     , (72617,   2,  150994977) /* MotionTable */
-     , (72617,   8,  100668114) /* Icon */
-     , (72617,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72617,   1, 0x02000450) /* Setup */
+     , (72617,   2, 0x09000021) /* MotionTable */
+     , (72617,   8, 0x060012D2) /* Icon */
+     , (72617,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (72617,  16,          0) /* ActivationTarget */;
+VALUES (72617,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (72617, 31, 0, 3, 0, 999, 0, 1640.91) /* CreatureEnchantment Specialized */

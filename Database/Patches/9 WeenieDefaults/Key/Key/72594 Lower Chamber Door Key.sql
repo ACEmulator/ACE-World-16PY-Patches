@@ -29,7 +29,7 @@ VALUES (72594,   1, 'Lower Chamber Door Key') /* Name */
      , (72594,  16, 'A key to the door the Spectral Nanjou Kaibinn was guarding.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72594,   1,   33554784) /* Setup */
-     , (72594,   3,  536870932) /* SoundTable */
-     , (72594,   8,  100675676) /* Icon */
-     , (72594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72594,   1, 0x02000160) /* Setup */
+     , (72594,   3, 0x20000014) /* SoundTable */
+     , (72594,   8, 0x0600305C) /* Icon */
+     , (72594,  22, 0x3400002B) /* PhysicsEffectTable */;

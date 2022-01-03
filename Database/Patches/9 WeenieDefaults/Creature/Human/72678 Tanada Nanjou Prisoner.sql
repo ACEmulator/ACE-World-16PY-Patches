@@ -6,7 +6,7 @@ VALUES (72678, 'ace72678-tanadananjouprisoner', 10, '2021-09-08 09:47:28') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72678,   1,         16) /* ItemType - Creature */
      , (72678,   2,         31) /* CreatureType - Human */
-     , (72678,   3,          9) /* PaletteTemplate */
+     , (72678,   3,          9) /* PaletteTemplate - Grey */
      , (72678,   6,         -1) /* ItemsCapacity */
      , (72678,   7,         -1) /* ContainersCapacity */
      , (72678,  16,         32) /* ItemUseable - Remote */
@@ -30,13 +30,13 @@ VALUES (72678,   1, 'Tanada Nanjou Prisoner') /* Name */
      , (72678,   4, 'Sho') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72678,   1,   33554433) /* Setup */
-     , (72678,   2,  150994945) /* MotionTable */
-     , (72678,   3,  536870913) /* SoundTable */
-     , (72678,   4,  805306368) /* CombatTable */
-     , (72678,   7,  268437191) /* ClothingBase */
-     , (72678,   8,  100667446) /* Icon */
-     , (72678,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (72678,   1, 0x02000001) /* Setup */
+     , (72678,   2, 0x09000001) /* MotionTable */
+     , (72678,   3, 0x20000001) /* SoundTable */
+     , (72678,   4, 0x30000000) /* CombatTable */
+     , (72678,   7, 0x100006C7) /* ClothingBase */
+     , (72678,   8, 0x06001036) /* Icon */
+     , (72678,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72678,   1, 500, 0, 0) /* Strength */
