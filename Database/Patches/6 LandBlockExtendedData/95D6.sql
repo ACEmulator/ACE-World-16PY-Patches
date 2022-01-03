@@ -29,7 +29,7 @@ VALUES (0x795D6006,  1154, 0x95D60000, 78.5536, 71.3404, 100.005, -0.076489, 0, 
 /* @teleloc 0x95D60000 [78.553596 71.340401 100.004997] -0.076489 0.000000 0.000000 -0.997070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795D6006, 0x795D6002, '2005-02-09 10:00:00') /* Black Rat (218) */;
+VALUES (0x795D6006, 0x795D6002, '2021-11-01 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D6007,  5646, 0x95D6012B, 106.807, 65.6681, 100.005, -0.995822, 0, 0, 0.091311, False, '2021-11-01 00:00:00'); /* Archmage Philomon */
@@ -52,13 +52,13 @@ VALUES (0x795D600B,  3951, 0x95D60000, 78.6467, 73.0057, 100.005, 0.044528, 0, 0
 /* @teleloc 0x95D60000 [78.646698 73.005699 100.004997] 0.044528 0.000000 0.000000 -0.999008 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795D600B, 0x795D6005, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
-     , (0x795D600B, 0x795D600A, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
-     , (0x795D600B, 0x795D600C, '2005-02-09 10:00:00') /* Lady Tallial (5644) */
-     , (0x795D600B, 0x795D600D, '2005-02-09 10:00:00') /* Yi Yo-Jin (5898) */
-     , (0x795D600B, 0x795D600F, '2005-02-09 10:00:00') /* Gormling the Sneaky Seneschal (6889) */
-     , (0x795D600B, 0x795D6011, '2005-02-09 10:00:00') /* Loom (19128) */
-     , (0x795D600B, 0x795D6012, '2005-02-09 10:00:00') /* Journeyman Cook (28922) */;
+VALUES (0x795D600B, 0x795D6005, '2021-11-01 00:00:00') /* Ghost Wisp (1987) */
+     , (0x795D600B, 0x795D600A, '2021-11-01 00:00:00') /* Ghost Wisp (1987) */
+     , (0x795D600B, 0x795D600C, '2021-11-01 00:00:00') /* Lady Tallial (5644) */
+     , (0x795D600B, 0x795D600D, '2021-11-01 00:00:00') /* Yi Yo-Jin (5898) */
+     , (0x795D600B, 0x795D600F, '2021-11-01 00:00:00') /* Gormling the Sneaky Seneschal (6889) */
+     , (0x795D600B, 0x795D6011, '2021-11-01 00:00:00') /* Loom (19128) */
+     , (0x795D600B, 0x795D6012, '2021-11-01 00:00:00') /* Journeyman Cook (28922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D600C,  5644, 0x95D6013E, 82.0511, 106.693, 105.005, -0.119683, 0, 0, -0.992812,  True, '2021-11-01 00:00:00'); /* Lady Tallial */

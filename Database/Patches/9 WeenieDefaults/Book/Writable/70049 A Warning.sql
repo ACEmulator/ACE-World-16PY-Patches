@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70049;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70049, 'ace70049-awarning', 8, '2021-11-17 16:56:08') /* Book */;
+VALUES (70049, 'ace70049-awarning', 8, '2021-12-14 05:15:31') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70049,   1,       8192) /* ItemType - Writable */
@@ -34,7 +34,7 @@ VALUES (70049,   1, 0x02000155) /* Setup */
      , (70049,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (70049, 0, 0);
+VALUES (70049, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (70049, 0, 0xFFFFFFFF, 'Enrico di Bellenesse', 'prewritten', False, 'It grieves me to send you this letter, cousin. In all the years I have served my King, I have never betrayed my oaths as a loyal subject of Viamont. When you and your father began your rebellion, my heart was cleaved in twain. I am a member of the house of Bellenesse. But more importantly, I am a soldier in the King''s army.

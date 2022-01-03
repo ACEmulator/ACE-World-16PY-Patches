@@ -9,17 +9,17 @@ VALUES (0x7112E001,  1154, 0x112E000F, 25.5303, 149.114, -0.44, -0.183456, 0, 0,
 /* @teleloc 0x112E000F [25.530300 149.113998 -0.440000] -0.183456 0.000000 0.000000 -0.983028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7112E001, 0x7112E003, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
-     , (0x7112E001, 0x7112E004, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
-     , (0x7112E001, 0x7112E005, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
-     , (0x7112E001, 0x7112E006, '2019-02-10 00:00:00') /* Viamontian Commander (30289) */
-     , (0x7112E001, 0x7112E007, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
-     , (0x7112E001, 0x7112E008, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
-     , (0x7112E001, 0x7112E009, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
-     , (0x7112E001, 0x7112E00A, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
-     , (0x7112E001, 0x7112E00B, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
-     , (0x7112E001, 0x7112E00C, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
-     , (0x7112E001, 0x7112E00D, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */;
+VALUES (0x7112E001, 0x7112E003, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E004, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E005, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E006, '2021-11-01 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7112E001, 0x7112E007, '2021-11-01 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7112E001, 0x7112E008, '2021-11-01 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7112E001, 0x7112E009, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E00A, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E00B, '2021-11-01 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7112E001, 0x7112E00C, '2021-11-01 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7112E001, 0x7112E00D, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7112E003, 28653, 0x112E003B, 178.956, 49.6583, 25.8686, -0.785742, 0, 0, -0.618554,  True, '2021-11-01 00:00:00'); /* Viamontian Knight */

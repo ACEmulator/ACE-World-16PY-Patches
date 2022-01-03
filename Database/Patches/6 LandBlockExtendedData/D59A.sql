@@ -17,7 +17,7 @@ VALUES (0x7D59A003,  7924, 0xD59A0039, 176.494, 7.98446, 370.728, 0.709015, 0, 0
 /* @teleloc 0xD59A0039 [176.494003 7.984460 370.727997] 0.709015 0.000000 0.000000 -0.705194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D59A003, 0x7D59A004, '2020-11-02 19:09:18') /* SecondScene Controller (87031) */;
+VALUES (0x7D59A003, 0x7D59A004, '2021-11-01 00:00:00') /* SecondScene Controller (87031) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59A004, 87031, 0xD59A0039, 177.065, 9.04892, 370.235, 0.260075, 0, 0, -0.965588,  True, '2021-11-01 00:00:00'); /* SecondScene Controller */

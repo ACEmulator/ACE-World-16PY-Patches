@@ -153,8 +153,8 @@ VALUES (0x7977B027,  7923, 0x977B015A, 87.8372, 112.67, 0.005, 0.952477, 0, 0, -
 /* @teleloc 0x977B015A [87.837196 112.669998 0.005000] 0.952477 0.000000 0.000000 -0.304611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7977B027, 0x7977B026, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x7977B027, 0x7977B049, '2005-02-09 10:00:00') /* Apprentice Fletcher (27747) */;
+VALUES (0x7977B027, 0x7977B026, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7977B027, 0x7977B049, '2021-11-01 00:00:00') /* Apprentice Fletcher (27747) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7977B028, 12304, 0x977B0000, 84.7348, 121.758, 0.005, -0.37247, 0, 0, -0.928044, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */

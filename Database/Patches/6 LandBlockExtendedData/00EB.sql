@@ -13,96 +13,96 @@ VALUES (0x700EB04D,  7924, 0x00EB01B3, 107.289, -128.83, -23.9936, -0.088582, 0,
 /* @teleloc 0x00EB01B3 [107.289001 -128.830002 -23.993601] -0.088582 0.000000 0.000000 -0.996069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EB04D, 0x700EB04E, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB04F, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB050, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB051, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB052, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB053, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB054, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB055, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB056, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB057, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB058, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB059, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB05A, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB05B, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB05C, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB05D, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB05E, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB05F, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB060, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB061, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB062, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB063, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB064, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB065, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB066, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB067, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB068, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB069, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB06A, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB06B, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB06C, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB06D, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB06E, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB06F, '2020-08-03 00:00:00') /* Ardent Moar (38587) */
-     , (0x700EB04D, 0x700EB070, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB071, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB072, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB073, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB074, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB075, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB076, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB077, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB078, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB079, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB07A, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB07B, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB07C, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB07D, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB07E, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB07F, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB080, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB081, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB082, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB083, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB084, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB085, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB086, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB087, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB088, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB089, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB08A, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB08B, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB08C, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB08D, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB08E, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB08F, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB090, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB091, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB092, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB093, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB094, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB095, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB096, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB097, '2020-08-03 00:00:00') /* Verdant Moarsman (38591) */
-     , (0x700EB04D, 0x700EB098, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB099, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB09A, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB09B, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB09C, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB09D, '2020-08-03 00:00:00') /* Verdant Moarsman (38591) */
-     , (0x700EB04D, 0x700EB09E, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB09F, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB0A0, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */
-     , (0x700EB04D, 0x700EB0A1, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB0A2, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB0A3, '2020-08-03 00:00:00') /* Blessed Moar (38588) */
-     , (0x700EB04D, 0x700EB0A4, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB0A5, '2020-08-03 00:00:00') /* Verdant Moar (38589) */
-     , (0x700EB04D, 0x700EB0A6, '2020-08-03 00:00:00') /* Infused Blood Golem (34977) */
-     , (0x700EB04D, 0x700EB0A7, '2020-08-03 00:00:00') /* Ardent Moarsman (38590) */;
+VALUES (0x700EB04D, 0x700EB04E, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB04F, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB050, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB051, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB052, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB053, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB054, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB055, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB056, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB057, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB058, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB059, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB05A, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB05B, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB05C, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB05D, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB05E, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB05F, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB060, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB061, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB062, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB063, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB064, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB065, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB066, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB067, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB068, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB069, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB06A, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB06B, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB06C, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB06D, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB06E, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB06F, '2021-11-01 00:00:00') /* Ardent Moar (38587) */
+     , (0x700EB04D, 0x700EB070, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB071, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB072, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB073, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB074, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB075, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB076, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB077, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB078, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB079, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB07A, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB07B, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB07C, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB07D, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB07E, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB07F, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB080, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB081, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB082, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB083, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB084, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB085, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB086, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB087, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB088, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB089, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB08A, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB08B, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB08C, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB08D, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB08E, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB08F, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB090, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB091, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB092, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB093, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB094, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB095, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB096, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB097, '2021-11-01 00:00:00') /* Verdant Moarsman (38591) */
+     , (0x700EB04D, 0x700EB098, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB099, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB09A, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB09B, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB09C, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB09D, '2021-11-01 00:00:00') /* Verdant Moarsman (38591) */
+     , (0x700EB04D, 0x700EB09E, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB09F, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB0A0, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */
+     , (0x700EB04D, 0x700EB0A1, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB0A2, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB0A3, '2021-11-01 00:00:00') /* Blessed Moar (38588) */
+     , (0x700EB04D, 0x700EB0A4, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB0A5, '2021-11-01 00:00:00') /* Verdant Moar (38589) */
+     , (0x700EB04D, 0x700EB0A6, '2021-11-01 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700EB04D, 0x700EB0A7, '2021-11-01 00:00:00') /* Ardent Moarsman (38590) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EB04E, 38590, 0x00EB01B3, 107.289, -128.83, -23.9936, -0.088582, 0, 0, -0.996069,  True, '2021-11-01 00:00:00'); /* Ardent Moarsman */
@@ -469,10 +469,10 @@ VALUES (0x700EB0A8, 15759, 0x00EB012B, 152.011, -92.506, -35.921, -0.997979, 0, 
 /* @teleloc 0x00EB012B [152.011002 -92.505997 -35.921001] -0.997979 0.000000 0.000000 0.063547 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EB0A8, 0x700EB0A9, '2020-08-03 00:00:00') /* Tattered Falatacot Scroll (38617) */
-     , (0x700EB0A8, 0x700EB0AA, '2020-08-03 00:00:00') /* Wrinkled Falatacot Scroll (38618) */
-     , (0x700EB0A8, 0x700EB0AB, '2020-08-03 00:00:00') /* Stained Falatacot Scroll (38619) */
-     , (0x700EB0A8, 0x700EB0AC, '2020-08-03 00:00:00') /* Leatherbound Journal (38621) */;
+VALUES (0x700EB0A8, 0x700EB0A9, '2021-11-01 00:00:00') /* Tattered Falatacot Scroll (38617) */
+     , (0x700EB0A8, 0x700EB0AA, '2021-11-01 00:00:00') /* Wrinkled Falatacot Scroll (38618) */
+     , (0x700EB0A8, 0x700EB0AB, '2021-11-01 00:00:00') /* Stained Falatacot Scroll (38619) */
+     , (0x700EB0A8, 0x700EB0AC, '2021-11-01 00:00:00') /* Leatherbound Journal (38621) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EB0A9, 38617, 0x00EB012B, 152.011, -92.506, -35.921, -0.997979, 0, 0, 0.063547,  True, '2021-11-01 00:00:00'); /* Tattered Falatacot Scroll */

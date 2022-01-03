@@ -5,137 +5,137 @@ VALUES (0x700F03E8,  7923, 0x00F0014B, 6.57461, -57.1416, 6.005, -0.125718, 0, 0
 /* @teleloc 0x00F0014B [6.574610 -57.141602 6.005000] -0.125718 0.000000 0.000000 0.992066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F03E8, 0x700F042F, '2019-08-07 06:01:09') /* Mucky Moarsman (31912) */
-     , (0x700F03E8, 0x700F0430, '2019-08-07 06:01:09') /* Mucky Moarsman (31912) */
-     , (0x700F03E8, 0x700F0431, '2019-08-07 06:01:09') /* Grimy Moarsman (31915) */
-     , (0x700F03E8, 0x700F0432, '2019-08-07 06:01:09') /* Grimy Moarsman (31915) */
-     , (0x700F03E8, 0x700F0433, '2019-08-07 06:01:09') /* Scummy Moarsman (31914) */
-     , (0x700F03E8, 0x700F0434, '2019-08-07 06:01:09') /* Scummy Moarsman (31914) */
-     , (0x700F03E8, 0x700F0435, '2019-08-07 06:01:09') /* Grimy Moarsman (31915) */
-     , (0x700F03E8, 0x700F0436, '2019-08-07 06:01:09') /* Astis Niffis (32035) */
-     , (0x700F03E8, 0x700F0437, '2019-08-07 06:01:09') /* Astis Niffis (32035) */
-     , (0x700F03E8, 0x700F0438, '2019-08-07 06:01:09') /* Mucky Moarsman (31912) */
-     , (0x700F03E8, 0x700F0439, '2019-08-07 06:01:09') /* Mucky Moarsman (31912) */
-     , (0x700F03E8, 0x700F043A, '2019-08-07 06:01:09') /* Scummy Moarsman (31914) */
-     , (0x700F03E8, 0x700F043B, '2019-08-07 06:01:09') /* Scummy Moarsman (31914) */
-     , (0x700F03E8, 0x700F043C, '2019-08-07 06:01:09') /* Benek Niffis (32033) */
-     , (0x700F03E8, 0x700F043D, '2019-08-07 06:01:09') /* Benek Niffis (32033) */
-     , (0x700F03E8, 0x700F043E, '2019-08-07 06:01:09') /* Benek Niffis (32033) */
-     , (0x700F03E8, 0x700F043F, '2019-08-07 06:01:09') /* Benek Niffis (32033) */
-     , (0x700F03E8, 0x700F0440, '2019-08-07 06:01:09') /* Astis Niffis (32035) */
-     , (0x700F03E8, 0x700F0441, '2019-08-07 06:01:09') /* Astis Niffis (32035) */
-     , (0x700F03E8, 0x700F0447, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0448, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0449, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F044A, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F044B, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F044C, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F044D, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F044E, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F044F, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0450, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0451, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0452, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0453, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0454, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0455, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0456, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0457, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0458, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0459, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F045A, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F045B, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F045C, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F045D, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F045E, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F045F, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0460, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0461, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0462, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0463, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0464, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0465, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0466, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0467, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0468, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0469, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F046A, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F046B, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F046C, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F046D, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F046E, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F046F, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0470, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0471, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0472, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0473, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0474, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0475, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0476, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0477, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0478, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0479, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F047A, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F047B, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F047C, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F047D, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F047E, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F047F, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0480, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0481, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0482, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0483, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0484, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0485, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0486, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0487, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0488, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0489, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F048A, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F048B, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F048C, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F048D, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F048E, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F048F, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0490, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0491, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F0492, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0493, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0494, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F0495, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0496, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0497, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F0498, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F0499, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F049A, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F049B, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F049C, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F049D, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F049E, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F049F, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F04A0, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F04A1, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F04A2, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F04A3, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F04A4, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F04A5, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F04A6, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F04A7, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F04A8, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F04A9, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F04AA, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F04AB, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */
-     , (0x700F03E8, 0x700F04AC, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F04AD, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F04AE, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F04AF, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F04B0, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F04B1, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F04B2, '2019-08-07 06:01:09') /* Shambling Adherent (32004) */
-     , (0x700F03E8, 0x700F04B3, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F04B4, '2019-08-07 06:01:09') /* Worm Feast (32003) */
-     , (0x700F03E8, 0x700F04B5, '2019-08-07 06:01:09') /* Ghastly Priestess (32002) */
-     , (0x700F03E8, 0x700F04B6, '2019-08-07 06:01:09') /* Sodden Cadaver (32005) */;
+VALUES (0x700F03E8, 0x700F042F, '2021-11-01 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x700F03E8, 0x700F0430, '2021-11-01 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x700F03E8, 0x700F0431, '2021-11-01 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x700F03E8, 0x700F0432, '2021-11-01 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x700F03E8, 0x700F0433, '2021-11-01 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x700F03E8, 0x700F0434, '2021-11-01 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x700F03E8, 0x700F0435, '2021-11-01 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x700F03E8, 0x700F0436, '2021-11-01 00:00:00') /* Astis Niffis (32035) */
+     , (0x700F03E8, 0x700F0437, '2021-11-01 00:00:00') /* Astis Niffis (32035) */
+     , (0x700F03E8, 0x700F0438, '2021-11-01 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x700F03E8, 0x700F0439, '2021-11-01 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x700F03E8, 0x700F043A, '2021-11-01 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x700F03E8, 0x700F043B, '2021-11-01 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x700F03E8, 0x700F043C, '2021-11-01 00:00:00') /* Benek Niffis (32033) */
+     , (0x700F03E8, 0x700F043D, '2021-11-01 00:00:00') /* Benek Niffis (32033) */
+     , (0x700F03E8, 0x700F043E, '2021-11-01 00:00:00') /* Benek Niffis (32033) */
+     , (0x700F03E8, 0x700F043F, '2021-11-01 00:00:00') /* Benek Niffis (32033) */
+     , (0x700F03E8, 0x700F0440, '2021-11-01 00:00:00') /* Astis Niffis (32035) */
+     , (0x700F03E8, 0x700F0441, '2021-11-01 00:00:00') /* Astis Niffis (32035) */
+     , (0x700F03E8, 0x700F0447, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0448, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0449, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F044A, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F044B, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F044C, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F044D, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F044E, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F044F, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0450, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0451, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0452, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0453, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0454, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0455, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0456, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0457, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0458, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0459, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F045A, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F045B, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F045C, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F045D, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F045E, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F045F, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0460, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0461, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0462, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0463, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0464, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0465, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0466, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0467, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0468, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0469, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F046A, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F046B, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F046C, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F046D, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F046E, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F046F, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0470, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0471, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0472, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0473, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0474, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0475, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0476, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0477, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0478, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0479, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F047A, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F047B, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F047C, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F047D, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F047E, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F047F, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0480, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0481, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0482, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0483, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0484, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0485, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0486, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0487, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0488, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0489, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F048A, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F048B, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F048C, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F048D, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F048E, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F048F, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0490, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0491, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F0492, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0493, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0494, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F0495, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0496, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0497, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F0498, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F0499, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F049A, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F049B, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F049C, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F049D, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F049E, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F049F, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F04A0, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F04A1, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F04A2, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F04A3, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F04A4, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F04A5, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F04A6, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F04A7, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F04A8, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F04A9, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F04AA, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F04AB, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x700F03E8, 0x700F04AC, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F04AD, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F04AE, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F04AF, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F04B0, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F04B1, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F04B2, '2021-11-01 00:00:00') /* Shambling Adherent (32004) */
+     , (0x700F03E8, 0x700F04B3, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F04B4, '2021-11-01 00:00:00') /* Worm Feast (32003) */
+     , (0x700F03E8, 0x700F04B5, '2021-11-01 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x700F03E8, 0x700F04B6, '2021-11-01 00:00:00') /* Sodden Cadaver (32005) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F03E9, 31974, 0x00F00142, 20, -126.581, 0.01, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Causeway Sentinel */
@@ -266,16 +266,16 @@ VALUES (0x700F0408, 30287, 0x00F00138, 20.0122, -53.7992, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x00F00138 [20.012199 -53.799198 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0408, 0x700F03F2, '2019-08-07 06:01:09') /* Lever (29593) */
-     , (0x700F0408, 0x700F03F5, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F0408, 0x700F03F2, '2021-11-01 00:00:00') /* Lever (29593) */
+     , (0x700F0408, 0x700F03F5, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0409, 30287, 0x00F00134, 20, -35.9788, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F00134 [20.000000 -35.978802 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0409, 0x700F03F3, '2019-08-07 06:01:09') /* Lever (29593) */
-     , (0x700F0409, 0x700F03F4, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F0409, 0x700F03F3, '2021-11-01 00:00:00') /* Lever (29593) */
+     , (0x700F0409, 0x700F03F4, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F040A,   568, 0x00F001A7, 70, -65.57, 12, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -302,36 +302,36 @@ VALUES (0x700F040F,  2179, 0x00F0019C, 70, -23.9991, 12, 1, 0, 0, 0, False, '202
 /* @teleloc 0x00F0019C [70.000000 -23.999100 12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F040F, 0x700F03F6, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F040F, 0x700F03F6, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0410,  2179, 0x00F0019C, 70, -22.261, 12, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F0019C [70.000000 -22.261000 12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0410, 0x700F03F8, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F0410, 0x700F03F8, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0411,  2179, 0x00F0019C, 70, -20.3959, 12, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F0019C [70.000000 -20.395901 12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0411, 0x700F03F7, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F0411, 0x700F03F7, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0412,  2179, 0x00F0037D, 90, -95.7421, 30, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F0037D [90.000000 -95.742104 30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0412, 0x700F03FF, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F0412, 0x700F03FF, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0413,  2179, 0x00F00294, 74.794, -90, 18, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F00294 [74.793999 -90.000000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0413, 0x700F03F9, '2019-08-07 06:01:09') /* Lever (29593) */
-     , (0x700F0413, 0x700F03FA, '2019-08-07 06:01:09') /* Lever (286) */;
+VALUES (0x700F0413, 0x700F03F9, '2021-11-01 00:00:00') /* Lever (29593) */
+     , (0x700F0413, 0x700F03FA, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0414, 29963, 0x00F00369, 90, -75.712, 24, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Crypt Door */
@@ -342,7 +342,7 @@ VALUES (0x700F0415,  2179, 0x00F002D6, 80, -95.2816, 18, 1, 0, 0, 0, False, '202
 /* @teleloc 0x00F002D6 [80.000000 -95.281601 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0415, 0x700F03FB, '2019-08-07 06:01:09') /* Lever (286) */;
+VALUES (0x700F0415, 0x700F03FB, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0416,   568, 0x00F0038C, 64.75, -120, 36, -0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -369,14 +369,14 @@ VALUES (0x700F041B, 30287, 0x00F0039A, 70, -104.501, 36, 1, 0, 0, 0, False, '202
 /* @teleloc 0x00F0039A [70.000000 -104.500999 36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F041B, 0x700F0402, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F041B, 0x700F0402, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F041C, 30287, 0x00F003BC, 90, -104.497, 36, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x00F003BC [90.000000 -104.497002 36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F041C, 0x700F0407, '2019-08-07 06:01:09') /* Lever (29593) */;
+VALUES (0x700F041C, 0x700F0407, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F041D,   568, 0x00F003D9, 100, -135.25, 36, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -415,8 +415,8 @@ VALUES (0x700F0425,  2179, 0x00F001EA, 40.0276, -106.665, 18.005, 0.999867, 0, 0
 /* @teleloc 0x00F001EA [40.027599 -106.665001 18.004999] 0.999867 0.000000 0.000000 -0.016321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0425, 0x700F0423, '2019-08-07 06:01:09') /* Lever (29593) */
-     , (0x700F0425, 0x700F0424, '2019-08-07 06:01:09') /* Lever (286) */;
+VALUES (0x700F0425, 0x700F0423, '2021-11-01 00:00:00') /* Lever (29593) */
+     , (0x700F0425, 0x700F0424, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0426, 29963, 0x00F00222, 49.96, -85.67, 18.005, 0.009999, 0, 0, 0.99995, False, '2021-11-01 00:00:00'); /* Crypt Door */
@@ -427,10 +427,10 @@ VALUES (0x700F0427,  5085, 0x00F001AE, 71.9145, -84.6795, 12.005, -0.983366, 0, 
 /* @teleloc 0x00F001AE [71.914497 -84.679497 12.005000] -0.983366 0.000000 0.000000 -0.181633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F0427, 0x700F0428, '2019-08-07 06:01:09') /* Geowulf's Journal (31979) */
-     , (0x700F0427, 0x700F0429, '2019-08-07 06:01:09') /* Geowulf's Journal (31980) */
-     , (0x700F0427, 0x700F042A, '2019-08-07 06:01:09') /* Geowulf's Journal (31981) */
-     , (0x700F0427, 0x700F042B, '2019-08-07 06:01:09') /* Geowulf's Wedding Ring (31976) */;
+VALUES (0x700F0427, 0x700F0428, '2021-11-01 00:00:00') /* Geowulf's Journal (31979) */
+     , (0x700F0427, 0x700F0429, '2021-11-01 00:00:00') /* Geowulf's Journal (31980) */
+     , (0x700F0427, 0x700F042A, '2021-11-01 00:00:00') /* Geowulf's Journal (31981) */
+     , (0x700F0427, 0x700F042B, '2021-11-01 00:00:00') /* Geowulf's Wedding Ring (31976) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F0428, 31979, 0x00F00186, 46.9632, -59.2667, 12.005, -0.642359, 0, 0, 0.766404,  True, '2021-11-01 00:00:00'); /* Geowulf's Journal */

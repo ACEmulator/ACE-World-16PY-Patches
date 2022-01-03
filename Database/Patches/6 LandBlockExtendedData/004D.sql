@@ -9,39 +9,39 @@ VALUES (0x7004D0D0,  4219, 0x004D06E0, 90, -210, -0.018, 1, 0, 0, 0, False, '202
 /* @teleloc 0x004D06E0 [90.000000 -210.000000 -0.018000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D0D0, 0x7004D0D1, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D0D0, 0x7004D0D2, '2020-12-15 09:56:44') /* Tormented Patriarch (27922) */
-     , (0x7004D0D0, 0x7004D0D3, '2020-12-15 09:57:46') /* Tormented Patriarch (27922) */
-     , (0x7004D0D0, 0x7004D0D4, '2020-12-15 10:01:33') /* Falatacot Abbess (25345) */
-     , (0x7004D0D0, 0x7004D0D5, '2020-12-15 10:15:32') /* Tormented Imperial Consort (33286) */
-     , (0x7004D0D0, 0x7004D0D6, '2020-12-15 10:16:09') /* Tormented Imperial Consort (33286) */
-     , (0x7004D0D0, 0x7004D0D7, '2020-12-15 10:17:34') /* Falatacot Abbess (25345) */
-     , (0x7004D0D0, 0x7004D0D8, '2020-12-15 10:24:03') /* Ancient Soul (26516) */
-     , (0x7004D0D0, 0x7004D0D9, '2020-12-15 10:27:01') /* Ancient Soul (26516) */
-     , (0x7004D0D0, 0x7004D0DA, '2020-12-15 10:28:10') /* Ancient Soul (26516) */
-     , (0x7004D0D0, 0x7004D0DB, '2020-12-15 10:29:23') /* Falatacot Abbess (25345) */
-     , (0x7004D0D0, 0x7004D0DC, '2020-12-15 10:38:45') /* Ancient Soul (26516) */
-     , (0x7004D0D0, 0x7004D0DD, '2020-12-15 10:39:43') /* Falatacot Abbess (25345) */
-     , (0x7004D0D0, 0x7004D0DE, '2020-12-15 10:40:35') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0DF, '2020-12-15 10:40:48') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E0, '2020-12-15 10:42:01') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E1, '2020-12-15 10:42:09') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E2, '2020-12-15 10:42:24') /* Falatacot Abbess (25345) */
-     , (0x7004D0D0, 0x7004D0E3, '2020-12-15 10:42:39') /* Falatacot Abbess (25345) */
-     , (0x7004D0D0, 0x7004D0E4, '2020-12-15 10:48:10') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E5, '2020-12-15 10:48:19') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E6, '2020-12-15 10:48:30') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E7, '2020-12-15 10:50:05') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E8, '2020-12-15 10:50:10') /* Enraged Ancient Soul (33285) */
-     , (0x7004D0D0, 0x7004D0E9, '2020-12-15 10:51:08') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D0D0, 0x7004D0EA, '2020-12-15 10:52:07') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D0D0, 0x7004D0ED, '2020-12-15 10:52:43') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D0D0, 0x7004D0EE, '2020-12-15 10:54:59') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D0D0, 0x7004D0F0, '2020-12-15 10:56:54') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D0D0, 0x7004D0F1, '2020-12-15 10:57:38') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D0D0, 0x7004D0F2, '2020-12-15 10:58:24') /* Tormented Imperial Consort (33286) */
-     , (0x7004D0D0, 0x7004D0F3, '2020-12-15 10:58:31') /* Tormented Imperial Consort (33286) */
-     , (0x7004D0D0, 0x7004D0F5, '2020-12-15 14:32:47') /* Vault Mistress Shilaanis Ri (87097) */;
+VALUES (0x7004D0D0, 0x7004D0D1, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D0D0, 0x7004D0D2, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D0D0, 0x7004D0D3, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D0D0, 0x7004D0D4, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D0D0, 0x7004D0D5, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D0D0, 0x7004D0D6, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D0D0, 0x7004D0D7, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D0D0, 0x7004D0D8, '2021-11-01 00:00:00') /* Ancient Soul (26516) */
+     , (0x7004D0D0, 0x7004D0D9, '2021-11-01 00:00:00') /* Ancient Soul (26516) */
+     , (0x7004D0D0, 0x7004D0DA, '2021-11-01 00:00:00') /* Ancient Soul (26516) */
+     , (0x7004D0D0, 0x7004D0DB, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D0D0, 0x7004D0DC, '2021-11-01 00:00:00') /* Ancient Soul (26516) */
+     , (0x7004D0D0, 0x7004D0DD, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D0D0, 0x7004D0DE, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0DF, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E0, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E1, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E2, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D0D0, 0x7004D0E3, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D0D0, 0x7004D0E4, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E5, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E6, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E7, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E8, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D0D0, 0x7004D0E9, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D0D0, 0x7004D0EA, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D0D0, 0x7004D0ED, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D0D0, 0x7004D0EE, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D0D0, 0x7004D0F0, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D0D0, 0x7004D0F1, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D0D0, 0x7004D0F2, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D0D0, 0x7004D0F3, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D0D0, 0x7004D0F5, '2021-11-01 00:00:00') /* Vault Mistress Shilaanis Ri (87097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D0D1, 24867, 0x004D06E0, 90, -210, -0.018, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Sishalti Eye Stalk */
@@ -184,12 +184,12 @@ VALUES (0x7004D0F6, 15759, 0x004D0414, 79.359, -4.82918, -17.945, 0.800053, 0, 0
 /* @teleloc 0x004D0414 [79.359001 -4.829180 -17.945000] 0.800053 0.000000 0.000000 -0.599930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D0F6, 0x7004D0F7, '2020-12-15 15:12:54') /* Eastern Temple Tablet (87098) */
-     , (0x7004D0F6, 0x7004D0F8, '2020-12-15 15:13:06') /* Eastern Temple Tablet (87098) */
-     , (0x7004D0F6, 0x7004D0F9, '2020-12-15 15:13:23') /* Eastern Temple Tablet (87098) */
-     , (0x7004D0F6, 0x7004D14F, '2020-12-16 17:04:07') /* Western Temple Tablet (87119) */
-     , (0x7004D0F6, 0x7004D150, '2020-12-16 17:04:20') /* Western Temple Tablet (87119) */
-     , (0x7004D0F6, 0x7004D151, '2020-12-16 17:04:42') /* Western Temple Tablet (87119) */;
+VALUES (0x7004D0F6, 0x7004D0F7, '2021-11-01 00:00:00') /* Eastern Temple Tablet (87098) */
+     , (0x7004D0F6, 0x7004D0F8, '2021-11-01 00:00:00') /* Eastern Temple Tablet (87098) */
+     , (0x7004D0F6, 0x7004D0F9, '2021-11-01 00:00:00') /* Eastern Temple Tablet (87098) */
+     , (0x7004D0F6, 0x7004D14F, '2021-11-01 00:00:00') /* Western Temple Tablet (87119) */
+     , (0x7004D0F6, 0x7004D150, '2021-11-01 00:00:00') /* Western Temple Tablet (87119) */
+     , (0x7004D0F6, 0x7004D151, '2021-11-01 00:00:00') /* Western Temple Tablet (87119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D0F7, 87098, 0x004D044B, 86.0443, 2.77553, -17.945, 0.014882, 0, 0, -0.999889,  True, '2021-11-01 00:00:00'); /* Eastern Temple Tablet */
@@ -208,21 +208,21 @@ VALUES (0x7004D0FA, 28104, 0x004D0311, 74.835, -359.999, -35.945, -0.707107, 0, 
 /* @teleloc 0x004D0311 [74.834999 -359.998993 -35.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D0FA, 0x7004D101, '2020-12-16 08:36:55') /* Lever (285) */;
+VALUES (0x7004D0FA, 0x7004D101, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D0FB, 28104, 0x004D032B, 89.9974, -344.836, -35.945, -1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Guardian */
 /* @teleloc 0x004D032B [89.997398 -344.835999 -35.945000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D0FB, 0x7004D0FC, '2020-12-16 08:10:39') /* Lever (285) */;
+VALUES (0x7004D0FB, 0x7004D0FC, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D0FC,   285, 0x004D0344, 99.8713, -369.914, -34.176, -0.411772, 0, 0, 0.911287,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x004D0344 [99.871300 -369.914001 -34.175999] -0.411772 0.000000 0.000000 0.911287 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D0FC, 0x7004D0FD, '2020-12-16 08:10:39') /* Lever (285) */;
+VALUES (0x7004D0FC, 0x7004D0FD, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D0FD,   285, 0x004D032B, 88.437, -341.422, -34.426, -0.707704, 0, 0, -0.706509,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -233,14 +233,14 @@ VALUES (0x7004D0FE, 28104, 0x004D034B, 105.143, -359.995, -35.945, 0.707107, 0, 
 /* @teleloc 0x004D034B [105.142998 -359.994995 -35.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D0FE, 0x7004D0FF, '2020-12-16 08:29:15') /* Lever (285) */;
+VALUES (0x7004D0FE, 0x7004D0FF, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D0FF,   285, 0x004D0322, 90.2794, -315.605, -34.426, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x004D0322 [90.279404 -315.605011 -34.425999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D0FF, 0x7004D100, '2020-12-16 08:29:15') /* Lever (285) */;
+VALUES (0x7004D0FF, 0x7004D100, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D100,   285, 0x004D034B, 109.153, -358.436, -34.426, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -251,7 +251,7 @@ VALUES (0x7004D101,   285, 0x004D035B, 125.6, -360.002, -34.426, 0.697313, 0, 0,
 /* @teleloc 0x004D035B [125.599998 -360.002014 -34.425999] 0.697313 0.000000 0.000000 0.716767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D101, 0x7004D102, '2020-12-16 08:36:55') /* Lever (285) */;
+VALUES (0x7004D101, 0x7004D102, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D102,   285, 0x004D0311, 70.839, -361.557, -34.426, 0.018123, 0, 0, -0.999836,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -262,14 +262,14 @@ VALUES (0x7004D103, 28104, 0x004D032F, 90.0007, -375.162, -35.945, 0, 0, 0, -1, 
 /* @teleloc 0x004D032F [90.000702 -375.161987 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D103, 0x7004D104, '2020-12-16 08:47:27') /* Lever (285) */;
+VALUES (0x7004D103, 0x7004D104, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D104,   285, 0x004D02FE, 45.6034, -359.935, -34.426, -0.711557, 0, 0, -0.702628,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x004D02FE [45.603401 -359.934998 -34.425999] -0.711557 0.000000 0.000000 -0.702628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D104, 0x7004D105, '2020-12-16 08:47:27') /* Lever (285) */;
+VALUES (0x7004D104, 0x7004D105, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D105,   285, 0x004D032F, 91.5667, -378.626, -34.426, -0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -280,54 +280,54 @@ VALUES (0x7004D106,  4219, 0x004D0344, 102.228, -366.597, -35.945, 0.324174, 0, 
 /* @teleloc 0x004D0344 [102.227997 -366.596985 -35.945000] 0.324174 0.000000 0.000000 0.945998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D106, 0x7004D107, '2020-12-16 09:14:58') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D108, '2020-12-16 09:15:15') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D109, '2020-12-16 09:15:22') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D10A, '2020-12-16 09:15:30') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D10B, '2020-12-16 09:30:41') /* Tormented Patriarch (27922) */
-     , (0x7004D106, 0x7004D10C, '2020-12-16 09:30:47') /* Tormented Patriarch (27922) */
-     , (0x7004D106, 0x7004D10D, '2020-12-16 09:31:25') /* Falatacot Abbess (25345) */
-     , (0x7004D106, 0x7004D10E, '2020-12-16 09:32:24') /* Falatacot Abbess (25345) */
-     , (0x7004D106, 0x7004D10F, '2020-12-16 09:32:36') /* Tormented Patriarch (27922) */
-     , (0x7004D106, 0x7004D110, '2020-12-16 09:32:43') /* Tormented Patriarch (27922) */
-     , (0x7004D106, 0x7004D111, '2020-12-16 09:33:12') /* Tormented Patriarch (27922) */
-     , (0x7004D106, 0x7004D112, '2020-12-16 09:33:18') /* Tormented Patriarch (27922) */
-     , (0x7004D106, 0x7004D113, '2020-12-16 09:33:29') /* Falatacot Abbess (25345) */
-     , (0x7004D106, 0x7004D114, '2020-12-16 09:37:16') /* Falatacot Abbess (25345) */
-     , (0x7004D106, 0x7004D115, '2020-12-16 09:39:21') /* Tormented Patriarch (27922) */
-     , (0x7004D106, 0x7004D116, '2020-12-16 09:40:29') /* Ancient Soul (26516) */
-     , (0x7004D106, 0x7004D117, '2020-12-16 09:40:43') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D121, '2020-12-16 10:48:13') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D122, '2020-12-16 10:48:20') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D123, '2020-12-16 10:48:30') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D124, '2020-12-16 10:48:35') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D125, '2020-12-16 10:49:29') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D126, '2020-12-16 10:49:34') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D127, '2020-12-16 10:51:30') /* Tormented Imperial Consort (33286) */
-     , (0x7004D106, 0x7004D128, '2020-12-16 10:52:14') /* Tormented Imperial Consort (33286) */
-     , (0x7004D106, 0x7004D129, '2020-12-16 10:52:26') /* Tormented Imperial Consort (33286) */
-     , (0x7004D106, 0x7004D139, '2020-12-16 15:27:16') /* Tormented Imperial Consort (33286) */
-     , (0x7004D106, 0x7004D13A, '2020-12-16 15:27:32') /* Tormented Imperial Consort (33286) */
-     , (0x7004D106, 0x7004D13B, '2020-12-16 15:29:31') /* Falatacot Abbess (25345) */
-     , (0x7004D106, 0x7004D13C, '2020-12-16 15:29:38') /* Falatacot Abbess (25345) */
-     , (0x7004D106, 0x7004D13D, '2020-12-16 15:31:10') /* Falatacot Abbess (25345) */
-     , (0x7004D106, 0x7004D13E, '2020-12-16 15:36:51') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D13F, '2020-12-16 15:37:04') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D140, '2020-12-16 15:37:15') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D141, '2020-12-16 15:39:06') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D142, '2020-12-16 15:39:13') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D143, '2020-12-16 15:39:27') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D144, '2020-12-16 15:41:30') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D145, '2020-12-16 15:41:33') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D146, '2020-12-16 15:41:37') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D147, '2020-12-16 15:41:47') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D148, '2020-12-16 15:42:07') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D149, '2020-12-16 15:42:18') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D14A, '2020-12-16 15:42:26') /* Sishalti Eye Stalk (24867) */
-     , (0x7004D106, 0x7004D14B, '2020-12-16 15:50:59') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D14C, '2020-12-16 15:51:04') /* Enraged Ancient Soul (33285) */
-     , (0x7004D106, 0x7004D14D, '2020-12-16 15:51:27') /* Vault Mistress Niktari Xsu (87099) */
-     , (0x7004D106, 0x7004D15C, '2020-12-19 20:56:26') /* Enraged Ancient Soul (33285) */;
+VALUES (0x7004D106, 0x7004D107, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D108, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D109, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D10A, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D10B, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D106, 0x7004D10C, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D106, 0x7004D10D, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D106, 0x7004D10E, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D106, 0x7004D10F, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D106, 0x7004D110, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D106, 0x7004D111, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D106, 0x7004D112, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D106, 0x7004D113, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D106, 0x7004D114, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D106, 0x7004D115, '2021-11-01 00:00:00') /* Tormented Patriarch (27922) */
+     , (0x7004D106, 0x7004D116, '2021-11-01 00:00:00') /* Ancient Soul (26516) */
+     , (0x7004D106, 0x7004D117, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D121, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D122, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D123, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D124, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D125, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D126, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D127, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D106, 0x7004D128, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D106, 0x7004D129, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D106, 0x7004D139, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D106, 0x7004D13A, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7004D106, 0x7004D13B, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D106, 0x7004D13C, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D106, 0x7004D13D, '2021-11-01 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7004D106, 0x7004D13E, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D13F, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D140, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D141, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D142, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D143, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D144, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D145, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D146, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D147, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D148, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D149, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D14A, '2021-11-01 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7004D106, 0x7004D14B, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D14C, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7004D106, 0x7004D14D, '2021-11-01 00:00:00') /* Vault Mistress Niktari Xsu (87099) */
+     , (0x7004D106, 0x7004D15C, '2021-11-01 00:00:00') /* Enraged Ancient Soul (33285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D107, 24867, 0x004D0344, 96.174, -366.274, -36.018, 0.920954, 0, 0, 0.389671,  True, '2021-11-01 00:00:00'); /* Sishalti Eye Stalk */
@@ -402,14 +402,14 @@ VALUES (0x7004D118,  2179, 0x004D02B7, 74.7285, -359.998, -41.945, -0.707107, 0,
 /* @teleloc 0x004D02B7 [74.728500 -359.997986 -41.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D118, 0x7004D119, '2020-12-16 10:18:53') /* Lever (285) */;
+VALUES (0x7004D118, 0x7004D119, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D119,   285, 0x004D02D8, 94.3951, -383.141, -40.426, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x004D02D8 [94.395103 -383.140991 -40.425999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D119, 0x7004D11A, '2020-12-16 10:18:53') /* Lever (285) */;
+VALUES (0x7004D119, 0x7004D11A, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D11A,   285, 0x004D02B5, 72.5543, -364.391, -40.426, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -420,14 +420,14 @@ VALUES (0x7004D11B,  2179, 0x004D02F9, 105.244, -360, -41.945, -0.707107, 0, 0, 
 /* @teleloc 0x004D02F9 [105.244003 -360.000000 -41.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D11B, 0x7004D11C, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D11B, 0x7004D11C, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D11C,   285, 0x004D02B5, 65.6066, -360, -40.426, 0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x004D02B5 [65.606598 -360.000000 -40.425999] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D11C, 0x7004D11D, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D11C, 0x7004D11D, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D11D,   285, 0x004D02F7, 107.635, -355.603, -40.426, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -438,14 +438,14 @@ VALUES (0x7004D11E,  2179, 0x004D02CE, 89.9963, -344.76, -41.945, 0, 0, 0, -1, F
 /* @teleloc 0x004D02CE [89.996300 -344.760010 -41.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D11E, 0x7004D11F, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D11E, 0x7004D11F, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D11F,   285, 0x004D02F7, 114.391, -360.101, -40.426, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x004D02F7 [114.390999 -360.101013 -40.425999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D11F, 0x7004D120, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D11F, 0x7004D120, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D120,   285, 0x004D02CB, 85.6014, -342.119, -40.426, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -492,14 +492,14 @@ VALUES (0x7004D12A,   269, 0x004D025A, 74.397, -336.853, -58.5, 0.707107, 0, 0, 
 /* @teleloc 0x004D025A [74.397003 -336.852997 -58.500000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D12A, 0x7004D12C, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D12A, 0x7004D12C, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D12B,  2179, 0x004D0292, 99.999, -355.255, -59.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x004D0292 [99.999001 -355.255005 -59.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D12B, 0x7004D12A, '2020-12-16 10:30:10') /* Button (269) */;
+VALUES (0x7004D12B, 0x7004D12A, '2021-11-01 00:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D12C,   285, 0x004D028A, 95.6043, -350.555, -58.426, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -510,14 +510,14 @@ VALUES (0x7004D12D,  2609, 0x004D028A, 99.85, -350, -60, -0.707107, 0, 0, -0.707
 /* @teleloc 0x004D028A [99.849998 -350.000000 -60.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D12D, 0x7004D12F, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D12D, 0x7004D12F, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D12E,  2179, 0x004D02A1, 100.002, -385.261, -59.945, -1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x004D02A1 [100.001999 -385.260986 -59.945000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D12E, 0x7004D12D, '2020-12-16 10:30:10') /* Lever (2609) */;
+VALUES (0x7004D12E, 0x7004D12D, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D12F,   285, 0x004D029F, 104.4, -389.962, -58.426, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -528,14 +528,14 @@ VALUES (0x7004D130,  2609, 0x004D029F, 100, -390, -59.945, 0.707107, 0, 0, -0.70
 /* @teleloc 0x004D029F [100.000000 -390.000000 -59.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D130, 0x7004D132, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D130, 0x7004D132, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D131,  2179, 0x004D02B2, 115.247, -370.004, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x004D02B2 [115.247002 -370.003998 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D131, 0x7004D130, '2020-12-16 10:30:10') /* Lever (2609) */;
+VALUES (0x7004D131, 0x7004D130, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D132,   285, 0x004D02B0, 119.796, -365.608, -58.426, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -546,14 +546,14 @@ VALUES (0x7004D133,  2609, 0x004D02B0, 120, -370, -59.945, -0.999975, 0, 0, -0.0
 /* @teleloc 0x004D02B0 [120.000000 -370.000000 -59.945000] -0.999975 0.000000 0.000000 -0.007075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D133, 0x7004D135, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D133, 0x7004D135, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D134,  2179, 0x004D0281, 85.2555, -380, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x004D0281 [85.255501 -380.000000 -59.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D134, 0x7004D133, '2020-12-16 10:30:10') /* Lever (2609) */;
+VALUES (0x7004D134, 0x7004D133, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D135,   285, 0x004D026E, 82.4735, -381.562, -58.426, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -564,14 +564,14 @@ VALUES (0x7004D136,  2179, 0x004D0286, 85.2481, -400, -59.945, -0.707107, 0, 0, 
 /* @teleloc 0x004D0286 [85.248100 -400.000000 -59.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D136, 0x7004D137, '2020-12-16 10:30:10') /* Lever (285) */;
+VALUES (0x7004D136, 0x7004D137, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D137,   285, 0x004D0283, 94.394, -400.131, -58.426, -0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x004D0283 [94.393997 -400.131012 -58.425999] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D137, 0x7004D138, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D137, 0x7004D138, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D138,  2131, 0x004D027C, 89.4396, -369.883, -60, -0.701656, 0, 0, 0.712516,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -698,7 +698,7 @@ VALUES (0x7004D156,  8548, 0x004D06F5, 99.9378, -164.943, 0, 0.409191, 0, 0, -0.
 /* @teleloc 0x004D06F5 [99.937798 -164.942993 0.000000] 0.409191 0.000000 0.000000 -0.912449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D156, 0x7004D157, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D156, 0x7004D157, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D157,  2131, 0x004D06F5, 99.7664, -164.697, 0, -0.343696, 0, 0, 0.939081,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -709,7 +709,7 @@ VALUES (0x7004D158,  7562, 0x004D06EC, 101.138, -114.175, 0, -0.939791, 0, 0, 0.
 /* @teleloc 0x004D06EC [101.138000 -114.175003 0.000000] -0.939791 0.000000 0.000000 0.341749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D158, 0x7004D159, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D158, 0x7004D159, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D159,  2131, 0x004D06EC, 101.138, -114.175, 0, -0.939791, 0, 0, 0.341749,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -732,14 +732,14 @@ VALUES (0x7004D15D, 24170, 0x004D0590, 87.2185, -374.906, -9.476, -0.320559, 0, 
 /* @teleloc 0x004D0590 [87.218498 -374.906006 -9.476000] -0.320559 0.000000 0.000000 -0.947228 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D15D, 0x7004D15E, '2020-12-16 10:30:10') /* Lightning Trap (24170) */;
+VALUES (0x7004D15D, 0x7004D15E, '2021-11-01 00:00:00') /* Lightning Trap (24170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D15E, 24170, 0x004D0590, 92.4693, -374.875, -9.476, 0.305264, 0, 0, -0.952268,  True, '2021-11-01 00:00:00'); /* Lightning Trap */
 /* @teleloc 0x004D0590 [92.469299 -374.875000 -9.476000] 0.305264 0.000000 0.000000 -0.952268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D15E, 0x7004D15F, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D15E, 0x7004D15F, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D15F,  2131, 0x004D0590, 89.7738, -370.225, -12, -0.039774, 0, 0, -0.999209,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -750,14 +750,14 @@ VALUES (0x7004D160, 24170, 0x004D0584, 75.132, -357.213, -9.476, -0.989997, 0, 0
 /* @teleloc 0x004D0584 [75.132004 -357.213013 -9.476000] -0.989997 0.000000 0.000000 -0.141087 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D160, 0x7004D161, '2020-12-16 10:30:10') /* Lightning Trap (24170) */;
+VALUES (0x7004D160, 0x7004D161, '2021-11-01 00:00:00') /* Lightning Trap (24170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D161, 24170, 0x004D0584, 75.1291, -362.463, -9.47599, -0.461103, 0, 0, -0.887347,  True, '2021-11-01 00:00:00'); /* Lightning Trap */
 /* @teleloc 0x004D0584 [75.129097 -362.463013 -9.475990] -0.461103 0.000000 0.000000 -0.887347 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D161, 0x7004D162, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D161, 0x7004D162, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D162,  2131, 0x004D0584, 80.4911, -359.963, -12, -0.728916, 0, 0, -0.684603,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -768,14 +768,14 @@ VALUES (0x7004D163, 24170, 0x004D058E, 87.0993, -345.142, -9.47599, -0.787444, 0
 /* @teleloc 0x004D058E [87.099297 -345.141998 -9.475990] -0.787444 0.000000 0.000000 -0.616386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D163, 0x7004D165, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D163, 0x7004D165, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D164, 24170, 0x004D058E, 92.9112, -345.128, -9.44499, -0.895673, 0, 0, 0.444714, False, '2021-11-01 00:00:00'); /* Lightning Trap */
 /* @teleloc 0x004D058E [92.911201 -345.127991 -9.444990] -0.895673 0.000000 0.000000 0.444714 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D164, 0x7004D163, '2020-12-16 10:30:10') /* Lightning Trap (24170) */;
+VALUES (0x7004D164, 0x7004D163, '2021-11-01 00:00:00') /* Lightning Trap (24170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D165,  2131, 0x004D058E, 90.1124, -350.825, -12, -0.999924, 0, 0, 0.012294,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -786,14 +786,14 @@ VALUES (0x7004D166, 24170, 0x004D059B, 104.799, -356.945, -9.44499, -0.937115, 0
 /* @teleloc 0x004D059B [104.799004 -356.945007 -9.444990] -0.937115 0.000000 0.000000 0.349021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D166, 0x7004D168, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D166, 0x7004D168, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D167, 24170, 0x004D059B, 104.871, -362.911, -9.44499, -0.34456, 0, 0, 0.938764, False, '2021-11-01 00:00:00'); /* Lightning Trap */
 /* @teleloc 0x004D059B [104.871002 -362.911011 -9.444990] -0.344560 0.000000 0.000000 0.938764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D167, 0x7004D166, '2020-12-16 10:30:10') /* Lightning Trap (24170) */;
+VALUES (0x7004D167, 0x7004D166, '2021-11-01 00:00:00') /* Lightning Trap (24170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D168,  2131, 0x004D059B, 99.186, -360.112, -12, -0.718588, 0, 0, 0.695436,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -820,7 +820,7 @@ VALUES (0x7004D16D,  7562, 0x004D032B, 90.14, -339.857, -36, 0.999908, 0, 0, 0.0
 /* @teleloc 0x004D032B [90.139999 -339.856995 -36.000000] 0.999908 0.000000 0.000000 0.013579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D16D, 0x7004D16E, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
+VALUES (0x7004D16D, 0x7004D16E, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D16E,  2131, 0x004D032B, 90.1838, -340.073, -36, 0.999935, 0, 0, -0.01142,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -839,7 +839,7 @@ VALUES (0x7004D171,  8548, 0x004D032F, 89.9245, -380.853, -36, 0.014225, 0, 0, -
 /* @teleloc 0x004D032F [89.924500 -380.852997 -36.000000] 0.014225 0.000000 0.000000 -0.999899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D171, 0x7004D172, '2020-12-19 22:00:09') /* Pressure Plate (2131) */;
+VALUES (0x7004D171, 0x7004D172, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D172,  2131, 0x004D032F, 89.8872, -380.819, -36, 0.039216, 0, 0, -0.999231,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -854,7 +854,7 @@ VALUES (0x7004D174,  8548, 0x004D02BB, 84.5521, -360.107, -42, -0.703534, 0, 0, 
 /* @teleloc 0x004D02BB [84.552101 -360.106995 -42.000000] -0.703534 0.000000 0.000000 0.710662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D174, 0x7004D175, '2020-12-19 22:03:05') /* Pressure Plate (2131) */;
+VALUES (0x7004D174, 0x7004D175, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D175,  2131, 0x004D02BB, 84.5405, -360.124, -42, -0.738173, 0, 0, 0.674612,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -865,7 +865,7 @@ VALUES (0x7004D176,  8548, 0x004D02D2, 94.9932, -359.916, -42, -0.710071, 0, 0, 
 /* @teleloc 0x004D02D2 [94.993202 -359.915985 -42.000000] -0.710071 0.000000 0.000000 -0.704130 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004D176, 0x7004D177, '2020-12-19 22:03:36') /* Pressure Plate (2131) */;
+VALUES (0x7004D176, 0x7004D177, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D177,  2131, 0x004D02D2, 94.9939, -359.827, -42, -0.710071, 0, 0, -0.70413,  True, '2021-11-01 00:00:00'); /* Pressure Plate */

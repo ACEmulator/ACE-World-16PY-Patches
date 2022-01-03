@@ -5,13 +5,13 @@ VALUES (0x70019000,  7923, 0x00190143, 90, -120, 6.005, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x00190143 [90.000000 -120.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70019000, 0x7001901D, '2019-02-15 14:34:36') /* Gold Legion Quartermaster (29423) */
-     , (0x70019000, 0x7001902B, '2019-02-15 14:34:36') /* Gold Legion Doorkeeper (29413) */
-     , (0x70019000, 0x70019056, '2019-02-15 14:34:36') /* Captain Aurachon (29402) */
-     , (0x70019000, 0x70019057, '2019-02-15 14:34:36') /* Gold Legion Bodyguard (29397) */
-     , (0x70019000, 0x70019058, '2019-02-15 14:34:36') /* Gold Legion Bodyguard (29397) */
-     , (0x70019000, 0x70019059, '2019-02-15 14:34:36') /* Gold Legion Bodyguard (29397) */
-     , (0x70019000, 0x7001905A, '2019-02-15 14:34:36') /* Gold Legion Bodyguard (29397) */;
+VALUES (0x70019000, 0x7001901D, '2021-11-01 00:00:00') /* Gold Legion Quartermaster (29423) */
+     , (0x70019000, 0x7001902B, '2021-11-01 00:00:00') /* Gold Legion Doorkeeper (29413) */
+     , (0x70019000, 0x70019056, '2021-11-01 00:00:00') /* Captain Aurachon (29402) */
+     , (0x70019000, 0x70019057, '2021-11-01 00:00:00') /* Gold Legion Bodyguard (29397) */
+     , (0x70019000, 0x70019058, '2021-11-01 00:00:00') /* Gold Legion Bodyguard (29397) */
+     , (0x70019000, 0x70019059, '2021-11-01 00:00:00') /* Gold Legion Bodyguard (29397) */
+     , (0x70019000, 0x7001905A, '2021-11-01 00:00:00') /* Gold Legion Bodyguard (29397) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70019001, 29436, 0x00190103, 90, 2, 0.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Exit Gold Legion Keep */
@@ -30,21 +30,21 @@ VALUES (0x70019004, 30287, 0x0019015D, 90, -960, 6.005, -0.028663, 0, 0, -0.9995
 /* @teleloc 0x0019015D [90.000000 -960.000000 6.005000] -0.028663 0.000000 0.000000 -0.999589 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70019004, 0x7001900C, '2019-02-15 14:34:36') /* Lever (2609) */;
+VALUES (0x70019004, 0x7001900C, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70019005, 30287, 0x001901A5, 60, -756, 12.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x001901A5 [60.000000 -756.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70019005, 0x70019009, '2019-02-15 14:34:36') /* Lever (2609) */;
+VALUES (0x70019005, 0x70019009, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70019006, 30287, 0x001901FF, 90, -340, 12.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x001901FF [90.000000 -340.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70019006, 0x7001900B, '2019-02-15 14:34:36') /* Lever (2609) */;
+VALUES (0x70019006, 0x7001900B, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70019007, 29376, 0x00190216, 90, -896, 12.005, -1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Gold Legion Door */
@@ -55,7 +55,7 @@ VALUES (0x70019008, 30287, 0x0019024D, 120, -756, 12.005, 0, 0, 0, -1, False, '2
 /* @teleloc 0x0019024D [120.000000 -756.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70019008, 0x7001900A, '2019-02-15 14:34:36') /* Lever (2609) */;
+VALUES (0x70019008, 0x7001900A, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70019009,  2609, 0x00190274, 47, -740, 18.005, -0.699639, 0, 0, -0.714497,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -390,74 +390,74 @@ VALUES (0x7001905B, 24129, 0x00190113, 81.0045, -111.263, 6.005, 0.315322, 0, 0,
 /* @teleloc 0x00190113 [81.004501 -111.263000 6.005000] 0.315322 0.000000 0.000000 -0.948985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001905B, 0x7001900D, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x7001900E, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x7001900F, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x70019010, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x70019011, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x70019012, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x70019013, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x70019014, '2019-02-15 14:34:36') /* Virindi Rift (5407) */
-     , (0x7001905B, 0x70019015, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019016, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019017, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x70019018, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019019, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001901A, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001901B, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001901C, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001901E, '2019-02-15 14:34:36') /* Repugnant Eater (28638) */
-     , (0x7001905B, 0x7001901F, '2019-02-15 14:34:36') /* Repugnant Eater (28638) */
-     , (0x7001905B, 0x70019020, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x70019021, '2019-02-15 14:34:36') /* Viamontian Commander (30289) */
-     , (0x7001905B, 0x70019022, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x70019023, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x70019024, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x70019025, '2019-02-15 14:34:36') /* Viamontian Knight (30290) */
-     , (0x7001905B, 0x70019026, '2019-02-15 14:34:36') /* Viamontian Knight (30290) */
-     , (0x7001905B, 0x70019027, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x70019028, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019029, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001902A, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001902C, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x7001902D, '2019-02-15 14:34:36') /* Viamontian Commander (30289) */
-     , (0x7001905B, 0x7001902E, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x7001902F, '2019-02-15 14:34:36') /* Repugnant Eater (28638) */
-     , (0x7001905B, 0x70019030, '2019-02-15 14:34:36') /* Repugnant Eater (28638) */
-     , (0x7001905B, 0x70019031, '2019-02-15 14:34:36') /* Viamontian Commander (28654) */
-     , (0x7001905B, 0x70019032, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019033, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x70019034, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x7001905B, 0x70019035, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019036, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x70019037, '2019-02-15 14:34:36') /* Viamontian Commander (30289) */
-     , (0x7001905B, 0x70019038, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x70019039, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001903A, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001903B, '2019-02-15 14:34:36') /* Viamontian Knight (30290) */
-     , (0x7001905B, 0x7001903C, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x7001903D, '2019-02-15 14:34:36') /* Viamontian Commander (30289) */
-     , (0x7001905B, 0x7001903E, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001903F, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019040, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x7001905B, 0x70019041, '2019-02-15 14:34:36') /* Viamontian Commander (28654) */
-     , (0x7001905B, 0x70019042, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x70019043, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x70019044, '2019-02-15 14:34:36') /* Viamontian Tribune (30291) */
-     , (0x7001905B, 0x70019045, '2019-02-15 14:34:36') /* Viamontian Knight (30290) */
-     , (0x7001905B, 0x70019046, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019047, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019048, '2019-02-15 14:34:36') /* Viamontian Commander (30289) */
-     , (0x7001905B, 0x70019049, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x7001904A, '2019-02-15 14:34:36') /* Viamontian Counselor (30298) */
-     , (0x7001905B, 0x7001904B, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001904C, '2019-02-15 14:34:36') /* Virindi Profatrix (22054) */
-     , (0x7001905B, 0x7001904D, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x7001905B, 0x7001904E, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x7001904F, '2019-02-15 14:34:36') /* Viamontian Commander (28654) */
-     , (0x7001905B, 0x70019050, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019051, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019052, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001905B, 0x70019053, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019054, '2019-02-15 14:34:36') /* Viamontian Knight (28653) */
-     , (0x7001905B, 0x70019055, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */;
+VALUES (0x7001905B, 0x7001900D, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x7001900E, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x7001900F, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x70019010, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x70019011, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x70019012, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x70019013, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x70019014, '2021-11-01 00:00:00') /* Virindi Rift (5407) */
+     , (0x7001905B, 0x70019015, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019016, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019017, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x70019018, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019019, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001901A, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001901B, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001901C, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001901E, '2021-11-01 00:00:00') /* Repugnant Eater (28638) */
+     , (0x7001905B, 0x7001901F, '2021-11-01 00:00:00') /* Repugnant Eater (28638) */
+     , (0x7001905B, 0x70019020, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x70019021, '2021-11-01 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001905B, 0x70019022, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x70019023, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x70019024, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x70019025, '2021-11-01 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001905B, 0x70019026, '2021-11-01 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001905B, 0x70019027, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x70019028, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019029, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001902A, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001902C, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x7001902D, '2021-11-01 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001905B, 0x7001902E, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x7001902F, '2021-11-01 00:00:00') /* Repugnant Eater (28638) */
+     , (0x7001905B, 0x70019030, '2021-11-01 00:00:00') /* Repugnant Eater (28638) */
+     , (0x7001905B, 0x70019031, '2021-11-01 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7001905B, 0x70019032, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019033, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x70019034, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x7001905B, 0x70019035, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019036, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x70019037, '2021-11-01 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001905B, 0x70019038, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x70019039, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001903A, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001903B, '2021-11-01 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001905B, 0x7001903C, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x7001903D, '2021-11-01 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001905B, 0x7001903E, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001903F, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019040, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x7001905B, 0x70019041, '2021-11-01 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7001905B, 0x70019042, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x70019043, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x70019044, '2021-11-01 00:00:00') /* Viamontian Tribune (30291) */
+     , (0x7001905B, 0x70019045, '2021-11-01 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001905B, 0x70019046, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019047, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019048, '2021-11-01 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001905B, 0x70019049, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x7001904A, '2021-11-01 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001905B, 0x7001904B, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001904C, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7001905B, 0x7001904D, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x7001905B, 0x7001904E, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x7001904F, '2021-11-01 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7001905B, 0x70019050, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019051, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019052, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001905B, 0x70019053, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019054, '2021-11-01 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001905B, 0x70019055, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */;

@@ -5,14 +5,14 @@ VALUES (0x7A2A73E8,  7924, 0xA2A70011, 62.0737, 15.1693, 72, -0.397075, 0, 0, -0
 /* @teleloc 0xA2A70011 [62.073700 15.169300 72.000000] -0.397075 0.000000 0.000000 -0.917786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A73E8, 0x7A2A73E9, '2019-11-21 00:00:00') /* Blockade Guard (32327) */
-     , (0x7A2A73E8, 0x7A2A73EA, '2019-11-21 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A2A73E8, 0x7A2A73EB, '2019-11-21 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A2A73E8, 0x7A2A73EC, '2019-11-21 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A2A73E8, 0x7A2A73ED, '2019-11-21 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A2A73E8, 0x7A2A73EE, '2019-11-21 00:00:00') /* Engorged Eater (32314) */
-     , (0x7A2A73E8, 0x7A2A73EF, '2019-11-21 00:00:00') /* Famished Eater (32315) */
-     , (0x7A2A73E8, 0x7A2A73F0, '2019-11-21 00:00:00') /* Famished Eater (32315) */;
+VALUES (0x7A2A73E8, 0x7A2A73E9, '2021-11-01 00:00:00') /* Blockade Guard (32327) */
+     , (0x7A2A73E8, 0x7A2A73EA, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A2A73E8, 0x7A2A73EB, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A2A73E8, 0x7A2A73EC, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A2A73E8, 0x7A2A73ED, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A2A73E8, 0x7A2A73EE, '2021-11-01 00:00:00') /* Engorged Eater (32314) */
+     , (0x7A2A73E8, 0x7A2A73EF, '2021-11-01 00:00:00') /* Famished Eater (32315) */
+     , (0x7A2A73E8, 0x7A2A73F0, '2021-11-01 00:00:00') /* Famished Eater (32315) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A73E9, 32327, 0xA2A70011, 62.1231, 12.743, 72.0068, -0.941394, 0, 0, 0.337309,  True, '2021-11-01 00:00:00'); /* Blockade Guard */

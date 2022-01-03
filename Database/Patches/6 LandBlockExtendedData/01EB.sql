@@ -5,118 +5,118 @@ VALUES (0x701EB000,  7924, 0x01EB0337, 72.2817, -51.7614, 2.19039, -0.999955, 0,
 /* @teleloc 0x01EB0337 [72.281700 -51.761398 2.190390] -0.999955 0.000000 0.000000 -0.009502 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EB000, 0x701EB008, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB009, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB00A, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB00B, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB00C, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB00D, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB00E, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB00F, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB010, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB011, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB012, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB013, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB014, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB015, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB016, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB017, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB018, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB019, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB01A, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB01B, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB01C, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB01D, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB01E, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB01F, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB020, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB021, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB022, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB023, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB024, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB025, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB026, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB027, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB028, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB029, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB02A, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB02B, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB02C, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB02D, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB02E, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB02F, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB030, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB031, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB032, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB033, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB034, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB035, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB036, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB037, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB038, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB039, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB03A, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB03B, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB03C, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB03D, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB03E, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB03F, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB040, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB041, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB042, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB043, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB044, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB045, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB046, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB047, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB048, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB049, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB04A, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB04B, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB04C, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB04D, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB04E, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB04F, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB050, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB051, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB052, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB053, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB054, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB055, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB056, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB057, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB058, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB059, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB05A, '2019-02-15 14:34:36') /* Ruschk Shatterer (28671) */
-     , (0x701EB000, 0x701EB05B, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB05C, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB05D, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB05E, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB05F, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB060, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB061, '2019-02-15 14:34:36') /* Arrogant Penguin (28663) */
-     , (0x701EB000, 0x701EB062, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB063, '2019-02-15 14:34:36') /* Sycophantic Penguin (28658) */
-     , (0x701EB000, 0x701EB064, '2019-02-15 14:34:36') /* Silver Rat (1626) */
-     , (0x701EB000, 0x701EB065, '2019-02-15 14:34:36') /* Silver Rat (1626) */
-     , (0x701EB000, 0x701EB066, '2019-02-15 14:34:36') /* Dee Dee (29306) */
-     , (0x701EB000, 0x701EB067, '2019-02-15 14:34:36') /* Silver Rat (1626) */
-     , (0x701EB000, 0x701EB068, '2019-02-15 14:34:36') /* Silver Rat (1626) */
-     , (0x701EB000, 0x701EB069, '2019-02-15 14:34:36') /* Silver Rat (1626) */
-     , (0x701EB000, 0x701EB06A, '2019-02-15 14:34:36') /* Silver Rat (1626) */
-     , (0x701EB000, 0x701EB06B, '2019-02-15 14:34:36') /* Silver Rat (1626) */
-     , (0x701EB000, 0x701EB06C, '2019-02-15 14:34:36') /* Joey (30379) */
-     , (0x701EB000, 0x701EB06D, '2019-02-15 14:34:36') /* Eater (28640) */
-     , (0x701EB000, 0x701EB06E, '2019-02-15 14:34:36') /* Eater (28640) */
-     , (0x701EB000, 0x701EB06F, '2019-02-15 14:34:36') /* Eater (28640) */
-     , (0x701EB000, 0x701EB070, '2019-02-15 14:34:36') /* Lola (29307) */;
+VALUES (0x701EB000, 0x701EB008, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB009, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB00A, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB00B, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB00C, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB00D, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB00E, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB00F, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB010, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB011, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB012, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB013, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB014, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB015, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB016, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB017, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB018, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB019, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB01A, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB01B, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB01C, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB01D, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB01E, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB01F, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB020, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB021, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB022, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB023, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB024, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB025, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB026, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB027, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB028, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB029, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB02A, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB02B, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB02C, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB02D, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB02E, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB02F, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB030, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB031, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB032, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB033, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB034, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB035, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB036, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB037, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB038, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB039, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB03A, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB03B, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB03C, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB03D, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB03E, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB03F, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB040, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB041, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB042, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB043, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB044, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB045, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB046, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB047, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB048, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB049, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB04A, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB04B, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB04C, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB04D, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB04E, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB04F, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB050, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB051, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB052, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB053, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB054, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB055, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB056, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB057, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB058, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB059, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB05A, '2021-11-01 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB000, 0x701EB05B, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB05C, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB05D, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB05E, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB05F, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB060, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB061, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB000, 0x701EB062, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB063, '2021-11-01 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB000, 0x701EB064, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EB000, 0x701EB065, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EB000, 0x701EB066, '2021-11-01 00:00:00') /* Dee Dee (29306) */
+     , (0x701EB000, 0x701EB067, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EB000, 0x701EB068, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EB000, 0x701EB069, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EB000, 0x701EB06A, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EB000, 0x701EB06B, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EB000, 0x701EB06C, '2021-11-01 00:00:00') /* Joey (30379) */
+     , (0x701EB000, 0x701EB06D, '2021-11-01 00:00:00') /* Eater (28640) */
+     , (0x701EB000, 0x701EB06E, '2021-11-01 00:00:00') /* Eater (28640) */
+     , (0x701EB000, 0x701EB06F, '2021-11-01 00:00:00') /* Eater (28640) */
+     , (0x701EB000, 0x701EB070, '2021-11-01 00:00:00') /* Lola (29307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EB001,  5085, 0x01EB0337, 73.6002, -48.125, 2.2449, -0.999783, 0, 0, -0.020848, False, '2021-11-01 00:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x01EB0337 [73.600197 -48.125000 2.244900] -0.999783 0.000000 0.000000 -0.020848 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EB001, 0x701EB003, '2005-02-09 10:00:00') /* Brewmaster's Pages (29207) */;
+VALUES (0x701EB001, 0x701EB003, '2021-11-01 00:00:00') /* Brewmaster's Pages (29207) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EB002, 28799, 0x01EB0224, 89.8745, -216.434, -30.063, 0.013584, 0, 0, -0.999908, False, '2021-11-01 00:00:00'); /* Surface */

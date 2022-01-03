@@ -13,9 +13,9 @@ VALUES (0x7576505B,  4219, 0x5765031B, 20, 0, -6, 1, 0, 0, 0, False, '2021-11-08
 /* @teleloc 0x5765031B [20.000000 0.000000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7576505B, 0x7576506A, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
-     , (0x7576505B, 0x7576506B, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
-     , (0x7576505B, 0x757650A9, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (46354) */;
+VALUES (0x7576505B, 0x7576506A, '2021-11-08 06:01:47') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576506B, '2021-11-08 06:01:47') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650A9, '2021-11-08 06:01:47') /* Falatacot Blood Prophetess (46354) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576506A, 46351, 0x576502D5, 10, -130, -12, 1, 0, 0, 0,  True, '2021-11-08 06:01:47'); /* Armored Siessa Sclavus Veteran */
@@ -34,8 +34,8 @@ VALUES (0x75765136, 15759, 0x57650357, 44.5009, -112.468, -5.921, 0.99987, 0, 0,
 /* @teleloc 0x57650357 [44.500900 -112.468002 -5.921000] 0.999870 0.000000 0.000000 0.016143 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75765136, 0x75765137, '2019-02-10 00:00:00') /* Torn Strip of Parchment (46348) */
-     , (0x75765136, 0x75765138, '2019-02-10 00:00:00') /* Torn Strip of Parchment (46349) */;
+VALUES (0x75765136, 0x75765137, '2021-11-08 06:01:47') /* Torn Strip of Parchment (46348) */
+     , (0x75765136, 0x75765138, '2021-11-08 06:01:47') /* Torn Strip of Parchment (46349) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75765137, 46348, 0x57650357, 44.5009, -112.468, -5.921, 0.99987, 0, 0, 0.016143,  True, '2021-11-08 06:01:47'); /* Torn Strip of Parchment */

@@ -13,30 +13,30 @@ VALUES (0x7D699002,  1154, 0xD6990008, 1.5, 183, 374, 1, 0, 0, 0, False, '2021-1
 /* @teleloc 0xD6990008 [1.500000 183.000000 374.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D699002, 0x7D699003, '2019-02-10 00:00:00') /* Armor Tinkering Warden of Enlightenment (32453) */
-     , (0x7D699002, 0x7D699004, '2019-02-10 00:00:00') /* Assess Person Warden of Enlightenment (32442) */
-     , (0x7D699002, 0x7D699005, '2019-02-10 00:00:00') /* Item Tinkering Warden of Enlightenment (32464) */
-     , (0x7D699002, 0x7D699006, '2019-02-10 00:00:00') /* Jump Warden of Enlightenment (32466) */
-     , (0x7D699002, 0x7D699007, '2019-02-10 00:00:00') /* Heavy Weapons Warden of Enlightenment (32446) */
-     , (0x7D699002, 0x7D699008, '2019-02-10 00:00:00') /* Item Enchantment Warden of Enlightenment (32465) */
-     , (0x7D699002, 0x7D699009, '2019-02-10 00:00:00') /* Healing Warden of Enlightenment (32463) */
-     , (0x7D699002, 0x7D69900A, '2019-02-10 00:00:00') /* Fletching Warden of Enlightenment (32462) */
-     , (0x7D699002, 0x7D69900B, '2019-02-10 00:00:00') /* Finesse Weapons Warden of Enlightenment (32460) */
-     , (0x7D699002, 0x7D69900C, '2019-02-10 00:00:00') /* Dual Wield Warden of Enlightenment (45391) */
-     , (0x7D699002, 0x7D69900D, '2019-02-10 00:00:00') /* Dirty Fighting Warden of Enlightenment (45390) */
-     , (0x7D699002, 0x7D69900E, '2019-02-10 00:00:00') /* Cooking Warden of Enlightenment (32456) */
-     , (0x7D699002, 0x7D69900F, '2019-02-10 00:00:00') /* Assess Creature Warden of Enlightenment (32457) */
-     , (0x7D699002, 0x7D699010, '2019-02-10 00:00:00') /* Warden of Raising Coordination (44912) */
-     , (0x7D699002, 0x7D699011, '2019-02-10 00:00:00') /* Deception Warden of Enlightenment (32461) */
-     , (0x7D699002, 0x7D699012, '2019-02-10 00:00:00') /* Creature Enchantment Warden of Enlightenment (32458) */
-     , (0x7D699002, 0x7D699013, '2019-02-10 00:00:00') /* Warden of Raising Endurance (44913) */
-     , (0x7D699002, 0x7D699014, '2019-02-10 00:00:00') /* Warden of Raising Strength (44917) */
-     , (0x7D699002, 0x7D699015, '2019-02-10 00:00:00') /* Warden of Lowering Self (44910) */
-     , (0x7D699002, 0x7D699016, '2019-02-10 00:00:00') /* Warden of Lowering Focus (44908) */
-     , (0x7D699002, 0x7D699017, '2019-02-10 00:00:00') /* Warden of Lowering Endurance (44919) */
-     , (0x7D699002, 0x7D699018, '2019-02-10 00:00:00') /* Warden of Lowering Strength (44911) */
-     , (0x7D699002, 0x7D699019, '2019-02-10 00:00:00') /* Warden of Lowering Quickness (44909) */
-     , (0x7D699002, 0x7D69901A, '2019-02-10 00:00:00') /* Warden of Lowering Coordination (44918) */;
+VALUES (0x7D699002, 0x7D699003, '2021-11-01 00:00:00') /* Armor Tinkering Warden of Enlightenment (32453) */
+     , (0x7D699002, 0x7D699004, '2021-11-01 00:00:00') /* Assess Person Warden of Enlightenment (32442) */
+     , (0x7D699002, 0x7D699005, '2021-11-01 00:00:00') /* Item Tinkering Warden of Enlightenment (32464) */
+     , (0x7D699002, 0x7D699006, '2021-11-01 00:00:00') /* Jump Warden of Enlightenment (32466) */
+     , (0x7D699002, 0x7D699007, '2021-11-01 00:00:00') /* Heavy Weapons Warden of Enlightenment (32446) */
+     , (0x7D699002, 0x7D699008, '2021-11-01 00:00:00') /* Item Enchantment Warden of Enlightenment (32465) */
+     , (0x7D699002, 0x7D699009, '2021-11-01 00:00:00') /* Healing Warden of Enlightenment (32463) */
+     , (0x7D699002, 0x7D69900A, '2021-11-01 00:00:00') /* Fletching Warden of Enlightenment (32462) */
+     , (0x7D699002, 0x7D69900B, '2021-11-01 00:00:00') /* Finesse Weapons Warden of Enlightenment (32460) */
+     , (0x7D699002, 0x7D69900C, '2021-11-01 00:00:00') /* Dual Wield Warden of Enlightenment (45391) */
+     , (0x7D699002, 0x7D69900D, '2021-11-01 00:00:00') /* Dirty Fighting Warden of Enlightenment (45390) */
+     , (0x7D699002, 0x7D69900E, '2021-11-01 00:00:00') /* Cooking Warden of Enlightenment (32456) */
+     , (0x7D699002, 0x7D69900F, '2021-11-01 00:00:00') /* Assess Creature Warden of Enlightenment (32457) */
+     , (0x7D699002, 0x7D699010, '2021-11-01 00:00:00') /* Warden of Raising Coordination (44912) */
+     , (0x7D699002, 0x7D699011, '2021-11-01 00:00:00') /* Deception Warden of Enlightenment (32461) */
+     , (0x7D699002, 0x7D699012, '2021-11-01 00:00:00') /* Creature Enchantment Warden of Enlightenment (32458) */
+     , (0x7D699002, 0x7D699013, '2021-11-01 00:00:00') /* Warden of Raising Endurance (44913) */
+     , (0x7D699002, 0x7D699014, '2021-11-01 00:00:00') /* Warden of Raising Strength (44917) */
+     , (0x7D699002, 0x7D699015, '2021-11-01 00:00:00') /* Warden of Lowering Self (44910) */
+     , (0x7D699002, 0x7D699016, '2021-11-01 00:00:00') /* Warden of Lowering Focus (44908) */
+     , (0x7D699002, 0x7D699017, '2021-11-01 00:00:00') /* Warden of Lowering Endurance (44919) */
+     , (0x7D699002, 0x7D699018, '2021-11-01 00:00:00') /* Warden of Lowering Strength (44911) */
+     , (0x7D699002, 0x7D699019, '2021-11-01 00:00:00') /* Warden of Lowering Quickness (44909) */
+     , (0x7D699002, 0x7D69901A, '2021-11-01 00:00:00') /* Warden of Lowering Coordination (44918) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D699003, 32453, 0xD6990008, 1.5, 183, 374, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Armor Tinkering Warden of Enlightenment */
@@ -139,8 +139,8 @@ VALUES (0x7D69901B,  1154, 0xD6990007, 4.18193, 146.614, 374.006, 0.487179, 0, 0
 /* @teleloc 0xD6990007 [4.181930 146.613998 374.006012] 0.487179 0.000000 0.000000 0.873302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D69901B, 0x7D69901C, '2019-02-10 00:00:00') /* Nalicana (43398) */
-     , (0x7D69901B, 0x7D69901D, '2019-02-10 00:00:00') /* Chafulumisa (44950) */;
+VALUES (0x7D69901B, 0x7D69901C, '2021-11-01 00:00:00') /* Nalicana (43398) */
+     , (0x7D69901B, 0x7D69901D, '2021-11-01 00:00:00') /* Chafulumisa (44950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D69901C, 43398, 0xD6990007, 4.18193, 146.614, 374.006, 0.487179, 0, 0, 0.873302,  True, '2021-11-01 00:00:00'); /* Nalicana */
@@ -155,29 +155,29 @@ VALUES (0x7D69901E, 15759, 0xD6990006, 4.71251, 135.874, 375.653, -0.023516, 0, 
 /* @teleloc 0xD6990006 [4.712510 135.873993 375.653015] -0.023516 0.000000 0.000000 -0.999723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D69901E, 0x7D69901F, '2019-02-10 00:00:00') /* Token of Rare Damage Reduction V (52024) */
-     , (0x7D69901E, 0x7D699020, '2019-02-10 00:00:00') /* Token of Rare Armor Damage Boost V (52022) */
-     , (0x7D69901E, 0x7D699021, '2019-02-10 00:00:00') /* Token of the Aura of the World (49521) */
-     , (0x7D69901E, 0x7D699022, '2019-02-10 00:00:00') /* Token of the Augmentation Gem (44105) */
-     , (0x7D69901E, 0x7D699023, '2019-02-10 00:00:00') /* Token of the Draught of Revitalization (43471) */
-     , (0x7D69901E, 0x7D699024, '2019-02-10 00:00:00') /* Token of the Light Infused Healing Kit (43470) */
-     , (0x7D69901E, 0x7D699025, '2019-02-10 00:00:00') /* Token of the Luminous Crystal of Vitality (43469) */
-     , (0x7D69901E, 0x7D699026, '2019-02-10 00:00:00') /* Token of the Luminous Pearl of Spirit Drinker (43468) */
-     , (0x7D69901E, 0x7D699027, '2019-02-10 00:00:00') /* Token of the Luminous Pearl of Defending (43466) */
-     , (0x7D69901E, 0x7D699028, '2019-02-10 00:00:00') /* Token of the Luminous Pearl of Heart Seeking  (43467) */
-     , (0x7D69901E, 0x7D699029, '2019-02-10 00:00:00') /* Token of the Luminous Pearl of Blood Drinking (43463) */
-     , (0x7D69901E, 0x7D69902A, '2019-02-10 00:00:00') /* Token of the Luminous Crystal of Towering Defense (43465) */
-     , (0x7D69901E, 0x7D69902B, '2019-02-10 00:00:00') /* Token of the Luminous Crystal of Surging Strength (43464) */
-     , (0x7D69901E, 0x7D69902C, '2019-02-10 00:00:00') /* Token of Skill (43462) */
-     , (0x7D69901E, 0x7D69902D, '2019-02-10 00:00:00') /* Token of the Aura of the Craftsman (43509) */
-     , (0x7D69901E, 0x7D69902E, '2019-02-10 00:00:00') /* Token of the Aura of Mana Infusion (43502) */
-     , (0x7D69901E, 0x7D69902F, '2019-02-10 00:00:00') /* Token of the Aura of Purity (43507) */
-     , (0x7D69901E, 0x7D699030, '2019-02-10 00:00:00') /* Token of the Aura of Valor (43500) */
-     , (0x7D69901E, 0x7D699031, '2019-02-10 00:00:00') /* Token of the Aura of Protection (43501) */
-     , (0x7D69901E, 0x7D699032, '2019-02-10 00:00:00') /* Token of the Aura of Mana Flow (43503) */
-     , (0x7D69901E, 0x7D699033, '2019-02-10 00:00:00') /* Token of the Aura of Temperance (43499) */
-     , (0x7D69901E, 0x7D699034, '2019-02-10 00:00:00') /* Token of the Aura of Glory (43498) */
-     , (0x7D69901E, 0x7D699035, '2019-02-10 00:00:00') /* Token of the Aura of Aetheric Vision (43496) */;
+VALUES (0x7D69901E, 0x7D69901F, '2021-11-01 00:00:00') /* Token of Rare Damage Reduction V (52024) */
+     , (0x7D69901E, 0x7D699020, '2021-11-01 00:00:00') /* Token of Rare Armor Damage Boost V (52022) */
+     , (0x7D69901E, 0x7D699021, '2021-11-01 00:00:00') /* Token of the Aura of the World (49521) */
+     , (0x7D69901E, 0x7D699022, '2021-11-01 00:00:00') /* Token of the Augmentation Gem (44105) */
+     , (0x7D69901E, 0x7D699023, '2021-11-01 00:00:00') /* Token of the Draught of Revitalization (43471) */
+     , (0x7D69901E, 0x7D699024, '2021-11-01 00:00:00') /* Token of the Light Infused Healing Kit (43470) */
+     , (0x7D69901E, 0x7D699025, '2021-11-01 00:00:00') /* Token of the Luminous Crystal of Vitality (43469) */
+     , (0x7D69901E, 0x7D699026, '2021-11-01 00:00:00') /* Token of the Luminous Pearl of Spirit Drinker (43468) */
+     , (0x7D69901E, 0x7D699027, '2021-11-01 00:00:00') /* Token of the Luminous Pearl of Defending (43466) */
+     , (0x7D69901E, 0x7D699028, '2021-11-01 00:00:00') /* Token of the Luminous Pearl of Heart Seeking  (43467) */
+     , (0x7D69901E, 0x7D699029, '2021-11-01 00:00:00') /* Token of the Luminous Pearl of Blood Drinking (43463) */
+     , (0x7D69901E, 0x7D69902A, '2021-11-01 00:00:00') /* Token of the Luminous Crystal of Towering Defense (43465) */
+     , (0x7D69901E, 0x7D69902B, '2021-11-01 00:00:00') /* Token of the Luminous Crystal of Surging Strength (43464) */
+     , (0x7D69901E, 0x7D69902C, '2021-11-01 00:00:00') /* Token of Skill (43462) */
+     , (0x7D69901E, 0x7D69902D, '2021-11-01 00:00:00') /* Token of the Aura of the Craftsman (43509) */
+     , (0x7D69901E, 0x7D69902E, '2021-11-01 00:00:00') /* Token of the Aura of Mana Infusion (43502) */
+     , (0x7D69901E, 0x7D69902F, '2021-11-01 00:00:00') /* Token of the Aura of Purity (43507) */
+     , (0x7D69901E, 0x7D699030, '2021-11-01 00:00:00') /* Token of the Aura of Valor (43500) */
+     , (0x7D69901E, 0x7D699031, '2021-11-01 00:00:00') /* Token of the Aura of Protection (43501) */
+     , (0x7D69901E, 0x7D699032, '2021-11-01 00:00:00') /* Token of the Aura of Mana Flow (43503) */
+     , (0x7D69901E, 0x7D699033, '2021-11-01 00:00:00') /* Token of the Aura of Temperance (43499) */
+     , (0x7D69901E, 0x7D699034, '2021-11-01 00:00:00') /* Token of the Aura of Glory (43498) */
+     , (0x7D69901E, 0x7D699035, '2021-11-01 00:00:00') /* Token of the Aura of Aetheric Vision (43496) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D69901F, 52024, 0xD6990006, 4.71251, 135.874, 375.653, -0.023516, 0, 0, -0.999723,  True, '2021-11-01 00:00:00'); /* Token of Rare Damage Reduction V */

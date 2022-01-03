@@ -73,7 +73,7 @@ VALUES (0x7482E3C7,  5085, 0x482E0031, 146.729, 21.1568, 67.9987, 0.920523, 0, 0
 /* @teleloc 0x482E0031 [146.729004 21.156799 67.998703] 0.920523 0.000000 0.000000 0.390689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7482E3C7, 0x7482E3C8, '2019-02-10 00:00:00') /* Jester's Marbles (37493) */;
+VALUES (0x7482E3C7, 0x7482E3C8, '2021-11-01 00:00:00') /* Jester's Marbles (37493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E3C8, 37493, 0x482E0031, 146.729, 21.1568, 67.9987, 0.920523, 0, 0, 0.390689,  True, '2021-11-01 00:00:00'); /* Jester's Marbles */
@@ -84,17 +84,17 @@ VALUES (0x7482E3CA,  7924, 0x482E0131, 70.1127, 36.3544, 3.71, -0.697677, 0, 0, 
 /* @teleloc 0x482E0131 [70.112701 36.354401 3.710000] -0.697677 0.000000 0.000000 -0.716412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7482E3CA, 0x7482E3CB, '2020-10-23 16:05:01') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3CC, '2020-10-23 16:05:06') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3CD, '2020-10-23 16:05:19') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3CE, '2020-10-23 16:05:35') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3CF, '2020-10-23 16:05:51') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3D0, '2020-10-23 16:06:00') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3D1, '2020-10-23 16:06:12') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3D2, '2020-10-23 16:06:16') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3D3, '2020-10-23 16:06:40') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3D4, '2020-10-23 16:07:29') /* Corrupted Dread (37452) */
-     , (0x7482E3CA, 0x7482E3D5, '2020-10-23 16:07:33') /* Corrupted Dread (37452) */;
+VALUES (0x7482E3CA, 0x7482E3CB, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3CC, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3CD, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3CE, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3CF, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3D0, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3D1, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3D2, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3D3, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3D4, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */
+     , (0x7482E3CA, 0x7482E3D5, '2021-11-01 00:00:00') /* Corrupted Dread (37452) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E3CB, 37452, 0x482E0131, 70.1806, 33.619, 3.684, -0.99972, 0, 0, -0.023644,  True, '2021-11-01 00:00:00'); /* Corrupted Dread */
@@ -237,19 +237,19 @@ VALUES (0x7482E3ED, 72210, 0x482E0014, 49.7876, 76.1596, 10.055, 1, 0, 0, 0, Fal
 /* @teleloc 0x482E0014 [49.787601 76.159599 10.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7482E3ED, 0x7482E3EE, '2021-04-10 14:06:35') /* Wight Blade Sorcerer (46815) */
-     , (0x7482E3ED, 0x7482E3EF, '2021-04-10 14:07:13') /* Wight Blade Sorcerer (46815) */
-     , (0x7482E3ED, 0x7482E3F0, '2021-04-10 14:07:54') /* Pyre Champion (46816) */
-     , (0x7482E3ED, 0x7482E3F1, '2021-04-10 14:08:41') /* Wight Blade Sorcerer (46815) */
-     , (0x7482E3ED, 0x7482E3F2, '2021-04-10 14:09:20') /* Wight Blade Sorcerer (46815) */
-     , (0x7482E3ED, 0x7482E3F3, '2021-04-10 14:09:59') /* Wight Blade Sorcerer (46815) */
-     , (0x7482E3ED, 0x7482E3F4, '2021-04-10 14:10:32') /* Pyre Champion (46816) */
-     , (0x7482E3ED, 0x7482E3F5, '2021-04-10 14:10:52') /* Pyre Champion (46816) */
-     , (0x7482E3ED, 0x7482E3F6, '2021-04-10 14:11:09') /* Wight Blade Sorcerer (46815) */
-     , (0x7482E3ED, 0x7482E3F7, '2021-04-10 14:11:28') /* Wight Blade Sorcerer (46815) */
-     , (0x7482E3ED, 0x7482E3F8, '2021-04-10 14:12:04') /* Pyre Champion (46816) */
-     , (0x7482E3ED, 0x7482E3F9, '2021-04-10 14:12:20') /* Pyre Champion (46816) */
-     , (0x7482E3ED, 0x7482E3FA, '2021-04-10 14:12:44') /* Wight Blade Sorcerer (46815) */;
+VALUES (0x7482E3ED, 0x7482E3EE, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482E3ED, 0x7482E3EF, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482E3ED, 0x7482E3F0, '2021-11-01 00:00:00') /* Pyre Champion (46816) */
+     , (0x7482E3ED, 0x7482E3F1, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482E3ED, 0x7482E3F2, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482E3ED, 0x7482E3F3, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482E3ED, 0x7482E3F4, '2021-11-01 00:00:00') /* Pyre Champion (46816) */
+     , (0x7482E3ED, 0x7482E3F5, '2021-11-01 00:00:00') /* Pyre Champion (46816) */
+     , (0x7482E3ED, 0x7482E3F6, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482E3ED, 0x7482E3F7, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */
+     , (0x7482E3ED, 0x7482E3F8, '2021-11-01 00:00:00') /* Pyre Champion (46816) */
+     , (0x7482E3ED, 0x7482E3F9, '2021-11-01 00:00:00') /* Pyre Champion (46816) */
+     , (0x7482E3ED, 0x7482E3FA, '2021-11-01 00:00:00') /* Wight Blade Sorcerer (46815) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E3EE, 46815, 0x482E002D, 134.988, 109.989, 12.1553, -0.040545, 0, 0, -0.999178,  True, '2021-11-01 00:00:00'); /* Wight Blade Sorcerer */

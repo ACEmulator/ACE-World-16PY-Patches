@@ -17,21 +17,21 @@ VALUES (0x7EA6C013,  4219, 0xEA6C0136, 150.142, 253.408, -35.171, 0.367335, 0, 0
 /* @teleloc 0xEA6C0136 [150.141998 253.408005 -35.171001] 0.367335 0.000000 0.000000 0.930089 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA6C013, 0x7EA6C014, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
-     , (0x7EA6C013, 0x7EA6C015, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
-     , (0x7EA6C013, 0x7EA6C017, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
-     , (0x7EA6C013, 0x7EA6C01B, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C01C, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C01F, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C020, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
-     , (0x7EA6C013, 0x7EA6C022, '2019-02-10 00:00:00') /* Mudmouth (35940) */
-     , (0x7EA6C013, 0x7EA6C024, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C02B, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C02D, '2019-02-10 00:00:00') /* Dark Bobo (35941) */
-     , (0x7EA6C013, 0x7EA6C02E, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
-     , (0x7EA6C013, 0x7EA6C034, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C035, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C038, '2019-02-10 00:00:00') /* Chained Tusker (35939) */;
+VALUES (0x7EA6C013, 0x7EA6C014, '2021-11-01 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7EA6C013, 0x7EA6C015, '2021-11-01 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7EA6C013, 0x7EA6C017, '2021-11-01 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7EA6C013, 0x7EA6C01B, '2021-11-01 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C01C, '2021-11-01 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C01F, '2021-11-01 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C020, '2021-11-01 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7EA6C013, 0x7EA6C022, '2021-11-01 00:00:00') /* Mudmouth (35940) */
+     , (0x7EA6C013, 0x7EA6C024, '2021-11-01 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C02B, '2021-11-01 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C02D, '2021-11-01 00:00:00') /* Dark Bobo (35941) */
+     , (0x7EA6C013, 0x7EA6C02E, '2021-11-01 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7EA6C013, 0x7EA6C034, '2021-11-01 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C035, '2021-11-01 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C038, '2021-11-01 00:00:00') /* Chained Tusker (35939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA6C014, 23570, 0xEA6C0136, 150.142, 253.408, -35.171, 0.367335, 0, 0, 0.930089,  True, '2021-11-01 00:00:00'); /* Virindi Paradox */

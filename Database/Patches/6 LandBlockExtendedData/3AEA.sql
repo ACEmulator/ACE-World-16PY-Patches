@@ -5,21 +5,21 @@ VALUES (0x73AEA000,  7924, 0x3AEA002D, 134.24, 97.7573, -0.095, 0.027895, 0, 0, 
 /* @teleloc 0x3AEA002D [134.240005 97.757301 -0.095000] 0.027895 0.000000 0.000000 -0.999611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AEA000, 0x73AEA001, '2019-03-23 02:20:17') /* Undead Sailor (24323) */
-     , (0x73AEA000, 0x73AEA002, '2019-03-23 02:20:17') /* Undead Sailor (24323) */
-     , (0x73AEA000, 0x73AEA003, '2019-03-23 02:20:17') /* Undead Sailor (24323) */
-     , (0x73AEA000, 0x73AEA004, '2019-03-23 02:20:17') /* Undead Sailor (24323) */
-     , (0x73AEA000, 0x73AEA005, '2019-03-23 02:20:17') /* Undead Sailor (24323) */
-     , (0x73AEA000, 0x73AEA006, '2019-03-23 02:20:17') /* Ruschk Camp Leader (31696) */
-     , (0x73AEA000, 0x73AEA007, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73AEA000, 0x73AEA008, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73AEA000, 0x73AEA009, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73AEA000, 0x73AEA00A, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73AEA000, 0x73AEA00B, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73AEA000, 0x73AEA00C, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73AEA000, 0x73AEA00D, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73AEA000, 0x73AEA00E, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73AEA000, 0x73AEA00F, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */;
+VALUES (0x73AEA000, 0x73AEA001, '2021-11-01 00:00:00') /* Undead Sailor (24323) */
+     , (0x73AEA000, 0x73AEA002, '2021-11-01 00:00:00') /* Undead Sailor (24323) */
+     , (0x73AEA000, 0x73AEA003, '2021-11-01 00:00:00') /* Undead Sailor (24323) */
+     , (0x73AEA000, 0x73AEA004, '2021-11-01 00:00:00') /* Undead Sailor (24323) */
+     , (0x73AEA000, 0x73AEA005, '2021-11-01 00:00:00') /* Undead Sailor (24323) */
+     , (0x73AEA000, 0x73AEA006, '2021-11-01 00:00:00') /* Ruschk Camp Leader (31696) */
+     , (0x73AEA000, 0x73AEA007, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73AEA000, 0x73AEA008, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73AEA000, 0x73AEA009, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73AEA000, 0x73AEA00A, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73AEA000, 0x73AEA00B, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73AEA000, 0x73AEA00C, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73AEA000, 0x73AEA00D, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73AEA000, 0x73AEA00E, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73AEA000, 0x73AEA00F, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AEA001, 24323, 0x3AEA003C, 178.842, 88.8812, -0.095, 0.642767, 0, 0, 0.766062,  True, '2021-11-01 00:00:00'); /* Undead Sailor */

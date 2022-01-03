@@ -29,33 +29,33 @@ VALUES (0x7D59903A,  1154, 0xD599003F, 180, 155, 374.015, 1, 0, 0, 0, False, '20
 /* @teleloc 0xD599003F [180.000000 155.000000 374.015015] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D59903A, 0x7D59903B, '2019-02-10 00:00:00') /* Tower Guardian (35273) */
-     , (0x7D59903A, 0x7D59903C, '2019-02-10 00:00:00') /* Weapon Tinkering Warden of Enlightenment (32450) */
-     , (0x7D59903A, 0x7D59903D, '2019-02-10 00:00:00') /* War Magic Warden of Enlightenment (32449) */
-     , (0x7D59903A, 0x7D59903E, '2019-02-10 00:00:00') /* Void Magic Warden of Enlightenment (43399) */
-     , (0x7D59903A, 0x7D59903F, '2019-02-10 00:00:00') /* Two Handed Combat Warden of Enlightenment (41741) */
-     , (0x7D59903A, 0x7D599040, '2019-02-10 00:00:00') /* Summoning Warden of Enlightenment (49483) */
-     , (0x7D59903A, 0x7D599041, '2019-02-10 00:00:00') /* Shield Warden of Enlightenment (45393) */
-     , (0x7D59903A, 0x7D599042, '2019-02-10 00:00:00') /* Run Warden of Enlightenment (32443) */
-     , (0x7D59903A, 0x7D599043, '2019-02-10 00:00:00') /* Recklessness Warden of Enlightenment (45392) */
-     , (0x7D59903A, 0x7D599044, '2019-02-10 00:00:00') /* Missile Weapons Warden of Enlightenment (32455) */
-     , (0x7D59903A, 0x7D599045, '2019-02-10 00:00:00') /* Magic Item Tinkering Warden of Enlightenment (32438) */
-     , (0x7D59903A, 0x7D599046, '2019-02-10 00:00:00') /* Magic Defense Warden of Enlightenment (32437) */
-     , (0x7D59903A, 0x7D599047, '2019-02-10 00:00:00') /* Missile Defense Warden of Enlightenment (32441) */
-     , (0x7D59903A, 0x7D599048, '2019-02-10 00:00:00') /* Melee Defense Warden of Enlightenment (32440) */
-     , (0x7D59903A, 0x7D599049, '2019-02-10 00:00:00') /* Mana Conversion Warden of Enlightenment (32439) */
-     , (0x7D59903A, 0x7D59904A, '2019-02-10 00:00:00') /* Loyalty Warden of Enlightenment (32470) */
-     , (0x7D59903A, 0x7D59904B, '2019-02-10 00:00:00') /* Lockpick Warden of Enlightenment (32469) */
-     , (0x7D59903A, 0x7D59904C, '2019-02-10 00:00:00') /* Light Weapons Warden of Enlightenment (32454) */
-     , (0x7D59903A, 0x7D59904D, '2019-02-10 00:00:00') /* Life Magic Warden of Enlightenment (32468) */
-     , (0x7D59903A, 0x7D59904E, '2019-02-10 00:00:00') /* Leadership Warden of Enlightenment (32467) */
-     , (0x7D59903A, 0x7D59904F, '2019-02-10 00:00:00') /* Arcane Lore Warden of Enlightenment (32452) */
-     , (0x7D59903A, 0x7D599050, '2019-02-10 00:00:00') /* Alchemy Warden of Enlightenment (32451) */
-     , (0x7D59903A, 0x7D599051, '2019-02-10 00:00:00') /* Warden of Raising Self (44916) */
-     , (0x7D59903A, 0x7D599052, '2019-02-10 00:00:00') /* Sneak Attack Warden of Enlightenment (45394) */
-     , (0x7D59903A, 0x7D599053, '2019-02-10 00:00:00') /* Warden of Raising Focus (44914) */
-     , (0x7D59903A, 0x7D599054, '2019-02-10 00:00:00') /* Warden of Raising Quickness (44915) */
-     , (0x7D59903A, 0x7D599056, '2019-02-10 00:00:00') /* Strange Device (36779) */;
+VALUES (0x7D59903A, 0x7D59903B, '2021-11-01 00:00:00') /* Tower Guardian (35273) */
+     , (0x7D59903A, 0x7D59903C, '2021-11-01 00:00:00') /* Weapon Tinkering Warden of Enlightenment (32450) */
+     , (0x7D59903A, 0x7D59903D, '2021-11-01 00:00:00') /* War Magic Warden of Enlightenment (32449) */
+     , (0x7D59903A, 0x7D59903E, '2021-11-01 00:00:00') /* Void Magic Warden of Enlightenment (43399) */
+     , (0x7D59903A, 0x7D59903F, '2021-11-01 00:00:00') /* Two Handed Combat Warden of Enlightenment (41741) */
+     , (0x7D59903A, 0x7D599040, '2021-11-01 00:00:00') /* Summoning Warden of Enlightenment (49483) */
+     , (0x7D59903A, 0x7D599041, '2021-11-01 00:00:00') /* Shield Warden of Enlightenment (45393) */
+     , (0x7D59903A, 0x7D599042, '2021-11-01 00:00:00') /* Run Warden of Enlightenment (32443) */
+     , (0x7D59903A, 0x7D599043, '2021-11-01 00:00:00') /* Recklessness Warden of Enlightenment (45392) */
+     , (0x7D59903A, 0x7D599044, '2021-11-01 00:00:00') /* Missile Weapons Warden of Enlightenment (32455) */
+     , (0x7D59903A, 0x7D599045, '2021-11-01 00:00:00') /* Magic Item Tinkering Warden of Enlightenment (32438) */
+     , (0x7D59903A, 0x7D599046, '2021-11-01 00:00:00') /* Magic Defense Warden of Enlightenment (32437) */
+     , (0x7D59903A, 0x7D599047, '2021-11-01 00:00:00') /* Missile Defense Warden of Enlightenment (32441) */
+     , (0x7D59903A, 0x7D599048, '2021-11-01 00:00:00') /* Melee Defense Warden of Enlightenment (32440) */
+     , (0x7D59903A, 0x7D599049, '2021-11-01 00:00:00') /* Mana Conversion Warden of Enlightenment (32439) */
+     , (0x7D59903A, 0x7D59904A, '2021-11-01 00:00:00') /* Loyalty Warden of Enlightenment (32470) */
+     , (0x7D59903A, 0x7D59904B, '2021-11-01 00:00:00') /* Lockpick Warden of Enlightenment (32469) */
+     , (0x7D59903A, 0x7D59904C, '2021-11-01 00:00:00') /* Light Weapons Warden of Enlightenment (32454) */
+     , (0x7D59903A, 0x7D59904D, '2021-11-01 00:00:00') /* Life Magic Warden of Enlightenment (32468) */
+     , (0x7D59903A, 0x7D59904E, '2021-11-01 00:00:00') /* Leadership Warden of Enlightenment (32467) */
+     , (0x7D59903A, 0x7D59904F, '2021-11-01 00:00:00') /* Arcane Lore Warden of Enlightenment (32452) */
+     , (0x7D59903A, 0x7D599050, '2021-11-01 00:00:00') /* Alchemy Warden of Enlightenment (32451) */
+     , (0x7D59903A, 0x7D599051, '2021-11-01 00:00:00') /* Warden of Raising Self (44916) */
+     , (0x7D59903A, 0x7D599052, '2021-11-01 00:00:00') /* Sneak Attack Warden of Enlightenment (45394) */
+     , (0x7D59903A, 0x7D599053, '2021-11-01 00:00:00') /* Warden of Raising Focus (44914) */
+     , (0x7D59903A, 0x7D599054, '2021-11-01 00:00:00') /* Warden of Raising Quickness (44915) */
+     , (0x7D59903A, 0x7D599056, '2021-11-01 00:00:00') /* Strange Device (36779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59903B, 35273, 0xD599003F, 180, 155, 374.015, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Tower Guardian */
@@ -170,12 +170,12 @@ VALUES (0x7D59905B,  1154, 0xD599003F, 185.32, 166.015, 374.005, 0.188336, 0, 0,
 /* @teleloc 0xD599003F [185.320007 166.014999 374.005005] 0.188336 0.000000 0.000000 0.982105 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D59905B, 0x7D59905C, '2019-02-10 00:00:00') /* Emissary of Asheron (45770) */
-     , (0x7D59905B, 0x7D59905D, '2019-02-10 00:00:00') /* Asheron (43183) */
-     , (0x7D59905B, 0x7D59905E, '2019-02-10 00:00:00') /* Fianhe (43941) */
-     , (0x7D59905B, 0x7D59905F, '2019-02-10 00:00:00') /* Ayaname Kina (37074) */
-     , (0x7D59905B, 0x7D599060, '2019-02-10 00:00:00') /* Emissary of Asheron (37065) */
-     , (0x7D59905B, 0x7D599061, '2019-02-10 00:00:00') /* Asheron's Servant (33546) */;
+VALUES (0x7D59905B, 0x7D59905C, '2021-11-01 00:00:00') /* Emissary of Asheron (45770) */
+     , (0x7D59905B, 0x7D59905D, '2021-11-01 00:00:00') /* Asheron (43183) */
+     , (0x7D59905B, 0x7D59905E, '2021-11-01 00:00:00') /* Fianhe (43941) */
+     , (0x7D59905B, 0x7D59905F, '2021-11-01 00:00:00') /* Ayaname Kina (37074) */
+     , (0x7D59905B, 0x7D599060, '2021-11-01 00:00:00') /* Emissary of Asheron (37065) */
+     , (0x7D59905B, 0x7D599061, '2021-11-01 00:00:00') /* Asheron's Servant (33546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59905C, 45770, 0xD599003F, 185.32, 166.015, 374.005, 0.188336, 0, 0, 0.982105,  True, '2021-11-01 00:00:00'); /* Emissary of Asheron */
@@ -206,7 +206,7 @@ VALUES (0x7D599063, 15759, 0xD5990148, 161.21, 174.295, 385.35, 0.201905, 0, 0, 
 /* @teleloc 0xD5990148 [161.210007 174.294998 385.350006] 0.201905 0.000000 0.000000 0.979405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D599063, 0x7D599064, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction (35294) */;
+VALUES (0x7D599063, 0x7D599064, '2021-11-01 00:00:00') /* Mote and Crystals needed for the Golem Construction (35294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D599064, 35294, 0xD5990148, 161.21, 174.295, 385.35, 0.201905, 0, 0, 0.979405,  True, '2021-11-01 00:00:00'); /* Mote and Crystals needed for the Golem Construction */
@@ -225,7 +225,7 @@ VALUES (0x7D5996A5,  1154, 0xD599011F, 177.159, 185.883, 384, 0.999986, 0, 0, -0
 /* @teleloc 0xD599011F [177.158997 185.882996 384.000000] 0.999986 0.000000 0.000000 -0.005295 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5996A5, 0x7D5996A6, '2020-01-30 00:00:00') /* Exploration Marker (39801) */;
+VALUES (0x7D5996A5, 0x7D5996A6, '2021-11-01 00:00:00') /* Exploration Marker (39801) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5996A6, 39801, 0xD599011F, 177.159, 185.883, 384, 0.999986, 0, 0, -0.005295,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

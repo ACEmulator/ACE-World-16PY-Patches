@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35803;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35803, 'ace35803-clubofkillagurg', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35803, 'ace35803-clubofkillagurg', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35803,   1,          1) /* ItemType - MeleeWeapon */
@@ -42,7 +42,7 @@ VALUES (35803,   5,  -0.033) /* ManaRate */
      , (35803,  39,     1.7) /* DefaultScale */
      , (35803,  62,    1.15) /* WeaponOffense */
      , (35803,  63,       1) /* DamageMod */
-     , (35803, 136,       1) /* CriticalMultiplier */
+     , (35803, 136,     2.5) /* CriticalMultiplier */
      , (35803, 147,    0.25) /* CriticalFrequency */
      , (35803, 157,       1) /* ResistanceModifier */;
 

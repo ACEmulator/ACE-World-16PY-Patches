@@ -9,8 +9,8 @@ VALUES (0x7C770001,  1542, 0xC770011B, 110.274, 166.434, 30.005, -0.085134, 0, 0
 /* @teleloc 0xC770011B [110.274002 166.434006 30.004999] -0.085134 0.000000 0.000000 0.996369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C770001, 0x7C770004, '2005-02-09 10:00:00') /* Scroll of Endurance Other II (2654) */
-     , (0x7C770001, 0x7C770011, '2005-02-09 10:00:00') /* Scroll of Light Weapon Mastery Other (1670) */;
+VALUES (0x7C770001, 0x7C770004, '2021-11-01 00:00:00') /* Scroll of Endurance Other II (2654) */
+     , (0x7C770001, 0x7C770011, '2021-11-01 00:00:00') /* Scroll of Light Weapon Mastery Other (1670) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C770002,   948, 0xC7700113, 106.819, 151.752, 35.2055, 0.941666, 0, 0, -0.336549,  True, '2021-11-01 00:00:00'); /* Mosswart Feeder */
@@ -49,19 +49,19 @@ VALUES (0x7C77000A,  1154, 0xC770011B, 112.894, 160.587, 30.005, 0.763454, 0, 0,
 /* @teleloc 0xC770011B [112.893997 160.587006 30.004999] 0.763454 0.000000 0.000000 -0.645862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C77000A, 0x7C770000, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x7C77000A, 0x7C770002, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x7C77000A, 0x7C770003, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x7C77000A, 0x7C770009, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x7C77000A, 0x7C77000B, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x7C77000A, 0x7C77000C, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
-     , (0x7C77000A, 0x7C77000D, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
-     , (0x7C77000A, 0x7C77000E, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
-     , (0x7C77000A, 0x7C77000F, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
-     , (0x7C77000A, 0x7C770012, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x7C77000A, 0x7C770013, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
-     , (0x7C77000A, 0x7C770014, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
-     , (0x7C77000A, 0x7C770015, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
+VALUES (0x7C77000A, 0x7C770000, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C77000A, 0x7C770002, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C77000A, 0x7C770003, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C77000A, 0x7C770009, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C77000A, 0x7C77000B, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C77000A, 0x7C77000C, '2021-11-01 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C77000A, 0x7C77000D, '2021-11-01 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C77000A, 0x7C77000E, '2021-11-01 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C77000A, 0x7C77000F, '2021-11-01 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C77000A, 0x7C770012, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C77000A, 0x7C770013, '2021-11-01 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C77000A, 0x7C770014, '2021-11-01 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C77000A, 0x7C770015, '2021-11-01 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C77000B,   211, 0xC770011B, 116.116, 165.85, 30.0055, -0.658524, 0, 0, -0.75256,  True, '2021-11-01 00:00:00'); /* Mudlurk Mosswart */

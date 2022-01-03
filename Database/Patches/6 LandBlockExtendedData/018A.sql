@@ -5,43 +5,43 @@ VALUES (0x7018A01A, 15759, 0x018A020D, 82.3709, -105.084, 0.004999, -0.617709, 0
 /* @teleloc 0x018A020D [82.370903 -105.084000 0.004999] -0.617709 0.000000 0.000000 0.786407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018A01A, 0x7018A01B, '2005-02-09 10:00:00') /* Gem of Raising Quickness (22946) */
-     , (0x7018A01A, 0x7018A01C, '2005-02-09 10:00:00') /* Gem of Raising Focus (22945) */
-     , (0x7018A01A, 0x7018A01D, '2005-02-09 10:00:00') /* Gem of Raising Self (22947) */
-     , (0x7018A01A, 0x7018A03B, '2005-02-09 10:00:00') /* Light Weapons Gem of Enlightenment (22353) */
-     , (0x7018A01A, 0x7018A03C, '2005-02-09 10:00:00') /* Cooking Gem of Enlightenment (22355) */
-     , (0x7018A01A, 0x7018A03D, '2005-02-09 10:00:00') /* Crossbow Gem of Enlightenment (22358) */
-     , (0x7018A01A, 0x7018A08A, '2005-02-09 10:00:00') /* Alchemy Gem of Enlightenment (22350) */
-     , (0x7018A01A, 0x7018A08B, '2005-02-09 10:00:00') /* Arcane Lore Gem of Enlightenment (22351) */
-     , (0x7018A01A, 0x7018A08C, '2005-02-09 10:00:00') /* Missile Weapons Gem of Enlightenment (22354) */
-     , (0x7018A01A, 0x7018A08D, '2005-02-09 10:00:00') /* Assess Creature Gem of Enlightenment (22356) */
-     , (0x7018A01A, 0x7018A08E, '2005-02-09 10:00:00') /* Creature Enchantment Gem of Enlightenment (22357) */
-     , (0x7018A01A, 0x7018A08F, '2005-02-09 10:00:00') /* Finesse Weapons Gem of Enlightenment (22359) */
-     , (0x7018A01A, 0x7018A090, '2005-02-09 10:00:00') /* Deception Gem of Enlightenment (22360) */
-     , (0x7018A01A, 0x7018A091, '2005-02-09 10:00:00') /* Fletching Gem of Enlightenment (22361) */
-     , (0x7018A01A, 0x7018A092, '2005-02-09 10:00:00') /* Healing Gem of Enlightenment (22362) */
-     , (0x7018A01A, 0x7018A093, '2005-02-09 10:00:00') /* Item Enchantment Gem of Enlightenment (22364) */
-     , (0x7018A01A, 0x7018A094, '2005-02-09 10:00:00') /* Jump Gem of Enlightenment (22365) */
-     , (0x7018A01A, 0x7018A095, '2005-02-09 10:00:00') /* Leadership Gem of Enlightenment (22366) */
-     , (0x7018A01A, 0x7018A096, '2005-02-09 10:00:00') /* Life Magic Gem of Enlightenment (22367) */
-     , (0x7018A01A, 0x7018A098, '2005-02-09 10:00:00') /* Gem of Raising Endurance (22944) */
-     , (0x7018A01A, 0x7018A099, '2005-02-09 10:00:00') /* Gem of Raising Coordination (22943) */
-     , (0x7018A01A, 0x7018A09A, '2005-02-09 10:00:00') /* Gem of Raising Strength (22948) */
-     , (0x7018A01A, 0x7018A0A4, '2005-02-09 10:00:00') /* Lockpick Gem of Enlightenment (22368) */
-     , (0x7018A01A, 0x7018A0A5, '2005-02-09 10:00:00') /* Loyalty Gem of Enlightenment (22369) */
-     , (0x7018A01A, 0x7018A0A6, '2005-02-09 10:00:00') /* Mace Gem of Enlightenment (22370) */
-     , (0x7018A01A, 0x7018A0A7, '2005-02-09 10:00:00') /* Magic Defense Gem of Enlightenment (22371) */
-     , (0x7018A01A, 0x7018A0A8, '2005-02-09 10:00:00') /* Mana Conversion Gem of Enlightenment (22373) */
-     , (0x7018A01A, 0x7018A0A9, '2005-02-09 10:00:00') /* Melee Defense Gem of Enlightenment (22374) */
-     , (0x7018A01A, 0x7018A0AA, '2005-02-09 10:00:00') /* Missile Defense Gem of Enlightenment (22375) */
-     , (0x7018A01A, 0x7018A0AB, '2005-02-09 10:00:00') /* Assess Person Gem of Enlightenment (22376) */
-     , (0x7018A01A, 0x7018A0AC, '2005-02-09 10:00:00') /* Run Gem of Enlightenment (22377) */
-     , (0x7018A01A, 0x7018A0AD, '2005-02-09 10:00:00') /* Spear Gem of Enlightenment (22378) */
-     , (0x7018A01A, 0x7018A0AE, '2005-02-09 10:00:00') /* Staff Gem of Enlightenment (22379) */
-     , (0x7018A01A, 0x7018A0AF, '2005-02-09 10:00:00') /* Heavy Weapons Gem of Enlightenment (22380) */
-     , (0x7018A01A, 0x7018A0B0, '2005-02-09 10:00:00') /* Thrown Weapon Gem of Enlightenment (22381) */
-     , (0x7018A01A, 0x7018A0B1, '2005-02-09 10:00:00') /* Unarmed Combat Gem of Enlightenment (22382) */
-     , (0x7018A01A, 0x7018A0B2, '2005-02-09 10:00:00') /* War Magic Gem of Enlightenment (22383) */;
+VALUES (0x7018A01A, 0x7018A01B, '2021-11-01 00:00:00') /* Gem of Raising Quickness (22946) */
+     , (0x7018A01A, 0x7018A01C, '2021-11-01 00:00:00') /* Gem of Raising Focus (22945) */
+     , (0x7018A01A, 0x7018A01D, '2021-11-01 00:00:00') /* Gem of Raising Self (22947) */
+     , (0x7018A01A, 0x7018A03B, '2021-11-01 00:00:00') /* Light Weapons Gem of Enlightenment (22353) */
+     , (0x7018A01A, 0x7018A03C, '2021-11-01 00:00:00') /* Cooking Gem of Enlightenment (22355) */
+     , (0x7018A01A, 0x7018A03D, '2021-11-01 00:00:00') /* Crossbow Gem of Enlightenment (22358) */
+     , (0x7018A01A, 0x7018A08A, '2021-11-01 00:00:00') /* Alchemy Gem of Enlightenment (22350) */
+     , (0x7018A01A, 0x7018A08B, '2021-11-01 00:00:00') /* Arcane Lore Gem of Enlightenment (22351) */
+     , (0x7018A01A, 0x7018A08C, '2021-11-01 00:00:00') /* Missile Weapons Gem of Enlightenment (22354) */
+     , (0x7018A01A, 0x7018A08D, '2021-11-01 00:00:00') /* Assess Creature Gem of Enlightenment (22356) */
+     , (0x7018A01A, 0x7018A08E, '2021-11-01 00:00:00') /* Creature Enchantment Gem of Enlightenment (22357) */
+     , (0x7018A01A, 0x7018A08F, '2021-11-01 00:00:00') /* Finesse Weapons Gem of Enlightenment (22359) */
+     , (0x7018A01A, 0x7018A090, '2021-11-01 00:00:00') /* Deception Gem of Enlightenment (22360) */
+     , (0x7018A01A, 0x7018A091, '2021-11-01 00:00:00') /* Fletching Gem of Enlightenment (22361) */
+     , (0x7018A01A, 0x7018A092, '2021-11-01 00:00:00') /* Healing Gem of Enlightenment (22362) */
+     , (0x7018A01A, 0x7018A093, '2021-11-01 00:00:00') /* Item Enchantment Gem of Enlightenment (22364) */
+     , (0x7018A01A, 0x7018A094, '2021-11-01 00:00:00') /* Jump Gem of Enlightenment (22365) */
+     , (0x7018A01A, 0x7018A095, '2021-11-01 00:00:00') /* Leadership Gem of Enlightenment (22366) */
+     , (0x7018A01A, 0x7018A096, '2021-11-01 00:00:00') /* Life Magic Gem of Enlightenment (22367) */
+     , (0x7018A01A, 0x7018A098, '2021-11-01 00:00:00') /* Gem of Raising Endurance (22944) */
+     , (0x7018A01A, 0x7018A099, '2021-11-01 00:00:00') /* Gem of Raising Coordination (22943) */
+     , (0x7018A01A, 0x7018A09A, '2021-11-01 00:00:00') /* Gem of Raising Strength (22948) */
+     , (0x7018A01A, 0x7018A0A4, '2021-11-01 00:00:00') /* Lockpick Gem of Enlightenment (22368) */
+     , (0x7018A01A, 0x7018A0A5, '2021-11-01 00:00:00') /* Loyalty Gem of Enlightenment (22369) */
+     , (0x7018A01A, 0x7018A0A6, '2021-11-01 00:00:00') /* Mace Gem of Enlightenment (22370) */
+     , (0x7018A01A, 0x7018A0A7, '2021-11-01 00:00:00') /* Magic Defense Gem of Enlightenment (22371) */
+     , (0x7018A01A, 0x7018A0A8, '2021-11-01 00:00:00') /* Mana Conversion Gem of Enlightenment (22373) */
+     , (0x7018A01A, 0x7018A0A9, '2021-11-01 00:00:00') /* Melee Defense Gem of Enlightenment (22374) */
+     , (0x7018A01A, 0x7018A0AA, '2021-11-01 00:00:00') /* Missile Defense Gem of Enlightenment (22375) */
+     , (0x7018A01A, 0x7018A0AB, '2021-11-01 00:00:00') /* Assess Person Gem of Enlightenment (22376) */
+     , (0x7018A01A, 0x7018A0AC, '2021-11-01 00:00:00') /* Run Gem of Enlightenment (22377) */
+     , (0x7018A01A, 0x7018A0AD, '2021-11-01 00:00:00') /* Spear Gem of Enlightenment (22378) */
+     , (0x7018A01A, 0x7018A0AE, '2021-11-01 00:00:00') /* Staff Gem of Enlightenment (22379) */
+     , (0x7018A01A, 0x7018A0AF, '2021-11-01 00:00:00') /* Heavy Weapons Gem of Enlightenment (22380) */
+     , (0x7018A01A, 0x7018A0B0, '2021-11-01 00:00:00') /* Thrown Weapon Gem of Enlightenment (22381) */
+     , (0x7018A01A, 0x7018A0B1, '2021-11-01 00:00:00') /* Unarmed Combat Gem of Enlightenment (22382) */
+     , (0x7018A01A, 0x7018A0B2, '2021-11-01 00:00:00') /* War Magic Gem of Enlightenment (22383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018A01B, 22946, 0x018A020C, 76.9658, -96.0675, 0.004999, 0.998573, 0, 0, -0.053413,  True, '2021-11-01 00:00:00'); /* Gem of Raising Quickness */
@@ -500,43 +500,43 @@ VALUES (0x7018A0BA, 15759, 0x018A0225, 103.643, -77.4799, 0.005, 0.696251, 0, 0,
 /* @teleloc 0x018A0225 [103.642998 -77.479897 0.005000] 0.696251 0.000000 0.000000 -0.717798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018A0BA, 0x7018A032, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A033, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A034, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A035, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A036, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A037, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A04F, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A050, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A051, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A052, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A0B7, '2005-02-09 10:00:00') /* Bracelet of Creature Enchantments (25300) */
-     , (0x7018A0BA, 0x7018A0B8, '2005-02-09 10:00:00') /* Bracelet of Creature Enchantments (25307) */
-     , (0x7018A0BA, 0x7018A0B9, '2005-02-09 10:00:00') /* Ring of Life Magic Protections (23143) */
-     , (0x7018A0BA, 0x7018A0BE, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A0BF, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A0C0, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A0C1, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A0BA, 0x7018A0C4, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0C5, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0C6, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0C7, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0C8, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0C9, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0CA, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0CB, '2005-02-09 10:00:00') /* Baby Wood Golem (6823) */
-     , (0x7018A0BA, 0x7018A0CE, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A0CF, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A0D0, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A0D1, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A0BA, 0x7018A0D2, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */;
+VALUES (0x7018A0BA, 0x7018A032, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A033, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A034, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A035, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A036, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A037, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A04F, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A050, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A051, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A052, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A0B7, '2021-11-01 00:00:00') /* Bracelet of Creature Enchantments (25300) */
+     , (0x7018A0BA, 0x7018A0B8, '2021-11-01 00:00:00') /* Bracelet of Creature Enchantments (25307) */
+     , (0x7018A0BA, 0x7018A0B9, '2021-11-01 00:00:00') /* Ring of Life Magic Protections (23143) */
+     , (0x7018A0BA, 0x7018A0BE, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A0BF, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A0C0, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A0C1, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A0BA, 0x7018A0C4, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0C5, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0C6, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0C7, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0C8, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0C9, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0CA, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0CB, '2021-11-01 00:00:00') /* Baby Wood Golem (6823) */
+     , (0x7018A0BA, 0x7018A0CE, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A0CF, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A0D0, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A0D1, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A0BA, 0x7018A0D2, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018A0BB,  5086, 0x018A0225, 97.6251, -78.9862, 0.005, -0.692917, 0, 0, -0.721018, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen - 30 sec. */
 /* @teleloc 0x018A0225 [97.625099 -78.986198 0.005000] -0.692917 0.000000 0.000000 -0.721018 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018A0BB, 0x7018A0B6, '2005-02-09 10:00:00') /* Master Yado (9149) */;
+VALUES (0x7018A0BB, 0x7018A0B6, '2021-11-01 00:00:00') /* Master Yado (9149) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018A0BC,  5624, 0x018A0227, 104.794, -80, 0.005, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -775,47 +775,47 @@ VALUES (0x7018A0F6, 15759, 0x018A0280, 152.577, -105.079, 0.004999, -0.617709, 0
 /* @teleloc 0x018A0280 [152.576996 -105.079002 0.004999] -0.617709 0.000000 0.000000 0.786407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018A0F6, 0x7018A0D9, '2005-02-09 10:00:00') /* Alchemy Gem of Forgetfulness (22315) */
-     , (0x7018A0F6, 0x7018A0DA, '2005-02-09 10:00:00') /* Arcane Lore Gem of Forgetfulness (22316) */
-     , (0x7018A0F6, 0x7018A0DB, '2005-02-09 10:00:00') /* Armor Tinkering Gem of Forgetfulness (22317) */
-     , (0x7018A0F6, 0x7018A0DC, '2005-02-09 10:00:00') /* Light Weapons Gem of Forgetfulness (22318) */
-     , (0x7018A0F6, 0x7018A0DD, '2005-02-09 10:00:00') /* Missile Weapons Gem of Forgetfulness (22319) */
-     , (0x7018A0F6, 0x7018A0DE, '2005-02-09 10:00:00') /* Cooking Gem of Forgetfulness (22320) */
-     , (0x7018A0F6, 0x7018A0DF, '2005-02-09 10:00:00') /* Assess Creature Gem of Forgetfulness (22321) */
-     , (0x7018A0F6, 0x7018A0E0, '2005-02-09 10:00:00') /* Creature Enchantment Gem of Forgetfulness (22322) */
-     , (0x7018A0F6, 0x7018A0E1, '2005-02-09 10:00:00') /* Crossbow Gem of Forgetfulness (22323) */
-     , (0x7018A0F6, 0x7018A0E2, '2005-02-09 10:00:00') /* Finesse Weapons Gem of Forgetfulness (22324) */
-     , (0x7018A0F6, 0x7018A0E3, '2005-02-09 10:00:00') /* Deception Gem of Forgetfulness (22325) */
-     , (0x7018A0F6, 0x7018A0E4, '2005-02-09 10:00:00') /* Fletching Gem of Forgetfulness (22326) */
-     , (0x7018A0F6, 0x7018A0E5, '2005-02-09 10:00:00') /* Healing Gem of Forgetfulness (22327) */
-     , (0x7018A0F6, 0x7018A0E6, '2005-02-09 10:00:00') /* Item Tinkering Gem of Forgetfulness (22328) */
-     , (0x7018A0F6, 0x7018A0E7, '2005-02-09 10:00:00') /* Item Enchantment Gem of Forgetfulness (22329) */
-     , (0x7018A0F6, 0x7018A0E8, '2005-02-09 10:00:00') /* Jump Gem of Forgetfulness (22330) */
-     , (0x7018A0F6, 0x7018A0E9, '2005-02-09 10:00:00') /* Leadership Gem of Forgetfulness (22331) */
-     , (0x7018A0F6, 0x7018A0EA, '2005-02-09 10:00:00') /* Life Magic Gem of Forgetfulness (22332) */
-     , (0x7018A0F6, 0x7018A0F1, '2005-02-09 10:00:00') /* Gem of Lowering Endurance (22938) */
-     , (0x7018A0F6, 0x7018A0F2, '2005-02-09 10:00:00') /* Gem of Lowering Coordination (22937) */
-     , (0x7018A0F6, 0x7018A0F3, '2005-02-09 10:00:00') /* Gem of Lowering Strength (22942) */
-     , (0x7018A0F6, 0x7018A0F4, '2005-02-09 10:00:00') /* Gem of Lowering Quickness (22940) */
-     , (0x7018A0F6, 0x7018A0F5, '2005-02-09 10:00:00') /* Gem of Lowering Focus (22939) */
-     , (0x7018A0F6, 0x7018A0F7, '2005-02-09 10:00:00') /* Gem of Lowering Self (22941) */
-     , (0x7018A0F6, 0x7018A0F8, '2005-02-09 10:00:00') /* Lockpick Gem of Forgetfulness (22333) */
-     , (0x7018A0F6, 0x7018A0F9, '2005-02-09 10:00:00') /* Loyalty Gem of Forgetfulness (22334) */
-     , (0x7018A0F6, 0x7018A0FA, '2005-02-09 10:00:00') /* Mace Gem of Forgetfulness (22335) */
-     , (0x7018A0F6, 0x7018A0FB, '2005-02-09 10:00:00') /* Magic Defense Gem of Forgetfulness (22336) */
-     , (0x7018A0F6, 0x7018A0FC, '2005-02-09 10:00:00') /* Magic Item Tinkering Gem of Forgetfulness (22337) */
-     , (0x7018A0F6, 0x7018A0FD, '2005-02-09 10:00:00') /* Mana Conversion Gem of Forgetfulness (22338) */
-     , (0x7018A0F6, 0x7018A0FE, '2005-02-09 10:00:00') /* Melee Defense Gem of Forgetfulness (22339) */
-     , (0x7018A0F6, 0x7018A0FF, '2005-02-09 10:00:00') /* Missile Defense Gem of Forgetfulness (22340) */
-     , (0x7018A0F6, 0x7018A100, '2005-02-09 10:00:00') /* Assess Person Gem of Forgetfulness (22341) */
-     , (0x7018A0F6, 0x7018A101, '2005-02-09 10:00:00') /* Run Gem of Forgetfulness (22342) */
-     , (0x7018A0F6, 0x7018A102, '2005-02-09 10:00:00') /* Spear Gem of Forgetfulness (22343) */
-     , (0x7018A0F6, 0x7018A103, '2005-02-09 10:00:00') /* Staff Gem of Forgetfulness (22344) */
-     , (0x7018A0F6, 0x7018A104, '2005-02-09 10:00:00') /* Heavy Weapons Gem of Forgetfulness (22345) */
-     , (0x7018A0F6, 0x7018A105, '2005-02-09 10:00:00') /* Thrown Weapon Gem of Forgetfulness (22346) */
-     , (0x7018A0F6, 0x7018A106, '2005-02-09 10:00:00') /* Unarmed Combat Gem of Forgetfulness (22347) */
-     , (0x7018A0F6, 0x7018A107, '2005-02-09 10:00:00') /* War Magic Gem of Forgetfulness (22348) */
-     , (0x7018A0F6, 0x7018A108, '2005-02-09 10:00:00') /* Weapon Tinkering Gem of Forgetfulness (22349) */;
+VALUES (0x7018A0F6, 0x7018A0D9, '2021-11-01 00:00:00') /* Alchemy Gem of Forgetfulness (22315) */
+     , (0x7018A0F6, 0x7018A0DA, '2021-11-01 00:00:00') /* Arcane Lore Gem of Forgetfulness (22316) */
+     , (0x7018A0F6, 0x7018A0DB, '2021-11-01 00:00:00') /* Armor Tinkering Gem of Forgetfulness (22317) */
+     , (0x7018A0F6, 0x7018A0DC, '2021-11-01 00:00:00') /* Light Weapons Gem of Forgetfulness (22318) */
+     , (0x7018A0F6, 0x7018A0DD, '2021-11-01 00:00:00') /* Missile Weapons Gem of Forgetfulness (22319) */
+     , (0x7018A0F6, 0x7018A0DE, '2021-11-01 00:00:00') /* Cooking Gem of Forgetfulness (22320) */
+     , (0x7018A0F6, 0x7018A0DF, '2021-11-01 00:00:00') /* Assess Creature Gem of Forgetfulness (22321) */
+     , (0x7018A0F6, 0x7018A0E0, '2021-11-01 00:00:00') /* Creature Enchantment Gem of Forgetfulness (22322) */
+     , (0x7018A0F6, 0x7018A0E1, '2021-11-01 00:00:00') /* Crossbow Gem of Forgetfulness (22323) */
+     , (0x7018A0F6, 0x7018A0E2, '2021-11-01 00:00:00') /* Finesse Weapons Gem of Forgetfulness (22324) */
+     , (0x7018A0F6, 0x7018A0E3, '2021-11-01 00:00:00') /* Deception Gem of Forgetfulness (22325) */
+     , (0x7018A0F6, 0x7018A0E4, '2021-11-01 00:00:00') /* Fletching Gem of Forgetfulness (22326) */
+     , (0x7018A0F6, 0x7018A0E5, '2021-11-01 00:00:00') /* Healing Gem of Forgetfulness (22327) */
+     , (0x7018A0F6, 0x7018A0E6, '2021-11-01 00:00:00') /* Item Tinkering Gem of Forgetfulness (22328) */
+     , (0x7018A0F6, 0x7018A0E7, '2021-11-01 00:00:00') /* Item Enchantment Gem of Forgetfulness (22329) */
+     , (0x7018A0F6, 0x7018A0E8, '2021-11-01 00:00:00') /* Jump Gem of Forgetfulness (22330) */
+     , (0x7018A0F6, 0x7018A0E9, '2021-11-01 00:00:00') /* Leadership Gem of Forgetfulness (22331) */
+     , (0x7018A0F6, 0x7018A0EA, '2021-11-01 00:00:00') /* Life Magic Gem of Forgetfulness (22332) */
+     , (0x7018A0F6, 0x7018A0F1, '2021-11-01 00:00:00') /* Gem of Lowering Endurance (22938) */
+     , (0x7018A0F6, 0x7018A0F2, '2021-11-01 00:00:00') /* Gem of Lowering Coordination (22937) */
+     , (0x7018A0F6, 0x7018A0F3, '2021-11-01 00:00:00') /* Gem of Lowering Strength (22942) */
+     , (0x7018A0F6, 0x7018A0F4, '2021-11-01 00:00:00') /* Gem of Lowering Quickness (22940) */
+     , (0x7018A0F6, 0x7018A0F5, '2021-11-01 00:00:00') /* Gem of Lowering Focus (22939) */
+     , (0x7018A0F6, 0x7018A0F7, '2021-11-01 00:00:00') /* Gem of Lowering Self (22941) */
+     , (0x7018A0F6, 0x7018A0F8, '2021-11-01 00:00:00') /* Lockpick Gem of Forgetfulness (22333) */
+     , (0x7018A0F6, 0x7018A0F9, '2021-11-01 00:00:00') /* Loyalty Gem of Forgetfulness (22334) */
+     , (0x7018A0F6, 0x7018A0FA, '2021-11-01 00:00:00') /* Mace Gem of Forgetfulness (22335) */
+     , (0x7018A0F6, 0x7018A0FB, '2021-11-01 00:00:00') /* Magic Defense Gem of Forgetfulness (22336) */
+     , (0x7018A0F6, 0x7018A0FC, '2021-11-01 00:00:00') /* Magic Item Tinkering Gem of Forgetfulness (22337) */
+     , (0x7018A0F6, 0x7018A0FD, '2021-11-01 00:00:00') /* Mana Conversion Gem of Forgetfulness (22338) */
+     , (0x7018A0F6, 0x7018A0FE, '2021-11-01 00:00:00') /* Melee Defense Gem of Forgetfulness (22339) */
+     , (0x7018A0F6, 0x7018A0FF, '2021-11-01 00:00:00') /* Missile Defense Gem of Forgetfulness (22340) */
+     , (0x7018A0F6, 0x7018A100, '2021-11-01 00:00:00') /* Assess Person Gem of Forgetfulness (22341) */
+     , (0x7018A0F6, 0x7018A101, '2021-11-01 00:00:00') /* Run Gem of Forgetfulness (22342) */
+     , (0x7018A0F6, 0x7018A102, '2021-11-01 00:00:00') /* Spear Gem of Forgetfulness (22343) */
+     , (0x7018A0F6, 0x7018A103, '2021-11-01 00:00:00') /* Staff Gem of Forgetfulness (22344) */
+     , (0x7018A0F6, 0x7018A104, '2021-11-01 00:00:00') /* Heavy Weapons Gem of Forgetfulness (22345) */
+     , (0x7018A0F6, 0x7018A105, '2021-11-01 00:00:00') /* Thrown Weapon Gem of Forgetfulness (22346) */
+     , (0x7018A0F6, 0x7018A106, '2021-11-01 00:00:00') /* Unarmed Combat Gem of Forgetfulness (22347) */
+     , (0x7018A0F6, 0x7018A107, '2021-11-01 00:00:00') /* War Magic Gem of Forgetfulness (22348) */
+     , (0x7018A0F6, 0x7018A108, '2021-11-01 00:00:00') /* Weapon Tinkering Gem of Forgetfulness (22349) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018A0F7, 22941, 0x018A0280, 154.1, -106.988, 0.004999, -0.706346, 0, 0, 0.707867,  True, '2021-11-01 00:00:00'); /* Gem of Lowering Self */
@@ -898,10 +898,10 @@ VALUES (0x7018A10A,  5086, 0x018A0296, 12.6795, -47.1071, 6.005, -0.408102, 0, 0
 /* @teleloc 0x018A0296 [12.679500 -47.107101 6.005000] -0.408102 0.000000 0.000000 -0.912936 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018A10A, 0x7018A109, '2005-02-09 10:00:00') /* Ulna bint-Fasha the Ivory Crafter (24575) */
-     , (0x7018A10A, 0x7018A10D, '2005-02-09 10:00:00') /* Town Crier (5773) */
-     , (0x7018A10A, 0x7018A10E, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x7018A10A, 0x7018A10F, '2005-02-09 10:00:00') /* Aun Xathurea the Leather Crafter (24576) */;
+VALUES (0x7018A10A, 0x7018A109, '2021-11-01 00:00:00') /* Ulna bint-Fasha the Ivory Crafter (24575) */
+     , (0x7018A10A, 0x7018A10D, '2021-11-01 00:00:00') /* Town Crier (5773) */
+     , (0x7018A10A, 0x7018A10E, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7018A10A, 0x7018A10F, '2021-11-01 00:00:00') /* Aun Xathurea the Leather Crafter (24576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018A10B,   854, 0x018A0296, 13.4576, -50.9505, 6.005, -0.398549, 0, 0, -0.917147, False, '2021-11-01 00:00:00'); /* Altar of Bael'Zharon */
@@ -964,32 +964,32 @@ VALUES (0x7018A119,  5086, 0x018A02C5, 50.4327, -7.87669, 6.005, 0.783385, 0, 0,
 /* @teleloc 0x018A02C5 [50.432701 -7.876690 6.005000] 0.783385 0.000000 0.000000 -0.621536 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018A119, 0x7018A110, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A111, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A112, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A113, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A114, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A115, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A116, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A117, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A118, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A11A, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A11B, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A11C, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A11D, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A11E, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A11F, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A120, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A121, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A122, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A123, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A124, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A125, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A126, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A127, '2005-02-09 10:00:00') /* Mosswart Baby (6824) */
-     , (0x7018A119, 0x7018A128, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A129, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */
-     , (0x7018A119, 0x7018A12A, '2005-02-09 10:00:00') /* Baby Olthoi (6825) */;
+VALUES (0x7018A119, 0x7018A110, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A111, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A112, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A113, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A114, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A115, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A116, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A117, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A118, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A11A, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A11B, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A11C, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A11D, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A11E, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A11F, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A120, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A121, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A122, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A123, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A124, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A125, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A126, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A127, '2021-11-01 00:00:00') /* Mosswart Baby (6824) */
+     , (0x7018A119, 0x7018A128, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A129, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */
+     , (0x7018A119, 0x7018A12A, '2021-11-01 00:00:00') /* Baby Olthoi (6825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018A11A,  6824, 0x018A02C6, 53.5392, -19.7241, 6.005, -0.706346, 0, 0, -0.707867,  True, '2021-11-01 00:00:00'); /* Mosswart Baby */

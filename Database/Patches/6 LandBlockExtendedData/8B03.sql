@@ -501,126 +501,126 @@ VALUES (0x78B03095,  7924, 0x8B03018F, 70, -87.6452, -77.995, 1, 0, 0, 0, False,
 /* @teleloc 0x8B03018F [70.000000 -87.645203 -77.995003] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B03095, 0x78B03006, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B03007, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B03008, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B03009, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B0300A, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B0300B, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B0300C, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B0300D, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B0300E, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B0300F, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B03010, '2020-02-07 00:00:00') /* Subverted Silver Scope Knight (43219) */
-     , (0x78B03095, 0x78B03012, '2020-02-07 00:00:00') /* Subverted Iron Blade Knight (43218) */
-     , (0x78B03095, 0x78B03013, '2020-02-07 00:00:00') /* Subverted Iron Blade Knight (43218) */
-     , (0x78B03095, 0x78B03014, '2020-02-07 00:00:00') /* Subverted Iron Blade Knight (43218) */
-     , (0x78B03095, 0x78B03015, '2020-02-07 00:00:00') /* Subverted Iron Blade Knight (43218) */
-     , (0x78B03095, 0x78B03016, '2020-02-07 00:00:00') /* Subverted Iron Blade Knight (43218) */
-     , (0x78B03095, 0x78B03017, '2020-02-07 00:00:00') /* Subverted Iron Blade Knight (43218) */
-     , (0x78B03095, 0x78B03018, '2020-02-07 00:00:00') /* Subverted Iron Blade Knight (43218) */
-     , (0x78B03095, 0x78B0301A, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B0301B, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B0301C, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B0301D, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B0301E, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B0301F, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B03020, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B03021, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B03022, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B03023, '2020-02-07 00:00:00') /* Subverted Copper Cog Knight (43217) */
-     , (0x78B03095, 0x78B03026, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B03027, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B03028, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B03029, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B0302A, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B0302B, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B0302C, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B0302D, '2020-02-07 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
-     , (0x78B03095, 0x78B03034, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B03038, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B03039, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B0303A, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B0303C, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B0303D, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B0303E, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B0303F, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B03040, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B03041, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B03042, '2020-02-07 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x78B03095, 0x78B03043, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B03047, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B0304F, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B03050, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03051, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03052, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03053, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03054, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B03056, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03057, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03058, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B03059, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B0305A, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B0305B, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B0305C, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B0305D, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B0305E, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B0305F, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03060, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03061, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03062, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03063, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03064, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B03065, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03066, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03067, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B03068, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B03069, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B0306A, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B0306B, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B0306C, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B0306D, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B0306E, '2020-02-07 00:00:00') /* Gear Hunter (42605) */
-     , (0x78B03095, 0x78B0306F, '2020-02-07 00:00:00') /* Gear Hunter (42607) */
-     , (0x78B03095, 0x78B03072, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B03073, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B03074, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B03075, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B03076, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B03077, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B03078, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B03079, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B0307A, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B0307B, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B0307C, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B0307D, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B0307E, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43220) */
-     , (0x78B03095, 0x78B0307F, '2020-02-07 00:00:00') /* Apostate Virindi Inquisitor (43220) */
-     , (0x78B03095, 0x78B03082, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B03083, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B03084, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B03085, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B03086, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B03087, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B03088, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B03089, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B0308A, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B0308B, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B0308C, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B0308D, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43214) */
-     , (0x78B03095, 0x78B0308F, '2020-02-07 00:00:00') /* Apostate Virindi Executor (43214) */
-     , (0x78B03095, 0x78B03090, '2020-02-07 00:00:00') /* Apostate Rift Aggressor (43221) */
-     , (0x78B03095, 0x78B03091, '2020-02-07 00:00:00') /* Apostate Nexus Master (43203) */
-     , (0x78B03095, 0x78B03092, '2020-02-07 00:00:00') /* Apostate Nexus Master (43204) */
-     , (0x78B03095, 0x78B03093, '2020-02-07 00:00:00') /* Apostate Nexus Master (43205) */
-     , (0x78B03095, 0x78B03094, '2020-02-07 00:00:00') /* Apostate Grand Director (43206) */;
+VALUES (0x78B03095, 0x78B03006, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B03007, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B03008, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B03009, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B0300A, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B0300B, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B0300C, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B0300D, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B0300E, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B0300F, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B03010, '2021-11-01 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x78B03095, 0x78B03012, '2021-11-01 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x78B03095, 0x78B03013, '2021-11-01 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x78B03095, 0x78B03014, '2021-11-01 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x78B03095, 0x78B03015, '2021-11-01 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x78B03095, 0x78B03016, '2021-11-01 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x78B03095, 0x78B03017, '2021-11-01 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x78B03095, 0x78B03018, '2021-11-01 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x78B03095, 0x78B0301A, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B0301B, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B0301C, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B0301D, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B0301E, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B0301F, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B03020, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B03021, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B03022, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B03023, '2021-11-01 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x78B03095, 0x78B03026, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B03027, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B03028, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B03029, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B0302A, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B0302B, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B0302C, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B0302D, '2021-11-01 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x78B03095, 0x78B03034, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B03038, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B03039, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B0303A, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B0303C, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B0303D, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B0303E, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B0303F, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B03040, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B03041, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B03042, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x78B03095, 0x78B03043, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B03047, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B0304F, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B03050, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03051, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03052, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03053, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03054, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B03056, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03057, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03058, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B03059, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B0305A, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B0305B, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B0305C, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B0305D, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B0305E, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B0305F, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03060, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03061, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03062, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03063, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03064, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B03065, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03066, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03067, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B03068, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B03069, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B0306A, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B0306B, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B0306C, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B0306D, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B0306E, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
+     , (0x78B03095, 0x78B0306F, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
+     , (0x78B03095, 0x78B03072, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B03073, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B03074, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B03075, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B03076, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B03077, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B03078, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B03079, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B0307A, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B0307B, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B0307C, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B0307D, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x78B03095, 0x78B0307E, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43220) */
+     , (0x78B03095, 0x78B0307F, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43220) */
+     , (0x78B03095, 0x78B03082, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B03083, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B03084, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B03085, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B03086, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B03087, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B03088, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B03089, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B0308A, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B0308B, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B0308C, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x78B03095, 0x78B0308D, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43214) */
+     , (0x78B03095, 0x78B0308F, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43214) */
+     , (0x78B03095, 0x78B03090, '2021-11-01 00:00:00') /* Apostate Rift Aggressor (43221) */
+     , (0x78B03095, 0x78B03091, '2021-11-01 00:00:00') /* Apostate Nexus Master (43203) */
+     , (0x78B03095, 0x78B03092, '2021-11-01 00:00:00') /* Apostate Nexus Master (43204) */
+     , (0x78B03095, 0x78B03093, '2021-11-01 00:00:00') /* Apostate Nexus Master (43205) */
+     , (0x78B03095, 0x78B03094, '2021-11-01 00:00:00') /* Apostate Grand Director (43206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B03096,  5085, 0x8B0303FF, 110.031, -150.694, -17.945, -0.999442, 0, 0, 0.033401, False, '2021-11-01 00:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x8B0303FF [110.030998 -150.694000 -17.945000] -0.999442 0.000000 0.000000 0.033401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B03096, 0x78B03097, '2020-02-07 18:57:36') /* Large Tome (44984) */;
+VALUES (0x78B03096, 0x78B03097, '2021-11-01 00:00:00') /* Large Tome (44984) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B03097, 44984, 0x8B0303DA, 153.335, -106.476, -29.943, 0.302133, 0, 0, 0.953266,  True, '2021-11-01 00:00:00'); /* Large Tome */

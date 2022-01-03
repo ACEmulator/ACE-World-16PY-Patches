@@ -621,116 +621,116 @@ VALUES (0x701EF0D5,  4219, 0x01EF03DD, 72.7694, -66.1671, 0.005, 0.715596, 0, 0,
 /* @teleloc 0x01EF03DD [72.769402 -66.167099 0.005000] 0.715596 0.000000 0.000000 -0.698514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EF0D5, 0x701EF019, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D5, 0x701EF01A, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D5, 0x701EF01C, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D5, 0x701EF024, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D5, 0x701EF02D, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D5, 0x701EF02E, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D5, 0x701EF034, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
-     , (0x701EF0D5, 0x701EF043, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D5, 0x701EF0AC, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0AD, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0AE, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0AF, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0B0, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0B1, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0B2, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0BD, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0BE, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0C3, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0C4, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0C6, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0C7, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0C8, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0C9, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x701EF0D5, 0x701EF0CA, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D5, 0x701EF0CB, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */;
+VALUES (0x701EF0D5, 0x701EF019, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D5, 0x701EF01A, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D5, 0x701EF01C, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D5, 0x701EF024, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D5, 0x701EF02D, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D5, 0x701EF02E, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D5, 0x701EF034, '2021-11-01 00:00:00') /* Banderling Striker (7345) */
+     , (0x701EF0D5, 0x701EF043, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D5, 0x701EF0AC, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0AD, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0AE, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0AF, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0B0, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0B1, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0B2, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0BD, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0BE, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0C3, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0C4, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0C6, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0C7, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0C8, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0C9, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x701EF0D5, 0x701EF0CA, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D5, 0x701EF0CB, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EF0D6,  4219, 0x01EF03DD, 72.7462, -67.064, 0.005, 0.697912, 0, 0, -0.716184, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01EF03DD [72.746201 -67.064003 0.005000] 0.697912 0.000000 0.000000 -0.716184 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EF0D6, 0x701EF002, '2005-02-09 10:00:00') /* Granite Golem (195) */
-     , (0x701EF0D6, 0x701EF005, '2005-02-09 10:00:00') /* Granite Golem (195) */
-     , (0x701EF0D6, 0x701EF028, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D6, 0x701EF02A, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D6, 0x701EF03B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
-     , (0x701EF0D6, 0x701EF044, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D6, 0x701EF045, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D6, 0x701EF047, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D6, 0x701EF04D, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D6, 0x701EF061, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D6, 0x701EF0BA, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
-     , (0x701EF0D6, 0x701EF0BB, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
-     , (0x701EF0D6, 0x701EF0BC, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
-     , (0x701EF0D6, 0x701EF0C1, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D6, 0x701EF0C5, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D6, 0x701EF0CC, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
-     , (0x701EF0D6, 0x701EF0CD, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x701EF0D6, 0x701EF0CE, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D6, 0x701EF0CF, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
-     , (0x701EF0D6, 0x701EF0D0, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D6, 0x701EF0D1, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D6, 0x701EF0D2, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
-     , (0x701EF0D6, 0x701EF0D4, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
-     , (0x701EF0D6, 0x701EF0DA, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x701EF0D6, 0x701EF0DB, '2005-02-09 10:00:00') /* Silver Rat (1626) */;
+VALUES (0x701EF0D6, 0x701EF002, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x701EF0D6, 0x701EF005, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x701EF0D6, 0x701EF028, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D6, 0x701EF02A, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D6, 0x701EF03B, '2021-11-01 00:00:00') /* Banderling Striker (7345) */
+     , (0x701EF0D6, 0x701EF044, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D6, 0x701EF045, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D6, 0x701EF047, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D6, 0x701EF04D, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D6, 0x701EF061, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D6, 0x701EF0BA, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */
+     , (0x701EF0D6, 0x701EF0BB, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */
+     , (0x701EF0D6, 0x701EF0BC, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */
+     , (0x701EF0D6, 0x701EF0C1, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D6, 0x701EF0C5, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D6, 0x701EF0CC, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */
+     , (0x701EF0D6, 0x701EF0CD, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x701EF0D6, 0x701EF0CE, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D6, 0x701EF0CF, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */
+     , (0x701EF0D6, 0x701EF0D0, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D6, 0x701EF0D1, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D6, 0x701EF0D2, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */
+     , (0x701EF0D6, 0x701EF0D4, '2021-11-01 00:00:00') /* Drudge Lurker (1608) */
+     , (0x701EF0D6, 0x701EF0DA, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x701EF0D6, 0x701EF0DB, '2021-11-01 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EF0D7,  4219, 0x01EF03DD, 72.7214, -68.0239, 0.005, 0.697912, 0, 0, -0.716184, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01EF03DD [72.721397 -68.023903 0.005000] 0.697912 0.000000 0.000000 -0.716184 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EF0D7, 0x701EF000, '2005-02-09 10:00:00') /* Injured Olthoi (1620) */
-     , (0x701EF0D7, 0x701EF01E, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D7, 0x701EF021, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D7, 0x701EF026, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D7, 0x701EF02F, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D7, 0x701EF031, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D7, 0x701EF036, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D7, 0x701EF037, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
-     , (0x701EF0D7, 0x701EF039, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
-     , (0x701EF0D7, 0x701EF03C, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
-     , (0x701EF0D7, 0x701EF0A7, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x701EF0D7, 0x701EF0A8, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x701EF0D7, 0x701EF0A9, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0AA, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0B3, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0B4, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0B5, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0B6, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0B7, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0B8, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0B9, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0BF, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0C0, '2005-02-09 10:00:00') /* Silver Rat (1626) */
-     , (0x701EF0D7, 0x701EF0C2, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
-     , (0x701EF0D7, 0x701EF0D9, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */;
+VALUES (0x701EF0D7, 0x701EF000, '2021-11-01 00:00:00') /* Injured Olthoi (1620) */
+     , (0x701EF0D7, 0x701EF01E, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D7, 0x701EF021, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D7, 0x701EF026, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D7, 0x701EF02F, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D7, 0x701EF031, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D7, 0x701EF036, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D7, 0x701EF037, '2021-11-01 00:00:00') /* Banderling Bandit (22809) */
+     , (0x701EF0D7, 0x701EF039, '2021-11-01 00:00:00') /* Banderling Striker (7345) */
+     , (0x701EF0D7, 0x701EF03C, '2021-11-01 00:00:00') /* Banderling Striker (7345) */
+     , (0x701EF0D7, 0x701EF0A7, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x701EF0D7, 0x701EF0A8, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x701EF0D7, 0x701EF0A9, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0AA, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0B3, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0B4, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0B5, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0B6, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0B7, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0B8, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0B9, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0BF, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0C0, '2021-11-01 00:00:00') /* Silver Rat (1626) */
+     , (0x701EF0D7, 0x701EF0C2, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x701EF0D7, 0x701EF0D9, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EF0D8,  4219, 0x01EF03DD, 72.6993, -68.8785, 0.005, 0.697912, 0, 0, -0.716184, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01EF03DD [72.699303 -68.878502 0.005000] 0.697912 0.000000 0.000000 -0.716184 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EF0D8, 0x701EF006, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D8, 0x701EF008, '2005-02-09 10:00:00') /* Lich Lord (1630) */
-     , (0x701EF0D8, 0x701EF00B, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D8, 0x701EF00C, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D8, 0x701EF00D, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D8, 0x701EF00E, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D8, 0x701EF012, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D8, 0x701EF017, '2005-02-09 10:00:00') /* Lich (204) */
-     , (0x701EF0D8, 0x701EF09A, '2005-02-09 10:00:00') /* Malus Shreth (4255) */
-     , (0x701EF0D8, 0x701EF09C, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D8, 0x701EF09E, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D8, 0x701EF0A0, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D8, 0x701EF0A1, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D8, 0x701EF0A2, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D8, 0x701EF0A5, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
-     , (0x701EF0D8, 0x701EF0AB, '2005-02-09 10:00:00') /* Banderling Bandit (1484) */
-     , (0x701EF0D8, 0x701EF0D3, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */;
+VALUES (0x701EF0D8, 0x701EF006, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D8, 0x701EF008, '2021-11-01 00:00:00') /* Lich Lord (1630) */
+     , (0x701EF0D8, 0x701EF00B, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D8, 0x701EF00C, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D8, 0x701EF00D, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D8, 0x701EF00E, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D8, 0x701EF012, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D8, 0x701EF017, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x701EF0D8, 0x701EF09A, '2021-11-01 00:00:00') /* Malus Shreth (4255) */
+     , (0x701EF0D8, 0x701EF09C, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D8, 0x701EF09E, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D8, 0x701EF0A0, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D8, 0x701EF0A1, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D8, 0x701EF0A2, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D8, 0x701EF0A5, '2021-11-01 00:00:00') /* Banderling Ogre (7087) */
+     , (0x701EF0D8, 0x701EF0AB, '2021-11-01 00:00:00') /* Banderling Bandit (1484) */
+     , (0x701EF0D8, 0x701EF0D3, '2021-11-01 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EF0D9,   217, 0x01EF040D, 128.502, -30.9898, 0.012, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Gold Phyntos Wasp */
@@ -749,11 +749,11 @@ VALUES (0x701EF0DC, 15759, 0x01EF014B, 68.6074, -218.707, -54, -0.326853, 0, 0, 
 /* @teleloc 0x01EF014B [68.607399 -218.707001 -54.000000] -0.326853 0.000000 0.000000 0.945075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EF0DC, 0x701EF0DD, '2020-06-01 02:45:58') /* Stone of Alb'arel (34911) */
-     , (0x701EF0DC, 0x701EF0DE, '2020-06-01 11:30:20') /* Stone of Alb'arel (34911) */
-     , (0x701EF0DC, 0x701EF0DF, '2020-06-01 11:30:53') /* Stone of Alb'arel (34911) */
-     , (0x701EF0DC, 0x701EF0E0, '2020-06-01 11:31:16') /* Stone of Alb'arel (34911) */
-     , (0x701EF0DC, 0x701EF0E1, '2020-06-01 11:31:25') /* Stone of Alb'arel (34911) */;
+VALUES (0x701EF0DC, 0x701EF0DD, '2021-11-01 00:00:00') /* Stone of Alb'arel (34911) */
+     , (0x701EF0DC, 0x701EF0DE, '2021-11-01 00:00:00') /* Stone of Alb'arel (34911) */
+     , (0x701EF0DC, 0x701EF0DF, '2021-11-01 00:00:00') /* Stone of Alb'arel (34911) */
+     , (0x701EF0DC, 0x701EF0E0, '2021-11-01 00:00:00') /* Stone of Alb'arel (34911) */
+     , (0x701EF0DC, 0x701EF0E1, '2021-11-01 00:00:00') /* Stone of Alb'arel (34911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EF0DD, 34911, 0x01EF012C, 68.6074, -218.707, -54, -0.326853, 0, 0, 0.945075,  True, '2021-11-01 00:00:00'); /* Stone of Alb'arel */

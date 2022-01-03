@@ -9,7 +9,7 @@ VALUES (0x7A2A1002,  7924, 0xA2A10014, 60.1888, 92.3223, 194.005, 0.020795, 0, 0
 /* @teleloc 0xA2A10014 [60.188801 92.322304 194.005005] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A1002, 0x7A2A1003, '2019-11-30 00:00:00') /* Portal Keeper (32322) */;
+VALUES (0x7A2A1002, 0x7A2A1003, '2021-11-01 00:00:00') /* Portal Keeper (32322) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A1003, 32322, 0xA2A10014, 58.9362, 93.8451, 194.007, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Portal Keeper */

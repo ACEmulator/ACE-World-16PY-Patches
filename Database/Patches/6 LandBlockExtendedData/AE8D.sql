@@ -73,30 +73,30 @@ VALUES (0x7AE8D022,  3955, 0xAE8D0000, 159.35, 128.866, 39.2841, 0.959144, 0, 0,
 /* @teleloc 0xAE8D0000 [159.350006 128.865997 39.284100] 0.959144 0.000000 0.000000 0.282919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE8D022, 0x7AE8D011, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
-     , (0x7AE8D022, 0x7AE8D012, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
-     , (0x7AE8D022, 0x7AE8D013, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7AE8D022, 0x7AE8D014, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7AE8D022, 0x7AE8D015, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7AE8D022, 0x7AE8D016, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7AE8D022, 0x7AE8D017, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
-     , (0x7AE8D022, 0x7AE8D018, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
-     , (0x7AE8D022, 0x7AE8D019, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
-     , (0x7AE8D022, 0x7AE8D01A, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
-     , (0x7AE8D022, 0x7AE8D01B, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
-     , (0x7AE8D022, 0x7AE8D01C, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7AE8D022, 0x7AE8D01D, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7AE8D022, 0x7AE8D01E, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7AE8D022, 0x7AE8D01F, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
-     , (0x7AE8D022, 0x7AE8D020, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
-     , (0x7AE8D022, 0x7AE8D021, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */;
+VALUES (0x7AE8D022, 0x7AE8D011, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D012, '2021-11-01 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AE8D022, 0x7AE8D013, '2021-11-01 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D014, '2021-11-01 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D015, '2021-11-01 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D016, '2021-11-01 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D017, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D018, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D019, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D01A, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D01B, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D01C, '2021-11-01 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D01D, '2021-11-01 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D01E, '2021-11-01 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D01F, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D020, '2021-11-01 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AE8D022, 0x7AE8D021, '2021-11-01 00:00:00') /* Auroch Fire Yearling (1605) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE8D6A5,  1154, 0xAE8D0037, 162.728, 147.748, 39.873, -0.235284, 0, 0, -0.971927, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xAE8D0037 [162.727997 147.748001 39.873001] -0.235284 0.000000 0.000000 -0.971927 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE8D6A5, 0x7AE8D6A6, '2020-01-30 00:00:00') /* Exploration Marker (39751) */;
+VALUES (0x7AE8D6A5, 0x7AE8D6A6, '2021-11-01 00:00:00') /* Exploration Marker (39751) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE8D6A6, 39751, 0xAE8D0037, 162.728, 147.748, 39.873, -0.235284, 0, 0, -0.971927,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

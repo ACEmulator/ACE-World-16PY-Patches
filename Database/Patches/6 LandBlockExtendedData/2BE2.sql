@@ -5,14 +5,14 @@ VALUES (0x72BE23E8,  7924, 0x2BE20004, 10.3759, 76.408, 33.1051, 0.976813, 0, 0,
 /* @teleloc 0x2BE20004 [10.375900 76.407997 33.105099] 0.976813 0.000000 0.000000 0.214094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BE23E8, 0x72BE23E9, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */
-     , (0x72BE23E8, 0x72BE23EA, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */
-     , (0x72BE23E8, 0x72BE23EB, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */
-     , (0x72BE23E8, 0x72BE23EC, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */
-     , (0x72BE23E8, 0x72BE23ED, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */
-     , (0x72BE23E8, 0x72BE23EE, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */
-     , (0x72BE23E8, 0x72BE23EF, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */
-     , (0x72BE23E8, 0x72BE23F0, '2019-04-08 08:19:57') /* Blue Phyntos Wasp (30441) */;
+VALUES (0x72BE23E8, 0x72BE23E9, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE23E8, 0x72BE23EA, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE23E8, 0x72BE23EB, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE23E8, 0x72BE23EC, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE23E8, 0x72BE23ED, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE23E8, 0x72BE23EE, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE23E8, 0x72BE23EF, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE23E8, 0x72BE23F0, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BE23E9, 30441, 0x2BE20004, 16.3759, 76.408, 33.1051, 0.976813, 0, 0, 0.214095,  True, '2021-11-01 00:00:00'); /* Blue Phyntos Wasp */
