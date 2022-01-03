@@ -28,7 +28,7 @@ VALUES (27594,   1,        256) /* ItemType - MissileWeapon */
      , (27594, 150,        103) /* HookPlacement - Hook */
      , (27594, 151,          2) /* HookType - Wall */
      , (27594, 158,          2) /* WieldRequirements - RawSkill */
-     , (27594, 159,          2) /* WieldSkillType - Bow */
+     , (27594, 159,         47) /* WieldSkillType - MissileWeapons */
      , (27594, 160,        250) /* WieldDifficulty */
      , (27594, 353,          8) /* WeaponType - Bow */;
 
