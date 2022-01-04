@@ -11,6 +11,7 @@ Refuse: Corrupted Harbinger Blood (36184)
 			- Goto: RandoTitle
 		QuestFailure:
 			- Tell: Begone!
+			- CastSpellInstant: 2046
 
 Refuse: Broken Virindi Mask (8154)
     - TurnToTarget
@@ -47,14 +48,17 @@ Refuse: Virindi Consul Mask (25335)
 GotoSet: RandoTitle, Probability: 0.33
 	- Tell: Tell no one of what you found beneath the Essence Chambers or you shall suffer far worse than this "Vile Betrayer"!
 	- AddCharacterTitle: VileBetrayer
+	- CastSpellInstant: 2046
 
 GotoSet: RandoTitle, Probability: 0.66
 	- Tell: Has the Blood Witch sent you to disrupt our experiments? Begone "Spy"!
 	- AddCharacterTitle: Spy
+	- CastSpellInstant: 2046
 
 GotoSet: RandoTitle, Probability: 1
 	- Tell: Has the Blood Witch sent you to disrupt our experiments? Begone "Meddler"!
 	- AddCharacterTitle: Meddler
+	- CastSpellInstant: 2046
 
 Give: Cabalist Drudge Charm (24836)
     - InqQuest: HarbingerCompletedWaitVincadi@01
