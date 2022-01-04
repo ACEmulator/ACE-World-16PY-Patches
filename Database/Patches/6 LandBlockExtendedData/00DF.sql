@@ -5,8 +5,8 @@ VALUES (0x700DF000, 29962, 0x00DF02AA, 105.465, -90.0011, -5.945, 0.713353, 0, 0
 /* @teleloc 0x00DF02AA [105.464996 -90.001099 -5.945000] 0.713353 0.000000 0.000000 0.700805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DF000, 0x700DF001, '2020-09-15 12:02:32') /* Lever (29593) */
-     , (0x700DF000, 0x700DF002, '2020-09-15 12:02:57') /* Lever (29593) */;
+VALUES (0x700DF000, 0x700DF001, '2021-11-01 00:00:00') /* Lever (29593) */
+     , (0x700DF000, 0x700DF002, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF001, 29593, 0x00DF0313, 112.085, -81.952, 5.974, 0.342632, 0, 0, -0.93947,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -21,8 +21,8 @@ VALUES (0x700DF003, 29962, 0x00DF02C8, 134.556, -90.0008, -6, 0.707107, 0, 0, -0
 /* @teleloc 0x00DF02C8 [134.556000 -90.000801 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DF003, 0x700DF004, '2020-09-15 12:06:55') /* Lever (29593) */
-     , (0x700DF003, 0x700DF005, '2020-09-15 12:07:15') /* Lever (29593) */;
+VALUES (0x700DF003, 0x700DF004, '2021-11-01 00:00:00') /* Lever (29593) */
+     , (0x700DF003, 0x700DF005, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF004, 29593, 0x00DF032E, 128.288, -98.1644, 5.974, -0.921278, 0, 0, -0.388906,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -37,7 +37,7 @@ VALUES (0x700DF006,  4145, 0x00DF01A3, 154.8, -59.993, -41.945, 0.707107, 0, 0, 
 /* @teleloc 0x00DF01A3 [154.800003 -59.993000 -41.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DF006, 0x700DF007, '2020-09-15 12:19:36') /* Lever (29593) */;
+VALUES (0x700DF006, 0x700DF007, '2021-11-01 00:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF007, 29593, 0x00DF0182, 79.7302, -131.532, -42.026, -0.01252, 0, 0, 0.999922,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -48,79 +48,79 @@ VALUES (0x700DF008,  4219, 0x00DF02B9, 122.861, -86.1594, -5.945, 0.999537, 0, 0
 /* @teleloc 0x00DF02B9 [122.861000 -86.159401 -5.945000] 0.999537 0.000000 0.000000 0.030425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DF008, 0x700DF009, '2020-09-15 13:08:48') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF00A, '2020-09-15 13:08:59') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF00B, '2020-09-15 13:09:13') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF00C, '2020-09-15 13:09:32') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF00D, '2020-09-15 13:09:39') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF00E, '2020-09-15 13:09:48') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF00F, '2020-09-15 13:09:55') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF010, '2020-09-15 13:09:58') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF011, '2020-09-15 13:10:09') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF012, '2020-09-15 13:10:53') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF013, '2020-09-15 13:11:09') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF014, '2020-09-15 13:11:12') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF015, '2020-09-15 13:11:16') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF016, '2020-09-15 13:11:29') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF017, '2020-09-15 13:11:36') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF018, '2020-09-15 13:11:39') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF019, '2020-09-15 13:11:43') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF01A, '2020-09-15 13:12:01') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF01B, '2020-09-15 13:12:10') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF01C, '2020-09-15 13:13:34') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF01D, '2020-09-15 13:13:50') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF01E, '2020-09-15 13:14:00') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF01F, '2020-09-15 13:14:05') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF020, '2020-09-15 13:14:14') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF021, '2020-09-15 13:14:18') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF022, '2020-09-15 13:15:52') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF023, '2020-09-15 13:15:57') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF024, '2020-09-15 13:16:16') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF025, '2020-09-15 13:16:29') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF026, '2020-09-15 13:16:39') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF027, '2020-09-15 13:16:41') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF028, '2020-09-15 13:17:18') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF029, '2020-09-15 13:17:23') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF02A, '2020-09-15 13:17:27') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF02B, '2020-09-15 13:17:33') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF02C, '2020-09-15 13:17:45') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF02D, '2020-09-15 13:17:55') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF02E, '2020-09-15 13:18:00') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF02F, '2020-09-15 13:18:06') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF030, '2020-09-15 13:19:05') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF031, '2020-09-15 13:19:06') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF032, '2020-09-15 13:19:11') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF033, '2020-09-15 13:19:28') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF034, '2020-09-15 13:20:27') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF035, '2020-09-15 13:20:31') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF036, '2020-09-15 13:20:39') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF037, '2020-09-15 13:20:41') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF038, '2020-09-15 13:21:07') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF039, '2020-09-15 13:21:09') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF03A, '2020-09-15 13:21:22') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF03B, '2020-09-15 13:22:15') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF03C, '2020-09-15 13:22:18') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF03D, '2020-09-15 13:22:49') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF03E, '2020-09-15 13:22:53') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF03F, '2020-09-15 13:22:59') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF040, '2020-09-15 13:23:03') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF041, '2020-09-15 13:23:10') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF042, '2020-09-15 13:23:16') /* Temple Guardian (71101) */
-     , (0x700DF008, 0x700DF043, '2020-09-15 13:23:33') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF044, '2020-09-15 13:23:37') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF045, '2020-09-15 13:23:43') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF046, '2020-09-15 13:23:48') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF047, '2020-09-15 13:23:54') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF048, '2020-09-15 13:23:59') /* Temple Guardian (71103) */
-     , (0x700DF008, 0x700DF049, '2020-09-15 13:24:23') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF04A, '2020-09-15 13:24:25') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF04B, '2020-09-15 13:24:31') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF04C, '2020-09-15 13:24:34') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF04D, '2020-09-15 13:24:42') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF04E, '2020-09-15 13:24:44') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF04F, '2020-09-15 13:24:52') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF050, '2020-09-15 13:24:56') /* Temple Guardian (71102) */
-     , (0x700DF008, 0x700DF051, '2020-09-15 13:26:39') /* High Priest of T'thuun (71104) */;
+VALUES (0x700DF008, 0x700DF009, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF00A, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF00B, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF00C, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF00D, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF00E, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF00F, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF010, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF011, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF012, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF013, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF014, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF015, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF016, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF017, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF018, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF019, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF01A, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF01B, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF01C, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF01D, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF01E, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF01F, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF020, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF021, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF022, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF023, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF024, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF025, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF026, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF027, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF028, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF029, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF02A, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF02B, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF02C, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF02D, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF02E, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF02F, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF030, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF031, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF032, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF033, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF034, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF035, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF036, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF037, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF038, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF039, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF03A, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF03B, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF03C, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF03D, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF03E, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF03F, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF040, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF041, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF042, '2021-11-01 00:00:00') /* Temple Guardian (71101) */
+     , (0x700DF008, 0x700DF043, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF044, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF045, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF046, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF047, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF048, '2021-11-01 00:00:00') /* Temple Guardian (71103) */
+     , (0x700DF008, 0x700DF049, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF04A, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF04B, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF04C, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF04D, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF04E, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF04F, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF050, '2021-11-01 00:00:00') /* Temple Guardian (71102) */
+     , (0x700DF008, 0x700DF051, '2021-11-01 00:00:00') /* High Priest of T'thuun (71104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF009, 71101, 0x00DF031A, 107.921, -98.223, 6, -0.902886, 0, 0, 0.429881,  True, '2021-11-01 00:00:00'); /* Temple Guardian */

@@ -5,22 +5,22 @@ VALUES (0x741E7000,  7924, 0x41E7002D, 127.259, 116.094, 160.005, 0.720666, 0, 0
 /* @teleloc 0x41E7002D [127.259003 116.094002 160.005005] 0.720666 0.000000 0.000000 -0.693281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741E7000, 0x741E7002, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7003, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7004, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7005, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7006, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7007, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7008, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7009, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E700A, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E700B, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E700C, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E700D, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E700E, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E700F, '2019-02-15 14:34:36') /* Silver Legion Castellan (30551) */
-     , (0x741E7000, 0x741E7010, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */
-     , (0x741E7000, 0x741E7011, '2019-02-15 14:34:36') /* Silver Legion Castle Guard (29411) */;
+VALUES (0x741E7000, 0x741E7002, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7003, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7004, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7005, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7006, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7007, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7008, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7009, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E700A, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E700B, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E700C, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E700D, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E700E, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E700F, '2021-11-01 00:00:00') /* Silver Legion Castellan (30551) */
+     , (0x741E7000, 0x741E7010, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */
+     , (0x741E7000, 0x741E7011, '2021-11-01 00:00:00') /* Silver Legion Castle Guard (29411) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741E7001,  1032, 0x41E70036, 155.901, 130.344, 160.005, 0.720696, 0, 0, -0.693251, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Zaikhal */

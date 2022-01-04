@@ -13,95 +13,95 @@ VALUES (0x79EE5002, 80366, 0x9EE50107, 107.923, 35.9326, 82.0066, 0.327922, 0, 0
 /* @teleloc 0x9EE50107 [107.922997 35.932598 82.006599] 0.327922 0.000000 0.000000 -0.944705 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5002, 0x79EE5003, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5007, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5008, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
-     , (0x79EE5002, 0x79EE5009, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE500A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE500B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE500C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE500D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE500E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5010, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5013, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5014, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5016, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5017, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5018, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5019, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE501A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE501B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE501C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE501D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE501E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE501F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5020, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5021, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5022, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5024, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5025, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5026, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5027, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5028, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5029, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE502A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE502B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE502C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE502D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE502E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE502F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5030, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5031, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5032, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5033, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5034, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5035, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE5036, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5037, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5038, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5039, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE503A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE503B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE503C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE503D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE503E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE503F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5040, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5041, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5042, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5044, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5045, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE5046, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE5048, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5049, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE504A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE504B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
-     , (0x79EE5002, 0x79EE504C, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE504D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE504E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE504F, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE5050, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
-     , (0x79EE5002, 0x79EE5051, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE5052, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5053, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5054, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE5055, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
-     , (0x79EE5002, 0x79EE5056, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
-     , (0x79EE5002, 0x79EE5057, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE5058, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5059, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
-     , (0x79EE5002, 0x79EE505A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
-     , (0x79EE5002, 0x79EE505B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
-     , (0x79EE5002, 0x79EE505C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
-     , (0x79EE5002, 0x79EE505D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
-     , (0x79EE5002, 0x79EE505E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
-     , (0x79EE5002, 0x79EE505F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */;
+VALUES (0x79EE5002, 0x79EE5003, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5004, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5005, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5006, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5007, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5008, '2021-11-01 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE5009, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE500A, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE500B, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE500C, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE500D, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE500E, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5010, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5011, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5012, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5013, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5014, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5015, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5016, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5017, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5018, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5019, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE501A, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE501B, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE501C, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE501D, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE501E, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE501F, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5020, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5021, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5022, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5024, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5025, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5026, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5027, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5028, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5029, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE502A, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE502B, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE502C, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE502D, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE502E, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE502F, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5030, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5031, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5032, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5033, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5034, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5035, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5036, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5037, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5038, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5039, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE503A, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE503B, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE503C, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE503D, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE503E, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE503F, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5040, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5041, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5042, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5044, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5045, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5046, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5048, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5049, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE504A, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE504B, '2021-11-01 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE504C, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE504D, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE504E, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE504F, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5050, '2021-11-01 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE5051, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5052, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5053, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5054, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5055, '2021-11-01 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5056, '2021-11-01 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE5057, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5058, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5059, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE505A, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE505B, '2021-11-01 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE505C, '2021-11-01 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE505D, '2021-11-01 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE505E, '2021-11-01 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE505F, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5003, 38872, 0x9EE50107, 107.923, 35.9326, 82.0066, 0.327922, 0, 0, -0.944705,  True, '2021-11-01 00:00:00'); /* Blighted Verdant Moarsman */
@@ -480,28 +480,28 @@ VALUES (0x79EE5062, 80367, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE50024 [99.753098 76.054199 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5062, 0x79EE500F, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard (38107) */;
+VALUES (0x79EE5062, 0x79EE500F, '2021-11-01 00:00:00') /* Creeping Blight Banner of the Courtyard (38107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5063, 80369, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Northwatch Spire Blight Gen */
 /* @teleloc 0x9EE50022 [107.232002 41.972801 92.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5063, 0x79EE5023, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire (38113) */;
+VALUES (0x79EE5063, 0x79EE5023, '2021-11-01 00:00:00') /* Creeping Blight Banner of the Spire (38113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5064, 80371, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Northwatch Tower Blight Gen */
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5064, 0x79EE5043, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower (38119) */;
+VALUES (0x79EE5064, 0x79EE5043, '2021-11-01 00:00:00') /* Creeping Blight Banner of the Tower (38119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5065, 80368, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Northwatch Courtyard Celhan Gen */
 /* @teleloc 0x9EE50024 [99.753098 76.054199 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5065, 0x79EE5066, '2019-02-10 00:00:00') /* Celestial Hand Banner of the Courtyard (80409) */;
+VALUES (0x79EE5065, 0x79EE5066, '2021-11-01 00:00:00') /* Celestial Hand Banner of the Courtyard (80409) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5066, 80409, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Celestial Hand Banner of the Courtyard */
@@ -512,7 +512,7 @@ VALUES (0x79EE5067, 80373, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE50024 [99.753098 76.054199 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5067, 0x79EE5068, '2019-02-10 00:00:00') /* Eldrytch Web Banner of the Courtyard (80412) */;
+VALUES (0x79EE5067, 0x79EE5068, '2021-11-01 00:00:00') /* Eldrytch Web Banner of the Courtyard (80412) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5068, 80412, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Eldrytch Web Banner of the Courtyard */
@@ -523,7 +523,7 @@ VALUES (0x79EE5069, 80374, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE50024 [99.753098 76.054199 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5069, 0x79EE506A, '2019-02-10 00:00:00') /* Radiant Blood Banner of the Courtyard (80415) */;
+VALUES (0x79EE5069, 0x79EE506A, '2021-11-01 00:00:00') /* Radiant Blood Banner of the Courtyard (80415) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE506A, 80415, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Radiant Blood Banner of the Courtyard */
@@ -534,7 +534,7 @@ VALUES (0x79EE506B, 80370, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE50022 [107.232002 41.972801 92.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE506B, 0x79EE506C, '2019-02-10 00:00:00') /* Celestial Hand Banner of the Spire (80410) */;
+VALUES (0x79EE506B, 0x79EE506C, '2021-11-01 00:00:00') /* Celestial Hand Banner of the Spire (80410) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE506C, 80410, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Celestial Hand Banner of the Spire */
@@ -545,7 +545,7 @@ VALUES (0x79EE506D, 80375, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE50022 [107.232002 41.972801 92.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE506D, 0x79EE506E, '2019-02-10 00:00:00') /* Eldrytch Web Banner of the Spire (80413) */;
+VALUES (0x79EE506D, 0x79EE506E, '2021-11-01 00:00:00') /* Eldrytch Web Banner of the Spire (80413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE506E, 80413, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Eldrytch Web Banner of the Spire */
@@ -556,7 +556,7 @@ VALUES (0x79EE506F, 80376, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE50022 [107.232002 41.972801 92.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE506F, 0x79EE5070, '2019-02-10 00:00:00') /* Radiant Blood Banner of the Spire (80416) */;
+VALUES (0x79EE506F, 0x79EE5070, '2021-11-01 00:00:00') /* Radiant Blood Banner of the Spire (80416) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5070, 80416, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Radiant Blood Banner of the Spire */
@@ -567,7 +567,7 @@ VALUES (0x79EE5071, 80372, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.707107, 0, 0,
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5071, 0x79EE5072, '2019-02-10 00:00:00') /* Celestial Hand Banner of the Tower (80411) */;
+VALUES (0x79EE5071, 0x79EE5072, '2021-11-01 00:00:00') /* Celestial Hand Banner of the Tower (80411) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5072, 80411, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Celestial Hand Banner of the Tower */
@@ -578,7 +578,7 @@ VALUES (0x79EE5073, 80377, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.707107, 0, 0,
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5073, 0x79EE5074, '2019-02-10 00:00:00') /* Eldrytch Web Banner of the Tower (80414) */;
+VALUES (0x79EE5073, 0x79EE5074, '2021-11-01 00:00:00') /* Eldrytch Web Banner of the Tower (80414) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5074, 80414, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Eldrytch Web Banner of the Tower */
@@ -589,7 +589,7 @@ VALUES (0x79EE5075, 80378, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.707107, 0, 0,
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5075, 0x79EE5076, '2019-02-10 00:00:00') /* Radiant Blood Banner of the Tower (80417) */;
+VALUES (0x79EE5075, 0x79EE5076, '2021-11-01 00:00:00') /* Radiant Blood Banner of the Tower (80417) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5076, 80417, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Radiant Blood Banner of the Tower */
@@ -600,8 +600,8 @@ VALUES (0x79EE5077, 80379, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5077, 0x79EE5078, '2020-08-30 15:39:05') /* Celestial Hand Buffing Array (40534) */
-     , (0x79EE5077, 0x79EE507D, '2020-08-30 15:45:24') /* Celestial Hand Northwatch Castle Black Market Portal (80403) */;
+VALUES (0x79EE5077, 0x79EE5078, '2021-11-01 00:00:00') /* Celestial Hand Buffing Array (40534) */
+     , (0x79EE5077, 0x79EE507D, '2021-11-01 00:00:00') /* Celestial Hand Northwatch Castle Black Market Portal (80403) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5078, 40534, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Celestial Hand Buffing Array */
@@ -612,8 +612,8 @@ VALUES (0x79EE5079, 80380, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5079, 0x79EE507A, '2020-08-30 15:41:28') /* Eldrytch Web Buffing Array (40535) */
-     , (0x79EE5079, 0x79EE507E, '2020-08-30 15:45:40') /* Eldrytch Web Northwatch Castle Black Market Portal (80404) */;
+VALUES (0x79EE5079, 0x79EE507A, '2021-11-01 00:00:00') /* Eldrytch Web Buffing Array (40535) */
+     , (0x79EE5079, 0x79EE507E, '2021-11-01 00:00:00') /* Eldrytch Web Northwatch Castle Black Market Portal (80404) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE507A, 40535, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Eldrytch Web Buffing Array */
@@ -624,8 +624,8 @@ VALUES (0x79EE507B, 80381, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, 
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE507B, 0x79EE507C, '2020-08-30 15:41:53') /* Radiant Blood Buffing Array (40536) */
-     , (0x79EE507B, 0x79EE507F, '2020-08-30 15:45:59') /* Radiant Blood Northwatch Castle Black Market Portal (80405) */;
+VALUES (0x79EE507B, 0x79EE507C, '2021-11-01 00:00:00') /* Radiant Blood Buffing Array (40536) */
+     , (0x79EE507B, 0x79EE507F, '2021-11-01 00:00:00') /* Radiant Blood Northwatch Castle Black Market Portal (80405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE507C, 40536, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Radiant Blood Buffing Array */
@@ -696,9 +696,9 @@ VALUES (0x79EE508C, 80379, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0, Fa
 /* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE508C, 0x79EE508D, '2020-08-30 16:05:45') /* Celestial Hand Banner (38053) */
-     , (0x79EE508C, 0x79EE5092, '2020-08-30 16:15:34') /* Celestial Hand Banner (38053) */
-     , (0x79EE508C, 0x79EE5095, '2020-08-30 16:17:41') /* Celestial Hand Banner (38053) */;
+VALUES (0x79EE508C, 0x79EE508D, '2021-11-01 00:00:00') /* Celestial Hand Banner (38053) */
+     , (0x79EE508C, 0x79EE5092, '2021-11-01 00:00:00') /* Celestial Hand Banner (38053) */
+     , (0x79EE508C, 0x79EE5095, '2021-11-01 00:00:00') /* Celestial Hand Banner (38053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE508D, 38053, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Celestial Hand Banner */
@@ -709,9 +709,9 @@ VALUES (0x79EE508E, 80380, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0, Fa
 /* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE508E, 0x79EE508F, '2020-08-30 16:06:07') /* Eldrytch Web Banner (38054) */
-     , (0x79EE508E, 0x79EE5093, '2020-08-30 16:15:48') /* Eldrytch Web Banner (38054) */
-     , (0x79EE508E, 0x79EE5096, '2020-08-30 16:17:49') /* Eldrytch Web Banner (38054) */;
+VALUES (0x79EE508E, 0x79EE508F, '2021-11-01 00:00:00') /* Eldrytch Web Banner (38054) */
+     , (0x79EE508E, 0x79EE5093, '2021-11-01 00:00:00') /* Eldrytch Web Banner (38054) */
+     , (0x79EE508E, 0x79EE5096, '2021-11-01 00:00:00') /* Eldrytch Web Banner (38054) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE508F, 38054, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Eldrytch Web Banner */
@@ -722,9 +722,9 @@ VALUES (0x79EE5090, 80381, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0, Fa
 /* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5090, 0x79EE5091, '2020-08-30 16:06:22') /* Radiant Blood Banner (38055) */
-     , (0x79EE5090, 0x79EE5094, '2020-08-30 16:15:59') /* Radiant Blood Banner (38055) */
-     , (0x79EE5090, 0x79EE5097, '2020-08-30 16:17:55') /* Radiant Blood Banner (38055) */;
+VALUES (0x79EE5090, 0x79EE5091, '2021-11-01 00:00:00') /* Radiant Blood Banner (38055) */
+     , (0x79EE5090, 0x79EE5094, '2021-11-01 00:00:00') /* Radiant Blood Banner (38055) */
+     , (0x79EE5090, 0x79EE5097, '2021-11-01 00:00:00') /* Radiant Blood Banner (38055) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5091, 38055, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Radiant Blood Banner */
@@ -819,15 +819,15 @@ VALUES (0x79EE50A7,  1154, 0x9EE501AF, 194.219, -3, 10.855, 1, 0, 0, 0, False, '
 /* @teleloc 0x9EE501AF [194.218994 -3.000000 10.855000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE50A7, 0x79EE50A8, '2020-09-13 16:46:01') /* Master Mehkar al-Qalam (80422) */
-     , (0x79EE50A7, 0x79EE50A9, '2020-09-13 16:47:20') /* Purser Narissa Pelton (80425) */
-     , (0x79EE50A7, 0x79EE50AA, '2020-09-13 16:48:24') /* Arqubal the Archmage (80423) */
-     , (0x79EE50A7, 0x79EE50AB, '2020-09-13 16:49:22') /* Ilnorra Denasta (80429) */
-     , (0x79EE50A7, 0x79EE50AC, '2020-09-13 16:50:17') /* Janaris bint Bazheer (80432) */
-     , (0x79EE50A7, 0x79EE50AD, '2020-09-13 16:51:13') /* Chiriko (80434) */
-     , (0x79EE50A7, 0x79EE50AE, '2020-09-13 17:20:37') /* Hanzo (80436) */
-     , (0x79EE50A7, 0x79EE50AF, '2020-09-13 17:43:36') /* Consolata (80427) */
-     , (0x79EE50A7, 0x79EE50B0, '2020-09-13 17:46:21') /* Valerian McGreggor (80439) */;
+VALUES (0x79EE50A7, 0x79EE50A8, '2021-11-01 00:00:00') /* Master Mehkar al-Qalam (80422) */
+     , (0x79EE50A7, 0x79EE50A9, '2021-11-01 00:00:00') /* Purser Narissa Pelton (80425) */
+     , (0x79EE50A7, 0x79EE50AA, '2021-11-01 00:00:00') /* Arqubal the Archmage (80423) */
+     , (0x79EE50A7, 0x79EE50AB, '2021-11-01 00:00:00') /* Ilnorra Denasta (80429) */
+     , (0x79EE50A7, 0x79EE50AC, '2021-11-01 00:00:00') /* Janaris bint Bazheer (80432) */
+     , (0x79EE50A7, 0x79EE50AD, '2021-11-01 00:00:00') /* Chiriko (80434) */
+     , (0x79EE50A7, 0x79EE50AE, '2021-11-01 00:00:00') /* Hanzo (80436) */
+     , (0x79EE50A7, 0x79EE50AF, '2021-11-01 00:00:00') /* Consolata (80427) */
+     , (0x79EE50A7, 0x79EE50B0, '2021-11-01 00:00:00') /* Valerian McGreggor (80439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE50A8, 80422, 0x9EE501AF, 194.219, -3, 10.805, 0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Master Mehkar al-Qalam */
@@ -870,51 +870,51 @@ VALUES (0x79EE50B1, 80379, 0x9EE50107, 111.096, 33.5153, 82.06, 1, 0, 0, 0, Fals
 /* @teleloc 0x9EE50107 [111.096001 33.515301 82.059998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE50B1, 0x79EE50B2, '2020-09-27 18:56:21') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50B3, '2020-09-27 18:56:37') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50B4, '2020-09-27 18:57:49') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50B5, '2020-09-27 18:58:20') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50B6, '2020-09-27 18:59:28') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50B7, '2020-09-27 19:01:22') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50B8, '2020-09-27 19:01:44') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50B9, '2020-09-27 19:01:54') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50BA, '2020-09-27 19:02:19') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50BB, '2020-09-27 19:02:44') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50BC, '2020-09-27 19:02:57') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50BD, '2020-09-27 19:03:49') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50BE, '2020-09-27 19:03:59') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50BF, '2020-09-27 19:04:25') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C0, '2020-09-27 19:05:20') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C1, '2020-09-27 19:06:07') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C2, '2020-09-27 19:06:11') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C3, '2020-09-27 19:06:52') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C4, '2020-09-27 19:06:55') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C5, '2020-09-27 19:07:33') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C6, '2020-09-27 19:07:37') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C7, '2020-09-27 19:07:55') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C8, '2020-09-27 19:08:00') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50C9, '2020-09-27 19:09:05') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50CA, '2020-09-27 19:09:11') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50CB, '2020-09-27 19:13:22') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50CC, '2020-09-27 19:13:38') /* Master Soldier (38845) */
-     , (0x79EE50B1, 0x79EE50CD, '2020-09-27 19:15:18') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50CE, '2020-09-27 19:15:40') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50CF, '2020-09-27 19:16:00') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50D0, '2020-09-27 19:17:08') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50D1, '2020-09-27 19:18:29') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50D2, '2020-09-27 19:18:36') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50D3, '2020-09-27 19:18:47') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50D4, '2020-09-27 19:19:35') /* Master Archer (38839) */
-     , (0x79EE50B1, 0x79EE50D5, '2020-09-27 19:21:31') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50D6, '2020-09-27 19:22:46') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50D7, '2020-09-27 19:23:02') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50D8, '2020-09-27 19:24:30') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50D9, '2020-09-27 19:24:42') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50DA, '2020-09-27 19:25:20') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50DB, '2020-09-27 19:25:34') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50DC, '2020-09-27 19:25:45') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50DD, '2020-09-27 19:26:43') /* Master Mage (38842) */
-     , (0x79EE50B1, 0x79EE50DE, '2020-09-27 19:26:54') /* Master Mage (38842) */;
+VALUES (0x79EE50B1, 0x79EE50B2, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50B3, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50B4, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50B5, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50B6, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50B7, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50B8, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50B9, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50BA, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50BB, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50BC, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50BD, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50BE, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50BF, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C0, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C1, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C2, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C3, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C4, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C5, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C6, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C7, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C8, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50C9, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50CA, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50CB, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50CC, '2021-11-01 00:00:00') /* Master Soldier (38845) */
+     , (0x79EE50B1, 0x79EE50CD, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50CE, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50CF, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50D0, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50D1, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50D2, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50D3, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50D4, '2021-11-01 00:00:00') /* Master Archer (38839) */
+     , (0x79EE50B1, 0x79EE50D5, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50D6, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50D7, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50D8, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50D9, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50DA, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50DB, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50DC, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50DD, '2021-11-01 00:00:00') /* Master Mage (38842) */
+     , (0x79EE50B1, 0x79EE50DE, '2021-11-01 00:00:00') /* Master Mage (38842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE50B2, 38845, 0x9EE50107, 108.144, 35.8462, 82.005, -0.327377, 0, 0, 0.944894,  True, '2021-11-01 00:00:00'); /* Master Soldier */
@@ -1281,51 +1281,51 @@ VALUES (0x79EE510C, 80380, 0x9EE50107, 111.096, 33.5153, 82.06, 1, 0, 0, 0, Fals
 /* @teleloc 0x9EE50107 [111.096001 33.515301 82.059998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE510C, 0x79EE50DF, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E0, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E1, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E2, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E3, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E4, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E5, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E6, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E7, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E8, '2020-09-28 01:09:54') /* Master Mage (38843) */
-     , (0x79EE510C, 0x79EE50E9, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50EA, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50EB, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50EC, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50ED, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50EE, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50EF, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50F0, '2020-09-28 01:09:54') /* Master Archer (38840) */
-     , (0x79EE510C, 0x79EE50F1, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F2, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F3, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F4, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F5, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F6, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F7, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F8, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50F9, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50FA, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50FB, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50FC, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50FD, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50FE, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE50FF, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5100, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5101, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5102, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5103, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5104, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5105, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5106, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5107, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5108, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE5109, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE510A, '2020-09-28 01:09:54') /* Master Soldier (38846) */
-     , (0x79EE510C, 0x79EE510B, '2020-09-28 01:09:54') /* Master Soldier (38846) */;
+VALUES (0x79EE510C, 0x79EE50DF, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E0, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E1, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E2, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E3, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E4, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E5, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E6, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E7, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E8, '2021-11-01 00:00:00') /* Master Mage (38843) */
+     , (0x79EE510C, 0x79EE50E9, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50EA, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50EB, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50EC, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50ED, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50EE, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50EF, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50F0, '2021-11-01 00:00:00') /* Master Archer (38840) */
+     , (0x79EE510C, 0x79EE50F1, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F2, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F3, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F4, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F5, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F6, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F7, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F8, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50F9, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50FA, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50FB, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50FC, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50FD, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50FE, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE50FF, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5100, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5101, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5102, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5103, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5104, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5105, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5106, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5107, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5108, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE5109, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE510A, '2021-11-01 00:00:00') /* Master Soldier (38846) */
+     , (0x79EE510C, 0x79EE510B, '2021-11-01 00:00:00') /* Master Soldier (38846) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE510D, 38844, 0x9EE50023, 110.038, 69.0554, 97.3362, 0.018526, 0, 0, 0.999828,  True, '2021-11-01 00:00:00'); /* Master Mage */
@@ -1512,58 +1512,58 @@ VALUES (0x79EE513A, 80381, 0x9EE50107, 111.096, 33.5153, 82.06, 1, 0, 0, 0, Fals
 /* @teleloc 0x9EE50107 [111.096001 33.515301 82.059998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE513A, 0x79EE510D, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE510E, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE510F, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5110, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5111, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5112, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5113, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5114, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5115, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5116, '2020-09-28 01:10:55') /* Master Mage (38844) */
-     , (0x79EE513A, 0x79EE5117, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE5118, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE5119, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE511A, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE511B, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE511C, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE511D, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE511E, '2020-09-28 01:10:55') /* Master Archer (38841) */
-     , (0x79EE513A, 0x79EE511F, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5120, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5121, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5122, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5123, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5124, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5125, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5126, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5127, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5128, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5129, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE512A, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE512B, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE512C, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE512D, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE512E, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE512F, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5130, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5131, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5132, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5133, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5134, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5135, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5136, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5137, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5138, '2020-09-28 01:10:55') /* Master Soldier (38847) */
-     , (0x79EE513A, 0x79EE5139, '2020-09-28 01:10:55') /* Master Soldier (38847) */;
+VALUES (0x79EE513A, 0x79EE510D, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE510E, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE510F, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5110, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5111, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5112, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5113, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5114, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5115, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5116, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x79EE513A, 0x79EE5117, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE5118, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE5119, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE511A, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE511B, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE511C, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE511D, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE511E, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x79EE513A, 0x79EE511F, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5120, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5121, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5122, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5123, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5124, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5125, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5126, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5127, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5128, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5129, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE512A, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE512B, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE512C, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE512D, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE512E, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE512F, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5130, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5131, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5132, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5133, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5134, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5135, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5136, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5137, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5138, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x79EE513A, 0x79EE5139, '2021-11-01 00:00:00') /* Master Soldier (38847) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE56A5,  1154, 0x9EE50002, 4.39872, 46.8564, 74, -0.016407, 0, 0, -0.999865, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x9EE50002 [4.398720 46.856400 74.000000] -0.016407 0.000000 0.000000 -0.999865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE56A5, 0x79EE56A6, '2020-01-30 00:00:00') /* Exploration Marker (39773) */;
+VALUES (0x79EE56A5, 0x79EE56A6, '2021-11-01 00:00:00') /* Exploration Marker (39773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE56A6, 39773, 0x9EE50002, 4.39872, 46.8564, 74, -0.016407, 0, 0, -0.999865,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

@@ -1,9 +1,6 @@
 Generation:
     - Motion: Sleeping
     
-HeartBeat:
-    - Motion: Sleeping
-
 Use:
     - InqQuest: DeconstructionCompleted_0213
         QuestSuccess:

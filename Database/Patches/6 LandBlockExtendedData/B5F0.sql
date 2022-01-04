@@ -125,102 +125,102 @@ VALUES (0x7B5F006A,  7924, 0xB5F0000A, 37.5459, 27.8719, 22.8107, 0.92388, 0, 0,
 /* @teleloc 0xB5F0000A [37.545898 27.871901 22.810699] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5F006A, 0x7B5F006D, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
-     , (0x7B5F006A, 0x7B5F006E, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
-     , (0x7B5F006A, 0x7B5F006F, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
-     , (0x7B5F006A, 0x7B5F0070, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
-     , (0x7B5F006A, 0x7B5F0072, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F0073, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
-     , (0x7B5F006A, 0x7B5F0074, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
-     , (0x7B5F006A, 0x7B5F0075, '2019-02-10 00:00:00') /* Incendiary Knight (31827) */
-     , (0x7B5F006A, 0x7B5F0076, '2019-02-10 00:00:00') /* Incendiary Knight (31827) */
-     , (0x7B5F006A, 0x7B5F0077, '2019-02-10 00:00:00') /* Incendiary Knight (31827) */
-     , (0x7B5F006A, 0x7B5F0078, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
-     , (0x7B5F006A, 0x7B5F0079, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F007A, '2019-02-10 00:00:00') /* Bound Pyre Champion (40924) */
-     , (0x7B5F006A, 0x7B5F007B, '2019-02-10 00:00:00') /* Bound Pyre Champion (40924) */
-     , (0x7B5F006A, 0x7B5F007C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
-     , (0x7B5F006A, 0x7B5F007D, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
-     , (0x7B5F006A, 0x7B5F007E, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F007F, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F0080, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
-     , (0x7B5F006A, 0x7B5F0081, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F0082, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F0083, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F0084, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F0085, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F0086, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F0087, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F0088, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F0089, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F008A, '2019-02-10 00:00:00') /* Pyre Skeleton (37459) */
-     , (0x7B5F006A, 0x7B5F008B, '2019-02-10 00:00:00') /* Pyre Skeleton (37459) */
-     , (0x7B5F006A, 0x7B5F008C, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F008D, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
-     , (0x7B5F006A, 0x7B5F008E, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F008F, '2019-02-10 00:00:00') /* Pyre Skeleton (37459) */
-     , (0x7B5F006A, 0x7B5F0090, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F0091, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F0092, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F0093, '2019-02-10 00:00:00') /* Pyre Champion (37457) */
-     , (0x7B5F006A, 0x7B5F0094, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F0095, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F0096, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F0097, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F0098, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F0099, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F009A, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F009B, '2019-02-10 00:00:00') /* Wight Captain (37460) */
-     , (0x7B5F006A, 0x7B5F009C, '2019-02-10 00:00:00') /* Wight Captain (37460) */
-     , (0x7B5F006A, 0x7B5F009D, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F009E, '2019-02-10 00:00:00') /* Wight Blade Sorcerer (37461) */
-     , (0x7B5F006A, 0x7B5F009F, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F00A0, '2019-02-10 00:00:00') /* Wight Blade Sorcerer (37461) */
-     , (0x7B5F006A, 0x7B5F00A1, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
-     , (0x7B5F006A, 0x7B5F00A2, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F00A3, '2019-02-10 00:00:00') /* Wight Blade Sorcerer (37461) */
-     , (0x7B5F006A, 0x7B5F00A4, '2019-02-10 00:00:00') /* Wight Blade Sorcerer (37461) */
-     , (0x7B5F006A, 0x7B5F00A5, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
-     , (0x7B5F006A, 0x7B5F00A6, '2019-02-10 00:00:00') /* Bound Pyre Champion (40924) */
-     , (0x7B5F006A, 0x7B5F00A7, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F00A8, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
-     , (0x7B5F006A, 0x7B5F00A9, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F00AA, '2019-02-10 00:00:00') /* Pyre Champion (37457) */
-     , (0x7B5F006A, 0x7B5F00AB, '2019-02-10 00:00:00') /* Pyre Skeleton (37459) */
-     , (0x7B5F006A, 0x7B5F00AC, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
-     , (0x7B5F006A, 0x7B5F00AD, '2019-02-10 00:00:00') /* Bound Pyre Champion (40924) */
-     , (0x7B5F006A, 0x7B5F00B1, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F00B2, '2019-02-10 00:00:00') /* Bound Pyre Champion (40924) */
-     , (0x7B5F006A, 0x7B5F00B4, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F00C0, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00C1, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00CB, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
-     , (0x7B5F006A, 0x7B5F00CC, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
-     , (0x7B5F006A, 0x7B5F00CD, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
-     , (0x7B5F006A, 0x7B5F00CE, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
-     , (0x7B5F006A, 0x7B5F00CF, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F00D0, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F00D1, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F00D2, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x7B5F006A, 0x7B5F00D3, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
-     , (0x7B5F006A, 0x7B5F00D4, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
-     , (0x7B5F006A, 0x7B5F00D5, '2019-02-10 00:00:00') /* Wight (37462) */
-     , (0x7B5F006A, 0x7B5F00D6, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
-     , (0x7B5F006A, 0x7B5F00D7, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00D8, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00D9, '2019-02-10 00:00:00') /* Bound Pyre Champion (40924) */
-     , (0x7B5F006A, 0x7B5F00DA, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00DB, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00DC, '2019-02-10 00:00:00') /* Bound Pyre Champion (40924) */
-     , (0x7B5F006A, 0x7B5F00DD, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00DE, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00DF, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F00E0, '2019-02-10 00:00:00') /* Bound Light Falatacot (40925) */
-     , (0x7B5F006A, 0x7B5F00E1, '2019-02-10 00:00:00') /* Revenant Lord (40927) */
-     , (0x7B5F006A, 0x7B5F00F6, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F00F7, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F00F8, '2019-02-10 00:00:00') /* Pyre Skeleton (40926) */
-     , (0x7B5F006A, 0x7B5F0202, '2021-06-11 08:06:10') /* Pyre Skeleton (40926) */;
+VALUES (0x7B5F006A, 0x7B5F006D, '2021-11-07 08:12:46') /* Lich Oppressor (22905) */
+     , (0x7B5F006A, 0x7B5F006E, '2021-11-07 08:12:46') /* Dark Guardian (22904) */
+     , (0x7B5F006A, 0x7B5F006F, '2021-11-07 08:12:46') /* Lich Oppressor (22905) */
+     , (0x7B5F006A, 0x7B5F0070, '2021-11-07 08:12:46') /* Dark Guardian (22904) */
+     , (0x7B5F006A, 0x7B5F0072, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F0073, '2021-11-07 08:12:46') /* Plasma Golem (7098) */
+     , (0x7B5F006A, 0x7B5F0074, '2021-11-07 08:12:46') /* Plasma Golem (7098) */
+     , (0x7B5F006A, 0x7B5F0075, '2021-11-07 08:12:46') /* Incendiary Knight (31827) */
+     , (0x7B5F006A, 0x7B5F0076, '2021-11-07 08:12:46') /* Incendiary Knight (31827) */
+     , (0x7B5F006A, 0x7B5F0077, '2021-11-07 08:12:46') /* Incendiary Knight (31827) */
+     , (0x7B5F006A, 0x7B5F0078, '2021-11-07 08:12:46') /* Ashen Bones (7780) */
+     , (0x7B5F006A, 0x7B5F0079, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F007A, '2021-11-07 08:12:46') /* Bound Pyre Champion (40924) */
+     , (0x7B5F006A, 0x7B5F007B, '2021-11-07 08:12:46') /* Bound Pyre Champion (40924) */
+     , (0x7B5F006A, 0x7B5F007C, '2021-11-07 08:12:46') /* Ashen Bones (7780) */
+     , (0x7B5F006A, 0x7B5F007D, '2021-11-07 08:12:46') /* Ashen Bones (7780) */
+     , (0x7B5F006A, 0x7B5F007E, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F007F, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F0080, '2021-11-07 08:12:46') /* Ashen Bones (7780) */
+     , (0x7B5F006A, 0x7B5F0081, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F0082, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F0083, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F0084, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F0085, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F0086, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F0087, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F0088, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F0089, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F008A, '2021-11-07 08:12:46') /* Pyre Skeleton (37459) */
+     , (0x7B5F006A, 0x7B5F008B, '2021-11-07 08:12:46') /* Pyre Skeleton (37459) */
+     , (0x7B5F006A, 0x7B5F008C, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F008D, '2021-11-07 08:12:46') /* Corrupted Maiden (37453) */
+     , (0x7B5F006A, 0x7B5F008E, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F008F, '2021-11-07 08:12:46') /* Pyre Skeleton (37459) */
+     , (0x7B5F006A, 0x7B5F0090, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F0091, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F0092, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F0093, '2021-11-07 08:12:46') /* Pyre Champion (37457) */
+     , (0x7B5F006A, 0x7B5F0094, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F0095, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F0096, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F0097, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F0098, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F0099, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F009A, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F009B, '2021-11-07 08:12:46') /* Wight Captain (37460) */
+     , (0x7B5F006A, 0x7B5F009C, '2021-11-07 08:12:46') /* Wight Captain (37460) */
+     , (0x7B5F006A, 0x7B5F009D, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F009E, '2021-11-07 08:12:46') /* Wight Blade Sorcerer (37461) */
+     , (0x7B5F006A, 0x7B5F009F, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F00A0, '2021-11-07 08:12:46') /* Wight Blade Sorcerer (37461) */
+     , (0x7B5F006A, 0x7B5F00A1, '2021-11-07 08:12:46') /* Corrupted Dread (37452) */
+     , (0x7B5F006A, 0x7B5F00A2, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F00A3, '2021-11-07 08:12:46') /* Wight Blade Sorcerer (37461) */
+     , (0x7B5F006A, 0x7B5F00A4, '2021-11-07 08:12:46') /* Wight Blade Sorcerer (37461) */
+     , (0x7B5F006A, 0x7B5F00A5, '2021-11-07 08:12:46') /* Corrupted Dread (37452) */
+     , (0x7B5F006A, 0x7B5F00A6, '2021-11-07 08:12:46') /* Bound Pyre Champion (40924) */
+     , (0x7B5F006A, 0x7B5F00A7, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F00A8, '2021-11-07 08:12:46') /* Corrupted Maiden (37453) */
+     , (0x7B5F006A, 0x7B5F00A9, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F00AA, '2021-11-07 08:12:46') /* Pyre Champion (37457) */
+     , (0x7B5F006A, 0x7B5F00AB, '2021-11-07 08:12:46') /* Pyre Skeleton (37459) */
+     , (0x7B5F006A, 0x7B5F00AC, '2021-11-07 08:12:46') /* Dark Guardian (22904) */
+     , (0x7B5F006A, 0x7B5F00AD, '2021-11-07 08:12:46') /* Bound Pyre Champion (40924) */
+     , (0x7B5F006A, 0x7B5F00B1, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F00B2, '2021-11-07 08:12:46') /* Bound Pyre Champion (40924) */
+     , (0x7B5F006A, 0x7B5F00B4, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F00C0, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00C1, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00CB, '2021-11-07 08:12:46') /* Lich Oppressor (22905) */
+     , (0x7B5F006A, 0x7B5F00CC, '2021-11-07 08:12:46') /* Dark Guardian (22904) */
+     , (0x7B5F006A, 0x7B5F00CD, '2021-11-07 08:12:46') /* Lich Oppressor (22905) */
+     , (0x7B5F006A, 0x7B5F00CE, '2021-11-07 08:12:46') /* Dark Guardian (22904) */
+     , (0x7B5F006A, 0x7B5F00CF, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F00D0, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F00D1, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F00D2, '2021-11-07 08:12:46') /* Pyre Minion (37458) */
+     , (0x7B5F006A, 0x7B5F00D3, '2021-11-07 08:12:46') /* Corrupted Maiden (37453) */
+     , (0x7B5F006A, 0x7B5F00D4, '2021-11-07 08:12:46') /* Corrupted Dread (37452) */
+     , (0x7B5F006A, 0x7B5F00D5, '2021-11-07 08:12:46') /* Wight (37462) */
+     , (0x7B5F006A, 0x7B5F00D6, '2021-11-07 08:12:46') /* Dark Guardian (22904) */
+     , (0x7B5F006A, 0x7B5F00D7, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00D8, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00D9, '2021-11-07 08:12:46') /* Bound Pyre Champion (40924) */
+     , (0x7B5F006A, 0x7B5F00DA, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00DB, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00DC, '2021-11-07 08:12:46') /* Bound Pyre Champion (40924) */
+     , (0x7B5F006A, 0x7B5F00DD, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00DE, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00DF, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F00E0, '2021-11-07 08:12:46') /* Bound Light Falatacot (40925) */
+     , (0x7B5F006A, 0x7B5F00E1, '2021-11-07 08:12:46') /* Revenant Lord (40927) */
+     , (0x7B5F006A, 0x7B5F00F6, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F00F7, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F00F8, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */
+     , (0x7B5F006A, 0x7B5F0202, '2021-11-07 08:12:46') /* Pyre Skeleton (40926) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5F006D, 22905, 0xB5F003AC, 99.2771, -107.808, -21.1925, -0.466483, 0, 0, -0.88453,  True, '2021-11-07 08:12:46'); /* Lich Oppressor */

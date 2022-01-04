@@ -61,8 +61,8 @@ VALUES (0x73F32017,  7923, 0x3F320104, 54.847, 41.386, 8.405, 0.379303, 0, 0, -0
 /* @teleloc 0x3F320104 [54.847000 41.386002 8.405000] 0.379303 0.000000 0.000000 -0.925273 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F32017, 0x73F3200F, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x73F32017, 0x73F32023, '2005-02-09 10:00:00') /* Jojii Shrine (24263) */;
+VALUES (0x73F32017, 0x73F3200F, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x73F32017, 0x73F32023, '2021-11-01 00:00:00') /* Jojii Shrine (24263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F32018, 24217, 0x3F320113, 58.4752, 30.4758, 0.005, -0.999647, 0, 0, -0.026561, False, '2021-11-01 00:00:00'); /* Goku Bai-Akane the Barkeep */

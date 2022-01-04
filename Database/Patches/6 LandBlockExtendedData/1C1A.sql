@@ -9,26 +9,26 @@ VALUES (0x71C1A003,  7924, 0x1C1A0010, 44.6377, 174.337, 25.1785, 0.997462, 0, 0
 /* @teleloc 0x1C1A0010 [44.637699 174.337006 25.178499] 0.997462 0.000000 0.000000 0.071199 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C1A003, 0x71C1A004, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71C1A003, 0x71C1A005, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A006, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A007, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71C1A003, 0x71C1A008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A009, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A00A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A00B, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71C1A003, 0x71C1A00C, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A00D, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71C1A003, 0x71C1A00E, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71C1A003, 0x71C1A00F, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71C1A003, 0x71C1A010, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71C1A003, 0x71C1A011, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A012, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A013, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A014, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A015, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71C1A003, 0x71C1A016, '2019-02-10 00:00:00') /* Withered Raider Prefect (31517) */
-     , (0x71C1A003, 0x71C1A017, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */;
+VALUES (0x71C1A003, 0x71C1A004, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71C1A003, 0x71C1A005, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A006, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A007, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71C1A003, 0x71C1A008, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A009, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A00A, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A00B, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71C1A003, 0x71C1A00C, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A00D, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71C1A003, 0x71C1A00E, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71C1A003, 0x71C1A00F, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71C1A003, 0x71C1A010, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71C1A003, 0x71C1A011, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A012, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A013, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A014, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A015, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71C1A003, 0x71C1A016, '2021-11-08 06:01:47') /* Withered Raider Prefect (31517) */
+     , (0x71C1A003, 0x71C1A017, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C1A004, 35833, 0x1C1A0010, 44.6377, 174.337, 25.1785, 0.997462, 0, 0, 0.071199,  True, '2021-11-08 06:01:47'); /* Withered Raider Prefect */

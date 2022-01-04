@@ -41,7 +41,7 @@ VALUES (0x7DE51010,  7923, 0xDE510000, 110.997, 81.0953, 29.205, -0.734135, 0, 0
 /* @teleloc 0xDE510000 [110.997002 81.095299 29.205000] -0.734135 0.000000 0.000000 0.679004 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE51010, 0x7DE51011, '2005-02-09 10:00:00') /* Sentry (12725) */;
+VALUES (0x7DE51010, 0x7DE51011, '2021-11-01 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE51011, 12725, 0xDE510000, 109.504, 81.1371, 29.205, 0.81105, 0, 0, -0.584977,  True, '2021-11-01 00:00:00'); /* Sentry */

@@ -5,22 +5,22 @@ VALUES (0x73FE7000,  7924, 0x3FE70014, 49.4839, 77.7695, 160.005, 0.704003, 0, 0
 /* @teleloc 0x3FE70014 [49.483898 77.769501 160.005005] 0.704003 0.000000 0.000000 0.710197 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FE7000, 0x73FE7002, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE7003, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE7004, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE7005, '2019-02-11 00:00:00') /* Viamontian Mage (29304) */
-     , (0x73FE7000, 0x73FE7006, '2019-02-11 00:00:00') /* Viamontian Mage (29304) */
-     , (0x73FE7000, 0x73FE7007, '2019-02-11 00:00:00') /* Viamontian Mage (29304) */
-     , (0x73FE7000, 0x73FE7008, '2019-02-11 00:00:00') /* Viamontian Mage (29304) */
-     , (0x73FE7000, 0x73FE7009, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE700A, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE700B, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE700C, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE700D, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE700E, '2019-02-11 00:00:00') /* Copper Legion Castellan (30549) */
-     , (0x73FE7000, 0x73FE700F, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE7010, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */
-     , (0x73FE7000, 0x73FE7011, '2019-02-11 00:00:00') /* Copper Legion Castle Guard (29408) */;
+VALUES (0x73FE7000, 0x73FE7002, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE7003, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE7004, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE7005, '2021-11-01 00:00:00') /* Viamontian Mage (29304) */
+     , (0x73FE7000, 0x73FE7006, '2021-11-01 00:00:00') /* Viamontian Mage (29304) */
+     , (0x73FE7000, 0x73FE7007, '2021-11-01 00:00:00') /* Viamontian Mage (29304) */
+     , (0x73FE7000, 0x73FE7008, '2021-11-01 00:00:00') /* Viamontian Mage (29304) */
+     , (0x73FE7000, 0x73FE7009, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE700A, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE700B, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE700C, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE700D, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE700E, '2021-11-01 00:00:00') /* Copper Legion Castellan (30549) */
+     , (0x73FE7000, 0x73FE700F, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE7010, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */
+     , (0x73FE7000, 0x73FE7011, '2021-11-01 00:00:00') /* Copper Legion Castle Guard (29408) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FE7001,  1032, 0x3FE7000B, 36.7402, 61.6827, 160.005, 0.703802, 0, 0, 0.710396, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Zaikhal */

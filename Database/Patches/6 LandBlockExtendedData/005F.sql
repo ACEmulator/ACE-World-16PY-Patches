@@ -41,9 +41,9 @@ VALUES (0x7005F009,  7932, 0x005F0221, 41.2825, -148.08, 0.055, -0.999999, 0, 0,
 /* @teleloc 0x005F0221 [41.282501 -148.080002 0.055000] -0.999999 0.000000 0.000000 0.001646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005F009, 0x7005F00A, '2021-03-02 12:14:17') /* Cow (14) */
-     , (0x7005F009, 0x7005F00B, '2021-03-02 12:14:58') /* Cow (14) */
-     , (0x7005F009, 0x7005F00C, '2021-03-02 12:15:04') /* Cow (14) */;
+VALUES (0x7005F009, 0x7005F00A, '2021-11-01 00:00:00') /* Cow (14) */
+     , (0x7005F009, 0x7005F00B, '2021-11-01 00:00:00') /* Cow (14) */
+     , (0x7005F009, 0x7005F00C, '2021-11-01 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F00A,    14, 0x005F0220, 41.1901, -140.741, 0.0057, 0.002558, 0, 0, -0.999997,  True, '2021-11-01 00:00:00'); /* Cow */
@@ -62,9 +62,9 @@ VALUES (0x7005F00D,  7932, 0x005F017B, 165.001, -79.916, -11.945, -0.711189, 0, 
 /* @teleloc 0x005F017B [165.001007 -79.916000 -11.945000] -0.711189 0.000000 0.000000 -0.703001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005F00D, 0x7005F00E, '2021-03-02 12:25:40') /* Arrogant Penguin (28663) */
-     , (0x7005F00D, 0x7005F00F, '2021-03-02 12:26:22') /* Arrogant Penguin (28663) */
-     , (0x7005F00D, 0x7005F010, '2021-03-02 12:26:52') /* Arrogant Penguin (28663) */;
+VALUES (0x7005F00D, 0x7005F00E, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x7005F00D, 0x7005F00F, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x7005F00D, 0x7005F010, '2021-11-01 00:00:00') /* Arrogant Penguin (28663) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F00E, 28663, 0x005F017B, 167.117, -78.9633, -11.9982, -0.711189, 0, 0, -0.703001,  True, '2021-11-01 00:00:00'); /* Arrogant Penguin */
@@ -83,8 +83,8 @@ VALUES (0x7005F011,  7932, 0x005F01F2, 19.9681, -123.716, 0.055, -0.9999, 0, 0, 
 /* @teleloc 0x005F01F2 [19.968100 -123.716003 0.055000] -0.999900 0.000000 0.000000 0.014136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005F011, 0x7005F012, '2021-03-03 12:54:43') /* Pink Nanjou Shou-jen (80087) */
-     , (0x7005F011, 0x7005F013, '2021-03-03 12:55:20') /* Pink Nanjou Shou-jen (80087) */;
+VALUES (0x7005F011, 0x7005F012, '2021-11-01 00:00:00') /* Pink Nanjou Shou-jen (80087) */
+     , (0x7005F011, 0x7005F013, '2021-11-01 00:00:00') /* Pink Nanjou Shou-jen (80087) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F012, 80087, 0x005F01F1, 17.2463, -116.904, 0.005, 0.030835, 0, 0, 0.999524,  True, '2021-11-01 00:00:00'); /* Pink Nanjou Shou-jen */
@@ -127,9 +127,9 @@ VALUES (0x7005F01B,  7932, 0x005F0192, 221.872, 0.348109, -11.945, -0.694261, 0,
 /* @teleloc 0x005F0192 [221.871994 0.348109 -11.945000] -0.694261 0.000000 0.000000 -0.719723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005F01B, 0x7005F01C, '2021-03-03 13:02:45') /* L'il Pat of Butter (80085) */
-     , (0x7005F01B, 0x7005F01D, '2021-03-03 13:02:58') /* Pancake Golem (80080) */
-     , (0x7005F01B, 0x7005F01E, '2021-03-03 13:03:09') /* Syrup Elemental (80081) */;
+VALUES (0x7005F01B, 0x7005F01C, '2021-11-01 00:00:00') /* L'il Pat of Butter (80085) */
+     , (0x7005F01B, 0x7005F01D, '2021-11-01 00:00:00') /* Pancake Golem (80080) */
+     , (0x7005F01B, 0x7005F01E, '2021-11-01 00:00:00') /* Syrup Elemental (80081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F01C, 80085, 0x005F0192, 217.948, 3.25566, -11.973, -0.382031, 0, 0, 0.92415,  True, '2021-11-01 00:00:00'); /* L'il Pat of Butter */
@@ -148,9 +148,9 @@ VALUES (0x7005F01F,  7932, 0x005F018D, 202.83, -15.1364, -11.945, -0.717081, 0, 
 /* @teleloc 0x005F018D [202.830002 -15.136400 -11.945000] -0.717081 0.000000 0.000000 -0.696990 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005F01F, 0x7005F020, '2021-03-03 13:04:17') /* Sentient Oven (80086) */
-     , (0x7005F01F, 0x7005F021, '2021-03-03 13:04:23') /* Sentient Oven (80086) */
-     , (0x7005F01F, 0x7005F022, '2021-03-03 13:04:26') /* Sentient Oven (80086) */;
+VALUES (0x7005F01F, 0x7005F020, '2021-11-01 00:00:00') /* Sentient Oven (80086) */
+     , (0x7005F01F, 0x7005F021, '2021-11-01 00:00:00') /* Sentient Oven (80086) */
+     , (0x7005F01F, 0x7005F022, '2021-11-01 00:00:00') /* Sentient Oven (80086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F020, 80086, 0x005F018D, 199.149, -17.5465, -11.973, -0.73428, 0, 0, -0.678847,  True, '2021-11-01 00:00:00'); /* Sentient Oven */
@@ -169,10 +169,10 @@ VALUES (0x7005F023,  7932, 0x005F0180, 179.503, -47.1075, -11.945, 0.001825, 0, 
 /* @teleloc 0x005F0180 [179.503006 -47.107498 -11.945000] 0.001825 0.000000 0.000000 -0.999998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005F023, 0x7005F024, '2021-03-03 13:05:34') /* Pink Nanjou Shou-jen (80087) */
-     , (0x7005F023, 0x7005F025, '2021-03-03 13:05:51') /* Pink Nanjou Shou-jen (80087) */
-     , (0x7005F023, 0x7005F026, '2021-03-03 13:06:09') /* Pink Nanjou Shou-jen (80087) */
-     , (0x7005F023, 0x7005F027, '2021-03-03 13:06:16') /* Pink Nanjou Shou-jen (80087) */;
+VALUES (0x7005F023, 0x7005F024, '2021-11-01 00:00:00') /* Pink Nanjou Shou-jen (80087) */
+     , (0x7005F023, 0x7005F025, '2021-11-01 00:00:00') /* Pink Nanjou Shou-jen (80087) */
+     , (0x7005F023, 0x7005F026, '2021-11-01 00:00:00') /* Pink Nanjou Shou-jen (80087) */
+     , (0x7005F023, 0x7005F027, '2021-11-01 00:00:00') /* Pink Nanjou Shou-jen (80087) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F024, 80087, 0x005F018B, 187.63, -58.4059, -11.995, -0.999712, 0, 0, 0.024003,  True, '2021-11-01 00:00:00'); /* Pink Nanjou Shou-jen */
@@ -299,25 +299,25 @@ VALUES (0x7005F042,  7932, 0x005F016B, 137.939, -29.6182, -11.945, -0.448601, 0,
 /* @teleloc 0x005F016B [137.938995 -29.618200 -11.945000] -0.448601 0.000000 0.000000 0.893732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005F042, 0x7005F047, '2021-03-04 13:06:25') /* Pon Mi (80093) */
-     , (0x7005F042, 0x7005F048, '2021-03-04 13:07:23') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F049, '2021-03-04 13:07:36') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F04A, '2021-03-04 13:08:34') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F04B, '2021-03-04 13:08:45') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F04C, '2021-03-04 13:08:55') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F04D, '2021-03-04 13:09:27') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F04F, '2021-03-04 13:10:52') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F050, '2021-03-04 13:11:01') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F051, '2021-03-04 13:11:10') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F052, '2021-03-04 13:11:17') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F053, '2021-03-04 13:11:44') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F054, '2021-03-04 13:12:01') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F056, '2021-03-04 13:13:07') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F057, '2021-03-04 13:13:40') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F058, '2021-03-04 13:13:48') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F059, '2021-03-04 13:14:04') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F05A, '2021-03-04 13:40:50') /* Corpse of Pon Mi (80094) */
-     , (0x7005F042, 0x7005F05B, '2021-03-04 13:41:38') /* Corpse of Pon Mi (80094) */;
+VALUES (0x7005F042, 0x7005F047, '2021-11-01 00:00:00') /* Pon Mi (80093) */
+     , (0x7005F042, 0x7005F048, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F049, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F04A, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F04B, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F04C, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F04D, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F04F, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F050, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F051, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F052, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F053, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F054, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F056, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F057, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F058, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F059, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F05A, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */
+     , (0x7005F042, 0x7005F05B, '2021-11-01 00:00:00') /* Corpse of Pon Mi (80094) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F043, 80089, 0x005F0216, 43.1135, -97.2422, 1.554, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Empty Plate */

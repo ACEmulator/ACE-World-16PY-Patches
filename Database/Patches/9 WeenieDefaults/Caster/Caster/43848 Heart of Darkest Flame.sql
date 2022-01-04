@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43848;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43848, 'ace43848-heartofdarkestflame', 35, '2021-11-17 16:56:08') /* Caster */;
+VALUES (43848, 'ace43848-heartofdarkestflame', 35, '2021-12-14 05:15:31') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43848,   1,      32768) /* ItemType - Caster */
@@ -51,7 +51,7 @@ VALUES (43848,   5,   -0.05) /* ManaRate */
      , (43848,  39,       1) /* DefaultScale */
      , (43848, 138,    1.25) /* SlayerDamageBonus */
      , (43848, 144,    0.18) /* ManaConversionMod */
-     , (43848, 147,    0.15) /* CriticalFrequency */
+     , (43848, 147,     0.4) /* CriticalFrequency */
      , (43848, 152,    1.22) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

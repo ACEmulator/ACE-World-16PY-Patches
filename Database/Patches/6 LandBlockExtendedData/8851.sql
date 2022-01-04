@@ -5,16 +5,16 @@ VALUES (0x78851001,  7924, 0x8851011A, 83.9337, 81.6979, 0.406, 1, 0, 0, 0, Fals
 /* @teleloc 0x8851011A [83.933701 81.697899 0.406000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78851001, 0x78851002, '2019-03-23 02:20:17') /* Bronze Gauntlet Guardian (41582) */
-     , (0x78851001, 0x78851003, '2019-03-23 02:20:17') /* Iron Blade Guardian (41580) */
-     , (0x78851001, 0x78851004, '2019-03-23 02:20:17') /* Copper Cog Guardian (41577) */
-     , (0x78851001, 0x78851005, '2019-03-23 02:20:17') /* Gold Gear Guardian (41578) */
-     , (0x78851001, 0x78851006, '2019-03-23 02:20:17') /* Gold Gear Guardian (41579) */
-     , (0x78851001, 0x78851007, '2019-03-23 02:20:17') /* Silver Scope Guardian (41581) */
-     , (0x78851001, 0x78851009, '2019-03-23 02:20:17') /* Gold Gear Lesser Lord (41585) */
-     , (0x78851001, 0x7885100A, '2019-03-23 02:20:17') /* Gold Gear Lesser Lord (41584) */
-     , (0x78851001, 0x7885100B, '2019-03-23 02:20:17') /* Copper Cog Lesser Lord (41583) */
-     , (0x78851001, 0x7885100C, '2019-03-23 02:20:17') /* Silver Scope Lesser Lord (41587) */;
+VALUES (0x78851001, 0x78851002, '2021-11-01 00:00:00') /* Bronze Gauntlet Guardian (41582) */
+     , (0x78851001, 0x78851003, '2021-11-01 00:00:00') /* Iron Blade Guardian (41580) */
+     , (0x78851001, 0x78851004, '2021-11-01 00:00:00') /* Copper Cog Guardian (41577) */
+     , (0x78851001, 0x78851005, '2021-11-01 00:00:00') /* Gold Gear Guardian (41578) */
+     , (0x78851001, 0x78851006, '2021-11-01 00:00:00') /* Gold Gear Guardian (41579) */
+     , (0x78851001, 0x78851007, '2021-11-01 00:00:00') /* Silver Scope Guardian (41581) */
+     , (0x78851001, 0x78851009, '2021-11-01 00:00:00') /* Gold Gear Lesser Lord (41585) */
+     , (0x78851001, 0x7885100A, '2021-11-01 00:00:00') /* Gold Gear Lesser Lord (41584) */
+     , (0x78851001, 0x7885100B, '2021-11-01 00:00:00') /* Copper Cog Lesser Lord (41583) */
+     , (0x78851001, 0x7885100C, '2021-11-01 00:00:00') /* Silver Scope Lesser Lord (41587) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78851002, 41582, 0x8851011A, 83.9337, 81.6979, 0.406, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Bronze Gauntlet Guardian */
@@ -65,7 +65,7 @@ VALUES (0x788516A5,  1154, 0x88510006, 12.0284, 121.012, 1.86697, -0.007645, 0, 
 /* @teleloc 0x88510006 [12.028400 121.012001 1.866970] -0.007645 0.000000 0.000000 -0.999971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788516A5, 0x788516A6, '2020-01-30 00:00:00') /* Exploration Marker (39845) */;
+VALUES (0x788516A5, 0x788516A6, '2021-11-01 00:00:00') /* Exploration Marker (39845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788516A6, 39845, 0x88510006, 12.0284, 121.012, 1.86697, -0.007645, 0, 0, -0.999971,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

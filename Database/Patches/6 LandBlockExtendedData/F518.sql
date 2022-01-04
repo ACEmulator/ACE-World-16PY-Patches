@@ -33,12 +33,12 @@ VALUES (0x7F518007,  7925, 0xF5180000, 136.515, 112.962, 129.905, 0.959456, 0, 0
 /* @teleloc 0xF5180000 [136.514999 112.961998 129.904999] 0.959456 0.000000 0.000000 0.281858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F518007, 0x7F518000, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
-     , (0x7F518007, 0x7F518001, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
-     , (0x7F518007, 0x7F518003, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
-     , (0x7F518007, 0x7F518004, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
-     , (0x7F518007, 0x7F518005, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
-     , (0x7F518007, 0x7F518006, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */;
+VALUES (0x7F518007, 0x7F518000, '2021-11-08 06:01:47') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F518007, 0x7F518001, '2021-11-08 06:01:47') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F518007, 0x7F518003, '2021-11-08 06:01:47') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F518007, 0x7F518004, '2021-11-08 06:01:47') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F518007, 0x7F518005, '2021-11-08 06:01:47') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F518007, 0x7F518006, '2021-11-08 06:01:47') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F518008,  7988, 0xF5180000, 62.161, 99.2247, 129.555, -0.909656, 0, 0, -0.415362,  True, '2021-11-08 06:01:47'); /* Sephal Niffis */
@@ -121,25 +121,25 @@ VALUES (0x7F51801B,  7924, 0xF5180000, 83.9218, 77.194, 130.496, 0.984864, 0, 0,
 /* @teleloc 0xF5180000 [83.921799 77.194000 130.496002] 0.984864 0.000000 0.000000 -0.173329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F51801B, 0x7F518008, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */
-     , (0x7F51801B, 0x7F518009, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */
-     , (0x7F51801B, 0x7F51800A, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */
-     , (0x7F51801B, 0x7F51800B, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
-     , (0x7F51801B, 0x7F51800C, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
-     , (0x7F51801B, 0x7F51800D, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
-     , (0x7F51801B, 0x7F51800E, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
-     , (0x7F51801B, 0x7F51800F, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
-     , (0x7F51801B, 0x7F518010, '2005-02-09 10:00:00') /* Listris Niffis (7985) */
-     , (0x7F51801B, 0x7F518011, '2005-02-09 10:00:00') /* Parfal Niffis (7984) */
-     , (0x7F51801B, 0x7F518012, '2005-02-09 10:00:00') /* Parfal Niffis (7984) */
-     , (0x7F51801B, 0x7F518013, '2005-02-09 10:00:00') /* Parfal Niffis (7984) */
-     , (0x7F51801B, 0x7F518014, '2005-02-09 10:00:00') /* Listris Niffis (7985) */
-     , (0x7F51801B, 0x7F518015, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
-     , (0x7F51801B, 0x7F518016, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
-     , (0x7F51801B, 0x7F518017, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
-     , (0x7F51801B, 0x7F518018, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
-     , (0x7F51801B, 0x7F518019, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
-     , (0x7F51801B, 0x7F51801A, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */;
+VALUES (0x7F51801B, 0x7F518008, '2021-11-08 06:01:47') /* Sephal Niffis (7988) */
+     , (0x7F51801B, 0x7F518009, '2021-11-08 06:01:47') /* Sephal Niffis (7988) */
+     , (0x7F51801B, 0x7F51800A, '2021-11-08 06:01:47') /* Sephal Niffis (7988) */
+     , (0x7F51801B, 0x7F51800B, '2021-11-08 06:01:47') /* Opor Niffis (7987) */
+     , (0x7F51801B, 0x7F51800C, '2021-11-08 06:01:47') /* Opor Niffis (7987) */
+     , (0x7F51801B, 0x7F51800D, '2021-11-08 06:01:47') /* Glissnal Niffis (7986) */
+     , (0x7F51801B, 0x7F51800E, '2021-11-08 06:01:47') /* Glissnal Niffis (7986) */
+     , (0x7F51801B, 0x7F51800F, '2021-11-08 06:01:47') /* Glissnal Niffis (7986) */
+     , (0x7F51801B, 0x7F518010, '2021-11-08 06:01:47') /* Listris Niffis (7985) */
+     , (0x7F51801B, 0x7F518011, '2021-11-08 06:01:47') /* Parfal Niffis (7984) */
+     , (0x7F51801B, 0x7F518012, '2021-11-08 06:01:47') /* Parfal Niffis (7984) */
+     , (0x7F51801B, 0x7F518013, '2021-11-08 06:01:47') /* Parfal Niffis (7984) */
+     , (0x7F51801B, 0x7F518014, '2021-11-08 06:01:47') /* Listris Niffis (7985) */
+     , (0x7F51801B, 0x7F518015, '2021-11-08 06:01:47') /* Glissnal Niffis (7986) */
+     , (0x7F51801B, 0x7F518016, '2021-11-08 06:01:47') /* Opor Niffis (7987) */
+     , (0x7F51801B, 0x7F518017, '2021-11-08 06:01:47') /* Opor Niffis (7987) */
+     , (0x7F51801B, 0x7F518018, '2021-11-08 06:01:47') /* Opor Niffis (7987) */
+     , (0x7F51801B, 0x7F518019, '2021-11-08 06:01:47') /* Glissnal Niffis (7986) */
+     , (0x7F51801B, 0x7F51801A, '2021-11-08 06:01:47') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F51801C, 14923, 0xF5180000, 172.33, 179.718, 180.005, -0.702393, 0, 0, 0.711789,  True, '2021-11-08 06:01:47'); /* Grand Sentinel Ehcac */
@@ -150,7 +150,7 @@ VALUES (0x7F51801D,  5086, 0xF5180000, 174.481, 169.478, 180.005, 0.696734, 0, 0
 /* @teleloc 0xF5180000 [174.481003 169.477997 180.005005] 0.696734 0.000000 0.000000 0.717329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F51801D, 0x7F51801C, '2005-02-09 10:00:00') /* Grand Sentinel Ehcac (14923) */;
+VALUES (0x7F51801D, 0x7F51801C, '2021-11-08 06:01:47') /* Grand Sentinel Ehcac (14923) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F51801E, 46357, 0xF518003A, 187.589, 46.1457, 129.79, 0.834345, 0, 0, -0.551242, False, '2021-11-08 06:01:47'); /* Lost Ruins */

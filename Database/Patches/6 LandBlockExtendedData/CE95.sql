@@ -161,10 +161,10 @@ VALUES (0x7CE95027,  1154, 0xCE950000, 129.193, 69.9237, 20.005, -0.34432, 0, 0,
 /* @teleloc 0xCE950000 [129.192993 69.923698 20.004999] -0.344320 0.000000 0.000000 0.938852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE95027, 0x7CE95033, '2005-02-09 10:00:00') /* Weary-looking Man (2048) */
-     , (0x7CE95027, 0x7CE95037, '2005-02-09 10:00:00') /* Alexander the Deft (8404) */
-     , (0x7CE95027, 0x7CE95038, '2005-02-09 10:00:00') /* Olivier Rognath (8362) */
-     , (0x7CE95027, 0x7CE9503F, '2005-02-09 10:00:00') /* Alexander's Apprentice (12203) */;
+VALUES (0x7CE95027, 0x7CE95033, '2021-11-01 00:00:00') /* Weary-looking Man (2048) */
+     , (0x7CE95027, 0x7CE95037, '2021-11-01 00:00:00') /* Alexander the Deft (8404) */
+     , (0x7CE95027, 0x7CE95038, '2021-11-01 00:00:00') /* Olivier Rognath (8362) */
+     , (0x7CE95027, 0x7CE9503F, '2021-11-01 00:00:00') /* Alexander's Apprentice (12203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE95028,   639, 0xCE950000, 133.173, 11.5176, 20.04, -0.385101, 0, 0, 0.922875, False, '2021-11-01 00:00:00'); /* Chirurgeon */
@@ -251,9 +251,9 @@ VALUES (0x7CE9503E,  7923, 0xCE950163, 15.2818, 29.0179, 20.005, 0.642543, 0, 0,
 /* @teleloc 0xCE950163 [15.281800 29.017900 20.004999] 0.642543 0.000000 0.000000 0.766249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9503E, 0x7CE9503D, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x7CE9503E, 0x7CE95066, '2005-02-09 10:00:00') /* Samuel, Former Guardian (25896) */
-     , (0x7CE9503E, 0x7CE9506A, '2005-02-09 10:00:00') /* Apprentice Fletcher (28188) */;
+VALUES (0x7CE9503E, 0x7CE9503D, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7CE9503E, 0x7CE95066, '2021-11-01 00:00:00') /* Samuel, Former Guardian (25896) */
+     , (0x7CE9503E, 0x7CE9506A, '2021-11-01 00:00:00') /* Apprentice Fletcher (28188) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE9503F, 12203, 0xCE95013F, 155.488, 26.7108, 23.505, 0.941785, 0, 0, -0.336215,  True, '2021-11-01 00:00:00'); /* Alexander's Apprentice */

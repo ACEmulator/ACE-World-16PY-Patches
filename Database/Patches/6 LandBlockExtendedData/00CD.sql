@@ -21,8 +21,8 @@ VALUES (0x700CD004,  7924, 0x00CD013C, 23.6049, -167.529, -17.945, -0.995551, 0,
 /* @teleloc 0x00CD013C [23.604900 -167.529007 -17.945000] -0.995551 0.000000 0.000000 -0.094224 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700CD004, 0x700CD005, '2021-10-26 09:42:39') /* Master of the Depths (87687) */
-     , (0x700CD004, 0x700CD006, '2021-10-26 09:43:46') /* Watcher of the Black Water (87692) */;
+VALUES (0x700CD004, 0x700CD005, '2021-11-08 06:01:47') /* Master of the Depths (87687) */
+     , (0x700CD004, 0x700CD006, '2021-11-08 06:01:47') /* Watcher of the Black Water (87692) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CD005, 87687, 0x00CD0139, 10.851, -178.152, -17.995, -0.998384, 0, 0, -0.056833,  True, '2021-11-08 06:01:47'); /* Master of the Depths */

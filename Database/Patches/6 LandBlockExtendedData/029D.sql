@@ -9,9 +9,9 @@ VALUES (0x7029D001,  7923, 0x029D0103, 11.6056, 3.93805, 0.005, 0.028862, 0, 0, 
 /* @teleloc 0x029D0103 [11.605600 3.938050 0.005000] 0.028862 0.000000 0.000000 -0.999583 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7029D001, 0x7029D002, '2005-02-09 10:00:00') /* Saelar (9309) */
-     , (0x7029D001, 0x7029D005, '2005-02-09 10:00:00') /* Hahnain (9308) */
-     , (0x7029D001, 0x7029D007, '2005-02-09 10:00:00') /* Renselm (9307) */;
+VALUES (0x7029D001, 0x7029D002, '2021-11-01 00:00:00') /* Saelar (9309) */
+     , (0x7029D001, 0x7029D005, '2021-11-01 00:00:00') /* Hahnain (9308) */
+     , (0x7029D001, 0x7029D007, '2021-11-01 00:00:00') /* Renselm (9307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029D002,  9309, 0x029D0104, 9.33585, -8.65844, 0.005, -0.663095, 0, 0, -0.748535,  True, '2021-11-01 00:00:00'); /* Saelar */

@@ -5,25 +5,25 @@ VALUES (0x740E6000,  7924, 0x40E6002A, 134.645, 34.8998, 160.005, -0.010236, 0, 
 /* @teleloc 0x40E6002A [134.645004 34.899799 160.005005] -0.010236 0.000000 0.000000 -0.999948 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E6000, 0x740E6002, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E6003, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E6004, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E6005, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x740E6000, 0x740E6006, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x740E6000, 0x740E6007, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x740E6000, 0x740E6008, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x740E6000, 0x740E6009, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E600A, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E600B, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E600C, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E600D, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E600E, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E600F, '2019-02-15 14:34:36') /* Gold Legion Castellan (30550) */
-     , (0x740E6000, 0x740E6010, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E6011, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E6012, '2019-02-15 14:34:36') /* Viamontian Counselor (29302) */
-     , (0x740E6000, 0x740E6013, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */
-     , (0x740E6000, 0x740E6014, '2019-02-15 14:34:36') /* Gold Legion Castle Guard (29409) */;
+VALUES (0x740E6000, 0x740E6002, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E6003, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E6004, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E6005, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x740E6000, 0x740E6006, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x740E6000, 0x740E6007, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x740E6000, 0x740E6008, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x740E6000, 0x740E6009, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E600A, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E600B, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E600C, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E600D, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E600E, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E600F, '2021-11-01 00:00:00') /* Gold Legion Castellan (30550) */
+     , (0x740E6000, 0x740E6010, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E6011, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E6012, '2021-11-01 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x740E6000, 0x740E6013, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */
+     , (0x740E6000, 0x740E6014, '2021-11-01 00:00:00') /* Gold Legion Castle Guard (29409) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E6001,  1032, 0x40E6002A, 129.75, 35, 160.005, -0.010236, 0, 0, -0.999948, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Zaikhal */

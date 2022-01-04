@@ -45,11 +45,11 @@ VALUES (0x7A26000A,  3597, 0xA2600112, 180.592, 41.5653, 17.205, -0.257205, 0, 0
 /* @teleloc 0xA2600112 [180.591995 41.565300 17.205000] -0.257205 0.000000 0.000000 0.966357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A26000A, 0x7A260001, '2005-02-09 10:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x7A26000A, 0x7A260002, '2005-02-09 10:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x7A26000A, 0x7A260003, '2005-02-09 10:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x7A26000A, 0x7A260004, '2005-02-09 10:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x7A26000A, 0x7A260005, '2005-02-09 10:00:00') /* Brimstone-cap Mushroom (547) */;
+VALUES (0x7A26000A, 0x7A260001, '2021-11-01 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7A26000A, 0x7A260002, '2021-11-01 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7A26000A, 0x7A260003, '2021-11-01 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7A26000A, 0x7A260004, '2021-11-01 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7A26000A, 0x7A260005, '2021-11-01 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A26000B,  1908, 0xA2600000, 179.38, 84.1221, 20.005, 0.92388, 0, 0, -0.382683, False, '2021-11-01 00:00:00'); /* Uziz */
@@ -68,7 +68,7 @@ VALUES (0x7A26000E,  7923, 0xA260011D, 126.809, 9.58321, 20.005, -0.998101, 0, 0
 /* @teleloc 0xA260011D [126.808998 9.583210 20.004999] -0.998101 0.000000 0.000000 -0.061596 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A26000E, 0x7A26000D, '2005-02-09 10:00:00') /* Agent of the Arcanum (49604) */;
+VALUES (0x7A26000E, 0x7A26000D, '2021-11-01 00:00:00') /* Agent of the Arcanum (49604) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A26000F, 12304, 0xA2600000, 136.249, 8.72139, 20.005, 0.999433, 0, 0, 0.033665, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */

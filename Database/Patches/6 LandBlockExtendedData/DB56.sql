@@ -13,9 +13,9 @@ VALUES (0x7DB56002,  5086, 0xDB560100, 7.30631, 81.2847, 20.005, 0.872134, 0, 0,
 /* @teleloc 0xDB560100 [7.306310 81.284698 20.004999] 0.872134 0.000000 0.000000 0.489267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB56002, 0x7DB56001, '2005-02-09 10:00:00') /* Sir Tenshin (14414) */
-     , (0x7DB56002, 0x7DB56003, '2005-02-09 10:00:00') /* Sentry (14460) */
-     , (0x7DB56002, 0x7DB56004, '2005-02-09 10:00:00') /* Sentry (14459) */;
+VALUES (0x7DB56002, 0x7DB56001, '2021-11-01 00:00:00') /* Sir Tenshin (14414) */
+     , (0x7DB56002, 0x7DB56003, '2021-11-01 00:00:00') /* Sentry (14460) */
+     , (0x7DB56002, 0x7DB56004, '2021-11-01 00:00:00') /* Sentry (14459) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB56003, 14460, 0xDB560000, 27.8602, 63.3384, 20.005, -0.173445, 0, 0, 0.984844,  True, '2021-11-01 00:00:00'); /* Sentry */
@@ -38,7 +38,7 @@ VALUES (0x7DB56007,  5086, 0xDB560000, 39.4637, 134.144, 35.205, -0.947303, 0, 0
 /* @teleloc 0xDB560000 [39.463699 134.143997 35.205002] -0.947303 0.000000 0.000000 0.320338 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB56007, 0x7DB56006, '2005-02-09 10:00:00') /* Sentry (12725) */;
+VALUES (0x7DB56007, 0x7DB56006, '2021-11-01 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB56008, 33805, 0xDB560004, 1.7854, 73.6329, 20.005, 0.381629, 0, 0, 0.924316, False, '2021-11-01 00:00:00'); /* Royal Guard */

@@ -5,115 +5,115 @@ VALUES (0x701F83E8,  4219, 0x01F801D2, 9.16629, -91.7547, 0.005, -0.999897, 0, 0
 /* @teleloc 0x01F801D2 [9.166290 -91.754700 0.005000] -0.999897 0.000000 0.000000 -0.014386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F83E8, 0x701F840A, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8416, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E8, 0x701F8417, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E8, 0x701F841C, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E8, 0x701F8423, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E8, 0x701F8424, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8437, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E8, 0x701F8438, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E8, 0x701F843B, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E8, 0x701F843C, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E8, 0x701F843D, '2019-08-07 06:01:09') /* Sewer Rat (7106) */
-     , (0x701F83E8, 0x701F843E, '2019-08-07 06:01:09') /* Cow (5755) */
-     , (0x701F83E8, 0x701F843F, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E8, 0x701F8440, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8441, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E8, 0x701F8442, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8443, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8444, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8445, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8447, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8448, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F8449, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E8, 0x701F844A, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E8, 0x701F844B, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E8, 0x701F844E, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */;
+VALUES (0x701F83E8, 0x701F840A, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8416, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E8, 0x701F8417, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E8, 0x701F841C, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E8, 0x701F8423, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E8, 0x701F8424, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8437, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E8, 0x701F8438, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E8, 0x701F843B, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E8, 0x701F843C, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E8, 0x701F843D, '2021-11-01 00:00:00') /* Sewer Rat (7106) */
+     , (0x701F83E8, 0x701F843E, '2021-11-01 00:00:00') /* Cow (5755) */
+     , (0x701F83E8, 0x701F843F, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E8, 0x701F8440, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8441, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E8, 0x701F8442, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8443, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8444, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8445, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8447, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8448, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F8449, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E8, 0x701F844A, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E8, 0x701F844B, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E8, 0x701F844E, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F83E9,  4219, 0x01F801D2, 7.83524, -91.8064, 0.005, -0.999897, 0, 0, -0.014386, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01F801D2 [7.835240 -91.806396 0.005000] -0.999897 0.000000 0.000000 -0.014386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F83E9, 0x701F840F, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E9, 0x701F8410, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E9, 0x701F8411, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E9, 0x701F8412, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F8413, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E9, 0x701F8414, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F8415, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E9, 0x701F841B, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F841E, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E9, 0x701F8420, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E9, 0x701F8422, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F8427, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F8428, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F8429, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E9, 0x701F842A, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E9, 0x701F842B, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E9, 0x701F842C, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E9, 0x701F8430, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83E9, 0x701F8432, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E9, 0x701F8436, '2019-08-07 06:01:09') /* Alfrega the Reedshark (5687) */
-     , (0x701F83E9, 0x701F8439, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F843A, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83E9, 0x701F844C, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83E9, 0x701F844D, '2019-08-07 06:01:09') /* Royal Mite Matron (24030) */;
+VALUES (0x701F83E9, 0x701F840F, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E9, 0x701F8410, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E9, 0x701F8411, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E9, 0x701F8412, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F8413, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E9, 0x701F8414, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F8415, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E9, 0x701F841B, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F841E, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E9, 0x701F8420, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E9, 0x701F8422, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F8427, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F8428, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F8429, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E9, 0x701F842A, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E9, 0x701F842B, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E9, 0x701F842C, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E9, 0x701F8430, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83E9, 0x701F8432, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E9, 0x701F8436, '2021-11-01 00:00:00') /* Alfrega the Reedshark (5687) */
+     , (0x701F83E9, 0x701F8439, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F843A, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83E9, 0x701F844C, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83E9, 0x701F844D, '2021-11-01 00:00:00') /* Royal Mite Matron (24030) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F83EA,  4219, 0x01F801D2, 8.49455, -91.7874, 0.005, -0.999897, 0, 0, -0.014386, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01F801D2 [8.494550 -91.787399 0.005000] -0.999897 0.000000 0.000000 -0.014386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F83EA, 0x701F83F6, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F83F7, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F83F8, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F83F9, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83EA, 0x701F83FA, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83EA, 0x701F83FC, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F83FD, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F83FE, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83EA, 0x701F8400, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F8418, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83EA, 0x701F8419, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F841A, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F841D, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83EA, 0x701F841F, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F8421, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F8425, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F8426, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */
-     , (0x701F83EA, 0x701F842D, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F842E, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F842F, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F8431, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F8433, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EA, 0x701F8434, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F8435, '2019-08-07 06:01:09') /* Gold Phyntos Wasp (217) */
-     , (0x701F83EA, 0x701F8446, '2019-08-07 06:01:09') /* Royal Mite Sentry (24031) */;
+VALUES (0x701F83EA, 0x701F83F6, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F83F7, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F83F8, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F83F9, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83EA, 0x701F83FA, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83EA, 0x701F83FC, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F83FD, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F83FE, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83EA, 0x701F8400, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F8418, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83EA, 0x701F8419, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F841A, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F841D, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83EA, 0x701F841F, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F8421, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F8425, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F8426, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F83EA, 0x701F842D, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F842E, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F842F, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F8431, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F8433, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EA, 0x701F8434, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F8435, '2021-11-01 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F83EA, 0x701F8446, '2021-11-01 00:00:00') /* Royal Mite Sentry (24031) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F83EB,  7923, 0x01F801D2, 7.13658, -91.8132, 0.005, -0.999897, 0, 0, -0.014386, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01F801D2 [7.136580 -91.813202 0.005000] -0.999897 0.000000 0.000000 -0.014386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F83EB, 0x701F83F4, '2019-08-07 06:01:09') /* Branith's Staff (2031) */
-     , (0x701F83EB, 0x701F83F5, '2019-08-07 06:01:09') /* Branith's Shirt (2032) */
-     , (0x701F83EB, 0x701F83FB, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F83FF, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F8401, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F8402, '2019-08-07 06:01:09') /* Tusker Redeemer (22520) */
-     , (0x701F83EB, 0x701F8403, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F8404, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F8405, '2019-08-07 06:01:09') /* Royal Mite Matron (24030) */
-     , (0x701F83EB, 0x701F8406, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F8407, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F8408, '2019-08-07 06:01:09') /* Royal Mite Squire (24032) */
-     , (0x701F83EB, 0x701F8409, '2019-08-07 06:01:09') /* Royal Mite Matron (24030) */
-     , (0x701F83EB, 0x701F840B, '2019-08-07 06:01:09') /* Royal Mite Matron (24030) */
-     , (0x701F83EB, 0x701F840C, '2019-08-07 06:01:09') /* Royal Mite Matron (24030) */
-     , (0x701F83EB, 0x701F840D, '2019-08-07 06:01:09') /* Royal Mite Matron (24030) */
-     , (0x701F83EB, 0x701F840E, '2019-08-07 06:01:09') /* Mite Warrior Queen (24029) */;
+VALUES (0x701F83EB, 0x701F83F4, '2021-11-01 00:00:00') /* Branith's Staff (2031) */
+     , (0x701F83EB, 0x701F83F5, '2021-11-01 00:00:00') /* Branith's Shirt (2032) */
+     , (0x701F83EB, 0x701F83FB, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F83FF, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F8401, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F8402, '2021-11-01 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x701F83EB, 0x701F8403, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F8404, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F8405, '2021-11-01 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F83EB, 0x701F8406, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F8407, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F8408, '2021-11-01 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F83EB, 0x701F8409, '2021-11-01 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F83EB, 0x701F840B, '2021-11-01 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F83EB, 0x701F840C, '2021-11-01 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F83EB, 0x701F840D, '2021-11-01 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F83EB, 0x701F840E, '2021-11-01 00:00:00') /* Mite Warrior Queen (24029) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F83EC,  4024, 0x01F80433, 50.7624, -62.0731, 12, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Cheap Glitter Generator */

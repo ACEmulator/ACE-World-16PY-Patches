@@ -25,7 +25,7 @@ VALUES (0x78B646A5,  1154, 0x8B640024, 101.873, 83.7157, 14, 0.918893, 0, 0, 0.3
 /* @teleloc 0x8B640024 [101.873001 83.715698 14.000000] 0.918893 0.000000 0.000000 0.394507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B646A5, 0x78B646A6, '2020-01-30 00:00:00') /* Exploration Marker (39819) */;
+VALUES (0x78B646A5, 0x78B646A6, '2021-11-01 00:00:00') /* Exploration Marker (39819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B646A6, 39819, 0x8B640024, 101.873, 83.7157, 14, 0.918893, 0, 0, 0.394507,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

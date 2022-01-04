@@ -77,11 +77,11 @@ VALUES (0x7710901B,  1154, 0x7109002C, 123.078, 87.5718, 1.30015, -0.061987, 0, 
 /* @teleloc 0x7109002C [123.078003 87.571800 1.300150] -0.061987 0.000000 0.000000 -0.998077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7710901B, 0x7710901D, '2021-01-09 00:00:00') /* Mysterious Hatch (32807) */
-     , (0x7710901B, 0x7710901E, '2019-02-10 00:00:00') /* The Black Breath (32804) */
-     , (0x7710901B, 0x7710901F, '2019-02-10 00:00:00') /* The Black Breath (32804) */
-     , (0x7710901B, 0x77109020, '2019-02-10 00:00:00') /* The Black Breath (32804) */
-     , (0x7710901B, 0x77109021, '2019-02-10 00:00:00') /* The Black Breath (32804) */;
+VALUES (0x7710901B, 0x7710901D, '2021-11-01 00:00:00') /* Mysterious Hatch (32807) */
+     , (0x7710901B, 0x7710901E, '2021-11-01 00:00:00') /* The Black Breath (32804) */
+     , (0x7710901B, 0x7710901F, '2021-11-01 00:00:00') /* The Black Breath (32804) */
+     , (0x7710901B, 0x77109020, '2021-11-01 00:00:00') /* The Black Breath (32804) */
+     , (0x7710901B, 0x77109021, '2021-11-01 00:00:00') /* The Black Breath (32804) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7710901D, 32807, 0x7109001F, 91.3769, 148.065, 2, -0.863652, 0, 0, -0.504088,  True, '2021-11-01 00:00:00'); /* Mysterious Hatch */
@@ -108,7 +108,7 @@ VALUES (0x771096A5,  1154, 0x7109001F, 94.0415, 165.899, 2, -0.038349, 0, 0, -0.
 /* @teleloc 0x7109001F [94.041496 165.899002 2.000000] -0.038349 0.000000 0.000000 -0.999264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771096A5, 0x771096A6, '2020-01-30 00:00:00') /* Exploration Marker (39795) */;
+VALUES (0x771096A5, 0x771096A6, '2021-11-01 00:00:00') /* Exploration Marker (39795) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771096A6, 39795, 0x7109001F, 94.0415, 165.899, 2, -0.038349, 0, 0, -0.999264,  True, '2021-11-01 00:00:00'); /* Exploration Marker */
