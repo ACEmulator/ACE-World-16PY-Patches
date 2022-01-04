@@ -39,7 +39,7 @@ VALUES (25590,   5,  -0.033) /* ManaRate */
      , (25590,  22,    0.25) /* DamageVariance */
      , (25590,  29,    1.07) /* WeaponDefense */
      , (25590,  62,    1.09) /* WeaponOffense */
-     , (25590, 136,    3.00) /* CriticalMultiplier */;
+     , (25590, 136,       3) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25590,   1, 'Staff of Coercion') /* Name */
