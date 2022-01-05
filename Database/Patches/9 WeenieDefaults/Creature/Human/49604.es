@@ -526,7 +526,7 @@ Give: Luminance Certificate (46414)
     - Tell: Luminance is always a wonderful thing.
     - AwardLuminance: 20,000
 
-Give: Item Spells Certificate (46418)
+Give: 46418
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4391 - Incantation of Acid Bane
@@ -567,7 +567,7 @@ Give: Item Spells Certificate (46418)
     - TeachSpell: 4420 - Incantation of Weaken Lock
     - TeachSpell: 4342 - Incantation of Nullify Item Magic
 
-Give: Life Spells Certificate (46419)
+Give: 46419
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4291 - Incantation of Armor Self
@@ -610,144 +610,99 @@ Give: Life Spells Certificate (46419)
     - TeachSpell: 4346 - Incantation of Nullify Life Magic Self
     - TeachSpell: 4345 - Incantation of Nullify Life Magic Other
 
-Give: Creature Spells Certificate (46417)
+Give: 46417
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4503 - Incantation of Alchemy Ineptitude Other
-    - TeachSpell: 4505 - Incantation of Alchemy Mastery Other
     - TeachSpell: 4506 - Incantation of Alchemy Mastery Self
     - TeachSpell: 4507 - Incantation of Arcane Benightedness Other
-    - TeachSpell: 4509 - Incantation of Arcane Enlightenment Other
     - TeachSpell: 4510 - Incantation of Arcane Enlightenment Self
-    - TeachSpell: 4500 - Incantation of Arcanum Enlightenment
     - TeachSpell: 4499 - Incantation of Arcanum Salvaging Self
     - TeachSpell: 4512 - Incantation of Armor Tinkering Expertise Self
-    - TeachSpell: 4511 - Incantation of Armor Tinkering Expertise Other
     - TeachSpell: 4513 - Incantation of Armor Tinkering Ignorance Other
     - TeachSpell: 4515 - Incantation of Light Weapon Ineptitude Other
     - TeachSpell: 4518 - Incantation of Light Weapon Mastery Self
-    - TeachSpell: 4517 - Incantation of Light Weapon Mastery Other
     - TeachSpell: 4519 - Incantation of Missile Weapon Ineptitude Other
     - TeachSpell: 4522 - Incantation of Missile Weapon Mastery Self
-    - TeachSpell: 4521 - Incantation of Missile Weapon Mastery Other
     - TeachSpell: 4523 - Incantation of Cooking Ineptitude Other
     - TeachSpell: 4526 - Incantation of Cooking Mastery Self
-    - TeachSpell: 4525 - Incantation of Cooking Mastery Other
     - TeachSpell: 4527 - Incantation of Creature Enchantment Ineptitude Other
-    - TeachSpell: 4529 - Incantation of Creature Enchantment Mastery Other
     - TeachSpell: 4530 - Incantation of Creature Enchantment Mastery Self
     - TeachSpell: 4535 - Incantation of Finesse Weapon Ineptitude Other
-    - TeachSpell: 4538 - Incantation of Finesse Weapon Mastery Self
     - TeachSpell: 4537 - Incantation of Finesse Weapon Mastery Other
     - TeachSpell: 4539 - Incantation of Deception Ineptitude Other
     - TeachSpell: 4542 - Incantation of Deception Mastery Self
-    - TeachSpell: 4541 - Incantation of Deception Mastery Other
     - TeachSpell: 4543 - Incantation of Defenselessness Other
     - TeachSpell: 5770 - Incantation of Dirty Fighting Ineptitude Other
-    - TeachSpell: 5778 - Incantation of Dirty Fighting Mastery Other
     - TeachSpell: 5786 - Incantation of Dirty Fighting Mastery Self
     - TeachSpell: 5794 - Incantation of Dual Wield Ineptitude Other
-    - TeachSpell: 5802 - Incantation of Dual Wield Mastery Other
     - TeachSpell: 5810 - Incantation of Dual Wield Mastery Self
     - TeachSpell: 4545 - Incantation of Faithlessness Other
-    - TeachSpell: 4547 - Incantation of Fealty Other
     - TeachSpell: 4548 - Incantation of Fealty Self
     - TeachSpell: 4302 - Incantation of Feeblemind Other
     - TeachSpell: 4549 - Incantation of Fletching Ineptitude Other
-    - TeachSpell: 4551 - Incantation of Fletching Mastery Other
     - TeachSpell: 4552 - Incantation of Fletching Mastery Self
     - TeachSpell: 4553 - Incantation of Healing Ineptitude Other
-    - TeachSpell: 4555 - Incantation of Healing Mastery Other
     - TeachSpell: 4556 - Incantation of Healing Mastery Self
-    - TeachSpell: 4557 - Incantation of Impregnability Other
     - TeachSpell: 4558 - Incantation of Impregnability Self
-    - TeachSpell: 4559 - Incantation of Invulnerability Other
     - TeachSpell: 4560 - Incantation of Invulnerability Self
     - TeachSpell: 4561 - Incantation of Item Enchantment Ineptitude Other
-    - TeachSpell: 4563 - Incantation of Item Enchantment Mastery Other
     - TeachSpell: 4564 - Incantation of Item Enchantment Mastery Self
-    - TeachSpell: 4565 - Incantation of Item Tinkering Expertise Other
     - TeachSpell: 4566 - Incantation of Item Tinkering Expertise Self
     - TeachSpell: 4567 - Incantation of Item Tinkering Ignorance Other
     - TeachSpell: 4569 - Incantation of Jumping Ineptitude Other
     - TeachSpell: 4572 - Incantation of Jumping Mastery Self
-    - TeachSpell: 4571 - Incantation of Jumping Mastery Other
     - TeachSpell: 4573 - Incantation of Leaden Feet Other
     - TeachSpell: 4575 - Incantation of Leadership Ineptitude Other
-    - TeachSpell: 4577 - Incantation of Leadership Mastery Other
     - TeachSpell: 4578 - Incantation of Leadership Mastery Self
     - TeachSpell: 4579 - Incantation of Life Magic Ineptitude Other
-    - TeachSpell: 4581 - Incantation of Life Magic Mastery Other
     - TeachSpell: 4582 - Incantation of Life Magic Mastery Self
     - TeachSpell: 4583 - Incantation of Lockpick Ineptitude Other
-    - TeachSpell: 4585 - Incantation of Lockpick Mastery Other
     - TeachSpell: 4586 - Incantation of Lockpick Mastery Self
-    - TeachSpell: 4591 - Incantation of Magic Item Tinkering Expertise Other
     - TeachSpell: 4592 - Incantation of Magic Item Tinkering Expertise Self
     - TeachSpell: 4593 - Incantation of Magic Item Tinkering Ignorance Other
-    - TeachSpell: 4595 - Incantation of Magic Resistance Other
     - TeachSpell: 4596 - Incantation of Magic Resistance Self
     - TeachSpell: 4597 - Incantation of Magic Yield Other
     - TeachSpell: 4599 - Incantation of Mana Conversion Ineptitude Other
-    - TeachSpell: 4601 - Incantation of Mana Conversion Mastery Other
     - TeachSpell: 4602 - Incantation of Mana Conversion Mastery Self
-    - TeachSpell: 4603 - Incantation of Monster Attunement Other
     - TeachSpell: 4604 - Incantation of Monster Attunement Self
     - TeachSpell: 4605 - Incantation of Monster Unfamiliarity Other
-    - TeachSpell: 4607 - Incantation of Person Attunement Other
     - TeachSpell: 4608 - Incantation of Person Attunement Self
     - TeachSpell: 4609 - Incantation of Person Unfamiliarity Other
     - TeachSpell: 5818 - Incantation of Recklessness Ineptitude Other
     - TeachSpell: 5834 - Incantation of Recklessness Mastery Self
-    - TeachSpell: 5826 - Incantation of Recklessness Mastery Other
     - TeachSpell: 5842 - Incantation of Shield Ineptitude Other
     - TeachSpell: 5858 - Incantation of Shield Mastery Self
-    - TeachSpell: 5850 - Incantation of Shield Mastery Other
     - TeachSpell: 5866 - Incantation of Sneak Attack Ineptitude Other
-    - TeachSpell: 5874 - Incantation of Sneak Attack Mastery Other
     - TeachSpell: 5882 - Incantation of Sneak Attack Mastery Self
-    - TeachSpell: 4615 - Incantation of Sprint Other
     - TeachSpell: 4616 - Incantation of Sprint Self
     - TeachSpell: 4621 - Incantation of Heavy Weapon Ineptitude Other
     - TeachSpell: 4624 - Incantation of Heavy Weapon Mastery Self
-    - TeachSpell: 4623 - Incantation of Heavy Weapon Mastery Other
     - TeachSpell: 5082 - Incantation of Two Handed Combat Ineptitude Other
-    - TeachSpell: 5098 - Incantation of Two Handed Combat Mastery Other
     - TeachSpell: 5032 - Incantation of Two Handed Combat Mastery Self
     - TeachSpell: 5426 - Incantation of Void Magic Ineptitude Other
-    - TeachSpell: 5410 - Incantation of Void Magic Mastery Other
     - TeachSpell: 5418 - Incantation of Void Magic Mastery Self
     - TeachSpell: 4633 - Incantation of Vulnerability Other
     - TeachSpell: 4635 - Incantation of War Magic Ineptitude Other
-    - TeachSpell: 4637 - Incantation of War Magic Mastery Other
     - TeachSpell: 4638 - Incantation of War Magic Mastery Self
-    - TeachSpell: 4639 - Incantation of Weapon Tinkering Expertise Other
     - TeachSpell: 4640 - Incantation of Weapon Tinkering Expertise Self
     - TeachSpell: 4641 - Incantation of Weapon Tinkering Ignorance Other
     - TeachSpell: 4292 - Incantation of Bafflement Other
     - TeachSpell: 4294 - Incantation of Clumsiness Other
-    - TeachSpell: 4296 - Incantation of Coordination Other
     - TeachSpell: 4297 - Incantation of Coordination Self
-    - TeachSpell: 4298 - Incantation of Endurance Other
     - TeachSpell: 4299 - Incantation of Endurance Self
-    - TeachSpell: 4304 - Incantation of Focus Other
     - TeachSpell: 4305 - Incantation of Focus Self
     - TeachSpell: 4306 - Incantation of Frailty Other
-    - TeachSpell: 4318 - Incantation of Quickness Other
     - TeachSpell: 4319 - Incantation of Quickness Self
     - TeachSpell: 4322 - Incantation of Slowness Other
-    - TeachSpell: 4324 - Incantation of Strength Other
     - TeachSpell: 4325 - Incantation of Strength Self
     - TeachSpell: 4326 - Incantation of Weakness Other
-    - TeachSpell: 4328 - Incantation of Willpower Other
     - TeachSpell: 4329 - Incantation of Willpower Self
     - TeachSpell: 4337 - Incantation of Nullify Creature Magic Self
-    - TeachSpell: 4336 - Incantation of Nullify Creature Magic Other
-    - TeachSpell: 6115 - Incantation of Summoning Mastery Other
     - TeachSpell: 6123 - Incantation of Summoning Mastery Self
     - TeachSpell: 6136 - Incantation of Summoning Ineptitude Other
 
-Give: Combat Spells Certificate (46416)
+Give: 46416
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4421 - Incantation of Acid Arc
@@ -756,46 +711,46 @@ Give: Combat Spells Certificate (46416)
     - TeachSpell: 4424 - Incantation of Force Arc
     - TeachSpell: 4425 - Incantation of Frost Arc
     - TeachSpell: 4426 - Incantation of Lightning Arc
+    - TeachSpell: 5368 - Incantation of Nether Arc
     - TeachSpell: 4427 - Incantation of Shock Arc
+    - TeachSpell: 5394 - Incantation of Corrosion
+    - TeachSpell: 5402 - Incantation of Corruption
+    - TeachSpell: 4431 - Incantation of Acid Blast
     - TeachSpell: 4432 - Incantation of Acid Streak
     - TeachSpell: 4433 - Incantation of Acid Stream
-    - TeachSpell: 4439 - Incantation of Flame Bolt
-    - TeachSpell: 4440 - Incantation of Flame Streak
-    - TeachSpell: 4443 - Incantation of Force Bolt
-    - TeachSpell: 4444 - Incantation of Force Streak
-    - TeachSpell: 4447 - Incantation of Frost Bolt
-    - TeachSpell: 4448 - Incantation of Frost Streak
-    - TeachSpell: 4451 - Incantation of Lightning Bolt
-    - TeachSpell: 4452 - Incantation of Lightning Streak
-    - TeachSpell: 4455 - Incantation of Shock Wave
-    - TeachSpell: 4456 - Incantation of Shock Wave Streak
-    - TeachSpell: 4457 - Incantation of Whirling Blade
-    - TeachSpell: 4458 - Incantation of Whirling Blade Streak
-    - TeachSpell: 4431 - Incantation of Acid Blast
     - TeachSpell: 4434 - Incantation of Acid Volley
     - TeachSpell: 4435 - Incantation of Blade Blast
     - TeachSpell: 4436 - Incantation of Blade Volley
     - TeachSpell: 4437 - Incantation of Bludgeoning Volley
     - TeachSpell: 4438 - Incantation of Flame Blast
+    - TeachSpell: 4439 - Incantation of Flame Bolt
+    - TeachSpell: 4440 - Incantation of Flame Streak
     - TeachSpell: 4441 - Incantation of Flame Volley
     - TeachSpell: 4442 - Incantation of Force Blast
+    - TeachSpell: 4443 - Incantation of Force Bolt
+    - TeachSpell: 4444 - Incantation of Force Streak
     - TeachSpell: 4445 - Incantation of Force Volley
     - TeachSpell: 4446 - Incantation of Frost Blast
+    - TeachSpell: 4447 - Incantation of Frost Bolt
+    - TeachSpell: 4448 - Incantation of Frost Streak
     - TeachSpell: 4449 - Incantation of Frost Volley
     - TeachSpell: 4450 - Incantation of Lightning Blast
+    - TeachSpell: 4451 - Incantation of Lightning Bolt
+    - TeachSpell: 4452 - Incantation of Lightning Streak
     - TeachSpell: 4453 - Incantation of Lightning Volley
-    - TeachSpell: 4454 - Incantation of Shock Blast
-    - TeachSpell: 5394 - Incantation of Corrosion
-    - TeachSpell: 5402 - Incantation of Corruption
     - TeachSpell: 5551 - Incantation of Nether Blast
     - TeachSpell: 5356 - Incantation of Nether Bolt
     - TeachSpell: 5348 - Incantation of Nether Streak
+    - TeachSpell: 4454 - Incantation of Shock Blast
+    - TeachSpell: 4455 - Incantation of Shock Wave
+    - TeachSpell: 4456 - Incantation of Shock Wave Streak
+    - TeachSpell: 4457 - Incantation of Whirling Blade
+    - TeachSpell: 4458 - Incantation of Whirling Blade Streak
     - TeachSpell: 5338 - Incantation of Destructive Curse
     - TeachSpell: 5378 - Incantation of Festering Curse
     - TeachSpell: 5386 - Incantation of Weakening Curse
-    - TeachSpell: 5368 - Incantation of Nether Arc
 
-Give: Ring Spells Certificate (53406)
+Give: 53406
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 1783 - Searing Disc
@@ -807,17 +762,17 @@ Give: Ring Spells Certificate (53406)
     - TeachSpell: 5361 - Clouded Soul
     - TeachSpell: 1789 - Tectonic Rifts
 
-Give: Wall Spells Certificate (53407)
+Give: 53407
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
-    - TeachSpell: 1840 - Bed of Blades
-    - TeachSpell: 1845 - Hammering Crawler
-    - TeachSpell: 1842 - Spike Strafe
     - TeachSpell: 1839 - Blistering Creeper
+    - TeachSpell: 1840 - Bed of Blades
     - TeachSpell: 1841 - Slithering Flames
+    - TeachSpell: 1842 - Spike Strafe
     - TeachSpell: 1843 - Foon-Ki's Glacial Floe
     - TeachSpell: 1844 - Os' Wall
     - TeachSpell: 2934 - Tusker Fists
+    - TeachSpell: 1845 - Hammering Crawler
 
 Give: Greater Gem of Knowledge (36509)
     - TurnToTarget
