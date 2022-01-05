@@ -6,7 +6,7 @@ VALUES (72783, 'ace72783-surface', 7, '2021-12-18 02:49:29') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72783,   1,      65536) /* ItemType - Portal */
      , (72783,  16,         32) /* ItemUseable - Remote */
-     , (72783,  86,        200) /* MinLevel */
+     , (72783,  86,        150) /* MinLevel */
      , (72783,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (72783, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (72783, 133,          4) /* ShowableOnRadar - ShowAlways */;
