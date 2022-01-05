@@ -417,14 +417,6 @@ VALUES (0x78B0307D, 43223, 0x8B03016C, 190.024, -62.2397, -83.971, 0.016273, 0, 
 /* @teleloc 0x8B03016C [190.024002 -62.239700 -83.971001] 0.016273 0.000000 0.000000 0.999868 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B0307E, 43220, 0x8B030115, 193.532, -78.2247, -113.971, 0.253421, 0, 0, -0.967356,  True, '2021-11-01 00:00:00'); /* Apostate Virindi Inquisitor */
-/* @teleloc 0x8B030115 [193.531998 -78.224701 -113.971001] 0.253421 0.000000 0.000000 -0.967356 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B0307F, 43220, 0x8B030115, 187.34, -80.8337, -113.971, 0.253421, 0, 0, -0.967356,  True, '2021-11-01 00:00:00'); /* Apostate Virindi Inquisitor */
-/* @teleloc 0x8B030115 [187.339996 -80.833702 -113.971001] 0.253421 0.000000 0.000000 -0.967356 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B03082, 43222, 0x8B030156, 99.9182, -30.2325, -83.971, 0.711828, 0, 0, 0.702354,  True, '2021-11-01 00:00:00'); /* Apostate Virindi Executor */
 /* @teleloc 0x8B030156 [99.918198 -30.232500 -83.971001] 0.711828 0.000000 0.000000 0.702354 */
 
@@ -467,14 +459,6 @@ VALUES (0x78B0308B, 43222, 0x8B0302BE, 265.655, -49.5121, -65.971, 0.787455, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B0308C, 43222, 0x8B0302B2, 260.538, -36.9153, -65.971, -0.06425, 0, 0, 0.997934,  True, '2021-11-01 00:00:00'); /* Apostate Virindi Executor */
 /* @teleloc 0x8B0302B2 [260.537994 -36.915298 -65.971001] -0.064250 0.000000 0.000000 0.997934 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B0308D, 43214, 0x8B030115, 187.476, -79.5171, -113.971, 0.253421, 0, 0, -0.967356,  True, '2021-11-01 00:00:00'); /* Apostate Virindi Executor */
-/* @teleloc 0x8B030115 [187.475998 -79.517097 -113.971001] 0.253421 0.000000 0.000000 -0.967356 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B0308F, 43214, 0x8B030115, 191.388, -79.8877, -113.971, 0.253421, 0, 0, -0.967356,  True, '2021-11-01 00:00:00'); /* Apostate Virindi Executor */
-/* @teleloc 0x8B030115 [191.388000 -79.887703 -113.971001] 0.253421 0.000000 0.000000 -0.967356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B03090, 43221, 0x8B03030C, 100, -116.267, -47.9925, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Apostate Rift Aggressor */
@@ -594,8 +578,6 @@ VALUES (0x78B03095, 0x78B03006, '2021-11-01 00:00:00') /* Subverted Silver Scope
      , (0x78B03095, 0x78B0307B, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
      , (0x78B03095, 0x78B0307C, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
      , (0x78B03095, 0x78B0307D, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43223) */
-     , (0x78B03095, 0x78B0307E, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43220) */
-     , (0x78B03095, 0x78B0307F, '2021-11-01 00:00:00') /* Apostate Virindi Inquisitor (43220) */
      , (0x78B03095, 0x78B03082, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
      , (0x78B03095, 0x78B03083, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
      , (0x78B03095, 0x78B03084, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
@@ -607,8 +589,6 @@ VALUES (0x78B03095, 0x78B03006, '2021-11-01 00:00:00') /* Subverted Silver Scope
      , (0x78B03095, 0x78B0308A, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
      , (0x78B03095, 0x78B0308B, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
      , (0x78B03095, 0x78B0308C, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43222) */
-     , (0x78B03095, 0x78B0308D, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43214) */
-     , (0x78B03095, 0x78B0308F, '2021-11-01 00:00:00') /* Apostate Virindi Executor (43214) */
      , (0x78B03095, 0x78B03090, '2021-11-01 00:00:00') /* Apostate Rift Aggressor (43221) */
      , (0x78B03095, 0x78B03091, '2021-11-01 00:00:00') /* Apostate Nexus Master (43203) */
      , (0x78B03095, 0x78B03092, '2021-11-01 00:00:00') /* Apostate Nexus Master (43204) */
