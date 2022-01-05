@@ -6,7 +6,7 @@ VALUES (72782, 'ace72782-blessedcave', 7, '2021-12-17 06:09:31') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72782,   1,      65536) /* ItemType - Portal */
      , (72782,  16,         32) /* ItemUseable - Remote */
-     , (72782,  86,        200) /* MinLevel */
+     , (72782,  86,        150) /* MinLevel */
      , (72782,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (72782, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (72782, 133,          4) /* ShowableOnRadar - ShowAlways */;
