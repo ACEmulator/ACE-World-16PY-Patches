@@ -526,7 +526,7 @@ Give: Luminance Certificate (46414)
     - Tell: Luminance is always a wonderful thing.
     - AwardLuminance: 20,000
 
-Give: 46418
+Give: Item Spells Certificate (46418)
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4391 - Incantation of Acid Bane
@@ -567,7 +567,7 @@ Give: 46418
     - TeachSpell: 4420 - Incantation of Weaken Lock
     - TeachSpell: 4342 - Incantation of Nullify Item Magic
 
-Give: 46419
+Give: Life Spells Certificate (46419)
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4291 - Incantation of Armor Self
@@ -610,7 +610,7 @@ Give: 46419
     - TeachSpell: 4346 - Incantation of Nullify Life Magic Self
     - TeachSpell: 4345 - Incantation of Nullify Life Magic Other
 
-Give: 46417
+Give: Creature Spells Certificate (46417)
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4503 - Incantation of Alchemy Ineptitude Other
@@ -702,7 +702,7 @@ Give: 46417
     - TeachSpell: 6123 - Incantation of Summoning Mastery Self
     - TeachSpell: 6136 - Incantation of Summoning Ineptitude Other
 
-Give: 46416
+Give: Combat Spells Certificate (46416)
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 4421 - Incantation of Acid Arc
@@ -750,7 +750,7 @@ Give: 46416
     - TeachSpell: 5378 - Incantation of Festering Curse
     - TeachSpell: 5386 - Incantation of Weakening Curse
 
-Give: 53406
+Give: Ring Spells Certificate (53406)
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 1783 - Searing Disc
@@ -762,7 +762,7 @@ Give: 53406
     - TeachSpell: 5361 - Clouded Soul
     - TeachSpell: 1789 - Tectonic Rifts
 
-Give: 53407
+Give: Wall Spells Certificate (53407)
     - TurnToTarget
     - Tell: I shall share part of what I know with you. Use it well.
     - TeachSpell: 1839 - Blistering Creeper
