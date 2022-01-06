@@ -459,7 +459,7 @@ Give: Western Forge Essence (30475)
         QuestFailure:
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x80
             - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Agent of Arcanum List (30675)
     - TurnToTarget
     - Tell: Thank you. If you need to see the list of tradable items again, just ask.
