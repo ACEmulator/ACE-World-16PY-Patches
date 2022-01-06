@@ -128,17 +128,9 @@ VALUES (87480,  0,  4,  0,    0,  450,  550,  550,  550,  275,  550,  550,  550,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87480,  2176,   2.02)  /* Enervation */
-     , (87480,  3126,   2.02)  /* Poison Health */
+     , (87480,  3126,   2.40)  /* Poison Health */
      , (87480,  4433,   2.02)  /* Incantation of Acid Stream */
      , (87480,  4439,   2.02)  /* Incantation of Flame Bolt */
      , (87480,  4451,   2.02)  /* Incantation of Lightning Bolt */
      , (87480,  4453,   2.02)  /* Incantation of Lightning Volley */
      , (87480,  4487,   2.02)  /* Incantation of Exhaustion Other */;
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (87480, 18 /* Scream */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3126 /* Poison Health */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
