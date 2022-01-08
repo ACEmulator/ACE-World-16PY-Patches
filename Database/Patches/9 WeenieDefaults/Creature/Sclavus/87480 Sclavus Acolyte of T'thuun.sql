@@ -128,7 +128,7 @@ VALUES (87480,  0,  4,  0,    0,  450,  550,  550,  550,  275,  550,  550,  550,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87480,  2176,   2.02)  /* Enervation */
-     , (87480,  3126,   2.40)  /* Poison Health */
+     , (87480,  3126,    2.4)  /* Poison Health */
      , (87480,  4433,   2.02)  /* Incantation of Acid Stream */
      , (87480,  4439,   2.02)  /* Incantation of Flame Bolt */
      , (87480,  4451,   2.02)  /* Incantation of Lightning Bolt */

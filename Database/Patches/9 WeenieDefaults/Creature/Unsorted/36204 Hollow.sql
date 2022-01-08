@@ -15,6 +15,8 @@ VALUES (36204,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36204,   1, True ) /* Stuck */
      , (36204,  19, False) /* Attackable */
+     , (36204,  52, True ) /* AiImmobile */
+     , (36204,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (36204,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
