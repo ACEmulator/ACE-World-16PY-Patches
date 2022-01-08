@@ -25,7 +25,7 @@ VALUES (46132,   1,      32768) /* ItemType - Caster */
      , (46132, 158,          2) /* WieldRequirements - RawSkill */
      , (46132, 159,         34) /* WieldSkillType - WarMagic */
      , (46132, 160,        330) /* WieldDifficulty */
-     , (46132, 263,         32) /* ResistanceModifierType */;
+     , (46132, 263,         32) /* ResistanceModifierType - Acid */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46132,  11, True ) /* IgnoreCollisions */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36851;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36851, 'ace36851-sinistershadow', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36851, 'ace36851-sinistershadow', 10, '2022-01-08 18:29:57') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36851,   1,         16) /* ItemType - Creature */
@@ -15,6 +15,8 @@ VALUES (36851,   1,         16) /* ItemType - Creature */
      , (36851,  27,          0) /* ArmorType - None */
      , (36851,  40,          2) /* CombatMode - Melee */
      , (36851,  68,          3) /* TargetingTactic - Random, Focused */
+     , (36851,  81,          1) /* MaxGeneratedObjects */
+     , (36851,  82,          0) /* InitGeneratedObjects */
      , (36851,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (36851, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (36851, 113,          1) /* Gender - Male */
@@ -52,6 +54,7 @@ VALUES (36851,   1,       5) /* HeartbeatInterval */
      , (36851,  34,     1.2) /* PowerupTime */
      , (36851,  36,       1) /* ChargeSpeed */
      , (36851,  39,       1) /* DefaultScale */
+     , (36851,  43,       2) /* GeneratorRadius */
      , (36851,  64,    0.85) /* ResistSlash */
      , (36851,  65,     0.5) /* ResistPierce */
      , (36851,  66,    0.67) /* ResistBludgeon */
@@ -161,6 +164,14 @@ VALUES (36851,    73,  2.036)  /* Frost Bolt V */
      , (36851,  1680,  2.009)  /* Stamina to Mana Self V */
      , (36851,  1703,  2.009)  /* Health to Mana Self V */;
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (36851,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36851, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (36851, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
@@ -168,3 +179,6 @@ VALUES (36851, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for Co
      , (36851, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (36851, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (36851, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36851, 1, 36846, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Champion Shadow (36846) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;

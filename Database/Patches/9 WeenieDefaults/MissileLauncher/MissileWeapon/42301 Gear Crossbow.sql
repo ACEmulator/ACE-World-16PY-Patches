@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42301;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42301, 'ace42301-gearcrossbow', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
+VALUES (42301, 'ace42301-gearcrossbow', 3, '2022-01-08 18:29:57') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42301,   1,        256) /* ItemType - MissileWeapon */
@@ -10,7 +10,6 @@ VALUES (42301,   1,        256) /* ItemType - MissileWeapon */
      , (42301,  16,          1) /* ItemUseable - No */
      , (42301,  18,          1) /* UiEffects - Magical */
      , (42301,  19,       6000) /* Value */
-     , (42301,  33,         -2) /* Bonded - Destroy */
      , (42301,  46,         32) /* DefaultCombatStyle - Crossbow */
      , (42301,  48,         47) /* WeaponSkill - MissileWeapons */
      , (42301,  49,         60) /* WeaponTime */
@@ -27,15 +26,11 @@ VALUES (42301,   1,        256) /* ItemType - MissileWeapon */
      , (42301, 158,          2) /* WieldRequirements - RawSkill */
      , (42301, 159,         47) /* WieldSkillType - MissileWeapons */
      , (42301, 160,        360) /* WieldDifficulty */
-     , (42301, 263,         64) /* ResistanceModifierType */
+     , (42301, 263,         64) /* ResistanceModifierType - Electric */
      , (42301, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42301,  11, True ) /* IgnoreCollisions */
-     , (42301,  13, True ) /* Ethereal */
-     , (42301,  14, True ) /* GravityStatus */
-     , (42301,  19, True ) /* Attackable */
-     , (42301,  22, True ) /* Inscribable */;
+VALUES (42301,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42301,   5,  -0.033) /* ManaRate */

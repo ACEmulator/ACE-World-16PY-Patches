@@ -83,6 +83,25 @@ Refuse: The Story of the Lost Sisters (87468)
 			- TakeItems: 87468, 1
 			- Goto: Reward
 
+Refuse: 72798
+	- TurnToTarget
+	- Tell: I may be a researcher, but I'm not an expert in ancient Falatacot texts. Find a translator for this, and we'll see if it's useful.
+
+Refuse: 72799
+	- TurnToTarget
+	- Tell: Is that what I think it is?"
+    - InqOwnsItems: 72799
+        TestSuccess:
+            - TakeItems: 72799, 1
+            - Tell: This is exactly what I was looking for!
+            - Tell: It's a much later period transcription of the lore we've been researching, so I'll need to crosscheck it against the older pieces in case the story evolved over time, but this still invaluable to our research here.
+            - Tell: I hope this'll do for compensation for your skills and time. You've given us a great leap forward here.
+            - AwardNoShareXP: 45,000,000
+            - AwardLuminance: 5,000
+            - Give: 48747
+            - Tell: And now, to send you to a place prepared for you to use that key...
+            - TeleportTarget: 0x654C068A [112.336998 -176.554001 0.005000] 0.917966 0.000000 0.000000 -0.396660
+
 GotoSet: Reward
 	- Delay: 1, Tell: This is exactly what I was looking for!
 	- Delay: 1, Tell: It's clearly only a small part of a larger story, but if I can assemble enough parts, I may be able to piece the whole thing together.

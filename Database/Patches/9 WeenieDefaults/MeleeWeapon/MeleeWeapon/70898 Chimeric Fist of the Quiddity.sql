@@ -27,7 +27,7 @@ VALUES (70898,   1,          1) /* ItemType - MeleeWeapon */
      , (70898, 158,          7) /* WieldRequirements - Level */
      , (70898, 159,          1) /* WieldSkillType - Axe */
      , (70898, 160,        120) /* WieldDifficulty */
-     , (70898, 263,          4) /* ResistanceModifierType */
+     , (70898, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (70898, 267,      10800) /* Lifespan */
      , (70898, 353,          1) /* WeaponType - Unarmed */;
 

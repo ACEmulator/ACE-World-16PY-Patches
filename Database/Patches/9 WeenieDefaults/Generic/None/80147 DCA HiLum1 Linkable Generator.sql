@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80147;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80147, 'DCAHiLum1LinkGen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (80147, 'ace80147-dcahilum1linkablegenerator', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80147,  66,          1) /* CheckpointStatus */

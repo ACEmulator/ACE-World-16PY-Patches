@@ -22,7 +22,7 @@ VALUES (43132,   1,        256) /* ItemType - MissileWeapon */
      , (43132,  52,          2) /* ParentLocation - LeftHand */
      , (43132,  53,          3) /* PlacementPosition - LeftHand */
      , (43132,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43132, 263,         64) /* ResistanceModifierType */
+     , (43132, 263,         64) /* ResistanceModifierType - Electric */
      , (43132, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

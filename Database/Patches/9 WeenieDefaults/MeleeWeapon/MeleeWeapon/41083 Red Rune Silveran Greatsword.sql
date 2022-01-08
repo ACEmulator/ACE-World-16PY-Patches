@@ -25,7 +25,7 @@ VALUES (41083,   1,          1) /* ItemType - MeleeWeapon */
      , (41083, 158,          7) /* WieldRequirements - Level */
      , (41083, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41083, 160,        140) /* WieldDifficulty */
-     , (41083, 263,          1) /* ResistanceModifierType */
+     , (41083, 263,          1) /* ResistanceModifierType - Slash */
      , (41083, 292,          2) /* Cleaving */
      , (41083, 353,         11) /* WeaponType - TwoHanded */;
 

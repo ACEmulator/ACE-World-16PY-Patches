@@ -24,7 +24,7 @@ VALUES (35550,   1,          1) /* ItemType - MeleeWeapon */
      , (35550, 107,      10000) /* ItemCurMana */
      , (35550, 108,      10000) /* ItemMaxMana */
      , (35550, 114,          0) /* Attuned - Normal */
-     , (35550, 263,          4) /* ResistanceModifierType */
+     , (35550, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (35550, 267,      10800) /* Lifespan */
      , (35550, 353,          7) /* WeaponType - Staff */;
 

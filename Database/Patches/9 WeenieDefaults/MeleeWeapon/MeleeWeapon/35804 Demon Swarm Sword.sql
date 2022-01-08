@@ -28,7 +28,7 @@ VALUES (35804,   1,          1) /* ItemType - MeleeWeapon */
      , (35804, 158,          2) /* WieldRequirements - RawSkill */
      , (35804, 159,         45) /* WieldSkillType - LightWeapons */
      , (35804, 160,        350) /* WieldDifficulty */
-     , (35804, 263,          1) /* ResistanceModifierType */
+     , (35804, 263,          1) /* ResistanceModifierType - Slash */
      , (35804, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

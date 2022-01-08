@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71553;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71553, 'ColoLinkW4bGEN', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (71553, 'ace71553-coloarenalinkablewave4bgenerator', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71553,  81,          0) /* MaxGeneratedObjects */

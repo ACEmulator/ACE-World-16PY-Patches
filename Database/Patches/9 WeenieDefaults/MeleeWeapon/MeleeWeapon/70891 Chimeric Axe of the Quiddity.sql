@@ -27,7 +27,7 @@ VALUES (70891,   1,          1) /* ItemType - MeleeWeapon */
      , (70891, 158,          7) /* WieldRequirements - Level */
      , (70891, 159,          1) /* WieldSkillType - Axe */
      , (70891, 160,        120) /* WieldDifficulty */
-     , (70891, 263,          1) /* ResistanceModifierType */
+     , (70891, 263,          1) /* ResistanceModifierType - Slash */
      , (70891, 267,      10800) /* Lifespan */
      , (70891, 353,          3) /* WeaponType - Axe */;
 
