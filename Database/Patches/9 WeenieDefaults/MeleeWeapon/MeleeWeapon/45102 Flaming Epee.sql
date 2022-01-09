@@ -8,7 +8,7 @@ VALUES (45102,   1,          1) /* ItemType - MeleeWeapon */
      , (45102,   5,        300) /* EncumbVal */
      , (45102,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45102,  16,          1) /* ItemUseable - No */
-     , (45102,  18,         33) /* UiEffects - Magical, Fire */
+     , (45102,  18,         32) /* UiEffects - Fire */
      , (45102,  19,        240) /* Value */
      , (45102,  44,          7) /* Damage */
      , (45102,  45,         16) /* DamageType - Fire */

@@ -8,7 +8,7 @@ VALUES (45103,   1,          1) /* ItemType - MeleeWeapon */
      , (45103,   5,        300) /* EncumbranceVal */
      , (45103,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45103,  16,          1) /* ItemUseable - No */
-     , (45103,  18,        129) /* UiEffects - Magical, Frost */
+     , (45103,  18,        128) /* UiEffects - Frost */
      , (45103,  19,        240) /* Value */
      , (45103,  44,          7) /* Damage */
      , (45103,  45,          8) /* DamageType - Cold */
