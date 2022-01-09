@@ -101,21 +101,21 @@ VALUES (0x7586703D,  2180, 0x58670188, 215.25, -120, -18, 0.707107, 0, 0, -0.707
 /* @teleloc 0x58670188 [215.250000 -120.000000 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7586703D, 0x7586702F, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x7586703D, 0x7586702F, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586703E,  2180, 0x58670262, 180, -95.161, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x58670262 [180.000000 -95.161003 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7586703E, 0x75867025, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x7586703E, 0x75867025, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586703F,  2180, 0x586702B3, 244.787, -139.991, 0, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x586702B3 [244.787003 -139.990997 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7586703F, 0x75867033, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x7586703F, 0x75867033, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75867041,   278, 0x586702FE, 160, -34.75, 12, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -218,70 +218,70 @@ VALUES (0x758670B9,  7924, 0x58670290, 200, -110, 0.005, 0.696707, 0, 0, 0.71735
 /* @teleloc 0x58670290 [200.000000 -110.000000 0.005000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758670B9, 0x758670BA, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x758670BB, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x758670BC, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670BD, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670BE, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670BF, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x758670C0, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670C1, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x758670C2, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x758670C5, '2019-02-10 00:00:00') /* Maryata bint Daris the Barkeep (49648) */
-     , (0x758670B9, 0x758670C6, '2019-02-10 00:00:00') /* Ruza bint Tinun the Armorer (49646) */
-     , (0x758670B9, 0x758670C7, '2019-02-10 00:00:00') /* Archmage Sammam al-Ashiz (49647) */
-     , (0x758670B9, 0x758670C8, '2019-02-10 00:00:00') /* Ulib ibn Ghunir the Weaponsmith (49656) */
-     , (0x758670B9, 0x758670C9, '2019-02-10 00:00:00') /* Tailor Istima al-Mahat (49655) */
-     , (0x758670B9, 0x758670CA, '2019-02-10 00:00:00') /* Waham ibn Fadyat the Shopkeeper (49654) */
-     , (0x758670B9, 0x758670CB, '2019-02-10 00:00:00') /* Barshid al-Juhir the Scribe (49653) */
-     , (0x758670B9, 0x758670CC, '2019-02-10 00:00:00') /* Adraha bint Safsan the Appraiser (49652) */
-     , (0x758670B9, 0x758670CD, '2019-02-10 00:00:00') /* Yahr ibn Ajaj the Bowyer (49649) */
-     , (0x758670B9, 0x758670CE, '2019-02-10 00:00:00') /* Ziya bint Balun the Grocer (49651) */
-     , (0x758670B9, 0x758670CF, '2019-02-10 00:00:00') /* Nashima al-Haruq the Healer (49650) */
-     , (0x758670B9, 0x758670D2, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x758670D3, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x758670D4, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670D5, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670D6, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x758670D7, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x758670D8, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670D9, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670DA, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x758670DB, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x758670DC, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x758670DD, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x758670DE, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670E3, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x758670E4, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x758670E5, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x758670E6, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x758670E7, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x758670E8, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x758670E9, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670EA, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x758670EB, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x758670EC, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x758670ED, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x758670EF, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x758670F0, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x7586710F, '2020-09-12 15:11:02') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x75867110, '2020-09-12 15:19:42') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x75867111, '2020-09-12 15:20:43') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x75867112, '2020-09-12 15:21:20') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x75867113, '2020-09-12 15:21:54') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x75867114, '2020-09-12 15:23:22') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x75867115, '2020-09-12 15:23:39') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x75867116, '2020-09-12 15:24:16') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x75867117, '2020-09-12 15:24:47') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x75867118, '2020-09-12 15:25:08') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x75867119, '2020-09-12 15:25:43') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x7586711A, '2020-09-12 15:26:38') /* Virindi Signat (49616) */
-     , (0x758670B9, 0x7586711B, '2020-09-12 15:27:22') /* Hollow Reaver (49613) */
-     , (0x758670B9, 0x7586711C, '2020-09-12 15:27:58') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x7586711D, '2020-09-12 15:28:34') /* Simulacrum Emulat (49611) */
-     , (0x758670B9, 0x7586711E, '2020-09-12 15:28:50') /* Simulacrum Mimic (49614) */
-     , (0x758670B9, 0x7586711F, '2020-09-12 15:29:39') /* Virindi Fulguris (49615) */
-     , (0x758670B9, 0x75867120, '2020-09-12 15:30:28') /* Virindi Signat (49616) */;
+VALUES (0x758670B9, 0x758670BA, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670BB, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670BC, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670BD, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670BE, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670BF, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670C0, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670C1, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670C2, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670C5, '2021-11-01 00:00:00') /* Maryata bint Daris the Barkeep (49648) */
+     , (0x758670B9, 0x758670C6, '2021-11-01 00:00:00') /* Ruza bint Tinun the Armorer (49646) */
+     , (0x758670B9, 0x758670C7, '2021-11-01 00:00:00') /* Archmage Sammam al-Ashiz (49647) */
+     , (0x758670B9, 0x758670C8, '2021-11-01 00:00:00') /* Ulib ibn Ghunir the Weaponsmith (49656) */
+     , (0x758670B9, 0x758670C9, '2021-11-01 00:00:00') /* Tailor Istima al-Mahat (49655) */
+     , (0x758670B9, 0x758670CA, '2021-11-01 00:00:00') /* Waham ibn Fadyat the Shopkeeper (49654) */
+     , (0x758670B9, 0x758670CB, '2021-11-01 00:00:00') /* Barshid al-Juhir the Scribe (49653) */
+     , (0x758670B9, 0x758670CC, '2021-11-01 00:00:00') /* Adraha bint Safsan the Appraiser (49652) */
+     , (0x758670B9, 0x758670CD, '2021-11-01 00:00:00') /* Yahr ibn Ajaj the Bowyer (49649) */
+     , (0x758670B9, 0x758670CE, '2021-11-01 00:00:00') /* Ziya bint Balun the Grocer (49651) */
+     , (0x758670B9, 0x758670CF, '2021-11-01 00:00:00') /* Nashima al-Haruq the Healer (49650) */
+     , (0x758670B9, 0x758670D2, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670D3, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670D4, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D5, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D6, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670D7, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670D8, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D9, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670DA, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670DB, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670DC, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670DD, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670DE, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670E3, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670E4, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670E5, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670E6, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670E7, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670E8, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670E9, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670EA, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670EB, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670EC, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670ED, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670EF, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670F0, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x7586710F, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x75867110, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x75867111, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x75867112, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x75867113, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x75867114, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x75867115, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x75867116, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x75867117, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x75867118, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x75867119, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x7586711A, '2021-11-01 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x7586711B, '2021-11-01 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x7586711C, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x7586711D, '2021-11-01 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x7586711E, '2021-11-01 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x7586711F, '2021-11-01 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x75867120, '2021-11-01 00:00:00') /* Virindi Signat (49616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670BA, 49611, 0x58670290, 200, -110, 0.005, 0.696707, 0, 0, 0.717356,  True, '2021-11-01 00:00:00'); /* Simulacrum Emulat */
@@ -492,14 +492,14 @@ VALUES (0x758670FC,  2180, 0x5867019E, 15.2444, -190.035, 0.055, 0.707107, 0, 0,
 /* @teleloc 0x5867019E [15.244400 -190.035004 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758670FC, 0x75867100, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x758670FC, 0x75867100, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670FD,  2180, 0x586701FF, 114.754, -189.986, 0.055, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x586701FF [114.753998 -189.985992 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758670FD, 0x7586710C, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x758670FD, 0x7586710C, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670FE, 72137, 0x58670215, 134.217, -190.274, 0, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Chorizite Chest */
@@ -646,8 +646,8 @@ VALUES (0x75867121, 72134, 0x58670140, 172.394, -118.029, -59.945, 0.707107, 0, 
 /* @teleloc 0x58670140 [172.393997 -118.028999 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75867121, 0x758670F5, '2019-02-10 00:00:00') /* Curator of Torment (49639) */
-     , (0x75867121, 0x758670FA, '2019-02-10 00:00:00') /* Portal Energy (46451) */;
+VALUES (0x75867121, 0x758670F5, '2021-11-01 00:00:00') /* Curator of Torment (49639) */
+     , (0x75867121, 0x758670FA, '2021-11-01 00:00:00') /* Portal Energy (46451) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75867122, 72133, 0x58670151, 199.495, -120.064, -60, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Scene Trigger */
@@ -658,11 +658,11 @@ VALUES (0x75867123, 72135, 0x58670140, 174.319, -118.02, -59.945, 0.707107, 0, 0
 /* @teleloc 0x58670140 [174.319000 -118.019997 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75867123, 0x758670F6, '2019-02-10 00:00:00') /* Town Crier (49642) */;
+VALUES (0x75867123, 0x758670F6, '2021-11-01 00:00:00') /* Town Crier (49642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75867124, 72136, 0x58670146, 176.169, -118.026, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Linkable Start Scene 3 Gen */
 /* @teleloc 0x58670146 [176.169006 -118.026001 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75867124, 0x758670C3, '2019-02-10 00:00:00') /* Simulacrum Shifter (49641) */;
+VALUES (0x75867124, 0x758670C3, '2021-11-01 00:00:00') /* Simulacrum Shifter (49641) */;

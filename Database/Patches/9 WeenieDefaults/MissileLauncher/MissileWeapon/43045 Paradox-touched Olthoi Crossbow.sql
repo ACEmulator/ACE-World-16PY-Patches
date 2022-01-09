@@ -31,7 +31,7 @@ VALUES (43045,   1,        256) /* ItemType - MissileWeapon */
      , (43045, 160,        360) /* WieldDifficulty */
      , (43045, 166,          1) /* SlayerCreatureType - Olthoi */
      , (43045, 204,         12) /* ElementalDamageBonus */
-     , (43045, 263,          2) /* ResistanceModifierType */
+     , (43045, 263,          2) /* ResistanceModifierType - Pierce */
      , (43045, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

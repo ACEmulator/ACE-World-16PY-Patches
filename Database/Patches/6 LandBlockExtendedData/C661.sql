@@ -37,17 +37,17 @@ VALUES (0x7C66100C,  7924, 0xC6610126, 162.324, 173.84, -11.545, -0.99999, 0, 0,
 /* @teleloc 0xC6610126 [162.324005 173.839996 -11.545000] -0.999990 0.000000 0.000000 -0.004562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C66100C, 0x7C66100D, '2021-10-25 15:49:08') /* Black Water Gatekeeper (87685) */
-     , (0x7C66100C, 0x7C66100E, '2021-10-25 15:49:40') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C66100F, '2021-10-25 15:49:47') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661010, '2021-10-25 15:49:54') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661011, '2021-10-25 15:50:03') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661012, '2021-10-25 15:50:12') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661013, '2021-10-25 15:50:36') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661014, '2021-10-25 15:50:48') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661015, '2021-10-25 15:54:22') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661016, '2021-10-25 15:54:48') /* Acolyte of the Depths (35859) */
-     , (0x7C66100C, 0x7C661017, '2021-10-25 15:55:10') /* Acolyte of the Depths (35859) */;
+VALUES (0x7C66100C, 0x7C66100D, '2021-11-08 06:01:47') /* Black Water Gatekeeper (87685) */
+     , (0x7C66100C, 0x7C66100E, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C66100F, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661010, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661011, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661012, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661013, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661014, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661015, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661016, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */
+     , (0x7C66100C, 0x7C661017, '2021-11-08 06:01:47') /* Acolyte of the Depths (35859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C66100D, 87685, 0xC6610121, 161.421, 181.475, -11.595, -0.449526, 0, 0, -0.893267,  True, '2021-11-08 06:01:47'); /* Black Water Gatekeeper */

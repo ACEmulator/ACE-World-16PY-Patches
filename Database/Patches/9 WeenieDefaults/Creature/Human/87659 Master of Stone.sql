@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87659;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87659, 'ace87659-masterofstone', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (87659, 'ace87659-masterofstone', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87659,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87659,   1, True ) /* Stuck */
      , (87659,   6, True ) /* AiUsesMana */
      , (87659,   7, True ) /* AiUseHumanMagicAnimations */
-     , (87659,  10, True ) /* AttackerAi */
      , (87659,  11, False) /* IgnoreCollisions */
      , (87659,  12, True ) /* ReportCollisions */
      , (87659,  13, False) /* Ethereal */;

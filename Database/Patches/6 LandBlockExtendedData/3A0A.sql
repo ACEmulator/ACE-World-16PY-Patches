@@ -5,7 +5,7 @@ VALUES (0x73A0A000,  7924, 0x3A0A001C, 84.3172, 83.8801, 0.055, -0.007625, 0, 0,
 /* @teleloc 0x3A0A001C [84.317200 83.880096 0.055000] -0.007625 0.000000 0.000000 0.999971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A0A000, 0x73A0A001, '2020-08-03 13:51:35') /* Coral Tower (38295) */;
+VALUES (0x73A0A000, 0x73A0A001, '2021-11-01 00:00:00') /* Coral Tower (38295) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A0A001, 38295, 0x3A0A001C, 84.3172, 83.8801, 0, -0.007625, 0, 0, 0.999971,  True, '2021-11-01 00:00:00'); /* Coral Tower */
@@ -16,18 +16,18 @@ VALUES (0x73A0A002,  7923, 0x3A0A001C, 83.6615, 77.4071, 0.055, -0.999987, 0, 0,
 /* @teleloc 0x3A0A001C [83.661499 77.407097 0.055000] -0.999987 0.000000 0.000000 -0.005091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A0A002, 0x73A0A003, '2020-08-03 13:52:33') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A004, '2020-08-03 13:52:35') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A005, '2020-08-03 13:52:36') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A006, '2020-08-03 13:52:38') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A007, '2020-08-03 13:52:39') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A008, '2020-08-03 13:52:40') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A009, '2020-08-03 13:52:41') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A00A, '2020-08-03 13:52:43') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A00B, '2020-08-03 13:52:44') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A00C, '2020-08-03 13:52:45') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A00D, '2020-08-03 13:52:46') /* Coral Golem (7507) */
-     , (0x73A0A002, 0x73A0A00E, '2020-08-03 13:52:47') /* Coral Golem (7507) */;
+VALUES (0x73A0A002, 0x73A0A003, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A004, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A005, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A006, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A007, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A008, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A009, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A00A, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A00B, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A00C, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A00D, '2021-11-01 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A002, 0x73A0A00E, '2021-11-01 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A0A003,  7507, 0x3A0A001C, 81.1941, 78.6321, 0.01, -0.8282, 0, 0, 0.560433,  True, '2021-11-01 00:00:00'); /* Coral Golem */

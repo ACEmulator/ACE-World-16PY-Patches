@@ -13,22 +13,22 @@ VALUES (0x7E733003,  4219, 0xE733010B, 66.0714, 108.685, 7.03666, -0.670805, 0, 
 /* @teleloc 0xE733010B [66.071404 108.684998 7.036660] -0.670805 0.000000 0.000000 -0.741634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E733003, 0x7E733007, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E73300C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E73300D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E73300E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (39017) */
-     , (0x7E733003, 0x7E73300F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733010, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733011, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733012, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733013, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733014, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733016, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733017, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733018, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E73301A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E733022, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
-     , (0x7E733003, 0x7E73302B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */;
+VALUES (0x7E733003, 0x7E733007, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300C, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300D, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300E, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (39017) */
+     , (0x7E733003, 0x7E73300F, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733010, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733011, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733012, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733013, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733014, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733016, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733017, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733018, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73301A, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733022, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73302B, '2021-11-01 00:00:00') /* Blighted Rank Moarsman (37421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E733007, 37421, 0xE7330101, 60.4846, 103.219, 12.6046, -0.717369, 0, 0, -0.696693,  True, '2021-11-01 00:00:00'); /* Blighted Rank Moarsman */

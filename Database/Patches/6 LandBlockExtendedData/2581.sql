@@ -125,7 +125,7 @@ VALUES (0x7258101F,  7923, 0x25810000, 111.105, 116.734, 220.005, 0.151545, 0, 0
 /* @teleloc 0x25810000 [111.105003 116.734001 220.005005] 0.151545 0.000000 0.000000 -0.988450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7258101F, 0x7258101E, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
+VALUES (0x7258101F, 0x7258101E, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72581025, 16919, 0x25810000, 88.2838, 84.372, 220, -0.737056, 0, 0, 0.675832, False, '2021-11-01 00:00:00'); /* Pedestal Weak Spot */
@@ -188,9 +188,9 @@ VALUES (0x72581038,  7923, 0x25810000, 167.264, 77.3958, 220.005, -0.988509, 0, 
 /* @teleloc 0x25810000 [167.264008 77.395798 220.005005] -0.988509 0.000000 0.000000 0.151164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72581038, 0x72581039, '2005-02-09 10:00:00') /* Town Crier (5772) */
-     , (0x72581038, 0x72581043, '2005-02-09 10:00:00') /* Fort Tethana Sentry (24493) */
-     , (0x72581038, 0x72581045, '2005-02-09 10:00:00') /* Small Creepy Statue (25986) */;
+VALUES (0x72581038, 0x72581039, '2021-11-01 00:00:00') /* Town Crier (5772) */
+     , (0x72581038, 0x72581043, '2021-11-01 00:00:00') /* Fort Tethana Sentry (24493) */
+     , (0x72581038, 0x72581045, '2021-11-01 00:00:00') /* Small Creepy Statue (25986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72581039,  5772, 0x25810000, 166.803, 78.545, 220.005, -0.9717, 0, 0, 0.236218,  True, '2021-11-01 00:00:00'); /* Town Crier */
@@ -201,7 +201,7 @@ VALUES (0x72581042,  2179, 0x25810000, 173.712, 83.9432, 220.005, -0.707107, 0, 
 /* @teleloc 0x25810000 [173.712006 83.943199 220.005005] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72581042, 0x72581044, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x72581042, 0x72581044, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72581043, 24493, 0x25810000, 176.171, 78.9351, 224.005, 0.892788, 0, 0, -0.450477,  True, '2021-11-01 00:00:00'); /* Fort Tethana Sentry */

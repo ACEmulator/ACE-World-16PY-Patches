@@ -23,7 +23,7 @@ VALUES (33102,   1,      32768) /* ItemType - Caster */
      , (33102, 158,          7) /* WieldRequirements - Level */
      , (33102, 159,          1) /* WieldSkillType - Axe */
      , (33102, 160,        140) /* WieldDifficulty */
-     , (33102, 263,          1) /* ResistanceModifierType */;
+     , (33102, 263,          1) /* ResistanceModifierType - Slash */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33102,  19, True ) /* Attackable */

@@ -37,7 +37,7 @@ VALUES (0x700C0029,  1154, 0x00C0019D, 80, -100, 0, 1, 0, 0, 0, False, '2021-11-
 /* @teleloc 0x00C0019D [80.000000 -100.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C0029, 0x700C002A, '2019-02-10 00:00:00') /* Harmonic Transference Field (37050) */;
+VALUES (0x700C0029, 0x700C002A, '2021-11-01 00:00:00') /* Harmonic Transference Field (37050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C002A, 37050, 0x00C0019D, 80, -100, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Harmonic Transference Field */
@@ -48,11 +48,11 @@ VALUES (0x700C002B,  1154, 0x00C0019B, 76.582, -82.7347, 0.01, -0.985553, 0, 0, 
 /* @teleloc 0x00C0019B [76.582001 -82.734703 0.010000] -0.985553 0.000000 0.000000 0.169369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C002B, 0x700C002C, '2019-02-10 00:00:00') /* Guardian (37043) */
-     , (0x700C002B, 0x700C002D, '2019-02-10 00:00:00') /* Guardian (37043) */
-     , (0x700C002B, 0x700C002E, '2019-02-10 00:00:00') /* Emissary of Asheron (37042) */
-     , (0x700C002B, 0x700C002F, '2019-02-10 00:00:00') /* Guardian (37043) */
-     , (0x700C002B, 0x700C0030, '2019-02-10 00:00:00') /* Guardian (37043) */;
+VALUES (0x700C002B, 0x700C002C, '2021-11-01 00:00:00') /* Guardian (37043) */
+     , (0x700C002B, 0x700C002D, '2021-11-01 00:00:00') /* Guardian (37043) */
+     , (0x700C002B, 0x700C002E, '2021-11-01 00:00:00') /* Emissary of Asheron (37042) */
+     , (0x700C002B, 0x700C002F, '2021-11-01 00:00:00') /* Guardian (37043) */
+     , (0x700C002B, 0x700C0030, '2021-11-01 00:00:00') /* Guardian (37043) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C002C, 37043, 0x00C0019B, 76.582, -82.7347, 0.01, -0.985553, 0, 0, 0.169369,  True, '2021-11-01 00:00:00'); /* Guardian */

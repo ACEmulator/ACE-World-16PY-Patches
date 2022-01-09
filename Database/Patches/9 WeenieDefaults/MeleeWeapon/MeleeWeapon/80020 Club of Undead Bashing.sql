@@ -27,7 +27,7 @@ VALUES (80020,   1,          1) /* ItemType - MeleeWeapon */
      , (80020, 150,        103) /* HookPlacement - Hook */
      , (80020, 151,          2) /* HookType - Wall */
      , (80020, 166,         14) /* SlayerCreatureType - Undead */
-     , (80020, 263,          4) /* ResistanceModifierType */
+     , (80020, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (80020, 267,      10800) /* Lifespan */
      , (80020, 353,          4) /* WeaponType - Mace */;
 

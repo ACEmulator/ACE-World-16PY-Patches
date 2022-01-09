@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35555;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35555, 'ace35555-burningbow', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
+VALUES (35555, 'ace35555-burningbow', 3, '2021-12-21 17:24:33') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35555,   1,        256) /* ItemType - MissileWeapon */
@@ -30,11 +30,7 @@ VALUES (35555,   1,        256) /* ItemType - MissileWeapon */
      , (35555, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35555,  11, True ) /* IgnoreCollisions */
-     , (35555,  13, True ) /* Ethereal */
-     , (35555,  14, True ) /* GravityStatus */
-     , (35555,  19, True ) /* Attackable */
-     , (35555,  22, True ) /* Inscribable */
+VALUES (35555,  22, True ) /* Inscribable */
      , (35555,  69, False) /* IsSellable */
      , (35555,  99, False) /* Ivoryable */;
 
@@ -47,7 +43,7 @@ VALUES (35555,   5,  -0.033) /* ManaRate */
      , (35555,  39,    1.25) /* DefaultScale */
      , (35555,  62,       1) /* WeaponOffense */
      , (35555,  63,     2.8) /* DamageMod */
-     , (35555, 136,       1) /* CriticalMultiplier */
+     , (35555, 136,     2.5) /* CriticalMultiplier */
      , (35555, 147,    0.25) /* CriticalFrequency */
      , (35555, 156,    0.05) /* ProcSpellRate */;
 

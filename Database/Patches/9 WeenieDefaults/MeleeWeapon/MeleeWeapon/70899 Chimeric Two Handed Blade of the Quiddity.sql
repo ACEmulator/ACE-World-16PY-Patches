@@ -27,7 +27,7 @@ VALUES (70899,   1,          1) /* ItemType - MeleeWeapon */
      , (70899, 158,          7) /* WieldRequirements - Level */
      , (70899, 159,          1) /* WieldSkillType - Axe */
      , (70899, 160,        120) /* WieldDifficulty */
-     , (70899, 263,          1) /* ResistanceModifierType */
+     , (70899, 263,          1) /* ResistanceModifierType - Slash */
      , (70899, 267,      10800) /* Lifespan */
      , (70899, 292,          2) /* Cleaving */
      , (70899, 353,         11) /* WeaponType - TwoHanded */;

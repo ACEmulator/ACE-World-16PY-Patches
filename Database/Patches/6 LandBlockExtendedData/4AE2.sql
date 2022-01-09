@@ -5,7 +5,7 @@ VALUES (0x74AE2000, 46310, 0x4AE2002E, 133, 143.5, 172, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x4AE2002E [133.000000 143.500000 172.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE2000, 0x74AE2001, '2021-08-10 13:21:51') /* Door (46311) */;
+VALUES (0x74AE2000, 0x74AE2001, '2021-11-07 08:12:46') /* Door (46311) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE2001, 46311, 0x4AE2002F, 123.5, 149.175, 172, 0, 0, 0, -1,  True, '2021-11-07 08:12:46'); /* Door */
@@ -24,20 +24,20 @@ VALUES (0x74AE201B,  1154, 0x4AE2003A, 180.638, 33.1438, 201.191, 1, 0, 0, 0, Fa
 /* @teleloc 0x4AE2003A [180.638000 33.143799 201.190994] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE201B, 0x74AE2030, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
-     , (0x74AE201B, 0x74AE2031, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
-     , (0x74AE201B, 0x74AE203F, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
-     , (0x74AE201B, 0x74AE2053, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
-     , (0x74AE201B, 0x74AE2059, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
-     , (0x74AE201B, 0x74AE205A, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
-     , (0x74AE201B, 0x74AE205C, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
-     , (0x74AE201B, 0x74AE205D, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
-     , (0x74AE201B, 0x74AE205F, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
-     , (0x74AE201B, 0x74AE2060, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
-     , (0x74AE201B, 0x74AE2062, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
-     , (0x74AE201B, 0x74AE2063, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
-     , (0x74AE201B, 0x74AE2068, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
-     , (0x74AE201B, 0x74AE2069, '2019-02-10 00:00:00') /* Spectral Archer (46502) */;
+VALUES (0x74AE201B, 0x74AE2030, '2021-11-07 08:12:46') /* Spectral Archer (46498) */
+     , (0x74AE201B, 0x74AE2031, '2021-11-07 08:12:46') /* Spectral Archer (46500) */
+     , (0x74AE201B, 0x74AE203F, '2021-11-07 08:12:46') /* Spectral Archer (46502) */
+     , (0x74AE201B, 0x74AE2053, '2021-11-07 08:12:46') /* Spectral Archer (46500) */
+     , (0x74AE201B, 0x74AE2059, '2021-11-07 08:12:46') /* Spectral Archer (46504) */
+     , (0x74AE201B, 0x74AE205A, '2021-11-07 08:12:46') /* Spectral Archer (46500) */
+     , (0x74AE201B, 0x74AE205C, '2021-11-07 08:12:46') /* Spectral Archer (46500) */
+     , (0x74AE201B, 0x74AE205D, '2021-11-07 08:12:46') /* Spectral Archer (46498) */
+     , (0x74AE201B, 0x74AE205F, '2021-11-07 08:12:46') /* Spectral Archer (46498) */
+     , (0x74AE201B, 0x74AE2060, '2021-11-07 08:12:46') /* Spectral Archer (46504) */
+     , (0x74AE201B, 0x74AE2062, '2021-11-07 08:12:46') /* Spectral Archer (46502) */
+     , (0x74AE201B, 0x74AE2063, '2021-11-07 08:12:46') /* Spectral Archer (46504) */
+     , (0x74AE201B, 0x74AE2068, '2021-11-07 08:12:46') /* Spectral Archer (46504) */
+     , (0x74AE201B, 0x74AE2069, '2021-11-07 08:12:46') /* Spectral Archer (46502) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE2030, 46498, 0x4AE2002E, 134.602, 138.233, 211.299, 0.456734, 0, 0, -0.889603,  True, '2021-11-07 08:12:46'); /* Spectral Archer */

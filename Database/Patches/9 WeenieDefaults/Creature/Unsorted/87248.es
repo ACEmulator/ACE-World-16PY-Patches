@@ -17,26 +17,6 @@ Use:
                         TestFailure:
                             - Goto: RandomRewards
 
-GotoSet: TitleRewards
-    - InqQuest: GiftBoxesFoundCounter
-        QuestSuccess:
-            - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
-            - DirectBroadcast: You also discover a Snow Tuskie Kennel deep within the gift box.
-            - Give: Snow Tuskie Kennel (47168)
-            - AddCharacterTitle: SeasonalSeeker
-            - DirectBroadcast: You have been granted the title of Seasonal Seeker!
-            - StampQuest: GiftBoxesWait
-            - EraseQuest: GiftBoxesFound
-            - EraseQuest: GiftBoxesFoundCounter
-        QuestFailure:
-            - InqQuestSolves: GiftBoxesFoundCounter, 1 - 1
-                QuestSuccess:
-                    - AddCharacterTitle: Gifted
-                    - DirectBroadcast: You have been granted the title of Gifted!
-                    - DirectBroadcast: %tqc of %tqm gift boxes found.
-                QuestFailure:
-                    - DirectBroadcast: %tqc of %tqm gift boxes found.
-
 GotoSet: RandomRewards, Probability: 0.125
     - DirectBroadcast: You reach into the gift box and discover an A'nekshay Token!
     - Give: 44240
@@ -76,3 +56,64 @@ GotoSet: RandomRewards, Probability: 1
     - DirectBroadcast: You reach into the gift box and discover a Stipend!
     - Give: 46423
     - Goto: TitleRewards
+
+GotoSet: TitleRewards, Probability: 0.33
+    - InqQuest: GiftBoxesFoundCounter
+        QuestSuccess:
+            - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
+            - DirectBroadcast: You also discover a Snow Tuskie Kennel deep within the gift box.
+            - Give: 47168
+            - AddCharacterTitle: SeasonalSeeker
+            - DirectBroadcast: You have been granted the title of Seasonal Seeker!
+            - StampQuest: GiftBoxesWait
+            - EraseQuest: GiftBoxesFound
+            - EraseQuest: GiftBoxesFoundCounter
+        QuestFailure:
+            - InqQuestSolves: GiftBoxesFoundCounter, 1 - 1
+                QuestSuccess:
+                    - AddCharacterTitle: Gifted
+                    - DirectBroadcast: You have been granted the title of Gifted!
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
+                QuestFailure:
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
+
+GotoSet: TitleRewards, Probability: 0.66
+    - InqQuest: GiftBoxesFoundCounter
+        QuestSuccess:
+            - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
+            - DirectBroadcast: You also discover a Polar Ursuin Lair deep within the gift box.
+            - Give: 39508
+            - AddCharacterTitle: SeasonalSeeker
+            - DirectBroadcast: You have been granted the title of Seasonal Seeker!
+            - StampQuest: GiftBoxesWait
+            - EraseQuest: GiftBoxesFound
+            - EraseQuest: GiftBoxesFoundCounter
+        QuestFailure:
+            - InqQuestSolves: GiftBoxesFoundCounter, 1 - 1
+                QuestSuccess:
+                    - AddCharacterTitle: Gifted
+                    - DirectBroadcast: You have been granted the title of Gifted!
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
+                QuestFailure:
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
+
+GotoSet: TitleRewards, Probability: 1
+    - InqQuest: GiftBoxesFoundCounter
+        QuestSuccess:
+            - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
+            - DirectBroadcast: You also discover an Enchanted Olthoi Egg deep within the gift box.
+            - Give: 43732
+            - AddCharacterTitle: SeasonalSeeker
+            - DirectBroadcast: You have been granted the title of Seasonal Seeker!
+            - StampQuest: GiftBoxesWait
+            - EraseQuest: GiftBoxesFound
+            - EraseQuest: GiftBoxesFoundCounter
+        QuestFailure:
+            - InqQuestSolves: GiftBoxesFoundCounter, 1 - 1
+                QuestSuccess:
+                    - AddCharacterTitle: Gifted
+                    - DirectBroadcast: You have been granted the title of Gifted!
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
+                QuestFailure:
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
+					

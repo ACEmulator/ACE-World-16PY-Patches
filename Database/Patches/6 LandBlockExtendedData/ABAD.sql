@@ -5,16 +5,16 @@ VALUES (0x7ABAD000, 15759, 0xABAD0100, 47.3543, 101.495, 74.805, -0.989148, 0, 0
 /* @teleloc 0xABAD0100 [47.354301 101.495003 74.805000] -0.989148 0.000000 0.000000 0.146921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAD000, 0x7ABAD004, '2021-11-01 16:16:31') /* Apple (258) */
-     , (0x7ABAD000, 0x7ABAD005, '2021-11-01 16:16:31') /* Renald's Old Mug (28844) */;
+VALUES (0x7ABAD000, 0x7ABAD004, '2021-11-01 00:00:00') /* Apple (258) */
+     , (0x7ABAD000, 0x7ABAD005, '2021-11-01 00:00:00') /* Renald's Old Mug (28844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAD001,  7924, 0xABAD0100, 46.3543, 104.164, 74.805, 0.877762, 0, 0, -0.479096, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xABAD0100 [46.354301 104.164001 74.805000] 0.877762 0.000000 0.000000 -0.479096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAD001, 0x7ABAD002, '2021-11-01 16:16:31') /* Drudge Servant (1631) */
-     , (0x7ABAD001, 0x7ABAD003, '2021-11-01 16:16:31') /* Drudge Slave (1632) */;
+VALUES (0x7ABAD001, 0x7ABAD002, '2021-11-01 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD003, '2021-11-01 00:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAD002,  1631, 0xABAD0100, 48.6489, 109.094, 74.805, 0.705975, 0, 0, -0.708236,  True, '2021-11-01 00:00:00'); /* Drudge Servant */

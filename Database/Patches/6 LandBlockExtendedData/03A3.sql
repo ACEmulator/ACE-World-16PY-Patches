@@ -13,34 +13,34 @@ VALUES (0x703A3002,  1154, 0x03A30215, 90.9907, -520.616, 0.006, 0.025913, 0, 0,
 /* @teleloc 0x03A30215 [90.990700 -520.616028 0.006000] 0.025913 0.000000 0.000000 -0.999664 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A3002, 0x703A3003, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A3004, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A3005, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A3006, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A3007, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A3002, 0x703A3008, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A3009, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A300A, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A300B, '2021-05-31 00:00:00') /* Tumerok Corporal (46768) */
-     , (0x703A3002, 0x703A300C, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A3002, 0x703A300D, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A3002, 0x703A300E, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A3002, 0x703A300F, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A3002, 0x703A3010, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3011, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3012, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3013, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3014, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3015, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3016, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3017, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3018, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A3019, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A301A, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A301B, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A301C, '2021-05-31 00:00:00') /* Northern Infiltrator Master (12131) */
-     , (0x703A3002, 0x703A301D, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A3002, 0x703A301E, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */;
+VALUES (0x703A3002, 0x703A3003, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A3004, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A3005, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A3006, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A3007, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A3002, 0x703A3008, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A3009, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A300A, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A300B, '2021-11-01 00:00:00') /* Tumerok Corporal (46768) */
+     , (0x703A3002, 0x703A300C, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A3002, 0x703A300D, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A3002, 0x703A300E, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A3002, 0x703A300F, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A3002, 0x703A3010, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3011, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3012, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3013, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3014, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3015, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3016, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3017, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3018, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A3019, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A301A, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A301B, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A301C, '2021-11-01 00:00:00') /* Northern Infiltrator Master (12131) */
+     , (0x703A3002, 0x703A301D, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A3002, 0x703A301E, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A3003, 46768, 0x03A30215, 90.9907, -520.616, 0.006, 0.025913, 0, 0, -0.999664,  True, '2021-11-01 00:00:00'); /* Tumerok Corporal */

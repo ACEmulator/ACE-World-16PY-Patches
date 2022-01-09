@@ -29,7 +29,7 @@ VALUES (71265,   1,          1) /* ItemType - MeleeWeapon */
      , (71265, 158,          2) /* WieldRequirements - RawSkill */
      , (71265, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (71265, 160,        400) /* WieldDifficulty */
-     , (71265, 263,          8) /* ResistanceModifierType */;
+     , (71265, 263,          8) /* ResistanceModifierType - Cold */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71265,  22, True ) /* Inscribable */

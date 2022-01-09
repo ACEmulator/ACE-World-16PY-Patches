@@ -9,61 +9,61 @@ VALUES (0x700CF0ED,  1154, 0x00CF0551, 66.2, -101.329, -5.99321, 0.707107, 0, 0,
 /* @teleloc 0x00CF0551 [66.199997 -101.329002 -5.993210] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700CF0ED, 0x700CF0EE, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF0EF, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF0F0, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF0F1, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF0F2, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF0F3, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF0F4, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF0F5, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF0F6, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF0F7, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF0F8, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF0F9, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF0FA, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF0FB, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF0FC, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF0FD, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF0FE, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF0FF, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF100, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF101, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF102, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF103, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF104, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF105, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF106, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF107, '2019-02-10 00:00:00') /* Barbaric Mukkir (31897) */
-     , (0x700CF0ED, 0x700CF108, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF109, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF10A, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF10B, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF10C, '2019-02-10 00:00:00') /* Barbaric Mukkir (31897) */
-     , (0x700CF0ED, 0x700CF10D, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF10E, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF10F, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF110, '2019-02-10 00:00:00') /* Barbaric Mukkir (31897) */
-     , (0x700CF0ED, 0x700CF111, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF112, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF113, '2019-02-10 00:00:00') /* Barbaric Mukkir (31897) */
-     , (0x700CF0ED, 0x700CF114, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF115, '2019-02-10 00:00:00') /* Barbaric Mukkir (31897) */
-     , (0x700CF0ED, 0x700CF116, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF117, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF118, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700CF0ED, 0x700CF119, '2019-02-10 00:00:00') /* Barbaric Mukkir (31897) */
-     , (0x700CF0ED, 0x700CF11A, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF11B, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF11C, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700CF0ED, 0x700CF11D, '2019-02-10 00:00:00') /* Twisted Shadow (32791) */
-     , (0x700CF0ED, 0x700CF11E, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF11F, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF120, '2019-02-10 00:00:00') /* Barbaric Mukkir (31897) */
-     , (0x700CF0ED, 0x700CF121, '2019-02-10 00:00:00') /* Twisted Shadow (32790) */
-     , (0x700CF0ED, 0x700CF122, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x700CF0ED, 0x700CF123, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700CF0ED, 0x700CF124, '2019-02-10 00:00:00') /* The Black Breath (8583) */;
+VALUES (0x700CF0ED, 0x700CF0EE, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF0EF, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF0F0, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF0F1, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF0F2, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF0F3, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF0F4, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF0F5, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF0F6, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF0F7, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF0F8, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF0F9, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF0FA, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF0FB, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF0FC, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF0FD, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF0FE, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF0FF, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF100, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF101, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF102, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF103, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF104, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF105, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF106, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF107, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
+     , (0x700CF0ED, 0x700CF108, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF109, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF10A, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF10B, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF10C, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
+     , (0x700CF0ED, 0x700CF10D, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF10E, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF10F, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF110, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
+     , (0x700CF0ED, 0x700CF111, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF112, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF113, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
+     , (0x700CF0ED, 0x700CF114, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF115, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
+     , (0x700CF0ED, 0x700CF116, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF117, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF118, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700CF0ED, 0x700CF119, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
+     , (0x700CF0ED, 0x700CF11A, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF11B, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF11C, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700CF0ED, 0x700CF11D, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
+     , (0x700CF0ED, 0x700CF11E, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF11F, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF120, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
+     , (0x700CF0ED, 0x700CF121, '2021-11-01 00:00:00') /* Twisted Shadow (32790) */
+     , (0x700CF0ED, 0x700CF122, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x700CF0ED, 0x700CF123, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700CF0ED, 0x700CF124, '2021-11-01 00:00:00') /* The Black Breath (8583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CF0EE, 32790, 0x00CF0551, 66.2, -101.329, -5.99321, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Twisted Shadow */
@@ -290,7 +290,7 @@ VALUES (0x700CF125,  5085, 0x00CF0101, 147.179, -26.1525, -71.9305, 0.286851, 0,
 /* @teleloc 0x00CF0101 [147.179001 -26.152500 -71.930496] 0.286851 0.000000 0.000000 0.957975 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700CF125, 0x700CF126, '2019-02-10 00:00:00') /* Lore of the Dark Spiral (32848) */;
+VALUES (0x700CF125, 0x700CF126, '2021-11-01 00:00:00') /* Lore of the Dark Spiral (32848) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CF126, 32848, 0x00CF0101, 147.179, -26.1525, -71.9305, 0.286851, 0, 0, 0.957975,  True, '2021-11-01 00:00:00'); /* Lore of the Dark Spiral */

@@ -13,100 +13,100 @@ VALUES (0x7007A090,  4219, 0x007A0574, 58.746, -107.873, 0, 0.793748, 0, 0, 0.60
 /* @teleloc 0x007A0574 [58.745998 -107.873001 0.000000] 0.793748 0.000000 0.000000 0.608246 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7007A090, 0x7007A091, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A092, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A093, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A094, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A095, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A096, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A097, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A098, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A099, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A09A, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A09B, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A09C, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A09D, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A09E, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A09F, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0A0, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0A1, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0A2, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0A3, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0A4, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0A5, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0A6, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0A7, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0A8, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0A9, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0AA, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0AB, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0B0, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0B1, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0B2, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0B3, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0B4, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0B5, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0B6, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0B7, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0B8, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0B9, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0BA, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0BB, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0BC, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0BD, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0BE, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0BF, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0C0, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0C1, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0C2, '2019-02-10 00:00:00') /* Matriarch Mirta'kir (34755) */
-     , (0x7007A090, 0x7007A0C3, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0C4, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0C5, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0C6, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0C7, '2019-02-10 00:00:00') /* Guruk Spore Seeker (34799) */
-     , (0x7007A090, 0x7007A0C8, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0C9, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0CA, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0CB, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0CC, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0CD, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
-     , (0x7007A090, 0x7007A0CE, '2019-02-10 00:00:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0D4, '2021-03-12 16:42:26') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0D5, '2021-03-12 16:42:50') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0D6, '2021-03-12 16:43:33') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A0D7, '2021-03-12 16:43:37') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A0D8, '2021-03-12 16:43:58') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0D9, '2021-03-12 16:44:16') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0DA, '2021-03-12 16:44:35') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0DB, '2021-03-15 14:08:13') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0DE, '2021-03-15 14:10:22') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0DF, '2021-03-15 14:11:00') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0E0, '2021-03-15 14:11:31') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0E1, '2021-03-15 14:11:40') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0E2, '2021-03-15 14:12:26') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0E3, '2021-03-15 14:12:39') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0E4, '2021-03-15 14:12:58') /* Guruk Marauder (34791) */
-     , (0x7007A090, 0x7007A0E5, '2021-03-15 14:13:18') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0E6, '2021-03-15 14:16:29') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0E7, '2021-03-15 14:16:41') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0E8, '2021-03-15 14:17:10') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0E9, '2021-03-15 14:17:21') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0EA, '2021-03-15 14:17:38') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0EB, '2021-03-15 14:18:06') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0EC, '2021-03-15 14:18:32') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0ED, '2021-03-15 14:19:04') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0EE, '2021-03-15 14:19:17') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0EF, '2021-03-15 15:13:14') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0F0, '2021-03-15 15:13:24') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0F1, '2021-03-15 15:14:39') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A0F2, '2021-03-15 15:14:45') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A0F3, '2021-03-15 15:15:31') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A0F4, '2021-03-15 15:15:35') /* Mudwort Thrungus (31024) */
-     , (0x7007A090, 0x7007A0F5, '2021-03-15 15:45:55') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0F6, '2021-03-15 15:46:02') /* Guruk Monstrosity (34793) */
-     , (0x7007A090, 0x7007A0F7, '2021-03-15 15:46:35') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0F8, '2021-03-15 15:46:47') /* Guruk Gorefiend (34787) */
-     , (0x7007A090, 0x7007A0F9, '2021-03-15 16:13:17') /* Guruk Marauder (34791) */;
+VALUES (0x7007A090, 0x7007A091, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A092, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A093, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A094, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A095, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A096, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A097, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A098, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A099, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A09A, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A09B, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A09C, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A09D, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A09E, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A09F, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0A0, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0A1, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0A2, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0A3, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0A4, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0A5, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0A6, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0A7, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0A8, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0A9, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0AA, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0AB, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0B0, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0B1, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0B2, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0B3, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0B4, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0B5, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0B6, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0B7, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0B8, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0B9, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0BA, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0BB, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0BC, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0BD, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0BE, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0BF, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0C0, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0C1, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0C2, '2021-11-01 00:00:00') /* Matriarch Mirta'kir (34755) */
+     , (0x7007A090, 0x7007A0C3, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0C4, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0C5, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0C6, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0C7, '2021-11-01 00:00:00') /* Guruk Spore Seeker (34799) */
+     , (0x7007A090, 0x7007A0C8, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0C9, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0CA, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0CB, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0CC, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0CD, '2021-11-01 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x7007A090, 0x7007A0CE, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0D4, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0D5, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0D6, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A0D7, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A0D8, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0D9, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0DA, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0DB, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0DE, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0DF, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0E0, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0E1, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0E2, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0E3, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0E4, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */
+     , (0x7007A090, 0x7007A0E5, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0E6, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0E7, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0E8, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0E9, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0EA, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0EB, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0EC, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0ED, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0EE, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0EF, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0F0, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0F1, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A0F2, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A0F3, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A0F4, '2021-11-01 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x7007A090, 0x7007A0F5, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0F6, '2021-11-01 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x7007A090, 0x7007A0F7, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0F8, '2021-11-01 00:00:00') /* Guruk Gorefiend (34787) */
+     , (0x7007A090, 0x7007A0F9, '2021-11-01 00:00:00') /* Guruk Marauder (34791) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007A091, 31024, 0x007A0574, 58.746, -107.873, 0, 0.793748, 0, 0, 0.608246,  True, '2021-11-01 00:00:00'); /* Mudwort Thrungus */
@@ -345,7 +345,7 @@ VALUES (0x7007A0CF,  7924, 0x007A0224, 68.6927, -249.905, -23.945, -0.960663, 0,
 /* @teleloc 0x007A0224 [68.692703 -249.904999 -23.945000] -0.960663 0.000000 0.000000 -0.277717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7007A0CF, 0x7007A0D0, '2021-03-11 16:37:47') /* BoshBosh StopGap (87310) */;
+VALUES (0x7007A0CF, 0x7007A0D0, '2021-11-01 00:00:00') /* BoshBosh StopGap (87310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007A0D0, 87310, 0x007A0224, 69.0902, -249.655, -23.995, -0.960663, 0, 0, -0.277717,  True, '2021-11-01 00:00:00'); /* BoshBosh StopGap */

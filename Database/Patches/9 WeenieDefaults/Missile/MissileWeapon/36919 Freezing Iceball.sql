@@ -25,7 +25,7 @@ VALUES (36919,   1,        256) /* ItemType - MissileWeapon */
      , (36919, 106,        440) /* ItemSpellcraft */
      , (36919, 107,        200) /* ItemCurMana */
      , (36919, 108,        200) /* ItemMaxMana */
-     , (36919, 263,          8) /* ResistanceModifierType */
+     , (36919, 263,          8) /* ResistanceModifierType - Cold */
      , (36919, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

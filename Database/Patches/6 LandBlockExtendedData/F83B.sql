@@ -53,30 +53,30 @@ VALUES (0x7F83B00C,  7924, 0xF83B0193, 215.251, 81.979, -22.445, 0.585401, 0, 0,
 /* @teleloc 0xF83B0193 [215.251007 81.978996 -22.445000] 0.585401 0.000000 0.000000 -0.810744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F83B00C, 0x7F83B00D, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B00E, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B013, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B014, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B015, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B016, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B017, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B018, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B019, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B01A, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B01B, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B01C, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B01D, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
-     , (0x7F83B00C, 0x7F83B01E, '2020-08-21 00:00:00') /* Bandit Mana Hunter Boss (38403) */
-     , (0x7F83B00C, 0x7F83B01F, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B020, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B021, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B022, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B023, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B024, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B025, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B026, '2020-08-21 00:00:00') /* Bandit Mana Hunter (38402) */
-     , (0x7F83B00C, 0x7F83B027, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7F83B00C, 0x7F83B028, '2020-08-21 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */;
+VALUES (0x7F83B00C, 0x7F83B00D, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B00E, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B013, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B014, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B015, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B016, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B017, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B018, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B019, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B01A, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B01B, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B01C, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B01D, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7F83B00C, 0x7F83B01E, '2021-11-01 00:00:00') /* Bandit Mana Hunter Boss (38403) */
+     , (0x7F83B00C, 0x7F83B01F, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B020, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B021, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B022, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B023, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B024, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B025, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B026, '2021-11-01 00:00:00') /* Bandit Mana Hunter (38402) */
+     , (0x7F83B00C, 0x7F83B027, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7F83B00C, 0x7F83B028, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F83B00D, 38402, 0xF83B0193, 215.251, 81.979, -22.445, 0.585401, 0, 0, -0.810744,  True, '2021-11-01 00:00:00'); /* Bandit Mana Hunter */

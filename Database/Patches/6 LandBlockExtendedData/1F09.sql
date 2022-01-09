@@ -5,13 +5,13 @@ VALUES (0x71F093E8, 24129, 0x1F090007, 7.66896, 165.012, -0.095, 0.130413, 0, 0,
 /* @teleloc 0x1F090007 [7.668960 165.011993 -0.095000] 0.130413 0.000000 0.000000 0.991460 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F093E8, 0x71F093E9, '2019-04-08 08:19:57') /* Fire Golem (31874) */
-     , (0x71F093E8, 0x71F093EA, '2019-04-08 08:19:57') /* Fire Golem (31874) */
-     , (0x71F093E8, 0x71F093EB, '2019-04-08 08:19:57') /* Fire Golem (31874) */
-     , (0x71F093E8, 0x71F093EC, '2019-04-08 08:19:57') /* Fire Golem (31874) */
-     , (0x71F093E8, 0x71F093ED, '2019-04-08 08:19:57') /* Fire Golem (31874) */
-     , (0x71F093E8, 0x71F093EE, '2019-04-08 08:19:57') /* Fire Golem (31874) */
-     , (0x71F093E8, 0x71F093EF, '2019-04-08 08:19:57') /* Fire Golem (31874) */;
+VALUES (0x71F093E8, 0x71F093E9, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71F093E8, 0x71F093EA, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71F093E8, 0x71F093EB, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71F093E8, 0x71F093EC, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71F093E8, 0x71F093ED, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71F093E8, 0x71F093EE, '2021-11-01 00:00:00') /* Fire Golem (31874) */
+     , (0x71F093E8, 0x71F093EF, '2021-11-01 00:00:00') /* Fire Golem (31874) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F093E9, 31874, 0x1F090007, 6.38102, 158.867, -0.095, -0.143715, 0, 0, 0.989619,  True, '2021-11-01 00:00:00'); /* Fire Golem */

@@ -5,14 +5,14 @@ VALUES (0x74AE3000, 46310, 0x4AE30013, 71.5, 56.5, 172, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x4AE30013 [71.500000 56.500000 172.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE3000, 0x74AE3001, '2021-08-10 13:21:51') /* Door (46311) */;
+VALUES (0x74AE3000, 0x74AE3001, '2021-11-07 08:12:46') /* Door (46311) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE3001, 46311, 0x4AE3001B, 77.15, 67.5, 172, -0.707107, 0, 0, -0.707107,  True, '2021-11-07 08:12:46'); /* Door */
 /* @teleloc 0x4AE3001B [77.150002 67.500000 172.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE3001, 0x74AE3019, '2021-08-10 13:21:51') /* Lock (46456) */;
+VALUES (0x74AE3001, 0x74AE3019, '2021-11-07 08:12:46') /* Lock (46456) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE3002, 46312, 0x4AE30013, 66.85, 67.5, 172, 0.707107, 0, 0, -0.707107, False, '2021-11-07 08:12:46'); /* Door */
@@ -27,13 +27,13 @@ VALUES (0x74AE3012,  1154, 0x4AE30029, 126.256, 12.3157, 211.41, -0.997576, 0, 0
 /* @teleloc 0x4AE30029 [126.255997 12.315700 211.410004] -0.997576 0.000000 0.000000 -0.069580 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE3012, 0x74AE3013, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
-     , (0x74AE3012, 0x74AE3021, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
-     , (0x74AE3012, 0x74AE3024, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
-     , (0x74AE3012, 0x74AE3025, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
-     , (0x74AE3012, 0x74AE302A, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
-     , (0x74AE3012, 0x74AE302B, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
-     , (0x74AE3012, 0x74AE302C, '2019-02-10 00:00:00') /* Spectral Archer (46504) */;
+VALUES (0x74AE3012, 0x74AE3013, '2021-11-07 08:12:46') /* Spectral Archer (46500) */
+     , (0x74AE3012, 0x74AE3021, '2021-11-07 08:12:46') /* Spectral Archer (46502) */
+     , (0x74AE3012, 0x74AE3024, '2021-11-07 08:12:46') /* Spectral Archer (46504) */
+     , (0x74AE3012, 0x74AE3025, '2021-11-07 08:12:46') /* Spectral Archer (46500) */
+     , (0x74AE3012, 0x74AE302A, '2021-11-07 08:12:46') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE302B, '2021-11-07 08:12:46') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE302C, '2021-11-07 08:12:46') /* Spectral Archer (46504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE3013, 46500, 0x4AE30029, 126.256, 12.3157, 211.41, -0.997576, 0, 0, -0.06958,  True, '2021-11-07 08:12:46'); /* Spectral Archer */

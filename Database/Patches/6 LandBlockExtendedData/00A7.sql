@@ -41,7 +41,7 @@ VALUES (0x700A7092,  8410, 0x00A701A9, 125.218, -60, 36, -0.707107, 0, 0, -0.707
 /* @teleloc 0x00A701A9 [125.218002 -60.000000 36.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A7092, 0x700A7034, '2019-02-10 00:00:00') /* Button (269) */;
+VALUES (0x700A7092, 0x700A7034, '2021-11-01 00:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A709C,  5624, 0x00A70201, 30.01, -64.85, 54, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -68,93 +68,93 @@ VALUES (0x700A70BC,  1154, 0x00A701F6, 41.4195, -64.6665, 48.029, 0.995673, 0, 0
 /* @teleloc 0x00A701F6 [41.419498 -64.666496 48.028999] 0.995673 0.000000 0.000000 0.092924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A70BC, 0x700A70BE, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70BF, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70C0, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70C1, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70C2, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70C3, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70C4, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70C5, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70C6, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70C7, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70C8, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70C9, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70CA, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70CB, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70CC, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70CD, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70CE, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70CF, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70D0, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70D1, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70D2, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70D3, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70D4, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70D5, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70D6, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70D7, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70D8, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70D9, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70DA, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70DB, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70DC, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70DD, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70DE, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70DF, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E0, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E1, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E2, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E3, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E4, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700A70BC, 0x700A70E5, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700A70BC, 0x700A70E6, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E7, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E8, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70E9, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70EA, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70EB, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70EC, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700A70BC, 0x700A70ED, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700A70BC, 0x700A70EE, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70EF, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70F0, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A70F1, '2019-02-10 00:00:00') /* Shade of Bael'Zharon (36928) */
-     , (0x700A70BC, 0x700A70F2, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70F3, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70F4, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70F5, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70F6, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70F7, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70F8, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A70F9, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70FA, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70FB, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70FC, '2019-02-10 00:00:00') /* Thief of Dreams (36929) */
-     , (0x700A70BC, 0x700A70FD, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70FE, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A70FF, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A7100, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7101, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700A70BC, 0x700A7102, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700A70BC, 0x700A7103, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A7104, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7105, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7106, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
-     , (0x700A70BC, 0x700A7107, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7108, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7109, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A710A, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A710B, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A710C, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A710D, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A710E, '2019-02-10 00:00:00') /* The Black Breath (8583) */
-     , (0x700A70BC, 0x700A710F, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A7111, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
-     , (0x700A70BC, 0x700A7112, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7113, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7114, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
-     , (0x700A70BC, 0x700A7115, '2019-02-10 00:00:00') /* Dream Marauder (36931) */;
+VALUES (0x700A70BC, 0x700A70BE, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70BF, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70C0, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70C1, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70C2, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70C3, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70C4, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70C5, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70C6, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70C7, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70C8, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70C9, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70CA, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70CB, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70CC, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70CD, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70CE, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70CF, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70D0, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70D1, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70D2, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70D3, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70D4, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70D5, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70D6, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70D7, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70D8, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70D9, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70DA, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70DB, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70DC, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70DD, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70DE, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70DF, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E0, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E1, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E2, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E3, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E4, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700A70BC, 0x700A70E5, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700A70BC, 0x700A70E6, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E7, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E8, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70E9, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70EA, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70EB, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70EC, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700A70BC, 0x700A70ED, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700A70BC, 0x700A70EE, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70EF, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70F0, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A70F1, '2021-11-01 00:00:00') /* Shade of Bael'Zharon (36928) */
+     , (0x700A70BC, 0x700A70F2, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70F3, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70F4, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70F5, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70F6, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70F7, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70F8, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A70F9, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70FA, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70FB, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70FC, '2021-11-01 00:00:00') /* Thief of Dreams (36929) */
+     , (0x700A70BC, 0x700A70FD, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70FE, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A70FF, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A7100, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7101, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700A70BC, 0x700A7102, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700A70BC, 0x700A7103, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A7104, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7105, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7106, '2021-11-01 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x700A70BC, 0x700A7107, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7108, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7109, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A710A, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A710B, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A710C, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A710D, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A710E, '2021-11-01 00:00:00') /* The Black Breath (8583) */
+     , (0x700A70BC, 0x700A710F, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A7111, '2021-11-01 00:00:00') /* Dream Marauder (36931) */
+     , (0x700A70BC, 0x700A7112, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7113, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7114, '2021-11-01 00:00:00') /* Bile Grievver (22900) */
+     , (0x700A70BC, 0x700A7115, '2021-11-01 00:00:00') /* Dream Marauder (36931) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A70BE, 36931, 0x00A70227, 89.3646, -68.5628, 54.029, -0.461622, 0, 0, -0.887077,  True, '2021-11-01 00:00:00'); /* Dream Marauder */
@@ -509,7 +509,7 @@ VALUES (0x700A7116,  1154, 0x00A70249, 179.865, -59.9439, 54.0065, -0.270885, 0,
 /* @teleloc 0x00A70249 [179.865005 -59.943901 54.006500] -0.270885 0.000000 0.000000 -0.962612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A7116, 0x700A7118, '2019-02-10 00:00:00') /* Shade of Dule (36926) */;
+VALUES (0x700A7116, 0x700A7118, '2021-11-01 00:00:00') /* Shade of Dule (36926) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A7118, 36926, 0x00A70249, 180, -60, 54.0065, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Shade of Dule */

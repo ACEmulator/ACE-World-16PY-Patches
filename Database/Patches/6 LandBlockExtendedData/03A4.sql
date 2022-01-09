@@ -13,40 +13,40 @@ VALUES (0x703A4008,  1154, 0x03A4014B, 54.4837, -50.4637, -5.99545, -0.746812, 0
 /* @teleloc 0x03A4014B [54.483700 -50.463699 -5.995450] -0.746812 0.000000 0.000000 -0.665035 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A4008, 0x703A4009, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A4008, 0x703A400A, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A4008, 0x703A400B, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A4008, 0x703A400C, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A4008, 0x703A400D, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A4008, 0x703A400E, '2021-05-31 00:00:00') /* Peerless Drudge (24282) */
-     , (0x703A4008, 0x703A400F, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4010, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4011, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4012, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4013, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4014, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4015, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4016, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4017, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4018, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4019, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A401A, '2021-05-31 00:00:00') /* Virindi Consul (23489) */
-     , (0x703A4008, 0x703A401B, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A401C, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A401D, '2021-05-31 00:00:00') /* Virindi Consul (23489) */
-     , (0x703A4008, 0x703A401E, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A401F, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4020, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4021, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4022, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4023, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4024, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4025, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4026, '2021-05-31 00:00:00') /* The Crafter (12129) */
-     , (0x703A4008, 0x703A4027, '2021-05-31 00:00:00') /* Duplicitous Simulacrum (46767) */
-     , (0x703A4008, 0x703A4028, '2021-05-31 00:00:00') /* Virindi Consul (23489) */
-     , (0x703A4008, 0x703A4029, '2021-05-31 00:00:00') /* Virindi Consul (23489) */
-     , (0x703A4008, 0x703A402A, '2021-05-31 00:00:00') /* Virindi Consul (23489) */;
+VALUES (0x703A4008, 0x703A4009, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A4008, 0x703A400A, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A4008, 0x703A400B, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A4008, 0x703A400C, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A4008, 0x703A400D, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A4008, 0x703A400E, '2021-11-01 00:00:00') /* Peerless Drudge (24282) */
+     , (0x703A4008, 0x703A400F, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4010, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4011, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4012, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4013, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4014, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4015, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4016, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4017, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4018, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4019, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A401A, '2021-11-01 00:00:00') /* Virindi Consul (23489) */
+     , (0x703A4008, 0x703A401B, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A401C, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A401D, '2021-11-01 00:00:00') /* Virindi Consul (23489) */
+     , (0x703A4008, 0x703A401E, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A401F, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4020, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4021, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4022, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4023, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4024, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4025, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4026, '2021-11-01 00:00:00') /* The Crafter (12129) */
+     , (0x703A4008, 0x703A4027, '2021-11-01 00:00:00') /* Duplicitous Simulacrum (46767) */
+     , (0x703A4008, 0x703A4028, '2021-11-01 00:00:00') /* Virindi Consul (23489) */
+     , (0x703A4008, 0x703A4029, '2021-11-01 00:00:00') /* Virindi Consul (23489) */
+     , (0x703A4008, 0x703A402A, '2021-11-01 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A4009, 24282, 0x03A4014B, 54.4837, -50.4637, -5.99545, -0.746812, 0, 0, -0.665035,  True, '2021-11-01 00:00:00'); /* Peerless Drudge */

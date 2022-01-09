@@ -293,19 +293,19 @@ VALUES (0x7596B069,  1154, 0x596B0115, 130, -16.286, 0, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x596B0115 [130.000000 -16.285999 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7596B069, 0x7596B06A, '2019-02-10 00:00:00') /* Lair of Holcha (53289) */
-     , (0x7596B069, 0x7596B06B, '2019-02-10 00:00:00') /* Gauntlet Arena (53250) */
-     , (0x7596B069, 0x7596B06C, '2019-02-10 00:00:00') /* Lair of Tremb'Orh (53287) */
-     , (0x7596B069, 0x7596B06D, '2019-02-10 00:00:00') /* Lair of the Gromnus Champion (53285) */
-     , (0x7596B069, 0x7596B06E, '2019-02-10 00:00:00') /* Lair of Holcha (52872) */
-     , (0x7596B069, 0x7596B06F, '2019-02-10 00:00:00') /* Gauntlet Arena (53025) */
-     , (0x7596B069, 0x7596B070, '2019-02-10 00:00:00') /* Lair of Tremb'Orh (52873) */
-     , (0x7596B069, 0x7596B071, '2019-02-10 00:00:00') /* Lair of the Gromnus Champion (52871) */
-     , (0x7596B069, 0x7596B072, '2019-02-10 00:00:00') /* Font of Enlightenment and Rebirth (53412) */
-     , (0x7596B069, 0x7596B073, '2019-02-10 00:00:00') /* Lair of Holcha (53288) */
-     , (0x7596B069, 0x7596B074, '2019-02-10 00:00:00') /* Gauntlet Arena (53249) */
-     , (0x7596B069, 0x7596B075, '2019-02-10 00:00:00') /* Lair of Tremb'Orh (53286) */
-     , (0x7596B069, 0x7596B076, '2019-02-10 00:00:00') /* Lair of the Gromnus Champion (53284) */;
+VALUES (0x7596B069, 0x7596B06A, '2021-11-01 00:00:00') /* Lair of Holcha (53289) */
+     , (0x7596B069, 0x7596B06B, '2021-11-01 00:00:00') /* Gauntlet Arena (53250) */
+     , (0x7596B069, 0x7596B06C, '2021-11-01 00:00:00') /* Lair of Tremb'Orh (53287) */
+     , (0x7596B069, 0x7596B06D, '2021-11-01 00:00:00') /* Lair of the Gromnus Champion (53285) */
+     , (0x7596B069, 0x7596B06E, '2021-11-01 00:00:00') /* Lair of Holcha (52872) */
+     , (0x7596B069, 0x7596B06F, '2021-11-01 00:00:00') /* Gauntlet Arena (53025) */
+     , (0x7596B069, 0x7596B070, '2021-11-01 00:00:00') /* Lair of Tremb'Orh (52873) */
+     , (0x7596B069, 0x7596B071, '2021-11-01 00:00:00') /* Lair of the Gromnus Champion (52871) */
+     , (0x7596B069, 0x7596B072, '2021-11-01 00:00:00') /* Font of Enlightenment and Rebirth (53412) */
+     , (0x7596B069, 0x7596B073, '2021-11-01 00:00:00') /* Lair of Holcha (53288) */
+     , (0x7596B069, 0x7596B074, '2021-11-01 00:00:00') /* Gauntlet Arena (53249) */
+     , (0x7596B069, 0x7596B075, '2021-11-01 00:00:00') /* Lair of Tremb'Orh (53286) */
+     , (0x7596B069, 0x7596B076, '2021-11-01 00:00:00') /* Lair of the Gromnus Champion (53284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7596B06A, 53289, 0x596B0115, 130, -16.286, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lair of Holcha */
@@ -364,9 +364,9 @@ VALUES (0x7596B077,  1154, 0x596B0101, 95.744, -7.72325, 0.006, 0.701223, 0, 0, 
 /* @teleloc 0x596B0101 [95.744003 -7.723250 0.006000] 0.701223 0.000000 0.000000 -0.712942 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7596B077, 0x7596B078, '2019-02-10 00:00:00') /* Master of the Gauntlet (52802) */
-     , (0x7596B077, 0x7596B079, '2019-02-10 00:00:00') /* Master of the Gauntlet (52800) */
-     , (0x7596B077, 0x7596B07D, '2019-02-10 00:00:00') /* Master of the Gauntlet (52801) */;
+VALUES (0x7596B077, 0x7596B078, '2021-11-01 00:00:00') /* Master of the Gauntlet (52802) */
+     , (0x7596B077, 0x7596B079, '2021-11-01 00:00:00') /* Master of the Gauntlet (52800) */
+     , (0x7596B077, 0x7596B07D, '2021-11-01 00:00:00') /* Master of the Gauntlet (52801) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7596B078, 52802, 0x596B0101, 95.744, -7.72325, 0.006, 0.701223, 0, 0, -0.712942,  True, '2021-11-01 00:00:00'); /* Master of the Gauntlet */

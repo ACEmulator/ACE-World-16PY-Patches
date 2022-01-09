@@ -1,15 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 69997;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (69997, 'nightclubattendantgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (69997, 'ace69997-nightclubattendantgenerator', 1, '2022-01-08 18:29:57') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (69997,  81,          1) /* MaxGeneratedObjects */
      , (69997,  82,          1) /* InitGeneratedObjects */
      , (69997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (69997, 142,          1) /* GeneratorTimeType - RealTime */
-     , (69997, 143, 1635847260) /* GeneratorStartTime - 11/02/2021 14:01:00 */
-     , (69997, 144, 1638439140) /* GeneratorEndTime - 12/02/2021 14:59:00 */
+     , (69997, 143, 1667365260) /* GeneratorStartTime - 11/02/2022 05:01:00 */
+     , (69997, 144, 1669957140) /* GeneratorEndTime - 12/02/2022 04:59:00 */
      , (69997, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -9,68 +9,68 @@ VALUES (0x71D13002,  7924, 0x1D130113, 130.534, 20.7396, -8.39, 0.218736, 0, 0, 
 /* @teleloc 0x1D130113 [130.533997 20.739599 -8.390000] 0.218736 0.000000 0.000000 -0.975784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D13002, 0x71D13003, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13004, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13006, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13007, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13008, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D1300A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1300F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13012, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13016, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13018, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1301A, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D1301B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1301E, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1301F, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D13020, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13022, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13024, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13025, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D13026, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D13027, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13028, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13029, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D1302A, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D1302B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1302C, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1302D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13030, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13032, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13035, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13036, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13037, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D13038, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D13039, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1303A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1303B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1303C, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x71D13002, 0x71D1303D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1303E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1303F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13040, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x71D13002, 0x71D13041, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x71D13002, 0x71D13047, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13048, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13049, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1304B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1304C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1304D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1304E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D1304F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x71D13002, 0x71D13050, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D13051, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x71D13002, 0x71D13053, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
-     , (0x71D13002, 0x71D13054, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13055, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D1306B, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13070, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13073, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13076, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D13078, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x71D13002, 0x71D1307A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D1307D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71D13002, 0x71D13082, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
+VALUES (0x71D13002, 0x71D13003, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13004, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13006, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13007, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13008, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D1300A, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1300F, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13012, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13016, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13018, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1301A, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D1301B, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1301E, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1301F, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D13020, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13022, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13024, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13025, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D13026, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D13027, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13028, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13029, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D1302A, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D1302B, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1302C, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1302D, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13030, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13032, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13035, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13036, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13037, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D13038, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D13039, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1303A, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1303B, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1303C, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13002, 0x71D1303D, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1303E, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1303F, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13040, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13002, 0x71D13041, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13002, 0x71D13047, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13048, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13049, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1304B, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1304C, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1304D, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1304E, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D1304F, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13002, 0x71D13050, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D13051, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13002, 0x71D13053, '2021-11-08 06:01:47') /* Withered Transcendent Tumerok (35835) */
+     , (0x71D13002, 0x71D13054, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13055, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D1306B, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13070, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13073, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13076, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D13078, '2021-11-08 06:01:47') /* Withered Raider Prefect (35833) */
+     , (0x71D13002, 0x71D1307A, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D1307D, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */
+     , (0x71D13002, 0x71D13082, '2021-11-08 06:01:47') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D13003, 35833, 0x1D130113, 130.534, 20.7396, -8.39, 0.218736, 0, 0, -0.975784,  True, '2021-11-08 06:01:47'); /* Withered Raider Prefect */

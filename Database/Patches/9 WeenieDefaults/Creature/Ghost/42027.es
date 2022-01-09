@@ -32,7 +32,9 @@ GotoSet: CheckThrone
                     - Tell: Although you have failed in your attempt you may still yet succeed by joining another champion who bears the power of the three tests of Mhoire.
                     - InqYesNo: Mark the quest failed and try again tomorrow?
                         TestSuccess:
-                            - Goto: Complete
+                            - StampQuest: CleansingTheThroneWaiting_1209
+                            - EraseQuest: CleansingTheThroneStart_1209
+                            - EraseQuest: UsedMhoireThrone
         QuestFailure:
             - InqOwnsItems: 41982
                 TestSuccess:
@@ -61,6 +63,9 @@ GotoSet: CheckTrials
        
 GotoSet: Reward
     - TakeItems: 41982, 1
+    - StampQuest: CleansingTheThroneWaiting_1209
+    - EraseQuest: CleansingTheThroneStart_1209
+    - EraseQuest: UsedMhoireThrone
     - Tell: Well done, champion and defender of House Mhoire. You have cleansed the throne of House Mhoire, and countless spirits within these halls rest peacefully.
     - Tell: You have proven yourself a hundred fold, and I am in your debt. The corruption will remain clear of the throne for some time. Take these items as thanks.
     - AddCharacterTitle: 696
@@ -69,9 +74,7 @@ GotoSet: Reward
     - Give: 35383, 2
     - Give: 48748
     - Give: Trade Note (250,000) (20630), 6
-    - Goto: Complete
-
-GotoSet: Complete
-    - StampQuest: CleansingTheThroneWaiting_1209
-    - EraseQuest: CleansingTheThroneStart_1209
-    - EraseQuest: UsedMhoireThrone
+    - InqQuestBitsOn: LegendaryQuestsA, 0x40000
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x40000
+            - StampQuest: LegendaryQuestCounter_0913

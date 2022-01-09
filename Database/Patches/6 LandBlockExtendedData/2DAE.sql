@@ -5,12 +5,12 @@ VALUES (0x72DAE3E8, 24129, 0x2DAE0018, 48.7253, 181.859, 15.4094, 0.9972, 0, 0, 
 /* @teleloc 0x2DAE0018 [48.725300 181.858994 15.409400] 0.997200 0.000000 0.000000 -0.074779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DAE3E8, 0x72DAE3E9, '2019-04-08 08:19:57') /* Water Golem (31875) */
-     , (0x72DAE3E8, 0x72DAE3EA, '2019-04-08 08:19:57') /* Water Golem (31875) */
-     , (0x72DAE3E8, 0x72DAE3EB, '2019-04-08 08:19:57') /* Water Golem (31875) */
-     , (0x72DAE3E8, 0x72DAE3EC, '2019-04-08 08:19:57') /* Water Golem (31875) */
-     , (0x72DAE3E8, 0x72DAE3ED, '2019-04-08 08:19:57') /* Water Golem (31875) */
-     , (0x72DAE3E8, 0x72DAE3EE, '2019-04-08 08:19:57') /* Water Golem (31875) */;
+VALUES (0x72DAE3E8, 0x72DAE3E9, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAE3E8, 0x72DAE3EA, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAE3E8, 0x72DAE3EB, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAE3E8, 0x72DAE3EC, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAE3E8, 0x72DAE3ED, '2021-11-01 00:00:00') /* Water Golem (31875) */
+     , (0x72DAE3E8, 0x72DAE3EE, '2021-11-01 00:00:00') /* Water Golem (31875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DAE3E9, 31875, 0x2DAE0010, 45.3811, 184.79, 16.4208, 0.339168, 0, 0, 0.940726,  True, '2021-11-01 00:00:00'); /* Water Golem */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35550;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35550, 'ace35550-chorizitestaff', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35550, 'ace35550-chorizitestaff', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35550,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,17 +24,12 @@ VALUES (35550,   1,          1) /* ItemType - MeleeWeapon */
      , (35550, 107,      10000) /* ItemCurMana */
      , (35550, 108,      10000) /* ItemMaxMana */
      , (35550, 114,          0) /* Attuned - Normal */
-     , (35550, 263,          4) /* ResistanceModifierType */
+     , (35550, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (35550, 267,      10800) /* Lifespan */
      , (35550, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35550,  11, True ) /* IgnoreCollisions */
-     , (35550,  13, True ) /* Ethereal */
-     , (35550,  14, True ) /* GravityStatus */
-     , (35550,  15, True ) /* LightsStatus */
-     , (35550,  19, True ) /* Attackable */
-     , (35550,  22, True ) /* Inscribable */
+VALUES (35550,  22, True ) /* Inscribable */
      , (35550,  69, False) /* IsSellable */
      , (35550,  99, False) /* Ivoryable */;
 
@@ -48,7 +43,7 @@ VALUES (35550,   5,  -0.033) /* ManaRate */
      , (35550,  62,     1.4) /* WeaponOffense */
      , (35550,  63,       1) /* DamageMod */
      , (35550,  76,     0.7) /* Translucency */
-     , (35550, 136,       1) /* CriticalMultiplier */
+     , (35550, 136,     2.5) /* CriticalMultiplier */
      , (35550, 147,    0.25) /* CriticalFrequency */
      , (35550, 156,    0.05) /* ProcSpellRate */
      , (35550, 157,       1) /* ResistanceModifier */;

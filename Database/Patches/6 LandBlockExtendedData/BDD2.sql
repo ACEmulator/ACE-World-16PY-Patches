@@ -41,12 +41,12 @@ VALUES (0x7BDD2009,  3955, 0xBDD20000, 172.324, 84.0683, 186.005, 0.73465, 0, 0,
 /* @teleloc 0xBDD20000 [172.324005 84.068298 186.005005] 0.734650 0.000000 0.000000 0.678446 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD2009, 0x7BDD2002, '2005-02-09 10:00:00') /* MacDugal (5839) */
-     , (0x7BDD2009, 0x7BDD2004, '2005-02-09 10:00:00') /* Gwillim, the Apprentice (5837) */
-     , (0x7BDD2009, 0x7BDD2006, '2005-02-09 10:00:00') /* Jourgensson (5838) */
-     , (0x7BDD2009, 0x7BDD2007, '2005-02-09 10:00:00') /* Karwin, the Lunatic (5836) */
-     , (0x7BDD2009, 0x7BDD200B, '2005-02-09 10:00:00') /* Gillian the Poacher (8654) */
-     , (0x7BDD2009, 0x7BDD200D, '2005-02-09 10:00:00') /* Journeyman Cook (28920) */;
+VALUES (0x7BDD2009, 0x7BDD2002, '2021-11-01 00:00:00') /* MacDugal (5839) */
+     , (0x7BDD2009, 0x7BDD2004, '2021-11-01 00:00:00') /* Gwillim, the Apprentice (5837) */
+     , (0x7BDD2009, 0x7BDD2006, '2021-11-01 00:00:00') /* Jourgensson (5838) */
+     , (0x7BDD2009, 0x7BDD2007, '2021-11-01 00:00:00') /* Karwin, the Lunatic (5836) */
+     , (0x7BDD2009, 0x7BDD200B, '2021-11-01 00:00:00') /* Gillian the Poacher (8654) */
+     , (0x7BDD2009, 0x7BDD200D, '2021-11-01 00:00:00') /* Journeyman Cook (28920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD200A,  8377, 0xBDD2012B, 159.329, 94.44, 191.049, 0.989788, 0, 0, 0.142546, False, '2021-11-01 00:00:00'); /* Beer Keg */

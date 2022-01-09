@@ -77,7 +77,7 @@ VALUES (0x70087012, 15759, 0x00870413, 113.239, -126.864, 12.055, 0.999885, 0, 0
 /* @teleloc 0x00870413 [113.238998 -126.863998 12.055000] 0.999885 0.000000 0.000000 0.015148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70087012, 0x70087013, '2021-10-20 08:35:07') /* Falatacot Tome (87637) */;
+VALUES (0x70087012, 0x70087013, '2021-11-01 00:00:00') /* Falatacot Tome (87637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70087013, 87637, 0x00870413, 109.898, -130.18, 12.982, -0.168544, 0, 0, 0.985694,  True, '2021-11-01 00:00:00'); /* Falatacot Tome */
@@ -88,8 +88,8 @@ VALUES (0x70087014,  7924, 0x0087035F, 133.035, -104.012, 0.055, 0.078361, 0, 0,
 /* @teleloc 0x0087035F [133.035004 -104.012001 0.055000] 0.078361 0.000000 0.000000 0.996925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70087014, 0x70087015, '2021-10-20 09:20:08') /* Falatacot Matriarch (25347) */
-     , (0x70087014, 0x70087016, '2021-10-20 09:20:46') /* Falatacot Patrician (25348) */;
+VALUES (0x70087014, 0x70087015, '2021-11-01 00:00:00') /* Falatacot Matriarch (25347) */
+     , (0x70087014, 0x70087016, '2021-11-01 00:00:00') /* Falatacot Patrician (25348) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70087015, 25347, 0x00870426, 123.793, -150.448, 12.0098, 0.881948, 0, 0, -0.471346,  True, '2021-11-01 00:00:00'); /* Falatacot Matriarch */
