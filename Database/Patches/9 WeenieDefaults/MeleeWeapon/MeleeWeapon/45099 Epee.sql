@@ -18,6 +18,7 @@ VALUES (45099,   1,          1) /* ItemType - MeleeWeapon */
      , (45099,  51,          1) /* CombatUse - Melee */
      , (45099,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45099, 151,          2) /* HookType - Wall */
+     , (45099, 169,  101255170) /* TsysMutationData */
      , (45099, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,4 +39,6 @@ VALUES (45099,   1, 0x02001B5C) /* Setup */
      , (45099,   3, 0x20000014) /* SoundTable */
      , (45099,   6, 0x04000BEF) /* PaletteBase */
      , (45099,   8, 0x06007140) /* Icon */
-     , (45099,  22, 0x3400002B) /* PhysicsEffectTable */;
+     , (45099,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45099,  36, 0x0E000014) /* MutateFilter */;
+
