@@ -122,32 +122,44 @@ Give: 80023
 Use:
 	- TurnToTarget
 	- Motion: Wave
-	- InqOwnsItems: A Crabbed Note (5642)
-		TestSuccess:
-			- Goto: HarluneDiplomacy
-		TestFailure:
-			- Delay: 1.5, Tell: Oh...hmm...I remember that Harlune used to ask for folks to go and deliver a message for him. Here ya go - I'll be lookin' for that history book back, and then I'll give ya the scroll.
-			- Give: A Crabbed Note (5642)
-			- StampQuest: takewaterlethe
-
-GotoSet: HarluneDiplomacy
-	- InqIntStat: 25, 180 - 999
-		TestSuccess:
-			- InqQuest: CHDSStarted0608
-				QuestSuccess:
-					- InqOwnsItems: 38043
-						TestSuccess: 
-							- Tell: Ya have the note - what are ya doin' here still? Go to Bur and find the way to deliver that note. Ya need to use a new statue to get in - it's in a place that us Isparians ain't never been to before now. Don't forget to bring back proof ya won.
-						TestFailure:
-							- Tell: Ya lost the note?  I got extra copies, but be careful with the thing!  Bring me back proof ya won, when they attack.
-							- Give: 38043
-				QuestFailure:
-					- Tell: Ya think ya might be interested in doin' a favor for Harlune? Ya look tough enough to survive what he has in mind.
-					- Delay: 1, Tell: The Falatacot Matriarchs sent him a message, ya see, askin' if he'd like to ally. Well, of course he don't - the Falatacot can't be trusted one bit. So he wants to send a message back...but ya know how Harlune can be.
-					- Delay: 1, Tell: Anyways, he asked me to find some volunteers to deliver the mission. He didn't tell me to mention it, but I'll be nice and mention it anyways - the Falatacot ain't gonna be happy when they read the message.
-					- Delay: 1, Tell: Here, take this and bring it to Bur. One of the statues up there should lead to a new place where ya can go and deliver the message, and then ya better be ready for a fight. If ya win, bring something back to prove to me that ya won.
-					- Give: Diplomatic Message from Harlune (38043)
-					- StampQuest: CHDSStarted0608
-		TestFailure:
+	- InqQuest: FirstTalkWithRoderick
+		QuestSuccess:
+			- InqOwnsItems: A Crabbed Note (5642)
+				TestSuccess:
+					- Goto: HarluneDiplomacy
+				TestFailure:
+					- Delay: 1.5, Tell: Oh...hmm...I remember that Harlune used to ask for folks to go and deliver a message for him. Here ya go - I'll be lookin' for that history book back, and then I'll give ya the scroll.
+					- Give: A Crabbed Note (5642)
+		QuestFailure:
 			- Tell: Harlune'll be out of here for a while - I've been asked to stay and watch over Alia. Harlune gave me instructions, though - if you've got something that ya needed to talk to him about, I can take care of it for ya.
+			- StampQuest: FirstTalkWithRoderick
 			
+GotoSet: HarluneDiplomacy
+	- InqQuest: CHDSFalatacotCharm0608
+		QuestSuccess:
+			- InqOwnsItems: 38042
+				TestSuccess:
+					- Tell: Oh the Trinket, please hand it over.
+				TestFailure:
+					- Tell: Ya have already helped me deliver the note. Perhaps I will have more work for you once time has passed.
+		QuestFailure:
+			- InqIntStat: 25, 180 - 999
+				TestSuccess:
+					- InqQuest: CHDSStarted0608
+						QuestSuccess:
+							- InqOwnsItems: 38043
+								TestSuccess: 
+									- Tell: Ya have the note - what are ya doin' here still? Go to Bur and find the way to deliver that note. Ya need to use a new statue to get in - it's in a place that us Isparians ain't never been to before now. Don't forget to bring back proof ya won.
+								TestFailure:
+									- Tell: Ya lost the note?  I got extra copies, but be careful with the thing!  Bring me back proof ya won, when they attack.
+									- Give: 38043
+						QuestFailure:
+							- Tell: Ya think ya might be interested in doin' a favor for Harlune? Ya look tough enough to survive what he has in mind.
+							- Delay: 1, Tell: The Falatacot Matriarchs sent him a message, ya see, askin' if he'd like to ally. Well, of course he don't - the Falatacot can't be trusted one bit. So he wants to send a message back...but ya know how Harlune can be.
+							- Delay: 1, Tell: Anyways, he asked me to find some volunteers to deliver the mission. He didn't tell me to mention it, but I'll be nice and mention it anyways - the Falatacot ain't gonna be happy when they read the message.
+							- Delay: 1, Tell: Here, take this and bring it to Bur. One of the statues up there should lead to a new place where ya can go and deliver the message, and then ya better be ready for a fight. If ya win, bring something back to prove to me that ya won.
+							- Give: Diplomatic Message from Harlune (38043)
+							- StampQuest: CHDSStarted0608
+				TestFailure:
+					- Tell: Harlune'll be out of here for a while - I've been asked to stay and watch over Alia. Harlune gave me instructions, though - if you've got something that ya needed to talk to him about, I can take care of it for ya.
+					
