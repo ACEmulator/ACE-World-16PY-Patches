@@ -291,12 +291,7 @@ VALUES (0x700DA093,  1154, 0x00DA0114, 2.85448, -200.159, -17.995, -0.572067, 0,
 /* @teleloc 0x00DA0114 [2.854480 -200.158997 -17.995001] -0.572067 0.000000 0.000000 -0.820207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DA093, 0x700DA094, '2019-02-10 00:00:00') /* Corpse of Elite Zharalim Agent (38038) */
-     , (0x700DA093, 0x700DA095, '2019-02-10 00:00:00') /* Falatacot Herald (38035) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA094, 38038, 0x00DA0114, 2.85448, -200.159, -17.995, -0.572067, 0, 0, -0.820207,  True, '2019-02-10 00:00:00'); /* Corpse of Elite Zharalim Agent */
-/* @teleloc 0x00DA0114 [2.854480 -200.158997 -17.995001] -0.572067 0.000000 0.000000 -0.820207 */
+VALUES (0x700DA093, 0x700DA095, '2019-02-10 00:00:00') /* Falatacot Herald (38035) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DA095, 38035, 0x00DA0227, 272.495, -119.714, 12.0098, -0.714424, 0, 0, -0.699713,  True, '2019-02-10 00:00:00'); /* Falatacot Herald */

@@ -10,7 +10,8 @@ VALUES (38038,   1,         16) /* ItemType - Creature */
      , (38038,  16,         32) /* ItemUseable - Remote */
      , (38038,  93,    6292492) /* PhysicsState - Ethereal, ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38038,  95,          8) /* RadarBlipColor - Yellow */
-     , (38038, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (38038, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (38038, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38038,   1, True ) /* Stuck */
@@ -22,8 +23,7 @@ VALUES (38038,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38038,   1, 'Corpse of Elite Zharalim Agent') /* Name */
-     , (38038,  14, 'This item expires in 5 minutes. Killed by adventurers.') /* Use */
-     , (38038,  16, 'The statue became activate before the agent was dead...') /* LongDesc */;
+     , (38038,  16, 'This item expires in 5 minutes. Killed by adventurers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38038,   1, 0x02000001) /* Setup */
