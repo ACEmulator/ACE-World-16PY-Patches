@@ -91,3 +91,7 @@ VALUES (0x795D6012, 28922, 0x95D60000, 101.867, 70.522, 100.005, 0.945157, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D6014, 42852, 0x95D6001C, 73.9336, 74.9926, 100.198, -0.899764, 0, 0, 0.436378, False, '2021-11-01 00:00:00'); /* Portal to Town Network */
 /* @teleloc 0x95D6001C [73.933601 74.992599 100.197998] -0.899764 0.000000 0.000000 0.436378 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x795D6015, 43073, 0x95D6001C, 73.5081, 80.0805, 100.005, 0.728599, 0, 0, -0.68494, False, '2022-01-11 13:57:07'); /* Emissary of Asheron */
+/* @teleloc 0x95D6001C [73.508102 80.080498 100.004997] 0.728599 0.000000 0.000000 -0.684940 */
