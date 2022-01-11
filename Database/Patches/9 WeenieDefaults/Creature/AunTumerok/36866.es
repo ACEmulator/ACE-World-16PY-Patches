@@ -260,31 +260,52 @@ GotoSet: Virindi
 			- Goto: CheckTurnIns
 			
 GotoSet: CheckTurnIns
-	- InqQuestSolves: DireChampTokenCounter, 100 - 100
+	- InqQuestSolves: DireChampTokenCounter, 8
 		QuestSuccess:
-			- Tell: You have exceeded my expectations. You hunt as a Tumerok Hunter hunts. Your name is inappropriate for the Rea honorary so I will make you an Honorary Rea of the Aun.
-			- AddCharacterTitle: HonoraryReaoftheAun
-			- Delay: 1, DirectBroadcast: You have been awarded the title of "Honorary Rea of the Aun"
-			- Delay: 1, Tell: This is the greatest honor an Aun Hunter can achieve. Show your new Title with pride.
-			- Goto: CheckDailyCounter
-		QuestFailure:
-			- InqQuestSolves: DireChampTokenCounter, 50 - 50
+			- InqQuest: DireChampDireHuntTitle
 				QuestSuccess:
+					- Goto: CheckFifty
+				QuestFailure:
+					- Tell: You have achieved much prowess in your hunts.
+					- AddCharacterTitle: DireHuntsman
+					- Delay: 1, DirectBroadcast: Aun Javhalrea waves a feathered ceremonial stick to your left and right and taps you on the chest.
+					- Delay: 1, Tell: You are now a Dire Huntsman and must uphold this honor by killing only those who threaten you or the thoughtless beasts you must hunt for food.
+					- StampQuest: DireChampDireHuntTitle
+					- Goto: CheckFifty
+		QuestFailure:
+			- Goto: CheckFifty
+			
+GotoSet: CheckFifty
+	- InqQuestSolves: DireChampTokenCounter, 50
+		QuestSuccess:
+			- InqQuest: DireChampGameWardenTitle
+				QuestSuccess:
+					- Goto: CheckHundred
+				QuestFailure:
 					- Tell: You have exceeded my expectations. You hunt like a true child of the Tanae. With the Queen's authority power invested in me by your Queen, I grant you the Title of Game Warden.
 					- AddCharacterTitle: GameWarden
 					- Delay: 1, DirectBroadcast: You have been awarded the title of "Game Warden"
 					- Delay: 1, Tell: The Queen will be informed of your great achievement.
+					- StampQuest: DireChampGameWardenTitle
+					- Goto: CheckHundred
+		QuestFailure:
+			- Goto: CheckHundred
+					
+GotoSet: CheckHundred
+	- InqQuestSolves: DireChampTokenCounter, 100
+		QuestSuccess:
+			- InqQuest: DireChampHonoraryReaTitle
+				QuestSuccess:
 					- Goto: CheckDailyCounter
 				QuestFailure:
-					- InqQuestSolves: DireChampTokenCounter, 8 - 8
-						QuestSuccess:
-							- Tell: You have achieved much prowess in your hunts.
-							- AddCharacterTitle: DireHuntsman
-							- Delay: 1, DirectBroadcast: Aun Javhalrea waves a feathered ceremonial stick to your left and right and taps you on the chest.
-							- Delay: 1, Tell: You are now a Dire Huntsman and must uphold this honor by killing only those who threaten you or the thoughtless beasts you must hunt for food.
-							- Goto: CheckDailyCounter
-						QuestFailure:
-							- Goto: CheckDailyCounter
+					- Tell: You have exceeded my expectations. You hunt as a Tumerok Hunter hunts. Your name is inappropriate for the Rea honorary so I will make you an Honorary Rea of the Aun.
+					- AddCharacterTitle: HonoraryReaoftheAun
+					- Delay: 1, DirectBroadcast: You have been awarded the title of "Honorary Rea of the Aun"
+					- Delay: 1, Tell: This is the greatest honor an Aun Hunter can achieve. Show your new Title with pride.
+					- StampQuest: DireChampHonoraryReaTitle
+					- Goto: CheckDailyCounter
+		QuestFailure:
+			- Goto: CheckDailyCounter
 
 GotoSet: CheckDailyCounter
 	- InqQuestSolves: DireChampDailyTokenCounter, 100
