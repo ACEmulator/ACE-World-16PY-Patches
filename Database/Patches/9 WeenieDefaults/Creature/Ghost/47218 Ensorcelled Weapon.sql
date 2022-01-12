@@ -92,6 +92,7 @@ VALUES (47218,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (47218, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (47218, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */
      , (47218, 46, 0, 3, 0, 395, 0, 0) /* FinesseWeapons      Specialized */
+     , (47218, 47, 0, 3, 0, 350, 0, 0) /* MissileWeapons      Specialized */
      , (47218, 48, 0, 3, 0, 395, 0, 0) /* Shield              Specialized */
      , (47218, 49, 0, 3, 0, 395, 0, 0) /* DualWield           Specialized */
      , (47218, 51, 0, 3, 0, 395, 0, 0) /* SneakAttack         Specialized */;
