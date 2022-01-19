@@ -78,10 +78,6 @@ VALUES (0x717B2011, 31648, 0x17B2002B, 135.931, 70.4125, 44.005, -0.992339, 0, 0
 /* @teleloc 0x17B2002B [135.931000 70.412498 44.005001] -0.992339 0.000000 0.000000 0.123543 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x717B2012, 31955, 0x17B2012A, 100.911, 79.975, 43.705, 0.313628, 0, 0, -0.949546, False, '2021-12-14 05:15:31'); /* Janus Roma the Shopkeep */
-/* @teleloc 0x17B2012A [100.911003 79.974998 43.705002] 0.313628 0.000000 0.000000 -0.949546 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B2013, 37440, 0x17B2012B, 134.541, 81.8355, 44.005, 0.743722, 0, 0, 0.668489,  True, '2021-12-14 05:15:31'); /* Guard Liaza */
 /* @teleloc 0x17B2012B [134.541000 81.835503 44.005001] 0.743722 0.000000 0.000000 0.668489 */
 
