@@ -15,7 +15,7 @@ VALUES (47513,   1,        256) /* ItemType - MissileWeapon */
      , (47513,  16,          1) /* ItemUseable - No */
      , (47513,  19,          7) /* Value */
      , (47513,  33,         -2) /* Bonded - Destroy */
-     , (47513,  44,         45) /* Damage */
+     , (47513,  44,         10) /* Damage */
      , (47513,  45,          0) /* DamageType - Undef */
      , (47513,  48,          0) /* WeaponSkill - None */
      , (47513,  49,         -1) /* WeaponTime */
