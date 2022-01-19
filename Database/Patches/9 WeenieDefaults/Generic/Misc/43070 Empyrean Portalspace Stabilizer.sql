@@ -20,5 +20,5 @@ VALUES (43070,   1, 'Empyrean Portalspace Stabilizer') /* Name */
      , (43070,  16, 'An Empyrean device which stabilizes Portalspace energies within a limited area.  These were originally used by the Lyceum at Knorr in order to help attune Portal Magics to new locations, though this one is attuned solely to stabilize the Portalspace fluxuations caused by the Apostate Virindi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43070,   1,   33561085) /* Setup */
-     , (43070,   8,  100691354) /* Icon */;
+VALUES (43070,   1, 0x020019FD) /* Setup */
+     , (43070,   8, 0x06006D9A) /* Icon */;
