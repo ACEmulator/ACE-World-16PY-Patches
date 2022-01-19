@@ -5,7 +5,7 @@ VALUES (45101, 'ace45101-lightningepee', 6, '2022-01-08 09:32:25') /* MeleeWeapo
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45101,   1,          1) /* ItemType - MeleeWeapon */
-     , (45101,   5,        300) /* EncumbVal */
+     , (45101,   5,        300) /* EncumbranceVal */
      , (45101,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45101,  16,          1) /* ItemUseable - No */
      , (45101,  18,         64) /* UiEffects - Lightning */
@@ -42,4 +42,3 @@ VALUES (45101,   1, 0x02001B5E) /* Setup */
      , (45101,   8, 0x06007141) /* Icon */
      , (45101,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45101,  36, 0x0E000014) /* MutateFilter */;
-

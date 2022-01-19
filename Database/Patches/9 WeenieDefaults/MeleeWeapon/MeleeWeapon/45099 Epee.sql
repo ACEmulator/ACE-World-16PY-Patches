@@ -11,7 +11,7 @@ VALUES (45099,   1,          1) /* ItemType - MeleeWeapon */
      , (45099,  19,        240) /* Value */
      , (45099,  44,          7) /* Damage */
      , (45099,  45,          3) /* DamageType - Slash, Pierce */
-     , (45099,  46,          2) /* DefaultCombatStyle - OneHanded */	 
+     , (45099,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (45099,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (45099,  48,         45) /* WeaponSkill - LightWeapons */
      , (45099,  49,         30) /* WeaponTime */
@@ -41,4 +41,3 @@ VALUES (45099,   1, 0x02001B5C) /* Setup */
      , (45099,   8, 0x06007140) /* Icon */
      , (45099,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45099,  36, 0x0E000014) /* MutateFilter */;
-

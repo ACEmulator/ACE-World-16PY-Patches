@@ -5,7 +5,7 @@ VALUES (45102, 'ace45102-flamingepee', 6, '2022-01-08 09:36:23') /* MeleeWeapon 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45102,   1,          1) /* ItemType - MeleeWeapon */
-     , (45102,   5,        300) /* EncumbVal */
+     , (45102,   5,        300) /* EncumbranceVal */
      , (45102,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45102,  16,          1) /* ItemUseable - No */
      , (45102,  18,         32) /* UiEffects - Fire */
@@ -42,4 +42,3 @@ VALUES (45102,   1, 0x02001B5F) /* Setup */
      , (45102,   8, 0x06007147) /* Icon */
      , (45102,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45102,  36, 0x0E000014) /* MutateFilter */;
-

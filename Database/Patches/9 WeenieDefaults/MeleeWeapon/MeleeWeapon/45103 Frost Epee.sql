@@ -42,4 +42,3 @@ VALUES (45103,   1, 0x02001B60) /* Setup */
      , (45103,   8, 0x06007143) /* Icon */
      , (45103,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45103,  36, 0x0E000014) /* MutateFilter */;
-

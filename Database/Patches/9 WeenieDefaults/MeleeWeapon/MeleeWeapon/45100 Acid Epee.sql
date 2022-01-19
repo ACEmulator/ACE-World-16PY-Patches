@@ -5,14 +5,14 @@ VALUES (45100, 'ace45100-acidepee', 6, '2022-01-08 09:07:12') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45100,   1,          1) /* ItemType - MeleeWeapon */
-     , (45100,   5,        300) /* EncumbVal */
+     , (45100,   5,        300) /* EncumbranceVal */
      , (45100,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45100,  16,          1) /* ItemUseable - No */
      , (45100,  18,        256) /* UiEffects - Acid */
      , (45100,  19,        240) /* Value */
      , (45100,  44,          7) /* Damage */
      , (45100,  45,         32) /* DamageType - Acid */
-     , (45100,  46,          2) /* DefaultCombatStyle - OneHanded */	
+     , (45100,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (45100,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (45100,  48,         45) /* WeaponSkill - LightWeapons */
      , (45100,  49,         30) /* WeaponTime */
@@ -42,4 +42,3 @@ VALUES (45100,   1, 0x02001B5D) /* Setup */
      , (45100,   8, 0x06007141) /* Icon */
      , (45100,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45100,  36, 0x0E000014) /* MutateFilter */;
-
