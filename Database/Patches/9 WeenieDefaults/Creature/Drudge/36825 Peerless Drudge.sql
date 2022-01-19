@@ -135,7 +135,7 @@ VALUES (36825,    80,  2.075)  /* Lightning Bolt VI */
      , (36825,  2764,   2.05)  /* Martyr's Hecatomb V */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36825,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36825,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

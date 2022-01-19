@@ -131,7 +131,7 @@ VALUES (36860,   279,      2)  /* Magic Resistance Self VI */
      , (36860,  1831,  2.055)  /* Whirling Blade Streak VI */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36860,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36860,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

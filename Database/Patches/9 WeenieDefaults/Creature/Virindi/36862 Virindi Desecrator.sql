@@ -135,7 +135,7 @@ VALUES (36862,    85,   2.05)  /* Flame Bolt VI */
      , (36862,  2146,   2.05)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36862,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36862,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
