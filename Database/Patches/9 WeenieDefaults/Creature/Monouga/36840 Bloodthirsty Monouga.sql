@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36840;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36840, 'ace36840-bloodthirstymonouga', 10, '2022-01-08 18:29:57') /* Creature */;
+VALUES (36840, 'ace36840-bloodthirstymonouga', 10, '2022-01-20 04:53:49') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36840,   1,         16) /* ItemType - Creature */
@@ -127,7 +127,7 @@ VALUES (36840,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (36840, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36840,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36840,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
