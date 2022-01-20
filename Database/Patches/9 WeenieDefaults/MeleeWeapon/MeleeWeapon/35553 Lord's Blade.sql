@@ -24,7 +24,7 @@ VALUES (35553,   1,          1) /* ItemType - MeleeWeapon */
      , (35553, 107,      10000) /* ItemCurMana */
      , (35553, 108,      10000) /* ItemMaxMana */
      , (35553, 114,          0) /* Attuned - Normal */
-     , (35553, 263,          1) /* ResistanceModifierType */
+     , (35553, 263,          1) /* ResistanceModifierType - Slash */
      , (35553, 267,      10800) /* Lifespan */
      , (35553, 353,          2) /* WeaponType - Sword */;
 

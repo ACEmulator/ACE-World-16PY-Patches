@@ -388,9 +388,16 @@ Give: 32586
     - Delay: 1, Tell: Fascinating. This seems to be a note from back before the Hopeslayer got freed. Here, take a look.
     - Give: 32587
 
+Give: 72798
+    - TurnToTarget
+    - Tell: Well, what have we here? Where did you find this?
+    - DirectBroadcast: You explain where you found the ancient tome.
+    - Tell: Fascinating. You know, this book isn't as old as its location may lead you to believe. This appears to be penned by one of the Adjanites, which were an order of Empyreans from Asheron's time, only a few thousand years ago. The story itself seems far older, though. She refers to it as coming from a Falatacot tribe. Very strange...
+    - Delay: 1, Tell: But I digress. You can see for yourself, and I won't keep you here any longer.
+    - Give: 72799
+
 Use:
     - Motion: Ready
     - TurnToTarget
     - Motion: BowDeep
     - Tell: I study Empyrean history of Lord Asheron's era, which we call the Empyrean Era of Lore.  If you have a text from that time, perhaps I may be of service.
-

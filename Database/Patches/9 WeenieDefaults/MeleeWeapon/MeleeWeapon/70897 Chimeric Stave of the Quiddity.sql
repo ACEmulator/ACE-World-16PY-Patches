@@ -27,7 +27,7 @@ VALUES (70897,   1,          1) /* ItemType - MeleeWeapon */
      , (70897, 158,          7) /* WieldRequirements - Level */
      , (70897, 159,          1) /* WieldSkillType - Axe */
      , (70897, 160,        120) /* WieldDifficulty */
-     , (70897, 263,          4) /* ResistanceModifierType */
+     , (70897, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (70897, 267,      10800) /* Lifespan */
      , (70897, 353,          7) /* WeaponType - Staff */;
 

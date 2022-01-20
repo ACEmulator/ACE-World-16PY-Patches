@@ -23,7 +23,7 @@ VALUES (41793,   1,          1) /* ItemType - MeleeWeapon */
      , (41793, 107,      10000) /* ItemCurMana */
      , (41793, 108,      10000) /* ItemMaxMana */
      , (41793, 114,          0) /* Attuned - Normal */
-     , (41793, 263,          1) /* ResistanceModifierType */
+     , (41793, 263,          1) /* ResistanceModifierType - Slash */
      , (41793, 267,      10800) /* Lifespan */
      , (41793, 292,          2) /* Cleaving */
      , (41793, 353,         11) /* WeaponType - TwoHanded */;

@@ -29,7 +29,7 @@ VALUES (70211,   1,          1) /* ItemType - MeleeWeapon */
      , (70211, 158,          2) /* WieldRequirements - RawSkill */
      , (70211, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (70211, 160,        325) /* WieldDifficulty */
-     , (70211, 263,          1) /* ResistanceModifierType */
+     , (70211, 263,          1) /* ResistanceModifierType - Slash */
      , (70211, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

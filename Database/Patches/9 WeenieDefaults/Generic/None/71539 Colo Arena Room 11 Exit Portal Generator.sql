@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71539;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71539, 'coloR11exitgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (71539, 'ace71539-coloarenaroom11exitportalgenerator', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71539,  81,          1) /* MaxGeneratedObjects */

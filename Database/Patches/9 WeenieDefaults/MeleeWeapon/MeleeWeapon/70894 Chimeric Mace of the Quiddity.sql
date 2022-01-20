@@ -27,7 +27,7 @@ VALUES (70894,   1,          1) /* ItemType - MeleeWeapon */
      , (70894, 158,          7) /* WieldRequirements - Level */
      , (70894, 159,          1) /* WieldSkillType - Axe */
      , (70894, 160,        120) /* WieldDifficulty */
-     , (70894, 263,          4) /* ResistanceModifierType */
+     , (70894, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (70894, 267,      10800) /* Lifespan */
      , (70894, 353,          4) /* WeaponType - Mace */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5393;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5393, 'festivalstonesnowreap', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (5393, 'festivalstonesnowreap', 1, '2022-01-08 18:29:57') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5393,   1,        128) /* ItemType - Misc */
@@ -15,8 +15,8 @@ VALUES (5393,   1,        128) /* ItemType - Misc */
      , (5393,  95,          8) /* RadarBlipColor - Yellow */
      , (5393, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5393, 142,          1) /* GeneratorTimeType - RealTime */
-     , (5393, 143, 1635847260) /* GeneratorStartTime - 11/02/2021 14:01:00 */
-     , (5393, 144, 1636192740) /* GeneratorEndTime - 11/06/2021 13:59:00 */
+     , (5393, 143, 1667365260) /* GeneratorStartTime - 11/02/2022 05:01:00 */
+     , (5393, 144, 1667710740) /* GeneratorEndTime - 11/06/2022 04:59:00 */
      , (5393, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1960;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1960, 'extremedirelandsforestgen', 1, '2021-12-14 05:15:31') /* Generic */;
+VALUES (1960, 'extremedirelandsforestgen', 1, '2022-01-08 18:29:57') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1960,  81,          2) /* MaxGeneratedObjects */
@@ -63,9 +63,9 @@ VALUES (1960, 0.015, 8057, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /
      , (1960, 0.67926, 7127, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Nightmare Wisp (7127) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (1960, 0.6988, 7125, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Affliction Wisp (7125) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (1960, 0.70852, 7150, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lugian Tiatus Camp Generator (7150) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (1960, 0.71824, 8137, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tiatus Raider (8137) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (1960, 0.72796, 24495, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gotrok Juggernaut (24495) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (1960, 0.73768, 24285, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Raider Juggernaut (24285) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (1960, 0.71824, 36838, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tiatus Raider (36838) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (1960, 0.72796, 36837, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gotrok Juggernaut (36837) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (1960, 0.73768, 36836, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Raider Juggernaut (36836) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (1960, 0.7474, 24951, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gotrok Titan (24951) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (1960, 0.77676, 24524, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lugian Titans Camp Generator (24524) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (1960, 0.7963, 24523, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Raider Juggernaut Camp Generator (24523) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

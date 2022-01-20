@@ -29,7 +29,7 @@ VALUES (46115,   1,          1) /* ItemType - MeleeWeapon */
      , (46115, 158,          2) /* WieldRequirements - RawSkill */
      , (46115, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (46115, 160,        370) /* WieldDifficulty */
-     , (46115, 263,         32) /* ResistanceModifierType */
+     , (46115, 263,         32) /* ResistanceModifierType - Acid */
      , (46115, 292,          2) /* Cleaving */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

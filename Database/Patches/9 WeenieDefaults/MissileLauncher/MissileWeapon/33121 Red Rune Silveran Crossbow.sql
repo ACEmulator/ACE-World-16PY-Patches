@@ -27,7 +27,7 @@ VALUES (33121,   1,        256) /* ItemType - MissileWeapon */
      , (33121, 158,          7) /* WieldRequirements - Level */
      , (33121, 159,          1) /* WieldSkillType - Axe */
      , (33121, 160,        140) /* WieldDifficulty */
-     , (33121, 263,          2) /* ResistanceModifierType */
+     , (33121, 263,          2) /* ResistanceModifierType - Pierce */
      , (33121, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

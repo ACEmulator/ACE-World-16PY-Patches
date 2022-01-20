@@ -27,7 +27,7 @@ VALUES (70896,   1,          1) /* ItemType - MeleeWeapon */
      , (70896, 158,          7) /* WieldRequirements - Level */
      , (70896, 159,          1) /* WieldSkillType - Axe */
      , (70896, 160,        120) /* WieldDifficulty */
-     , (70896, 263,          2) /* ResistanceModifierType */
+     , (70896, 263,          2) /* ResistanceModifierType - Pierce */
      , (70896, 267,      10800) /* Lifespan */
      , (70896, 353,          5) /* WeaponType - Spear */;
 

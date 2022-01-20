@@ -27,7 +27,7 @@ VALUES (36387,   1,          1) /* ItemType - MeleeWeapon */
      , (36387, 158,          7) /* WieldRequirements - Level */
      , (36387, 159,          1) /* WieldSkillType - Axe */
      , (36387, 160,        120) /* WieldDifficulty */
-     , (36387, 263,          1) /* ResistanceModifierType */
+     , (36387, 263,          1) /* ResistanceModifierType - Slash */
      , (36387, 267,      10800) /* Lifespan */
      , (36387, 353,          2) /* WeaponType - Sword */;
 
