@@ -38,7 +38,7 @@ VALUES (27839,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27839,   5,  -0.033) /* ManaRate */
      , (27839,  29,    1.08) /* WeaponDefense */
-     , (27839, 138,     1.4) /* SlayerDamageBonus */
+     , (27839, 138,     1.8) /* SlayerDamageBonus */
      , (27839, 144,    0.07) /* ManaConversionMod */
      , (27839, 147,     0.3) /* CriticalFrequency */;
 
