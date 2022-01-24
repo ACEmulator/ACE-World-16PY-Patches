@@ -11,7 +11,7 @@ VALUES (52620,   1,         16) /* ItemType - Creature */
      , (52620,   7,         -1) /* ContainersCapacity */
      , (52620,  16,          1) /* ItemUseable - No */
      , (52620,  25,        265) /* Level */
-     , (52620,  81,          5) /* MaxGeneratedObjects */
+     , (52620,  81,          1) /* MaxGeneratedObjects */
      , (52620,  82,          0) /* InitGeneratedObjects */
      , (52620,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (52620, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -126,4 +126,4 @@ VALUES (52620, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) f
      , (52620, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52620, 1, 52466, 0, 1, 5, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Acidic Mist (52466) (x1 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (52620, -1, 52466, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Acidic Mist (52466) (x1 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
