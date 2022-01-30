@@ -1,23 +1,34 @@
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.05
+	- Motion: Twitch1
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.041
+	- Motion: Twitch2
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.065
+	- Motion: Twitch3
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.032
+	- Motion: Twitch4
+	
 Refuse: 87338
-    - TurnToTarget
-    - Tell: Hmmm... Strange thing, this. Power feels, wrong, somehow...
-    - Delay: 1, DirectBroadcast: Taraash shakes his head, as if clearing it.
-    - Delay: 1, Tell: Keep it. I do not trust it. Perhaps your Tribe has use for it.
+	- TurnToTarget
+	- Tell: Hmmm... Strange thing, this. Power feels, wrong, somehow...
+	- Delay: 1, DirectBroadcast: Taraash shakes his head, as if clearing it.
+	- Delay: 1, Tell: Keep it. I do not trust it. Perhaps your Tribe has use for it.
 
 Give: 87337
-    - TurnToTarget
-    - Tell: Thank you again. With the stolen artifacts returned, Haraag cannot use to get other Tribes to follow him. Please, accept reward for help you have given us.
-    - AwardLevelProportionalXP: 20%, 0 - 64,966,287
-	- StampQuest: StolenArtifacts_TurnIn
+	- TurnToTarget
+	- Tell: Thank you again. With the stolen artifacts returned, Haraag cannot use to get other Tribes to follow him. Please, accept reward for help you have given us.
+	- AwardLevelProportionalXP: 20%, 0 - 64,966,287
 
 Use:
-    - TurnToTarget
-    - InqQuest: AerbaxsProdigalBanderling_Start
-        QuestSuccess:
-			- InqQuest: StolenArtifacts_TurnIn
+	- TurnToTarget
+	- InqQuest: AerbaxsProdigalBanderling_Wait
+		QuestSuccess:
+			- Tell: Again I thank you for returning the artifacts. Please return to me later...
+		QuestFailure:
+			- InqQuest: AerbaxsProdigalBanderling_Start
 				QuestSuccess:
-					- Tell: Again I thank you for returning the artifacts.
-				QuestFailure:
 					- InqFellowQuest: AerbaxsProdigalBanderling_Fellow
 						QuestSuccess:
 							- Tell: Hurry, I need those artifacts.
@@ -35,6 +46,5 @@ Use:
 							- Tell: Hmmm... Winterborn sent you. I smell him on you.
 							- Delay: 1, Tell: Perhaps... Perhaps you can help. I trust you. You will need strong friends to help. Not a thing to do alone. Gather a group, come back, speak to me again.
 							- Delay: 1, DirectBroadcast: The Banderling Guard Champion looks around, watching for threats.
-        QuestFailure:
-            - Tell: Why you here, eh? How I know I can trust you...
-
+				QuestFailure:
+					- Tell: Why you here, eh? How I know I can trust you...
