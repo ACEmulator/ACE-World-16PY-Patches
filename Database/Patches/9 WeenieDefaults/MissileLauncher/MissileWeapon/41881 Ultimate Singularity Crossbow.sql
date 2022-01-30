@@ -48,7 +48,7 @@ VALUES (41881,   5,  -0.033) /* ManaRate */
      , (41881,  62,       1) /* WeaponOffense */
      , (41881,  63,    2.55) /* DamageMod */
      , (41881, 136,     2.5) /* CriticalMultiplier */
-     , (41881, 138,       2) /* SlayerDamageBonus */
+     , (41881, 138,     1.8) /* SlayerDamageBonus */
      , (41881, 147,    0.25) /* CriticalFrequency */
      , (41881, 155,       1) /* IgnoreArmor */;
 
