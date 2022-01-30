@@ -1,9 +1,9 @@
 Death:
-	- LocalSignal: TheMasterIsDead
-	- StopEvent: TheMasterBossStart
+    - LocalSignal: TheMasterIsDead
+    - StopEvent: TheMasterBossStart
 
 Generation:
-	- StopEvent: TheMasterWave1
+    - StopEvent: TheMasterWave1
 
 KillTaunt:
-	- CastSpellInstant: 4040
+    - CastSpellInstant: 4040

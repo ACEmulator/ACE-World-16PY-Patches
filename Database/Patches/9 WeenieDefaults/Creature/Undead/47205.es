@@ -6,6 +6,6 @@ Scream:
     - Generate
     - LocalSignal: CloseDoor
     - Say: Intruder!, Extent: 20
-	
+    
 Homesick:
-	- LocalSignal: OpenDoor
+    - LocalSignal: OpenDoor

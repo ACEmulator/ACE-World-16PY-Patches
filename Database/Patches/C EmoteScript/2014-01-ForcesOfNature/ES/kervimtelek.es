@@ -1,116 +1,116 @@
 Use:
-	- TurnToTarget
-	- Tell: You have faced many dangers to reach this sanctuary. Here under the boughs of the Deru I work to purify and heal the great tree even as darkness gnaws at its roots.
-	- Tell: I have devised a ritual that uses the Infused Amber that the great tree showers upon the Viridian Rise. We cannot gather these fast enough to fight off the encroaching darkness.
-	- Tell: Bring me 100 Infused Amber for one purification ritual and I will reward you with a treasure from my horde.
-	- Tell: I will give you something I have gathered or created. These items are constantly changing. If you do not like the item I gave to you, return it to me and any Infused Amber that survived the ritual will be returned to you.
+    - TurnToTarget
+    - Tell: You have faced many dangers to reach this sanctuary. Here under the boughs of the Deru I work to purify and heal the great tree even as darkness gnaws at its roots.
+    - Tell: I have devised a ritual that uses the Infused Amber that the great tree showers upon the Viridian Rise. We cannot gather these fast enough to fight off the encroaching darkness.
+    - Tell: Bring me 100 Infused Amber for one purification ritual and I will reward you with a treasure from my horde.
+    - Tell: I will give you something I have gathered or created. These items are constantly changing. If you do not like the item I gave to you, return it to me and any Infused Amber that survived the ritual will be returned to you.
 
 Refuse: 53364
-	- TurnToTarget
-	- Tell: You have done well to defeat this foe, champion.
-	- TakeItems: 53364, 1
-	- AwardLuminance: 5,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 40
+    - TurnToTarget
+    - Tell: You have done well to defeat this foe, champion.
+    - TakeItems: 53364, 1
+    - AwardLuminance: 5,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 40
 
 Refuse: 53366
-	- TurnToTarget
-	- Tell: You have done well to defeat this foe, champion.
-	- TakeItems: 53366, 1
-	- AwardLuminance: 5,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 40
+    - TurnToTarget
+    - Tell: You have done well to defeat this foe, champion.
+    - TakeItems: 53366, 1
+    - AwardLuminance: 5,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 40
 
 Refuse: 53362
-	- TurnToTarget
-	- Tell: Norshuntyr, once a noble protector and now, a corrupt spirit of the wood. You have done well to defeat him, champion!
-	- TakeItems: 53362, 1
-	- AwardLuminance: 10,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 60
+    - TurnToTarget
+    - Tell: Norshuntyr, once a noble protector and now, a corrupt spirit of the wood. You have done well to defeat him, champion!
+    - TakeItems: 53362, 1
+    - AwardLuminance: 10,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 60
 
 Refuse: 53360
-	- TurnToTarget
-	- Tell: If even the great Zerzelikyr can be influenced by this madness and corruption what can the others do? It is fortunate we have champions such as you.
-	- TakeItems: 53360, 1
-	- AwardLuminance: 10,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 80
+    - TurnToTarget
+    - Tell: If even the great Zerzelikyr can be influenced by this madness and corruption what can the others do? It is fortunate we have champions such as you.
+    - TakeItems: 53360, 1
+    - AwardLuminance: 10,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 80
 
 Refuse: 52968
-	- TurnToTarget
-	- InqOwnsItems: 52968, 100
-		TestSuccess:
-			- Tell: You have done well to gather these. They will serve to purify and heal the great tree.
-			- TakeItems: 52968, 100
-			- Goto: chooseReward
-		TestFailure:
-			- Tell: You have not yet gathered enough Infused Amber for the purification ritual. Come back to me when you have at least 100.
+    - TurnToTarget
+    - InqOwnsItems: 52968, 100
+        TestSuccess:
+            - Tell: You have done well to gather these. They will serve to purify and heal the great tree.
+            - TakeItems: 52968, 100
+            - Goto: chooseReward
+        TestFailure:
+            - Tell: You have not yet gathered enough Infused Amber for the purification ritual. Come back to me when you have at least 100.
 
 Use:
-	- TurnToTarget
-	- Tell: You have faced many dangers to reach this sanctuary. Here under the boughs of the Deru I work to purify and heal the great tree even as darkness gnaws at its roots.
-	- Tell: I have devised a ritual that uses the Infused Amber that the great tree showers upon the Viridian Rise. We cannot gather these fast enough to fight off the encroaching darkness.
-	- Tell: Bring me 100 Infused Amber for one purification ritual and I will reward you with a treasure from my horde.
-	- Tell: I will give you something I have gathered or created. These items are constantly changing. If you do not like the item I gave to you, return it to me and any Infused Amber that survived the ritual will be returned to you.
+    - TurnToTarget
+    - Tell: You have faced many dangers to reach this sanctuary. Here under the boughs of the Deru I work to purify and heal the great tree even as darkness gnaws at its roots.
+    - Tell: I have devised a ritual that uses the Infused Amber that the great tree showers upon the Viridian Rise. We cannot gather these fast enough to fight off the encroaching darkness.
+    - Tell: Bring me 100 Infused Amber for one purification ritual and I will reward you with a treasure from my horde.
+    - Tell: I will give you something I have gathered or created. These items are constantly changing. If you do not like the item I gave to you, return it to me and any Infused Amber that survived the ritual will be returned to you.
 
 Refuse: 53364
-	- TurnToTarget
-	- Tell: You have done well to defeat this foe, champion.
-	- TakeItems: 53364, 1
-	- AwardLuminance: 5,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 40
+    - TurnToTarget
+    - Tell: You have done well to defeat this foe, champion.
+    - TakeItems: 53364, 1
+    - AwardLuminance: 5,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 40
 
 Refuse: 53366
-	- TurnToTarget
-	- Tell: You have done well to defeat this foe, champion.
-	- TakeItems: 53366, 1
-	- AwardLuminance: 5,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 40
+    - TurnToTarget
+    - Tell: You have done well to defeat this foe, champion.
+    - TakeItems: 53366, 1
+    - AwardLuminance: 5,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 40
 
 Refuse: 53362
-	- TurnToTarget
-	- Tell: Norshuntyr, once a noble protector and now, a corrupt spirit of the wood. You have done well to defeat him, champion!
-	- TakeItems: 53362, 1
-	- AwardLuminance: 10,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 60
+    - TurnToTarget
+    - Tell: Norshuntyr, once a noble protector and now, a corrupt spirit of the wood. You have done well to defeat him, champion!
+    - TakeItems: 53362, 1
+    - AwardLuminance: 10,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 60
 
 Refuse: 53360
-	- TurnToTarget
-	- Tell: If even the great Zerzelikyr can be influenced by this madness and corruption what can the others do? It is fortunate we have champions such as you.
-	- TakeItems: 53360, 1
-	- AwardLuminance: 10,000
-	- Give: 48746
-	- Give: 48746
-	- Give: 20630
-	- Give: 52968, 80
+    - TurnToTarget
+    - Tell: If even the great Zerzelikyr can be influenced by this madness and corruption what can the others do? It is fortunate we have champions such as you.
+    - TakeItems: 53360, 1
+    - AwardLuminance: 10,000
+    - Give: 48746
+    - Give: 48746
+    - Give: 20630
+    - Give: 52968, 80
 
 Refuse: 52968
-	- TurnToTarget
-	- InqOwnsItems: 52968, 100
-		TestSuccess:
-			- Tell: You have done well to gather these. They will serve to purify and heal the great tree.
-			- TakeItems: 52968, 100
-			- Goto: chooseReward
-		TestFailure:
-			- Tell: You have not yet gathered enough Infused Amber for the purification ritual. Come back to me when you have at least 100.
+    - TurnToTarget
+    - InqOwnsItems: 52968, 100
+        TestSuccess:
+            - Tell: You have done well to gather these. They will serve to purify and heal the great tree.
+            - TakeItems: 52968, 100
+            - Goto: chooseReward
+        TestFailure:
+            - Tell: You have not yet gathered enough Infused Amber for the purification ritual. Come back to me when you have at least 100.
 
 
 Gotoset: chooseReward, Probability: 0.0022
@@ -303,59 +303,59 @@ Gotoset: chooseReward, Probability: 1
     - Give: 53450, 5
     
 Give: 53302
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
 
 Give: 53335
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 53336
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 53337
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 53338
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 53339
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
 
 Give: 53340
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
 
 Give: 53341
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 53342
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 53343
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 72003
-	- TurnToTarget
-	- Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
-	- Goto: refundAmber
+    - TurnToTarget
+    - Tell: You are not interested in my gift? Well then let us see how much amber survived the ritual.
+    - Goto: refundAmber
     
 Give: 53066
     - TurnToTarget
@@ -613,24 +613,24 @@ Give: 72006
     - Goto: refundAmber
 
 Gotoset: refundAmber, Probability: 0.05
-	- Give: 52968, 1
+    - Give: 52968, 1
 Gotoset: refundAmber, Probability: 0.10
-	- Give: 52968, 10
+    - Give: 52968, 10
 Gotoset: refundAmber, Probability: 0.15
-	- Give: 52968, 20
+    - Give: 52968, 20
 Gotoset: refundAmber, Probability: 0.24
-	- Give: 52968, 30
+    - Give: 52968, 30
 Gotoset: refundAmber, Probability: 0.32
-	- Give: 52968, 40
+    - Give: 52968, 40
 Gotoset: refundAmber, Probability: 0.43
-	- Give: 52968, 50
+    - Give: 52968, 50
 Gotoset: refundAmber, Probability: 0.63
-	- Give: 52968, 60
+    - Give: 52968, 60
 Gotoset: refundAmber, Probability: 0.75
-	- Give: 52968, 70
+    - Give: 52968, 70
 Gotoset: refundAmber, Probability: 0.85
-	- Give: 52968, 80
+    - Give: 52968, 80
 Gotoset: refundAmber, Probability: 0.95
-	- Give: 52968, 90
+    - Give: 52968, 90
 Gotoset: refundAmber, Probability: 1
-	- Give: 52968, 100
+    - Give: 52968, 100

@@ -1,79 +1,79 @@
 Refuse: Bastion of Tukal (27087)
-	- TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- TakeItems: 27087, 1
-			- Give: 87459
-			- Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
-			- EraseQuest: AurutisItemUpgrade_Flag
-		QuestFailure:
-			- Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
+    - TurnToTarget
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - TakeItems: 27087, 1
+            - Give: 87459
+            - Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
+            - EraseQuest: AurutisItemUpgrade_Flag
+        QuestFailure:
+            - Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
 
 Refuse: Crest of Kings (27089)
-	- TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- TakeItems: 27089, 1
-			- Give: 36639
-			- Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
-			- EraseQuest: AurutisItemUpgrade_Flag
-		QuestFailure:
-			- Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
+    - TurnToTarget
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - TakeItems: 27089, 1
+            - Give: 36639
+            - Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
+            - EraseQuest: AurutisItemUpgrade_Flag
+        QuestFailure:
+            - Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
 
 Refuse: Helm of the Crag (27088)
-	- TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- TakeItems: 27088, 1
-			- Give: 36638
-			- Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
-			- EraseQuest: AurutisItemUpgrade_Flag
-		QuestFailure:
-			- Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
+    - TurnToTarget
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - TakeItems: 27088, 1
+            - Give: 36638
+            - Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
+            - EraseQuest: AurutisItemUpgrade_Flag
+        QuestFailure:
+            - Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
 
 Refuse: Sleeves of Inexhaustibility (27090)
-	- TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- TakeItems: 27090, 1
-			- Give: 87460
-			- Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
-			- EraseQuest: AurutisItemUpgrade_Flag
-		QuestFailure:
-			- Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
+    - TurnToTarget
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - TakeItems: 27090, 1
+            - Give: 87460
+            - Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
+            - EraseQuest: AurutisItemUpgrade_Flag
+        QuestFailure:
+            - Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
 
 Refuse: Scepter of Might (27094)
-	- TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- TakeItems: 27094, 1
-			- Give: 36705
-			- Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
-			- EraseQuest: AurutisItemUpgrade_Flag
-		QuestFailure:
-			- Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
+    - TurnToTarget
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - TakeItems: 27094, 1
+            - Give: 36705
+            - Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
+            - EraseQuest: AurutisItemUpgrade_Flag
+        QuestFailure:
+            - Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
 
 Refuse: Spear of Purity (27095)
-	- TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- TakeItems: 27095, 1
-			- Give: 87461
-			- Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
-			- EraseQuest: AurutisItemUpgrade_Flag
-		QuestFailure:
-			- Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
+    - TurnToTarget
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - TakeItems: 27095, 1
+            - Give: 87461
+            - Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
+            - EraseQuest: AurutisItemUpgrade_Flag
+        QuestFailure:
+            - Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
 
 Refuse: Staff of Clarity (27092)
-	- TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- TakeItems: 27092, 1
-			- Give: 87462
-			- Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
-			- EraseQuest: AurutisItemUpgrade_Flag
-		QuestFailure:
-			- Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
+    - TurnToTarget
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - TakeItems: 27092, 1
+            - Give: 87462
+            - Tell: Here you are Guardian. Thank you for your part in defeating that vile imposter of Lord Kresovus.
+            - EraseQuest: AurutisItemUpgrade_Flag
+        QuestFailure:
+            - Tell: Fine Lugian workmanship here. If you want me to upgrade this you'll need Lord Kresovus' approval. We don't give just anyone our best work.
 
 Refuse: Sleeves of the Arm (9472)
     - Goto: RefuseHumanTrophiesText
@@ -150,15 +150,15 @@ Give: Spear of Purity (9490)
 Use:
     - Motion: Ready
     - TurnToTarget
-	- InqQuest: AurutisItemUpgrade_Flag
-		QuestSuccess:
-			- Tell: Lord Kresovus sent me word of your honor. You may have one item from this list upgraded to the quality befitting a Guardian of Linvak Tukal my friend.
-			- Give: 87458
-		QuestFailure:
-			- Delay: 1, Tell: The raiders are striking hard now. They are fearful of our efforts to reach out to the Isparians. We have lost three of our most sacred totems due to their depredations. The Cloth of the Arm, the Sceptre of the Mind, and the Blade of the Heart must be found to ensure the continued stability of Linvak Tukal.
-			- Give: Lugian Scout Report (27252)
-			- Delay: 1, Tell: Our scouts have compiled information as to the whereabouts of the raiders' encampments into this report. You may find it useful in retrieving our totems. Kifandel the Imbuer now carries the Book of the Arm, Mind, and Heart, which records the words of Lauriagne, our first Matriarch. Read her words you will understand why the recovery of our totems is of the utmost importance to us.
-			- Delay: 1, Tell: I've recently made some improvements to the Sleeves of Inexhausitibility, the Staff of Clarity, and the Spear of Purity. If you would like to have one of these items, I will gladly improve it.
+    - InqQuest: AurutisItemUpgrade_Flag
+        QuestSuccess:
+            - Tell: Lord Kresovus sent me word of your honor. You may have one item from this list upgraded to the quality befitting a Guardian of Linvak Tukal my friend.
+            - Give: 87458
+        QuestFailure:
+            - Delay: 1, Tell: The raiders are striking hard now. They are fearful of our efforts to reach out to the Isparians. We have lost three of our most sacred totems due to their depredations. The Cloth of the Arm, the Sceptre of the Mind, and the Blade of the Heart must be found to ensure the continued stability of Linvak Tukal.
+            - Give: Lugian Scout Report (27252)
+            - Delay: 1, Tell: Our scouts have compiled information as to the whereabouts of the raiders' encampments into this report. You may find it useful in retrieving our totems. Kifandel the Imbuer now carries the Book of the Arm, Mind, and Heart, which records the words of Lauriagne, our first Matriarch. Read her words you will understand why the recovery of our totems is of the utmost importance to us.
+            - Delay: 1, Tell: I've recently made some improvements to the Sleeves of Inexhausitibility, the Staff of Clarity, and the Spear of Purity. If you would like to have one of these items, I will gladly improve it.
 
 GotoSet: RefuseHumanTrophiesText
     - TurnToTarget
@@ -168,4 +168,3 @@ GotoSet: RefuseQuestRewardText
     - Motion: Ready
     - TurnToTarget
     - Tell: Congratulations!  You have earned it
-

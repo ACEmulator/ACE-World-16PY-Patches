@@ -153,4 +153,3 @@ QuestSuccess: SarcophagusKillCount@KillTaskCompleted
 QuestFailure: SarcophagusKillCount@KillTaskCompleted
     - DirectBroadcast: You've killed %tqc out of %tqm Sarcophagi.
     - Tell: Return to me after you have killed %tqm Sarcophagi and I will reward you.
-

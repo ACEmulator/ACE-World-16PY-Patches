@@ -14,13 +14,13 @@ Refuse: Crystal of Perception (38615)
             - Tell: You need to take that crystal and hold it near three markers on the Dark Isle - by the Ruschk iceberg, the entrance cavern where Grael was imprisoned, and a low point in the Coral Forest. Once you have done that, bring it back here and I shall take it and reward you.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
-	- Motion: Twitch1
+    - Motion: Twitch1
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-	- Motion: Twitch2
+    - Motion: Twitch2
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-	- Motion: Twitch3
+    - Motion: Twitch3
 
 Use:
     - TurnToTarget

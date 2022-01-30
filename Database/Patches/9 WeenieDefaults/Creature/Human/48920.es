@@ -25,4 +25,3 @@ Use:
                             - StampQuest: DeconstructionStarted_0213
         TestFailure:
             - Tell: I am afraid that to aid me, you must first grow stronger.
-    

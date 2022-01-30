@@ -26,12 +26,11 @@ Use:
 
 Give: 38082
 -TurnToTarget
-	-AwardLevelProportionalXP: 30%, Max: 297,235,856
-	-Tell: Well done! I will not ask how you got this artifact from the hoary old tyrant. But this should contain the information we need to find out what Rytheran did wrong, and what we can do to stop what he has unleashed...
-	-StampQuest: turnedinrytheransmnemosynelacarra
-	-EraseQuest: ringofremembranceturnedin
+    -AwardLevelProportionalXP: 30%, Max: 297,235,856
+    -Tell: Well done! I will not ask how you got this artifact from the hoary old tyrant. But this should contain the information we need to find out what Rytheran did wrong, and what we can do to stop what he has unleashed...
+    -StampQuest: turnedinrytheransmnemosynelacarra
+    -EraseQuest: ringofremembranceturnedin
 Give: 38083
 -TurnToTarget
-	-Tell: You do not want this?  What a pity.  A beautiful mask, and with significant historical value... I know my lady will want this.  I thank you.
-	-AwardLevelProportionalXP: 5%, Max: 49,539,309
-
+    -Tell: You do not want this?  What a pity.  A beautiful mask, and with significant historical value... I know my lady will want this.  I thank you.
+    -AwardLevelProportionalXP: 5%, Max: 49,539,309

@@ -12,6 +12,4 @@ Use:
             - AwardLuminance: 10,000
             - Give: 48747
             - StampQuest: countphainorsamuletwait
-		- EraseQuest: talkedtokaragrularr
-
-
+        - EraseQuest: talkedtokaragrularr

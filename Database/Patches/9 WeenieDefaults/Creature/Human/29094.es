@@ -73,4 +73,3 @@ GotoSet: QuestRewards
     - Give: Viamontian Guardian Bracelet (29093)
     - Delay: 1, Tell: You may wish to visit Lorca Sammel next. I hear tell he has need of assistance. You can find him at 71.9N 60.9W. When you're done with Sammel, pay a visit to the Barkeeper Jean Vaden. He sells rumors you may find of interest.
     - StampQuest: ThrungusHovels
-
