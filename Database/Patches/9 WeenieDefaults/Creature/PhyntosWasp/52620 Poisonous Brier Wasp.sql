@@ -126,4 +126,4 @@ VALUES (52620, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) f
      , (52620, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52620, -1, 52466, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Acidic Mist (52466) (x1 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (52620, -1, 52466, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Acidic Mist (52466) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

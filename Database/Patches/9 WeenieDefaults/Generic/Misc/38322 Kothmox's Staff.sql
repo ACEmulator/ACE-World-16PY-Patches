@@ -25,7 +25,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38322,   1, 'Kothmox''s Staff') /* Name */
      , (38322,  14, 'Use this staff to open the way to the Moarsmen City, Nyr''leha.') /* Use */
      , (38322,  16, 'A staff smoothed by years of ocean and sand.') /* LongDesc */;
-    
+
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38322,   1, 0x02001044) /* Setup */
      , (38322,   3, 0x20000014) /* SoundTable */
