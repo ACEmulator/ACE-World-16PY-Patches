@@ -731,7 +731,7 @@ VALUES (0x7018A0EB, 42820, 0x018A026C, 136.193, -20.007, 0.005, 0.707107, 0, 0, 
 /* @teleloc 0x018A026C [136.192993 -20.007000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018A0EC,  4041, 0x018A026D, 136.193, -30.007, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Kara */
+VALUES (0x7018A0EC,  42848, 0x018A026D, 136.193, -30.007, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Kara */
 /* @teleloc 0x018A026D [136.192993 -30.007000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
