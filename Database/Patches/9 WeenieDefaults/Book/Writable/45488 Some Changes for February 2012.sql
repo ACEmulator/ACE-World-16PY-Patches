@@ -30,14 +30,14 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (45488, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (45488, 0, 4294967295, 'RACIAL CHANGES                      ', 'prewritten', False, 'Racial Changes
+VALUES (45488, 0, 0xFFFFFFFF, 'RACIAL CHANGES                      ', 'prewritten', False, 'Racial Changes
 Racial advantages have been revamped.
 The number of specialization credits you can have has been increased by 6, to a total of 70.
 Racial skills have been removed and experience refunded. You get Arcane Lore trained for free and you can spend the other 2 skill credits as you see fit.
 Each race still gets a free starting Augmentation. Each race also gets a bonus to the damage of specific weapons called Mastery. Your Mastery is listed in your Character Information panel.
 If you used a racial weapon skill you will have to train or specialize one of the new weapons skills described on the next page.
 ')
-     , (45488, 1, 4294967295, 'WEAPON SKILL CHANGES                      ', 'prewritten', False, 'Weapon Skill Changes
+     , (45488, 1, 0xFFFFFFFF, 'WEAPON SKILL CHANGES                      ', 'prewritten', False, 'Weapon Skill Changes
 
 Weapon skills have been revamped. Weapons are now organized into 5 combat skills:
 Heavy Weapons
@@ -60,7 +60,7 @@ Characters with the Sword skill were given Heavy Weapons. Characters with the Da
 Bow, Crossbow and Thrown Weapon skills have been removed. If you had any of those skills then Missile Weapons was added.
 Two Handed Weapon skill remains unchanged.
 ')
-     , (45488, 2, 4294967295, 'SHIELD AND DUAL WIELD', 'prewritten', False, 'Shield and Dual Wield
+     , (45488, 2, 0xFFFFFFFF, 'SHIELD AND DUAL WIELD', 'prewritten', False, 'Shield and Dual Wield
 A Shield skill and Dual Wield skill were added. If you use shields you will want to train or specialize the Shield skill or higher level shields will be far less effective for you. You can also learn to effectively wield a one handed weapon in your off hand.
 Shield
 Cost: 2/2
@@ -71,23 +71,23 @@ Cost: 2/2
 (Str + Coord)/3
 You can equip a weapon in each hand. Your skill in the off hand is limited by your Dual Wield skill.
 ')
-     , (45488, 3, 4294967295, 'LOOT WEAPONS                  ', 'prewritten', False, 'Loot Weapons
+     , (45488, 3, 0xFFFFFFFF, 'LOOT WEAPONS                  ', 'prewritten', False, 'Loot Weapons
 Your loot weapons have been converted to the new skills.
 Swords have been changed to Heavy Weapons and the damage has been increased appropriately.
 Daggers have been changed to Finesse Weapons and the damage has been increased appropriately.
 Other weapons have been changed to Light Weapons and the damage has been increased appropriately.
 New weapons drop in loot. Each type of weapon (Dagger, Sword, Mace, etc.) is represented in each skill. There are, for example, Heavy Daggers, Light Axes, Finesse Sword, etc.
 ')
-     , (45488, 4, 4294967295, 'QUEST WEAPONS                                   ', 'prewritten', False, 'Quest Weapons
+     , (45488, 4, 0xFFFFFFFF, 'QUEST WEAPONS                                   ', 'prewritten', False, 'Quest Weapons
 Quest weapons have been updated, and they have been redistributed among the new weapon skills.
 To help you get going with the changes, Asheron has sent an Emissary to Arwic to distribute one free quest weapon to existing adventurers.
 Find the Emissary of Asheron in Arwic to claim your free quest weapon.
 ')
-     , (45488, 5, 4294967295, 'Imbues and Modifications                           ', 'prewritten', False, 'Imbues and Modifications
+     , (45488, 5, 0xFFFFFFFF, 'Imbues and Modifications                           ', 'prewritten', False, 'Imbues and Modifications
 To help you transition to the new skills and prepare new weapons, all adventurers are given six imbue swap coins that can be used to purchase new imbues
 You can claim these coins from one of Asheron''s Emissaries in Arwic. These coins can be traded to other characters.
 ')
-     , (45488, 6, 4294967295, 'New Skills                          ', 'prewritten', False, 'Other New Skills
+     , (45488, 6, 0xFFFFFFFF, 'New Skills                          ', 'prewritten', False, 'Other New Skills
 The combat masters of Dereth have developed new skills which you can learn.
 Recklessness
 Cost: 4/2
@@ -102,7 +102,7 @@ Cost: 2/2
 (Str + Coord)/3
 Your melee and missile attacks have a chance to weaken your opponent. High attacks can reduce the attack skills of the opponent. Low attacks can reduce the defense skills of the opponent. Medium attacks can reduce healing effects on the opponent and cause small amounts of bleeding damage.
 ')
-     , (45488, 7, 4294967295, 'And More!', 'prewritten', False, '
+     , (45488, 7, 0xFFFFFFFF, 'And More!', 'prewritten', False, '
 These are just some of the changes for the February 2012 patch.
 For more complete information visit the Asheron''s Call official forums.
 ');

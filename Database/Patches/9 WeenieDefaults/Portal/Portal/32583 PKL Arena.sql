@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32583;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32583, 'portalpklarenanew4', 7, '2021-11-01 00:00:00') /* Undef */;
+VALUES (32583, 'portalpklarenanew4', 7, '2021-11-01 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32583,   1,      65536) /* ItemType - Portal */
@@ -30,4 +30,5 @@ VALUES (32583,   1, 0x020001B3) /* Setup */
      , (32583,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32583, 2, 0x0067011E, 50, 0, 0, -0.276474, 0, 0, -0.961021) /* Destination */;
+VALUES (32583, 2, 0x0067011E, 50, 0, 0, -0.276474, 0, 0, -0.961021) /* Destination */
+/* @teleloc 0x0067011E [50.000000 0.000000 0.000000] -0.276474 0.000000 0.000000 -0.961021 */;
