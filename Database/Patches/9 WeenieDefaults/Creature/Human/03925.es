@@ -171,7 +171,7 @@ Give: Skeleton's Skull (3687)
 Give: Skull of High Acolyte (7817)
     - TurnToTarget
     - Tell: This skull is very unique, it will be extremely useful to me.
-    - AwardNoShareXP: 50,000
+    - AwardNoShareXP: 300,000
     - Give: Pyreal (273), 5,000
     - Delay: 1, Motion: BowDeep
     - Tell: Thank you for bringing me this treasure.
@@ -311,3 +311,4 @@ Use:
     - TurnToTarget
     - Delay: 1, Motion: Salute
     - Delay: 1, Tell: I am interested in various teeth, horns, shells, and skulls.  For those I will reward you with useful items I make myself.
+
