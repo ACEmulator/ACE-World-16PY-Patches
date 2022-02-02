@@ -27,7 +27,7 @@ VALUES (34002,   1,          1) /* ItemType - MeleeWeapon */
      , (34002, 158,          2) /* WieldRequirements - RawSkill */
      , (34002, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (34002, 160,        300) /* WieldDifficulty */
-     , (34002, 263,          4) /* ResistanceModifierType - Bludgeon */
+     , (34002, 263,          4) /* ResistanceModifierType */
      , (34002, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,6 +44,7 @@ VALUES (34002,   5,   -0.05) /* ManaRate */
      , (34002,  62,     1.1) /* WeaponOffense */
      , (34002,  63,       1) /* DamageMod */
      , (34002, 136,    1.89) /* CriticalMultiplier */
+     , (34002, 156,    0.05) /* ProcSpellRate */
      , (34002, 157,    1.59) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
