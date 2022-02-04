@@ -7,16 +7,16 @@ Refuse: Brass Knuckles (28215)
     - StampQuest: HamudsDemiseStarted_0511
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.001
-    - Say: I seek the teeth of certain creatures, the gromnies.  But I won't take just anything, I want only the most well preserved gromnie teeth!
+    - Extent: 20, Say: I seek the teeth of certain creatures, the gromnies.  But I won't take just anything, I want only the most well preserved gromnie teeth!
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.002
-    - Say: Give me the rare tooth of the fierce gromnies, and I will craft it into something useful.  I will also take auroch horns.
+    - Extent: 20, Say: Give me the rare tooth of the fierce gromnies, and I will craft it into something useful.  I will also take auroch horns.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.003
-    - Say: I require stout gromnie teeth for my craft!
+    - Extent: 20, Say: I require stout gromnie teeth for my craft!
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.004
-    - Say: I am still experimenting with the skulls of certain skeletons.  They don't seem to be good for weapons, but I'll give you a health potion for them.
+    - Extent: 20, Say: I am still experimenting with the skulls of certain skeletons.  They don't seem to be good for weapons, but I'll give you a health potion for them.
 
 Give: Acid Axe (1439)
     - UpdateQuest: AcidAxeTurnedIn
