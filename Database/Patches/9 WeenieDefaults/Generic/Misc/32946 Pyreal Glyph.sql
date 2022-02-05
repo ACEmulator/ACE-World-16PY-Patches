@@ -12,7 +12,7 @@ VALUES (32946,   1,        128) /* ItemType - Misc */
      , (32946,  15,       5000) /* StackUnitValue */
      , (32946,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32946,  19,       5000) /* Value */
-     , (32946,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (32946,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32946,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
