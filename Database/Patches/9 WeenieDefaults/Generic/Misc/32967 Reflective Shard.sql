@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32967;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32967, 'ace32967-reflectiveshard', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (32967, 'ace32967-reflectiveshard', 1, '2022-02-05 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32967,   1,        128) /* ItemType - Misc */
@@ -20,7 +20,8 @@ VALUES (32967,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32967,   1, 'Reflective Shard') /* Name */
-     , (32967,  16, 'A small reflective shard dropped by the Reflection of the Harbinger.') /* LongDesc */;
+     , (32967,  16, 'A small reflective shard dropped by the Reflection of the Harbinger.') /* LongDesc */
+     , (32967,  33, 'WeakenedHarbingerReflectiveShard') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32967,   1, 0x02000C02) /* Setup */
