@@ -341,27 +341,8 @@ VALUES (0x7007A0CE, 34787, 0x007A049D, 120, -70, -6, 1, 0, 0, 0,  True, '2021-11
 /* @teleloc 0x007A049D [120.000000 -70.000000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007A0CF,  7924, 0x007A0224, 68.6927, -249.905, -23.945, -0.960663, 0, 0, -0.277717, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x007A0224 [68.692703 -249.904999 -23.945000] -0.960663 0.000000 0.000000 -0.277717 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7007A0CF, 0x7007A0D0, '2021-11-01 00:00:00') /* BoshBosh StopGap (87310) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007A0D0, 87310, 0x007A0224, 69.0902, -249.655, -23.995, -0.960663, 0, 0, -0.277717,  True, '2021-11-01 00:00:00'); /* BoshBosh StopGap */
+VALUES (0x7007A0D0, 87310, 0x007A0224, 69.0902, -249.655, -23.995, -0.960663, 0, 0, -0.277717,  False, '2021-11-01 00:00:00'); /* Bosh Bosh Master Gen */
 /* @teleloc 0x007A0224 [69.090202 -249.654999 -23.995001] -0.960663 0.000000 0.000000 -0.277717 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007A0D1, 87307, 0x007A0220, 58.8131, -242.786, -23.945, -0.970399, 0, 0, -0.241505, False, '2021-11-01 00:00:00'); /* Bosh Bosh 1 Gen */
-/* @teleloc 0x007A0220 [58.813099 -242.785995 -23.945000] -0.970399 0.000000 0.000000 -0.241505 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007A0D2, 87308, 0x007A01D2, 99.8462, -48.4974, -41.945, 0.40319, 0, 0, -0.915116, False, '2021-11-01 00:00:00'); /* Bosh Bosh 2 Gen */
-/* @teleloc 0x007A01D2 [99.846199 -48.497398 -41.945000] 0.403190 0.000000 0.000000 -0.915116 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007A0D3, 87309, 0x007A05EF, 220.582, -20.1039, 0.06, -0.24412, 0, 0, -0.969745, False, '2021-11-01 00:00:00'); /* Bosh Bosh 3 Gen */
-/* @teleloc 0x007A05EF [220.582001 -20.103901 0.060000] -0.244120 0.000000 0.000000 -0.969745 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007A0D4, 34787, 0x007A03EF, 27.8558, -159.939, -6, 0.302994, 0, 0, -0.952993,  True, '2021-11-01 00:00:00'); /* Guruk Gorefiend */

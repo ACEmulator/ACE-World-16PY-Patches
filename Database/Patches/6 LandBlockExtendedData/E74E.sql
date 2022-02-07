@@ -291,8 +291,7 @@ VALUES (0x7E74E04D,  7923, 0xE74E0000, 79.6925, 88.354, 32.005, -0.563311, 0, 0,
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7E74E04D, 0x7E74E04B, '2022-01-08 18:29:57') /* Shosa Kiroji Matanui (11811) */
      , (0x7E74E04D, 0x7E74E0A8, '2022-01-08 18:29:57') /* Sign (25722) */
-     , (0x7E74E04D, 0x7E74E0B8, '2022-01-08 18:29:57') /* Li Fong (28477) */
-     , (0x7E74E04D, 0x7E74E201, '2022-01-08 18:29:57') /* BoshBosh StopGap (87310) */;
+     , (0x7E74E04D, 0x7E74E0B8, '2022-01-08 18:29:57') /* Li Fong (28477) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E054, 16919, 0xE74E0000, 51.7673, 40.3306, 32, -0.809658, 0, 0, -0.586902, False, '2022-01-08 18:29:57'); /* Pedestal Weak Spot */
@@ -613,10 +612,6 @@ VALUES (0x7E74E109, 72398, 0xE74E001C, 83.988, 80.5406, 32.055, 1, 0, 0, 0, Fals
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E10A, 72399, 0xE74E001C, 82.8455, 80.5972, 32.055, 1, 0, 0, 0, False, '2022-01-08 18:29:57'); /* Claude Arena 4 Stopgap Gen */
 /* @teleloc 0xE74E001C [82.845497 80.597198 32.055000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E201, 87310, 0xE74E001C, 77.3945, 93.7083, 32.005, -0.10607, 0, 0, -0.994359,  True, '2022-01-08 18:29:57'); /* BoshBosh StopGap */
-/* @teleloc 0xE74E001C [77.394501 93.708298 32.005001] -0.106070 0.000000 0.000000 -0.994359 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E204, 40322, 0xE74E001F, 96, 160, 32.005, 0, 0, 0, -1, False, '2022-01-08 18:29:57'); /* Tanada Sajo */
