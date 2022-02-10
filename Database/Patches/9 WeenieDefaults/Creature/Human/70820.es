@@ -25,4 +25,3 @@ GotoSet: chooseStatue, Probability: 1.0
     - StartEvent: viridian1statue5
     - Delay: 900, StopEvent: viridian1statue5
     - Goto: chooseStatue
-

@@ -20,10 +20,10 @@ Give: Shard of the Abyssal Totem (33883)
     - StampQuest: SplitGraelHighComplete0806
 
 Give: Greater Mukkir Slayer Stone (33688)
-	- TurnToTarget
-	- Tell: You do not want this? Very well have some experience instead.
-	- AwardLevelProportionalXP: 2%, 0 - 19,815,724
-	
+    - TurnToTarget
+    - Tell: You do not want this? Very well have some experience instead.
+    - AwardLevelProportionalXP: 2%, 0 - 19,815,724
+    
 Use:
     - TurnToTarget
     - InqIntStat: Level, 150 - 999
@@ -40,4 +40,3 @@ Use:
                             - StampQuest: SplitGraelHighIchorTurnin0806
         TestFailure:
             - Tell: Sorry, you are not strong enough to help me.  Perhaps you should speak with my counterpart from the Rossu Morta, Lamorda Loschi.
-

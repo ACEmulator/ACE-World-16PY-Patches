@@ -36,4 +36,3 @@ Use:
                                     - StampQuest: GenesisStarted_0813
         TestFailure:
             - Tell: I suggest fleeing this area, it is far too dangerouns for one as inexperienced as yourself.
-

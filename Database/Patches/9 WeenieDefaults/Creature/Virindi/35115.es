@@ -1,5 +1,5 @@
 Death:
-	- LocalSignal: ColoCritterKilled
+    - LocalSignal: ColoCritterKilled
 
 Generation:
-	- Delay 10, LocalSignal: ColoAddExtras
+    - Delay 10, LocalSignal: ColoAddExtras

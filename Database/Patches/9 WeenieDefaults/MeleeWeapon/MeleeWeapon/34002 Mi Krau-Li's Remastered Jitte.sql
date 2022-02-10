@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34002;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34002, 'ace34002-mikraulisremasteredjitte', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (34002, 'ace34002-mikraulisremasteredjitte', 6, '2022-02-10 05:08:07') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34002,   1,          1) /* ItemType - MeleeWeapon */
@@ -44,6 +44,7 @@ VALUES (34002,   5,   -0.05) /* ManaRate */
      , (34002,  62,     1.1) /* WeaponOffense */
      , (34002,  63,       1) /* DamageMod */
      , (34002, 136,    1.89) /* CriticalMultiplier */
+     , (34002, 156,    0.05) /* ProcSpellRate */
      , (34002, 157,    1.59) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

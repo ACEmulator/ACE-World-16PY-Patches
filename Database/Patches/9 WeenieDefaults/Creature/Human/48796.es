@@ -5,5 +5,3 @@ Use:
     - Delay: 0.5, Tell: Prepare yourself brave warrior. Use Phainor's Chamber Key on the door behind me when you are ready.
     - Delay: 0.5, DirectBroadcast: Grularr disappears in the blink of an eye.
     - Deleteself
-
-

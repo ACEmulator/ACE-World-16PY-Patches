@@ -38,4 +38,3 @@ Use:
     - Motion: Ready
     - TurnToTarget
     - Tell: My crops! My livestock! Some vile creature has been ravaging my farm at night! Would you help me stop this terror? I have followed its tracks to a cave south of here, but I am too afraid to continue. Please help me.
-

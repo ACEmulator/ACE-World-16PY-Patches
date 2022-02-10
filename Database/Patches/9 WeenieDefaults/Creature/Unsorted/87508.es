@@ -1,6 +1,5 @@
 ReceiveLocalSignal: CloseDoor
-	- Activate
+    - Activate
 
 ReceiveLocalSignal: OpenDoor
-	- Activate
-	
+    - Activate

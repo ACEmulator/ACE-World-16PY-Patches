@@ -6,4 +6,3 @@ Taunt: Probability: 0.02
 
 Taunt: Probability: 0.03
     - Say: Your death will be slow and painful.
-

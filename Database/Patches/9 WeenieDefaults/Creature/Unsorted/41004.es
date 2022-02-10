@@ -28,4 +28,3 @@ GotoSet: CheckTimeline
                             - CastSpellInstant: 5014
                         QuestFailure:
                             - CastSpellInstant: 5013
-                            

@@ -46,4 +46,3 @@ Give: 35814
             - Tell: Please, allow me to reward you for your noble and necessary efforts.
             - AwardLevelProportionalXP: .2, 0 - 13,765,337
             - StampQuest: ParadoxEggCount
-            
