@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72808;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72808, 'ace72808-slithistendrilvine', 10, '2022-01-08 18:29:57') /* Creature */;
+VALUES (72808, 'ace72808-slithistendrilvine', 10, '2022-02-08 07:30:58') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72808,   1,         16) /* ItemType - Creature */
@@ -69,40 +69,41 @@ VALUES (72808,   1, 0x02001855) /* Setup */
      , (72808,  22, 0x34000064) /* PhysicsEffectTable */
      , (72808,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (72808,   1, 300, 0, 0) /* Strength */
-     , (72808,   2, 320, 0, 0) /* Endurance */
-     , (72808,   3, 300, 0, 0) /* Quickness */
-     , (72808,   4, 320, 0, 0) /* Coordination */
-     , (72808,   5, 320, 0, 0) /* Focus */
-     , (72808,   6, 360, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (72808,   1,   650, 0, 0, 810) /* MaxHealth */
-     , (72808,   3,   500, 0, 0, 820) /* MaxStamina */
-     , (72808,   5,   550, 0, 0, 910) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72808,  6, 0, 2, 0, 340, 0, 0) /* MeleeDefense        Trained */
-     , (72808,  7, 0, 2, 0, 504, 0, 0) /* MissileDefense      Trained */
-     , (72808, 15, 0, 2, 0, 354, 0, 0) /* MagicDefense        Trained */
-     , (72808, 31, 0, 2, 0, 255, 0, 0) /* CreatureEnchantment Trained */
-     , (72808, 33, 0, 2, 0, 255, 0, 0) /* LifeMagic           Trained */
-     , (72808, 34, 0, 2, 0, 255, 0, 0) /* WarMagic            Trained */
-     , (72808, 45, 0, 2, 0, 460, 0, 0) /* LightWeapons        Trained */
-     , (72808, 47, 0, 2, 0, 260, 0, 0) /* MissileWeapons      Trained */;
-
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72808,  0, 16, 20, 0.75,  150,   75,   75,   75,   75,   75,   75,   75,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (72808, 23,  4,  0,    0,  160,   80,   80,   80,   80,   80,   80,   80,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
      , (72808, 24,  4,  0,    0,  160,   80,   80,   80,   80,   80,   80,   80,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
      , (72808, 25,  4, 10, 0.75,  180,   90,   90,   90,   90,   90,   90,   90,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (72808,   1, 340, 0, 0) /* Strength */
+     , (72808,   2, 360, 0, 0) /* Endurance */
+     , (72808,   3, 340, 0, 0) /* Quickness */
+     , (72808,   4, 360, 0, 0) /* Coordination */
+     , (72808,   5, 360, 0, 0) /* Focus */
+     , (72808,   6, 400, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (72808,   1,  1050, 0, 0, 1230) /* MaxHealth */
+     , (72808,   3,   900, 0, 0, 1260) /* MaxStamina */
+     , (72808,   5,   950, 0, 0, 1350) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (72808,  6, 0, 2, 0, 314, 0, 0) /* MeleeDefense             Trained */
+     , (72808,  7, 0, 2, 0, 488, 0, 0) /* MissileDefense           Trained */
+     , (72808, 15, 0, 2, 0, 344, 0, 0) /* MagicDefense             Trained */
+     , (72808, 31, 0, 2, 0, 235, 0, 0) /* CreatureEnchantment      Trained */
+     , (72808, 33, 0, 2, 0, 235, 0, 0) /* LifeMagic                Trained */
+     , (72808, 34, 0, 2, 0, 235, 0, 0) /* WarMagic                 Trained */
+     , (72808, 45, 0, 2, 0, 434, 0, 0) /* LightWeapons             Trained */
+     , (72808, 47, 0, 2, 0, 240, 0, 0) /* MissileWeapons           Trained */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72808,  4308,    2.1)  /* Incantation of Harm Other */
-     , (72808,  4643,   2.06)  /* Incantation of Drain Health Other */
-     , (72808,  4644,   2.06)  /* Incantation of Drain Mana Other */
-     , (72808,  4645,   2.06)  /* Incantation of Drain Stamina Other */;
+VALUES (72808,  4308,    2.1) /* Incantation of Harm Other */
+     , (72808,  4643,   2.06) /* Incantation of Drain Health Other */
+     , (72808,  4644,   2.06) /* Incantation of Drain Mana Other */
+     , (72808,  4645,   2.06) /* Incantation of Drain Stamina Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72808, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;
+VALUES (72808, 2, 33459,  1, 0,    0, False) /* Create Shadow Bolt (33459) for Wield */;
+
