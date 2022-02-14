@@ -6,4 +6,4 @@ VALUES (6637, 0, 0, 0, 0, 46206 /* Blackfire Shimmering Isparian Dagger */, 1, '
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6637;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6637, 46035 /* Enhanced Black Fire Atlan Stone */, 46207, '2021-11-01 00:00:00');
+VALUES (6637, 46035 /* Enhanced Black Fire Atlan Stone */, 46191 /* Shimmering Isparian Dagger */, '2022-02-14 00:00:00');
