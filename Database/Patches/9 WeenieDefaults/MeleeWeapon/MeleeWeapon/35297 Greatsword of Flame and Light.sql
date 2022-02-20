@@ -21,6 +21,7 @@ VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
      , (35297,  51,          1) /* CombatUse - Melee */
      , (35297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35297, 106,        400) /* ItemSpellcraft */
+     , (35297, 107,       2000) /* ItemCurMana */
      , (35297, 108,       2000) /* ItemMaxMana */
      , (35297, 109,         10) /* ItemDifficulty */
      , (35297, 114,          1) /* Attuned - Attuned */

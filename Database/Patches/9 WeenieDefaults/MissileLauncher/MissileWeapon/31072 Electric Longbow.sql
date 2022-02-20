@@ -25,6 +25,7 @@ VALUES (31072,   1,        256) /* ItemType - MissileWeapon */
      , (31072,  60,        192) /* WeaponRange */
      , (31072,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31072, 106,        350) /* ItemSpellcraft */
+     , (31072, 107,       4000) /* ItemCurMana */
      , (31072, 108,       4000) /* ItemMaxMana */
      , (31072, 114,          1) /* Attuned - Attuned */
      , (31072, 150,        103) /* HookPlacement - Hook */
