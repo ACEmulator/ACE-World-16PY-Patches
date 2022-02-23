@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35325,   1,       1) /* HeartbeatInterval */
      , (35325,   2,       0) /* HeartbeatTimestamp */
      , (35325,  39,     0.6) /* DefaultScale */
-     , (35325,  41,       0) /* RegenerationInterval */
+     , (35325,  41,       5) /* RegenerationInterval */
      , (35325,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
