@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41880;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41880, 'ace41880-ultimatesingularitybow', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (41880, 'ace41880-ultimatesingularitybow', 3, '2022-02-10 05:08:07') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41880,   1,        256) /* ItemType - MissileWeapon */
@@ -51,7 +51,7 @@ VALUES (41880,   5,  -0.033) /* ManaRate */
      , (41880,  62,       1) /* WeaponOffense */
      , (41880,  63,     2.3) /* DamageMod */
      , (41880, 136,     2.5) /* CriticalMultiplier */
-     , (41880, 138,       2) /* SlayerDamageBonus */
+     , (41880, 138,     1.8) /* SlayerDamageBonus */
      , (41880, 147,    0.25) /* CriticalFrequency */
      , (41880, 155,       1) /* IgnoreArmor */;
 

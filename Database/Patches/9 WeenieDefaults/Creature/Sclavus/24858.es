@@ -1,50 +1,50 @@
 Give: Corrupted Harbinger Blood (36184)
-	- TurnToTarget
-	- Tell:  Exceedingly well done "Blood Seeker"... She who ssings to the world may find a use for this strange Harbinger's blood.
-	- AddCharacterTitle: BloodSeeker
-	- Delay: 1, Tell: Our Mistress tells us that Aerbax has begun his experiments anew. Perhaps you have seen ssome of his children? The Harbinger has long evaded his attempts to uncover its secretss, but he may have discovered a way to control its energies. I must inform my Mistress of this new manifestation.
-	- Delay: 1, Tell: Here take this infusion and protective gem my Mistresss devised from the Harbinger's many gifts.
-	- Give: 36189
-	- AwardLevelProportionalXP: 15%, 0 - 302,711,100
-	- AwardLuminance: 15,000
-	- Give: 20630, 6
-	- Give: 38917
-	- Goto: RandoGem
+    - TurnToTarget
+    - Tell:  Exceedingly well done "Blood Seeker"... She who ssings to the world may find a use for this strange Harbinger's blood.
+    - AddCharacterTitle: BloodSeeker
+    - Delay: 1, Tell: Our Mistress tells us that Aerbax has begun his experiments anew. Perhaps you have seen ssome of his children? The Harbinger has long evaded his attempts to uncover its secretss, but he may have discovered a way to control its energies. I must inform my Mistress of this new manifestation.
+    - Delay: 1, Tell: Here take this infusion and protective gem my Mistresss devised from the Harbinger's many gifts.
+    - Give: 36189
+    - AwardLevelProportionalXP: 15%, 0 - 302,711,100
+    - AwardLuminance: 15,000
+    - Give: 20630, 6
+    - Give: 38917
+    - Goto: RandoGem
 
 Refuse: Harbinger Blood Infusion (36189)
-	- TurnToTarget
-	- Tell: You do not wish to partake of the Harbinger's Blood?
-	- Delay: 1, DirectBroadcast: Issk's eye slits expand in surprise. In an eager voice he speaks almost to quickly to understand.
-	- Delay: 1, Tell: I would gladly exchange sssome ssecret knowledge with you for the blood.
-	- InqYesNo: Would you like to hand over your Harbinger's Blood?
-		TestSuccess:
-			- TakeItems: 36189, 1
-			- Tell: Where to begin... 
-			- Delay: 1, DirectBroadcast: The Priest drones on and on and while you do learn quite a bit you realize there must be a better way to acquire experience.
-			- AwardLevelProportionalXP: 10%, 0 - 201,808,000
-		TestFailure:
-			- Tell: Very well, perhaps another time.
+    - TurnToTarget
+    - Tell: You do not wish to partake of the Harbinger's Blood?
+    - Delay: 1, DirectBroadcast: Issk's eye slits expand in surprise. In an eager voice he speaks almost to quickly to understand.
+    - Delay: 1, Tell: I would gladly exchange sssome ssecret knowledge with you for the blood.
+    - InqYesNo: Would you like to hand over your Harbinger's Blood?
+        TestSuccess:
+            - TakeItems: 36189, 1
+            - Tell: Where to begin... 
+            - Delay: 1, DirectBroadcast: The Priest drones on and on and while you do learn quite a bit you realize there must be a better way to acquire experience.
+            - AwardLevelProportionalXP: 10%, 0 - 201,808,000
+        TestFailure:
+            - Tell: Very well, perhaps another time.
 
 GotoSet: RandoGem, Probability: 0.25
-	- Give: 36185
-	- Goto: CheckKillShot
-	
+    - Give: 36185
+    - Goto: CheckKillShot
+    
 GotoSet: RandoGem, Probability: 0.5
-	- Give: 36186
-	- Goto: CheckKillShot
-	
+    - Give: 36186
+    - Goto: CheckKillShot
+    
 GotoSet: RandoGem, Probability: 0.75
-	- Give: 36187
-	- Goto: CheckKillShot
-	
+    - Give: 36187
+    - Goto: CheckKillShot
+    
 GotoSet: RandoGem, Probability: 1
-	- Give: 36188
-	- Goto: CheckKillShot
+    - Give: 36188
+    - Goto: CheckKillShot
 
 GotoSet: CheckKillShot
-	- InqQuest: ProdigalHarbyKillShot
-		QuestSuccess:
-			- AddCharacterTitle: ProdigalHarbingerSlayer
+    - InqQuest: ProdigalHarbyKillShot
+        QuestSuccess:
+            - AddCharacterTitle: ProdigalHarbingerSlayer
 
 Give: Cabalist Drudge Charm (24836)
     - InqQuest: HarbingerCompletedWaitIssk@01
@@ -2244,4 +2244,3 @@ Use:
                                                             - Delay: 3, Tell: I think you know fear. I think you suffer and suffer you shall. She bids me give you this.
                                                             - Delay: 0.5, Give: Natural Order (24871)
                                                             - Delay: 3, Tell: She bids you read it. She bids you understand. She bids you complete the task and return to me. She needs the proof of your resolve. She needs to see that you will not fail.
-

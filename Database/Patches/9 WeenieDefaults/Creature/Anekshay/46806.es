@@ -1,11 +1,11 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
-	- Motion: Twitch1
+    - Motion: Twitch1
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-	- Motion: Twitch2
+    - Motion: Twitch2
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-	- Motion: Twitch3
+    - Motion: Twitch3
 
 Use:
     - TurnToTarget

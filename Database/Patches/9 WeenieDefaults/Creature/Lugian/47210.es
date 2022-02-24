@@ -8,4 +8,4 @@ Scream:
     - Say: You are not authorized to be here!
 
 Homesick:
-	- LocalSignal: OpenDoor
+    - LocalSignal: OpenDoor

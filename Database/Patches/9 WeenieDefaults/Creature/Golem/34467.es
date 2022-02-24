@@ -63,31 +63,30 @@ Give: 34497
             - AwardXP: 11,500,000
             - Give: 34460
             - StampQuest: AncientGobletCompleted
-			- EraseQuest: PortalServitorItemsStarted
+            - EraseQuest: PortalServitorItemsStarted
 
 Use:
     - TurnToTarget
     - InqQuest: BurPortalServitor
         QuestSuccess:
-			- InqQuest: AncientGobletCompleted
-				QuestSuccess:
-					- Tell: You have helped me retrieve all the artifacts. Please return to me later.
-				QuestFailure:
-					- InqQuest: AncientRingCompleted
-						QuestSuccess:
-							- Tell: I have asked you to seek out the goblet that once belonged to the House of Realaidain.  I can do nothing for you unless you bring me the true and proper goblet.
-						QuestFailure:
-							- InqQuest: AncientNecklaceCompleted
-								QuestSuccess:
-									- Tell: I have asked you to seek out the ring that once belonged to the House of Realaidain.  I can do nothing for you unless you bring me the true and proper ring.
-								QuestFailure:
-									- InqQuest: PortalServitorItemsStarted
-										QuestSuccess:
-											- Tell: I have asked you to seek out the necklace that once belonged to the House of Realaidain.  I can do nothing for you unless you bring me the true and proper necklace.
-										QuestFailure:
-											- Tell: I sense that the apprentices of the sword sage have sent you. This is meet by my master's wishes. But I must ensure that you are a true friend of my master. You must bring me three heirlooms of the House of Realaidain. A true friend of my master would know such artifacts. Bring me first the necklace that belonged to my master's family.
-											- StampQuest: RealaidainEasternVault
-											- StampQuest: PortalServitorItemsStarted
+            - InqQuest: AncientGobletCompleted
+                QuestSuccess:
+                    - Tell: You have helped me retrieve all the artifacts. Please return to me later.
+                QuestFailure:
+                    - InqQuest: AncientRingCompleted
+                        QuestSuccess:
+                            - Tell: I have asked you to seek out the goblet that once belonged to the House of Realaidain.  I can do nothing for you unless you bring me the true and proper goblet.
+                        QuestFailure:
+                            - InqQuest: AncientNecklaceCompleted
+                                QuestSuccess:
+                                    - Tell: I have asked you to seek out the ring that once belonged to the House of Realaidain.  I can do nothing for you unless you bring me the true and proper ring.
+                                QuestFailure:
+                                    - InqQuest: PortalServitorItemsStarted
+                                        QuestSuccess:
+                                            - Tell: I have asked you to seek out the necklace that once belonged to the House of Realaidain.  I can do nothing for you unless you bring me the true and proper necklace.
+                                        QuestFailure:
+                                            - Tell: I sense that the apprentices of the sword sage have sent you. This is meet by my master's wishes. But I must ensure that you are a true friend of my master. You must bring me three heirlooms of the House of Realaidain. A true friend of my master would know such artifacts. Bring me first the necklace that belonged to my master's family.
+                                            - StampQuest: RealaidainEasternVault
+                                            - StampQuest: PortalServitorItemsStarted
         QuestFailure:
             - Tell: I do not know you and I do not know who sent you. I have no words to speak to you.
-

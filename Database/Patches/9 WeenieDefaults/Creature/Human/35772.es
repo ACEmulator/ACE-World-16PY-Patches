@@ -20,7 +20,7 @@ Give: Prodigal Tusker's Token (35953)
     - Delay: 1, Say: Attention everyone! Ok ooo Aoo ook!, Extent: 20
     - AwardNoShareXP: 50,000,000
     - AwardLuminance: 12,000
-	- AddCharacterTitle: ProdigalTuskerSlayer
+    - AddCharacterTitle: ProdigalTuskerSlayer
     - Delay: 1, Say: Let it be known that %tn shall henceforth be known as the Prodigal Tusker Slayer. Oook Ooo, %tn, Oooo a okoo, o ok-oo Ook Ooo ok., Extent: 20
 
 Give: Tusker Skull Helm (35938)
@@ -38,7 +38,7 @@ Give: Tusker Bone Sword (35949)
     - Motion: Ready
     - TurnToTarget
     - Tell: Goodness! Is this tusker bone? Does that foul tusker Mudmouth have any conscience?
-	- Motion: ShakeHead
+    - Motion: ShakeHead
     - Delay: 1, Tell: Yes, better this be destroyed by me than allow it to trade hands.
     - Delay: 1, Tell: In payment to your service to the Tusker King I am honored to give you this.
     - Delay: 1, DirectBroadcast: Jilna hits you over the head with a rock and smiles with pride. You feel a flood of awareness spread from the lump she made.
@@ -48,7 +48,7 @@ Give: Tusker Paw Wand (35950)
     - Motion: Ready
     - TurnToTarget
     - Tell: Oh, I see that Mudmouth decorated this wand with one of those horrid little tusker paws.
-	- Motion: ShakeHead
+    - Motion: ShakeHead
     - Delay: 1, Tell: Well, I'll be glad to see the last of these.
     - Delay: 1, Tell: In payment to your service to the Tusker King I am honored to give you this.
     - Delay: 1, DirectBroadcast: Jilna hits you over the head with a rock and smiles with pride. You feel a flood of awareness spread from the lump she made.

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27838;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27838, 'sceptersingularitymaraelifenew', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (27838, 'sceptersingularitymaraelifenew', 35, '2022-02-10 05:08:07') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27838,   1,      32768) /* ItemType - Caster */
@@ -38,7 +38,7 @@ VALUES (27838,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27838,   5,  -0.033) /* ManaRate */
      , (27838,  29,    1.08) /* WeaponDefense */
-     , (27838, 138,     1.4) /* SlayerDamageBonus */
+     , (27838, 138,     1.8) /* SlayerDamageBonus */
      , (27838, 144,    0.07) /* ManaConversionMod */
      , (27838, 147,     0.3) /* CriticalFrequency */;
 

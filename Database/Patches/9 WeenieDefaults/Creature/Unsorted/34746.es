@@ -7,6 +7,5 @@ Use:
             - DirectBroadcast: You examine the pedestal and do not see how to make it function, although you suspect its function is related to the other two pillars in the area. You may wish to come back and examine this pillar when you are more powerful.
 
 Give: Shard of the Eastern Pedestal (87756)
-	- DirectBroadcast: You examine the stone and find a gash which matches the shape of your shard. You press the shard against the gash, and the two pieces of stone seal together magically. You have now done all that you can do to repair this pillar for now.
-	- AwardLevelProportionalXP: 15%, 0 - 10,324,002
-	
+    - DirectBroadcast: You examine the stone and find a gash which matches the shape of your shard. You press the shard against the gash, and the two pieces of stone seal together magically. You have now done all that you can do to repair this pillar for now.
+    - AwardLevelProportionalXP: 15%, 0 - 10,324,002

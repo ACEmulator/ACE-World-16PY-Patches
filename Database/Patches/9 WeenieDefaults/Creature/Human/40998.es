@@ -26,4 +26,3 @@ Use:
                     - Tell: Take this note to an Arcanum Researcher. I think they can help.
                     - Tell: If we're displaced in time you may find it difficult to reach us again.
                     - Tell: From what you've told me it seems like it may take about a week before you can reach us again if time shifts.
-                
