@@ -20,7 +20,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
     - Motion: Twitch1
 
 Death:
-    - StopEvent: boshbosh1event
-    - StopEvent: boshbosh2event
-    - StopEvent: boshbosh3event
-    - DirectBroadcast: %tn has struck a deadly blow to Bosh Bosh! The behemoth falls to the ground lifeless.
+	- StopEvent: boshbosh1event
+	- StopEvent: boshbosh2event
+	- StopEvent: boshbosh3event
+	- DirectBroadcast: %tn has struck a deadly blow to Bosh Bosh! The behemoth falls to the ground lifeless.
