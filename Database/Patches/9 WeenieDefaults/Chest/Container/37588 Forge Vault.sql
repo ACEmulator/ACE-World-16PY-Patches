@@ -67,4 +67,4 @@ VALUES (37588, -1, 350, 0, 1, 1, 2, 72, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0) /* Gene
      , (37588, 0.72, 37244, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Jack of Hands (37244) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (37588, 0.75, 37245, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Queen of Hands (37245) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (37588, 0.78, 37246, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate King of Hands (37246) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (37588, 0.675, 37290, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate  (0) (x0 up to max of 0) - Regenerate upon Undef - Location to (re)Generate: Undef */;
+     , (37588, 0.675, 37290, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Jester's Token (37290) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
