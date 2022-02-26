@@ -12,7 +12,7 @@ VALUES (35467,   1,        512) /* ItemType - Container */
      , (35467,  19,       2500) /* Value */
      , (35467,  38,       9999) /* ResistLockpick */
      , (35467,  81,          8) /* MaxGeneratedObjects */
-     , (35467,  82,          8) /* InitGeneratedObjects */
+     , (35467,  82,          4) /* InitGeneratedObjects */
      , (35467,  83,          2) /* ActivationResponse - Use */
      , (35467,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (35467, 100,          1) /* GeneratorType - Relative */;
@@ -45,12 +45,8 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (35467, -1, 1005, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 7 from Death Treasure Table id: 1005 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (35467, -1, 53473, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lady Tairla Mhoire's Signet Ring (53473) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (35467, -1, 38808, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lady Tairla's Ancient Emblem of Mhoire (38808) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, -1, 35383, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 0.5, 35383, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 1, 0, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate  (0) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 0.5, 35383, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 1, 0, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate  (0) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 0.5, 35383, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 1, 0, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate  (0) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 0.5, 35383, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (35467, 1, 0, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate  (0) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (35467, .2, 35383, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (35467, .4, 35383, 0, 2, 2, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (35467, .6, 35383, 0, 3, 3, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (35467, .8, 35383, 0, 4, 4, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (35467, 1, 35383, 0, 5, 5, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
