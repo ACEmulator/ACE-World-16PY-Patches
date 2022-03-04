@@ -16,7 +16,7 @@ VALUES (53290,   1,         16) /* ItemType - Creature */
      , (53290,  68,          1) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */
      , (53290,  93,    4195356) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, EdgeSlide */
      , (53290, 290,          1) /* HearLocalSignals */
-     , (53290, 291,         15) /* HearLocalSignalsRadius */;
+     , (53290, 291,         25) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53290,   1, True ) /* Stuck */
