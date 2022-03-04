@@ -1,0 +1,2 @@
+Death:
+	- LocalSignal: RemoveMe

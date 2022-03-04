@@ -5,6 +5,7 @@ VALUES (52789, 'ace52789-purplesocietyband', 1, '2021-11-01 00:00:00') /* Generi
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52789,   1,          8) /* ItemType - Jewelry */
+     , (52789,   3,         39) /* PaletteTemplate - Black */
      , (52789,   5,         50) /* EncumbranceVal */
      , (52789,   9,     786432) /* ValidLocations - FingerWear */
      , (52789,  16,          1) /* ItemUseable - No */
@@ -36,6 +37,7 @@ VALUES (52789,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52789,   5,  -0.033) /* ManaRate */
+     , (52789,  12,     0.5) /* Shade */
      , (52789,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -46,6 +48,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52789,   1, 0x02000103) /* Setup */
      , (52789,   3, 0x20000014) /* SoundTable */
      , (52789,   6, 0x04000BEF) /* PaletteBase */
+     , (52789,   7, 0x10000129) /* ClothingBase */
      , (52789,   8, 0x06007544) /* Icon */
      , (52789,  22, 0x3400002B) /* PhysicsEffectTable */;
 
