@@ -11,7 +11,9 @@ VALUES (53290,   1,         16) /* ItemType - Creature */
      , (53290,  16,          1) /* ItemUseable - No */
      , (53290,  25,        300) /* Level */
      , (53290,  27,          0) /* ArmorType - None */
-     , (53290,  68,         15) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */
+     , (53290,  72,          8) /* FriendType - Undead */
+     , (53290,  40,          2) /* CombatMode - Melee */
+     , (53290,  68,          1) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */
      , (53290,  93,    4195356) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, EdgeSlide */
      , (53290, 290,          1) /* HearLocalSignals */
      , (53290, 291,         15) /* HearLocalSignalsRadius */;
@@ -21,7 +23,9 @@ VALUES (53290,   1, True ) /* Stuck */
      , (53290,   6, False) /* AiUsesMana */
      , (53290,  19, False) /* Attackable */
      , (53290,  29, True ) /* NoCorpse */
-     , (53290, 103, True ) /* NonProjectileMagicImmune */;
+     , (53290, 103, True ) /* NonProjectileMagicImmune */
+     , (53290,  50, True ) /* NeverFailCasting */
+     , (53290,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53290,   1,       5) /* HeartbeatInterval */
@@ -53,6 +57,7 @@ VALUES (53290,   1,       5) /* HeartbeatInterval */
      , (53290,  73,       1) /* ResistStaminaBoost */
      , (53290,  74,       1) /* ResistManaDrain */
      , (53290,  75,       1) /* ResistManaBoost */
+     , (53290,  80,       2) /* AiUseMagicDelay */
      , (53290, 104,      10) /* ObviousRadarRange */
      , (53290, 125,       1) /* ResistHealthDrain */;
 
