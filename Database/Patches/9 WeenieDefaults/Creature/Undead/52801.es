@@ -16,7 +16,7 @@ Refuse: Helm of Tremb'Orh (52817)
 	- AddCharacterTitle: MasterofPuppets
 	- AwardXP: 75,000,000
 	- AwardLuminance: 5,000
-	- Give: 52783
+	- Give: Gauntlet Treasure Key (52783)
 
 Refuse: Holcha's Head (52815)
 	- TakeItems: 52815, 1
@@ -25,7 +25,7 @@ Refuse: Holcha's Head (52815)
 	- AddCharacterTitle: Idolized
 	- AwardXP: 100,000,000
 	- AwardLuminance: 7,500
-	- Give: 52797
+	- Give: Gauntlet Coin (52797)
 
 Refuse: Gromnus Eye (52876)
 	- TakeItems: 52876, 1
@@ -34,8 +34,8 @@ Refuse: Gromnus Eye (52876)
 	- AddCharacterTitle: TitanSlayer
 	- AwardXP: 150,000,000
 	- AwardLuminance: 10,000
-	- Give: 52797
-	
+	- Give: Gauntlet Coin (52797)
+
 Refuse: Red Society Band (52785)
 	- Tell: You do not wish to keep this ring Champion?
 	- InqYesNo: Would you like to hand Over you ring?
@@ -43,7 +43,7 @@ Refuse: Red Society Band (52785)
 			- TakeItems: 52785, 1
 			- Tell: Very well, then take this knowledge instead.
 			- Delay: 1, AwardLuminance: 10,000
-			- Give: 52797, 2
+			- Give: Gauntlet Coin (52797), 2
 		TestFailure:
 			- Tell: Very well.
 
@@ -54,10 +54,10 @@ Refuse: Green Society Band (52786)
 			- TakeItems: 52786, 1
 			- Tell: Very well, then take this knowledge instead.
 			- Delay: 1, AwardLuminance: 10,000
-			- Give: 52797, 2
+			- Give: Gauntlet Coin (52797), 2
 		TestFailure:
 			- Tell: Very well.
-			
+
 Refuse: Purple Society Band (52789)
 	- Tell: You do not wish to keep this ring Champion?
 	- InqYesNo: Would you like to hand Over you ring?
@@ -65,10 +65,10 @@ Refuse: Purple Society Band (52789)
 			- TakeItems: 52789, 1
 			- Tell: Very well, then take this knowledge instead.
 			- Delay: 1, AwardLuminance: 10,000
-			- Give: 52797, 2
+			- Give: Gauntlet Coin (52797), 2
 		TestFailure:
 			- Tell: Very well.
-			
+
 Refuse: Blue Society Band (52790)
 	- Tell: You do not wish to keep this ring Champion?
 	- InqYesNo: Would you like to hand Over you ring?
@@ -76,7 +76,7 @@ Refuse: Blue Society Band (52790)
 			- TakeItems: 52790, 1
 			- Tell: Very well, then take this knowledge instead.
 			- Delay: 1, AwardLuminance: 10,000
-			- Give: 52797, 2
+			- Give: Gauntlet Coin (52797), 2
 		TestFailure:
 			- Tell: Very well.
 
@@ -88,22 +88,22 @@ Give: Gauntlet Ticket (52796)
 			- Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
 			- Give: Gauntlet Ticket (52796)
 
-Give: Gauntlet Ticket (88051)
+Give: Gauntlet Guest Ticket (88051)
 	- InqFellowQuest: IsPlayerInFellow?
 		QuestFailure:
 			- Goto: Arena1Addition
 		QuestNoFellow:
 			- Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
-			- Give: Gauntlet Ticket (88051)
+			- Give: Gauntlet Guest Ticket (88051)
 
-Give: Gauntlet Ticket (88052)
+Give: Gauntlet Guest Ticket (88052)
 	- InqFellowQuest: IsPlayerInFellow?
 		QuestFailure:
 			- Goto: Arena2Addition
 		QuestNoFellow:
 			- Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
-			- Give: Gauntlet Ticket (88052)
-			
+			- Give: Gauntlet Guest Ticket (88052)
+
 Use:
 	- InqFellowQuest: GauntletArena1EW
 		QuestSuccess:
@@ -210,7 +210,7 @@ GotoSet: PlayerRoomCompletions
 													- AddCharacterTitle: BrutalBarbarian
 													- Tell: Take this knowledge as a reward for your accomplishments.
 													- AwardNoShareXP: 150,000,000
-													- AwardLuminance: 17,500 
+													- AwardLuminance: 17,500
 													- DirectBroadcast: You have won two Gauntlet Coins!
 													- Give: Gauntlet Coin (52797), 2
 													- Give: Gauntlet Treasure Key (52783)
@@ -223,7 +223,7 @@ GotoSet: PlayerRoomCompletions
 															- AddCharacterTitle: SocietySavage
 															- Tell: Take this knowledge as a reward for your accomplishments.
 															- AwardNoShareXP: 125,000,000
-															- AwardLuminance: 15,000 
+															- AwardLuminance: 15,000
 															- DirectBroadcast: You have won one Gauntlet Coin!
 															- Give: Gauntlet Coin (52797), 1
 															- Give: Gauntlet Treasure Key (52783)
@@ -236,7 +236,7 @@ GotoSet: PlayerRoomCompletions
 																	- AddCharacterTitle: CoinCollector
 																	- Tell: Take this knowledge as a reward for your accomplishments.
 																	- AwardNoShareXP: 100,000,000
-																	- AwardLuminance: 12,500 
+																	- AwardLuminance: 12,500
 																	- DirectBroadcast: You have won one Gauntlet Coin!
 																	- Give: Gauntlet Coin (52797), 1
 																	- Goto: ErasePlayerQuestFlags
@@ -246,7 +246,7 @@ GotoSet: PlayerRoomCompletions
 																			- Tell: Well done! You completed the fourth Arena!
 																			- Tell: Take this knowledge as a reward for your accomplishments.
 																			- AwardNoShareXP: 75,000,000
-																			- AwardLuminance: 10,000 
+																			- AwardLuminance: 10,000
 																			- Goto: ErasePlayerQuestFlags
 																		QuestFailure:
 																			- InqQuest: GauntletStage3Complete
@@ -254,7 +254,7 @@ GotoSet: PlayerRoomCompletions
 																					- Tell: Well done! You completed the third Arena!
 																					- Tell: Take this knowledge as a reward for your accomplishments.
 																					- AwardNoShareXP: 50,000,000
-																					- AwardLuminance: 7,500 
+																					- AwardLuminance: 7,500
 																					- Goto: ErasePlayerQuestFlags
 																				QuestFailure:
 																					- InqQuest: GauntletStage2Complete
@@ -262,7 +262,7 @@ GotoSet: PlayerRoomCompletions
 																							- Tell: Well done! You completed the second Arena!
 																							- Tell: Take this knowledge as a reward for your accomplishments.
 																							- AwardNoShareXP: 50,000,000
-																							- AwardLuminance: 5,000 
+																							- AwardLuminance: 5,000
 																							- Goto: ErasePlayerQuestFlags
 																						QuestFailure:
 																							- InqQuest: GauntletStage1Complete
@@ -270,7 +270,7 @@ GotoSet: PlayerRoomCompletions
 																									- Tell: Well done! You completed the first Arena!
 																									- Tell: Take this knowledge as a reward for your accomplishments.
 																									- AwardNoShareXP: 25,000,000
-																									- AwardLuminance: 2,500 
+																									- AwardLuminance: 2,500
 																									- Goto: ErasePlayerQuestFlags
 																								QuestFailure:
 																									- Goto: WelcomeText
@@ -292,7 +292,7 @@ GotoSet: ErasePlayerQuestFlags
 	- EraseQuest: GauntletStage10Complete
 	- EraseQuest: GauntletStage11Complete
 	- EraseQuest: GauntletStage12Complete
-	
+
 GotoSet: PlayerHasFellow
 	- InqFellowQuest: GauntletArena1EW
 		QuestSuccess:
@@ -304,12 +304,21 @@ GotoSet: PlayerHasFellow
 					- Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Colosseum. (%fqt)
 					- Give: Gauntlet Ticket (52796)
 				QuestFailure:
-					- Goto: IsArenaOneAvailable
+					- Goto: IsPlayerInMyFaction
+
+GotoSet: IsPlayerInMyFaction
+    - InqQuest: EldrytchWebMember
+        QuestSuccess:
+            - Goto: IsArenaOneAvailable
+        QuestFailure:
+            - DirectBroadcast: The %mn angrily tears your ticket to shreds.
+            - Tell: Your ticket is no good here, unless you are a member of the Eldrytch Web.
+            - Tell: Begone fool, and do not try to fool the Eldrytch Web!
 
 GotoSet: Arena1Addition
   - LockFellow
   - StampFellowQuest: GauntletArena1EW
-  - Give: Gauntlet Ticket Stub (52795)
+  #- Give: Gauntlet Ticket Stub (52795)
   - Delay 2, TellFellow: Your fellowship will be battling in Arena One.
   - Delay 1, TellFellow: Use the portal to enter your Arena.
   - TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
@@ -319,13 +328,13 @@ GotoSet: Arena1Addition
 GotoSet: Arena2Addition
   - LockFellow
   - StampFellowQuest: GauntletArena2EW
-  - Give: Gauntlet Ticket Stub (52795)
+  #- Give: Gauntlet Ticket Stub (52795)
   - Delay 2, TellFellow: Your fellowship will be battling in Arena Two.
   - Delay 1, TellFellow: Use the portal to enter your Arena.
   - TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
   - TellFellow: The Eldrytch Web has entitled me to reward it's loyal members only once per day for the Gauntlet. After the full hour has expired you can choose to either be rewarded for your Gauntlet venture, or you can choose to forego the rewards and retry the Gauntlet in an attempt to progress further for better rewards.
   - TellFellow: The choice will be yours. Good Luck!
-		
+
 GotoSet: IsArenaOneAvailable
 	- InqEvent: EWGauntletArena1Event
 		EventSuccess:
@@ -340,16 +349,16 @@ GotoSet: IsArenaOneAvailable
 					- LocalSignal: ActivateEWArenaOne
 					- StampFellowQuest: GauntletArena1EW
 					- Give: Gauntlet Ticket Stub (52795)
-					- Tell: If you would like to have another fellow join you please hand the leader this ticket.
-					- Give: 88051
 					- Delay 2, TellFellow: Your fellowship will be battling in Arena One.
 					- Delay 1, TellFellow: Use the portal to enter your Arena.
 					- TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
 					- TellFellow: The Eldrytch Web has entitled me to reward it's loyal members only once per day for the Gauntlet. After the full hour has expired you can choose to either be rewarded for your Gauntlet venture, or you can choose to forego the rewards and retry the Gauntlet in an attempt to progress further for better rewards.
 					- TellFellow: The choice will be yours. Good Luck!
 					- Say: Attention Patrons! Combat will soon begin in Gauntlet One.
+                    - Give: Gauntlet Guest Ticket (88051)
+                    - Tell: If you wish to have another fellowship join you in battle, you may give the leader this guest ticket and have them hand it back to me so that they may enter the Arena with you.
 					- EraseMyQuest: GauntletArenaOneWait
-			
+
 GotoSet: IsArenaTwoAvailable
 	- InqEvent: EWGauntletArena2Event
 		EventSuccess:
@@ -364,14 +373,14 @@ GotoSet: IsArenaTwoAvailable
 					- LocalSignal: ActivateEWArenaTwo
 					- StampFellowQuest: GauntletArena2EW
 					- Give: Gauntlet Ticket Stub (52795)
-					- Tell: If you would like to have another fellow join you please hand the leader this ticket.
-					- Give: 88052
 					- Delay 2, TellFellow: Your fellowship will be battling in Arena Two.
 					- Delay 1, TellFellow: Use the portal to enter your Arena.
 					- TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
 					- TellFellow: The Eldrytch Web has entitled me to reward it's loyal members only once per day for the Gauntlet. After the full hour has expired you can choose to either be rewarded for your Gauntlet venture, or you can choose to forego the rewards and retry the Gauntlet in an attempt to progress further for better rewards.
 					- TellFellow: The choice will be yours. Good Luck!
 					- Say: Attention Patrons! Combat will soon begin in Gauntlet Two.
+                    - Give: Gauntlet Guest Ticket (88052)
+                    - Tell: If you wish to have another fellowship join you in battle, you may give the leader this guest ticket and have them hand it back to me so that they may enter the Arena with you.
 					- EraseMyQuest: GauntletArenaTwoWait
 
 GotoSet: NoArenasAvailable
@@ -382,10 +391,9 @@ GotoSet: WelcomeText
 	- Tell: If you wish to prove yourself in the Gauntlet I will require you to purchase a ticket from the Gauntlet Ticket Vendor.
 	- Tell: Prepare your fellowship ahead of time. Once you give me the ticket you cannot change your group and only that group will be allowed into the Gauntlet Arena I assign you.
 	- Tell: The Eldrytch Web has been authorized to reward its members up to once per day for their efforts within the Gauntlet. If after one hours time you are not happy with your group's effort, you can choose to forego the rewards and attempt the Gauntlet again to progress further and gain improved rewards.
-	
+
 ReceiveLocalSignal: GauntletArenaOneWait
 	- StampMyQuest: GauntletArenaOneWait
 
 ReceiveLocalSignal: GauntletArenaTwoWait
 	- StampMyQuest: GauntletArenaTwoWait
-	
