@@ -8,7 +8,7 @@ VALUES (88059,   1,         16) /* ItemType - Creature */
      , (88059,   2,         31) /* CreatureType - Human */
      , (88059,   6,         -1) /* ItemsCapacity */
      , (88059,   7,         -1) /* ContainersCapacity */
-     , (88059,  16,          1) /* ItemUseable - No */
+     , (88059,  16,         32) /* ItemUseable - Remote */
      , (88059,  25,        275) /* Level */
      , (88059,  27,          0) /* ArmorType - None */
      , (88059,  40,          2) /* CombatMode - Melee */
@@ -21,7 +21,7 @@ VALUES (88059,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88059,   1, True ) /* Stuck */
-     , (88059,   8, True ) /* AllowGive */
+     , (88059,   6, False) /* AiUsesMana */
      , (88059,  11, True ) /* IgnoreCollisions */
      , (88059,  12, True ) /* ReportCollisions */
      , (88059,  13, True ) /* Ethereal */
@@ -31,7 +31,8 @@ VALUES (88059,   1, True ) /* Stuck */
      , (88059,  41, True ) /* ReportCollisionsAsEnvironment */
      , (88059,  42, True ) /* AllowEdgeSlide */
      , (88059,  50, True ) /* NeverFailCasting */
-     , (88059,  52, True ) /* AiImmobile */;
+     , (88059,  52, True ) /* AiImmobile */
+     , (88059,  90, True ) /* NpcInteractsSilently */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (88059,   1,       5) /* HeartbeatInterval */
@@ -76,13 +77,7 @@ VALUES (88059,   1, 0x02000001) /* Setup */
      , (88059,   2, 0x09000001) /* MotionTable */
      , (88059,   3, 0x20000001) /* SoundTable */
      , (88059,   6, 0x0400007E) /* PaletteBase */
-     , (88059,   8, 0x06000FF1) /* Icon */
-     , (88059,   9, 0x0500114D) /* EyesTexture */
-     , (88059,  10, 0x05001177) /* NoseTexture */
-     , (88059,  11, 0x050011D2) /* MouthTexture */
-     , (88059,  15, 0x04001FE3) /* HairPalette */
-     , (88059,  16, 0x040002BD) /* EyesPalette */
-     , (88059,  17, 0x040002B6) /* SkinPalette */;
+     , (88059,   8, 0x06000FF1) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (88059,   1, 240, 0, 0) /* Strength */
@@ -113,10 +108,5 @@ VALUES (88059,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (88059,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (88059,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (88059, 17 /* NewEnemy */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  99 /* TeleportTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x596B010F /* @teleloc 0x596B010F [120.000000 -10.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */, 120, -10, 0.005, -0.707107, 0, 0, -0.707107);
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (88059,    24,      3)  /* Armor Self I */;

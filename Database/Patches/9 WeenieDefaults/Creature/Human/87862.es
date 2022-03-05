@@ -1,2 +1,8 @@
+Taunt:
+    - Goto: BootPlayer
+
 NewEnemy:
-	- TeleportTarget: 0x596B010F [120.000000 -10.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107
+    - Goto: BootPlayer
+
+GotoSet: BootPlayer
+    - CastSpellInstant: 6185
