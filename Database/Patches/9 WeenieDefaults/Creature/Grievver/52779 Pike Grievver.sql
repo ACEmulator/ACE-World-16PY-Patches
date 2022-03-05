@@ -19,6 +19,7 @@ VALUES (52779,   1,         16) /* ItemType - Creature */
      , (52779,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52779, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (52779, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (52779, 267,        900) /* Lifespan */
      , (52779, 386,          5) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
