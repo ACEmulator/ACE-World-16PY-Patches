@@ -1,2 +1,2 @@
 ReceiveLocalSignal: RemoveMe
-	- Delay: 1, DeleteSelf
+    - Delay: 1, DeleteSelf

@@ -838,7 +838,7 @@ Give: Gauntlet Gem of Knowledge (52748)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
     - AwardNoShareXP: 50,000,000
-	
+    
 Give: Gauntlet Gem of Vast Knowledge (52749)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
@@ -858,7 +858,7 @@ Give: Radiant Blood Gauntlet Writ (53410)
     - TurnToTarget
     - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
     - Give: 38546
-	
+    
 Use:
     - Motion: Ready
     - TurnToTarget

@@ -4,8 +4,8 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (9125, 0, 0, 0, 0, 0, 1, 'You enchant the weapon with the Gem of Spectral Force.', 0, 1, '', 1, 1, '', 0, 0, '', 1, 1, '', 0, 0, '', 0, '2022-02-24 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (9125, 0, 105,  1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
-     , (9125, 0, 311,  1, 6, 'This item has already been imbued!') /* Target.ImbueStackingBits Equal 1 */;
+VALUES (9125, 0, 105, 1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
+     , (9125, 0, 311, 1, 6, 'This item has already been imbued!') /* Target.ImbueStackingBits Equal 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (9125, True, 0, 0, 0, False, 0, 0, 0);
@@ -13,11 +13,11 @@ VALUES (9125, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  44, 2, 2, 1) /* On Source.SuccessTarget Add Damage 1 to Target */
+VALUES (@parent_id, 0,  44, 2, 2, 1) /* On Source.SuccessTarget Add Damage 2 to Target */
      , (@parent_id, 0, 311, 1, 1, 1) /* On Source.SuccessTarget SetValue ImbueStackingBits 1 to Target */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  50, 0x600665D, 1, 1) /* On Source.SuccessTarget SetValue IconOverlay to Target */;
+VALUES (@parent_id, 0,  50, 100689501, 1, 1) /* On Source.SuccessTarget SetValue IconOverlay to Target */;
 
 INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 3,  38, 0, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget AllowedWielder to Result */;

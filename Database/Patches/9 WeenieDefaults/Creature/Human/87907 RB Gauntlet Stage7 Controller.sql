@@ -125,4 +125,4 @@ VALUES (87907, -1, 46672, 1600, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* 
      , (87907, -1, 87904, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gauntlet Stage7 Wave 2 Gen (87904) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (87907, -1, 87905, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gauntlet Stage7 Wave 3 Gen (87905) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (87907, -1, 87906, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gauntlet Stage7 Wave 4 Gen (87906) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87907, -1, 87908, 1600, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RB Gauntlet Stage7 Advancement Officer (87908) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (87907, -1, 87908, 1600, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RB Gauntlet Stage7 Exit Controller (87908) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

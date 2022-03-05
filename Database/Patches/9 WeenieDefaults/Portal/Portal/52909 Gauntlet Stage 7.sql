@@ -30,7 +30,7 @@ VALUES (52909,   1, 0x02001541) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52909, 26, 0x00000000, 0, 45, 0, 1, 0, 0, 0) /* RelativeDestination */
-/* @teleloc 0x00000000 [0.000000 40.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x00000000 [0.000000 45.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52909,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

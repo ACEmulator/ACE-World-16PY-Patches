@@ -20,7 +20,7 @@ VALUES (52743,   1,      32768) /* ItemType - Caster */
      , (52743, 108,       2000) /* ItemMaxMana */
      , (52743, 115,        355) /* ItemSkillLevelLimit */
      , (52743, 151,          2) /* HookType - Wall */
-     , (52743, 263,          2) /* ResistanceModifierType */;
+     , (52743, 263,          2) /* ResistanceModifierType - Pierce */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52743,  19, True ) /* Attackable */

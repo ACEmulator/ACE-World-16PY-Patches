@@ -1,2 +1,2 @@
 Portal:
-	- StampQuest: GauntletBossGromnusChampion_Flag
+    - StampQuest: GauntletBossGromnusChampion_Flag

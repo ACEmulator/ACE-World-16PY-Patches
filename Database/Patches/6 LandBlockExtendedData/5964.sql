@@ -187,5 +187,5 @@ VALUES (0x75964029, 87855, 0x59640125, 270, -15.5, 0.165, 1, 0, 0, 0, False, '20
 /* @teleloc 0x59640125 [270.000000 -15.500000 0.165000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596402A, 87855, 0x59640115, 80, -60.93945, 0.055, 1, 0, 0, 0, False, '2022-02-16 11:24:56'); /* RB Gauntlet Arena1 Booter Gen */
-/* @teleloc 0x59640115 [80.000000 -60.939449 0.055000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7596402A, 87855, 0x59640115, 80, -60.9394, 0.055, 1, 0, 0, 0, False, '2022-02-16 11:24:56'); /* RB Gauntlet Arena1 Booter Gen */
+/* @teleloc 0x59640115 [80.000000 -60.939400 0.055000] 1.000000 0.000000 0.000000 0.000000 */

@@ -1,2 +1,2 @@
 Generation:
-	- LocalBroadcast: Radiant Blood Officer says, "Continue on to the next stage, warriors."	
+    - LocalBroadcast: Radiant Blood Officer says, "Continue on to the next stage, warriors."

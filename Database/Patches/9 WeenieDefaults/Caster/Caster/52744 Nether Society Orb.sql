@@ -19,7 +19,7 @@ VALUES (52744,   1,      32768) /* ItemType - Caster */
      , (52744, 108,       2000) /* ItemMaxMana */
      , (52744, 115,        355) /* ItemSkillLevelLimit */
      , (52744, 151,          2) /* HookType - Wall */
-     , (52744, 263,       1024) /* ResistanceModifierType */;
+     , (52744, 263,       1024) /* ResistanceModifierType - Nether */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52744,  19, True ) /* Attackable */

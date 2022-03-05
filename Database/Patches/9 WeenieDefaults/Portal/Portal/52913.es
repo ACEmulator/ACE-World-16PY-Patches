@@ -1,2 +1,2 @@
 Portal:
-	- StampQuest: GauntletBossHolcha_Flag
+    - StampQuest: GauntletBossHolcha_Flag

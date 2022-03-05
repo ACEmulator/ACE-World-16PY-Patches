@@ -1,2 +1,2 @@
 Portal:
-	- StampQuest: GauntletBossTrembOrh_Flag
+    - StampQuest: GauntletBossTrembOrh_Flag

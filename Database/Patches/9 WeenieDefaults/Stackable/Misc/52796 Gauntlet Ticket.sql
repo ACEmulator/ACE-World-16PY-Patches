@@ -26,7 +26,7 @@ VALUES (52796,   1, 'Gauntlet Ticket') /* Name */
      , (52796,  16, 'This ticket gives access for one fellowship to the Gauntlet''s Arenas. Prepare your fellowship before handing this ticket into the Master of the Gauntlet since you will be unable to change your fellowship without disbanding it and losing your access to the Gauntlet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52796,   1,   33554773) /* Setup */
-     , (52796,   3,  536870932) /* SoundTable */
-     , (52796,   8,  100693322) /* Icon */
-     , (52796,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52796,   1, 0x02000155) /* Setup */
+     , (52796,   3, 0x20000014) /* SoundTable */
+     , (52796,   8, 0x0600754A) /* Icon */
+     , (52796,  22, 0x3400002B) /* PhysicsEffectTable */;

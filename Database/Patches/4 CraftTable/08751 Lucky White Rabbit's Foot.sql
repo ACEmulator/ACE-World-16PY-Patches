@@ -24,7 +24,7 @@ INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`
 VALUES (@parent_id, 0, 311, 2, 1, 1) /* On Source.SuccessTarget SetValue ImbueStackingBits 2 to Target */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  50, 0x60063D6, 1, 1) /* On Source.SuccessTarget SetValue IconOverlay to Target */;
+VALUES (@parent_id, 0,  50, 100688854, 1, 1) /* On Source.SuccessTarget SetValue IconOverlay to Target */;
 
 INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 3,  38, 0, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget AllowedWielder to Result */;

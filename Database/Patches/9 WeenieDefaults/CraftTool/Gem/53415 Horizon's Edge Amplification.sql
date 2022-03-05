@@ -26,10 +26,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53415,   1, 'Horizon''s Edge Amplification') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53415,   1,   33556223) /* Setup */
-     , (53415,   3,  536870932) /* SoundTable */
-     , (53415,   6,   67111928) /* PaletteBase */
-     , (53415,   8,  100673218) /* Icon */
-     , (53415,  22,  872415275) /* PhysicsEffectTable */
-     , (53415,  50,  100673232) /* IconOverlay */
-     , (53415, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
+VALUES (53415,   1, 0x020006FF) /* Setup */
+     , (53415,   3, 0x20000014) /* SoundTable */
+     , (53415,   6, 0x04000BF8) /* PaletteBase */
+     , (53415,   8, 0x060026C2) /* Icon */
+     , (53415,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53415,  50, 0x060026D0) /* IconOverlay */;

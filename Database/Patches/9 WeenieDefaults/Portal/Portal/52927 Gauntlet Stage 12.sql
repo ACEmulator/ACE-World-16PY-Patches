@@ -39,4 +39,4 @@ VALUES (52927, 26, 0x00000000, -60, -55, 0, 1, 0, 0, 0) /* RelativeDestination *
 /* @teleloc 0x00000000 [-60.000000 -55.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52927, -1, 87923, 1600, 1, 1, 1, 4, 0, 0, 0, 0, -60, -45, 0, 1, 0, 0, 0) /* Generate RB Gauntlet Stage12 NPC Gen (87923) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (52927, -1, 87923, 1600, 1, 1, 1, 4, 0, 0, 0, 0, -60, -45, 0, 1, 0, 0, 0) /* Generate RB Gauntlet Stage12 Controller (87923) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -1,2 +1,2 @@
 ReceiveLocalSignal: DeleteMe
-	- DeleteSelf
+    - DeleteSelf
