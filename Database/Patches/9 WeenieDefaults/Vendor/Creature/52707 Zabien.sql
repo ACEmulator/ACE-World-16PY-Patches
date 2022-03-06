@@ -67,12 +67,6 @@ VALUES (52707,   1, 0x02001A10) /* Setup */
      , (52707,   3, 0x20000001) /* SoundTable */
      , (52707,   6, 0x0400007E) /* PaletteBase */
      , (52707,   8, 0x06000FED) /* Icon */
-     , (52707,   9, 0x05001102) /* EyesTexture */
-     , (52707,  10, 0x0500117B) /* NoseTexture */
-     , (52707,  11, 0x050011CD) /* MouthTexture */
-     , (52707,  15, 0x0400202B) /* HairPalette */
-     , (52707,  16, 0x04001F39) /* EyesPalette */
-     , (52707,  17, 0x04001FA6) /* SkinPalette */
      , (52707,  57,      52797) /* AlternateCurrency - Gauntlet Coin */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
