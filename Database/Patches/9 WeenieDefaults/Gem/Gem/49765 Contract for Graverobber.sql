@@ -16,7 +16,7 @@ VALUES (49765,   1,       2048) /* ItemType - Gem */
      , (49765,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (49765,  94,         16) /* TargetType - Creature */
      , (49765, 280,        100) /* SharedCooldown */
-     , (49765, 349,        275) /* UseCreatesContractId - Contract_277_Deconstruction */;
+     , (49765, 349,        275) /* UseCreatesContractId - Contract_275_Graverobber */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49765,  22, True ) /* Inscribable */
