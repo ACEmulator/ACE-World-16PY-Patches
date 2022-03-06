@@ -66,12 +66,6 @@ VALUES (52857,   1, 0x02000001) /* Setup */
      , (52857,   3, 0x20000001) /* SoundTable */
      , (52857,   6, 0x0400007E) /* PaletteBase */
      , (52857,   8, 0x06001036) /* Icon */
-     , (52857,   9, 0x05001154) /* EyesTexture */
-     , (52857,  10, 0x05001172) /* NoseTexture */
-     , (52857,  11, 0x050011E8) /* MouthTexture */
-     , (52857,  15, 0x04001FBF) /* HairPalette */
-     , (52857,  16, 0x040004AE) /* EyesPalette */
-     , (52857,  17, 0x040002B9) /* SkinPalette */
      , (52857,  57,      20630) /* AlternateCurrency - Trade Note (250,000) */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
