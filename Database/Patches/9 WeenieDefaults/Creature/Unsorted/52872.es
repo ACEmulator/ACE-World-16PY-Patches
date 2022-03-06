@@ -3,12 +3,8 @@ Use:
         TestSuccess:
             - InqQuest: GauntletBossHolcha_Flag
                 QuestSuccess:
-                    - StartEvent: HolchaCHEvent
                     - TeleportTarget: 0x59670110 [80 -20 0.05] 1 0 0 0
                 QuestFailure:
-                    - Goto: Fail
+                    - DirectBroadcast: The statue's eyes flash and then fade. You have not met the requirements to enter the %mn.
         TestFailure:
-            - Goto: Fail
-
-GotoSet: Fail
-    - DirectBroadcast: The statue's eyes flash and then fade. You have not met the requirements to enter the Lair of the Gromnus Champion.
+            - DirectBroadcast: You must be a member of the Celestial Hand to enter.
