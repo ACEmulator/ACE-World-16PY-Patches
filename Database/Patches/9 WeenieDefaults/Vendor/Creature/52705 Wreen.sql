@@ -57,7 +57,7 @@ VALUES (52705,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52705,   1, 'Wreen') /* Name */
-     , (52705,   5, 'Vendor of the Web') /* Template */;
+     , (52705,   5, 'Vendor of the Hand') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52705,   1, 0x02001A10) /* Setup */
