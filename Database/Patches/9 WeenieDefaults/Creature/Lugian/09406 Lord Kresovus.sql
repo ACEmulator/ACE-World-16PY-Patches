@@ -22,10 +22,8 @@ VALUES (9406,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9406,   1, True ) /* Stuck */
      , (9406,   8, True ) /* AllowGive */
-     , (9406,  11, True ) /* IgnoreCollisions */
      , (9406,  12, True ) /* ReportCollisions */
      , (9406,  13, False) /* Ethereal */
-     , (9406,  14, True ) /* GravityStatus */
      , (9406,  19, False) /* Attackable */
      , (9406,  41, True ) /* ReportCollisionsAsEnvironment */
      , (9406,  42, True ) /* AllowEdgeSlide */
@@ -77,20 +75,20 @@ VALUES (9406,   1, 0x02000A0B) /* Setup */
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9406,   1, 400, 0, 0) /* Strength */
      , (9406,   2, 360, 0, 0) /* Endurance */
-     , (9406,   3, 360, 0, 0) /* Quickness */
+     , (9406,   3, 350, 0, 0) /* Quickness */
      , (9406,   4, 420, 0, 0) /* Coordination */
-     , (9406,   5, 350, 0, 0) /* Focus */
+     , (9406,   5, 250, 0, 0) /* Focus */
      , (9406,   6, 270, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9406,   1,   100, 0, 0, 180) /* MaxHealth */
-     , (9406,   3,   100, 0, 0, 360) /* MaxStamina */
-     , (9406,   5,    40, 0, 0, 270) /* MaxMana */;
+VALUES (9406,   1,   200, 0, 0, 380) /* MaxHealth */
+     , (9406,   3,   100, 0, 0, 460) /* MaxStamina */
+     , (9406,   5,    40, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (9406,  6, 0, 2, 0,   2, 0, 0) /* MeleeDefense        Trained */
-     , (9406,  7, 0, 2, 0,   2, 0, 0) /* MissileDefense      Trained */
-     , (9406, 45, 0, 2, 0,   2, 0, 0) /* LightWeapons        Trained */;
+VALUES (9406,  6, 0, 2, 0,   2, 0, 639.8474904510898) /* MeleeDefense        Trained */
+     , (9406,  7, 0, 2, 0,   2, 0, 639.8474904510898) /* MissileDefense      Trained */
+     , (9406, 45, 0, 2, 0,   2, 0, 639.8474904510898) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (9406,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
