@@ -22,7 +22,7 @@ VALUES (53380,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53380,   1, 'Gauntlet Stage 6') /* Name */
-     , (53380,  33, 'RBGArena1Stage5Complete') /* Quest */;
+     , (53380,  33, 'GauntletStage5Complete') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53380,   1, 0x02001541) /* Setup */
