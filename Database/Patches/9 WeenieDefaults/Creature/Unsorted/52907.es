@@ -1,56 +1,31 @@
 Use:
-    - StampQuest: GauntletStage4Complete
-    - StampMyQuest: GauntletStage5MyQuest
-    - InqMyQuestSolves: GauntletStage5MyQuest, 10 - 10
+    - InqQuest: GauntletStage5a_Flag
         QuestSuccess:
-            - StampQuest: GauntletStage5a_Flag
             - TeleportTarget: 0x00000000 [250 -15 0] 1 0 0 0
-            - EraseMyQuest: GauntletStage5MyQuest
         QuestFailure:
-            - InqMyQuestSolves: GauntletStage5MyQuest, 9 - 9
+            - InqQuest: GauntletStage5b_Flag
                 QuestSuccess:
-                    - StampQuest: GauntletStage5b_Flag
                     - TeleportTarget: 0x00000000 [150 -15 0] 1 0 0 0
                 QuestFailure:
-                    - InqMyQuestSolves: GauntletStage5MyQuest, 8 - 8
-                        QuestSuccess:
-                            - StampQuest: GauntletStage5a_Flag
-                            - TeleportTarget: 0x00000000 [250 -15 0] 1 0 0 0
-                        QuestFailure:
-                            - InqMyQuestSolves: GauntletStage5MyQuest, 7 - 7
-                                QuestSuccess:
-                                    - StampQuest: GauntletStage5b_Flag
-                                    - TeleportTarget: 0x00000000 [150 -15 0] 1 0 0 0
-                                QuestFailure:
-                                    - InqMyQuestSolves: GauntletStage5MyQuest, 6 - 6
-                                        QuestSuccess:
-                                            - StampQuest: GauntletStage5a_Flag
-                                            - TeleportTarget: 0x00000000 [250 -15 0] 1 0 0 0
-                                        QuestFailure:
-                                            - InqMyQuestSolves: GauntletStage5MyQuest, 5 - 5
-                                                QuestSuccess:
-                                                    - StampQuest: GauntletStage5b_Flag
-                                                    - TeleportTarget: 0x00000000 [150 -15 0] 1 0 0 0
-                                                QuestFailure:
-                                                    - InqMyQuestSolves: GauntletStage5MyQuest, 4 - 4
-                                                        QuestSuccess:
-                                                            - StampQuest: GauntletStage5a_Flag
-                                                            - TeleportTarget: 0x00000000 [250 -15 0] 1 0 0 0
-                                                        QuestFailure:
-                                                            - InqMyQuestSolves: GauntletStage5MyQuest, 3 - 3
-                                                                QuestSuccess:
-                                                                    - StampQuest: GauntletStage5b_Flag
-                                                                    - TeleportTarget: 0x00000000 [150 -15 0] 1 0 0 0
-                                                                QuestFailure:
-                                                                    - InqMyQuestSolves: GauntletStage5MyQuest, 2 - 2
-                                                                        QuestSuccess:
-                                                                            - StampQuest: GauntletStage5a_Flag
-                                                                            - TeleportTarget: 0x00000000 [250 -15 0] 1 0 0 0
-                                                                        QuestFailure:
-                                                                            - InqMyQuestSolves: GauntletStage5MyQuest, 1 - 1
-                                                                                QuestSuccess:
-                                                                                    - StampQuest: GauntletStage5b_Flag
-                                                                                    - TeleportTarget: 0x00000000 [150 -15 0] 1 0 0 0
-                                                                                QuestFailure:
-                                                                                    - StampQuest: GauntletStage5a_Flag
-                                                                                    - TeleportTarget: 0x00000000 [250 -15 0] 1 0 0 0
+                    - Goto: AssignRoom
+
+GotoSet: AssignRoom
+    - StampQuest: GauntletStage4Complete
+    - InqMyQuest: GauntletStage5MyQuest@AssignRoom
+        QuestSuccess:
+            - EraseMyQuest: GauntletStage5MyQuest
+            - LocalSignal: Room5Portal
+            - StampQuest: GauntletStage5b_Flag
+            - TeleportTarget: 0x00000000 [150 -15 0] 1 0 0 0
+        QuestFailure:
+            - StampMyQuest: GauntletStage5MyQuest
+            - LocalSignal: Room5Portal
+            - StampQuest: GauntletStage5a_Flag
+            - TeleportTarget: 0x00000000 [250 -15 0] 1 0 0 0
+
+ReceiveLocalSignal: Room5Portal
+    - InqMyQuest: GauntletStage5MyQuest@ReceiveLocalSignal
+        QuestSuccess:
+            - EraseMyQuest: GauntletStage5MyQuest
+        QuestFailure:
+            - StampMyQuest: GauntletStage5MyQuest
