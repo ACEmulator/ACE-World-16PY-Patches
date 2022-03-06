@@ -118,15 +118,21 @@ Use:
             - Goto: PlayerRewardCheck
 
 GotoSet: PlayerRewardCheck
-    - InqQuest: GauntletStage1Complete
+    - InqQuest: GauntletRewardWait
         QuestSuccess:
-            - InqYesNo: Do you wish to be rewarded for your previous Gauntlet venture? Select YES for your rewards or NO to be reset for another attempt to improve.
-                TestSuccess:
-                    - Goto: PlayerRoomCompletions
-                TestFailure:
-                    - Goto: ErasePlayerQuestFlags
+            - Tell: You have already been rewarded for your venture in the Gauntlet today. You must wait %tqt to be rewarded again.
+            - Goto: ErasePlayerQuestFlags
         QuestFailure:
-            - Goto: PlayerRoomCompletions
+            - InqQuest: GauntletStage1Complete
+                QuestSuccess:
+                    - InqYesNo: Do you wish to be rewarded for your previous Gauntlet venture? Select YES for your rewards or NO to be reset for another attempt to improve.
+                        TestSuccess:
+                            - StampQuest: GauntletRewardWait
+                            - Goto: PlayerRoomCompletions
+                        TestFailure:
+                            - Goto: ErasePlayerQuestFlags
+                QuestFailure:
+                    - Goto: WelcomeText
 
 GotoSet: PlayerRoomCompletions
     - InqQuest: GauntletStage12Complete
@@ -145,6 +151,8 @@ GotoSet: PlayerRoomCompletions
             - StampQuest: GauntletWinsCounter
             - InqQuestSolves: GauntletWinsCounter, 10 - 10
                 QuestSuccess:
+                    - Tell: Congratulations on your tenth victory inside of the Gauntlet warrior!
+                    - Tell: You have shown unequalled skill in battle and have earned this scroll.
                     - Give: Scroll of Radiant Blood Recall (53369)
                     - StampQuest: GauntletBossGromnusChampion_Flag
                     - Goto: ErasePlayerQuestFlags
@@ -218,7 +226,7 @@ GotoSet: PlayerRoomCompletions
                                                 QuestFailure:
                                                     - InqQuest: GauntletStage6Complete
                                                         QuestSuccess:
-                                                            - Tell: Well done! You completed the sixth Arena!
+                                                            - Tell: Well done! We are proud to have you within our ranks!
                                                             - Tell: You shall be known to all as a "Society Savage"!
                                                             - AddCharacterTitle: SocietySavage
                                                             - Tell: Take this knowledge as a reward for your accomplishments.
