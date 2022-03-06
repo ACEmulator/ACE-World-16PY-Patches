@@ -23,12 +23,12 @@ Refuse: 51583
 Use:
     - Motion: Ready
     - TurnToTarget
-    - InqQuest: FayzaJournalNoteTurnInWait
+    - InqQuest: GurogCreationCompleted_1110
         QuestSuccess:
             - Tell: I am still working with the information you brought me to try and figure out some more on those Gurogs.
             - DirectBroadcast: You may complete this quest again in %tqt.
         QuestFailure:
-            - InqQuest: JournalNoteTurnInStart
+            - InqQuest: GurogCreationStarted_1110
                 QuestSuccess:
                     - Tell: Have you found anything out about those strange new creatures known as Gurogs? If you have, I would be most interested to learn what you have found.
                 QuestFailure:
@@ -38,14 +38,14 @@ Use:
                     - Tell: Best of luck, and be careful.
 
 GotoSet: OwnsAB
-    - InqQuest: FayzaJournalNoteTurnInWait_2
+    - InqQuest: GurogCreationCompleted_1110
         QuestSuccess:
             - DirectBroadcast: You may complete this quest again in %tqt.
         QuestFailure:
             - TakeItems: 51584, -1
             - TakeItems: 51583, -1
-            - EraseQuest: JournalNoteTurnInStart
-            - StampQuest: FayzaJournalNoteTurnInWait
+            - EraseQuest: GurogCreationStarted_1110
+            - StampQuest: GurogCreationCompleted_1110
             - Give: 48746
             - Tell: Ahh now this is fascinating stuff, terrifying, but fascinating none the less.
             - Tell: We at the Arcanum will have to figure out what all this means, and what Geraine is planning.
@@ -53,6 +53,10 @@ GotoSet: OwnsAB
             - AwardNoShareXP: 150,000,000
             - AwardLuminance: 10,000
             - Give: 20630, 8
+            - InqQuestBitsOn: LegendaryQuestsA, 0x40
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsA, 0x40
+                    - StampQuest: LegendaryQuestCounter_0913
 
 GotoSet: OwnsA
     - Tell: Is this all the information you've found.. there has to be more.. If you have, I would be most interested to learn what you have found.
@@ -73,10 +77,10 @@ Refuse: Energy Infused Rock (43792)
                     - Give: 20630, 9
                     - EraseQuest: DeewainBossRoomFlag
                     - StampQuest: DeewainCompleted0211
-                    - InqQuestBitsOn: LegendaryQuestsA, 0x8000 
+                    - InqQuestBitsOn: LegendaryQuestsA, 0x8000
                         QuestFailure:
-                            - SetQuestBitsOn: LegendaryQuestsA, 0x8000 
-                            - StampQuest: LegendaryQuestCounter_0913            
+                            - SetQuestBitsOn: LegendaryQuestsA, 0x8000
+                            - StampQuest: LegendaryQuestCounter_0913
                 TestFailure:
                     - Tell: This is not the correct sample!
         QuestFailure:
