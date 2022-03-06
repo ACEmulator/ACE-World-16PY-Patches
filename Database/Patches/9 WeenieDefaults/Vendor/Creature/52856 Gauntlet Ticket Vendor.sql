@@ -5,6 +5,7 @@ VALUES (52856, 'ace52856-gauntletticketvendor', 12, '2019-02-10 00:00:00') /* Ve
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52856,   1,         16) /* ItemType - Creature */
+     , (52856,   2,         31) /* CreatureType - Human */
      , (52856,   6,         -1) /* ItemsCapacity */
      , (52856,   7,         -1) /* ContainersCapacity */
      , (52856,  16,         32) /* ItemUseable - Remote */
@@ -15,6 +16,7 @@ VALUES (52856,   1,         16) /* ItemType - Creature */
      , (52856,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (52856, 113,          1) /* Gender - Male */
      , (52856, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (52856, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (52856, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -63,7 +65,8 @@ VALUES (52856,   1, 0x02000001) /* Setup */
      , (52856,   2, 0x09000001) /* MotionTable */
      , (52856,   3, 0x20000001) /* SoundTable */
      , (52856,   6, 0x0400007E) /* PaletteBase */
-     , (52856,   8, 0x06001036) /* Icon */;
+     , (52856,   8, 0x06001036) /* Icon */
+     , (52856,  57,      20630) /* AlternateCurrency - Trade Note (250,000) */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52856,   1, 260, 0, 0) /* Strength */
