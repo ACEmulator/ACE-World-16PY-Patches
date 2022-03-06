@@ -130,6 +130,7 @@ GotoSet: PlayerRewardCheck
                             - StampQuest: GauntletRewardWait
                             - Goto: PlayerRoomCompletions
                         TestFailure:
+                            - Tell: I have reset your progress from the previous Gauntlet venture. Good luck in your next attempt!
                             - Goto: ErasePlayerQuestFlags
                 QuestFailure:
                     - Goto: WelcomeText
