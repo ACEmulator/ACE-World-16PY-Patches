@@ -38,7 +38,7 @@ Refuse: Gromnus Eye (52876)
 
 Refuse: Red Society Band (52785)
     - Tell: You do not wish to keep this ring Champion?
-    - InqYesNo: Would you like to hand Over you ring?
+    - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
             - TakeItems: 52785, 1
             - Tell: Very well, then take this knowledge instead.
@@ -49,7 +49,7 @@ Refuse: Red Society Band (52785)
 
 Refuse: Green Society Band (52786)
     - Tell: You do not wish to keep this ring Champion?
-    - InqYesNo: Would you like to hand Over you ring?
+    - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
             - TakeItems: 52786, 1
             - Tell: Very well, then take this knowledge instead.
@@ -60,7 +60,7 @@ Refuse: Green Society Band (52786)
 
 Refuse: Purple Society Band (52789)
     - Tell: You do not wish to keep this ring Champion?
-    - InqYesNo: Would you like to hand Over you ring?
+    - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
             - TakeItems: 52789, 1
             - Tell: Very well, then take this knowledge instead.
@@ -71,9 +71,31 @@ Refuse: Purple Society Band (52789)
 
 Refuse: Blue Society Band (52790)
     - Tell: You do not wish to keep this ring Champion?
-    - InqYesNo: Would you like to hand Over you ring?
+    - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
             - TakeItems: 52790, 1
+            - Tell: Very well, then take this knowledge instead.
+            - Delay: 1, AwardLuminance: 10,000
+            - Give: Gauntlet Coin (52797), 2
+        TestFailure:
+            - Tell: Very well.
+
+Refuse: Brown Society Locket (52787)
+    - Tell: You do not wish to keep this locket Champion?
+    - InqYesNo: Exchange Society Locket for ten thousand Luminance and two Gauntlet Coins?
+        TestSuccess:
+            - TakeItems: 52787, 1
+            - Tell: Very well, then take this knowledge instead.
+            - Delay: 1, AwardLuminance: 10,000
+            - Give: Gauntlet Coin (52797), 2
+        TestFailure:
+            - Tell: Very well.
+
+Refuse: Yellow Society Locket (52788)
+    - Tell: You do not wish to keep this locket Champion?
+    - InqYesNo: Exchange Society Locket for ten thousand Luminance and two Gauntlet Coins?
+        TestSuccess:
+            - TakeItems: 52788, 1
             - Tell: Very well, then take this knowledge instead.
             - Delay: 1, AwardLuminance: 10,000
             - Give: Gauntlet Coin (52797), 2
@@ -88,21 +110,39 @@ Give: Gauntlet Ticket (52796)
             - Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
             - Give: Gauntlet Ticket (52796)
 
-Give: Gauntlet Guest Ticket (87871)
-    - InqFellowQuest: IsPlayerInFellow?
-        QuestFailure:
-            - Goto: Arena1Addition
-        QuestNoFellow:
-            - Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
-            - Give: Gauntlet Guest Ticket (87871)
+Refuse: Gauntlet Guest Ticket (87871)
+    - Tell: I see that you have a guest ticket to our Arenas. You must already be in a fellowship and not currently have access to either of the active arenas. There are no refunds. Are you ready to enter Arena One?
+    - InqYesNo: This guest ticket allows you to join another fellowship in Arena One. You must already be in a fellowship and not currently have access to either of the active arenas. No refunds. Are you ready to enter Arena One?
+        TestSuccess:
+            - InqOwnsItems: Gauntlet Guest Ticket (87871), 1
+                TestSuccess:
+                    - TakeItems: Gauntlet Guest Ticket (87871), -1
+                    - InqFellowQuest: IsPlayerInFellow?
+                        QuestFailure:
+                            - Goto: Arena1Addition
+                        QuestNoFellow:
+                            - Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
+                TestFailure:
+                    - Tell: Do not try to cheat your way in to the Gauntlet! Begone!
+                    - CastSpellInstant: 2046
+        TestFailure:
+            - Tell: Let me know if you change your mind, but be quick, you only have 5 minutes to join the battle!
 
-Give: Gauntlet Guest Ticket (87872)
-    - InqFellowQuest: IsPlayerInFellow?
-        QuestFailure:
-            - Goto: Arena2Addition
-        QuestNoFellow:
-            - Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
-            - Give: Gauntlet Guest Ticket (87872)
+Refuse: Gauntlet Guest Ticket (87872)
+    - Tell: I see that you have a guest ticket to our Arenas. You must already be in a fellowship and not currently have access to either of the active arenas. There are no refunds. Are you ready to enter Arena Two?
+    - InqYesNo: This guest ticket allows you to join another fellowship in Arena Two. You must already be in a fellowship and not currently have access to either of the active arenas. No refunds. Are you ready to enter Arena Two?
+        TestSuccess:
+            - InqOwnsItems: Gauntlet Guest Ticket (87872), 1
+                TestSuccess:
+                    - TakeItems: Gauntlet Guest Ticket (87872), -1
+                    - InqFellowQuest: IsPlayerInFellow?
+                        QuestFailure:
+                            - Goto: Arena1Addition
+                        QuestNoFellow:
+                            - Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
+                TestFailure:
+                    - Tell: Do not try to cheat your way in to the Gauntlet! Begone!
+                    - CastSpellInstant: 2046
 
 Use:
     - InqFellowQuest: GauntletArena1CH
@@ -305,12 +345,12 @@ GotoSet: ErasePlayerQuestFlags
 GotoSet: PlayerHasFellow
     - InqFellowQuest: GauntletArena1CH
         QuestSuccess:
-            - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Colosseum. (%fqt)
+            - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
             - Give: Gauntlet Ticket (52796)
         QuestFailure:
             - InqFellowQuest: GauntletArena2CH
                 QuestSuccess:
-                    - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Colosseum. (%fqt)
+                    - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
                     - Give: Gauntlet Ticket (52796)
                 QuestFailure:
                     - Goto: IsPlayerInMyFaction
@@ -325,24 +365,40 @@ GotoSet: IsPlayerInMyFaction
             - Tell: Begone fool, and do not try to fool the Celestial Hand!
 
 GotoSet: Arena1Addition
-  - LockFellow
-  - StampFellowQuest: GauntletArena1CH
-  #- Give: Gauntlet Ticket Stub (52795)
-  - Delay 2, TellFellow: Your fellowship will be battling in Arena One.
-  - Delay 1, TellFellow: Use the portal to enter your Arena.
-  - TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
-  - TellFellow: The Celestial Hand has entitled me to reward it's loyal members only once per day for the Gauntlet. After the full hour has expired you can choose to either be rewarded for your Gauntlet venture, or you can choose to forego the rewards and retry the Gauntlet in an attempt to progress further for better rewards.
-  - TellFellow: The choice will be yours. Good Luck!
+    - InqFellowQuest: GauntletArena1CH@Arena1Addition
+        QuestSuccess:
+            - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
+        QuestFailure:
+            - InqFellowQuest: GauntletArena2CH@Arena1Addition
+                QuestSuccess:
+                    - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
+                QuestFailure:
+                    - LockFellow
+                    - StampFellowQuest: GauntletArena1CH
+                    #- Give: Gauntlet Ticket Stub (52795)
+                    - Delay 2, TellFellow: Your fellowship will be battling in Arena One.
+                    - Delay 1, TellFellow: Use the portal to enter your Arena.
+                    - TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
+                    - TellFellow: The Celestial Hand has entitled me to reward it's loyal members only once per day for the Gauntlet. After the full hour has expired you can choose to either be rewarded for your Gauntlet venture, or you can choose to forego the rewards and retry the Gauntlet in an attempt to progress further for better rewards.
+                    - TellFellow: The choice will be yours. Good Luck!
 
 GotoSet: Arena2Addition
-  - LockFellow
-  - StampFellowQuest: GauntletArena2CH
-  #- Give: Gauntlet Ticket Stub (52795)
-  - Delay 2, TellFellow: Your fellowship will be battling in Arena Two.
-  - Delay 1, TellFellow: Use the portal to enter your Arena.
-  - TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
-  - TellFellow: The Celestial Hand has entitled me to reward it's loyal members only once per day for the Gauntlet. After the full hour has expired you can choose to either be rewarded for your Gauntlet venture, or you can choose to forego the rewards and retry the Gauntlet in an attempt to progress further for better rewards.
-  - TellFellow: The choice will be yours. Good Luck!
+    - InqFellowQuest: GauntletArena1CH@Arena1Addition
+        QuestSuccess:
+            - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
+        QuestFailure:
+            - InqFellowQuest: GauntletArena2CH@Arena1Addition
+                QuestSuccess:
+                    - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
+                QuestFailure:
+                    - LockFellow
+                    - StampFellowQuest: GauntletArena2CH
+                    #- Give: Gauntlet Ticket Stub (52795)
+                    - Delay 2, TellFellow: Your fellowship will be battling in Arena Two.
+                    - Delay 1, TellFellow: Use the portal to enter your Arena.
+                    - TellFellow: Don't forget that you must wait one full hour after the time you enter the Gauntlet before I will reward you for your achievements in the Arenas.
+                    - TellFellow: The Celestial Hand has entitled me to reward it's loyal members only once per day for the Gauntlet. After the full hour has expired you can choose to either be rewarded for your Gauntlet venture, or you can choose to forego the rewards and retry the Gauntlet in an attempt to progress further for better rewards.
+                    - TellFellow: The choice will be yours. Good Luck!
 
 GotoSet: IsArenaOneAvailable
     - InqEvent: CHGauntletArena1Event
