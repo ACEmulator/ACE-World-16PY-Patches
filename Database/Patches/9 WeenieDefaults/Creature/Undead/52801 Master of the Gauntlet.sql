@@ -48,7 +48,6 @@ VALUES (52801,   1,       5) /* HeartbeatInterval */
      , (52801,  19,     0.6) /* ArmorModVsElectric */
      , (52801,  37,       1) /* BuyPrice */
      , (52801,  38,       1) /* SellPrice */
-     , (52801,  39,     1.2) /* DefaultScale */
      , (52801,  54,       3) /* UseRadius */
      , (52801,  64,       1) /* ResistSlash */
      , (52801,  65,       1) /* ResistPierce */
