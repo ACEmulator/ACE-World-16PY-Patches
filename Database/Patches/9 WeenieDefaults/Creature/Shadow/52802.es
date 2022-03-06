@@ -137,7 +137,7 @@ Refuse: Gauntlet Guest Ticket (87870)
                     - TakeItems: Gauntlet Guest Ticket (87870), -1
                     - InqFellowQuest: IsPlayerInFellow?
                         QuestFailure:
-                            - Goto: Arena1Addition
+                            - Goto: Arena2Addition
                         QuestNoFellow:
                             - Tell: You cannot enter the Gauntlet unless you first create a Fellowship.
                 TestFailure:
