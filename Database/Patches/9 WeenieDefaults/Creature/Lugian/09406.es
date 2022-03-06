@@ -87,9 +87,17 @@ HeartBeat: Style: HandCombat, Substyle: Ready, Probability: 0.1
 
 Give: Coda (30830)
     - TurnToTarget
-    - Tell: These are grim tidings indeed. But valuable - most valuable information. You have done Linvak Tukal a great service. You are indeed marked for greatness.
-    - AwardNoShareXP: 25,000,000
-    - Give: Trade Note (250,000) (20630), 4
+    - UpdateQuest: InfiltrationComplete_0511
+        QuestSuccess:
+            - Tell: These are grim tidings indeed. But valuable - most valuable information. You have done Linvak Tukal a great service. You are indeed marked for greatness.
+            - AwardNoShareXP: 25,000,000
+            - Give: Trade Note (250,000) (20630), 4
+            - InqQuestBitsOn: 50to11BrokerContractsA, 0x40000
+                QuestFailure:
+                    - SetQuestBitsOn: 50to11BrokerContractsA, 0x40000
+                    - StampQuest: ContractQuestcounter_0511
+        QuestFailure:
+            - DirectBroadcast: You must wait %tqt to complete this quest again.
 
 Give: A Patch of Balor's Fur (30829)
     - TurnToTarget
@@ -101,7 +109,7 @@ Give: A Patch of Balor's Fur (30829)
 
 Refuse: Pristine White Mattekar Hide (36703)
     - TurnToTarget
-    - DirectBroadcast: Lord Kresovus grips the hide of his old pet and drops his head in silence. 
+    - DirectBroadcast: Lord Kresovus grips the hide of his old pet and drops his head in silence.
     - Delay: 1, Tell: I raised him from a little Mattie. He was my best friend.
     - Delay: 1, Tell: I will miss you Balor.
     - Delay: 1, DirectBroadcast: Kresovus loosens his grip on the hide.
@@ -119,7 +127,7 @@ Give: Sigil of Linvak Tukal (36682)
     - TurnToTarget
     - InqQuest: AerbaxsProdigalLugian_Repeat
         QuestSuccess:
-            - DirectBroadcast: Lord Kresovus shakes his head in wonder, "He keeps returning. When will that imposter learn that Guardian's like yourself will never allow him back?" 
+            - DirectBroadcast: Lord Kresovus shakes his head in wonder, "He keeps returning. When will that imposter learn that Guardian's like yourself will never allow him back?"
             - Give: 36642
             - Delay: 1, Tell: Take this Chorizite Pea. I have also given permission to Auritis to upgrade any of the armor or weapons of the Arm, Mind and Heart that you may have. Speak with him to find out more.
             - AwardLevelProportionalXP: 50%, Max: 162,415,717
