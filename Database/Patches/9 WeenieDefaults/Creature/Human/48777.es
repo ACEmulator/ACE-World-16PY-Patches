@@ -1,6 +1,6 @@
 Use:
--TurnToTarget
-    InqQuest: talkedtokaragrularr
+    - TurnToTarget
+    - InqQuest: GraverobberStarted_0213
         QuestSuccess:
             -Tell: The sooner you can meet me at the crypt entrance, the sooner we can help each other out.
         QuestFailure:
@@ -11,4 +11,4 @@ Use:
             -Delay: 0.5, Tell: If you could meet me inside the Count's tomb I can assist you on your way to the Count's chamber. I will use the shadows to hide from sight of the evil beasties within and follow from a safe distance, assuring you find your way.
             -Delay: 0.5, Tell: Once Count Phainor is defeated and we can access his treasure room, I will have my amulet and you will have your fair share of his legendary loot.
             -Delay: 0.5, Tell: I will gather my supplies and meet you inside the tomb when you are ready.
-            -StampQuest: talkedtokaragrularr
+            -StampQuest: GraverobberStarted_0213
