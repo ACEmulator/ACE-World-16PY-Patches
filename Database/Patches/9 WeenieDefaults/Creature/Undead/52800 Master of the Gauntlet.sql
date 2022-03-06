@@ -15,7 +15,7 @@ VALUES (52800,   1,         16) /* ItemType - Creature */
      , (52800, 113,          1) /* Gender - Male */
      , (52800, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52800, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (52800, 188,         11) /* HeritageGroup - Undead */
+     , (52800, 188,          9) /* HeritageGroup - Undead */
      , (52800, 281,          1) /* Faction1Bits - CelestialHand */
      , (52800, 287,       1001) /* SocietyRankCelhan */;
 
