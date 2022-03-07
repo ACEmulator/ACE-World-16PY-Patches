@@ -437,7 +437,7 @@ Give: Northern Forge Essence (30476)
         QuestFailure:
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x20
             - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Southern Forge Essence (30474)
     - TurnToTarget
     - Tell: Forge Essence! We can surely use as much of this as you can lay your hands on.
@@ -448,7 +448,7 @@ Give: Southern Forge Essence (30474)
         QuestFailure:
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x40
             - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Western Forge Essence (30475)
     - TurnToTarget
     - Tell: Forge Essence! We can surely use as much of this as you can lay your hands on.
@@ -828,6 +828,36 @@ Give: Shadow Gem (42108)
     - TurnToTarget
     - Tell: Ahhh a most intriquing item. I will have to study this and see what powers it may hold.
     - AwardNoShareXP: 30,000,000
+
+Give: Gauntlet Gem of Luminance (52750)
+    - TurnToTarget
+    - Tell: Luminance is always a wonderful thing.
+    - AwardLuminance: 15,000
+
+Give: Gauntlet Gem of Knowledge (52748)
+    - TurnToTarget
+    - Tell: Knowledge earned is a great gift. Use it wisely.
+    - AwardNoShareXP: 50,000,000
+
+Give: Gauntlet Gem of Vast Knowledge (52749)
+    - TurnToTarget
+    - Tell: Knowledge earned is a great gift. Use it wisely.
+    - AwardNoShareXP: 100,000,000
+
+Give: Celestial Hand Gauntlet Writ (53408)
+    - TurnToTarget
+    - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
+    - Give: Celestial Hand Armor Writ (38544)
+
+Give: Eldrytch Web Gauntlet Writ (53409)
+    - TurnToTarget
+    - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
+    - Give: Eldrytch Web Armor Writ (38545)
+
+Give: Radiant Blood Gauntlet Writ (53410)
+    - TurnToTarget
+    - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
+    - Give: Radiant Blood Armor Writ (38546)
 
 Use:
     - Motion: Ready
