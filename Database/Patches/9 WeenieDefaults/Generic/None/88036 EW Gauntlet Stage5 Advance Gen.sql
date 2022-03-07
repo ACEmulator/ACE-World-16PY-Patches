@@ -19,7 +19,7 @@ VALUES (88036,  41,    1800) /* RegenerationInterval */
      , (88036,  43,      10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (88036,   1, 'EW Gauntlet Stage5 Advance Gen') /* Name */;
+VALUES (88036,   1, 'EW Gauntlet Stage5 Exit Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (88036,   1, 0x0200026B) /* Setup */

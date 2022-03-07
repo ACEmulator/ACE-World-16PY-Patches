@@ -29,3 +29,6 @@ ReceiveLocalSignal: Room5Portal
             - EraseMyQuest: GauntletStage5MyQuest
         QuestFailure:
             - StampMyQuest: GauntletStage5MyQuest
+
+ReceiveLocalSignal: DeleteMe
+    - Delay: 1, DeleteSelf

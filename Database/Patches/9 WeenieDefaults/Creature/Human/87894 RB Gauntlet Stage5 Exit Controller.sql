@@ -59,7 +59,7 @@ VALUES (87894,   1,       5) /* HeartbeatInterval */
      , (87894, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87894,   1, 'RB Gauntlet Stage5 Exit Controller') /* Name */
+VALUES (87894,   1, 'RB Gauntlet Stage5 Exit Stopgap') /* Name */
      , (87894,   5, 'Society Gauntlet Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
