@@ -24,12 +24,14 @@ VALUES (46702,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46702,   1, True ) /* Stuck */
+     , (46702,   6, True ) /* AiUsesMana */
      , (46702,  11, False) /* IgnoreCollisions */
      , (46702,  12, True ) /* ReportCollisions */
      , (46702,  13, False) /* Ethereal */
      , (46702,  14, True ) /* GravityStatus */
      , (46702,  19, True ) /* Attackable */
-     , (46702,  29, True ) /* NoCorpse */;
+     , (46702,  29, True ) /* NoCorpse */
+     , (46702,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46702,   1,       5) /* HeartbeatInterval */
@@ -51,7 +53,7 @@ VALUES (46702,   1,       5) /* HeartbeatInterval */
      , (46702,  64,       1) /* ResistSlash */
      , (46702,  65,     0.5) /* ResistPierce */
      , (46702,  66,    0.67) /* ResistBludgeon */
-     , (46702,  67,    0.89) /* ResistFire */
+     , (46702,  67,    0.72) /* ResistFire */
      , (46702,  68,     0.1) /* ResistCold */
      , (46702,  69,     0.2) /* ResistAcid */
      , (46702,  70,     0.5) /* ResistElectric */
@@ -96,7 +98,7 @@ VALUES (46702,   1,  9500, 0, 0, 9675) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46702,  6, 0, 3, 0, 355, 0, 0) /* MeleeDefense        Specialized */
      , (46702,  7, 0, 3, 0, 264, 0, 0) /* MissileDefense      Specialized */
-     , (46702, 15, 0, 3, 0, 243, 0, 0) /* MagicDefense        Specialized */
+     , (46702, 15, 0, 3, 0, 365, 0, 0) /* MagicDefense        Specialized */
      , (46702, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (46702, 31, 0, 3, 0, 340, 0, 0) /* CreatureEnchantment Specialized */
      , (46702, 33, 0, 3, 0, 340, 0, 0) /* LifeMagic           Specialized */
@@ -117,6 +119,9 @@ VALUES (46702,  0,  4,  0,    0,  380,  355,  355,  355,  590,  210,  590,  590,
      , (46702,  7,  4,  0,    0,  380,  355,  355,  355,  590,  210,  590,  590,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46702,  8,  4, 400, 0.75,  380,  355,  355,  355,  590,  210,  590,  590,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (46702,  4468,   2.09)  /* Incantation of Fire Protection Self */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46702, 2, 46703,  1, 0, 1, False) /* Create Acid Nekode (46703) for Wield */
+VALUES (46702, 2, 46703,  1, 0, 1, False) /* Create  (46703) for Wield */
      , (46702, 2, 46707,  1, 0, 1, False) /* Create Corrupted Aegis (46707) for Wield */;

@@ -27,7 +27,8 @@ VALUES (52710,   1, True ) /* Stuck */
      , (52710,  14, True ) /* GravityStatus */
      , (52710,  19, True ) /* Attackable */
      , (52710,  29, True ) /* NoCorpse */
-     , (52710,  50, True ) /* NeverFailCasting */;
+     , (52710,  50, True ) /* NeverFailCasting */
+     , (52710,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52710,   1,       5) /* HeartbeatInterval */
@@ -111,8 +112,8 @@ VALUES (52710,  0,  2, 130,  0.5,  425,  595,  638,  340,  455,  404,  419,  476
      , (52710, 21,  4,  0,    0,  425,  595,  638,  340,  455,  404,  419,  476,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52710,  4597,   2.08)  /* Incantation of Magic Yield Other */
-     , (52710,  4457,   2.08)  /* Incantation of Whirling Blade */
-     , (52710,  4485,   2.08)  /* Incantation of Piercing Vulnerability Other */
-     , (52710,  4447,   2.08)  /* Incantation of Frost Bolt */
-     , (52710,  4475,   2.08)  /* Incantation of Blade Vulnerability Other */;
+VALUES (52710,  4597,   2.21)  /* Incantation of Magic Yield Other */
+     , (52710,  4457,   2.22)  /* Incantation of Whirling Blade */
+     , (52710,  4485,   2.23)  /* Incantation of Piercing Vulnerability Other */
+     , (52710,  4475,   2.24)  /* Incantation of Blade Vulnerability Other */
+     , (52710,  4443,      3)  /* Incantation of Force Bolt */;
