@@ -11,14 +11,14 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.2
 	- Motion: Twitch4
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.21
-	- Say: I am the sexiest man in the world. Men envy me. Women faint when they see me. Penguins fear me.
+	- Say: I am the sexiest man in the world. Men envy me. Women faint when they see me. Penguins fear me., Extent: 20
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.22
-	- Say: Some say that two brews based on two yeasts of varying qualities are indistinguishable from one another. To those people I say, "You have the taste of a Drudge and the brains of a Banderling!" Heathens, I say. Heathens!
+	- Say: Some say that two brews based on two yeasts of varying qualities are indistinguishable from one another. To those people I say, "You have the taste of a Drudge and the brains of a Banderling!" Heathens, I say. Heathens!, Extent: 20
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.23
-	- Say:  If there's one thing I prize more than beer, it's biscuits.
-	- Delay: 1, Say: Anyone have a biscuit?
+	- Say:  If there's one thing I prize more than beer, it's biscuits., Extent: 20
+	- Delay: 1, Say: Anyone have a biscuit?, Extent: 20
 
 Refuse: Sdolin Buk! (28757)
 	- TurnToTarget

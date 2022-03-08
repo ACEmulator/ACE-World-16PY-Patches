@@ -14,13 +14,13 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.18
 	- Motion: Twitch4
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.25
-	- Tell: If I had spent more time with the sword than with my books, perhaps I could have handled those wild beasts.
+	- Say: If I had spent more time with the sword than with my books, perhaps I could have handled those wild beasts., Extent: 20
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.55
-	- Tell: My necklace! If my mother were here, she'd strangle me!
+	- Say: My necklace! If my mother were here, she'd strangle me!, Extent: 20
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.85
-	- Tell: That's the last time I tangle with a colony of rabid penguins, I tell you.
+	- Say: That's the last time I tangle with a colony of rabid penguins, I tell you., Extent: 20
 
 Give: Lorca Sammel's Necklace (28763)
 	- Tell: You found it! You found my missing necklace! Thank you so much, my friend.
