@@ -1,3 +1,12 @@
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
+    - Motion: Twitch1
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
+    - Motion: Twitch2
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch3
+
 Use:
     - TurnToTarget
     - InqQuest: KidnapPrincessComplete_0410
@@ -12,7 +21,7 @@ Use:
                     - DirectBroadcast: Sir Draithon examines you briefly, sensing the enchantment Ayaname Chiyoko placed upon you.
                     - Tell: You found her! Thank the Light. Borelean will be pleased. Please, allow me to thank you properly for your help.
                     - Give: 38917
-                    - Give: 20630, 8
+                    - Give: 20630, 10
                     - AwardNoShareXP: 125,000,000
                     - TakeItems: 42729, -1
                     - Tell: I'll let the Prince know immediately. Thank you again.

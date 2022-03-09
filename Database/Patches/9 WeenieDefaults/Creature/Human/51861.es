@@ -30,4 +30,3 @@ Use:
                             - SetQuestCompletions: KillTaskRynthidRares0813, 0
         TestFailure:
             - Tell: Hernd thinks you're not strong enough yet.
-

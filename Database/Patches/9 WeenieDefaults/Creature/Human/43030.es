@@ -16,4 +16,3 @@ Use:
                     - Delay: 1, Tell: This month we have decided that Cyphis Suldow needs assistance with building his resort.
                     - Delay: 1, Tell: Help him in any way he desires. I shall reward you upon your successful return.
                     - Delay: 1, Tell: I hear he is in special need of someone who knows their way around locks.
-                    

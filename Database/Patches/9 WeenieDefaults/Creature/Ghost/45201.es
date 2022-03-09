@@ -36,3 +36,7 @@ GotoSet: Reward
     - Give: 35383, 4
     - Give: 48750
     - Give: Trade Note (250,000) (20630), 9
+    - InqQuestBitsOn: LegendaryQuestsA, 0x400
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x400
+            - StampQuest: LegendaryQuestCounter_0913

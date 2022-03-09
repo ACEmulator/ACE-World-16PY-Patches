@@ -90,4 +90,3 @@ GotoSet: checkAll
             - Goto: fail_1
                 GotoSet:
                     - Tell: One of your tasks is to retrieve a sample from the crystal in the Path of Torment.
-

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28215;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28215, 'cestusbrassknuckles', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (28215, 'cestusbrassknuckles', 6, '2022-01-08 18:29:57') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28215,   1,          1) /* ItemType - MeleeWeapon */
@@ -11,7 +11,7 @@ VALUES (28215,   1,          1) /* ItemType - MeleeWeapon */
      , (28215,  16,          1) /* ItemUseable - No */
      , (28215,  18,          1) /* UiEffects - Magical */
      , (28215,  19,       3000) /* Value */
-     , (28215,  44,         23) /* Damage */
+     , (28215,  44,         30) /* Damage */
      , (28215,  45,          4) /* DamageType - Bludgeon */
      , (28215,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (28215,  47,          1) /* AttackType - Punch */
@@ -26,7 +26,7 @@ VALUES (28215,   1,          1) /* ItemType - MeleeWeapon */
      , (28215, 150,        103) /* HookPlacement - Hook */
      , (28215, 151,          2) /* HookType - Wall */
      , (28215, 158,          2) /* WieldRequirements - RawSkill */
-     , (28215, 159,         13) /* WieldSkillType - UnarmedCombat */
+     , (28215, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (28215, 160,        325) /* WieldDifficulty */
      , (28215, 353,          1) /* WeaponType - Unarmed */;
 

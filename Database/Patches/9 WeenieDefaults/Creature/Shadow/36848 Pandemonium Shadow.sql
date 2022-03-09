@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36848;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36848, 'ace36848-pandemoniumshadow', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36848, 'ace36848-pandemoniumshadow', 10, '2022-01-20 04:53:49') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36848,   1,         16) /* ItemType - Creature */
@@ -16,6 +16,8 @@ VALUES (36848,   1,         16) /* ItemType - Creature */
      , (36848,  40,          2) /* CombatMode - Melee */
      , (36848,  68,          3) /* TargetingTactic - Random, Focused */
      , (36848,  72,         19) /* FriendType - Virindi */
+     , (36848,  81,          1) /* MaxGeneratedObjects */
+     , (36848,  82,          0) /* InitGeneratedObjects */
      , (36848,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (36848, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (36848, 113,          2) /* Gender - Female */
@@ -53,6 +55,7 @@ VALUES (36848,   1,       5) /* HeartbeatInterval */
      , (36848,  34,     1.1) /* PowerupTime */
      , (36848,  36,       1) /* ChargeSpeed */
      , (36848,  39,     1.3) /* DefaultScale */
+     , (36848,  43,       2) /* GeneratorRadius */
      , (36848,  64,    0.87) /* ResistSlash */
      , (36848,  65,     0.5) /* ResistPierce */
      , (36848,  66,    0.65) /* ResistBludgeon */
@@ -165,6 +168,14 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Darkness penultimate thrust within the essence of the world, that is not a world, turns to the shadow that we have become, our time within the confines of your terror will not last and then we shall return to haunt your waking dreams.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x00000000, 0, 0, 0, 0, 0, 0, 0);
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (36848,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36848, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (36848, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
@@ -172,3 +183,6 @@ VALUES (36848, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for Co
      , (36848, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (36848, 9,  9292,  0, 0, 0.005, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
      , (36848, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36848, 1, 36846, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Champion Shadow (36846) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;

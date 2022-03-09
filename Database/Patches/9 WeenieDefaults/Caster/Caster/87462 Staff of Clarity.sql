@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87462;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87462, 'staffclaritynewenhanced', 35, '2021-11-17 16:56:08') /* Caster */;
+VALUES (87462, 'ace87462-staffofclarity', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87462,   1,      32768) /* ItemType - Caster */
@@ -25,7 +25,7 @@ VALUES (87462,   1,      32768) /* ItemType - Caster */
      , (87462, 158,          7) /* WieldRequirements - Level */
      , (87462, 159,          1) /* WieldSkillType - Axe */
      , (87462, 160,        120) /* WieldDifficulty */
-     , (87462, 263,          4) /* ResistanceModifierType */
+     , (87462, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (87462, 265,         10) /* EquipmentSetId - ArmMindHeart */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

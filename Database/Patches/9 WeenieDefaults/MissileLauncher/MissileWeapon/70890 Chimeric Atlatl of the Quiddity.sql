@@ -28,7 +28,7 @@ VALUES (70890,   1,        256) /* ItemType - MissileWeapon */
      , (70890, 158,          7) /* WieldRequirements - Level */
      , (70890, 159,         47) /* WieldSkillType - MissileWeapons */
      , (70890, 160,        120) /* WieldDifficulty */
-     , (70890, 263,          1) /* ResistanceModifierType */
+     , (70890, 263,          1) /* ResistanceModifierType - Slash */
      , (70890, 267,      10800) /* Lifespan */
      , (70890, 353,         10) /* WeaponType - Thrown */;
 

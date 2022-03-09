@@ -1,2 +1,2 @@
 Generation:
-	- LocalSignal: ColoCrittersKilledMinusOne
+    - LocalSignal: ColoCrittersKilledMinusOne

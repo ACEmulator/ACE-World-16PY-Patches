@@ -1,6 +1,6 @@
 Generation:
-	- Generate
-	
+    - Generate
+    
 Death: 
-	- StartEvent: VirindiPortalFourEvent
-	- StopEvent: VirindiPortalThreeEvent
+    - StartEvent: VirindiPortalFourEvent
+    - StopEvent: VirindiPortalThreeEvent

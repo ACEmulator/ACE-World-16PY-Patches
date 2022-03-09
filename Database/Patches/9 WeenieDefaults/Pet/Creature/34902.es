@@ -3,6 +3,6 @@ HeartBeat: Style: NonCombat, Substyle: Sleeping, Probability: 1
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 1
     - InqMyQuest: PetGolemCastSpellOnOwner
-		QuestFailure:
-			- PetCastSpellOnOwner: 4050
-			- StampMyQuest: PetGolemCastSpellOnOwner
+        QuestFailure:
+            - PetCastSpellOnOwner: 4050
+            - StampMyQuest: PetGolemCastSpellOnOwner

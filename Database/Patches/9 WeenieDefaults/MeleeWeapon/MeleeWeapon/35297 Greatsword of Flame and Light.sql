@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35297;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35297, 'ace35297-greatswordofflameandlight', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (35297, 'ace35297-greatswordofflameandlight', 6, '2022-02-20 02:53:49') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
@@ -21,6 +21,7 @@ VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
      , (35297,  51,          1) /* CombatUse - Melee */
      , (35297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35297, 106,        400) /* ItemSpellcraft */
+     , (35297, 107,       2000) /* ItemCurMana */
      , (35297, 108,       2000) /* ItemMaxMana */
      , (35297, 109,         10) /* ItemDifficulty */
      , (35297, 114,          1) /* Attuned - Attuned */

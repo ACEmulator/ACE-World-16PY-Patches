@@ -1,15 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80069;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80069, 'fallfestivaleventsstopgapgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (80069, 'ace80069-fallfestivaleventsstopgapgen', 1, '2022-01-08 18:29:57') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80069,  81,          1) /* MaxGeneratedObjects */
      , (80069,  82,          1) /* InitGeneratedObjects */
      , (80069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80069, 142,          1) /* GeneratorTimeType - RealTime */
-     , (80069, 143, 1633082460) /* GeneratorStartTime - 10/01/2021 14:01:00 */
-     , (80069, 144, 1635847140) /* GeneratorEndTime - 11/02/2021 13:59:00 */
+     , (80069, 143, 1664600460) /* GeneratorStartTime - 10/01/2022 05:01:00 */
+     , (80069, 144, 1667365140) /* GeneratorEndTime - 11/02/2022 04:59:00 */
      , (80069, 145,          3) /* GeneratorEndDestructionType - Kill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

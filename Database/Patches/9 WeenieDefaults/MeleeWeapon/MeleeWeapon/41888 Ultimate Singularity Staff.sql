@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41888;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41888, 'ace41888-ultimatesingularitystaff', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (41888, 'ace41888-ultimatesingularitystaff', 6, '2022-02-10 05:08:07') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41888,   1,          1) /* ItemType - MeleeWeapon */
@@ -47,7 +47,7 @@ VALUES (41888,   5,  -0.033) /* ManaRate */
      , (41888,  39,    0.67) /* DefaultScale */
      , (41888,  62,    1.15) /* WeaponOffense */
      , (41888, 136,     2.5) /* CriticalMultiplier */
-     , (41888, 138,       2) /* SlayerDamageBonus */
+     , (41888, 138,     1.8) /* SlayerDamageBonus */
      , (41888, 147,    0.25) /* CriticalFrequency */
      , (41888, 155,       1) /* IgnoreArmor */;
 

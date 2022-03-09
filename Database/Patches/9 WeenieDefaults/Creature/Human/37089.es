@@ -24,5 +24,4 @@ Give: Ley Leech's Medallion (37093)
     - InqQuestBitsOn: 50to11BrokerContractsB, 0x200
         QuestFailure:
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x200
-            - StampQuest: ContractQuestcounter_0511 
-    
+            - StampQuest: ContractQuestcounter_0511

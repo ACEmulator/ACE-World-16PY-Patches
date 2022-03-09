@@ -33,4 +33,4 @@ Use:
                     - AwardNoShareXP: 750,000
                     - Tell: Return to Mar'uun in its original location. You'll have to compensate for the variance in time again.
                     - AddCharacterTitle: 684
-                    - DirectBroadcast: You are truely an adventurer of space and time. You have been granted the title of Timeless Adventurer. 
+                    - DirectBroadcast: You are truely an adventurer of space and time. You have been granted the title of Timeless Adventurer.

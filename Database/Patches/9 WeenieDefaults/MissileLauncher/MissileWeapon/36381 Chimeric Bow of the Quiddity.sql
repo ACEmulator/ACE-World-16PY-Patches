@@ -29,7 +29,7 @@ VALUES (36381,   1,        256) /* ItemType - MissileWeapon */
      , (36381, 158,          7) /* WieldRequirements - Level */
      , (36381, 159,         47) /* WieldSkillType - MissileWeapons */
      , (36381, 160,        120) /* WieldDifficulty */
-     , (36381, 263,          1) /* ResistanceModifierType */
+     , (36381, 263,          1) /* ResistanceModifierType - Slash */
      , (36381, 267,      10800) /* Lifespan */
      , (36381, 353,          8) /* WeaponType - Bow */;
 

@@ -34,7 +34,7 @@ Refuse: 72025
     - AwardNoShareXP: 300,000,000
     - AwardLuminance: 15,000
     - Give: Trade Note (250,000) (20630), 8
-	- InqQuestBitsOn: LegendaryQuestsA, 0x8 
-		QuestFailure:
-			- SetQuestBitsOn: LegendaryQuestsA, 0x8 
-			- StampQuest: LegendaryQuestCounter_0913
+    - InqQuestBitsOn: LegendaryQuestsA, 0x8 
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x8 
+            - StampQuest: LegendaryQuestCounter_0913

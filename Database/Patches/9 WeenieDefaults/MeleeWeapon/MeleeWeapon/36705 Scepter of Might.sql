@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36705;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36705, 'ace36705-scepterofmightenhanced', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (36705, 'ace36705-scepterofmight', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36705,   1,          1) /* ItemType - MeleeWeapon */
@@ -27,7 +27,7 @@ VALUES (36705,   1,          1) /* ItemType - MeleeWeapon */
      , (36705, 158,          2) /* WieldRequirements - RawSkill */
      , (36705, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (36705, 160,        400) /* WieldDifficulty */
-     , (36705, 263,          4) /* ResistanceModifierType */
+     , (36705, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (36705, 265,         10) /* EquipmentSetId - ArmMindHeart */
      , (36705, 353,          4) /* WeaponType - Mace */;
 

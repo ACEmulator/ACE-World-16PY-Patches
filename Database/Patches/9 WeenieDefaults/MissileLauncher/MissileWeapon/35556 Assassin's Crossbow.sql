@@ -26,7 +26,7 @@ VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556, 108,      10000) /* ItemMaxMana */
      , (35556, 114,          0) /* Attuned - Normal */
      , (35556, 204,         16) /* ElementalDamageBonus */
-     , (35556, 263,          2) /* ResistanceModifierType */
+     , (35556, 263,          2) /* ResistanceModifierType - Pierce */
      , (35556, 267,      10800) /* Lifespan */
      , (35556, 353,          9) /* WeaponType - Crossbow */;
 

@@ -28,7 +28,7 @@ VALUES (70222,   1,          1) /* ItemType - MeleeWeapon */
      , (70222, 158,          2) /* WieldRequirements - RawSkill */
      , (70222, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (70222, 160,        325) /* WieldDifficulty */
-     , (70222, 263,          1) /* ResistanceModifierType */
+     , (70222, 263,          1) /* ResistanceModifierType - Slash */
      , (70222, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
