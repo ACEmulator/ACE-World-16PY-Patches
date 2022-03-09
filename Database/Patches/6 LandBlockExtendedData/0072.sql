@@ -17,7 +17,7 @@ VALUES (0x70072003, 15759, 0x00720100, 29.582, -25.4842, -65.945, 0.120995, 0, 0
 /* @teleloc 0x00720100 [29.582001 -25.484200 -65.945000] 0.120995 0.000000 0.000000 -0.992653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70072003, 0x70072004, '2021-10-13 10:16:09') /* Falatacot Soul Trap (87594) */;
+VALUES (0x70072003, 0x70072004, '2021-11-01 00:00:00') /* Falatacot Soul Trap (87594) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70072004, 87594, 0x00720100, 29.9849, -29.1337, -65.95, -0.00901, 0, 0, -0.999959,  True, '2021-11-01 00:00:00'); /* Falatacot Soul Trap */
@@ -28,11 +28,11 @@ VALUES (0x70072005,  7924, 0x00720129, 43.3681, -84.1518, -53.945, -0.676181, 0,
 /* @teleloc 0x00720129 [43.368099 -84.151802 -53.945000] -0.676181 0.000000 0.000000 -0.736735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70072005, 0x70072006, '2021-10-13 10:19:32') /* Twisted Shadow (31280) */
-     , (0x70072005, 0x70072007, '2021-10-13 10:19:46') /* Twisted Shadow (31280) */
-     , (0x70072005, 0x70072008, '2021-10-13 10:19:59') /* Twisted Shadow (31280) */
-     , (0x70072005, 0x70072009, '2021-10-13 10:20:12') /* Twisted Shadow (31280) */
-     , (0x70072005, 0x7007200A, '2021-10-13 10:20:43') /* Count Dardante (87595) */;
+VALUES (0x70072005, 0x70072006, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x70072005, 0x70072007, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x70072005, 0x70072008, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x70072005, 0x70072009, '2021-11-01 00:00:00') /* Twisted Shadow (31280) */
+     , (0x70072005, 0x7007200A, '2021-11-01 00:00:00') /* Count Dardante (87595) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70072006, 31280, 0x00720129, 36.394, -78.3534, -53.9935, -0.036498, 0, 0, -0.999334,  True, '2021-11-01 00:00:00'); /* Twisted Shadow */

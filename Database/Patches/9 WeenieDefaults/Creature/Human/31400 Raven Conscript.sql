@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31400;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31400, 'ace31400-ravenconscript', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31400, 'ace31400-ravenconscript', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31400,   1,         16) /* ItemType - Creature */
@@ -23,8 +23,7 @@ VALUES (31400,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31400,   1, True ) /* Stuck */
      , (31400,   6, True ) /* AiUsesMana */
-     , (31400,   7, True ) /* AiUseHumanMagicAnimations */
-     , (31400,  10, True ) /* AttackerAi */;
+     , (31400,   7, True ) /* AiUseHumanMagicAnimations */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31400,   1,       5) /* HeartbeatInterval */

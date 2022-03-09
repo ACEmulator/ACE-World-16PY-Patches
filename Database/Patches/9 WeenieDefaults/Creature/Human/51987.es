@@ -28,10 +28,13 @@ Use:
 Refuse: 52008
     - TurnToTarget
     - TakeItems: 52008
+    - EraseQuest: RTWStarted_1013
+    - StampQuest: RTWCompleted_1013
     - Tell: Impressive.  This could not have been easy to acquire.
     - AwardLevelProportionalXP: 50%, 0 - 718,000,000
     - AwardLuminance: 90,000
     - Give: Trade Note (250,000) (20630), 35
-    - EraseQuest: RTWStarted_1013
-    - StampQuest: RTWCompleted_1013
-
+    - InqQuestBitsOn: LegendaryQuestsA, 0x100
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x100
+            - StampQuest: LegendaryQuestCounter_0913

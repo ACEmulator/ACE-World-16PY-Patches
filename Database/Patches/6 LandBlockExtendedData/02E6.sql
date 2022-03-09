@@ -373,125 +373,125 @@ VALUES (0x702E605F,  5085, 0x02E601E6, 76.6892, -406.175, -11.995, 0.999528, 0, 
 /* @teleloc 0x02E601E6 [76.689201 -406.174988 -11.995000] 0.999528 0.000000 0.000000 0.030712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E605F, 0x702E6030, '2005-02-09 10:00:00') /* Mi Krau-Li's Jitte (7770) */
-     , (0x702E605F, 0x702E605C, '2005-02-09 10:00:00') /* Brodor's Epitaph (7778) */;
+VALUES (0x702E605F, 0x702E6030, '2021-11-01 00:00:00') /* Mi Krau-Li's Jitte (7770) */
+     , (0x702E605F, 0x702E605C, '2021-11-01 00:00:00') /* Brodor's Epitaph (7778) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6060,  7925, 0x02E602AE, 70.3769, -96.0681, 0.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02E602AE [70.376900 -96.068100 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E6060, 0x702E6045, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6047, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6049, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E604A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E604B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E604C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E604D, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E604E, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E604F, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6050, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6051, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6052, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6053, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6054, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6055, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E6059, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E605A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E605B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E605D, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6060, 0x702E605E, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
+VALUES (0x702E6060, 0x702E6045, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6047, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6049, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E604A, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E604B, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E604C, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E604D, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E604E, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E604F, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6050, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6051, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6052, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6053, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6054, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6055, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E6059, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E605A, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E605B, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E605D, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6060, 0x702E605E, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6061,  7925, 0x02E602AE, 69.6269, -96.0575, 0.005, 0.999578, 0, 0, -0.029032, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02E602AE [69.626900 -96.057503 0.005000] 0.999578 0.000000 0.000000 -0.029032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E6061, 0x702E6010, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6011, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6012, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6013, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6014, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6017, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6018, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6019, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6020, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6021, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6023, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6025, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6026, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6027, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6040, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6041, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6042, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6043, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6044, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6061, 0x702E6046, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
+VALUES (0x702E6061, 0x702E6010, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6011, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6012, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6013, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6014, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6017, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6018, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6019, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6020, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6021, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6023, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6025, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6026, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6027, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6040, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6041, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6042, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6043, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6044, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6061, 0x702E6046, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6062,  7925, 0x02E602AE, 71.0992, -96.1349, 0.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02E602AE [71.099197 -96.134903 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E6062, 0x702E6015, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6016, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E601A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E601B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E601C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E601D, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E601E, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E601F, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6022, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6024, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6033, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6036, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6037, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6038, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E6039, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E603A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E603B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E603C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E603D, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6062, 0x702E603E, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
+VALUES (0x702E6062, 0x702E6015, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6016, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E601A, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E601B, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E601C, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E601D, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E601E, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E601F, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6022, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6024, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6033, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6036, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6037, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6038, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E6039, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E603A, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E603B, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E603C, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E603D, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6062, 0x702E603E, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6063,  7925, 0x02E602AE, 68.9047, -95.9372, 0.005, 0.999578, 0, 0, -0.029032, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02E602AE [68.904701 -95.937202 0.005000] 0.999578 0.000000 0.000000 -0.029032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E6063, 0x702E6000, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
-     , (0x702E6063, 0x702E6001, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6002, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6003, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6004, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6005, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6006, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6007, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6008, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
-     , (0x702E6063, 0x702E600A, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E600B, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E600C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E600D, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E602C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E602D, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6063, 0x702E6031, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6063, 0x702E6032, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6063, 0x702E6034, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6063, 0x702E6035, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
-     , (0x702E6063, 0x702E603F, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
+VALUES (0x702E6063, 0x702E6000, '2021-11-01 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E6063, 0x702E6001, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6002, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6003, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6004, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6005, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6006, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6007, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6008, '2021-11-01 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E6063, 0x702E600A, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E600B, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E600C, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E600D, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E602C, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E602D, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6063, 0x702E6031, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6063, 0x702E6032, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6063, 0x702E6034, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6063, 0x702E6035, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702E6063, 0x702E603F, '2021-11-01 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6064,  7925, 0x02E602AE, 68.1557, -95.7767, 0.005, 0.999578, 0, 0, -0.029032, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02E602AE [68.155701 -95.776703 0.005000] 0.999578 0.000000 0.000000 -0.029032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E6064, 0x702E6009, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6064, 0x702E600F, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6064, 0x702E6028, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6064, 0x702E6029, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6064, 0x702E602A, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6064, 0x702E602B, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
-     , (0x702E6064, 0x702E602F, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */;
+VALUES (0x702E6064, 0x702E6009, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6064, 0x702E600F, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6064, 0x702E6028, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6064, 0x702E6029, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6064, 0x702E602A, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6064, 0x702E602B, '2021-11-01 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702E6064, 0x702E602F, '2021-11-01 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6065, 43838, 0x02E60124, 127.73, -288.915, -24, -0.924445, 0, 0, 0.381316, False, '2021-11-01 00:00:00'); /* Enchanted Mnemosyne */

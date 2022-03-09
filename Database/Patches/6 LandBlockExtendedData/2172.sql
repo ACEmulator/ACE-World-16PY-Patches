@@ -145,8 +145,8 @@ VALUES (0x72172033,  7924, 0x2172001D, 73.3125, 118.708, 169.9, -0.821266, 0, 0,
 /* @teleloc 0x2172001D [73.312500 118.708000 169.899994] -0.821266 0.000000 0.000000 0.570546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72172033, 0x72172034, '2019-03-23 02:20:17') /* Bright Aetherium Ore Stockpile (70702) */
-     , (0x72172033, 0x72172035, '2019-03-23 02:20:17') /* Invading Iron Blade Commander (41552) */;
+VALUES (0x72172033, 0x72172034, '2021-11-01 00:00:00') /* Bright Aetherium Ore Stockpile (70702) */
+     , (0x72172033, 0x72172035, '2021-11-01 00:00:00') /* Invading Iron Blade Commander (41552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72172034, 70702, 0x21720139, 65.746, 176.41, 126.405, -0.567985, 0, 0, -0.823039,  True, '2021-11-01 00:00:00'); /* Bright Aetherium Ore Stockpile */
@@ -209,9 +209,9 @@ VALUES (0x72172042, 15759, 0x21720105, 65.8829, 162.478, 114.405, 0.741666, 0, 0
 /* @teleloc 0x21720105 [65.882896 162.477997 114.404999] 0.741666 0.000000 0.000000 -0.670770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72172042, 0x72172043, '2019-03-23 02:20:17') /* Storage Box (42111) */
-     , (0x72172042, 0x72172044, '2019-03-23 02:20:17') /* Storage Box (42111) */
-     , (0x72172042, 0x72172045, '2019-03-23 02:20:17') /* Storage Box (42111) */;
+VALUES (0x72172042, 0x72172043, '2021-11-01 00:00:00') /* Storage Box (42111) */
+     , (0x72172042, 0x72172044, '2021-11-01 00:00:00') /* Storage Box (42111) */
+     , (0x72172042, 0x72172045, '2021-11-01 00:00:00') /* Storage Box (42111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72172043, 42111, 0x21720124, 174.218, 115.222, 114.405, -0.989503, 0, 0, -0.14451,  True, '2021-11-01 00:00:00'); /* Storage Box */

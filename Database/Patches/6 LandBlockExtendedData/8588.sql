@@ -93,8 +93,8 @@ VALUES (0x78588016,  7923, 0x8588010F, 38.7293, 138.337, 85.205, 0.571701, 0, 0,
 /* @teleloc 0x8588010F [38.729301 138.337006 85.205002] 0.571701 0.000000 0.000000 -0.820462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78588016, 0x78588015, '2005-02-09 10:00:00') /* Janda Sulifiya (8403) */
-     , (0x78588016, 0x7858801C, '2005-02-09 10:00:00') /* Janda's Apprentice (12204) */;
+VALUES (0x78588016, 0x78588015, '2021-11-01 00:00:00') /* Janda Sulifiya (8403) */
+     , (0x78588016, 0x7858801C, '2021-11-01 00:00:00') /* Janda's Apprentice (12204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78588019,   412, 0x85880122, 13.5526, 108.074, 86, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -109,7 +109,7 @@ VALUES (0x7858801B,  7923, 0x85880124, 6.15709, 100.582, 86.005, 0.625709, 0, 0,
 /* @teleloc 0x85880124 [6.157090 100.582001 86.004997] 0.625709 0.000000 0.000000 0.780057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7858801B, 0x7858801A, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
+VALUES (0x7858801B, 0x7858801A, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7858801C, 12204, 0x8588010F, 39.8493, 136.848, 85.205, -0.918807, 0, 0, 0.394707,  True, '2021-11-01 00:00:00'); /* Janda's Apprentice */
@@ -156,7 +156,7 @@ VALUES (0x7858802F, 15759, 0x85880000, 14.9554, 79.5891, 86.005, 0.87065, 0, 0, 
 /* @teleloc 0x85880000 [14.955400 79.589104 86.004997] 0.870650 0.000000 0.000000 0.491904 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7858802F, 0x78588030, '2005-02-09 10:00:00') /* A note (23880) */;
+VALUES (0x7858802F, 0x78588030, '2021-11-01 00:00:00') /* A note (23880) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78588030, 23880, 0x85880000, 14.1739, 80.2421, 86.079, 0.649192, 0, 0, 0.760625,  True, '2021-11-01 00:00:00'); /* A note */

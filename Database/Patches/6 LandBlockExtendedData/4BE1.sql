@@ -69,38 +69,38 @@ VALUES (0x74BE1010,  1154, 0x4BE10104, 20.2217, 16.2225, 66.005, -0.257567, 0, 0
 /* @teleloc 0x4BE10104 [20.221701 16.222500 66.004997] -0.257567 0.000000 0.000000 -0.966260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BE1010, 0x74BE1011, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
-     , (0x74BE1010, 0x74BE1012, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
-     , (0x74BE1010, 0x74BE1013, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
-     , (0x74BE1010, 0x74BE1014, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46533) */
-     , (0x74BE1010, 0x74BE1015, '2019-02-10 00:00:00') /* Spectral Blade Master (46509) */
-     , (0x74BE1010, 0x74BE1016, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
-     , (0x74BE1010, 0x74BE101B, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
-     , (0x74BE1010, 0x74BE101C, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
-     , (0x74BE1010, 0x74BE101F, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
-     , (0x74BE1010, 0x74BE1020, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
-     , (0x74BE1010, 0x74BE1021, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
-     , (0x74BE1010, 0x74BE1042, '2019-02-10 00:00:00') /* Sarcophagus (52295) */
-     , (0x74BE1010, 0x74BE1058, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
-     , (0x74BE1010, 0x74BE106A, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
-     , (0x74BE1010, 0x74BE106B, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
-     , (0x74BE1010, 0x74BE106E, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
-     , (0x74BE1010, 0x74BE1070, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
-     , (0x74BE1010, 0x74BE1086, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
-     , (0x74BE1010, 0x74BE1087, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
-     , (0x74BE1010, 0x74BE1089, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
-     , (0x74BE1010, 0x74BE108B, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
-     , (0x74BE1010, 0x74BE109D, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
-     , (0x74BE1010, 0x74BE10B0, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
-     , (0x74BE1010, 0x74BE10BA, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
-     , (0x74BE1010, 0x74BE10C8, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
-     , (0x74BE1010, 0x74BE10EE, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
-     , (0x74BE1010, 0x74BE10F7, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
-     , (0x74BE1010, 0x74BE1125, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
-     , (0x74BE1010, 0x74BE1126, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
-     , (0x74BE1010, 0x74BE112C, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
-     , (0x74BE1010, 0x74BE112D, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
-     , (0x74BE1010, 0x74BE11A7, '2019-02-10 00:00:00') /* Spectral Archer (46501) */;
+VALUES (0x74BE1010, 0x74BE1011, '2021-11-01 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74BE1010, 0x74BE1012, '2021-11-01 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74BE1010, 0x74BE1013, '2021-11-01 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74BE1010, 0x74BE1014, '2021-11-01 00:00:00') /* Spectral Nanjou Shou-jen (46533) */
+     , (0x74BE1010, 0x74BE1015, '2021-11-01 00:00:00') /* Spectral Blade Master (46509) */
+     , (0x74BE1010, 0x74BE1016, '2021-11-01 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74BE1010, 0x74BE101B, '2021-11-01 00:00:00') /* Spectral Minion (46529) */
+     , (0x74BE1010, 0x74BE101C, '2021-11-01 00:00:00') /* Spectral Minion (46525) */
+     , (0x74BE1010, 0x74BE101F, '2021-11-01 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74BE1010, 0x74BE1020, '2021-11-01 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74BE1010, 0x74BE1021, '2021-11-01 00:00:00') /* Spectral Archer (46499) */
+     , (0x74BE1010, 0x74BE1042, '2021-11-01 00:00:00') /* Sarcophagus (52295) */
+     , (0x74BE1010, 0x74BE1058, '2021-11-01 00:00:00') /* Spectral Archer (46499) */
+     , (0x74BE1010, 0x74BE106A, '2021-11-01 00:00:00') /* Spectral Archer (46500) */
+     , (0x74BE1010, 0x74BE106B, '2021-11-01 00:00:00') /* Spectral Archer (46498) */
+     , (0x74BE1010, 0x74BE106E, '2021-11-01 00:00:00') /* Spectral Archer (46503) */
+     , (0x74BE1010, 0x74BE1070, '2021-11-01 00:00:00') /* Spectral Archer (46502) */
+     , (0x74BE1010, 0x74BE1086, '2021-11-01 00:00:00') /* Spectral Archer (46503) */
+     , (0x74BE1010, 0x74BE1087, '2021-11-01 00:00:00') /* Spectral Archer (46505) */
+     , (0x74BE1010, 0x74BE1089, '2021-11-01 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74BE1010, 0x74BE108B, '2021-11-01 00:00:00') /* Spectral Archer (46505) */
+     , (0x74BE1010, 0x74BE109D, '2021-11-01 00:00:00') /* Spectral Archer (46501) */
+     , (0x74BE1010, 0x74BE10B0, '2021-11-01 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74BE1010, 0x74BE10BA, '2021-11-01 00:00:00') /* Spectral Archer (46499) */
+     , (0x74BE1010, 0x74BE10C8, '2021-11-01 00:00:00') /* Spectral Archer (46503) */
+     , (0x74BE1010, 0x74BE10EE, '2021-11-01 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74BE1010, 0x74BE10F7, '2021-11-01 00:00:00') /* Spectral Archer (46501) */
+     , (0x74BE1010, 0x74BE1125, '2021-11-01 00:00:00') /* Spectral Archer (46503) */
+     , (0x74BE1010, 0x74BE1126, '2021-11-01 00:00:00') /* Spectral Archer (46501) */
+     , (0x74BE1010, 0x74BE112C, '2021-11-01 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74BE1010, 0x74BE112D, '2021-11-01 00:00:00') /* Spectral Archer (46499) */
+     , (0x74BE1010, 0x74BE11A7, '2021-11-01 00:00:00') /* Spectral Archer (46501) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE1011, 46511, 0x4BE10104, 20.2217, 16.2225, 66.005, -0.257567, 0, 0, -0.96626,  True, '2021-11-01 00:00:00'); /* Spectral Bloodmage */

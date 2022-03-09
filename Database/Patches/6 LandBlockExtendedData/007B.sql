@@ -45,8 +45,8 @@ VALUES (0x7007B00A, 28282, 0x007B0132, 75.4889, -101.324, 0.055, 0.72511, 0, 0, 
 /* @teleloc 0x007B0132 [75.488899 -101.323997 0.055000] 0.725110 0.000000 0.000000 0.688633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7007B00A, 0x7007B00B, '2021-10-21 08:41:29') /* Oak Target Drudge (6077) */
-     , (0x7007B00A, 0x7007B00C, '2021-10-21 08:41:43') /* Oak Target Drudge (6077) */;
+VALUES (0x7007B00A, 0x7007B00B, '2021-11-01 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x7007B00A, 0x7007B00C, '2021-11-01 00:00:00') /* Oak Target Drudge (6077) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007B00B,  6077, 0x007B013C, 89.2288, -103.862, 0.003325, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Oak Target Drudge */
@@ -61,40 +61,40 @@ VALUES (0x7007B00D,  7924, 0x007B0111, 26.2236, -185.62, 0.055, 0.999999, 0, 0, 
 /* @teleloc 0x007B0111 [26.223600 -185.619995 0.055000] 0.999999 0.000000 0.000000 -0.001430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7007B00D, 0x7007B00E, '2021-10-21 10:39:07') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B00F, '2021-10-21 10:39:25') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B010, '2021-10-21 10:39:36') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B011, '2021-10-21 10:39:43') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B012, '2021-10-21 10:40:13') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B013, '2021-10-21 10:40:20') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B014, '2021-10-21 10:40:26') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B015, '2021-10-21 10:40:37') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B016, '2021-10-21 10:40:49') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B017, '2021-10-21 10:41:41') /* Master of Storms (87648) */
-     , (0x7007B00D, 0x7007B018, '2021-10-21 10:44:12') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B019, '2021-10-21 10:44:22') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B01A, '2021-10-21 10:44:36') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B01B, '2021-10-21 10:44:43') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B01C, '2021-10-21 10:44:48') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B01D, '2021-10-21 10:45:02') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B01E, '2021-10-21 10:45:13') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B01F, '2021-10-21 10:45:16') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B020, '2021-10-21 10:45:25') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B021, '2021-10-21 10:45:35') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B022, '2021-10-21 10:46:06') /* Master of Wind (87649) */
-     , (0x7007B00D, 0x7007B023, '2021-10-21 10:47:19') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B024, '2021-10-21 10:47:28') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B025, '2021-10-21 10:47:37') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B026, '2021-10-21 10:47:42') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B027, '2021-10-21 10:47:46') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B028, '2021-10-21 10:47:56') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B029, '2021-10-21 10:48:06') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B02A, '2021-10-21 10:48:14') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B02B, '2021-10-21 10:48:18') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B02C, '2021-10-21 10:48:25') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B02D, '2021-10-21 10:48:35') /* Acolyte of Storms (34296) */
-     , (0x7007B00D, 0x7007B02E, '2021-10-21 10:48:55') /* Master of Breath (87651) */
-     , (0x7007B00D, 0x7007B034, '2021-10-21 11:19:08') /* Enlightened Master (87653) */;
+VALUES (0x7007B00D, 0x7007B00E, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B00F, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B010, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B011, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B012, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B013, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B014, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B015, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B016, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B017, '2021-11-01 00:00:00') /* Master of Storms (87648) */
+     , (0x7007B00D, 0x7007B018, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B019, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B01A, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B01B, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B01C, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B01D, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B01E, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B01F, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B020, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B021, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B022, '2021-11-01 00:00:00') /* Master of Wind (87649) */
+     , (0x7007B00D, 0x7007B023, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B024, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B025, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B026, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B027, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B028, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B029, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B02A, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B02B, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B02C, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B02D, '2021-11-01 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7007B00D, 0x7007B02E, '2021-11-01 00:00:00') /* Master of Breath (87651) */
+     , (0x7007B00D, 0x7007B034, '2021-11-01 00:00:00') /* Enlightened Master (87653) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007B00E, 34296, 0x007B012C, 58.2225, -139.95, 0.005, -0.665184, 0, 0, -0.74668,  True, '2021-11-01 00:00:00'); /* Acolyte of Storms */

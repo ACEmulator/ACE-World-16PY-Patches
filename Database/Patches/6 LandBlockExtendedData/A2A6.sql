@@ -5,12 +5,12 @@ VALUES (0x7A2A63E8, 15274, 0xA2A60016, 62.1689, 133.394, 77.8323, 0.180234, 0, 0
 /* @teleloc 0xA2A60016 [62.168900 133.393997 77.832298] 0.180234 0.000000 0.000000 0.983624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A63E8, 0x7A2A63E9, '2019-11-21 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A2A63E8, 0x7A2A63EA, '2019-11-21 00:00:00') /* Famished Eater (32315) */
-     , (0x7A2A63E8, 0x7A2A63EB, '2019-11-21 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A2A63E8, 0x7A2A63EC, '2019-11-21 00:00:00') /* Famished Eater (32315) */
-     , (0x7A2A63E8, 0x7A2A63ED, '2019-11-21 00:00:00') /* Famished Eater (32315) */
-     , (0x7A2A63E8, 0x7A2A63EE, '2019-11-21 00:00:00') /* Famished Eater (32315) */;
+VALUES (0x7A2A63E8, 0x7A2A63E9, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A2A63E8, 0x7A2A63EA, '2021-11-01 00:00:00') /* Famished Eater (32315) */
+     , (0x7A2A63E8, 0x7A2A63EB, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A2A63E8, 0x7A2A63EC, '2021-11-01 00:00:00') /* Famished Eater (32315) */
+     , (0x7A2A63E8, 0x7A2A63ED, '2021-11-01 00:00:00') /* Famished Eater (32315) */
+     , (0x7A2A63E8, 0x7A2A63EE, '2021-11-01 00:00:00') /* Famished Eater (32315) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A63E9, 32329, 0xA2A60010, 46.1037, 191.235, 72.1338, -0.36516, 0, 0, -0.930945,  True, '2021-11-01 00:00:00'); /* Viamontian Mercenary */

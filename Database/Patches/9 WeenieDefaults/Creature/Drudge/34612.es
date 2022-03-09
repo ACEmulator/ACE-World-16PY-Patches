@@ -1,6 +1,6 @@
 Death:
-	- LocalSignal: ColoCritterKilled
-	- Say: Not Again!
-	
+    - LocalSignal: ColoCritterKilled
+    - Say: Not Again!
+    
 Generation:
-	- Say: Time for a little payback!
+    - Say: Time for a little payback!

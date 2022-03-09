@@ -61,29 +61,29 @@ VALUES (0x700DE02E,  7924, 0x00DE0200, 132.694, -97.986, 6.0066, 0, 0, 0, -1, Fa
 /* @teleloc 0x00DE0200 [132.694000 -97.986000 6.006600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DE02E, 0x700DE02F, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE030, '2020-09-12 00:00:00') /* Muck Glutton (27857) */
-     , (0x700DE02E, 0x700DE031, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE032, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE033, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE034, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE035, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE036, '2020-09-12 00:00:00') /* Muck Glutton (27857) */
-     , (0x700DE02E, 0x700DE037, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE038, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE039, '2020-09-12 00:00:00') /* Muck Glutton (27857) */
-     , (0x700DE02E, 0x700DE03A, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE03B, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE03C, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE03D, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE03E, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
-     , (0x700DE02E, 0x700DE03F, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE040, '2020-09-12 00:00:00') /* Muck Glutton (27857) */
-     , (0x700DE02E, 0x700DE041, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE042, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE043, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE044, '2020-09-12 00:00:00') /* Disgusting Moarsman (27853) */
-     , (0x700DE02E, 0x700DE045, '2020-09-12 00:00:00') /* Blind Keeper (38349) */;
+VALUES (0x700DE02E, 0x700DE02F, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE030, '2021-11-01 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE031, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE032, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE033, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE034, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE035, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE036, '2021-11-01 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE037, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE038, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE039, '2021-11-01 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE03A, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE03B, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE03C, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE03D, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE03E, '2021-11-01 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE03F, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE040, '2021-11-01 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE041, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE042, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE043, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE044, '2021-11-01 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE045, '2021-11-01 00:00:00') /* Blind Keeper (38349) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DE02F,  4248, 0x00DE0200, 132.694, -97.986, 6.0066, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Putrid Moarsman */
@@ -182,9 +182,9 @@ VALUES (0x700DE049, 15759, 0x00DE0115, 129.741, -99.8594, -34.9718, 1, 0, 0, 0, 
 /* @teleloc 0x00DE0115 [129.740997 -99.859398 -34.971802] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DE049, 0x700DE04A, '2020-09-12 00:00:00') /* Blood of T'thuun (38328) */
-     , (0x700DE049, 0x700DE04B, '2020-09-12 00:00:00') /* Dagger of T'thuun (38329) */
-     , (0x700DE049, 0x700DE04C, '2020-09-12 00:00:00') /* Amulet of T'thuun (38327) */;
+VALUES (0x700DE049, 0x700DE04A, '2021-11-01 00:00:00') /* Blood of T'thuun (38328) */
+     , (0x700DE049, 0x700DE04B, '2021-11-01 00:00:00') /* Dagger of T'thuun (38329) */
+     , (0x700DE049, 0x700DE04C, '2021-11-01 00:00:00') /* Amulet of T'thuun (38327) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DE04A, 38328, 0x00DE0115, 129.741, -99.8594, -34.9718, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Blood of T'thuun */

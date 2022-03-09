@@ -9,7 +9,7 @@ VALUES (0x70015008,  2179, 0x0015010B, 14.6357, -29.9725, -24, 0.707107, 0, 0, -
 /* @teleloc 0x0015010B [14.635700 -29.972500 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015008, 0x70015002, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x70015008, 0x70015002, '2021-11-08 06:01:47') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001500C,   278, 0x00150119, 20, -45.25, -24, 1, 0, 0, 0, False, '2021-11-08 06:01:47'); /* Door */
@@ -56,14 +56,14 @@ VALUES (0x7001501F,  2179, 0x00150145, 14.75, -40, -12, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x00150145 [14.750000 -40.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001501F, 0x70015028, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x7001501F, 0x70015028, '2021-11-08 06:01:47') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015024,  2179, 0x00150165, 25.25, -50, -12, -0.707107, 0, 0, -0.707107, False, '2021-11-08 06:01:47'); /* Door */
 /* @teleloc 0x00150165 [25.250000 -50.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015024, 0x70015017, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x70015024, 0x70015017, '2021-11-08 06:01:47') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015027,   278, 0x0015016D, 35.245, -30, -12, -0.707107, 0, 0, -0.707107, False, '2021-11-08 06:01:47'); /* Door */
@@ -110,39 +110,39 @@ VALUES (0x70015037,  7924, 0x001501D4, 39.0199, -45.8829, 12.0045, 0.406537, 0, 
 /* @teleloc 0x001501D4 [39.019901 -45.882900 12.004500] 0.406537 0.000000 0.000000 -0.913634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015037, 0x70015038, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015039, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001503A, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001503B, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001503C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001503D, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001503E, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001503F, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
-     , (0x70015037, 0x70015040, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
-     , (0x70015037, 0x70015041, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015042, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015043, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015044, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
-     , (0x70015037, 0x70015045, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015046, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015047, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015048, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015049, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001504A, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
-     , (0x70015037, 0x7001504B, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
-     , (0x70015037, 0x7001504C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001504D, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001504E, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x7001504F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x70015037, 0x70015050, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015051, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x70015037, 0x70015052, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x70015037, 0x70015053, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015054, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
-     , (0x70015037, 0x70015055, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x70015037, 0x70015056, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30681) */
-     , (0x70015037, 0x70015057, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x70015037, 0x70015058, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */;
+VALUES (0x70015037, 0x70015038, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015039, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503A, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503B, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503C, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503D, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503E, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503F, '2021-11-08 06:01:47') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x70015040, '2021-11-08 06:01:47') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x70015041, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015042, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015043, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015044, '2021-11-08 06:01:47') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x70015045, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015046, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015047, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015048, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015049, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504A, '2021-11-08 06:01:47') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x7001504B, '2021-11-08 06:01:47') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x7001504C, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504D, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504E, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504F, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015050, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015051, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015052, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015053, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015054, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015055, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015056, '2021-11-08 06:01:47') /* Withered Drudge Seraph (30681) */
+     , (0x70015037, 0x70015057, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015058, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015038, 30680, 0x001501D4, 39.0199, -45.8829, 12.0045, 0.406537, 0, 0, -0.913634,  True, '2021-11-08 06:01:47'); /* Withered Drudge Seraph */

@@ -225,11 +225,11 @@ VALUES (0x7A9B4039,  7923, 0xA9B40172, 163.283, 7.1682, 94.005, -0.185739, 0, 0,
 /* @teleloc 0xA9B40172 [163.283005 7.168200 94.004997] -0.185739 0.000000 0.000000 0.982599 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B4039, 0x7A9B4061, '2005-02-09 10:00:00') /* Alchemy Forge (30465) */
-     , (0x7A9B4039, 0x7A9B4062, '2005-02-09 10:00:00') /* Fletching Forge (30467) */
-     , (0x7A9B4039, 0x7A9B4063, '2005-02-09 10:00:00') /* Cooking Forge (30466) */
-     , (0x7A9B4039, 0x7A9B4064, '2005-02-09 10:00:00') /* Lockpick Forge (30460) */
-     , (0x7A9B4039, 0x7A9B4065, '2005-02-09 10:00:00') /* Salvaging Forge (30461) */;
+VALUES (0x7A9B4039, 0x7A9B4061, '2021-11-01 00:00:00') /* Alchemy Forge (30465) */
+     , (0x7A9B4039, 0x7A9B4062, '2021-11-01 00:00:00') /* Fletching Forge (30467) */
+     , (0x7A9B4039, 0x7A9B4063, '2021-11-01 00:00:00') /* Cooking Forge (30466) */
+     , (0x7A9B4039, 0x7A9B4064, '2021-11-01 00:00:00') /* Lockpick Forge (30460) */
+     , (0x7A9B4039, 0x7A9B4065, '2021-11-01 00:00:00') /* Salvaging Forge (30461) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B403A,   412, 0xA9B40170, 155.429, 15.8632, 94, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -288,11 +288,11 @@ VALUES (0x7A9B4052,  7923, 0xA9B40000, 91.8298, 23.3139, 94.005, -0.361835, 0, 0
 /* @teleloc 0xA9B40000 [91.829803 23.313900 94.004997] -0.361835 0.000000 0.000000 -0.932242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B4052, 0x7A9B4032, '2005-02-09 10:00:00') /* Flinrala Ryndmad (5033) */
-     , (0x7A9B4052, 0x7A9B4038, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x7A9B4052, 0x7A9B4053, '2005-02-09 10:00:00') /* Apprentice Alchemist (27740) */
-     , (0x7A9B4052, 0x7A9B405C, '2005-02-09 10:00:00') /* Worcer (5035) */
-     , (0x7A9B4052, 0x7A9B405E, '2005-02-09 10:00:00') /* Alfrin (30479) */;
+VALUES (0x7A9B4052, 0x7A9B4032, '2021-11-01 00:00:00') /* Flinrala Ryndmad (5033) */
+     , (0x7A9B4052, 0x7A9B4038, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7A9B4052, 0x7A9B4053, '2021-11-01 00:00:00') /* Apprentice Alchemist (27740) */
+     , (0x7A9B4052, 0x7A9B405C, '2021-11-01 00:00:00') /* Worcer (5035) */
+     , (0x7A9B4052, 0x7A9B405E, '2021-11-01 00:00:00') /* Alfrin (30479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B4053, 27740, 0xA9B4014D, 139.637, 8.1292, 97.005, -0.850506, 0, 0, -0.525965,  True, '2021-11-01 00:00:00'); /* Apprentice Alchemist */
@@ -339,12 +339,12 @@ VALUES (0x7A9B406C,  7924, 0xA9B40000, 102.483, 19.116, 94.005, -0.549961, 0, 0,
 /* @teleloc 0xA9B40000 [102.483002 19.115999 94.004997] -0.549961 0.000000 0.000000 -0.835190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B406C, 0x7A9B406B, '2005-02-09 10:00:00') /* Tirenia (30696) */
-     , (0x7A9B406C, 0x7A9B4073, '2019-02-19 06:17:23') /* Alcott (44895) */
-     , (0x7A9B406C, 0x7A9B4074, '2019-02-19 06:17:23') /* Pathwarden Thorolf (33596) */
-     , (0x7A9B406C, 0x7A9B4075, '2019-02-19 06:17:23') /* Buckminster (44891) */
-     , (0x7A9B406C, 0x7A9B4081, '2019-02-10 00:00:00') /* Ealdred (42720) */
-     , (0x7A9B406C, 0x7DA55095, '2019-02-10 00:00:00');
+VALUES (0x7A9B406C, 0x7A9B406B, '2021-11-01 00:00:00') /* Tirenia (30696) */
+     , (0x7A9B406C, 0x7A9B4073, '2021-11-01 00:00:00') /* Alcott (44895) */
+     , (0x7A9B406C, 0x7A9B4074, '2021-11-01 00:00:00') /* Pathwarden Thorolf (33596) */
+     , (0x7A9B406C, 0x7A9B4075, '2021-11-01 00:00:00') /* Buckminster (44891) */
+     , (0x7A9B406C, 0x7A9B4081, '2021-11-01 00:00:00') /* Ealdred (42720) */
+     , (0x7A9B406C, 0x7DA55095, '2021-11-01 00:00:00');
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B406D, 33970, 0xA9B4001E, 72.993, 138.441, 66.005, -0.999961, 0, 0, -0.008833, False, '2021-11-01 00:00:00'); /* Dwennon */
@@ -399,7 +399,7 @@ VALUES (0x7A9B46A5,  1154, 0xA9B40022, 112.238, 46.3802, 94, -0.999987, 0, 0, 0.
 /* @teleloc 0xA9B40022 [112.237999 46.380199 94.000000] -0.999987 0.000000 0.000000 0.005026 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B46A5, 0x7A9B46A6, '2020-01-30 00:00:00') /* Exploration Marker (39748) */;
+VALUES (0x7A9B46A5, 0x7A9B46A6, '2021-11-01 00:00:00') /* Exploration Marker (39748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B46A6, 39748, 0xA9B40022, 112.238, 46.3802, 94, -0.999987, 0, 0, 0.005026,  True, '2021-11-01 00:00:00'); /* Exploration Marker */
@@ -410,7 +410,7 @@ VALUES (0x7A9B46A7,  1154, 0xA9B40022, 114.644, 46.356, 94.005, 0.192584, 0, 0, 
 /* @teleloc 0xA9B40022 [114.643997 46.355999 94.004997] 0.192584 0.000000 0.000000 -0.981281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B46A7, 0x7A9B46A8, '2020-01-30 00:00:00') /* Sean the Speedy (39746) */;
+VALUES (0x7A9B46A7, 0x7A9B46A8, '2021-11-01 00:00:00') /* Sean the Speedy (39746) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B46A8, 39746, 0xA9B40022, 114.644, 46.356, 94.005, 0.192584, 0, 0, -0.981281,  True, '2021-11-01 00:00:00'); /* Sean the Speedy */

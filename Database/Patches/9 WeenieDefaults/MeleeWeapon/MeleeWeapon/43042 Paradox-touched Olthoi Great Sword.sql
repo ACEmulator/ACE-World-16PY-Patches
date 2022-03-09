@@ -28,7 +28,7 @@ VALUES (43042,   1,          1) /* ItemType - MeleeWeapon */
      , (43042, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (43042, 160,        400) /* WieldDifficulty */
      , (43042, 166,          1) /* SlayerCreatureType - Olthoi */
-     , (43042, 263,          1) /* ResistanceModifierType */
+     , (43042, 263,          1) /* ResistanceModifierType - Slash */
      , (43042, 292,          2) /* Cleaving */
      , (43042, 353,         11) /* WeaponType - TwoHanded */;
 

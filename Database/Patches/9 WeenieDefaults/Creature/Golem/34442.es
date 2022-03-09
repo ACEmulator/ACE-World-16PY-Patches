@@ -1,21 +1,21 @@
 Give: Trade Note (250,000) (20630)
-	- InqQuest: ColoTicketPayment
-	QuestSuccess:
-		- EraseQuest: ColoTicketPayment
-		- Goto: give_ticket
-	QuestFailure:
-		- Tell: Thank you. I'll need more of these before I can sell you a ticket.
-		- StampQuest: ColoTicketPayment
+    - InqQuest: ColoTicketPayment
+    QuestSuccess:
+        - EraseQuest: ColoTicketPayment
+        - Goto: give_ticket
+    QuestFailure:
+        - Tell: Thank you. I'll need more of these before I can sell you a ticket.
+        - StampQuest: ColoTicketPayment
 
 Give: Alchemist's Crystal (30183)
     - Goto: give_ticket
 
 Give: Scholar's Crystal (30184)
-	- Goto: give_ticket
+    - Goto: give_ticket
 
 Give: Smithy's Crystal (30186)
-	- Goto: give_ticket
-	
+    - Goto: give_ticket
+    
 Give: Hunter's Crystal (30187)
     - Goto: give_ticket
 
@@ -209,9 +209,9 @@ Give: Pearl of Swift Killing (30241)
     - Goto: give_ticket
 
 Use:
-	- Tell: I sell tickets to the Colosseum. I will accept as payment five of trade notes that are worth 250,000 pyreal apiece. Rare gems are also an acceptable payment.
+    - Tell: I sell tickets to the Colosseum. I will accept as payment five of trade notes that are worth 250,000 pyreal apiece. Rare gems are also an acceptable payment.
 
 GotoSet: give_ticket
-	- Tell: Thank you. We use these to reward our Champions and to buy food to feed the many animals we have housed here.
-	- Give: Colosseum Ticket (34449)
-	- Tell: Here, take your ticket and give it to the Arbitrator who will grant you access to the Colosseum's Arenas.
+    - Tell: Thank you. We use these to reward our Champions and to buy food to feed the many animals we have housed here.
+    - Give: Colosseum Ticket (34449)
+    - Tell: Here, take your ticket and give it to the Arbitrator who will grant you access to the Colosseum's Arenas.

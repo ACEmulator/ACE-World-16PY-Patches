@@ -639,7 +639,7 @@ Give: Telumiat Hollow Minion Essence (24842)
 
 Give: Essence of a Phantasm (24853)
     - TurnToTarget
-    - Tell: Where this comes from and how it gets left behind after the defeat of the phantasm remains a mystery. So too, the process for creating this potion. But deep in Xarabydun the potion can be created, and has been.	I'd be wary of using such a potion too often.
+    - Tell: Where this comes from and how it gets left behind after the defeat of the phantasm remains a mystery. So too, the process for creating this potion. But deep in Xarabydun the potion can be created, and has been.    I'd be wary of using such a potion too often.
     - Give: Potion of Destiny's Wind (25543)
 
 Give: Penguin Beak (28739)

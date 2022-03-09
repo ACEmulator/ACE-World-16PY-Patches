@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44163;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44163, 'ace44163-contractfortheshadowsofbitterwinter', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (44163, 'ace44163-contractfortheshadowsofbitterwinter', 38, '2021-12-14 05:15:31') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44163,   1,       2048) /* ItemType - Gem */
@@ -16,7 +16,7 @@ VALUES (44163,   1,       2048) /* ItemType - Gem */
      , (44163,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44163,  94,         16) /* TargetType - Creature */
      , (44163, 280,        100) /* SharedCooldown */
-     , (44163, 349,          1) /* UseCreatesContractId - Contract_1_The_Shadows_of_Bitter_Winter */;
+     , (44163, 349,         27) /* UseCreatesContractId - Contract_27_The_Shadows_of_Bitter_Winter */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44163,  22, True ) /* Inscribable */

@@ -79,6 +79,6 @@ VALUES (42803, 2,  2598,  0, 17, 0.9818, False) /* Create Pants (2598) for Wield
      , (42803, 4, 45027, -1, 0, 0, False) /* Create Contract for Jailbreak: Blessed Leader (45027) for Shop */
      , (42803, 4, 45029, -1, 0, 0, False) /* Create Contract for Jailbreak: Verdant Leader (45029) for Shop */
      , (42803, 4, 46905, -1, 0, 0, False) /* Create  (46905) for Shop */
-     , (42803, 4, 46906, -1, 0, 0, False) /* Create  (46906) for Shop */
-     , (42803, 4, 46907, -1, 0, 0, False) /* Create  (46907) for Shop */
-     , (42803, 4, 47163, -1, 0, 0, False) /* Create  (47163) for Shop */;
+     , (42803, 4, 46906, -1, 0, 0, False) /* Create Contract for Tanada Intercept (46906) for Shop */
+     , (42803, 4, 46907, -1, 0, 0, False) /* Create Contract for Tanada Slaughter (46907) for Shop */
+     , (42803, 4, 47163, -1, 0, 0, False) /* Create Contract for Nanjou Stockade (47163) for Shop */;

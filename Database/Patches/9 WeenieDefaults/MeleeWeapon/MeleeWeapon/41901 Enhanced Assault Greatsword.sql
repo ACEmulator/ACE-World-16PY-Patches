@@ -27,7 +27,7 @@ VALUES (41901,   1,          1) /* ItemType - MeleeWeapon */
      , (41901, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41901, 160,        400) /* WieldDifficulty */
      , (41901, 166,          6) /* SlayerCreatureType - Tumerok */
-     , (41901, 263,          1) /* ResistanceModifierType */
+     , (41901, 263,          1) /* ResistanceModifierType - Slash */
      , (41901, 292,          2) /* Cleaving */
      , (41901, 353,         11) /* WeaponType - TwoHanded */;
 

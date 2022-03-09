@@ -57,18 +57,18 @@ VALUES (0x75863074,  7924, 0x58630105, 195.115, -66.635, 0, 0.706763, 0, 0, -0.7
 /* @teleloc 0x58630105 [195.115005 -66.635002 0.000000] 0.706763 0.000000 0.000000 -0.707451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75863074, 0x75863086, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48803) */
-     , (0x75863074, 0x75863087, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48803) */
-     , (0x75863074, 0x75863088, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48803) */
-     , (0x75863074, 0x75863089, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48802) */
-     , (0x75863074, 0x7586308B, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48802) */
-     , (0x75863074, 0x7586308C, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48802) */
-     , (0x75863074, 0x7586308D, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48802) */
-     , (0x75863074, 0x7586308E, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48802) */
-     , (0x75863074, 0x75863094, '2019-11-03 10:00:00') /* Ensorcelled Weapon (48802) */
-     , (0x75863074, 0x75863095, '2019-11-03 10:00:00') /* Whirlwind Golem (48804) */
-     , (0x75863074, 0x75863096, '2019-11-03 10:00:00') /* Whirlwind Golem (48804) */
-     , (0x75863074, 0x758630B4, '2019-11-03 10:00:00') /* Whirlwind Golem (48804) */;
+VALUES (0x75863074, 0x75863086, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48803) */
+     , (0x75863074, 0x75863087, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48803) */
+     , (0x75863074, 0x75863088, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48803) */
+     , (0x75863074, 0x75863089, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48802) */
+     , (0x75863074, 0x7586308B, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48802) */
+     , (0x75863074, 0x7586308C, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48802) */
+     , (0x75863074, 0x7586308D, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48802) */
+     , (0x75863074, 0x7586308E, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48802) */
+     , (0x75863074, 0x75863094, '2021-11-01 00:00:00') /* Ensorcelled Weapon (48802) */
+     , (0x75863074, 0x75863095, '2021-11-01 00:00:00') /* Whirlwind Golem (48804) */
+     , (0x75863074, 0x75863096, '2021-11-01 00:00:00') /* Whirlwind Golem (48804) */
+     , (0x75863074, 0x758630B4, '2021-11-01 00:00:00') /* Whirlwind Golem (48804) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75863075, 48822, 0x58630188, 20, -80, -53.944, 0.999946, 0, 0, -0.010398, False, '2021-11-01 00:00:00'); /* Statue of Creeping Death */
@@ -283,9 +283,9 @@ VALUES (0x758630B5,  7925, 0x586301D0, 68.3858, -39.9275, -29.944, 0.933042, 0, 
 /* @teleloc 0x586301D0 [68.385803 -39.927502 -29.944000] 0.933042 0.000000 0.000000 -0.359768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758630B5, 0x758630B6, '2019-11-03 10:00:00') /* Janthef (48814) */
-     , (0x758630B5, 0x758630B7, '2019-11-03 10:00:00') /* Janthef (48815) */
-     , (0x758630B5, 0x758630B8, '2019-11-03 10:00:00') /* Janthef (48801) */;
+VALUES (0x758630B5, 0x758630B6, '2021-11-01 00:00:00') /* Janthef (48814) */
+     , (0x758630B5, 0x758630B7, '2021-11-01 00:00:00') /* Janthef (48815) */
+     , (0x758630B5, 0x758630B8, '2021-11-01 00:00:00') /* Janthef (48801) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758630B6, 48814, 0x586301D4, 80, -30, -29.944, -0.024998, 0, 0, -0.999687,  True, '2021-11-01 00:00:00'); /* Janthef */

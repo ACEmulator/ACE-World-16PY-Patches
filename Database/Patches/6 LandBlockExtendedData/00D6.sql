@@ -13,7 +13,7 @@ VALUES (0x700D6010, 15301, 0x00D60130, 30, -258.25, 0, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0x00D60130 [30.000000 -258.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D6010, 0x700D60A3, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D6010, 0x700D60A3, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D6012,  5624, 0x00D60134, 35.245, -240, 0, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -28,7 +28,7 @@ VALUES (0x700D6014, 15301, 0x00D60139, 40, -258.25, 0, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0x00D60139 [40.000000 -258.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D6014, 0x700D60A4, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D6014, 0x700D60A4, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D601E,   286, 0x00D6018B, 64.3736, -250, 1.5035, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -47,7 +47,7 @@ VALUES (0x700D6021, 15301, 0x00D6018F, 60, -258.25, 0, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0x00D6018F [60.000000 -258.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D6021, 0x700D60AC, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D6021, 0x700D60AC, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D6026,  5624, 0x00D601E6, 84.755, -240, 0, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -62,14 +62,14 @@ VALUES (0x700D6028, 15301, 0x00D601EB, 80, -258.25, 0, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0x00D601EB [80.000000 -258.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D6028, 0x700D60AF, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D6028, 0x700D60AF, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D6029, 15301, 0x00D601F6, 90, -258.25, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Bookcase */
 /* @teleloc 0x00D601F6 [90.000000 -258.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D6029, 0x700D60B0, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D6029, 0x700D60B0, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D602E, 24021, 0x00D60203, 50, -330, 6, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* West Library Conveyance */
@@ -260,35 +260,35 @@ VALUES (0x700D60A3,   286, 0x00D6012E, 31.5667, -250, 1.503, 0.707107, 0, 0, -0.
 /* @teleloc 0x00D6012E [31.566700 -250.000000 1.503000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D60A3, 0x700D6013, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D60A3, 0x700D6013, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D60A4,   286, 0x00D60135, 37.7366, -254.396, 1.503, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x00D60135 [37.736599 -254.395996 1.503000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D60A4, 0x700D601F, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D60A4, 0x700D601F, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D60AC,   286, 0x00D6018B, 57.9421, -254.399, 1.503, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x00D6018B [57.942101 -254.399002 1.503000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D60AC, 0x700D6020, '2019-02-10 00:00:00') /* Torch (7323) */;
+VALUES (0x700D60AC, 0x700D6020, '2021-11-01 00:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D60AF,   286, 0x00D601E7, 77.8447, -254.398, 1.49, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x00D601E7 [77.844704 -254.397995 1.490000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D60AF, 0x700D601E, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D60AF, 0x700D601E, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D60B0,   286, 0x00D601F4, 88.434, -251.135, 1.49, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
 /* @teleloc 0x00D601F4 [88.433998 -251.134995 1.490000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D60B0, 0x700D6027, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x700D60B0, 0x700D6027, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D60E0, 27384, 0x00D6039B, 46.718, -123.361, 42, -0.382684, 0, 0, -0.923879, False, '2021-11-01 00:00:00'); /* Runed Chest */
@@ -299,84 +299,84 @@ VALUES (0x700D60E1,  1154, 0x00D6010D, 50, -280, -6, 0.877582, 0, 0, -0.479426, 
 /* @teleloc 0x00D6010D [50.000000 -280.000000 -6.000000] 0.877582 0.000000 0.000000 -0.479426 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D60E1, 0x700D60E2, '2019-02-10 00:00:00') /* Olthoi Swarm Legionary (24302) */
-     , (0x700D60E1, 0x700D60E3, '2019-02-10 00:00:00') /* Olthoi Swarm Legionary (24302) */
-     , (0x700D60E1, 0x700D60E4, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D60E5, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60E6, '2019-02-10 00:00:00') /* Olthoi Swarm Legionary (24302) */
-     , (0x700D60E1, 0x700D60E7, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60E8, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D60E9, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60EA, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60EB, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60EC, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11694) */
-     , (0x700D60E1, 0x700D60ED, '2019-02-10 00:00:00') /* Olthoi Swarm Legionary (24302) */
-     , (0x700D60E1, 0x700D60EE, '2019-02-10 00:00:00') /* Olthoi Swarm Legionary (24302) */
-     , (0x700D60E1, 0x700D60EF, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11694) */
-     , (0x700D60E1, 0x700D60F0, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60F1, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
-     , (0x700D60E1, 0x700D60F2, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11694) */
-     , (0x700D60E1, 0x700D60F3, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
-     , (0x700D60E1, 0x700D60F4, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60F5, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11694) */
-     , (0x700D60E1, 0x700D60F6, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60F7, '2019-02-10 00:00:00') /* Olthoi Swarm Legionary (24302) */
-     , (0x700D60E1, 0x700D60F8, '2019-02-10 00:00:00') /* Olthoi Swarm Worker (24306) */
-     , (0x700D60E1, 0x700D60F9, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11694) */
-     , (0x700D60E1, 0x700D60FA, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11694) */
-     , (0x700D60E1, 0x700D60FB, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
-     , (0x700D60E1, 0x700D60FC, '2019-02-10 00:00:00') /* Olthoi Swarm Noble (23988) */
-     , (0x700D60E1, 0x700D60FD, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
-     , (0x700D60E1, 0x700D60FE, '2019-02-10 00:00:00') /* Olthoi Swarm Noble (23988) */
-     , (0x700D60E1, 0x700D60FF, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
-     , (0x700D60E1, 0x700D6100, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
-     , (0x700D60E1, 0x700D6101, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D6102, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D6103, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
-     , (0x700D60E1, 0x700D6104, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D6105, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D6106, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D6107, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x700D60E1, 0x700D6108, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
-     , (0x700D60E1, 0x700D6109, '2019-02-10 00:00:00') /* Virindi Adjudicator (23569) */
-     , (0x700D60E1, 0x700D610A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
-     , (0x700D60E1, 0x700D610B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
-     , (0x700D60E1, 0x700D610C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
-     , (0x700D60E1, 0x700D610D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
-     , (0x700D60E1, 0x700D610E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
-     , (0x700D60E1, 0x700D610F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
-     , (0x700D60E1, 0x700D6110, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D6111, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D6112, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
-     , (0x700D60E1, 0x700D6113, '2019-02-10 00:00:00') /* Virindi Adjudicator (23569) */
-     , (0x700D60E1, 0x700D6114, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D6115, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D6116, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D6117, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
-     , (0x700D60E1, 0x700D6118, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D6119, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D611A, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x700D60E1, 0x700D611B, '2019-02-10 00:00:00') /* Olthoi Vanquisher (24307) */
-     , (0x700D60E1, 0x700D611C, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x700D60E1, 0x700D611D, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x700D60E1, 0x700D611E, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x700D60E1, 0x700D611F, '2019-02-10 00:00:00') /* Olthoi Vanquisher (24307) */
-     , (0x700D60E1, 0x700D6120, '2019-02-10 00:00:00') /* Olthoi Vanquisher (24307) */
-     , (0x700D60E1, 0x700D6121, '2019-02-10 00:00:00') /* Olthoi Vanquisher (24307) */
-     , (0x700D60E1, 0x700D6122, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x700D60E1, 0x700D6123, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (24309) */
-     , (0x700D60E1, 0x700D6124, '2019-02-10 00:00:00') /* Olthoi Swarm Noble (23988) */
-     , (0x700D60E1, 0x700D6125, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x700D60E1, 0x700D6126, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
-     , (0x700D60E1, 0x700D6127, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (24309) */
-     , (0x700D60E1, 0x700D6128, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D6129, '2019-02-10 00:00:00') /* Olthoi Swarm Noble (23988) */
-     , (0x700D60E1, 0x700D612A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
-     , (0x700D60E1, 0x700D612B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
-     , (0x700D60E1, 0x700D612C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
-     , (0x700D60E1, 0x700D612D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
-     , (0x700D60E1, 0x700D612E, '2019-02-10 00:00:00') /* Olthoi Swarm Noble (23988) */
-     , (0x700D60E1, 0x700D612F, '2019-02-10 00:00:00') /* Olthoi Swarm Noble (23988) */;
+VALUES (0x700D60E1, 0x700D60E2, '2021-11-01 00:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x700D60E1, 0x700D60E3, '2021-11-01 00:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x700D60E1, 0x700D60E4, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D60E5, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60E6, '2021-11-01 00:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x700D60E1, 0x700D60E7, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60E8, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D60E9, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60EA, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60EB, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60EC, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x700D60E1, 0x700D60ED, '2021-11-01 00:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x700D60E1, 0x700D60EE, '2021-11-01 00:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x700D60E1, 0x700D60EF, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x700D60E1, 0x700D60F0, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60F1, '2021-11-01 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x700D60E1, 0x700D60F2, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x700D60E1, 0x700D60F3, '2021-11-01 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x700D60E1, 0x700D60F4, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60F5, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x700D60E1, 0x700D60F6, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60F7, '2021-11-01 00:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x700D60E1, 0x700D60F8, '2021-11-01 00:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x700D60E1, 0x700D60F9, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x700D60E1, 0x700D60FA, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x700D60E1, 0x700D60FB, '2021-11-01 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x700D60E1, 0x700D60FC, '2021-11-01 00:00:00') /* Olthoi Swarm Noble (23988) */
+     , (0x700D60E1, 0x700D60FD, '2021-11-01 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x700D60E1, 0x700D60FE, '2021-11-01 00:00:00') /* Olthoi Swarm Noble (23988) */
+     , (0x700D60E1, 0x700D60FF, '2021-11-01 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x700D60E1, 0x700D6100, '2021-11-01 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x700D60E1, 0x700D6101, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D6102, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D6103, '2021-11-01 00:00:00') /* Virindi Profane (22914) */
+     , (0x700D60E1, 0x700D6104, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D6105, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D6106, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D6107, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x700D60E1, 0x700D6108, '2021-11-01 00:00:00') /* Virindi Profane (22914) */
+     , (0x700D60E1, 0x700D6109, '2021-11-01 00:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700D60E1, 0x700D610A, '2021-11-01 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x700D60E1, 0x700D610B, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x700D60E1, 0x700D610C, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x700D60E1, 0x700D610D, '2021-11-01 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x700D60E1, 0x700D610E, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x700D60E1, 0x700D610F, '2021-11-01 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x700D60E1, 0x700D6110, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D6111, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D6112, '2021-11-01 00:00:00') /* Virindi Consul (23489) */
+     , (0x700D60E1, 0x700D6113, '2021-11-01 00:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700D60E1, 0x700D6114, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D6115, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D6116, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D6117, '2021-11-01 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x700D60E1, 0x700D6118, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D6119, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D611A, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x700D60E1, 0x700D611B, '2021-11-01 00:00:00') /* Olthoi Vanquisher (24307) */
+     , (0x700D60E1, 0x700D611C, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x700D60E1, 0x700D611D, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x700D60E1, 0x700D611E, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x700D60E1, 0x700D611F, '2021-11-01 00:00:00') /* Olthoi Vanquisher (24307) */
+     , (0x700D60E1, 0x700D6120, '2021-11-01 00:00:00') /* Olthoi Vanquisher (24307) */
+     , (0x700D60E1, 0x700D6121, '2021-11-01 00:00:00') /* Olthoi Vanquisher (24307) */
+     , (0x700D60E1, 0x700D6122, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x700D60E1, 0x700D6123, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (24309) */
+     , (0x700D60E1, 0x700D6124, '2021-11-01 00:00:00') /* Olthoi Swarm Noble (23988) */
+     , (0x700D60E1, 0x700D6125, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x700D60E1, 0x700D6126, '2021-11-01 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x700D60E1, 0x700D6127, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (24309) */
+     , (0x700D60E1, 0x700D6128, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D6129, '2021-11-01 00:00:00') /* Olthoi Swarm Noble (23988) */
+     , (0x700D60E1, 0x700D612A, '2021-11-01 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x700D60E1, 0x700D612B, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x700D60E1, 0x700D612C, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x700D60E1, 0x700D612D, '2021-11-01 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x700D60E1, 0x700D612E, '2021-11-01 00:00:00') /* Olthoi Swarm Noble (23988) */
+     , (0x700D60E1, 0x700D612F, '2021-11-01 00:00:00') /* Olthoi Swarm Noble (23988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D60E2, 24302, 0x00D6010D, 50, -280, -6, 0.877582, 0, 0, -0.479426,  True, '2021-11-01 00:00:00'); /* Olthoi Swarm Legionary */
@@ -695,7 +695,7 @@ VALUES (0x700D6154,  1542, 0x00D6044E, 60, -30, 66, 0, 0, 0, -1, False, '2021-11
 /* @teleloc 0x00D6044E [60.000000 -30.000000 66.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D6154, 0x700D6155, '2019-02-10 00:00:00') /* Quiddity Seed (36769) */;
+VALUES (0x700D6154, 0x700D6155, '2021-11-01 00:00:00') /* Quiddity Seed (36769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D6155, 36769, 0x00D6044E, 60, -30, 66, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Quiddity Seed */

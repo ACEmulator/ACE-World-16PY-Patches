@@ -37,14 +37,14 @@ VALUES (0x7A9B2009,  3955, 0xA9B20106, 81, 84, 94.005, -0.713177, 0, 0, -0.70098
 /* @teleloc 0xA9B20106 [81.000000 84.000000 94.004997] -0.713177 0.000000 0.000000 -0.700984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B2009, 0x7A9B200B, '2005-02-09 10:00:00') /* Aluvian High-Stakes Gamesmaster (9495) */
-     , (0x7A9B2009, 0x7A9B200C, '2005-02-09 10:00:00') /* Aluvian High-Stakes Gamesmaster (9495) */
-     , (0x7A9B2009, 0x7A9B200D, '2005-02-09 10:00:00') /* Aluvian Mid-Stakes Gamesmaster (9501) */
-     , (0x7A9B2009, 0x7A9B200E, '2005-02-09 10:00:00') /* Aluvian Mid-Stakes Gamesmaster (9501) */
-     , (0x7A9B2009, 0x7A9B200F, '2005-02-09 10:00:00') /* Aluvian Low-Stakes Gamesmaster (9498) */
-     , (0x7A9B2009, 0x7A9B2010, '2005-02-09 10:00:00') /* Aluvian Low-Stakes Gamesmaster (9498) */
-     , (0x7A9B2009, 0x7A9B2012, '2005-02-09 10:00:00') /* Monty the Munificent (9492) */
-     , (0x7A9B2009, 0x7A9B2016, '2019-02-10 00:00:00') /* Rare Exchanger (40463) */;
+VALUES (0x7A9B2009, 0x7A9B200B, '2021-11-01 00:00:00') /* Aluvian High-Stakes Gamesmaster (9495) */
+     , (0x7A9B2009, 0x7A9B200C, '2021-11-01 00:00:00') /* Aluvian High-Stakes Gamesmaster (9495) */
+     , (0x7A9B2009, 0x7A9B200D, '2021-11-01 00:00:00') /* Aluvian Mid-Stakes Gamesmaster (9501) */
+     , (0x7A9B2009, 0x7A9B200E, '2021-11-01 00:00:00') /* Aluvian Mid-Stakes Gamesmaster (9501) */
+     , (0x7A9B2009, 0x7A9B200F, '2021-11-01 00:00:00') /* Aluvian Low-Stakes Gamesmaster (9498) */
+     , (0x7A9B2009, 0x7A9B2010, '2021-11-01 00:00:00') /* Aluvian Low-Stakes Gamesmaster (9498) */
+     , (0x7A9B2009, 0x7A9B2012, '2021-11-01 00:00:00') /* Monty the Munificent (9492) */
+     , (0x7A9B2009, 0x7A9B2016, '2021-11-01 00:00:00') /* Rare Exchanger (40463) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B200A,  9460, 0xA9B20117, 84, 83, 97.505, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Monty's Golden Chest */

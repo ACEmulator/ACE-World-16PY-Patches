@@ -5,12 +5,12 @@ VALUES (0x78094000,  7924, 0x80940011, 58.7475, 4.74508, 204.005, 0.086353, 0, 0
 /* @teleloc 0x80940011 [58.747501 4.745080 204.005005] 0.086353 0.000000 0.000000 -0.996265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78094000, 0x78094001, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x78094000, 0x78094002, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x78094000, 0x78094003, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x78094000, 0x78094004, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x78094000, 0x78094005, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x78094000, 0x78094006, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */;
+VALUES (0x78094000, 0x78094001, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x78094000, 0x78094002, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x78094000, 0x78094003, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x78094000, 0x78094004, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x78094000, 0x78094005, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x78094000, 0x78094006, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78094001, 28652, 0x80940011, 56.442, 19.2233, 204.005, -0.999643, 0, 0, -0.026726,  True, '2021-11-01 00:00:00'); /* Viamontian Tribune */

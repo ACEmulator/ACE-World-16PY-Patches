@@ -18,4 +18,3 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.075
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
     - Motion: Twitch3
-

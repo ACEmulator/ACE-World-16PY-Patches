@@ -17,7 +17,7 @@ VALUES (0x7937F005,  7923, 0x937F0101, 155.221, 85.4958, 33.705, 0.135068, 0, 0,
 /* @teleloc 0x937F0101 [155.220993 85.495796 33.705002] 0.135068 0.000000 0.000000 -0.990836 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937F005, 0x7937F008, '2005-02-09 10:00:00') /* Rubid al-Jurma (5137) */;
+VALUES (0x7937F005, 0x7937F008, '2021-11-01 00:00:00') /* Rubid al-Jurma (5137) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937F006,  4673, 0x937F0000, 165.977, 128.263, 32.1752, -0.438581, 0, 0, -0.898692, False, '2021-11-01 00:00:00'); /* Samsur Outpost */
@@ -40,9 +40,9 @@ VALUES (0x7937F00C, 15759, 0x937F0101, 157.526, 81.385, 33.705, -0.75411, 0, 0, 
 /* @teleloc 0x937F0101 [157.526001 81.385002 33.705002] -0.754110 0.000000 0.000000 -0.656748 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937F00C, 0x7937F00D, '2019-09-02 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
-     , (0x7937F00C, 0x7937F00E, '2019-09-02 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
-     , (0x7937F00C, 0x7937F00F, '2019-09-02 00:00:00') /* Explorer Light Weapons Gem (45981) */;
+VALUES (0x7937F00C, 0x7937F00D, '2021-11-01 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
+     , (0x7937F00C, 0x7937F00E, '2021-11-01 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
+     , (0x7937F00C, 0x7937F00F, '2021-11-01 00:00:00') /* Explorer Light Weapons Gem (45981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937F00D, 45990, 0x937F0101, 152.567, 81.5712, 34.3603, -0.160934, 0, 0, -0.986965,  True, '2021-11-01 00:00:00'); /* Explorer Heavy Weapons Gem */

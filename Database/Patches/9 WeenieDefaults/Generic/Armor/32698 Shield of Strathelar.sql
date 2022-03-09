@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32698;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32698, 'ace32698-shieldofstrathelar', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (32698, 'ace32698-shieldofstrathelar', 1, '2022-01-08 18:29:57') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32698,   1,          2) /* ItemType - Armor */
@@ -12,7 +12,6 @@ VALUES (32698,   1,          2) /* ItemType - Armor */
      , (32698,  19,       7500) /* Value */
      , (32698,  27,          2) /* ArmorType - Leather */
      , (32698,  28,        175) /* ArmorLevel */
-     , (32698,  33,         -2) /* Bonded - Destroy */
      , (32698,  51,          4) /* CombatUse - Shield */
      , (32698,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

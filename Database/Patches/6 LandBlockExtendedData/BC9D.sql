@@ -13,10 +13,10 @@ VALUES (0x7BC9D002,  7924, 0xBC9D0034, 161.736, 91.3526, 1.155, -0.735112, 0, 0,
 /* @teleloc 0xBC9D0034 [161.735992 91.352600 1.155000] -0.735112 0.000000 0.000000 -0.677946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9D002, 0x7BC9D003, '2021-09-07 13:20:28') /* Drudge Stalker (35445) */
-     , (0x7BC9D002, 0x7BC9D004, '2021-09-08 13:04:20') /* Drudge Lurker (35427) */
-     , (0x7BC9D002, 0x7BC9D005, '2021-09-08 13:26:07') /* Drudge Lurker (35427) */
-     , (0x7BC9D002, 0x7BC9D006, '2021-09-08 13:26:32') /* Drudge Lurker (35427) */;
+VALUES (0x7BC9D002, 0x7BC9D003, '2021-11-01 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D004, '2021-11-01 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D005, '2021-11-01 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D006, '2021-11-01 00:00:00') /* Drudge Lurker (35427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9D003, 35445, 0xBC9D0034, 167.633, 92.1889, 1.10455, -0.805829, 0, 0, -0.592149,  True, '2021-11-01 00:00:00'); /* Drudge Stalker */

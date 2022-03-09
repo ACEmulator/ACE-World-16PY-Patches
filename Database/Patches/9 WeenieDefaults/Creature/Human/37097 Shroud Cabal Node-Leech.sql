@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37097;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37097, 'ace37097-shroudcabalnodeleech', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (37097, 'ace37097-shroudcabalnodeleech', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37097,   1,         16) /* ItemType - Creature */
@@ -21,8 +21,7 @@ VALUES (37097,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37097,   1, True ) /* Stuck */
      , (37097,   6, True ) /* AiUsesMana */
-     , (37097,   7, True ) /* AiUseHumanMagicAnimations */
-     , (37097,  10, True ) /* AttackerAi */;
+     , (37097,   7, True ) /* AiUseHumanMagicAnimations */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37097,   1,       5) /* HeartbeatInterval */

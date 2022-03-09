@@ -65,4 +65,3 @@ Use:
                             - IncrementQuest: QuestReconnaissanceAcquired0105
         TestFailure:
             - Tell: I am searching for someone to do some scouting for me. Unfortunately, you are as yet too weak to complete this task.
-

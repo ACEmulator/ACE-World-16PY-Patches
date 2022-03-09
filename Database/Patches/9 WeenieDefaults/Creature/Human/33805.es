@@ -20,4 +20,4 @@ Use:
                             - Tell: Return to me after you have killed %tqm Small Mukkir Fledglings and I will reward you.
                 QuestFailure:
                     - Tell: I have been sent by Queen Elysa to seek the aid of those willing to give it. There is a small nest of those vile Mukkir just northeast of here. If you will go thin out their number, say, kill 15 of the Small Mukkir Fledglings, I will reward you for your efforts.
-                    - SetQuestCompletions: KillTaskSmallFledglingMukkir0806, 
+                    - SetQuestCompletions: KillTaskSmallFledglingMukkir0806,
