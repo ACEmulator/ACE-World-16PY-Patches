@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41799;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41799, 'ace41799-killerphyntosqueen', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (41799, 'ace41799-killerphyntosqueen', 10, '2022-03-06 02:38:19') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41799,   1,         16) /* ItemType - Creature */
@@ -55,8 +55,7 @@ VALUES (41799,   1,       5) /* HeartbeatInterval */
      , (41799, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41799,   1, 'Killer Phyntos Queen') /* Name */
-     , (41799,  45, 'KillTaskPhyntosKiller1109') /* KillQuest */;
+VALUES (41799,   1, 'Killer Phyntos Queen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41799,   1, 0x02001121) /* Setup */

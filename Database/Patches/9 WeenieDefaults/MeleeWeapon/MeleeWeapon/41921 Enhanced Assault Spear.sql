@@ -30,7 +30,7 @@ VALUES (41921,   1,          1) /* ItemType - MeleeWeapon */
      , (41921, 159,         45) /* WieldSkillType - LightWeapons */
      , (41921, 160,        400) /* WieldDifficulty */
      , (41921, 166,          6) /* SlayerCreatureType - Tumerok */
-     , (41921, 263,          2) /* ResistanceModifierType */
+     , (41921, 263,          2) /* ResistanceModifierType - Pierce */
      , (41921, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -32,7 +32,7 @@ VALUES (46070,   1,        256) /* ItemType - MissileWeapon */
      , (46070, 159,         47) /* WieldSkillType - MissileWeapons */
      , (46070, 160,        360) /* WieldDifficulty */
      , (46070, 204,         11) /* ElementalDamageBonus */
-     , (46070, 263,         32) /* ResistanceModifierType */;
+     , (46070, 263,         32) /* ResistanceModifierType - Acid */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46070,  22, True ) /* Inscribable */

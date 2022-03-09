@@ -1,3 +1,3 @@
 Activation:
-	- Activate
-	- CastSpellInstant: 4283
+    - Activate
+    - CastSpellInstant: 4283

@@ -1,14 +1,14 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
-	- Motion: Twitch1
+    - Motion: Twitch1
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-	- Motion: Twitch2
+    - Motion: Twitch2
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-	- Motion: Twitch3
+    - Motion: Twitch3
 
 Use:
-	- TurnToTarget
+    - TurnToTarget
     - InqQuest: TaskGrave2FedExDelivered
         QuestSuccess:
             - Tell: Be on your way now and report back to your masters. Which ever of them you might serve. Heh, heh. I know something you don't know...

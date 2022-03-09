@@ -1,8 +1,8 @@
 Heartbeat: Style: NonCombat, SubStyle: Ready
-	- InqMyQuest: CarenziRacerMoves
-		#QuestSuccess:
-		QuestFailure:
-			- InqMyQuestSolves: CarenziRacerMoves, 0 - 0
+    - InqMyQuest: CarenziRacerMoves
+        #QuestSuccess:
+        QuestFailure:
+            - InqMyQuestSolves: CarenziRacerMoves, 0 - 0
                 QuestSuccess:
                     - IncrementMyQuest: CarenziRacerMoves, 1
                     - Goto: IsVictoryMine
@@ -30,7 +30,7 @@ Heartbeat: Style: NonCombat, SubStyle: Ready
                                                             - Goto: RNG-Move2
 
 Generation:
-	- SetMyQuestCompletions: CarenziRacerMoves, 0
+    - SetMyQuestCompletions: CarenziRacerMoves, 0
 
 GotoSet: IsVictoryMine
     - InqMyQuest: CarenziRacerMoves

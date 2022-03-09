@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38322;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38322, 'ace38322-kothmoxsstaff', 1, '2021-11-17 16:56:08') /* Generic */;
+VALUES (38322, 'ace38322-kothmoxsstaff', 1, '2022-02-10 05:08:07') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38322,   1,        128) /* ItemType - Misc */
@@ -24,8 +24,7 @@ VALUES (38322,  39,     0.6) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38322,   1, 'Kothmox''s Staff') /* Name */
      , (38322,  14, 'Use this staff to open the way to the Moarsmen City, Nyr''leha.') /* Use */
-     , (38322,  16, 'A staff smoothed by years of ocean and sand.') /* LongDesc */
-     , (38322,  33, 'KothMoxStaffPickedUp') /* Quest */;
+     , (38322,  16, 'A staff smoothed by years of ocean and sand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38322,   1, 0x02001044) /* Setup */

@@ -18,4 +18,3 @@ Vendor: VendorType: Heartbeat, Probability: 0.375
 
 Vendor: VendorType: Heartbeat, Probability: 0.5
     - Motion: Nod
-	

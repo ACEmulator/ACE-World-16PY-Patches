@@ -25,7 +25,7 @@ VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
      , (35551, 107,      10000) /* ItemCurMana */
      , (35551, 108,      10000) /* ItemMaxMana */
      , (35551, 114,          0) /* Attuned - Normal */
-     , (35551, 263,          2) /* ResistanceModifierType */
+     , (35551, 263,          2) /* ResistanceModifierType - Pierce */
      , (35551, 267,      10800) /* Lifespan */
      , (35551, 353,          5) /* WeaponType - Spear */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29231;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29231, 'crossbowishaqslostkey', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (29231, 'crossbowishaqslostkey', 3, '2022-01-08 18:29:57') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29231,   1,        256) /* ItemType - MissileWeapon */
@@ -27,7 +27,7 @@ VALUES (29231,   1,        256) /* ItemType - MissileWeapon */
      , (29231, 150,        103) /* HookPlacement - Hook */
      , (29231, 151,          2) /* HookType - Wall */
      , (29231, 158,          2) /* WieldRequirements - RawSkill */
-     , (29231, 159,          3) /* WieldSkillType - Crossbow */
+     , (29231, 159,         47) /* WieldSkillType - MissileWeapons */
      , (29231, 160,        335) /* WieldDifficulty */
      , (29231, 353,          9) /* WeaponType - Crossbow */;
 

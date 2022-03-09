@@ -63,4 +63,3 @@ ResistSpell: Probability: 0.3
 
 ResistSpell: Probability: 0.45
     - LocalBroadcast: A coolly amused voice seeps across your mind, "Is that the extent of thy powers, child? I shall show thee true power!"
-

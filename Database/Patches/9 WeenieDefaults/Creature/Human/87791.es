@@ -57,7 +57,7 @@ GotoSet: CheckDeliveries
                     - TakeItems: List of Deliveries (87794), -1
                     - TakeItems: List of Deliveries (87795), -1
                     - TakeItems: Undelivered Package (87796), -1
-                    - AwardXP: 150,000,000
+                    - AwardLevelProportionalXP: 100%,  0 - 150,000,000
                     - AwardLuminance: 5,000
                     - Goto: PickAReward
                 QuestFailure:

@@ -19,7 +19,7 @@ VALUES (35558,   1,      32768) /* ItemType - Caster */
      , (35558, 107,      10000) /* ItemCurMana */
      , (35558, 108,      10000) /* ItemMaxMana */
      , (35558, 114,          0) /* Attuned - Normal */
-     , (35558, 263,          8) /* ResistanceModifierType */
+     , (35558, 263,          8) /* ResistanceModifierType - Cold */
      , (35558, 267,      10800) /* Lifespan */
      , (35558, 353,          0) /* WeaponType - Undef */;
 

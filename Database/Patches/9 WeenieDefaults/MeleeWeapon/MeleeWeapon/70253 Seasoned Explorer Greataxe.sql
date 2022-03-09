@@ -29,7 +29,7 @@ VALUES (70253,   1,          1) /* ItemType - MeleeWeapon */
      , (70253, 158,          2) /* WieldRequirements - RawSkill */
      , (70253, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (70253, 160,        325) /* WieldDifficulty */
-     , (70253, 263,          1) /* ResistanceModifierType */
+     , (70253, 263,          1) /* ResistanceModifierType - Slash */
      , (70253, 292,          2) /* Cleaving */
      , (70253, 353,         11) /* WeaponType - TwoHanded */;
 

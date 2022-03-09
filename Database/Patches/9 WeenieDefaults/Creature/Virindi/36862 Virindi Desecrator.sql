@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36862;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36862, 'ace36862-virindidesecrator', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36862, 'ace36862-virindidesecrator', 10, '2022-01-20 04:53:49') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36862,   1,         16) /* ItemType - Creature */
@@ -14,6 +14,8 @@ VALUES (36862,   1,         16) /* ItemType - Creature */
      , (36862,  40,          2) /* CombatMode - Melee */
      , (36862,  68,          3) /* TargetingTactic - Random, Focused */
      , (36862,  72,         22) /* FriendType - Shadow */
+     , (36862,  81,          1) /* MaxGeneratedObjects */
+     , (36862,  82,          0) /* InitGeneratedObjects */
      , (36862,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36862, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36862, 140,          1) /* AiOptions - CanOpenDoors */
@@ -45,6 +47,7 @@ VALUES (36862,   1,       5) /* HeartbeatInterval */
      , (36862,  31,      20) /* VisualAwarenessRange */
      , (36862,  34,       1) /* PowerupTime */
      , (36862,  36,       1) /* ChargeSpeed */
+     , (36862,  43,       2) /* GeneratorRadius */
      , (36862,  64,    0.89) /* ResistSlash */
      , (36862,  65,    0.65) /* ResistPierce */
      , (36862,  66,    0.73) /* ResistBludgeon */
@@ -132,6 +135,14 @@ VALUES (36862,    85,   2.05)  /* Flame Bolt VI */
      , (36862,  2146,   2.05)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (36862,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36862,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
@@ -192,3 +203,6 @@ VALUES (36862, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for
      , (36862, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
      , (36862, 9, 41470,  0, 0, 0.0125, False) /* Create Purple Jewel (41470) for ContainTreasure */
      , (36862, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36862, 1, 36863, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Champion Virindi (36863) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;

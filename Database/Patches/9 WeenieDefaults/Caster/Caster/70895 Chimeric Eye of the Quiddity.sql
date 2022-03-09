@@ -22,7 +22,7 @@ VALUES (70895,   1,      32768) /* ItemType - Caster */
      , (70895, 158,          7) /* WieldRequirements - Level */
      , (70895, 159,          1) /* WieldSkillType - Axe */
      , (70895, 160,        120) /* WieldDifficulty */
-     , (70895, 263,          1) /* ResistanceModifierType */
+     , (70895, 263,          1) /* ResistanceModifierType - Slash */
      , (70895, 267,      10800) /* Lifespan */
      , (70895, 353,          0) /* WeaponType - Undef */;
 

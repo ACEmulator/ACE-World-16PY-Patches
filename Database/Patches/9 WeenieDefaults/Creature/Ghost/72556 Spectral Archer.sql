@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72556;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72556, 'ace72556-spectralarcher', 10, '2021-11-08 06:01:47') /* Creature */;
+VALUES (72556, 'ace72556-spectralarcher', 10, '2022-01-08 18:29:57') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72556,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (72556,   1,         16) /* ItemType - Creature */
      , (72556,  16,          1) /* ItemUseable - No */
      , (72556,  25,        240) /* Level */
      , (72556,  40,          2) /* CombatMode - Melee */
-     , (72556,  48,         47) /* WeaponSkill - MissileWeapons */
      , (72556,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (72556,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (72556,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (72556, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (72556, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (72556, 146,          0) /* XpOverride */
      , (72556, 281,         16) /* Faction1Bits - 16 */
