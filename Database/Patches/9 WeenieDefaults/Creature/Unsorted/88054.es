@@ -31,4 +31,4 @@ ReceiveLocalSignal: Room5Portal
             - StampMyQuest: GauntletStage5MyQuest
 
 Generation:
-    - LocalBroadcast: Radiant Blood Officer says, "Continue on to the next stage, warriors."
+    - LocalBroadcast: Eldrytch Web Officer says, "Continue on to the next stage, warriors."
