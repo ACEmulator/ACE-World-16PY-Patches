@@ -198,7 +198,8 @@ VALUES (0x7DA55030,  3951, 0xDA550177, 129.797, 102.493, 20.005, 0.520655, 0, 0,
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7DA55030, 0x7DA5502A, '2021-12-14 05:15:31') /* Oi-Tong Ye  (5193) */
-     , (0x7DA55030, 0x7DA55072, '2021-12-14 05:15:31') /* Apprentice Alchemist (27742) */;
+     , (0x7DA55030, 0x7DA55072, '2021-12-14 05:15:31') /* Apprentice Alchemist (27742) */
+     , (0x7DA55030, 0x7DA5509C, '2022-03-09 14:48:09') /* Tailor's Apprentice (42738) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA55031,   838, 0xDA55014B, 129.12, 29.76, 18.805, 0.887011, 0, 0, 0.461748, False, '2021-12-14 05:15:31'); /* Yaohan Tong the Healer */
@@ -460,3 +461,7 @@ VALUES (0x7DA5509A, 44208, 0xDA550177, 128.587, 113.54, 20.005, 0.042533, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA5509B, 87810, 0xDA550132, 59.1611, 185.809, 24.455, -0.717982, 0, 0, 0.696061, False, '2021-12-14 05:15:31'); /* Stephanie Event Gen */
 /* @teleloc 0xDA550132 [59.161098 185.809006 24.455000] -0.717982 0.000000 0.000000 0.696061 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DA5509C, 42738, 0xDA55019C, 78.5093, 61.7248, 20.045, 0.668719, 0, 0, -0.743515,  True, '2022-03-09 14:48:09'); /* Tailor's Apprentice */
+/* @teleloc 0xDA55019C [78.509300 61.724800 20.045000] 0.668719 0.000000 0.000000 -0.743515 */
