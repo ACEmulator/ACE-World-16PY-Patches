@@ -205,4 +205,3 @@ GotoSet: Cleanup
     - EraseQuest: CarenziRaceBetterR6
     - EraseQuest: CarenziRaceBetterR7
     - EraseQuest: CarenziRaceBetterR8
-

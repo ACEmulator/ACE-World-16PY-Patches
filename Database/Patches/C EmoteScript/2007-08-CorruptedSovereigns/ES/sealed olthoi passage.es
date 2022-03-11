@@ -10,5 +10,3 @@ Refuse: 35876
             - TeleportTarget: 0xC7B70462 [-50.2814 7.25725 162.40498] 0.9998434 0 0 -0.017697308
         TestFailure:
             - DirectBroadcast: You feel that you are not powerful enough to proceed further.
-            
-        

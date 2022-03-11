@@ -1,2 +1,2 @@
 Use:
-	- CastSpellInstant: 4063
+    - CastSpellInstant: 4063

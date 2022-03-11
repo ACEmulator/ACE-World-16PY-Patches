@@ -1,3 +1,3 @@
 Generation:
-	- Delay: 1500, Motion: Wave
-	- StopEvent: APLLugianGuardEvent
+    - Delay: 1500, Motion: Wave
+    - StopEvent: APLLugianGuardEvent

@@ -19,4 +19,3 @@ Use:
                     - Tell: But the information you brought me and the information I've received from others should be enough.
                     - AwardNoShareXP: 750,000
                     - Give: 41021
-            

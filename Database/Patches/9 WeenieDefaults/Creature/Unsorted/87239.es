@@ -116,4 +116,3 @@ GotoSet: TitleRewards, Probability: 1
                     - DirectBroadcast: %tqc of %tqm gift boxes found.
                 QuestFailure:
                     - DirectBroadcast: %tqc of %tqm gift boxes found.
-					

@@ -19,4 +19,3 @@ GotoSet: CheckCount
             - LocalSignal: SpawnZenith
         QuestFailure:
             - LocalBroadcast: Fire dissipates into the surroundings. The atmosphere warms and your flesh blisters.
-

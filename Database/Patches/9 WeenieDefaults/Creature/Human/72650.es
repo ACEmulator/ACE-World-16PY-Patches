@@ -10,4 +10,3 @@ GotoSet: Shoot, Probability: 0.75
     - Delay: 5, CastSpellInstant: 1845
 GotoSet: Shoot, Probability: 1
     - Delay: 10, CastSpellInstant: 1845
-

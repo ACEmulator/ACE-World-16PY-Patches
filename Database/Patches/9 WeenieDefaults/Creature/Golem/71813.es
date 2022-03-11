@@ -1,50 +1,50 @@
 HeartBeat:
-	- LocalSignal: ColoSelfDestruct
+    - LocalSignal: ColoSelfDestruct
 
 Generation:
-	- LocalSignal: ColoSelfDestruct
+    - LocalSignal: ColoSelfDestruct
 
 #NewEnemy:
-#	- CastSpellInstant: 4029
+#    - CastSpellInstant: 4029
 
 Taunt:
-	- Goto: CheckFellowQuests
+    - Goto: CheckFellowQuests
 
 NewEnemy:
-	- Goto: CheckFellowQuests
+    - Goto: CheckFellowQuests
 
 GotoSet: CheckFellowQuests
-	- InqFellowQuest: ColoArenaOneAccess
-		QuestSuccess:
-			- Delay 1, Goto: CheckFellowQuests
-		QuestFailure:
-			- InqFellowQuest: ColoArenaTwoAccess
-				QuestSuccess:
-					- Delay 1, Goto: CheckFellowQuests
-				QuestFailure:
-					- InqFellowQuest: ColoArenaThreeAccess
-						QuestSuccess:
-							- Delay 1, Goto: CheckFellowQuests
-						QuestFailure:
-							- InqFellowQuest: ColoArenaFourAccess
-								QuestSuccess:
-									- Delay 1, Goto: CheckFellowQuests
-								QuestFailure:
-									- InqFellowQuest: ColoArenaFiveAccess
-										QuestSuccess:
-											- Delay 1, Goto: CheckFellowQuests
-										QuestFailure:
-											- Goto: BootPlayer
-										QuestNoFellow:
-											- Goto: BootPlayer
-								QuestNoFellow:
-									- Goto: BootPlayer
-						QuestNoFellow:
-							- Goto: BootPlayer
-				QuestNoFellow:
-					- Goto: BootPlayer
-		QuestNoFellow:
-			- Goto: BootPlayer
+    - InqFellowQuest: ColoArenaOneAccess
+        QuestSuccess:
+            - Delay 1, Goto: CheckFellowQuests
+        QuestFailure:
+            - InqFellowQuest: ColoArenaTwoAccess
+                QuestSuccess:
+                    - Delay 1, Goto: CheckFellowQuests
+                QuestFailure:
+                    - InqFellowQuest: ColoArenaThreeAccess
+                        QuestSuccess:
+                            - Delay 1, Goto: CheckFellowQuests
+                        QuestFailure:
+                            - InqFellowQuest: ColoArenaFourAccess
+                                QuestSuccess:
+                                    - Delay 1, Goto: CheckFellowQuests
+                                QuestFailure:
+                                    - InqFellowQuest: ColoArenaFiveAccess
+                                        QuestSuccess:
+                                            - Delay 1, Goto: CheckFellowQuests
+                                        QuestFailure:
+                                            - Goto: BootPlayer
+                                        QuestNoFellow:
+                                            - Goto: BootPlayer
+                                QuestNoFellow:
+                                    - Goto: BootPlayer
+                        QuestNoFellow:
+                            - Goto: BootPlayer
+                QuestNoFellow:
+                    - Goto: BootPlayer
+        QuestNoFellow:
+            - Goto: BootPlayer
 
 GotoSet: BootPlayer
-	- CastSpellInstant: 4029
+    - CastSpellInstant: 4029

@@ -33,4 +33,3 @@ Use:
                             - SetQuestCompletions: KillTaskRynthidSlayers0813, 0
         TestFailure:
             - Tell: I am afraid the task I have is too difficult for you.
-

@@ -7,16 +7,16 @@ Refuse: Brass Knuckles (28215)
     - StampQuest: HamudsDemiseStarted_0511
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.001
-    - Say: I seek the teeth of certain creatures, the gromnies.  But I won't take just anything, I want only the most well preserved gromnie teeth!
+    - Extent: 20, Say: I seek the teeth of certain creatures, the gromnies.  But I won't take just anything, I want only the most well preserved gromnie teeth!
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.002
-    - Say: Give me the rare tooth of the fierce gromnies, and I will craft it into something useful.  I will also take auroch horns.
+    - Extent: 20, Say: Give me the rare tooth of the fierce gromnies, and I will craft it into something useful.  I will also take auroch horns.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.003
-    - Say: I require stout gromnie teeth for my craft!
+    - Extent: 20, Say: I require stout gromnie teeth for my craft!
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.004
-    - Say: I am still experimenting with the skulls of certain skeletons.  They don't seem to be good for weapons, but I'll give you a health potion for them.
+    - Extent: 20, Say: I am still experimenting with the skulls of certain skeletons.  They don't seem to be good for weapons, but I'll give you a health potion for them.
 
 Give: Acid Axe (1439)
     - UpdateQuest: AcidAxeTurnedIn
@@ -171,7 +171,7 @@ Give: Skeleton's Skull (3687)
 Give: Skull of High Acolyte (7817)
     - TurnToTarget
     - Tell: This skull is very unique, it will be extremely useful to me.
-    - AwardNoShareXP: 50,000
+    - AwardNoShareXP: 300,000
     - Give: Pyreal (273), 5,000
     - Delay: 1, Motion: BowDeep
     - Tell: Thank you for bringing me this treasure.
@@ -311,3 +311,4 @@ Use:
     - TurnToTarget
     - Delay: 1, Motion: Salute
     - Delay: 1, Tell: I am interested in various teeth, horns, shells, and skulls.  For those I will reward you with useful items I make myself.
+

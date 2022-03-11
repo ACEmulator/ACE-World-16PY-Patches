@@ -22,4 +22,3 @@ Use:
                             - StampQuest: MhoireCastleFlagStarted
         TestFailure:
             - DirectBroadcast: Being less than level 125, you are chased off before you can dig around these ancient stones.
-        

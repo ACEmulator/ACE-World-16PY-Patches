@@ -738,4 +738,3 @@ QuestFailure: GearReedsharkGiven
     - Delay: 1, Tell: The Arcanum will surely be interested in this artifact! For this I shall reward you with 2000 experience. Thank you!
     - StampQuest: GearReedsharkGiven
     - Delay: 1, AwardNoShareXP: 2,000
-

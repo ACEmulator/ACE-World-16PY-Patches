@@ -19,4 +19,3 @@ GotoSet: CheckCount
             - LocalSignal: SpawnZenith
         QuestFailure:
             - LocalBroadcast: Frost dissipates into the surroundings. The atmosphere cools and a chill numbs you to the core.
-

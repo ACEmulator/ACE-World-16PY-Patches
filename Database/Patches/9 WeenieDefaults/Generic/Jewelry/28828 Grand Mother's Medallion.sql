@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28828;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28828, 'medallionsilyungrandmother', 1, '2021-11-17 16:56:08') /* Generic */;
+VALUES (28828, 'medallionsilyungrandmother', 1, '2022-02-20 02:53:49') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28828,   1,          8) /* ItemType - Jewelry */
@@ -13,16 +13,13 @@ VALUES (28828,   1,          8) /* ItemType - Jewelry */
      , (28828,  33,          1) /* Bonded - Bonded */
      , (28828,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28828, 106,        300) /* ItemSpellcraft */
+     , (28828, 107,        700) /* ItemCurMana */
      , (28828, 108,        700) /* ItemMaxMana */
      , (28828, 109,        150) /* ItemDifficulty */
      , (28828, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28828,  11, True ) /* IgnoreCollisions */
-     , (28828,  13, True ) /* Ethereal */
-     , (28828,  14, True ) /* GravityStatus */
-     , (28828,  19, True ) /* Attackable */
-     , (28828,  22, True ) /* Inscribable */;
+VALUES (28828,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28828,   5,  -0.049) /* ManaRate */;

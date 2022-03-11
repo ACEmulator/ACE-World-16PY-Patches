@@ -1,28 +1,28 @@
 Give: Frozen Black Crystal (87519)
-	- TurnToTarget
-	- Tell: Ahh, a frozen crystal shard. The mages in the Order have had some luck with figuring out what this was. It seems that this is a fragment of some sort of Totem, similar to the Ice Totems built by the Ruschk.
-	- Delay: 1, Tell: We haven't been able to reconstruct the totem yet, as the pieces are small and badly damaged, but we are hoping to collect enough pieces to reconstruct at least one complete totem.
-	- Delay: 1, Tell: It is our hope to use this totem to learn more about the Mukkir, and possibly make a weapon against them.
-	- Delay: 1, Tell: It was a great risk and noble act that you undertook in acquiring this crystal and bringing it here. Sarkin has given me these medallions to award to those whom have aided us in this.
-	- Give: 33154
-	- Goto: GiveXP
+    - TurnToTarget
+    - Tell: Ahh, a frozen crystal shard. The mages in the Order have had some luck with figuring out what this was. It seems that this is a fragment of some sort of Totem, similar to the Ice Totems built by the Ruschk.
+    - Delay: 1, Tell: We haven't been able to reconstruct the totem yet, as the pieces are small and badly damaged, but we are hoping to collect enough pieces to reconstruct at least one complete totem.
+    - Delay: 1, Tell: It is our hope to use this totem to learn more about the Mukkir, and possibly make a weapon against them.
+    - Delay: 1, Tell: It was a great risk and noble act that you undertook in acquiring this crystal and bringing it here. Sarkin has given me these medallions to award to those whom have aided us in this.
+    - Give: 33154
+    - Goto: GiveXP
 
 GotoSet: GiveXP
-	- InqIntStat: 25, 80 - 999
-		TestSuccess:
-			- AwardLevelProportionalXP: 33%, 0 - 70,000,000
-		TestFailure:
-			- InqIntStat: 25, 65 - 79
-				TestSuccess:
-					- AwardLevelProportionalXP: 50%, 0 - 15,000,000
-				TestFailure:
-					- InqIntStat: 25, 50 - 64
-						TestSuccess:
-							- AwardLevelProportionalXP: 66%, 0 - 9,000,000
-						TestFailure:
-							- InqIntStat: 25, 1 - 49
-								TestSuccess:
-									- AwardLevelProportionalXP: 100%, 0 - 5,000,000
+    - InqIntStat: 25, 80 - 999
+        TestSuccess:
+            - AwardLevelProportionalXP: 33%, 0 - 70,000,000
+        TestFailure:
+            - InqIntStat: 25, 65 - 79
+                TestSuccess:
+                    - AwardLevelProportionalXP: 50%, 0 - 15,000,000
+                TestFailure:
+                    - InqIntStat: 25, 50 - 64
+                        TestSuccess:
+                            - AwardLevelProportionalXP: 66%, 0 - 9,000,000
+                        TestFailure:
+                            - InqIntStat: 25, 1 - 49
+                                TestSuccess:
+                                    - AwardLevelProportionalXP: 100%, 0 - 5,000,000
 
 Give: 34573
     - TurnToTarget
@@ -51,4 +51,3 @@ Use:
     - Tell: I have been brought here to assist Sarkin Killcrane in the collection of the Frozen Black Crystals he has been receiving from adventurers as of late. If you wish to try to retrieve one of these crystals for us, I have heard that they can be found on a Mukkir named Targor. Targor seems to be a part of an ongoing conflict between the Raven Hand and a group of Shadows up around 68.4N, 66.6E.
     - Delay: 1, Tell: Also, there have been reports of Shadows and Raven Hand Cultists erecting statues to the Hopeslayer in what people refer to as the 'Valley of Death'.
     - Delay: 1, Tell: If you find any small idols or some such in their possession, my colleagues in the Knighthood would be interested in studying them. I'd say, three of them, total, would be enough to allow them to magically study them for information.
-
