@@ -51,7 +51,13 @@ Refuse: Engorged Bloodstone Shard (43273)
     - StampQuest: EmpyreanRescueCompleted_1010
     - EraseQuest: EmpyreanRescueStarted_0910
     - EraseQuest: SparklingPortalFlag_0910
-    - Goto: Rewards
+    - InqQuestBitsOn: LegendaryQuestsA, 0x10000
+        QuestSuccess:
+            - Goto: Rewards
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x10000
+            - StampQuest: LegendaryQuestCounter_0913
+            - Goto: Rewards
 
 GotoSet: Rewards, Probability: 0.14
     - AwardLevelProportionalXP: 30%, Max: 430,962,225

@@ -114,7 +114,9 @@ VALUES (0x77D6401A, 0x77D64019, '2021-12-14 05:15:31') /* Akyafi ibn Sumwar (536
      , (0x77D6401A, 0x77D6403D, '2021-12-14 05:15:31') /* Small Creepy Statue (25992) */
      , (0x77D6401A, 0x77D64043, '2021-12-14 05:15:31') /* Apprentice Alchemist (27741) */
      , (0x77D6401A, 0x77D6404D, '2021-12-14 05:15:31') /* Mara al-Luq (5179) */
-     , (0x77D6401A, 0x77D6404E, '2021-12-14 05:15:31') /* Ma'yad ibn Ibsar (5366) */;
+     , (0x77D6401A, 0x77D6404E, '2021-12-14 05:15:31') /* Ma'yad ibn Ibsar (5366) */
+     , (0x77D6401A, 0x77D64073, '2022-03-09 14:40:28') /* Arcanum Refurbisher (32085) */
+     , (0x77D6401A, 0x77D64074, '2022-03-09 14:44:24') /* Tailor's Apprentice (42737) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6401B,  8377, 0x7D640140, 91.3656, 58.5145, 12.9546, 0.707107, 0, 0, -0.707107, False, '2021-12-14 05:15:31'); /* Beer Keg */
@@ -327,3 +329,11 @@ VALUES (0x77D64071, 44207, 0x7D64001B, 78.7634, 64.2902, 15.605, 0.977384, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D64072, 87818, 0x7D64014E, 87.8971, 37.7208, 8.056, -0.175269, 0, 0, 0.984521, False, '2021-12-14 05:15:31'); /* Kim Event Gen */
 /* @teleloc 0x7D64014E [87.897102 37.720798 8.056000] -0.175269 0.000000 0.000000 0.984521 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77D64073, 32085, 0x7D64014C, 91.2676, 38.6012, 12.005, -0.174972, 0, 0, -0.984573,  True, '2022-03-09 14:40:28'); /* Arcanum Refurbisher */
+/* @teleloc 0x7D64014C [91.267601 38.601200 12.005000] -0.174972 0.000000 0.000000 -0.984573 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77D64074, 42737, 0x7D64010E, 86.6307, 139.512, 12.005, 0.170397, 0, 0, 0.985376,  True, '2022-03-09 14:44:24'); /* Tailor's Apprentice */
+/* @teleloc 0x7D64010E [86.630699 139.511993 12.005000] 0.170397 0.000000 0.000000 0.985376 */

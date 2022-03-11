@@ -33,4 +33,3 @@ Use:
 						QuestFailure:
 							- Tell: So, you wish to prove your hunting prowess? Well then. Track down and slay 10 of the terrible Polardillos for me, and I will reward you appropriately.
 							- SetQuestCompletions: PolarDilloKills, 0
-

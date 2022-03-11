@@ -292,7 +292,9 @@ VALUES (0x7A9B4052, 0x7A9B4032, '2021-11-01 00:00:00') /* Flinrala Ryndmad (5033
      , (0x7A9B4052, 0x7A9B4038, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
      , (0x7A9B4052, 0x7A9B4053, '2021-11-01 00:00:00') /* Apprentice Alchemist (27740) */
      , (0x7A9B4052, 0x7A9B405C, '2021-11-01 00:00:00') /* Worcer (5035) */
-     , (0x7A9B4052, 0x7A9B405E, '2021-11-01 00:00:00') /* Alfrin (30479) */;
+     , (0x7A9B4052, 0x7A9B405E, '2021-11-01 00:00:00') /* Alfrin (30479) */
+     , (0x7A9B4052, 0x7A9B46AB, '2022-03-09 14:34:48') /* Arcanum Refurbisher (32085) */
+     , (0x7A9B4052, 0x7A9B46AC, '2022-03-09 14:49:44') /* Tailor's Apprentice (42736) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B4053, 27740, 0xA9B4014D, 139.637, 8.1292, 97.005, -0.850506, 0, 0, -0.525965,  True, '2021-11-01 00:00:00'); /* Apprentice Alchemist */
@@ -343,8 +345,7 @@ VALUES (0x7A9B406C, 0x7A9B406B, '2021-11-01 00:00:00') /* Tirenia (30696) */
      , (0x7A9B406C, 0x7A9B4073, '2021-11-01 00:00:00') /* Alcott (44895) */
      , (0x7A9B406C, 0x7A9B4074, '2021-11-01 00:00:00') /* Pathwarden Thorolf (33596) */
      , (0x7A9B406C, 0x7A9B4075, '2021-11-01 00:00:00') /* Buckminster (44891) */
-     , (0x7A9B406C, 0x7A9B4081, '2021-11-01 00:00:00') /* Ealdred (42720) */
-     , (0x7A9B406C, 0x7DA55095, '2021-11-01 00:00:00');
+     , (0x7A9B406C, 0x7A9B4081, '2021-11-01 00:00:00') /* Ealdred (42720) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B406D, 33970, 0xA9B4001E, 72.993, 138.441, 66.005, -0.999961, 0, 0, -0.008833, False, '2021-11-01 00:00:00'); /* Dwennon */
@@ -423,3 +424,11 @@ VALUES (0x7A9B46A9, 44186, 0xA9B40162, 114.234, 35.0181, 94.005, -0.641117, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B46AA, 44190, 0xA9B40162, 113.846, 33.048, 94.005, -0.839277, 0, 0, -0.543704, False, '2021-11-01 00:00:00'); /* Gawain Cooper */
 /* @teleloc 0xA9B40162 [113.846001 33.048000 94.004997] -0.839277 0.000000 0.000000 -0.543704 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B46AB, 32085, 0xA9B40172, 159.717, 5.48342, 94.005, 0.899383, 0, 0, -0.437162,  True, '2022-03-09 14:34:48'); /* Arcanum Refurbisher */
+/* @teleloc 0xA9B40172 [159.716995 5.483420 94.004997] 0.899383 0.000000 0.000000 -0.437162 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B46AC, 42736, 0xA9B4012A, 61.1951, 135.937, 66.005, -0.730577, 0, 0, -0.68283,  True, '2022-03-09 14:49:44'); /* Tailor's Apprentice */
+/* @teleloc 0xA9B4012A [61.195099 135.936996 66.004997] -0.730577 0.000000 0.000000 -0.682830 */

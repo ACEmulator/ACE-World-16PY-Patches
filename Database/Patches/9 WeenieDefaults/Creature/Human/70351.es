@@ -18,11 +18,11 @@ Use:
             - Tell: Thank you again for your assistance. Return later, and I maybe I will have more to tell...
             - DirectBroadcast: You may complete this quest again in %tqt.
         QuestFailure:
-            - InqQuest: JournalNoteTurnInStart
+            - InqQuest: GurogCreationStarted_1110
                 QuestFailure:
                     - Tell: They tore them to shreds. Literally tore limbs from bodies!
                     - Tell: What did we do?!
-                    - StampQuest: JournalNoteTurnInStart
+                    - StampQuest: GurogCreationStarted_1110
                 QuestSuccess:
                     - DirectBroadcast: Please.. Please.. Let this horror end... Return to my any information you may find.
 
@@ -49,7 +49,7 @@ Refuse: 43517
             - DirectBroadcast: Is this all the information you've found.. there has to be more..
 
 GotoSet: OwnsAB
-    - InqQuest: JournalNoteTurnInWait_2
+    - InqQuest: JournalNoteTurnInWait
         QuestFailure:
             - TakeItems: 43520, -1
             - TakeItems: 43517, -1
