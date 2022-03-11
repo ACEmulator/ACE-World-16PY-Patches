@@ -25,7 +25,7 @@ VALUES (70048,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70048,   1, 'To My Dear Uncle') /* Name */
      , (70048,  16, 'A letter from Enrico di Bellenesse to the Duke of Bellenesse') /* LongDesc */
-     , (70048,  33, 'NoteDukeEnricoAcquired0905') /* Quest */;
+     , (70048,  33, 'enricouncle') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70048,   1, 0x02000155) /* Setup */
