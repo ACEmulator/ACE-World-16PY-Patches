@@ -27,11 +27,11 @@ Refuse: Snow Lily (30983)
                     - StampQuest: SnowLillies
                     - AwardLevelProportionalXP: 33%, 10,000 - 107,000,000
                     - Give: Snow Flake Charm (31031)
-					- InqQuest: SnowLillies
-						QuestSuccess:
-							- DirectBroadcast: You must wait %tqt to turn in more Lillies for xp.
-						QuestFailure:
-							- Motion: Ready
+                    - InqQuest: SnowLillies
+                        QuestSuccess:
+                            - DirectBroadcast: You must wait %tqt to turn in more Lillies for xp.
+                        QuestFailure:
+                            - Motion: Ready
                 TestFailure:
                     - Tell: What am I to do? The Grand Mother has placed an order for fresh Snow Lilies, but I am all out. Can you help me?
                     - Delay: 0.5, Tell: Go to the Isle of Ruin and bring me back three fresh Snow Lilies. They are very rare so you will have to search for them.
@@ -50,4 +50,3 @@ Use:
             - Delay: 1, Tell: Go to the Isle of Ruin and bring me back three fresh Snow Lilies. They are very rare so you will have to search for them.
             - Delay: 1, Tell: Be careful when picking them as they tend to attract hungry creatures.
             - Delay: 1, Tell: But I'm sure you'll have no problem dealing with the nasty monsters.
-

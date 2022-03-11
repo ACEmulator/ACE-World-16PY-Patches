@@ -20,7 +20,7 @@ Give: Fledgemaster's Tusk (29054)
             - Give: Pyreal (273), 1,000
             - Delay: 1, Tell: With your help we shall push the Ruschk off of Viamontian lands.
             - Delay: 1, Tell: Please continue your service to the king.
-		QuestFailure:
+        QuestFailure:
             - Tell: I thank you for your service to the kingdom.
             - AwardNoShareXP: 20,000
             - Give: Ruschk Hunter Leggings (29050)
@@ -40,4 +40,3 @@ Use:
             - Delay: 1, Tell: Go forth for king and country!
             - Delay: 1, Tell: Ruschk camps have been spotted on the icy beaches north of here.
             - Delay: 1, Tell: Return when you have a Fledgemaster's Tusk and you shall be handsomely rewarded.
-

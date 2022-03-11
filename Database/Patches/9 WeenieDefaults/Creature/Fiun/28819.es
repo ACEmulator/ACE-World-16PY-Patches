@@ -30,24 +30,24 @@ Use:
             - Tell: Let us hope that Abayar's sacrifice helps to undo the curse we Fiun have brought to Dereth.
             - Delay: 1, Tell: My thanks for your services. Please return to me later as I may need your assistance again.
         QuestFailure:
-			- InqQuest: spellcastingglovesactive
-				QuestSuccess:
-					- Tell: You can find Fiun Abayar at 92.1N 46.3W. Return to me with what he has spoken.
-				QuestFailure:
-					- Tell: I am Senior Sage Shibak. I welcome you, Human.
-					- Delay: 1, Tell: Tales of your great deeds have spread wide and far. Long have I awaited your arrival.
-					- Delay: 1, DirectBroadcast: Shibak stares at you silently then continues.
-					- InqIntStat: 25, 1 - 89
-						TestSuccess:
-							- Delay: 1, Tell: Please return to me when you gather more experience human.
-						TestFailure:
-							- Delay: 1, Tell: We of the Fiun have long labored to rectify that which we are the cause.
-							- Delay: 1, Tell: To that end we have dedicated our lives so our fate does not become yours.
-							- Delay: 1, Tell: That is why it is with great concern that those that would save this world have fallen silent.
-							- Delay: 1, Tell: Perhaps one such as yourself would help me?
-							- Delay: 1, Tell: Speak to Fiun Abayar and return with that which is spoken.
-							- Delay: 1, Tell: The place of which you must seek lies at 92.1N 46.3W and is barred from those not invited.
-							- Delay: 1, DirectBroadcast: Shibak touches your forehead with one finger and whispers faintly.
-							- StampQuest: spellcastingglovesactive
-							- Delay: 1, Tell: I have opened the way for you.
-							- Delay: 1, Tell: Hurry. Much importance is of the knowing.
+            - InqQuest: spellcastingglovesactive
+                QuestSuccess:
+                    - Tell: You can find Fiun Abayar at 92.1N 46.3W. Return to me with what he has spoken.
+                QuestFailure:
+                    - Tell: I am Senior Sage Shibak. I welcome you, Human.
+                    - Delay: 1, Tell: Tales of your great deeds have spread wide and far. Long have I awaited your arrival.
+                    - Delay: 1, DirectBroadcast: Shibak stares at you silently then continues.
+                    - InqIntStat: 25, 1 - 89
+                        TestSuccess:
+                            - Delay: 1, Tell: Please return to me when you gather more experience human.
+                        TestFailure:
+                            - Delay: 1, Tell: We of the Fiun have long labored to rectify that which we are the cause.
+                            - Delay: 1, Tell: To that end we have dedicated our lives so our fate does not become yours.
+                            - Delay: 1, Tell: That is why it is with great concern that those that would save this world have fallen silent.
+                            - Delay: 1, Tell: Perhaps one such as yourself would help me?
+                            - Delay: 1, Tell: Speak to Fiun Abayar and return with that which is spoken.
+                            - Delay: 1, Tell: The place of which you must seek lies at 92.1N 46.3W and is barred from those not invited.
+                            - Delay: 1, DirectBroadcast: Shibak touches your forehead with one finger and whispers faintly.
+                            - StampQuest: spellcastingglovesactive
+                            - Delay: 1, Tell: I have opened the way for you.
+                            - Delay: 1, Tell: Hurry. Much importance is of the knowing.

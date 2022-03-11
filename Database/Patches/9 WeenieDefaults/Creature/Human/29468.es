@@ -76,24 +76,24 @@ Give: Seven Habits of Effective Adventurers (29475)
 
 Use:
     - TurnToTarget
-	- InqIntStat: 25, 90 - 999
-		TestSuccess:
-			- InqQuest: OswaldManualCompleted
-				QuestSuccess:
-					- Tell: Excuse me? I believe we have already done our business. You have chased Oswald as far as he could be chased, and I have trained you in skill to reward your efforts. Please ask no more of me.
-				QuestFailure:
-					- InqQuest: ChasingOswaldViamontPrison
-						QuestSuccess:
-							- Tell: The Royal Prison is located at 92.0N, 41.6W. Please go there and see if Oswald is, indeed, in captivity.
-						QuestFailure:
-							- InqQuest: ChasingOswaldRuschkIceHold
-								QuestSuccess:
-									- Tell: You can find the Ruschk Icehold at 87.3N, 51.8W. Please go there and continue the investigation.
-								QuestFailure:
-									- InqQuest: ChasingOswaldDungeonFlag
-										QuestSuccess:
-											- Tell: I have asked you to journey into the Lugian Ice Tunnels, located at 93.3N, 50.1W , bring back any evidence of Oswald's whereabouts.
-										QuestFailure:
-											- Tell: You are new to Silyun, are you? If you are a skilled hunter, you may be of some use for me, in helping me track the most dangerous quarry of all: the assassin, Oswald! Of course, first you must prove your skill. Bring me the jaw of an Abhorrent, Ravenous, or Insatiable Eater, and we will talk of how you may help me.
-		TestFailure:
-			- Tell: Please return to me when you are better skilled.
+    - InqIntStat: 25, 90 - 999
+        TestSuccess:
+            - InqQuest: OswaldManualCompleted
+                QuestSuccess:
+                    - Tell: Excuse me? I believe we have already done our business. You have chased Oswald as far as he could be chased, and I have trained you in skill to reward your efforts. Please ask no more of me.
+                QuestFailure:
+                    - InqQuest: ChasingOswaldViamontPrison
+                        QuestSuccess:
+                            - Tell: The Royal Prison is located at 92.0N, 41.6W. Please go there and see if Oswald is, indeed, in captivity.
+                        QuestFailure:
+                            - InqQuest: ChasingOswaldRuschkIceHold
+                                QuestSuccess:
+                                    - Tell: You can find the Ruschk Icehold at 87.3N, 51.8W. Please go there and continue the investigation.
+                                QuestFailure:
+                                    - InqQuest: ChasingOswaldDungeonFlag
+                                        QuestSuccess:
+                                            - Tell: I have asked you to journey into the Lugian Ice Tunnels, located at 93.3N, 50.1W , bring back any evidence of Oswald's whereabouts.
+                                        QuestFailure:
+                                            - Tell: You are new to Silyun, are you? If you are a skilled hunter, you may be of some use for me, in helping me track the most dangerous quarry of all: the assassin, Oswald! Of course, first you must prove your skill. Bring me the jaw of an Abhorrent, Ravenous, or Insatiable Eater, and we will talk of how you may help me.
+        TestFailure:
+            - Tell: Please return to me when you are better skilled.

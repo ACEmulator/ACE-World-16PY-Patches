@@ -11,8 +11,8 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.2
     - Motion: Twitch4
 
 Give: Cave Penguin Egg (28840)
-	- TurnToTarget
-	- Goto: Reward
+    - TurnToTarget
+    - Goto: Reward
 
 Give: Great Cave Penguin Egg (28839)
     - TurnToTarget
@@ -62,4 +62,3 @@ Use:
     - Tell: What am I to do?
     - Delay: 1, Tell: Grand Mother of Silyun...she is so terribly unhappy.
     - Delay: 1, Tell: I must make something to cheer her up. But what?
-

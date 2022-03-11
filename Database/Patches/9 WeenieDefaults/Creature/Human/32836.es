@@ -1,15 +1,15 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
-	- Motion: Twitch1
+    - Motion: Twitch1
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-	- Motion: Twitch2
+    - Motion: Twitch2
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-	- Motion: Twitch3
+    - Motion: Twitch3
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.2
-	- Motion: Twitch4
-	
+    - Motion: Twitch4
+    
 Refuse: 32832
     - InqOwnsItems: 32832
         TestSuccess:
@@ -136,22 +136,22 @@ Give: Royal Runed Knuckles (33213)
     - Delay: 2, AwardLevelProportionalSkillXP: Finesse Weapons, 100%
 
 Give: Princely Runed Dolabra (32975)
-	- TurnToTarget
-	- Delay: 1, Tell: This is a well crafted item with interesting innate magical abilities. I'll be able to use this for parts. In exchange I'm granting you training in the skill of this weapon type.
-	- Delay: 2, AwardLevelProportionalSkillXP: Finesse Weapons, 100%
+    - TurnToTarget
+    - Delay: 1, Tell: This is a well crafted item with interesting innate magical abilities. I'll be able to use this for parts. In exchange I'm granting you training in the skill of this weapon type.
+    - Delay: 2, AwardLevelProportionalSkillXP: Finesse Weapons, 100%
 
 Give: Royal Runed Dolabra (33204)
-	- TurnToTarget
-	- Delay: 1, Tell: This is a well crafted item with interesting innate magical abilities. I'll be able to use this for parts. In exchange I'm granting you training in the skill of this weapon type.
-	- Delay: 2, AwardLevelProportionalSkillXP: Finesse Weapons, 100%
+    - TurnToTarget
+    - Delay: 1, Tell: This is a well crafted item with interesting innate magical abilities. I'll be able to use this for parts. In exchange I'm granting you training in the skill of this weapon type.
+    - Delay: 2, AwardLevelProportionalSkillXP: Finesse Weapons, 100%
 
 Use:
-	- TurnToTarget
-	- InqIntStat: 25, 45 - 999
-		TestSuccess:
-			- Delay: 1, Tell: Salutations, friend.
-			- Delay: 1, Tell: I wonder if you could aid me in a piece of research, for which you will be well rewarded. Recently, a sword was stolen from the Vaults of Sanamar, the Sword of Bellenesse. It is reported to be one of the most exquisite pieces of Viamontian Weaponsmithing of its time.
-			- Delay: 1, Tell: Rumor has it that the thief is hiding in a cave around 71.1 N, 50.2 W. If you could get this weapon so that I could study it, I will reward you well for your time.
-			- Delay: 1, Tell: Have a care, however. If you choose to aid me in this, you will have to find the blade before the agents of Sanamar or Silyun do so. I do not wish to get in the middle of their feud, and would not wish for you to be needlessly caught in it either. All I wish is a chance to learn from the blade.
-		TestFailure:
-			- Tell: I thank you for coming to me, alas the assistance I need requires one of greater skill than thou.
+    - TurnToTarget
+    - InqIntStat: 25, 45 - 999
+        TestSuccess:
+            - Delay: 1, Tell: Salutations, friend.
+            - Delay: 1, Tell: I wonder if you could aid me in a piece of research, for which you will be well rewarded. Recently, a sword was stolen from the Vaults of Sanamar, the Sword of Bellenesse. It is reported to be one of the most exquisite pieces of Viamontian Weaponsmithing of its time.
+            - Delay: 1, Tell: Rumor has it that the thief is hiding in a cave around 71.1 N, 50.2 W. If you could get this weapon so that I could study it, I will reward you well for your time.
+            - Delay: 1, Tell: Have a care, however. If you choose to aid me in this, you will have to find the blade before the agents of Sanamar or Silyun do so. I do not wish to get in the middle of their feud, and would not wish for you to be needlessly caught in it either. All I wish is a chance to learn from the blade.
+        TestFailure:
+            - Tell: I thank you for coming to me, alas the assistance I need requires one of greater skill than thou.
