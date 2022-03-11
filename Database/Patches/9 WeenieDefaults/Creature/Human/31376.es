@@ -1,14 +1,14 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
-	- Motion: Twitch1
+    - Motion: Twitch1
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-	- Motion: Twitch2
+    - Motion: Twitch2
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-	- Motion: Twitch3
+    - Motion: Twitch3
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-	- Motion: Twitch4
+    - Motion: Twitch4
 
 Refuse: Yaja's Reach (27300)
     - TurnToTarget
@@ -110,17 +110,17 @@ Give: Book of Xik Minru (31984)
     - Delay: 1, Tell: You have my thanks, and are warranted a reward as well for this finding.
     - AwardLevelProportionalXP: 15%, 30,000,000 - 48,724,710
     - Give: Shadow Stalker Title Token (32025)
-	- Delay: 1, Tell: If you would like to have the title Shadow Stalker bestowed upon you, simple return that token to me and I will happily make it so.
+    - Delay: 1, Tell: If you would like to have the title Shadow Stalker bestowed upon you, simple return that token to me and I will happily make it so.
     - Delay: 1, Tell: By the by, please thank Fanzen San for this translation. You should read it. It is both frightening and interesting.
     - Give: Book of Xik Minru (31985)
     - Delay: 1, Tell: Now go! Go and hunt the darkness where ever it may hide!
 
 Give: Shadow Stalker Title Token (32025)
-	- TurnToTarget
-	- Tell: Ready for your new title?
-	- AddCharacterTitle: ShadowStalker
-	- Delay: 1, DirectBroadcast: Sarkin Killcrane grants you the title Shadow Stalker.
-	- Delay: 1, Tell: Now go! Go and hunt the darkness where ever it may hide!
+    - TurnToTarget
+    - Tell: Ready for your new title?
+    - AddCharacterTitle: ShadowStalker
+    - Delay: 1, DirectBroadcast: Sarkin Killcrane grants you the title Shadow Stalker.
+    - Delay: 1, Tell: Now go! Go and hunt the darkness where ever it may hide!
 
 Give: Fragment of Yaja's Arm (87218)
     - TurnToTarget
@@ -136,4 +136,3 @@ Use:
     - Delay: 1, Tell: I tracked a heavily laden party of their agents to the Singularity Bore not but a handful of days ago.
     - Delay: 1, Tell: My Queen's orders were to find the source of the activity of the Raven Hand. My Lady did declare that I may seek the aid of others if need be.
     - Delay: 1, Tell: Travel to the Singularity Caul, seek out the Order of the Raven Hand, and find what it is that now draws those Shadow-worshipping miscreants to that island and return to me with your findings. Reports from adventurers tell of cultist campsites in the southern, eastern, and western portions of the island.
-	

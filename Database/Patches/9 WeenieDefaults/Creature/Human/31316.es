@@ -1,15 +1,15 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
-	- Motion: Twitch1
+    - Motion: Twitch1
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-	- Motion: Twitch2
+    - Motion: Twitch2
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-	- Motion: Twitch3
+    - Motion: Twitch3
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.2
-	- Motion: Twitch4
-	
+    - Motion: Twitch4
+    
 Refuse: Blood Gem of Rikt Zir (70023)
     - TurnToTarget
     - TakeItems: Blood Gem of Rikt Zir (70023), 9,999
@@ -37,4 +37,3 @@ Use:
     - Delay: 1, Tell: I tried to recover the gem myself, but was grievously injured and had to take refuge here.
     - Delay: 1, Tell: I have no choice, but to ask you to retrieve the Blood Gem for me...No. For the rebellion!
     - Delay: 1, Tell: Return the Blood Gem to me and may the Stag of Bellenesse watch over you!
-
