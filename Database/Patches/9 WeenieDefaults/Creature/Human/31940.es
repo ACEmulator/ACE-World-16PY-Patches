@@ -26,7 +26,7 @@ Give: Grazer Bug (70047)
     - Delay: 1, Tell: I'll deal with you later, Dar Rell. Thanks for your help, %tn.
     - Motion: Ready
     - AwardNoShareXP: 50,000,000
-	- Give: Trade Note (250,000) (20630), 2
+    - Give: Trade Note (250,000) (20630), 2
     - EraseQuest: BackTunnelsAccess
     - EraseQuest: TrustBetrayalBug0905
     - StampQuest: OfTrustBetrayalComplete_0511
@@ -36,19 +36,19 @@ Give: Grazer Bug (70047)
             - StampQuest: ContractQuestcounter_0511
 
 Use:
-	- TurnToTarget
-	- InqQuest: OfTrustBetrayalComplete_0511
-		QuestSuccess:
-			- Motion: Nod
-			- Tell: Thanks for your help. I can't believe Dar Rell would do such a thing!
-		QuestFailure:
-			- InqQuest: TrustBetrayalBug0905
-				QuestSuccess:
-					- Tell: Hurry and use the Back Tunnel to sneak in and find out what those Viamontian are up to.
-				QuestFailure:
-					- Tell: Those Viamontian scum are up to something! Our scouts have reported a large gathering of soldiers, but they don't seem to be doing anything. We need someone to sneak into their midst to find out what their plan is. Use the Back Tunnel to sneak in and find out what they are up to.
-					- Delay: 1, Tell: Good luck!
-					- Delay: 1, DirectBroadcast: Jedeth Eckhart lets out a mighty yell.
-					- Delay: 1, Tell: CARENZI!
-					- StampQuest: BackTunnelsAccess
-					- StampQuest: TrustBetrayalBug0905
+    - TurnToTarget
+    - InqQuest: OfTrustBetrayalComplete_0511
+        QuestSuccess:
+            - Motion: Nod
+            - Tell: Thanks for your help. I can't believe Dar Rell would do such a thing!
+        QuestFailure:
+            - InqQuest: TrustBetrayalBug0905
+                QuestSuccess:
+                    - Tell: Hurry and use the Back Tunnel to sneak in and find out what those Viamontian are up to.
+                QuestFailure:
+                    - Tell: Those Viamontian scum are up to something! Our scouts have reported a large gathering of soldiers, but they don't seem to be doing anything. We need someone to sneak into their midst to find out what their plan is. Use the Back Tunnel to sneak in and find out what they are up to.
+                    - Delay: 1, Tell: Good luck!
+                    - Delay: 1, DirectBroadcast: Jedeth Eckhart lets out a mighty yell.
+                    - Delay: 1, Tell: CARENZI!
+                    - StampQuest: BackTunnelsAccess
+                    - StampQuest: TrustBetrayalBug0905
