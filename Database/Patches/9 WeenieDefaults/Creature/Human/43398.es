@@ -100,8 +100,8 @@ Give: 44105
                             - SpendLuminance: 100,000
                             - Give: 29295
                             - StampQuest: BlankAugLuminanceTimer_0511
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                         - Tell: You do not have enough Luminance.
 
@@ -151,8 +151,8 @@ GotoSet: 43462_1
                             - StampQuest: LumAugSkillQuest
                             - Delay: 1, AwardTrainingCredits: 1
                             - Delay: 2, DirectBroadcast: You have gained a skill point!
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -168,6 +168,7 @@ GotoSet: 43462_0
                     - Delay: 2, DirectBroadcast: You have gained a skill point!
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower yourself with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -199,8 +200,9 @@ GotoSet: 49521_9
                         TestSuccess:
                             - SpendLuminance: 1,000,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -215,8 +217,9 @@ GotoSet: 49521_8
                         TestSuccess:
                             - SpendLuminance: 900,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -231,8 +234,9 @@ GotoSet: 49521_7
                         TestSuccess:
                             - SpendLuminance: 800,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -247,8 +251,9 @@ GotoSet: 49521_6
                         TestSuccess:
                             - SpendLuminance: 700,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -263,8 +268,9 @@ GotoSet: 49521_5
                         TestSuccess:
                             - SpendLuminance: 600,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -279,8 +285,9 @@ GotoSet: 49521_4
                         TestSuccess:
                             - SpendLuminance: 500,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -295,8 +302,9 @@ GotoSet: 49521_3
                         TestSuccess:
                             - SpendLuminance: 400,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -311,8 +319,10 @@ GotoSet: 49521_2
                     TestSuccess:
                         - SpendLuminance: 300,000
                         - IncrementIntStat: LumAugAllSkills
+                        - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
                     #TestFailure:
                         #- Tell: Come back when you are ready to make a decision.
+                        - DirectBroadcast: You decline to empower yourself with Luminance at this time.
             TestFailure:
                 - Tell: You do not have enough Luminance.
 
@@ -327,8 +337,9 @@ GotoSet: 49521_1
                         TestSuccess:
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -341,8 +352,9 @@ GotoSet: 49521_0
                         TestSuccess:
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugAllSkills
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -363,6 +375,7 @@ Give: 43463
                     - Give: 43472, 5
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -384,6 +397,7 @@ Give: 43464
                     - Give: 43473
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -405,6 +419,7 @@ Give: 43465
                     - Give: 43474
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -421,6 +436,7 @@ Give: 43466
                     - Give: 43475, 5
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -437,6 +453,7 @@ Give: 43467
                     - Give: 30211, 5
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -453,6 +470,7 @@ Give: 43468
                     - Give: 43477, 5
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -469,6 +487,7 @@ Give: 43469
                     - Give: 43478, 5
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the crystals with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -485,6 +504,7 @@ Give: 43470
                     - Give: 43479
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the healing kit with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -501,6 +521,7 @@ Give: 43471
                     - Give: 43504, 5
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the potions with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -517,6 +538,7 @@ Give: 52022
                     - Give: 52023
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 
@@ -533,6 +555,7 @@ Give: 52024
                     - Give: 52025
                 #TestFailure:
                     #- Tell: Come back when you are ready to make a decision.
+                    - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
 // ===================================================================
@@ -567,8 +590,8 @@ GotoSet: 43496_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugSurgeChanceRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -584,8 +607,8 @@ GotoSet: 43496_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugSurgeChanceRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -601,8 +624,8 @@ GotoSet: 43496_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugSurgeChanceRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -618,8 +641,8 @@ GotoSet: 43496_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugSurgeChanceRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -634,8 +657,8 @@ GotoSet: 43496_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugSurgeChanceRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -667,8 +690,8 @@ GotoSet: 43498_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugCritDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -684,8 +707,8 @@ GotoSet: 43498_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugCritDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -701,8 +724,8 @@ GotoSet: 43498_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugCritDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -718,8 +741,8 @@ GotoSet: 43498_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugCritDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -733,8 +756,8 @@ GotoSet: 43498_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugCritDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -768,8 +791,8 @@ GotoSet: 43499_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugCritReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -785,8 +808,8 @@ GotoSet: 43499_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugCritReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -802,8 +825,8 @@ GotoSet: 43499_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugCritReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -819,8 +842,8 @@ GotoSet: 43499_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugCritReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -834,8 +857,8 @@ GotoSet: 43499_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugCritReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -869,8 +892,8 @@ GotoSet: 43500_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -886,8 +909,8 @@ GotoSet: 43500_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -903,8 +926,8 @@ GotoSet: 43500_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -920,8 +943,8 @@ GotoSet: 43500_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -935,8 +958,8 @@ GotoSet: 43500_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -971,8 +994,8 @@ GotoSet: 43501_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugDamageReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -988,8 +1011,8 @@ GotoSet: 43501_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugDamageReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1005,8 +1028,8 @@ GotoSet: 43501_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugDamageReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1022,8 +1045,8 @@ GotoSet: 43501_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugDamageReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1037,8 +1060,8 @@ GotoSet: 43501_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugDamageReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1071,8 +1094,8 @@ GotoSet: 43502_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1088,8 +1111,8 @@ GotoSet: 43502_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1105,8 +1128,8 @@ GotoSet: 43502_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1122,8 +1145,8 @@ GotoSet: 43502_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1137,8 +1160,8 @@ GotoSet: 43502_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1174,8 +1197,8 @@ GotoSet: 43503_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1191,8 +1214,8 @@ GotoSet: 43503_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1208,8 +1231,8 @@ GotoSet: 43503_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1225,8 +1248,8 @@ GotoSet: 43503_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1240,8 +1263,8 @@ GotoSet: 43503_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1278,8 +1301,8 @@ GotoSet: 43507_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugHealingRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1295,8 +1318,8 @@ GotoSet: 43507_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugHealingRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1312,8 +1335,8 @@ GotoSet: 43507_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugHealingRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1329,8 +1352,8 @@ GotoSet: 43507_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugHealingRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1344,8 +1367,8 @@ GotoSet: 43507_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugHealingRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1380,8 +1403,8 @@ GotoSet: 43509_4
                             - SpendLuminance: 300,000
                             - IncrementIntStat: LumAugSkilledCraft
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1397,8 +1420,8 @@ GotoSet: 43509_3
                             - SpendLuminance: 250,000
                             - IncrementIntStat: LumAugSkilledCraft
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1414,8 +1437,8 @@ GotoSet: 43509_2
                             - SpendLuminance: 200,000
                             - IncrementIntStat: LumAugSkilledCraft
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1431,8 +1454,8 @@ GotoSet: 43509_1
                             - SpendLuminance: 150,000
                             - IncrementIntStat: LumAugSkilledCraft
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
@@ -1446,8 +1469,8 @@ GotoSet: 43509_0
                             - SpendLuminance: 100,000
                             - IncrementIntStat: LumAugSkilledCraft
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                        #TestFailure:
-                            #- Tell: Come back when you are ready to make a decision.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
                 TestFailure:
                     - Tell: You do not have enough Luminance.
 
