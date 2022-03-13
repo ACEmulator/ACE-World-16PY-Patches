@@ -170,8 +170,12 @@ GotoSet: PlayerRewardCheck
                             - StampQuest: GauntletRewardWait
                             - Goto: PlayerRoomCompletions
                         TestFailure:
-                            - Tell: I have reset your progress from the previous Gauntlet venture. Good luck in your next attempt!
-                            - Goto: ErasePlayerQuestFlags
+                            - InqYesNo: Are you sure you wish to have your daily progress reset so you can retry the Gauntlet?
+                                TestSuccess:
+                                    - Tell: I have reset your progress from the previous Gauntlet venture. Good luck in your next attempt!
+                                    - Goto: ErasePlayerQuestFlags
+                                TestFailure:
+                                    - Tell: If you do not want to be rewarded or be reset for another attempt, why are you bothering me?
                 QuestFailure:
                     - Goto: WelcomeText
 
