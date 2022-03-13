@@ -158,13 +158,13 @@ Use:
             - Goto: PlayerRewardCheck
 
 GotoSet: PlayerRewardCheck
-    - InqQuest: GauntletRewardWait
+    - InqQuest: GauntletStage1Complete@Cooldown
         QuestSuccess:
-            - Tell: You have already been rewarded for your venture in the Gauntlet today. You must wait %tqt to be rewarded again.
-            - Goto: ErasePlayerQuestFlags
-        QuestFailure:
-            - InqQuest: GauntletStage1Complete
+            - InqQuest: GauntletRewardWait
                 QuestSuccess:
+                    - Tell: You have already been rewarded for your venture in the Gauntlet today. You must wait %tqt to be rewarded again.
+                    - Goto: ErasePlayerQuestFlags
+                QuestFailure:
                     - InqYesNo: Do you wish to be rewarded for your previous Gauntlet venture? Select YES for your rewards or NO to be reset for another attempt to improve.
                         TestSuccess:
                             - StampQuest: GauntletRewardWait
@@ -176,8 +176,8 @@ GotoSet: PlayerRewardCheck
                                     - Goto: ErasePlayerQuestFlags
                                 TestFailure:
                                     - Tell: If you do not want to be rewarded or be reset for another attempt, why are you bothering me?
-                QuestFailure:
-                    - Goto: WelcomeText
+        QuestFailure:
+            - Goto: WelcomeText
 
 GotoSet: PlayerRoomCompletions
     - InqQuest: GauntletStage12Complete
