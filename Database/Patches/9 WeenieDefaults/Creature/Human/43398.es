@@ -149,6 +149,7 @@ GotoSet: 43462_1
                         TestSuccess:
                             - SpendLuminance: 1,000,000
                             - StampQuest: LumAugSkillQuest
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
                             - Delay: 1, AwardTrainingCredits: 1
                             - Delay: 2, DirectBroadcast: You have gained a skill point!
                         TestFailure:
@@ -164,6 +165,7 @@ GotoSet: 43462_0
                 TestSuccess:
                     - SpendLuminance: 1,000,000
                     - StampQuest: LumAugSkillQuest
+                    - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
                     - Delay: 1, AwardTrainingCredits: 1
                     - Delay: 2, DirectBroadcast: You have gained a skill point!
                 #TestFailure:
