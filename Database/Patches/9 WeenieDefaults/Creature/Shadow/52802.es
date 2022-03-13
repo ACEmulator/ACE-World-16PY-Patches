@@ -349,12 +349,12 @@ GotoSet: ErasePlayerQuestFlags
 GotoSet: PlayerHasFellow
     - InqFellowQuest: GauntletArena1RB
         QuestSuccess:
-            - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Colosseum. (%fqt)
+            - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
             - Give: Gauntlet Ticket (52796)
         QuestFailure:
             - InqFellowQuest: GauntletArena2RB
                 QuestSuccess:
-                    - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Colosseum. (%fqt)
+                    - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
                     - Give: Gauntlet Ticket (52796)
                 QuestFailure:
                     - Goto: IsPlayerInMyFaction
