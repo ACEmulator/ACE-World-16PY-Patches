@@ -90,18 +90,18 @@ Give: 44105
     - TurnToTarget:
     - InqQuest: BlankAugLuminanceTimer_0511
         QuestSuccess:
-            - Tell: Your Timer is not up.
-            - Delay: 1, DirectBroadcast: BlankAugLuminanceTimer_0511@%tqt
+            - DirectBroadcast: You may empower another Blank Augmentation Gem again in %tqt.
         QuestFailure:
             - InqInt64Stat: AvailableLuminance, 100,000
                 TestSuccess:
                     - InqYesNo: Do you wish to spend 100,000 Luminance to receive a Blank Augmentation Gem?
                         TestSuccess:
                             - SpendLuminance: 100,000
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the gem.
                             - Give: 29295
                             - StampQuest: BlankAugLuminanceTimer_0511
                         TestFailure:
-                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
+                            - DirectBroadcast: You decline to empower the gem with Luminance at this time.
                 TestFailure:
                         - Tell: You do not have enough Luminance.
 
@@ -309,22 +309,21 @@ GotoSet: 49521_3
                     - Tell: You do not have enough Luminance.
 
 GotoSet: 49521_2
-- InqIntStat: LumAugAllSkills, 2
-    TestFailure:
-        - Goto: 49521_1
-    TestSuccess:
-        - InqInt64Stat: AvailableLuminance, 300,000
-            TestSuccess:
-                - InqYesNo: Do you wish to spend 300,000 Luminance to increase your Aura of the World?
-                    TestSuccess:
-                        - SpendLuminance: 300,000
-                        - IncrementIntStat: LumAugAllSkills
-                        - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-                    #TestFailure:
-                        #- Tell: Come back when you are ready to make a decision.
-                        - DirectBroadcast: You decline to empower yourself with Luminance at this time.
-            TestFailure:
-                - Tell: You do not have enough Luminance.
+    - InqIntStat: LumAugAllSkills, 2
+        TestFailure:
+            - Goto: 49521_1
+        TestSuccess:
+            - InqInt64Stat: AvailableLuminance, 300,000
+                TestSuccess:
+                    - InqYesNo: Do you wish to spend 300,000 Luminance to increase your Aura of the World?
+                        TestSuccess:
+                            - SpendLuminance: 300,000
+                            - IncrementIntStat: LumAugAllSkills
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
+                        TestFailure:
+                            - DirectBroadcast: You decline to empower yourself with Luminance at this time.
+                TestFailure:
+                    - Tell: You do not have enough Luminance.
 
 GotoSet: 49521_1
     - InqIntStat: LumAugAllSkills, 1
@@ -373,8 +372,7 @@ Give: 43463
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the pearls.
                     - Give: 43472, 5
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -395,8 +393,7 @@ Give: 43464
                     - SpendLuminance: 5,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the crystal.
                     - Give: 43473
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -417,8 +414,7 @@ Give: 43465
                     - SpendLuminance: 5,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the crystal.
                     - Give: 43474
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -434,8 +430,7 @@ Give: 43466
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the pearls.
                     - Give: 43475, 5
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -451,8 +446,7 @@ Give: 43467
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the pearls.
                     - Give: 30211, 5
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -468,8 +462,7 @@ Give: 43468
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the pearls.
                     - Give: 43477, 5
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -485,8 +478,7 @@ Give: 43469
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the crystals.
                     - Give: 43478, 5
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the crystals with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -502,8 +494,7 @@ Give: 43470
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the healing kit.
                     - Give: 43479
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the healing kit with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -519,8 +510,7 @@ Give: 43471
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the potions.
                     - Give: 43504, 5
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the potions with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -536,8 +526,7 @@ Give: 52022
                     - SpendLuminance: 10,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the crystal.
                     - Give: 52023
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -553,8 +542,7 @@ Give: 52024
                     - SpendLuminance: 10,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the crystal.
                     - Give: 52025
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower the crystal with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
