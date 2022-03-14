@@ -40,10 +40,14 @@ Refuse: Red Society Band (52785)
     - Tell: You do not wish to keep this ring Champion?
     - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
-            - TakeItems: 52785, 1
-            - Tell: Very well, then take this knowledge instead.
-            - Delay: 1, AwardLuminance: 10,000
-            - Give: Gauntlet Coin (52797), 2
+            - InqOwnsItems: Red Society Band (52785), 1
+                TestSuccess:
+                    - TakeItems: 52785, 1
+                    - Tell: Very well, then take this knowledge instead.
+                    - Delay: 1, AwardLuminance: 10,000
+                    - Give: Gauntlet Coin (52797), 2
+                TestFailure:
+                    - Tell: Do not try to cheat me.
         TestFailure:
             - Tell: Very well.
 
@@ -51,10 +55,14 @@ Refuse: Green Society Band (52786)
     - Tell: You do not wish to keep this ring Champion?
     - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
-            - TakeItems: 52786, 1
-            - Tell: Very well, then take this knowledge instead.
-            - Delay: 1, AwardLuminance: 10,000
-            - Give: Gauntlet Coin (52797), 2
+            - InqOwnsItems: Green Society Band (52786), 1
+                TestSuccess:
+                    - TakeItems: 52786, 1
+                    - Tell: Very well, then take this knowledge instead.
+                    - Delay: 1, AwardLuminance: 10,000
+                    - Give: Gauntlet Coin (52797), 2
+                TestFailure:
+                    - Tell: Do not try to cheat me.
         TestFailure:
             - Tell: Very well.
 
@@ -62,10 +70,14 @@ Refuse: Purple Society Band (52789)
     - Tell: You do not wish to keep this ring Champion?
     - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
-            - TakeItems: 52789, 1
-            - Tell: Very well, then take this knowledge instead.
-            - Delay: 1, AwardLuminance: 10,000
-            - Give: Gauntlet Coin (52797), 2
+            - InqOwnsItems: Purple Society Band (52789), 1
+                TestSuccess:
+                    - TakeItems: 52789, 1
+                    - Tell: Very well, then take this knowledge instead.
+                    - Delay: 1, AwardLuminance: 10,000
+                    - Give: Gauntlet Coin (52797), 2
+                TestFailure:
+                    - Tell: Do not try to cheat me.
         TestFailure:
             - Tell: Very well.
 
@@ -73,10 +85,14 @@ Refuse: Blue Society Band (52790)
     - Tell: You do not wish to keep this ring Champion?
     - InqYesNo: Exchange Society Band for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
-            - TakeItems: 52790, 1
-            - Tell: Very well, then take this knowledge instead.
-            - Delay: 1, AwardLuminance: 10,000
-            - Give: Gauntlet Coin (52797), 2
+            - InqOwnsItems: Blue Society Band (52790), 1
+                TestSuccess:
+                    - TakeItems: 52790, 1
+                    - Tell: Very well, then take this knowledge instead.
+                    - Delay: 1, AwardLuminance: 10,000
+                    - Give: Gauntlet Coin (52797), 2
+                TestFailure:
+                    - Tell: Do not try to cheat me.
         TestFailure:
             - Tell: Very well.
 
@@ -84,10 +100,14 @@ Refuse: Brown Society Locket (52787)
     - Tell: You do not wish to keep this locket Champion?
     - InqYesNo: Exchange Society Locket for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
-            - TakeItems: 52787, 1
-            - Tell: Very well, then take this knowledge instead.
-            - Delay: 1, AwardLuminance: 10,000
-            - Give: Gauntlet Coin (52797), 2
+            - InqOwnsItems: Brown Society Locket (52787), 1
+                TestSuccess:
+                    - TakeItems: 52787, 1
+                    - Tell: Very well, then take this knowledge instead.
+                    - Delay: 1, AwardLuminance: 10,000
+                    - Give: Gauntlet Coin (52797), 2
+                TestFailure:
+                    - Tell: Do not try to cheat me.
         TestFailure:
             - Tell: Very well.
 
@@ -95,10 +115,14 @@ Refuse: Yellow Society Locket (52788)
     - Tell: You do not wish to keep this locket Champion?
     - InqYesNo: Exchange Society Locket for ten thousand Luminance and two Gauntlet Coins?
         TestSuccess:
-            - TakeItems: 52788, 1
-            - Tell: Very well, then take this knowledge instead.
-            - Delay: 1, AwardLuminance: 10,000
-            - Give: Gauntlet Coin (52797), 2
+            - InqOwnsItems: Yellow Society Locket (52788), 1
+                TestSuccess:
+                    - TakeItems: 52788, 1
+                    - Tell: Very well, then take this knowledge instead.
+                    - Delay: 1, AwardLuminance: 10,000
+                    - Give: Gauntlet Coin (52797), 2
+                TestFailure:
+                    - Tell: Do not try to cheat me.
         TestFailure:
             - Tell: Very well.
 
