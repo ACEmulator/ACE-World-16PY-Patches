@@ -8,9 +8,7 @@ VALUES (34889,   1,        128) /* ItemType - Misc */
      , (34889,   5,         10) /* EncumbranceVal */
      , (34889,  16,          1) /* ItemUseable - No */
      , (34889,  19,       5000) /* Value */
-     , (34889,  33,          1) /* Bonded - Bonded */
-     , (34889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34889, 114,          1) /* Attuned - Attuned */;
+     , (34889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34889,  22, True ) /* Inscribable */
