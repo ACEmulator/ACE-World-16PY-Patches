@@ -44,8 +44,8 @@ VALUES (52709,   1,       5) /* HeartbeatInterval */
      , (52709,  36,       1) /* ChargeSpeed */
      , (52709,  64,    0.53) /* ResistSlash */
      , (52709,  65,    0.55) /* ResistPierce */
-     , (52709,  66,     0.5) /* ResistBludgeon */
-     , (52709,  67,    0.85) /* ResistFire */
+     , (52709,  66,    0.81) /* ResistBludgeon */
+     , (52709,  67,    0.65) /* ResistFire */
      , (52709,  68,     0.5) /* ResistCold */
      , (52709,  69,     0.7) /* ResistAcid */
      , (52709,  70,     0.5) /* ResistElectric */
@@ -95,9 +95,9 @@ VALUES (52709,  6, 0, 3, 0, 377, 0, 0) /* MeleeDefense        Specialized */
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (52709,  0,  1, 175, 0.75,  490,  425,  473,  477,  485,  385,  453,  485,    0, 1,  0.7, 0.34,    0,  0.7, 0.34,    0,    0,    0,    0,    0,    0,    0) /* Head */
      , (52709,  9,  1, 175, 0.75,  490,  425,  473,  477,  485,  385,  453,  485,    0, 1,  0.3, 0.33,    0,  0.3, 0.33,    0,    0,    0,    0,    0,    0,    0) /* Horn */
-     , (52709, 16,  1, 175,  0.5,  390,  325,  373,  337,  385,  215,  353,  385,    0, 2,    0, 0.33,  0.3,    0, 0.33,  0.3,  0.5, 0.34,  0.3,  0.5, 0.34,  0.3) /* Torso */
-     , (52709, 17,  4,  0,    0,  390,  325,  373,  337,  385,  215,  353,  385,    0, 2,    0,    0,    0,    0,    0,    0,  0.5, 0.33,    0,  0.5, 0.33,    0) /* Tail */
-     , (52709, 19,  4,  0,    0,  390,  325,  373,  337,  385,  215,  353,  385,    0, 3,    0,    0,  0.7,    0,    0,  0.7,    0, 0.33,  0.7,    0, 0.33,  0.7) /* Leg */;
+     , (52709, 16,  1, 175,  0.5,  390,  325,  373,  317,  385,  415,  353,  385,    0, 2,    0, 0.33,  0.3,    0, 0.33,  0.3,  0.5, 0.34,  0.3,  0.5, 0.34,  0.3) /* Torso */
+     , (52709, 17,  4,  0,    0,  390,  325,  373,  317,  385,  415,  353,  385,    0, 2,    0,    0,    0,    0,    0,    0,  0.5, 0.33,    0,  0.5, 0.33,    0) /* Tail */
+     , (52709, 19,  4,  0,    0,  390,  325,  373,  317,  385,  415,  353,  385,    0, 3,    0,    0,  0.7,    0,    0,  0.7,    0, 0.33,  0.7,    0, 0.33,  0.7) /* Leg */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52709,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
