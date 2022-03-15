@@ -84,11 +84,11 @@ VALUES (52714,   1,  3550, 0, 0, 3800) /* MaxHealth */
      , (52714,   5,     0, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52714,  6, 0, 2, 0, 365, 0, 0) /* MeleeDefense        Trained */
-     , (52714,  7, 0, 2, 0, 265, 0, 0) /* MissileDefense      Trained */
-     , (52714, 15, 0, 2, 0, 244, 0, 0) /* MagicDefense        Trained */
+VALUES (52714,  6, 0, 2, 0, 395, 0, 0) /* MeleeDefense        Trained */
+     , (52714,  7, 0, 2, 0, 305, 0, 0) /* MissileDefense      Trained */
+     , (52714, 15, 0, 2, 0, 315, 0, 0) /* MagicDefense        Trained */
      , (52714, 44, 0, 2, 0, 383, 0, 0) /* HeavyWeapons        Trained */
-     , (52714, 45, 0, 2, 0, 383, 0, 0) /* LightWeapons        Trained */
+     , (52714, 45, 0, 2, 0, 420, 0, 0) /* LightWeapons        Trained */
      , (52714, 46, 0, 2, 0, 333, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

@@ -91,15 +91,15 @@ VALUES (52710,   1, 11600, 0, 0, 11775) /* MaxHealth */
      , (52710,   5,  6200, 0, 0, 6680) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52710,  6, 0, 3, 0, 333, 0, 0) /* MeleeDefense        Specialized */
-     , (52710,  7, 0, 3, 0, 245, 0, 0) /* MissileDefense      Specialized */
+VALUES (52710,  6, 0, 3, 0, 355, 0, 0) /* MeleeDefense        Specialized */
+     , (52710,  7, 0, 3, 0, 299, 0, 0) /* MissileDefense      Specialized */
      , (52710, 14, 0, 3, 0, 260, 0, 0) /* ArcaneLore          Specialized */
-     , (52710, 15, 0, 3, 0, 237, 0, 0) /* MagicDefense        Specialized */
+     , (52710, 15, 0, 3, 0, 265, 0, 0) /* MagicDefense        Specialized */
      , (52710, 20, 0, 3, 0, 300, 0, 0) /* Deception           Specialized */
-     , (52710, 31, 0, 3, 0, 340, 0, 0) /* CreatureEnchantment Specialized */
-     , (52710, 32, 0, 3, 0, 340, 0, 0) /* ItemEnchantment     Specialized */
-     , (52710, 33, 0, 3, 0, 340, 0, 0) /* LifeMagic           Specialized */
-     , (52710, 34, 0, 3, 0, 340, 0, 0) /* WarMagic            Specialized */
+     , (52710, 31, 0, 3, 0, 365, 0, 0) /* CreatureEnchantment Specialized */
+     , (52710, 32, 0, 3, 0, 365, 0, 0) /* ItemEnchantment     Specialized */
+     , (52710, 33, 0, 3, 0, 365, 0, 0) /* LifeMagic           Specialized */
+     , (52710, 34, 0, 3, 0, 395, 0, 0) /* WarMagic            Specialized */
      , (52710, 45, 0, 3, 0, 343, 0, 0) /* LightWeapons        Specialized */
      , (52710, 51, 0, 3, 0, 333, 0, 0) /* SneakAttack         Specialized */;
 

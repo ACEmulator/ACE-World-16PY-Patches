@@ -12,7 +12,7 @@ VALUES (46695,   1,          1) /* ItemType - MeleeWeapon */
      , (46695,  16,          1) /* ItemUseable - No */
      , (46695,  19,        460) /* Value */
      , (46695,  33,         -2) /* Bonded - Destroy */
-     , (46695,  44,         80) /* Damage */
+     , (46695,  44,        300) /* Damage */
      , (46695,  45,          3) /* DamageType - Slash, Pierce */
      , (46695,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (46695,  47,          6) /* AttackType - Thrust, Slash */

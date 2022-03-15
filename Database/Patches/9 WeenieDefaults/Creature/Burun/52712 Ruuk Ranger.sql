@@ -96,7 +96,7 @@ VALUES (52712,  6, 0, 3, 0, 433, 0, 0) /* MeleeDefense        Specialized */
      , (52712, 20, 0, 3, 0, 500, 0, 0) /* Deception           Specialized */
      , (52712, 24, 0, 3, 0, 600, 0, 0) /* Run                 Specialized */
      , (52712, 44, 0, 3, 0, 433, 0, 0) /* HeavyWeapons        Specialized */
-     , (52712, 45, 0, 3, 0, 433, 0, 0) /* LightWeapons        Specialized */
+     , (52712, 45, 0, 3, 0, 475, 0, 0) /* LightWeapons        Specialized */
      , (52712, 46, 0, 3, 0, 403, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -175,7 +175,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52712, 18 /* Scream */,  0.035, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (52712, 15 /* WoundedTaunt */,  0.145, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

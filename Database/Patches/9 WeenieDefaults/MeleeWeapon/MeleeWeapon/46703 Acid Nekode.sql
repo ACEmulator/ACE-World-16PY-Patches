@@ -13,7 +13,7 @@ VALUES (46703,   1,          1) /* ItemType - MeleeWeapon */
      , (46703,  18,        256) /* UiEffects - Acid */
      , (46703,  19,        125) /* Value */
      , (46703,  33,         -2) /* Bonded - Destroy */
-     , (46703,  44,         34) /* Damage */
+     , (46703,  44,        600) /* Damage */
      , (46703,  45,         32) /* DamageType - Acid */
      , (46703,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (46703,  47,          1) /* AttackType - Punch */

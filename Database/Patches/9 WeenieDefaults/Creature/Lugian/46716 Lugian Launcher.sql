@@ -85,13 +85,13 @@ VALUES (46716,   1, 21500, 0, 0, 21670) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46716,  6, 0, 3, 0, 330, 0, 0) /* MeleeDefense        Specialized */
-     , (46716,  7, 0, 3, 0, 255, 0, 0) /* MissileDefense      Specialized */
-     , (46716, 15, 0, 3, 0, 225, 0, 0) /* MagicDefense        Specialized */
+     , (46716,  7, 0, 3, 0, 305, 0, 0) /* MissileDefense      Specialized */
+     , (46716, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
      , (46716, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
      , (46716, 22, 0, 2, 0, 462, 0, 0) /* Jump                Trained */
      , (46716, 24, 0, 2, 0, 425, 0, 0) /* Run                 Trained */
      , (46716, 45, 0, 3, 0, 342, 0, 0) /* LightWeapons        Specialized */
-     , (46716, 47, 0, 3, 0, 273, 0, 0) /* MissileWeapons      Specialized */;
+     , (46716, 47, 0, 3, 0, 333, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46716,  0,  4,  0,    0,  350,  400,  387,  400,  413,  413,  400,  317,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
