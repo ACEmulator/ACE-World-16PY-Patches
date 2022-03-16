@@ -33,6 +33,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52790,  22, True ) /* Inscribable */
      , (52790,  23, True ) /* DestroyOnSell */
      , (52790,  69, False) /* IsSellable */
+     , (52790,  84, True ) /* IgnoreCloIcons */
      , (52790,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
