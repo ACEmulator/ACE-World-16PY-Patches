@@ -89,9 +89,9 @@ VALUES (52777,   1, 52500, 0, 0, 53000) /* MaxHealth */
      , (52777,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52777,  6, 0, 2, 0, 417, 0, 0) /* MeleeDefense        Trained */
-     , (52777,  7, 0, 2, 0, 295, 0, 0) /* MissileDefense      Trained */
-     , (52777, 15, 0, 2, 0, 247, 0, 0) /* MagicDefense        Trained */
+VALUES (52777,  6, 0, 2, 0, 617, 0, 0) /* MeleeDefense        Trained */
+     , (52777,  7, 0, 2, 0, 495, 0, 0) /* MissileDefense      Trained */
+     , (52777, 15, 0, 2, 0, 447, 0, 0) /* MagicDefense        Trained */
      , (52777, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52777, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52777, 34, 0, 2, 0, 338, 0, 0) /* WarMagic            Trained */
@@ -113,9 +113,9 @@ VALUES (52777,  0,  4,  0,    0,  350,  400,  400,  400,  400,  400,  280,  300,
      , (52777,  8,  4, 110,  0.4,  350,  400,  400,  400,  400,  400,  280,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52777,  4312,   2.15)  /* Incantation of Imperil Other */
-     , (52777,  4432,   2.15)  /* Incantation of Acid Streak */
-     , (52777,  4473,   2.15)  /* Incantation of Acid Vulnerability Other */;
+VALUES (52777,  4312,   2.35)  /* Incantation of Imperil Other */
+     , (52777,  4432,   2.35)  /* Incantation of Acid Streak */
+     , (52777,  4473,   2.25)  /* Incantation of Acid Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52777, 2, 41250,  1, 0, 0, False) /* Create Acid Gearknight Greatsword (41250) for Wield */;

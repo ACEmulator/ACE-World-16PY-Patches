@@ -94,14 +94,14 @@ VALUES (52780,   1, 12755, 0, 0, 12980) /* MaxHealth */
      , (52780,   5,  1300, 0, 0, 1620) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52780,  6, 0, 3, 0, 373, 0, 0) /* MeleeDefense        Specialized */
-     , (52780,  7, 0, 3, 0, 274, 0, 0) /* MissileDefense      Specialized */
-     , (52780, 15, 0, 3, 0, 205, 0, 0) /* MagicDefense        Specialized */
+VALUES (52780,  6, 0, 3, 0, 513, 0, 0) /* MeleeDefense        Specialized */
+     , (52780,  7, 0, 3, 0, 574, 0, 0) /* MissileDefense      Specialized */
+     , (52780, 15, 0, 3, 0, 505, 0, 0) /* MagicDefense        Specialized */
      , (52780, 20, 0, 2, 0, 400, 0, 0) /* Deception           Trained */
-     , (52780, 31, 0, 3, 0, 300, 0, 0) /* CreatureEnchantment Specialized */
-     , (52780, 33, 0, 3, 0, 300, 0, 0) /* LifeMagic           Specialized */
-     , (52780, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */
-     , (52780, 45, 0, 3, 0, 407, 0, 0) /* LightWeapons        Specialized */;
+     , (52780, 31, 0, 3, 0, 400, 0, 0) /* CreatureEnchantment Specialized */
+     , (52780, 33, 0, 3, 0, 400, 0, 0) /* LifeMagic           Specialized */
+     , (52780, 34, 0, 3, 0, 400, 0, 0) /* WarMagic            Specialized */
+     , (52780, 45, 0, 3, 0, 477, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (52780,  0,  4,  5,    0,  350,  342,  280,  280,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
@@ -114,8 +114,8 @@ VALUES (52780,  0,  4,  5,    0,  350,  342,  280,  280,  350,  350,  385,  350,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52780,  4633,   2.15)  /* Incantation of Vulnerability Other */
      , (52780,  1788,   2.02)  /* Eye of the Storm */
-     , (52780,  4452,   2.15)  /* Incantation of Lightning Streak */
-     , (52780,  4483,   2.02)  /* Incantation of Lightning Vulnerability Other */;
+     , (52780,  4452,   2.19)  /* Incantation of Lightning Streak */
+     , (52780,  4483,    2.2)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52780,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

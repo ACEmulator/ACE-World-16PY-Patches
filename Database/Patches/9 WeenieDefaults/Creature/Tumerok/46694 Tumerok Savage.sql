@@ -93,19 +93,19 @@ VALUES (46694,   1, 81850, 0, 0, 82000) /* MaxHealth */
      , (46694,   5,  5650, 0, 0, 6000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46694,  6, 0, 3, 0, 415, 0, 0) /* MeleeDefense        Specialized */
-     , (46694,  7, 0, 3, 0, 305, 0, 0) /* MissileDefense      Specialized */
-     , (46694, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+VALUES (46694,  6, 0, 3, 0, 515, 0, 0) /* MeleeDefense        Specialized */
+     , (46694,  7, 0, 3, 0, 425, 0, 0) /* MissileDefense      Specialized */
+     , (46694, 15, 0, 3, 0, 450, 0, 0) /* MagicDefense        Specialized */
      , (46694, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (46694, 24, 0, 3, 0, 425, 0, 0) /* Run                 Specialized */
-     , (46694, 31, 0, 3, 0, 327, 0, 0) /* CreatureEnchantment Specialized */
-     , (46694, 32, 0, 3, 0, 327, 0, 0) /* ItemEnchantment     Specialized */
-     , (46694, 33, 0, 3, 0, 333, 0, 0) /* LifeMagic           Specialized */
-     , (46694, 34, 0, 3, 0, 333, 0, 0) /* WarMagic            Specialized */
+     , (46694, 31, 0, 3, 0, 427, 0, 0) /* CreatureEnchantment Specialized */
+     , (46694, 32, 0, 3, 0, 427, 0, 0) /* ItemEnchantment     Specialized */
+     , (46694, 33, 0, 3, 0, 433, 0, 0) /* LifeMagic           Specialized */
+     , (46694, 34, 0, 3, 0, 433, 0, 0) /* WarMagic            Specialized */
      , (46694, 44, 0, 3, 0, 505, 0, 0) /* HeavyWeapons        Specialized */
      , (46694, 45, 0, 3, 0, 495, 0, 0) /* LightWeapons        Specialized */
      , (46694, 46, 0, 3, 0, 325, 0, 0) /* FinesseWeapons      Specialized */
-     , (46694, 48, 0, 3, 0, 365, 0, 0) /* Shield              Specialized */;
+     , (46694, 48, 0, 3, 0, 405, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46694,  0,  4,  0,    0,  295,  340,  330,  430,  430,  430,  430,  230,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -119,11 +119,11 @@ VALUES (46694,  0,  4,  0,    0,  295,  340,  330,  430,  430,  430,  430,  230,
      , (46694,  8,  4,  3, 0.75,  285,  240,  230,  430,  430,  430,  430,  230,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46694,  4485,  2.015)  /* Incantation of Piercing Vulnerability Other */
-     , (46694,  4312,  2.015)  /* Incantation of Imperil Other */
-     , (46694,  4422,  2.015)  /* Incantation of Blade Arc */
-     , (46694,  4424,  2.015)  /* Incantation of Force Arc */
-     , (46694,  4475,  2.015)  /* Incantation of Blade Vulnerability Other */
+VALUES (46694,  4485,  2.042)  /* Incantation of Piercing Vulnerability Other */
+     , (46694,  4312,  2.023)  /* Incantation of Imperil Other */
+     , (46694,  4422,  2.043)  /* Incantation of Blade Arc */
+     , (46694,  4424,  2.044)  /* Incantation of Force Arc */
+     , (46694,  4475,  2.045)  /* Incantation of Blade Vulnerability Other */
      , (46694,  1160,  2.009)  /* Heal Self V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

@@ -89,13 +89,13 @@ VALUES (46690,   1, 154560, 0, 0, 156310) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46690,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
-     , (46690,  7, 0, 3, 0, 295, 0, 0) /* MissileDefense      Specialized */
-     , (46690, 15, 0, 3, 0, 273, 0, 0) /* MagicDefense        Specialized */
+     , (46690,  7, 0, 3, 0, 325, 0, 0) /* MissileDefense      Specialized */
+     , (46690, 15, 0, 3, 0, 305, 0, 0) /* MagicDefense        Specialized */
      , (46690, 20, 0, 3, 0, 500, 0, 0) /* Deception           Specialized */
      , (46690, 24, 0, 3, 0, 450, 0, 0) /* Run                 Specialized */
-     , (46690, 31, 0, 3, 0, 350, 0, 0) /* CreatureEnchantment Specialized */
-     , (46690, 33, 0, 3, 0, 350, 0, 0) /* LifeMagic           Specialized */
-     , (46690, 34, 0, 3, 0, 350, 0, 0) /* WarMagic            Specialized */
+     , (46690, 31, 0, 3, 0, 415, 0, 0) /* CreatureEnchantment Specialized */
+     , (46690, 33, 0, 3, 0, 415, 0, 0) /* LifeMagic           Specialized */
+     , (46690, 34, 0, 3, 0, 415, 0, 0) /* WarMagic            Specialized */
      , (46690, 44, 0, 3, 0, 515, 0, 0) /* HeavyWeapons        Specialized */
      , (46690, 45, 0, 3, 0, 513, 0, 0) /* LightWeapons        Specialized */
      , (46690, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */;

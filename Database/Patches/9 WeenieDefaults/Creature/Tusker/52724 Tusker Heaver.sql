@@ -92,16 +92,16 @@ VALUES (52724,   1,  3100, 0, 0, 3325) /* MaxHealth */
      , (52724,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52724,  6, 0, 3, 0, 317, 0, 0) /* MeleeDefense        Specialized */
-     , (52724,  7, 0, 3, 0, 233, 0, 0) /* MissileDefense      Specialized */
-     , (52724, 15, 0, 3, 0, 177, 0, 0) /* MagicDefense        Specialized */
+VALUES (52724,  6, 0, 3, 0, 517, 0, 0) /* MeleeDefense        Specialized */
+     , (52724,  7, 0, 3, 0, 633, 0, 0) /* MissileDefense      Specialized */
+     , (52724, 15, 0, 3, 0, 677, 0, 0) /* MagicDefense        Specialized */
      , (52724, 20, 0, 3, 0, 250, 0, 0) /* Deception           Specialized */
      , (52724, 22, 0, 3, 0, 465, 0, 0) /* Jump                Specialized */
      , (52724, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */
      , (52724, 31, 0, 3, 0, 265, 0, 0) /* CreatureEnchantment Specialized */
      , (52724, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
      , (52724, 45, 0, 3, 0, 343, 0, 0) /* LightWeapons        Specialized */
-     , (52724, 47, 0, 3, 0, 295, 0, 0) /* MissileWeapons      Specialized */;
+     , (52724, 47, 0, 3, 0, 395, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (52724,  0,  4,  0,    0,  350,  575,  340,  563,  950,  285,  550,  550,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -115,7 +115,7 @@ VALUES (52724,  0,  4,  0,    0,  350,  575,  340,  563,  950,  285,  550,  550,
      , (52724,  8,  4, 95, 0.75,  350,  575,  340,  563,  950,  285,  550,  550,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52724,  4312,   2.04)  /* Incantation of Imperil Other */;
+VALUES (52724,  4312,   2.44)  /* Incantation of Imperil Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52724,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

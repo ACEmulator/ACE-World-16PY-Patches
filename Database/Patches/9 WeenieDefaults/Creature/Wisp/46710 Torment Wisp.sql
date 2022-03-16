@@ -86,10 +86,10 @@ VALUES (46710,   1, 29200, 0, 0, 29325) /* MaxHealth */
      , (46710,   5,  7000, 0, 0, 7490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46710,  6, 0, 3, 0, 383, 0, 0) /* MeleeDefense        Specialized */
-     , (46710,  7, 0, 3, 0, 315, 0, 0) /* MissileDefense      Specialized */
+VALUES (46710,  6, 0, 3, 0, 505, 0, 0) /* MeleeDefense        Specialized */
+     , (46710,  7, 0, 3, 0, 615, 0, 0) /* MissileDefense      Specialized */
      , (46710, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
-     , (46710, 15, 0, 3, 0, 305, 0, 0) /* MagicDefense        Specialized */
+     , (46710, 15, 0, 3, 0, 605, 0, 0) /* MagicDefense        Specialized */
      , (46710, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (46710, 24, 0, 3, 0, 600, 0, 0) /* Run                 Specialized */
      , (46710, 31, 0, 3, 0, 385, 0, 0) /* CreatureEnchantment Specialized */
@@ -106,13 +106,13 @@ VALUES (46710,  0, 32, 150,  0.5,  700,  220,  225,  345,  450, 3000,  492,  450
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46710,  1789,   2.15)  /* Tectonic Rifts */
-     , (46710,  4425,   2.15)  /* Incantation of Frost Arc */
-     , (46710,  4479,   2.17)  /* Incantation of Cold Vulnerability Other */
+     , (46710,  4425,   2.25)  /* Incantation of Frost Arc */
+     , (46710,  4479,   2.27)  /* Incantation of Cold Vulnerability Other */
      , (46710,  1784,   2.17)  /* Horizon's Blades */
      , (46710,  3950,   2.17)  /* Frost Wave */
-     , (46710,  4475,    2.1)  /* Incantation of Blade Vulnerability Other */
-     , (46710,  4427,   2.17)  /* Incantation of Shock Arc */
-     , (46710,  4422,   2.17)  /* Incantation of Blade Arc */
+     , (46710,  4475,   2.21)  /* Incantation of Blade Vulnerability Other */
+     , (46710,  4427,   2.27)  /* Incantation of Shock Arc */
+     , (46710,  4422,   2.27)  /* Incantation of Blade Arc */
      , (46710,  1787,   2.17)  /* Halo of Frost */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

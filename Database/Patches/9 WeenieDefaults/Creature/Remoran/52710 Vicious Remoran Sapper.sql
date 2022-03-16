@@ -91,10 +91,10 @@ VALUES (52710,   1, 11600, 0, 0, 11775) /* MaxHealth */
      , (52710,   5,  6200, 0, 0, 6680) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52710,  6, 0, 3, 0, 355, 0, 0) /* MeleeDefense        Specialized */
-     , (52710,  7, 0, 3, 0, 299, 0, 0) /* MissileDefense      Specialized */
+VALUES (52710,  6, 0, 3, 0, 515, 0, 0) /* MeleeDefense        Specialized */
+     , (52710,  7, 0, 3, 0, 610, 0, 0) /* MissileDefense      Specialized */
      , (52710, 14, 0, 3, 0, 260, 0, 0) /* ArcaneLore          Specialized */
-     , (52710, 15, 0, 3, 0, 265, 0, 0) /* MagicDefense        Specialized */
+     , (52710, 15, 0, 3, 0, 605, 0, 0) /* MagicDefense        Specialized */
      , (52710, 20, 0, 3, 0, 300, 0, 0) /* Deception           Specialized */
      , (52710, 31, 0, 3, 0, 365, 0, 0) /* CreatureEnchantment Specialized */
      , (52710, 32, 0, 3, 0, 365, 0, 0) /* ItemEnchantment     Specialized */
@@ -112,8 +112,8 @@ VALUES (52710,  0,  2, 130,  0.5,  425,  595,  638,  340,  455,  404,  419,  476
      , (52710, 21,  4,  0,    0,  425,  595,  638,  340,  455,  404,  419,  476,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52710,  4597,   2.21)  /* Incantation of Magic Yield Other */
-     , (52710,  4457,   2.22)  /* Incantation of Whirling Blade */
-     , (52710,  4485,   2.23)  /* Incantation of Piercing Vulnerability Other */
-     , (52710,  4475,   2.24)  /* Incantation of Blade Vulnerability Other */
+VALUES (52710,  4597,   2.51)  /* Incantation of Magic Yield Other */
+     , (52710,  4457,   2.62)  /* Incantation of Whirling Blade */
+     , (52710,  4485,   2.73)  /* Incantation of Piercing Vulnerability Other */
+     , (52710,  4475,   2.84)  /* Incantation of Blade Vulnerability Other */
      , (52710,  4443,      3)  /* Incantation of Force Bolt */;

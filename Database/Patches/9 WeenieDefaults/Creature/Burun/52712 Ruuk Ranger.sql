@@ -91,8 +91,8 @@ VALUES (52712,   1, 109625, 0, 0, 110375) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52712,  6, 0, 3, 0, 433, 0, 0) /* MeleeDefense        Specialized */
-     , (52712,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
-     , (52712, 15, 0, 3, 0, 297, 0, 0) /* MagicDefense        Specialized */
+     , (52712,  7, 0, 3, 0, 550, 0, 0) /* MissileDefense      Specialized */
+     , (52712, 15, 0, 3, 0, 495, 0, 0) /* MagicDefense        Specialized */
      , (52712, 20, 0, 3, 0, 500, 0, 0) /* Deception           Specialized */
      , (52712, 24, 0, 3, 0, 600, 0, 0) /* Run                 Specialized */
      , (52712, 44, 0, 3, 0, 433, 0, 0) /* HeavyWeapons        Specialized */
@@ -113,10 +113,10 @@ VALUES (52712,  0,  4,  0,    0,  305,  550,  550,  550,  305,  275,  550,  550,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52712,  4433,   2.05)  /* Incantation of Acid Stream */
-     , (52712,  4451,   2.05)  /* Incantation of Lightning Bolt */
-     , (52712,  4455,   2.07)  /* Incantation of Shock Wave */
-     , (52712,  4473,   2.07)  /* Incantation of Acid Vulnerability Other */
-     , (52712,  4485,   2.07)  /* Incantation of Piercing Vulnerability Other */;
+     , (52712,  4451,   2.25)  /* Incantation of Lightning Bolt */
+     , (52712,  4455,   2.27)  /* Incantation of Shock Wave */
+     , (52712,  4473,   2.27)  /* Incantation of Acid Vulnerability Other */
+     , (52712,  4485,   2.27)  /* Incantation of Piercing Vulnerability Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52712,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
