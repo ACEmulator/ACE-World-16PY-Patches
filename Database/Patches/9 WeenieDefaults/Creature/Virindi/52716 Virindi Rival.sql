@@ -92,16 +92,16 @@ VALUES (52716,   1,  7000, 0, 0, 7175) /* MaxHealth */
      , (52716,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52716,  6, 0, 3, 0, 333, 0, 0) /* MeleeDefense        Specialized */
-     , (52716,  7, 0, 3, 0, 264, 0, 0) /* MissileDefense      Specialized */
+VALUES (52716,  6, 0, 3, 0, 555, 0, 0) /* MeleeDefense        Specialized */
+     , (52716,  7, 0, 3, 0, 654, 0, 0) /* MissileDefense      Specialized */
      , (52716, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
-     , (52716, 15, 0, 3, 0, 255, 0, 0) /* MagicDefense        Specialized */
+     , (52716, 15, 0, 3, 0, 505, 0, 0) /* MagicDefense        Specialized */
      , (52716, 20, 0, 3, 0, 450, 0, 0) /* Deception           Specialized */
      , (52716, 24, 0, 3, 0, 420, 0, 0) /* Run                 Specialized */
-     , (52716, 31, 0, 3, 0, 340, 0, 0) /* CreatureEnchantment Specialized */
-     , (52716, 33, 0, 3, 0, 340, 0, 0) /* LifeMagic           Specialized */
-     , (52716, 34, 0, 3, 0, 340, 0, 0) /* WarMagic            Specialized */
-     , (52716, 45, 0, 3, 0, 343, 0, 0) /* LightWeapons        Specialized */;
+     , (52716, 31, 0, 3, 0, 376, 0, 0) /* CreatureEnchantment Specialized */
+     , (52716, 33, 0, 3, 0, 376, 0, 0) /* LifeMagic           Specialized */
+     , (52716, 34, 0, 3, 0, 376, 0, 0) /* WarMagic            Specialized */
+     , (52716, 45, 0, 3, 0, 505, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (52716,  0,  1,  0,    0,  600,  600,  600,  600,  600,  400,  600,  420,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -113,16 +113,16 @@ VALUES (52716,  0,  1,  0,    0,  600,  600,  600,  600,  600,  400,  600,  420,
      , (52716, 17,  1,  0,    0,  600,  600,  600,  600,  600,  400,  600,  420,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52716,  1788,   2.09)  /* Eye of the Storm */
-     , (52716,  4451,   2.04)  /* Incantation of Lightning Bolt */
-     , (52716,  5402,   2.04)  /* Incantation of Corruption */
+VALUES (52716,  1788,   2.19)  /* Eye of the Storm */
+     , (52716,  4451,   2.24)  /* Incantation of Lightning Bolt */
+     , (52716,  5402,   2.24)  /* Incantation of Corruption */
      , (52716,  4483,      2)  /* Incantation of Lightning Vulnerability Other */
-     , (52716,  4643,   2.04)  /* Incantation of Drain Health Other */
-     , (52716,  4450,  2.055)  /* Incantation of Lightning Blast */
-     , (52716,  5394,  2.055)  /* Incantation of Corrosion */
-     , (52716,  4426,   2.04)  /* Incantation of Lightning Arc */
-     , (52716,  4645,   2.04)  /* Incantation of Drain Stamina Other */
-     , (52716,  4644,      2)  /* Incantation of Drain Mana Other */;
+     , (52716,  4643,   2.24)  /* Incantation of Drain Health Other */
+     , (52716,  4450,   2.25)  /* Incantation of Lightning Blast */
+     , (52716,  5394,   2.25)  /* Incantation of Corrosion */
+     , (52716,  4426,   2.24)  /* Incantation of Lightning Arc */
+     , (52716,  4645,   2.24)  /* Incantation of Drain Stamina Other */
+     , (52716,  4644,    2.1)  /* Incantation of Drain Mana Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52716,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
