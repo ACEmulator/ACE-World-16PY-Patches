@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31365;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31365, 'ace31365-farmerkao', 10, '2022-01-20 04:53:49') /* Creature */;
+VALUES (31365, 'ace31365-farmerkao', 10, '2022-03-19 04:04:39') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31365,   1,         16) /* ItemType - Creature */
@@ -65,12 +65,7 @@ VALUES (31365,   1, 0x02000001) /* Setup */
      , (31365,   2, 0x09000001) /* MotionTable */
      , (31365,   3, 0x20000001) /* SoundTable */
      , (31365,   6, 0x0400007E) /* PaletteBase */
-     , (31365,   8, 0x06001036) /* Icon */
-     , (31365,   9, 0x0500104F) /* EyesTexture */
-     , (31365,  10, 0x0500107F) /* NoseTexture */
-     , (31365,  11, 0x050010A2) /* MouthTexture */
-     , (31365,  15, 0x04001FE1) /* HairPalette */
-     , (31365,  16, 0x040004AF) /* EyesPalette */;
+     , (31365,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31365,   1, 180, 0, 0) /* Strength */

@@ -82,7 +82,7 @@ VALUES (42810, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Sho
      , (42810, 4, 46380, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Rehir (46380) for Shop */
      , (42810, 4, 46381, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Browerk (46381) for Shop */
      , (42810, 4, 46382, -1, 0, 0, False) /* Create Contract for Clutch of Kings: All (46382) for Shop */
-     , (42810, 4, 49765, -1, 0, 0, False) /* Create  (49765) for Shop */
+     , (42810, 4, 49765, -1, 0, 0, False) /* Create Contract for Graverobber (49765) for Shop */
      , (42810, 4, 49766, -1, 0, 0, False) /* Create Contract for Deconstruction (49766) for Shop */
      , (42810, 4, 49767, -1, 0, 0, False) /* Create Contract for Escape (49767) for Shop */;
 
