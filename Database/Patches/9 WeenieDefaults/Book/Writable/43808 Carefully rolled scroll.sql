@@ -21,9 +21,8 @@ VALUES (43808,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43808,   1, 'Carefully rolled scroll') /* Name */
-     , (43808,  16, 'A carefully rolled scroll, covered in meticulously written Dericostian script.') /* LongDesc */
-     , (43808,  33, 'GregorsCarefullyRolledScrollPickedUp') /* Quest */;
-
+     , (43808,  16, 'A carefully rolled scroll, covered in meticulously written Dericostian script.') /* LongDesc */;
+     
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43808,   1, 0x02000158) /* Setup */
      , (43808,   3, 0x20000014) /* SoundTable */
