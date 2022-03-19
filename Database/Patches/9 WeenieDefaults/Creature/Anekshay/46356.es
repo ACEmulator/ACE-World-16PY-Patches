@@ -7,7 +7,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
     - Motion: Twitch3
 
-Use: 
+Use:
     - TurnToTarget
     - InqIntStat: 25, 150 - 999
         TestSuccess:
@@ -32,7 +32,7 @@ Use:
 Refuse: Complete Page of Lost Lore (46346)
     - TurnToTarget
     - Tell: I may be a researcher, but I'm not an expert in ancient Falatacot texts. Find a translator for this, and we'll see if it's useful.
-    
+
 Refuse: The Story of the Lost Sisters (46360)
     - TurnToTarget
     - InqQuest: LostLorePageCompleted_0712
@@ -52,7 +52,7 @@ Refuse: The Story of the Lost Sisters (46361)
             - Tell: Beautiful!
             - TakeItems: 46361, 1
             - Goto: Reward
-            
+
 Refuse: The Story of the Lost Sisters (46362)
     - TurnToTarget
     - InqQuest: LostLorePageCompleted_0712
@@ -72,7 +72,7 @@ Refuse: The Story of the Lost Sisters (87467)
             - Tell: Beautiful!
             - TakeItems: 87467, 1
             - Goto: Reward
-            
+
 Refuse: The Story of the Lost Sisters (87468)
     - TurnToTarget
     - InqQuest: LostLorePageCompleted_0712
@@ -114,3 +114,7 @@ GotoSet: Reward
     - Give: 20630, 6
     - Delay: 1, Tell: And now, to send you to a place prepared for you to use that key...
     - TeleportTarget: 0x654C068A [112.336998 -176.554001 0.005000] 0.917966 0.000000 0.000000 -0.396660
+    - InqQuestBitsOn: LegendaryQuestsB, 0x20
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsB, 0x20
+            - StampQuest: LegendaryQuestCounter_0913

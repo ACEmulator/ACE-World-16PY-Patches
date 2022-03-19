@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43808;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43808, 'ace43808-carefullyrolledscroll', 8, '2021-12-14 05:15:31') /* Book */;
+VALUES (43808, 'ace43808-carefullyrolledscroll', 8, '2022-03-19 04:04:39') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43808,   1,       8192) /* ItemType - Writable */
@@ -21,8 +21,7 @@ VALUES (43808,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43808,   1, 'Carefully rolled scroll') /* Name */
-     , (43808,  16, 'A carefully rolled scroll, covered in meticulously written Dericostian script.') /* LongDesc */
-     , (43808,  33, 'GregorsCarefullyRolledScrollPickedUp') /* Quest */;
+     , (43808,  16, 'A carefully rolled scroll, covered in meticulously written Dericostian script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43808,   1, 0x02000158) /* Setup */

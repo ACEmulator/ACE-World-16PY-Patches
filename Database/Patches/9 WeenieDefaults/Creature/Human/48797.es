@@ -1,5 +1,5 @@
 Use:
-    - InqQuest: countphainorsamuletwait
+    - InqQuest: GraverobberCompleted_0213
         QuestSuccess:
             - Tell: Thank you again. I have been wanting this exquisite piece in my collection for ages.
         QuestFailure:
@@ -11,5 +11,9 @@ Use:
             - AwardNoShareXP: 214,584,377
             - AwardLuminance: 10,000
             - Give: 48747
-            - StampQuest: countphainorsamuletwait
-        - EraseQuest: talkedtokaragrularr
+            - StampQuest: GraverobberCompleted_0213
+            - EraseQuest: GraverobberStarted_0213
+            - InqQuestBitsOn: LegendaryQuestsB, 0x2000
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsB, 0x2000
+                    - StampQuest: LegendaryQuestCounter_0913

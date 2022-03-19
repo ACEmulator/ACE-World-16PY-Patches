@@ -31,6 +31,7 @@ Use:
                                             - InqQuest: GuardianoftheDeruTrees_StartJelly
                                                 QuestSuccess: 
                                                     - Tell: Travel to the site of the Deru Trees, east of here, and pass down below their roots.  From there, seek the Jelly left by their Tah.
+                                                    - EraseQuest: OlthoiJellyRoyalDeruPickedUp
                                                 QuestFailure:
                                                     - Tell: I am called Aun Kimintari, and I am honored to meet you.
                                                     - Delay: 1, Tell: It is my chosen duty to guard the Keh of Tanae in Palenqual, what your Xuta call the Deru Trees of Marae Lassel, who are named Skuld, Urd and Verdandi in their own tongue.
@@ -39,6 +40,7 @@ Use:
                                                     - Delay: 1, Tell: I believe that we can use Wharu against this new threat, but I will need some items our scouts have found under the roots of the Deru.
                                                     - Delay: 1, Tell: Find the passages of Wharu under the roots of the Deru Trees, east of Timaru. In those passages, find the Jelly left by their Tah. This can be used to attract Wharu, and will be important in our trap for this T'thuun.
                                                     - StampQuest: GuardianoftheDeruTrees_Flag
+                                                    - EraseQuest: OlthoiJellyRoyalDeruPickedUp
                                                     - StampQuest: GuardianoftheDeruTrees_StartJelly
         TestFailure:
             - Tell: Please return to me when you are more experienced.
@@ -51,6 +53,7 @@ Give: Royal Olthoi Jelly (87823)
     - Delay: 1, Tell: I can protect you from the shard's corruption using a trick taught to me by these 'Societies' your Xuta has created.
     - StampQuest: CanPickupLargeCorruptedManaShard
     - StampQuest: GuardianoftheDeruTrees_StartShard
+    - EraseQuest: OlthoiJellyRoyalDeruPickedUp
     - Delay: 1, DirectBroadcast: Aun Kimintari chants softly while tapping on her drum with one hand. you feel a wash of power settle over you.
     - Delay: 1, Tell: You'll find the shard under the roots of the Deru, guarded by this T'thuun's minions. Bring it to me, and we can set the trap in motion.
 
