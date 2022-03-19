@@ -97,7 +97,7 @@ VALUES (46700,   1, 21500, 0, 0, 22000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46700,  6, 0, 3, 0, 255, 0, 0) /* MeleeDefense        Specialized */
      , (46700,  7, 0, 3, 0, 240, 0, 0) /* MissileDefense      Specialized */
-     , (46700, 15, 0, 3, 0, 488, 0, 0) /* MagicDefense        Specialized */
+     , (46700, 15, 0, 3, 0, 347, 0, 0) /* MagicDefense        Specialized */
      , (46700, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
      , (46700, 22, 0, 2, 0, 1100, 0, 0) /* Jump                Trained */
      , (46700, 24, 0, 3, 0, 1100, 0, 0) /* Run                 Specialized */

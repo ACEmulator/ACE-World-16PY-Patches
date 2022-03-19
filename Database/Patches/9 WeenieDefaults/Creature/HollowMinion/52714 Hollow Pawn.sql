@@ -85,8 +85,8 @@ VALUES (52714,   1,  3550, 0, 0, 3800) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52714,  6, 0, 2, 0, 505, 0, 0) /* MeleeDefense        Trained */
-     , (52714,  7, 0, 2, 0, 655, 0, 0) /* MissileDefense      Trained */
-     , (52714, 15, 0, 2, 0, 615, 0, 0) /* MagicDefense        Trained */
+     , (52714,  7, 0, 2, 0, 457, 0, 0) /* MissileDefense      Trained */
+     , (52714, 15, 0, 2, 0, 415, 0, 0) /* MagicDefense        Trained */
      , (52714, 44, 0, 2, 0, 516, 0, 0) /* HeavyWeapons        Trained */
      , (52714, 45, 0, 2, 0, 516, 0, 0) /* LightWeapons        Trained */
      , (52714, 46, 0, 2, 0, 333, 0, 0) /* FinesseWeapons      Trained */;

@@ -86,9 +86,9 @@ VALUES (52715,   1,  2950, 0, 0, 3200) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52715,  6, 0, 3, 0, 517, 0, 0) /* MeleeDefense        Specialized */
-     , (52715,  7, 0, 3, 0, 636, 0, 0) /* MissileDefense      Specialized */
+     , (52715,  7, 0, 3, 0, 467, 0, 0) /* MissileDefense      Specialized */
      , (52715, 14, 0, 3, 0, 263, 0, 0) /* ArcaneLore          Specialized */
-     , (52715, 15, 0, 3, 0, 636, 0, 0) /* MagicDefense        Specialized */
+     , (52715, 15, 0, 3, 0, 436, 0, 0) /* MagicDefense        Specialized */
      , (52715, 20, 0, 3, 0, 450, 0, 0) /* Deception           Specialized */
      , (52715, 24, 0, 3, 0, 600, 0, 0) /* Run                 Specialized */
      , (52715, 31, 0, 3, 0, 375, 0, 0) /* CreatureEnchantment Specialized */
