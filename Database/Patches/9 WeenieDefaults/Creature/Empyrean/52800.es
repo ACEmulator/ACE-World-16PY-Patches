@@ -182,7 +182,7 @@ Use:
             - Goto: PlayerRewardCheck
 
 GotoSet: PlayerRewardCheck
-    - InqQuest: GauntletStage1Complete@Cooldown
+    - InqQuest: GauntletStage0Complete@PlayerRewardCheck
         QuestSuccess:
             - InqQuest: GauntletRewardWait
                 QuestSuccess:
@@ -357,6 +357,7 @@ GotoSet: ErasePlayerQuestFlags
     - EraseQuest: GauntletArena2CH
     - EraseQuest: GauntletStage5a_Flag
     - EraseQuest: GauntletStage5b_Flag
+    - EraseQuest: GauntletStage0Complete
     - EraseQuest: GauntletStage1Complete
     - EraseQuest: GauntletStage2Complete
     - EraseQuest: GauntletStage3Complete

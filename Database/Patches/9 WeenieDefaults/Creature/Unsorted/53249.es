@@ -296,11 +296,13 @@ GotoSet: RareFound
 GotoSet: TeleportToAssignedArena
     - InqFellowQuest: GauntletArena1EW@Teleport
         QuestSuccess:
+            - StampQuest: GauntletStage0Complete
             - CastSpellInstant: 5582
             - TeleportTarget: 0x59620116 [80 -70 0.05] 1 0 0 0
         QuestFailure:
             - InqFellowQuest: GauntletArena2EW@Teleport
                 QuestSuccess:
+                    - StampQuest: GauntletStage0Complete
                     - CastSpellInstant: 5582
                     - TeleportTarget: 0x59630116 [80 -70 0.005] -1 0 0 0
                 QuestFailure:
