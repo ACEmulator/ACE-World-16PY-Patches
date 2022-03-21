@@ -11,6 +11,7 @@ VALUES (87993,   1,         16) /* ItemType - Creature */
      , (87993,  16,          1) /* ItemUseable - No */
      , (87993,  25,        275) /* Level */
      , (87993,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (87993, 113,          1) /* Gender - Male */
      , (87993, 133,          1) /* ShowableOnRadar - ShowNever */
      , (87993, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (87993, 188,          1) /* HeritageGroup - Aluvian */
