@@ -11,6 +11,7 @@ VALUES (52265,   1,         16) /* ItemType - Creature */
      , (52265,  16,          1) /* ItemUseable - No */
      , (52265,  25,        275) /* Level */
      , (52265,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (52265, 113,          1) /* Gender - Male */
      , (52265, 133,          1) /* ShowableOnRadar - ShowNever */
      , (52265, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (52265, 188,          1) /* HeritageGroup - Aluvian */
