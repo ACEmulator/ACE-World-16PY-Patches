@@ -168,7 +168,7 @@ VALUES (0x75961024, 87889, 0x59610128, 279.687, -21.9431, 1.079, -1, 0, 0, 0, Fa
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75961025, 87991, 0x59610114, 80, -45.2399, 0.01, 1, 0, 0, 0, False, '2022-02-14 10:48:00'); /* CHGauntletArena2 Master Generator */
-/* @teleloc 0x59610114 [80.000000 -45.555801 0.110000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x59610114 [80.000000 -45.239899 0.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75961026, 87992, 0x5961010A, 20, -90, 0.165, 0, 0, 0, -1, False, '2022-02-14 11:12:10'); /* CH Gauntlet Arena2 Booter Gen */
