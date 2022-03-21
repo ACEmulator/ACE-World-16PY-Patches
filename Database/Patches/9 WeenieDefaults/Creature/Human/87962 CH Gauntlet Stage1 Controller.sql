@@ -74,13 +74,7 @@ VALUES (87962,   1, 0x02000001) /* Setup */
      , (87962,   2, 0x09000001) /* MotionTable */
      , (87962,   3, 0x20000001) /* SoundTable */
      , (87962,   6, 0x0400007E) /* PaletteBase */
-     , (87962,   8, 0x06000FF1) /* Icon */
-     , (87962,   9, 0x0500114D) /* EyesTexture */
-     , (87962,  10, 0x05001177) /* NoseTexture */
-     , (87962,  11, 0x050011D2) /* MouthTexture */
-     , (87962,  15, 0x04001FE3) /* HairPalette */
-     , (87962,  16, 0x040002BD) /* EyesPalette */
-     , (87962,  17, 0x040002B6) /* SkinPalette */;
+     , (87962,   8, 0x06000FF1) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (87962,   1, 240, 0, 0) /* Strength */

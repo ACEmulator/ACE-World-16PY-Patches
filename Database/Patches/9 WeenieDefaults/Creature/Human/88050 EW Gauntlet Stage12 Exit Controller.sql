@@ -69,13 +69,7 @@ VALUES (88050,   1, 0x02000001) /* Setup */
      , (88050,   2, 0x09000001) /* MotionTable */
      , (88050,   3, 0x20000001) /* SoundTable */
      , (88050,   6, 0x0400007E) /* PaletteBase */
-     , (88050,   8, 0x06000FF1) /* Icon */
-     , (88050,   9, 0x0500114D) /* EyesTexture */
-     , (88050,  10, 0x05001177) /* NoseTexture */
-     , (88050,  11, 0x050011D2) /* MouthTexture */
-     , (88050,  15, 0x04001FE3) /* HairPalette */
-     , (88050,  16, 0x040002BD) /* EyesPalette */
-     , (88050,  17, 0x040002B6) /* SkinPalette */;
+     , (88050,   8, 0x06000FF1) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (88050,   1, 240, 0, 0) /* Strength */
@@ -116,4 +110,4 @@ VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'DeleteMe', NULL, NUL
      , (@parent_id,  1,  77 /* DeleteSelf */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (88050, 1, 88010, 0, 1, 1, 1, 4, 0, 0, 0, 0, 0, 15, 0, 1, 0, 0, 0) /* Generate Gauntlet Exit (88010) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (88050, 1, 88010, 0, 1, 1, 1, 4, 0, 0, 0, 0, 0.44444, 14.4802, 0, 1, 0, 0, 0) /* Generate Gauntlet Exit (88010) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
