@@ -1,6 +1,6 @@
 Use:
     - TurnToTarget
-    - InqQuest: talkedtokaragrularr
+    - InqQuest: GraverobberStarted_0213
         QuestSuccess:
             - Tell: Here we are: the point of no return. If your courage is fading then now is the time to turn back.
             - Delay: 0.5, Tell: I will be following you from the shadows, good luck my friend.
