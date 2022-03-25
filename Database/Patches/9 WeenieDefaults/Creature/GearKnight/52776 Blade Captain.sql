@@ -95,7 +95,7 @@ VALUES (52776,  6, 0, 2, 0, 467, 0, 0) /* MeleeDefense        Trained */
      , (52776, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52776, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52776, 34, 0, 2, 0, 338, 0, 0) /* WarMagic            Trained */
-     , (52776, 41, 0, 2, 0, 450, 0, 0) /* TwoHandedCombat     Trained */
+     , (52776, 41, 0, 2, 0, 465, 0, 0) /* TwoHandedCombat     Trained */
      , (52776, 44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons        Trained */
      , (52776, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons        Trained */
      , (52776, 46, 0, 2, 0, 417, 0, 0) /* FinesseWeapons      Trained */
