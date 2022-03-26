@@ -12,7 +12,7 @@ VALUES (48899,   1,         16) /* ItemType - Creature */
      , (48899,  25,        220) /* Level */
      , (48899,  27,          0) /* ArmorType - None */
      , (48899,  68,          3) /* TargetingTactic - Random, Focused */
-     , (48899,  81,         1) /* MaxGeneratedObjects */
+     , (48899,  81,          1) /* MaxGeneratedObjects */
      , (48899,  82,          0) /* InitGeneratedObjects */
      , (48899,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (48899, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */

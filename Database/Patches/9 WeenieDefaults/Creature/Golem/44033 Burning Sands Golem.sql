@@ -13,7 +13,7 @@ VALUES (44033,   1,         16) /* ItemType - Creature */
      , (44033,  25,        300) /* Level */
      , (44033,  27,          0) /* ArmorType - None */
      , (44033,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (44033,  81,         3) /* MaxGeneratedObjects */
+     , (44033,  81,          3) /* MaxGeneratedObjects */
      , (44033,  82,          0) /* InitGeneratedObjects */
      , (44033,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44033, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -121,7 +121,7 @@ VALUES (44033,  3948,   2.06)  /* Flame Wave */
      , (44033,  5543,   2.06)  /* Curse of the Burning Sands */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44033,  3 /* Death */,      .3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (44033,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
