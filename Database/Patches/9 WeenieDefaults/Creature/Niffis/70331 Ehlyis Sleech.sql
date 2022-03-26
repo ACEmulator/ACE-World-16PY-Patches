@@ -49,6 +49,7 @@ VALUES (70331,   1,       5) /* HeartbeatInterval */
      , (70331,  34,       1) /* PowerupTime */
      , (70331,  36,       1) /* ChargeSpeed */
      , (70331,  39,     1.1) /* DefaultScale */
+     , (70331,  41,      60) /* RegenerationInterval */
      , (70331,  43,       4) /* GeneratorRadius */
      , (70331,  64,     0.6) /* ResistSlash */
      , (70331,  65,     0.6) /* ResistPierce */
@@ -124,4 +125,4 @@ VALUES (70331, 9, 44470,  1, 0, 0, False) /* Create Corrupted Essence (44470) fo
      , (70331, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (70331, -1, 40285, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Listris Sleech (40285) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (70331, -1, 40285, 0, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Listris Sleech (40285) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
