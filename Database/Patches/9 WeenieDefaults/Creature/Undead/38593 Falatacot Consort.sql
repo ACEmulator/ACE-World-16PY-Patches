@@ -140,4 +140,4 @@ VALUES (38593, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
      , (38593, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38593, -1, 38594, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Falatacot Blood Prophetess (38594) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (38593, -1, 38594, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Falatacot Blood Prophetess (38594) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
