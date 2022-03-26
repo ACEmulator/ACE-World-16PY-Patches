@@ -27,7 +27,7 @@ Use:
                     - Give: Ebon Gromnie Eradicator Plaque (31608)
                     - Tell: Congratulations! You are now truly an Ebon Gromnie Eradicator!
                 QuestFailure:
-                    - InqQuestSolves: EbonGromnieKills@finished, 1 - 24
+                    - InqQuestSolves: EbonGromnieKills@inprogress, 1 - 24
                         QuestSuccess:
                             - Tell: I see that the hunt is progressing! Keep up the good work, and return to me when you've killed 25 Ebon Gromnies.
                         QuestFailure:
