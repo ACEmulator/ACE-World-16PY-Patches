@@ -47,6 +47,7 @@ VALUES (33641,   1,       5) /* HeartbeatInterval */
      , (33641,  34,       1) /* PowerupTime */
      , (33641,  36,       1) /* ChargeSpeed */
      , (33641,  39,     1.3) /* DefaultScale */
+     , (33641,  41,      60) /* RegenerationInterval */
      , (33641,  43,       4) /* GeneratorRadius */
      , (33641,  64,     0.7) /* ResistSlash */
      , (33641,  65,     0.7) /* ResistPierce */
@@ -129,4 +130,4 @@ VALUES (33641, 2, 48585,  1, 0, 0, False) /* Create Frozen Dagger (48585) for Wi
      , (33641, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33641, -1, 33642, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Sodden Undead Ruschk (33642) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (33641, -1, 33642, 3600, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Sodden Undead Ruschk (33642) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
