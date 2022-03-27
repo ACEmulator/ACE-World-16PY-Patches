@@ -9,12 +9,12 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.2
     - Motion: Twitch4
-    
+
 Refuse: Blood Gem of Rikt Zir (70023)
     - TurnToTarget
-    - TakeItems: Blood Gem of Rikt Zir (70023), 9,999
+    - TakeItems: Blood Gem of Rikt Zir (70023), 1
     - Tell: At last! He will be most pleased...I mean the Stag of Bellenesse thanks you, adventurer. It is through your efforts that the course of history shall be forever changed.
-    - Give: Squalid Leggings (31322), 0
+    - Give: Squalid Leggings (31322)
     - Give: Trade Note (250,000) (20630), 3
     - AwardNoShareXP: 21,000,000
     - StampQuest: BloodGemQuestCompleted0805
