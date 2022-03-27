@@ -57,7 +57,8 @@ VALUES (80093,   1,       5) /* HeartbeatInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80093,   1, 'Pon Mi') /* Name */
      , (80093,   3, 'Male') /* Sex */
-     , (80093,   4, 'Sho') /* HeritageGroup */;
+     , (80093,   4, 'Sho') /* HeritageGroup */
+     , (80093,   5, 'Tanada Target Practice') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80093,   1, 0x02000001) /* Setup */
