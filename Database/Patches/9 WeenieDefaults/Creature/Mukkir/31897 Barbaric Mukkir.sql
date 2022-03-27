@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31897;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31897, 'ace31897-barbaricmukkir', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31897, 'ace31897-barbaricmukkir', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31897,   1,         16) /* ItemType - Creature */
@@ -112,3 +112,9 @@ VALUES (31897,  2074,   2.02)  /* Gossamer Flesh */
      , (31897,  2162,   2.02)  /* Olthoi's Gift */
      , (31897,  2164,   2.02)  /* Swordsman's Gift */
      , (31897,   285,   2.02)  /* Magic Yield Other VI */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31897, 8, 36362,  0, 0, 0.01, False) /* Create Mukkir Head (36362) for Treasure */
+     , (31897, 8,     0,  0, 0, 0.99, False) /* Create nothing for Treasure */
+     , (31897, 8, 32924,  0, 0, 0.01, False) /* Create Mukkir Nest Portal Gem (32924) for Treasure */
+     , (31897, 8,     0,  0, 0, 0.99, False) /* Create nothing for Treasure */;

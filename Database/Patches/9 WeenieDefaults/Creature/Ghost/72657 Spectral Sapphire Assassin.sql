@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72657;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72657, 'ace72657-spectralsapphireassassin', 10, '2022-01-08 18:29:57') /* Creature */;
+VALUES (72657, 'ace72657-spectralsapphireassassin', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72657,   1,         16) /* ItemType - Creature */
@@ -127,4 +127,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72657, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72657, -1, 72658, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Spectral Sapphire Gatekeeper (72658) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (72657, -1, 72658, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Spectral Sapphire Gatekeeper (72658) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

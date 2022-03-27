@@ -102,7 +102,7 @@ GotoSet: Found35?
                     - Tell: I have no further rewards for contracts completed. Be safe while exploring the rest of Dereth.
                 QuestFailure:
                     - SetQuestBitsOn: ContractQuestSolves, 0x40
-                    - Tell: You have completed 25 contracts, excellent work. I shall reward you for your efforts
+                    - Tell: You have completed 35 contracts, excellent work. I shall reward you for your efforts
                     - Tell: I have no further rewards for contracts completed. Be safe while exploring the rest of Dereth.
                     - AwardNoShareXP: 40,000,000
                     - AddCharacterTitle: 721
