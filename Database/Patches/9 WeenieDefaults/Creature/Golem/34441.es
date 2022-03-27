@@ -15,69 +15,79 @@ Refuse: Tipped Pack Cow (33965)
     - StampQuest: ArbitratorPackCowGivenComplete
 
 Refuse: Blue Empyrean Ring (34704)
-    - InqOwnsItems: Blue Empyrean Ring (34704)
+    - Tell: You do not wish to keep this ring Champion?
+    - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
         TestSuccess:
-            - Tell: You do not wish to keep this ring Champion?
-            - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
+            - InqOwnsItems: Blue Empyrean Ring (34704)
                 TestSuccess:
                     - TakeItems: Blue Empyrean Ring (34704)
                     - Tell: Very well, then take this knowledge instead.
                     - Delay: 1, AwardLevelProportionalXP: 30%, Min: 0, Max: 140,000,000
                     - Give: Colosseum Coin (36518), 2
                 TestFailure:
-                    - Tell: Come back when you are ready to make a decision.
+                    - Tell: Do not try to fool me.
+        TestFailure:
+            - Tell: Very well, champion.
 
 Refuse: Green Empyrean Ring (34705)
-    - InqOwnsItems: Green Empyrean Ring (34705)
+    - Tell: You do not wish to keep this ring Champion?
+    - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
         TestSuccess:
-            - Tell: You do not wish to keep this ring Champion?
-            - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
+            - InqOwnsItems: Green Empyrean Ring (34705)
                 TestSuccess:
                     - TakeItems: Green Empyrean Ring (34705)
                     - Tell: Very well, then take this knowledge instead.
                     - Delay: 1, AwardLevelProportionalXP: 30%, Min: 0, Max: 140,000,000
                     - Give: Colosseum Coin (36518), 2
                 TestFailure:
-                    - Tell: Come back when you are ready to make a decision.
+                    - Tell: Do not try to fool me.
+        TestFailure:
+            - Tell: Very well, champion.
 
 Refuse: Red Empyrean Ring (34706)
-    - InqOwnsItems: Red Empyrean Ring (34706)
+    - Tell: You do not wish to keep this ring Champion?
+    - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
         TestSuccess:
-            - Tell: You do not wish to keep this ring Champion?
-            - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
+            - InqOwnsItems: Red Empyrean Ring (34706)
                 TestSuccess:
                     - TakeItems: Red Empyrean Ring (34706)
                     - Tell: Very well, then take this knowledge instead.
                     - Delay: 1, AwardLevelProportionalXP: 30%, Min: 0, Max: 140,000,000
                     - Give: Colosseum Coin (36518), 2
                 TestFailure:
-                    - Tell: Come back when you are ready to make a decision.
+                    - Tell: Do not try to fool me.
+        TestFailure:
+            - Tell: Very well, champion.
 
 Refuse: White Empyrean Ring (34707)
-    - InqOwnsItems: White Empyrean Ring (34707)
+    - Tell: You do not wish to keep this ring Champion?
+    - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
         TestSuccess:
-            - Tell: You do not wish to keep this ring Champion?
-            - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
+            - InqOwnsItems: White Empyrean Ring (34707)
                 TestSuccess:
                     - TakeItems: White Empyrean Ring (34707)
                     - Tell: Very well, then take this knowledge instead.
                     - Delay: 1, AwardLevelProportionalXP: 30%, Min: 0, Max: 140,000,000
                     - Give: Colosseum Coin (36518), 2
                 TestFailure:
-                    - Tell: Come back when you are ready to make a decision.
+                    - Tell: Do not try to fool me.
+        TestFailure:
+            - Tell: Very well, champion.
 
 Refuse: Yellow Empyrean Ring (34708)
-    - InqOwnsItems: Yellow Empyrean Ring (34708)
+    - Tell: You do not wish to keep this ring Champion?
+    - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
         TestSuccess:
-            - Tell: You do not wish to keep this ring Champion?
-            - InqYesNo: Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?
+            - InqOwnsItems: Yellow Empyrean Ring (34708)
                 TestSuccess:
                     - TakeItems: Yellow Empyrean Ring (34708)
                     - Tell: Very well, then take this knowledge instead.
                     - Delay: 1, AwardLevelProportionalXP: 30%, Min: 0, Max: 140,000,000
                     - Give: Colosseum Coin (36518), 2
                 TestFailure:
-                    - Tell: Come back when you are ready to make a decision.
+                    - Tell: Do not try to fool me.
+        TestFailure:
+            - Tell: Very well, champion.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.127
     - InqEvent: ColoArenaOneInUse@HeartBeat
