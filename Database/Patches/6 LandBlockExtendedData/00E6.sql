@@ -623,5 +623,5 @@ VALUES (0x700E6304, 87784, 0x00E6041D, 191.039, 2.45093, 0.055, -0.090523, 0, 0,
 /* @teleloc 0x00E6041D [191.039001 2.450930 0.055000] -0.090523 0.000000 0.000000 0.995894 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E6305, 87785, 0x00E6041D, 193.3573, 2.875842, 0.055, -0.090523, 0, 0, 0.995894, False, '2021-12-09 09:41:03'); /* Prodigal Shadow Attackable Event Gen */
-/* @teleloc 0x00E6041D [193.357300 2.875842 0.055000] -0.090523 0.000000 0.000000 0.995894 */
+VALUES (0x700E6305, 87785, 0x00E6041D, 193.357, 2.87584, 0.055, -0.090523, 0, 0, 0.995894, False, '2021-12-09 09:41:03'); /* Prodigal Shadow Attackable Event Gen */
+/* @teleloc 0x00E6041D [193.356995 2.875840 0.055000] -0.090523 0.000000 0.000000 0.995894 */

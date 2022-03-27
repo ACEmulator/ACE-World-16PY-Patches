@@ -14,8 +14,8 @@ VALUES (87781,   1, True ) /* Stuck */
      , (87781,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87781,  41,     1600) /* RegenerationInterval */
-     , (87781,  43,       10) /* GeneratorRadius */;
+VALUES (87781,  41,    1600) /* RegenerationInterval */
+     , (87781,  43,      10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87781,   1, 'Prodigal Shadow Wave 2 Gen') /* Name */;
