@@ -4,8 +4,8 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (9132, 0, 0, 0, 0, 0, 1, 'You enchant the weapon with the Horizon''s Edge Amplification.', 0, 1, '', 1, 1, '', 0, 0, '', 1, 1, '', 0, 0, '', 0, '2022-02-24 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (9132, 0, 105, 1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
-     , (9132, 0, 311, 4, 6, 'This item has already been imbued!') /* Target.ImbueStackingBits Equal 4 */;
+VALUES (9132, 0, 105,  1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
+     , (9132, 0, 311,  4, 6, 'This item has already been imbued!') /* Target.ImbueStackingBits Equal 4 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (9132, True, 0, 0, 0, False, 0, 0, 0);
@@ -16,7 +16,7 @@ INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`
 VALUES (@parent_id, 0, 311, 4, 1, 1) /* On Source.SuccessTarget SetValue ImbueStackingBits 4 to Target */;
 
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  63, 0.04, 2, 1) /* On Source.SuccessTarget Add DamageMod to Target */;
+VALUES (@parent_id, 0, 63, 0.04, 2, 1) /* On Source.SuccessTarget Add DamageMod 0.04 to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9132;
 
@@ -49,4 +49,18 @@ VALUES (9132, 53415 /* Horizon's Edge Amplification */,   306 /* Longbow */, '20
      , (9132, 53415 /* Horizon's Edge Amplification */, 29255 /* Fire Atlatl */, '2022-02-24 00:00:00')
      , (9132, 53415 /* Horizon's Edge Amplification */, 29256 /* Frost Atlatl */, '2022-02-24 00:00:00')
      , (9132, 53415 /* Horizon's Edge Amplification */, 29257 /* Piercing Atlatl */, '2022-02-24 00:00:00')
-     , (9132, 53415 /* Horizon's Edge Amplification */, 29258 /* Slashing Atlatl */, '2022-02-24 00:00:00');
+     , (9132, 53415 /* Horizon's Edge Amplification */, 29258 /* Slashing Atlatl */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31798 /* Slashing Compound Bow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31799 /* Acid Compound Bow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31800 /* Blunt Compound Bow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31801 /* Electric Compound Bow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31802 /* Fire Compound Bow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31803 /* Frost Compound Bow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31804 /* Piercing Compound Bow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31805 /* Slashing Compound Crossbow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31806 /* Acid Compound Crossbow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31807 /* Blunt Compound Crossbow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31808 /* Electric Compound Crossbow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31809 /* Fire Compound Crossbow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31810 /* Frost Compound Crossbow */, '2022-02-24 00:00:00')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31811 /* Piercing Compound Crossbow */, '2022-02-24 00:00:00');
