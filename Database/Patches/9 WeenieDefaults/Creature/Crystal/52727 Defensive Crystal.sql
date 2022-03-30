@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52727;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52727, 'ace52727-defensivecrystal', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (52727, 'ace52727-defensivecrystal', 10, '2022-03-30 01:12:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52727,   1,         16) /* ItemType - Creature */
@@ -13,18 +13,20 @@ VALUES (52727,   1,         16) /* ItemType - Creature */
      , (52727,  25,        200) /* Level */
      , (52727,  27,          0) /* ArmorType - None */
      , (52727,  40,          2) /* CombatMode - Melee */
-     , (52727,  67,          1) /* Tolerance - NoAttack */
+     , (52727,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (52727,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (52727, 101,          1) /* AiAllowedCombatStyle - Unarmed */
      , (52727, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52727, 315,       9999) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52727,   1, True ) /* Stuck */
-     , (52727,   6, True ) /* AiUsesMana */
+     , (52727,   6, False) /* AiUsesMana */
      , (52727,  29, True ) /* NoCorpse */
      , (52727,  50, True ) /* NeverFailCasting */
      , (52727,  52, True ) /* AiImmobile */
-     , (52727,  82, True ) /* DontTurnOrMoveWhenGiving */;
+     , (52727,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (52727, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52727,   1,       5) /* HeartbeatInterval */
@@ -33,22 +35,22 @@ VALUES (52727,   1,       5) /* HeartbeatInterval */
      , (52727,   5,       2) /* ManaRate */
      , (52727,  12,     0.5) /* Shade */
      , (52727,  13,       1) /* ArmorModVsSlash */
-     , (52727,  14,       1) /* ArmorModVsPierce */
-     , (52727,  15,       1) /* ArmorModVsBludgeon */
-     , (52727,  16,       1) /* ArmorModVsCold */
-     , (52727,  17,       1) /* ArmorModVsFire */
-     , (52727,  18,       1) /* ArmorModVsAcid */
-     , (52727,  19,       1) /* ArmorModVsElectric */
+     , (52727,  14,     0.7) /* ArmorModVsPierce */
+     , (52727,  15,     0.7) /* ArmorModVsBludgeon */
+     , (52727,  16,     0.7) /* ArmorModVsCold */
+     , (52727,  17,     0.7) /* ArmorModVsFire */
+     , (52727,  18,     0.7) /* ArmorModVsAcid */
+     , (52727,  19,     0.7) /* ArmorModVsElectric */
      , (52727,  31,      12) /* VisualAwarenessRange */
      , (52727,  34,       1) /* PowerupTime */
      , (52727,  36,       1) /* ChargeSpeed */
-     , (52727,  64,     0.7) /* ResistSlash */
-     , (52727,  65,     0.7) /* ResistPierce */
-     , (52727,  66,       0) /* ResistBludgeon */
-     , (52727,  67,     0.7) /* ResistFire */
-     , (52727,  68,     0.7) /* ResistCold */
-     , (52727,  69,     0.7) /* ResistAcid */
-     , (52727,  70,     0.7) /* ResistElectric */
+     , (52727,  64,    0.45) /* ResistSlash */
+     , (52727,  65,    0.45) /* ResistPierce */
+     , (52727,  66,    0.45) /* ResistBludgeon */
+     , (52727,  67,    0.45) /* ResistFire */
+     , (52727,  68,    0.45) /* ResistCold */
+     , (52727,  69,    0.45) /* ResistAcid */
+     , (52727,  70,    0.45) /* ResistElectric */
      , (52727,  71,       1) /* ResistHealthBoost */
      , (52727,  72,       0) /* ResistStaminaDrain */
      , (52727,  73,       1) /* ResistStaminaBoost */
@@ -86,7 +88,7 @@ VALUES (52727,   1, 51000, 0, 0, 51045) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52727,  6, 0, 3, 0, 169, 0, 0) /* MeleeDefense        Specialized */
      , (52727,  7, 0, 3, 0, 225, 0, 0) /* MissileDefense      Specialized */
-     , (52727, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+     , (52727, 15, 0, 3, 0, 566, 0, 0) /* MagicDefense        Specialized */
      , (52727, 20, 0, 3, 0, 500, 0, 0) /* Deception           Specialized */
      , (52727, 31, 0, 3, 0, 327, 0, 0) /* CreatureEnchantment Specialized */
      , (52727, 32, 0, 3, 0, 327, 0, 0) /* ItemEnchantment     Specialized */
@@ -94,13 +96,13 @@ VALUES (52727,  6, 0, 3, 0, 169, 0, 0) /* MeleeDefense        Specialized */
      , (52727, 34, 0, 3, 0, 333, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52727,  0,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (52727, 10,  4,  0,    0,  350,  420,  420,  420,  420,  420,  420,  420,    0, 2,  0.2,  0.4,  0.5,  0.2,  0.4,  0.5,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (52727, 12,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,    0, 3,    0,    0, 0.25,    0,    0, 0.25,    0,    0,    0,    0,    0,    0) /* FrontFoot */
-     , (52727, 13,  4,  0,    0,  350,  420,  420,  420,  420,  420,  420,  420,    0, 2,    0,    0,    0,    0,    0,    0,  0.3,  0.4,  0.5,  0.3,  0.4,  0.5) /* RearLeg */
-     , (52727, 15,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0, 0.25,    0,    0, 0.25) /* RearFoot */
-     , (52727, 16,  4,  0,    0,  350,  420,  420,  420,  420,  420,  420,  420,    0, 2,  0.3,  0.4, 0.25,  0.3,  0.4, 0.25,  0.6,  0.5, 0.25,  0.6,  0.5, 0.25) /* Torso */
-     , (52727, 17,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
+VALUES (52727,  0,  4, 50, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (52727, 10,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 2,  0.2,  0.4,  0.5,  0.2,  0.4,  0.5,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (52727, 12,  4, 50, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0,    0, 0.25,    0,    0, 0.25,    0,    0,    0,    0,    0,    0) /* FrontFoot */
+     , (52727, 13,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 2,    0,    0,    0,    0,    0,    0,  0.3,  0.4,  0.5,  0.3,  0.4,  0.5) /* RearLeg */
+     , (52727, 15,  4, 50, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0, 0.25,    0,    0, 0.25) /* RearFoot */
+     , (52727, 16,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 2,  0.3,  0.4, 0.25,  0.3,  0.4, 0.25,  0.6,  0.5, 0.25,  0.6,  0.5, 0.25) /* Torso */
+     , (52727, 17,  4, 50, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52727,  4411,   2.55)  /* Incantation of Lure Blade */

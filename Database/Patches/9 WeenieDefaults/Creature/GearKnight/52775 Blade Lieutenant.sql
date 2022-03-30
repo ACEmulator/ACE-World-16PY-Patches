@@ -41,7 +41,7 @@ VALUES (52775,   1,       5) /* HeartbeatInterval */
      , (52775,  15,     0.9) /* ArmorModVsBludgeon */
      , (52775,  16,      10) /* ArmorModVsCold */
      , (52775,  17,    2.56) /* ArmorModVsFire */
-     , (52775,  18,    0.56) /* ArmorModVsAcid */
+     , (52775,  18,    0.49) /* ArmorModVsAcid */
      , (52775,  19,    2.56) /* ArmorModVsElectric */
      , (52775,  31,      30) /* VisualAwarenessRange */
      , (52775,  34,       1) /* PowerupTime */
@@ -94,7 +94,7 @@ VALUES (52775,  6, 0, 2, 0, 477, 0, 0) /* MeleeDefense        Trained */
      , (52775, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52775, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52775, 34, 0, 2, 0, 378, 0, 0) /* WarMagic            Trained */
-     , (52775, 41, 0, 2, 0, 460, 0, 0) /* TwoHandedCombat     Trained */
+     , (52775, 41, 0, 2, 0, 470, 0, 0) /* TwoHandedCombat     Trained */
      , (52775, 44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons        Trained */
      , (52775, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons        Trained */
      , (52775, 46, 0, 2, 0, 417, 0, 0) /* FinesseWeapons      Trained */
