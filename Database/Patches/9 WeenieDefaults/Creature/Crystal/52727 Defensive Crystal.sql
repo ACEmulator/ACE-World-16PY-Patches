@@ -103,10 +103,10 @@ VALUES (52727,  0,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,
      , (52727, 17,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52727,  4411,    2.4)  /* Incantation of Lure Blade */
-     , (52727,  4435,    2.5)  /* Incantation of Blade Blast */
-     , (52727,  4442,    2.6)  /* Incantation of Force Blast */
-     , (52727,  4443,   2.65)  /* Incantation of Force Bolt */
-     , (52727,  4446,    2.7)  /* Incantation of Frost Blast */
-     , (52727,  4447,    2.8)  /* Incantation of Frost Bolt */
+VALUES (52727,  4411,   2.55)  /* Incantation of Lure Blade */
+     , (52727,  4435,   2.22)  /* Incantation of Blade Blast */
+     , (52727,  4442,   2.29)  /* Incantation of Force Blast */
+     , (52727,  4443,    2.2)  /* Incantation of Force Bolt */
+     , (52727,  4446,    2.5)  /* Incantation of Frost Blast */
+     , (52727,  4447,    2.5)  /* Incantation of Frost Bolt */
      , (52727,  4457,      3)  /* Incantation of Whirling Blade */;
