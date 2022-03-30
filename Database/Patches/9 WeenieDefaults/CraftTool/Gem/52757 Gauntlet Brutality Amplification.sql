@@ -13,17 +13,23 @@ VALUES (52757,   1,       2048) /* ItemType - Gem */
      , (52757,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (52757,  18,          1) /* UiEffects - Magical */
      , (52757,  19,         30) /* Value */
+     , (52757,  33,          1) /* Bonded - Bonded */
      , (52757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52757,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (52757,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (52757, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52757,  22, True ) /* Inscribable */;
+VALUES (52757,  22, True ) /* Inscribable */
+     , (52757,  23, True ) /* DestroyOnSell */
+     , (52757,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52757,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52757,   1, 'Gauntlet Brutality Amplification') /* Name */;
+VALUES (52757,   1, 'Gauntlet Brutality Amplification') /* Name */
+     , (52757,  14, 'Use this item on any loot-generated melee weapon to raise its damage by 1. This will not stack with other Weapon Amplifications.') /* Use */
+     , (52757,  16, 'A bag of material imbued with brutal force and destruction.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52757,   1, 0x020006FF) /* Setup */

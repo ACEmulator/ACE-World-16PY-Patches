@@ -42,7 +42,7 @@ VALUES (52777,   1,       5) /* HeartbeatInterval */
      , (52777,  15,     0.9) /* ArmorModVsBludgeon */
      , (52777,  16,      10) /* ArmorModVsCold */
      , (52777,  17,    2.56) /* ArmorModVsFire */
-     , (52777,  18,    0.51) /* ArmorModVsAcid */
+     , (52777,  18,    0.63) /* ArmorModVsAcid */
      , (52777,  19,    2.56) /* ArmorModVsElectric */
      , (52777,  31,      30) /* VisualAwarenessRange */
      , (52777,  34,       1) /* PowerupTime */

@@ -13,14 +13,23 @@ VALUES (52756,   1,       2048) /* ItemType - Gem */
      , (52756,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (52756,  18,          1) /* UiEffects - Magical */
      , (52756,  19,         30) /* Value */
+     , (52756,  33,          1) /* Bonded - Bonded */
      , (52756,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52756,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (52756,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (52756, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52756,  22, True ) /* Inscribable */;
+VALUES (52756,  22, True ) /* Inscribable */
+     , (52756,  23, True ) /* DestroyOnSell */
+     , (52756,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (52756,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52756,   1, 'Nature''s Wrath Amplification') /* Name */;
+VALUES (52756,   1, 'Nature''s Wrath Amplification') /* Name */
+     , (52756,  14, 'Use this item on any loot-generated elemental caster to increase it''s elemental damage by 1%. This will not stack with other Weapon Amplifications.') /* Use */
+     , (52756,  16, 'A bag of material teaming with the power of nature''s fury.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52756,   1, 0x02000179) /* Setup */
