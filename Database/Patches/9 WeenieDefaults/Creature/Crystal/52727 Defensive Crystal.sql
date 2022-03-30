@@ -103,5 +103,5 @@ VALUES (52727,  0,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,
      , (52727, 17,  4, 50, 0.75,  350,  420,  420,  420,  420,  420,  420,  420,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52727,  4411,    2.8)  /* Incantation of Lure Blade */
+VALUES (52727,  4411,   2.98)  /* Incantation of Lure Blade */
      , (52727,  4457,      3)  /* Incantation of Whirling Blade */;

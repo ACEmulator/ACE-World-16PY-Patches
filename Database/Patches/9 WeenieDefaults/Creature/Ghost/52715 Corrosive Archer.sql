@@ -85,10 +85,10 @@ VALUES (52715,   1,  2950, 0, 0, 3200) /* MaxHealth */
      , (52715,   5,  5000, 0, 0, 5490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52715,  6, 0, 3, 0, 517, 0, 0) /* MeleeDefense        Specialized */
+VALUES (52715,  6, 0, 3, 0, 507, 0, 0) /* MeleeDefense        Specialized */
      , (52715,  7, 0, 3, 0, 467, 0, 0) /* MissileDefense      Specialized */
      , (52715, 14, 0, 3, 0, 263, 0, 0) /* ArcaneLore          Specialized */
-     , (52715, 15, 0, 3, 0, 436, 0, 0) /* MagicDefense        Specialized */
+     , (52715, 15, 0, 3, 0, 426, 0, 0) /* MagicDefense        Specialized */
      , (52715, 20, 0, 3, 0, 450, 0, 0) /* Deception           Specialized */
      , (52715, 24, 0, 3, 0, 600, 0, 0) /* Run                 Specialized */
      , (52715, 31, 0, 3, 0, 375, 0, 0) /* CreatureEnchantment Specialized */
@@ -98,12 +98,12 @@ VALUES (52715,  6, 0, 3, 0, 517, 0, 0) /* MeleeDefense        Specialized */
      , (52715, 47, 0, 3, 0, 375, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52715,  0,  1,  0,    0,  500,  400,  350,  550,  550,  550,  550,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (52715,  1,  1,  0,    0,  500,  400,  350,  550,  550,  550,  550,  500,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (52715,  2,  1,  0,    0,  500,  400,  350,  550,  550,  550,  550,  500,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
-     , (52715,  3,  1,  0,    0,  500,  400,  350,  550,  550,  550,  550,  500,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (52715,  4,  1,  0,    0,  500,  400,  350,  550,  550,  550,  550,  500,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (52715,  5,  9, 230, 0.55,  500,  400,  350,  550,  550,  550,  550,  500,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
+VALUES (52715,  0,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (52715,  1,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (52715,  2,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
+     , (52715,  3,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (52715,  4,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
+     , (52715,  5,  9, 230, 0.55,  450,  400,  350,  550,  550,  550,  550,  500,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52715, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
