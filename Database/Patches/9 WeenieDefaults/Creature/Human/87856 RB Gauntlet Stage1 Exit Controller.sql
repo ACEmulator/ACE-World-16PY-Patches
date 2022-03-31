@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87856;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87856, 'ace87856-rbgauntletstage1exitcontroller', 10, '2022-02-11 02:34:39') /* Creature */;
+VALUES (87856, 'ace87856-rbgauntletstage1exitcontroller', 10, '2022-03-31 06:02:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87856,   1,         16) /* ItemType - Creature */

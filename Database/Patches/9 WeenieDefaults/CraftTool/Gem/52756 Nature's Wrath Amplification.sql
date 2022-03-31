@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52756;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52756, 'ace52756-natureswrathamplification', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (52756, 'ace52756-natureswrathamplification', 44, '2022-03-31 06:02:40') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52756,   1,       2048) /* ItemType - Gem */
