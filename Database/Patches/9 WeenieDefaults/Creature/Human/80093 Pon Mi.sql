@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80093;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80093, 'ace80093-ponmi', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (80093, 'ace80093-ponmi', 10, '2022-03-31 06:02:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80093,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,8 @@ VALUES (80093,   1,       5) /* HeartbeatInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80093,   1, 'Pon Mi') /* Name */
      , (80093,   3, 'Male') /* Sex */
-     , (80093,   4, 'Sho') /* HeritageGroup */;
+     , (80093,   4, 'Sho') /* HeritageGroup */
+     , (80093,   5, 'Tanada Target Practice') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80093,   1, 0x02000001) /* Setup */

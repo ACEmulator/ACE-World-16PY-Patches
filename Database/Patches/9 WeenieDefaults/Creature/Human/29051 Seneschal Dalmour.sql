@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29051;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29051, 'sanamarseneschaldalmour', 10, '2022-03-19 04:04:39') /* Creature */;
+VALUES (29051, 'sanamarseneschaldalmour', 10, '2022-03-31 06:02:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29051,   1,         16) /* ItemType - Creature */
@@ -127,7 +127,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'With your help we shall pus
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'Please continue your service to the king.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29051, 13 /* QuestFailure */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29051, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'FledgemasterTuskRepeat', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
