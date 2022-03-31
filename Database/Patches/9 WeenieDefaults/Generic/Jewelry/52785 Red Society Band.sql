@@ -5,6 +5,7 @@ VALUES (52785, 'ace52785-redsocietyband', 1, '2021-11-01 00:00:00') /* Generic *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52785,   1,          8) /* ItemType - Jewelry */
+     , (52785,   3,         39) /* PaletteTemplate - Black */
      , (52785,   5,         50) /* EncumbranceVal */
      , (52785,   9,     786432) /* ValidLocations - FingerWear */
      , (52785,  16,          1) /* ItemUseable - No */
@@ -32,10 +33,12 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52785,  22, True ) /* Inscribable */
      , (52785,  23, True ) /* DestroyOnSell */
      , (52785,  69, False) /* IsSellable */
+     , (52785,  84, True ) /* IgnoreCloIcons */
      , (52785,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52785,   5,  -0.033) /* ManaRate */
+     , (52785,  12,     0.5) /* Shade */
      , (52785,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -46,6 +49,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52785,   1, 0x02000103) /* Setup */
      , (52785,   3, 0x20000014) /* SoundTable */
      , (52785,   6, 0x04000BEF) /* PaletteBase */
+     , (52785,   7, 0x10000129) /* ClothingBase */
      , (52785,   8, 0x06007540) /* Icon */
      , (52785,  22, 0x3400002B) /* PhysicsEffectTable */;
 
