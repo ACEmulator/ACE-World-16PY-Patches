@@ -201,10 +201,10 @@ VALUES (0x7BF80031,  7923, 0xBF800000, 63.4463, 131.119, 69.205, -0.715596, 0, 0
 /* @teleloc 0xBF800000 [63.446301 131.119003 69.205002] -0.715596 0.000000 0.000000 0.698514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF80031, 0x7BF80027, '2005-02-09 10:00:00') /* Lord Aleval (5046) */
-     , (0x7BF80031, 0x7BF80051, '2005-02-09 10:00:00') /* Guard Chandler Hammett (25717) */
-     , (0x7BF80031, 0x7BF80054, '2005-02-09 10:00:00') /* Dame Brinna O'Shea (25715) */
-     , (0x7BF80031, 0x7BF8005B, '2005-02-09 10:00:00') /* Apprentice Cook (27743) */;
+VALUES (0x7BF80031, 0x7BF80027, '2021-11-01 00:00:00') /* Lord Aleval (5046) */
+     , (0x7BF80031, 0x7BF80051, '2021-11-01 00:00:00') /* Guard Chandler Hammett (25717) */
+     , (0x7BF80031, 0x7BF80054, '2021-11-01 00:00:00') /* Dame Brinna O'Shea (25715) */
+     , (0x7BF80031, 0x7BF8005B, '2021-11-01 00:00:00') /* Apprentice Cook (27743) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF80032,  4420, 0xBF800000, 138.105, 49.9141, 34.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* The Humble Healer */

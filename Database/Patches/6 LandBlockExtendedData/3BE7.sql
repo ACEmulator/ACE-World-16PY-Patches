@@ -5,20 +5,20 @@ VALUES (0x73BE7000,  7924, 0x3BE70003, 21.0671, 67.981, 0.005, 0.982562, 0, 0, -
 /* @teleloc 0x3BE70003 [21.067101 67.981003 0.005000] 0.982562 0.000000 0.000000 -0.185933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BE7000, 0x73BE7004, '2019-03-23 02:20:17') /* Ruschk Camp Leader (32596) */
-     , (0x73BE7000, 0x73BE7005, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73BE7000, 0x73BE7006, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73BE7000, 0x73BE7007, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73BE7000, 0x73BE7008, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73BE7000, 0x73BE7009, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73BE7000, 0x73BE700A, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73BE7000, 0x73BE700B, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73BE7000, 0x73BE700C, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73BE7000, 0x73BE700D, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73BE7000, 0x73BE700E, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73BE7000, 0x73BE700F, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */
-     , (0x73BE7000, 0x73BE7010, '2019-03-23 02:20:17') /* Ruschk Warlord (28668) */
-     , (0x73BE7000, 0x73BE7011, '2019-03-23 02:20:17') /* Ruschk Sadist (29344) */;
+VALUES (0x73BE7000, 0x73BE7004, '2021-11-01 00:00:00') /* Ruschk Camp Leader (32596) */
+     , (0x73BE7000, 0x73BE7005, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7000, 0x73BE7006, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7000, 0x73BE7007, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7000, 0x73BE7008, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7000, 0x73BE7009, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7000, 0x73BE700A, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7000, 0x73BE700B, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7000, 0x73BE700C, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7000, 0x73BE700D, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7000, 0x73BE700E, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7000, 0x73BE700F, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7000, 0x73BE7010, '2021-11-01 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7000, 0x73BE7011, '2021-11-01 00:00:00') /* Ruschk Sadist (29344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BE7001, 31694, 0x3BE70101, 44.5397, 51.203, -0.3, 0.45802, 0, 0, -0.888942, False, '2021-11-01 00:00:00'); /* Leatherworking Supplies */

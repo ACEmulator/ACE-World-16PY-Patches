@@ -17,15 +17,15 @@ VALUES (0x77FE7003,  1154, 0x7FE70000, 112.904, 98.1263, 31.905, -0.514463, 0, 0
 /* @teleloc 0x7FE70000 [112.903999 98.126297 31.905001] -0.514463 0.000000 0.000000 0.857512 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FE7003, 0x77FE7000, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
-     , (0x77FE7003, 0x77FE7001, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */;
+VALUES (0x77FE7003, 0x77FE7000, '2021-11-01 00:00:00') /* Ghost Wisp (1987) */
+     , (0x77FE7003, 0x77FE7001, '2021-11-01 00:00:00') /* Ghost Wisp (1987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FE76A5,  1154, 0x7FE7002D, 126.787, 107.026, 32.5656, 0.908807, 0, 0, 0.417217, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x7FE7002D [126.787003 107.026001 32.565601] 0.908807 0.000000 0.000000 0.417217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FE76A5, 0x77FE76A6, '2020-01-30 00:00:00') /* Exploration Marker (39750) */;
+VALUES (0x77FE76A5, 0x77FE76A6, '2021-11-01 00:00:00') /* Exploration Marker (39750) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FE76A6, 39750, 0x7FE7002D, 126.787, 107.026, 32.5656, 0.908807, 0, 0, 0.417217,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

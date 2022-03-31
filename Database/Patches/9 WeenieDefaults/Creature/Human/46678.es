@@ -1,0 +1,32 @@
+Use:
+    - Motion: Ready
+    - TurnToTarget
+    - InqIntStat: Level, 200 - 999
+        TestSuccess:
+            - InqQuest: KillTaskGolemSamuraiCompleted0812@2
+                QuestSuccess:
+                    - Tell: Thank you again for your assistance. Return later, and I may have more work for you.
+                    - DirectBroadcast: You may complete this quest again in %tqt.
+                QuestFailure:
+                    - InqQuestSolves: KillTaskGolemSamurai0812@KillTaskInProgress, 1
+                        QuestSuccess:
+                            - InqQuest: KillTaskGolemSamurai0812@KillTaskCompleted
+                                QuestSuccess:
+                                    - Tell: Well done. Please, accept this reward with my thanks for your assistance.
+                                    - AwardNoShareXP: 15,000,000
+                                    - AwardLuminance: 4,000
+                                    - Give: Trade Note (250,000) (20630), 2
+                                    - Give: 51954
+                                    - StampQuest: KillTaskGolemSamuraiCompleted0812
+                                    - EraseQuest: KillTaskGolemSamurai0812
+                                    - Tell: I'm authorized to send adventurers out on daily hunts, so return tomorrow if you wish to aid us again.
+                                QuestFailure:
+                                    - DirectBroadcast: You've killed %tqc out of %tqm Golem Samurai.
+                                    - Tell: Return to me after you have killed %tqm Golem Samurai and I will reward you.
+                        QuestFailure:
+                            - Tell: Always an honor. I am called Aurin. I have been tasked with weakening the forces here. To that end, I am rewarding those that can help destroy the golems they are producing that appear as the Isparian warriors called Samurai.
+                            - Tell: If you will do me the honor of killing %tqm of the Golem Samurai within the towns or up within the walled fortress, I will reward you for your efforts.
+                            - Tell: Make sure you hunt those well within the towns or the walled fortress above. Killing those on the edges will not assist my task, so I cannot reward you for those.
+                            - SetQuestCompletions: KillTaskGolemSamurai0812, 0
+        TestFailure:
+            - Tell: I'm afraid the tasks I have are too difficult for you at this time, come back when you are more experienced.

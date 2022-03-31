@@ -2,11 +2,11 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.08
     - Motion: Reading
 
 Give: Sticky Lump (33158)
-	- TurnToTarget
-	- Tell: Ugh... I really wish someone would teach these Shadows the use of proper paper...
-	- Delay: 1, DirectBroadcast: Bretself shudders momentarily, and then begins to translate the lump.
-	- Delay: 1, Tell: Fascinating... According to this, it looks like Isin Dule is trying to stop the Raven Hand from awakening Grael. Here, take a look.
-	- Give: 33159
+    - TurnToTarget
+    - Tell: Ugh... I really wish someone would teach these Shadows the use of proper paper...
+    - Delay: 1, DirectBroadcast: Bretself shudders momentarily, and then begins to translate the lump.
+    - Delay: 1, Tell: Fascinating... According to this, it looks like Isin Dule is trying to stop the Raven Hand from awakening Grael. Here, take a look.
+    - Give: 33159
 
 Give: 33182
     - TurnToTarget
@@ -328,7 +328,7 @@ Give: Aged Tome (24111)
     - TurnToTarget
     - Tell: He didn't seem to care much for the Emperor, though he still paid him some sort of respect.
     - Delay: 1, Give: 24110
-	
+    
 Give: Weathered Tome (24107)
     - TurnToTarget
     - Tell: Now this was interesting it gives a little more insight to those Gromnatross things people talk about.
@@ -388,9 +388,16 @@ Give: 32586
     - Delay: 1, Tell: Fascinating. This seems to be a note from back before the Hopeslayer got freed. Here, take a look.
     - Give: 32587
 
+Give: 72798
+    - TurnToTarget
+    - Tell: Well, what have we here? Where did you find this?
+    - DirectBroadcast: You explain where you found the ancient tome.
+    - Tell: Fascinating. You know, this book isn't as old as its location may lead you to believe. This appears to be penned by one of the Adjanites, which were an order of Empyreans from Asheron's time, only a few thousand years ago. The story itself seems far older, though. She refers to it as coming from a Falatacot tribe. Very strange...
+    - Delay: 1, Tell: But I digress. You can see for yourself, and I won't keep you here any longer.
+    - Give: 72799
+
 Use:
     - Motion: Ready
     - TurnToTarget
     - Motion: BowDeep
     - Tell: I study Empyrean history of Lord Asheron's era, which we call the Empyrean Era of Lore.  If you have a text from that time, perhaps I may be of service.
-

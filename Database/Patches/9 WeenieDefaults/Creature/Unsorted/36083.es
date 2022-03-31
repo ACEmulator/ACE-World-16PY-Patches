@@ -7,4 +7,3 @@ ReceiveLocalSignal: ClaudeAttack
     - Delay: 3, LocalBroadcast: Claude slashes the proferred cup from Asheron's hands. "You do not understand true unity. You insult the concept with your individualism. To comprehend unity, yield to the Directive," the Virindi say in unison.
     - Motion: AttackMed1
     - LocalSignal: AerfalleStop
-

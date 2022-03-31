@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33636;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33636, 'ace33636-glissnalsleech', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (33636, 'ace33636-glissnalsleech', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33636,   1,         16) /* ItemType - Creature */
@@ -49,6 +49,7 @@ VALUES (33636,   1,       5) /* HeartbeatInterval */
      , (33636,  34,       1) /* PowerupTime */
      , (33636,  36,       1) /* ChargeSpeed */
      , (33636,  39,     1.1) /* DefaultScale */
+     , (33636,  41,      60) /* RegenerationInterval */
      , (33636,  43,       4) /* GeneratorRadius */
      , (33636,  64,     0.7) /* ResistSlash */
      , (33636,  65,     0.7) /* ResistPierce */
@@ -125,4 +126,4 @@ VALUES (33636, 9, 44469,  1, 0, 0, False) /* Create Lesser Corrupted Essence (44
      , (33636, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33636, -1, 40286, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Parfal Sleech (40286) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (33636, -1, 40286, 3600, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Parfal Sleech (40286) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

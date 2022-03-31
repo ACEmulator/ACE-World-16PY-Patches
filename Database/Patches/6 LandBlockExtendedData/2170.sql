@@ -57,7 +57,7 @@ VALUES (0x72170015,  7923, 0x21700029, 141.978, 20.4317, 178, 0.930078, 0, 0, 0.
 /* @teleloc 0x21700029 [141.977997 20.431700 178.000000] 0.930078 0.000000 0.000000 0.367361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72170015, 0x72170016, '2019-03-23 02:20:17') /* Campfire (4128) */;
+VALUES (0x72170015, 0x72170016, '2021-11-01 00:00:00') /* Campfire (4128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72170016,  4128, 0x21700029, 141.978, 20.4317, 178, 0.930078, 0, 0, 0.367361,  True, '2021-11-01 00:00:00'); /* Campfire */

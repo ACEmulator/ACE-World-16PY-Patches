@@ -13,15 +13,15 @@ VALUES (0x7F317002,  4219, 0xF3170000, 159.952, 27.3887, 146.005, -0.680951, 0, 
 /* @teleloc 0xF3170000 [159.951996 27.388700 146.005005] -0.680951 0.000000 0.000000 -0.732329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F317002, 0x7F317000, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
-     , (0x7F317002, 0x7F317001, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */;
+VALUES (0x7F317002, 0x7F317000, '2021-11-01 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F317002, 0x7F317001, '2021-11-01 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F3176A5,  1154, 0xF317003E, 177.587, 125.346, 152.445, 0.028117, 0, 0, 0.999605, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xF317003E [177.587006 125.346001 152.445007] 0.028117 0.000000 0.000000 0.999605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F3176A5, 0x7F3176A6, '2020-01-30 00:00:00') /* Exploration Marker (39770) */;
+VALUES (0x7F3176A5, 0x7F3176A6, '2021-11-01 00:00:00') /* Exploration Marker (39770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F3176A6, 39770, 0xF317003E, 177.587, 125.346, 152.445, 0.028117, 0, 0, 0.999605,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

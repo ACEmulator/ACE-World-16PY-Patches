@@ -28,7 +28,7 @@ VALUES (70244,   1,          1) /* ItemType - MeleeWeapon */
      , (70244, 158,          2) /* WieldRequirements - RawSkill */
      , (70244, 159,         45) /* WieldSkillType - LightWeapons */
      , (70244, 160,        325) /* WieldDifficulty */
-     , (70244, 263,          2) /* ResistanceModifierType */
+     , (70244, 263,          2) /* ResistanceModifierType - Pierce */
      , (70244, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

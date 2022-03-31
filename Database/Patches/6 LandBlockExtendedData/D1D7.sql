@@ -9,7 +9,7 @@ VALUES (0x7D1D7001,  1154, 0xD1D7000B, 33.9935, 54.9808, -0.1, 1, 0, 0, 0, False
 /* @teleloc 0xD1D7000B [33.993500 54.980801 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1D7001, 0x7D1D7002, '2019-02-10 00:00:00') /* Watcher of the Deep (31966) */;
+VALUES (0x7D1D7001, 0x7D1D7002, '2021-11-01 00:00:00') /* Watcher of the Deep (31966) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1D7002, 31966, 0xD1D7000B, 33.9935, 54.9808, -0.1, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Watcher of the Deep */
@@ -20,7 +20,7 @@ VALUES (0x7D1D7003,  1542, 0xD1D7001A, 91.9545, 25.4256, -0.163, 0.878965, 0, 0,
 /* @teleloc 0xD1D7001A [91.954498 25.425600 -0.163000] 0.878965 0.000000 0.000000 0.476887 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1D7003, 0x7D1D7004, '2019-02-10 00:00:00') /* Vissidal Island (32058) */;
+VALUES (0x7D1D7003, 0x7D1D7004, '2021-11-01 00:00:00') /* Vissidal Island (32058) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1D7004, 32058, 0xD1D7001A, 91.9545, 25.4256, -0.163, 0.878965, 0, 0, 0.476887,  True, '2021-11-01 00:00:00'); /* Vissidal Island */

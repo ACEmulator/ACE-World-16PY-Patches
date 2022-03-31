@@ -213,7 +213,7 @@ VALUES (0x70074034,  7924, 0x00740555, 246.299, -169.682, 0.055, -0.049769, 0, 0
 /* @teleloc 0x00740555 [246.298996 -169.682007 0.055000] -0.049769 0.000000 0.000000 0.998761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70074034, 0x70074035, '2021-10-11 14:08:27') /* Ruschk Aspect of Grael (87569) */;
+VALUES (0x70074034, 0x70074035, '2021-11-01 00:00:00') /* Ruschk Aspect of Grael (87569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70074035, 87569, 0x00740551, 239.469, -170.365, 0.00825, 0.000211, 0, 0, 1,  True, '2021-11-01 00:00:00'); /* Ruschk Aspect of Grael */

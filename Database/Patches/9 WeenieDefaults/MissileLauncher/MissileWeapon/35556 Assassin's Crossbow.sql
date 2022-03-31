@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35556;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35556, 'ace35556-assassinscrossbow', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
+VALUES (35556, 'ace35556-assassinscrossbow', 3, '2021-12-21 17:24:33') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
@@ -26,16 +26,12 @@ VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556, 108,      10000) /* ItemMaxMana */
      , (35556, 114,          0) /* Attuned - Normal */
      , (35556, 204,         16) /* ElementalDamageBonus */
-     , (35556, 263,          2) /* ResistanceModifierType */
+     , (35556, 263,          2) /* ResistanceModifierType - Pierce */
      , (35556, 267,      10800) /* Lifespan */
      , (35556, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35556,  11, True ) /* IgnoreCollisions */
-     , (35556,  13, True ) /* Ethereal */
-     , (35556,  14, True ) /* GravityStatus */
-     , (35556,  19, True ) /* Attackable */
-     , (35556,  22, True ) /* Inscribable */
+VALUES (35556,  22, True ) /* Inscribable */
      , (35556,  69, False) /* IsSellable */
      , (35556,  99, False) /* Ivoryable */;
 
@@ -48,7 +44,7 @@ VALUES (35556,   5,  -0.033) /* ManaRate */
      , (35556,  39,    1.25) /* DefaultScale */
      , (35556,  62,       1) /* WeaponOffense */
      , (35556,  63,    3.75) /* DamageMod */
-     , (35556, 136,       1) /* CriticalMultiplier */
+     , (35556, 136,     2.5) /* CriticalMultiplier */
      , (35556, 147,    0.25) /* CriticalFrequency */
      , (35556, 157,       1) /* ResistanceModifier */;
 

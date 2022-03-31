@@ -5,15 +5,15 @@ VALUES (0x72111000,  7924, 0x2111000A, 36.1975, 43.3167, 56.055, -0.461073, 0, 0
 /* @teleloc 0x2111000A [36.197498 43.316700 56.055000] -0.461073 0.000000 0.000000 -0.887362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72111000, 0x72111001, '2021-09-16 15:21:27') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x72111000, 0x72111002, '2021-09-16 16:38:30') /* Withered Revered Tumerok Shaman (87276) */;
+VALUES (0x72111000, 0x72111001, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72111000, 0x72111002, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (87276) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72111001, 30687, 0x2111000A, 30.3624, 37.9473, 56.0065, -0.99413, 0, 0, 0.108195,  True, '2021-11-08 06:01:47'); /* Withered Revered Tumerok Shaman */
 /* @teleloc 0x2111000A [30.362400 37.947300 56.006500] -0.994130 0.000000 0.000000 0.108195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72111001, 0x72111003, '2021-09-16 16:39:08') /* Withered Revered Tumerok Shaman (30687) */;
+VALUES (0x72111001, 0x72111003, '2021-11-08 06:01:47') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72111002, 87276, 0x2111000A, 33.0816, 40.8169, 56.0065, -0.56734, 0, 0, -0.823483,  True, '2021-11-08 06:01:47'); /* Withered Revered Tumerok Shaman */

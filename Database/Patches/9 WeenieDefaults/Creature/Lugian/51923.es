@@ -39,4 +39,3 @@ Refuse: 51922
     - AwardLuminance: 20,000
     - Give: 51899
     - Give: Trade Note (250,000) (20630), 8
-

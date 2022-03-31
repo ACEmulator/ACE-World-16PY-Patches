@@ -29,66 +29,66 @@ VALUES (0x73FB1036,  7924, 0x3FB10282, 209.523, 131.899, -9.588, 0.725229, 0, 0,
 /* @teleloc 0x3FB10282 [209.522995 131.899002 -9.588000] 0.725229 0.000000 0.000000 0.688508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FB1036, 0x73FB1037, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1038, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
-     , (0x73FB1036, 0x73FB1039, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
-     , (0x73FB1036, 0x73FB103A, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
-     , (0x73FB1036, 0x73FB103B, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
-     , (0x73FB1036, 0x73FB103C, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
-     , (0x73FB1036, 0x73FB103D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB103E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB103F, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1040, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1041, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1042, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1043, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1044, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1045, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1046, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1047, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1048, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1049, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB104A, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB104B, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB104C, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB104D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB104E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB104F, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1050, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1051, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1052, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1053, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1054, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1055, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
-     , (0x73FB1036, 0x73FB1056, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
-     , (0x73FB1036, 0x73FB1057, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1058, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1059, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
-     , (0x73FB1036, 0x73FB105A, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB105B, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB105C, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB105D, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB105E, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
-     , (0x73FB1036, 0x73FB105F, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1060, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1061, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
-     , (0x73FB1036, 0x73FB1062, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1063, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1064, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1065, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1066, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1067, '2019-02-10 00:00:00') /* Apostate Reaving Master (41229) */
-     , (0x73FB1036, 0x73FB1068, '2019-02-10 00:00:00') /* Iron Blade Arrival Guard (41228) */
-     , (0x73FB1036, 0x73FB1069, '2019-02-10 00:00:00') /* Iron Blade Arrival Guard (41228) */
-     , (0x73FB1036, 0x73FB106A, '2019-02-10 00:00:00') /* Iron Blade Arrival Guard (41228) */
-     , (0x73FB1036, 0x73FB106B, '2019-02-10 00:00:00') /* Iron Blade Arrival Guard (41228) */
-     , (0x73FB1036, 0x73FB106C, '2019-02-10 00:00:00') /* Iron Blade Lieutenant (41224) */
-     , (0x73FB1036, 0x73FB106D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB106E, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
-     , (0x73FB1036, 0x73FB1073, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x73FB1036, 0x73FB1075, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */
-     , (0x73FB1036, 0x73FB1076, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
-     , (0x73FB1036, 0x73FB1077, '2019-02-10 00:00:00') /* Reaver Simulacrum (41231) */;
+VALUES (0x73FB1036, 0x73FB1037, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1038, '2021-11-01 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x73FB1036, 0x73FB1039, '2021-11-01 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x73FB1036, 0x73FB103A, '2021-11-01 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x73FB1036, 0x73FB103B, '2021-11-01 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x73FB1036, 0x73FB103C, '2021-11-01 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x73FB1036, 0x73FB103D, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB103E, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB103F, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1040, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1041, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1042, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1043, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1044, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1045, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1046, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1047, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1048, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1049, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB104A, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB104B, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB104C, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB104D, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB104E, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB104F, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1050, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1051, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1052, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1053, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1054, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1055, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
+     , (0x73FB1036, 0x73FB1056, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
+     , (0x73FB1036, 0x73FB1057, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1058, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1059, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
+     , (0x73FB1036, 0x73FB105A, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB105B, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB105C, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB105D, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB105E, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
+     , (0x73FB1036, 0x73FB105F, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1060, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1061, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
+     , (0x73FB1036, 0x73FB1062, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1063, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1064, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1065, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1066, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1067, '2021-11-01 00:00:00') /* Apostate Reaving Master (41229) */
+     , (0x73FB1036, 0x73FB1068, '2021-11-01 00:00:00') /* Iron Blade Arrival Guard (41228) */
+     , (0x73FB1036, 0x73FB1069, '2021-11-01 00:00:00') /* Iron Blade Arrival Guard (41228) */
+     , (0x73FB1036, 0x73FB106A, '2021-11-01 00:00:00') /* Iron Blade Arrival Guard (41228) */
+     , (0x73FB1036, 0x73FB106B, '2021-11-01 00:00:00') /* Iron Blade Arrival Guard (41228) */
+     , (0x73FB1036, 0x73FB106C, '2021-11-01 00:00:00') /* Iron Blade Lieutenant (41224) */
+     , (0x73FB1036, 0x73FB106D, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB106E, '2021-11-01 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x73FB1036, 0x73FB1073, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x73FB1036, 0x73FB1075, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */
+     , (0x73FB1036, 0x73FB1076, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
+     , (0x73FB1036, 0x73FB1077, '2021-11-01 00:00:00') /* Reaver Simulacrum (41231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FB1037, 40492, 0x3FB10282, 209.523, 131.899, -9.588, 0.725229, 0, 0, 0.688508,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */

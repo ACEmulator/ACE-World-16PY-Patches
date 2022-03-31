@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44034;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44034, 'ace44034-burningsandsgolem', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (44034, 'ace44034-burningsandsgolem', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44034,   1,         16) /* ItemType - Creature */
@@ -13,6 +13,8 @@ VALUES (44034,   1,         16) /* ItemType - Creature */
      , (44034,  25,        300) /* Level */
      , (44034,  27,          0) /* ArmorType - None */
      , (44034,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (44034,  81,          3) /* MaxGeneratedObjects */
+     , (44034,  82,          0) /* InitGeneratedObjects */
      , (44034,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44034, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44034, 146,    4000000) /* XpOverride */
@@ -21,8 +23,7 @@ VALUES (44034,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44034,   1, True ) /* Stuck */
-     , (44034,   6, True ) /* AiUsesMana */
-     , (44034,  10, True ) /* AttackerAi */;
+     , (44034,   6, True ) /* AiUsesMana */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44034,   1,       5) /* HeartbeatInterval */
@@ -114,7 +115,7 @@ VALUES (44034,  3948,   2.06)  /* Flame Wave */
      , (44034,  5543,   2.06)  /* Curse of the Burning Sands */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44034,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (44034,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -154,4 +155,4 @@ VALUES (44034, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44034, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44034, 1, 87018, -1, 3, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Small Sand Golem (87018) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (44034, -1, 87018, 0, 3, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Small Sand Golem (87018) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

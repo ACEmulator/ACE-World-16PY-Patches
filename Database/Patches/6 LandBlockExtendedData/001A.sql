@@ -5,32 +5,32 @@ VALUES (0x7001A000,  7923, 0x001A0180, 190, -100, 0.005, 1, 0, 0, 0, False, '202
 /* @teleloc 0x001A0180 [190.000000 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A000, 0x7001A037, '2019-02-15 14:34:36') /* Platinum Legion Quartermaster (29424) */
-     , (0x7001A000, 0x7001A038, '2019-02-15 14:34:36') /* Platinum Legion Doorkeeper (29414) */
-     , (0x7001A000, 0x7001A039, '2019-02-15 14:34:36') /* Captain Balanchi (29404) */
-     , (0x7001A000, 0x7001A057, '2019-02-15 14:34:36') /* Platinum Legion Bodyguard (29398) */
-     , (0x7001A000, 0x7001A058, '2019-02-15 14:34:36') /* Platinum Legion Bodyguard (29398) */;
+VALUES (0x7001A000, 0x7001A037, '2021-11-01 00:00:00') /* Platinum Legion Quartermaster (29424) */
+     , (0x7001A000, 0x7001A038, '2021-11-01 00:00:00') /* Platinum Legion Doorkeeper (29414) */
+     , (0x7001A000, 0x7001A039, '2021-11-01 00:00:00') /* Captain Balanchi (29404) */
+     , (0x7001A000, 0x7001A057, '2021-11-01 00:00:00') /* Platinum Legion Bodyguard (29398) */
+     , (0x7001A000, 0x7001A058, '2021-11-01 00:00:00') /* Platinum Legion Bodyguard (29398) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A001, 30287, 0x001A01E9, 130, -313, 6.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x001A01E9 [130.000000 -313.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A001, 0x7001A00A, '2019-02-15 14:34:36') /* Lever (286) */;
+VALUES (0x7001A001, 0x7001A00A, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A002, 30287, 0x001A01FA, 130, -434.5, 6.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x001A01FA [130.000000 -434.500000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A002, 0x7001A00C, '2019-02-15 14:34:36') /* Lever (2609) */;
+VALUES (0x7001A002, 0x7001A00C, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A003, 30287, 0x001A02AE, 130, -250, 12.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x001A02AE [130.000000 -250.000000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A003, 0x7001A00B, '2019-02-15 14:34:36') /* Torch (7323) */;
+VALUES (0x7001A003, 0x7001A00B, '2021-11-01 00:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A004, 29374, 0x001A027B, 104.125, -110.085, 12.005, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Platinum Legion Door */
@@ -377,74 +377,74 @@ VALUES (0x7001A059, 24129, 0x001A0183, 201.471, -57.665, 0.005, -0.036938, 0, 0,
 /* @teleloc 0x001A0183 [201.470993 -57.665001 0.005000] -0.036938 0.000000 0.000000 -0.999318 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A059, 0x7001A00D, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A00E, '2019-02-15 14:34:36') /* Ravenous Eater (28637) */
-     , (0x7001A059, 0x7001A00F, '2019-02-15 14:34:36') /* Ravenous Eater (28637) */
-     , (0x7001A059, 0x7001A010, '2019-02-15 14:34:36') /* Ravenous Eater (28637) */
-     , (0x7001A059, 0x7001A011, '2019-02-15 14:34:36') /* Ravenous Eater (28637) */
-     , (0x7001A059, 0x7001A012, '2019-02-15 14:34:36') /* Ravenous Eater (28637) */
-     , (0x7001A059, 0x7001A013, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A014, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A015, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A016, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A017, '2019-02-15 14:34:36') /* Ravenous Eater (28637) */
-     , (0x7001A059, 0x7001A018, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A019, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A01A, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A01B, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A01C, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A01D, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A01E, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A01F, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A020, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A021, '2019-02-15 14:34:36') /* Ravenous Eater (28637) */
-     , (0x7001A059, 0x7001A022, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A023, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A024, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A025, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A026, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A027, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A028, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A029, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A02A, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A02B, '2019-02-15 14:34:36') /* Insatiable Eater (28635) */
-     , (0x7001A059, 0x7001A02C, '2019-02-15 14:34:36') /* Insatiable Eater (28635) */
-     , (0x7001A059, 0x7001A02D, '2019-02-15 14:34:36') /* Insatiable Eater (28635) */
-     , (0x7001A059, 0x7001A02E, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A02F, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A030, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A031, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A032, '2019-02-15 14:34:36') /* Insatiable Eater (28635) */
-     , (0x7001A059, 0x7001A033, '2019-02-15 14:34:36') /* Insatiable Eater (28635) */
-     , (0x7001A059, 0x7001A034, '2019-02-15 14:34:36') /* Insatiable Eater (28635) */
-     , (0x7001A059, 0x7001A035, '2019-02-15 14:34:36') /* Insatiable Eater (28635) */
-     , (0x7001A059, 0x7001A036, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A03A, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A03B, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A03C, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A03D, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A03E, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A03F, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A040, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A041, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A042, '2019-02-15 14:34:36') /* Viamontian Hand (28655) */
-     , (0x7001A059, 0x7001A043, '2019-02-15 14:34:36') /* Viamontian Hand (28655) */
-     , (0x7001A059, 0x7001A044, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A045, '2019-02-15 14:34:36') /* Royal Thaumaturge (30297) */
-     , (0x7001A059, 0x7001A046, '2019-02-15 14:34:36') /* Royal Thaumaturge (30297) */
-     , (0x7001A059, 0x7001A047, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A048, '2019-02-15 14:34:36') /* Royal Thaumaturge (30297) */
-     , (0x7001A059, 0x7001A049, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x7001A059, 0x7001A04A, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A04B, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A04C, '2019-02-15 14:34:36') /* Royal Thaumaturge (30297) */
-     , (0x7001A059, 0x7001A04D, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A04E, '2019-02-15 14:34:36') /* Royal Thaumaturge (30297) */
-     , (0x7001A059, 0x7001A04F, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A050, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A051, '2019-02-15 14:34:36') /* Royal Thaumaturge (30297) */
-     , (0x7001A059, 0x7001A052, '2019-02-15 14:34:36') /* Royal Thaumaturge (30297) */
-     , (0x7001A059, 0x7001A053, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A054, '2019-02-15 14:34:36') /* Viamontian Tribune (28652) */
-     , (0x7001A059, 0x7001A055, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x7001A059, 0x7001A056, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */;
+VALUES (0x7001A059, 0x7001A00D, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A00E, '2021-11-01 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7001A059, 0x7001A00F, '2021-11-01 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7001A059, 0x7001A010, '2021-11-01 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7001A059, 0x7001A011, '2021-11-01 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7001A059, 0x7001A012, '2021-11-01 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7001A059, 0x7001A013, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A014, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A015, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A016, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A017, '2021-11-01 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7001A059, 0x7001A018, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A019, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A01A, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A01B, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A01C, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A01D, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A01E, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A01F, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A020, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A021, '2021-11-01 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7001A059, 0x7001A022, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A023, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A024, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A025, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A026, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A027, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A028, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A029, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A02A, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A02B, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */
+     , (0x7001A059, 0x7001A02C, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */
+     , (0x7001A059, 0x7001A02D, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */
+     , (0x7001A059, 0x7001A02E, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A02F, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A030, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A031, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A032, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */
+     , (0x7001A059, 0x7001A033, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */
+     , (0x7001A059, 0x7001A034, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */
+     , (0x7001A059, 0x7001A035, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */
+     , (0x7001A059, 0x7001A036, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A03A, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A03B, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A03C, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A03D, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A03E, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A03F, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A040, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A041, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A042, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x7001A059, 0x7001A043, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x7001A059, 0x7001A044, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A045, '2021-11-01 00:00:00') /* Royal Thaumaturge (30297) */
+     , (0x7001A059, 0x7001A046, '2021-11-01 00:00:00') /* Royal Thaumaturge (30297) */
+     , (0x7001A059, 0x7001A047, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A048, '2021-11-01 00:00:00') /* Royal Thaumaturge (30297) */
+     , (0x7001A059, 0x7001A049, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x7001A059, 0x7001A04A, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A04B, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A04C, '2021-11-01 00:00:00') /* Royal Thaumaturge (30297) */
+     , (0x7001A059, 0x7001A04D, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A04E, '2021-11-01 00:00:00') /* Royal Thaumaturge (30297) */
+     , (0x7001A059, 0x7001A04F, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A050, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A051, '2021-11-01 00:00:00') /* Royal Thaumaturge (30297) */
+     , (0x7001A059, 0x7001A052, '2021-11-01 00:00:00') /* Royal Thaumaturge (30297) */
+     , (0x7001A059, 0x7001A053, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A054, '2021-11-01 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001A059, 0x7001A055, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x7001A059, 0x7001A056, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */;

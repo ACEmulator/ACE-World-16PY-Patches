@@ -5,34 +5,34 @@ VALUES (0x7CAEC001,  7924, 0xCAEC01E4, 40.8715, -3.48911, 88.006, -0.734166, 0, 
 /* @teleloc 0xCAEC01E4 [40.871498 -3.489110 88.005997] -0.734166 0.000000 0.000000 0.678970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAEC001, 0x7CAEC005, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC006, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC007, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC008, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC009, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC00A, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC00B, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC00C, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC00D, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC00E, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC00F, '2020-07-23 00:00:00') /* Vaeshok (38592) */
-     , (0x7CAEC001, 0x7CAEC010, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0x7CAEC011, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC012, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC013, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC014, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC015, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC016, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC017, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC018, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
-     , (0x7CAEC001, 0x7CAEC019, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */;
+VALUES (0x7CAEC001, 0x7CAEC005, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC006, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC007, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC008, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC009, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC00A, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC00B, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC00C, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC00D, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC00E, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC00F, '2021-11-01 00:00:00') /* Vaeshok (38592) */
+     , (0x7CAEC001, 0x7CAEC010, '2021-11-01 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7CAEC001, 0x7CAEC011, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC012, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC013, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC014, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC015, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC016, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC017, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC018, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
+     , (0x7CAEC001, 0x7CAEC019, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC002,  1154, 0xCAEC0009, 41.6688, 10.7998, 98.6828, -0.832131, 0, 0, -0.554579, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xCAEC0009 [41.668800 10.799800 98.682800] -0.832131 0.000000 0.000000 -0.554579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAEC002, 0x7CAEC004, '2019-02-10 00:00:00') /* Rock (38777) */;
+VALUES (0x7CAEC002, 0x7CAEC004, '2021-11-01 00:00:00') /* Rock (38777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC004, 38777, 0xCAEC0009, 29.1335, 14.5971, 102.289, 0.073682, 0, 0, -0.997282,  True, '2021-11-01 00:00:00'); /* Rock */
@@ -127,7 +127,7 @@ VALUES (0x7CAEC6A5,  1154, 0xCAEC0009, 41.6688, 10.7998, 98.6828, -0.832131, 0, 
 /* @teleloc 0xCAEC0009 [41.668800 10.799800 98.682800] -0.832131 0.000000 0.000000 -0.554579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAEC6A5, 0x7CAEC6A6, '2020-01-30 00:00:00') /* Exploration Marker (39776) */;
+VALUES (0x7CAEC6A5, 0x7CAEC6A6, '2021-11-01 00:00:00') /* Exploration Marker (39776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC6A6, 39776, 0xCAEC0009, 41.6688, 10.7998, 98.6828, -0.832131, 0, 0, -0.554579,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

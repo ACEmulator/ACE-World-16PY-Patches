@@ -109,7 +109,7 @@ VALUES (0x78E02058, 31061, 0x8E020273, 70, -40, -0.063, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x8E020273 [70.000000 -40.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E02058, 0x78E020AE, '2021-11-01 16:16:31') /* Portal Linkspot (10762) */;
+VALUES (0x78E02058, 0x78E020AE, '2021-11-01 00:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E02059, 30997, 0x8E020278, 70.8626, -87.907, 0.005, -0.420554, 0, 0, -0.907268, False, '2021-11-01 00:00:00'); /* Academy Researcher */
@@ -140,7 +140,7 @@ VALUES (0x78E0206A, 29334, 0x8E020331, 90, -60, 11.937, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x8E020331 [90.000000 -60.000000 11.937000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E0206A, 0x78E020AF, '2021-11-01 16:16:31') /* Portal Linkspot (10762) */;
+VALUES (0x78E0206A, 0x78E020AF, '2021-11-01 00:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E0206B,   568, 0x8E020333, 85.25, -60, 12, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -155,41 +155,41 @@ VALUES (0x78E0206D, 28282, 0x8E02023A, 60.9185, -20.011, 0.009, -0.715311, 0, 0,
 /* @teleloc 0x8E02023A [60.918499 -20.011000 0.009000] -0.715311 0.000000 0.000000 -0.698806 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E0206D, 0x78E0206E, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E0206F, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02070, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02071, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02072, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02073, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02074, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02075, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02076, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02077, '2021-11-01 16:16:31') /* Sparring Golem (12698) */
-     , (0x78E0206D, 0x78E02078, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02079, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E0207A, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E0207B, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0207C, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0207D, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E0207E, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E0207F, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02080, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02081, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02082, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02083, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02084, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02085, '2021-11-01 16:16:31') /* Thieving Thrungus (29333) */
-     , (0x78E0206D, 0x78E02086, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E02087, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E02088, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E02089, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0208A, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0208B, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0208C, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0208D, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0208E, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E0208F, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */
-     , (0x78E0206D, 0x78E02090, '2021-11-01 16:16:31') /* Carpenter Wasp (12704) */;
+VALUES (0x78E0206D, 0x78E0206E, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E0206F, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02070, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02071, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02072, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02073, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02074, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02075, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02076, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02077, '2021-11-01 00:00:00') /* Sparring Golem (12698) */
+     , (0x78E0206D, 0x78E02078, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02079, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E0207A, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E0207B, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0207C, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0207D, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E0207E, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E0207F, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02080, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02081, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02082, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02083, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02084, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02085, '2021-11-01 00:00:00') /* Thieving Thrungus (29333) */
+     , (0x78E0206D, 0x78E02086, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E02087, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E02088, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E02089, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0208A, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0208B, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0208C, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0208D, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0208E, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E0208F, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */
+     , (0x78E0206D, 0x78E02090, '2021-11-01 00:00:00') /* Carpenter Wasp (12704) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E0206E, 12698, 0x8E02023A, 60.9185, -20.011, 0.009, -0.715311, 0, 0, -0.698806,  True, '2021-11-01 00:00:00'); /* Sparring Golem */
@@ -368,16 +368,16 @@ VALUES (0x78E02099,  1154, 0x8E0201B0, 22.1139, -19.142, 0.005, 0.254402, 0, 0, 
 /* @teleloc 0x8E0201B0 [22.113899 -19.142000 0.005000] 0.254402 0.000000 0.000000 0.967099 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E02099, 0x78E0209A, '2021-11-01 16:16:31') /* Jonathan (29317) */
-     , (0x78E02099, 0x78E0209B, '2021-11-01 16:16:31') /* Society Greeter (30991) */
-     , (0x78E02099, 0x78E0209C, '2021-11-01 16:16:31') /* Samuel (29322) */
-     , (0x78E02099, 0x78E0209D, '2021-11-01 16:16:31') /* Training Master (29320) */
-     , (0x78E02099, 0x78E0209E, '2021-11-01 16:16:31') /* Academy Foreman (30995) */
-     , (0x78E02099, 0x78E0209F, '2021-11-01 16:16:31') /* Academy Blacksmith (30996) */
-     , (0x78E02099, 0x78E020A0, '2021-11-01 16:16:31') /* Wordsmith (29321) */
-     , (0x78E02099, 0x78E020A1, '2021-11-01 16:16:31') /* Academy Crier (13242) */
-     , (0x78E02099, 0x78E020A2, '2021-11-01 16:16:31') /* Senior Guard (29318) */
-     , (0x78E02099, 0x78E020A3, '2021-11-01 16:16:31') /* Sentry (30992) */;
+VALUES (0x78E02099, 0x78E0209A, '2021-11-01 00:00:00') /* Jonathan (29317) */
+     , (0x78E02099, 0x78E0209B, '2021-11-01 00:00:00') /* Society Greeter (30991) */
+     , (0x78E02099, 0x78E0209C, '2021-11-01 00:00:00') /* Samuel (29322) */
+     , (0x78E02099, 0x78E0209D, '2021-11-01 00:00:00') /* Training Master (29320) */
+     , (0x78E02099, 0x78E0209E, '2021-11-01 00:00:00') /* Academy Foreman (30995) */
+     , (0x78E02099, 0x78E0209F, '2021-11-01 00:00:00') /* Academy Blacksmith (30996) */
+     , (0x78E02099, 0x78E020A0, '2021-11-01 00:00:00') /* Wordsmith (29321) */
+     , (0x78E02099, 0x78E020A1, '2021-11-01 00:00:00') /* Academy Crier (13242) */
+     , (0x78E02099, 0x78E020A2, '2021-11-01 00:00:00') /* Senior Guard (29318) */
+     , (0x78E02099, 0x78E020A3, '2021-11-01 00:00:00') /* Sentry (30992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E0209A, 29317, 0x8E0201B0, 22.1139, -19.142, 0.005, 0.254402, 0, 0, 0.967099,  True, '2021-11-01 00:00:00'); /* Jonathan */
@@ -424,15 +424,15 @@ VALUES (0x78E020A4, 15759, 0x8E0201B6, 17.7939, -41.728, 0.005, -0.481744, 0, 0,
 /* @teleloc 0x8E0201B6 [17.793900 -41.728001 0.005000] -0.481744 0.000000 0.000000 -0.876312 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E020A4, 0x78E020A5, '2021-11-01 16:16:31') /* Leather Leggings (13241) */
-     , (0x78E020A4, 0x78E020A6, '2021-11-01 16:16:31') /* Bruised Apple (5090) */
-     , (0x78E020A4, 0x78E020A7, '2021-11-01 16:16:31') /* Leather Gauntlets (13240) */
-     , (0x78E020A4, 0x78E020A8, '2021-11-01 16:16:31') /* Restoring the Training Academies (13237) */
-     , (0x78E020A4, 0x78E020A9, '2021-11-01 16:16:31') /* Leather Cap (13239) */
-     , (0x78E020A4, 0x78E020AA, '2021-11-01 16:16:31') /* Guide to Raising Skills and Attributes (12766) */
-     , (0x78E020A4, 0x78E020AB, '2021-11-01 16:16:31') /* Tinkering (21093) */
-     , (0x78E020A4, 0x78E020AC, '2021-11-01 16:16:31') /* Combat and Spellcasting Guide (12761) */
-     , (0x78E020A4, 0x78E020AD, '2021-11-01 16:16:31') /* Guide to Healing (12762) */;
+VALUES (0x78E020A4, 0x78E020A5, '2021-11-01 00:00:00') /* Leather Leggings (13241) */
+     , (0x78E020A4, 0x78E020A6, '2021-11-01 00:00:00') /* Bruised Apple (5090) */
+     , (0x78E020A4, 0x78E020A7, '2021-11-01 00:00:00') /* Leather Gauntlets (13240) */
+     , (0x78E020A4, 0x78E020A8, '2021-11-01 00:00:00') /* Restoring the Training Academies (13237) */
+     , (0x78E020A4, 0x78E020A9, '2021-11-01 00:00:00') /* Leather Cap (13239) */
+     , (0x78E020A4, 0x78E020AA, '2021-11-01 00:00:00') /* Guide to Raising Skills and Attributes (12766) */
+     , (0x78E020A4, 0x78E020AB, '2021-11-01 00:00:00') /* Tinkering (21093) */
+     , (0x78E020A4, 0x78E020AC, '2021-11-01 00:00:00') /* Combat and Spellcasting Guide (12761) */
+     , (0x78E020A4, 0x78E020AD, '2021-11-01 00:00:00') /* Guide to Healing (12762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E020A5, 13241, 0x8E0201B6, 17.7939, -41.728, -0.0025, -0.481744, 0, 0, -0.876312,  True, '2021-11-01 00:00:00'); /* Leather Leggings */
@@ -483,11 +483,11 @@ VALUES (0x78E020B0, 15274, 0x8E020134, 119.849, -154.436, -5.995, 0.034997, 0, 0
 /* @teleloc 0x8E020134 [119.848999 -154.436005 -5.995000] 0.034997 0.000000 0.000000 0.999387 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E020B0, 0x78E02091, '2021-11-01 16:16:31') /* Young Olthoi (29332) */
-     , (0x78E020B0, 0x78E02092, '2021-11-01 16:16:31') /* Young Olthoi (29332) */
-     , (0x78E020B0, 0x78E02093, '2021-11-01 16:16:31') /* Young Olthoi (29332) */
-     , (0x78E020B0, 0x78E02094, '2021-11-01 16:16:31') /* Young Olthoi (29332) */
-     , (0x78E020B0, 0x78E02095, '2021-11-01 16:16:31') /* Young Olthoi (29332) */
-     , (0x78E020B0, 0x78E02096, '2021-11-01 16:16:31') /* Young Olthoi (29332) */
-     , (0x78E020B0, 0x78E02097, '2021-11-01 16:16:31') /* Young Olthoi (29332) */
-     , (0x78E020B0, 0x78E02098, '2021-11-01 16:16:31') /* Adolescent Olthoi (29331) */;
+VALUES (0x78E020B0, 0x78E02091, '2021-11-01 00:00:00') /* Young Olthoi (29332) */
+     , (0x78E020B0, 0x78E02092, '2021-11-01 00:00:00') /* Young Olthoi (29332) */
+     , (0x78E020B0, 0x78E02093, '2021-11-01 00:00:00') /* Young Olthoi (29332) */
+     , (0x78E020B0, 0x78E02094, '2021-11-01 00:00:00') /* Young Olthoi (29332) */
+     , (0x78E020B0, 0x78E02095, '2021-11-01 00:00:00') /* Young Olthoi (29332) */
+     , (0x78E020B0, 0x78E02096, '2021-11-01 00:00:00') /* Young Olthoi (29332) */
+     , (0x78E020B0, 0x78E02097, '2021-11-01 00:00:00') /* Young Olthoi (29332) */
+     , (0x78E020B0, 0x78E02098, '2021-11-01 00:00:00') /* Adolescent Olthoi (29331) */;

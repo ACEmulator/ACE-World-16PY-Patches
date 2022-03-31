@@ -9,65 +9,65 @@ VALUES (0x7027D3E9, 10848, 0x027D0161, 160.045, -622.865, -30.063, 0.020795, 0, 
 /* @teleloc 0x027D0161 [160.044998 -622.864990 -30.063000] 0.020795 0.000000 0.000000 -0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027D3E9, 0x7027D414, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D415, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D418, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D41F, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D420, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D421, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D422, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D423, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D424, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D425, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D426, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D427, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D428, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D429, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D42A, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D42B, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D42C, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D42D, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D42E, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D42F, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D430, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D431, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D432, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D433, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D434, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D435, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D436, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D437, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D438, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D439, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D43A, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3E9, 0x7027D43B, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */;
+VALUES (0x7027D3E9, 0x7027D414, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D415, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D418, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D41F, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D420, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D421, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D422, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D423, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D424, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D425, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D426, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D427, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D428, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D429, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D42A, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D42B, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D42C, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D42D, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D42E, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D42F, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D430, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D431, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D432, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D433, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D434, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D435, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D436, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D437, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D438, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D439, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D43A, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3E9, 0x7027D43B, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027D3EA,  7923, 0x027D02AB, 119.541, -33.9382, 0.005, 0.99576, 0, 0, 0.091985, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x027D02AB [119.541000 -33.938202 0.005000] 0.995760 0.000000 0.000000 0.091985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027D3EA, 0x7027D407, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D408, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D409, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D40A, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D40B, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D40C, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11725) */
-     , (0x7027D3EA, 0x7027D40D, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D40E, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11725) */
-     , (0x7027D3EA, 0x7027D40F, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D410, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D411, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11725) */
-     , (0x7027D3EA, 0x7027D412, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D413, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D416, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D417, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D419, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D41A, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D41B, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D41C, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D41D, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */
-     , (0x7027D3EA, 0x7027D41E, '2019-07-16 01:21:57') /* Olthoi Eviscerator (11478) */;
+VALUES (0x7027D3EA, 0x7027D407, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D408, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D409, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D40A, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D40B, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D40C, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11725) */
+     , (0x7027D3EA, 0x7027D40D, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D40E, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11725) */
+     , (0x7027D3EA, 0x7027D40F, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D410, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D411, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11725) */
+     , (0x7027D3EA, 0x7027D412, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D413, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D416, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D417, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D419, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D41A, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D41B, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D41C, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D41D, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D3EA, 0x7027D41E, '2021-11-01 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027D3EB,  7923, 0x027D02BF, 125.672, -32.6927, 0.005, 0.960743, 0, 0, 0.277441, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */

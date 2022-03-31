@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70047;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70047, 'ace70047-grazerbug', 1, '2021-11-17 16:56:08') /* Generic */;
+VALUES (70047, 'ace70047-grazerbug', 1, '2022-03-19 04:04:39') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70047,   1,        128) /* ItemType - Misc */
@@ -26,7 +26,7 @@ VALUES (70047,  39,     0.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70047,   1, 'Grazer Bug') /* Name */
      , (70047,  16, 'Grazer Bugs are small parasitic creatures that live inside the bowels of warm blooded animals. They feed off the half-digested food of their host where they will reproduce with their life mate counterpart. In cases of accidental expulsion from its host, the Grazer Bug has the unique ability to track down the host animal in order to reunite itself with its mate.') /* LongDesc */
-     , (70047,  33, 'TrustBetrayalBug0905') /* Quest */;
+     , (70047,  33, 'TrustBetrayalBugPickedUp0905') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70047,   1, 0x02000181) /* Setup */

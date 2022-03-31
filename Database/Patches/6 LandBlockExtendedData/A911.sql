@@ -21,16 +21,16 @@ VALUES (0x7A911004,  3955, 0xA9110000, 185.573, 30.5194, 109.905, -0.133018, 0, 
 /* @teleloc 0xA9110000 [185.572998 30.519400 109.904999] -0.133018 0.000000 0.000000 0.991114 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A911004, 0x7A911000, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
-     , (0x7A911004, 0x7A911001, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
-     , (0x7A911004, 0x7A911002, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */;
+VALUES (0x7A911004, 0x7A911000, '2021-11-01 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A911004, 0x7A911001, '2021-11-01 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A911004, 0x7A911002, '2021-11-01 00:00:00') /* Gotrok Obeloth (24943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9116A5,  1154, 0xA9110039, 191.185, 0.971851, 111.851, 0.308825, 0, 0, -0.951119, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xA9110039 [191.184998 0.971851 111.850998] 0.308825 0.000000 0.000000 -0.951119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9116A5, 0x7A9116A6, '2020-01-30 00:00:00') /* Exploration Marker (39818) */;
+VALUES (0x7A9116A5, 0x7A9116A6, '2021-11-01 00:00:00') /* Exploration Marker (39818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9116A6, 39818, 0xA9110039, 191.185, 0.971851, 111.851, 0.308825, 0, 0, -0.951119,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

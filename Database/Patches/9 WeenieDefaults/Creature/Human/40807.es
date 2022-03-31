@@ -58,3 +58,21 @@ Refuse: Nexus Crawler's Mask (40801)
                         - Tell: Hey! It doesn't look to me like you still have the Nexus Crawler Mask any more... What are you trying to pull here?
             TestFailure:
                 - Tell: Let me know if you change your mind.
+
+Give: 41023
+    - TurnToTarget
+    - Tell: This is very interesting indeed.
+    - Tell: I've been working with a substance called Aetherium, we actually sent a shipment to Mar'uun to assist in their experiments before it vanished.
+    - Give: 41024
+    - Tell: I put togeather several diagrams and several notes for the researchers based off their notes.
+    - Tell: Take my note to Marcus, it'll help him determine the cause of the accident.
+    - Tell: My personal theory is that they used the Aetherium in a way that destabilized portal space...
+    - Tell: Sundering a barrier between the planes of existance and time...
+    - Tell: Truely shocking.
+
+Give: 41021
+    - TurnToTarget
+    - Tell: As I suspected, it seems their calculations about the resonant properties and volatility of aetherium were off.
+    - Give: 41022
+    - Tell: I've corrected their calculations in this note. Please deliver it to Marcus.
+    - Tell: I am also suggesting that they hold their experiments for the time being, at least until we know more.

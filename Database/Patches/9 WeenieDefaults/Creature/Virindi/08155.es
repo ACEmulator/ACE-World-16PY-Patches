@@ -1,30 +1,30 @@
 Give: Shadowy Virindi Essence (36064)
-	- TurnToTarget
-	- InqQuest: VisionQuestRepeat1007
-		QuestSuccess: 
-			- Tell: You have again vanquished the darkness that resides in Claude. Your execution is respected.
-			- Delay: 1, AwardLevelProportionalXP: 10%, 0 - 339,045,140
-			- AwardLuminance: 20,000
-			- Give: 36048
-			- Give: 38456
-			- StampQuest: VisionQuestCompleted1007
-			- EraseQuest: VisionQuestStarted_0911
-		QuestFailure:
-			- Tell: I perceive your return. This essence that you give me is troublesome.
-			- Delay: 1, Tell: It is a darkness that now resides in Claude. It is not destroyed, but dormant.
-			- Delay: 1, Tell: Claude will never function correctly, but at least there is functionality left. Take this replica for yours, skilled comrade.
-			- Delay: 1, AwardLevelProportionalXP: 25%, 0 - 847,612,850
-			- AwardLuminance: 20,000
-			- Give: 36048
-			- Give: 38456
-			- StampQuest: VisionQuestCompleted1007
-			- StampQuest: VisionQuestRepeat1007
-			- EraseQuest: VisionQuestStarted_0911
+    - TurnToTarget
+    - InqQuest: VisionQuestRepeat1007
+        QuestSuccess: 
+            - Tell: You have again vanquished the darkness that resides in Claude. Your execution is respected.
+            - Delay: 1, AwardLevelProportionalXP: 10%, 0 - 339,045,140
+            - AwardLuminance: 20,000
+            - Give: 36048
+            - Give: 38456
+            - StampQuest: VisionQuestCompleted1007
+            - EraseQuest: VisionQuestStarted_0911
+        QuestFailure:
+            - Tell: I perceive your return. This essence that you give me is troublesome.
+            - Delay: 1, Tell: It is a darkness that now resides in Claude. It is not destroyed, but dormant.
+            - Delay: 1, Tell: Claude will never function correctly, but at least there is functionality left. Take this replica for yours, skilled comrade.
+            - Delay: 1, AwardLevelProportionalXP: 25%, 0 - 847,612,850
+            - AwardLuminance: 20,000
+            - Give: 36048
+            - Give: 38456
+            - StampQuest: VisionQuestCompleted1007
+            - StampQuest: VisionQuestRepeat1007
+            - EraseQuest: VisionQuestStarted_0911
 
 Give: Visage of the Shadow Virindi (36048)
-	- TurnToTarget
-	- Tell: You do not desire this? Very well.
-	- AwardLevelProportionalXP: 5%, 0 - 169,522,570
+    - TurnToTarget
+    - Tell: You do not desire this? Very well.
+    - AwardLevelProportionalXP: 5%, 0 - 169,522,570
 
 Refuse: Virindi Mask (8153)
     - TurnToTarget
@@ -52,16 +52,16 @@ Refuse: Virindi Consul Mask (25335)
     - Tell: I do not want this. There is something ... not ... right ...
 
 Give: Aerbax Mask Shard (37058)
-	- TurnToTarget
-	- Tell: Anomaly! Anomaly! Disruption in the Order!
-	- Delay: 1, DirectBroadcast: Leopold's eyes darken and his heal lolls to one side.
-	- Delay: 1, Tell: Ah yes, a mask for me to repair. Order from Chaos. Chaos from Order. I see now that this is the true way of things.
-	- Delay: 1, DirectBroadcast: Intricate tendrils of purple energy reach from Leopold's robes and rebuild the mask with blinding speed.
-	- Delay: 1, Tell: Your mask fellow human.
-	- Give: 36949
-	- Delay: 1, DirectBroadcast: As soon as Leopold releases the mask he eyes flicker to life. His head rises and he looks around for a second.
-	- Delay: 1, Tell: I appear to have mastered the human art of sleep. Which is what I as a human do periodically in order to reacquire energy and clarity of thought.
-	- Delay: 1, Tell: How may I help you comrade?
+    - TurnToTarget
+    - Tell: Anomaly! Anomaly! Disruption in the Order!
+    - Delay: 1, DirectBroadcast: Leopold's eyes darken and his heal lolls to one side.
+    - Delay: 1, Tell: Ah yes, a mask for me to repair. Order from Chaos. Chaos from Order. I see now that this is the true way of things.
+    - Delay: 1, DirectBroadcast: Intricate tendrils of purple energy reach from Leopold's robes and rebuild the mask with blinding speed.
+    - Delay: 1, Tell: Your mask fellow human.
+    - Give: 36949
+    - Delay: 1, DirectBroadcast: As soon as Leopold releases the mask he eyes flicker to life. His head rises and he looks around for a second.
+    - Delay: 1, Tell: I appear to have mastered the human art of sleep. Which is what I as a human do periodically in order to reacquire energy and clarity of thought.
+    - Delay: 1, Tell: How may I help you comrade?
 
 Give: Broken Virindi Mask (8154)
     - TurnToTarget
@@ -94,4 +94,3 @@ Use:
     - Motion: Ready
     - TurnToTarget
     - Tell: Hello, my name is Leopold! It is awfully hot out, is it not? Good thing I am wearing short sleeves!
-

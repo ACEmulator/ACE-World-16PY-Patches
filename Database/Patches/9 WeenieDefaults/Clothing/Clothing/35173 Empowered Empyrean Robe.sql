@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35173;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35173, 'ace35173-empoweredempyreanrobe', 2, '2021-11-01 00:00:00') /* Clothing */;
+VALUES (35173, 'ace35173-empoweredempyreanrobe', 2, '2022-01-08 18:29:57') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35173,   1,          4) /* ItemType - Clothing */
@@ -29,6 +29,7 @@ VALUES (35173,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35173,   5,    -0.5) /* ManaRate */
+     , (35173,  12,     0.5) /* Shade */
      , (35173,  13,     0.6) /* ArmorModVsSlash */
      , (35173,  14,     0.6) /* ArmorModVsPierce */
      , (35173,  15,     0.6) /* ArmorModVsBludgeon */
@@ -46,7 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35173,   1, 0x020001A6) /* Setup */
      , (35173,   3, 0x20000014) /* SoundTable */
      , (35173,   6, 0x0400007E) /* PaletteBase */
-     , (35173,   7, 0x100003EC) /* ClothingBase */
+     , (35173,   7, 0x100006BA) /* ClothingBase */
      , (35173,   8, 0x060065D2) /* Icon */
      , (35173,  22, 0x3400002B) /* PhysicsEffectTable */;
 

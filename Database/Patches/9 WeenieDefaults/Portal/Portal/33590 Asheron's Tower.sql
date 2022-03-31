@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33590;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33590, 'ace33590-asheronstower', 7, '2021-11-17 16:56:08') /* Portal */;
+VALUES (33590, 'ace33590-asheronstower', 7, '2022-03-31 06:02:40') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33590,   1,      65536) /* ItemType - Portal */
@@ -26,5 +26,5 @@ VALUES (33590,   1, 0x02000EFC) /* Setup */
      , (33590,   8, 0x06002A68) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33590, 2, 0x5E470105, 10, -20, 0.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5E470105 [10.000000 -20.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (33590, 2, 0xD599014C, 152.5, 183.46, 374, 0.382683, 0, 0, -0.92388) /* Destination */
+/* @teleloc 0xD599014C [152.500000 183.460007 374.000000] 0.382683 0.000000 0.000000 -0.923880 */;

@@ -57,14 +57,14 @@ VALUES (0x7F68200E,  7923, 0xF682011C, 175.857, 29.02, 63.605, -0.986125, 0, 0, 
 /* @teleloc 0xF682011C [175.856995 29.020000 63.605000] -0.986125 0.000000 0.000000 -0.166006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F68200E, 0x7F68200D, '2005-02-09 10:00:00') /* Brighteyes, the Tailor (22642) */;
+VALUES (0x7F68200E, 0x7F68200D, '2021-11-01 00:00:00') /* Brighteyes, the Tailor (22642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F68200F,  7923, 0xF6820000, 152.567, 61.1549, 58.005, -0.343612, 0, 0, 0.939112, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xF6820000 [152.567001 61.154900 58.005001] -0.343612 0.000000 0.000000 0.939112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F68200F, 0x7F68200C, '2005-02-09 10:00:00') /* Mayor Ko Ko (22640) */;
+VALUES (0x7F68200F, 0x7F68200C, '2021-11-01 00:00:00') /* Mayor Ko Ko (22640) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F682011, 28681, 0xF682001A, 94.1757, 36.1717, 63.4465, -0.836822, 0, 0, -0.547475, False, '2021-11-01 00:00:00'); /* Lug */
@@ -83,7 +83,7 @@ VALUES (0x7F682014, 15759, 0xF6820000, 172.948, 74.3958, 58.005, 0.634377, 0, 0,
 /* @teleloc 0xF6820000 [172.947998 74.395798 58.005001] 0.634377 0.000000 0.000000 -0.773024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F682014, 0x7F682013, '2005-02-09 10:00:00') /* Note (25681) */;
+VALUES (0x7F682014, 0x7F682013, '2021-11-01 00:00:00') /* Note (25681) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F682018, 42852, 0xF6820033, 145.337, 63.357, 58.198, -0.098031, 0, 0, -0.995183, False, '2021-11-01 00:00:00'); /* Portal to Town Network */
@@ -94,7 +94,7 @@ VALUES (0x7F6826A5,  1154, 0xF682001E, 77.2806, 140.553, 54.1344, 0.504589, 0, 0
 /* @teleloc 0xF682001E [77.280602 140.552994 54.134399] 0.504589 0.000000 0.000000 -0.863360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F6826A5, 0x7F6826A6, '2020-01-30 00:00:00') /* Exploration Marker (39779) */;
+VALUES (0x7F6826A5, 0x7F6826A6, '2021-11-01 00:00:00') /* Exploration Marker (39779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F6826A6, 39779, 0xF682001E, 77.2806, 140.553, 54.1344, 0.504589, 0, 0, -0.86336,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

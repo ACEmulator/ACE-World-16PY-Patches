@@ -9,7 +9,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
 
 Use:
     - TurnToTarget
-    - InqIntStat: Level, 200 - 999
+    - InqIntStat: Level, 150 - 999
         TestSuccess:
             - Goto: CheckPrereq
         TestFailure:

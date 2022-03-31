@@ -105,7 +105,7 @@ VALUES (0x72D3162E,  7924, 0x2D31001D, 82.9752, 101.858, 215.105, 1, 0, 0, 0, Fa
 /* @teleloc 0x2D31001D [82.975197 101.858002 215.104996] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3162E, 0x72D3162F, '2021-01-13 13:45:38') /* Lothus Guardian of Torment (51823) */;
+VALUES (0x72D3162E, 0x72D3162F, '2021-11-01 00:00:00') /* Lothus Guardian of Torment (51823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3162F, 51823, 0x2D31001D, 82.9752, 101.858, 215.079, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lothus Guardian of Torment */

@@ -9,7 +9,7 @@ VALUES (0x75951025,  4139, 0x5951012A, 164.75, -130, 0, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x5951012A [164.750000 -130.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75951025, 0x759512E1, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x75951025, 0x759512E1, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595102A,   285, 0x59510145, 221.77, -170, 1.3, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -24,7 +24,7 @@ VALUES (0x7595102C,  4139, 0x59510153, 240, -154.75, 0, 0, 0, 0, -1, False, '202
 /* @teleloc 0x59510153 [240.000000 -154.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7595102C, 0x7595102A, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x7595102C, 0x7595102A, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595102D,   285, 0x59510162, 261.776, -30, 1.3, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Lever */
@@ -47,14 +47,14 @@ VALUES (0x75951031,  4139, 0x59510171, 280, -14.75, 0, 0, 0, 0, -1, False, '2021
 /* @teleloc 0x59510171 [280.000000 -14.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75951031, 0x75951033, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x75951031, 0x75951033, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75951032,  4139, 0x5951017D, 294.75, -70, 0, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x5951017D [294.750000 -70.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75951032, 0x75951038, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x75951032, 0x75951038, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75951033,   285, 0x59510181, 298.224, -20, 1.3, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -101,14 +101,14 @@ VALUES (0x7595103D,  4139, 0x5951019E, 325.25, -150, 0, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x5951019E [325.250000 -150.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7595103D, 0x75951037, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x7595103D, 0x75951037, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595103E,  4139, 0x595101AC, 364.75, -50, 0, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x595101AC [364.750000 -50.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7595103E, 0x75951040, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x7595103E, 0x75951040, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595103F,   285, 0x595101B4, 380, -31.7674, 1.3, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Lever */
@@ -163,7 +163,7 @@ VALUES (0x7595104B,  4139, 0x595101D9, 415.25, -120, 0, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x595101D9 [415.250000 -120.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7595104B, 0x75951045, '2005-02-09 10:00:00') /* Lever (285) */;
+VALUES (0x7595104B, 0x75951045, '2021-11-01 00:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595109E, 51911, 0x59510102, 3.02712, -80, -0.063, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */
@@ -238,44 +238,44 @@ VALUES (0x759510C9,  7924, 0x595102AF, 238, -182, 13.965, 1, 0, 0, 0, False, '20
 /* @teleloc 0x595102AF [238.000000 -182.000000 13.965000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759510C9, 0x759510CC, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510CD, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510CE, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510CF, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510D0, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x759510D8, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x759510E2, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510E8, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510EA, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x759510F3, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510F8, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510FB, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510FC, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x759510FD, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x759510FE, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x759510FF, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x75951101, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x7595110C, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x75951126, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951127, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951129, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x7595112A, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951131, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951132, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x75951135, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951138, '2019-02-10 00:00:00') /* Lugian Minion (51904) */
-     , (0x759510C9, 0x7595114B, '2019-02-10 00:00:00') /* Lugian Guardian (51909) */
-     , (0x759510C9, 0x7595114C, '2019-02-10 00:00:00') /* Captain Keeson (51920) */
-     , (0x759510C9, 0x7595114D, '2019-02-10 00:00:00') /* Lugian Guardian (51909) */
-     , (0x759510C9, 0x7595114F, '2019-02-10 00:00:00') /* Lugian Guardian (51909) */
-     , (0x759510C9, 0x75951153, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951154, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951155, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951156, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951315, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951316, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951317, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */
-     , (0x759510C9, 0x75951318, '2019-02-10 00:00:00') /* Lugian Lackey (51902) */;
+VALUES (0x759510C9, 0x759510CC, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510CD, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510CE, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510CF, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510D0, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x759510D8, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x759510E2, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510E8, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510EA, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x759510F3, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510F8, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510FB, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510FC, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x759510FD, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x759510FE, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x759510FF, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x75951101, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x7595110C, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x75951126, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951127, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951129, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x7595112A, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951131, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951132, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x75951135, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951138, '2021-11-01 00:00:00') /* Lugian Minion (51904) */
+     , (0x759510C9, 0x7595114B, '2021-11-01 00:00:00') /* Lugian Guardian (51909) */
+     , (0x759510C9, 0x7595114C, '2021-11-01 00:00:00') /* Captain Keeson (51920) */
+     , (0x759510C9, 0x7595114D, '2021-11-01 00:00:00') /* Lugian Guardian (51909) */
+     , (0x759510C9, 0x7595114F, '2021-11-01 00:00:00') /* Lugian Guardian (51909) */
+     , (0x759510C9, 0x75951153, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951154, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951155, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951156, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951315, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951316, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951317, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */
+     , (0x759510C9, 0x75951318, '2021-11-01 00:00:00') /* Lugian Lackey (51902) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759510CC, 51902, 0x59510220, 224.662, -180, 6.01, 0.278836, 0, 0, -0.960339,  True, '2021-11-01 00:00:00'); /* Lugian Lackey */

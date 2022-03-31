@@ -1,3 +1,3 @@
 Use:
-	- StampQuest: RitualChambersFlag
-	- CastSpellInstant: 157
+    - StampQuest: RitualChambersFlag
+    - CastSpellInstant: 157

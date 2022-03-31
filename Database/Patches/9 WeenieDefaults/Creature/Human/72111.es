@@ -18,4 +18,3 @@ Generation:
                                     - StopEvent: TormentCatacombsOpen
                                     - WorldBroadcast: As the Lothus still loyal to the Curator of Torment reform one of the Warding Crystals, the path to his catacombs is hidden once again.
                                     - StopEvent: TormentWard2Down
-

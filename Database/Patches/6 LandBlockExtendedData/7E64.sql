@@ -29,14 +29,14 @@ VALUES (0x77E64007,  3955, 0x7E640119, 112.061, 107.916, 12.005, 0.707107, 0, 0,
 /* @teleloc 0x7E640119 [112.060997 107.916000 12.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E64007, 0x77E64005, '2005-02-09 10:00:00') /* Gharu'ndim Mid-Stakes Gamesmaster (9502) */
-     , (0x77E64007, 0x77E64006, '2005-02-09 10:00:00') /* Gharu'ndim Mid-Stakes Gamesmaster (9502) */
-     , (0x77E64007, 0x77E64008, '2005-02-09 10:00:00') /* Gharu'ndim Low-Stakes Gamesmaster (9499) */
-     , (0x77E64007, 0x77E64009, '2005-02-09 10:00:00') /* Gharu'ndim Low-Stakes Gamesmaster (9499) */
-     , (0x77E64007, 0x77E6400A, '2005-02-09 10:00:00') /* Gharu'ndim High-Stakes Gamesmaster (9496) */
-     , (0x77E64007, 0x77E6400B, '2005-02-09 10:00:00') /* Gharu'ndim High-Stakes Gamesmaster (9496) */
-     , (0x77E64007, 0x77E6400C, '2005-02-09 10:00:00') /* Arshid al-Qiyid (9493) */
-     , (0x77E64007, 0x77E64016, '2019-02-10 00:00:00') /* Rare Exchanger (40462) */;
+VALUES (0x77E64007, 0x77E64005, '2021-11-01 00:00:00') /* Gharu'ndim Mid-Stakes Gamesmaster (9502) */
+     , (0x77E64007, 0x77E64006, '2021-11-01 00:00:00') /* Gharu'ndim Mid-Stakes Gamesmaster (9502) */
+     , (0x77E64007, 0x77E64008, '2021-11-01 00:00:00') /* Gharu'ndim Low-Stakes Gamesmaster (9499) */
+     , (0x77E64007, 0x77E64009, '2021-11-01 00:00:00') /* Gharu'ndim Low-Stakes Gamesmaster (9499) */
+     , (0x77E64007, 0x77E6400A, '2021-11-01 00:00:00') /* Gharu'ndim High-Stakes Gamesmaster (9496) */
+     , (0x77E64007, 0x77E6400B, '2021-11-01 00:00:00') /* Gharu'ndim High-Stakes Gamesmaster (9496) */
+     , (0x77E64007, 0x77E6400C, '2021-11-01 00:00:00') /* Arshid al-Qiyid (9493) */
+     , (0x77E64007, 0x77E64016, '2021-11-01 00:00:00') /* Rare Exchanger (40462) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E64008,  9499, 0x7E640111, 109, 114, 12.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */

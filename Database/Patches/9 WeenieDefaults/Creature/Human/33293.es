@@ -53,4 +53,3 @@ Use:
                     - StampQuest: GraelIslandTempleEastAccess0606
         TestFailure:
             - Tell: I am sorry. Though your resolve is strong, I'm afraid your skills are not up to this task. Perhaps when you have grown.
-

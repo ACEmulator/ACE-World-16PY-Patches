@@ -25,21 +25,21 @@ VALUES (0x75870048, 51415, 0x58700313, 240, -34.75, 0, 0, 0, 0, -1, False, '2021
 /* @teleloc 0x58700313 [240.000000 -34.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870048, 0x75870060, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870048, 0x75870060, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587004A, 51415, 0x58700337, 260, -34.75, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x58700337 [260.000000 -34.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587004A, 0x75870062, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x7587004A, 0x75870062, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587004F, 51415, 0x58700360, 285.25, -60, 0, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x58700360 [285.250000 -60.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587004F, 0x75870057, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x7587004F, 0x75870057, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870057, 51413, 0x58700354, 284.791, -62.5123, 0, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -62,7 +62,7 @@ VALUES (0x75870075, 51416, 0x587001AD, 240, -34.75, -12, 0, 0, 0, -1, False, '20
 /* @teleloc 0x587001AD [240.000000 -34.750000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870075, 0x75870076, '2021-01-15 10:00:00') /* Bookcase (51414) */;
+VALUES (0x75870075, 0x75870076, '2021-11-01 00:00:00') /* Bookcase (51414) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870076, 51414, 0x587001AE, 242.498, -35.2303, -12, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -217,77 +217,77 @@ VALUES (0x758700F7,  7924, 0x587002DC, 198.938, -120.99, 0.005, 1, 0, 0, 0, Fals
 /* @teleloc 0x587002DC [198.938004 -120.989998 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758700F7, 0x758700F8, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x758700F9, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x758700FA, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x758700FB, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x758700FC, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x758700FD, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x758700FE, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x758700FF, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870100, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870101, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870102, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870103, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870104, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870105, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x75870106, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870107, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870108, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870109, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587010A, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587010B, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587010C, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587010D, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x7587010E, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x7587010F, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x75870110, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x75870111, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x75870112, '2019-02-10 00:00:00') /* Hollow Servitor (51375) */
-     , (0x758700F7, 0x7587013F, '2021-01-16 09:36:02') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870140, '2021-01-16 09:36:40') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870141, '2021-01-16 09:36:59') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870142, '2021-01-16 09:37:24') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870143, '2021-01-16 09:37:50') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870144, '2021-01-16 09:38:16') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870145, '2021-01-16 09:38:31') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870146, '2021-01-16 09:39:02') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870147, '2021-01-16 09:39:22') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870148, '2021-01-16 09:39:37') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870149, '2021-01-16 09:40:10') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587014A, '2021-01-16 09:40:29') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587014B, '2021-01-16 09:40:50') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587014C, '2021-01-16 09:41:20') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587014D, '2021-01-16 09:41:36') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587014E, '2021-01-16 09:41:53') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587014F, '2021-01-16 09:42:20') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870150, '2021-01-16 09:42:36') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870151, '2021-01-16 09:43:15') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870152, '2021-01-16 09:44:58') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870153, '2021-01-16 09:45:15') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870154, '2021-01-16 09:46:46') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870155, '2021-01-16 09:47:13') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870158, '2021-01-16 10:07:15') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870159, '2021-01-16 10:07:47') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587015A, '2021-01-16 10:09:13') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x7587015B, '2021-01-16 10:09:39') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587015C, '2021-01-16 10:11:56') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587015D, '2021-01-16 10:12:13') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587015E, '2021-01-16 10:12:33') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587015F, '2021-01-16 10:12:48') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870160, '2021-01-16 10:13:12') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x75870161, '2021-01-16 10:13:37') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x75870166, '2021-01-16 10:21:37') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870167, '2021-01-16 10:22:02') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870168, '2021-01-16 10:23:14') /* Hollow Servant (51349) */
-     , (0x758700F7, 0x75870169, '2021-01-16 10:23:50') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587016A, '2021-01-16 10:27:03') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587016B, '2021-01-16 10:27:49') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587016C, '2021-01-16 10:28:09') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587016D, '2021-01-16 10:28:28') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x7587016E, '2021-01-16 10:28:49') /* Simulacrum Doppelganger (51399) */
-     , (0x758700F7, 0x7587016F, '2021-01-16 10:29:05') /* Olthoi Hive Warrior (51376) */
-     , (0x758700F7, 0x75870170, '2021-01-16 10:30:10') /* Olthoi Hive Warrior (51376) */;
+VALUES (0x758700F7, 0x758700F8, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700F9, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FA, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FB, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FC, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x758700FD, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FE, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FF, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870100, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870101, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870102, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870103, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870104, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870105, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870106, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870107, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870108, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870109, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587010A, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587010B, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587010C, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587010D, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x7587010E, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x7587010F, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870110, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870111, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870112, '2021-11-01 00:00:00') /* Hollow Servitor (51375) */
+     , (0x758700F7, 0x7587013F, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870140, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870141, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870142, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870143, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870144, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870145, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870146, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870147, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870148, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870149, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587014A, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587014B, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587014C, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587014D, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587014E, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587014F, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870150, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870151, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870152, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870153, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870154, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870155, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870158, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870159, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587015A, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x7587015B, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587015C, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587015D, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587015E, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587015F, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870160, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870161, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870166, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870167, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870168, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870169, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587016A, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587016B, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587016C, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587016D, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587016E, '2021-11-01 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587016F, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870170, '2021-11-01 00:00:00') /* Olthoi Hive Warrior (51376) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758700F8, 51399, 0x587002DC, 198.938, -120.99, 0.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Simulacrum Doppelganger */
@@ -414,9 +414,9 @@ VALUES (0x75870116, 72162, 0x58700106, 10, -50, -11.995, 0, 0, 0, -1, False, '20
 /* @teleloc 0x58700106 [10.000000 -50.000000 -11.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870116, 0x75870117, '2019-02-10 00:00:00') /* Aun Siminua (51378) */
-     , (0x75870116, 0x75870118, '2019-02-10 00:00:00') /* Kul Bronzegear (51379) */
-     , (0x75870116, 0x75870119, '2019-02-10 00:00:00') /* Oggma (51377) */;
+VALUES (0x75870116, 0x75870117, '2021-11-01 00:00:00') /* Aun Siminua (51378) */
+     , (0x75870116, 0x75870118, '2021-11-01 00:00:00') /* Kul Bronzegear (51379) */
+     , (0x75870116, 0x75870119, '2021-11-01 00:00:00') /* Oggma (51377) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870117, 51378, 0x58700106, 10, -50, -11.995, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Aun Siminua */
@@ -435,9 +435,9 @@ VALUES (0x7587011A,  5085, 0x58700106, 7.08661, -45.4479, -11.056, 0.751431, 0, 
 /* @teleloc 0x58700106 [7.086610 -45.447899 -11.056000] 0.751431 0.000000 0.000000 -0.659811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587011A, 0x7587011B, '2019-02-10 00:00:00') /* Cracked Message Shard (51385) */
-     , (0x7587011A, 0x7587011C, '2019-02-10 00:00:00') /* Fractured Message Shard (51387) */
-     , (0x7587011A, 0x7587011D, '2019-02-10 00:00:00') /* Chipped Message Shard (51386) */;
+VALUES (0x7587011A, 0x7587011B, '2021-11-01 00:00:00') /* Cracked Message Shard (51385) */
+     , (0x7587011A, 0x7587011C, '2021-11-01 00:00:00') /* Fractured Message Shard (51387) */
+     , (0x7587011A, 0x7587011D, '2021-11-01 00:00:00') /* Chipped Message Shard (51386) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587011B, 51385, 0x58700106, 7.08661, -45.4479, -11.056, 0.751431, 0, 0, -0.659811,  True, '2021-11-01 00:00:00'); /* Cracked Message Shard */
@@ -456,7 +456,7 @@ VALUES (0x7587011E, 51415, 0x58700361, 285.65, -80, 0.055, 0.707107, 0, 0, -0.70
 /* @teleloc 0x58700361 [285.649994 -80.000000 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587011E, 0x7587011F, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x7587011E, 0x7587011F, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587011F, 51413, 0x58700356, 284.791, -77.4623, 0.055, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -467,14 +467,14 @@ VALUES (0x75870120, 51415, 0x58700362, 285.508, -120.078, 0.055, 0.707107, 0, 0,
 /* @teleloc 0x58700362 [285.507996 -120.078003 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870120, 0x75870122, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870120, 0x75870122, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870121, 51415, 0x58700363, 285.537, -140.047, 0.055, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x58700363 [285.536987 -140.046997 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870121, 0x75870123, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870121, 0x75870123, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870122, 51413, 0x58700357, 284.717, -122.5, 0.055, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -489,14 +489,14 @@ VALUES (0x75870124, 51415, 0x58700346, 259.895, -165.474, 0.055, 0, 0, 0, -1, Fa
 /* @teleloc 0x58700346 [259.894989 -165.473999 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870124, 0x75870126, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870124, 0x75870126, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870125, 51415, 0x58700326, 239.961, -165.48, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x58700326 [239.960999 -165.479996 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870125, 0x75870127, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870125, 0x75870127, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870126, 51413, 0x58700345, 257.37, -164.719, 0.055, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -511,14 +511,14 @@ VALUES (0x75870128, 51415, 0x587002E1, 199.915, -165.535, 0.055, 0, 0, 0, -1, Fa
 /* @teleloc 0x587002E1 [199.914993 -165.535004 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870128, 0x7587012A, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870128, 0x7587012A, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870129, 51415, 0x587002BD, 179.991, -165.625, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x587002BD [179.990997 -165.625000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870129, 0x7587012B, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870129, 0x7587012B, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587012A, 51413, 0x587002E0, 197.52, -164.719, 0.055, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -533,14 +533,14 @@ VALUES (0x7587012C, 51415, 0x58700294, 154.445, -139.919, 0.055, 0.707107, 0, 0,
 /* @teleloc 0x58700294 [154.445007 -139.919006 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587012C, 0x7587012E, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x7587012C, 0x7587012E, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587012D, 51415, 0x58700293, 154.448, -119.943, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x58700293 [154.447998 -119.943001 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587012D, 0x7587012F, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x7587012D, 0x7587012F, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587012E, 51413, 0x587002A0, 155.281, -137.423, 0.055, 0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -555,14 +555,14 @@ VALUES (0x75870130, 51415, 0x58700292, 154.527, -79.9356, 0.055, 0.707107, 0, 0,
 /* @teleloc 0x58700292 [154.526993 -79.935600 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870130, 0x75870132, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870130, 0x75870132, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870131, 51415, 0x58700291, 154.401, -59.8819, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x58700291 [154.401001 -59.881901 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870131, 0x75870133, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870131, 0x75870133, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870132, 51413, 0x5870029D, 155.311, -77.4366, 0.055, 0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -577,14 +577,14 @@ VALUES (0x75870134, 51415, 0x587002AE, 180.019, -34.3772, 0.055, 1, 0, 0, 0, Fal
 /* @teleloc 0x587002AE [180.018997 -34.377201 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870134, 0x75870136, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870134, 0x75870136, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870135, 51415, 0x587002CE, 200.118, -34.406, 0.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Restricted */
 /* @teleloc 0x587002CE [200.117996 -34.405998 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870135, 0x75870137, '2021-01-15 10:00:00') /* Bookcase (51413) */;
+VALUES (0x75870135, 0x75870137, '2021-11-01 00:00:00') /* Bookcase (51413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870136, 51413, 0x587002AF, 182.585, -35.2624, 0.055, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -719,7 +719,7 @@ VALUES (0x75870156, 51416, 0x58700163, 200.062, -34.5209, -11.945, 1, 0, 0, 0, F
 /* @teleloc 0x58700163 [200.061996 -34.520901 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870156, 0x75870157, '2021-01-15 10:00:00') /* Bookcase (51414) */;
+VALUES (0x75870156, 0x75870157, '2021-11-01 00:00:00') /* Bookcase (51414) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870157, 51414, 0x58700164, 197.533, -35.2831, -11.945, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -770,7 +770,7 @@ VALUES (0x75870162, 51416, 0x5870016D, 199.915, -165.543, -11.945, 0, 0, 0, -1, 
 /* @teleloc 0x5870016D [199.914993 -165.542999 -11.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870162, 0x75870163, '2021-01-15 10:00:00') /* Bookcase (51414) */;
+VALUES (0x75870162, 0x75870163, '2021-11-01 00:00:00') /* Bookcase (51414) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870163, 51414, 0x5870016C, 197.531, -164.714, -11.945, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -781,7 +781,7 @@ VALUES (0x75870164, 51416, 0x587001B7, 239.926, -165.522, -11.945, 0, 0, 0, -1, 
 /* @teleloc 0x587001B7 [239.925995 -165.522003 -11.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870164, 0x75870165, '2021-01-15 10:00:00') /* Bookcase (51414) */;
+VALUES (0x75870164, 0x75870165, '2021-11-01 00:00:00') /* Bookcase (51414) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870165, 51414, 0x587001B6, 242.485, -164.713, -11.945, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bookcase */
@@ -848,9 +848,9 @@ VALUES (0x75870174, 72163, 0x58700106, 7.30853, -50.1104, -11.945, 0, 0, 0, -1, 
 /* @teleloc 0x58700106 [7.308530 -50.110401 -11.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870174, 0x75870113, '2019-02-10 00:00:00') /* Kul Bronzegear (51382) */
-     , (0x75870174, 0x75870114, '2019-02-10 00:00:00') /* Aun Siminua (51381) */
-     , (0x75870174, 0x75870115, '2019-02-10 00:00:00') /* Oggma (51380) */;
+VALUES (0x75870174, 0x75870113, '2021-11-01 00:00:00') /* Kul Bronzegear (51382) */
+     , (0x75870174, 0x75870114, '2021-11-01 00:00:00') /* Aun Siminua (51381) */
+     , (0x75870174, 0x75870115, '2021-11-01 00:00:00') /* Oggma (51380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870175, 72165, 0x58700106, 13.642, -49.7523, -11.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Wave Watcher Gen */

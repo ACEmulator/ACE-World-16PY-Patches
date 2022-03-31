@@ -41,22 +41,22 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.5
     - Say: Much more of this and I'm going to become an Unhappy Snowman.
 
 Give: A Perfect Snowman Eye (36920)
-	- TurnToTarget
-	- InqQuest: HasSnowGlobeNeydisa
-		QuestSuccess:
-			- Tell: Hooray! My Perfect Eye!
-			- Delay: 1, Tell: Oh wait, you already gave me back my eye. This must be some other poor Snowman's eye. You keep it safe until you find out whose it is.
-			- Give: 36920
-			- DirectBroadcast: You must wait %tqt before turning this item in again.
-		QuestFailure:
-			- Tell: Hooray! My Perfect Eye! I'll have to clean it and polish it and maybe refacet it again, but at least I have it back.
-			- Delay: 1, Tell: Thank you, thank you. Here you deserve a reward for all of your help. Let's see... well not see per se... one second.
-			- Delay: 1, DirectBroadcast: The Blind Snowman scoops up a pile of snow and casts a spell. The snow coalesces forming ice crystals that shift and rearrange as if alive.
-			- Give: 34402
-			- StampQuest: HasSnowGlobeNeydisa
-			- Delay: 1, Tell: I can't be sure it turned out exactly right, but I hope you like it.
-			- Delay: 1, Tell: May your bottom stay cold and your eyes stay put. Soon I'll be able to see the snow again!
-			- Delay: 0.5, DirectBroadcast: The Blind Snowman attempts to swallow the Perfect Snowman Eye, but after a lot of coughing just sticks it in his pocket.
+    - TurnToTarget
+    - InqQuest: HasSnowGlobeNeydisa
+        QuestSuccess:
+            - Tell: Hooray! My Perfect Eye!
+            - Delay: 1, Tell: Oh wait, you already gave me back my eye. This must be some other poor Snowman's eye. You keep it safe until you find out whose it is.
+            - Give: 36920
+            - DirectBroadcast: You must wait %tqt before turning this item in again.
+        QuestFailure:
+            - Tell: Hooray! My Perfect Eye! I'll have to clean it and polish it and maybe refacet it again, but at least I have it back.
+            - Delay: 1, Tell: Thank you, thank you. Here you deserve a reward for all of your help. Let's see... well not see per se... one second.
+            - Delay: 1, DirectBroadcast: The Blind Snowman scoops up a pile of snow and casts a spell. The snow coalesces forming ice crystals that shift and rearrange as if alive.
+            - Give: 34402
+            - StampQuest: HasSnowGlobeNeydisa
+            - Delay: 1, Tell: I can't be sure it turned out exactly right, but I hope you like it.
+            - Delay: 1, Tell: May your bottom stay cold and your eyes stay put. Soon I'll be able to see the snow again!
+            - Delay: 0.5, DirectBroadcast: The Blind Snowman attempts to swallow the Perfect Snowman Eye, but after a lot of coughing just sticks it in his pocket.
 
 Give: 32484
     - TurnToTarget
@@ -200,30 +200,30 @@ Give: Peppermint Stick (13222)
 Use:
     - Motion: Ready
     - TurnToTarget
-	- InqQuest: KillTaskThreeEyedSnowmanwait
-		QuestSuccess:
-			- Goto: Talk
-		QuestFailure:
-			- InqQuest: KillTaskThreeEyedSnowman@KillTaskCompleted
-				QuestSuccess:
-					- Tell: Excellent, I hope that teaches ol' Three Eye a lesson. Here a little secret I found in the snow the other day.
-					- AwardNoShareXP: 30000000
-					- Give: 36921
-					- StampQuest: KillTaskThreeEyedSnowmanwait
-					- EraseQuest: KillTaskThreeEyedSnowman
-				QuestFailure:
-					- InqQuest: HeardBlindSnowmanSadStory
-						QuestSuccess: 
-							- Goto: Talk
-						QuestFailure:
-							- Tell: I can't believe it! It happened again!
-							- Delay: 1, Tell: There I was putting the finishing touches on my masterpiece. An eye so perfect, I would be able to see the individual beauty of a snowflake a mile away.
-							- Delay: 1, Tell: I heard a crunching and sliding in the snow nearby. I'm pretty sure it was a Snowman since it said...
-							- Delay: 1, DirectBroadcast: The Blind Snowman makes a face and says in a cold nasty voice, "Whatcha got there melt bottom? That looks like a pretty nice eye! You won't mind if I take that will ya? Yoink!"
-							- Delay: 1, Tell: Then he grabbed my Perfect Eye! You have to get it back for me. I heard him exclaim as he bounced out of hearing that he was going to use it as a third eye so he could see better to hit people with iceballs. The villain!
-							- Delay: 1, Tell: Go and find the Three Eyed Snowman and get me back my eye. And teach that no good Three Eye a lesson. Kill him five times and maybe he will learn not to go around stealing other peoples dreams.
-							- StampQuest: HeardBlindSnowmanSadStory
-							- SetQuestCompletions: KillTaskThreeEyedSnowman, 0
+    - InqQuest: KillTaskThreeEyedSnowmanwait
+        QuestSuccess:
+            - Goto: Talk
+        QuestFailure:
+            - InqQuest: KillTaskThreeEyedSnowman@KillTaskCompleted
+                QuestSuccess:
+                    - Tell: Excellent, I hope that teaches ol' Three Eye a lesson. Here a little secret I found in the snow the other day.
+                    - AwardNoShareXP: 30000000
+                    - Give: 36921
+                    - StampQuest: KillTaskThreeEyedSnowmanwait
+                    - EraseQuest: KillTaskThreeEyedSnowman
+                QuestFailure:
+                    - InqQuest: HeardBlindSnowmanSadStory
+                        QuestSuccess: 
+                            - Goto: Talk
+                        QuestFailure:
+                            - Tell: I can't believe it! It happened again!
+                            - Delay: 1, Tell: There I was putting the finishing touches on my masterpiece. An eye so perfect, I would be able to see the individual beauty of a snowflake a mile away.
+                            - Delay: 1, Tell: I heard a crunching and sliding in the snow nearby. I'm pretty sure it was a Snowman since it said...
+                            - Delay: 1, DirectBroadcast: The Blind Snowman makes a face and says in a cold nasty voice, "Whatcha got there melt bottom? That looks like a pretty nice eye! You won't mind if I take that will ya? Yoink!"
+                            - Delay: 1, Tell: Then he grabbed my Perfect Eye! You have to get it back for me. I heard him exclaim as he bounced out of hearing that he was going to use it as a third eye so he could see better to hit people with iceballs. The villain!
+                            - Delay: 1, Tell: Go and find the Three Eyed Snowman and get me back my eye. And teach that no good Three Eye a lesson. Kill him five times and maybe he will learn not to go around stealing other peoples dreams.
+                            - StampQuest: HeardBlindSnowmanSadStory
+                            - SetQuestCompletions: KillTaskThreeEyedSnowman, 0
 
 GotoSet: Talk, Probability: 0.2
 - TurnToTarget

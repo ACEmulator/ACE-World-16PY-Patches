@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70048;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70048, 'ace70048-tomydearuncle', 8, '2021-11-17 16:56:08') /* Book */;
+VALUES (70048, 'ace70048-tomydearuncle', 8, '2022-03-19 04:04:39') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70048,   1,       8192) /* ItemType - Writable */
@@ -25,7 +25,7 @@ VALUES (70048,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70048,   1, 'To My Dear Uncle') /* Name */
      , (70048,  16, 'A letter from Enrico di Bellenesse to the Duke of Bellenesse') /* LongDesc */
-     , (70048,  33, 'NoteDukeEnricoAcquired0905') /* Quest */;
+     , (70048,  33, 'enricouncle') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70048,   1, 0x02000155) /* Setup */
@@ -34,7 +34,7 @@ VALUES (70048,   1, 0x02000155) /* Setup */
      , (70048,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (70048, 0, 0);
+VALUES (70048, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (70048, 0, 0xFFFFFFFF, 'Enrico di Bellenesse', 'prewritten', True, 'My dearest uncle,

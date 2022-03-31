@@ -53,14 +53,14 @@ VALUES (0x7BC1100C,  9027, 0xBC110000, 57, 118.513, 240.005, 0, 0, 0, -1, False,
 /* @teleloc 0xBC110000 [57.000000 118.513000 240.005005] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1100C, 0x7BC1100F, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x7BC1100C, 0x7BC1100F, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1100D,  9027, 0xBC110000, 94.528, 87, 240.082, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Lyceum Gates */
 /* @teleloc 0xBC110000 [94.528000 87.000000 240.082001] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1100D, 0x7BC1100E, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x7BC1100D, 0x7BC1100E, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1100E,   286, 0xBC11014C, 90.8936, 82.1314, 247.5, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -83,9 +83,9 @@ VALUES (0x7BC11012,  4219, 0xBC110000, 75.6475, 75.4834, 240.005, 0.719576, 0, 0
 /* @teleloc 0xBC110000 [75.647499 75.483398 240.005005] 0.719576 0.000000 0.000000 -0.694414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC11012, 0x7BC11010, '2005-02-09 10:00:00') /* Guardian Golem (9048) */
-     , (0x7BC11012, 0x7BC11011, '2005-02-09 10:00:00') /* Guardian Golem (9048) */
-     , (0x7BC11012, 0x7BC1101C, '2005-02-09 10:00:00') /* Eaushi the Trainer (9056) */;
+VALUES (0x7BC11012, 0x7BC11010, '2021-11-01 00:00:00') /* Guardian Golem (9048) */
+     , (0x7BC11012, 0x7BC11011, '2021-11-01 00:00:00') /* Guardian Golem (9048) */
+     , (0x7BC11012, 0x7BC1101C, '2021-11-01 00:00:00') /* Eaushi the Trainer (9056) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC11013,  5623, 0xBC11014F, 81.4685, 83.9463, 250.082, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -116,8 +116,8 @@ VALUES (0x7BC1101A,  5085, 0xBC110000, 77.2568, 80.8228, 250.005, -0.056433, 0, 
 /* @teleloc 0xBC110000 [77.256798 80.822800 250.005005] -0.056433 0.000000 0.000000 -0.998406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1101A, 0x7BC1101B, '2005-02-09 10:00:00') /* Slip of Paper (9063) */
-     , (0x7BC1101A, 0x7BC1101D, '2005-02-09 10:00:00') /* Lightweight Tome (9092) */;
+VALUES (0x7BC1101A, 0x7BC1101B, '2021-11-01 00:00:00') /* Slip of Paper (9063) */
+     , (0x7BC1101A, 0x7BC1101D, '2021-11-01 00:00:00') /* Lightweight Tome (9092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1101B,  9063, 0xBC11015E, 77.1274, 91.6981, 259.348, 0.216802, 0, 0, -0.976216,  True, '2021-11-01 00:00:00'); /* Slip of Paper */

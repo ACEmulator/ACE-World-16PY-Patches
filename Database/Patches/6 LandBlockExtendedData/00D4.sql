@@ -33,7 +33,7 @@ VALUES (0x700D4050,  1154, 0x00D405E7, 182.606, -172.963, -12, -0.330318, 0, 0, 
 /* @teleloc 0x00D405E7 [182.606003 -172.962997 -12.000000] -0.330318 0.000000 0.000000 0.943870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D4050, 0x700D405D, '2019-02-10 00:00:00') /* Rock (34947) */;
+VALUES (0x700D4050, 0x700D405D, '2021-11-01 00:00:00') /* Rock (34947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D405D, 34947, 0x00D40610, 232.913, -90.0448, -9.49455, 0.92388, 0, 0, -0.382683,  True, '2021-11-01 00:00:00'); /* Rock */

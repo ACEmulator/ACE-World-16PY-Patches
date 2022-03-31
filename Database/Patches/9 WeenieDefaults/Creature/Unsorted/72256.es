@@ -8,7 +8,7 @@ Use:
             - Goto: Portal
     
 GotoSet: Portal
-    - InqQuest: JesterRepeatRun0308
+    - InqQuest: OnJesterPart2
         QuestSuccess:
             - CastSpellInstant: 4253
         QuestFailure:

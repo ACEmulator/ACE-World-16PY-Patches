@@ -225,7 +225,7 @@ VALUES (0x7CD4103B,  7923, 0xCD410184, 136.084, 56.4128, 54.005, -0.705256, 0, 0
 /* @teleloc 0xCD410184 [136.084000 56.412800 54.005001] -0.705256 0.000000 0.000000 -0.708953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD4103B, 0x7CD4103A, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
+VALUES (0x7CD4103B, 0x7CD4103A, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD4103C, 12304, 0xCD410000, 136.567, 64.836, 54.005, -0.000999, 0, 0, 0.999999, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */
@@ -256,11 +256,11 @@ VALUES (0x7CD4104D,  7923, 0xCD410125, 89.5465, 133.569, 62.405, -0.963839, 0, 0
 /* @teleloc 0xCD410125 [89.546501 133.569000 62.404999] -0.963839 0.000000 0.000000 -0.266487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD4104D, 0x7CD4104C, '2005-02-09 10:00:00') /* Lia Tze (15811) */
-     , (0x7CD4104D, 0x7CD410AA, '2019-02-10 00:00:00') /* Fiona Woron (41311) */
-     , (0x7CD4104D, 0x7CD410AD, '2019-02-10 00:00:00') /* Ries Woron (40897) */
-     , (0x7CD4104D, 0x7CD410AE, '2019-02-10 00:00:00') /* Carolyn Woron (40895) */
-     , (0x7CD4104D, 0x7CD410B1, '2019-02-10 00:00:00') /* Fergal the Dire (31652) */;
+VALUES (0x7CD4104D, 0x7CD4104C, '2021-11-01 00:00:00') /* Lia Tze (15811) */
+     , (0x7CD4104D, 0x7CD410AA, '2021-11-01 00:00:00') /* Fiona Woron (41311) */
+     , (0x7CD4104D, 0x7CD410AD, '2021-11-01 00:00:00') /* Ries Woron (40897) */
+     , (0x7CD4104D, 0x7CD410AE, '2021-11-01 00:00:00') /* Carolyn Woron (40895) */
+     , (0x7CD4104D, 0x7CD410B1, '2021-11-01 00:00:00') /* Fergal the Dire (31652) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD4104E, 19197, 0xCD410000, 110.043, 109.545, 60.83, -0.72484, 0, 0, -0.688917, False, '2021-11-01 00:00:00'); /* Nullified Statue of a Golem */
@@ -355,11 +355,11 @@ VALUES (0x7CD410A5,  1154, 0xCD41002D, 131.049, 111.127, 54.005, 0.707107, 0, 0,
 /* @teleloc 0xCD41002D [131.048996 111.126999 54.005001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD410A5, 0x7CD4108C, '2019-02-10 00:00:00') /* Derethian Combat Arena (44823) */
-     , (0x7CD410A5, 0x7CD410A6, '2019-02-10 00:00:00') /* Worshipper of Bael'Zharon (52992) */
-     , (0x7CD410A5, 0x7CD410A7, '2019-02-10 00:00:00') /* Worshipper of Bael'Zharon (52991) */
-     , (0x7CD410A5, 0x7CD410A8, '2019-02-10 00:00:00') /* Worshipper of Bael'Zharon (52990) */
-     , (0x7CD410A5, 0x7CD410A9, '2019-02-10 00:00:00') /* Derethian Combat Arena Master (40772) */;
+VALUES (0x7CD410A5, 0x7CD4108C, '2021-11-01 00:00:00') /* Derethian Combat Arena (44823) */
+     , (0x7CD410A5, 0x7CD410A6, '2021-11-01 00:00:00') /* Worshipper of Bael'Zharon (52992) */
+     , (0x7CD410A5, 0x7CD410A7, '2021-11-01 00:00:00') /* Worshipper of Bael'Zharon (52991) */
+     , (0x7CD410A5, 0x7CD410A8, '2021-11-01 00:00:00') /* Worshipper of Bael'Zharon (52990) */
+     , (0x7CD410A5, 0x7CD410A9, '2021-11-01 00:00:00') /* Derethian Combat Arena Master (40772) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD410A6, 52992, 0xCD41002D, 131.049, 111.127, 54.005, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Worshipper of Bael'Zharon */

@@ -5,17 +5,17 @@ VALUES (0x700DD000,  7924, 0x00DD0102, 10.1941, -23.1161, 0.055, 0.711314, 0, 0,
 /* @teleloc 0x00DD0102 [10.194100 -23.116100 0.055000] 0.711314 0.000000 0.000000 -0.702875 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DD000, 0x700DD001, '2020-09-15 14:28:30') /* Reinforced Door (25456) */
-     , (0x700DD000, 0x700DD002, '2020-09-15 14:30:14') /* Reinforced Door (25456) */
-     , (0x700DD000, 0x700DD003, '2020-09-15 14:31:01') /* Reinforced Door (25456) */
-     , (0x700DD000, 0x700DD004, '2020-09-15 14:32:40') /* Reinforced Door (25456) */
-     , (0x700DD000, 0x700DD005, '2020-09-15 14:33:20') /* Reinforced Door (25456) */
-     , (0x700DD000, 0x700DD006, '2020-09-15 14:34:37') /* Reinforced Door (25456) */
-     , (0x700DD000, 0x700DD007, '2020-09-15 14:35:02') /* Reinforced Door (25456) */
-     , (0x700DD000, 0x700DD008, '2020-09-15 15:05:31') /* High Priest's Acolyte (71106) */
-     , (0x700DD000, 0x700DD009, '2020-09-15 15:06:19') /* High Priest's Third (71107) */
-     , (0x700DD000, 0x700DD00A, '2020-09-15 15:06:55') /* High Priest's Second (71108) */
-     , (0x700DD000, 0x700DD00B, '2020-09-15 15:07:34') /* High Priest's First (71109) */;
+VALUES (0x700DD000, 0x700DD001, '2021-11-01 00:00:00') /* Reinforced Door (25456) */
+     , (0x700DD000, 0x700DD002, '2021-11-01 00:00:00') /* Reinforced Door (25456) */
+     , (0x700DD000, 0x700DD003, '2021-11-01 00:00:00') /* Reinforced Door (25456) */
+     , (0x700DD000, 0x700DD004, '2021-11-01 00:00:00') /* Reinforced Door (25456) */
+     , (0x700DD000, 0x700DD005, '2021-11-01 00:00:00') /* Reinforced Door (25456) */
+     , (0x700DD000, 0x700DD006, '2021-11-01 00:00:00') /* Reinforced Door (25456) */
+     , (0x700DD000, 0x700DD007, '2021-11-01 00:00:00') /* Reinforced Door (25456) */
+     , (0x700DD000, 0x700DD008, '2021-11-01 00:00:00') /* High Priest's Acolyte (71106) */
+     , (0x700DD000, 0x700DD009, '2021-11-01 00:00:00') /* High Priest's Third (71107) */
+     , (0x700DD000, 0x700DD00A, '2021-11-01 00:00:00') /* High Priest's Second (71108) */
+     , (0x700DD000, 0x700DD00B, '2021-11-01 00:00:00') /* High Priest's First (71109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DD001, 25456, 0x00DD0102, 14.1187, -19.9534, -0.068, -0.70898, 0, 0, 0.705229,  True, '2021-11-01 00:00:00'); /* Reinforced Door */

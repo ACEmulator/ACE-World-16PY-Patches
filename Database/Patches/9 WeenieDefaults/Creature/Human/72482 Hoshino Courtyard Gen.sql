@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72482;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72482, 'ace72482-activationstopgap', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (72482, 'ace72482-hoshinocourtyardgen', 10, '2022-03-06 02:38:19') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72482,   1,         16) /* ItemType - Creature */
@@ -45,7 +45,7 @@ VALUES (72482,   1,       5) /* HeartbeatInterval */
      , (72482,  17,     0.4) /* ArmorModVsFire */
      , (72482,  18,       1) /* ArmorModVsAcid */
      , (72482,  19,     0.6) /* ArmorModVsElectric */
-     , (72482,  41,       0) /* RegenerationInterval */
+     , (72482,  41,       5) /* RegenerationInterval */
      , (72482,  43,       5) /* GeneratorRadius */
      , (72482,  54,       3) /* UseRadius */
      , (72482,  64,       1) /* ResistSlash */

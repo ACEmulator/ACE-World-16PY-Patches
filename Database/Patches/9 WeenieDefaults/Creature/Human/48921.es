@@ -1,9 +1,9 @@
 Generation:
     - Motion: Sleeping
-    
+
 HeartBeat:
     - Motion: Sleeping
-
+    
 Use:
     - InqQuest: DeconstructionCompleted_0213
         QuestSuccess:
@@ -19,3 +19,7 @@ Use:
             - AwardNoShareXP: 150,000,000
             - AwardLuminance: 20,000
             - Give: Trade Note (250,000) (20630), 10
+            - InqQuestBitsOn: LegendaryQuestsB, 0x4000
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsB, 0x4000
+                    - StampQuest: LegendaryQuestCounter_0913

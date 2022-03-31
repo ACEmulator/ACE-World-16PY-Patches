@@ -5,11 +5,11 @@ VALUES (0x7B64A000,  1154, 0xB64A0011, 54.5, 3, 116.1, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0xB64A0011 [54.500000 3.000000 116.099998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64A000, 0x7B64A001, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53105) */
-     , (0x7B64A000, 0x7B64A002, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53078) */
-     , (0x7B64A000, 0x7B64A003, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53106) */
-     , (0x7B64A000, 0x7B64A004, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53104) */
-     , (0x7B64A000, 0x7B64A005, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53103) */;
+VALUES (0x7B64A000, 0x7B64A001, '2021-11-01 00:00:00') /* Ancient Statue of the Viridian Rise (53105) */
+     , (0x7B64A000, 0x7B64A002, '2021-11-01 00:00:00') /* Ancient Statue of the Viridian Rise (53078) */
+     , (0x7B64A000, 0x7B64A003, '2021-11-01 00:00:00') /* Ancient Statue of the Viridian Rise (53106) */
+     , (0x7B64A000, 0x7B64A004, '2021-11-01 00:00:00') /* Ancient Statue of the Viridian Rise (53104) */
+     , (0x7B64A000, 0x7B64A005, '2021-11-01 00:00:00') /* Ancient Statue of the Viridian Rise (53103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64A001, 53105, 0xB64A0011, 54.5, 3, 116.1, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Ancient Statue of the Viridian Rise */
@@ -36,24 +36,24 @@ VALUES (0x7B64A006,  1154, 0xB64A0004, 7.10046, 89.7877, 19.982, 0.980849, 0, 0,
 /* @teleloc 0xB64A0004 [7.100460 89.787697 19.982000] 0.980849 0.000000 0.000000 0.194768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64A006, 0x7B64A007, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A008, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A009, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A00A, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A00B, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A00C, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A00D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A00E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A00F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A010, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A011, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A012, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A013, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A014, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A015, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A016, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A017, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64A006, 0x7B64A018, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */;
+VALUES (0x7B64A006, 0x7B64A007, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A008, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A009, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A00A, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A00B, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A00C, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A00D, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A00E, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A00F, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A010, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A011, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A012, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A013, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A014, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A015, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A016, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A017, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A006, 0x7B64A018, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64A007, 53375, 0xB64A0004, 7.10046, 89.7877, 19.982, 0.980849, 0, 0, 0.194768,  True, '2021-11-01 00:00:00'); /* Sath'tik Eyestalk */

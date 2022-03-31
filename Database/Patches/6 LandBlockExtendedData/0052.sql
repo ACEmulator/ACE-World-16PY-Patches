@@ -57,50 +57,50 @@ VALUES (0x7005200D,  7924, 0x005201D6, 50.1348, 1.86791, 0.055, 0.02014, 0, 0, 0
 /* @teleloc 0x005201D6 [50.134800 1.867910 0.055000] 0.020140 0.000000 0.000000 0.999797 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005200D, 0x7005200E, '2020-07-02 23:13:47') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005200F, '2020-07-02 23:14:08') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052010, '2020-07-02 23:14:28') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052011, '2020-07-02 23:14:34') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052012, '2020-07-02 23:38:43') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052013, '2020-07-02 23:38:54') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052014, '2020-07-02 23:39:21') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052015, '2020-07-02 23:39:31') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052016, '2020-07-02 23:39:39') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052017, '2020-07-02 23:40:18') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052018, '2020-07-02 23:40:25') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052019, '2020-07-02 23:40:41') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005201A, '2020-07-02 23:40:54') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005201B, '2020-07-02 23:41:09') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005201C, '2020-07-02 23:41:23') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005201D, '2020-07-02 23:41:33') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005201E, '2020-07-02 23:41:57') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005201F, '2020-07-02 23:42:05') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052020, '2020-07-02 23:42:20') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052021, '2020-07-02 23:42:30') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052022, '2020-07-02 23:42:37') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052023, '2020-07-02 23:43:04') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052024, '2020-07-02 23:43:13') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052025, '2020-07-02 23:43:27') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052026, '2020-07-02 23:43:43') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052027, '2020-07-02 23:47:05') /* Whispering Blade Chamberlain (32690) */
-     , (0x7005200D, 0x70052028, '2020-07-02 23:49:34') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052029, '2020-07-02 23:49:54') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x7005202A, '2020-07-03 10:57:01') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x7005202B, '2020-07-03 15:41:22') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x7005202C, '2020-07-03 15:41:56') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x7005202D, '2020-07-03 15:42:09') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x7005202E, '2020-07-03 15:42:21') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x7005202F, '2020-07-03 15:42:57') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x70052030, '2020-07-03 15:43:11') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x70052031, '2020-07-03 15:43:42') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052032, '2020-07-03 15:43:53') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052033, '2020-07-03 15:44:18') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052034, '2020-07-03 15:44:28') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052035, '2020-07-03 15:44:45') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052036, '2020-07-03 15:44:55') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x70052037, '2020-07-03 15:45:15') /* Whispering Blade Guard (32689) */
-     , (0x7005200D, 0x70052038, '2020-07-03 15:45:24') /* Whispering Blade Mage (32755) */
-     , (0x7005200D, 0x70052039, '2020-07-03 15:45:48') /* Commander Jin Zo (32688) */;
+VALUES (0x7005200D, 0x7005200E, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005200F, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052010, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052011, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052012, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052013, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052014, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052015, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052016, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052017, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052018, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052019, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005201A, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005201B, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005201C, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005201D, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005201E, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005201F, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052020, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052021, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052022, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052023, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052024, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052025, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052026, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052027, '2021-11-01 00:00:00') /* Whispering Blade Chamberlain (32690) */
+     , (0x7005200D, 0x70052028, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052029, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x7005202A, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x7005202B, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x7005202C, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x7005202D, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x7005202E, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x7005202F, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x70052030, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x70052031, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052032, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052033, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052034, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052035, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052036, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x70052037, '2021-11-01 00:00:00') /* Whispering Blade Guard (32689) */
+     , (0x7005200D, 0x70052038, '2021-11-01 00:00:00') /* Whispering Blade Mage (32755) */
+     , (0x7005200D, 0x70052039, '2021-11-01 00:00:00') /* Commander Jin Zo (32688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005200E, 32689, 0x005201F3, 55.798, -45.9483, 0.005, 0.999795, 0, 0, -0.020264,  True, '2021-11-01 00:00:00'); /* Whispering Blade Guard */
