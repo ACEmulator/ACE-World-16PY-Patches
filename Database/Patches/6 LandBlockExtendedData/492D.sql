@@ -21,9 +21,9 @@ VALUES (0x7492D004, 52310, 0x492D0017, 55.6993, 161.671, 29.5805, -0.735851, 0, 
 /* @teleloc 0x492D0017 [55.699299 161.671005 29.580500] -0.735851 0.000000 0.000000 -0.677143 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7492D005, 40922, 0x492D0017, 52.5783, 156.265, 29.5805, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00');
+VALUES (0x7492D005, 40922, 0x492D0017, 52.5783, 156.265, 29.5805, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Sharia Blackmist */
 /* @teleloc 0x492D0017 [52.578300 156.264999 29.580500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7492D006, 36237, 0x492D0017, 64.31927, 154.385, 29.57296, 0.764842, 0, 0, 0.644218, False, '2022-03-29 13:15:42'); /* Lo Shoen's Pack */
-/* @teleloc 0x492D0017 [64.319267 154.384995 29.572960] 0.764842 0.000000 0.000000 0.644218 */
+VALUES (0x7492D006, 36237, 0x492D0017, 64.3193, 154.385, 29.573, 0.764842, 0, 0, 0.644218, False, '2022-03-29 13:15:42'); /* Lo Shoen's Pack */
+/* @teleloc 0x492D0017 [64.319298 154.384995 29.573000] 0.764842 0.000000 0.000000 0.644218 */
