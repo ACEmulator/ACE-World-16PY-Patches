@@ -1,3 +1,8 @@
+Refuse: 72798
+    - TurnToTarget
+    - Tell: The whole legend... this is an amazing find. You should take this to Popkin of the Gate, near Cragstone. She's the one collating all of the lore. She'll reward you well for this, I'm sure.
+    - Tell: I'm stuck here dealing with angry Gromnies and even angrier miners...
+
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
     - Motion: Twitch1
 
@@ -19,6 +24,7 @@ Use:
                     - InqQuest: BlessedCaveReachedEnd
                         QuestSuccess:
                             - StampQuest: BlessedCaveCompleted_0912
+							- StampQuest: BulbofMornings_Flag
                             - EraseQuest: BlessedCaveStarted_0912
                             - DirectBroadcast: You explain to Shah-hi what you found in the depths of the temple.
                             - Tell: Wow! That's more than we could've hoped for.
@@ -31,11 +37,7 @@ Use:
                             - Give: Trade Note (250,000) (20630), 7
                             - Tell: If you're interested, my brother Kaltus has run into some problems with his dig site, just outside of the Canyons of Neftet, in the desert. I'm sure he'd love the assistance.
                             - Tell: For now, however, I'll send you to a place prepared for you to use that key. You may also find that where your going makes it easier to get to Kaltus.
-                            - TeleportTarget: 0x654C068A [112.336998 -176.554001 0.010000] 0.917966 0.000000 0.000000 -0.396660
-                            - InqQuestBitsOn: LegendaryQuestsB, 0x80
-                                QuestFailure:
-                                    - SetQuestBitsOn: LegendaryQuestsB, 0x80
-                                    - StampQuest: LegendaryQuestCounter_0913
+                            - TeleportTarget: 0x654C068A [112.337 -176.554 0.01] 0.917966 0 0 -0.39666
                         QuestFailure:
                             - Tell: Welcome to my excavation site!
                             - Tell: I wonder if you'd be interested in a little job.
@@ -46,7 +48,3 @@ Use:
         TestFailure:
             - Tell: I'm afraid you're not powerful enough to aid me.
 
-Refuse: 72798
-    - TurnToTarget
-    - Tell: The whole legend... this is an amazing find. You should take this to Popkin of the Gate, near Cragstone. She's the one collating all of the lore. She'll reward you well for this, I'm sure.
-    - Tell: I'm stuck here dealing with angry Gromnies and even angrier miners...

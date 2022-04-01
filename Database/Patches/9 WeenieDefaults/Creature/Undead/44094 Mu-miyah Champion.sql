@@ -64,7 +64,8 @@ VALUES (44094,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44094,   1, 'Mu-miyah Champion') /* Name */
-     , (44094,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44094,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */
+     , (44094,  49, 'SanctumGuardianKillTask') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44094,   1, 0x02000001) /* Setup */
