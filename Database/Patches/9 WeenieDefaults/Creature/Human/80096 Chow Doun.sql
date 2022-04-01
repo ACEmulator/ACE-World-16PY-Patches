@@ -14,6 +14,7 @@ VALUES (80096,   1,         16) /* ItemType - Creature */
      , (80096,  82,          1) /* InitGeneratedObjects */
      , (80096,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (80096,  95,          8) /* RadarBlipColor - Yellow */
+     , (80096, 103,          2) /* GeneratorDestructionType - Destroy */
      , (80096, 113,          1) /* Gender - Male */
      , (80096, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (80096, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -22,10 +23,43 @@ VALUES (80096,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80096,   1, True ) /* Stuck */
      , (80096,   8, True ) /* AllowGive */
-     , (80096,  19, False) /* Attackable */;
+     , (80096,  12, True ) /* ReportCollisions */
+     , (80096,  13, False) /* Ethereal */
+     , (80096,  19, False) /* Attackable */
+     , (80096,  29, True ) /* NoCorpse */
+     , (80096,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (80096,  42, True ) /* AllowEdgeSlide */
+     , (80096,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (80096,  54,       3) /* UseRadius */;
+VALUES (80096,   1,       5) /* HeartbeatInterval */
+     , (80096,   2,       0) /* HeartbeatTimestamp */
+     , (80096,   3,    0.16) /* HealthRate */
+     , (80096,   4,       5) /* StaminaRate */
+     , (80096,   5,       1) /* ManaRate */
+     , (80096,  13,     0.9) /* ArmorModVsSlash */
+     , (80096,  14,       1) /* ArmorModVsPierce */
+     , (80096,  15,     1.1) /* ArmorModVsBludgeon */
+     , (80096,  16,     0.4) /* ArmorModVsCold */
+     , (80096,  17,     0.4) /* ArmorModVsFire */
+     , (80096,  18,       1) /* ArmorModVsAcid */
+     , (80096,  19,     0.6) /* ArmorModVsElectric */
+     , (80096,  41,    3600) /* RegenerationInterval */
+     , (80096,  54,       3) /* UseRadius */
+     , (80096,  64,       1) /* ResistSlash */
+     , (80096,  65,       1) /* ResistPierce */
+     , (80096,  66,       1) /* ResistBludgeon */
+     , (80096,  67,       1) /* ResistFire */
+     , (80096,  68,       1) /* ResistCold */
+     , (80096,  69,       1) /* ResistAcid */
+     , (80096,  70,       1) /* ResistElectric */
+     , (80096,  71,       1) /* ResistHealthBoost */
+     , (80096,  72,       1) /* ResistStaminaDrain */
+     , (80096,  73,       1) /* ResistStaminaBoost */
+     , (80096,  74,       1) /* ResistManaDrain */
+     , (80096,  75,       1) /* ResistManaBoost */
+     , (80096, 104,      10) /* ObviousRadarRange */
+     , (80096, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80096,   1, 'Chow Doun') /* Name */
