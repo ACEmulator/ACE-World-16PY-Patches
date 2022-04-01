@@ -75,34 +75,23 @@ VALUES (52776,   1, 0x0200191D) /* Setup */
      , (52776,   8, 0x06006A75) /* Icon */
      , (52776,  22, 0x34000025) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52776,  0,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head - Bludgeon */
-     , (52776,  1,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest - Bludgeon */
-     , (52776,  2,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen - Bludgeon */
-     , (52776,  3,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm - Bludgeon */
-     , (52776,  4,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm - Bludgeon */
-     , (52776,  5,  4,110,  0.4,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand - Bludgeon */
-     , (52776,  6,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg - Bludgeon */
-     , (52776,  7,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg - Bludgeon */
-     , (52776,  8,  4,110,  0.4,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot - Bludgeon */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52776,   1, 600, 0, 0) /* Strength */
-     , (52776,   2,1000, 0, 0) /* Endurance */
+     , (52776,   2, 1000, 0, 0) /* Endurance */
      , (52776,   3, 500, 0, 0) /* Quickness */
      , (52776,   4, 450, 0, 0) /* Coordination */
      , (52776,   5, 450, 0, 0) /* Focus */
      , (52776,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52776,   1,124500, 0, 0,125000) /* MaxHealth */
-     , (52776,   3, 24000, 0, 0,25000) /* MaxStamina */
+VALUES (52776,   1, 124500, 0, 0, 125000) /* MaxHealth */
+     , (52776,   3, 24000, 0, 0, 25000) /* MaxStamina */
      , (52776,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52776,  6, 0, 2, 0, 554, 0, 0) /* MeleeDefense             Trained */
-     , (52776,  7, 0, 2, 0, 802, 0, 0) /* MissileDefense           Trained */
-     , (52776, 15, 0, 2, 0, 525, 0, 0) /* MagicDefense             Trained */
+VALUES (52776,  6, 0, 2, 0, 554, 0, 0) /* MeleeDefense        Trained */
+     , (52776,  7, 0, 2, 0, 802, 0, 0) /* MissileDefense      Trained */
+     , (52776, 15, 0, 2, 0, 525, 0, 0) /* MagicDefense        Trained */
      , (52776, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52776, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52776, 34, 0, 2, 0, 338, 0, 0) /* WarMagic            Trained */
@@ -112,11 +101,21 @@ VALUES (52776,  6, 0, 2, 0, 554, 0, 0) /* MeleeDefense             Trained */
      , (52776, 46, 0, 2, 0, 417, 0, 0) /* FinesseWeapons      Trained */
      , (52776, 52, 0, 2, 0, 450, 0, 0) /* DirtyFighting       Trained */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (52776,  0,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (52776,  1,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (52776,  2,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (52776,  3,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (52776,  4,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (52776,  5,  4, 110,  0.4,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (52776,  6,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (52776,  7,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (52776,  8,  4, 110,  0.4,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52776,  4312,   2.35) /* Incantation of Imperil Other */
-     , (52776,  4439,   2.32) /* Incantation of Flame Bolt */
-     , (52776,  4481,   2.45) /* Incantation of Fire Vulnerability Other */;
+VALUES (52776,  4312,   2.35)  /* Incantation of Imperil Other */
+     , (52776,  4439,   2.32)  /* Incantation of Flame Bolt */
+     , (52776,  4481,   2.45)  /* Incantation of Fire Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52776, 2, 41252,  1, 0,    1, False) /* Create Fire Gearknight Greatsword (41252) for Wield */;
-
+VALUES (52776, 2, 41252,  1, 0, 1, False) /* Create Fire Gearknight Greatsword (41252) for Wield */;
