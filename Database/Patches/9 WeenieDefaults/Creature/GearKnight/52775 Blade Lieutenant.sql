@@ -88,9 +88,9 @@ VALUES (52775,   1, 52500, 0, 0, 53000) /* MaxHealth */
      , (52775,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52775,  6, 0, 2, 0, 334, 0, 0) /* MeleeDefense             Trained */
-     , (52775,  7, 0, 2, 0, 735, 0, 0) /* MissileDefense           Trained */
-     , (52775, 15, 0, 2, 0, 500, 0, 0) /* MagicDefense             Trained */
+VALUES (52775,  6, 0, 2, 0, 334, 0, 0) /* MeleeDefense        Trained */
+     , (52775,  7, 0, 2, 0, 735, 0, 0) /* MissileDefense      Trained */
+     , (52775, 15, 0, 2, 0, 500, 0, 0) /* MagicDefense        Trained */
      , (52775, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52775, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52775, 34, 0, 2, 0, 378, 0, 0) /* WarMagic            Trained */
@@ -112,9 +112,9 @@ VALUES (52775,  0,  4,  0,    0,  475,  237,  237,  237,  237,  237,  237,  237,
      , (52775,  8,  4, 135,  0.4,  475,  237,  237,  237,  237,  237,  237,  237,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52775,  4312,   2.04) /* Incantation of Imperil Other */
-     , (52775,  4447,   2.07) /* Incantation of Frost Bolt */
-     , (52775,  4479,   2.03) /* Incantation of Cold Vulnerability Other */;
+VALUES (52775,  4312,   2.04)  /* Incantation of Imperil Other */
+     , (52775,  4447,   2.07)  /* Incantation of Frost Bolt */
+     , (52775,  4479,   2.03)  /* Incantation of Cold Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52775, 2, 41253,  1, 0, 1, False) /* Create Frost Gearknight Greatsword (41253) for Wield */;
