@@ -127,6 +127,5 @@ VALUES (46702,  4291,   2.09) /* Incantation of Armor Self */
      , (46702,  4468,   2.09) /* Incantation of Fire Protection Self */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46702, 2, 46703,  1, 0,    1, False) /* Create Acid Nekode (46703) for Wield */
-     , (46702, 2, 46707,  1, 0,    1, False) /* Create Corrupted Aegis (46707) for Wield */;
-
+VALUES (46702, 2, 46703,  1, 0, 1, False) /* Create Acid Nekode (46703) for Wield */
+     , (46702, 2, 46707,  1, 0, 1, False) /* Create Corrupted Aegis (46707) for Wield */;

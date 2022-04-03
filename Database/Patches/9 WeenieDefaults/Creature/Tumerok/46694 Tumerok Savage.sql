@@ -99,8 +99,8 @@ VALUES (46694,   1, 330, 0, 0) /* Strength */
      , (46694,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46694,   1, 81850, 0, 0,82000) /* MaxHealth */
-     , (46694,   3,  9700, 0, 0,10000) /* MaxStamina */
+VALUES (46694,   1, 81850, 0, 0, 82000) /* MaxHealth */
+     , (46694,   3,  9700, 0, 0, 10000) /* MaxStamina */
      , (46694,   5,  5650, 0, 0, 6000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
@@ -119,14 +119,13 @@ VALUES (46694,  6, 0, 3, 0, 467, 0, 0) /* MeleeDefense        Specialized */
      , (46694, 48, 0, 3, 0, 374, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46694,  1160,   2.02) /* Heal Self V */
-     , (46694,  4312,    2.1) /* Incantation of Imperil Other */
-     , (46694,  4422,   2.08) /* Incantation of Blade Arc */
-     , (46694,  4424,   2.07) /* Incantation of Force Arc */
-     , (46694,  4475,   2.11) /* Incantation of Blade Vulnerability Other */
-     , (46694,  4485,   2.12) /* Incantation of Piercing Vulnerability Other */;
+VALUES (46694,  1160,   2.02)  /* Heal Self V */
+     , (46694,  4312,    2.1)  /* Incantation of Imperil Other */
+     , (46694,  4422,   2.08)  /* Incantation of Blade Arc */
+     , (46694,  4424,   2.07)  /* Incantation of Force Arc */
+     , (46694,  4475,   2.11)  /* Incantation of Blade Vulnerability Other */
+     , (46694,  4485,   2.12)  /* Incantation of Piercing Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46694, 2, 46695,  1, 0,    1, False) /* Create Tachi (46695) for Wield */
-     , (46694, 2, 52708,  1, 0,    1, False) /* Create Kite Shield (52708) for Wield */;
-
+VALUES (46694, 2, 46695,  1, 0, 1, False) /* Create Tachi (46695) for Wield */
+     , (46694, 2, 52708,  1, 0, 1, False) /* Create Kite Shield (52708) for Wield */;

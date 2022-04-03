@@ -77,14 +77,6 @@ VALUES (52710,   1, 0x02001494) /* Setup */
      , (52710,   8, 0x06001221) /* Icon */
      , (52710,  22, 0x340000B6) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52710,  0,  2,150,  0.5,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head - Pierce */
-     , (52710,  5,  4,150,  0.5,  425,  212,  212,  212,  212,  212,  212,  212,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Hand - Bludgeon */
-     , (52710, 16,  4,150,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso - Bludgeon */
-     , (52710, 17,  1,150, 0.75,  425,  212,  212,  212,  212,  212,  212,  212,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail - Slash */
-     , (52710, 19,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Leg - Bludgeon */
-     , (52710, 21,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings - Bludgeon */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52710,   1, 350, 0, 0) /* Strength */
      , (52710,   2, 350, 0, 0) /* Endurance */
@@ -94,7 +86,7 @@ VALUES (52710,   1, 350, 0, 0) /* Strength */
      , (52710,   6, 480, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52710,   1, 11600, 0, 0,11775) /* MaxHealth */
+VALUES (52710,   1, 11600, 0, 0, 11775) /* MaxHealth */
      , (52710,   3,  3000, 0, 0, 3350) /* MaxStamina */
      , (52710,   5,  6200, 0, 0, 6680) /* MaxMana */;
 
@@ -102,7 +94,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (52710,  6, 0, 3, 0, 505, 0, 0) /* MeleeDefense        Specialized */
      , (52710,  7, 0, 3, 0, 511, 0, 0) /* MissileDefense      Specialized */
      , (52710, 14, 0, 3, 0, 260, 0, 0) /* ArcaneLore          Specialized */
-     , (52710, 15, 0, 3, 0, 515, 0, 0) /* MagicDefense         Specialized */
+     , (52710, 15, 0, 3, 0, 515, 0, 0) /* MagicDefense        Specialized */
      , (52710, 20, 0, 3, 0, 300, 0, 0) /* Deception           Specialized */
      , (52710, 31, 0, 3, 0, 365, 0, 0) /* CreatureEnchantment Specialized */
      , (52710, 32, 0, 3, 0, 365, 0, 0) /* ItemEnchantment     Specialized */
@@ -111,10 +103,17 @@ VALUES (52710,  6, 0, 3, 0, 505, 0, 0) /* MeleeDefense        Specialized */
      , (52710, 45, 0, 3, 0, 343, 0, 0) /* LightWeapons        Specialized */
      , (52710, 51, 0, 3, 0, 333, 0, 0) /* SneakAttack         Specialized */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52710,  4443,   2.25) /* Incantation of Force Bolt */
-     , (52710,  4457,   2.33) /* Incantation of Whirling Blade */
-     , (52710,  4475,    2.3) /* Incantation of Blade Vulnerability Other */
-     , (52710,  4485,   2.43) /* Incantation of Piercing Vulnerability Other */
-     , (52710,  4597,   2.25) /* Incantation of Magic Yield Other */;
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (52710,  0,  2, 150,  0.5,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (52710,  5,  4, 150,  0.5,  425,  212,  212,  212,  212,  212,  212,  212,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Hand */
+     , (52710, 16,  4, 150,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (52710, 17,  1, 150, 0.75,  425,  212,  212,  212,  212,  212,  212,  212,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (52710, 19,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Leg */
+     , (52710, 21,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (52710,  4443,   2.25)  /* Incantation of Force Bolt */
+     , (52710,  4457,   2.33)  /* Incantation of Whirling Blade */
+     , (52710,  4475,    2.3)  /* Incantation of Blade Vulnerability Other */
+     , (52710,  4485,   2.43)  /* Incantation of Piercing Vulnerability Other */
+     , (52710,  4597,   2.25)  /* Incantation of Magic Yield Other */;

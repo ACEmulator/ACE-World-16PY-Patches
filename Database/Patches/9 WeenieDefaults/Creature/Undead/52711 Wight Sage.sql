@@ -99,8 +99,8 @@ VALUES (52711,   1,  7000, 0, 0, 7120) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52711,  6, 0, 3, 0, 533, 0, 0) /* MeleeDefense        Specialized */
-     , (52711,  7, 0, 3, 0, 891, 0, 0) /* MissileDefense       Specialized */
-     , (52711, 15, 0, 3, 0, 590, 0, 0) /* MagicDefense         Specialized */
+     , (52711,  7, 0, 3, 0, 891, 0, 0) /* MissileDefense      Specialized */
+     , (52711, 15, 0, 3, 0, 590, 0, 0) /* MagicDefense        Specialized */
      , (52711, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
      , (52711, 33, 0, 3, 0, 425, 0, 0) /* LifeMagic           Specialized */
      , (52711, 34, 0, 3, 0, 475, 0, 0) /* WarMagic            Specialized */
@@ -109,13 +109,12 @@ VALUES (52711,  6, 0, 3, 0, 533, 0, 0) /* MeleeDefense        Specialized */
      , (52711, 46, 0, 3, 0, 467, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52711,  1784,   2.07) /* Horizon's Blades */
-     , (52711,  4312,   2.14) /* Incantation of Imperil Other */
-     , (52711,  4422,   2.06) /* Incantation of Blade Arc */
-     , (52711,  4473,   2.09) /* Incantation of Acid Vulnerability Other */
-     , (52711,  4475,   2.15) /* Incantation of Blade Vulnerability Other */;
+VALUES (52711,  1784,   2.07)  /* Horizon's Blades */
+     , (52711,  4312,   2.14)  /* Incantation of Imperil Other */
+     , (52711,  4422,   2.06)  /* Incantation of Blade Arc */
+     , (52711,  4473,   2.09)  /* Incantation of Acid Vulnerability Other */
+     , (52711,  4475,   2.15)  /* Incantation of Blade Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52711, 2, 46703,  1, 0,    0, False) /* Create Acid Nekode (46703) for Wield */
-     , (52711, 2, 46707,  1, 0,    0, False) /* Create Corrupted Aegis (46707) for Wield */;
-
+VALUES (52711, 2, 46703,  1, 0, 0, False) /* Create Acid Nekode (46703) for Wield */
+     , (52711, 2, 46707,  1, 0, 0, False) /* Create Corrupted Aegis (46707) for Wield */;
