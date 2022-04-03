@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52777;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52777, 'ace52777-bladechampion', 10, '2022-04-01 12:30:41') /* Creature */;
+VALUES (52777, 'ace52777-bladechampion', 10, '2022-04-03 01:27:12') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52777,   1,         16) /* ItemType - Creature */
@@ -100,9 +100,9 @@ VALUES (52777,   1, 52500, 0, 0,53000) /* MaxHealth */
      , (52777,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52777,  6, 0, 2, 0, 584, 0, 0) /* MeleeDefense             Trained */
-     , (52777,  7, 0, 2, 0, 851, 0, 0) /* MissileDefense           Trained */
-     , (52777, 15, 0, 2, 0, 563, 0, 0) /* MagicDefense             Trained */
+VALUES (52777,  6, 0, 2, 0, 399, 0, 0) /* MeleeDefense             Trained */
+     , (52777,  7, 0, 2, 0, 805, 0, 0) /* MissileDefense           Trained */
+     , (52777, 15, 0, 2, 0, 535, 0, 0) /* MagicDefense             Trained */
      , (52777, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52777, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52777, 34, 0, 2, 0, 338, 0, 0) /* WarMagic            Trained */
@@ -113,9 +113,9 @@ VALUES (52777,  6, 0, 2, 0, 584, 0, 0) /* MeleeDefense             Trained */
      , (52777, 52, 0, 2, 0, 450, 0, 0) /* DirtyFighting       Trained */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52777,  4312,   2.05) /* Incantation of Imperil Other */
-     , (52777,  4432,   2.11) /* Incantation of Acid Streak */
-     , (52777,  4473,   2.06) /* Incantation of Acid Vulnerability Other */;
+VALUES (52777,  4312,   2.04) /* Incantation of Imperil Other */
+     , (52777,  4432,   2.07) /* Incantation of Acid Streak */
+     , (52777,  4473,   2.03) /* Incantation of Acid Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52777, 2, 41250,  1, 0,    0, False) /* Create Acid Gearknight Greatsword (41250) for Wield */;

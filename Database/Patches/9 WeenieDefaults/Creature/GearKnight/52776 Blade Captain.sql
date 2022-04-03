@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52776;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52776, 'ace52776-bladecaptain', 10, '2022-04-01 12:26:11') /* Creature */;
+VALUES (52776, 'ace52776-bladecaptain', 10, '2022-04-03 01:28:20') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52776,   1,         16) /* ItemType - Creature */
@@ -100,9 +100,9 @@ VALUES (52776,   1,124500, 0, 0,125000) /* MaxHealth */
      , (52776,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52776,  6, 0, 2, 0, 554, 0, 0) /* MeleeDefense             Trained */
-     , (52776,  7, 0, 2, 0, 802, 0, 0) /* MissileDefense           Trained */
-     , (52776, 15, 0, 2, 0, 525, 0, 0) /* MagicDefense             Trained */
+VALUES (52776,  6, 0, 2, 0, 374, 0, 0) /* MeleeDefense             Trained */
+     , (52776,  7, 0, 2, 0, 760, 0, 0) /* MissileDefense           Trained */
+     , (52776, 15, 0, 2, 0, 515, 0, 0) /* MagicDefense             Trained */
      , (52776, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52776, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52776, 34, 0, 2, 0, 338, 0, 0) /* WarMagic            Trained */

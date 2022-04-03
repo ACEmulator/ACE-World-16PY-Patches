@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46694;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46694, 'ace46694-tumeroksavage', 10, '2022-03-31 11:21:35') /* Creature */;
+VALUES (46694, 'ace46694-tumeroksavage', 10, '2022-04-03 12:05:25') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46694,   1,         16) /* ItemType - Creature */
@@ -39,24 +39,24 @@ VALUES (46694,   1,      10) /* HeartbeatInterval */
      , (46694,   4,     0.5) /* StaminaRate */
      , (46694,   5,       2) /* ManaRate */
      , (46694,  12,       1) /* Shade */
-     , (46694,  13,     0.7) /* ArmorModVsSlash */
-     , (46694,  14,       1) /* ArmorModVsPierce */
+     , (46694,  13,       1) /* ArmorModVsSlash */
+     , (46694,  14,     0.8) /* ArmorModVsPierce */
      , (46694,  15,       1) /* ArmorModVsBludgeon */
      , (46694,  16,       1) /* ArmorModVsCold */
      , (46694,  17,       1) /* ArmorModVsFire */
      , (46694,  18,       1) /* ArmorModVsAcid */
-     , (46694,  19,     0.7) /* ArmorModVsElectric */
+     , (46694,  19,    0.83) /* ArmorModVsElectric */
      , (46694,  31,      20) /* VisualAwarenessRange */
      , (46694,  34,       1) /* PowerupTime */
      , (46694,  36,       1) /* ChargeSpeed */
      , (46694,  39,     1.5) /* DefaultScale */
-     , (46694,  64,    0.75) /* ResistSlash */
+     , (46694,  64,     0.5) /* ResistSlash */
      , (46694,  65,    0.75) /* ResistPierce */
-     , (46694,  66,    0.65) /* ResistBludgeon */
-     , (46694,  67,    0.65) /* ResistFire */
-     , (46694,  68,    0.65) /* ResistCold */
-     , (46694,  69,    0.65) /* ResistAcid */
-     , (46694,  70,    0.85) /* ResistElectric */
+     , (46694,  66,     0.5) /* ResistBludgeon */
+     , (46694,  67,     0.5) /* ResistFire */
+     , (46694,  68,     0.5) /* ResistCold */
+     , (46694,  69,     0.5) /* ResistAcid */
+     , (46694,  70,    0.73) /* ResistElectric */
      , (46694,  71,       1) /* ResistHealthBoost */
      , (46694,  72,       1) /* ResistStaminaDrain */
      , (46694,  73,       1) /* ResistStaminaBoost */
@@ -80,15 +80,15 @@ VALUES (46694,   1, 0x02001410) /* Setup */
      , (46694,  22, 0x34000026) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (46694,  0,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head - Bludgeon */
-     , (46694,  1,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest - Bludgeon */
-     , (46694,  2,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen - Bludgeon */
-     , (46694,  3,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm - Bludgeon */
-     , (46694,  4,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm - Bludgeon */
-     , (46694,  5,  4, 30, 0.75,  410,  205,  205,  205,  205,  205,  205,  205,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand - Bludgeon */
-     , (46694,  6,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg - Bludgeon */
-     , (46694,  7,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg - Bludgeon */
-     , (46694,  8,  4, 30, 0.75,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot - Bludgeon */;
+VALUES (46694,  0,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head - Bludgeon */
+     , (46694,  1,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest - Bludgeon */
+     , (46694,  2,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen - Bludgeon */
+     , (46694,  3,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm - Bludgeon */
+     , (46694,  4,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm - Bludgeon */
+     , (46694,  5,  4, 30, 0.75,  425,  212,  212,  212,  212,  212,  212,  212,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand - Bludgeon */
+     , (46694,  6,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg - Bludgeon */
+     , (46694,  7,  4,  0,    0,  425,  212,  212,  212,  212,  212,  212,  212,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg - Bludgeon */
+     , (46694,  8,  4, 30, 0.75,  425,  212,  212,  212,  212,  212,  212,  212,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot - Bludgeon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46694,   1, 330, 0, 0) /* Strength */

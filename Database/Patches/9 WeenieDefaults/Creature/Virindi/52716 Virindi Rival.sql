@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52716;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52716, 'ace52716-virindirival', 10, '2022-03-31 11:33:25') /* Creature */;
+VALUES (52716, 'ace52716-virindirival', 10, '2022-04-03 12:08:32') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52716,   1,         16) /* ItemType - Creature */
@@ -38,23 +38,23 @@ VALUES (52716,   1,       5) /* HeartbeatInterval */
      , (52716,   4,    20.5) /* StaminaRate */
      , (52716,   5,      20) /* ManaRate */
      , (52716,  12,     0.5) /* Shade */
-     , (52716,  13,    0.95) /* ArmorModVsSlash */
-     , (52716,  14,       1) /* ArmorModVsPierce */
-     , (52716,  15,       1) /* ArmorModVsBludgeon */
-     , (52716,  16,       1) /* ArmorModVsCold */
-     , (52716,  17,    0.92) /* ArmorModVsFire */
-     , (52716,  18,       1) /* ArmorModVsAcid */
+     , (52716,  13,       1) /* ArmorModVsSlash */
+     , (52716,  14,     1.2) /* ArmorModVsPierce */
+     , (52716,  15,     1.2) /* ArmorModVsBludgeon */
+     , (52716,  16,     1.2) /* ArmorModVsCold */
+     , (52716,  17,    0.98) /* ArmorModVsFire */
+     , (52716,  18,     1.2) /* ArmorModVsAcid */
      , (52716,  19,    0.95) /* ArmorModVsElectric */
      , (52716,  31,      20) /* VisualAwarenessRange */
      , (52716,  34,       1) /* PowerupTime */
      , (52716,  36,       1) /* ChargeSpeed */
-     , (52716,  64,    0.75) /* ResistSlash */
-     , (52716,  65,    0.55) /* ResistPierce */
-     , (52716,  66,    0.45) /* ResistBludgeon */
-     , (52716,  67,    0.82) /* ResistFire */
-     , (52716,  68,    0.65) /* ResistCold */
-     , (52716,  69,    0.55) /* ResistAcid */
-     , (52716,  70,     0.8) /* ResistElectric */
+     , (52716,  64,     0.6) /* ResistSlash */
+     , (52716,  65,     0.5) /* ResistPierce */
+     , (52716,  66,     0.5) /* ResistBludgeon */
+     , (52716,  67,     0.7) /* ResistFire */
+     , (52716,  68,     0.5) /* ResistCold */
+     , (52716,  69,     0.5) /* ResistAcid */
+     , (52716,  70,     0.7) /* ResistElectric */
      , (52716,  71,       1) /* ResistHealthBoost */
      , (52716,  72,       1) /* ResistStaminaDrain */
      , (52716,  73,       1) /* ResistStaminaBoost */

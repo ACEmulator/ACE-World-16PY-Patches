@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46702;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46702, 'ace46702-vibrantshadow', 10, '2022-03-31 11:30:54') /* Creature */;
+VALUES (46702, 'ace46702-vibrantshadow', 10, '2022-04-03 12:11:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46702,   1,         16) /* ItemType - Creature */
@@ -83,15 +83,15 @@ VALUES (46702,   1, 0x0200071B) /* Setup */
      , (46702,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (46702,  0,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head - Bludgeon */
-     , (46702,  1,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest - Bludgeon */
-     , (46702,  2,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen - Bludgeon */
-     , (46702,  3,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm - Bludgeon */
-     , (46702,  4,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm - Bludgeon */
-     , (46702,  5,  4,400, 0.75,  410,  205,  205,  205,  205,  205,  205,  205,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand - Bludgeon */
-     , (46702,  6,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg - Bludgeon */
-     , (46702,  7,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg - Bludgeon */
-     , (46702,  8,  4,400, 0.75,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot - Bludgeon */;
+VALUES (46702,  0,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head - Bludgeon */
+     , (46702,  1,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest - Bludgeon */
+     , (46702,  2,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen - Bludgeon */
+     , (46702,  3,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm - Bludgeon */
+     , (46702,  4,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm - Bludgeon */
+     , (46702,  5,  4,400, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand - Bludgeon */
+     , (46702,  6,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg - Bludgeon */
+     , (46702,  7,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg - Bludgeon */
+     , (46702,  8,  4,400, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot - Bludgeon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46702,   1, 350, 0, 0) /* Strength */
@@ -109,7 +109,7 @@ VALUES (46702,   1,  9500, 0, 0, 9675) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46702,  6, 0, 3, 0, 487, 0, 0) /* MeleeDefense        Specialized */
      , (46702,  7, 0, 3, 0, 505, 0, 0) /* MissileDefense      Specialized */
-     , (46702, 15, 0, 3, 0, 413, 0, 0) /* MagicDefense        Specialized */
+     , (46702, 15, 0, 3, 0, 418, 0, 0) /* MagicDefense         Specialized */
      , (46702, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (46702, 31, 0, 3, 0, 440, 0, 0) /* CreatureEnchantment Specialized */
      , (46702, 33, 0, 3, 0, 440, 0, 0) /* LifeMagic           Specialized */
@@ -121,10 +121,10 @@ VALUES (46702,  6, 0, 3, 0, 487, 0, 0) /* MeleeDefense        Specialized */
      , (46702, 48, 0, 3, 0, 405, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46702,  4468,   2.09) /* Incantation of Fire Protection Self */
-     , (46702,  4291,   2.09) /* Incantation of Armor Self */
+VALUES (46702,  4291,   2.09) /* Incantation of Armor Self */
+     , (46702,  4447,   2.09) /* Incantation of Frost Bolt */
      , (46702,  4457,   2.09) /* Incantation of Whirling Blade */
-     , (46702,  4447,   2.09) /* Incantation of Frost Bolt */;
+     , (46702,  4468,   2.09) /* Incantation of Fire Protection Self */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46702, 2, 46703,  1, 0,    1, False) /* Create Acid Nekode (46703) for Wield */
