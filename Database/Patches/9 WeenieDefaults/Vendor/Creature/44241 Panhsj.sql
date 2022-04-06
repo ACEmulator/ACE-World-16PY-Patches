@@ -28,7 +28,7 @@ VALUES (44241,   1, True ) /* Stuck */
      , (44241,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44241,  12,   0.933) /* Shade */
+VALUES (44241,  12,   0.759) /* Shade */
      , (44241,  37,       1) /* BuyPrice */
      , (44241,  38,       1) /* SellPrice */
      , (44241,  54,       3) /* UseRadius */;

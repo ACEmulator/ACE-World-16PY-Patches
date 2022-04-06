@@ -16,7 +16,7 @@ VALUES (30997,   1,         16) /* ItemType - Creature */
      , (30997,  74,          0) /* MerchandiseItemTypes - None */
      , (30997,  75,          0) /* MerchandiseMinValue */
      , (30997,  76,      10000) /* MerchandiseMaxValue */
-     , (30997,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (30997,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30997,  95,          8) /* RadarBlipColor - Yellow */
      , (30997, 113,          1) /* Gender - Male */
      , (30997, 133,          4) /* ShowableOnRadar - ShowAlways */

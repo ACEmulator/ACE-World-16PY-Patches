@@ -49,7 +49,7 @@ VALUES (832,   1,       5) /* HeartbeatInterval */
      , (832,  18,       1) /* ArmorModVsAcid */
      , (832,  19,     0.6) /* ArmorModVsElectric */
      , (832,  37,     0.9) /* BuyPrice */
-     , (832,  38,    1.35) /* SellPrice */
+     , (832,  38,     1.5) /* SellPrice */
      , (832,  54,       3) /* UseRadius */
      , (832,  64,       1) /* ResistSlash */
      , (832,  65,       1) /* ResistPierce */

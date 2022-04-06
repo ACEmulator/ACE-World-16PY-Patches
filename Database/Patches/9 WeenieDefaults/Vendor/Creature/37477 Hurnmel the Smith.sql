@@ -24,7 +24,7 @@ VALUES (37477,   1, True ) /* Stuck */
      , (37477,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37477,  12,   0.232) /* Shade */
+VALUES (37477,  12,   0.491) /* Shade */
      , (37477,  37,     0.9) /* BuyPrice */
      , (37477,  38,       1) /* SellPrice */
      , (37477,  39,     1.2) /* DefaultScale */

@@ -11,9 +11,9 @@ VALUES (30050,   1,         16) /* ItemType - Creature */
      , (30050,   7,         -1) /* ContainersCapacity */
      , (30050,  16,         32) /* ItemUseable - Remote */
      , (30050,  25,         50) /* Level */
-     , (30050,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
+     , (30050,  74, 1208250287) /* MerchandiseItemTypes - Jewelry, Gem, VendorShopKeep */
      , (30050,  75,          0) /* MerchandiseMinValue */
-     , (30050,  76,     100000) /* MerchandiseMaxValue */
+     , (30050,  76,    1000000) /* MerchandiseMaxValue */
      , (30050,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30050,  95,          8) /* RadarBlipColor - Yellow */
      , (30050, 133,          4) /* ShowableOnRadar - ShowAlways */

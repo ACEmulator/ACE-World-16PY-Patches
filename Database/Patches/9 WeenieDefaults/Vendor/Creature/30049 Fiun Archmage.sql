@@ -13,8 +13,8 @@ VALUES (30049,   1,         16) /* ItemType - Creature */
      , (30049,  25,        123) /* Level */
      , (30049,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (30049,  75,          0) /* MerchandiseMinValue */
-     , (30049,  76,     100000) /* MerchandiseMaxValue */
-     , (30049,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (30049,  76,    1000000) /* MerchandiseMaxValue */
+     , (30049,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30049,  95,          8) /* RadarBlipColor - Yellow */
      , (30049, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30049, 134,         16) /* PlayerKillerStatus - RubberGlue */;
@@ -42,7 +42,7 @@ VALUES (30049,   1,       5) /* HeartbeatInterval */
      , (30049,  17,     0.4) /* ArmorModVsFire */
      , (30049,  18,       1) /* ArmorModVsAcid */
      , (30049,  19,     0.6) /* ArmorModVsElectric */
-     , (30049,  37,     0.7) /* BuyPrice */
+     , (30049,  37,     0.8) /* BuyPrice */
      , (30049,  38,     1.8) /* SellPrice */
      , (30049,  54,       3) /* UseRadius */
      , (30049,  64,       1) /* ResistSlash */

@@ -10,7 +10,7 @@ VALUES (8492,   1,         16) /* ItemType - Creature */
      , (8492,   7,         -1) /* ContainersCapacity */
      , (8492,   8,        120) /* Mass */
      , (8492,  16,         32) /* ItemUseable - Remote */
-     , (8492,  25,         34) /* Level */
+     , (8492,  25,         33) /* Level */
      , (8492,  27,          0) /* ArmorType - None */
      , (8492,  74, 1074573312) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone, TinkeringMaterial */
      , (8492,  75,          0) /* MerchandiseMinValue */

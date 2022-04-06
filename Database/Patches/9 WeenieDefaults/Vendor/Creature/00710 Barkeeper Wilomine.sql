@@ -45,7 +45,7 @@ VALUES (710,   1,       5) /* HeartbeatInterval */
      , (710,  18,       1) /* ArmorModVsAcid */
      , (710,  19,     0.6) /* ArmorModVsElectric */
      , (710,  37,     0.9) /* BuyPrice */
-     , (710,  38,    1.35) /* SellPrice */
+     , (710,  38,     1.5) /* SellPrice */
      , (710,  54,       3) /* UseRadius */
      , (710,  64,       1) /* ResistSlash */
      , (710,  65,       1) /* ResistPierce */
