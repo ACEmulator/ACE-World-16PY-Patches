@@ -21,16 +21,17 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43913,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43913,  39,     1.2) /* DefaultScale */;
+VALUES (43913,  12,     0.5) /* Shade */
+     , (43913,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43913,   1, 'Fire Natural Resistance') /* Name */
      , (43913,  14, 'A token which will allow a 10% increase to natural fire resistance.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43913,   1, 0x0200090E) /* Setup */
+VALUES (43913,   1, 0x020006FF) /* Setup */
      , (43913,   3, 0x20000014) /* SoundTable */
-     , (43913,   6, 0x04000BEF) /* PaletteBase */
+     , (43913,   6, 0x04000BF8) /* PaletteBase */
      , (43913,   7, 0x10000181) /* ClothingBase */
      , (43913,   8, 0x06006F60) /* Icon */
      , (43913,  22, 0x3400002B) /* PhysicsEffectTable */;

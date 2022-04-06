@@ -24,7 +24,7 @@ VALUES (47158,   1, 'A''nekshay Luminance Certificate') /* Name */
      , (47158,  16, 'A certificate that grants the bearer 5,000 luminance. You may turn in 10 of these per month to an Agent of the Arcanum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47158,   1, 0x020000E3) /* Setup */
+VALUES (47158,   1, 0x020006FF) /* Setup */
      , (47158,   3, 0x20000014) /* SoundTable */
      , (47158,   8, 0x060073ED) /* Icon */
      , (47158,  22, 0x3400002B) /* PhysicsEffectTable */;

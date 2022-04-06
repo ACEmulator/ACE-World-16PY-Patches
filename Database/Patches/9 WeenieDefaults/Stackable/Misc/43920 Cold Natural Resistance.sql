@@ -21,7 +21,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43920,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43920,  39,     1.2) /* DefaultScale */;
+VALUES (43920,  12,     0.5) /* Shade */
+     , (43920,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43920,   1, 'Cold Natural Resistance') /* Name */
@@ -30,7 +31,7 @@ VALUES (43920,   1, 'Cold Natural Resistance') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43920,   1, 0x0200090E) /* Setup */
      , (43920,   3, 0x20000014) /* SoundTable */
-     , (43920,   6, 0x04000BEF) /* PaletteBase */
+     , (43920,   6, 0x04000BF8) /* PaletteBase */
      , (43920,   7, 0x10000181) /* ClothingBase */
      , (43920,   8, 0x06006F61) /* Icon */
      , (43920,  22, 0x3400002B) /* PhysicsEffectTable */;

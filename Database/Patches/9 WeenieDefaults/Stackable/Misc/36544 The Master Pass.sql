@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36544,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36544,  39,    0.67) /* DefaultScale */;
+VALUES (36544,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36544,   1, 'The Master Pass') /* Name */
@@ -28,7 +28,7 @@ VALUES (36544,   1, 'The Master Pass') /* Name */
      , (36544,  16, 'A pass that grants limited access to the Master''s Arena.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36544,   1, 0x02000155) /* Setup */
+VALUES (36544,   1, 0x020006FF) /* Setup */
      , (36544,   3, 0x20000014) /* SoundTable */
      , (36544,   8, 0x060066DF) /* Icon */
      , (36544,  22, 0x3400002B) /* PhysicsEffectTable */;

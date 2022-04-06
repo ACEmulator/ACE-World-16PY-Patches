@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36543,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36543,  39,    0.67) /* DefaultScale */;
+VALUES (36543,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36543,   1, 'Gladiator Diemos Pass') /* Name */
@@ -28,7 +28,7 @@ VALUES (36543,   1, 'Gladiator Diemos Pass') /* Name */
      , (36543,  16, 'A pass that grants limited access to a Gladiator Diemos'' Arena.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36543,   1, 0x02000155) /* Setup */
+VALUES (36543,   1, 0x020006FF) /* Setup */
      , (36543,   3, 0x20000014) /* SoundTable */
      , (36543,   8, 0x060066DF) /* Icon */
      , (36543,  22, 0x3400002B) /* PhysicsEffectTable */;

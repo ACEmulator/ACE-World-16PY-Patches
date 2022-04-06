@@ -22,7 +22,7 @@ VALUES (53366,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53366,   1, 'Essence of Wind Fury') /* Name */
      , (53366,  14, 'Kervim''telek of the Virindian Rise would be interested in this essence.') /* Use */
-     , (53366,  16, 'A powerful essence from a champion of the Virdian Rise.') /* LongDesc */
+     , (53366,  16, 'A powerful essence from a champion of the Viridian Rise.') /* LongDesc */
      , (53366,  33, 'pickupWindFuryEssence') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

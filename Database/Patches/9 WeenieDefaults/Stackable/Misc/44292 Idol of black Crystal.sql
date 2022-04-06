@@ -6,8 +6,8 @@ VALUES (44292, 'ace44292-idolofblackcrystal', 51, '2021-11-01 00:00:00') /* Stac
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44292,   1,        128) /* ItemType - Misc */
      , (44292,   3,          4) /* PaletteTemplate - Brown */
-     , (44292,   5,          1) /* EncumbranceVal */
-     , (44292,  11,         30) /* MaxStackSize */
+     , (44292,   5,          2) /* EncumbranceVal */
+     , (44292,  11,          1) /* MaxStackSize */
      , (44292,  12,          1) /* StackSize */
      , (44292,  13,          1) /* StackUnitEncumbrance */
      , (44292,  15,          1) /* StackUnitValue */
