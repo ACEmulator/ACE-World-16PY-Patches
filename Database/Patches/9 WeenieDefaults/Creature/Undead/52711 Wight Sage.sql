@@ -37,21 +37,21 @@ VALUES (52711,   1,       5) /* HeartbeatInterval */
      , (52711,   4,       5) /* StaminaRate */
      , (52711,   5,       2) /* ManaRate */
      , (52711,  12,     0.5) /* Shade */
-     , (52711,  13,    0.95) /* ArmorModVsSlash */
-     , (52711,  14,    0.95) /* ArmorModVsPierce */
-     , (52711,  15,    0.89) /* ArmorModVsBludgeon */
-     , (52711,  16,    0.95) /* ArmorModVsCold */
-     , (52711,  17,    0.87) /* ArmorModVsFire */
-     , (52711,  18,     0.9) /* ArmorModVsAcid */
-     , (52711,  19,    0.95) /* ArmorModVsElectric */
+     , (52711,  13,     1.2) /* ArmorModVsSlash */
+     , (52711,  14,     1.5) /* ArmorModVsPierce */
+     , (52711,  15,     1.5) /* ArmorModVsBludgeon */
+     , (52711,  16,     1.5) /* ArmorModVsCold */
+     , (52711,  17,    1.05) /* ArmorModVsFire */
+     , (52711,  18,     1.5) /* ArmorModVsAcid */
+     , (52711,  19,     1.5) /* ArmorModVsElectric */
      , (52711,  31,      18) /* VisualAwarenessRange */
      , (52711,  34,       2) /* PowerupTime */
      , (52711,  36,       1) /* ChargeSpeed */
      , (52711,  39,     1.1) /* DefaultScale */
-     , (52711,  64,    0.73) /* ResistSlash */
+     , (52711,  64,    0.65) /* ResistSlash */
      , (52711,  65,     0.5) /* ResistPierce */
      , (52711,  66,     0.5) /* ResistBludgeon */
-     , (52711,  67,    0.82) /* ResistFire */
+     , (52711,  67,     0.7) /* ResistFire */
      , (52711,  68,     0.5) /* ResistCold */
      , (52711,  69,     0.5) /* ResistAcid */
      , (52711,  70,     0.5) /* ResistElectric */

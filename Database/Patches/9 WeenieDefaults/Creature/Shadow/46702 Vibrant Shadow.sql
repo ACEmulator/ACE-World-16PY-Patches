@@ -40,23 +40,23 @@ VALUES (46702,   1,       5) /* HeartbeatInterval */
      , (46702,   4,     2.5) /* StaminaRate */
      , (46702,   5,       1) /* ManaRate */
      , (46702,  12,     0.5) /* Shade */
-     , (46702,  13,     1.2) /* ArmorModVsSlash */
-     , (46702,  14,     1.2) /* ArmorModVsPierce */
-     , (46702,  15,     1.2) /* ArmorModVsBludgeon */
-     , (46702,  16,     1.2) /* ArmorModVsCold */
+     , (46702,  13,     1.7) /* ArmorModVsSlash */
+     , (46702,  14,     1.7) /* ArmorModVsPierce */
+     , (46702,  15,     1.7) /* ArmorModVsBludgeon */
+     , (46702,  16,     1.7) /* ArmorModVsCold */
      , (46702,  17,     1.2) /* ArmorModVsFire */
-     , (46702,  18,     1.2) /* ArmorModVsAcid */
-     , (46702,  19,     1.2) /* ArmorModVsElectric */
+     , (46702,  18,     1.7) /* ArmorModVsAcid */
+     , (46702,  19,     1.7) /* ArmorModVsElectric */
      , (46702,  34,     1.1) /* PowerupTime */
      , (46702,  36,       1) /* ChargeSpeed */
      , (46702,  39,       1) /* DefaultScale */
-     , (46702,  64,     0.8) /* ResistSlash */
-     , (46702,  65,     0.8) /* ResistPierce */
-     , (46702,  66,     0.8) /* ResistBludgeon */
-     , (46702,  67,     0.8) /* ResistFire */
-     , (46702,  68,     0.8) /* ResistCold */
-     , (46702,  69,     0.8) /* ResistAcid */
-     , (46702,  70,     0.8) /* ResistElectric */
+     , (46702,  64,     0.3) /* ResistSlash */
+     , (46702,  65,     0.3) /* ResistPierce */
+     , (46702,  66,     0.3) /* ResistBludgeon */
+     , (46702,  67,     0.5) /* ResistFire */
+     , (46702,  68,     0.3) /* ResistCold */
+     , (46702,  69,     0.3) /* ResistAcid */
+     , (46702,  70,     0.3) /* ResistElectric */
      , (46702,  71,       1) /* ResistHealthBoost */
      , (46702,  72,       1) /* ResistStaminaDrain */
      , (46702,  73,       1) /* ResistStaminaBoost */
@@ -98,7 +98,7 @@ VALUES (46702,   1,  9500, 0, 0, 9675) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46702,  6, 0, 3, 0, 487, 0, 0) /* MeleeDefense        Specialized */
      , (46702,  7, 0, 3, 0, 505, 0, 0) /* MissileDefense      Specialized */
-     , (46702, 15, 0, 3, 0, 418, 0, 0) /* MagicDefense        Specialized */
+     , (46702, 15, 0, 3, 0, 513, 0, 0) /* MagicDefense        Specialized */
      , (46702, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (46702, 31, 0, 3, 0, 440, 0, 0) /* CreatureEnchantment Specialized */
      , (46702, 33, 0, 3, 0, 440, 0, 0) /* LifeMagic           Specialized */
