@@ -63,7 +63,8 @@ VALUES (52721,   1,       5) /* HeartbeatInterval */
      , (52721,  75,       1) /* ResistManaBoost */
      , (52721, 104,      10) /* ObviousRadarRange */
      , (52721, 121,      10) /* GeneratorInitialDelay */
-     , (52721, 125,       1) /* ResistHealthDrain */;
+     , (52721, 125,     0.8) /* ResistHealthDrain */
+     , (52721, 166,    0.85) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52721,   1, 'Tundra Tusker') /* Name */;

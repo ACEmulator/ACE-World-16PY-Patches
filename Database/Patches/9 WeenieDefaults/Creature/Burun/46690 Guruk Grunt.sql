@@ -59,7 +59,8 @@ VALUES (46690,   1,       5) /* HeartbeatInterval */
      , (46690,  74,       1) /* ResistManaDrain */
      , (46690,  75,       1) /* ResistManaBoost */
      , (46690, 104,      10) /* ObviousRadarRange */
-     , (46690, 125,       1) /* ResistHealthDrain */;
+     , (46690, 125,    0.65) /* ResistHealthDrain */
+     , (46690, 166,     0.7) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46690,   1, 'Guruk Grunt') /* Name */;

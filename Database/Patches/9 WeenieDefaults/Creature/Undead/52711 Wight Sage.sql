@@ -41,7 +41,7 @@ VALUES (52711,   1,       5) /* HeartbeatInterval */
      , (52711,  14,     1.5) /* ArmorModVsPierce */
      , (52711,  15,     1.5) /* ArmorModVsBludgeon */
      , (52711,  16,     1.5) /* ArmorModVsCold */
-     , (52711,  17,    1.05) /* ArmorModVsFire */
+     , (52711,  17,    1.15) /* ArmorModVsFire */
      , (52711,  18,     1.5) /* ArmorModVsAcid */
      , (52711,  19,     1.5) /* ArmorModVsElectric */
      , (52711,  31,      18) /* VisualAwarenessRange */
@@ -87,9 +87,9 @@ VALUES (52711,   1,  7000, 0, 0, 7120) /* MaxHealth */
      , (52711,   5,  2000, 0, 0, 2285) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52711,  6, 0, 3, 0, 533, 0, 0) /* MeleeDefense        Specialized */
+VALUES (52711,  6, 0, 3, 0, 564, 0, 0) /* MeleeDefense        Specialized */
      , (52711,  7, 0, 3, 0, 891, 0, 0) /* MissileDefense      Specialized */
-     , (52711, 15, 0, 3, 0, 590, 0, 0) /* MagicDefense        Specialized */
+     , (52711, 15, 0, 3, 0, 630, 0, 0) /* MagicDefense        Specialized */
      , (52711, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
      , (52711, 33, 0, 3, 0, 425, 0, 0) /* LifeMagic           Specialized */
      , (52711, 34, 0, 3, 0, 475, 0, 0) /* WarMagic            Specialized */

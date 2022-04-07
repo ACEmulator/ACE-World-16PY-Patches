@@ -33,7 +33,7 @@ VALUES (52709,   1,       5) /* HeartbeatInterval */
      , (52709,   4,     5.4) /* StaminaRate */
      , (52709,   5,       2) /* ManaRate */
      , (52709,  12,     0.5) /* Shade */
-     , (52709,  13,    0.75) /* ArmorModVsSlash */
+     , (52709,  13,     0.8) /* ArmorModVsSlash */
      , (52709,  14,       1) /* ArmorModVsPierce */
      , (52709,  15,    0.95) /* ArmorModVsBludgeon */
      , (52709,  16,     0.9) /* ArmorModVsCold */
@@ -42,10 +42,10 @@ VALUES (52709,   1,       5) /* HeartbeatInterval */
      , (52709,  19,     0.9) /* ArmorModVsElectric */
      , (52709,  34,       1) /* PowerupTime */
      , (52709,  36,       1) /* ChargeSpeed */
-     , (52709,  64,     0.7) /* ResistSlash */
+     , (52709,  64,    0.65) /* ResistSlash */
      , (52709,  65,     0.2) /* ResistPierce */
      , (52709,  66,    0.65) /* ResistBludgeon */
-     , (52709,  67,     0.7) /* ResistFire */
+     , (52709,  67,     0.6) /* ResistFire */
      , (52709,  68,     0.2) /* ResistCold */
      , (52709,  69,     0.2) /* ResistAcid */
      , (52709,  70,     0.2) /* ResistElectric */
@@ -84,9 +84,9 @@ VALUES (52709,   1, 52230, 0, 0, 52390) /* MaxHealth */
      , (52709,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52709,  6, 0, 3, 0, 454, 0, 0) /* MeleeDefense        Specialized */
+VALUES (52709,  6, 0, 3, 0, 499, 0, 0) /* MeleeDefense        Specialized */
      , (52709,  7, 0, 3, 0, 544, 0, 0) /* MissileDefense      Specialized */
-     , (52709, 15, 0, 3, 0, 421, 0, 0) /* MagicDefense        Specialized */
+     , (52709, 15, 0, 3, 0, 725, 0, 0) /* MagicDefense        Specialized */
      , (52709, 20, 0, 3, 0, 500, 0, 0) /* Deception           Specialized */
      , (52709, 22, 0, 3, 0, 450, 0, 0) /* Jump                Specialized */
      , (52709, 24, 0, 3, 0, 440, 0, 0) /* Run                 Specialized */

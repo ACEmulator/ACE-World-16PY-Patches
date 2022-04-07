@@ -34,8 +34,8 @@ VALUES (46710,   1,       5) /* HeartbeatInterval */
      , (46710,   3,     0.4) /* HealthRate */
      , (46710,   4,       5) /* StaminaRate */
      , (46710,   5,       1) /* ManaRate */
-     , (46710,  13,    0.81) /* ArmorModVsSlash */
-     , (46710,  14,    0.84) /* ArmorModVsPierce */
+     , (46710,  13,     0.9) /* ArmorModVsSlash */
+     , (46710,  14,    0.95) /* ArmorModVsPierce */
      , (46710,  15,       1) /* ArmorModVsBludgeon */
      , (46710,  16,       2) /* ArmorModVsCold */
      , (46710,  17,       2) /* ArmorModVsFire */
@@ -45,9 +45,9 @@ VALUES (46710,   1,       5) /* HeartbeatInterval */
      , (46710,  34,       1) /* PowerupTime */
      , (46710,  36,       1) /* ChargeSpeed */
      , (46710,  39,     1.1) /* DefaultScale */
-     , (46710,  64,    0.87) /* ResistSlash */
-     , (46710,  65,    0.89) /* ResistPierce */
-     , (46710,  66,     0.3) /* ResistBludgeon */
+     , (46710,  64,     0.8) /* ResistSlash */
+     , (46710,  65,     0.7) /* ResistPierce */
+     , (46710,  66,     0.6) /* ResistBludgeon */
      , (46710,  67,     0.3) /* ResistFire */
      , (46710,  68,       0) /* ResistCold */
      , (46710,  69,     0.3) /* ResistAcid */

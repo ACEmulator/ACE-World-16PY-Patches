@@ -40,23 +40,23 @@ VALUES (46694,   1,      10) /* HeartbeatInterval */
      , (46694,   5,       2) /* ManaRate */
      , (46694,  12,       1) /* Shade */
      , (46694,  13,       1) /* ArmorModVsSlash */
-     , (46694,  14,     0.8) /* ArmorModVsPierce */
+     , (46694,  14,    0.75) /* ArmorModVsPierce */
      , (46694,  15,       1) /* ArmorModVsBludgeon */
      , (46694,  16,       1) /* ArmorModVsCold */
      , (46694,  17,       1) /* ArmorModVsFire */
      , (46694,  18,       1) /* ArmorModVsAcid */
-     , (46694,  19,    0.83) /* ArmorModVsElectric */
+     , (46694,  19,    0.78) /* ArmorModVsElectric */
      , (46694,  31,      20) /* VisualAwarenessRange */
      , (46694,  34,       1) /* PowerupTime */
      , (46694,  36,       1) /* ChargeSpeed */
      , (46694,  39,     1.5) /* DefaultScale */
      , (46694,  64,     0.5) /* ResistSlash */
-     , (46694,  65,    0.75) /* ResistPierce */
+     , (46694,  65,    0.78) /* ResistPierce */
      , (46694,  66,     0.5) /* ResistBludgeon */
      , (46694,  67,     0.5) /* ResistFire */
      , (46694,  68,     0.5) /* ResistCold */
      , (46694,  69,     0.5) /* ResistAcid */
-     , (46694,  70,    0.73) /* ResistElectric */
+     , (46694,  70,    0.75) /* ResistElectric */
      , (46694,  71,       1) /* ResistHealthBoost */
      , (46694,  72,       1) /* ResistStaminaDrain */
      , (46694,  73,       1) /* ResistStaminaBoost */
@@ -93,7 +93,7 @@ VALUES (46694,   1, 81850, 0, 0, 82000) /* MaxHealth */
      , (46694,   5,  5650, 0, 0, 6000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46694,  6, 0, 3, 0, 467, 0, 0) /* MeleeDefense        Specialized */
+VALUES (46694,  6, 0, 3, 0, 445, 0, 0) /* MeleeDefense        Specialized */
      , (46694,  7, 0, 3, 0, 515, 0, 0) /* MissileDefense      Specialized */
      , (46694, 15, 0, 3, 0, 395, 0, 0) /* MagicDefense        Specialized */
      , (46694, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
