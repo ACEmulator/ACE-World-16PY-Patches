@@ -378,18 +378,6 @@ VALUES (0x7DA55082, 30460, 0xDA550000, 124.527, 127.33, 20.005, -0.707107, 0, 0,
 /* @teleloc 0xDA550000 [124.527000 127.330002 20.004999] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA55083,  4569, 0xDA5501F6, 83.7826, 167.461, 13.66, 0.010629, 0, 0, -0.999943, False, '2022-03-19 04:04:39'); /* Destroyed Portal to Nanto */
-/* @teleloc 0xDA5501F6 [83.782600 167.460999 13.660000] 0.010629 0.000000 0.000000 -0.999943 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA55084,  1029, 0xDA5501F1, 140.338, 108.495, 13.66, 0.720812, 0, 0, 0.693131, False, '2022-03-19 04:04:39'); /* Destroyed Portal to Yanshi */
-/* @teleloc 0xDA5501F1 [140.337997 108.495003 13.660000] 0.720812 0.000000 0.000000 0.693131 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA55085,  1030, 0xDA5501EC, 84.2145, 9.61882, 13.66, 0.028399, 0, 0, -0.999597, False, '2022-03-19 04:04:39'); /* Destroyed Portal to Yaraq */
-/* @teleloc 0xDA5501EC [84.214500 9.618820 13.660000] 0.028399 0.000000 0.000000 -0.999597 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA55086,  1154, 0xDA55001D, 93.1131, 104.213, 20.005, 0.730633, 0, 0, 0.68277, False, '2022-03-19 04:04:39'); /* Linkable Monster Generator */
 /* @teleloc 0xDA55001D [93.113098 104.212997 20.004999] 0.730633 0.000000 0.000000 0.682770 */
 

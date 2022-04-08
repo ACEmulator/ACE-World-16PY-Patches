@@ -67,14 +67,6 @@ VALUES (0x77E6400E,  9505, 0x7E640119, 111.2, 111.2, 12.005, -0.382683, 0, 0, -0
 /* @teleloc 0x7E640119 [111.199997 111.199997 12.005000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64010,  8401, 0x7E640124, 35.9586, 16.3243, 8.66, -0.017171, 0, 0, 0.999853, False, '2021-11-01 00:00:00'); /* Portal to Linvak Tukal */
-/* @teleloc 0x7E640124 [35.958599 16.324301 8.660000] -0.017171 0.000000 0.000000 0.999853 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64011,  1032, 0x7E64011F, 36.0142, 176.596, 7.66, -0.99999, 0, 0, 0.004363, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Zaikhal */
-/* @teleloc 0x7E64011F [36.014198 176.595993 7.660000] -0.999990 0.000000 0.000000 0.004363 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E64014, 34282, 0x7E640113, 107.964, 100.54, 12.0006, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Wheel of Knowledge */
 /* @teleloc 0x7E640113 [107.963997 100.540001 12.000600] 1.000000 0.000000 0.000000 0.000000 */
 
