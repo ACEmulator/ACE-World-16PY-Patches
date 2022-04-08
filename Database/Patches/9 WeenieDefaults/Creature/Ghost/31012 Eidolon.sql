@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31012;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31012, 'ghosteidolonhighyield', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (31012, 'ghosteidolonhighyield', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31012,   1,         16) /* ItemType - Creature */
@@ -120,6 +120,10 @@ VALUES (31012,   897,   2.04)  /* Healing Ineptitude Other VI */
      , (31012,  2125,   2.04)  /* Flensing Wings */
      , (31012,  2146,   2.04)  /* Evisceration */
      , (31012,  2758,   2.04)  /* Blade Arc VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (31012,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (31012, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31012,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

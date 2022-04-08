@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2584;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2584, 'sclavusaste', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (2584, 'sclavusaste', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2584,   1,         16) /* ItemType - Creature */
@@ -131,6 +131,10 @@ VALUES (2584,     2,   2.05)  /* Strength Self I */
      , (2584,   262,  2.013)  /* Defenselessness Other I */
      , (2584,  1373,   2.05)  /* Coordination Self I */
      , (2584,  1397,   2.05)  /* Quickness Self I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (2584,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (2584, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2584, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */

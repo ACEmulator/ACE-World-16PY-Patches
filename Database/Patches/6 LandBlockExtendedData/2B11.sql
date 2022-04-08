@@ -9,16 +9,16 @@ VALUES (0x72B1100E,  3953, 0x2B110000, 94.6229, 188.383, 48.005, -0.618458, 0, 0
 /* @teleloc 0x2B110000 [94.622902 188.382996 48.005001] -0.618458 0.000000 0.000000 0.785818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B1100E, 0x72B1101E, '2005-02-09 10:00:00') /* Aun Xathurea the Leather Crafter (24576) */
-     , (0x72B1100E, 0x72B11023, '2005-02-09 10:00:00') /* Sentry (24578) */
-     , (0x72B1100E, 0x72B11024, '2005-02-09 10:00:00') /* Sentry (24578) */
-     , (0x72B1100E, 0x72B11025, '2005-02-09 10:00:00') /* Ulna bint-Fasha the Ivory Crafter (24575) */
-     , (0x72B1100E, 0x72B11027, '2005-02-09 10:00:00') /* Yukara Miko the Collector (24573) */
-     , (0x72B1100E, 0x72B1102B, '2005-02-09 10:00:00') /* Gate Guard (24873) */
-     , (0x72B1100E, 0x72B1102C, '2005-02-09 10:00:00') /* Sentry (24874) */
-     , (0x72B1100E, 0x72B1102D, '2005-02-09 10:00:00') /* Sentry (24874) */
-     , (0x72B1100E, 0x72B11040, '2005-02-09 10:00:00') /* Small Creepy Statue (25985) */
-     , (0x72B1100E, 0x72B11041, '2005-02-09 10:00:00') /* Finn Skigg (27948) */;
+VALUES (0x72B1100E, 0x72B1101E, '2021-11-01 00:00:00') /* Aun Xathurea the Leather Crafter (24576) */
+     , (0x72B1100E, 0x72B11023, '2021-11-01 00:00:00') /* Sentry (24578) */
+     , (0x72B1100E, 0x72B11024, '2021-11-01 00:00:00') /* Sentry (24578) */
+     , (0x72B1100E, 0x72B11025, '2021-11-01 00:00:00') /* Ulna bint-Fasha the Ivory Crafter (24575) */
+     , (0x72B1100E, 0x72B11027, '2021-11-01 00:00:00') /* Yukara Miko the Collector (24573) */
+     , (0x72B1100E, 0x72B1102B, '2021-11-01 00:00:00') /* Gate Guard (24873) */
+     , (0x72B1100E, 0x72B1102C, '2021-11-01 00:00:00') /* Sentry (24874) */
+     , (0x72B1100E, 0x72B1102D, '2021-11-01 00:00:00') /* Sentry (24874) */
+     , (0x72B1100E, 0x72B11040, '2021-11-01 00:00:00') /* Small Creepy Statue (25985) */
+     , (0x72B1100E, 0x72B11041, '2021-11-01 00:00:00') /* Finn Skigg (27948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B1100F,   722, 0x2B110000, 45.05, 155, 48, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -45,14 +45,14 @@ VALUES (0x72B11014,  7925, 0x2B110000, 122.728, 120.727, 48.005, -0.999999, 0, 0
 /* @teleloc 0x2B110000 [122.727997 120.726997 48.005001] -0.999999 0.000000 0.000000 0.001630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B11014, 0x72B11015, '2005-02-09 10:00:00') /* Auroch Bull (20) */
-     , (0x72B11014, 0x72B11016, '2005-02-09 10:00:00') /* Auroch Cow (181) */
-     , (0x72B11014, 0x72B11017, '2005-02-09 10:00:00') /* Auroch Cow (181) */
-     , (0x72B11014, 0x72B11018, '2005-02-09 10:00:00') /* Auroch Cow (181) */
-     , (0x72B11014, 0x72B11019, '2005-02-09 10:00:00') /* Auroch Yearling (182) */
-     , (0x72B11014, 0x72B1101A, '2005-02-09 10:00:00') /* Auroch Yearling (182) */
-     , (0x72B11014, 0x72B1101B, '2005-02-09 10:00:00') /* Auroch Yearling (182) */
-     , (0x72B11014, 0x72B1101C, '2005-02-09 10:00:00') /* Auroch Yearling (182) */;
+VALUES (0x72B11014, 0x72B11015, '2021-11-01 00:00:00') /* Auroch Bull (20) */
+     , (0x72B11014, 0x72B11016, '2021-11-01 00:00:00') /* Auroch Cow (181) */
+     , (0x72B11014, 0x72B11017, '2021-11-01 00:00:00') /* Auroch Cow (181) */
+     , (0x72B11014, 0x72B11018, '2021-11-01 00:00:00') /* Auroch Cow (181) */
+     , (0x72B11014, 0x72B11019, '2021-11-01 00:00:00') /* Auroch Yearling (182) */
+     , (0x72B11014, 0x72B1101A, '2021-11-01 00:00:00') /* Auroch Yearling (182) */
+     , (0x72B11014, 0x72B1101B, '2021-11-01 00:00:00') /* Auroch Yearling (182) */
+     , (0x72B11014, 0x72B1101C, '2021-11-01 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B11015,    20, 0x2B110000, 132.598, 123.87, 48.0093, 0.389755, 0, 0, -0.920919,  True, '2021-11-01 00:00:00'); /* Auroch Bull */

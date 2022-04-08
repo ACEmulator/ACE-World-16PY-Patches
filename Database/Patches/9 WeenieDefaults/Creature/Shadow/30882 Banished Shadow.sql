@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30882;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30882, 'shadowbossmid0205', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (30882, 'shadowbossmid0205', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30882,   1,         16) /* ItemType - Creature */
@@ -153,6 +153,10 @@ VALUES (30882,    72,  2.032)  /* Frost Bolt IV */
      , (30882,  1310,  2.006)  /* Armor Self IV */
      , (30882,  1418,  2.023)  /* Slowness Other IV */
      , (30882,  1466,  2.023)  /* Feeblemind Other IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30882,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30882, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30882, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */

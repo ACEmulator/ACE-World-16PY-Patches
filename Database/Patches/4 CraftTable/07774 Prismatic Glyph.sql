@@ -6,4 +6,4 @@ VALUES (7774, 0, 0, 0, 0, 32945 /* Prismatic Glyph */, 1, 'You apply the prismat
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7774;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7774, 32758 /* Prismatic Oil */, 32946, '2021-11-01 00:00:00');
+VALUES (7774, 32758 /* Prismatic Oil */, 32946 /* Pyreal Glyph */, '2022-02-04 00:00:00');

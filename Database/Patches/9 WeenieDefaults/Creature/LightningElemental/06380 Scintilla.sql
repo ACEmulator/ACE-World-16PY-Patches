@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6380;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6380, 'lightningelementalscintilla', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (6380, 'lightningelementalscintilla', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6380,   1,         16) /* ItemType - Creature */
@@ -126,6 +126,10 @@ VALUES (6380,    77,   2.11)  /* Lightning Bolt III */
      , (6380,  1239,  2.006)  /* Drain Health Other III */
      , (6380,  1309,  2.006)  /* Armor Self III */
      , (6380,  1324,  2.013)  /* Imperil Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (6380,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (6380, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6380, 1, 6382, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Static (6382) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -1,3 +1,23 @@
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
+    - Motion: Twitch1
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
+    - Motion: Twitch2
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch3
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch4
+
+Give: Barbaric Mukkir Nest-lord's Head (32925)
+    - TurnToTarget
+    - Tell: Amazing...
+    - AddCharacterTitle: MukkirMasher
+    - Delay: 1, DirectBroadcast: Qath al-Haddash bestows upon you the title of "Mukkir Masher."
+    - Delay: 1, Tell: This is a valuable find. With this, we may be able to learn more about these "Mukkir" and predict what the Viamontians will seek next. Please, allow me to reward you.
+    - AwardLevelProportionalXP: 100%, 0 - 226,800,000
+    
 Refuse: Alizari's Encoded Notes (70271)
     - TurnToTarget
     - TakeItems: Alizari's Encoded Notes (70271)
@@ -56,29 +76,9 @@ Refuse: Vaserio's Encoded Notes (70270)
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x2000
             - StampQuest: ContractQuestcounter_0511
 
-HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
-    - Motion: Twitch1
-
-HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-    - Motion: Twitch2
-
-HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-    - Motion: Twitch3
-
-HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
-    - Motion: Twitch4
-
-Give: 32925
-    - TurnToTarget
-    - Tell: Amazing...
-    - AddCharacterTitle: MukkirMasher
-    - Delay: 1, DirectBroadcast: Qath al-Haddash bestows upon you the title of "Mukkir Masher."
-    - Delay: 1, Tell: This is a valuable find. With this, we may be able to learn more about these "Mukkir" and predict what the Viamontians will seek next. Please, allow me to reward you.
-    - AwardLevelProportionalXP: 100%, 0 - 226,800,000
-
 Use:
     - TurnToTarget
-    - InqQuest: FacesMukkirComplete1005@3
+    - InqQuest: FacesMukkirComplete1005
         QuestSuccess:
             - Tell: Ah, you've helped me recently, have you not? In my line of work, it's not wise to keep going back to the well so often, friend.
             - DirectBroadcast: You must wait %tqt to complete this quest again.
@@ -89,7 +89,7 @@ Use:
                     - StampQuest: FacesMukkirNotes1005
                 TestFailure:
                     - InqIntStat: Level, 80 - 99
-                        TestSuccess:
+                        TestSuccess: 
                             - Tell: Yes, you should be suitable... I have been tracking Viamontian interest in a certain obscure race of creatures, thought long-vanished... I would have you journey to the dig site overseen by Mistress Gabille, a Viamontian scholar. Bring me Gabille's notes on their findings. The notes are likely to be written in some strange cipher, unreadable by the untrained eye. The dig site can be found at 8.5N 88.9W.
                             - StampQuest: FacesMukkirNotes1005
                         TestFailure:

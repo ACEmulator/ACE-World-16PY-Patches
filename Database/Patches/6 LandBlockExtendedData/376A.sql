@@ -65,26 +65,26 @@ VALUES (0x7376A00F,  3955, 0x376A0114, 155.307, 63.4867, 34.005, 0.500067, 0, 0,
 /* @teleloc 0x376A0114 [155.307007 63.486698 34.005001] 0.500067 0.000000 0.000000 0.865987 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7376A00F, 0x7376A003, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
-     , (0x7376A00F, 0x7376A004, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
-     , (0x7376A00F, 0x7376A005, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x7376A00F, 0x7376A006, '2005-02-09 10:00:00') /* Revenant (7424) */
-     , (0x7376A00F, 0x7376A008, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
-     , (0x7376A00F, 0x7376A00A, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x7376A00F, 0x7376A00B, '2005-02-09 10:00:00') /* Revenant (619) */
-     , (0x7376A00F, 0x7376A00C, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
-     , (0x7376A00F, 0x7376A00D, '2005-02-09 10:00:00') /* Horrible Mu-miyah (1765) */
-     , (0x7376A00F, 0x7376A00E, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
-     , (0x7376A00F, 0x7376A010, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
-     , (0x7376A00F, 0x7376A011, '2005-02-09 10:00:00') /* Faladha the Emissary (7403) */
-     , (0x7376A00F, 0x7376A013, '2005-02-09 10:00:00') /* Revenant (619) */
-     , (0x7376A00F, 0x7376A016, '2005-02-09 10:00:00') /* Lich Lord (7423) */
-     , (0x7376A00F, 0x7376A018, '2005-02-09 10:00:00') /* Revenant (7424) */
-     , (0x7376A00F, 0x7376A019, '2005-02-09 10:00:00') /* Horrible Mu-miyah (1765) */
-     , (0x7376A00F, 0x7376A01D, '2005-02-09 10:00:00') /* Dark Revenant (7422) */
-     , (0x7376A00F, 0x7376A01E, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
-     , (0x7376A00F, 0x7376A020, '2005-02-09 10:00:00') /* Revenant (619) */
-     , (0x7376A00F, 0x7376A023, '2005-02-09 10:00:00') /* Revenant (619) */;
+VALUES (0x7376A00F, 0x7376A003, '2021-11-01 00:00:00') /* Diamond Golem (7421) */
+     , (0x7376A00F, 0x7376A004, '2021-11-01 00:00:00') /* Dark Revenant (4217) */
+     , (0x7376A00F, 0x7376A005, '2021-11-01 00:00:00') /* Diamond Golem (4216) */
+     , (0x7376A00F, 0x7376A006, '2021-11-01 00:00:00') /* Revenant (7424) */
+     , (0x7376A00F, 0x7376A008, '2021-11-01 00:00:00') /* Diamond Golem (7421) */
+     , (0x7376A00F, 0x7376A00A, '2021-11-01 00:00:00') /* Diamond Golem (4216) */
+     , (0x7376A00F, 0x7376A00B, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x7376A00F, 0x7376A00C, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x7376A00F, 0x7376A00D, '2021-11-01 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7376A00F, 0x7376A00E, '2021-11-01 00:00:00') /* Diamond Golem (7421) */
+     , (0x7376A00F, 0x7376A010, '2021-11-01 00:00:00') /* Diamond Golem (4216) */
+     , (0x7376A00F, 0x7376A011, '2021-11-01 00:00:00') /* Faladha the Emissary (7403) */
+     , (0x7376A00F, 0x7376A013, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x7376A00F, 0x7376A016, '2021-11-01 00:00:00') /* Lich Lord (7423) */
+     , (0x7376A00F, 0x7376A018, '2021-11-01 00:00:00') /* Revenant (7424) */
+     , (0x7376A00F, 0x7376A019, '2021-11-01 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7376A00F, 0x7376A01D, '2021-11-01 00:00:00') /* Dark Revenant (7422) */
+     , (0x7376A00F, 0x7376A01E, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x7376A00F, 0x7376A020, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x7376A00F, 0x7376A023, '2021-11-01 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7376A010,  4216, 0x376A0000, 116.243, 29.0483, 34.325, 0.708782, 0, 0, 0.705428,  True, '2021-11-01 00:00:00'); /* Diamond Golem */
@@ -159,14 +159,14 @@ VALUES (0x7376A021,  4065, 0x376A0114, 148.601, 56.6903, 36.5385, 0.720695, 0, 0
 /* @teleloc 0x376A0114 [148.600998 56.690300 36.538502] 0.720695 0.000000 0.000000 0.693252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7376A021, 0x7376A01B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
+VALUES (0x7376A021, 0x7376A01B, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7376A022,  4092, 0x376A0101, 133.419, 35.9378, 46.8004, 0.719532, 0, 0, -0.694459, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x376A0101 [133.419006 35.937801 46.800400] 0.719532 0.000000 0.000000 -0.694459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7376A022, 0x7376A012, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
+VALUES (0x7376A022, 0x7376A012, '2021-11-01 00:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7376A023,   619, 0x376A014D, 131.226, 108.543, 34.0083, 0.286304, 0, 0, -0.958139,  True, '2021-11-01 00:00:00'); /* Revenant */

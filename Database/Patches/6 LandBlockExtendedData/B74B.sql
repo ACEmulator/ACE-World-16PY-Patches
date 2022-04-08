@@ -21,7 +21,7 @@ VALUES (0x7B74B021,  7924, 0xB74B0016, 54.7642, 132.052, 9.982, 0.694885, 0, 0, 
 /* @teleloc 0xB74B0016 [54.764198 132.052002 9.982000] 0.694885 0.000000 0.000000 0.719120 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B74B021, 0x7B74B01D, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B74B021, 0x7B74B01E, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B74B021, 0x7B74B01F, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B74B021, 0x7B74B020, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */;
+VALUES (0x7B74B021, 0x7B74B01D, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B74B021, 0x7B74B01E, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B74B021, 0x7B74B01F, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B74B021, 0x7B74B020, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */;

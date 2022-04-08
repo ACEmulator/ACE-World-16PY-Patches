@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11516, 'tumerokheadrumspeaker_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11516, 'tumerokheadrumspeaker-xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11516,   1,         16) /* ItemType - Creature */
@@ -145,6 +145,10 @@ VALUES (11516,     7,  2.003)  /* Harm Other I */
      , (11516,  1157, 2.0004)  /* Heal Self II */
      , (11516,  1195,  2.003)  /* Enfeeble Other I */
      , (11516,  1219,  2.003)  /* Mana Drain Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11516,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11516, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (11516,  5 /* HeartBeat */,   0.04, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

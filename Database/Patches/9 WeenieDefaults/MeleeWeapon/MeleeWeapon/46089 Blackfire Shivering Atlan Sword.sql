@@ -29,7 +29,7 @@ VALUES (46089,   1,          1) /* ItemType - MeleeWeapon */
      , (46089, 158,          2) /* WieldRequirements - RawSkill */
      , (46089, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (46089, 160,        370) /* WieldDifficulty */
-     , (46089, 263,          8) /* ResistanceModifierType */;
+     , (46089, 263,          8) /* ResistanceModifierType - Cold */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46089,  11, True ) /* IgnoreCollisions */

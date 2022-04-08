@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11875;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11875, 'tumerokbannerfalcon', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11875, 'tumerokbannerfalcon', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11875,   1,         16) /* ItemType - Creature */
@@ -112,6 +112,10 @@ VALUES (11875,  0,  4,  0,    0,   20,   20,   20,   20,   20,   20,   20,   20,
      , (11875,  6,  4,  0,    0,   40,   40,   40,   40,   40,   40,   40,   40,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (11875,  7,  4,  0,    0,   40,   40,   40,   40,   40,   40,   40,   40,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11875,  8,  4,  5, 0.75,   20,   20,   20,   20,   20,   20,   20,   20,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11875,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11875, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11875, 9, 11737,  0, 0, 0.05, False) /* Create Falcon Banner (11737) for ContainTreasure */

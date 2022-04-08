@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10802;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10802, 'riftunstable', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (10802, 'riftunstable', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10802,   1,         16) /* ItemType - Creature */
@@ -121,6 +121,10 @@ VALUES (10802,    79,  2.115)  /* Lightning Bolt V */
      , (10802,  1093,  2.115)  /* Fire Protection Self V */
      , (10802,  1113,  2.115)  /* Blade Protection Self V */
      , (10802,  1137,  2.115)  /* Piercing Protection Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10802,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10802, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10802, 0.5, 10808, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.819152, 0, 0, -0.573577) /* Generate Augmented Tumerok (10808) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */

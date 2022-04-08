@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25969;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25969, 'zharalimtiyolibnyufaj', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25969, 'zharalimtiyolibnyufaj', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25969,   1,         16) /* ItemType - Creature */
@@ -121,6 +121,10 @@ VALUES (25969,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25969,  1161,   2.05)  /* Heal Self VI */
      , (25969,  1666,   2.05)  /* Stamina to Health Self III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25969,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25969, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25969,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

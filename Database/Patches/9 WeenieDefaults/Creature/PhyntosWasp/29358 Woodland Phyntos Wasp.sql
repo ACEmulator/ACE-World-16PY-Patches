@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29358;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29358, 'phyntoswaspwoodland', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (29358, 'phyntoswaspwoodland', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29358,   1,         16) /* ItemType - Creature */
@@ -109,6 +109,9 @@ VALUES (29358,    73,   2.15)  /* Frost Bolt V */
      , (29358,   137,   2.15)  /* Frost Volley V */
      , (29358,  1812,    2.1)  /* Frost Streak V */
      , (29358,  2729,    2.1)  /* Frost Arc V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29358, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29358, 9,  6876,  1, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

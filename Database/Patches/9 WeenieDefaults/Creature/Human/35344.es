@@ -1,3 +1,15 @@
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
+    - Motion: Twitch1
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
+    - Motion: Twitch2
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch3
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.2
+    - Motion: Twitch4
+    
 Refuse: 35565
     - TurnToTarget
     - Tell: Interesting. Give this to Ennio di Cinghalle. He's heading up that portion of the investigation... Queen's orders..
@@ -15,7 +27,6 @@ Give: 87338
     - Give: 35345
     - EraseQuest: AerbaxsProdigalBanderling_Start
     - EraseQuest: HarraagsLairFlag
-    - EraseQuest: StolenArtifacts_TurnIn
     - StampQuest: AerbaxsProdigalBanderling_Wait
     - StampQuest: GuardWinterbornFlag
     - Delay: 1, Tell: If you have no need for the Dagger, give it back to me and I can send it along with the information you have brought me, for further study into this situation.
@@ -44,4 +55,3 @@ Use:
                             - StampQuest: AerbaxsProdigalBanderling_Start
         TestFailure:
             - Tell: Greetings Citizen. I am here researching several strange sightings that have been reported in this area. Perhaps, when you are a bit more experienced, I may have a task for you.
-

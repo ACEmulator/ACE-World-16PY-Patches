@@ -25,11 +25,11 @@ VALUES (0x77F8F005,  3955, 0x7F8F0111, 147.991, 100.049, 120.955, 0.108522, 0, 0
 /* @teleloc 0x7F8F0111 [147.990997 100.049004 120.955002] 0.108522 0.000000 0.000000 -0.994094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F8F005, 0x77F8F001, '2005-02-09 10:00:00') /* Undead (16) */
-     , (0x77F8F005, 0x77F8F002, '2005-02-09 10:00:00') /* Undead (16) */
-     , (0x77F8F005, 0x77F8F003, '2005-02-09 10:00:00') /* Undead (16) */
-     , (0x77F8F005, 0x77F8F004, '2005-02-09 10:00:00') /* Undead (16) */
-     , (0x77F8F005, 0x77F8F006, '2005-02-09 10:00:00') /* Devana bint Hamudi (6026) */;
+VALUES (0x77F8F005, 0x77F8F001, '2021-11-01 00:00:00') /* Undead (16) */
+     , (0x77F8F005, 0x77F8F002, '2021-11-01 00:00:00') /* Undead (16) */
+     , (0x77F8F005, 0x77F8F003, '2021-11-01 00:00:00') /* Undead (16) */
+     , (0x77F8F005, 0x77F8F004, '2021-11-01 00:00:00') /* Undead (16) */
+     , (0x77F8F005, 0x77F8F006, '2021-11-01 00:00:00') /* Devana bint Hamudi (6026) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F8F006,  6026, 0x7F8F0000, 168.131, 110.708, 124.005, -0.99993, 0, 0, -0.011845,  True, '2021-11-01 00:00:00'); /* Devana bint Hamudi */
@@ -48,7 +48,7 @@ VALUES (0x77F8F009,  7923, 0x7F8F011D, 156.928, 183.993, 124.005, 0.992983, 0, 0
 /* @teleloc 0x7F8F011D [156.927994 183.992996 124.004997] 0.992983 0.000000 0.000000 -0.118259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F8F009, 0x77F8F008, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
+VALUES (0x77F8F009, 0x77F8F008, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F8F00C, 12242, 0x7F8F011D, 155.131, 186.193, 124.005, -0.456736, 0, 0, -0.889602, False, '2021-11-01 00:00:00'); /* Jordan's Apprentice Craftsman */
@@ -63,7 +63,7 @@ VALUES (0x77F8F00E,  7923, 0x7F8F011D, 155.711, 182.223, 124.005, -0.888656, 0, 
 /* @teleloc 0x7F8F011D [155.710999 182.223007 124.004997] -0.888656 0.000000 0.000000 -0.458575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F8F00E, 0x77F8F00D, '2005-02-09 10:00:00') /* Jordan Ibn'Ikia (12239) */;
+VALUES (0x77F8F00E, 0x77F8F00D, '2021-11-01 00:00:00') /* Jordan Ibn'Ikia (12239) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F8F00F, 12304, 0x7F8F0000, 162.803, 171.15, 124.005, -0.712141, 0, 0, -0.702036, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */

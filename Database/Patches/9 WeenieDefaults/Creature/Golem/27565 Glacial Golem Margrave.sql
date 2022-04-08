@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27565;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27565, 'golemglacialmargravehunted', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (27565, 'golemglacialmargravehunted', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27565,   1,         16) /* ItemType - Creature */
@@ -125,6 +125,10 @@ VALUES (27565,    67,   2.02)  /* Shock Wave IV */
      , (27565,  1063,   2.02)  /* Cold Vulnerability Other IV */
      , (27565,  1159,   2.02)  /* Heal Self IV */
      , (27565,  1325,   2.02)  /* Imperil Other IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (27565,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (27565, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27565,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

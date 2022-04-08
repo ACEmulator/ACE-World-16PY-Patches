@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32396;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32396, 'ace32396-captainnyino', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32396, 'ace32396-captainnyino', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32396,   1,         16) /* ItemType - Creature */
@@ -138,7 +138,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'Captive80GWI1205', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'We know of three Viamont Portal Platforms in the woods outside of town. I want you to investigate the South Portal Platform and if possible put it out of commission. Do whatever it takes to prevent the Viamonts from reinforcing their foothold in Glenden Woods.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'We know of three Viamont Portal Platforms in the woods outside of town. I want you to investigate the North East Portal Platform and if possible put it out of commission. Do whatever it takes to prevent the Viamonts from reinforcing their foothold in Glenden Woods.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I wouldn''t advise going on this mission alone though. Find others skilled soldiers to accompany you. Have them talk to me before you leave so I know who is in the field. When you''re done report back to me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'You can find the Portal Platform at 32.3N 29.5E', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -159,13 +159,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I''m sorry, you must be more experienced before you can help me with the Viamontian threat. If you wish to help, Londigul, the Armorer, may have a task for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32396, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
-     , (32396, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
-     , (32396, 2, 21153,  0, 21, 0, False) /* Create Covenant Gauntlets (21153) for Wield */
-     , (32396, 2, 21150,  0, 21, 0, False) /* Create Covenant Sollerets (21150) for Wield */
-     , (32396, 2, 21154,  0, 21, 0, False) /* Create Covenant Girth (21154) for Wield */
-     , (32396, 2, 21152,  0, 21, 0, False) /* Create Covenant Breastplate (21152) for Wield */
-     , (32396, 2, 21157,  0, 21, 0, False) /* Create Covenant Pauldrons (21157) for Wield */
-     , (32396, 2, 21151,  0, 21, 0, False) /* Create Covenant Bracers (21151) for Wield */
-     , (32396, 2, 21159,  0, 21, 0, False) /* Create Covenant Tassets (21159) for Wield */
-     , (32396, 2, 21155,  0, 21, 0, False) /* Create Covenant Greaves (21155) for Wield */;
+VALUES (32396, 2,   130,  0, 14, 1, False) /* Create Shirt (130) for Wield */
+     , (32396, 2,   127,  0, 14, 1, False) /* Create Pants (127) for Wield */
+     , (32396, 2, 21153,  0, 86, 0, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (32396, 2, 21150,  0, 86, 0, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (32396, 2, 21154,  0, 86, 0, False) /* Create Covenant Girth (21154) for Wield */
+     , (32396, 2, 21152,  0, 86, 0, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (32396, 2, 21157,  0, 86, 0, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (32396, 2, 21151,  0, 86, 0, False) /* Create Covenant Bracers (21151) for Wield */
+     , (32396, 2, 21159,  0, 86, 0, False) /* Create Covenant Tassets (21159) for Wield */
+     , (32396, 2, 21155,  0, 86, 0, False) /* Create Covenant Greaves (21155) for Wield */;

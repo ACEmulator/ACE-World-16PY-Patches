@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6012;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6012, 'tumerokhighpriestarchernofall', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (6012, 'tumerokhighpriestarchernofall', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6012,   1,         16) /* ItemType - Creature */
@@ -156,6 +156,10 @@ VALUES (6012,    62,   2.04)  /* Acid Stream V */
      , (6012,  1175,  2.023)  /* Harm Other V */
      , (6012,  1199,  2.023)  /* Enfeeble Other V */
      , (6012,  1223,  2.023)  /* Mana Drain Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (6012,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (6012, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6012, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */

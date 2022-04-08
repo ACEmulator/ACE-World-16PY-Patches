@@ -20,7 +20,7 @@ Use:
             - Give: 20630, 9
             - AddCharacterTitle: 778
             - DirectBroadcast: You have been awarded the title of "Liberator of Uziz".
-			- InqQuestBitsOn: LegendaryQuestsA, 0x80000 
-				QuestFailure:
-					- SetQuestBitsOn: LegendaryQuestsA, 0x80000 
-					- StampQuest: LegendaryQuestCounter_0913			
+            - InqQuestBitsOn: LegendaryQuestsA, 0x80000 
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsA, 0x80000 
+                    - StampQuest: LegendaryQuestCounter_0913

@@ -89,9 +89,9 @@ VALUES (0x7BA1701A,  7923, 0xBA17013C, 36.9372, 177.072, 82.005, 0.89344, 0, 0, 
 /* @teleloc 0xBA17013C [36.937199 177.072006 82.004997] 0.893440 0.000000 0.000000 -0.449183 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA1701A, 0x7BA17019, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x7BA1701A, 0x7BA1702E, '2005-02-09 10:00:00') /* Miko Li, Jojii Adherent (25827) */
-     , (0x7BA1701A, 0x7BA17032, '2005-02-09 10:00:00') /* Journeyman Alchemist (28919) */;
+VALUES (0x7BA1701A, 0x7BA17019, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7BA1701A, 0x7BA1702E, '2021-11-01 00:00:00') /* Miko Li, Jojii Adherent (25827) */
+     , (0x7BA1701A, 0x7BA17032, '2021-11-01 00:00:00') /* Journeyman Alchemist (28919) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA1701B, 12304, 0xBA170000, 28.7045, 184.06, 82.005, -0.698498, 0, 0, 0.715612, False, '2021-11-01 00:00:00'); /* Agent of the Arcanum  */

@@ -11,21 +11,21 @@ Use:
             - DirectBroadcast: The corrupted amber crystal burns when you touch it.
 
 GotoSet: chooseReward, Probability: 0.1
-		- Give: 52969, 1
+        - Give: 52969, 1
         - DeleteSelf
 
 GotoSet: chooseReward, Probability: 0.30
-		- Give: 52969, 2
+        - Give: 52969, 2
         - DeleteSelf
-		
+        
 GotoSet: chooseReward, Probability: 0.60
-		- Give: 52969, 3
+        - Give: 52969, 3
         - DeleteSelf
-		
+        
 GotoSet: chooseReward, Probability: 0.90
-		- Give: 52969, 4
+        - Give: 52969, 4
         - DeleteSelf
-		
+        
 GotoSet: chooseReward, Probability: 1.0
-		- Give: 52969, 5
+        - Give: 52969, 5
         - DeleteSelf

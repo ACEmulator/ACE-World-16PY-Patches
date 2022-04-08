@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7423;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7423, 'zombielichlordnofall', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7423, 'zombielichlordnofall', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7423,   1,         16) /* ItemType - Creature */
@@ -174,6 +174,10 @@ VALUES (7423,    61,  2.013)  /* Acid Stream IV */
      , (7423,  1418,  2.009)  /* Slowness Other IV */
      , (7423,  1442,  2.009)  /* Bafflement Other IV */
      , (7423,  1466,  2.009)  /* Feeblemind Other IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7423,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7423, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7423, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */

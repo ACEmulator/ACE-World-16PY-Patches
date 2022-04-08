@@ -37,9 +37,9 @@ VALUES (0x73F31011,  7923, 0x3F310104, 35.5471, 108.16, -0.295, 0.697279, 0, 0, 
 /* @teleloc 0x3F310104 [35.547100 108.160004 -0.295000] 0.697279 0.000000 0.000000 0.716800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F31011, 0x73F3100E, '2005-02-09 10:00:00') /* Caelis Renning (24212) */
-     , (0x73F31011, 0x73F3100F, '2005-02-09 10:00:00') /* Aun Teverea (24214) */
-     , (0x73F31011, 0x73F31010, '2005-02-09 10:00:00') /* Kreavon (24213) */;
+VALUES (0x73F31011, 0x73F3100E, '2021-11-01 00:00:00') /* Caelis Renning (24212) */
+     , (0x73F31011, 0x73F3100F, '2021-11-01 00:00:00') /* Aun Teverea (24214) */
+     , (0x73F31011, 0x73F31010, '2021-11-01 00:00:00') /* Kreavon (24213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F31012, 24221, 0x3F310000, 67.2259, 182.241, 1.18674, 0.178722, 0, 0, -0.9839, False, '2021-11-01 00:00:00'); /* Wai Jhou */

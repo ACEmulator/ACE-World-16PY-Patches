@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48875;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48875, 'ace48875-mysterioushatch', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (48875, 'ace48875-mysterioushatch', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48875,   1,         16) /* ItemType - Creature */
@@ -31,10 +31,6 @@ VALUES (48875,   1, 0x02000BE6) /* Setup */
      , (48875,   3, 0x20000023) /* SoundTable */
      , (48875,   8, 0x060023D4) /* Icon */
      , (48875,  22, 0x34000005) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48875, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (48875,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

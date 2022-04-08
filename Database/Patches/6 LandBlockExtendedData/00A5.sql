@@ -5,7 +5,7 @@ VALUES (0x700A5000,  4219, 0x00A50237, 84.8601, -6.1049, 6.055, 0.704618, 0, 0, 
 /* @teleloc 0x00A50237 [84.860100 -6.104900 6.055000] 0.704618 0.000000 0.000000 0.709587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A5000, 0x700A5001, '2020-11-26 19:06:45') /* Hea Rheaga (87075) */;
+VALUES (0x700A5000, 0x700A5001, '2021-11-01 00:00:00') /* Hea Rheaga (87075) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A5001, 87075, 0x00A50238, 89.51, 2.3436, 6.0065, -0.002245, 0, 0, 0.999997,  True, '2021-11-01 00:00:00'); /* Hea Rheaga */
@@ -16,7 +16,7 @@ VALUES (0x700A5002,  5085, 0x00A50238, 86.2879, -2.64222, 6.055, 0.726163, 0, 0,
 /* @teleloc 0x00A50238 [86.287903 -2.642220 6.055000] 0.726163 0.000000 0.000000 0.687523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A5002, 0x700A5003, '2020-11-26 19:26:12') /* Letter to Nomea (87076) */;
+VALUES (0x700A5002, 0x700A5003, '2021-11-01 00:00:00') /* Letter to Nomea (87076) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A5003, 87076, 0x00A50238, 88.5555, 1.23338, 6.079, 0.993002, 0, 0, -0.118097,  True, '2021-11-01 00:00:00'); /* Letter to Nomea */
@@ -31,33 +31,33 @@ VALUES (0x700A5005,  7925, 0x00A50107, 106.222, -387.086, -59.945, 1, 0, 0, 0, F
 /* @teleloc 0x00A50107 [106.222000 -387.085999 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A5005, 0x700A5006, '2020-11-26 20:08:05') /* Pandemonium Shadow (22910) */
-     , (0x700A5005, 0x700A5007, '2020-11-26 20:08:26') /* Pandemonium Shadow (22910) */
-     , (0x700A5005, 0x700A5008, '2020-11-26 20:08:32') /* Pandemonium Shadow (22910) */
-     , (0x700A5005, 0x700A500B, '2020-11-26 20:09:15') /* Paroxysm Shadow (22911) */
-     , (0x700A5005, 0x700A500C, '2020-11-26 20:09:50') /* Paroxysm Shadow (22911) */
-     , (0x700A5005, 0x700A500D, '2020-11-26 20:10:09') /* Virindi Executor (10818) */
-     , (0x700A5005, 0x700A500F, '2020-11-26 20:10:39') /* Telumiat Hollow Minion (23555) */
-     , (0x700A5005, 0x700A5010, '2020-11-26 20:10:44') /* Telumiat Hollow Minion (23555) */
-     , (0x700A5005, 0x700A5011, '2020-11-26 20:13:04') /* Pandemonium Shadow (22910) */
-     , (0x700A5005, 0x700A5012, '2020-11-26 20:13:12') /* Paroxysm Shadow (22911) */
-     , (0x700A5005, 0x700A5015, '2020-11-26 20:15:51') /* Telumiat Hollow Minion (23555) */
-     , (0x700A5005, 0x700A5016, '2020-11-26 20:28:40') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A5017, '2020-11-26 20:28:53') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A5018, '2020-11-26 20:28:59') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A5019, '2020-11-26 20:29:05') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A501A, '2020-11-26 20:29:12') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A501B, '2020-11-26 20:29:20') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A501C, '2020-11-26 20:29:24') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A501D, '2020-11-26 20:29:32') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A501E, '2020-11-26 20:29:39') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A501F, '2020-11-26 20:29:47') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A5020, '2020-11-26 20:29:51') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A5021, '2020-11-26 20:30:01') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A5022, '2020-11-26 20:30:17') /* Rheaga's Companion (87078) */
-     , (0x700A5005, 0x700A5025, '2020-11-26 20:38:02') /* Virindi Profatrix (22054) */
-     , (0x700A5005, 0x700A5026, '2020-11-26 20:38:23') /* Virindi Profatrix (22054) */
-     , (0x700A5005, 0x700A5027, '2020-11-26 20:39:44') /* Paroxysm Shadow (22911) */;
+VALUES (0x700A5005, 0x700A5006, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x700A5005, 0x700A5007, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x700A5005, 0x700A5008, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x700A5005, 0x700A500B, '2021-11-01 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x700A5005, 0x700A500C, '2021-11-01 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x700A5005, 0x700A500D, '2021-11-01 00:00:00') /* Virindi Executor (10818) */
+     , (0x700A5005, 0x700A500F, '2021-11-01 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700A5005, 0x700A5010, '2021-11-01 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700A5005, 0x700A5011, '2021-11-01 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x700A5005, 0x700A5012, '2021-11-01 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x700A5005, 0x700A5015, '2021-11-01 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700A5005, 0x700A5016, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A5017, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A5018, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A5019, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A501A, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A501B, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A501C, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A501D, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A501E, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A501F, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A5020, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A5021, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A5022, '2021-11-01 00:00:00') /* Rheaga's Companion (87078) */
+     , (0x700A5005, 0x700A5025, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x700A5005, 0x700A5026, '2021-11-01 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x700A5005, 0x700A5027, '2021-11-01 00:00:00') /* Paroxysm Shadow (22911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A5006, 22910, 0x00A50158, 109.925, -334.482, -53.9935, 0.072201, 0, 0, 0.99739,  True, '2021-11-01 00:00:00'); /* Pandemonium Shadow */

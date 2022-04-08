@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10906;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10906, 'boygrubinfestedpraetorian_nofall_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (10906, 'boygrubinfestedpraetorian-nofall-xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10906,   1,         16) /* ItemType - Creature */
@@ -102,6 +102,10 @@ VALUES (10906,  0,  4,  5,    0,  240,  166,  192,  144,  166,  166,  115,   74,
      , (10906, 19,  2, 40, 0.75,  250,  173,  200,  150,  173,  173,  120,   78,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
      , (10906, 20,  1, 40, 0.75,  250,  173,  200,  150,  173,  173,  120,   78,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
      , (10906, 22, 32,  9,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10906,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10906, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10906,  5 /* HeartBeat */,   0.15, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

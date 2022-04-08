@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51888;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51888, 'ace51888-thebringeroflight', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (51888, 'ace51888-thebringeroflight', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51888,   1,         16) /* ItemType - Creature */
@@ -35,10 +35,6 @@ VALUES (51888,   1, 0x02001A8A) /* Setup */
      , (51888,   6, 0x040009B2) /* PaletteBase */
      , (51888,   7, 0x100007AF) /* ClothingBase */
      , (51888,   8, 0x06001227) /* Icon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51888, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (51888,   1, 600, 0, 0) /* Strength */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71381;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71381, 'ace71381-ancientincendiaryguardian', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (71381, 'ace71381-ancientincendiaryguardian', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71381,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,6 @@ VALUES (71381,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71381,   1, True ) /* Stuck */
      , (71381,   6, True ) /* AiUsesMana */
-     , (71381,  10, True ) /* AttackerAi */
      , (71381,  11, False) /* IgnoreCollisions */
      , (71381,  12, True ) /* ReportCollisions */
      , (71381,  13, False) /* Ethereal */;
@@ -39,7 +38,6 @@ VALUES (71381,   1,       5) /* HeartbeatInterval */
      , (71381,  17,       1) /* ArmorModVsFire */
      , (71381,  18,    0.67) /* ArmorModVsAcid */
      , (71381,  19,       1) /* ArmorModVsElectric */
-     , (71381,  27,    5.01) /* RotationSpeed */
      , (71381,  31,      16) /* VisualAwarenessRange */
      , (71381,  34,       1) /* PowerupTime */
      , (71381,  36,       1) /* ChargeSpeed */

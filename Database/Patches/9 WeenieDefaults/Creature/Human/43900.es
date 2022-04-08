@@ -102,4 +102,3 @@ Use:
     - Delay: 1, Tell: Ancient Mhoire Coin = 1 Promissory Notes
     - Delay: 1, Tell: A'nekshay Token = 1/2 Promissory Note (minimum turn in: 2)
     - Delay: 1, Tell: I will accept either 1 or 10 currencies per exchange. 2 or 20 currencies in the case of A'nekshay Tokens.
-    

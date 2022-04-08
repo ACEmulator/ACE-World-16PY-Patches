@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29309;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29309, 'knathdynra', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (29309, 'knathdynra', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29309,   1,         16) /* ItemType - Creature */
@@ -25,9 +25,7 @@ VALUES (29309,   1, True ) /* Stuck */
      , (29309,  13, False) /* Ethereal */
      , (29309,  14, True ) /* GravityStatus */
      , (29309,  19, True ) /* Attackable */
-     , (29309,  50, True ) /* NeverFailCasting */
-     , (29309, 101, True ) /* CanGenerateRare */
-     , (29309, 102, True ) /* CorpseGeneratedRare */;
+     , (29309,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29309,   1,       5) /* HeartbeatInterval */
@@ -121,6 +119,10 @@ VALUES (29309,   149,   2.08)  /* Force Volley V */
      , (29309,  2729,   2.08)  /* Frost Arc V */
      , (29309,  2736,   2.07)  /* Lightning Arc V */
      , (29309,  2757,   2.07)  /* Blade Arc V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29309,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29309, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29309,  5 /* HeartBeat */,  0.095, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35630;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35630, 'ace35630-sickleofazaxis', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35630, 'ace35630-sickleofazaxis', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35630,   1,          1) /* ItemType - MeleeWeapon */
@@ -29,7 +29,7 @@ VALUES (35630,   1,          1) /* ItemType - MeleeWeapon */
      , (35630, 158,          2) /* WieldRequirements - RawSkill */
      , (35630, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (35630, 160,        250) /* WieldDifficulty */
-     , (35630, 263,          1) /* ResistanceModifierType */
+     , (35630, 263,          1) /* ResistanceModifierType - Slash */
      , (35630, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,7 +43,7 @@ VALUES (35630,   5,  -0.033) /* ManaRate */
      , (35630,  62,     1.1) /* WeaponOffense */
      , (35630,  63,       1) /* DamageMod */
      , (35630,  77,       1) /* PhysicsScriptIntensity */
-     , (35630, 136,       1) /* CriticalMultiplier */
+     , (35630, 136,     2.5) /* CriticalMultiplier */
      , (35630, 147,    0.25) /* CriticalFrequency */
      , (35630, 157,       1) /* ResistanceModifier */;
 

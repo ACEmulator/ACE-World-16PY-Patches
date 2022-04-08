@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14518;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14518, 'frostelementalshivver', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (14518, 'frostelementalshivver', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14518,   1,         16) /* ItemType - Creature */
@@ -122,3 +122,7 @@ VALUES (14518,    71,  2.138)  /* Frost Bolt III */
      , (14518,  1239,  2.008)  /* Drain Health Other III */
      , (14518,  1324,  2.017)  /* Imperil Other III */
      , (14518,  1810,  2.004)  /* Frost Streak III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14518,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14518, 414) /* PLAYER_DEATH_EVENT */;

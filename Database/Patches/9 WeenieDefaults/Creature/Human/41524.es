@@ -214,4 +214,3 @@ Give: Ciandra's Fortune (29266)
 Use:
     - TurnToTarget
     - Delay: 1, Tell: You can improve the accuracy of your projectile attacks through the understanding of air, I can teach you this. Give me a blank augmentation gem and I'll prepare the gem with this knowledge for you.
-

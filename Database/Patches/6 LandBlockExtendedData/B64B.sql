@@ -33,13 +33,13 @@ VALUES (0x7B64B041,  7924, 0xB64B003E, 174.56, 139.003, 9.982, 0.760034, 0, 0, 0
 /* @teleloc 0xB64B003E [174.559998 139.003006 9.982000] 0.760034 0.000000 0.000000 0.649883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64B041, 0x7B64B037, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64B041, 0x7B64B038, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64B041, 0x7B64B03A, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64B041, 0x7B64B03B, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64B041, 0x7B64B03E, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64B041, 0x7B64B03F, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */
-     , (0x7B64B041, 0x7B64B040, '2020-07-20 00:00:00') /* Sath'tik Eyestalk (53375) */;
+VALUES (0x7B64B041, 0x7B64B037, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64B041, 0x7B64B038, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64B041, 0x7B64B03A, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64B041, 0x7B64B03B, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64B041, 0x7B64B03E, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64B041, 0x7B64B03F, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64B041, 0x7B64B040, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64B042, 53112, 0xB64B0030, 126.047, 172.471, 116.155, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Ancient Statue of the Viridian Rise */

@@ -20,4 +20,10 @@ Refuse: 48876
     - AwardNoShareXP: 700,000,000
     - AwardLuminance: 100,000
     - Give: Trade Note (250,000) (20630), 45
-    - TeleportTarget: 0x654D04C9 [90.000000 -20.000000 0.010000] 0.923880 0.000000 0.000000 -0.382683
+    - InqQuestBitsOn: LegendaryQuestsA, 0x1
+        QuestSuccess:
+            - TeleportTarget: 0x654D04C9 [90.000000 -20.000000 0.010000] 0.923880 0.000000 0.000000 -0.382683
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x1
+            - StampQuest: LegendaryQuestCounter_0913
+            - TeleportTarget: 0x654D04C9 [90.000000 -20.000000 0.010000] 0.923880 0.000000 0.000000 -0.382683

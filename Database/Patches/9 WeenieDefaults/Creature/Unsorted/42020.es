@@ -46,5 +46,3 @@ GotoSet: CheckStatus
                             - Tell: As you touch the flames they will crystallize and you may gather them.
                             - StampQuest: mhoireSEgotsword
                             - Give: 42019
-            
-        

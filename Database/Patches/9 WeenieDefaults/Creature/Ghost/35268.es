@@ -30,4 +30,3 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.472
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.032
     - Say: The Sorceror Lord has appeared! We are doomed!
-

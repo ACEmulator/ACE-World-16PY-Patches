@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47190;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47190, 'ace47190-ordersforzrikux', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (47190, 'ace47190-ordersforzrikux', 8, '2021-12-14 05:15:31') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47190,   1,       8192) /* ItemType - Writable */
@@ -29,3 +29,6 @@ VALUES (47190,   1, 0x0200105C) /* Setup */
      , (47190,   3, 0x20000014) /* SoundTable */
      , (47190,   8, 0x06002D1F) /* Icon */
      , (47190,  22, 0x3400002B) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (47190, 0, 1000);

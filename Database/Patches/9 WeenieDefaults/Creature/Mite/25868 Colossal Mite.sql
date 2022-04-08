@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25868;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25868, 'mitecolossal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25868, 'mitecolossal', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25868,   1,         16) /* ItemType - Creature */
@@ -107,6 +107,10 @@ VALUES (25868,  0,  4,  0,    0,  500,  325,  375,  375,  500,  500,  500,  500,
      , (25868,  6,  4,  0,    0,  500,  325,  375,  375,  500,  500,  500,  500,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (25868,  7,  4,  0,    0,  500,  325,  375,  375,  500,  500,  500,  500,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (25868,  8,  4, 220, 0.75,  500,  325,  375,  375,  500,  500,  500,  500,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25868,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25868, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25868, 9, 25899,  1, 0, 1, False) /* Create Mite Leg Bone (25899) for ContainTreasure */

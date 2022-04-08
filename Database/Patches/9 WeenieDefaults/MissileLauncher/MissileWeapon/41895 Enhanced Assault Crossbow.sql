@@ -29,7 +29,7 @@ VALUES (41895,   1,        256) /* ItemType - MissileWeapon */
      , (41895, 159,         47) /* WieldSkillType - MissileWeapons */
      , (41895, 160,        360) /* WieldDifficulty */
      , (41895, 166,          6) /* SlayerCreatureType - Tumerok */
-     , (41895, 263,          2) /* ResistanceModifierType */
+     , (41895, 263,          2) /* ResistanceModifierType - Pierce */
      , (41895, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

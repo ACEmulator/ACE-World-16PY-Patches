@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7397;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7397, 'revenantsylsfear', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7397, 'revenantsylsfear', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7397,   1,         16) /* ItemType - Creature */
@@ -156,6 +156,10 @@ VALUES (7397,    62,  2.028)  /* Acid Stream V */
      , (7397,  1419,  2.013)  /* Slowness Other V */
      , (7397,  1443,  2.013)  /* Bafflement Other V */
      , (7397,  1467,  2.013)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7397,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7397, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7397, 8,  7398,  0, 0, 1, False) /* Create Laboratory Key (7398) for Treasure */

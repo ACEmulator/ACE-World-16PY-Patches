@@ -17,9 +17,9 @@ VALUES (0x7AD7D003,  3955, 0xAD7D0000, 37.858, 62.979, 52.7584, 0.997473, 0, 0, 
 /* @teleloc 0xAD7D0000 [37.858002 62.979000 52.758400] 0.997473 0.000000 0.000000 0.071046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD7D003, 0x7AD7D000, '2005-02-09 10:00:00') /* Kayna bint Iswas (6770) */
-     , (0x7AD7D003, 0x7AD7D001, '2005-02-09 10:00:00') /* Copper Golem (194) */
-     , (0x7AD7D003, 0x7AD7D002, '2005-02-09 10:00:00') /* Copper Golem (194) */;
+VALUES (0x7AD7D003, 0x7AD7D000, '2021-11-01 00:00:00') /* Kayna bint Iswas (6770) */
+     , (0x7AD7D003, 0x7AD7D001, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x7AD7D003, 0x7AD7D002, '2021-11-01 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD7D004,   143, 0xAD7D011B, 34.5244, 92.9991, 52, 0.997609, 0, 0, 0.069115, False, '2021-11-01 00:00:00'); /* Chest */
@@ -42,7 +42,7 @@ VALUES (0x7AD7D6A5,  1154, 0xAD7D000C, 43.0853, 89.6065, 52, -0.962043, 0, 0, -0
 /* @teleloc 0xAD7D000C [43.085300 89.606499 52.000000] -0.962043 0.000000 0.000000 -0.272897 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD7D6A5, 0x7AD7D6A6, '2020-01-30 00:00:00') /* Exploration Marker (39777) */;
+VALUES (0x7AD7D6A5, 0x7AD7D6A6, '2021-11-01 00:00:00') /* Exploration Marker (39777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD7D6A6, 39777, 0xAD7D000C, 43.0853, 89.6065, 52, -0.962043, 0, 0, -0.272897,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10949, 'tumerokchampionkarenua_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (10949, 'tumerokchampionkarenua-xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10949,   1,         16) /* ItemType - Creature */
@@ -168,6 +168,10 @@ VALUES (10949,    63,  2.003)  /* Acid Stream VI */
      , (10949,  1401,  2.011)  /* Quickness Self V */
      , (10949,  1866,  2.015)  /* Devour All Magic Other */
      , (10949,  1876,      2)  /* Purge All Magic Self */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10949,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10949, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */

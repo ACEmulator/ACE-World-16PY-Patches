@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11897;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11897, 'tumerokhaftlow', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11897, 'tumerokhaftlow', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11897,   1,         16) /* ItemType - Creature */
@@ -164,6 +164,10 @@ VALUES (11897,    59,  2.013)  /* Acid Stream II */
      , (11897,  1157,  2.015)  /* Heal Self II */
      , (11897,  1172,  2.008)  /* Harm Other II */
      , (11897,  1196,  2.008)  /* Enfeeble Other II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11897,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11897, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11897, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25869;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25869, 'mitegiant', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25869, 'mitegiant', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25869,   1,         16) /* ItemType - Creature */
@@ -107,6 +107,10 @@ VALUES (25869,  0,  4,  0,    0,  475,  309,  356,  356,  475,  475,  475,  475,
      , (25869,  6,  4,  0,    0,  475,  309,  356,  356,  475,  475,  475,  475,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (25869,  7,  4,  0,    0,  475,  309,  356,  356,  475,  475,  475,  475,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (25869,  8,  4, 140, 0.75,  475,  309,  356,  356,  475,  475,  475,  475,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25869,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25869, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25869, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32226;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32226, 'ace32226-mistressgabillesnotes', 8, '2021-11-17 16:56:08') /* Book */;
+VALUES (32226, 'ace32226-mistressgabillesnotes', 8, '2021-12-14 05:15:31') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32226,   1,       8192) /* ItemType - Writable */
@@ -30,7 +30,7 @@ VALUES (32226,   1, 0x02000155) /* Setup */
      , (32226,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (32226, 0, 0);
+VALUES (32226, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (32226, 0, 0xFFFFFFFF, 'Mistress Gabille', 'prewritten', False, 'I encountered a Mukkir today. We broke through the tunnels into the remains of a Falatacot installation, one that the Mukkir had taken over for their own purposes. Most fled before us, but we managed to run one to ground in a dead-ended tunnel. One of our Eaters had managed to bite off one of its legs. With its movement hampered, it was easy for the following Knights in my service to bring it to bay and pin it down. The spectacle reminded me of my training in the Royal Conservatory in Corcosa, pinning still-living insects to a sampling board. Of course, those creatures never squealed the way that this Mukkir did when I subjected it to the battery of tests...')

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14799;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14799, 'energyclusterwalllicker', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (14799, 'energyclusterwalllicker', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14799,   1,         16) /* ItemType - Creature */
@@ -128,6 +128,10 @@ VALUES (14799,   175,  2.011)  /* Fester Other V */
      , (14799,  1419,  2.023)  /* Slowness Other V */
      , (14799,  1668,  2.032)  /* Stamina to Health Self V */
      , (14799,  1680,  2.032)  /* Stamina to Mana Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14799,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (14799, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14799,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

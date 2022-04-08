@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11542;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11542, 'hollowminionmartinate_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11542, 'hollowminionmartinate-xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11542,   1,         16) /* ItemType - Creature */
@@ -104,6 +104,10 @@ VALUES (11542,  0,  4,  0,    0,  300,  228,  228,  204,  252,  192,  228,  192,
      , (11542,  4,  4,  0,    0,  300,  228,  228,  204,  252,  192,  228,  192,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
      , (11542,  5,  4, 15, 0.75,  300,  228,  228,  204,  252,  192,  228,  192,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (11542, 17,  4,  0,    0,  300,  228,  228,  204,  252,  192,  228,  192,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11542,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11542, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (11542,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7369;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7369, 'darkmagusaerfalle', 10, '2021-11-07 08:12:46') /* Creature */;
+VALUES (7369, 'darkmagusaerfalle', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7369,   1,         16) /* ItemType - Creature */
@@ -161,6 +161,10 @@ VALUES (7369,    62,   2.04)  /* Acid Stream V */
      , (7369,  3082,   2.03)  /* Exposed Flesh */
      , (7369,  3083,   2.03)  /* Flesh of Flint */
      , (7369,  3084,   2.03)  /* Weaken Flesh */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7369,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7369, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7369,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

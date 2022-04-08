@@ -1,8 +1,8 @@
 Generation:
-	- LocalBroadcast: The Falatacot portal device hums ominously and disgorges an agitated looking Burun.
+    - LocalBroadcast: The Falatacot portal device hums ominously and disgorges an agitated looking Burun.
 
 Death:
-	- LocalBroadcast: The Burun Messenger squeals in pain. His cries echo through the temple.
+    - LocalBroadcast: The Burun Messenger squeals in pain. His cries echo through the temple.
     - Say: No! I must not fail my Mistress!, Extent: 20
 
 HeartBeat: Style: HandCombat, Substyle: Ready, Probability: 0.045
@@ -40,7 +40,7 @@ Taunt: Probability: 0.022
 
 WoundedTaunt: MinHealth: 0.75, MaxHealth: 0.8
     - Say: Guards! Guards! Intruders!, Extent: 20
-	- Generate
+    - Generate
 
 WoundedTaunt: MinHealth: 0.35, MaxHealth: 0.4
     - Generate

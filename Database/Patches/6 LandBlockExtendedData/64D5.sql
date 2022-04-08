@@ -93,14 +93,14 @@ VALUES (0x764D5020,  7923, 0x64D5012C, 55.5953, 34.8911, 78.005, 0.592512, 0, 0,
 /* @teleloc 0x64D5012C [55.595299 34.891102 78.004997] 0.592512 0.000000 0.000000 0.805561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D5020, 0x764D501F, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
-     , (0x764D5020, 0x764D5033, '2005-02-09 10:00:00') /* Olcris, Nuhmudira's Student (23997) */
-     , (0x764D5020, 0x764D503F, '2005-02-09 10:00:00') /* Cow (14) */
-     , (0x764D5020, 0x764D5040, '2005-02-09 10:00:00') /* Cow (14) */
-     , (0x764D5020, 0x764D5041, '2005-02-09 10:00:00') /* Cow (14) */
-     , (0x764D5020, 0x764D5042, '2005-02-09 10:00:00') /* Cow (14) */
-     , (0x764D5020, 0x764D5045, '2005-02-09 10:00:00') /* Suzuhara Baijin (30387) */
-     , (0x764D5020, 0x764D5046, '2005-02-09 10:00:00') /* Cyphis Suldow (30627) */;
+VALUES (0x764D5020, 0x764D501F, '2021-11-01 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x764D5020, 0x764D5033, '2021-11-01 00:00:00') /* Olcris, Nuhmudira's Student (23997) */
+     , (0x764D5020, 0x764D503F, '2021-11-01 00:00:00') /* Cow (14) */
+     , (0x764D5020, 0x764D5040, '2021-11-01 00:00:00') /* Cow (14) */
+     , (0x764D5020, 0x764D5041, '2021-11-01 00:00:00') /* Cow (14) */
+     , (0x764D5020, 0x764D5042, '2021-11-01 00:00:00') /* Cow (14) */
+     , (0x764D5020, 0x764D5045, '2021-11-01 00:00:00') /* Suzuhara Baijin (30387) */
+     , (0x764D5020, 0x764D5046, '2021-11-01 00:00:00') /* Cyphis Suldow (30627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D5021,   412, 0x64D50000, 61.6809, 41.6629, 78, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -203,7 +203,7 @@ VALUES (0x764D5044, 15759, 0x64D50109, 82.0115, 106.335, 81.005, 0.69225, 0, 0, 
 /* @teleloc 0x64D50109 [82.011497 106.334999 81.004997] 0.692250 0.000000 0.000000 -0.721658 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D5044, 0x764D5043, '2005-02-09 10:00:00') /* Barnar the Tinker's Note (28336) */;
+VALUES (0x764D5044, 0x764D5043, '2021-11-01 00:00:00') /* Barnar the Tinker's Note (28336) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D5045, 30387, 0x64D50000, 44.8777, 102.159, 78.005, -0.487097, 0, 0, -0.873348,  True, '2021-11-01 00:00:00'); /* Suzuhara Baijin */

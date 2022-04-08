@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24501;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24501, 'tumerokrenegadecommander2mage', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24501, 'tumerokrenegadecommander2mage', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24501,   1,         16) /* ItemType - Creature */
@@ -142,6 +142,10 @@ VALUES (24501,   234,  2.012)  /* Vulnerability Other VI */
      , (24501,  2143,  2.015)  /* Pummeling Storm */
      , (24501,  2144,  2.015)  /* Crushing Shame */
      , (24501,  2146,  2.015)  /* Evisceration */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24501,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24501, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24501, 2, 24569,  0, 0, 0, False) /* Create Renegade Crossbow (24569) for Wield */

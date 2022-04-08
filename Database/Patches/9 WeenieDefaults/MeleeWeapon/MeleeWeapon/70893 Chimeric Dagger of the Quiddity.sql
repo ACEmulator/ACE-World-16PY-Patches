@@ -27,7 +27,7 @@ VALUES (70893,   1,          1) /* ItemType - MeleeWeapon */
      , (70893, 158,          7) /* WieldRequirements - Level */
      , (70893, 159,          1) /* WieldSkillType - Axe */
      , (70893, 160,        120) /* WieldDifficulty */
-     , (70893, 263,          2) /* ResistanceModifierType */
+     , (70893, 263,          2) /* ResistanceModifierType - Pierce */
      , (70893, 267,      10800) /* Lifespan */
      , (70893, 353,          6) /* WeaponType - Dagger */;
 

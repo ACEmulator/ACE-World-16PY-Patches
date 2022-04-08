@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36237;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36237, 'ace36237-loshoenspack', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (36237, 'ace36237-loshoenspack', 10, '2022-03-31 06:02:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36237,   1,         16) /* ItemType - Creature */
+     , (36237,   3,         21) /* PaletteTemplate - Gold */
      , (36237,   6,         -1) /* ItemsCapacity */
      , (36237,   7,         -1) /* ContainersCapacity */
      , (36237,  16,         32) /* ItemUseable - Remote */
@@ -24,7 +25,8 @@ VALUES (36237,   1, True ) /* Stuck */
      , (36237,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36237,  54,       3) /* UseRadius */;
+VALUES (36237,  12,     0.5) /* Shade */
+     , (36237,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36237,   1, 'Lo Shoen''s Pack') /* Name */;
@@ -34,6 +36,7 @@ VALUES (36237,   1, 0x02000181) /* Setup */
      , (36237,   2, 0x0900019B) /* MotionTable */
      , (36237,   3, 0x20000014) /* SoundTable */
      , (36237,   6, 0x04000BEF) /* PaletteBase */
+     , (36237,   7, 0x10000179) /* ClothingBase */
      , (36237,   8, 0x06001A82) /* Icon */
      , (36237,  22, 0x3400002B) /* PhysicsEffectTable */;
 

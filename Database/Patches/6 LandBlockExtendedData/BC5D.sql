@@ -9,8 +9,8 @@ VALUES (0x7BC5D001, 15759, 0xBC5D0100, 14.3054, 111.575, -0.29, -0.004783, 0, 0,
 /* @teleloc 0xBC5D0100 [14.305400 111.574997 -0.290000] -0.004783 0.000000 0.000000 -0.999989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC5D001, 0x7BC5D002, '2020-06-12 13:35:15') /* Dark Falatacot Token of the Aura of Destruction (43436) */
-     , (0x7BC5D001, 0x7BC5D003, '2020-06-12 13:36:29') /* Dark Falatacot Token of the Aura of Specialization Mastery (43522) */;
+VALUES (0x7BC5D001, 0x7BC5D002, '2021-11-01 00:00:00') /* Dark Falatacot Token of the Aura of Destruction (43436) */
+     , (0x7BC5D001, 0x7BC5D003, '2021-11-01 00:00:00') /* Dark Falatacot Token of the Aura of Specialization Mastery (43522) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC5D002, 43436, 0xBC5D0100, 14.1081, 106.901, 0.6967, 0.705208, 0, 0, -0.709,  True, '2021-11-01 00:00:00'); /* Dark Falatacot Token of the Aura of Destruction */

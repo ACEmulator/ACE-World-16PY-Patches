@@ -5,19 +5,19 @@ VALUES (0x743F8000,  7924, 0x43F80012, 57.6488, 28.2933, 103.436, -0.112703, 0, 
 /* @teleloc 0x43F80012 [57.648800 28.293301 103.435997] -0.112703 0.000000 0.000000 0.993629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743F8000, 0x743F8001, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x743F8000, 0x743F8002, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x743F8000, 0x743F8003, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x743F8000, 0x743F8004, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x743F8000, 0x743F8005, '2019-02-15 14:34:36') /* Viamontian Lord (28656) */
-     , (0x743F8000, 0x743F8006, '2019-02-15 14:34:36') /* Viamontian Hand (28655) */
-     , (0x743F8000, 0x743F8007, '2019-02-15 14:34:36') /* Viamontian Hand (28655) */
-     , (0x743F8000, 0x743F8008, '2019-02-15 14:34:36') /* Viamontian Hand (28655) */
-     , (0x743F8000, 0x743F8009, '2019-02-15 14:34:36') /* Viamontian Hand (28655) */
-     , (0x743F8000, 0x743F800A, '2019-02-15 14:34:36') /* Royal Inquisitor (32295) */
-     , (0x743F8000, 0x743F800B, '2019-02-15 14:34:36') /* Royal Inquisitor (32295) */
-     , (0x743F8000, 0x743F800C, '2019-02-15 14:34:36') /* Royal Inquisitor (32295) */
-     , (0x743F8000, 0x743F800D, '2019-02-15 14:34:36') /* Royal Inquisitor (32295) */;
+VALUES (0x743F8000, 0x743F8001, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x743F8000, 0x743F8002, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x743F8000, 0x743F8003, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x743F8000, 0x743F8004, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x743F8000, 0x743F8005, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x743F8000, 0x743F8006, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x743F8000, 0x743F8007, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x743F8000, 0x743F8008, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x743F8000, 0x743F8009, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x743F8000, 0x743F800A, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x743F8000, 0x743F800B, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x743F8000, 0x743F800C, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x743F8000, 0x743F800D, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743F8001, 28656, 0x43F80009, 32.7556, 15.2768, 102.005, -0.648237, 0, 0, -0.761439,  True, '2021-11-01 00:00:00'); /* Viamontian Lord */

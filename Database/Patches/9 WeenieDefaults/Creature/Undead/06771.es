@@ -191,4 +191,3 @@ Use:
                 QuestFailure:
                     - TurnToTarget
                     - Tell: I have given you all I have to offer. Take the haft, seek the one at 1.7 S, 36.6 E.
-

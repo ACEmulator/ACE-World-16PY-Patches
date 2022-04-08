@@ -17,10 +17,10 @@ Use:
                                     - Give: 48746
                                     - Give: 48746
                                     - Give: 48746
-									- Give: 48746
-									- Give: 48746
-									- Give: 20630
-									- Give: 52968, 10
+                                    - Give: 48746
+                                    - Give: 48746
+                                    - Give: 20630
+                                    - Give: 52968, 10
                                     - StampQuest: KilltaskViridianWaspWait
                                     - EraseQuest: KilltaskViridianWasp
                                 QuestFailure:

@@ -1036,4 +1036,3 @@ GotoSet: pick_from_bag, Probability: 0.98630136
 GotoSet: pick_from_bag
     - Give: Glyph of Weapon Tinkering (37341)
     - Goto: final_text
-

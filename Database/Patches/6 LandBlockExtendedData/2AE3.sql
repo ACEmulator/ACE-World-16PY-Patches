@@ -5,17 +5,17 @@ VALUES (0x72AE3000,  7924, 0x2AE3000E, 27.4197, 132.29, 53.1225, 0.685966, 0, 0,
 /* @teleloc 0x2AE3000E [27.419701 132.289993 53.122501] 0.685966 0.000000 0.000000 -0.727633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AE3000, 0x72AE3004, '2021-11-01 16:16:26') /* Blue Phyntos Wasp (30441) */
-     , (0x72AE3000, 0x72AE3005, '2021-11-01 16:16:26') /* Water Golem (30440) */
-     , (0x72AE3000, 0x72AE3006, '2021-11-01 16:16:26') /* Blue Phyntos Wasp (30441) */
-     , (0x72AE3000, 0x72AE3007, '2021-11-01 16:16:26') /* Water Golem (30440) */
-     , (0x72AE3000, 0x72AE3008, '2021-11-01 16:16:26') /* Beacon (28702) */
-     , (0x72AE3000, 0x72AE3009, '2021-11-01 16:16:26') /* Blue Phyntos Wasp (30441) */
-     , (0x72AE3000, 0x72AE300A, '2021-11-01 16:16:26') /* Blue Phyntos Wasp (30441) */
-     , (0x72AE3000, 0x72AE300B, '2021-11-01 16:16:26') /* Water Golem (30440) */
-     , (0x72AE3000, 0x72AE300C, '2021-11-01 16:16:26') /* Water Golem (30440) */
-     , (0x72AE3000, 0x72AE300D, '2021-11-01 16:16:26') /* Water Golem (30440) */
-     , (0x72AE3000, 0x72AE300E, '2021-11-01 16:16:26') /* Water Golem (30440) */;
+VALUES (0x72AE3000, 0x72AE3004, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE3000, 0x72AE3005, '2021-11-01 00:00:00') /* Water Golem (30440) */
+     , (0x72AE3000, 0x72AE3006, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE3000, 0x72AE3007, '2021-11-01 00:00:00') /* Water Golem (30440) */
+     , (0x72AE3000, 0x72AE3008, '2021-11-01 00:00:00') /* Beacon (28702) */
+     , (0x72AE3000, 0x72AE3009, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE3000, 0x72AE300A, '2021-11-01 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE3000, 0x72AE300B, '2021-11-01 00:00:00') /* Water Golem (30440) */
+     , (0x72AE3000, 0x72AE300C, '2021-11-01 00:00:00') /* Water Golem (30440) */
+     , (0x72AE3000, 0x72AE300D, '2021-11-01 00:00:00') /* Water Golem (30440) */
+     , (0x72AE3000, 0x72AE300E, '2021-11-01 00:00:00') /* Water Golem (30440) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE3001, 30535, 0x2AE3000E, 36.3618, 131.723, 53.0545, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Beacon Tower Exit */

@@ -25,9 +25,9 @@ VALUES (0x700C9005,  7924, 0x00C9010C, 13.7583, -66.0633, -5.945, 1, 0, 0, 0, Fa
 /* @teleloc 0x00C9010C [13.758300 -66.063301 -5.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C9005, 0x700C9006, '2021-10-26 14:02:16') /* Air Stasis Resonator (87694) */
-     , (0x700C9005, 0x700C9007, '2021-10-26 14:03:30') /* Earth Stasis Resonator (87697) */
-     , (0x700C9005, 0x700C9008, '2021-10-26 14:04:34') /* Water Stasis Resonator (87700) */;
+VALUES (0x700C9005, 0x700C9006, '2021-11-08 06:01:47') /* Air Stasis Resonator (87694) */
+     , (0x700C9005, 0x700C9007, '2021-11-08 06:01:47') /* Earth Stasis Resonator (87697) */
+     , (0x700C9005, 0x700C9008, '2021-11-08 06:01:47') /* Water Stasis Resonator (87700) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C9006, 87694, 0x00C90108, 10.2283, -29.6867, -6, 1, 0, 0, 0,  True, '2021-11-08 06:01:47'); /* Air Stasis Resonator */

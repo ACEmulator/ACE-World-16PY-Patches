@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22510;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22510, 'humantuskerkinmage', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (22510, 'humantuskerkinmage', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22510,   1,         16) /* ItemType - Creature */
@@ -137,3 +137,7 @@ VALUES (22510,    24,      2)  /* Armor Self I */
      , (22510,    86,   2.12)  /* Force Bolt I */
      , (22510,    92,   2.12)  /* Whirling Blade I */
      , (22510,  1048,   2.04)  /* Bludgeoning Vulnerability Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22510,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22510, 414) /* PLAYER_DEATH_EVENT */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11520, 'tumerokheanualuan_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (11520, 'tumerokheanualuan-xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11520,   1,         16) /* ItemType - Creature */
@@ -123,6 +123,10 @@ VALUES (11520,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,
      , (11520,  6,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (11520,  7,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11520,  8,  4, 55, 0.75,  220,  220,  220,  220,  220,  220,  220,  220,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11520,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11520, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11520, 9, 11454,  0, 0, 0.02, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */

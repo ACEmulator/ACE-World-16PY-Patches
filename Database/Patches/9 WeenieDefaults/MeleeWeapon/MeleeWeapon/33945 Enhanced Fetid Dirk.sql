@@ -21,7 +21,7 @@ VALUES (33945,   1,          1) /* ItemType - MeleeWeapon */
      , (33945, 108,       1000) /* ItemMaxMana */
      , (33945, 115,        250) /* ItemSkillLevelLimit */
      , (33945, 151,          2) /* HookType - Wall */
-     , (33945, 263,         32) /* ResistanceModifierType */
+     , (33945, 263,         32) /* ResistanceModifierType - Acid */
      , (33945, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

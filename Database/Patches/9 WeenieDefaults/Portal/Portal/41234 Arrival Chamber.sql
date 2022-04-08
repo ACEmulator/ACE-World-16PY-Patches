@@ -1,12 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41234;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41234, 'ace41234-arrivalchamber', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (41234, 'ace41234-arrivalchamber', 7, '2022-02-10 05:08:07') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41234,   1,      65536) /* ItemType - Portal */
      , (41234,  16,         32) /* ItemUseable - Remote */
      , (41234,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (41234, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (41234, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

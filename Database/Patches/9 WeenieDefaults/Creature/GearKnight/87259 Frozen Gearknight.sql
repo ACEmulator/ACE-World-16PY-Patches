@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87259;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87259, 'ace87259-frozengearknight', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (87259, 'ace87259-frozengearknight', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87259,   1,         16) /* ItemType - Creature */
@@ -33,7 +33,6 @@ VALUES (87259,  13,       1) /* ArmorModVsSlash */
      , (87259,  17,     1.5) /* ArmorModVsFire */
      , (87259,  18,     0.5) /* ArmorModVsAcid */
      , (87259,  19,    0.75) /* ArmorModVsElectric */
-     , (87259,  27,    5.01) /* RotationSpeed */
      , (87259,  31,      33) /* VisualAwarenessRange */
      , (87259,  34,       1) /* PowerupTime */
      , (87259,  36,       1) /* ChargeSpeed */

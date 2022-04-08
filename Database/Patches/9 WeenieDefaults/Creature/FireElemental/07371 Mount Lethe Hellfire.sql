@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7371;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7371, 'hellfirelethe', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7371, 'hellfirelethe', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7371,   1,         16) /* ItemType - Creature */
@@ -121,6 +121,10 @@ VALUES (7371,    84,   2.08)  /* Flame Bolt V */
      , (7371,  1326,   2.03)  /* Imperil Other V */
      , (7371,  1395,   2.03)  /* Clumsiness Other V */
      , (7371,  1467,   2.03)  /* Feeblemind Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7371,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7371, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7371,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8109;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8109, 'crystalfenmalainsatellite', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8109, 'crystalfenmalainsatellite', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8109,   1,         16) /* ItemType - Creature */
@@ -127,3 +127,7 @@ VALUES (8109,     6,   2.04)  /* Heal Self I */
      , (8109,  1084,  2.044)  /* Lightning Vulnerability Other I */
      , (8109,  1237,  2.044)  /* Drain Health Other I */
      , (8109,  1415,  2.044)  /* Slowness Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8109,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8109, 414) /* PLAYER_DEATH_EVENT */;

@@ -19,9 +19,9 @@ Give: Hamud's Last Testament (6878)
     - Delay: 1, Tell: Thank you. This is what I needed to know.
     - Delay: 1, Tell: Take this as my thanks. It was given to me by a master assassin dressed in green armor. Please... leave me now. I have much to think on.
     - Delay: 1, Give: Oswald's Dagger (23526)
-	- AwardNoShareXP: 70,000,000
-	- StampQuest: HamudsDemiseCompleted_0511
-	- EraseQuest: HamudsDemiseStarted_0511
+    - AwardNoShareXP: 70,000,000
+    - StampQuest: HamudsDemiseCompleted_0511
+    - EraseQuest: HamudsDemiseStarted_0511
 
 Use:
     - Motion: Ready

@@ -5,18 +5,18 @@ VALUES (0x777E8001,  4219, 0x77E80027, 103.292, 149.543, 137.191, -0.682095, 0, 
 /* @teleloc 0x77E80027 [103.292000 149.542999 137.190994] -0.682095 0.000000 0.000000 0.731264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777E8001, 0x777E8002, '2020-03-31 03:26:33') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E8003, '2020-03-31 03:26:46') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E8004, '2020-03-31 03:26:56') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E8005, '2020-03-31 03:27:04') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E8006, '2020-03-31 03:29:28') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E8007, '2020-03-31 03:29:42') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E8008, '2020-03-31 03:29:53') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E8009, '2020-03-31 03:30:04') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E800A, '2020-03-31 03:30:11') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E800B, '2020-03-31 03:30:25') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E800C, '2020-03-31 03:30:37') /* Frozen Wight Archer (51316) */
-     , (0x777E8001, 0x777E800D, '2020-03-31 03:30:51') /* Frozen Wight Archer (51316) */;
+VALUES (0x777E8001, 0x777E8002, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E8003, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E8004, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E8005, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E8006, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E8007, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E8008, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E8009, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E800A, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E800B, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E800C, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8001, 0x777E800D, '2021-11-01 00:00:00') /* Frozen Wight Archer (51316) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777E8002, 51316, 0x77E80027, 107.097, 147.428, 137.144, -0.235879, 0, 0, 0.971782,  True, '2021-11-01 00:00:00'); /* Frozen Wight Archer */

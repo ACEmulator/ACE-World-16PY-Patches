@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29348;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29348, 'lugianbokrok', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (29348, 'lugianbokrok', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29348,   1,         16) /* ItemType - Creature */
@@ -27,9 +27,7 @@ VALUES (29348,   1, True ) /* Stuck */
      , (29348,  12, True ) /* ReportCollisions */
      , (29348,  13, False) /* Ethereal */
      , (29348,  14, True ) /* GravityStatus */
-     , (29348,  19, True ) /* Attackable */
-     , (29348, 101, True ) /* CanGenerateRare */
-     , (29348, 102, True ) /* CorpseGeneratedRare */;
+     , (29348,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29348,   1,       5) /* HeartbeatInterval */
@@ -116,6 +114,10 @@ VALUES (29348,  0,  4,  0,    0,  450,  400,  317,  400,  413,  413,  400,  317,
      , (29348,  6,  4,  0,    0,  450,  400,  317,  400,  413,  413,  400,  317,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (29348,  7,  4,  0,    0,  150,  400,  317,  400,  413,  413,  400,  317,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (29348,  8,  4, 150,  0.4,  450,  400,  317,  400,  413,  413,  400,  317,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29348,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29348, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29348,  3 /* Death */,   0.04, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

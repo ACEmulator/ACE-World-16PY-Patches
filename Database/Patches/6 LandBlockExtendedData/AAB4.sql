@@ -25,9 +25,9 @@ VALUES (0x7AAB4005,  3955, 0xAAB40000, 131.462, 53.9031, 49.0515, -0.146695, 0, 
 /* @teleloc 0xAAB40000 [131.462006 53.903099 49.051498] -0.146695 0.000000 0.000000 -0.989182 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB4005, 0x7AAB4002, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
-     , (0x7AAB4005, 0x7AAB4003, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
-     , (0x7AAB4005, 0x7AAB4004, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
+VALUES (0x7AAB4005, 0x7AAB4002, '2021-11-01 00:00:00') /* Drudge Skulker (7) */
+     , (0x7AAB4005, 0x7AAB4003, '2021-11-01 00:00:00') /* Drudge Skulker (7) */
+     , (0x7AAB4005, 0x7AAB4004, '2021-11-01 00:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB4006,   921, 0xAAB40000, 93.3927, 66.4878, 54.2239, -0.783645, 0, 0, -0.621208, False, '2021-11-01 00:00:00'); /* Holtburg */

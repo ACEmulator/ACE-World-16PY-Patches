@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36115;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36115, 'ace36115-claudethearchmage', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (36115, 'ace36115-claudethearchmage', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36115,   1,         16) /* ItemType - Creature */
@@ -27,10 +27,6 @@ VALUES (36115,   1, 0x0200173D) /* Setup */
      , (36115,   2, 0x09000028) /* MotionTable */
      , (36115,   3, 0x20000012) /* SoundTable */
      , (36115,   8, 0x06001227) /* Icon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36115, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36115,  6 /* Give */,      1, 36065 /* Virindi Essence */, NULL, NULL, NULL, NULL, NULL, NULL);
