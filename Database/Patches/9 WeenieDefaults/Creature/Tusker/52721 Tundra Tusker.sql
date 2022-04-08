@@ -63,8 +63,8 @@ VALUES (52721,   1,       5) /* HeartbeatInterval */
      , (52721,  75,       1) /* ResistManaBoost */
      , (52721, 104,      10) /* ObviousRadarRange */
      , (52721, 121,      10) /* GeneratorInitialDelay */
-     , (52721, 125,     0.8) /* ResistHealthDrain */
-     , (52721, 166,    0.85) /* ResistNether */;
+     , (52721, 125,    0.65) /* ResistHealthDrain */
+     , (52721, 166,     0.7) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52721,   1, 'Tundra Tusker') /* Name */;
@@ -93,7 +93,7 @@ VALUES (52721,   1, 172500, 0, 0, 172725) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52721,  6, 0, 3, 0, 517, 0, 0) /* MeleeDefense        Specialized */
      , (52721,  7, 0, 3, 0, 920, 0, 0) /* MissileDefense      Specialized */
-     , (52721, 15, 0, 3, 0, 530, 0, 0) /* MagicDefense        Specialized */
+     , (52721, 15, 0, 3, 0, 585, 0, 0) /* MagicDefense        Specialized */
      , (52721, 20, 0, 3, 0, 500, 0, 0) /* Deception           Specialized */
      , (52721, 22, 0, 3, 0, 465, 0, 0) /* Jump                Specialized */
      , (52721, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */

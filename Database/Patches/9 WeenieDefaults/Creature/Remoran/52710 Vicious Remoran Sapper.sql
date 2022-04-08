@@ -39,7 +39,7 @@ VALUES (52710,   1,       5) /* HeartbeatInterval */
      , (52710,  12,     0.5) /* Shade */
      , (52710,  13,    0.95) /* ArmorModVsSlash */
      , (52710,  14,    0.95) /* ArmorModVsPierce */
-     , (52710,  15,     0.8) /* ArmorModVsBludgeon */
+     , (52710,  15,    0.78) /* ArmorModVsBludgeon */
      , (52710,  16,    0.95) /* ArmorModVsCold */
      , (52710,  17,    0.95) /* ArmorModVsFire */
      , (52710,  18,    0.95) /* ArmorModVsAcid */
@@ -91,7 +91,7 @@ VALUES (52710,   1, 11600, 0, 0, 11775) /* MaxHealth */
      , (52710,   5,  6200, 0, 0, 6680) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52710,  6, 0, 3, 0, 505, 0, 0) /* MeleeDefense        Specialized */
+VALUES (52710,  6, 0, 3, 0, 487, 0, 0) /* MeleeDefense        Specialized */
      , (52710,  7, 0, 3, 0, 511, 0, 0) /* MissileDefense      Specialized */
      , (52710, 14, 0, 3, 0, 260, 0, 0) /* ArcaneLore          Specialized */
      , (52710, 15, 0, 3, 0, 515, 0, 0) /* MagicDefense        Specialized */

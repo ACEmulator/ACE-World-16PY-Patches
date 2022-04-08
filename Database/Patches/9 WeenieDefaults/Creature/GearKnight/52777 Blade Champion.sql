@@ -42,7 +42,7 @@ VALUES (52777,   1,       5) /* HeartbeatInterval */
      , (52777,  15,       1) /* ArmorModVsBludgeon */
      , (52777,  16,       1) /* ArmorModVsCold */
      , (52777,  17,       1) /* ArmorModVsFire */
-     , (52777,  18,    0.87) /* ArmorModVsAcid */
+     , (52777,  18,    0.82) /* ArmorModVsAcid */
      , (52777,  19,    0.95) /* ArmorModVsElectric */
      , (52777,  31,      30) /* VisualAwarenessRange */
      , (52777,  34,       1) /* PowerupTime */
@@ -53,7 +53,7 @@ VALUES (52777,   1,       5) /* HeartbeatInterval */
      , (52777,  66,     0.2) /* ResistBludgeon */
      , (52777,  67,     0.2) /* ResistFire */
      , (52777,  68,       0) /* ResistCold */
-     , (52777,  69,     0.7) /* ResistAcid */
+     , (52777,  69,    0.65) /* ResistAcid */
      , (52777,  70,     0.5) /* ResistElectric */
      , (52777,  71,       1) /* ResistHealthBoost */
      , (52777,  72,       1) /* ResistStaminaDrain */
@@ -89,9 +89,9 @@ VALUES (52777,   1, 52500, 0, 0, 53000) /* MaxHealth */
      , (52777,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52777,  6, 0, 2, 0, 411, 0, 0) /* MeleeDefense        Trained */
-     , (52777,  7, 0, 2, 0, 835, 0, 0) /* MissileDefense      Trained */
-     , (52777, 15, 0, 2, 0, 535, 0, 0) /* MagicDefense        Trained */
+VALUES (52777,  6, 0, 2, 0, 424, 0, 0) /* MeleeDefense        Trained */
+     , (52777,  7, 0, 2, 0, 897, 0, 0) /* MissileDefense      Trained */
+     , (52777, 15, 0, 2, 0, 565, 0, 0) /* MagicDefense        Trained */
      , (52777, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52777, 33, 0, 2, 0, 338, 0, 0) /* LifeMagic           Trained */
      , (52777, 34, 0, 2, 0, 338, 0, 0) /* WarMagic            Trained */
