@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25882;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25882, 'riftschism', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25882, 'riftschism', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25882,   1,         16) /* ItemType - Creature */
@@ -122,6 +122,10 @@ VALUES (25882,  2122,  2.115)  /* Disintegration */
      , (25882,  2159,  2.115)  /* Storm's Blessing */
      , (25882,  2161,  2.115)  /* Blessing of the Arrow Turner */
      , (25882,  2717,  2.115)  /* Acid Arc VII */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25882,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25882, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25882, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */

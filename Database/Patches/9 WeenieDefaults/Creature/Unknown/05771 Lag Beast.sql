@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5771;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5771, 'lagbeast', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (5771, 'lagbeast', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5771,   1,         16) /* ItemType - Creature */
@@ -116,3 +116,7 @@ VALUES (5771,   196,   2.08)  /* Exhaustion Other III */
      , (5771,  1420,   2.08)  /* Slowness Other VI */
      , (5771,  1443,   2.08)  /* Bafflement Other V */
      , (5771,  1679,   2.08)  /* Stamina to Mana Self IV */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5771,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5771, 414) /* PLAYER_DEATH_EVENT */;

@@ -361,18 +361,18 @@ VALUES (0x7595417C,  5085, 0x59540127, 22.623, -20, -42, 0.711251, 0, 0, 0.70293
 /* @teleloc 0x59540127 [22.622999 -20.000000 -42.000000] 0.711251 0.000000 0.000000 0.702938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7595417C, 0x7595417D, '2019-02-10 00:00:00') /* Rynthid Tentacle Spear (51967) */
-     , (0x7595417C, 0x7595417E, '2019-02-10 00:00:00') /* Rynthid Tentacle Mace (51966) */
-     , (0x7595417C, 0x7595417F, '2019-02-10 00:00:00') /* Rynthid Tentacle Greatspear (51968) */
-     , (0x7595417C, 0x75954180, '2019-02-10 00:00:00') /* Rynthid Tentacle Dagger (51965) */
-     , (0x7595417C, 0x75954181, '2019-02-10 00:00:00') /* Rynthid Tentacle Wand (51989) */
-     , (0x7595417C, 0x75954182, '2019-02-10 00:00:00') /* Life-attuned Rynthid Tentacle Wand (51990) */
-     , (0x7595417C, 0x75954183, '2019-02-10 00:00:00') /* Nether-attuned Rynthid Tentacle Wand (51991) */
-     , (0x7595417C, 0x75954184, '2019-02-10 00:00:00') /* Rynthid Tentacle Bow (51988) */
-     , (0x7595417C, 0x75954185, '2019-02-10 00:00:00') /* Legendary Key (52010) */
-     , (0x7595417C, 0x75954186, '2019-02-10 00:00:00') /* Legendary Key (52010) */
-     , (0x7595417C, 0x75954187, '2019-02-10 00:00:00') /* Legendary Key (52010) */
-     , (0x7595417C, 0x75954188, '2019-02-10 00:00:00') /* Legendary Key (52010) */;
+VALUES (0x7595417C, 0x7595417D, '2021-11-01 00:00:00') /* Rynthid Tentacle Spear (51967) */
+     , (0x7595417C, 0x7595417E, '2021-11-01 00:00:00') /* Rynthid Tentacle Mace (51966) */
+     , (0x7595417C, 0x7595417F, '2021-11-01 00:00:00') /* Rynthid Tentacle Greatspear (51968) */
+     , (0x7595417C, 0x75954180, '2021-11-01 00:00:00') /* Rynthid Tentacle Dagger (51965) */
+     , (0x7595417C, 0x75954181, '2021-11-01 00:00:00') /* Rynthid Tentacle Wand (51989) */
+     , (0x7595417C, 0x75954182, '2021-11-01 00:00:00') /* Life-attuned Rynthid Tentacle Wand (51990) */
+     , (0x7595417C, 0x75954183, '2021-11-01 00:00:00') /* Nether-attuned Rynthid Tentacle Wand (51991) */
+     , (0x7595417C, 0x75954184, '2021-11-01 00:00:00') /* Rynthid Tentacle Bow (51988) */
+     , (0x7595417C, 0x75954185, '2021-11-01 00:00:00') /* Legendary Key (52010) */
+     , (0x7595417C, 0x75954186, '2021-11-01 00:00:00') /* Legendary Key (52010) */
+     , (0x7595417C, 0x75954187, '2021-11-01 00:00:00') /* Legendary Key (52010) */
+     , (0x7595417C, 0x75954188, '2021-11-01 00:00:00') /* Legendary Key (52010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595417D, 51967, 0x59540127, 22.623, -20, -42, 0.711251, 0, 0, 0.702938,  True, '2021-11-01 00:00:00'); /* Rynthid Tentacle Spear */
@@ -607,9 +607,9 @@ VALUES (0x759541B6,  7924, 0x59540172, 136.633, -53.4503, -41.945, 0.323103, 0, 
 /* @teleloc 0x59540172 [136.632996 -53.450298 -41.945000] 0.323103 0.000000 0.000000 0.946364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759541B6, 0x759541B7, '2020-09-03 17:07:28') /* Lothus Archmage (51978) */
-     , (0x759541B6, 0x759541B8, '2020-09-03 17:07:58') /* Lothus Slayer (51984) */
-     , (0x759541B6, 0x759541B9, '2020-09-03 17:09:25') /* Lothus Slayer (51984) */;
+VALUES (0x759541B6, 0x759541B7, '2021-11-01 00:00:00') /* Lothus Archmage (51978) */
+     , (0x759541B6, 0x759541B8, '2021-11-01 00:00:00') /* Lothus Slayer (51984) */
+     , (0x759541B6, 0x759541B9, '2021-11-01 00:00:00') /* Lothus Slayer (51984) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759541B7, 51978, 0x59540172, 136.633, -53.4503, -41.971, 0.323103, 0, 0, 0.946364,  True, '2021-11-01 00:00:00'); /* Lothus Archmage */

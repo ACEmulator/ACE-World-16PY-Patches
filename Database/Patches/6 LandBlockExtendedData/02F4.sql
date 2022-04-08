@@ -5,7 +5,7 @@ VALUES (0x702F4000,  5085, 0x02F40111, 60, -94.1, -52.9666, 0, 0, 0, -1, False, 
 /* @teleloc 0x02F40111 [60.000000 -94.099998 -52.966599] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4000, 0x702F400E, '2020-06-25 00:00:00') /* Pyreal Mote (34352) */;
+VALUES (0x702F4000, 0x702F400E, '2021-11-01 00:00:00') /* Pyreal Mote (34352) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F400E, 34352, 0x02F40111, 60, -94.1, -52.9666, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Pyreal Mote */
@@ -28,128 +28,128 @@ VALUES (0x702F43EB,  7923, 0x02F40296, 102.011, -319.496, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x02F40296 [102.011002 -319.496002 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43EB, 0x702F4402, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F4403, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4404, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4405, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F4406, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F4407, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F4408, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F4409, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F440A, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F440B, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F440C, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F440D, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F440E, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F440F, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4410, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4411, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4412, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4413, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4414, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4415, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4416, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4417, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F4418, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F4419, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F441A, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F441B, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F441C, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F441D, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F441E, '2019-04-09 05:30:36') /* Obsidian Golem (201) */
-     , (0x702F43EB, 0x702F441F, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4420, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4421, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4422, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4423, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4424, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4425, '2019-04-09 05:30:36') /* Revenant (619) */
-     , (0x702F43EB, 0x702F4426, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4427, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4428, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4429, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F442A, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F442B, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F442C, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F442D, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F442E, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F442F, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4430, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4431, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4432, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4433, '2019-04-09 05:30:36') /* Copper Golem (194) */
-     , (0x702F43EB, 0x702F4434, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4435, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4436, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4437, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4438, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4439, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F443A, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F443B, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F443C, '2019-04-09 05:30:36') /* Lich Lord (1630) */
-     , (0x702F43EB, 0x702F443D, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F443E, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F443F, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F4440, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F4441, '2019-04-09 05:30:36') /* Lich (204) */
-     , (0x702F43EB, 0x702F4442, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4443, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4444, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4445, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4446, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4447, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4448, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F4449, '2019-04-09 05:30:36') /* Granite Golem (195) */
-     , (0x702F43EB, 0x702F444A, '2019-04-09 05:30:36') /* Granite Golem (195) */;
+VALUES (0x702F43EB, 0x702F4402, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F4403, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4404, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4405, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F4406, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F4407, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F4408, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F4409, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F440A, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F440B, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F440C, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F440D, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F440E, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F440F, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4410, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4411, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4412, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4413, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4414, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4415, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4416, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4417, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F4418, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F4419, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F441A, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F441B, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F441C, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F441D, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F441E, '2021-11-01 00:00:00') /* Obsidian Golem (201) */
+     , (0x702F43EB, 0x702F441F, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4420, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4421, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4422, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4423, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4424, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4425, '2021-11-01 00:00:00') /* Revenant (619) */
+     , (0x702F43EB, 0x702F4426, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4427, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4428, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4429, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F442A, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F442B, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F442C, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F442D, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F442E, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F442F, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4430, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4431, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4432, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4433, '2021-11-01 00:00:00') /* Copper Golem (194) */
+     , (0x702F43EB, 0x702F4434, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4435, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4436, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4437, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4438, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4439, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F443A, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F443B, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F443C, '2021-11-01 00:00:00') /* Lich Lord (1630) */
+     , (0x702F43EB, 0x702F443D, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F443E, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F443F, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F4440, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F4441, '2021-11-01 00:00:00') /* Lich (204) */
+     , (0x702F43EB, 0x702F4442, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4443, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4444, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4445, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4446, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4447, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4448, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F4449, '2021-11-01 00:00:00') /* Granite Golem (195) */
+     , (0x702F43EB, 0x702F444A, '2021-11-01 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43EC,  4063, 0x02F40171, 30, -61.041, -40.976, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid Trap */
 /* @teleloc 0x02F40171 [30.000000 -61.041000 -40.976002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43EC, 0x702F43FB, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43EC, 0x702F43FB, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43ED,  4077, 0x02F40173, 42.2427, -10.051, -41.995, 0.720823, 0, 0, -0.693119, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x02F40173 [42.242699 -10.051000 -41.994999] 0.720823 0.000000 0.000000 -0.693119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43ED, 0x702F43FC, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43ED, 0x702F43FC, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43EE,  4098, 0x02F40178, 39.9251, -47.5489, -41.995, -0.99872, 0, 0, 0.050575, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x02F40178 [39.925098 -47.548901 -41.994999] -0.998720 0.000000 0.000000 0.050575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43EE, 0x702F43FD, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43EE, 0x702F43FD, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43EF,  4083, 0x02F4018A, 62.1104, -60.3552, -41.995, 0.780707, 0, 0, -0.624897, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x02F4018A [62.110401 -60.355202 -41.994999] 0.780707 0.000000 0.000000 -0.624897 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43EF, 0x702F43FE, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43EF, 0x702F43FE, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43F0,  4077, 0x02F4018C, 70, -12.0249, -41.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x02F4018C [70.000000 -12.024900 -41.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43F0, 0x702F43FF, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43F0, 0x702F43FF, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43F1,  4071, 0x02F40195, 67.349, -49.9031, -41.995, -0.717785, 0, 0, -0.696265, False, '2021-11-01 00:00:00'); /* Magic trap */
 /* @teleloc 0x02F40195 [67.348999 -49.903099 -41.994999] -0.717785 0.000000 0.000000 -0.696265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43F1, 0x702F4400, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43F1, 0x702F4400, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43F2,  4068, 0x02F401B4, 64.2264, -40.1378, -28.976, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Shockwave Trap */
 /* @teleloc 0x02F401B4 [64.226402 -40.137798 -28.976000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43F2, 0x702F4401, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43F2, 0x702F4401, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43F3,  6122, 0x02F40207, 80, -230, -17.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
@@ -164,14 +164,14 @@ VALUES (0x702F43F5,  4095, 0x02F4016A, 33.5438, 1.36339, -41.995, -0.999965, 0, 
 /* @teleloc 0x02F4016A [33.543800 1.363390 -41.994999] -0.999965 0.000000 0.000000 0.008407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43F5, 0x702F43F9, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43F5, 0x702F43F9, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43F6,  4063, 0x02F4016A, 30, 1, -40.976, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid Trap */
 /* @teleloc 0x02F4016A [30.000000 1.000000 -40.976002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F43F6, 0x702F43FA, '2019-04-09 05:30:36') /* Pressure Plate (2131) */;
+VALUES (0x702F43F6, 0x702F43FA, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F43F7,  3988, 0x02F401B4, 61.5, -40, -29.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Chest */

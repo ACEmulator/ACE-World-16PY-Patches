@@ -76,8 +76,8 @@ Use:
     - Delay: 3, Tell: If you find his things within that place I will still reward you for finding them.
 
 Give: Magnificent Bracelet (42107)
-	- Motion: Ready
+    - Motion: Ready
     - TurnToTarget
-	- Tell: I had no idea he had gotten me such a beautiful bracelet. I've never seen it before now.
-	- Delay: 1, Tell: Thank you so much for bringing me this, I will miss that wonderful man.
-	- AwardLevelProportionalXP: 100%, Max: 24,000,000
+    - Tell: I had no idea he had gotten me such a beautiful bracelet. I've never seen it before now.
+    - Delay: 1, Tell: Thank you so much for bringing me this, I will miss that wonderful man.
+    - AwardLevelProportionalXP: 100%, Max: 24,000,000

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10948;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10948, 'tumerokchampionkanokeh_xp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (10948, 'tumerokchampionkanokeh-xp', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10948,   1,         16) /* ItemType - Creature */
@@ -163,6 +163,10 @@ VALUES (10948,    62,  2.015)  /* Acid Stream V */
      , (10948,  1223,  2.012)  /* Mana Drain Other V */
      , (10948,  1331,  2.011)  /* Strength Self V */
      , (10948,  1401,  2.011)  /* Quickness Self V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (10948,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (10948, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10948,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

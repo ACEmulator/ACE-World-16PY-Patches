@@ -841,6 +841,7 @@ ReceiveTalkDirect: Viridian Rise
 
 Give: Ulgrim's Contest Mug (34275)
     - EraseQuest: UlgrimsDrinkingContestDrinks
+    - EraseQuest: UlgrimsDrinkingContestDrinking
     - TurnToTarget
     - LocalBroadcast: Ulgrim clears his throat and announces "Attention my avid fans! I have been challenged to a Drinking Contest by %tn! We shall begin in a few seconds."
     - Delay: 1, Tell: Make this look good kid, I have a reputation to keep here.

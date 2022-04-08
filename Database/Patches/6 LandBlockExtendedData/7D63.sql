@@ -53,7 +53,7 @@ VALUES (0x77D6300D,  7923, 0x7D630000, 24.6039, 88.2084, 12.005, -0.609033, 0, 0
 /* @teleloc 0x7D630000 [24.603901 88.208397 12.005000] -0.609033 0.000000 0.000000 0.793145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6300D, 0x77D6300C, '2005-02-09 10:00:00') /* Lubziklan al-Luq (5178) */;
+VALUES (0x77D6300D, 0x77D6300C, '2021-11-01 00:00:00') /* Lubziklan al-Luq (5178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6300E, 28709, 0x7D630027, 108.129, 160.372, 11.7902, -0.382683, 0, 0, -0.92388, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Sanamar */

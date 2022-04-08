@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36853;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36853, 'ace36853-tenebrousshadow', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36853, 'ace36853-tenebrousshadow', 10, '2022-01-20 04:53:49') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36853,   1,         16) /* ItemType - Creature */
@@ -14,6 +14,8 @@ VALUES (36853,   1,         16) /* ItemType - Creature */
      , (36853,  25,        100) /* Level */
      , (36853,  40,          2) /* CombatMode - Melee */
      , (36853,  68,          3) /* TargetingTactic - Random, Focused */
+     , (36853,  81,          1) /* MaxGeneratedObjects */
+     , (36853,  82,          0) /* InitGeneratedObjects */
      , (36853,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (36853, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (36853, 113,          2) /* Gender - Female */
@@ -51,6 +53,7 @@ VALUES (36853,   1,       5) /* HeartbeatInterval */
      , (36853,  34,     1.1) /* PowerupTime */
      , (36853,  36,       1) /* ChargeSpeed */
      , (36853,  39,       1) /* DefaultScale */
+     , (36853,  43,       2) /* GeneratorRadius */
      , (36853,  64,    0.86) /* ResistSlash */
      , (36853,  65,     0.5) /* ResistPierce */
      , (36853,  66,    0.67) /* ResistBludgeon */
@@ -152,6 +155,14 @@ VALUES (36853,    73,  2.032)  /* Frost Bolt V */
      , (36853,  1419,  2.023)  /* Slowness Other V */
      , (36853,  1467,  2.023)  /* Feeblemind Other V */;
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (36853,  3 /* Death */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36853, 9,  6058,  0, 0, 0.03, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (36853, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
@@ -159,3 +170,6 @@ VALUES (36853, 9,  6058,  0, 0, 0.03, False) /* Create Dark Shard (6058) for Con
      , (36853, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (36853, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
      , (36853, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36853, 1, 36846, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Champion Shadow (36846) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;

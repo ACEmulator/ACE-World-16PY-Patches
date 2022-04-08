@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23570;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23570, 'virindiparadox', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (23570, 'virindiparadox', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23570,   1,         16) /* ItemType - Creature */
@@ -121,6 +121,10 @@ VALUES (23570,   279,      2)  /* Magic Resistance Self VI */
      , (23570,  2164,   2.04)  /* Swordsman's Gift */
      , (23570,  2170,   2.04)  /* Inferno's Gift */
      , (23570,  2328,      2)  /* Vitality Siphon */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23570,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23570, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (23570,  3 /* Death */,   0.02, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

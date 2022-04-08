@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23548;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23548, 'crystalshardsentient', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (23548, 'crystalshardsentient', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23548,   1,         16) /* ItemType - Creature */
@@ -126,6 +126,10 @@ VALUES (23548,  2056,  2.083)  /* Ataxia */
      , (23548,  2172,  2.083)  /* Astyrrian's Gift */
      , (23548,  2185,  2.083)  /* Robustify */
      , (23548,  2328,  2.083)  /* Vitality Siphon */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23548,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23548, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23548, 9, 23853,  0, 0, 0.0125, False) /* Create Seared Shard (23853) for ContainTreasure */

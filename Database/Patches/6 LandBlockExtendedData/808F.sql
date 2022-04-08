@@ -5,7 +5,7 @@ VALUES (0x7808F000,  3951, 0x808F0000, 76.254, 178.378, 124.005, -0.984363, 0, 0
 /* @teleloc 0x808F0000 [76.253998 178.378006 124.004997] -0.984363 0.000000 0.000000 -0.176154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7808F000, 0x7808F002, '2005-02-09 10:00:00') /* Darhy, Assistant to Nuhmudira (25483) */;
+VALUES (0x7808F000, 0x7808F002, '2021-11-01 00:00:00') /* Darhy, Assistant to Nuhmudira (25483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7808F001, 25495, 0x808F0000, 88.787, 179.86, 124.005, -0.926466, 0, 0, -0.376378, False, '2021-11-01 00:00:00'); /* Lair of the Ancient Queen */
@@ -28,8 +28,8 @@ VALUES (0x7808F056,  1154, 0x808F0020, 76.254, 178.378, 124.005, -0.984363, 0, 0
 /* @teleloc 0x808F0020 [76.253998 178.378006 124.004997] -0.984363 0.000000 0.000000 -0.176154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7808F056, 0x7808F058, '2019-02-10 00:00:00') /* Maqudh al Nishadina (34010) */
-     , (0x7808F056, 0x7808F059, '2019-02-10 00:00:00') /* Ayesha of the Radiant Blood (38390) */;
+VALUES (0x7808F056, 0x7808F058, '2021-11-01 00:00:00') /* Maqudh al Nishadina (34010) */
+     , (0x7808F056, 0x7808F059, '2021-11-01 00:00:00') /* Ayesha of the Radiant Blood (38390) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7808F058, 34010, 0x808F000E, 38, 138, 124.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Maqudh al Nishadina */

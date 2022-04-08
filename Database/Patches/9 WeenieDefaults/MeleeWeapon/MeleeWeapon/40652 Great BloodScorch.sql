@@ -28,7 +28,7 @@ VALUES (40652,   1,          1) /* ItemType - MeleeWeapon */
      , (40652, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (40652, 160,        400) /* WieldDifficulty */
      , (40652, 166,         14) /* SlayerCreatureType - Undead */
-     , (40652, 263,         16) /* ResistanceModifierType */
+     , (40652, 263,         16) /* ResistanceModifierType - Fire */
      , (40652, 292,          2) /* Cleaving */
      , (40652, 353,         11) /* WeaponType - TwoHanded */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34884;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34884, 'ace34884-imprintingmote', 1, '2021-11-07 08:12:46') /* Generic */;
+VALUES (34884, 'ace34884-imprintingmote', 1, '2022-03-19 04:04:39') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34884,   1,        128) /* ItemType - Misc */
@@ -9,13 +9,10 @@ VALUES (34884,   1,        128) /* ItemType - Misc */
      , (34884,   5,         10) /* EncumbranceVal */
      , (34884,  16,          1) /* ItemUseable - No */
      , (34884,  19,       5000) /* Value */
-     , (34884,  33,          1) /* Bonded - Bonded */
-     , (34884,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34884, 114,          1) /* Attuned - Attuned */;
+     , (34884,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34884,  22, True ) /* Inscribable */
-     , (34884,  23, True ) /* DestroyOnSell */;
+VALUES (34884,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34884,  12,     0.5) /* Shade */

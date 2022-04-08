@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48899;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48899, 'ace48899-ensorcelledweapon', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (48899, 'ace48899-ensorcelledweapon', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48899,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (48899,   1,         16) /* ItemType - Creature */
      , (48899,  25,        220) /* Level */
      , (48899,  27,          0) /* ArmorType - None */
      , (48899,  68,          3) /* TargetingTactic - Random, Focused */
-     , (48899,  81,         10) /* MaxGeneratedObjects */
+     , (48899,  81,          1) /* MaxGeneratedObjects */
      , (48899,  82,          0) /* InitGeneratedObjects */
      , (48899,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (48899, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
@@ -39,7 +39,6 @@ VALUES (48899,   1,       5) /* HeartbeatInterval */
      , (48899,  17,       1) /* ArmorModVsFire */
      , (48899,  18,    0.67) /* ArmorModVsAcid */
      , (48899,  19,       1) /* ArmorModVsElectric */
-     , (48899,  27,    5.01) /* RotationSpeed */
      , (48899,  31,      22) /* VisualAwarenessRange */
      , (48899,  34,       1) /* PowerupTime */
      , (48899,  36,       1) /* ChargeSpeed */
@@ -123,4 +122,4 @@ VALUES (48899, 2, 47219,  1, 0, 0, False) /* Create Ensorcelled Sword (47219) fo
      , (48899, 2, 47227,  1, 0, 0, False) /* Create Ensorcelled Mace (47227) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48899, 1, 48900, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Whirlwind Golem (48900) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (48899, -1, 48900, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Whirlwind Golem (48900) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

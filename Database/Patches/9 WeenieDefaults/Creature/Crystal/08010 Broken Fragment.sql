@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8010;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8010, 'crystalbrokenfragmentnew', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (8010, 'crystalbrokenfragmentnew', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8010,   1,         16) /* ItemType - Creature */
@@ -127,6 +127,10 @@ VALUES (8010,     6,   2.04)  /* Heal Self I */
      , (8010,   654,  2.032)  /* Mana Conversion Mastery Self II */
      , (8010,  1237,  2.044)  /* Drain Health Other I */
      , (8010,  1415,  2.044)  /* Slowness Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8010,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8010, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8010, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */

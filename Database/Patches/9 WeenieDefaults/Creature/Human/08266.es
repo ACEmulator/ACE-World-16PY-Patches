@@ -1,35 +1,35 @@
 Give: Black Water Watcher's Shard (35864)
-	- TurnToTarget
-	- Tell: Well, this is disturbing...
-	- Delay: 1, Tell: These Tanada from the House of Water seem to have become the pawns of forces greater than themselves. Here, have a look for yourself.
-	- Give: Translated Black Water Watcher's Shard (35866)
+    - TurnToTarget
+    - Tell: Well, this is disturbing...
+    - Delay: 1, Tell: These Tanada from the House of Water seem to have become the pawns of forces greater than themselves. Here, have a look for yourself.
+    - Give: Translated Black Water Watcher's Shard (35866)
 
 Give: Tanada Consul's Message Shard (87679)
-	- TurnToTarget
-	- Tell: Ah, a message shard from a Virindi Consul found in the southern land bridge? Most intriguing... Let me see if I can translate it for you...
-	- Motion: Reading
-	- Delay: 1, DirectBroadcast: A strange, cold light emanates from the eyes of Diyas al-Yat as he concentrates on the message shard.
-	- Motion: Ready
-	- Give: Tanada House of Water Orders (87680)
-	- Delay: 1, Tell: I have translated the shard for you. You should bring that translation to Meshenq. He will know what to do with such dire news. Imagine, Nanjou Shou-Jen corrupted by the chaos Virindi! Such an abomination!
-	- Delay: 1, Tell: Also, Meshenq has told me he gave you a medallion he took from the Tanada who attacked him. The medallion is attuned to the corrupted spirits of the House of Water Tanada. If you give it to me, I can channel its magic to make it useful to you, but I am afraid it will lose the property that grants you access to the House of Water. Not that you need to go to that foul place any more...
+    - TurnToTarget
+    - Tell: Ah, a message shard from a Virindi Consul found in the southern land bridge? Most intriguing... Let me see if I can translate it for you...
+    - Motion: Reading
+    - Delay: 1, DirectBroadcast: A strange, cold light emanates from the eyes of Diyas al-Yat as he concentrates on the message shard.
+    - Motion: Ready
+    - Give: Tanada House of Water Orders (87680)
+    - Delay: 1, Tell: I have translated the shard for you. You should bring that translation to Meshenq. He will know what to do with such dire news. Imagine, Nanjou Shou-Jen corrupted by the chaos Virindi! Such an abomination!
+    - Delay: 1, Tell: Also, Meshenq has told me he gave you a medallion he took from the Tanada who attacked him. The medallion is attuned to the corrupted spirits of the House of Water Tanada. If you give it to me, I can channel its magic to make it useful to you, but I am afraid it will lose the property that grants you access to the House of Water. Not that you need to go to that foul place any more...
 
 Give: Tanada Gate Medallion (35309)
-	- TurnToTarget
-	- Give: Channeled Tanada Medallion (35313)
-	- Tell: Yes, as I may have mentioned, this medallion is attuned to the corrupted life-force of the Nanjou Shou-Jen who have given themselves to the dominion of the chaotic Virindi... Truly tragic. I can channel the magic in this medallion to be useful to you, but it will no longer grant you access to the House of Water. I can't imagine why you'd want to go back in there, though.
-	- Delay: 1 Tell: If you don't find this channeled medallion useful, you can just give it to me and I'll compensate you with general training.
+    - TurnToTarget
+    - Give: Channeled Tanada Medallion (35313)
+    - Tell: Yes, as I may have mentioned, this medallion is attuned to the corrupted life-force of the Nanjou Shou-Jen who have given themselves to the dominion of the chaotic Virindi... Truly tragic. I can channel the magic in this medallion to be useful to you, but it will no longer grant you access to the House of Water. I can't imagine why you'd want to go back in there, though.
+    - Delay: 1 Tell: If you don't find this channeled medallion useful, you can just give it to me and I'll compensate you with general training.
 
 Give: Channeled Tanada Medallion (35313)
-	- TurnToTarget
-	- Tell: Ah, you don't find this useful? A pity. The patterns are so mesmerizing...
-	- AwardLevelProportionalXP: 5%, 0 - 6,891,063
+    - TurnToTarget
+    - Tell: Ah, you don't find this useful? A pity. The patterns are so mesmerizing...
+    - AwardLevelProportionalXP: 5%, 0 - 6,891,063
 
 Give: Virindi Message Shard (35561)
-	- TurnToTarget
-	- Tell: Fascinating...
-	- Delay: 1, Tell: It seems this is some sort of continuation of other experiments I've translated shards for. It seems they are trying to create some sort of penultimate creature, or something along those lines.
-	- Give: Observations: Harraag (35565)
+    - TurnToTarget
+    - Tell: Fascinating...
+    - Delay: 1, Tell: It seems this is some sort of continuation of other experiments I've translated shards for. It seems they are trying to create some sort of penultimate creature, or something along those lines.
+    - Give: Observations: Harraag (35565)
 
 Refuse: Excavation Masters Message Shard (41187)
     - TurnToTarget
@@ -335,4 +335,3 @@ Use:
     - Tell: Hello! I am studying those most enigmatic beings, the Virindi. I think I can translate their language. Do not ask me how I acquired such knowledge.
     - Motion: Shiver
     - Delay: 1, Tell: I have also been in touch with Leopold, in Ayan Baqur, and he has given me some repaired Virindi masks to trade for broken ones.
-

@@ -29,7 +29,7 @@ VALUES (0x75756007, 44063, 0x57560149, 69.9647, -76.553, 0, 0.999888, 0, 0, -0.0
 /* @teleloc 0x57560149 [69.964699 -76.553001 0.000000] 0.999888 0.000000 0.000000 -0.014968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75756007, 0x75756089, '2020-02-12 10:00:00') /* Torch (7323) */;
+VALUES (0x75756007, 0x75756089, '2021-11-01 00:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75756008, 44061, 0x5756016C, 115.211, -40, 0, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -60,21 +60,21 @@ VALUES (0x7575600F, 44065, 0x57560192, 200, -51.97, 0, 0, 0, 0, -1, False, '2021
 /* @teleloc 0x57560192 [200.000000 -51.970001 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575600F, 0x75756010, '2020-02-12 10:00:00') /* Door (44065) */;
+VALUES (0x7575600F, 0x75756010, '2021-11-01 00:00:00') /* Door (44065) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75756010, 44065, 0x57560193, 195.24, -50, 0, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x57560193 [195.240005 -50.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75756010, 0x75756011, '2020-02-12 10:00:00') /* Door (44065) */;
+VALUES (0x75756010, 0x75756011, '2021-11-01 00:00:00') /* Door (44065) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75756011, 44065, 0x57560195, 201.9, -60, 0, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x57560195 [201.899994 -60.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75756011, 0x75756083, '2020-02-12 10:00:00') /* Bookcase (41202) */;
+VALUES (0x75756011, 0x75756083, '2021-11-01 00:00:00') /* Bookcase (41202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75756013, 44061, 0x575601E6, 35.2437, -40.0009, 18, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -97,7 +97,7 @@ VALUES (0x75756017, 44063, 0x575601F8, 74.746, -40, 18, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x575601F8 [74.746002 -40.000000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75756017, 0x7575601E, '2020-02-12 10:00:00') /* Door (44063) */;
+VALUES (0x75756017, 0x7575601E, '2021-11-01 00:00:00') /* Door (44063) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75756018, 44062, 0x57560203, 90, -1.945, 18, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -108,14 +108,14 @@ VALUES (0x75756019, 44063, 0x57560206, 90, -34.753, 18, 0, 0, 0, -1, False, '202
 /* @teleloc 0x57560206 [90.000000 -34.752998 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75756019, 0x7575601C, '2020-02-12 10:00:00') /* Door (44063) */;
+VALUES (0x75756019, 0x7575601C, '2021-11-01 00:00:00') /* Door (44063) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575601A, 44063, 0x57560206, 90, -25.24, 18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x57560206 [90.000000 -25.240000 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575601A, 0x7575610B, '2020-02-12 10:00:00') /* Drids Doorman Vizier Spawner (71411) */;
+VALUES (0x7575601A, 0x7575610B, '2021-11-01 00:00:00') /* Drids Doorman Vizier Spawner (71411) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575601B, 44062, 0x5756020E, 100, -1.945, 18, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -126,21 +126,21 @@ VALUES (0x7575601C, 44063, 0x57560211, 100, -34.7498, 18, 0, 0, 0, -1,  True, '2
 /* @teleloc 0x57560211 [100.000000 -34.749802 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575601C, 0x7575610A, '2020-02-12 10:00:00') /* Drids Doorman Lady Spawner (71410) */;
+VALUES (0x7575601C, 0x7575610A, '2021-11-01 00:00:00') /* Drids Doorman Lady Spawner (71410) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575601D, 44063, 0x57560211, 100, -25.234, 18, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x57560211 [100.000000 -25.233999 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575601D, 0x7575601A, '2020-02-12 10:00:00') /* Door (44063) */;
+VALUES (0x7575601D, 0x7575601A, '2021-11-01 00:00:00') /* Door (44063) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575601E, 44063, 0x5756021D, 115.245, -39.9932, 18, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x5756021D [115.245003 -39.993198 18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575601E, 0x75756109, '2020-02-12 10:00:00') /* Drids Lower Doorman (71409) */;
+VALUES (0x7575601E, 0x75756109, '2021-11-01 00:00:00') /* Drids Lower Doorman (71409) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575601F, 44061, 0x57560225, 130, -35.251, 18, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -419,59 +419,59 @@ VALUES (0x757560A3,  1154, 0x5756017A, 139.6, -80.2, 0.006, -0.707107, 0, 0, -0.
 /* @teleloc 0x5756017A [139.600006 -80.199997 0.006000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757560A3, 0x757560A8, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44093) */
-     , (0x757560A3, 0x757560AB, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44088) */
-     , (0x757560A3, 0x757560AC, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44099) */
-     , (0x757560A3, 0x757560AD, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44100) */
-     , (0x757560A3, 0x757560AE, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44099) */
-     , (0x757560A3, 0x757560AF, '2019-02-10 00:00:00') /* Mu-miyah Lord (44096) */
-     , (0x757560A3, 0x757560B0, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44095) */
-     , (0x757560A3, 0x757560B2, '2019-02-10 00:00:00') /* Mu-miyah Lord (44096) */
-     , (0x757560A3, 0x757560B3, '2019-02-10 00:00:00') /* Mu-miyah Champion (44094) */
-     , (0x757560A3, 0x757560B4, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44088) */
-     , (0x757560A3, 0x757560B5, '2019-02-10 00:00:00') /* Mu-miyah Lord (44096) */
-     , (0x757560A3, 0x757560B6, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44095) */
-     , (0x757560A3, 0x757560B8, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44100) */
-     , (0x757560A3, 0x757560B9, '2019-02-10 00:00:00') /* Mu-miyah Champion (44094) */
-     , (0x757560A3, 0x757560BA, '2019-02-10 00:00:00') /* Bak'tshay Servant (44091) */
-     , (0x757560A3, 0x757560BB, '2019-02-10 00:00:00') /* Bak'tshay Servant (44091) */
-     , (0x757560A3, 0x757560BC, '2019-02-10 00:00:00') /* Bak'tshay Guard (44090) */
-     , (0x757560A3, 0x757560BD, '2019-02-10 00:00:00') /* Bak'tshay Servant (44091) */
-     , (0x757560A3, 0x757560BE, '2019-02-10 00:00:00') /* Bak'tshay Servant (44092) */
-     , (0x757560A3, 0x757560BF, '2019-02-10 00:00:00') /* Bak'tshay Guard (44090) */
-     , (0x757560A3, 0x757560D5, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44093) */
-     , (0x757560A3, 0x757560D6, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44100) */
-     , (0x757560A3, 0x757560D7, '2019-02-10 00:00:00') /* Bak'tshay Servant (44092) */
-     , (0x757560A3, 0x757560D8, '2019-02-10 00:00:00') /* Bak'tshay Servant (44092) */
-     , (0x757560A3, 0x757560D9, '2019-02-10 00:00:00') /* Mu-miyah Champion (44094) */
-     , (0x757560A3, 0x757560DA, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44093) */
-     , (0x757560A3, 0x757560DB, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44095) */
-     , (0x757560A3, 0x757560DC, '2019-02-10 00:00:00') /* Bak'tshay Guard (44090) */
-     , (0x757560A3, 0x757560DD, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44088) */
-     , (0x757560A3, 0x757560DE, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44099) */
-     , (0x757560A3, 0x757560DF, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44095) */
-     , (0x757560A3, 0x757560E0, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44100) */
-     , (0x757560A3, 0x757560E1, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44099) */
-     , (0x757560A3, 0x757560E2, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44088) */
-     , (0x757560A3, 0x757560E3, '2019-02-10 00:00:00') /* Mu-miyah Champion (44094) */
-     , (0x757560A3, 0x757560E4, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44099) */
-     , (0x757560A3, 0x757560E5, '2019-02-10 00:00:00') /* Mu-miyah Champion (44094) */
-     , (0x757560A3, 0x757560E6, '2019-02-10 00:00:00') /* Mu-miyah Lord (44096) */
-     , (0x757560A3, 0x757560E7, '2019-02-10 00:00:00') /* Bak'tshay Guard (44090) */
-     , (0x757560A3, 0x757560E9, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44100) */
-     , (0x757560A3, 0x757560EA, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44088) */
-     , (0x757560A3, 0x757560EC, '2019-02-10 00:00:00') /* Bak'tshay Servant (44091) */
-     , (0x757560A3, 0x757560ED, '2019-02-10 00:00:00') /* Bak'tshay Servant (44092) */
-     , (0x757560A3, 0x757560EE, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44093) */
-     , (0x757560A3, 0x757560EF, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44095) */
-     , (0x757560A3, 0x757560F0, '2019-02-10 00:00:00') /* Bak'tshay Servant (44091) */
-     , (0x757560A3, 0x757560F1, '2019-02-10 00:00:00') /* Bak'tshay Guard (44090) */
-     , (0x757560A3, 0x757560F2, '2019-02-10 00:00:00') /* Bak'tshay Servant (44092) */
-     , (0x757560A3, 0x757560F3, '2019-02-10 00:00:00') /* Mu-miyah Lord (44096) */
-     , (0x757560A3, 0x757560F4, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44093) */
-     , (0x757560A3, 0x757560F9, '2019-02-10 00:00:00') /* Mu-miyah Slave Master (44098) */
-     , (0x757560A3, 0x75756104, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44099) */
-     , (0x757560A3, 0x75756105, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44100) */;
+VALUES (0x757560A3, 0x757560A8, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44093) */
+     , (0x757560A3, 0x757560AB, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44088) */
+     , (0x757560A3, 0x757560AC, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44099) */
+     , (0x757560A3, 0x757560AD, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44100) */
+     , (0x757560A3, 0x757560AE, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44099) */
+     , (0x757560A3, 0x757560AF, '2021-11-01 00:00:00') /* Mu-miyah Lord (44096) */
+     , (0x757560A3, 0x757560B0, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44095) */
+     , (0x757560A3, 0x757560B2, '2021-11-01 00:00:00') /* Mu-miyah Lord (44096) */
+     , (0x757560A3, 0x757560B3, '2021-11-01 00:00:00') /* Mu-miyah Champion (44094) */
+     , (0x757560A3, 0x757560B4, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44088) */
+     , (0x757560A3, 0x757560B5, '2021-11-01 00:00:00') /* Mu-miyah Lord (44096) */
+     , (0x757560A3, 0x757560B6, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44095) */
+     , (0x757560A3, 0x757560B8, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44100) */
+     , (0x757560A3, 0x757560B9, '2021-11-01 00:00:00') /* Mu-miyah Champion (44094) */
+     , (0x757560A3, 0x757560BA, '2021-11-01 00:00:00') /* Bak'tshay Servant (44091) */
+     , (0x757560A3, 0x757560BB, '2021-11-01 00:00:00') /* Bak'tshay Servant (44091) */
+     , (0x757560A3, 0x757560BC, '2021-11-01 00:00:00') /* Bak'tshay Guard (44090) */
+     , (0x757560A3, 0x757560BD, '2021-11-01 00:00:00') /* Bak'tshay Servant (44091) */
+     , (0x757560A3, 0x757560BE, '2021-11-01 00:00:00') /* Bak'tshay Servant (44092) */
+     , (0x757560A3, 0x757560BF, '2021-11-01 00:00:00') /* Bak'tshay Guard (44090) */
+     , (0x757560A3, 0x757560D5, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44093) */
+     , (0x757560A3, 0x757560D6, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44100) */
+     , (0x757560A3, 0x757560D7, '2021-11-01 00:00:00') /* Bak'tshay Servant (44092) */
+     , (0x757560A3, 0x757560D8, '2021-11-01 00:00:00') /* Bak'tshay Servant (44092) */
+     , (0x757560A3, 0x757560D9, '2021-11-01 00:00:00') /* Mu-miyah Champion (44094) */
+     , (0x757560A3, 0x757560DA, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44093) */
+     , (0x757560A3, 0x757560DB, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44095) */
+     , (0x757560A3, 0x757560DC, '2021-11-01 00:00:00') /* Bak'tshay Guard (44090) */
+     , (0x757560A3, 0x757560DD, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44088) */
+     , (0x757560A3, 0x757560DE, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44099) */
+     , (0x757560A3, 0x757560DF, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44095) */
+     , (0x757560A3, 0x757560E0, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44100) */
+     , (0x757560A3, 0x757560E1, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44099) */
+     , (0x757560A3, 0x757560E2, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44088) */
+     , (0x757560A3, 0x757560E3, '2021-11-01 00:00:00') /* Mu-miyah Champion (44094) */
+     , (0x757560A3, 0x757560E4, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44099) */
+     , (0x757560A3, 0x757560E5, '2021-11-01 00:00:00') /* Mu-miyah Champion (44094) */
+     , (0x757560A3, 0x757560E6, '2021-11-01 00:00:00') /* Mu-miyah Lord (44096) */
+     , (0x757560A3, 0x757560E7, '2021-11-01 00:00:00') /* Bak'tshay Guard (44090) */
+     , (0x757560A3, 0x757560E9, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44100) */
+     , (0x757560A3, 0x757560EA, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44088) */
+     , (0x757560A3, 0x757560EC, '2021-11-01 00:00:00') /* Bak'tshay Servant (44091) */
+     , (0x757560A3, 0x757560ED, '2021-11-01 00:00:00') /* Bak'tshay Servant (44092) */
+     , (0x757560A3, 0x757560EE, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44093) */
+     , (0x757560A3, 0x757560EF, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44095) */
+     , (0x757560A3, 0x757560F0, '2021-11-01 00:00:00') /* Bak'tshay Servant (44091) */
+     , (0x757560A3, 0x757560F1, '2021-11-01 00:00:00') /* Bak'tshay Guard (44090) */
+     , (0x757560A3, 0x757560F2, '2021-11-01 00:00:00') /* Bak'tshay Servant (44092) */
+     , (0x757560A3, 0x757560F3, '2021-11-01 00:00:00') /* Mu-miyah Lord (44096) */
+     , (0x757560A3, 0x757560F4, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44093) */
+     , (0x757560A3, 0x757560F9, '2021-11-01 00:00:00') /* Mu-miyah Slave Master (44098) */
+     , (0x757560A3, 0x75756104, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44099) */
+     , (0x757560A3, 0x75756105, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757560A4, 44038, 0x5756017A, 139.6, -80.2, 0.006, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Mu-miyah Guardian */
@@ -870,7 +870,7 @@ VALUES (0x75756106,  1154, 0x57560285, 79.8672, -72.4925, 36.005, -0.999718, 0, 
 /* @teleloc 0x57560285 [79.867203 -72.492500 36.005001] -0.999718 0.000000 0.000000 0.023736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75756106, 0x75756107, '2019-02-10 00:00:00') /* Hatshepsut (44104) */;
+VALUES (0x75756106, 0x75756107, '2021-11-01 00:00:00') /* Hatshepsut (44104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75756107, 44104, 0x57560285, 79.8672, -72.4925, 36.005, -0.999718, 0, 0, 0.023736,  True, '2021-11-01 00:00:00'); /* Hatshepsut */
@@ -881,70 +881,70 @@ VALUES (0x75756109, 71409, 0x5756014F, 75.5228, -61.5867, 0.006, -0.721758, 0, 0
 /* @teleloc 0x5756014F [75.522797 -61.586700 0.006000] -0.721758 0.000000 0.000000 0.692146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75756109, 0x757560A4, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44038) */
-     , (0x75756109, 0x757560A5, '2019-02-10 00:00:00') /* Bak'tshay Guard (44024) */
-     , (0x75756109, 0x757560A6, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44038) */
-     , (0x75756109, 0x757560A7, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44042) */
-     , (0x75756109, 0x757560A9, '2019-02-10 00:00:00') /* Mu-miyah Lord (44040) */
-     , (0x75756109, 0x757560AA, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44030) */
-     , (0x75756109, 0x757560B1, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44030) */
-     , (0x75756109, 0x757560B7, '2019-02-10 00:00:00') /* Bak'tshay Guard (44024) */
-     , (0x75756109, 0x757560C0, '2019-02-10 00:00:00') /* Mu-miyah Champion (44036) */
-     , (0x75756109, 0x757560C1, '2019-02-10 00:00:00') /* Bak'tshay (44022) */
-     , (0x75756109, 0x757560C2, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44044) */
-     , (0x75756109, 0x757560C3, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44044) */
-     , (0x75756109, 0x757560C4, '2019-02-10 00:00:00') /* Bak'tshay Servant (44028) */
-     , (0x75756109, 0x757560C5, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44046) */
-     , (0x75756109, 0x757560C6, '2019-02-10 00:00:00') /* Mu-miyah Lord (44040) */
-     , (0x75756109, 0x757560C7, '2019-02-10 00:00:00') /* Bak'tshay Servant (44026) */
-     , (0x75756109, 0x757560C8, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44046) */
-     , (0x75756109, 0x757560C9, '2019-02-10 00:00:00') /* Bak'tshay Servant (44028) */
-     , (0x75756109, 0x757560CA, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44042) */
-     , (0x75756109, 0x757560CB, '2019-02-10 00:00:00') /* Bak'tshay Servant (44028) */
-     , (0x75756109, 0x757560CC, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44042) */
-     , (0x75756109, 0x757560CD, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44046) */
-     , (0x75756109, 0x757560CE, '2019-02-10 00:00:00') /* Mu-miyah Champion (44036) */
-     , (0x75756109, 0x757560CF, '2019-02-10 00:00:00') /* Bak'tshay Servant (44026) */
-     , (0x75756109, 0x757560D0, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44038) */
-     , (0x75756109, 0x757560D1, '2019-02-10 00:00:00') /* Bak'tshay (44022) */
-     , (0x75756109, 0x757560D2, '2019-02-10 00:00:00') /* Bak'tshay Servant (44026) */
-     , (0x75756109, 0x757560D3, '2019-02-10 00:00:00') /* Mu-miyah Lord (44040) */
-     , (0x75756109, 0x757560D4, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44044) */
-     , (0x75756109, 0x757560F5, '2019-02-10 00:00:00') /* Mu-miyah Sentinel (44042) */
-     , (0x75756109, 0x757560F6, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44030) */
-     , (0x75756109, 0x757560F7, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44030) */
-     , (0x75756109, 0x757560F8, '2019-02-10 00:00:00') /* Bak'tshay Guard (44024) */
-     , (0x75756109, 0x757560FA, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44044) */
-     , (0x75756109, 0x757560FB, '2019-02-10 00:00:00') /* Mu-miyah Champion (44036) */
-     , (0x75756109, 0x757560FC, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44046) */
-     , (0x75756109, 0x757560FD, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44046) */
-     , (0x75756109, 0x757560FE, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44038) */
-     , (0x75756109, 0x757560FF, '2019-02-10 00:00:00') /* Mu-miyah Vizier (44046) */
-     , (0x75756109, 0x75756100, '2019-02-10 00:00:00') /* Bak'tshay (44022) */
-     , (0x75756109, 0x75756101, '2019-02-10 00:00:00') /* Bak'tshay Servant (44028) */
-     , (0x75756109, 0x75756102, '2019-02-10 00:00:00') /* Mu-miyah Guardian (44044) */
-     , (0x75756109, 0x75756103, '2019-02-10 00:00:00') /* Bak'tshay Guard (44024) */;
+VALUES (0x75756109, 0x757560A4, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44038) */
+     , (0x75756109, 0x757560A5, '2021-11-01 00:00:00') /* Bak'tshay Guard (44024) */
+     , (0x75756109, 0x757560A6, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44038) */
+     , (0x75756109, 0x757560A7, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44042) */
+     , (0x75756109, 0x757560A9, '2021-11-01 00:00:00') /* Mu-miyah Lord (44040) */
+     , (0x75756109, 0x757560AA, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44030) */
+     , (0x75756109, 0x757560B1, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44030) */
+     , (0x75756109, 0x757560B7, '2021-11-01 00:00:00') /* Bak'tshay Guard (44024) */
+     , (0x75756109, 0x757560C0, '2021-11-01 00:00:00') /* Mu-miyah Champion (44036) */
+     , (0x75756109, 0x757560C1, '2021-11-01 00:00:00') /* Bak'tshay (44022) */
+     , (0x75756109, 0x757560C2, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44044) */
+     , (0x75756109, 0x757560C3, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44044) */
+     , (0x75756109, 0x757560C4, '2021-11-01 00:00:00') /* Bak'tshay Servant (44028) */
+     , (0x75756109, 0x757560C5, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44046) */
+     , (0x75756109, 0x757560C6, '2021-11-01 00:00:00') /* Mu-miyah Lord (44040) */
+     , (0x75756109, 0x757560C7, '2021-11-01 00:00:00') /* Bak'tshay Servant (44026) */
+     , (0x75756109, 0x757560C8, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44046) */
+     , (0x75756109, 0x757560C9, '2021-11-01 00:00:00') /* Bak'tshay Servant (44028) */
+     , (0x75756109, 0x757560CA, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44042) */
+     , (0x75756109, 0x757560CB, '2021-11-01 00:00:00') /* Bak'tshay Servant (44028) */
+     , (0x75756109, 0x757560CC, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44042) */
+     , (0x75756109, 0x757560CD, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44046) */
+     , (0x75756109, 0x757560CE, '2021-11-01 00:00:00') /* Mu-miyah Champion (44036) */
+     , (0x75756109, 0x757560CF, '2021-11-01 00:00:00') /* Bak'tshay Servant (44026) */
+     , (0x75756109, 0x757560D0, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44038) */
+     , (0x75756109, 0x757560D1, '2021-11-01 00:00:00') /* Bak'tshay (44022) */
+     , (0x75756109, 0x757560D2, '2021-11-01 00:00:00') /* Bak'tshay Servant (44026) */
+     , (0x75756109, 0x757560D3, '2021-11-01 00:00:00') /* Mu-miyah Lord (44040) */
+     , (0x75756109, 0x757560D4, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44044) */
+     , (0x75756109, 0x757560F5, '2021-11-01 00:00:00') /* Mu-miyah Sentinel (44042) */
+     , (0x75756109, 0x757560F6, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44030) */
+     , (0x75756109, 0x757560F7, '2021-11-01 00:00:00') /* Bak'tshay Soldier (44030) */
+     , (0x75756109, 0x757560F8, '2021-11-01 00:00:00') /* Bak'tshay Guard (44024) */
+     , (0x75756109, 0x757560FA, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44044) */
+     , (0x75756109, 0x757560FB, '2021-11-01 00:00:00') /* Mu-miyah Champion (44036) */
+     , (0x75756109, 0x757560FC, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44046) */
+     , (0x75756109, 0x757560FD, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44046) */
+     , (0x75756109, 0x757560FE, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44038) */
+     , (0x75756109, 0x757560FF, '2021-11-01 00:00:00') /* Mu-miyah Vizier (44046) */
+     , (0x75756109, 0x75756100, '2021-11-01 00:00:00') /* Bak'tshay (44022) */
+     , (0x75756109, 0x75756101, '2021-11-01 00:00:00') /* Bak'tshay Servant (44028) */
+     , (0x75756109, 0x75756102, '2021-11-01 00:00:00') /* Mu-miyah Guardian (44044) */
+     , (0x75756109, 0x75756103, '2021-11-01 00:00:00') /* Bak'tshay Guard (44024) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575610A, 71410, 0x57560208, 86.595, -35.4824, 17.9395, 0.012296, 0, 0, 0.999924,  True, '2021-11-01 00:00:00'); /* Drids Doorman Lady Spawner */
 /* @teleloc 0x57560208 [86.595001 -35.482399 17.939501] 0.012296 0.000000 0.000000 0.999924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575610A, 0x757560E8, '2019-02-10 00:00:00') /* Bak'tshay Lady (44089) */;
+VALUES (0x7575610A, 0x757560E8, '2021-11-01 00:00:00') /* Bak'tshay Lady (44089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575610B, 71411, 0x57560213, 103.299, -35.4811, 17.9394, -0.005311, 0, 0, -0.999986,  True, '2021-11-01 00:00:00'); /* Drids Doorman Vizier Spawner */
 /* @teleloc 0x57560213 [103.299004 -35.481098 17.939400] -0.005311 0.000000 0.000000 -0.999986 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575610B, 0x757560EB, '2019-02-10 00:00:00') /* Mu-miyah Grand Vizier (44097) */;
+VALUES (0x7575610B, 0x757560EB, '2021-11-01 00:00:00') /* Mu-miyah Grand Vizier (44097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575610C,  5085, 0x57560198, 210.008, -71.9251, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x57560198 [210.007996 -71.925102 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575610C, 0x7575610D, '2020-02-07 18:57:36') /* Large Tome (44987) */;
+VALUES (0x7575610C, 0x7575610D, '2021-11-01 00:00:00') /* Large Tome (44987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575610D, 44987, 0x57560198, 209.85, -73.5, 1.1252, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Large Tome */

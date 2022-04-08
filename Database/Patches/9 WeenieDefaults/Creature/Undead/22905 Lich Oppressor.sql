@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22905;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22905, 'zombielichoppressor', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (22905, 'zombielichoppressor', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22905,   1,         16) /* ItemType - Creature */
@@ -150,6 +150,10 @@ VALUES (22905,    63,  2.037)  /* Acid Stream VI */
      , (22905,  2174,  2.037)  /* Archer's Gift */
      , (22905,  2228,  2.037)  /* Broadside of a Barn */
      , (22905,  2318,  2.037)  /* Gravity Well */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22905,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (22905, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22905, 9,  7045,  0, 0, 0.05, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */

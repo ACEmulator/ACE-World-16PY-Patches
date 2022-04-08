@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9057;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9057, 'golemzirconium', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (9057, 'golemzirconium', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9057,   1,         16) /* ItemType - Creature */
@@ -117,6 +117,10 @@ VALUES (9057,    58,   2.06)  /* Acid Stream I */
      , (9057,    64,   2.06)  /* Shock Wave I */
      , (9057,    65,   2.02)  /* Shock Wave II */
      , (9057,  1249,   2.06)  /* Drain Stamina Other I */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (9057,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (9057, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (9057,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

@@ -5,25 +5,25 @@ VALUES (0x740E7000,  7924, 0x40E7001A, 89.9139, 39.5006, 200.005, -0.980017, 0, 
 /* @teleloc 0x40E7001A [89.913902 39.500599 200.005005] -0.980017 0.000000 0.000000 0.198916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E7000, 0x740E7001, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E7002, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E7003, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E7004, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E7005, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7006, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7007, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7008, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7009, '2019-02-15 14:34:36') /* General Corcima (29417) */
-     , (0x740E7000, 0x740E700A, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E700B, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E700C, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E700D, '2019-02-15 14:34:36') /* Platinum Legion Castle Guard (29410) */
-     , (0x740E7000, 0x740E700E, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E700F, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7010, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7011, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7012, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */
-     , (0x740E7000, 0x740E7013, '2019-02-15 14:34:36') /* Royal Thaumaturge (29303) */;
+VALUES (0x740E7000, 0x740E7001, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E7002, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E7003, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E7004, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E7005, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7006, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7007, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7008, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7009, '2021-11-01 00:00:00') /* General Corcima (29417) */
+     , (0x740E7000, 0x740E700A, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E700B, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E700C, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E700D, '2021-11-01 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E7000, 0x740E700E, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E700F, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7010, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7011, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7012, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7000, 0x740E7013, '2021-11-01 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E7001, 29410, 0x40E70026, 104.977, 127.201, 200.005, 0.999837, 0, 0, -0.018071,  True, '2021-11-01 00:00:00'); /* Platinum Legion Castle Guard */

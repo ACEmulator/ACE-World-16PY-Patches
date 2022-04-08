@@ -20,7 +20,7 @@ Use:
             - Tell: You are not powerful enough to assist me, small one.
 
 Gotoset: Check0
-    - Tell: Your first challenge is a simple and practical one. Bring me 100 Infused Ambers, so I may use them to forge the first few gems you will be earning.                
+    - Tell: Your first challenge is a simple and practical one. Bring me 100 Infused Ambers, so I may use them to forge the first few gems you will be earning.
 
 Gotoset: Check1
     - InqQuestSolves: ParagonWeapons, 1 - 1
@@ -55,7 +55,7 @@ Gotoset: Check3
                     - InqYesNo: Would you like to spend 100,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 100000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53149
                             - StampQuest: ParagonWeapons
                         TestFailure:
@@ -110,7 +110,7 @@ Gotoset: Check8
                     - InqYesNo: Would you like to spend 100,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 100000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53154
                             - StampQuest: ParagonWeapons
                         TestFailure:
@@ -157,7 +157,7 @@ Gotoset: Check13
                     - InqYesNo: Would you like to spend 200,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 200000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53159
                             - StampQuest: ParagonWeapons
                         TestFailure:
@@ -186,7 +186,7 @@ Gotoset: Check16
         QuestSuccess:
             - Tell: In Northern Osteth lies the lair of the Paradox-touched Olthoi Queen. Her children swarm over the surface above her lair.
             - Tell: Bring me 1,000 Small Olthoi Venom Sacs from the Paradox-touched Olthoi there, so I may study the strange magical corruptions used upon them.
-            
+
 Gotoset: Check17
     - InqQuestSolves: ParagonWeapons, 17 - 17
         QuestFailure:
@@ -205,7 +205,7 @@ Gotoset: Check18
                     - InqYesNo: Would you like to spend 200,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 200000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53164
                             - StampQuest: ParagonWeapons
                         TestFailure:
@@ -252,7 +252,7 @@ Gotoset: Check23
                     - InqYesNo: Would you like to spend 300,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 300000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53169
                             - StampQuest: ParagonWeapons
                         TestFailure:
@@ -300,7 +300,7 @@ Gotoset: Check28
                     - InqYesNo: Would you like to spend 300,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 300000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53174
                             - StampQuest: ParagonWeapons
                         TestFailure:
@@ -348,7 +348,7 @@ Gotoset: Check33
                     - InqYesNo: Would you like to spend 400,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 400000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53179
                             - StampQuest: ParagonWeapons
                         TestFailure:
@@ -402,14 +402,14 @@ Gotoset: Check38
                     - InqYesNo: Would you like to spend 400,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 400000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53184
                             - StampQuest: ParagonWeapons
                         TestFailure:
                             - Tell: Return to me when ready to proceed.
                 TestFailure:
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 400,000 Luminance.
-                    
+
 Gotoset: Check39
     - InqQuestSolves: ParagonWeapons, 39 - 39
         QuestFailure:
@@ -450,14 +450,14 @@ Gotoset: Check43
                     - InqYesNo: Would you like to spend 500,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 500000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53189
                             - StampQuest: ParagonWeapons
                         TestFailure:
                             - Tell: Return to me when ready to proceed.
                 TestFailure:
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 500,000 Luminance.
-                    
+
 Gotoset: Check44
     - InqQuestSolves: ParagonWeapons, 44 - 44
         QuestFailure:
@@ -504,14 +504,14 @@ Gotoset: Check48
                     - InqYesNo: Would you like to spend 1,000,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 1000000
-                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
+                            - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown.
                             - Give: 53194
                             - StampQuest: ParagonWeapons
                         TestFailure:
                             - Tell: Return to me when ready to proceed.
                 TestFailure:
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 1,000,000 Luminance.
-            
+
 Gotoset: Check49
     - InqQuestSolves: ParagonWeapons, 49 - 49
         QuestFailure:
@@ -519,7 +519,7 @@ Gotoset: Check49
         QuestSuccess:
             - Tell: The ritual to empower the final Paragon Gem is a costly one. To craft your final imbue, I will need 500 Infused Ambers for the ritual.
             - Tell: When you have given the ambers to me, we will begin.
-            
+
 Give: 53479
     - TurnToTarget
     - Tell: Very well, you may start my challenges over from scratch.
@@ -548,7 +548,7 @@ Refuse: 39467
             - StampQuest: ParagonWeapons
         QuestFailure:
             - Tell: I did not ask for this, small one.
-            
+
 Refuse: 44240
     - TurnToTarget
     - InqQuestSolves: ParagonWeapons, 6 - 6
@@ -604,7 +604,7 @@ Refuse: 41982
             - StampQuest: ParagonWeapons
         QuestFailure:
             - Tell: I did not ask for this, small one.
-            
+
 Refuse: 53473
     - TurnToTarget
     - InqQuestSolves: ParagonWeapons, 15 - 15
@@ -820,7 +820,7 @@ Refuse: 53366
             - StampQuest: ParagonWeapons
         QuestFailure:
             - Tell: I did not ask for this, small one.
-            
+
 Refuse: 53362
     - TurnToTarget
     - InqQuestSolves: ParagonWeapons, 45 - 45
@@ -831,7 +831,7 @@ Refuse: 53362
             - Give: 53191
             - StampQuest: ParagonWeapons
         QuestFailure:
-            - Tell: I did not ask for this, small one.            
+            - Tell: I did not ask for this, small one.
 
 Refuse: 53364
     - TurnToTarget
@@ -845,10 +845,22 @@ Refuse: 53364
         QuestFailure:
             - Tell: I did not ask for this, small one.
 
+Refuse: 52815
+    - TurnToTarget
+    - InqQuestSolves: ParagonWeapons, 47 - 47
+        QuestSuccess:
+            - TakeItems: 52815, 1
+            - Tell: Ah, you've succeeded. I hope you found it a worthy challenge, or at least a reprieve from all the corruption I've tasked you to fight.
+            - Tell: Now, for your efforts, this is for you.
+            - Give: 53193
+            - StampQuest: ParagonWeapons
+        QuestFailure:
+            - Tell: I did not ask for this, small one.
+
 Refuse: 52969
     - TurnToTarget
     - Goto: CorruptedAmber26
-    
+
 Gotoset: CorruptedAmber26
     - InqQuestSolves: ParagonWeapons, 25 - 25
             QuestSuccess:

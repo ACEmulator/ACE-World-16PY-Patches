@@ -377,7 +377,7 @@ VALUES (0x7013605E,  2180, 0x01360247, 70, -76.65, -5.995, 1, 0, 0, 0, False, '2
 /* @teleloc 0x01360247 [70.000000 -76.650002 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013605E, 0x70136031, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x7013605E, 0x70136031, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013605F,  1914, 0x01360250, 67.1675, -124.05, -5.9875, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
@@ -516,21 +516,21 @@ VALUES (0x70136083, 14549, 0x013602AF, 36.0229, -90.2397, 0.024, 0.991188, 0, 0,
 /* @teleloc 0x013602AF [36.022900 -90.239700 0.024000] 0.991188 0.000000 0.000000 -0.132465 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70136083, 0x7013607F, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x70136083, 0x7013607F, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70136084,  4065, 0x013602AF, 43.9603, -89.992, 0.024, 0.999112, 0, 0, 0.042132, False, '2021-11-01 00:00:00'); /* Lightning Trap */
 /* @teleloc 0x013602AF [43.960300 -89.991997 0.024000] 0.999112 0.000000 0.000000 0.042132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70136084, 0x7013607E, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x70136084, 0x7013607E, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70136085,  2180, 0x013602B1, 40, -94.85, 0.005, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x013602B1 [40.000000 -94.849998 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70136085, 0x70136099, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x70136085, 0x70136099, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70136086,  2609, 0x013602B3, 40, -110, 0.005, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -557,21 +557,21 @@ VALUES (0x7013608B,  4061, 0x013602B3, 40.0233, -114.104, 0.024, -0.730879, 0, 0
 /* @teleloc 0x013602B3 [40.023300 -114.103996 0.024000] -0.730879 0.000000 0.000000 -0.682507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013608B, 0x70136087, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x7013608B, 0x70136087, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013608C,  4067, 0x013602B3, 40.0421, -106.004, 0.024, -0.755672, 0, 0, -0.65495, False, '2021-11-01 00:00:00'); /* Frost Trap */
 /* @teleloc 0x013602B3 [40.042099 -106.003998 0.024000] -0.755672 0.000000 0.000000 -0.654950 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013608C, 0x70136088, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x7013608C, 0x70136088, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013608D,  2180, 0x013602B5, 44.85, -110, 0.005, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x013602B5 [44.849998 -110.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013608D, 0x7013607D, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x7013608D, 0x7013607D, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013608E, 27423, 0x013602B7, 52.1842, -89.1928, 0.0066, -0.152234, 0, 0, -0.988344,  True, '2021-11-01 00:00:00'); /* Enthralled Zealot */
@@ -610,7 +610,7 @@ VALUES (0x70136096,  4095, 0x013602B8, 50.0464, -101.286, 0.005, 0.744103, 0, 0,
 /* @teleloc 0x013602B8 [50.046398 -101.286003 0.005000] 0.744103 0.000000 0.000000 0.668065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70136096, 0x70136095, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x70136096, 0x70136095, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70136097,  2609, 0x013602BB, 60, -90, 0.005, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Lever */
@@ -629,21 +629,21 @@ VALUES (0x7013609A,  7444, 0x013602BB, 60.0338, -86.4918, 0.024, 0.698816, 0, 0,
 /* @teleloc 0x013602BB [60.033798 -86.491798 0.024000] 0.698816 0.000000 0.000000 -0.715301 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013609A, 0x70136097, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x7013609A, 0x70136097, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013609B,  4066, 0x013602BB, 60.059, -94.0138, 0.024, 0.999757, 0, 0, -0.022053, False, '2021-11-01 00:00:00'); /* Flame Trap */
 /* @teleloc 0x013602BB [60.058998 -94.013802 0.024000] 0.999757 0.000000 0.000000 -0.022053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013609B, 0x70136098, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x7013609B, 0x70136098, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013609C,  2180, 0x013602BD, 55.15, -90, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x013602BD [55.150002 -90.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013609C, 0x701360A1, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x7013609C, 0x701360A1, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013609D, 27423, 0x013602BE, 60.3105, -101.641, 0.0066, -0.767536, 0, 0, -0.641006,  True, '2021-11-01 00:00:00'); /* Enthralled Zealot */
@@ -678,35 +678,35 @@ VALUES (0x701360A4, 14548, 0x013602BF, 56.5686, -110.002, 0.024, -0.102202, 0, 0
 /* @teleloc 0x013602BF [56.568600 -110.001999 0.024000] -0.102202 0.000000 0.000000 -0.994764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360A4, 0x7013609F, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x701360A4, 0x7013609F, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360A5,  4063, 0x013602BF, 63.9548, -110.082, 0.024, 0.018844, 0, 0, -0.999822, False, '2021-11-01 00:00:00'); /* Acid Trap */
 /* @teleloc 0x013602BF [63.954800 -110.082001 0.024000] 0.018844 0.000000 0.000000 -0.999822 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360A5, 0x701360A0, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x701360A5, 0x701360A0, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360A6,  2180, 0x013602C1, 60, -105.15, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x013602C1 [60.000000 -105.150002 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360A6, 0x70136094, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x701360A6, 0x70136094, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360A7,  2180, 0x013602C4, 65.15, -100, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x013602C4 [65.150002 -100.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360A7, 0x70136086, '2005-02-09 10:00:00') /* Lever (2609) */;
+VALUES (0x701360A7, 0x70136086, '2021-11-01 00:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360A8,  2180, 0x013602C4, 72.5, -100, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x013602C4 [72.500000 -100.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360A8, 0x701360AC, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x701360A8, 0x701360AC, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360A9, 27423, 0x013602C4, 69.8557, -99.7614, 0.0066, 0.696144, 0, 0, 0.717903,  True, '2021-11-01 00:00:00'); /* Enthralled Zealot */
@@ -733,154 +733,154 @@ VALUES (0x701360AE,  4062, 0x013602C4, 70.4186, -98.862, 0.024, -0.999934, 0, 0,
 /* @teleloc 0x013602C4 [70.418602 -98.862000 0.024000] -0.999934 0.000000 0.000000 0.011517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360AE, 0x701360AB, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x701360AE, 0x701360AB, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360AF,  4058, 0x013602C4, 67.1155, -98.8243, 0.024, -0.999588, 0, 0, -0.028687, False, '2021-11-01 00:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0x013602C4 [67.115501 -98.824303 0.024000] -0.999588 0.000000 0.000000 -0.028687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360AF, 0x701360AD, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x701360AF, 0x701360AD, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360B0,  5085, 0x01360184, 108.55, -189.83, -41.995, 0.859855, 0, 0, 0.510539, False, '2021-11-01 00:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x01360184 [108.550003 -189.830002 -41.994999] 0.859855 0.000000 0.000000 0.510539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360B0, 0x70136023, '2005-02-09 10:00:00') /* Ancient Pyreal Dagger (6032) */;
+VALUES (0x701360B0, 0x70136023, '2021-11-01 00:00:00') /* Ancient Pyreal Dagger (6032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360B1,  4219, 0x013602AE, 26.5585, -134.237, 0.005, 0.999973, 0, 0, 0.007364, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x013602AE [26.558500 -134.237000 0.005000] 0.999973 0.000000 0.000000 0.007364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360B1, 0x70136000, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136001, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136002, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136003, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136004, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136005, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136006, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x7013600E, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x7013600F, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136010, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136011, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136012, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136013, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x7013601E, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x7013601F, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136020, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136021, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136022, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136026, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B1, 0x70136092, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B1, 0x70136093, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */;
+VALUES (0x701360B1, 0x70136000, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136001, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136002, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136003, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136004, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136005, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136006, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x7013600E, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x7013600F, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136010, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136011, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136012, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136013, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x7013601E, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x7013601F, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136020, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136021, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136022, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136026, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B1, 0x70136092, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B1, 0x70136093, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360B2,  4219, 0x013602AE, 27.3479, -134.173, 0.005, 0.999973, 0, 0, 0.007364, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x013602AE [27.347900 -134.173004 0.005000] 0.999973 0.000000 0.000000 0.007364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360B2, 0x7013604D, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136061, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136062, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136063, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136064, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136065, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136066, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136080, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136081, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136082, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136089, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x7013608A, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x7013608E, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x7013608F, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136090, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x70136091, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x7013609D, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x7013609E, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x701360A2, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x701360A9, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B2, 0x701360AA, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */;
+VALUES (0x701360B2, 0x7013604D, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136061, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136062, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136063, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136064, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136065, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136066, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136080, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136081, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136082, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136089, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x7013608A, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x7013608E, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x7013608F, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136090, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x70136091, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x7013609D, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x7013609E, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x701360A2, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x701360A9, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B2, 0x701360AA, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360B3,  4219, 0x013602AE, 28.19, -134.182, 0.005, 0.999973, 0, 0, 0.007364, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x013602AE [28.190001 -134.182007 0.005000] 0.999973 0.000000 0.000000 0.007364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360B3, 0x70136036, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136037, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136038, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013603B, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013603C, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013603D, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013603E, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013603F, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136042, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136043, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136044, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136045, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136046, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136047, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136048, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136049, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013604A, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013604E, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x7013604F, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x70136050, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B3, 0x701360A3, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */;
+VALUES (0x701360B3, 0x70136036, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136037, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136038, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013603B, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013603C, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013603D, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013603E, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013603F, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136042, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136043, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136044, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136045, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136046, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136047, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136048, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136049, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013604A, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013604E, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x7013604F, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x70136050, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B3, 0x701360A3, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360B4,  4219, 0x013602AE, 28.9332, -134.167, 0.005, 0.999973, 0, 0, 0.007364, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x013602AE [28.933201 -134.167007 0.005000] 0.999973 0.000000 0.000000 0.007364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360B4, 0x7013602F, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x70136030, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x70136032, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x70136033, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x70136034, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x70136035, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x70136039, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x7013603A, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
-     , (0x701360B4, 0x70136068, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136069, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x7013606A, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x7013606B, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x7013606C, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x7013606F, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136070, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136071, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136072, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136073, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136074, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136075, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B4, 0x70136076, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */;
+VALUES (0x701360B4, 0x7013602F, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x70136030, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x70136032, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x70136033, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x70136034, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x70136035, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x70136039, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x7013603A, '2021-11-01 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360B4, 0x70136068, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136069, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x7013606A, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x7013606B, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x7013606C, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x7013606F, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136070, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136071, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136072, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136073, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136074, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136075, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B4, 0x70136076, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360B5,  4219, 0x013602AE, 25.8284, -134.243, 0.005, 0.999973, 0, 0, 0.007364, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x013602AE [25.828400 -134.242996 0.005000] 0.999973 0.000000 0.000000 0.007364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360B5, 0x70136014, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136015, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136016, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136017, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136018, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136019, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013601A, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013601B, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013601C, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013601D, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136025, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136027, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136028, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136029, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013602A, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013602B, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013602C, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013602D, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013602E, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013606D, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x7013606E, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */
-     , (0x701360B5, 0x70136077, '2005-02-09 10:00:00') /* Siessa Sclavus (34045) */;
+VALUES (0x701360B5, 0x70136014, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136015, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136016, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136017, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136018, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136019, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013601A, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013601B, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013601C, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013601D, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136025, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136027, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136028, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136029, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013602A, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013602B, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013602C, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013602D, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013602E, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013606D, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x7013606E, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360B5, 0x70136077, '2021-11-01 00:00:00') /* Siessa Sclavus (34045) */;

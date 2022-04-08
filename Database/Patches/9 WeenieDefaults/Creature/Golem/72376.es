@@ -1,2 +1,2 @@
 NewEnemy:
-	- CastSpellInstant: 6148
+    - CastSpellInstant: 6148

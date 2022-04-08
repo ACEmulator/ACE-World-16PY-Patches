@@ -701,127 +701,127 @@ VALUES (0x7594F0D1,  7924, 0x594F02BF, 143.918, -129.639, 0.006, 0.373519, 0, 0,
 /* @teleloc 0x594F02BF [143.917999 -129.639008 0.006000] 0.373519 0.000000 0.000000 0.927623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594F0D1, 0x7594F002, '2020-05-17 00:00:00') /* Prototype Bloodstone Fragment (51371) */
-     , (0x7594F0D1, 0x7594F003, '2020-05-17 00:00:00') /* Prototype Bloodstone (51365) */
-     , (0x7594F0D1, 0x7594F033, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F034, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F035, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F036, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F037, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F038, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F039, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F03A, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F03B, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F03C, '2020-05-17 00:00:00') /* Gurog Guardian Soldier (51359) */
-     , (0x7594F0D1, 0x7594F03D, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F03E, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F03F, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F040, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F041, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F042, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F045, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F046, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F047, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F048, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F049, '2020-05-17 00:00:00') /* Gurog Guardian Minion (51358) */
-     , (0x7594F0D1, 0x7594F04A, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F04B, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F04C, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F04D, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F04E, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F050, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F051, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F052, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F053, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F054, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F055, '2020-05-17 00:00:00') /* Gurog Guardian Henchman (51357) */
-     , (0x7594F0D1, 0x7594F057, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F058, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F059, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F05A, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F05C, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F05D, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F05E, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F05F, '2020-05-17 00:00:00') /* Frozen Wight Sorcerer (43823) */
-     , (0x7594F0D1, 0x7594F060, '2020-05-17 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
-     , (0x7594F0D1, 0x7594F061, '2020-05-17 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
-     , (0x7594F0D1, 0x7594F062, '2020-05-17 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
-     , (0x7594F0D1, 0x7594F065, '2020-05-17 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
-     , (0x7594F0D1, 0x7594F066, '2020-05-17 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
-     , (0x7594F0D1, 0x7594F067, '2020-05-17 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
-     , (0x7594F0D1, 0x7594F068, '2020-05-17 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
-     , (0x7594F0D1, 0x7594F069, '2020-05-17 00:00:00') /* Frozen Wight Guardian Captain (51360) */
-     , (0x7594F0D1, 0x7594F06A, '2020-05-17 00:00:00') /* Frozen Wight Guardian Captain (51360) */
-     , (0x7594F0D1, 0x7594F06B, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F06C, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F06D, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F06E, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F06F, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F071, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F077, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F078, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F079, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F07A, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F07B, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F07C, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F07D, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F07E, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F07F, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F080, '2020-05-17 00:00:00') /* Frozen Wight Guardian (51361) */
-     , (0x7594F0D1, 0x7594F081, '2020-05-17 00:00:00') /* Frozen Wight Captain (43821) */
-     , (0x7594F0D1, 0x7594F083, '2020-05-17 00:00:00') /* Frozen Wight Captain (43821) */
-     , (0x7594F0D1, 0x7594F084, '2020-05-17 00:00:00') /* Frozen Wight Captain (43821) */
-     , (0x7594F0D1, 0x7594F085, '2020-05-17 00:00:00') /* Frozen Wight Captain (43821) */
-     , (0x7594F0D1, 0x7594F086, '2020-05-17 00:00:00') /* Frozen Wight Captain (43821) */
-     , (0x7594F0D1, 0x7594F089, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F08B, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F08D, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F08F, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F090, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F091, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F092, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F093, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F094, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F095, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F096, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F097, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F098, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F099, '2020-05-17 00:00:00') /* Frozen Wight (43822) */
-     , (0x7594F0D1, 0x7594F09B, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51356) */
-     , (0x7594F0D1, 0x7594F09C, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51356) */
-     , (0x7594F0D1, 0x7594F09D, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51356) */
-     , (0x7594F0D1, 0x7594F09E, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A0, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A1, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A2, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A3, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A4, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A5, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A6, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A7, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A8, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0A9, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0AA, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0AB, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0AC, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51356) */
-     , (0x7594F0D1, 0x7594F0AD, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0AE, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0AF, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0B0, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0B1, '2020-05-17 00:00:00') /* Experimental Bloodstone Fragment (51344) */
-     , (0x7594F0D1, 0x7594F0B2, '2020-05-17 00:00:00') /* Experimental Bloodstone (51342) */
-     , (0x7594F0D1, 0x7594F0BE, '2020-05-17 00:00:00') /* Bloodstone Shard (51355) */
-     , (0x7594F0D1, 0x7594F0BF, '2020-05-17 00:00:00') /* Bloodstone Shard (51354) */
-     , (0x7594F0D1, 0x7594F0C0, '2020-05-17 00:00:00') /* Bloodstone Shard (51355) */
-     , (0x7594F0D1, 0x7594F0C1, '2020-05-17 00:00:00') /* Bloodstone Shard (51355) */
-     , (0x7594F0D1, 0x7594F0C2, '2020-05-17 00:00:00') /* Bloodstone Shard (51355) */
-     , (0x7594F0D1, 0x7594F0C3, '2020-05-17 00:00:00') /* Bloodstone Shard (43800) */
-     , (0x7594F0D1, 0x7594F0C4, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0C5, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0C6, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0C7, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0C8, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0C9, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0CA, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0CC, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */
-     , (0x7594F0D1, 0x7594F0CD, '2020-05-17 00:00:00') /* Bloodstone Fragment (51353) */;
+VALUES (0x7594F0D1, 0x7594F002, '2021-11-01 00:00:00') /* Prototype Bloodstone Fragment (51371) */
+     , (0x7594F0D1, 0x7594F003, '2021-11-01 00:00:00') /* Prototype Bloodstone (51365) */
+     , (0x7594F0D1, 0x7594F033, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F034, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F035, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F036, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F037, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F038, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F039, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F03A, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F03B, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F03C, '2021-11-01 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F0D1, 0x7594F03D, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F03E, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F03F, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F040, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F041, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F042, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F045, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F046, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F047, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F048, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F049, '2021-11-01 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F0D1, 0x7594F04A, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F04B, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F04C, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F04D, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F04E, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F050, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F051, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F052, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F053, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F054, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F055, '2021-11-01 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F0D1, 0x7594F057, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F058, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F059, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F05A, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F05C, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F05D, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F05E, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F05F, '2021-11-01 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F0D1, 0x7594F060, '2021-11-01 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F0D1, 0x7594F061, '2021-11-01 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F0D1, 0x7594F062, '2021-11-01 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F0D1, 0x7594F065, '2021-11-01 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F0D1, 0x7594F066, '2021-11-01 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F0D1, 0x7594F067, '2021-11-01 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F0D1, 0x7594F068, '2021-11-01 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F0D1, 0x7594F069, '2021-11-01 00:00:00') /* Frozen Wight Guardian Captain (51360) */
+     , (0x7594F0D1, 0x7594F06A, '2021-11-01 00:00:00') /* Frozen Wight Guardian Captain (51360) */
+     , (0x7594F0D1, 0x7594F06B, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F06C, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F06D, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F06E, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F06F, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F071, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F077, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F078, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F079, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F07A, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F07B, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F07C, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F07D, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F07E, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F07F, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F080, '2021-11-01 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F0D1, 0x7594F081, '2021-11-01 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F0D1, 0x7594F083, '2021-11-01 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F0D1, 0x7594F084, '2021-11-01 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F0D1, 0x7594F085, '2021-11-01 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F0D1, 0x7594F086, '2021-11-01 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F0D1, 0x7594F089, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F08B, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F08D, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F08F, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F090, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F091, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F092, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F093, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F094, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F095, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F096, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F097, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F098, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F099, '2021-11-01 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F0D1, 0x7594F09B, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51356) */
+     , (0x7594F0D1, 0x7594F09C, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51356) */
+     , (0x7594F0D1, 0x7594F09D, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51356) */
+     , (0x7594F0D1, 0x7594F09E, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A0, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A1, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A2, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A3, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A4, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A5, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A6, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A7, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A8, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0A9, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0AA, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0AB, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0AC, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51356) */
+     , (0x7594F0D1, 0x7594F0AD, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0AE, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0AF, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0B0, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0B1, '2021-11-01 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F0D1, 0x7594F0B2, '2021-11-01 00:00:00') /* Experimental Bloodstone (51342) */
+     , (0x7594F0D1, 0x7594F0BE, '2021-11-01 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F0D1, 0x7594F0BF, '2021-11-01 00:00:00') /* Bloodstone Shard (51354) */
+     , (0x7594F0D1, 0x7594F0C0, '2021-11-01 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F0D1, 0x7594F0C1, '2021-11-01 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F0D1, 0x7594F0C2, '2021-11-01 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F0D1, 0x7594F0C3, '2021-11-01 00:00:00') /* Bloodstone Shard (43800) */
+     , (0x7594F0D1, 0x7594F0C4, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0C5, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0C6, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0C7, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0C8, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0C9, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0CA, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0CC, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F0D1, 0x7594F0CD, '2021-11-01 00:00:00') /* Bloodstone Fragment (51353) */;

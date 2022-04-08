@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87143;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87143, 'ace87143-enhancedaxebasaltnew', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (87143, 'ace87143-enhancedobsidianaxe', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87143,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,7 +26,7 @@ VALUES (87143,   1,          1) /* ItemType - MeleeWeapon */
      , (87143, 158,          2) /* WieldRequirements - RawSkill */
      , (87143, 159,         45) /* WieldSkillType - LightWeapons */
      , (87143, 160,        300) /* WieldDifficulty */
-     , (87143, 263,         16) /* ResistanceModifierType */
+     , (87143, 263,         16) /* ResistanceModifierType - Fire */
      , (87143, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

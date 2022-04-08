@@ -1,3 +1,3 @@
 Generation:
-	- Delay: 300, Motion: Wave
-	- StopEvent: TrialoftheMindPuzzleEvent
+    - Delay: 300, Motion: Wave
+    - StopEvent: TrialoftheMindPuzzleEvent

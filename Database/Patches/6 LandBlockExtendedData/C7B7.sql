@@ -641,7 +641,7 @@ VALUES (0x7C7B7124,  4463, 0xC7B703AD, 28.2533, -0.029573, 150.4, -0.382683, 0, 
 /* @teleloc 0xC7B703AD [28.253300 -0.029573 150.399994] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7B7124, 0x7C7B711C, '2005-02-09 10:00:00') /* Olthoi Cistern (35936) */;
+VALUES (0x7C7B7124, 0x7C7B711C, '2021-11-01 00:00:00') /* Olthoi Cistern (35936) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B7139, 35929, 0xC7B701A2, -56.5894, 56.5477, 126.4, 0.92388, 0, 0, -0.382683, False, '2021-11-01 00:00:00'); /* Acid */
@@ -768,162 +768,162 @@ VALUES (0x7C7B7157,  7924, 0xC7B703DC, 30.3353, 26.2315, 156.405, 0.387611, 0, 0
 /* @teleloc 0xC7B703DC [30.335300 26.231501 156.404999] 0.387611 0.000000 0.000000 -0.921823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7B7157, 0x7C7B7012, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7013, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7014, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7015, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7019, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B701A, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B701B, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B701C, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B701D, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B701E, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B701F, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7020, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7021, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7024, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7025, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7026, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7027, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7028, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7029, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B702A, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B702B, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B702C, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B702D, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B702E, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B702F, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7030, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7031, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7033, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7034, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7035, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B703E, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7041, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7042, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
-     , (0x7C7B7157, 0x7C7B7043, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7044, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7045, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7046, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7047, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7048, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7049, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B704A, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B704B, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B704C, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B704D, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B704E, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B704F, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7050, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7051, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7052, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7053, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7054, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7055, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7056, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7058, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B705D, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B705F, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7060, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7061, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7062, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7063, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7064, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7065, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7072, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7073, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7074, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7075, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7076, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7077, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7078, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7079, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B707A, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B707B, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B707C, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B707D, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B707E, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B707F, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7080, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7081, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7082, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7083, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
-     , (0x7C7B7157, 0x7C7B7084, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7085, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7086, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7087, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7088, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7089, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B708F, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7093, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7094, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7095, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7096, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7097, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7098, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B7099, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B709A, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B709B, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B709D, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B709E, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
-     , (0x7C7B7157, 0x7C7B709F, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Queen (35888) */
-     , (0x7C7B7157, 0x7C7B70A4, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70A5, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70A6, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70A7, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70A8, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70A9, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70AA, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70B0, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70B1, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70B2, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
-     , (0x7C7B7157, 0x7C7B70B7, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70B8, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70B9, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70BA, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70BB, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70BC, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70BD, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70C2, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70C3, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
-     , (0x7C7B7157, 0x7C7B70C4, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70C5, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70C8, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70C9, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70CA, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70CB, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70CC, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70CD, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70CE, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70CF, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70D0, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70D1, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
-     , (0x7C7B7157, 0x7C7B70D2, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
-     , (0x7C7B7157, 0x7C7B70D3, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
-     , (0x7C7B7157, 0x7C7B70D4, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
-     , (0x7C7B7157, 0x7C7B70D5, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
-     , (0x7C7B7157, 0x7C7B70DE, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
-     , (0x7C7B7157, 0x7C7B70DF, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
-     , (0x7C7B7157, 0x7C7B70E5, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
-     , (0x7C7B7157, 0x7C7B70E6, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
-     , (0x7C7B7157, 0x7C7B70EB, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
-     , (0x7C7B7157, 0x7C7B70EC, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
-     , (0x7C7B7157, 0x7C7B70EE, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
-     , (0x7C7B7157, 0x7C7B70F5, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70F6, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70F7, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70F8, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70F9, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70FA, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70FB, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70FC, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B70FD, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B7102, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B7103, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B7104, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B7105, '2020-08-15 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
-     , (0x7C7B7157, 0x7C7B7158, '2020-08-16 13:02:32') /* Paradox-touched Olthoi Warrior (35885) */
-     , (0x7C7B7157, 0x7C7B7159, '2020-08-16 13:04:50') /* Paradox-touched Olthoi Ripper (35879) */;
+VALUES (0x7C7B7157, 0x7C7B7012, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7013, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7014, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7015, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7019, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B701A, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B701B, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B701C, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B701D, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B701E, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B701F, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7020, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7021, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7024, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7025, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7026, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7027, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7028, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7029, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B702A, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B702B, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B702C, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B702D, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B702E, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B702F, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7030, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7031, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7033, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7034, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7035, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B703E, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7041, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7042, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Swarm Eviscerator (35881) */
+     , (0x7C7B7157, 0x7C7B7043, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7044, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7045, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7046, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7047, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7048, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7049, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B704A, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B704B, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B704C, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B704D, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B704E, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B704F, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7050, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7051, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7052, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7053, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7054, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7055, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7056, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7058, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B705D, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B705F, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7060, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7061, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7062, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7063, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7064, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7065, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7072, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7073, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7074, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7075, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7076, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7077, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7078, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7079, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B707A, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B707B, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B707C, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B707D, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B707E, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B707F, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7080, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7081, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7082, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7083, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Slasher (35880) */
+     , (0x7C7B7157, 0x7C7B7084, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7085, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7086, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7087, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7088, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7089, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B708F, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7093, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7094, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7095, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7096, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7097, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7098, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B7099, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B709A, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B709B, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B709D, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B709E, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */
+     , (0x7C7B7157, 0x7C7B709F, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Queen (35888) */
+     , (0x7C7B7157, 0x7C7B70A4, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70A5, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70A6, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70A7, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70A8, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70A9, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70AA, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70B0, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70B1, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70B2, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C7B7157, 0x7C7B70B7, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70B8, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70B9, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70BA, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70BB, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70BC, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70BD, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70C2, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70C3, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C7B7157, 0x7C7B70C4, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70C5, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70C8, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70C9, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70CA, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70CB, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70CC, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70CD, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70CE, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70CF, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70D0, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70D1, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lancer (35883) */
+     , (0x7C7B7157, 0x7C7B70D2, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
+     , (0x7C7B7157, 0x7C7B70D3, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
+     , (0x7C7B7157, 0x7C7B70D4, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
+     , (0x7C7B7157, 0x7C7B70D5, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Lacerator (35878) */
+     , (0x7C7B7157, 0x7C7B70DE, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C7B7157, 0x7C7B70DF, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C7B7157, 0x7C7B70E5, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C7B7157, 0x7C7B70E6, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C7B7157, 0x7C7B70EB, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C7B7157, 0x7C7B70EC, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C7B7157, 0x7C7B70EE, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C7B7157, 0x7C7B70F5, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70F6, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70F7, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70F8, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70F9, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70FA, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70FB, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70FC, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B70FD, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B7102, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B7103, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B7104, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B7105, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C7B7157, 0x7C7B7158, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C7B7157, 0x7C7B7159, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Ripper (35879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B7158, 35885, 0xC7B70349, -99.5096, 14.4208, 150.4, 0.375387, 0, 0, -0.926868,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior */
@@ -942,7 +942,7 @@ VALUES (0x7C7B76A5,  1154, 0xC7B703E2, 33.4914, 25.2662, 156.4, 0.698313, 0, 0, 
 /* @teleloc 0xC7B703E2 [33.491402 25.266199 156.399994] 0.698313 0.000000 0.000000 -0.715792 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7B76A5, 0x7C7B76A6, '2020-01-30 00:00:00') /* Exploration Marker (39811) */;
+VALUES (0x7C7B76A5, 0x7C7B76A6, '2021-11-01 00:00:00') /* Exploration Marker (39811) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B76A6, 39811, 0xC7B703E2, 33.4914, 25.2662, 156.4, 0.698313, 0, 0, -0.715792,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

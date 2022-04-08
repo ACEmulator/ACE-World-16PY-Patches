@@ -17,7 +17,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
     - Motion: Twitch3
 
 Death: 
-	- DirectBroadcast: My master will take his revenge, weakling flesh puppet!
-	
+    - DirectBroadcast: My master will take his revenge, weakling flesh puppet!
+    
 WoundedTaunt: Probability: 0.1
-	- Tell: This world no longer belongs to your kind!
+    - Tell: This world no longer belongs to your kind!

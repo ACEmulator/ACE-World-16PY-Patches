@@ -161,7 +161,7 @@ VALUES (0x70071027,  7924, 0x00710123, 13.3143, -60.2076, -47.945, 0.92709, 0, 0
 /* @teleloc 0x00710123 [13.314300 -60.207600 -47.945000] 0.927090 0.000000 0.000000 -0.374838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70071027, 0x70071028, '2021-10-07 17:03:52') /* Ruschk Sadist Warchief (87563) */;
+VALUES (0x70071027, 0x70071028, '2021-11-01 00:00:00') /* Ruschk Sadist Warchief (87563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70071028, 87563, 0x00710122, 11.9648, -49.7719, -47.9934, 0.690062, 0, 0, -0.72375,  True, '2021-11-01 00:00:00'); /* Ruschk Sadist Warchief */
@@ -172,7 +172,7 @@ VALUES (0x70071029, 15759, 0x00710109, 21.6375, -53.4695, -71.945, -0.730168, 0,
 /* @teleloc 0x00710109 [21.637501 -53.469501 -71.945000] -0.730168 0.000000 0.000000 -0.683267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70071029, 0x7007102A, '2021-10-08 09:17:12') /* Unfinished Dericost Phylactery (87564) */;
+VALUES (0x70071029, 0x7007102A, '2021-11-01 00:00:00') /* Unfinished Dericost Phylactery (87564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007102A, 87564, 0x00710109, 19.6193, -49.9546, -71.9134, -0.71286, 0, 0, -0.701306,  True, '2021-11-01 00:00:00'); /* Unfinished Dericost Phylactery */

@@ -117,8 +117,8 @@ VALUES (0x72C30518,  7924, 0x2C300026, 109.246, 129.902, 220.134, 1, 0, 0, 0, Fa
 /* @teleloc 0x2C300026 [109.246002 129.901993 220.134003] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C30518, 0x72C30519, '2021-01-13 13:40:10') /* Lothus Guardian of Sorrows (51828) */
-     , (0x72C30518, 0x72C3051A, '2021-01-13 13:42:49') /* Lothus Guardian of Rage (51826) */;
+VALUES (0x72C30518, 0x72C30519, '2021-11-01 00:00:00') /* Lothus Guardian of Sorrows (51828) */
+     , (0x72C30518, 0x72C3051A, '2021-11-01 00:00:00') /* Lothus Guardian of Rage (51826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C30519, 51828, 0x2C300026, 109.246, 129.902, 220.079, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lothus Guardian of Sorrows */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30892;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30892, 'riftbossuber0205', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (30892, 'riftbossuber0205', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30892,   1,         16) /* ItemType - Creature */
@@ -123,6 +123,10 @@ VALUES (30892,  2122,  2.115)  /* Disintegration */
      , (30892,  2159,  2.115)  /* Storm's Blessing */
      , (30892,  2161,  2.115)  /* Blessing of the Arrow Turner */
      , (30892,  2717,  2.115)  /* Acid Arc VII */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (30892,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (30892, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30892, 9, 30857,  0, 0, 1, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */

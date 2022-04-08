@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47218;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47218, 'ace47218-ensorcelledweapon', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (47218, 'ace47218-ensorcelledweapon', 10, '2022-01-20 04:53:49') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47218,   1,         16) /* ItemType - Creature */
@@ -35,7 +35,6 @@ VALUES (47218,  13,       1) /* ArmorModVsSlash */
      , (47218,  17,       1) /* ArmorModVsFire */
      , (47218,  18,    0.67) /* ArmorModVsAcid */
      , (47218,  19,       1) /* ArmorModVsElectric */
-     , (47218,  27,    5.01) /* RotationSpeed */
      , (47218,  31,      22) /* VisualAwarenessRange */
      , (47218,  34,       1) /* PowerupTime */
      , (47218,  36,       1) /* ChargeSpeed */
@@ -93,6 +92,7 @@ VALUES (47218,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (47218, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (47218, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */
      , (47218, 46, 0, 3, 0, 395, 0, 0) /* FinesseWeapons      Specialized */
+     , (47218, 47, 0, 3, 0, 350, 0, 0) /* MissileWeapons      Specialized */
      , (47218, 48, 0, 3, 0, 395, 0, 0) /* Shield              Specialized */
      , (47218, 49, 0, 3, 0, 395, 0, 0) /* DualWield           Specialized */
      , (47218, 51, 0, 3, 0, 395, 0, 0) /* SneakAttack         Specialized */;

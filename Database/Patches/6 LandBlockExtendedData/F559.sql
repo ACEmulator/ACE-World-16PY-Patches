@@ -113,12 +113,12 @@ VALUES (0x7F5590A5,  1154, 0xF559003D, 187.044, 98.758, 20.005, -0.968323, 0, 0,
 /* @teleloc 0xF559003D [187.044006 98.758003 20.004999] -0.968323 0.000000 0.000000 0.249699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F5590A5, 0x7F5590A8, '2020-06-10 00:00:00') /* Royal Guard (52272) */
-     , (0x7F5590A5, 0x7F5590A9, '2020-06-10 00:00:00') /* Royal Guard (46015) */
-     , (0x7F5590A5, 0x7F5590AA, '2020-06-10 00:00:00') /* Royal Guard (46018) */
-     , (0x7F5590A5, 0x7F5590AB, '2020-06-10 00:00:00') /* Royal Guard (46017) */
-     , (0x7F5590A5, 0x7F5590AC, '2020-06-10 00:00:00') /* Umbral Guard (46016) */
-     , (0x7F5590A5, 0x7F5590AD, '2020-06-10 00:00:00') /* Umbral Guard (46014) */;
+VALUES (0x7F5590A5, 0x7F5590A8, '2021-11-01 00:00:00') /* Royal Guard (52272) */
+     , (0x7F5590A5, 0x7F5590A9, '2021-11-01 00:00:00') /* Royal Guard (46015) */
+     , (0x7F5590A5, 0x7F5590AA, '2021-11-01 00:00:00') /* Royal Guard (46018) */
+     , (0x7F5590A5, 0x7F5590AB, '2021-11-01 00:00:00') /* Royal Guard (46017) */
+     , (0x7F5590A5, 0x7F5590AC, '2021-11-01 00:00:00') /* Umbral Guard (46016) */
+     , (0x7F5590A5, 0x7F5590AD, '2021-11-01 00:00:00') /* Umbral Guard (46014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F5590A8, 52272, 0xF559003D, 184.934, 115.53, 20.005, -0.870684, 0, 0, 0.491842,  True, '2021-11-01 00:00:00'); /* Royal Guard */

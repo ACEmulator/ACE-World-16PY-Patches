@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35878;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35878, 'ace35878-paradoxtouchedolthoilacerator', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (35878, 'ace35878-paradoxtouchedolthoilacerator', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35878,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (35878,  6, 0, 2, 0, 461, 0, 0) /* MeleeDefense        Trained */
      , (35878,  7, 0, 2, 0, 408, 0, 0) /* MissileDefense      Trained */
      , (35878, 15, 0, 2, 0, 445, 0, 0) /* MagicDefense        Trained */
      , (35878, 16, 0, 2, 0, 175, 0, 0) /* ManaConversion      Trained */
-     , (35878, 31, 0, 2, 0, 400, 0, 0) /* CreatureEnchantment Trained */
+     , (35878, 31, 0, 2, 0, 405, 0, 0) /* CreatureEnchantment Trained */
      , (35878, 33, 0, 2, 0, 400, 0, 0) /* LifeMagic           Trained */
      , (35878, 41, 0, 2, 0, 386, 0, 0) /* TwoHandedCombat     Trained */
      , (35878, 44, 0, 2, 0, 386, 0, 0) /* HeavyWeapons        Trained */
@@ -98,7 +98,7 @@ VALUES (35878,  0,  2, 125,  0.5,  325,  162,  162,  162,  162,  162,  162,  162
      , (35878, 22, 32, 85,  0.5,  325,  162,  162,  162,  162,  162,  162,  162,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35878,  4334,   2.15)  /* Incantation of Nullify All Magic Other */;
+VALUES (35878,  2978,   2.03)  /* Nullify All Magic Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35878, 9, 35876,  1, 0, 0.1, False) /* Create Coruscating Olthoi Scent Gland (35876) for ContainTreasure */

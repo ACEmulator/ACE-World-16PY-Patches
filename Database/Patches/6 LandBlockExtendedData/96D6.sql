@@ -25,15 +25,15 @@ VALUES (0x796D6005,  2181, 0x96D60106, 160.403, 84, 88.082, -0.707107, 0, 0, -0.
 /* @teleloc 0x96D60106 [160.403000 84.000000 88.082001] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796D6005, 0x796D6000, '2005-02-09 10:00:00') /* Lever (2609) */
-     , (0x796D6005, 0x796D600E, '2005-02-09 10:00:00') /* Lever (286) */;
+VALUES (0x796D6005, 0x796D6000, '2021-11-01 00:00:00') /* Lever (2609) */
+     , (0x796D6005, 0x796D600E, '2021-11-01 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796D6006,  2181, 0x96D60105, 160.298, 87.0331, 96.882, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x96D60105 [160.298004 87.033096 96.882004] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796D6006, 0x796D6007, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
+VALUES (0x796D6006, 0x796D6007, '2021-11-01 00:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796D6007,   298, 0x96D60000, 161.048, 87.0468, 96.805, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
@@ -60,14 +60,14 @@ VALUES (0x796D600D,  3953, 0x96D60000, 158.384, 72.9256, 88.005, -0.703245, 0, 0
 /* @teleloc 0x96D60000 [158.384003 72.925598 88.004997] -0.703245 0.000000 0.000000 -0.710948 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796D600D, 0x796D6001, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
-     , (0x796D600D, 0x796D6002, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
-     , (0x796D600D, 0x796D6003, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
-     , (0x796D600D, 0x796D6004, '2005-02-09 10:00:00') /* Red Rat (949) */
-     , (0x796D600D, 0x796D6008, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
-     , (0x796D600D, 0x796D6009, '2005-02-09 10:00:00') /* Tumerok Worker (4107) */
-     , (0x796D600D, 0x796D600A, '2005-02-09 10:00:00') /* Tumerok Worker (4107) */
-     , (0x796D600D, 0x796D600B, '2005-02-09 10:00:00') /* Tumerok Worker (4107) */;
+VALUES (0x796D600D, 0x796D6001, '2021-11-01 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x796D600D, 0x796D6002, '2021-11-01 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x796D600D, 0x796D6003, '2021-11-01 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x796D600D, 0x796D6004, '2021-11-01 00:00:00') /* Red Rat (949) */
+     , (0x796D600D, 0x796D6008, '2021-11-01 00:00:00') /* Tumerok Scout (232) */
+     , (0x796D600D, 0x796D6009, '2021-11-01 00:00:00') /* Tumerok Worker (4107) */
+     , (0x796D600D, 0x796D600A, '2021-11-01 00:00:00') /* Tumerok Worker (4107) */
+     , (0x796D600D, 0x796D600B, '2021-11-01 00:00:00') /* Tumerok Worker (4107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796D600E,   286, 0x96D60104, 153.167, 87.8921, 101.567, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */

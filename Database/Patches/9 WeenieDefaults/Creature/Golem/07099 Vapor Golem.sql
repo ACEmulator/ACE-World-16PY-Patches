@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7099;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7099, 'golemvapor', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7099, 'golemvapor', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7099,   1,         16) /* ItemType - Creature */
@@ -121,6 +121,10 @@ VALUES (7099,    84,   2.08)  /* Flame Bolt V */
      , (7099,  1326,   2.06)  /* Imperil Other V */
      , (7099,  1342,   2.06)  /* Weakness Other V */
      , (7099,  1419,   2.06)  /* Slowness Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7099,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7099, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7099,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

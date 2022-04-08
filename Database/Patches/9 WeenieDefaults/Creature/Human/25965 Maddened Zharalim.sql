@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25965;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25965, 'zharalimmaddened', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25965, 'zharalimmaddened', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25965,   1,         16) /* ItemType - Creature */
@@ -133,6 +133,10 @@ VALUES (25965,  1161,   2.05)  /* Heal Self VI */
      , (25965,  1292,   2.05)  /* Mana to Health Self III */
      , (25965,  1666,   2.05)  /* Stamina to Health Self III */
      , (25965,  1678,   2.05)  /* Stamina to Mana Self III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25965,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25965, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25965,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

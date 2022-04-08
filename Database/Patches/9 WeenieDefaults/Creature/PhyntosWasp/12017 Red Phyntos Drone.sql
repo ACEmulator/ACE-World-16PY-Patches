@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12017, 'phyntoswaspbossmonster', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (12017, 'phyntoswaspbossmonster', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12017,   1,         16) /* ItemType - Creature */
@@ -113,6 +113,9 @@ VALUES (12017,  0,  2,  3,  0.5,   20,   16,   16,   10,    7,    6,    6,    6,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12017,    28,   2.03)  /* Frost Bolt I */
      , (12017,    70,   2.01)  /* Frost Bolt II */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (12017, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12017, 9,  3703,  0, 0, 0.65, False) /* Create Red Phyntos Wasp Wing (3703) for ContainTreasure */

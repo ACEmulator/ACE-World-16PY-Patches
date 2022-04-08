@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35551;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35551, 'ace35551-bloodletter', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35551, 'ace35551-bloodletter', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
@@ -25,16 +25,12 @@ VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
      , (35551, 107,      10000) /* ItemCurMana */
      , (35551, 108,      10000) /* ItemMaxMana */
      , (35551, 114,          0) /* Attuned - Normal */
-     , (35551, 263,          2) /* ResistanceModifierType */
+     , (35551, 263,          2) /* ResistanceModifierType - Pierce */
      , (35551, 267,      10800) /* Lifespan */
      , (35551, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35551,  11, True ) /* IgnoreCollisions */
-     , (35551,  13, True ) /* Ethereal */
-     , (35551,  14, True ) /* GravityStatus */
-     , (35551,  19, True ) /* Attackable */
-     , (35551,  22, True ) /* Inscribable */
+VALUES (35551,  22, True ) /* Inscribable */
      , (35551,  69, False) /* IsSellable */
      , (35551,  99, False) /* Ivoryable */;
 
@@ -46,7 +42,7 @@ VALUES (35551,   5,  -0.033) /* ManaRate */
      , (35551,  29,    1.37) /* WeaponDefense */
      , (35551,  62,    1.52) /* WeaponOffense */
      , (35551,  63,       1) /* DamageMod */
-     , (35551, 136,       1) /* CriticalMultiplier */
+     , (35551, 136,     2.5) /* CriticalMultiplier */
      , (35551, 147,    0.25) /* CriticalFrequency */
      , (35551, 156,    0.05) /* ProcSpellRate */
      , (35551, 157,       1) /* ResistanceModifier */;

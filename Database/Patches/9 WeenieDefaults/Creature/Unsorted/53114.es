@@ -75,4 +75,3 @@ Gotoset: Pass
     
 Gotoset: Fail
     - DirectBroadcast: You approach, attempting to use the portal, but you are unable to activate it.
-

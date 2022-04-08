@@ -24,7 +24,7 @@ Give: Large Tome (44984)
     - Delay: 1, Motion: Reading
     - Tell: Well, this explains a lot, and raises even more questions. I did not think the plight of the Empyreans was related to the actions of Emperor Geraine, but I guess it was.
     - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
-	- Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
+    - Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
     - Delay: 1, Give: Book 1: The Apostates (44994)
 
 Give: Large Tome (44985)
@@ -33,24 +33,24 @@ Give: Large Tome (44985)
     - Delay: 1, Motion: Reading
     - Tell: The undead General who wrote this book seems to be very deeply involved in Emperor Geraine's plans. As you'll see, the information is disturbing, but may be the key needed to thwart whatever it is Emperor Geraine is up to.
     - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
-	- Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
+    - Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
     - Delay: 1, Give: Book 2: The Gurogs and the beginnings of the Plan (44995)
 
 Give: Large Tome (44986)
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Motion: Reading
-	- Tell: This has to be one of the more disturbing tomes I have ever transcribed. If it is true, then there truly is no telling what Emperor Geraine is capable of.
+    - Tell: This has to be one of the more disturbing tomes I have ever transcribed. If it is true, then there truly is no telling what Emperor Geraine is capable of.
     - Tell: The undead General who wrote this book seems to be very deeply involved in Emperor Geraine's plans. As you'll see, the information is disturbing, but may be the key needed to thwart whatever it is Emperor Geraine is up to.
     - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
-	- Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
+    - Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
     - Delay: 1, Give: Book 3: The Time Ritual and the Sand Kings (44996)
 
 Give: Large Tome (44987)
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Motion: Reading
-	- Tell: My apologies. There is very little in this tome, as the last of it is damaged. I recovered what I could.
+    - Tell: My apologies. There is very little in this tome, as the last of it is damaged. I recovered what I could.
     - Tell: The undead General who wrote this book seems to be very deeply involved in Emperor Geraine's plans. As you'll see, the information is disturbing, but may be the key needed to thwart whatever it is Emperor Geraine is up to.
     - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
     - Delay: 1, Give: Book 4: Further Manipulations of Time (44997)
@@ -82,7 +82,7 @@ Give: Complete Rune Transcription (5849)
     - Delay: 2, Give: Gelidite Standing Stone Translation (5883)
     - Tell: Be warned, though - you will need a substantial party to reach the Lost City, and should you die...
     - Tell: You will be unable to reenter the caves to recover your equipment. Be certain you are prepared before you ask Mairisa to cast the portal!
-	
+    
 Give: An Ancient Book (5882)
     - Motion: Ready
     - TurnToTarget

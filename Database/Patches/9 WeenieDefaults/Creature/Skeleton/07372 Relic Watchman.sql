@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7372;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7372, 'relicbonesportal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7372, 'relicbonesportal', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7372,   1,         16) /* ItemType - Creature */
@@ -127,6 +127,10 @@ VALUES (7372,  0,  4,  0,    0,  250,  350,  350,  225,  300,  225,  300,  300, 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7372,  1160,      2)  /* Heal Self V */
      , (7372,  1241,      2)  /* Drain Health Other V */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7372,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (7372, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7372,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

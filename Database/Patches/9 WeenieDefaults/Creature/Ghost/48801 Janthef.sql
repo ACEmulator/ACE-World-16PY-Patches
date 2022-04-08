@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48801;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48801, 'ace48801-janthef', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (48801, 'ace48801-janthef', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48801,   1,         16) /* ItemType - Creature */
@@ -23,7 +23,6 @@ VALUES (48801,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48801,   1, True ) /* Stuck */
      , (48801,   6, True ) /* AiUsesMana */
-     , (48801,  10, True ) /* AttackerAi */
      , (48801,  11, False) /* IgnoreCollisions */
      , (48801,  12, True ) /* ReportCollisions */
      , (48801,  13, False) /* Ethereal */
@@ -43,7 +42,6 @@ VALUES (48801,   1,       5) /* HeartbeatInterval */
      , (48801,  17,       1) /* ArmorModVsFire */
      , (48801,  18,    0.67) /* ArmorModVsAcid */
      , (48801,  19,       1) /* ArmorModVsElectric */
-     , (48801,  27,    5.01) /* RotationSpeed */
      , (48801,  31,      22) /* VisualAwarenessRange */
      , (48801,  34,       1) /* PowerupTime */
      , (48801,  36,       1) /* ChargeSpeed */
@@ -130,4 +128,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48801, 1, 48816, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Spirit of Janthef (48816) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (48801, -1, 48816, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Spirit of Janthef (48816) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

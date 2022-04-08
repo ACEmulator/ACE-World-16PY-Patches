@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28660;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28660, 'penguinuberlow', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (28660, 'penguinuberlow', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28660,   1,         16) /* ItemType - Creature */
@@ -121,6 +121,10 @@ VALUES (28660,   628,   2.03)  /* Life Magic Ineptitude Other VI */
      , (28660,  2141,   2.04)  /* Lhen's Flare */
      , (28660,  2731,   2.04)  /* Frost Arc VII */
      , (28660,  2738,   2.04)  /* Lightning Arc VII */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (28660,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (28660, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28660,  3 /* Death */,   0.25, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

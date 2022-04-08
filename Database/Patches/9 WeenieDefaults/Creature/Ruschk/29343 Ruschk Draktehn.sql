@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29343;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29343, 'ruschkdraktehn', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (29343, 'ruschkdraktehn', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29343,   1,         16) /* ItemType - Creature */
@@ -27,8 +27,7 @@ VALUES (29343,   1, True ) /* Stuck */
      , (29343,  12, True ) /* ReportCollisions */
      , (29343,  13, False) /* Ethereal */
      , (29343,  14, True ) /* GravityStatus */
-     , (29343,  19, True ) /* Attackable */
-     , (29343, 101, True ) /* CanGenerateRare */;
+     , (29343,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29343,   1,       5) /* HeartbeatInterval */
@@ -132,6 +131,10 @@ VALUES (29343,  1985,   2.03)  /* Nullify Life Magic Other */
      , (29343,  2168,   2.05)  /* Gelidite's Gift */
      , (29343,  2178,   2.03)  /* Decrepitude's Grasp */
      , (29343,  2180,   2.03)  /* Energy Flux */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (29343,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (29343, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29343,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

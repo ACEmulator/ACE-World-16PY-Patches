@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25665;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25665, 'shadowwretchvod', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (25665, 'shadowwretchvod', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25665,   1,         16) /* ItemType - Creature */
@@ -134,6 +134,10 @@ VALUES (25665,  1241,  2.009)  /* Drain Health Other V */
      , (25665,  2228,   2.01)  /* Broadside of a Barn */
      , (25665,  2282,   2.01)  /* Futility */
      , (25665,  2318,   2.01)  /* Gravity Well */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25665,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (25665, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25665,  3 /* Death */,   0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

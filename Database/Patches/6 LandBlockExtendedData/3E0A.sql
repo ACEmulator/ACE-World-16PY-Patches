@@ -13,15 +13,15 @@ VALUES (0x73E0A002,  1154, 0x3E0A002C, 135.792, 82.9005, 0.005, -0.938166, 0, 0,
 /* @teleloc 0x3E0A002C [135.792007 82.900497 0.005000] -0.938166 0.000000 0.000000 -0.346187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E0A002, 0x73E0A003, '2020-08-02 00:00:00') /* Master Soldier (41837) */
-     , (0x73E0A002, 0x73E0A004, '2020-08-02 00:00:00') /* Master Mage (38844) */
-     , (0x73E0A002, 0x73E0A005, '2020-08-02 00:00:00') /* Master Mage (38844) */
-     , (0x73E0A002, 0x73E0A006, '2020-08-02 00:00:00') /* Master Archer (38841) */
-     , (0x73E0A002, 0x73E0A007, '2020-08-02 00:00:00') /* Master Archer (38841) */
-     , (0x73E0A002, 0x73E0A008, '2020-08-02 00:00:00') /* Master Archer (38841) */
-     , (0x73E0A002, 0x73E0A009, '2020-08-02 00:00:00') /* Master Archer (38841) */
-     , (0x73E0A002, 0x73E0A010, '2020-08-02 00:00:00') /* Master Soldier (38847) */
-     , (0x73E0A002, 0x73E0A011, '2020-08-02 00:00:00') /* Master Soldier (38847) */;
+VALUES (0x73E0A002, 0x73E0A003, '2021-11-01 00:00:00') /* Master Soldier (41837) */
+     , (0x73E0A002, 0x73E0A004, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x73E0A002, 0x73E0A005, '2021-11-01 00:00:00') /* Master Mage (38844) */
+     , (0x73E0A002, 0x73E0A006, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x73E0A002, 0x73E0A007, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x73E0A002, 0x73E0A008, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x73E0A002, 0x73E0A009, '2021-11-01 00:00:00') /* Master Archer (38841) */
+     , (0x73E0A002, 0x73E0A010, '2021-11-01 00:00:00') /* Master Soldier (38847) */
+     , (0x73E0A002, 0x73E0A011, '2021-11-01 00:00:00') /* Master Soldier (38847) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0A003, 41837, 0x3E0A002C, 135.522, 80.26, 0.005, -0.998621, 0, 0, -0.052494,  True, '2021-11-01 00:00:00'); /* Master Soldier */
@@ -64,8 +64,8 @@ VALUES (0x73E0A012,  1154, 0x3E0A002C, 126.34, 79.7049, 0.005, 0.744646, 0, 0, -
 /* @teleloc 0x3E0A002C [126.339996 79.704903 0.005000] 0.744646 0.000000 0.000000 -0.667460 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E0A012, 0x73E0A013, '2020-08-02 00:00:00') /* Myung Hee (43126) */
-     , (0x73E0A012, 0x73E0A014, '2020-08-02 00:00:00') /* Fort Commander (41838) */;
+VALUES (0x73E0A012, 0x73E0A013, '2021-11-01 00:00:00') /* Myung Hee (43126) */
+     , (0x73E0A012, 0x73E0A014, '2021-11-01 00:00:00') /* Fort Commander (41838) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0A013, 43126, 0x3E0A002C, 126.34, 79.7049, 0.005, 0.744646, 0, 0, -0.66746,  True, '2021-11-01 00:00:00'); /* Myung Hee */
@@ -80,7 +80,7 @@ VALUES (0x73E0A015,  1542, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0
 /* @teleloc 0x3E0A002C [131.884995 75.501999 0.143463] 0.107731 0.000000 0.000000 -0.994180 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E0A015, 0x73E0A016, '2020-08-02 00:00:00') /* Radiant Blood Supplies (41831) */;
+VALUES (0x73E0A015, 0x73E0A016, '2021-11-01 00:00:00') /* Radiant Blood Supplies (41831) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0A016, 41831, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0, -0.99418,  True, '2021-11-01 00:00:00'); /* Radiant Blood Supplies */

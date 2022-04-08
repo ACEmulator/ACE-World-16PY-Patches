@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24495;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24495, 'lugianjuggernautrenegade', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24495, 'lugianjuggernautrenegade', 10, '2021-12-14 05:15:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24495,   1,         16) /* ItemType - Creature */
@@ -28,9 +28,7 @@ VALUES (24495,   1, True ) /* Stuck */
      , (24495,  12, True ) /* ReportCollisions */
      , (24495,  13, False) /* Ethereal */
      , (24495,  14, True ) /* GravityStatus */
-     , (24495,  19, True ) /* Attackable */
-     , (24495, 101, True ) /* CanGenerateRare */
-     , (24495, 102, True ) /* CorpseGeneratedRare */;
+     , (24495,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24495,   1,      10) /* HeartbeatInterval */
@@ -116,6 +114,10 @@ VALUES (24495,  0,  4,  2,  0.1,  450,  400,  317,  400,  400,  413,  400,  317,
      , (24495,  6,  4,  2,  0.1,  450,  400,  400,  400,  413,  413,  400,  317,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (24495,  7,  4, 25,  0.1,  450,  400,  400,  400,  413,  413,  400,  317,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (24495,  8,  4, 100,  0.1,  450,  400,  317,  400,  400,  413,  400,  317,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24495,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (24495, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24495, 16 /* KillTaunt */,    0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

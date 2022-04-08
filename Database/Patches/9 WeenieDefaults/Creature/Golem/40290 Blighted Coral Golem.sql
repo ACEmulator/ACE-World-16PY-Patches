@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40290;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40290, 'ace40290-blightedcoralgolem', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (40290, 'ace40290-blightedcoralgolem', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40290,   1,         16) /* ItemType - Creature */
@@ -161,4 +161,4 @@ VALUES (40290, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (40290, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40290, -1, 70081, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Blighted Coral Golem Viceroy (70081) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40290, -1, 70081, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Blighted Coral Golem Viceroy (70081) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

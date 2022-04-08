@@ -28,7 +28,7 @@ VALUES (43041,   1,          1) /* ItemType - MeleeWeapon */
      , (43041, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (43041, 160,        400) /* WieldDifficulty */
      , (43041, 166,          1) /* SlayerCreatureType - Olthoi */
-     , (43041, 263,          4) /* ResistanceModifierType */
+     , (43041, 263,          4) /* ResistanceModifierType - Bludgeon */
      , (43041, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

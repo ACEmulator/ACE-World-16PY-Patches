@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35804;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35804, 'ace35804-demonswarmsword', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35804, 'ace35804-demonswarmsword', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35804,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (35804,   1,          1) /* ItemType - MeleeWeapon */
      , (35804, 158,          2) /* WieldRequirements - RawSkill */
      , (35804, 159,         45) /* WieldSkillType - LightWeapons */
      , (35804, 160,        350) /* WieldDifficulty */
-     , (35804, 263,          1) /* ResistanceModifierType */
+     , (35804, 263,          1) /* ResistanceModifierType - Slash */
      , (35804, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,7 +42,7 @@ VALUES (35804,   5,   -0.05) /* ManaRate */
      , (35804,  39,     1.1) /* DefaultScale */
      , (35804,  62,     1.1) /* WeaponOffense */
      , (35804,  63,       1) /* DamageMod */
-     , (35804, 136,       1) /* CriticalMultiplier */
+     , (35804, 136,     2.5) /* CriticalMultiplier */
      , (35804, 147,    0.25) /* CriticalFrequency */
      , (35804, 157,       1) /* ResistanceModifier */;
 

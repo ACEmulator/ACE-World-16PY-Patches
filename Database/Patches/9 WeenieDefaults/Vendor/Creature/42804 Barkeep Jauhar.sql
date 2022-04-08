@@ -72,7 +72,7 @@ VALUES (42804, 2,  2598,  0, 17, 0.9818, False) /* Create Pants (2598) for Wield
      , (42804, 4, 45755, -1, 0, 0, False) /* Create Contract for Bobo's Medicine (45755) for Shop */
      , (42804, 4, 45756, -1, 0, 0, False) /* Create Contract for Sepulcher of Nightmares (45756) for Shop */
      , (42804, 4, 45757, -1, 0, 0, False) /* Create Contract for Mhoire Castle (45757) for Shop */
-     , (42804, 4, 45758, -1, 0, 0, False) /* Create  (45758) for Shop */
+     , (42804, 4, 45758, -1, 0, 0, False) /* Create Contract for Kidnapped Handmaiden (45758) for Shop */
      , (42804, 4, 45759, -1, 0, 0, False) /* Create Contract for Mhoire Oubliette (45759) for Shop */
      , (42804, 4, 49565, -1, 0, 0, False) /* Create Contract for Defeat Hoshino Kei (49565) for Shop */
      , (42804, 4, 49566, -1, 0, 0, False) /* Create Contract for Ritual Investigation (49566) for Shop */

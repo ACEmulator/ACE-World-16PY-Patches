@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43808;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43808, 'ace43808-carefullyrolledscroll', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (43808, 'ace43808-carefullyrolledscroll', 8, '2022-03-19 04:04:39') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43808,   1,       8192) /* ItemType - Writable */
@@ -21,11 +21,13 @@ VALUES (43808,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43808,   1, 'Carefully rolled scroll') /* Name */
-     , (43808,  16, 'A carefully rolled scroll, covered in meticulously written Dericostian script.') /* LongDesc */
-     , (43808,  33, 'GregorsCarefullyRolledScrollPickedUp') /* Quest */;
+     , (43808,  16, 'A carefully rolled scroll, covered in meticulously written Dericostian script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43808,   1, 0x02000158) /* Setup */
      , (43808,   3, 0x20000014) /* SoundTable */
      , (43808,   8, 0x06001310) /* Icon */
      , (43808,  22, 0x3400002B) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (43808, 0, 1000);

@@ -25,7 +25,7 @@ VALUES (0x7103502A,  1154, 0x1035003C, 170.83, 93.8145, 72.005, 0.924564, 0, 0, 
 /* @teleloc 0x1035003C [170.830002 93.814499 72.004997] 0.924564 0.000000 0.000000 -0.381028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7103502A, 0x7103502B, '2019-02-10 00:00:00') /* Carenzi Race Bookie (38993) */;
+VALUES (0x7103502A, 0x7103502B, '2021-11-01 00:00:00') /* Carenzi Race Bookie (38993) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7103502B, 38993, 0x1035003C, 170.83, 93.8145, 72.005, 0.924564, 0, 0, -0.381028,  True, '2021-11-01 00:00:00'); /* Carenzi Race Bookie */
@@ -104,35 +104,35 @@ VALUES (0x7103503D, 80012, 0x10350034, 157.474, 79.9942, 72, 0.92388, 0, 0, -0.3
 /* @teleloc 0x10350034 [157.473999 79.994202 72.000000] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7103503D, 0x7103502C, '2019-02-10 00:00:00') /* Carenzi Racer (38976) */
-     , (0x7103503D, 0x7103502D, '2019-02-10 00:00:00') /* Carenzi Racer (38975) */
-     , (0x7103503D, 0x7103502E, '2019-02-10 00:00:00') /* Carenzi Racer (38974) */
-     , (0x7103503D, 0x7103502F, '2019-02-10 00:00:00') /* Carenzi Racer (38973) */
-     , (0x7103503D, 0x71035030, '2019-02-10 00:00:00') /* Carenzi Racer (38972) */
-     , (0x7103503D, 0x71035031, '2019-02-10 00:00:00') /* Carenzi Racer (38971) */
-     , (0x7103503D, 0x71035032, '2019-02-10 00:00:00') /* Carenzi Racer (38970) */
-     , (0x7103503D, 0x71035033, '2019-02-10 00:00:00') /* Carenzi Racer (38969) */;
+VALUES (0x7103503D, 0x7103502C, '2021-11-01 00:00:00') /* Carenzi Racer (38976) */
+     , (0x7103503D, 0x7103502D, '2021-11-01 00:00:00') /* Carenzi Racer (38975) */
+     , (0x7103503D, 0x7103502E, '2021-11-01 00:00:00') /* Carenzi Racer (38974) */
+     , (0x7103503D, 0x7103502F, '2021-11-01 00:00:00') /* Carenzi Racer (38973) */
+     , (0x7103503D, 0x71035030, '2021-11-01 00:00:00') /* Carenzi Racer (38972) */
+     , (0x7103503D, 0x71035031, '2021-11-01 00:00:00') /* Carenzi Racer (38971) */
+     , (0x7103503D, 0x71035032, '2021-11-01 00:00:00') /* Carenzi Racer (38970) */
+     , (0x7103503D, 0x71035033, '2021-11-01 00:00:00') /* Carenzi Racer (38969) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7103503E, 80013, 0x10350034, 166.852, 93.22, 72.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Race Announcer Generator */
 /* @teleloc 0x10350034 [166.852005 93.220001 72.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7103503E, 0x71035034, '2019-02-10 00:00:00') /* Carenzi Race Announcer (38978) */;
+VALUES (0x7103503E, 0x71035034, '2021-11-01 00:00:00') /* Carenzi Race Announcer (38978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7103503F, 80014, 0x10350034, 149, 93.5, 72, 0.999981, 0, 0, -0.006187, False, '2021-11-01 00:00:00'); /* Linkable Racers Generator */
 /* @teleloc 0x10350034 [149.000000 93.500000 72.000000] 0.999981 0.000000 0.000000 -0.006187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7103503F, 0x71035035, '2019-02-10 00:00:00') /* Carenzi Racer (38946) */
-     , (0x7103503F, 0x71035036, '2019-02-10 00:00:00') /* Carenzi Racer (38952) */
-     , (0x7103503F, 0x71035037, '2019-02-10 00:00:00') /* Carenzi Racer (38947) */
-     , (0x7103503F, 0x71035038, '2019-02-10 00:00:00') /* Carenzi Racer (38948) */
-     , (0x7103503F, 0x71035039, '2019-02-10 00:00:00') /* Carenzi Racer (38950) */
-     , (0x7103503F, 0x7103503A, '2019-02-10 00:00:00') /* Carenzi Racer (38951) */
-     , (0x7103503F, 0x7103503B, '2019-02-10 00:00:00') /* Carenzi Racer (38945) */
-     , (0x7103503F, 0x7103503C, '2019-02-10 00:00:00') /* Carenzi Racer (38949) */;
+VALUES (0x7103503F, 0x71035035, '2021-11-01 00:00:00') /* Carenzi Racer (38946) */
+     , (0x7103503F, 0x71035036, '2021-11-01 00:00:00') /* Carenzi Racer (38952) */
+     , (0x7103503F, 0x71035037, '2021-11-01 00:00:00') /* Carenzi Racer (38947) */
+     , (0x7103503F, 0x71035038, '2021-11-01 00:00:00') /* Carenzi Racer (38948) */
+     , (0x7103503F, 0x71035039, '2021-11-01 00:00:00') /* Carenzi Racer (38950) */
+     , (0x7103503F, 0x7103503A, '2021-11-01 00:00:00') /* Carenzi Racer (38951) */
+     , (0x7103503F, 0x7103503B, '2021-11-01 00:00:00') /* Carenzi Racer (38945) */
+     , (0x7103503F, 0x7103503C, '2021-11-01 00:00:00') /* Carenzi Racer (38949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71035040, 80011, 0x10350034, 162.987, 93.5269, 72, 0.999981, 0, 0, -0.006187, False, '2021-11-01 00:00:00'); /* Carenzi Race Controller Gen */

@@ -1,12 +1,12 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.08
     - Motion: Nod
 Give: Pooky Token (35187)
-	- Say: You hear that you rabbits! We have a Fuzzy Bunny Slayer here! Better hop on out of here now or else!
-	- Delay: 1, TurnToTarget
-	- Delay: 0.5, Tell: What's this? A token for killing one of those despicable leaf munchers?
-	- Delay: 1, Tell: You Sir, should be rewarded for your agricultural beneficence!
-	- AddCharacterTitle: FuzzyBunnySlayer
-	- DirectBroadcast: You have been awarded the title of "Fuzzy Bunny Slayer" 
+    - Say: You hear that you rabbits! We have a Fuzzy Bunny Slayer here! Better hop on out of here now or else!
+    - Delay: 1, TurnToTarget
+    - Delay: 0.5, Tell: What's this? A token for killing one of those despicable leaf munchers?
+    - Delay: 1, Tell: You Sir, should be rewarded for your agricultural beneficence!
+    - AddCharacterTitle: FuzzyBunnySlayer
+    - DirectBroadcast: You have been awarded the title of "Fuzzy Bunny Slayer" 
 
 Give: Rabbit Carcass (5633)
     - Motion: Ready
@@ -77,4 +77,3 @@ Use:
     - Tell: Go and see for yourself! See if you can do anything about those vermin, why don't you! Bring me back some sign that you killed one of the big ones and I'll make sure that everyone knows your rabbit-killing prowess.
     - Delay: 2, DirectBroadcast: Larry sighs, wistfully.
     - Tell: But I don't expect you can even make a dent. ... Oh, umm ...do you think you might spare a pyreal? I can portal you into my garden for a pyreal. The cost of maintaining this farm would amaze you.
-

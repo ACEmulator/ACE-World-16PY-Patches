@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21169;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21169, 'lightningelementalscintilla_nosummon', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (21169, 'lightningelementalscintilla-nosummon', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21169,   1,         16) /* ItemType - Creature */
@@ -122,3 +122,7 @@ VALUES (21169,    77,   2.11)  /* Lightning Bolt III */
      , (21169,  1239,  2.006)  /* Drain Health Other III */
      , (21169,  1309,  2.006)  /* Armor Self III */
      , (21169,  1324,  2.013)  /* Imperil Other III */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21169,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (21169, 414) /* PLAYER_DEATH_EVENT */;

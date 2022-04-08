@@ -21,24 +21,24 @@ VALUES (0x720BF004,  7924, 0x20BF0104, 37.7788, 105.15, 64.005, -0.697201, 0, 0,
 /* @teleloc 0x20BF0104 [37.778801 105.150002 64.004997] -0.697201 0.000000 0.000000 -0.716876 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720BF004, 0x720BF002, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
-     , (0x720BF004, 0x720BF003, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
-     , (0x720BF004, 0x720BF006, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
-     , (0x720BF004, 0x720BF007, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
-     , (0x720BF004, 0x720BF008, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
-     , (0x720BF004, 0x720BF009, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
-     , (0x720BF004, 0x720BF00A, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
-     , (0x720BF004, 0x720BF00B, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
-     , (0x720BF004, 0x720BF00C, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
-     , (0x720BF004, 0x720BF00D, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
-     , (0x720BF004, 0x720BF00E, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
-     , (0x720BF004, 0x720BF00F, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
-     , (0x720BF004, 0x720BF010, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
-     , (0x720BF004, 0x720BF011, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
-     , (0x720BF004, 0x720BF012, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
-     , (0x720BF004, 0x720BF013, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
-     , (0x720BF004, 0x720BF014, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
-     , (0x720BF004, 0x720BF015, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */;
+VALUES (0x720BF004, 0x720BF002, '2021-11-01 00:00:00') /* Vapor Golem (7099) */
+     , (0x720BF004, 0x720BF003, '2021-11-01 00:00:00') /* Vapor Golem (7099) */
+     , (0x720BF004, 0x720BF006, '2021-11-01 00:00:00') /* Olthoi Legionary (11695) */
+     , (0x720BF004, 0x720BF007, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF004, 0x720BF008, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF004, 0x720BF009, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF004, 0x720BF00A, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF004, 0x720BF00B, '2021-11-01 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF004, 0x720BF00C, '2021-11-01 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF004, 0x720BF00D, '2021-11-01 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF004, 0x720BF00E, '2021-11-01 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF004, 0x720BF00F, '2021-11-01 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF004, 0x720BF010, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF004, 0x720BF011, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF004, 0x720BF012, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF004, 0x720BF013, '2021-11-01 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF004, 0x720BF014, '2021-11-01 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF004, 0x720BF015, '2021-11-01 00:00:00') /* Olthoi Soldier (6640) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BF005, 11217, 0x20BF0125, 83.9602, 137.504, 74.205, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* North Fork Dam Hive Portal */
@@ -113,7 +113,7 @@ VALUES (0x720BF6A5,  1154, 0x20BF0004, 20.7049, 88.6966, 63.6235, -0.702055, 0, 
 /* @teleloc 0x20BF0004 [20.704901 88.696602 63.623501] -0.702055 0.000000 0.000000 0.712123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720BF6A5, 0x720BF6A6, '2020-01-30 00:00:00') /* Exploration Marker (39800) */;
+VALUES (0x720BF6A5, 0x720BF6A6, '2021-11-01 00:00:00') /* Exploration Marker (39800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BF6A6, 39800, 0x20BF0004, 20.7049, 88.6966, 63.6235, -0.702055, 0, 0, 0.712123,  True, '2021-11-01 00:00:00'); /* Exploration Marker */

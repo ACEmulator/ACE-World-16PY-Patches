@@ -66,7 +66,7 @@ VALUES (42808,   1,    45, 0, 0, 75) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42808, 4, 44397, -1, 0, 0, False) /* Create Contract for Aerbax's Defeat (44397) for Shop */
-     , (42808, 4, 44586, -1, 0, 0, False) /* Create  (44586) for Shop */
+     , (42808, 4, 44586, -1, 0, 0, False) /* Create Contract for Harlune's Diplomacy (44586) for Shop */
      , (42808, 4, 44583, -1, 0, 0, False) /* Create Contract for Menhir Research (44583) for Shop */
      , (42808, 4, 44587, -1, 0, 0, False) /* Create Contract for Saving Asheron (44587) for Shop */
      , (42808, 4, 44657, -1, 0, 0, False) /* Create Contract for Nexus Crawl (44657) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7401;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7401, 'ashenbonesejan', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (7401, 'ashenbonesejan', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7401,   1,         16) /* ItemType - Creature */
@@ -111,6 +111,9 @@ VALUES (7401,  0,  4,  0,    0,  250,  375,  350,  225,  325,  275,  350,  375, 
      , (7401,  6,  4,  0,    0,  250,  375,  350,  225,  325,  275,  350,  375,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (7401,  7,  4,  0,    0,  250,  375,  350,  225,  325,  275,  350,  375,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (7401,  8,  4, 100, 0.75,  250,  375,  350,  225,  325,  275,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7401, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7401,  5 /* HeartBeat */,   0.02, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

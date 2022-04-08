@@ -13,7 +13,7 @@ VALUES (0x7004F002, 15759, 0x004F0111, 34.5478, -108.685, -83.945, -0.731676, 0,
 /* @teleloc 0x004F0111 [34.547798 -108.684998 -83.945000] -0.731676 0.000000 0.000000 0.681653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7004F002, 0x7004F003, '2021-10-15 15:25:42') /* Black Spear Ice Totem (87632) */;
+VALUES (0x7004F002, 0x7004F003, '2021-11-08 06:01:47') /* Black Spear Ice Totem (87632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004F003, 87632, 0x004F0114, 39.4363, -109.614, -83.945, -0.24331, 0, 0, 0.969949,  True, '2021-11-08 06:01:47'); /* Black Spear Ice Totem */
