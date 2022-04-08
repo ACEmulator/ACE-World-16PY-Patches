@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32227;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32227, 'ace32227-mistressgabille', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32227, 'ace32227-mistressgabille', 10, '2022-04-07 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32227,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,7 @@ VALUES (32227,   1,       5) /* HeartbeatInterval */
      , (32227,  31,      12) /* VisualAwarenessRange */
      , (32227,  34,       1) /* PowerupTime */
      , (32227,  36,       1) /* ChargeSpeed */
-     , (32227,  39,     1.5) /* DefaultScale */
+     , (32227,  39,       1) /* DefaultScale */
      , (32227,  64,     0.8) /* ResistSlash */
      , (32227,  65,     0.8) /* ResistPierce */
      , (32227,  66,     0.9) /* ResistBludgeon */
@@ -65,8 +65,7 @@ VALUES (32227,   1,       5) /* HeartbeatInterval */
      , (32227, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32227,   1, 'Mistress Gabille') /* Name */
-     , (32227,   5, 'Viamontian Knight') /* Template */;
+VALUES (32227,   1, 'Mistress Gabille') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32227,   1, 0x0200004E) /* Setup */
@@ -75,7 +74,6 @@ VALUES (32227,   1, 0x0200004E) /* Setup */
      , (32227,   4, 0x30000000) /* CombatTable */
      , (32227,   6, 0x0400007E) /* PaletteBase */
      , (32227,   8, 0x06001036) /* Icon */
-     , (32227,  17, 0x04001B7F) /* SkinPalette */
      , (32227,  22, 0x34000004) /* PhysicsEffectTable */
      , (32227,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
@@ -156,6 +154,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32227, 2, 28614,  0, 13, 2, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+VALUES (32227, 2, 28614,  0, 13, 1, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (32227, 2, 28632,  0, 21, 0, False) /* Diforsa Gauntlets (28632) for Wield */
      , (32227, 2, 30947,  1, 0, 1, False) /* Create Poniard (30947) for Wield */
      , (32227, 9, 70273,  0, 0, 1, False) /* Create Gabille's Encoded Notes (70273) for ContainTreasure */;

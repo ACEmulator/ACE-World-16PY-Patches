@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32224;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32224, 'ace32224-mistresshalmera', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32224, 'ace32224-mistresshalmera', 10, '2022-04-07 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32224,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,7 @@ VALUES (32224,   1,       5) /* HeartbeatInterval */
      , (32224,  31,      12) /* VisualAwarenessRange */
      , (32224,  34,       1) /* PowerupTime */
      , (32224,  36,       1) /* ChargeSpeed */
-     , (32224,  39,     1.5) /* DefaultScale */
+     , (32224,  39,       1) /* DefaultScale */
      , (32224,  64,     0.8) /* ResistSlash */
      , (32224,  65,     0.8) /* ResistPierce */
      , (32224,  66,     0.9) /* ResistBludgeon */
@@ -65,8 +65,7 @@ VALUES (32224,   1,       5) /* HeartbeatInterval */
      , (32224, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32224,   1, 'Mistress Halmera') /* Name */
-     , (32224,   5, 'Viamontian Knight') /* Template */;
+VALUES (32224,   1, 'Mistress Halmera') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32224,   1, 0x0200004E) /* Setup */
@@ -75,7 +74,6 @@ VALUES (32224,   1, 0x0200004E) /* Setup */
      , (32224,   4, 0x30000000) /* CombatTable */
      , (32224,   6, 0x0400007E) /* PaletteBase */
      , (32224,   8, 0x06001036) /* Icon */
-     , (32224,  17, 0x04001B7F) /* SkinPalette */
      , (32224,  22, 0x34000004) /* PhysicsEffectTable */
      , (32224,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
@@ -156,6 +154,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32224, 2, 28614,  0, 13, 2, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+VALUES (32224, 2, 28614,  0, 13, 1, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (32224, 2, 28632,  0, 21, 0, False) /* Diforsa Gauntlets (28632) for Wield */
      , (32224, 2, 30947,  1, 0, 1, False) /* Create Poniard (30947) for Wield */
      , (32224, 9, 70259,  0, 0, 1, False) /* Create Halmera's Encoded Notes (70259) for ContainTreasure */;

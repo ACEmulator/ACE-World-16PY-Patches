@@ -24,12 +24,12 @@ Refuse: Alizari's Encoded Notes (70271)
     - Tell: Useful information, this. Confirms some of my suspicions, and discredits some theories. I thank you. You may find this entertaining... it is a spellcasting orb crafted in the shape of what we believe these "Mukkir" to look like, with some useful enchantments on it. You may also be curious to see a translation of the notes...
     - StampQuest: FacesMukkirComplete1005
     - EraseQuest: FacesMukkirNotes1005
-    - AwardLevelProportionalXP: 100%, 1,000 - 10,000,000
+    - AwardLevelProportionalXP: 133%, 0 - 13,000,000
     - Give: Plain Mukkir Orb (32260)
     - Give: Master Alizari's Notes (70274)
     - InqQuestBitsOn: 50to11BrokerContractsB@low, 0x400
         QuestFailure:
-            - SetQuestBitsOn: 50to11BrokerContractsB, 0x400
+            - SetQuestBitsOn: 550to11BrokerContractsB, 0x400
             - StampQuest: ContractQuestcounter_0511
 
 Refuse: Halmera's Encoded Notes (70259)
@@ -38,7 +38,7 @@ Refuse: Halmera's Encoded Notes (70259)
     - Tell: Useful information, this. Confirms some of my suspicions, and discredits some theories. I thank you. You may find this entertaining... it is a spellcasting orb crafted in the shape of what we believe these "Mukkir" to look like, with some useful enchantments on it. You may also be curious to see a translation of the notes...
     - StampQuest: FacesMukkirComplete1005
     - EraseQuest: FacesMukkirNotes1005
-    - AwardLevelProportionalXP: 100%, 100 - 30,000,000
+    - AwardLevelProportionalXP: 115%, 14,000,000 - 30,000,000
     - Give: Solid Mukkir Orb (32261)
     - Give: Trade Note (250,000) (20630), 2
     - Give: Mistress Halmera's Notes (70272)
@@ -53,7 +53,7 @@ Refuse: Gabille's Encoded Notes (70273)
     - Tell: Useful information, this. Confirms some of my suspicions, and discredits some theories. I thank you. You may find this entertaining... it is a spellcasting orb crafted in the shape of what we believe these "Mukkir" to look like, with some useful enchantments on it. You may also be curious to see a translation of the notes...
     - StampQuest: FacesMukkirComplete1005
     - EraseQuest: FacesMukkirNotes1005
-    - AwardLevelProportionalXP: 100%, 1,000 - 69,000,000
+    - AwardLevelProportionalXP: 100%, 31,000,000 - 68,000,000
     - Give: Detailed Mukkir Orb (32262)
     - Give: Mistress Gabille's Notes (32226)
     - InqQuestBitsOn: 50to11BrokerContractsB@high, 0x1000
@@ -67,7 +67,7 @@ Refuse: Vaserio's Encoded Notes (70270)
     - Tell: Useful information, this. Confirms some of my suspicions, and discredits some theories. I thank you. You may find this entertaining... it is a spellcasting orb crafted in the shape of what we believe these "Mukkir" to look like, with some useful enchantments on it. You may also be curious to see a translation of the notes...
     - StampQuest: FacesMukkirComplete1005
     - EraseQuest: FacesMukkirNotes1005
-    - AwardLevelProportionalXP: 85%, 1,000 - 99,000,000
+    - AwardLevelProportionalXP: 85%, 69,000,000 - 99,000,000
     - Give: Intricate Mukkir Orb (32263)
     - Give: Trade Note (250,000) (20630), 4
     - Give: Master Vaserio's Notes (32229)
