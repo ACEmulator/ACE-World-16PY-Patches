@@ -155,6 +155,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32227, 2, 28614,  0, 13, 1, False) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (32227, 2, 28632,  0, 21, 0, False) /* Diforsa Gauntlets (28632) for Wield */
+     , (32227, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
      , (32227, 2, 30947,  1, 0, 1, False) /* Create Poniard (30947) for Wield */
      , (32227, 9, 70273,  0, 0, 1, False) /* Create Gabille's Encoded Notes (70273) for ContainTreasure */;
