@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46710;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46710, 'ace46710-tormentwisp', 10, '2022-03-31 06:02:40') /* Creature */;
+VALUES (46710, 'ace46710-tormentwisp', 10, '2022-04-01 12:03:45') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46710,   1,         16) /* ItemType - Creature */
@@ -34,24 +34,24 @@ VALUES (46710,   1,       5) /* HeartbeatInterval */
      , (46710,   3,     0.4) /* HealthRate */
      , (46710,   4,       5) /* StaminaRate */
      , (46710,   5,       1) /* ManaRate */
-     , (46710,  13,       1) /* ArmorModVsSlash */
-     , (46710,  14,    0.84) /* ArmorModVsPierce */
-     , (46710,  15,    0.84) /* ArmorModVsBludgeon */
-     , (46710,  16,      10) /* ArmorModVsCold */
-     , (46710,  17,    2.56) /* ArmorModVsFire */
-     , (46710,  18,    2.56) /* ArmorModVsAcid */
-     , (46710,  19,     1.2) /* ArmorModVsElectric */
+     , (46710,  13,     0.9) /* ArmorModVsSlash */
+     , (46710,  14,    0.95) /* ArmorModVsPierce */
+     , (46710,  15,       1) /* ArmorModVsBludgeon */
+     , (46710,  16,       2) /* ArmorModVsCold */
+     , (46710,  17,       2) /* ArmorModVsFire */
+     , (46710,  18,       2) /* ArmorModVsAcid */
+     , (46710,  19,       2) /* ArmorModVsElectric */
      , (46710,  31,      30) /* VisualAwarenessRange */
      , (46710,  34,       1) /* PowerupTime */
      , (46710,  36,       1) /* ChargeSpeed */
      , (46710,  39,     1.1) /* DefaultScale */
-     , (46710,  64,       1) /* ResistSlash */
-     , (46710,  65,    0.89) /* ResistPierce */
-     , (46710,  66,    0.89) /* ResistBludgeon */
+     , (46710,  64,     0.8) /* ResistSlash */
+     , (46710,  65,     0.7) /* ResistPierce */
+     , (46710,  66,     0.6) /* ResistBludgeon */
      , (46710,  67,     0.3) /* ResistFire */
      , (46710,  68,       0) /* ResistCold */
      , (46710,  69,     0.3) /* ResistAcid */
-     , (46710,  70,    0.59) /* ResistElectric */
+     , (46710,  70,     0.3) /* ResistElectric */
      , (46710,  71,       1) /* ResistHealthBoost */
      , (46710,  72,       1) /* ResistStaminaDrain */
      , (46710,  73,       1) /* ResistStaminaBoost */
@@ -89,7 +89,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (46710,  6, 0, 3, 0, 477, 0, 0) /* MeleeDefense        Specialized */
      , (46710,  7, 0, 3, 0, 485, 0, 0) /* MissileDefense      Specialized */
      , (46710, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
-     , (46710, 15, 0, 3, 0, 405, 0, 0) /* MagicDefense        Specialized */
+     , (46710, 15, 0, 3, 0, 470, 0, 0) /* MagicDefense        Specialized */
      , (46710, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (46710, 24, 0, 3, 0, 600, 0, 0) /* Run                 Specialized */
      , (46710, 31, 0, 3, 0, 385, 0, 0) /* CreatureEnchantment Specialized */
@@ -99,21 +99,21 @@ VALUES (46710,  6, 0, 3, 0, 477, 0, 0) /* MeleeDefense        Specialized */
      , (46710, 51, 0, 3, 0, 383, 0, 0) /* SneakAttack         Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (46710,  0, 32, 150,  0.5,  625,  220,  225,  345,  450, 3000,  492,  450,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (46710, 16, 32,  0,    0,  615,  220,  225,  345,  450, 3000,  492,  450,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (46710, 17, 32, 150, 0.75,  615,  220,  225,  345,  450, 3000,  492,  450,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (46710, 21, 32,  0,    0,  615,  220,  225,  345,  450, 3000,  492,  450,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (46710,  0, 32, 210,  0.5,  625,  312,  312,  312,  312,  312,  312,  312,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (46710, 16, 32,  0,    0,  615,  307,  307,  307,  307,  307,  307,  307,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (46710, 17, 32, 210, 0.75,  615,  307,  307,  307,  307,  307,  307,  307,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (46710, 21, 32,  0,    0,  615,  307,  307,  307,  307,  307,  307,  307,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46710,  1789,   2.15)  /* Tectonic Rifts */
-     , (46710,  4425,   2.25)  /* Incantation of Frost Arc */
-     , (46710,  4479,   2.27)  /* Incantation of Cold Vulnerability Other */
-     , (46710,  1784,   2.17)  /* Horizon's Blades */
-     , (46710,  3950,   2.17)  /* Frost Wave */
-     , (46710,  4475,   2.21)  /* Incantation of Blade Vulnerability Other */
-     , (46710,  4427,   2.27)  /* Incantation of Shock Arc */
-     , (46710,  4422,   2.27)  /* Incantation of Blade Arc */
-     , (46710,  1787,   2.17)  /* Halo of Frost */;
+VALUES (46710,  1784,    2.1)  /* Horizon's Blades */
+     , (46710,  1787,   2.11)  /* Halo of Frost */
+     , (46710,  1789,   2.12)  /* Tectonic Rifts */
+     , (46710,  3950,   2.07)  /* Frost Wave */
+     , (46710,  4422,   2.12)  /* Incantation of Blade Arc */
+     , (46710,  4425,   2.16)  /* Incantation of Frost Arc */
+     , (46710,  4427,   2.15)  /* Incantation of Shock Arc */
+     , (46710,  4475,   2.49)  /* Incantation of Blade Vulnerability Other */
+     , (46710,  4479,   2.72)  /* Incantation of Cold Vulnerability Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46710,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
