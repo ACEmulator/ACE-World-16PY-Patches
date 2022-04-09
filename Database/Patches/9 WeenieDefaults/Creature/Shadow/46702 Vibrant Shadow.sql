@@ -68,7 +68,7 @@ VALUES (46702,   1,       5) /* HeartbeatInterval */
      , (46702, 122,       2) /* AiAcquireHealth */
      , (46702, 125,    0.58) /* ResistHealthDrain */
      , (46702, 127,       2) /* AiCounteractEnchantment */
-     , (46702, 166,    0.48) /* ResistNether */;
+     , (46702, 166,    0.42) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46702,   1, 'Vibrant Shadow') /* Name */;
