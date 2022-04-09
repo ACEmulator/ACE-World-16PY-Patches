@@ -66,7 +66,7 @@ VALUES (46702,   1,       5) /* HeartbeatInterval */
      , (46702,  80,       3) /* AiUseMagicDelay */
      , (46702, 104,      10) /* ObviousRadarRange */
      , (46702, 122,       2) /* AiAcquireHealth */
-     , (46702, 125,    0.58) /* ResistHealthDrain */
+     , (46702, 125,    0.52) /* ResistHealthDrain */
      , (46702, 127,       2) /* AiCounteractEnchantment */
      , (46702, 166,    0.42) /* ResistNether */;
 
