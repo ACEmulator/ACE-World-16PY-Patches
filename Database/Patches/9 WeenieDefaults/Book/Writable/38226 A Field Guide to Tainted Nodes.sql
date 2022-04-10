@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (38226, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (38226, 0, 4294967295, 'Laedron the Geomancer', 'prewritten', False, 'We see now the extent of the Blight''s ambitions.  Minions of T''thuun have infested six of the most powerful nodes of Dereth, tainting the energy that flows through them and increasing the Old One''s hold on the surface.  Each node was held in thrall by a powerful Moarsman carrying the Blight.  Luckily, the Queen''s scouts were able to trace the corruption across the ley lines quickly enough to intervene.  Here is a list of nodes and their locations:
+VALUES (38226, 0, 0xFFFFFFFF, 'Laedron the Geomancer', 'prewritten', False, 'We see now the extent of the Blight''s ambitions.  Minions of T''thuun have infested six of the most powerful nodes of Dereth, tainting the energy that flows through them and increasing the Old One''s hold on the surface.  Each node was held in thrall by a powerful Moarsman carrying the Blight.  Luckily, the Queen''s scouts were able to trace the corruption across the ley lines quickly enough to intervene.  Here is a list of nodes and their locations:
 Aerlinthe Island node: 84.1N, 44.1E
 A''mun Desert node: 38.2S, 12.0E
 Mt. Esper node: 62.0N, 18.0E
