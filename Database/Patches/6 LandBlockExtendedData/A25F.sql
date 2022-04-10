@@ -48,8 +48,6 @@ INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `ori
 VALUES (0x7A25F00B,  1826, 0xA25F0108, 123.193, 65.0302, 20.005, 0.682151, 0, 0, -0.731211, False, '2005-02-09 10:00:00'); /* Maryata bint Daris the Barkeep */
 /* @teleloc 0xA25F0108 [123.193001 65.030197 20.004999] 0.682151 0.000000 0.000000 -0.731211 */
 
-
-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F00D,  1809, 0xA25F0000, 140.849, 16.7991, 23.3628, 0.740022, 0, 0, 0.672582, False, '2005-02-09 10:00:00'); /* The Shining Word */
 /* @teleloc 0xA25F0000 [140.848999 16.799101 23.362801] 0.740022 0.000000 0.000000 0.672582 */
@@ -106,8 +104,6 @@ INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `ori
 VALUES (0x7A25F01A,  1806, 0xA25F0000, 149.814, 61.1467, 23.1355, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Foodstuffs */
 /* @teleloc 0xA25F0000 [149.813995 61.146702 23.135500] 0.707107 0.000000 0.000000 -0.707107 */
 
-
-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F01C,  8377, 0xA25F0105, 126.557, 53.0103, 20.5801, -0.242663, 0, 0, -0.970111, False, '2005-02-09 10:00:00'); /* Beer Keg */
 /* @teleloc 0xA25F0105 [126.556999 53.010300 20.580099] -0.242663 0.000000 0.000000 -0.970111 */
@@ -120,40 +116,38 @@ INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `ori
 VALUES (0x7A25F025,  6109, 0xA25F0166, 128.871, 180.238, 22.005, 0.730279, 0, 0, 0.683149, False, '2005-02-09 10:00:00'); /* Uziz Meeting Hall Portal */
 /* @teleloc 0xA25F0166 [128.871002 180.238007 22.004999] 0.730279 0.000000 0.000000 0.683149 */
 
-
-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F02A, 49603, 0xA25F0111, 156.211, 61.9473, 19.705, -0.570769, 0, 0, -0.821111,  True, '2005-02-09 10:00:00'); /* Apprentice Cook */
-/* @teleloc 0xA25F0111 [155.466003 62.199402 19.705000] -0.582954 0.000000 0.000000 -0.812505 */
+/* @teleloc 0xA25F0111 [156.210999 61.947300 19.705000] -0.570769 0.000000 0.000000 -0.821111 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F02B,  3951, 0xA25F0111, 156.814, 62.3026, 19.705, -0.582954, 0, 0, -0.812505, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 hour) */
 /* @teleloc 0xA25F0111 [156.813995 62.302601 19.705000] -0.582954 0.000000 0.000000 -0.812505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A25F02B, 0x7A25F02A, '2005-02-09 10:00:00') /* Apprentice Cook (28186) */
+VALUES (0x7A25F02B, 0x7A25F02A, '2005-02-09 10:00:00') /* Apprentice Cook (49603) */
      , (0x7A25F02B, 0x7A25F041, '2019-02-10 00:00:00') /* Leather Crafter (49601) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F02C, 49597, 0xA25F0158, 131.37, 148.357, 23.205, 0.997814, 0, 0, -0.066093, False, '2019-02-10 00:00:00'); /* Scrivener of Life Magic */
-/* @teleloc 0xA25F0158 [131.370000 148.357000 23.205000] 0.997814 0.000000 0.000000 -0.066093 */
+/* @teleloc 0xA25F0158 [131.369995 148.356995 23.205000] 0.997814 0.000000 0.000000 -0.066093 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F02D, 49599, 0xA25F015F, 129.352, 153.38, 20.005, 0.818095, 0, 0, -0.575083, False, '2019-02-10 00:00:00'); /* Scrivener of Item Magic */
-/* @teleloc 0xA25F015F [129.352000 153.380000 20.005000] 0.818095 0.000000 0.000000 -0.575083 */
+/* @teleloc 0xA25F015F [129.352005 153.380005 20.004999] 0.818095 0.000000 0.000000 -0.575083 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F02E, 49598, 0xA25F0164, 124.469, 156.115, 23.205, 0.658524, 0, 0, -0.75256, False, '2019-02-10 00:00:00'); /* Scrivener of Creature Magic */
-/* @teleloc 0xA25F0164 [124.469000 156.115000 23.205000] 0.658524 0.000000 0.000000 -0.752560 */
+/* @teleloc 0xA25F0164 [124.469002 156.115005 23.205000] 0.658524 0.000000 0.000000 -0.752560 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F02F, 49596, 0xA25F015A, 131.898, 162.844, 23.205, -0.058913, 0, 0, -0.998263, False, '2019-02-10 00:00:00'); /* Scrivener of War Magic */
-/* @teleloc 0xA25F015A [131.898000 162.844000 23.205000] -0.058913 0.000000 0.000000 -0.998263 */
+/* @teleloc 0xA25F015A [131.897995 162.843994 23.205000] -0.058913 0.000000 0.000000 -0.998263 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F032, 49606, 0xA25F0034, 157.717, 87.777, 20, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Uziz */
-/* @teleloc 0xA25F0034 [157.717000 87.777000 20.000000] 0.707107 0.000000 0.000000 -0.707107 */
+/* @teleloc 0xA25F0034 [157.716995 87.777000 20.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F041, 49601, 0xA25F011A, 135.598, 136.953, 19.205, 0.823502, 0, 0, -0.567313,  True, '2019-02-10 00:00:00'); /* Leather Crafter */
-/* @teleloc 0xA25F011A [135.598000 136.953000 19.205000] 0.823502 0.000000 0.000000 -0.567313 */
+/* @teleloc 0xA25F011A [135.598007 136.953003 19.205000] 0.823502 0.000000 0.000000 -0.567313 */
