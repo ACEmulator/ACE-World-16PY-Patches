@@ -160,6 +160,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x00000000, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38180, 9,  8021,  0, 0, 0.22, False) /* Create Shendolain Key (8021) for ContainTreasure */
-     , (38180, 9,  9098,  0, 0, 0.33, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
+VALUES (38180, 9,  8021,  0, 0, 0.03, False) /* Create Shendolain Key (8021) for ContainTreasure */
+     , (38180, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (38180, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
+     , (38180, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (38180, 9, 20856,  0, 0, 0.01, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
+     , (38180, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (38180, 9, 38222,  1, 0, 1, False) /* Create Blighted Mana Crystal (38222) for ContainTreasure */;
