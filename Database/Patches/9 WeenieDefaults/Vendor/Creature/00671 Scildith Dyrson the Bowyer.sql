@@ -78,7 +78,7 @@ VALUES (671,   1, 0x02000001) /* Setup */
      , (671,   4, 0x30000000) /* CombatTable */
      , (671,   6, 0x0400007E) /* PaletteBase */
      , (671,   7, 0x10000059) /* ClothingBase */
-     , (671,   8, 0x06001036) /* Icon */;
+     , (671,   8, 0x06000FEF) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (671,   1,  60, 0, 0) /* Strength */

@@ -14,7 +14,7 @@ VALUES (30019,   1,         16) /* ItemType - Creature */
      , (30019,  27,          0) /* ArmorType - None */
      , (30019,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30019,  75,          0) /* MerchandiseMinValue */
-     , (30019,  76,     100000) /* MerchandiseMaxValue */
+     , (30019,  76,    1000000) /* MerchandiseMaxValue */
      , (30019,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30019, 113,          1) /* Gender - Male */
      , (30019, 126,      10000) /* VendorHappyMean */

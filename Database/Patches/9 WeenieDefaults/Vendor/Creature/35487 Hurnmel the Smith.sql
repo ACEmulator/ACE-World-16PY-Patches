@@ -24,7 +24,7 @@ VALUES (35487,   1, True ) /* Stuck */
      , (35487,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35487,  12,   0.232) /* Shade */
+VALUES (35487,  12,   0.491) /* Shade */
      , (35487,  37,     0.9) /* BuyPrice */
      , (35487,  38,       1) /* SellPrice */
      , (35487,  39,     1.2) /* DefaultScale */
@@ -120,4 +120,4 @@ VALUES (35487, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (35487, 4, 40141, -1, 0, 0, False) /* Create Tome of Chill (40141) for Shop */
      , (35487, 4, 40606, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40606) for Shop */
      , (35487, 4, 41918, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41918) for Shop */
-     , (35487, 4, 40516, -1, 0, 0, False) /* Create Inert Skeletonbane Infusion (40516) for Shop */;
+     , (35487, 4, 40516, -1, 0, 0, False) /* Create  (40516) for Shop */;

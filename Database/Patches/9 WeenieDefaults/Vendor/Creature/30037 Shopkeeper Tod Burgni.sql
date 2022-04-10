@@ -14,7 +14,7 @@ VALUES (30037,   1,         16) /* ItemType - Creature */
      , (30037,  27,          0) /* ArmorType - None */
      , (30037,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (30037,  75,          0) /* MerchandiseMinValue */
-     , (30037,  76,      25000) /* MerchandiseMaxValue */
+     , (30037,  76,    1000000) /* MerchandiseMaxValue */
      , (30037,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30037, 113,          1) /* Gender - Male */
      , (30037, 126,        500) /* VendorHappyMean */

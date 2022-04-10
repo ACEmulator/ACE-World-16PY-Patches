@@ -45,7 +45,7 @@ VALUES (1034,   1,       5) /* HeartbeatInterval */
      , (1034,  18,       1) /* ArmorModVsAcid */
      , (1034,  19,     0.6) /* ArmorModVsElectric */
      , (1034,  37,     0.9) /* BuyPrice */
-     , (1034,  38,    1.35) /* SellPrice */
+     , (1034,  38,     1.5) /* SellPrice */
      , (1034,  54,       3) /* UseRadius */
      , (1034,  64,       1) /* ResistSlash */
      , (1034,  65,       1) /* ResistPierce */

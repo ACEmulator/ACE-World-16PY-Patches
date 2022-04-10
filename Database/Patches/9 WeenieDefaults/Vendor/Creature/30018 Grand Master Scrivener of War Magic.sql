@@ -12,7 +12,7 @@ VALUES (30018,   1,         16) /* ItemType - Creature */
      , (30018,  16,         32) /* ItemUseable - Remote */
      , (30018,  25,         77) /* Level */
      , (30018,  27,          0) /* ArmorType - None */
-     , (30018,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
+     , (30018,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30018,  75,          0) /* MerchandiseMinValue */
      , (30018,  76,     100000) /* MerchandiseMaxValue */
      , (30018,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

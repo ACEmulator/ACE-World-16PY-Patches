@@ -14,7 +14,7 @@ VALUES (814,   1,         16) /* ItemType - Creature */
      , (814,  27,          0) /* ArmorType - None */
      , (814,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (814,  75,          0) /* MerchandiseMinValue */
-     , (814,  76,      25000) /* MerchandiseMaxValue */
+     , (814,  76,    1000000) /* MerchandiseMaxValue */
      , (814,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (814, 126,       1000) /* VendorHappyMean */
      , (814, 127,        500) /* VendorHappyVariance */

@@ -6,7 +6,7 @@ VALUES (11381, 'ahurengashopkeep-xp', 12, '2021-11-01 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11381,   1,         16) /* ItemType - Creature */
      , (11381,   2,          6) /* CreatureType - Tumerok */
-     , (11381,   3,         19) /* PaletteTemplate - Copper */
+     , (11381,   3,          4) /* PaletteTemplate - Brown */
      , (11381,   6,         -1) /* ItemsCapacity */
      , (11381,   7,         -1) /* ContainersCapacity */
      , (11381,   8,        120) /* Mass */
@@ -73,11 +73,11 @@ VALUES (11381,   1, 'Hea Kiriona the Shopkeep') /* Name */
      , (11381,  24, 'Ahurenga') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11381,   1, 0x02000040) /* Setup */
+VALUES (11381,   1, 0x02001401) /* Setup */
      , (11381,   2, 0x0900000A) /* MotionTable */
      , (11381,   3, 0x20000013) /* SoundTable */
      , (11381,   4, 0x3000000C) /* CombatTable */
-     , (11381,   6, 0x040001C2) /* PaletteBase */
+     , (11381,   6, 0x04001E51) /* PaletteBase */
      , (11381,   7, 0x100000BF) /* ClothingBase */
      , (11381,   8, 0x0600103C) /* Icon */;
 

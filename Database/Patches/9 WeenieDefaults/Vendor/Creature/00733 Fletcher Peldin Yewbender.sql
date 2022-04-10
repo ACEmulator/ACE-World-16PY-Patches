@@ -10,7 +10,7 @@ VALUES (733,   1,         16) /* ItemType - Creature */
      , (733,   7,         -1) /* ContainersCapacity */
      , (733,   8,        120) /* Mass */
      , (733,  16,         32) /* ItemUseable - Remote */
-     , (733,  25,          9) /* Level */
+     , (733,  25,         47) /* Level */
      , (733,  27,          0) /* ArmorType - None */
      , (733,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */
      , (733,  75,          0) /* MerchandiseMinValue */

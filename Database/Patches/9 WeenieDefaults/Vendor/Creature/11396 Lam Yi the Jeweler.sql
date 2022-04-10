@@ -70,9 +70,9 @@ VALUES (11396,   1, 'Lam Yi the Jeweler') /* Name */
      , (11396,  24, 'Redspire') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11396,   1, 0x02000001) /* Setup */
+VALUES (11396,   1, 0x0200004E) /* Setup */
      , (11396,   2, 0x09000001) /* MotionTable */
-     , (11396,   3, 0x20000001) /* SoundTable */
+     , (11396,   3, 0x20000002) /* SoundTable */
      , (11396,   4, 0x30000000) /* CombatTable */
      , (11396,   8, 0x06001036) /* Icon */;
 

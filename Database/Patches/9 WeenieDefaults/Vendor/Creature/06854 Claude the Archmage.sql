@@ -6,7 +6,7 @@ VALUES (6854, 'ayanbaqurarchmage', 12, '2021-11-01 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6854,   1,         16) /* ItemType - Creature */
      , (6854,   2,         19) /* CreatureType - Virindi */
-     , (6854,   3,         14) /* PaletteTemplate - Red */
+     , (6854,   3,          3) /* PaletteTemplate - BluePurple */
      , (6854,   6,         -1) /* ItemsCapacity */
      , (6854,   7,         -1) /* ContainersCapacity */
      , (6854,   8,        120) /* Mass */

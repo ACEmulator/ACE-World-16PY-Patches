@@ -71,8 +71,8 @@ VALUES (1828,   1, 'Yahr ibn Ajaj the Bowyer') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1828,   1, 0x02000001) /* Setup */
-     , (1828,   2, 0x09000001) /* MotionTable */
-     , (1828,   3, 0x20000001) /* SoundTable */
+     , (1828,   2, 0x090000C5) /* MotionTable */
+     , (1828,   3, 0x20000083) /* SoundTable */
      , (1828,   4, 0x30000000) /* CombatTable */
      , (1828,   8, 0x06001036) /* Icon */;
 

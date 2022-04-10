@@ -71,8 +71,8 @@ VALUES (1831,   1, 'Adraha bint Safsan the Appraiser') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1831,   1, 0x0200004E) /* Setup */
-     , (1831,   2, 0x09000001) /* MotionTable */
-     , (1831,   3, 0x20000002) /* SoundTable */
+     , (1831,   2, 0x090000C5) /* MotionTable */
+     , (1831,   3, 0x20000085) /* SoundTable */
      , (1831,   4, 0x30000000) /* CombatTable */
      , (1831,   8, 0x06001036) /* Icon */;
 
