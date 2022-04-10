@@ -17,7 +17,7 @@ Give: Barbaric Mukkir Nest-lord's Head (32925)
     - Delay: 1, DirectBroadcast: Qath al-Haddash bestows upon you the title of "Mukkir Masher."
     - Delay: 1, Tell: This is a valuable find. With this, we may be able to learn more about these "Mukkir" and predict what the Viamontians will seek next. Please, allow me to reward you.
     - AwardLevelProportionalXP: 100%, 0 - 226,800,000
-    
+
 Refuse: Alizari's Encoded Notes (70271)
     - TurnToTarget
     - TakeItems: Alizari's Encoded Notes (70271)
@@ -89,7 +89,7 @@ Use:
                     - StampQuest: FacesMukkirNotes1005
                 TestFailure:
                     - InqIntStat: Level, 80 - 99
-                        TestSuccess: 
+                        TestSuccess:
                             - Tell: Yes, you should be suitable... I have been tracking Viamontian interest in a certain obscure race of creatures, thought long-vanished... I would have you journey to the dig site overseen by Mistress Gabille, a Viamontian scholar. Bring me Gabille's notes on their findings. The notes are likely to be written in some strange cipher, unreadable by the untrained eye. The dig site can be found at 8.5N 88.9W.
                             - StampQuest: FacesMukkirNotes1005
                         TestFailure:
