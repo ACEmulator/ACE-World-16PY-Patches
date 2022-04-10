@@ -139,7 +139,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+VALUES (42220, 2,  2595,  0, 9, 1, False) /* Create Tunic (2595) for Wield */
+     , (42220, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (42220, 2,  5852,  0, 39, 0.3, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (42220, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (42220, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (42220, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -161,8 +164,4 @@ VALUES (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (42220, 4, 42216, -1, 0, 0, False) /* Create Cold Protection Other IV (42216) for Shop */
      , (42220, 4, 42217, -1, 0, 0, False) /* Create Fire Protection Other IV (42217) for Shop */
      , (42220, 4, 42218, -1, 0, 0, False) /* Create Lightning Protection Other IV (42218) for Shop */
-     , (42220, 4, 42219, -1, 0, 0, False) /* Create Piercing Protection Other IV (42219) for Shop */
-     , (42220, 2,  2595,  0, 9, 1, False) /* Create Tunic (2595) for Wield */
-     , (42220, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
-     , (42220, 2,  5852,  0, 39, 0.3, False) /* Create Dho Vest and Robe (5852) for Wield */;
-
+     , (42220, 4, 42219, -1, 0, 0, False) /* Create Piercing Protection Other IV (42219) for Shop */;
