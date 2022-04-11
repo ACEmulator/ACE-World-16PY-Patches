@@ -122,5 +122,4 @@ VALUES (52292,  2228,   2.08)  /* Broadside of a Barn */
      , (52292,  5402,  2.286)  /* Incantation of Corruption */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52292, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
-     , (52292, 9, 80155,  1, 0, 0, False) /* Create  (80155) for ContainTreasure */;
+VALUES (52292, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */;

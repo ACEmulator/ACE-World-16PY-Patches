@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80154;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80154, 'ace80154-aerlinthegatestone', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (80154, 'ace80154-halaetangatestone', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80154,   1,         16) /* ItemType - Creature */
@@ -30,7 +30,3 @@ VALUES (80154,   1, 0x0200096A) /* Setup */
      , (80154,   2, 0x0900013D) /* MotionTable */
      , (80154,   3, 0x20000015) /* SoundTable */
      , (80154,   8, 0x0600698C) /* Icon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80154, 8040, 0xB6E80100, 110.218, 108.671, 2.94674, 1, 0, 0, 0) /* PCAPRecordedLocation */
-/* @teleloc 0xB6E80100 [110.218000 108.671000 2.946740] 1.000000 0.000000 0.000000 0.000000 */;
