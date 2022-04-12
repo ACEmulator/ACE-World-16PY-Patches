@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1831;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1831, 'uzizjeweler', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (1831, 'uzizjeweler', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1831,   1,         16) /* ItemType - Creature */
@@ -71,8 +71,8 @@ VALUES (1831,   1, 'Adraha bint Safsan the Appraiser') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1831,   1, 0x0200004E) /* Setup */
-     , (1831,   2, 0x09000001) /* MotionTable */
-     , (1831,   3, 0x20000002) /* SoundTable */
+     , (1831,   2, 0x090000C5) /* MotionTable */
+     , (1831,   3, 0x20000085) /* SoundTable */
      , (1831,   4, 0x30000000) /* CombatTable */
      , (1831,   8, 0x06001036) /* Icon */;
 

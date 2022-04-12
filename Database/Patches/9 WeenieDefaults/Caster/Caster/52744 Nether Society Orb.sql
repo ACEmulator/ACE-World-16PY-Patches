@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52744;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52744, 'ace52744-nethersocietyorb', 35, '2022-03-31 06:02:40') /* Caster */;
+VALUES (52744, 'ace52744-nethersocietyorb', 35, '2022-04-12 04:33:53') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52744,   1,      32768) /* ItemType - Caster */
@@ -32,7 +32,7 @@ VALUES (52744,   5,   -0.05) /* ManaRate */
      , (52744, 144,    0.15) /* ManaConversionMod */
      , (52744, 150,   1.025) /* WeaponMagicDefense */
      , (52744, 152,     1.1) /* ElementalDamageMod */
-     , (52744, 157,     1.4) /* ResistanceModifier */
+     , (52744, 157,    1.09) /* ResistanceModifier */
      , (52744, 159,     0.1) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

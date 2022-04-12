@@ -188,23 +188,23 @@ VALUES (30009, 2,  5901,  0, 14, 0.58, False) /* Create Kasa (5901) for Wield */
      , (30009, 4,  1876, -1, 0, 0, False) /* Create Scroll of Acid Lure (1876) for Shop */
      , (30009, 4,  1552, -1, 0, 0, False) /* Create Scroll of Blade Bane (1552) for Shop */
      , (30009, 4,  1553, -1, 0, 0, False) /* Create Scroll of Blade Lure (1553) for Shop */
-     , (30009, 4,  1588, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Self (1588) for Shop */
-     , (30009, 4, 46843, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Other (46843) for Shop */
+     , (30009, 4,  1588, -1, 0, 0, False) /* Create Aura of Blood Drinker Self (1588) for Shop */
+     , (30009, 4, 46843, -1, 0, 0, False) /* Create Aura of Blood Drinker Other (46843) for Shop */
      , (30009, 4,  1589, -1, 0, 0, False) /* Create Scroll of Blood Loather (1589) for Shop */
      , (30009, 4,  1877, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane (1877) for Shop */
      , (30009, 4,  1878, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure (1878) for Shop */
-     , (30009, 4,  1880, -1, 0, 0, False) /* Create Scroll of Aura of Defender Self (1880) for Shop */
-     , (30009, 4, 46844, -1, 0, 0, False) /* Create Scroll of Aura of Defender Other (46844) for Shop */
+     , (30009, 4,  1880, -1, 0, 0, False) /* Create Aura of Defender Self (1880) for Shop */
+     , (30009, 4, 46844, -1, 0, 0, False) /* Create Aura of Defender Other (46844) for Shop */
      , (30009, 4,  1891, -1, 0, 0, False) /* Create Scroll of Lure Blade (1891) for Shop */
      , (30009, 4,  1881, -1, 0, 0, False) /* Create Scroll of Flame Bane (1881) for Shop */
      , (30009, 4,  1882, -1, 0, 0, False) /* Create Scroll of Flame Lure (1882) for Shop */
      , (30009, 4,  1883, -1, 0, 0, False) /* Create Scroll of Frost Bane (1883) for Shop */
      , (30009, 4,  1884, -1, 0, 0, False) /* Create Scroll of Frost Lure (1884) for Shop */
-     , (30009, 4,  1885, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Self (1885) for Shop */
-     , (30009, 4, 46845, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Other (46845) for Shop */
+     , (30009, 4,  1885, -1, 0, 0, False) /* Create Aura of Heartseeker Self (1885) for Shop */
+     , (30009, 4, 46845, -1, 0, 0, False) /* Create Aura of Heartseeker Other (46845) for Shop */
      , (30009, 4,  1897, -1, 0, 0, False) /* Create Scroll of Turn Blade (1897) for Shop */
-     , (30009, 4,  1896, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Self (1896) for Shop */
-     , (30009, 4, 46848, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Other (46848) for Shop */
+     , (30009, 4,  1896, -1, 0, 0, False) /* Create Aura of Hermetic Link Self (1896) for Shop */
+     , (30009, 4, 46848, -1, 0, 0, False) /* Create Aura of Hermetic Link Other (46848) for Shop */
      , (30009, 4,  1886, -1, 0, 0, False) /* Create Scroll of Hermetic Void (1886) for Shop */
      , (30009, 4,  1887, -1, 0, 0, False) /* Create Scroll of Impenetrability (1887) for Shop */
      , (30009, 4,  1879, -1, 0, 0, False) /* Create Scroll of Brittlemail (1879) for Shop */
@@ -212,13 +212,13 @@ VALUES (30009, 2,  5901,  0, 14, 0.58, False) /* Create Kasa (5901) for Wield */
      , (30009, 4,  1890, -1, 0, 0, False) /* Create Scroll of Lightning Lure (1890) for Shop */
      , (30009, 4,  1892, -1, 0, 0, False) /* Create Scroll of Piercing Bane (1892) for Shop */
      , (30009, 4,  1893, -1, 0, 0, False) /* Create Scroll of Piercing Lure (1893) for Shop */
-     , (30009, 4, 28002, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Self (28002) for Shop */
-     , (30009, 4, 46846, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Other (46846) for Shop */
+     , (30009, 4, 28002, -1, 0, 0, False) /* Create Aura of Spirit Drinker Self (28002) for Shop */
+     , (30009, 4, 46846, -1, 0, 0, False) /* Create Aura of Spirit Drinker Other (46846) for Shop */
      , (30009, 4, 28009, -1, 0, 0, False) /* Create Scroll of Spirit Loather (28009) for Shop */
      , (30009, 4,  1894, -1, 0, 0, False) /* Create Scroll of Strengthen Lock (1894) for Shop */
      , (30009, 4,  1898, -1, 0, 0, False) /* Create Scroll of Weaken Lock (1898) for Shop */
-     , (30009, 4,  1895, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Self (1895) for Shop */
-     , (30009, 4, 46847, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Other (46847) for Shop */
+     , (30009, 4,  1895, -1, 0, 0, False) /* Create Aura of Swift Killer Self (1895) for Shop */
+     , (30009, 4, 46847, -1, 0, 0, False) /* Create Aura of Swift Killer Other (46847) for Shop */
      , (30009, 4,  1888, -1, 0, 0, False) /* Create Scroll of Leaden Weapon (1888) for Shop */
      , (30009, 4,  1638, -1, 0, 0, False) /* Create Scroll of Acid Stream (1638) for Shop */
      , (30009, 4,  8914, -1, 0, 0, False) /* Create Scroll of Acid Streak (8914) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 832;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (832, 'shoushibarkeeper', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (832, 'shoushibarkeeper', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (832,   1,         16) /* ItemType - Creature */
@@ -49,7 +49,7 @@ VALUES (832,   1,       5) /* HeartbeatInterval */
      , (832,  18,       1) /* ArmorModVsAcid */
      , (832,  19,     0.6) /* ArmorModVsElectric */
      , (832,  37,     0.9) /* BuyPrice */
-     , (832,  38,    1.35) /* SellPrice */
+     , (832,  38,     1.5) /* SellPrice */
      , (832,  54,       3) /* UseRadius */
      , (832,  64,       1) /* ResistSlash */
      , (832,  65,       1) /* ResistPierce */

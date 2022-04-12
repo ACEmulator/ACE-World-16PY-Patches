@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 814;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (814, 'yanshibowyer', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (814, 'yanshibowyer', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (814,   1,         16) /* ItemType - Creature */
@@ -14,7 +14,7 @@ VALUES (814,   1,         16) /* ItemType - Creature */
      , (814,  27,          0) /* ArmorType - None */
      , (814,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (814,  75,          0) /* MerchandiseMinValue */
-     , (814,  76,      25000) /* MerchandiseMaxValue */
+     , (814,  76,    1000000) /* MerchandiseMaxValue */
      , (814,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (814, 126,       1000) /* VendorHappyMean */
      , (814, 127,        500) /* VendorHappyVariance */

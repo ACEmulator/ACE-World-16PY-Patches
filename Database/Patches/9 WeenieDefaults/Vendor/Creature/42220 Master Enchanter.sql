@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42220;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42220, 'ace42220-masterenchanter', 12, '2021-11-17 16:56:08') /* Vendor */;
+VALUES (42220, 'ace42220-masterenchanter', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42220,   1,         16) /* ItemType - Creature */
@@ -43,13 +43,7 @@ VALUES (42220,   1, 0x02000001) /* Setup */
      , (42220,   2, 0x09000001) /* MotionTable */
      , (42220,   3, 0x20000001) /* SoundTable */
      , (42220,   6, 0x0400007E) /* PaletteBase */
-     , (42220,   8, 0x06001036) /* Icon */
-     , (42220,   9, 0x05001119) /* EyesTexture */
-     , (42220,  10, 0x05001162) /* NoseTexture */
-     , (42220,  11, 0x0500118F) /* MouthTexture */
-     , (42220,  15, 0x04002017) /* HairPalette */
-     , (42220,  16, 0x040004AF) /* EyesPalette */
-     , (42220,  17, 0x040002B5) /* SkinPalette */;
+     , (42220,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42220,   1, 100, 0, 0) /* Strength */
@@ -145,7 +139,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+VALUES (42220, 2,  2595,  0, 9, 1, False) /* Create Tunic (2595) for Wield */
+     , (42220, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (42220, 2,  5852,  0, 39, 0.3, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (42220, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (42220, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (42220, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -168,49 +165,3 @@ VALUES (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (42220, 4, 42217, -1, 0, 0, False) /* Create Fire Protection Other IV (42217) for Shop */
      , (42220, 4, 42218, -1, 0, 0, False) /* Create Lightning Protection Other IV (42218) for Shop */
      , (42220, 4, 42219, -1, 0, 0, False) /* Create Piercing Protection Other IV (42219) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42220, 67109557, 0, 24)
-     , (42220, 67109968, 96, 12)
-     , (42220, 67110063, 32, 8)
-     , (42220, 67110368, 116, 12)
-     , (42220, 67112953, 40, 40)
-     , (42220, 67112953, 80, 12)
-     , (42220, 67117079, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42220, 0, 83892345, 83892353)
-     , (42220, 0, 83892344, 83892353)
-     , (42220, 1, 83892352, 83892352)
-     , (42220, 2, 83892351, 83892351)
-     , (42220, 5, 83892352, 83892352)
-     , (42220, 6, 83892351, 83892351)
-     , (42220, 9, 83887061, 83892357)
-     , (42220, 9, 83887060, 83892356)
-     , (42220, 10, 83892347, 83892355)
-     , (42220, 11, 83892346, 83892354)
-     , (42220, 13, 83892347, 83892355)
-     , (42220, 14, 83892346, 83892354)
-     , (42220, 16, 83886232, 83890685)
-     , (42220, 16, 83886668, 83890457)
-     , (42220, 16, 83886837, 83890530)
-     , (42220, 16, 83886684, 83890575);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42220, 0, 16783894)
-     , (42220, 1, 16783912)
-     , (42220, 2, 16783918)
-     , (42220, 3, 16777292)
-     , (42220, 4, 16777291)
-     , (42220, 5, 16783916)
-     , (42220, 6, 16783920)
-     , (42220, 7, 16777296)
-     , (42220, 8, 16777298)
-     , (42220, 9, 16781837)
-     , (42220, 10, 16783863)
-     , (42220, 11, 16783853)
-     , (42220, 12, 16777304)
-     , (42220, 13, 16783871)
-     , (42220, 14, 16783855)
-     , (42220, 15, 16777307)
-     , (42220, 16, 16795662);

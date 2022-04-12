@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8492;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8492, 'freeholdarchmage', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (8492, 'freeholdarchmage', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8492,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (8492,   1,         16) /* ItemType - Creature */
      , (8492,   7,         -1) /* ContainersCapacity */
      , (8492,   8,        120) /* Mass */
      , (8492,  16,         32) /* ItemUseable - Remote */
-     , (8492,  25,         34) /* Level */
+     , (8492,  25,         33) /* Level */
      , (8492,  27,          0) /* ArmorType - None */
      , (8492,  74, 1074573312) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone, TinkeringMaterial */
      , (8492,  75,          0) /* MerchandiseMinValue */

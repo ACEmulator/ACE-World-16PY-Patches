@@ -194,8 +194,8 @@ VALUES (30022, 2, 28614,  0, 5, 0.5, False) /* Create Vestiri Robe with Hood (28
      , (30022, 4,  2737, -1, 0, 0, False) /* Create Scroll of Strength Other II (2737) for Shop */
      , (30022, 4,  2742, -1, 0, 0, False) /* Create Scroll of Self Strength II (2742) for Shop */
      , (30022, 4,  2747, -1, 0, 0, False) /* Create Scroll of Weakness Other II (2747) for Shop */
-     , (30022, 4,  2752, -1, 0, 0, False) /* Create Scroll of WillPower Other II (2752) for Shop */
-     , (30022, 4,  2757, -1, 0, 0, False) /* Create Scroll of WillPower Self II (2757) for Shop */
+     , (30022, 4,  2752, -1, 0, 0, False) /* Create Scroll of Willpower Other II (2752) for Shop */
+     , (30022, 4,  2757, -1, 0, 0, False) /* Create Scroll of Willpower Self II (2757) for Shop */
      , (30022, 4,  5981, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other II (5981) for Shop */
      , (30022, 4,  5987, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other II (5987) for Shop */
      , (30022, 4,  5993, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self II (5993) for Shop */

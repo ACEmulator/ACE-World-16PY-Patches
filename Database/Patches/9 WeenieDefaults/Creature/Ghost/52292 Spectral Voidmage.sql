@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52292;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52292, 'ace52292-spectralvoidmage', 10, '2021-11-08 06:01:47') /* Creature */;
+VALUES (52292, 'ace52292-spectralvoidmage', 10, '2022-04-12 04:33:53') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52292,   1,         16) /* ItemType - Creature */
@@ -122,5 +122,4 @@ VALUES (52292,  2228,   2.08)  /* Broadside of a Barn */
      , (52292,  5402,  2.286)  /* Incantation of Corruption */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52292, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
-     , (52292, 9, 80155,  1, 0, 0, False) /* Create  (80155) for ContainTreasure */;
+VALUES (52292, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */;

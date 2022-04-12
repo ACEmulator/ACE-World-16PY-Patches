@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11380;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11380, 'ahurengajeweler-xp', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (11380, 'ahurengajeweler-xp', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11380,   1,         16) /* ItemType - Creature */
      , (11380,   2,          6) /* CreatureType - Tumerok */
-     , (11380,   3,         19) /* PaletteTemplate - Copper */
+     , (11380,   3,          5) /* PaletteTemplate - DarkBlue */
      , (11380,   6,         -1) /* ItemsCapacity */
      , (11380,   7,         -1) /* ContainersCapacity */
      , (11380,   8,        120) /* Mass */
@@ -69,11 +69,11 @@ VALUES (11380,   1, 'Hea Palagura the Jeweler') /* Name */
      , (11380,  24, 'Ahurenga') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11380,   1, 0x02000040) /* Setup */
+VALUES (11380,   1, 0x02001401) /* Setup */
      , (11380,   2, 0x0900000A) /* MotionTable */
      , (11380,   3, 0x20000013) /* SoundTable */
      , (11380,   4, 0x3000000C) /* CombatTable */
-     , (11380,   6, 0x040001C2) /* PaletteBase */
+     , (11380,   6, 0x04001E51) /* PaletteBase */
      , (11380,   7, 0x100000BF) /* ClothingBase */
      , (11380,   8, 0x0600103C) /* Icon */;
 
