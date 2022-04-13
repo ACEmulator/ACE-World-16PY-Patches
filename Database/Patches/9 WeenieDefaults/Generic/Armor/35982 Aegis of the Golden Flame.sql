@@ -10,7 +10,7 @@ VALUES (35982,   1,          2) /* ItemType - Armor */
      , (35982,  16,          1) /* ItemUseable - No */
      , (35982,  18,         32) /* UiEffects - Fire */
      , (35982,  19,      10000) /* Value */
-     , (35982,  28,        430) /* ArmorLevel */
+     , (35982,  28,        190) /* ArmorLevel */
      , (35982,  33,          1) /* Bonded - Bonded */
      , (35982,  51,          4) /* CombatUse - Shield */
      , (35982,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
