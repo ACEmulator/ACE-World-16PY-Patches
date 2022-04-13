@@ -358,8 +358,8 @@ VALUES (0x78954057, 88239, 0x89540177, 14.3969, 282.465, -115.545, 0.714674, 0, 
 /* @teleloc 0x89540177 [14.396900 282.464996 -115.544998] 0.714674 0.000000 0.000000 -0.699458 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78954058, 88239, 0x8954017A, 6.952527, 270.7546, -115.6, 0.714674, 0, 0, -0.699458, False, '2022-04-01 08:38:28'); /* Temple of Twilight Generator */
-/* @teleloc 0x8954017A [6.952527 270.754608 -115.599998] 0.714674 0.000000 0.000000 -0.699458 */
+VALUES (0x78954058, 88239, 0x8954017A, 6.95253, 270.755, -115.6, 0.714674, 0, 0, -0.699458, False, '2022-04-01 08:38:28'); /* Temple of Twilight Generator */
+/* @teleloc 0x8954017A [6.952530 270.755005 -115.599998] 0.714674 0.000000 0.000000 -0.699458 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78954059, 88239, 0x8954014F, -9.88633, 274.172, -121.545, 0.714674, 0, 0, -0.699458, False, '2022-04-01 08:38:34'); /* Temple of Twilight Generator */
@@ -420,3 +420,7 @@ VALUES (0x78954066, 88239, 0x8954010E, -59.5288, 256.695, -121.545, -0.999683, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78954067, 88239, 0x89540118, -50.0907, 259.519, -121.545, -0.081491, 0, 0, 0.996674, False, '2022-04-01 08:40:25'); /* Temple of Twilight Generator */
 /* @teleloc 0x89540118 [-50.090698 259.519012 -121.544998] -0.081491 0.000000 0.000000 0.996674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78954068, 87566, 0x895405EF, 56.8479, 116.611, -25.0232, 0.707107, 0, 0, 0.707107, False, '2022-04-13 18:46:19'); /* Chorizite Chest */
+/* @teleloc 0x895405EF [56.847900 116.611000 -25.023199] 0.707107 0.000000 0.000000 0.707107 */
