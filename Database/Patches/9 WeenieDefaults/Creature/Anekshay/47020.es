@@ -62,3 +62,7 @@ Refuse: Seed of Essence (88201)
 			- EraseQuest: FirstSisterStarted_1012
 			- EraseQuest: SanctumGuardianKillTask_Completed
 			- Delay: 1, TeleportTarget: 0x654C068A [112.336998 -176.554001 0.005000] 0.917966 0.000000 0.000000 -0.396660
+			- InqQuestBitsOn: LegendaryQuestsB, 0x100
+				QuestFailure:
+					- SetQuestBitsOn: LegendaryQuestsB, 0x100
+					- StampQuest: LegendaryQuestCounter_0913

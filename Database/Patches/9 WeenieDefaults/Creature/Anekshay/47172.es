@@ -66,3 +66,7 @@ Refuse: Seed of Essence (88216)
 			- Delay: 1, Tell: If you're interested, I'll likely need your assistance again tomorrow. The bulb should be ready to produce another seed by then.
 			- Delay: 1, Tell: Also, my friend Norus has a dig site near the Inner Sea Gearknight area, but none of us have heard from him recently. If you could go see if he needs any help, it'd be greatly appreciated.
 			- Delay: 1, TeleportTarget: 0x654C068A [112.336998 -176.554001 0.005000] 0.917966 0.000000 0.000000 -0.396660
+			- InqQuestBitsOn: LegendaryQuestsB, 0x200 
+				QuestFailure:
+					- SetQuestBitsOn: LegendaryQuestsB, 0x200 
+					- StampQuest: LegendaryQuestCounter_0913

@@ -63,3 +63,7 @@ Refuse: Seed of Essence (88228)
 			- Delay: 1, Tell: If you're interested, I'll likely need your assistance again tomorrow. The bulb should be ready to produce another seed by then.
 			- Delay: 1, Tell: Also, as you have aided all of the Lost Sisters, you may wish to seek out Lord Brem, in the encampment that watches over Hoshino Kei's Fortress. He is seeking those adventurers who've been brave enough to assist us in collecting all of the essences of the Sisters.
 			- Delay: 1, TeleportTarget: 0x654C068A [112.336998 -176.554001 0.005000] 0.917966 0.000000 0.000000 -0.396660
+			- InqQuestBitsOn: LegendaryQuestsB, 0x400 
+				QuestFailure:
+					- SetQuestBitsOn: LegendaryQuestsB, 0x400
+					- StampQuest: LegendaryQuestCounter_0913
