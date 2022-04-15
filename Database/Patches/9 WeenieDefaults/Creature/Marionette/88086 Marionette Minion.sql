@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88086;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88086, 'ace88086-marionetteminion', 10, '2022-03-31 06:02:40') /* Creature */;
+VALUES (88086, 'ace88086-marionetteminion', 10, '2021-11-29 06:19:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88086,   1,         16) /* ItemType - Creature */
@@ -92,15 +92,15 @@ VALUES (88086,   1,  8560, 0, 0, 8800) /* MaxHealth */
      , (88086,   5,  7620, 0, 0, 8370) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (88086,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
-     , (88086,  7, 0, 3, 0, 354, 0, 0) /* MissileDefense      Specialized */
+VALUES (88086,  6, 0, 3, 0, 470, 0, 0) /* MeleeDefense        Specialized */
+     , (88086,  7, 0, 3, 0, 485, 0, 0) /* MissileDefense      Specialized */
      , (88086, 14, 0, 3, 0,  90, 0, 0) /* ArcaneLore          Specialized */
-     , (88086, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
+     , (88086, 15, 0, 3, 0, 444, 0, 0) /* MagicDefense        Specialized */
      , (88086, 20, 0, 3, 0, 450, 0, 0) /* Deception           Specialized */
-     , (88086, 31, 0, 3, 0, 345, 0, 0) /* CreatureEnchantment Specialized */
-     , (88086, 33, 0, 3, 0, 395, 0, 0) /* LifeMagic           Specialized */
-     , (88086, 34, 0, 3, 0, 395, 0, 0) /* WarMagic            Specialized */
-     , (88086, 45, 0, 3, 0, 397, 0, 0) /* LightWeapons        Specialized */
+     , (88086, 31, 0, 3, 0, 445, 0, 0) /* CreatureEnchantment Specialized */
+     , (88086, 33, 0, 3, 0, 495, 0, 0) /* LifeMagic           Specialized */
+     , (88086, 34, 0, 3, 0, 495, 0, 0) /* WarMagic            Specialized */
+     , (88086, 45, 0, 3, 0, 477, 0, 0) /* LightWeapons        Specialized */
      , (88086, 46, 0, 3, 0, 307, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
