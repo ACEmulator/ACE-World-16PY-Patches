@@ -19,6 +19,7 @@ VALUES (42541,   1, 'Tulip') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42541,   1, 0x02001965) /* Setup */
+     , (42541,   7, 0x1000078F) /* ClothingBase */
      , (42541,   8, 0x06006BE6) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
