@@ -13,13 +13,18 @@ VALUES (42959,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42959,   1, True ) /* Stuck */
-     , (42959,  19, False) /* Attackable */;
+     , (42959,  19, False) /* Attackable */
+     , (42959,  52, True ) /* AiImmobile */
+     , (42959,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (42959,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42959,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42959,   1, 'Second Enchanted Candle') /* Name */;
+VALUES (42959,   1, 'Second Enchanted Candle') /* Name */
+     , (42959,  14, 'Use this candle to gain the enchantment needed to continue the race.') /* Use */
+     , (42959,  16, 'An enchanted candle, used in the race celebrating the marriage of Borelean and Hoshino Kei.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42959,   1, 0x02001632) /* Setup */
