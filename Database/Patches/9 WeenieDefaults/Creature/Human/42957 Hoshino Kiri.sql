@@ -34,13 +34,7 @@ VALUES (42957,   1, 0x0200004E) /* Setup */
      , (42957,   2, 0x09000001) /* MotionTable */
      , (42957,   3, 0x20000002) /* SoundTable */
      , (42957,   6, 0x0400007E) /* PaletteBase */
-     , (42957,   8, 0x06001036) /* Icon */
-     , (42957,   9, 0x0500103C) /* EyesTexture */
-     , (42957,  10, 0x05001080) /* NoseTexture */
-     , (42957,  11, 0x050010A0) /* MouthTexture */
-     , (42957,  15, 0x04001FE2) /* HairPalette */
-     , (42957,  16, 0x040002BD) /* EyesPalette */
-     , (42957,  17, 0x040004A4) /* SkinPalette */;
+     , (42957,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42957, 8040, 0xB36F001A, 90.9503, 32.4449, 21.30126, -0.989284, 0, 0, 0.146005) /* PCAPRecordedLocation */
@@ -60,4 +54,6 @@ VALUES (42957,   1,   150, 0, 0, 260) /* MaxHealth */
      , (42957,   5,   180, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42957, 2, 42709,  1, 0, 0, False) /* Create Royal Bouquet (42709) for Wield */;
+VALUES (42957, 2, 42709,  1, 0, 0, False) /* Create Royal Bouquet (42709) for Wield */
+     , (42957, 2, 30740,  1, 9, 0.66, False) /* Create Royal Bouquet (42709) for Wield */
+     , (42957, 2, 14905,  1, 91, 0, False) /* Create Royal Bouquet (42709) for Wield */;
