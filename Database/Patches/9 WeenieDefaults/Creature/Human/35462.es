@@ -1,4 +1,4 @@
-HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.04100001
+	HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.04100001
     - Say: Don't feed the Drudges, it just emboldens them., Extent: 20
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.03200001
@@ -571,5 +571,23 @@ GotoSet: DrudgePlanScrapCheck
                                                                                                                                         - Delay: 1, Tell: Yes, this is their "Plan." It hasn't changed much since I first saw it. See here? This already happened. That fellow in red burning the windmill, that would be Burnja. We drove off that psychotic little pyromaniac before he could burn the windmill. And we now know that they've built the fort shown here west of town. They used all the things they stole from us to build it.
                                                                                                                                         - Delay: 1, Tell: The only thing I don't know is who this drudge floating over the fort is. The council sent me a lengthy letter from Aliester the Loquacious theorizing that the Drudge depicted there is some sort of magic wielding warlord. I prefer getting more substantial information before I jump to any conclusions though. Let me know if you find out anything else.
                                                                                                                                         - Delay: 1, Tell: Now, for your service to our town I hereby make you a member of the Cragstone Militia, with the knowledge due a militia member.
+																																		- EraseQuest: TCSTurnin1
+																																		- EraseQuest: TCSTurnin2
+																																		- EraseQuest: TCSTurnin3
+																																		- EraseQuest: TCSTurnin4
+																																		- EraseQuest: TCSTurnin5
+																																		- EraseQuest: TCSTurnin6
+																																		- EraseQuest: TCSTurnin7
+																																		- EraseQuest: TCSTurnin8
+																																		- EraseQuest: TCSTurnin9
+																																		- EraseQuest: TCSTurnin10
+																																		- EraseQuest: TCSTurnin11
+																																		- EraseQuest: TCSTurnin12
+																																		- EraseQuest: TCSTurnin13
+																																		- EraseQuest: TCSTurnin14
+																																		- EraseQuest: TCSTurnin15
+																																		- EraseQuest: TCSTurnin16
+																																		- EraseQuest: TCSTurnin17
+																																		- EraseQuest: TCSTurnin18
                                                                                                                                         - AwardXP: 6,000,000
                                                                                                                                         - StampQuest: DrudgePlan_Wait
