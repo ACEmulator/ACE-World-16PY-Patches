@@ -13,6 +13,7 @@ Use:
                             - InqOwnsItems: Egg (80227), 8
                                 TestSuccess:
                                     - EraseQuest: EggRetrievalStarted
+                                    - EraseQuest: EggRetrievalProgress
                                     - TakeItems: Egg (80227), -1
                                     - UpdateQuest: EggRetrievalTopHatWait
                                         QuestSuccess:
@@ -24,6 +25,7 @@ Use:
                                     - InqOwnsItems: Egg (80227), 5
                                         TestSuccess:
                                             - EraseQuest: EggRetrievalStarted
+                                            - EraseQuest: EggRetrievalProgress
                                             - TakeItems: Egg (80227), -1
                                             - UpdateQuest: EggRetrievalTopHatWait
                                                 QuestSuccess:
@@ -38,14 +40,16 @@ Use:
                                                 QuestFailure:
                                                     - InqQuestSolves: EggRetrievalStarted, 1 - 2
                                                         QuestSuccess:
+                                                            - EraseQuest: EggRetrievalStarted
+                                                            - EraseQuest: EggRetrievalProgress
                                                             - TakeItems: Egg (80227), -1
                                                             - Tell: You didn't find enough eggs, find more and you could earn a prize.
-                                                            - EraseQuest: EggRetrievalStarted
                                                         QuestFailure:
                                                             - Tell: Search the rock piles inside the structure to find hidden eggs.
                                                             - Tell: You have three minutes to look, starting... NOW!
                                                             - Tell: Return to me with the eggs you find and I'll reward you if you find enough.
                                                             - StampQuest: EggRetrievalStarted
+                                                            - EraseQuest: EggRetrievalProgress
                 TestFailure:
                     - Tell: I don't have prizes for adventurers of all experience levels.
                     - Tell: Return when you're a bit more experienced
