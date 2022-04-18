@@ -41,12 +41,8 @@ VALUES (42709,   1, 0x02001977) /* Setup */
      , (42709,   8, 0x060024C6) /* Icon */
      , (42709,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42709,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
-     , (42709,  28,       5314) /* Spell - BlessingOfUnity */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42709, 8040, 0xB36F001A, 90.97424, 32.43768, 21.22526, -0.699529, -0.699529, 0.103241, 0.103241) /* PCAPRecordedLocation */
-/* @teleloc 0xB36F001A [90.974240 32.437680 21.225260] -0.699529 -0.699529 0.103241 0.103241 */;
+     , (42709,  28,       5314) /* Spell - Blessing of Unity */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42709,   170,      2)  /* RegenerationSelf6 */
-     , (42709,   879,      2)  /* HealingMasterySelf6 */;
+VALUES (42709,   170,      2)  /* Regeneration Self VI */
+     , (42709,   879,      2)  /* Healing Mastery Self VI */;

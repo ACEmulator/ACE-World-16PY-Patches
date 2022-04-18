@@ -66,7 +66,7 @@ GotoSet: AdditionalPrize
         QuestFailure:
             - InqQuestSolves: EggRetrievalPrize, 2
                 QuestSuccess:
-                    - Give: Ancient Mhoire Coin	(35383)
+                    - Give: Ancient Mhoire Coin (35383)
                     - StampQuest: EggRetrievalPrize
                     - StampQuest: EggRetrievalWait
                 QuestFailure:

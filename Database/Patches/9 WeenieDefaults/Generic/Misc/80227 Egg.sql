@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80227;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80227, 'ace80227-coloredegg', 1, '2021-11-01 00:00:00') /* Gem */;
+VALUES (80227, 'ace80227-egg', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80227,   1,        128) /* ItemType - Misc */
@@ -9,9 +9,9 @@ VALUES (80227,   1,        128) /* ItemType - Misc */
      , (80227,   5,         10) /* EncumbranceVal */
      , (80227,   8,         10) /* Mass */
      , (80227,   9,          0) /* ValidLocations - None */
-     , (80227,  16,          1) /* ItemUseable - Contained */
+     , (80227,  16,          1) /* ItemUseable - No */
      , (80227,  19,          1) /* Value */
-     , (80227,  33,         -1) /* Bonded - Bonded */
+     , (80227,  33,         -1) /* Bonded - Slippery */
      , (80227,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80227, 114,          1) /* Attuned - Attuned */;
 

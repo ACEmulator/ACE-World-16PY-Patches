@@ -21,7 +21,3 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42541,   1, 0x02001965) /* Setup */
      , (42541,   7, 0x1000078F) /* ClothingBase */
      , (42541,   8, 0x06006BE6) /* Icon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42541, 8040, 0xB36F0024, 110.3605, 74.4122, 20.33784, 0.996195, 0, 0, -0.087156) /* PCAPRecordedLocation */
-/* @teleloc 0xB36F0024 [110.360500 74.412200 20.337840] 0.996195 0.000000 0.000000 -0.087156 */;

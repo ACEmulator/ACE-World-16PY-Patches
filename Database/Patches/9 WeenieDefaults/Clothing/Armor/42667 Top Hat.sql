@@ -5,7 +5,7 @@ VALUES (42667, 'ace42667-tophat', 2, '2019-02-10 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42667,   1,          2) /* ItemType - Armor */
-     , (42667,   3,         21) /* PaletteTemplate - Brown */
+     , (42667,   3,         21) /* PaletteTemplate - Gold */
      , (42667,   4,      16384) /* ClothingPriority - Head */
      , (42667,   5,        100) /* EncumbranceVal */
      , (42667,   9,          1) /* ValidLocations - HeadWear */
