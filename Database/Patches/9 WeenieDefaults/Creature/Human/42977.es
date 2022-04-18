@@ -12,9 +12,9 @@ Use:
                         QuestFailure:
                             - InqOwnsItems: Egg (80227), 8
                                 TestSuccess:
+                                    - TakeItems: Egg (80227), -1
                                     - EraseQuest: EggRetrievalStarted
                                     - EraseQuest: EggRetrievalProgress
-                                    - TakeItems: Egg (80227), -1
                                     - UpdateQuest: EggRetrievalTopHatWait
                                         QuestSuccess:
                                             - Give: Top Hat (42667)
@@ -24,9 +24,9 @@ Use:
                                 TestFailure:
                                     - InqOwnsItems: Egg (80227), 5
                                         TestSuccess:
+                                            - TakeItems: Egg (80227), -1
                                             - EraseQuest: EggRetrievalStarted
                                             - EraseQuest: EggRetrievalProgress
-                                            - TakeItems: Egg (80227), -1
                                             - UpdateQuest: EggRetrievalTopHatWait
                                                 QuestSuccess:
                                                     - Give: Top Hat (42667)
@@ -40,9 +40,9 @@ Use:
                                                 QuestFailure:
                                                     - InqQuestSolves: EggRetrievalStarted, 1 - 2
                                                         QuestSuccess:
+                                                            - TakeItems: Egg (80227), -1
                                                             - EraseQuest: EggRetrievalStarted
                                                             - EraseQuest: EggRetrievalProgress
-                                                            - TakeItems: Egg (80227), -1
                                                             - Tell: You didn't find enough eggs, find more and you could earn a prize.
                                                         QuestFailure:
                                                             - Tell: Search the rock piles inside the structure to find hidden eggs.
