@@ -1,9 +1,9 @@
 Use:
     - InqEvent: ReceptionGames
         EventSuccess:
-            - InqQuest: CandleRunProgress
+            - InqQuest: CandleRunProgress@CheckTimer
                 QuestSuccess:
-                    - InqQuestSolves: CandleRunProgress, 1 - 1
+                    - InqQuestSolves: CandleRunProgress@CheckProgress, 1 - 1
                         QuestSuccess:
                             - DirectBroadcast: You touch the candle, feeling the wash of enchantment fall over you. You now have 30 seconds to reach the next candle.
                             - StampQuest: CandleRunProgress
