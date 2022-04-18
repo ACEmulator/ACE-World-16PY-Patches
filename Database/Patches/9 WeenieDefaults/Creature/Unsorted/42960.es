@@ -1,14 +1,14 @@
 Use:
     - InqEvent: ReceptionGames
         EventSuccess:
-            - InqQuest: CandleRunProgress
+            - InqQuest: CandleRunProgress@CheckTimer
                 QuestSuccess:
-                    - InqQuestSolves: CandleRunProgress, 3 - 3
+                    - InqQuestSolves: CandleRunProgress@CheckProgress, 3 - 3
                         QuestSuccess:
                             - DirectBroadcast: You touch the candle, feeling the wash of enchantment fall over you. You now have 30 seconds to reach Hoshino Kiri and complete the race.
                             - StampQuest: CandleRunProgress
                         QuestFailure:
-                            - InqQuestSolves: CandleRunProgress, 4 - 5
+                            - InqQuestSolves: CandleRunProgress@CheckIssue, 4 - 5
                                 QuestSuccess:
                                     - DirectBroadcast: You touch the candle, but nothing happens. You sense that have already touched this candle.
                                 QuestFailure:
