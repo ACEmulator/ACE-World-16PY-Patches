@@ -11,7 +11,7 @@ VALUES (42955,   1,         16) /* ItemType - Creature */
      , (42955,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42955,  95,          3) /* RadarBlipColor - White */
      , (42955, 290,          1) /* HearLocalSignals */
-     , (42955, 291,         30) /* HearLocalSignalsRadius */;
+     , (42955, 291,         32) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42955,   1, True ) /* Stuck */
