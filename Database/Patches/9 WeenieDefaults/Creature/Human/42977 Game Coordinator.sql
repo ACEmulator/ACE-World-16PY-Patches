@@ -45,5 +45,15 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (42977, 8040, 0xB3700022, 116.366, 26.7017, 26.005, -0.197122, 0, 0, -0.980379) /* PCAPRecordedLocation */
 /* @teleloc 0xB3700022 [116.366000 26.701700 26.005000] -0.197122 0.000000 0.000000 -0.980379 */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (42977,   1, 110, 0, 0) /* Strength */
+     , (42977,   2, 120, 0, 0) /* Endurance */
+     , (42977,   3, 120, 0, 0) /* Quickness */
+     , (42977,   4, 120, 0, 0) /* Coordination */
+     , (42977,   5, 100, 0, 0) /* Focus */
+     , (42977,   6, 100, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42977,   1,     0, 0, 0, 65) /* MaxHealth */;
+VALUES (42977,   1,   5, 0, 0, 65) /* MaxHealth */
+     , (42977,   3,   110, 0, 0, 230) /* MaxStamina */
+     , (42977,   5,   5, 0, 0, 105) /* MaxMana */;
