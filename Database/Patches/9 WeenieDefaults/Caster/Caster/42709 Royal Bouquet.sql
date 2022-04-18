@@ -16,6 +16,7 @@ VALUES (42709,   1,      32768) /* ItemType - Caster */
      , (42709, 106,        300) /* ItemSpellcraft */
      , (42709, 107,       1200) /* ItemCurMana */
      , (42709, 108,       1200) /* ItemMaxMana */
+     , (42709, 150,        103) /* HookPlacement - Hook */
      , (42709, 151,          2) /* HookType - Wall */
      , (42709, 158,          7) /* WieldRequirements - Level */
      , (42709, 159,          1) /* WieldSkillType - Axe */
@@ -39,6 +40,7 @@ VALUES (42709,   1, 0x02001977) /* Setup */
      , (42709,   3, 0x20000064) /* SoundTable */
      , (42709,   8, 0x060024C6) /* Icon */
      , (42709,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42709,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (42709,  28,       5314) /* Spell - BlessingOfUnity */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
