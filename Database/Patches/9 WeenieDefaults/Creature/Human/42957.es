@@ -7,9 +7,9 @@ Use:
                     - Tell: Congratulations again on winnning the race.
                     - DirectBroadcast: You may attempt this race again in %tqt.
                 QuestFailure:
-                    - InqQuest: CandleRunProgress
+                    - InqQuest: CandleRunProgress@CheckTimer
                         QuestSuccess:
-                            - InqQuestSolves: CandleRunProgress, 4
+                            - InqQuestSolves: CandleRunProgress@CheckSuccess, 4 - 5
                                 QuestSuccess:
                                     - Tell: You did it! Congratulations!
                                     - Tell: Here's your reward, and I hope you had fun.
@@ -19,7 +19,7 @@ Use:
                                 QuestFailure:
                                     - Tell: What're you talking to me for?!?! RUN!!! Time's a wasting!
                         QuestFailure:
-                            - InqQuestSolves: CandleRunProgress, 1
+                            - InqQuestSolves: CandleRunProgress@CheckFailure, 1 - 5
                                 QuestSuccess:
                                     - Tell: Aww, you didn't make it in time. I'm sorry. You can try again in fifteen minutes, if you'd like.
                                     - EraseQuest: CandleRunProgress
