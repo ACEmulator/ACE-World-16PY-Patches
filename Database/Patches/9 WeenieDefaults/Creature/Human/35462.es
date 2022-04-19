@@ -1,4 +1,4 @@
-	HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.04100001
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.04100001
     - Say: Don't feed the Drudges, it just emboldens them., Extent: 20
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.03200001
@@ -24,7 +24,7 @@ Use:
                             - StampQuest: DefeatedProdigalDrudgeWait
                             - EraseQuest: DefeatedBonecrunch
                             - Goto: TitleReward
-                        QuestFailure: 
+                        QuestFailure:
                             - Tell: So, this BoneCrunch was behind the "Plan." From what you told me about him I think we can assume he is the Drudge depicted shining above the Drudge Fort. Where did he get all of this power? I mean, some of the Drudges that the Virindi modified are able to wield magic and fight impressively, but nothing like what this BoneCrunch can do. And he's organized the Drudges...
                             - Delay: 1, Tell: I'll need to pass this along to our Queen and council. Please wait awhile before attacking the fort again. I wouldn't want the Drudges getting it into their heads to attack Cragstone again.
                             - AwardLevelProportionalXP: 50%, 0 - 344,000,000
