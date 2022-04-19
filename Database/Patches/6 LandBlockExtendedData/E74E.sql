@@ -566,6 +566,10 @@ VALUES (0x7E74E0F3, 87093, 0xE74E0024, 102.618, 85.2405, 32.055, 0.996621, 0, 0,
 /* @teleloc 0xE74E0024 [102.617996 85.240501 32.055000] 0.996621 0.000000 0.000000 -0.082133 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E74E0F4, 80228, 0xE74E0024, 104.619308, 84.908371, 32.055, 0.996621, 0, 0, -0.082133, False, '2022-03-06 02:38:19'); /* Spring Events Stopgap Gen */
+/* @teleloc 0xE74E0024 [104.619308 84.908371 32.005001] 0.996621 0.000000 0.000000 -0.082133 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E0FF, 71236, 0xE74E0024, 97.21, 91.208, 32.005, 1, 0, 0, 0, False, '2022-03-06 02:38:19'); /* Weakened Harbinger Stopgap Generator */
 /* @teleloc 0xE74E0024 [97.209999 91.208000 32.005001] 1.000000 0.000000 0.000000 0.000000 */
 
