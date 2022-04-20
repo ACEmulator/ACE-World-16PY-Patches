@@ -16,14 +16,15 @@ VALUES (23679,   1,          1) /* ItemType - MeleeWeapon */
      , (23679,  45,          3) /* DamageType - Slash, Pierce */
      , (23679,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (23679,  47,          1) /* AttackType - Punch */
-     , (23679,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (23679,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (23679,  49,         20) /* WeaponTime */
      , (23679,  51,          1) /* CombatUse - Melee */
      , (23679,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23679, 106,        200) /* ItemSpellcraft */
      , (23679, 107,        500) /* ItemCurMana */
      , (23679, 108,        500) /* ItemMaxMana */
-     , (23679, 109,         20) /* ItemDifficulty */;
+     , (23679, 109,         20) /* ItemDifficulty */
+     , (23679, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23679,  22, True ) /* Inscribable */;
