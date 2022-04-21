@@ -46,4 +46,8 @@ Give: Idol of the Recluse (52264)
 	- AwardLuminance: 20,000
 	- Give: 20630, 20
 	- Give: Idol of the Recluse (52247)
-	- StampQuest: FourCornersCompleted_1113	
+	- StampQuest: FourCornersCompleted_1113
+	- InqQuestBitsOn: LegendaryQuestsA, 0x4 
+		QuestFailure:
+			- SetQuestBitsOn: LegendaryQuestsA, 0x4
+			- StampQuest: LegendaryQuestCounter_0913
