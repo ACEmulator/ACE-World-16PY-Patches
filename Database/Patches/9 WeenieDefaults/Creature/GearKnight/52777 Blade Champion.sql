@@ -42,7 +42,7 @@ VALUES (52777,   1,       5) /* HeartbeatInterval */
      , (52777,  15,       1) /* ArmorModVsBludgeon */
      , (52777,  16,       1) /* ArmorModVsCold */
      , (52777,  17,       1) /* ArmorModVsFire */
-     , (52777,  18,    0.82) /* ArmorModVsAcid */
+     , (52777,  18,    0.78) /* ArmorModVsAcid */
      , (52777,  19,    0.95) /* ArmorModVsElectric */
      , (52777,  31,      30) /* VisualAwarenessRange */
      , (52777,  34,       1) /* PowerupTime */
@@ -53,7 +53,7 @@ VALUES (52777,   1,       5) /* HeartbeatInterval */
      , (52777,  66,     0.2) /* ResistBludgeon */
      , (52777,  67,     0.2) /* ResistFire */
      , (52777,  68,       0) /* ResistCold */
-     , (52777,  69,    0.65) /* ResistAcid */
+     , (52777,  69,    0.69) /* ResistAcid */
      , (52777,  70,     0.5) /* ResistElectric */
      , (52777,  71,       1) /* ResistHealthBoost */
      , (52777,  72,       1) /* ResistStaminaDrain */
