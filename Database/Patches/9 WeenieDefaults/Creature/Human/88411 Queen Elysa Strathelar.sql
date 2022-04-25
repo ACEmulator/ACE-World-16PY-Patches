@@ -37,12 +37,7 @@ VALUES (88411,   1, 0x0200004E) /* Setup */
      , (88411,   3, 0x20000002) /* SoundTable */
      , (88411,   7, 0x10000712) /* CLOTHINGBASE_DID */
      , (88411,   8, 0x06001036) /* Icon */
-     , (88411,   9, 0x0500106A) /* EyesTexture */
-     , (88411,  10, 0x05001085) /* NoseTexture */
-     , (88411,  11, 0x050010A4) /* MouthTexture */
-     , (88411,  15, 0x04001FE3) /* HairPalette */
-     , (88411,  16, 0x040002BF) /* EyesPalette */
-     , (88411,  17, 0x040002B6) /* SkinPalette */;
+     , (88411,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (88411,   1,  5000, 0, 0,    0) /* MaxHealth */

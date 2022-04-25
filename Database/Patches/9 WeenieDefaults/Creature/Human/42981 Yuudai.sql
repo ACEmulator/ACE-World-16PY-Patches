@@ -36,12 +36,7 @@ VALUES (42981,   1, 0x02000001) /* Setup */
      , (42981,   3, 0x20000001) /* SoundTable */
      , (42981,   6, 0x0400007E) /* PaletteBase */
      , (42981,   8, 0x06001036) /* Icon */
-     , (42981,   9, 0x0500110F) /* EyesTexture */
-     , (42981,  10, 0x05001173) /* NoseTexture */
-     , (42981,  11, 0x050011CB) /* MouthTexture */
-     , (42981,  15, 0x04001FC5) /* HairPalette */
-     , (42981,  16, 0x040004AF) /* EyesPalette */
-     , (42981,  17, 0x040004A5) /* SkinPalette */;
+     , (42981,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42981,   1, 150, 0, 0) /* Strength */

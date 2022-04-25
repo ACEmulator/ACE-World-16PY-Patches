@@ -71,12 +71,7 @@ VALUES (42983,   1, 0x0200004E) /* Setup */
      , (42983,   4,  805306368) /* CombatTable */
      , (42983,   7, 0x10000712) /* CLOTHINGBASE_DID */
      , (42983,   8, 0x06001036) /* Icon */
-     , (42983,   9, 0x0500106A) /* EyesTexture */
-     , (42983,  10, 0x05001085) /* NoseTexture */
-     , (42983,  11, 0x050010A4) /* MouthTexture */
-     , (42983,  15, 0x04001FE3) /* HairPalette */
-     , (42983,  16, 0x040002BF) /* EyesPalette */
-     , (42983,  17, 0x040002B6) /* SkinPalette */;
+     , (42983,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42983,   1, 350, 0, 0) /* Strength */
