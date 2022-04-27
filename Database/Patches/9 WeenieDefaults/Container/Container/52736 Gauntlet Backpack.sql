@@ -6,7 +6,7 @@ VALUES (52736, 'ace52736-gauntletbackpack', 21, '2022-03-31 06:02:40') /* Contai
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52736,   1,        512) /* ItemType - Container */
      , (52736,   3,         14) /* PaletteTemplate - Red */
-     , (52736,   5,       1215) /* EncumbranceVal */
+     , (52736,   5,         15) /* EncumbranceVal */
      , (52736,   6,         28) /* ItemsCapacity */
      , (52736,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (52736,  18,          4) /* UiEffects - BoostHealth */
