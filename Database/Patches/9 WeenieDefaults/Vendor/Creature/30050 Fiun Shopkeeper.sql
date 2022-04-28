@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30050;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30050, 'fiunshopkeep', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (30050, 'fiunshopkeep', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30050,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (30050,   1,         16) /* ItemType - Creature */
      , (30050,   7,         -1) /* ContainersCapacity */
      , (30050,  16,         32) /* ItemUseable - Remote */
      , (30050,  25,         50) /* Level */
-     , (30050,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
+     , (30050,  74, 1208250287) /* MerchandiseItemTypes - Jewelry, Gem, VendorShopKeep */
      , (30050,  75,          0) /* MerchandiseMinValue */
-     , (30050,  76,     100000) /* MerchandiseMaxValue */
+     , (30050,  76,    1000000) /* MerchandiseMaxValue */
      , (30050,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30050,  95,          8) /* RadarBlipColor - Yellow */
      , (30050, 133,          4) /* ShowableOnRadar - ShowAlways */

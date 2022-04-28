@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30048;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30048, 'fiunweaponsmith', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (30048, 'fiunweaponsmith', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30048,   1,         16) /* ItemType - Creature */
@@ -13,8 +13,8 @@ VALUES (30048,   1,         16) /* ItemType - Creature */
      , (30048,  25,         50) /* Level */
      , (30048,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (30048,  75,          0) /* MerchandiseMinValue */
-     , (30048,  76,     100000) /* MerchandiseMaxValue */
-     , (30048,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (30048,  76,    1000000) /* MerchandiseMaxValue */
+     , (30048,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30048,  95,          8) /* RadarBlipColor - Yellow */
      , (30048, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30048, 134,         16) /* PlayerKillerStatus - RubberGlue */;
@@ -42,7 +42,7 @@ VALUES (30048,   1,       5) /* HeartbeatInterval */
      , (30048,  17,     0.4) /* ArmorModVsFire */
      , (30048,  18,       1) /* ArmorModVsAcid */
      , (30048,  19,     0.6) /* ArmorModVsElectric */
-     , (30048,  37,     0.9) /* BuyPrice */
+     , (30048,  37,     0.8) /* BuyPrice */
      , (30048,  38,     1.8) /* SellPrice */
      , (30048,  54,       3) /* UseRadius */
      , (30048,  64,       1) /* ResistSlash */

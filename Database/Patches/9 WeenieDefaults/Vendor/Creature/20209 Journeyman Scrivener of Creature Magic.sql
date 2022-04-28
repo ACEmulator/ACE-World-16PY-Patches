@@ -204,8 +204,8 @@ VALUES (20209, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20209, 4,  2738, -1, 0, 0, False) /* Create Scroll of Strength Other III (2738) for Shop */
      , (20209, 4,  2743, -1, 0, 0, False) /* Create Scroll of Self Strength III (2743) for Shop */
      , (20209, 4,  2748, -1, 0, 0, False) /* Create Scroll of Weakness Other III (2748) for Shop */
-     , (20209, 4,  2753, -1, 0, 0, False) /* Create Scroll of WillPower Other III (2753) for Shop */
-     , (20209, 4,  2758, -1, 0, 0, False) /* Create Scroll of WillPower Self III (2758) for Shop */
+     , (20209, 4,  2753, -1, 0, 0, False) /* Create Scroll of Willpower Other III (2753) for Shop */
+     , (20209, 4,  2758, -1, 0, 0, False) /* Create Scroll of Willpower Self III (2758) for Shop */
      , (20209, 4,  5982, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other III (5982) for Shop */
      , (20209, 4,  5988, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other III (5988) for Shop */
      , (20209, 4,  5994, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self III (5994) for Shop */

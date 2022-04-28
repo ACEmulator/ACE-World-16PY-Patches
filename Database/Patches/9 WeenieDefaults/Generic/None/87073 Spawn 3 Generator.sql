@@ -1,14 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87073;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87073, 'ace87073-spawn3generator', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (87073, 'ace87073-spawn3generator', 1, '2022-04-12 04:33:53') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87073,  81,          3) /* MaxGeneratedObjects */
      , (87073,  82,          3) /* InitGeneratedObjects */
      , (87073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87073, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (87073, 142,          3) /* GeneratorTimeType - Event */
      , (87073, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -17,12 +15,11 @@ VALUES (87073,   1, True ) /* Stuck */
      , (87073,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87073,  41,       0) /* RegenerationInterval */
-     , (87073,  43,       8) /* GeneratorRadius */;
+VALUES (87073,  41,    1600) /* RegenerationInterval */
+     , (87073,  43,      10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87073,   1, 'Spawn 3 Generator') /* Name */
-     , (87073,  34, 'ShieldSpawn3Start') /* GeneratorEvent */;
+VALUES (87073,   1, 'Spawn 3 Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87073,   1, 0x0200026B) /* Setup */

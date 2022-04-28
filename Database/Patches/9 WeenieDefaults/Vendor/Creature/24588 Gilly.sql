@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24588;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24588, 'candethkeeparchmage', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (24588, 'candethkeeparchmage', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24588,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (24588,   1,         16) /* ItemType - Creature */
      , (24588,   7,         -1) /* ContainersCapacity */
      , (24588,   8,        120) /* Mass */
      , (24588,  16,         32) /* ItemUseable - Remote */
-     , (24588,  25,         18) /* Level */
+     , (24588,  25,         68) /* Level */
      , (24588,  27,          0) /* ArmorType - None */
      , (24588,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (24588,  75,          0) /* MerchandiseMinValue */
@@ -74,7 +74,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24588,   1, 'Gilly') /* Name */
      , (24588,   3, 'Female') /* Sex */
      , (24588,   4, 'Aluvian') /* HeritageGroup */
-     , (24588,   5, 'Servant') /* Template */
+     , (24588,   5, 'Apprentice Mage') /* Template */
      , (24588,  24, 'Candeth Keep') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

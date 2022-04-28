@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52715;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52715, 'ace52715-corrosivearcher', 10, '2022-03-31 06:02:40') /* Creature */;
+VALUES (52715, 'ace52715-corrosivearcher', 10, '2022-04-12 04:33:53') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52715,   1,         16) /* ItemType - Creature */
@@ -32,23 +32,23 @@ VALUES (52715,   1,       5) /* HeartbeatInterval */
      , (52715,   3,     0.6) /* HealthRate */
      , (52715,   4,     0.5) /* StaminaRate */
      , (52715,   5,       2) /* ManaRate */
-     , (52715,  13,    0.89) /* ArmorModVsSlash */
-     , (52715,  14,    0.84) /* ArmorModVsPierce */
-     , (52715,  15,    0.96) /* ArmorModVsBludgeon */
+     , (52715,  13,       1) /* ArmorModVsSlash */
+     , (52715,  14,    0.85) /* ArmorModVsPierce */
+     , (52715,  15,       1) /* ArmorModVsBludgeon */
      , (52715,  16,       1) /* ArmorModVsCold */
-     , (52715,  17,    0.92) /* ArmorModVsFire */
-     , (52715,  18,    0.97) /* ArmorModVsAcid */
-     , (52715,  19,    0.75) /* ArmorModVsElectric */
+     , (52715,  17,    0.97) /* ArmorModVsFire */
+     , (52715,  18,       1) /* ArmorModVsAcid */
+     , (52715,  19,       1) /* ArmorModVsElectric */
      , (52715,  31,      18) /* VisualAwarenessRange */
      , (52715,  34,       1) /* PowerupTime */
      , (52715,  36,       1) /* ChargeSpeed */
-     , (52715,  64,    0.89) /* ResistSlash */
-     , (52715,  65,    0.89) /* ResistPierce */
-     , (52715,  66,    0.79) /* ResistBludgeon */
-     , (52715,  67,    0.79) /* ResistFire */
-     , (52715,  68,    0.34) /* ResistCold */
-     , (52715,  69,    0.49) /* ResistAcid */
-     , (52715,  70,    0.84) /* ResistElectric */
+     , (52715,  64,       1) /* ResistSlash */
+     , (52715,  65,     0.7) /* ResistPierce */
+     , (52715,  66,     0.2) /* ResistBludgeon */
+     , (52715,  67,     0.6) /* ResistFire */
+     , (52715,  68,     0.2) /* ResistCold */
+     , (52715,  69,     0.2) /* ResistAcid */
+     , (52715,  70,     0.2) /* ResistElectric */
      , (52715,  71,       1) /* ResistHealthBoost */
      , (52715,  72,       1) /* ResistStaminaDrain */
      , (52715,  73,       1) /* ResistStaminaBoost */
@@ -86,24 +86,24 @@ VALUES (52715,   1,  2950, 0, 0, 3200) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52715,  6, 0, 3, 0, 507, 0, 0) /* MeleeDefense        Specialized */
-     , (52715,  7, 0, 3, 0, 467, 0, 0) /* MissileDefense      Specialized */
+     , (52715,  7, 0, 3, 0, 610, 0, 0) /* MissileDefense      Specialized */
      , (52715, 14, 0, 3, 0, 263, 0, 0) /* ArcaneLore          Specialized */
-     , (52715, 15, 0, 3, 0, 426, 0, 0) /* MagicDefense        Specialized */
+     , (52715, 15, 0, 3, 0, 460, 0, 0) /* MagicDefense        Specialized */
      , (52715, 20, 0, 3, 0, 450, 0, 0) /* Deception           Specialized */
      , (52715, 24, 0, 3, 0, 600, 0, 0) /* Run                 Specialized */
      , (52715, 31, 0, 3, 0, 375, 0, 0) /* CreatureEnchantment Specialized */
      , (52715, 33, 0, 3, 0, 375, 0, 0) /* LifeMagic           Specialized */
      , (52715, 34, 0, 3, 0, 375, 0, 0) /* WarMagic            Specialized */
-     , (52715, 45, 0, 3, 0, 503, 0, 0) /* LightWeapons        Specialized */
+     , (52715, 45, 0, 3, 0, 567, 0, 0) /* LightWeapons        Specialized */
      , (52715, 47, 0, 3, 0, 375, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52715,  0,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (52715,  1,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (52715,  2,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
-     , (52715,  3,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (52715,  4,  1,  0,    0,  450,  400,  350,  550,  550,  550,  550,  500,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (52715,  5,  9, 230, 0.55,  450,  400,  350,  550,  550,  550,  550,  500,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
+VALUES (52715,  0,  1,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (52715,  1,  1,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (52715,  2,  1,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
+     , (52715,  3,  1,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (52715,  4,  1,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
+     , (52715,  5,  9, 230, 0.55,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52715, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */

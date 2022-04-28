@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30037;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30037, 'sanamarshopkeep', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (30037, 'sanamarshopkeep', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30037,   1,         16) /* ItemType - Creature */
@@ -14,7 +14,7 @@ VALUES (30037,   1,         16) /* ItemType - Creature */
      , (30037,  27,          0) /* ArmorType - None */
      , (30037,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (30037,  75,          0) /* MerchandiseMinValue */
-     , (30037,  76,      25000) /* MerchandiseMaxValue */
+     , (30037,  76,    1000000) /* MerchandiseMaxValue */
      , (30037,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30037, 113,          1) /* Gender - Male */
      , (30037, 126,        500) /* VendorHappyMean */

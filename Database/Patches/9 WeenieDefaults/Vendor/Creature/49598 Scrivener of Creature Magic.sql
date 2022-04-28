@@ -197,8 +197,8 @@ VALUES (49598, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (49598, 4,  2739, -1, 0, 0, False) /* Create Scroll of Strength Other IV (2739) for Shop */
      , (49598, 4,  2744, -1, 0, 0, False) /* Create Scroll of Self Strength IV (2744) for Shop */
      , (49598, 4,  2749, -1, 0, 0, False) /* Create Scroll of Weakness Other IV (2749) for Shop */
-     , (49598, 4,  2754, -1, 0, 0, False) /* Create Scroll of WillPower Other IV (2754) for Shop */
-     , (49598, 4,  2759, -1, 0, 0, False) /* Create Scroll of WillPower Self IV (2759) for Shop */
+     , (49598, 4,  2754, -1, 0, 0, False) /* Create Scroll of Willpower Other IV (2754) for Shop */
+     , (49598, 4,  2759, -1, 0, 0, False) /* Create Scroll of Willpower Self IV (2759) for Shop */
      , (49598, 4,  5983, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other IV (5983) for Shop */
      , (49598, 4,  5989, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other IV (5989) for Shop */
      , (49598, 4,  5995, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self IV (5995) for Shop */
