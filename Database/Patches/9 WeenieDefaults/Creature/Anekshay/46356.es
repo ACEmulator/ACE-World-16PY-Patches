@@ -121,7 +121,7 @@ GotoSet: Reward
 
 Refuse: Legendary Seed of Mornings (48938)
 	- TurnToTarget
-	- TakeItems: 48939, 1
+	- TakeItems: 48938, 1
 	- Tell: Is that what I think it is?
 	- Delay: 1, Tell: This is amazing!
 	- Delay: 1, Tell: Even with the essence extracted from the seed, this is still very powerful in the magics of the Light Falatacot.
@@ -141,7 +141,7 @@ Refuse: Legendary Seed of Harvests (48939)
 
 Refuse: Legendary Seed of Twilight (48940)
 	- TurnToTarget
-	- TakeItems: 48939, 1
+	- TakeItems: 48940, 1
 	- Tell: Is that what I think it is?
 	- Delay: 1, Tell: This is amazing!
 	- Delay: 1, Tell: Even with the essence extracted from the seed, this is still very powerful in the magics of the Light Falatacot.
