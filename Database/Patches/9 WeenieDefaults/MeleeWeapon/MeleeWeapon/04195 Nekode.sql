@@ -12,7 +12,7 @@ VALUES (4195,   1,          1) /* ItemType - MeleeWeapon */
      , (4195,  16,          1) /* ItemUseable - No */
      , (4195,  19,         50) /* Value */
      , (4195,  44,          4) /* Damage */
-     , (4195,  45,          1) /* DamageType - Slash */
+     , (4195,  45,          3) /* DamageType - Slash, Pierce */
      , (4195,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (4195,  47,          1) /* AttackType - Punch */
      , (4195,  48,         44) /* WeaponSkill - HeavyWeapons */
