@@ -49,7 +49,7 @@ VALUES (70733,   5,   -0.05) /* ManaRate */
      , (70733,  63,       3) /* DamageMod */
      , (70733,  76,     0.7) /* Translucency */
      , (70733, 136,       2) /* CriticalMultiplier */
-     , (70733, 138,       2) /* SlayerDamageBonus */
+     , (70733, 138,     1.5) /* SlayerDamageBonus */
      , (70733, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
