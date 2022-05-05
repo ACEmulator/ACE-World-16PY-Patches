@@ -40,7 +40,7 @@ VALUES (52721,   1,       5) /* HeartbeatInterval */
      , (52721,  14,     1.6) /* ArmorModVsPierce */
      , (52721,  15,     1.6) /* ArmorModVsBludgeon */
      , (52721,  16,       2) /* ArmorModVsCold */
-     , (52721,  17,    1.35) /* ArmorModVsFire */
+     , (52721,  17,     1.5) /* ArmorModVsFire */
      , (52721,  18,     1.6) /* ArmorModVsAcid */
      , (52721,  19,     1.6) /* ArmorModVsElectric */
      , (52721,  31,      20) /* VisualAwarenessRange */
