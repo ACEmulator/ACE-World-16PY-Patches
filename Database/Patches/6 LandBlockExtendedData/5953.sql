@@ -148,8 +148,8 @@ VALUES (0x75953054, 88100, 0x59530158, 170, -234.75, 0.055, 1, 0, 0, 0, False, '
 /* @teleloc 0x59530158 [170.000000 -234.750000 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75953055, 88106, 0x59530153, 170.934, -139.48, 0.055, -0.707107, 0, 0, -0.707107, False, '2022-04-28 15:50:19'); /* Moars Test Master Generator */
-/* @teleloc 0x59530153 [170.934006 -139.479996 0.055000] -0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x75953055, 88106, 0x5953015C, 177.364, -139.386, 0, -0.707107, 0, 0, -0.707107, False, '2022-04-28 15:50:19'); /* Moars Test Master Generator */
+/* @teleloc 0x5953015C [177.363998 -139.386002 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75953056, 88111, 0x59530174, 212.352, -140, 0, 0.707107, 0, 0, -0.707107, False, '2022-05-04 11:00:32'); /* Moars Test End Portal Generator */
