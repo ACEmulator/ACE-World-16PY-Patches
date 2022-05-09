@@ -4,8 +4,10 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (8934, 0, 0, 0, 0, 0, 1, 'You enchant the weapon with the Gem of Verdant Force.', 0, 1, '', 1, 1, '', 0, 0, '', 1, 1, '', 0, 0, '', 0, '2022-05-08 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (8934, 0, 105,  1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
-     , (8934, 0, 311,  1, 10, 'This item has already been imbued!') /* Target.ImbueStackingBits HasBits 1 */;
+VALUES (8934, 0, 105, 1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
+     , (8934, 0, 311, 1, 10, 'This item has already been imbued!') /* Target.ImbueStackingBits HasBits 1 */
+     , (8934, 0, 311, 8, 10, 'This item has already been imbued!') /* Target.ImbueStackingBits HasBits 8 */
+     , (8934, 0, 311, 8, 10, 'This item has already been imbued!') /* Target.ImbueStackingBits HasBits 8 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8934, True, 0, 0, 0, False, 0, 0, 0);

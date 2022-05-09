@@ -98,7 +98,7 @@ VALUES (4123,   1, 0x02000197) /* Setup */
                                    Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
-     , (4123,  33, 0x000000EE) /* UnknownGuessedname */;
+     , (4123,  33, 0x000000EE) /* InventoryTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4123,   1, 120, 0, 0) /* Strength */

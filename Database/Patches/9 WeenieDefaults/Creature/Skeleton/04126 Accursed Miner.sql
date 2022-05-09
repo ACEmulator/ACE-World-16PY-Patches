@@ -98,7 +98,7 @@ VALUES (4126,   1, 0x02000059) /* Setup */
                                    Wield Buckler (44) | Probability: 20%
                                    Wield Kite Shield (91) | Probability: 10%
                                    Wield Round Shield (93) | Probability: 10% */
-     , (4126,  33, 0x000000C1) /* UnknownGuessedname */;
+     , (4126,  33, 0x000000C1) /* InventoryTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4126,   1,  60, 0, 0) /* Strength */

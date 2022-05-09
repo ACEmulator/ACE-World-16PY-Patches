@@ -4,8 +4,8 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (9132, 0, 0, 0, 0, 0, 1, 'You enchant the weapon with the Horizon''s Edge Amplification.', 0, 1, '', 1, 1, '', 0, 0, '', 1, 1, '', 0, 0, '', 0, '2022-05-08 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (9132, 0, 105,  1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
-     , (9132, 0, 311,  4, 10, 'This item has already been imbued!') /* Target.ImbueStackingBits HasBits 4 */;
+VALUES (9132, 0, 105, 1, 2, 'You can only apply this augmentation to a loot-generated item!') /* Target.ItemWorkmanship LessThan 1 */
+     , (9132, 0, 311, 4, 10, 'This item has already been imbued!') /* Target.ImbueStackingBits HasBits 4 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (9132, True, 0, 0, 0, False, 0, 0, 0);
@@ -16,7 +16,7 @@ INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`
 VALUES (@parent_id, 0, 311, 4, 8, 1) /* On Source.SuccessTarget SetBitsOn ImbueStackingBits 4 to Target */;
 
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0, 63, 0.04, 2, 1) /* On Source.SuccessTarget Add DamageMod 0.04 to Target */;
+VALUES (@parent_id, 0,  63, 0.04, 2, 1) /* On Source.SuccessTarget Add DamageMod to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9132;
 
