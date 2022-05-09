@@ -7,5 +7,5 @@ VALUES (0x2E2F, 1981, 0, 3, '2021-11-01 00:00:00') /* Obsidian Center Mix Genera
      , (0x2E2F, 1981, 3, 1, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
      , (0x2E2F, 1981, 5, 5, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
      , (0x2E2F, 1981, 7, 3, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
-     , (0x2E2F, 87051, 6, 0, '2021-11-01 00:00:00') /* Updated Obsidian Center Mix Generator */
-     , (0x2E2F, 87051, 7, 7, '2021-11-01 00:00:00') /* Updated Obsidian Center Mix Generator */;
+     , (0x2E2F, 1981, 6, 0, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
+     , (0x2E2F, 1981, 7, 7, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */;

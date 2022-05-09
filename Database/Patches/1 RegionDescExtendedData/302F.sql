@@ -9,5 +9,5 @@ VALUES (0x302F, 1981, 0, 1, '2021-11-01 00:00:00') /* Obsidian Center Mix Genera
      , (0x302F, 1981, 5, 3, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
      , (0x302F, 1981, 5, 7, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
      , (0x302F, 1981, 7, 0, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
-     , (0x302F, 87051, 5, 1, '2021-11-01 00:00:00') /* Updated Obsidian Center Mix Generator */
-     , (0x302F, 87051, 7, 5, '2021-11-01 00:00:00') /* Updated Obsidian Center Mix Generator */;
+     , (0x302F, 1981, 5, 1, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */
+     , (0x302F, 1981, 7, 5, '2021-11-01 00:00:00') /* Obsidian Center Mix Generator */;
