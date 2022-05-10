@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42667;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42667, 'ace42667-tophat', 2, '2019-02-10 00:00:00') /* Clothing */;
+VALUES (42667, 'ace42667-tophat', 2, '2022-05-10 03:49:02') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42667,   1,          2) /* ItemType - Armor */
