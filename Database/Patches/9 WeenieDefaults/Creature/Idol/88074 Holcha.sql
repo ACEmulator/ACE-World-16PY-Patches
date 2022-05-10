@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88074;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88074, 'ace88074-holcha', 10, '2022-03-31 06:02:40') /* Creature */;
+VALUES (88074, 'ace88074-holcha', 10, '2022-05-10 03:49:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88074,   1,         16) /* ItemType - Creature */
@@ -97,13 +97,13 @@ VALUES (88074,   1, 81225, 0, 0, 81465) /* MaxHealth */
      , (88074,   5,  9200, 0, 0, 9580) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (88074,  6, 0, 3, 0, 467, 0, 0) /* MeleeDefense        Specialized */
-     , (88074,  7, 0, 3, 0, 374, 0, 0) /* MissileDefense      Specialized */
+VALUES (88074,  6, 0, 3, 0, 477, 0, 0) /* MeleeDefense        Specialized */
+     , (88074,  7, 0, 3, 0, 515, 0, 0) /* MissileDefense      Specialized */
      , (88074, 14, 0, 3, 0, 250, 0, 0) /* ArcaneLore          Specialized */
-     , (88074, 15, 0, 3, 0, 369, 0, 0) /* MagicDefense        Specialized */
-     , (88074, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (88074, 31, 0, 3, 0, 395, 0, 0) /* CreatureEnchantment Specialized */
-     , (88074, 33, 0, 3, 0, 395, 0, 0) /* LifeMagic           Specialized */
+     , (88074, 15, 0, 3, 0, 455, 0, 0) /* MagicDefense        Specialized */
+     , (88074, 20, 0, 3, 0, 500, 0, 0) /* Deception           Specialized */
+     , (88074, 31, 0, 3, 0, 455, 0, 0) /* CreatureEnchantment Specialized */
+     , (88074, 33, 0, 3, 0, 455, 0, 0) /* LifeMagic           Specialized */
      , (88074, 34, 0, 3, 0, 475, 0, 0) /* WarMagic            Specialized */
      , (88074, 45, 0, 3, 0, 545, 0, 0) /* LightWeapons        Specialized */;
 

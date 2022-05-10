@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52800;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52800, 'ace52800-masterofthegauntlet', 10, '2022-03-31 06:02:40') /* Creature */;
+VALUES (52800, 'ace52800-masterofthegauntlet', 10, '2022-05-10 03:49:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52800,   1,         16) /* ItemType - Creature */
@@ -516,7 +516,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your fellowship''s Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52800, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'GauntletArena1CH@Arena1Addition', NULL, NULL, NULL);
+VALUES (52800, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'GauntletArena1CH@Arena2Addition', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -524,7 +524,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your fellowship''s Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52800, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'GauntletArena2CH@Arena1Addition', NULL, NULL, NULL);
+VALUES (52800, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'GauntletArena2CH@Arena2Addition', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -756,15 +756,15 @@ VALUES (@parent_id,  0,  66 /* LockFellow */, 0, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  6,  64 /* TellFellow */, 0, 1, NULL, 'The choice will be yours. Good Luck!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52800, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'GauntletArena1CH@Arena1Addition', NULL, NULL, NULL);
+VALUES (52800, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'GauntletArena1CH@Arena2Addition', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  58 /* InqFellowQuest */, 0, 1, NULL, 'GauntletArena2CH@Arena1Addition', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  58 /* InqFellowQuest */, 0, 1, NULL, 'GauntletArena2CH@Arena2Addition', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52800, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'GauntletArena2CH@Arena1Addition', NULL, NULL, NULL);
+VALUES (52800, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'GauntletArena2CH@Arena2Addition', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1290,7 +1290,7 @@ VALUES (52800, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'Arena2Addition', NUL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  58 /* InqFellowQuest */, 0, 1, NULL, 'GauntletArena1CH@Arena1Addition', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  58 /* InqFellowQuest */, 0, 1, NULL, 'GauntletArena1CH@Arena2Addition', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52800, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'IsArenaOneAvailable', NULL, NULL, NULL);

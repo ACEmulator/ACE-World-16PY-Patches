@@ -97,7 +97,7 @@ VALUES (4127,   1, 0x02000197) /* Setup */
                                    Wield Yari (23731) | Probability: 15.000001%
                                    Wield Kite Shield (23685) | Probability: 50%
                                    Wield Tower Shield (95) | Probability: 25% */
-     , (4127,  33, 0x000000EF) /* UnknownGuessedname */;
+     , (4127,  33, 0x000000EF) /* InventoryTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4127,   1, 141, 0, 0) /* Strength */
