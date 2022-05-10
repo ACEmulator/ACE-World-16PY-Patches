@@ -412,11 +412,11 @@ GotoSet: Arena1Addition
                     - TellFellow: The choice will be yours. Good Luck!
 
 GotoSet: Arena2Addition
-    - InqFellowQuest: GauntletArena1RB@Arena1Addition
+    - InqFellowQuest: GauntletArena1RB@Arena2Addition
         QuestSuccess:
             - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
         QuestFailure:
-            - InqFellowQuest: GauntletArena2RB@Arena1Addition
+            - InqFellowQuest: GauntletArena2RB@Arena2Addition
                 QuestSuccess:
                     - Tell: Your fellowship's Arena battles still continue. I cannot start a new battle while they still have time left in the Gauntlet. (%fqt)
                 QuestFailure:
