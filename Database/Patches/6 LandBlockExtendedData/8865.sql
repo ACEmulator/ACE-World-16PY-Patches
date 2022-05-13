@@ -19,3 +19,7 @@ VALUES (0x78865003, 44310, 0x8865003F, 176.583, 154.902, -0.063, 0.70565, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78865004, 44311, 0x88650035, 158.747, 105.259, -0.063, 0.005367, 0, 0, 0.999986, False, '2021-11-01 00:00:00'); /* Ancient Portal */
 /* @teleloc 0x88650035 [158.746994 105.259003 -0.063000] 0.005367 0.000000 0.000000 0.999986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78865005, 52214, 0x88650034, 150.741, 75.9614, 15.65301, -0.999957, 0, 0, -0.009312, False, '2019-02-10 00:00:00'); /* Sanctuary of the Recluse */
+/* @teleloc 0x88650034 [150.741000 75.961400 15.653010] -0.999957 0.000000 0.000000 -0.009312 */
