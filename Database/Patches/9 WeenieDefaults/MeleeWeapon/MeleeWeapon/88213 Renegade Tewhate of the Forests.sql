@@ -46,7 +46,6 @@ VALUES (88213,   5,  -0.033) /* ManaRate */
      , (88213,  39,     1.2) /* DefaultScale */
      , (88213,  62,     1.2) /* WeaponOffense */
      , (88213, 136,       3) /* CriticalMultiplier */
-     , (88213, 147,     0.2) /* CriticalFrequency */
      , (88213, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
