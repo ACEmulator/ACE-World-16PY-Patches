@@ -13,7 +13,7 @@ VALUES (9125, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  44, 2, 2, 1) /* On Source.SuccessTarget Add Damage 2 to Target */
+VALUES (@parent_id, 0,  44, 1, 2, 1) /* On Source.SuccessTarget Add Damage 1 to Target */
      , (@parent_id, 0, 311, 1, 8, 1) /* On Source.SuccessTarget SetBitsOn ImbueStackingBits 1 to Target */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
