@@ -13,11 +13,8 @@ VALUES (9129, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  44, 2, 2, 1) /* On Source.SuccessTarget Add Damage 2 to Target */
+VALUES (@parent_id, 0,  44, 1, 2, 1) /* On Source.SuccessTarget Add Damage 1 to Target */
      , (@parent_id, 0, 311, 4, 8, 1) /* On Source.SuccessTarget SetBitsOn ImbueStackingBits 4 to Target */;
-
-INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0, 149, 0.05, 2, 1) /* On Source.SuccessTarget Add WeaponMissileDefense to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9129;
 
