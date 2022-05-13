@@ -58,7 +58,8 @@ VALUES (28641,   1,       5) /* HeartbeatInterval */
      , (28641, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28641,   1, 'Abhorrent Eater') /* Name */;
+VALUES (28641,   1, 'Abhorrent Eater') /* Name */
+     , (28641,  45, 'KillTaskMGHAbhorrentEater') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28641,   1, 0x02001251) /* Setup */

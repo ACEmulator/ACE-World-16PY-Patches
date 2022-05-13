@@ -66,7 +66,8 @@ VALUES (33737,   1,       5) /* HeartbeatInterval */
      , (33737, 166,     0.3) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33737,   1, 'Horrid Remoran') /* Name */;
+VALUES (33737,   1, 'Horrid Remoran') /* Name */
+     , (33737,  45, 'KillTaskMGHRemoran') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33737,   1, 0x02001494) /* Setup */

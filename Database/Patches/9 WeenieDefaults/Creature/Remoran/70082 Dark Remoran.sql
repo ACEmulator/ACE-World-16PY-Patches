@@ -67,7 +67,8 @@ VALUES (70082,   1,       5) /* HeartbeatInterval */
      , (70082, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70082,   1, 'Dark Remoran') /* Name */;
+VALUES (70082,   1, 'Dark Remoran') /* Name */
+     , (70082,  45, 'KillTaskMGHRemoran') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70082,   1, 0x02001494) /* Setup */
