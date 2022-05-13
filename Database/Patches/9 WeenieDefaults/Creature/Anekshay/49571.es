@@ -1,8 +1,8 @@
 Homesick:
-	- LocalSignal: OpenDoor
+    - LocalSignal: OpenDoor
 
 Generation:
-	- LocalSignal: CloseDoor
+    - LocalSignal: CloseDoor
 
 Death: 
-	- LocalSignal: OpenDoor
+    - LocalSignal: OpenDoor

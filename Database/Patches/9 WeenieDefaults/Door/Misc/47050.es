@@ -1,5 +1,5 @@
 ReceiveLocalSignal: CloseDoor
-	- CloseMe
+    - CloseMe
 
 ReceiveLocalSignal: OpenDoor
-	- OpenMe
+    - OpenMe

@@ -115,7 +115,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (47049,  4475,   2.16)  /* Incantation of Blade Vulnerability Other */
      , (47049,  4457,   2.16)  /* Incantation of Whirling Blade */
      , (47049,  4477,   2.18)  /* Incantation of Bludgeoning Vulnerability Other */
-     , (47049,  4458,   2.2)  /* Incantation of Whirling Blade Streak */
+     , (47049,  4458,    2.2)  /* Incantation of Whirling Blade Streak */
      , (47049,  4422,   2.19)  /* Incantation of Blade Arc */
      , (47049,  4485,   2.17)  /* Incantation of Piercing Vulnerability Other */
      , (47049,  4436,   2.18)  /* Incantation of Blade Volley */;

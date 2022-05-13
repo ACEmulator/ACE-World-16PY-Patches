@@ -18,7 +18,3 @@ VALUES (52232,   1, 'Frost Energy') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52232,   1, 0x02001734) /* Setup */
      , (52232,   8, 0x06001F5C) /* Icon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52232, 8040, 0x595E013B, 400, -170, -12.00334, 0.980507, 0, 0, -0.196484) /* PCAPRecordedLocation */
-/* @teleloc 0x595E013B [400.000000 -170.000000 -12.003340] 0.980507 0.000000 0.000000 -0.196484 */;

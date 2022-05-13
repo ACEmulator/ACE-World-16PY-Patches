@@ -114,14 +114,12 @@ VALUES (88203,  4088,   2.08)  /* Withering Poison */
      , (88203,  5981,  2.095)  /* Sath'tik's Curse */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (88203, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;
+VALUES (88203, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */
+     , (88203, 9, 47012,  1, 0, 0.4, False) /* Create Delicate Desert Flower (47012) for ContainTreasure */
+     , (88203, 9,     0,  1, 0, 0.6, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (88203, -1, 88204, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sath'tik Tendril (88204) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (88203, -1, 88205, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sath'tik Tentacle (88205) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (88203, -1, 88204, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sath'tik Tentacle (88205) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (88203, -1, 88204, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sath'tik Tendril (88204) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (88203, -1, 88205, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sath'tik Tentacle (88205) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (88203, 9, 47012,  1, 0, 0.4, False) /* Create Delicate Desert Flower (47012) for ContainTreasure */
-     , (88203, 9,     0,  1, 0, 0.6, False) /* Create nothing for ContainTreasure */;

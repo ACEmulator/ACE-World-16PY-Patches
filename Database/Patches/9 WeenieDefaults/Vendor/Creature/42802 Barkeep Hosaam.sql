@@ -81,6 +81,6 @@ VALUES (42802, 2,  2598,  0, 17, 0.9818, False) /* Create Pants (2598) for Wield
      , (42802, 4, 44655, -1, 0, 0, False) /* Create Contract for Gear Knight Excavation (44655) for Shop */
      , (42802, 4, 48779, -1, 0, 0, False) /* Create Contract for Lost Lore (48779) for Shop */
      , (42802, 4, 48780, -1, 0, 0, False) /* Create Contract for Sisters of Light (48780) for Shop */
-     , (42802, 4, 48781, -1, 0, 0, False) /* Create  (48781) for Shop */
-     , (42802, 4, 48782, -1, 0, 0, False) /* Create  (48782) for Shop */
-     , (42802, 4, 48783, -1, 0, 0, False) /* Create  (48783) for Shop */;
+     , (42802, 4, 48781, -1, 0, 0, False) /* Create Contract for First Sister (48781) for Shop */
+     , (42802, 4, 48782, -1, 0, 0, False) /* Create Contract for Second Sister (48782) for Shop */
+     , (42802, 4, 48783, -1, 0, 0, False) /* Create Contract for Third Sister (48783) for Shop */;

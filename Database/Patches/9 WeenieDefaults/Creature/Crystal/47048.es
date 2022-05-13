@@ -1,5 +1,5 @@
 Generation:
-	- LocalSignal: CloseDoor
+    - LocalSignal: CloseDoor
 
 Death:
-	- LocalSignal: OpenDoor
+    - LocalSignal: OpenDoor

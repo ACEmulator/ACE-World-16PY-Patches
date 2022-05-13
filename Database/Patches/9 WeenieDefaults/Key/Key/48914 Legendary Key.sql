@@ -14,7 +14,6 @@ VALUES (48914,   1,      16384) /* ItemType - Key */
      , (48914,  92,          1) /* Structure */
      , (48914,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48914,  94,        640) /* TargetType - LockableMagicTarget */
-     , (48914,  98, 1485742260) /* CreationTimestamp */
      , (48914, 114,          0) /* Attuned - Normal */
      , (48914, 267,      86400) /* Lifespan */
      , (48914, 369,        150) /* UseRequiresLevel */;

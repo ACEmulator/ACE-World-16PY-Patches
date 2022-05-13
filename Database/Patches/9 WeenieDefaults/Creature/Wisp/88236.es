@@ -1,2 +1,2 @@
 Death:
-	- LocalBroadcast: The Summoned Wisp explodes in a flash of light!
+    - LocalBroadcast: The Summoned Wisp explodes in a flash of light!
