@@ -60,7 +60,8 @@ VALUES (46687,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46687,   1, 'Spectral Voidmage') /* Name */
-     , (46687,  45, 'KillTaskSpectralBloodMages0812') /* KillQuest */;
+     , (46687,  45, 'KillTaskSpectralBloodMages0812') /* KillQuest */
+     , (46687,  49, 'SanctumGuardianKillTask') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46687,   1, 0x02001B98) /* Setup */
