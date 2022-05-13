@@ -18,10 +18,10 @@ Give: Copper Knight Medallion (43025)
     - EraseQuest: QuestZaikhalDefenseAcquired
     - StampQuest: ZaikhalDefenseCopperComplete_0511
     - StampQuest: copperknightmedallion
-    - InqQuest: copperknightmedallion@2
+    - InqQuest: copperknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the copper insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA@3, 0x40
+            - InqQuestBitsOn: 50to11BrokerContractsA@Copper, 0x40
                 QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x40
                     - StampQuest: ContractQuestcounter_0511
@@ -34,10 +34,10 @@ Give: Silver Knight Medallion (43024)
     - EraseQuest: QuestZaikhalDefenseAcquired
     - StampQuest: ZaikhalDefenseSilverComplete_0511
     - StampQuest: silverknightmedallion
-    - InqQuest: silverknightmedallion@2
+    - InqQuest: silverknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the silver insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA@4, 0x80
+            - InqQuestBitsOn: 50to11BrokerContractsA@Silver, 0x80
                 QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x80
                     - StampQuest: ContractQuestcounter_0511
@@ -50,10 +50,10 @@ Give: Gold Knight Medallion (43026)
     - EraseQuest: QuestZaikhalDefenseAcquired
     - StampQuest: ZaikhalDefenseGoldComplete_0511
     - StampQuest: goldknightmedallion
-    - InqQuest: goldknightmedallion@2
+    - InqQuest: goldknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the gold insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA@5, 0x100
+            - InqQuestBitsOn: 50to11BrokerContractsA@Gold, 0x100
                 QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x100
                     - StampQuest: ContractQuestcounter_0511
@@ -66,10 +66,10 @@ Give: Platinum Knight Medallion (43027)
     - EraseQuest: QuestZaikhalDefenseAcquired
     - StampQuest: ZaikhalDefensePlatinumComplete_0511
     - StampQuest: platinumknightmedallion
-    - InqQuest: platinumknightmedallion@2
+    - InqQuest: platinumknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the platinum insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA@6, 0x200
+            - InqQuestBitsOn: 50to11BrokerContractsA@Platinum, 0x200
                 QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x200
                     - StampQuest: ContractQuestcounter_0511
