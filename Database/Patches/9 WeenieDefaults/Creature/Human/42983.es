@@ -1,0 +1,3 @@
+Death:
+    - StopEvent: AleesaFight
+
