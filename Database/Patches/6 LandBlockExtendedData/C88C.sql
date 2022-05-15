@@ -370,14 +370,3 @@ VALUES (0x7C88C40A, 42981, 0xC88C010A, 100.572, 37.1725, 25.005, -0.73747, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C40B, 87820, 0xC88C0013, 57.0835, 68.3817, 22.055, 0.999235, 0, 0, 0.039097, False, '2021-12-14 05:15:31'); /* Jenny Event Gen */
 /* @teleloc 0xC88C0013 [57.083500 68.381699 22.055000] 0.999235 0.000000 0.000000 0.039097 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C88C40C, 88415, 0xC88C010C, 105.951, 35.2556, 25.055, -0.817209, 0, 0, -0.576341, False, '2022-04-22 12:33:57'); /* Linkable Monster QueenElysa Event Gen */
-/* @teleloc 0xC88C010C [105.950996 35.255600 25.055000] -0.817209 0.000000 0.000000 -0.576341 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C88C40D, 88411, 0xC88C010C, 105.951, 35.2556, 25.005, -0.817209, 0, 0, -0.576341,  True, '2022-04-22 12:34:10'); /* Elysa Strathelar */
-/* @teleloc 0xC88C010C [105.950996 35.255600 25.004999] -0.817209 0.000000 0.000000 -0.576341 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C40C, 0x7C88C40D, '2022-04-22 12:34:10') /* Elysa Strathelar (88411) */;

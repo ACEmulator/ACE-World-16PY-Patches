@@ -80,7 +80,7 @@ VALUES (42983,   1, 350, 0, 0) /* Strength */
      , (42983,   4, 320, 0, 0) /* Coordination */
      , (42983,   5, 480, 0, 0) /* Focus */
      , (42983,   6, 480, 0, 0) /* Self */;
-     
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (42983,   1,  4825, 0, 0,    0) /* MaxHealth */
      , (42983,   3,  3000, 0, 0,    0) /* MaxStamina */
@@ -104,17 +104,8 @@ VALUES (42983,  0,  4,  0,    0,  205, 42983,  205,  226,   82,   82,  205,  123
      , (42983,  6,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (42983,  7,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (42983,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-     
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42983, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 24 /* StopEvent */, 0, 1, NULL, 'AleesaFight', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42983, 2, 42989,  1, 6,    0, True) /* Create Aleesa's Longbow for Wield */
-     , (42983, 2, 15434,  3000, 6,    0, True) /* Create Deadly Lightning Arrow for Wield */
-     , (42983, 8, 42988,  1, 6,    0, False) /* Create Aleesa's Longbow for Treasure */;
-
+VALUES (42983, 2, 42989,  1, 0,    0, False) /* Create Aleesa's Longbow for Wield */
+     , (42983, 2, 15434,  3000, 0,    0, False) /* Create Deadly Lightning Arrow for Wield */
+     , (42983, 9, 42988,  1, 0,    0, False) /* Create Aleesa's Longbow for Treasure */;
