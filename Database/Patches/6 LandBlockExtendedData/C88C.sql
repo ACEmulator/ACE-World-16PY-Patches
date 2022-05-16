@@ -326,17 +326,6 @@ VALUES (0x7C88C061, 27689, 0xC88C0000, 46.3117, 102.95, 22.005, -0.009076, 0, 0,
 /* @teleloc 0xC88C0000 [46.311699 102.949997 22.004999] -0.009076 0.000000 0.000000 -0.999959 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C88C062,  5086, 0xC88C0000, 44.8991, 169.519, 22.005, -0.845002, 0, 0, -0.534764, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen - 30 sec. */
-/* @teleloc 0xC88C0000 [44.899101 169.518997 22.004999] -0.845002 0.000000 0.000000 -0.534764 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C062, 0x7C88C063, '2005-02-09 10:00:00') /* Carlo di Cenza (30388) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C88C063, 30388, 0xC88C0000, 46.2278, 172.325, 22.005, -0.845002, 0, 0, -0.534764,  True, '2005-02-09 10:00:00'); /* Carlo di Cenza */
-/* @teleloc 0xC88C0000 [46.227798 172.324997 22.004999] -0.845002 0.000000 0.000000 -0.534764 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C064, 15759, 0xC88C0000, 45.1169, 175.657, 22.005, -0.452147, 0, 0, 0.891944, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC88C0000 [45.116901 175.656998 22.004999] -0.452147 0.000000 0.000000 0.891944 */
 
