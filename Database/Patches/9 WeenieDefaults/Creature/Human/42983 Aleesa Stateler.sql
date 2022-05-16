@@ -86,9 +86,9 @@ VALUES (42983,   1, 350, 0, 0) /* Strength */
      , (42983,   6, 480, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42983,   1,  4825, 0, 0, 0) /* MaxHealth */
-     , (42983,   3,  3000, 0, 0, 0) /* MaxStamina */
-     , (42983,   5,  4800, 0, 0, 0) /* MaxMana */;
+VALUES (42983,   1,  4825, 0, 0, 5000) /* MaxHealth */
+     , (42983,   3,  3000, 0, 0, 3350) /* MaxStamina */
+     , (42983,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (42983,  6, 0, 3, 0, 367, 0, 747.685119628906) /* MeleeDefense        Specialized */
