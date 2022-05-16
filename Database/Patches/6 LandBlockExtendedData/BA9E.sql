@@ -37,7 +37,7 @@ VALUES (0x7BA9E009,  7923, 0xBA9E0108, 56.9426, 34.597, 54.005, -0.06246, 0, 0, 
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7BA9E009, 0x7BA9E005, '2005-02-09 10:00:00') /* Bartholomew Steiner (12238) */
-     , (0x7BA9E009, 0x7BA9E00B, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */;
+     , (0x7BA9E009, 0x7BA9E00B, '2019-02-10 00:00:00') /* Aleesa Stateler (42983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9E00A, 12304, 0xBA9E0000, 52.2586, 41.961, 54.005, -0.37948, 0, 0, -0.9252, False, '2005-02-09 10:00:00'); /* Agent of the Arcanum  */
@@ -45,4 +45,4 @@ VALUES (0x7BA9E00A, 12304, 0xBA9E0000, 52.2586, 41.961, 54.005, -0.37948, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9E00B, 42983, 0xBA9E0100, 14.5508, 38.3452, 54.005, 0.383196, 0, 0, 0.923667,  True, '2019-02-10 00:00:00'); /* Aleesa Stateler */
-/* @teleloc 0xBA9E0100 [14.550800 38.345200 54.005000] 0.383196 0.000000 0.000000 0.923667 */
+/* @teleloc 0xBA9E0100 [14.550800 38.345200 54.005001] 0.383196 0.000000 0.000000 0.923667 */

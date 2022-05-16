@@ -306,8 +306,8 @@ VALUES (0x7C88C05D, 0x7C88C033, '2005-02-09 10:00:00') /* Celcynd the Dour (4795
      , (0x7C88C05D, 0x7C88C05E, '2005-02-09 10:00:00') /* Tackle Master (23336) */
      , (0x7C88C05D, 0x7C88C060, '2005-02-09 10:00:00') /* Apprentice Fletcher (27746) */
      , (0x7C88C05D, 0x7C88C061, '2005-02-09 10:00:00') /* Royal Guard Gabrielle (27689) */
-     , (0x7C88C05D, 0x7C88C06A, '2005-02-09 10:00:00') /* Royal Guard Gabrielle (27689) */
-     , (0x7C88C05D, 0x7C88C06B, '2005-02-09 10:00:00') /* Royal Guard Gabrielle (27689) */;
+     , (0x7C88C05D, 0x7C88C06A, '2005-02-09 10:00:00') /* Mesalina (42982) */
+     , (0x7C88C05D, 0x7C88C06B, '2005-02-09 10:00:00') /* Yuudai (42981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C05E, 23336, 0xC88C0184, 160.527, 150.313, 23.5042, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tackle Master */
@@ -342,9 +342,9 @@ VALUES (0x7C88C064, 15759, 0xC88C0000, 45.1169, 175.657, 22.005, -0.452147, 0, 0
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7C88C064, 0x7C88C065, '2005-02-09 10:00:00') /* Empty Book Binding (30928) */
-     , (0x7C88C064, 0x7C88C067, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem (45981) */
+     , (0x7C88C064, 0x7C88C067, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
      , (0x7C88C064, 0x7C88C068, '2019-02-10 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
-     , (0x7C88C064, 0x7C88C069, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem (45990) */;
+     , (0x7C88C064, 0x7C88C069, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem (45981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C065, 30928, 0xC88C0000, 45.5459, 177.025, 22.005, -0.517709, 0, 0, 0.855557,  True, '2005-02-09 10:00:00'); /* Empty Book Binding */
@@ -352,7 +352,7 @@ VALUES (0x7C88C065, 30928, 0xC88C0000, 45.5459, 177.025, 22.005, -0.517709, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C066, 43065, 0xC88C0016, 52.2656, 120.75, 22.198, -0.792337, 0, 0, 0.610083, False, '2019-02-10 00:00:00'); /* Portal to Town Network */
-/* @teleloc 0xC88C0016 [52.265600 120.750000 22.198000] -0.792337 0.000000 0.000000 0.610083 */
+/* @teleloc 0xC88C0016 [52.265598 120.750000 22.198000] -0.792337 0.000000 0.000000 0.610083 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C067, 45990, 0xC88C0144, 19.5575, 148.722, 22.94, 0.566291, 0, 0, -0.824205,  True, '2021-12-14 05:15:31'); /* Explorer Heavy Weapons Gem */
@@ -367,11 +367,11 @@ VALUES (0x7C88C069, 45981, 0xC88C0144, 18.8385, 148.029, 22.94, 0.566291, 0, 0, 
 /* @teleloc 0xC88C0144 [18.838499 148.029007 22.940001] 0.566291 0.000000 0.000000 -0.824205 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C88C06A, 42982, 0xC88C010A, 100.714, 35.5584, 25.005, -0.950337, 0, 0, 0.311223, True, '2021-12-14 05:15:31'); /* Mesalina */
+VALUES (0x7C88C06A, 42982, 0xC88C010A, 100.714, 35.5584, 25.005, -0.950337, 0, 0, 0.311223,  True, '2021-12-14 05:15:31'); /* Mesalina */
 /* @teleloc 0xC88C010A [100.713997 35.558399 25.004999] -0.950337 0.000000 0.000000 0.311223 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C88C06B, 42981, 0xC88C010A, 100.572, 37.1725, 25.005, -0.73747, 0, 0, 0.67538, True, '2021-12-14 05:15:31'); /* Yuudai */
+VALUES (0x7C88C06B, 42981, 0xC88C010A, 100.572, 37.1725, 25.005, -0.73747, 0, 0, 0.67538,  True, '2021-12-14 05:15:31'); /* Yuudai */
 /* @teleloc 0xC88C010A [100.571999 37.172501 25.004999] -0.737470 0.000000 0.000000 0.675380 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

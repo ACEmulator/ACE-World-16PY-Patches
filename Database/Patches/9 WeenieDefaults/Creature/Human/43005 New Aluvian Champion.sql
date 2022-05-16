@@ -6,15 +6,15 @@ VALUES (43005, 'ace43005-newaluvianchampion', 10, '2022-04-08 17:52:24') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43005,   1,         16) /* ItemType - Creature */
      , (43005,   2,         31) /* CreatureType - Human */
-     , (43005,   6,        255) /* ItemsCapacity */
-     , (43005,   7,        255) /* ContainersCapacity */
+     , (43005,   6,         -1) /* ItemsCapacity */
+     , (43005,   7,         -1) /* ContainersCapacity */
      , (43005,  16,          1) /* ItemUseable - No */
      , (43005,  25,        160) /* Level */
      , (43005,  27,          0) /* ArmorType - None */
-     , (43005,  67,         64) /* Tolerance - Attack if Attacked */
+     , (43005,  67,         64) /* Tolerance - Retaliate */
      , (43005,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (43005,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (43005, 101,          2) /* AiAllowedCombatStyle - One Handed */
+     , (43005, 101,          2) /* AiAllowedCombatStyle - OneHanded */
      , (43005, 113,          1) /* Gender - Male */
      , (43005, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (43005, 188,          3) /* HeritageGroup - Sho */
@@ -65,7 +65,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43005,   1, 0x02000001) /* Setup */
      , (43005,   2, 0x09000001) /* MotionTable */
      , (43005,   3, 0x20000001) /* SoundTable */
-     , (43005,   4,  805306368) /* CombatTable */
+     , (43005,   4, 0x30000000) /* CombatTable */
      , (43005,   8, 0x06001036) /* Icon */
      , (43005,  22, 0x34000004) /* PhysicsEffectTable */;
 
@@ -85,10 +85,10 @@ VALUES (43005,   1,  6130, 0, 0, 0) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43005,  6, 0, 3, 0, 433, 0, 0) /* MeleeDefense        Specialized */
      , (43005,  7, 0, 3, 0, 350, 0, 0) /* MissileDefense      Specialized */
-     , (43005, 44, 0, 3, 0, 483, 0, 0) /* HeavyWeapon         Specialized */
      , (43005, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
      , (43005, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (43005, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */;
+     , (43005, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */
+     , (43005, 44, 0, 3, 0, 483, 0, 0) /* HeavyWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (43005,  0,  4,  0,    0,  205, 43005,  205,  226,   82,   82,  205,  123,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -102,20 +102,16 @@ VALUES (43005,  0,  4,  0,    0,  205, 43005,  205,  226,   82,   82,  205,  123
      , (43005,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43005, 2, 32637,  1, 6, 0, FALSE) /* Create Shield of Elysa's Royal Guard for Wield */
-     , (43005, 2, 32852,  1, 6, 0, FALSE) /* Create Shield of Blade of the Realm for Wield */
-
-     , (43005, 2, 21156,  1, 21,      1, FALSE) /* Create Covenant Helm for Wield */
-     , (43005, 2, 21152,  1, 21, 0.7143, FALSE) /* Create Covenant Breastplate for Wield */
-     , (43005, 2, 21157,  1, 21, 0.7143, FALSE) /* Create Covenant Pauldrons for Wield */
-     , (43005, 2, 21151,  1, 21, 0.7143, FALSE) /* Create Covenant Bracers for Wield */
-     , (43005, 2, 21153,  1, 21, 0.7143, FALSE) /* Create Covenant Bracers for Wield */
-
-     , (43005, 2, 21154,  1, 21, 0.7143, FALSE) /* Create Covenant Girth for Wield */
-     , (43005, 2, 21159,  1, 21, 0.7143, FALSE) /* Create Covenant Tassets for Wield */
-     , (43005, 2, 21155,  1, 21, 0.7143, FALSE) /* Create Covenant Greaves for Wield */
-     , (43005, 2, 21150,  1, 21, 0.7143, FALSE) /* Create Covenant Sollz for Wield */
-
-     , (43005, 2, 130,  1, 85, 1, FALSE) /* Create Covenant Sollz for Wield */
-     , (43005, 2, 127,  1, 85, 0.9818, FALSE) /* Create Covenant Sollz for Wield */
-     ;
+VALUES (43005, 2, 32637,  1, 6, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (43005, 2, 32852,  1, 6, 0, False) /* Create Blade of the Realm (32852) for Wield */
+     , (43005, 2, 21156,  1, 21, 1, False) /* Create Covenant Helm (21156) for Wield */
+     , (43005, 2, 21152,  1, 21, 0.7143, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (43005, 2, 21157,  1, 21, 0.7143, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (43005, 2, 21151,  1, 21, 0.7143, False) /* Create Covenant Bracers (21151) for Wield */
+     , (43005, 2, 21153,  1, 21, 0.7143, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (43005, 2, 21154,  1, 21, 0.7143, False) /* Create Covenant Girth (21154) for Wield */
+     , (43005, 2, 21159,  1, 21, 0.7143, False) /* Create Covenant Tassets (21159) for Wield */
+     , (43005, 2, 21155,  1, 21, 0.7143, False) /* Create Covenant Greaves (21155) for Wield */
+     , (43005, 2, 21150,  1, 21, 0.7143, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (43005, 2,   130,  1, 85, 1, False) /* Create Shirt (130) for Wield */
+     , (43005, 2,   127,  1, 85, 0.9818, False) /* Create Pants (127) for Wield */;

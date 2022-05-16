@@ -12,7 +12,7 @@ VALUES (88413,   1,       2048) /* ItemType - Gem */
      , (88413,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (88413,   1, False ) /* Stuck */;
+VALUES (88413,   1, False) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (88413,  12,     0.5) /* Shade */;

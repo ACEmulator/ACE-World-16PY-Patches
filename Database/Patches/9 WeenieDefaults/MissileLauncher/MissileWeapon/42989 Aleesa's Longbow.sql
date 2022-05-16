@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42989;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42989, '42989-bowlongaleesa', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (42989, 'ace42989-aleesaslongbow', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42989,   1,        256) /* ItemType - MissileWeapon */
@@ -11,7 +11,7 @@ VALUES (42989,   1,        256) /* ItemType - MissileWeapon */
      , (42989,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (42989,  16,          1) /* ItemUseable - No */
      , (42989,  19,        350) /* Value */
-     , (42989,  33,         -2) /* Bonded - Bonded */
+     , (42989,  33,         -2) /* Bonded - Destroy */
      , (42989,  44,          0) /* Damage */
      , (42989,  46,         16) /* DefaultCombatStyle - Bow */
      , (42989,  48,         47) /* WeaponSkill - MissileWeapons */

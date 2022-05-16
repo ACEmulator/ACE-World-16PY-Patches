@@ -7,12 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42983,   1,         16) /* ItemType - Creature */
      , (42983,   2,         31) /* CreatureType - Human */
      , (42983,   3,         14) /* PaletteTemplate - Red */
-     , (42983,   6,        255) /* ItemsCapacity */
-     , (42983,   7,        255) /* ContainersCapacity */
+     , (42983,   6,         -1) /* ItemsCapacity */
+     , (42983,   7,         -1) /* ContainersCapacity */
      , (42983,  16,          1) /* ItemUseable - No */
      , (42983,  25,        200) /* Level */
      , (42983,  27,          0) /* ArmorType - None */
-     , (42983,  67,         64) /* Tolerance - Attack if Attacked */
+     , (42983,  67,         64) /* Tolerance - Retaliate */
      , (42983,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (42983,  81,          6) /* MaxGeneratedObjects */
      , (42983,  82,          6) /* InitGeneratedObjects */
@@ -72,8 +72,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42983,   1, 0x0200004E) /* Setup */
      , (42983,   2, 0x09000001) /* MotionTable */
      , (42983,   3, 0x20000002) /* SoundTable */
-     , (42983,   4,  805306368) /* CombatTable */
-     , (42983,   7, 0x10000712) /* CLOTHINGBASE_DID */
+     , (42983,   4, 0x30000000) /* CombatTable */
+     , (42983,   7, 0x10000712) /* ClothingBase */
      , (42983,   8, 0x06001036) /* Icon */
      , (42983,  22, 0x34000004) /* PhysicsEffectTable */;
 
@@ -86,17 +86,17 @@ VALUES (42983,   1, 350, 0, 0) /* Strength */
      , (42983,   6, 480, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42983,   1,  4825, 0, 0,    0) /* MaxHealth */
-     , (42983,   3,  3000, 0, 0,    0) /* MaxStamina */
-     , (42983,   5,  4800, 0, 0,    0) /* MaxMana */;
+VALUES (42983,   1,  4825, 0, 0, 0) /* MaxHealth */
+     , (42983,   3,  3000, 0, 0, 0) /* MaxStamina */
+     , (42983,   5,  4800, 0, 0, 0) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (42983, 47, 0, 3, 0, 256, 0, 747.685119628906) /* MissileWeapons      Specialized */
-     , (42983,  6, 0, 3, 0, 367, 0, 747.685119628906) /* MeleeDefense        Specialized */
+VALUES (42983,  6, 0, 3, 0, 367, 0, 747.685119628906) /* MeleeDefense        Specialized */
      , (42983,  7, 0, 3, 0, 310, 0, 747.685119628906) /* MissileDefense      Specialized */
      , (42983, 15, 0, 3, 0, 255, 0, 747.685119628906) /* MagicDefense        Specialized */
      , (42983, 20, 0, 3, 0, 150, 0, 747.685119628906) /* Deception           Specialized */
-     , (42983, 24, 0, 3, 0,  20, 0, 747.685119628906) /* Run                 Specialized */;
+     , (42983, 24, 0, 3, 0,  20, 0, 747.685119628906) /* Run                 Specialized */
+     , (42983, 47, 0, 3, 0, 256, 0, 747.685119628906) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (42983,  0,  4,  0,    0,  205, 42983,  205,  226,   82,   82,  205,  123,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -109,15 +109,24 @@ VALUES (42983,  0,  4,  0,    0,  205, 42983,  205,  226,   82,   82,  205,  123
      , (42983,  7,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (42983,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (42983,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'An assassin is on the way here and we have to be ready for him.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'You must leave this area, it is too dangerous for a civilian.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42983, 2, 42989,  1, 0,    0, False) /* Create Aleesa's Longbow for Wield */
-     , (42983, 2, 15434,  3000, 0,    0, False) /* Create Deadly Lightning Arrow for Wield */
-     , (42983, 9, 42988,  1, 0,    0, False) /* Create Aleesa's Longbow for Treasure */;
+VALUES (42983, 2, 42989,  1, 0, 0, False) /* Create Aleesa's Longbow (42989) for Wield */
+     , (42983, 2, 15434, 3000, 0, 0, False) /* Create Deadly Lightning Arrow (15434) for Wield */
+     , (42983, 9, 42988,  1, 0, 0, False) /* Create Aleesa's Longbow (42988) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, 1.15, 1.7, 0, 1, 0, 0, 0) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, -5, 6.5, 0, -0.707107, 0, 0, -0.707107) /* Generate Drudge Slinker (193) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, -1.25, 9.6, 0, 1, 0, 0, 0) /* Generate Drudge Sneaker (940) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, -1.45, 1.7, 0, 1, 0, 0, 0) /* Generate Drudge Prowler (192) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, -5, 3.2, 0, -0.707107, 0, 0, -0.707107) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, 1.85, 9.7, 0, 1, 0, 0, 0) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, 1.15, 1.7, 0, 1, 0, 0, 0) /* Generate New Aluvian Champion (43005) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, -5, 6.5, 0, -0.707107, 0, 0, -0.707107) /* Generate New Aluvian Champion (43005) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, -1.25, 9.6, 0, 1, 0, 0, 0) /* Generate New Aluvian Champion (43005) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, -1.45, 1.7, 0, 1, 0, 0, 0) /* Generate New Aluvian War Mage Champion (43006) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, -5, 3.2, 0, -0.707107, 0, 0, -0.707107) /* Generate New Aluvian War Mage Champion (43006) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, 1.85, 9.7, 0, 1, 0, 0, 0) /* Generate New Aluvian War Mage Champion (43006) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

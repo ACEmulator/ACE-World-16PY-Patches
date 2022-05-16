@@ -6,12 +6,12 @@ VALUES (43006, 'ace43006-newaluvianwarmagechampion', 10, '2022-04-08 17:52:24') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43006,   1,         16) /* ItemType - Creature */
      , (43006,   2,         31) /* CreatureType - Human */
-     , (43006,   6,        255) /* ItemsCapacity */
-     , (43006,   7,        255) /* ContainersCapacity */
+     , (43006,   6,         -1) /* ItemsCapacity */
+     , (43006,   7,         -1) /* ContainersCapacity */
      , (43006,  16,          1) /* ItemUseable - No */
      , (43006,  25,        160) /* Level */
      , (43006,  27,          0) /* ArmorType - None */
-     , (43006,  67,         64) /* Tolerance - Attack if Attacked */
+     , (43006,  67,         64) /* Tolerance - Retaliate */
      , (43006,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (43006,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43006, 101,        512) /* AiAllowedCombatStyle - Magic */
@@ -64,7 +64,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43006,   1, 0x0200004E) /* Setup */
      , (43006,   2, 0x09000001) /* MotionTable */
      , (43006,   3, 0x20000002) /* SoundTable */
-     , (43006,   4,  805306368) /* CombatTable */
+     , (43006,   4, 0x30000000) /* CombatTable */
      , (43006,   8, 0x06001036) /* Icon */
      , (43006,  22, 0x34000004) /* PhysicsEffectTable */;
 
@@ -84,11 +84,11 @@ VALUES (43006,   1,  3000, 0, 0, 0) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43006,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
      , (43006,  7, 0, 3, 0, 330, 0, 0) /* MissileDefense      Specialized */
-     , (43006, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
-     , (43006, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
      , (43006, 15, 0, 3, 0, 343, 0, 0) /* MagicDefense        Specialized */
      , (43006, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (43006, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */;
+     , (43006, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */
+     , (43006, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
+     , (43006, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (43006,  0,  4,  0,    0,  205, 43006,  205,  226,   82,   82,  205,  123,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -102,7 +102,6 @@ VALUES (43006,  0,  4,  0,    0,  205, 43006,  205,  226,   82,   82,  205,  123
      , (43006,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43006, 2, 10870,  1, 17, 0.7019, FALSE) /* Create Canescent Mattekar Robe for Wield */
-     , (43006, 2,    46,  1, 14, 1.0000, FALSE) /* Create Metal Cap for Wield */
-     , (43006, 2, 22776,  1,  0,      0, FALSE) /* Create Bandit Dagger for Wield */
-     ;
+VALUES (43006, 2, 10870,  1, 17, 0.7019, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (43006, 2,    46,  1, 14, 1, False) /* Create Metal Cap (46) for Wield */
+     , (43006, 2, 22776,  1, 0, 0, False) /* Create Bandit Dagger (22776) for Wield */;

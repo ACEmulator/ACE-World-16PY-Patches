@@ -26,4 +26,4 @@ VALUES (0x7A2A4004, 12304, 0xA2A40000, 43.525, 111.889, 50.005, -0.008087, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A4005, 42987, 0xA2A40105, 33.8895, 108.109, 46.006, -0.603833, 0, 0, 0.797111,  True, '2019-02-10 00:00:00'); /* Messenger for The Stranger */
-/* @teleloc 0xA2A40105 [33.889500 108.109000 46.006000] -0.603833 0.000000 0.000000 0.797111 */
+/* @teleloc 0xA2A40105 [33.889500 108.109001 46.006001] -0.603833 0.000000 0.000000 0.797111 */
