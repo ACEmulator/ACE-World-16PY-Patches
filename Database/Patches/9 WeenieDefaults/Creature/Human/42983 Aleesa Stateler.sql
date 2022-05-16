@@ -74,8 +74,7 @@ VALUES (42983,   1, 0x0200004E) /* Setup */
      , (42983,   3, 0x20000002) /* SoundTable */
      , (42983,   4, 0x30000000) /* CombatTable */
      , (42983,   7, 0x10000712) /* ClothingBase */
-     , (42983,   8, 0x06001036) /* Icon */
-     , (42983,  22, 0x34000004) /* PhysicsEffectTable */;
+     , (42983,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42983,   1, 350, 0, 0) /* Strength */
