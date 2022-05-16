@@ -10,7 +10,7 @@ VALUES (88411,   1,         16) /* ItemType - Creature */
      , (88411,   6,         -1) /* ItemsCapacity */
      , (88411,   7,         -1) /* ContainersCapacity */
      , (88411,  16,         32) /* ItemUseable - Remote */
-     , (88411,  25,        200) /* Level */
+     , (88411,  25,        275) /* Level */
      , (88411,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (88411,  95,          8) /* RadarBlipColor - Yellow */
      , (88411, 113,          2) /* Gender - Female */
@@ -37,10 +37,18 @@ VALUES (88411,   1, 0x0200004E) /* Setup */
      , (88411,   7, 0x10000712) /* ClothingBase */
      , (88411,   8, 0x06001036) /* Icon */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (88411,   1, 200, 0, 0) /* Strength */
+     , (88411,   2, 200, 0, 0) /* Endurance */
+     , (88411,   3, 290, 0, 0) /* Quickness */
+     , (88411,   4, 290, 0, 0) /* Coordination */
+     , (88411,   5, 260, 0, 0) /* Focus */
+     , (88411,   6, 200, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (88411,   1,  5000, 0, 0, 0) /* MaxHealth */
-     , (88411,   3,     0, 0, 0, 0) /* MaxStamina */
-     , (88411,   5,     0, 0, 0, 0) /* MaxMana */;
+VALUES (88411,   1,  196, 0, 0, 296) /* MaxHealth */
+     , (88411,   3,  196, 0, 0, 396) /* MaxStamina */
+     , (88411,   5,  196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (88411,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
