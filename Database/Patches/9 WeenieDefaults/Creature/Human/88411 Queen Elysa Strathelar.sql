@@ -17,11 +17,12 @@ VALUES (88411,   1,         16) /* ItemType - Creature */
      , (88411, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (88411, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (88411, 188,          1) /* HeritageGroup - Aluvian */
-     , (88411, 267,        300) /* Lifespan */;
+     , (88411, 267,        180) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88411,   1, True ) /* Stuck */
-     , (88411,  19, False) /* Attackable */;
+     , (88411,  19, False) /* Attackable */
+     , (88411,  119, true) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (88411,  54,       3) /* UseRadius */;

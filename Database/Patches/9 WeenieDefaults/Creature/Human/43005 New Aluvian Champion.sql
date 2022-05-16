@@ -57,7 +57,7 @@ VALUES (43005,   1,       5) /* HeartbeatInterval */
      , (43005, 104,      10) /* ObviousRadarRange */
      , (43005, 117,     0.5) /* FocusedProbability */
      , (43005, 125,       1) /* ResistHealthDrain */;
-     
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43005,   1, 'New Aluvian Champion') /* Name */;
 
@@ -100,21 +100,22 @@ VALUES (43005,  0,  4,  0,    0,  205, 43005,  205,  226,   82,   82,  205,  123
      , (43005,  6,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43005,  7,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (43005,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-     
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43005, 2, 32637,  1, 6, 0, true) /* Create Shield of Elysa's Royal Guard for Wield */
-     , (43005, 2, 32852,  1, 6, 0, true) /* Create Shield of Blade of the Realm for Wield */
+VALUES (43005, 2, 32637,  1, 6, 0, FALSE) /* Create Shield of Elysa's Royal Guard for Wield */
+     , (43005, 2, 32852,  1, 6, 0, FALSE) /* Create Shield of Blade of the Realm for Wield */
 
-     , (43005, 2, 21156,  1, 21,      1, true) /* Create Covenant Helm for Wield */
-     , (43005, 2, 21152,  1, 21, 0.7143, true) /* Create Covenant Breastplate for Wield */
-     , (43005, 2, 21157,  1, 21, 0.7143, true) /* Create Covenant Pauldrons for Wield */
-     , (43005, 2, 21151,  1, 21, 0.7143, true) /* Create Covenant Bracers for Wield */
-     , (43005, 2, 21153,  1, 21, 0.7143, true) /* Create Covenant Bracers for Wield */
+     , (43005, 2, 21156,  1, 21,      1, FALSE) /* Create Covenant Helm for Wield */
+     , (43005, 2, 21152,  1, 21, 0.7143, FALSE) /* Create Covenant Breastplate for Wield */
+     , (43005, 2, 21157,  1, 21, 0.7143, FALSE) /* Create Covenant Pauldrons for Wield */
+     , (43005, 2, 21151,  1, 21, 0.7143, FALSE) /* Create Covenant Bracers for Wield */
+     , (43005, 2, 21153,  1, 21, 0.7143, FALSE) /* Create Covenant Bracers for Wield */
 
-     , (43005, 2, 21154,  1, 21, 0.7143, true) /* Create Covenant Girth for Wield */
-     , (43005, 2, 21159,  1, 21, 0.7143, true) /* Create Covenant Tassets for Wield */
-     , (43005, 2, 21155,  1, 21, 0.7143, true) /* Create Covenant Greaves for Wield */
-     , (43005, 2, 21150,  1, 21, 0.7143, true) /* Create Covenant Sollz for Wield */
+     , (43005, 2, 21154,  1, 21, 0.7143, FALSE) /* Create Covenant Girth for Wield */
+     , (43005, 2, 21159,  1, 21, 0.7143, FALSE) /* Create Covenant Tassets for Wield */
+     , (43005, 2, 21155,  1, 21, 0.7143, FALSE) /* Create Covenant Greaves for Wield */
+     , (43005, 2, 21150,  1, 21, 0.7143, FALSE) /* Create Covenant Sollz for Wield */
 
-     , (43005, 2, 130,  1, 85, 0.7143, true) /* Create Covenant Sollz for Wield */
+     , (43005, 2, 130,  1, 85, 1, FALSE) /* Create Covenant Sollz for Wield */
+     , (43005, 2, 127,  1, 85, 0.9818, FALSE) /* Create Covenant Sollz for Wield */
      ;

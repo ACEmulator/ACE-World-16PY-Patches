@@ -51,4 +51,4 @@ VALUES (42987,   1,   196, 0, 0,  296) /* MaxHealth */
 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42987, 2,  5850,  1, 4,    0, False) /* Create Faran Robe (5850) for Wield */;
+VALUES (42987, 2,  5850,  1, 4,    0.5, False) /* Create Faran Robe (5850) for Wield */;

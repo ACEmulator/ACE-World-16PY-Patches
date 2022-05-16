@@ -75,7 +75,7 @@ VALUES (43006,   1, 300, 0, 0) /* Strength */
      , (43006,   4, 300, 0, 0) /* Coordination */
      , (43006,   5, 300, 0, 0) /* Focus */
      , (43006,   6, 300, 0, 0) /* Self */;
-     
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (43006,   1,  3000, 0, 0, 0) /* MaxHealth */
      , (43006,   3,  4000, 0, 0, 0) /* MaxStamina */
@@ -100,9 +100,9 @@ VALUES (43006,  0,  4,  0,    0,  205, 43006,  205,  226,   82,   82,  205,  123
      , (43006,  6,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43006,  7,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (43006,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-     
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43006, 2, 10870,  1, 17, 0.7019, true) /* Create Canescent Mattekar Robe for Wield */
-     , (43006, 2,    46,  1, 14, 1.0000, true) /* Create Metal Cap for Wield */
-     , (43006, 2, 22776,  1,  0,      0, true) /* Create Bandit Dagger for Wield */
+VALUES (43006, 2, 10870,  1, 17, 0.7019, FALSE) /* Create Canescent Mattekar Robe for Wield */
+     , (43006, 2,    46,  1, 14, 1.0000, FALSE) /* Create Metal Cap for Wield */
+     , (43006, 2, 22776,  1,  0,      0, FALSE) /* Create Bandit Dagger for Wield */
      ;

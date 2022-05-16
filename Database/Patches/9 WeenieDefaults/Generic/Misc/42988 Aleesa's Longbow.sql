@@ -21,7 +21,8 @@ VALUES (42988,  22, False) /* Inscribable */
      , (42988,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42988,   1, 'Aleesa''s Longbow') /* Name */;
+VALUES (42988,   1, 'Aleesa''s Longbow') /* Name */
+     , (42988,  37, 'QueenElysaInDangerTalkYuudai') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42988,   1, 0x020009C9) /* Setup */

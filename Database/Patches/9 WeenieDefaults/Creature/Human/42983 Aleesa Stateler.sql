@@ -14,8 +14,11 @@ VALUES (42983,   1,         16) /* ItemType - Creature */
      , (42983,  27,          0) /* ArmorType - None */
      , (42983,  67,         64) /* Tolerance - Attack if Attacked */
      , (42983,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (42983,  81,          6) /* MaxGeneratedObjects */
+     , (42983,  82,          6) /* InitGeneratedObjects */
      , (42983,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42983,  95,          8) /* RadarBlipColor - Yellow */
+     , (42983, 100,          1) /* GeneratorType - Relative */
      , (42983, 101,         16) /* AiAllowedCombatStyle - Bow */
      , (42983, 113,          2) /* Gender - Female */
      , (42983, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -43,6 +46,7 @@ VALUES (42983,   1,       5) /* HeartbeatInterval */
      , (42983,  18,       1) /* ArmorModVsAcid */
      , (42983,  19,     0.6) /* ArmorModVsElectric */
      , (42983,  31,      13) /* VisualAwarenessRange */
+     , (42983,  41,      60) /* RegenerationInterval */
      , (42983,  64,    0.35) /* ResistSlash */
      , (42983,  65,    0.35) /* ResistPierce */
      , (42983,  66,    0.35) /* ResistBludgeon */
@@ -109,3 +113,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (42983, 2, 42989,  1, 0,    0, False) /* Create Aleesa's Longbow for Wield */
      , (42983, 2, 15434,  3000, 0,    0, False) /* Create Deadly Lightning Arrow for Wield */
      , (42983, 9, 42988,  1, 0,    0, False) /* Create Aleesa's Longbow for Treasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, 1.15, 1.7, 0, 1, 0, 0, 0) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, -5, 6.5, 0, -0.707107, 0, 0, -0.707107) /* Generate Drudge Slinker (193) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43005, 30, 1, 1, 1, 4, -1, 0, 0, 0, -1.25, 9.6, 0, 1, 0, 0, 0) /* Generate Drudge Sneaker (940) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, -1.45, 1.7, 0, 1, 0, 0, 0) /* Generate Drudge Prowler (192) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, -5, 3.2, 0, -0.707107, 0, 0, -0.707107) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (42983, -1, 43006, 30, 1, 1, 1, 4, -1, 0, 0, 0, 1.85, 9.7, 0, 1, 0, 0, 0) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

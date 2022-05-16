@@ -1,8 +1,8 @@
 Generation:
     - Act: Elysa appears behind you.
     - Delay: 1, Extent: 20, Say: No that is not my bow, and it was not I who was killed.
-    - Delay: 2, Extent: 20, Say: But if you do not tell me who was behind this, you may be the one who ends up dead.
-    - Delay: 3, Extent: 20, Say: He can run, but no place in Dereth will shelter him now.
+    - Extent: 20, Say: But if you do not tell me who was behind this, you may be the one who ends up dead.
+    - Delay: 4, Extent: 20, Say: He can run, but no place in Dereth will shelter him now.
 
 Use:
     - TurnToTarget

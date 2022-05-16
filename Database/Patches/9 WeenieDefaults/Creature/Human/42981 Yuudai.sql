@@ -10,6 +10,8 @@ VALUES (42981,   1,         16) /* ItemType - Creature */
      , (42981,   7,        255) /* ContainersCapacity */
      , (42981,  16,         32) /* ItemUseable - Remote */
      , (42981,  25,        174) /* Level */
+     , (42981,  81,          1) /* MaxGeneratedObjects */
+     , (42981,  82,          0) /* InitGeneratedObjects */
      , (42981,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42981,  95,          8) /* RadarBlipColor - Yellow */
      , (42981, 113,          1) /* Gender - Male */
@@ -23,7 +25,8 @@ VALUES (42981,   1, True ) /* Stuck */
      , (42981,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42981,  54,       3) /* UseRadius */;
+VALUES (42981,  54,       3) /* UseRadius */
+     , (42981,  41,       0) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42981,   1, 'Yuudai') /* Name */;
@@ -51,6 +54,9 @@ VALUES (42981,   1,   196, 0, 0,    0) /* MaxHealth */
 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42981, 2, 28607,  1, 6,    0, False) /* Create Lace Shirt (28607) for Wield */
-     , (42981, 2,  6047,  1, 2,    0, False) /* Create Amuli Leggings (6047) for Wield */
+VALUES (42981, 2, 28607,  1, 4,    0, False) /* Create Lace Shirt (28607) for Wield */
+     , (42981, 2,  6047,  1, 2,    0.3, False) /* Create Amuli Leggings (6047) for Wield */
      , (42981, 2,   132,  1, 4,    0, False) /* Create Shoes (132) for Wield */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (42981, -1, 88411, 300, 1, 1, 1, 4, -1, 0, 0, 0, 0, 5.4, 0, -0.833943, 0, 0, -0.551851) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

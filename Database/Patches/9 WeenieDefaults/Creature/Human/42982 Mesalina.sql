@@ -51,3 +51,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42982,   1,   196, 0, 0, 256) /* MaxHealth */
      , (42982,   3,   196, 0, 0, 316) /* MaxStamina */
      , (42982,   5,   196, 0, 0, 256) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42982, 2, 2602,  1, 4,    0.5, False) /* Create Lace Shirt (28607) for Wield */
+     , (42982, 2,  25649,  1, 4,    0, False) /* Create Amuli Leggings (6047) for Wield */
+     , (42982, 2,  37191,  1, 19,    0.27, False) /* Create Amuli Leggings (6047) for Wield */
+     , (42982, 2,   132,  1, 4,    0, False) /* Create Shoes (132) for Wield */;
