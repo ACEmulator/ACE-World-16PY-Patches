@@ -204,8 +204,8 @@ VALUES (20208, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (20208, 4,  2741, -1, 0, 0, False) /* Create Scroll of Strength Other VI (2741) for Shop */
      , (20208, 4,  2746, -1, 0, 0, False) /* Create Scroll of Self Strength VI (2746) for Shop */
      , (20208, 4,  2751, -1, 0, 0, False) /* Create Scroll of Weakness Other VI (2751) for Shop */
-     , (20208, 4,  2756, -1, 0, 0, False) /* Create Scroll of WillPower Other VI (2756) for Shop */
-     , (20208, 4,  2761, -1, 0, 0, False) /* Create Scroll of WillPower Self VI (2761) for Shop */
+     , (20208, 4,  2756, -1, 0, 0, False) /* Create Scroll of Willpower Other VI (2756) for Shop */
+     , (20208, 4,  2761, -1, 0, 0, False) /* Create Scroll of Willpower Self VI (2761) for Shop */
      , (20208, 4,  5985, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other VI (5985) for Shop */
      , (20208, 4,  5991, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other VI (5991) for Shop */
      , (20208, 4,  5997, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self VI (5997) for Shop */

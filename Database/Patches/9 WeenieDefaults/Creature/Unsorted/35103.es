@@ -1,2 +1,2 @@
 Use:
-	- DirectBroadcast: This golem has been utterly destroyed. It cannot be reactivated.
+    - DirectBroadcast: This golem has been utterly destroyed. It cannot be reactivated.

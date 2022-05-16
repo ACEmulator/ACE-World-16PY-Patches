@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41231;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41231, 'ace41231-reaversimulacrum', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (41231, 'ace41231-reaversimulacrum', 10, '2022-03-19 04:04:39') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41231,   1,         16) /* ItemType - Creature */
@@ -86,7 +86,8 @@ VALUES (41231,   1, 0x02000001) /* Setup */
                                    Wield Raven Sabra (31387) | Probability: 22%
                                    Wield Raven Sabra (31388) | Probability: 22%
                                    Wield Raven Sabra (31389) | Probability: 22%
-                                   Wield Raven Sabra (31390) | Probability: 22% */;
+                                   Wield Raven Sabra (31390) | Probability: 22% */
+     , (41231,  35,        349) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41231,   1, 270, 0, 0) /* Strength */

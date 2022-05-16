@@ -4,9 +4,9 @@ Use:
     - Delay: 1, Generate
     - CastSpell: 3915 - Black Madness
 Give: 87213
-	-DirectBroadcast: As you touch the Knath Core to the lectern it pulses malignantly. Suddenly, a discordant shriek echoes in you mind.
-	-Delay: 1, Tell: Thief! Impostor! Master has already removed the Book of Eibhil! Guards! Protect the master's library!
-	- CastSpell: 3915 - Black Madness
-	-Give: 87214
-	-Generate
-	-DirectBroadcast: The Knath Core begins to pulse with the same malignant glow of the lectern.
+    -DirectBroadcast: As you touch the Knath Core to the lectern it pulses malignantly. Suddenly, a discordant shriek echoes in you mind.
+    -Delay: 1, Tell: Thief! Impostor! Master has already removed the Book of Eibhil! Guards! Protect the master's library!
+    - CastSpell: 3915 - Black Madness
+    -Give: 87214
+    -Generate
+    -DirectBroadcast: The Knath Core begins to pulse with the same malignant glow of the lectern.

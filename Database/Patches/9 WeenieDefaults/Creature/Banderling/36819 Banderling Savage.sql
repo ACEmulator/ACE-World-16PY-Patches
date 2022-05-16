@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36819;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36819, 'ace36819-banderlingsavage', 10, '2022-01-20 04:53:49') /* Creature */;
+VALUES (36819, 'ace36819-banderlingsavage', 10, '2022-03-19 04:04:39') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36819,   1,         16) /* ItemType - Creature */
@@ -193,8 +193,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36819, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */
-     , (36819, 9, 24829,  0, 0, 0.03, False) /* Create Banderling Savage Arm (24829) for ContainTreasure */
+VALUES (36819, 9, 24829,  0, 0, 0.03, False) /* Create Banderling Savage Arm (24829) for ContainTreasure */
      , (36819, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (36819, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (36819, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

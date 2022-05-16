@@ -63,4 +63,3 @@ Use:
     - Delay: 1, Tell: If you bring me 25 Pristine Mana Shards, I will give you a new key to one of the various Mana Forge Chests. The key will work on any of the chests within the lower Mana Forge.
     - Delay: 1, Tell: You can find the Pristine Mana Shards in the Graveyard Rytheran reawakened, on the Dark Isle, on the Isle called Freebooter Isle, and in the Moarsman City T'thuun's followers raised from the sea.
     - Delay: 1, Tell: You can also find them in Neftet, the Frozen Valley, at the Gearknight camps in the Direlands, and from Hoshino's Fortress. Good luck and good hunting to you.
-

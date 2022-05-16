@@ -253,19 +253,19 @@ Refuse: Koji's Fiend (22017)
     - Tell: Oh, hehe, just a mask of Koji's demon. It looks like it's watching me...
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.001
-    - Say: Have you a drudge charm, swamp stone, rat tail, or such? I'll pay you good money or items if you give them to me. They're hard to come by.
+    - Extent: 20, Say: Have you a drudge charm, swamp stone, rat tail, or such? I'll pay you good money or items if you give them to me. They're hard to come by.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.002
-    - Say: Did you know there are other people who collect other items, like gromnie teeth?  You might find them in some towns.  I'll take them, but I won't pay you for them!
+    - Extent: 20, Say: Did you know there are other people who collect other items, like gromnie teeth?  You might find them in some towns.  I'll take them, but I won't pay you for them!
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.003
-    - Say: Very rarely, you can get a perfect red phyntos wasp wing.  If you can give one to me, I'll pay you for it.  I will also pay you for the tails of rats.
+    - Extent: 20, Say: Very rarely, you can get a perfect red phyntos wasp wing.  If you can give one to me, I'll pay you for it.  I will also pay you for the tails of rats.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.004
-    - Say: I'm particularly interested in the spine of the sandy armoredillo.  Get that to me and I'll give you a health potion.  I'll also pay the same for swamp stones and the scalps of banderlings.
+    - Extent: 20, Say: I'm particularly interested in the spine of the sandy armoredillo.  Get that to me and I'll give you a health potion.  I'll also pay the same for swamp stones and the scalps of banderlings.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.005
-    - Say: There are others who will reward differently for the same items I collect.  Not all types of monsters carry trophies, and of those variants that do, it's very rare.
+    - Extent: 20, Say: There are others who will reward differently for the same items I collect.  Not all types of monsters carry trophies, and of those variants that do, it's very rare.
 
 Give: White Rat Tail (3685)
     - TurnToTarget
@@ -639,7 +639,7 @@ Give: Telumiat Hollow Minion Essence (24842)
 
 Give: Essence of a Phantasm (24853)
     - TurnToTarget
-    - Tell: Where this comes from and how it gets left behind after the defeat of the phantasm remains a mystery. So too, the process for creating this potion. But deep in Xarabydun the potion can be created, and has been.	I'd be wary of using such a potion too often.
+    - Tell: Where this comes from and how it gets left behind after the defeat of the phantasm remains a mystery. So too, the process for creating this potion. But deep in Xarabydun the potion can be created, and has been.    I'd be wary of using such a potion too often.
     - Give: Potion of Destiny's Wind (25543)
 
 Give: Penguin Beak (28739)

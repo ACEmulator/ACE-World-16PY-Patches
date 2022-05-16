@@ -1,2 +1,2 @@
 ReceiveLocalSignal: generateshadows
-	- Generate
+    - Generate

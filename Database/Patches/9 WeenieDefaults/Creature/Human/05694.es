@@ -73,13 +73,13 @@ Refuse: Aquamarine Prisms (27767)
     - InqQuest: ReceivedToolOnyxCutting
         QuestSuccess:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
-            - Delay: 1, Tell: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
+            - Delay: 1, Tell: Message: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. . I did, at one point, possess an interesting cutting tool. Alas, I have already given it away. Come back to me in a few days and I might have found another one.
             - Delay: 1, Tell: But what you do if completely up to your decision.
         QuestFailure:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
-            - Delay: 1, Tell: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
+            - Delay: 1, Tell: Message: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. If you don't, I found an interesting cutting tool that you could use to break this cluster of prisms from each other.
             - Delay: 1, Tell: But what you do is completely up to your decision.

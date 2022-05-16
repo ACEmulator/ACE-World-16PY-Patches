@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70048;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70048, 'ace70048-tomydearuncle', 8, '2021-12-14 05:15:31') /* Book */;
+VALUES (70048, 'ace70048-tomydearuncle', 8, '2022-03-19 04:04:39') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70048,   1,       8192) /* ItemType - Writable */
@@ -25,7 +25,7 @@ VALUES (70048,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70048,   1, 'To My Dear Uncle') /* Name */
      , (70048,  16, 'A letter from Enrico di Bellenesse to the Duke of Bellenesse') /* LongDesc */
-     , (70048,  33, 'NoteDukeEnricoAcquired0905') /* Quest */;
+     , (70048,  33, 'enricouncle') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70048,   1, 0x02000155) /* Setup */

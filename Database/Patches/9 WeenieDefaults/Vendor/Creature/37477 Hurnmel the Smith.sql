@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37477;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37477, 'ace37477-hurnmelthesmith', 12, '2021-11-17 16:56:08') /* Vendor */;
+VALUES (37477, 'ace37477-hurnmelthesmith', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37477,   1,         16) /* ItemType - Creature */
@@ -24,7 +24,7 @@ VALUES (37477,   1, True ) /* Stuck */
      , (37477,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37477,  12,   0.232) /* Shade */
+VALUES (37477,  12,   0.491) /* Shade */
      , (37477,  37,     0.9) /* BuyPrice */
      , (37477,  38,       1) /* SellPrice */
      , (37477,  39,     1.2) /* DefaultScale */

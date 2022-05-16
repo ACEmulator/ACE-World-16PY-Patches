@@ -3,19 +3,19 @@ Refuse: Head of the Homunculus (27438)
     - Delay: 1, Tell: This looks like one of those Idol heads those crazy Vesayen mosswarts worship. Hmmm, it's a lot smaller though. You could see if Grearrk, the mosswart living outside Sawato, knows anything about this.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.001
-    - Say: Have you seen any strange black rocks or stones?  If you give me one, I will give you back a piece of it cut into the shape of a pretty gem., Extent: 20
+    - Extent: 20, Say: Have you seen any strange black rocks or stones?  If you give me one, I will give you back a piece of it cut into the shape of a pretty gem.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.002
-    - Say: I'm looking for various stones.  Not just any, but only from certain monsters.  I'll also take swamp stones or banderling scalps., Extent: 20
+    - Extent: 20, Say: I'm looking for various stones.  Not just any, but only from certain monsters.  I'll also take swamp stones or banderling scalps.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.003
-    - Say: I hear that obsidian comes from volcanoes, or from intense magical disruptions., Extent: 20
+    - Extent: 20, Say: I hear that obsidian comes from volcanoes, or from intense magical disruptions.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.004
-    - Say: The great Obsidian Plain in the Direlands is quite a sight, but I do not like the feel of the place.  I hear it was caused by some kind of powerful magic., Extent: 20
+    - Extent: 20, Say: The great Obsidian Plain in the Direlands is quite a sight, but I do not like the feel of the place.  I hear it was caused by some kind of powerful magic.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.005
-    - Say: I'll also give you money for some of the trophy jewels you may have, but people tell me my prices aren't very good., Extent: 20
+    - Extent: 20, Say: I'll also give you money for some of the trophy jewels you may have, but people tell me my prices aren't very good.
 
 Give: Red Jewel (3697)
     - TurnToTarget
@@ -189,4 +189,3 @@ Use:
     - Delay: 1, Motion: WaveLow
     - Delay: 1, Tell: I will take a number of trophy stones and jewels, such as virindi jewels, swamp stones, iron, copper, and granite golem hearts.
     - Delay: 1, Tell: I'll also take banderling trophies.  But what I really specialize in are the rare black rocks and black stones.
-

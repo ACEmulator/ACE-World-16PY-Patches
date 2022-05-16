@@ -35,4 +35,3 @@ GotoSet: NormalOperation
                     - Delay: 0.1, CastSpellInstant: 3920 - Tunnels to the Harbinger
         QuestFailure:
             - DirectBroadcast: You must complete a quest to interact with this portal.
-

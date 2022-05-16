@@ -1,17 +1,17 @@
 Refuse: Elemental Talisman (36200)
-	- TurnToTarget
-	- Tell: This device... looks like an item I saw that Sclavus giving the Blood Witch. Perhaps you should investigate Issk further.
+    - TurnToTarget
+    - Tell: This device... looks like an item I saw that Sclavus giving the Blood Witch. Perhaps you should investigate Issk further.
 
 Refuse: Corrupted Harbinger Blood (36184)
-	- TurnToTarget
-	- InqQuest: ProdigalHarby_Completed
-		QuestSuccess:
-			- Tell: How did you obtain this substance? Have you been sneaking around the Essence Chambers?
-			- EraseQuest: ProdigalHarby_Completed
-			- Goto: RandoTitle
-		QuestFailure:
-			- Tell: Begone!
-			- CastSpellInstant: 2046
+    - TurnToTarget
+    - InqQuest: ProdigalHarby_Completed
+        QuestSuccess:
+            - Tell: How did you obtain this substance? Have you been sneaking around the Essence Chambers?
+            - EraseQuest: ProdigalHarby_Completed
+            - Goto: RandoTitle
+        QuestFailure:
+            - Tell: Begone!
+            - CastSpellInstant: 2046
 
 Refuse: Broken Virindi Mask (8154)
     - TurnToTarget
@@ -46,19 +46,19 @@ Refuse: Virindi Consul Mask (25335)
     - Tell: Yes, it is repaired. Now use it.
 
 GotoSet: RandoTitle, Probability: 0.33
-	- Tell: Tell no one of what you found beneath the Essence Chambers or you shall suffer far worse than this "Vile Betrayer"!
-	- AddCharacterTitle: VileBetrayer
-	- CastSpellInstant: 2046
+    - Tell: Tell no one of what you found beneath the Essence Chambers or you shall suffer far worse than this "Vile Betrayer"!
+    - AddCharacterTitle: VileBetrayer
+    - CastSpellInstant: 2046
 
 GotoSet: RandoTitle, Probability: 0.66
-	- Tell: Has the Blood Witch sent you to disrupt our experiments? Begone "Spy"!
-	- AddCharacterTitle: Spy
-	- CastSpellInstant: 2046
+    - Tell: Has the Blood Witch sent you to disrupt our experiments? Begone "Spy"!
+    - AddCharacterTitle: Spy
+    - CastSpellInstant: 2046
 
 GotoSet: RandoTitle, Probability: 1
-	- Tell: Has the Blood Witch sent you to disrupt our experiments? Begone "Meddler"!
-	- AddCharacterTitle: Meddler
-	- CastSpellInstant: 2046
+    - Tell: Has the Blood Witch sent you to disrupt our experiments? Begone "Meddler"!
+    - AddCharacterTitle: Meddler
+    - CastSpellInstant: 2046
 
 Give: Cabalist Drudge Charm (24836)
     - InqQuest: HarbingerCompletedWaitVincadi@01
@@ -2267,4 +2267,3 @@ Use:
                                                     - Delay: 3, Tell: Accept this small treatise and read the words of Aerbax to comprehend the stipulation of our proposal.
                                                     - Delay: 0.5, Give: Experimentation (24870)
                                                     - Delay: 3, Tell: Your assistance will not be forgotten.
-	

@@ -12,7 +12,7 @@ Use:
                                     - DirectBroadcast: A plaque on this statue reads "Go! Go! Kill 10 Zefir! I reward you for this! Find me in the center! Near tree! Swift.
                                 QuestFailure:
                                     - DirectBroadcast: According to the plaque, once you've killed 10 Zefir in the Viridian Rise Swift will reward you.
-									- DirectBroadcast: You've killed %tqc out of %tqm Zefir.
+                                    - DirectBroadcast: You've killed %tqc out of %tqm Zefir.
                         QuestFailure:
                             - DirectBroadcast: A plaque on this statue reads "Go! Go! Kill 10 Zefir! I reward you for this! Find me in the center! Near tree! Swift.
                             - SetQuestCompletions: KilltaskViridianZefir, 0

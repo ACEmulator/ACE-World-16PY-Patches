@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33633;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33633, 'ace33633-depravedshadowcommander', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (33633, 'ace33633-depravedshadowcommander', 10, '2022-03-27 01:45:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33633,   1,         16) /* ItemType - Creature */
@@ -52,7 +52,7 @@ VALUES (33633,   1,       5) /* HeartbeatInterval */
      , (33633,  34,     1.2) /* PowerupTime */
      , (33633,  36,       1) /* ChargeSpeed */
      , (33633,  39,     1.3) /* DefaultScale */
-     , (33633,  41,       0) /* RegenerationInterval */
+     , (33633,  41,      60) /* RegenerationInterval */
      , (33633,  43,       4) /* GeneratorRadius */
      , (33633,  64,       1) /* ResistSlash */
      , (33633,  65,     0.5) /* ResistPierce */
@@ -148,4 +148,4 @@ VALUES (33633, 9, 44470,  1, 0, 0, False) /* Create Corrupted Essence (44470) fo
      , (33633, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33633, -1, 40295, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Depraved Shadow (40295) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (33633, -1, 40295, 3600, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Depraved Shadow (40295) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

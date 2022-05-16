@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35324;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35324, 'ace35324-arenafourstatue', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (35324, 'ace35324-arenafourstatue', 10, '2022-03-06 02:38:19') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35324,   1,         16) /* ItemType - Creature */
@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35324,   1,       1) /* HeartbeatInterval */
      , (35324,   2,       0) /* HeartbeatTimestamp */
      , (35324,  39,     0.6) /* DefaultScale */
-     , (35324,  41,       0) /* RegenerationInterval */
+     , (35324,  41,       5) /* RegenerationInterval */
      , (35324,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

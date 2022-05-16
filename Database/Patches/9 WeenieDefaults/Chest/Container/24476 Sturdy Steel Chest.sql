@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24476;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24476, 'chestgeneralextremelocked', 20, '2021-11-01 00:00:00') /* Chest */;
+VALUES (24476, 'chestgeneralextremelocked', 20, '2022-02-10 05:08:07') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24476,   1,        512) /* ItemType - Container */
@@ -13,8 +13,8 @@ VALUES (24476,   1,        512) /* ItemType - Container */
      , (24476,  16,         48) /* ItemUseable - ViewedRemote */
      , (24476,  19,       2500) /* Value */
      , (24476,  38,       7500) /* ResistLockpick */
-     , (24476,  81,          4) /* MaxGeneratedObjects */
-     , (24476,  82,          4) /* InitGeneratedObjects */
+     , (24476,  81,          3) /* MaxGeneratedObjects */
+     , (24476,  82,          3) /* InitGeneratedObjects */
      , (24476,  83,          2) /* ActivationResponse - Use */
      , (24476,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (24476,  96,        500) /* EncumbranceCapacity */
@@ -50,7 +50,6 @@ VALUES (24476,   1, 0x02000F7A) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
-     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (24476, 0.15, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (24476, 0.159, 32974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Princely Runed Dart Flinger (32974) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.168, 32975, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Princely Runed Dolabra (32975) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
@@ -74,4 +73,4 @@ VALUES (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gen
      , (24476, 0.33, 33211, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Royal Runed Bastone (33211) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.339, 33212, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Royal Runed Flamberge (33212) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.348, 33213, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Royal Runed Knuckles (33213) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (24476, 1, 0, 0, 1, 2, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate  (0) (x1 up to max of 2) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (24476, 1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

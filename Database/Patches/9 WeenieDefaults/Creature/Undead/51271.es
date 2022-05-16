@@ -10,7 +10,7 @@ Use:
                     - InqQuest: GearknightInvasionPhalanxKilltask_0513@KillTaskCompleted
                         QuestSuccess:
                             - Tell: Satisfactory. Take these rewards as compensation for your efforts.
-                    	    - Give: Eldrytch Web Commendation Ribbons (38229), 10
+                            - Give: Eldrytch Web Commendation Ribbons (38229), 10
                             - AwardNoShareXP: 10,000,000
                             - AwardLuminance: 1,000
                             - Give: Eldrytch Web Trade Tokens (38237), 4

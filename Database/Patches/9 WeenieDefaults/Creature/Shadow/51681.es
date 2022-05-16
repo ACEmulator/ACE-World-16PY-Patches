@@ -35,4 +35,3 @@ Use:
                                     - SetQuestCompletions: FearFactoryReleased_0813, 0
         TestFailure:
             - Tell: I fear if you were to help me now, you would only end up a captive like those I am trying to free. Come back when you are more experienced.
-

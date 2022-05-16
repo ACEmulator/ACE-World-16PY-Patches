@@ -12,4 +12,3 @@ Use:
 
 GotoSet: Portal
     - TeleportTarget: 0x5966014F [20 -40 0.01] 1 0 0 0
-

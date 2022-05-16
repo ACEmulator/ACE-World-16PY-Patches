@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6856;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6856, 'ayanbaqurbarkeeper', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (6856, 'ayanbaqurbarkeeper', 12, '2022-04-12 04:33:53') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6856,   1,         16) /* ItemType - Creature */
@@ -79,7 +79,7 @@ VALUES (6856,   1, 0x02000001) /* Setup */
      , (6856,   4, 0x30000000) /* CombatTable */
      , (6856,   6, 0x0400007E) /* PaletteBase */
      , (6856,   7, 0x10000059) /* ClothingBase */
-     , (6856,   8, 0x06001036) /* Icon */;
+     , (6856,   8, 0x06000FF1) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6856,   1, 150, 0, 0) /* Strength */

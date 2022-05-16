@@ -26,12 +26,11 @@ Use:
 
 Give: 38082
 -TurnToTarget
-	-AwardLevelProportionalXP: 30%, Max: 297,235,856
-	-Tell: Amazing! You actually convinced Rytheran to part with his precious memory of the Book of Eibhil? I do not know what you had to do to accomplish it, and perhaps that is for the best. You have my thanks, and the thanks of the realm of Dereth for the good you have done here. These memories will be invaluable in helping us solve the mess that Rytheran and that book created.
-	-StampQuest: turnedinrytheransmnemosynezho
-	-EraseQuest: ringofremembranceturnedin
+    -AwardLevelProportionalXP: 30%, Max: 297,235,856
+    -Tell: Amazing! You actually convinced Rytheran to part with his precious memory of the Book of Eibhil? I do not know what you had to do to accomplish it, and perhaps that is for the best. You have my thanks, and the thanks of the realm of Dereth for the good you have done here. These memories will be invaluable in helping us solve the mess that Rytheran and that book created.
+    -StampQuest: turnedinrytheransmnemosynezho
+    -EraseQuest: ringofremembranceturnedin
 Give: 38083
 -TurnToTarget
-	-Tell: This mask is... breathtaking. It once belonged to Lord Rytheran himself? Truly a precious artifact. If you do not want it, I can grant you some practical experience for it.
-	-AwardLevelProportionalXP: 5%, Max: 49,539,309
-
+    -Tell: This mask is... breathtaking. It once belonged to Lord Rytheran himself? Truly a precious artifact. If you do not want it, I can grant you some practical experience for it.
+    -AwardLevelProportionalXP: 5%, Max: 49,539,309

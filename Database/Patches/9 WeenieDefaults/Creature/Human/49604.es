@@ -432,33 +432,18 @@ Give: Northern Forge Essence (30476)
     - Tell: Forge Essence! We can surely use as much of this as you can lay your hands on.
     - Give: Writ of Refuge (11710)
     - AwardLevelProportionalXP: 175%, 10,000 - 8,000,000
-    - StampQuest: CraftingForgeCompleted0710
-    - InqQuestBitsOn: 50to11BrokerContractsB@Low, 0x20
-        QuestFailure:
-            - SetQuestBitsOn: 50to11BrokerContractsB, 0x20
-            - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Southern Forge Essence (30474)
     - TurnToTarget
     - Tell: Forge Essence! We can surely use as much of this as you can lay your hands on.
     - Give: Writ of Refuge (11710)
     - AwardLevelProportionalXP: 150%, 10,000 - 45,000,000
-    - StampQuest: CraftingForgeCompleted0710
-    - InqQuestBitsOn: 50to11BrokerContractsB@Mid, 0x40
-        QuestFailure:
-            - SetQuestBitsOn: 50to11BrokerContractsB, 0x40
-            - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Western Forge Essence (30475)
     - TurnToTarget
     - Tell: Forge Essence! We can surely use as much of this as you can lay your hands on.
     - Give: Writ of Refuge (11710)
     - AwardLevelProportionalXP: 100%, 10,000 - 70,000,000
-    - StampQuest: CraftingForgeCompleted0710
-    - InqQuestBitsOn: 50to11BrokerContractsB@High, 0x80
-        QuestFailure:
-            - SetQuestBitsOn: 50to11BrokerContractsB, 0x80
-            - StampQuest: ContractQuestcounter_0511
 
 Give: Agent of Arcanum List (30675)
     - TurnToTarget
@@ -829,6 +814,36 @@ Give: Shadow Gem (42108)
     - Tell: Ahhh a most intriquing item. I will have to study this and see what powers it may hold.
     - AwardNoShareXP: 30,000,000
 
+Give: Gauntlet Gem of Luminance (52750)
+    - TurnToTarget
+    - Tell: Luminance is always a wonderful thing.
+    - AwardLuminance: 15,000
+
+Give: Gauntlet Gem of Knowledge (52748)
+    - TurnToTarget
+    - Tell: Knowledge earned is a great gift. Use it wisely.
+    - AwardNoShareXP: 50,000,000
+    
+Give: Gauntlet Gem of Vast Knowledge (52749)
+    - TurnToTarget
+    - Tell: Knowledge earned is a great gift. Use it wisely.
+    - AwardNoShareXP: 100,000,000
+
+Give: Celestial Hand Gauntlet Writ (53408)
+    - TurnToTarget
+    - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
+    - Give: 38544
+
+Give: Eldrytch Web Gauntlet Writ (53409)
+    - TurnToTarget
+    - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
+    - Give: 38545
+
+Give: Radiant Blood Gauntlet Writ (53410)
+    - TurnToTarget
+    - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
+    - Give: 38546
+    
 Use:
     - Motion: Ready
     - TurnToTarget

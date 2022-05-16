@@ -1,2 +1,2 @@
 Death: 
-	- LocalSignal: UndeadDead
+    - LocalSignal: UndeadDead

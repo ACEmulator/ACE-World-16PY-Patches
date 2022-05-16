@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52786;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52786, 'ace52786-greensocietyband', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (52786, 'ace52786-greensocietyband', 1, '2022-03-31 06:02:40') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52786,   1,          8) /* ItemType - Jewelry */
+     , (52786,   3,         39) /* PaletteTemplate - Black */
      , (52786,   5,         50) /* EncumbranceVal */
      , (52786,   9,     786432) /* ValidLocations - FingerWear */
      , (52786,  16,          1) /* ItemUseable - No */
@@ -32,10 +33,12 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52786,  22, True ) /* Inscribable */
      , (52786,  23, True ) /* DestroyOnSell */
      , (52786,  69, False) /* IsSellable */
+     , (52786,  84, True ) /* IgnoreCloIcons */
      , (52786,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52786,   5,  -0.033) /* ManaRate */
+     , (52786,  12,     0.5) /* Shade */
      , (52786,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -46,6 +49,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52786,   1, 0x02000103) /* Setup */
      , (52786,   3, 0x20000014) /* SoundTable */
      , (52786,   6, 0x04000BEF) /* PaletteBase */
+     , (52786,   7, 0x10000129) /* ClothingBase */
      , (52786,   8, 0x06007541) /* Icon */
      , (52786,  22, 0x3400002B) /* PhysicsEffectTable */;
 

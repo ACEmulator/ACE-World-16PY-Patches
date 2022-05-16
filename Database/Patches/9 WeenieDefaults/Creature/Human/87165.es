@@ -1,4 +1,3 @@
-
 ReceiveLocalSignal: MFCritterKilled
     - StampMyQuest: MFCritterKilled
     - Goto: CheckForSevenKills

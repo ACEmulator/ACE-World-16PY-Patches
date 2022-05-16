@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36599;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36599, 'ace36599-paradoxsimulacrumwarmage', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36599, 'ace36599-paradoxsimulacrumwarmage', 10, '2022-05-10 03:49:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36599,   1,         16) /* ItemType - Creature */
@@ -92,30 +92,31 @@ VALUES (36599,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
      , (36599,  7, 0, 3, 0, 320, 0, 0) /* MissileDefense      Specialized */
      , (36599, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
      , (36599, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
-     , (36599, 31, 0, 3, 0, 335, 0, 0) /* CreatureEnchantment Specialized */
-     , (36599, 33, 0, 3, 0, 345, 0, 0) /* LifeMagic           Specialized */
-     , (36599, 34, 0, 3, 0, 345, 0, 0) /* WarMagic            Specialized */
+     , (36599, 31, 0, 3, 0, 231, 0, 0) /* CreatureEnchantment Specialized */
+     , (36599, 32, 0, 3, 0, 231, 0, 0) /* ItemEnchantment     Specialized */
+     , (36599, 33, 0, 3, 0, 231, 0, 0) /* LifeMagic           Specialized */
+     , (36599, 34, 0, 3, 0, 231, 0, 0) /* WarMagic            Specialized */
      , (36599, 45, 0, 3, 0, 280, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (36599,  0,  4,  0,    0,  420,  420,  420,  420,  420,  420,  420,  420,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (36599,  1,  4,  0,    0,  410,  410,  410,  410,  410,  410,  410,  410,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (36599,  2,  4,  0,    0,  410,  410,  410,  410,  410,  410,  410,  410,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (36599,  3,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (36599,  4,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (36599,  5,  4,  2, 0.75,  400,  400,  400,  400,  400,  400,  400,  400,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (36599,  6,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (36599,  7,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (36599,  8,  4,  2, 0.75,  400,  400,  400,  400,  400,  400,  400,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (36599,  0,  4,  0,    0,  420,  210,  210,  210,  210,  210,  210,  210,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (36599,  1,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (36599,  2,  4,  0,    0,  410,  205,  205,  205,  205,  205,  205,  205,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (36599,  3,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (36599,  4,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (36599,  5,  4,  2, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (36599,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (36599,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (36599,  8,  4,  2, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36599,  2097,   2.89)  /* Pacification */
-     , (36599,  2109,   2.88)  /* Lugian's Speed */
-     , (36599,  2131,      3)  /* Stinging Needles */
-     , (36599,  2139,   2.91)  /* Luminous Wrath */
-     , (36599,  2166,   2.98)  /* Tusker's Gift */
-     , (36599,  2320,   2.97)  /* Wrath of the Hieromancer */
-     , (36599,  2738,   2.98)  /* Lightning Arc VII */;
+VALUES (36599,  2097,    2.1)  /* Pacification */
+     , (36599,  2109,   2.11)  /* Lugian's Speed */
+     , (36599,  2131,   2.19)  /* Stinging Needles */
+     , (36599,  2139,   2.38)  /* Luminous Wrath */
+     , (36599,  2166,   2.25)  /* Tusker's Gift */
+     , (36599,  2320,   2.33)  /* Wrath of the Hieromancer */
+     , (36599,  2738,      3)  /* Lightning Arc VII */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36599, 14 /* Taunt */,   0.18, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

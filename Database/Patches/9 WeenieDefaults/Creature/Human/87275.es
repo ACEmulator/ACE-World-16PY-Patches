@@ -1,3 +1,3 @@
 NewEnemy:
-	- CastSpellInstant: 4228
-	- LocalSignal: EventCleanup
+    - CastSpellInstant: 4228
+    - LocalSignal: EventCleanup

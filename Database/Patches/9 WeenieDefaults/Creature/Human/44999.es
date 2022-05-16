@@ -135,5 +135,3 @@ GotoSet: RewardCloak
             - Tell: If you're interested in helping me in, say, a day from now, we'll see if you can assist me in my investigation further.
             - EraseQuest: RoyalCloakBooksComplete
             - StampQuest: RoyalCloakComplete
-            
-            
