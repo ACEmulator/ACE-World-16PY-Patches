@@ -124,4 +124,4 @@ VALUES (42983, 2, 42989,  1, 0, 0, False) /* Create Aleesa's Longbow (42989) for
      , (42983, 9, 42988,  1, 0, 0, False) /* Create Aleesa's Longbow (42988) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42983, -1, 88412, 30, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate New Aluvian Champion (43005) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (42983, -1, 88412, 30, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aleesa Guards Camp Generator (88412) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
