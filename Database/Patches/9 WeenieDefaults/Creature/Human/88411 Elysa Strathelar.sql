@@ -35,8 +35,7 @@ VALUES (88411,   1, 0x0200004E) /* Setup */
      , (88411,   2, 0x09000001) /* MotionTable */
      , (88411,   3, 0x20000002) /* SoundTable */
      , (88411,   7, 0x10000712) /* ClothingBase */
-     , (88411,   8, 0x06001036) /* Icon */
-     , (88411,  22, 0x34000004) /* PhysicsEffectTable */;
+     , (88411,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (88411,   1,  5000, 0, 0, 0) /* MaxHealth */
