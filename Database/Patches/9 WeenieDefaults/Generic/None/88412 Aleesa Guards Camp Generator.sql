@@ -6,7 +6,9 @@ VALUES (88412, 'ace88412-aleesaguardscampgenerator', 1, '2005-02-09 10:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88412,  81,          6) /* MaxGeneratedObjects */
      , (88412,  82,          6) /* InitGeneratedObjects */
-     , (88412,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (88412,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (88412, 100,          1) /* GeneratorType - Relative */
+     , (88412, 103,          3) /* GeneratorDestructionType - Kill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88412,   1, True ) /* Stuck */
