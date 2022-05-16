@@ -28,7 +28,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (88411,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (88411,   1, 'Elysa Strathelar') /* Name */;
+VALUES (88411,   1, 'Elysa Strathelar') /* Name */
+     , (88411,   5, 'Queen of New Aluvia') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (88411,   1, 0x0200004E) /* Setup */
