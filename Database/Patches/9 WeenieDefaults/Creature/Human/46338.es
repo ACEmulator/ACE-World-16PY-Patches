@@ -38,3 +38,4 @@ Give: 72806
     - InqQuestBitsOn: LegendaryQuestsB, 0x10
         QuestFailure:
             - SetQuestBitsOn: LegendaryQuestsB, 0x10
+            - StampQuest: LegendaryQuestCounter_0913

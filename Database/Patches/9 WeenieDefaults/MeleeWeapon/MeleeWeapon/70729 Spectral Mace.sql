@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70729;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70729, 'ace70729-spectralmace', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (70729, 'ace70729-spectralmace', 6, '2022-05-17 03:47:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70729,   1,          1) /* ItemType - MeleeWeapon */
@@ -46,7 +46,7 @@ VALUES (70729,   5,   -0.05) /* ManaRate */
      , (70729,  63,       1) /* DamageMod */
      , (70729,  76,     0.7) /* Translucency */
      , (70729, 136,       2) /* CriticalMultiplier */
-     , (70729, 138,       2) /* SlayerDamageBonus */
+     , (70729, 138,     1.5) /* SlayerDamageBonus */
      , (70729, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
