@@ -26,7 +26,7 @@ Give: Moarsman Blight-caller's Severed Head (88071)
 	- AddCharacterTitle: BaneoftheBlight
 	- DirectBroadcast: Narthran Two-Blades awards you the title, "Bane of the Blight".
 	
-Give: Tchk'Tain the Tender's Severed Head (88074)
+Give: Tchk'Tain the Tender's Severed Head (39467)
 	- TurnToTarget
 	- Tell: Hmmm... This seems to be the head of that annoying little Sclavus, Tchk'Tain the Tender. We've been looking for him. Here, allow me to reward you.
 	- AwardXP: 95,000,000

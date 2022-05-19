@@ -26,7 +26,7 @@ Give: Moarsman Blight-caller's Severed Head (88071)
 	- AddCharacterTitle: BaneoftheBlight
 	- DirectBroadcast: Marek al-Evv awards you the title, "Bane of the Blight".
 	
-Give: Tchk'Tain the Tender's Severed Head (88074)
+Give: Tchk'Tain the Tender's Severed Head (39467)
 	- TurnToTarget
 	- Tell: Ahh, the head of the infamous Tchk'Tain the Tender. The Mistress will be gladdened to hear of his demise. Please, accept this for your service.
 	- AwardXP: 95,000,000

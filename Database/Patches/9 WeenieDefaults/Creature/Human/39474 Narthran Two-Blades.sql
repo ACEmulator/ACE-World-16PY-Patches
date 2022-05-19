@@ -131,7 +131,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  5,  18 /* DirectBroadcast */, 0, 1, NULL, 'Narthran Two-Blades awards you the title, "Bane of the Blight".', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (39474,  6 /* Give */,      1, 88074 /* Tchk'Tain the Tender's Severed Head */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (39474,  6 /* Give */,      1, 39467 /* Tchk'Tain the Tender's Severed Head */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

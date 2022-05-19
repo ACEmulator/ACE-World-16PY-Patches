@@ -30,7 +30,7 @@ Give: Moarsman Blight-caller's Severed Head (88071)
 	- AddCharacterTitle: BaneoftheBlight
 	- DirectBroadcast: Hiro Sawatogo awards you the title, "Bane of the Blight".
 	
-Give: Tchk'Tain the Tender's Severed Head (88074)
+Give: Tchk'Tain the Tender's Severed Head (39467)
 	- TurnToTarget
 	- Tell: I see you have brought me an honorable trophy from conflict. Let me see...
 	- Delay: 1, DirectBroadcast: Hiro Sawatogo peers into the dead eyes of the severed head.
