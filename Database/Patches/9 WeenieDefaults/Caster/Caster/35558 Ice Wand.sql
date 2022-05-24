@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35558;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35558, 'ace35558-icewand', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (35558, 'ace35558-icewand', 35, '2022-05-23 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35558,   1,      32768) /* ItemType - Caster */
@@ -24,11 +24,7 @@ VALUES (35558,   1,      32768) /* ItemType - Caster */
      , (35558, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35558,  11, True ) /* IgnoreCollisions */
-     , (35558,  13, True ) /* Ethereal */
-     , (35558,  14, True ) /* GravityStatus */
-     , (35558,  19, True ) /* Attackable */
-     , (35558,  22, True ) /* Inscribable */
+VALUES (35558,  22, True ) /* Inscribable */
      , (35558,  69, False) /* IsSellable */
      , (35558,  99, False) /* Ivoryable */;
 
@@ -36,7 +32,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35558,   5,  -0.033) /* ManaRate */
      , (35558,  29,       1) /* WeaponDefense */
      , (35558,  39,     0.8) /* DefaultScale */
-     , (35558, 136,       1) /* CriticalMultiplier */
+     , (35558, 136,     1.8) /* CriticalMultiplier */
      , (35558, 144,    0.34) /* ManaConversionMod */
      , (35558, 147,    0.25) /* CriticalFrequency */
      , (35558, 150,    1.05) /* WeaponMagicDefense */
