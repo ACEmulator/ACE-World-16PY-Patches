@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30377;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30377, 'wandrarewingsrakhil', 35, '2021-11-17 16:56:08') /* Caster */;
+VALUES (30377, 'wandrarewingsrakhil', 35, '2022-05-23 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30377,   1,      32768) /* ItemType - Caster */
@@ -36,17 +36,14 @@ VALUES (30377,   4,          0) /* ItemTotalXp */
      , (30377,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30377,  11, True ) /* IgnoreCollisions */
-     , (30377,  13, True ) /* Ethereal */
-     , (30377,  14, True ) /* GravityStatus */
-     , (30377,  22, True ) /* Inscribable */;
+VALUES (30377,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30377,   5,  -0.033) /* ManaRate */
      , (30377,  12,    0.66) /* Shade */
      , (30377,  29,    1.18) /* WeaponDefense */
      , (30377,  39,     1.2) /* DefaultScale */
-     , (30377, 136,       1) /* CriticalMultiplier */
+     , (30377, 136,       2) /* CriticalMultiplier */
      , (30377, 144,    0.18) /* ManaConversionMod */
      , (30377, 152,    1.22) /* ElementalDamageMod */;
 
