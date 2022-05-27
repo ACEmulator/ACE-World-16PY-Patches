@@ -4,7 +4,7 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (7997, 0, 0, 0, 0, 0, 0, 'You''ve added the setting to the Silifi of Crimson Stars.', 0, 0, 'This should never happen.', 1, 1, '', 0, 0, '', 1, 1, '', 0, 0, '', 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_float` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (7997, 0, 157, 1, 3, 'The Silifi only accepts one Ruby of Crimson Night!') /* Target.ItemWorkmanship GreaterThanEqual 1 */
+VALUES (7997, 0, 157, 1, 3, 'The Silifi only accepts one Ruby of Crimson Night!'); /* Target.ItemWorkmanship GreaterThanEqual 1 */
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (7997, True, 0, 0, 0, False, 0, 1, 0);
