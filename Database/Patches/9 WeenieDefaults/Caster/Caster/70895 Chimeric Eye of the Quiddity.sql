@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70895;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70895, 'ace70895-chimericeyeofthequiddity', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (70895, 'ace70895-chimericeyeofthequiddity', 35, '2022-05-23 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70895,   1,      32768) /* ItemType - Caster */
@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70895,   5,   -0.05) /* ManaRate */
      , (70895,  29,     1.2) /* WeaponDefense */
      , (70895,  39,     0.8) /* DefaultScale */
-     , (70895, 136,       1) /* CriticalMultiplier */
+     , (70895, 136,     1.7) /* CriticalMultiplier */
      , (70895, 144,    0.15) /* ManaConversionMod */
      , (70895, 147,     0.3) /* CriticalFrequency */
      , (70895, 152,     1.2) /* ElementalDamageMod */

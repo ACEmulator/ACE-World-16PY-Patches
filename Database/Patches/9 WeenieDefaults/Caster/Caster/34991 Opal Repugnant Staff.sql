@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34991;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34991, 'ace34991-opalrepugnantstaff', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (34991, 'ace34991-opalrepugnantstaff', 35, '2022-05-23 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34991,   1,      32768) /* ItemType - Caster */
@@ -29,7 +29,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34991,   5,   -0.05) /* ManaRate */
      , (34991,  29,    1.17) /* WeaponDefense */
      , (34991,  39,    0.25) /* DefaultScale */
-     , (34991, 136,       1) /* CriticalMultiplier */
+     , (34991, 136,       2) /* CriticalMultiplier */
      , (34991, 144,     0.2) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
