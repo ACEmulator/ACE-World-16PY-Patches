@@ -1,34 +1,34 @@
-DELETE FROM `weenie` WHERE `class_Id` = 87930;
+DELETE FROM `weenie` WHERE `class_Id` = 87866;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87930, 'ace87930-chgauntletarena1inusegenerator', 1, '2022-03-31 06:02:40') /* Generic */;
+VALUES (87866, 'ace87866-rbgauntleta1stopgapgenerator', 1, '2022-03-31 06:02:40') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (87930,  81,          1) /* MaxGeneratedObjects */
-     , (87930,  82,          0) /* InitGeneratedObjects */
-     , (87930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87930, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (87930, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (87930, 290,          1) /* HearLocalSignals */
-     , (87930, 291,         20) /* HearLocalSignalsRadius */;
+VALUES (87866,  81,          1) /* MaxGeneratedObjects */
+     , (87866,  82,          0) /* InitGeneratedObjects */
+     , (87866,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (87866, 103,          2) /* GeneratorDestructionType - Destroy */
+     , (87866, 145,          2) /* GeneratorEndDestructionType - Destroy */
+     , (87866, 290,          1) /* HearLocalSignals */
+     , (87866, 291,         20) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (87930,   1, True ) /* Stuck */
-     , (87930,  11, True ) /* IgnoreCollisions */
-     , (87930,  18, True ) /* Visibility */;
+VALUES (87866,   1, True ) /* Stuck */
+     , (87866,  11, True ) /* IgnoreCollisions */
+     , (87866,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87930,  41,       0) /* RegenerationInterval */;
+VALUES (87866,  41,       0) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87930,   1, 'CH Gauntlet A1 Stopgap Generator') /* Name */;
+VALUES (87866,   1, 'RB Gauntlet A1 Stopgap Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87930,   1, 0x0200026B) /* Setup */
-     , (87930,   8, 0x06001066) /* Icon */;
+VALUES (87866,   1, 0x0200026B) /* Setup */
+     , (87866,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (87930, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'ActivateCHArenaOne', NULL, NULL, NULL);
+VALUES (87866, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'ActivateRBArenaOne', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -36,4 +36,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87930, -1, 52859, 0, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gauntlet Arena One Statue (52859) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (87866, -1, 53136, 0, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gauntlet Arena One Statue (53136) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
