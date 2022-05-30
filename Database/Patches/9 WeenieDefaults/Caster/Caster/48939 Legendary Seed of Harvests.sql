@@ -5,6 +5,7 @@ VALUES (48939, 'ace48939-legendaryseedofharvests', 35, '2022-05-17 03:47:03') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48939,   1,      32768) /* ItemType - Caster */
+     , (48939,   3,         14) /* PaletteTemplate - Red */
      , (48939,   5,         50) /* EncumbranceVal */
      , (48939,   9,   16777216) /* ValidLocations - Held */
      , (48939,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
@@ -46,6 +47,8 @@ VALUES (48939,   1, 'Legendary Seed of Harvests') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48939,   1, 0x02001BA5) /* Setup */
      , (48939,   3, 0x20000014) /* SoundTable */
+     , (48939,   6, 0x04000BEF) /* PaletteBase */
+     , (48939,   7, 0x1000083F) /* ClothingBase */
      , (48939,   8, 0x060073EF) /* Icon */
      , (48939,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48939,  28,       2128) /* Spell - Ilservian's Flame */;
