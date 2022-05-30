@@ -42,9 +42,7 @@ VALUES (22957,   5,   -0.05) /* ManaRate */
      , (22957,  22,     0.5) /* DamageVariance */
      , (22957,  29,    1.12) /* WeaponDefense */
      , (22957,  39,    1.25) /* DefaultScale */
-     , (22957,  62,    1.12) /* WeaponOffense */
-     , (22957, 136,       3) /* CriticalMultiplier */
-     , (22957, 147,     0.2) /* CriticalFrequency */;
+     , (22957,  62,    1.12) /* WeaponOffense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22957,   1, 'Silifi of Crimson Stars') /* Name */
