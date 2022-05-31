@@ -23,6 +23,11 @@ Use:
 GotoSet: Reset
 	- EraseQuest: ColoredPortal
 	- EraseQuest: ColoredPortalLeverPull
+	- EraseQuest: ColoredPortal1Red
+	- EraseQuest: ColoredPortal2Red
+	- EraseQuest: ColoredPortal3Red
+	- EraseQuest: ColoredPortal4Red
+	- EraseQuest: ColoredPortal5Red
 	- EraseQuest: ColoredPortal1Blue
 	- EraseQuest: ColoredPortal2Blue
 	- EraseQuest: ColoredPortal3Blue
