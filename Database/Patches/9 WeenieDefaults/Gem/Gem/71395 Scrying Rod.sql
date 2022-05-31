@@ -17,7 +17,7 @@ VALUES (71395,   1,       2048) /* ItemType - Gem */
      , (71395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71395,  94,         16) /* TargetType - Creature */
      , (71395, 114,          1) /* Attuned - Attuned */
-     , (71395, 267,       5400) /* Lifespan */
+     , (71395, 267,       7200) /* Lifespan */
      , (71395, 280,        500) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
