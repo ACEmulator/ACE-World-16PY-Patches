@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6930;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6930, 'bowcompositedmg2def1spd3atk3', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (6930, 'bowcompositedmg2def1spd3atk3', 3, '2022-06-03 16:20:03') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6930,   1,        256) /* ItemType - MissileWeapon */
      , (6930,   3,         40) /* PaletteTemplate - Bronze */
-     , (6930,   5,        980) /* EncumbranceVal */
+     , (6930,   5,       1520) /* EncumbranceVal */
      , (6930,   8,        140) /* Mass */
      , (6930,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (6930,  16,          1) /* ItemUseable - No */
@@ -23,14 +23,16 @@ VALUES (6930,   1,        256) /* ItemType - MissileWeapon */
      , (6930,  53,          3) /* PlacementPosition - LeftHand */
      , (6930,  60,        192) /* WeaponRange */
      , (6930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6930, 106,        200) /* ItemSpellcraft */
-     , (6930, 107,          0) /* ItemCurMana */
+     , (6930, 106,        250) /* ItemSpellcraft */
+     , (6930, 107,        500) /* ItemCurMana */
      , (6930, 108,        500) /* ItemMaxMana */
      , (6930, 109,        170) /* ItemDifficulty */
      , (6930, 114,          1) /* Attuned - Attuned */
-     , (6930, 115,        240) /* ItemSkillLevelLimit */
      , (6930, 150,        103) /* HookPlacement - Hook */
      , (6930, 151,          2) /* HookType - Wall */
+     , (6930, 158,          2) /* WieldRequirements - RawSkill */
+     , (6930, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (6930, 160,        240) /* WieldDifficulty */
      , (6930, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,10 +44,12 @@ VALUES (6930,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6930,   5,   -0.05) /* ManaRate */
      , (6930,  26,    27.3) /* MaximumVelocity */
-     , (6930,  29,    1.02) /* WeaponDefense */
+     , (6930,  29,    1.08) /* WeaponDefense */
      , (6930,  39,     1.1) /* DefaultScale */
      , (6930,  62,    1.06) /* WeaponOffense */
-     , (6930,  63,     1.9) /* DamageMod */;
+     , (6930,  63,    2.15) /* DamageMod */
+     , (6930, 155,     1.0) /* IgnoreArmor */
+     , (6930, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6930,   1, 'Composite Bow with Handle') /* Name */;
@@ -57,8 +61,11 @@ VALUES (6930,   1, 0x02000878) /* Setup */
      , (6930,   7, 0x10000222) /* ClothingBase */
      , (6930,   8, 0x06001CCD) /* Icon */
      , (6930,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6930,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6930,  55,       1492) /* ProcSpell - Brittlemail VI */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6930,   465,      2)  /* Missile Weapon Mastery Other V */
-     , (6930,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (6930,  1605,      2)  /* Aura of Defender Self VI */
+     , (6930,  2058,      2)  /* Boon of Refinement */
+     , (6930,  2096,      2)  /* Aura of Infected Caress */
+     , (6930,  1627,      2)  /* Aura of Swift Killer Self VI */
+     , (6930,  2206,      2)  /* Missile Weapon Mastery Other VII */;

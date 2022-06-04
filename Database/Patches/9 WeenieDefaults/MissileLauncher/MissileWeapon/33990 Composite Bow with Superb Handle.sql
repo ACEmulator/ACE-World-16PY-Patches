@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33990;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33990, 'ace33990-compositebowwithsuperbhandle', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
+VALUES (33990, 'ace33990-compositebowwithsuperbhandle', 3, '2022-06-03 16:20:20') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33990,   1,        256) /* ItemType - MissileWeapon */
@@ -36,6 +36,7 @@ VALUES (33990,   1,        256) /* ItemType - MissileWeapon */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33990,  22, True ) /* Inscribable */
      , (33990,  23, True ) /* DestroyOnSell */
+     , (33990,  69, False) /* IsSellable */
      , (33990,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,7 +48,8 @@ VALUES (33990,   5,   -0.05) /* ManaRate */
      , (33990,  62,     1.1) /* WeaponOffense */
      , (33990,  63,     2.6) /* DamageMod */
      , (33990, 136,       3) /* CriticalMultiplier */
-     , (33990, 155,    1.16) /* IgnoreArmor */;
+     , (33990, 155,    1.16) /* IgnoreArmor */
+     , (33990, 156,     0.1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33990,   1, 'Composite Bow with Superb Handle') /* Name */;
