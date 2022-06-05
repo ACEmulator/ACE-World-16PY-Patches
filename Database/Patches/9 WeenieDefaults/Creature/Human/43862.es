@@ -1,2 +1,2 @@
 Use:
-	- Tell: Greetings, citizen.
+    - Tell: Greetings, citizen.
