@@ -65,7 +65,8 @@ VALUES (23092,   1,       5) /* HeartbeatInterval */
      , (23092, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23092,   1, 'Revered Tumerok Shaman') /* Name */;
+VALUES (23092,   1, 'Revered Tumerok Shaman') /* Name */
+     , (23092,  45, 'KillTaskMGHTumerok') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23092,   1, 0x02001400) /* Setup */

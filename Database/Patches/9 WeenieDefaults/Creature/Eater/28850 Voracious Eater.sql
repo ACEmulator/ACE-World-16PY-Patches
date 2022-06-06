@@ -59,7 +59,8 @@ VALUES (28850,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28850,   1, 'Voracious Eater') /* Name */
-     , (28850,  45, 'voraciouseaterkillcount') /* KillQuest */;
+     , (28850,  45, 'voraciouseaterkillcount') /* KillQuest */
+     , (28850,  49, 'KillTaskMGHVoraciousEater') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28850,   1, 0x02001251) /* Setup */

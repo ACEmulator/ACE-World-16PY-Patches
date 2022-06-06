@@ -61,7 +61,8 @@ VALUES (31016,   1,       5) /* HeartbeatInterval */
      , (31016, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31016,   1, 'Agitated Phyntos Wasp') /* Name */;
+VALUES (31016,   1, 'Agitated Phyntos Wasp') /* Name */
+     , (31016,  45, 'KillTaskMGHWasp') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31016,   1, 0x02001121) /* Setup */
