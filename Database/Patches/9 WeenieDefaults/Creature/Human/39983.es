@@ -1,17 +1,17 @@
 Refuse: Adventurer's Token (39984)
-	- TurnToTarget
-	- InqOwnsItems: Adventurer's Token (39984), 10
-		TestSuccess:
-			- TakeItems: Adventurer's Token (39984), 10
-			- Tell: I see you've proven your abilities to us in the past. Accept this key as a reward for your services.
-			- Give: Mana Forge Key (38456)
-		TestFailure:
-			- Tell: Return to me when you have 10 of these.
+    - TurnToTarget
+    - InqOwnsItems: Adventurer's Token (39984), 10
+        TestSuccess:
+            - TakeItems: Adventurer's Token (39984), 10
+            - Tell: I see you've proven your abilities to us in the past. Accept this key as a reward for your services.
+            - Give: Mana Forge Key (38456)
+        TestFailure:
+            - Tell: Return to me when you have 10 of these.
 
 Use:
-	- TurnToTarget
+    - TurnToTarget
     - Tell: As a game hunter I've tagged a variety of creatures to test your skills. Kill these creatures to test your skills and prove your abilities and I'll make it worth your while.
-	- InqEvent: EventFallFestival
+    - InqEvent: EventFallFestival
         EventSuccess:
             - Goto: MGHGroupSeasonal
         EventFailure:
@@ -76,11 +76,11 @@ GotoSet: MGHGroupSix
     - Goto: MGHGroupSixEasy
 
 GotoSet: MGHGroupSixEasy
-	- InqQuest: MGHEasyCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSixModerate
-		QuestFailure:
-			- InqQuest: KillTaskMGHVoraciousEater
+    - InqQuest: MGHEasyCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSixModerate
+        QuestFailure:
+            - InqQuest: KillTaskMGHVoraciousEater
                 QuestSuccess:
                     - StampQuest: MGHEasyCompleted
                     - EraseQuest: KillTaskMGHVoraciousEater
@@ -93,16 +93,16 @@ GotoSet: MGHGroupSixEasy
                             - Tell: You'll have to kill a few more Voracious Eaters and return to me.
                             - Goto: MGHGroupSixModerate
                         QuestFailure:
-							- Tell: This month I've tagged Voracious Eaters as the moderate difficulty prey.
-							- SetQuestCompletions: KillTaskMGHVoraciousEater, 0
+                            - Tell: This month I've tagged Voracious Eaters as the moderate difficulty prey.
+                            - SetQuestCompletions: KillTaskMGHVoraciousEater, 0
                             - Goto: MGHGroupSixModerate
 
 GotoSet: MGHGroupSixModerate
-	- InqQuest: MGHModerateCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSixHard
-		QuestFailure:
-			- InqQuest: KillTaskMGHAbhorrentEater
+    - InqQuest: MGHModerateCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSixHard
+        QuestFailure:
+            - InqQuest: KillTaskMGHAbhorrentEater
                 QuestSuccess:
                     - StampQuest: MGHModerateCompleted
                     - EraseQuest: KillTaskMGHAbhorrentEater
@@ -115,16 +115,16 @@ GotoSet: MGHGroupSixModerate
                             - Tell: You'll have to kill a few more Abhorrent Eaters and return to me.
                             - Goto: MGHGroupSixHard
                         QuestFailure:
-							- Tell: This month I've tagged Abhorrent Eaters as the medium difficulty prey.
-							- SetQuestCompletions: KillTaskMGHAbhorrentEater, 0
+                            - Tell: This month I've tagged Abhorrent Eaters as the medium difficulty prey.
+                            - SetQuestCompletions: KillTaskMGHAbhorrentEater, 0
                             - Goto: MGHGroupSixHard
 
 GotoSet: MGHGroupSixHard
-	- InqQuest: MGHHardCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSixVeryHard
-		QuestFailure:
-			- InqQuest: KillTaskMGHTumerok
+    - InqQuest: MGHHardCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSixVeryHard
+        QuestFailure:
+            - InqQuest: KillTaskMGHTumerok
                 QuestSuccess:
                     - StampQuest: MGHHardCompleted
                     - EraseQuest: KillTaskMGHTumerok
@@ -138,16 +138,16 @@ GotoSet: MGHGroupSixHard
                             - Tell: You'll have to kill a few more Tumeroks in the Valley of Death and return to me.
                             - Goto: MGHGroupSixVeryHard
                         QuestFailure:
-							- Tell: This month I've tagged Tumeroks in the Valley of Death as the high difficulty prey.
-							- SetQuestCompletions: KillTaskMGHTumerok, 0
+                            - Tell: This month I've tagged Tumeroks in the Valley of Death as the high difficulty prey.
+                            - SetQuestCompletions: KillTaskMGHTumerok, 0
                             - Goto: MGHGroupSixVeryHard
 
 GotoSet: MGHGroupSixVeryHard
-	- InqQuest: MGHVeryHardCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSixExtreme
-		QuestFailure:
-			- InqQuest: KillTaskMGHRemoran
+    - InqQuest: MGHVeryHardCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSixExtreme
+        QuestFailure:
+            - InqQuest: KillTaskMGHRemoran
                 QuestSuccess:
                     - StampQuest: MGHVeryHardCompleted
                     - EraseQuest: KillTaskMGHRemoran
@@ -161,16 +161,16 @@ GotoSet: MGHGroupSixVeryHard
                             - Tell: You'll have to kill a few more Dark Isle Remorans and return to me.
                             - Goto: MGHGroupSixExtreme
                         QuestFailure:
-							- Tell: This month I've tagged Dark Isle Remorans as one of the most difficult prey.
-							- SetQuestCompletions: KillTaskMGHRemoran, 0
+                            - Tell: This month I've tagged Dark Isle Remorans as one of the most difficult prey.
+                            - SetQuestCompletions: KillTaskMGHRemoran, 0
                             - Goto: MGHGroupSixExtreme
 
 GotoSet: MGHGroupSixExtreme
-	- InqQuest: MGHExtremeCompleted
-		#QuestSuccess:
-			#- Goto: MGHGroupSeasonal
-		QuestFailure:
-			- InqQuest: KillTaskMGHWasp
+    - InqQuest: MGHExtremeCompleted
+        #QuestSuccess:
+            #- Goto: MGHGroupSeasonal
+        QuestFailure:
+            - InqQuest: KillTaskMGHWasp
                 QuestSuccess:
                     - StampQuest: MGHExtremeCompleted
                     - EraseQuest: KillTaskMGHWasp
@@ -184,8 +184,8 @@ GotoSet: MGHGroupSixExtreme
                             - Tell: You'll have to kill a few more Giant Jungle and Agitated Phyntos and return to me.
                             #- Goto: MGHGroupSeasonal
                         QuestFailure:
-							- Tell: This month I've tagged Giant Jungle and Agitated Phyntos as the other prey of highest difficulty.
-							- SetQuestCompletions: KillTaskMGHWasp, 0
+                            - Tell: This month I've tagged Giant Jungle and Agitated Phyntos as the other prey of highest difficulty.
+                            - SetQuestCompletions: KillTaskMGHWasp, 0
                             #- Goto: MGHGroupSeasonal
 
 GotoSet: MGHGroupSeven
@@ -204,11 +204,11 @@ GotoSet: MGHGroupSeasonal
     - Goto: MGHGroupSeasonalEasy
 
 GotoSet: MGHGroupSeasonalEasy
-	- InqQuest: MGHEasyCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSeasonalModerate
-		QuestFailure:
-			- InqQuest: KillTaskMGHVScarecrows
+    - InqQuest: MGHEasyCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSeasonalModerate
+        QuestFailure:
+            - InqQuest: KillTaskMGHVScarecrows
                 QuestSuccess:
                     - StampQuest: MGHEasyCompleted
                     - EraseQuest: KillTaskMGHVScarecrows
@@ -221,16 +221,16 @@ GotoSet: MGHGroupSeasonalEasy
                             - Tell: You'll have to kill a few more Vile, Vicious and Villainous Scarecrows and return to me.
                             - Goto: MGHGroupSeasonalModerate
                         QuestFailure:
-							- Tell: This month I've tagged Vile, Vicious and Villainous Scarecrows as the moderate difficulty prey.
-							- SetQuestCompletions: KillTaskMGHVScarecrows, 0
+                            - Tell: This month I've tagged Vile, Vicious and Villainous Scarecrows as the moderate difficulty prey.
+                            - SetQuestCompletions: KillTaskMGHVScarecrows, 0
                             - Goto: MGHGroupSeasonalModerate
 
 GotoSet: MGHGroupSeasonalModerate
-	- InqQuest: MGHModerateCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSeasonalHard
-		QuestFailure:
-			- InqQuest: KillTaskMGHUndeadSailor
+    - InqQuest: MGHModerateCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSeasonalHard
+        QuestFailure:
+            - InqQuest: KillTaskMGHUndeadSailor
                 QuestSuccess:
                     - StampQuest: MGHModerateCompleted
                     - EraseQuest: KillTaskMGHUndeadSailor
@@ -243,16 +243,16 @@ GotoSet: MGHGroupSeasonalModerate
                             - Tell: You'll have to kill a few more Undead Sailors and return to me.
                             - Goto: MGHGroupSeasonalHard
                         QuestFailure:
-							- Tell: This month I've tagged Undead Sailors as the medium difficulty prey.
-							- SetQuestCompletions: KillTaskMGHUndeadSailor, 0
+                            - Tell: This month I've tagged Undead Sailors as the medium difficulty prey.
+                            - SetQuestCompletions: KillTaskMGHUndeadSailor, 0
                             - Goto: MGHGroupSeasonalHard
 
 GotoSet: MGHGroupSeasonalHard
-	- InqQuest: MGHHardCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSeasonalVeryHard
-		QuestFailure:
-			- InqQuest: KillTaskMGHPyreChampion
+    - InqQuest: MGHHardCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSeasonalVeryHard
+        QuestFailure:
+            - InqQuest: KillTaskMGHPyreChampion
                 QuestSuccess:
                     - StampQuest: MGHHardCompleted
                     - EraseQuest: KillTaskMGHPyreChampion
@@ -266,16 +266,16 @@ GotoSet: MGHGroupSeasonalHard
                             - Tell: You'll have to kill a few more Pyre Champions and return to me.
                             - Goto: MGHGroupSeasonalVeryHard
                         QuestFailure:
-							- Tell: This month I've tagged Pyre Champions as the high difficulty prey.
-							- SetQuestCompletions: KillTaskMGHPyreChampion, 0
+                            - Tell: This month I've tagged Pyre Champions as the high difficulty prey.
+                            - SetQuestCompletions: KillTaskMGHPyreChampion, 0
                             - Goto: MGHGroupSeasonalVeryHard
 
 GotoSet: MGHGroupSeasonalVeryHard
-	- InqQuest: MGHVeryHardCompleted
-		QuestSuccess:
-			- Goto: MGHGroupSeasonalExtreme
-		QuestFailure:
-			- InqQuest: KillTaskMGHWightCaptain
+    - InqQuest: MGHVeryHardCompleted
+        QuestSuccess:
+            - Goto: MGHGroupSeasonalExtreme
+        QuestFailure:
+            - InqQuest: KillTaskMGHWightCaptain
                 QuestSuccess:
                     - StampQuest: MGHVeryHardCompleted
                     - EraseQuest: KillTaskMGHWightCaptain
@@ -289,16 +289,16 @@ GotoSet: MGHGroupSeasonalVeryHard
                             - Tell: You'll have to kill a few more Wight Captains and return to me.
                             - Goto: MGHGroupSeasonalExtreme
                         QuestFailure:
-							- Tell: This month I've tagged Wight Captains as one of the most difficult prey.
-							- SetQuestCompletions: KillTaskMGHWightCaptain, 0
+                            - Tell: This month I've tagged Wight Captains as one of the most difficult prey.
+                            - SetQuestCompletions: KillTaskMGHWightCaptain, 0
                             - Goto: MGHGroupSeasonalExtreme
 
 GotoSet: MGHGroupSeasonalExtreme
-	- InqQuest: MGHExtremeCompleted
-		#QuestSuccess:
-			#- Goto: MGHGroupSeasonal
-		QuestFailure:
-			- InqQuest: KillTaskMGHHarvestReaper
+    - InqQuest: MGHExtremeCompleted
+        #QuestSuccess:
+            #- Goto: MGHGroupSeasonal
+        QuestFailure:
+            - InqQuest: KillTaskMGHHarvestReaper
                 QuestSuccess:
                     - StampQuest: MGHExtremeCompleted
                     - EraseQuest: KillTaskMGHHarvestReaper
@@ -312,6 +312,6 @@ GotoSet: MGHGroupSeasonalExtreme
                             - Tell: You'll have to kill a few more Harvest Reapers and return to me.
                             #- Goto: MGHGroupSeasonal
                         QuestFailure:
-							- Tell: This month I've tagged Harvest Reapers as the other prey of highest difficulty.
-							- SetQuestCompletions: KillTaskMGHHarvestReaper, 0
+                            - Tell: This month I've tagged Harvest Reapers as the other prey of highest difficulty.
+                            - SetQuestCompletions: KillTaskMGHHarvestReaper, 0
                             #- Goto: MGHGroupSeasonal

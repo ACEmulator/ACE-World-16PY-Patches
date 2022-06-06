@@ -295,7 +295,7 @@ VALUES (0x7A9B4052, 0x7A9B4032, '2022-03-19 04:04:39') /* Flinrala Ryndmad (5033
      , (0x7A9B4052, 0x7A9B405E, '2022-03-19 04:04:39') /* Alfrin (30479) */
      , (0x7A9B4052, 0x7A9B46AB, '2022-03-19 04:04:39') /* Arcanum Refurbisher (32085) */
      , (0x7A9B4052, 0x7A9B46AC, '2022-03-19 04:04:39') /* Tailor's Apprentice (42736) */
-     , (0x7A9B4052, 0x7A9B46AD, '2022-03-19 04:04:39') /* Tailor's Apprentice (42736) */;
+     , (0x7A9B4052, 0x7A9B46AD, '2022-03-19 04:04:39') /* Rand, Game Hunter (39983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B4053, 27740, 0xA9B4014D, 139.637, 8.1292, 97.005, -0.850506, 0, 0, -0.525965,  True, '2022-03-19 04:04:39'); /* Apprentice Alchemist */
@@ -435,5 +435,5 @@ VALUES (0x7A9B46AC, 42736, 0xA9B4012A, 61.1951, 135.937, 66.005, -0.730577, 0, 0
 /* @teleloc 0xA9B4012A [61.195099 135.936996 66.004997] -0.730577 0.000000 0.000000 -0.682830 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B46AD, 39983, 0xA9B40032, 154.569, 36.2015, 96.005, 0.052418, 0, 0, -0.998625, True, '2022-05-13 08:25:05'); /* Rand, Game Hunter */
+VALUES (0x7A9B46AD, 39983, 0xA9B40032, 154.569, 36.2015, 96.005, 0.052418, 0, 0, -0.998625,  True, '2022-05-13 08:25:05'); /* Rand, Game Hunter */
 /* @teleloc 0xA9B40032 [154.569000 36.201500 96.004997] 0.052418 0.000000 0.000000 -0.998625 */
