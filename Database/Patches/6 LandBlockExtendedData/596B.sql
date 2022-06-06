@@ -377,11 +377,11 @@ VALUES (0x7596B079, 52800, 0x596B010D, 105.744, -157.723, 0.006, 0.701223, 0, 0,
 /* @teleloc 0x596B010D [105.744003 -157.723007 0.006000] 0.701223 0.000000 0.000000 -0.712942 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596B07A, 87930, 0x596B010D, 106.521, -159.284, 0, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* CHGauntletArena1InUse Generator */
+VALUES (0x7596B07A, 87930, 0x596B010D, 106.521, -159.284, 0, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* CH Gauntlet A1 Stopgap Generator */
 /* @teleloc 0x596B010D [106.521004 -159.283997 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596B07B, 87935, 0x596B010D, 106.521, -156.249, 0, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* CHGauntletArena2InUse Generator */
+VALUES (0x7596B07B, 87935, 0x596B010D, 106.521, -156.249, 0, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* CH Gauntlet A2 Stopgap Generator */
 /* @teleloc 0x596B010D [106.521004 -156.248993 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -389,17 +389,17 @@ VALUES (0x7596B07D, 52801, 0x596B0104, 95.744, -77.7233, 0.005, 0.701223, 0, 0, 
 /* @teleloc 0x596B0104 [95.744003 -77.723297 0.005000] 0.701223 0.000000 0.000000 -0.712942 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596B07E, 87866, 0x596B0101, 96.0819, -9.24108, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* RBGauntletArena1InUse Generator */
+VALUES (0x7596B07E, 87866, 0x596B0101, 96.0819, -9.24108, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* RB Gauntlet A1 Stopgap Generator */
 /* @teleloc 0x596B0101 [96.081902 -9.241080 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596B07F, 87867, 0x596B0101, 96.1196, -6.07062, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* RBGauntletArena2InUse Generator */
+VALUES (0x7596B07F, 87867, 0x596B0101, 96.1196, -6.07062, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* RB Gauntlet A2 Stopgap Generator */
 /* @teleloc 0x596B0101 [96.119598 -6.070620 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596B080, 87998, 0x596B0104, 96.1888, -79.3577, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* EWGauntletArena1InUse Generator */
+VALUES (0x7596B080, 87998, 0x596B0104, 96.1888, -79.3577, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* EW Gauntlet A1 Stopgap Generator */
 /* @teleloc 0x596B0104 [96.188797 -79.357697 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596B081, 87999, 0x596B0104, 96.1888, -75.9531, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* EWGauntletArena2InUse Generator */
+VALUES (0x7596B081, 87999, 0x596B0104, 96.1888, -75.9531, 0.055, 0, 0, 0, -1, False, '2022-03-31 06:02:40'); /* EW Gauntlet A2 Stopgap Generator */
 /* @teleloc 0x596B0104 [96.188797 -75.953102 0.055000] 0.000000 0.000000 0.000000 -1.000000 */

@@ -23,7 +23,7 @@ Gotoset: Check0
     - Tell: Your first challenge is a simple and practical one. Bring me 100 Infused Ambers, so I may use them to forge the first few gems you will be earning.
 
 Gotoset: Check1
-    - InqQuestSolves: ParagonWeapons, 1 - 1
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 1 - 1
         QuestFailure:
             - Goto: Check0
         QuestSuccess:
@@ -37,7 +37,7 @@ Gotoset: Check1
                     - Tell: Don't worry about those challenges that exist alongside the actual Colosseum. This challenge is only for the timed arena.
 
 Gotoset: Check2
-    - InqQuestSolves: ParagonWeapons, 2 - 2
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 2 - 2
         QuestFailure:
             - Goto: Check1
         QuestSuccess:
@@ -45,7 +45,7 @@ Gotoset: Check2
             - Tell: I wish to study its craftsmanship, manufacture and corruption. There may be something there that can assist in the removal of the threat here.
 
 Gotoset: Check3
-    - InqQuestSolves: ParagonWeapons, 3 - 3
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 3 - 3
         QuestFailure:
             - Goto: Check2
         QuestSuccess:
@@ -64,14 +64,14 @@ Gotoset: Check3
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 100,000 Luminance.
 
 Gotoset: Check4
-    - InqQuestSolves: ParagonWeapons, 4 - 4
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 4 - 4
         QuestFailure:
             - Goto: Check3
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 100 Infused Ambers, so we may continue.
 
 Gotoset: Check5
-    - InqQuestSolves: ParagonWeapons, 5 - 5
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 5 - 5
         QuestFailure:
             - Goto: Check4
         QuestSuccess:
@@ -79,14 +79,14 @@ Gotoset: Check5
             - Tell: Be warned, he is an elusive one, and sometimes difficult to find. Patience will be your ally in hunting him.
 
 Gotoset: Check6
-    - InqQuestSolves: ParagonWeapons, 6 - 6
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 6 - 6
         QuestFailure:
             - Goto: Check5
         QuestSuccess:
             - Tell: Deep in the desert is the Lost City of Neftet, where the brothers of the A'nekshen Guardians suffer in captivity. Bring me 1,000 A'nekshay Tokens from that place, so they may be returned to their people.
 
 Gotoset: Check7
-    - InqQuestSolves: ParagonWeapons, 7 - 7
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 7 - 7
         QuestFailure:
             - Goto: Check6
         QuestSuccess:
@@ -100,7 +100,7 @@ Gotoset: Check7
                     - Tell: Once the Slave Master is dead and the A'nekshay are freed, return to me.
 
 Gotoset: Check8
-    - InqQuestSolves: ParagonWeapons, 8 - 8
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 8 - 8
         QuestFailure:
             - Goto: Check7
         QuestSuccess:
@@ -119,35 +119,35 @@ Gotoset: Check8
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 200,000 Luminance.
 
 Gotoset: Check9
-    - InqQuestSolves: ParagonWeapons, 9 - 9
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 9 - 9
         QuestFailure:
             - Goto: Check8
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 100 Infused Ambers, so we may continue.
 
 Gotoset: Check10
-    - InqQuestSolves: ParagonWeapons, 10 - 10
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 10 - 10
         QuestFailure:
             - Goto: Check9
         QuestSuccess:
             - Tell: Seek entrance into Lord Mhoire's Tomb, in the graveyard in the Direlands, and defeat Lord Cynreft Mhoire. Inside his chest you will find his signet ring. Bring it to me.
 
 Gotoset: Check11
-    - InqQuestSolves: ParagonWeapons, 11 - 11
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 11 - 11
         QuestFailure:
             - Goto: Check10
         QuestSuccess:
             - Tell: Deep in the Direlands is a place known as the Graveyard of Despair, where old House Mhoire fell. Bring me 1,000 Ancient Mhoire Coins from that place.
 
 Gotoset: Check12
-    - InqQuestSolves: ParagonWeapons, 12 - 12
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 12 - 12
         QuestFailure:
             - Goto: Check11
         QuestSuccess:
             - Tell: Deep inside Mhoire Castle you will find the Shade of Lord Rytheran, who used the Book of Eibhil to destroy all of House Mhoire, Slay him and bring his ring to me.
 
 Gotoset: Check13
-    - InqQuestSolves: ParagonWeapons, 13 - 13
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 13 - 13
         QuestFailure:
             - Goto: Check12
         QuestSuccess:
@@ -166,21 +166,21 @@ Gotoset: Check13
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 200,000 Luminance.
 
 Gotoset: Check14
-    - InqQuestSolves: ParagonWeapons, 14 - 14
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 14 - 14
         QuestFailure:
             - Goto: Check13
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 200 Infused Ambers, so we may continue.
 
 Gotoset: Check15
-    - InqQuestSolves: ParagonWeapons, 15 - 15
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 15 - 15
         QuestFailure:
             - Goto: Check14
         QuestSuccess:
             - Tell: Seek the ghost of Lady Tairla Mhoire, in the graveyard in the Direlands, and defeat her. Inside her chest you will find her signet ring. Bring it to me.
 
 Gotoset: Check16
-    - InqQuestSolves: ParagonWeapons, 16 - 16
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 16 - 16
         QuestFailure:
             - Goto: Check15
         QuestSuccess:
@@ -188,14 +188,14 @@ Gotoset: Check16
             - Tell: Bring me 1,000 Small Olthoi Venom Sacs from the Paradox-touched Olthoi there, so I may study the strange magical corruptions used upon them.
 
 Gotoset: Check17
-    - InqQuestSolves: ParagonWeapons, 17 - 17
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 17 - 17
         QuestFailure:
             - Goto: Check16
         QuestSuccess:
             - Tell: In Northern Osteth lies the lair of the Paradox-touched Olthoi Queen. Enter her lair, slay her, and bring me a shard of her carapace as proof.
 
 Gotoset: Check18
-    - InqQuestSolves: ParagonWeapons, 18 - 18
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 18 - 18
         QuestFailure:
             - Goto: Check17
         QuestSuccess:
@@ -214,35 +214,35 @@ Gotoset: Check18
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 300,000 Luminance.
 
 Gotoset: Check19
-    - InqQuestSolves: ParagonWeapons, 19 - 19
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 19 - 19
         QuestFailure:
             - Goto: Check18
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 200 Infused Ambers, so we may continue.
 
 Gotoset: Check20
-    - InqQuestSolves: ParagonWeapons, 20 - 20
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 20 - 20
         QuestFailure:
             - Goto: Check19
         QuestSuccess:
             - Tell: In the ancient Colosseum there is a challenge to defeat a creature called the "Thunder Chicken". Slay this mighty beast and bring me it's token as proof.
 
 Gotoset: Check21
-    - InqQuestSolves: ParagonWeapons, 21 - 21
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 21 - 21
         QuestFailure:
             - Goto: Check20
         QuestSuccess:
             - Tell: In the northern Direlands are strange creatures called Gear Knights. Bring me 1,000 of their Ornate Gear Markers so I may study their construction techniques.
 
 Gotoset: Check22
-    - InqQuestSolves: ParagonWeapons, 22 - 22
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 22 - 22
         QuestFailure:
             - Goto: Check21
         QuestSuccess:
             - Tell: In the northern Direlands are strange creatures called Gear Knights. One of them is known as the Iron Blade Overseer. Defeat him and bring his Aetherium Core here, so I may better understand these strange creatures.
 
 Gotoset: Check23
-    - InqQuestSolves: ParagonWeapons, 23 - 23
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 23 - 23
         QuestFailure:
             - Goto: Check22
         QuestSuccess:
@@ -261,14 +261,14 @@ Gotoset: Check23
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 300,000 Luminance.
 
 Gotoset: Check24
-    - InqQuestSolves: ParagonWeapons, 24 - 24
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 24 - 24
         QuestFailure:
             - Goto: Check23
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 200 Infused Ambers, so we may continue.
 
 Gotoset: Check25
-    - InqQuestSolves: ParagonWeapons, 25 - 25
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 25 - 25
         QuestFailure:
             - Goto: Check24
         QuestSuccess:
@@ -276,21 +276,21 @@ Gotoset: Check25
             - Tell: I wish to experiment with more efficient ways to cleanse the amber, and what is left will help fuel the creation of more Paragon Gems for you.
 
 Gotoset: Check26
-    - InqQuestSolves: ParagonWeapons, 26 - 26
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 26 - 26
         QuestFailure:
             - Goto: Check25
         QuestSuccess:
             - Tell: The ancient Colosseum uses a strange currency to reward those who participate in its games.  Bring me 1,000 Colosseum Coins to complete your next challenge.
 
 Gotoset: Check27
-    - InqQuestSolves: ParagonWeapons, 27 - 27
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 27 - 27
         QuestFailure:
             - Goto: Check26
         QuestSuccess:
             - Tell: Deep in the Oubliette under House Mhoire one can find a thing called the Spectral Fountain. Gather a Corrupted Amber from the Viridian Chasm below, and place it into the Spectral Fountain. Return to me with whatever result you find.
 
 Gotoset: Check28
-    - InqQuestSolves: ParagonWeapons, 28 - 28
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 28 - 28
         QuestFailure:
             - Goto: Check27
         QuestSuccess:
@@ -309,28 +309,28 @@ Gotoset: Check28
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 300,000 Luminance.
 
 Gotoset: Check29
-    - InqQuestSolves: ParagonWeapons, 29 - 29
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 29 - 29
         QuestFailure:
             - Goto: Check28
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 300 Infused Ambers, so we may continue.
 
 Gotoset: Check30
-    - InqQuestSolves: ParagonWeapons, 30 - 30
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 30 - 30
         QuestFailure:
             - Goto: Check29
         QuestSuccess:
             - Tell: Enter the Colosseum once again. This time, defeat the one known as The Master and bring me his token.
 
 Gotoset: Check31
-    - InqQuestSolves: ParagonWeapons, 31 - 31
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 31 - 31
         QuestFailure:
             - Goto: Check30
         QuestSuccess:
             - Tell: In the Obsidian Plains hides one of the Lothus Virindi known as the Curator of Torment. Defeat the vile thing and bring me the shard of his mask as proof.
 
 Gotoset: Check32
-    - InqQuestSolves: ParagonWeapons, 32 - 32
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 32 - 32
         QuestFailure:
             - Goto: Check31
         QuestSuccess:
@@ -338,7 +338,7 @@ Gotoset: Check32
             - Tell: My last experiments were promising, but incomplete. Also, as before, what is left will help fuel the creation of more Paragon Gems for you...
 
 Gotoset: Check33
-    - InqQuestSolves: ParagonWeapons, 33 - 33
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 33 - 33
         QuestFailure:
             - Goto: Check32
         QuestSuccess:
@@ -357,21 +357,21 @@ Gotoset: Check33
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 400,000 Luminance.
 
 Gotoset: Check34
-    - InqQuestSolves: ParagonWeapons, 34 - 34
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 34 - 34
         QuestFailure:
             - Goto: Check33
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 300 Infused Ambers, so we may continue.
 
 Gotoset: Check35
-    - InqQuestSolves: ParagonWeapons, 35 - 35
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 35 - 35
         QuestFailure:
             - Goto: Check34
         QuestSuccess:
             - Tell: In the forests of Northern Osteth lies the spectral Fortress of Hoshino Kei. One of her generals, General Idah can sometimes be found inspecting his forces in the haunted towns around the outside of the fortress itself.
 
 Gotoset: Check36
-    - InqQuestSolves: ParagonWeapons, 36 - 36
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 36 - 36
         QuestFailure:
             - Goto: Check35
         QuestSuccess:
@@ -385,14 +385,14 @@ Gotoset: Check36
                     - Tell: Go and prove yourself, small one.
 
 Gotoset: Check37
-    - InqQuestSolves: ParagonWeapons, 37 - 37
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 37 - 37
         QuestFailure:
             - Goto: Check36
         QuestSuccess:
             - Tell: Enter the colosseum and defeat the challenge of Gladiator Diemos. Once he is defeated, bring his token to me.
 
 Gotoset: Check38
-    - InqQuestSolves: ParagonWeapons, 38 - 38
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 38 - 38
         QuestFailure:
             - Goto: Check37
         QuestSuccess:
@@ -411,14 +411,14 @@ Gotoset: Check38
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 400,000 Luminance.
 
 Gotoset: Check39
-    - InqQuestSolves: ParagonWeapons, 39 - 39
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 39 - 39
         QuestFailure:
             - Goto: Check38
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 300 Infused Ambers, so we may continue.
 
 Gotoset: Check40
-    - InqQuestSolves: ParagonWeapons, 40 - 40
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 40 - 40
         QuestFailure:
             - Goto: Check39
         QuestSuccess:
@@ -426,21 +426,21 @@ Gotoset: Check40
             - Tell: He is elusive, so be patient. Once you have slain him, bring me his shattered helm as proof.
 
 Gotoset: Check41
-    - InqQuestSolves: ParagonWeapons, 41 - 41
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 41 - 41
         QuestFailure:
             - Goto: Check40
         QuestSuccess:
             - Tell: In the place known as the Gauntlet there is a challenge to defeat a Marionette known as Tremb'Orh. Defeat it and bring its token to me as proof.
 
 Gotoset: Check42
-    - InqQuestSolves: ParagonWeapons, 42 - 42
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 42 - 42
         QuestFailure:
             - Goto: Check41
         QuestSuccess:
             - Tell: In the forests of Northern Osteth lies the spectral Fortress of Hoshino Kei.  Find the entrance to her deepest sanctum and slay her. Once you have, bring her Mirror Shard to me.
 
 Gotoset: Check43
-    - InqQuestSolves: ParagonWeapons, 43 - 43
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 43 - 43
         QuestFailure:
             - Goto: Check42
         QuestSuccess:
@@ -459,21 +459,21 @@ Gotoset: Check43
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 500,000 Luminance.
 
 Gotoset: Check44
-    - InqQuestSolves: ParagonWeapons, 44 - 44
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 44 - 44
         QuestFailure:
             - Goto: Check43
         QuestSuccess:
             - Tell: I am running low on Infused Amber with which to forge your gems. Your next task is to bring me 400 Infused Ambers, so we may continue.
 
 Gotoset: Check45
-    - InqQuestSolves: ParagonWeapons, 45 - 45
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 45 - 45
         QuestFailure:
             - Goto: Check44
         QuestSuccess:
             - Tell: Your next challenge may be the most difficult yet.  Within the Viridian Rise, four Elite Guardians stalk the land.  Defeat one of these Elite Guardians and bring proof of their fall to me.  They have been driven by the Great Tree's pain, and their defeat will help set them free.
 
 Gotoset: Check46
-    - InqQuestSolves: ParagonWeapons, 46 - 46
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 46 - 46
         QuestFailure:
             - Goto: Check45
         QuestSuccess:
@@ -487,14 +487,14 @@ Gotoset: Check46
                     - Tell: Go and prove yourself, small one.
 
 Gotoset: Check47
-    - InqQuestSolves: ParagonWeapons, 47 - 47
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 47 - 47
         QuestFailure:
             - Goto: Check46
         QuestSuccess:
             - Tell: In the place known as the Gauntlet there is a challenge to defeat a Doll known as Holcha. Defeat it and bring its token to me as proof.
 
 Gotoset: Check48
-    - InqQuestSolves: ParagonWeapons, 48 - 48
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 48 - 48
         QuestFailure:
             - Goto: Check47
         QuestSuccess:
@@ -513,7 +513,7 @@ Gotoset: Check48
                     - Tell: As you do not carry enough Luminance within you to empower the gems, return to me when you have at least 1,000,000 Luminance.
 
 Gotoset: Check49
-    - InqQuestSolves: ParagonWeapons, 49 - 49
+    - Delay: 0.01, InqQuestSolves: ParagonWeapons, 49 - 49
         QuestFailure:
             - Goto: Check48
         QuestSuccess:

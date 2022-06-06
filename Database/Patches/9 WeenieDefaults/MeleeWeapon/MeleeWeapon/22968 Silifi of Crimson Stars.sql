@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22968;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22968, 'silificrimsonstars124hoary', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (22968, 'silificrimsonstars124hoary', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22968,   1,          1) /* ItemType - MeleeWeapon */
@@ -45,9 +45,7 @@ VALUES (22968,   5,   -0.05) /* ManaRate */
      , (22968,  22,     0.5) /* DamageVariance */
      , (22968,  29,    1.12) /* WeaponDefense */
      , (22968,  39,    1.25) /* DefaultScale */
-     , (22968,  62,    1.12) /* WeaponOffense */
-     , (22968, 136,       3) /* CriticalMultiplier */
-     , (22968, 147,     0.2) /* CriticalFrequency */;
+     , (22968,  62,    1.12) /* WeaponOffense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22968,   1, 'Silifi of Crimson Stars') /* Name */
