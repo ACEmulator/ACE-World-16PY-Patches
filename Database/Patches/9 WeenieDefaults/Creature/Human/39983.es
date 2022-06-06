@@ -129,6 +129,7 @@ GotoSet: MGHGroupSixHard
                     - StampQuest: MGHHardCompleted
                     - EraseQuest: KillTaskMGHTumerok
                     - Tell: Excellent work. I'll be able to reward you again tomorrow.
+                    - Give: Adventurer's Token (39984)
                     - AwardXP: 5,000,000
                     - Goto: MGHGroupSixVeryHard
                 QuestFailure:
@@ -256,6 +257,7 @@ GotoSet: MGHGroupSeasonalHard
                     - StampQuest: MGHHardCompleted
                     - EraseQuest: KillTaskMGHPyreChampion
                     - Tell: Excellent work. I'll be able to reward you again tomorrow.
+                    - Give: Adventurer's Token (39984)
                     - AwardXP: 5,000,000
                     - Goto: MGHGroupSeasonalVeryHard
                 QuestFailure:
