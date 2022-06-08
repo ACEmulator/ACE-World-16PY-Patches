@@ -26,3 +26,7 @@ Give: 72430
     - AwardLuminance: 40,000
     - Give: 52010
     - Give: 20630, 20
+    - InqQuestBitsOn: LegendaryQuestsA, 0x2
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x2
+            - StampQuest: LegendaryQuestCounter_0913
