@@ -118,3 +118,40 @@ GotoSet: Reward
         QuestFailure:
             - SetQuestBitsOn: LegendaryQuestsB, 0x20
             - StampQuest: LegendaryQuestCounter_0913
+
+Refuse: Legendary Seed of Mornings (48938)
+    - TurnToTarget
+    - TakeItems: 48938, 1
+    - Tell: Is that what I think it is?
+    - Delay: 1, Tell: This is amazing!
+    - Delay: 1, Tell: Even with the essence extracted from the seed, this is still very powerful in the magics of the Light Falatacot.
+    - Delay: 1, Tell: Perhaps the ladies here can use it in their rituals to improve the effects.
+    - AwardLevelProportionalXP: 100%, 0 - 46,709,251
+    - Give: 38917
+
+Refuse: Legendary Seed of Harvests (48939)
+    - TurnToTarget
+    - TakeItems: 48939, 1
+    - Tell: Is that what I think it is?
+    - Delay: 1, Tell: This is amazing!
+    - Delay: 1, Tell: Even with the essence extracted from the seed, this is still very powerful in the magics of the Light Falatacot.
+    - Delay: 1, Tell: Perhaps the ladies here can use it in their rituals to improve the effects.
+    - AwardLevelProportionalXP: 100%, 0 - 46,709,251
+    - Give: 38917
+
+Refuse: Legendary Seed of Twilight (48940)
+    - TurnToTarget
+    - TakeItems: 48940, 1
+    - Tell: Is that what I think it is?
+    - Delay: 1, Tell: This is amazing!
+    - Delay: 1, Tell: Even with the essence extracted from the seed, this is still very powerful in the magics of the Light Falatacot.
+    - Delay: 1, Tell: Perhaps the ladies here can use it in their rituals to improve the effects.
+    - AwardLevelProportionalXP: 100%, 0 - 46,709,251
+    - Give: 38917
+
+Refuse: Enchanted Seedling (47837)
+    - TurnToTarget
+    - Motion: Reading
+    - Delay: 1, DirectBroadcast: Popkin of the Gate handles the seedling with a deep reverence.
+    - Motion: Ready
+    - Delay: 1, Tell: I am impressed. A seedling like that won't pick just anyone. There must be something special about you.

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40308;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40308, 'ace40308-giantjunglephyntoswasp', 10, '2022-03-06 02:38:19') /* Creature */;
+VALUES (40308, 'ace40308-giantjunglephyntoswasp', 10, '2022-06-06 04:05:48') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40308,   1,         16) /* ItemType - Creature */
@@ -56,7 +56,8 @@ VALUES (40308,   1,       5) /* HeartbeatInterval */
      , (40308, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40308,   1, 'Giant Jungle Phyntos Wasp') /* Name */;
+VALUES (40308,   1, 'Giant Jungle Phyntos Wasp') /* Name */
+     , (40308,  45, 'KillTaskMGHWasp') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40308,   1, 0x02001121) /* Setup */
