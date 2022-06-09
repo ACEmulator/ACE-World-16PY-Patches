@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6964;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6964, 'bowcompositedmg3def3spd3atk1', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (6964, 'bowcompositedmg3def3spd3atk1', 3, '2022-06-08 18:20:04') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6964,   1,        256) /* ItemType - MissileWeapon */
@@ -24,13 +24,15 @@ VALUES (6964,   1,        256) /* ItemType - MissileWeapon */
      , (6964,  60,        192) /* WeaponRange */
      , (6964,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6964, 106,        200) /* ItemSpellcraft */
-     , (6964, 107,          0) /* ItemCurMana */
+     , (6964, 107,        500) /* ItemCurMana */
      , (6964, 108,        500) /* ItemMaxMana */
      , (6964, 109,        100) /* ItemDifficulty */
      , (6964, 114,          1) /* Attuned - Attuned */
-     , (6964, 115,        170) /* ItemSkillLevelLimit */
      , (6964, 150,        103) /* HookPlacement - Hook */
      , (6964, 151,          2) /* HookType - Wall */
+     , (6964, 158,          2) /* WieldRequirements - RawSkill */
+     , (6964, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (6964, 160,        170) /* WieldDifficulty */
      , (6964, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,8 +58,7 @@ VALUES (6964,   1, 0x02000878) /* Setup */
      , (6964,   6, 0x04000FA5) /* PaletteBase */
      , (6964,   7, 0x10000222) /* ClothingBase */
      , (6964,   8, 0x06001CCE) /* Icon */
-     , (6964,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6964,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6964,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6964,   463,      2)  /* Missile Weapon Mastery Other III */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6901;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6901, 'bowcompositedmg1def1spd2atk2', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (6901, 'bowcompositedmg1def1spd2atk2', 3, '2022-06-08 18:20:11') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6901,   1,        256) /* ItemType - MissileWeapon */
@@ -24,13 +24,15 @@ VALUES (6901,   1,        256) /* ItemType - MissileWeapon */
      , (6901,  60,        192) /* WeaponRange */
      , (6901,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6901, 106,        200) /* ItemSpellcraft */
-     , (6901, 107,          0) /* ItemCurMana */
+     , (6901, 107,        500) /* ItemCurMana */
      , (6901, 108,        500) /* ItemMaxMana */
-     , (6901, 109,        140) /* ItemDifficulty */
+     , (6901, 109,        135) /* ItemDifficulty */
      , (6901, 114,          1) /* Attuned - Attuned */
-     , (6901, 115,        210) /* ItemSkillLevelLimit */
      , (6901, 150,        103) /* HookPlacement - Hook */
      , (6901, 151,          2) /* HookType - Wall */
+     , (6901, 158,          2) /* WieldRequirements - RawSkill */
+     , (6901, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (6901, 160,        210) /* WieldDifficulty */
      , (6901, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,8 +58,7 @@ VALUES (6901,   1, 0x02000878) /* Setup */
      , (6901,   6, 0x04000FA5) /* PaletteBase */
      , (6901,   7, 0x10000222) /* ClothingBase */
      , (6901,   8, 0x06001CCD) /* Icon */
-     , (6901,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6901,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6901,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6901,   464,      2)  /* Missile Weapon Mastery Other IV */

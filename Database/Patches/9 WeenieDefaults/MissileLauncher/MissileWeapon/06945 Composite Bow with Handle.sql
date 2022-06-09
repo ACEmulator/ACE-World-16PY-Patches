@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6945;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6945, 'bowcompositedmg3def1spd1atk2', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (6945, 'bowcompositedmg3def1spd1atk2', 3, '2022-06-08 18:20:33') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6945,   1,        256) /* ItemType - MissileWeapon */
@@ -16,7 +16,7 @@ VALUES (6945,   1,        256) /* ItemType - MissileWeapon */
      , (6945,  44,          0) /* Damage */
      , (6945,  46,         16) /* DefaultCombatStyle - Bow */
      , (6945,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (6945,  49,         45) /* WeaponTime */
+     , (6945,  49,         40) /* WeaponTime */
      , (6945,  50,          1) /* AmmoType - Arrow */
      , (6945,  51,          2) /* CombatUse - Missile */
      , (6945,  52,          2) /* ParentLocation - LeftHand */
@@ -24,13 +24,15 @@ VALUES (6945,   1,        256) /* ItemType - MissileWeapon */
      , (6945,  60,        192) /* WeaponRange */
      , (6945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6945, 106,        200) /* ItemSpellcraft */
-     , (6945, 107,          0) /* ItemCurMana */
+     , (6945, 107,        500) /* ItemCurMana */
      , (6945, 108,        500) /* ItemMaxMana */
-     , (6945, 109,        140) /* ItemDifficulty */
+     , (6945, 109,        135) /* ItemDifficulty */
      , (6945, 114,          1) /* Attuned - Attuned */
-     , (6945, 115,        210) /* ItemSkillLevelLimit */
      , (6945, 150,        103) /* HookPlacement - Hook */
      , (6945, 151,          2) /* HookType - Wall */
+     , (6945, 158,          2) /* WieldRequirements - RawSkill */
+     , (6945, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (6945, 160,        210) /* WieldDifficulty */
      , (6945, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,8 +58,7 @@ VALUES (6945,   1, 0x02000878) /* Setup */
      , (6945,   6, 0x04000FA5) /* PaletteBase */
      , (6945,   7, 0x10000222) /* ClothingBase */
      , (6945,   8, 0x06001CCD) /* Icon */
-     , (6945,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6945,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6945,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6945,   464,      2)  /* Missile Weapon Mastery Other IV */

@@ -16,7 +16,7 @@ VALUES (33991,   1,        256) /* ItemType - MissileWeapon */
      , (33991,  45,          0) /* DamageType - Undef */
      , (33991,  46,         16) /* DefaultCombatStyle - Bow */
      , (33991,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (33991,  49,          0) /* WeaponTime */
+     , (33991,  49,         35) /* WeaponTime */
      , (33991,  50,          1) /* AmmoType - Arrow */
      , (33991,  51,          2) /* CombatUse - Missile */
      , (33991,  52,          2) /* ParentLocation - LeftHand */
