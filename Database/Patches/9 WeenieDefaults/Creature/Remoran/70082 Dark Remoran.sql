@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70082;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70082, 'ace70082-darkremoran', 10, '2022-03-27 01:45:30') /* Creature */;
+VALUES (70082, 'ace70082-darkremoran', 10, '2022-06-06 04:05:48') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70082,   1,         16) /* ItemType - Creature */
@@ -67,7 +67,8 @@ VALUES (70082,   1,       5) /* HeartbeatInterval */
      , (70082, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70082,   1, 'Dark Remoran') /* Name */;
+VALUES (70082,   1, 'Dark Remoran') /* Name */
+     , (70082,  45, 'KillTaskMGHRemoran') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70082,   1, 0x02001494) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23093;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23093, 'tumeroktranscendant', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (23093, 'tumeroktranscendant', 10, '2022-06-06 04:05:48') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23093,   1,         16) /* ItemType - Creature */
@@ -65,7 +65,8 @@ VALUES (23093,   1,       5) /* HeartbeatInterval */
      , (23093, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23093,   1, 'Transcendent Tumerok') /* Name */;
+VALUES (23093,   1, 'Transcendent Tumerok') /* Name */
+     , (23093,  45, 'KillTaskMGHTumerok') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23093,   1, 0x02001400) /* Setup */
