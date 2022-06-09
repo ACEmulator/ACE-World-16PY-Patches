@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x586A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586A000,  7924, 0x586A0148, 281.801, -255.27, 0.055, 1, 0, 0, 0, False, '2021-06-24 14:33:38'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x7586A000,  7926, 0x586A0148, 281.801, -255.27, 0.055, 1, 0, 0, 0, False, '2021-06-24 14:33:38'); /* Linkable Monster Generator ( 20 Min.) */
 /* @teleloc 0x586A0148 [281.800995 -255.270004 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -433,5 +433,5 @@ VALUES (0x7586A071, 72434, 0x586A01AC, 550, -176.357, -0.063, 1, 0, 0, 0, False,
 /* @teleloc 0x586A01AC [550.000000 -176.356995 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586A072, 51287, 0x586A0157, 303.987, -40.0479, 0.029, 1, -0, -0, -0,  True, '2021-11-10 11:39:18'); /* Virindi Clandestine */
-/* @teleloc 0x586A0157 [303.987000 -40.047901 0.029000] 1.000000 -0.000000 -0.000000 -0.000000 */
+VALUES (0x7586A072, 51287, 0x586A0157, 303.987, -40.0479, 0.029, 1, 0, 0, 0,  True, '2021-11-10 11:39:18'); /* Virindi Clandestine */
+/* @teleloc 0x586A0157 [303.987000 -40.047901 0.029000] 1.000000 0.000000 0.000000 0.000000 */
