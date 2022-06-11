@@ -5,6 +5,7 @@ VALUES (36181, 'ace36181-freezingpool', 13, '2022-01-08 18:29:57') /* HotSpot */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36181,   1,        128) /* ItemType - Misc */
+     , (36181,   3,          2) /* PaletteTemplate - Blue */
      , (36181,   5,          1) /* EncumbranceVal */
      , (36181,  16,          1) /* ItemUseable - No */
      , (36181,  19,          1) /* Value */
@@ -21,7 +22,8 @@ VALUES (36181,   1, True ) /* Stuck */
      , (36181,  57, False) /* AffectsAis */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36181,  22,    0.15) /* DamageVariance */
+VALUES (36181,  12,     0.5) /* Shade */
+     , (36181,  22,    0.15) /* DamageVariance */
      , (36181,  39,       2) /* DefaultScale */
      , (36181, 105,       3) /* HotspotCycleTime */
      , (36181, 106,     0.2) /* HotspotCycleTimeVariance */;
@@ -34,4 +36,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36181,   1, 0x02000FBD) /* Setup */
      , (36181,   3, 0x20000014) /* SoundTable */
      , (36181,   6, 0x0400160E) /* PaletteBase */
+     , (36181,   7, 0x100004C8) /* ClothingBase */
      , (36181,   8, 0x06002D41) /* Icon */;
