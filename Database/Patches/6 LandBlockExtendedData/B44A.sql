@@ -81,5 +81,5 @@ VALUES (0x7B44A19F, 70851, 0xB44A0016, 61.2322, 127.614, 116.055, -0.369605, 0, 
 /* @teleloc 0xB44A0016 [61.232201 127.613998 116.055000] -0.369605 0.000000 0.000000 0.929189 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B44A1A0, 70851, 0xB44A001A, 75.8563, 46.95781, 115.4123, 0.235046, 0, 0, 0.971984, False, '2022-06-08 15:09:46'); /* Viridian Entrance Camp Gen */
-/* @teleloc 0xB44A001A [75.856300 46.957809 115.412300] 0.235046 0.000000 0.000000 0.971984 */
+VALUES (0x7B44A1A0, 70851, 0xB44A001A, 75.8563, 46.9578, 115.412, 0.235046, 0, 0, 0.971984, False, '2022-06-08 15:09:46'); /* Viridian Entrance Camp Gen */
+/* @teleloc 0xB44A001A [75.856300 46.957802 115.412003] 0.235046 0.000000 0.000000 0.971984 */

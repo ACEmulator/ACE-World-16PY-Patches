@@ -23,5 +23,5 @@ VALUES (72738,   1, 'Bar of Curved Metal') /* Name */
      , (72738,  16, 'A thick metal pipe. This appears to have been bent with a purpose.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72738,   1,   33555677) /* Setup */
-     , (72738,   8,  100693102) /* Icon */;
+VALUES (72738,   1, 0x020004DD) /* Setup */
+     , (72738,   8, 0x0600746E) /* Icon */;

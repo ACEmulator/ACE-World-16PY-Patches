@@ -23,7 +23,7 @@ VALUES (72430,   1, 'Olthoi Hive Queen Carapace') /* Name */
      , (72430,  15, 'A carapace torn from the Olthoi Hive Queen.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72430,   1,   33556593) /* Setup */
-     , (72430,   3,  536870932) /* SoundTable */
-     , (72430,   8,  100674517) /* Icon */
-     , (72430,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72430,   1, 0x02000871) /* Setup */
+     , (72430,   3, 0x20000014) /* SoundTable */
+     , (72430,   8, 0x06002BD5) /* Icon */
+     , (72430,  22, 0x3400002B) /* PhysicsEffectTable */;

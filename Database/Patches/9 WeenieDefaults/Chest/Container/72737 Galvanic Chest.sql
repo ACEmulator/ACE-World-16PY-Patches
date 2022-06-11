@@ -41,13 +41,13 @@ VALUES (72737,   1, 'Galvanic Chest') /* Name */
      , (72737,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72737,   1,   33557001) /* Setup */
-     , (72737,   2,  150995121) /* MotionTable */
-     , (72737,   3,  536871023) /* SoundTable */
-     , (72737,   6,   67111346) /* PaletteBase */
-     , (72737,   7,  268436149) /* ClothingBase */
-     , (72737,   8,  100671463) /* Icon */
-     , (72737,  22,  872737275) /* PhysicsEffectTable */
+VALUES (72737,   1, 0x02000A09) /* Setup */
+     , (72737,   2, 0x090000B1) /* MotionTable */
+     , (72737,   3, 0x2000006F) /* SoundTable */
+     , (72737,   6, 0x040009B2) /* PaletteBase */
+     , (72737,   7, 0x100002B5) /* ClothingBase */
+     , (72737,   8, 0x06001FE7) /* Icon */
+     , (72737,  22, 0x3404E9FB) /* PhysicsEffectTable */
      , (72737,  28,       5972) /* Spell - Galvanic Bomb */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

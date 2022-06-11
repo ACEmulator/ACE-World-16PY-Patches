@@ -177,5 +177,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72428, 9, 72429,  0, 0, 1, False) /* Create Olthoi Hive Queen''s Remains (72429) for ContainTreasure */
-     , (72428, 2, 72686, 10, 0, 0, False) /* Create Corrosive Bolt (72686) for Wield */;
+VALUES (72428, 2, 72686, 10, 0, 0, False) /* Create Corrosive Bolt (72686) for Wield */
+     , (72428, 9, 72429,  0, 0, 1, False) /* Create Olthoi Hive Queen''s Remains (72429) for ContainTreasure */;

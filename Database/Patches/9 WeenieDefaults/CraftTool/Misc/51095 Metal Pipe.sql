@@ -23,5 +23,5 @@ VALUES (51095,   1, 'Metal Pipe') /* Name */
      , (51095,  16, 'A thick metal pipe. This looks like it was once a handle to something.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51095,   1,   33555677) /* Setup */
-     , (51095,   8,  100693103) /* Icon */;
+VALUES (51095,   1, 0x020004DD) /* Setup */
+     , (51095,   8, 0x0600746F) /* Icon */;

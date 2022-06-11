@@ -1,3 +1,4 @@
 DELETE FROM `event` WHERE `name` = 'NorthEastHighSwarmB';
+
 INSERT INTO `event` (`name`, `start_Time`, `end_Time`, `state`, `last_Modified`)
-VALUES ('NorthEastHighSwarmB', -1, -1, 3, '2020-01-24 19:57:17');
+VALUES ('NorthEastHighSwarmB', -1, -1, 3 /* GameEventState.Off */, '2020-01-24 19:57:17');

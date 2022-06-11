@@ -495,7 +495,7 @@ VALUES (0x7586B077, 72438, 0x586B0169, 203.127, -170, -36.063, 0.707107, 0, 0, 0
 /* @teleloc 0x586B0169 [203.126999 -170.000000 -36.063000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586B078, 72684, 0x586B0107, 210, -23.643, -60.063, 1, 0, 0, 0, False, '2021-11-06 09:16:00');
+VALUES (0x7586B078, 72684, 0x586B0107, 210, -23.643, -60.063, 1, 0, 0, 0, False, '2021-11-06 09:16:00'); /* Surface */
 /* @teleloc 0x586B0107 [210.000000 -23.643000 -60.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -548,24 +548,24 @@ VALUES (0x7586B084, 48742, 0x586B010D, 223, -6.5, -59.945, 1, 0, 0, 0, False, '2
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586B085, 48744, 0x586B0105, 207, -1, -59.945, 1, 0, 0, 0, False, '2021-11-06 09:52:18'); /* Legendary Weapon Chest */
-/* @teleloc 0x586B0105 [206.544006 -0.780684 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x586B0105 [207.000000 -1.000000 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586B086, 48744, 0x586B0105, 210, -1, -59.945, 1, 0, 0, 0, False, '2021-11-06 09:52:24'); /* Legendary Weapon Chest */
-/* @teleloc 0x586B0105 [210.244995 -0.821891 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x586B0105 [210.000000 -1.000000 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586B087, 48744, 0x586B0105, 213, -1, -59.945, 1, 0, 0, 0, False, '2021-11-06 09:52:30'); /* Legendary Weapon Chest */
-/* @teleloc 0x586B0105 [213.690002 -1.067860 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x586B0105 [213.000000 -1.000000 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586B088, 48744, 0x586B0105, 213, 2.5, -59.945, 1, 0, 0, 0, False, '2021-11-06 09:52:40'); /* Legendary Weapon Chest */
-/* @teleloc 0x586B0105 [213.751007 2.573550 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x586B0105 [213.000000 2.500000 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586B089, 48744, 0x586B0105, 210, 2.5, -59.945, 1, 0, 0, 0, False, '2021-11-06 09:52:46'); /* Legendary Weapon Chest */
-/* @teleloc 0x586B0105 [210.279007 2.407680 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x586B0105 [210.000000 2.500000 -59.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586B08A, 48744, 0x586B0105, 207, 2.5, -59.945, 1, -0, -0, -0, False, '2021-11-06 09:52:51'); /* Legendary Weapon Chest */
-/* @teleloc 0x586B0105 [206.914993 2.673750 -59.945000] 1.000000 -0.000000 -0.000000 -0.000000 */
+VALUES (0x7586B08A, 48744, 0x586B0105, 207, 2.5, -59.945, 1, 0, 0, 0, False, '2021-11-06 09:52:51'); /* Legendary Weapon Chest */
+/* @teleloc 0x586B0105 [207.000000 2.500000 -59.945000] 1.000000 0.000000 0.000000 0.000000 */

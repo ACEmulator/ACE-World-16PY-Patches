@@ -31,4 +31,4 @@ VALUES (11198, -1, 11105, 180, 1, 1, 1, 4, -1, 0, 0, 0, -2, 2, 0, 1, 0, 0, 0) /*
      , (11198, -1, 11102, 180, 1, 1, 1, 4, -1, 0, 0, 0, -1, -1, 0, 1, 0, 0, 0) /* Generate Southeast Marae Full Invasion Gen (11102) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (11198, -1, 11119, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, 1, 0, 0, 0) /* Generate Southeast Marae Local Gen (11119) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (11198, -1, 11120, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0) /* Generate Southeast Marae Peace Gen (11120) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11198, -1, 72732, 180, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, 1, 0, 0, 0) /* Generate Southeast Marae High Master Gen (72731) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (11198, -1, 72732, 180, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, 1, 0, 0, 0) /* Generate Southeast Marae High Master Gen (72732) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

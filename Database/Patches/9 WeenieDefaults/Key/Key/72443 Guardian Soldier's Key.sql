@@ -29,9 +29,9 @@ VALUES (72443,   1, 'Guardian Soldier''s Key') /* Name */
      , (72443,  16, 'A key to the door the Olthoi Hive Guardian was guarding.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72443,   1,   33557000) /* Setup */
-     , (72443,   3,  536870932) /* SoundTable */
-     , (72443,   6,   67111346) /* PaletteBase */
-     , (72443,   7,  268436150) /* ClothingBase */
-     , (72443,   8,  100671458) /* Icon */
-     , (72443,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72443,   1, 0x02000A08) /* Setup */
+     , (72443,   3, 0x20000014) /* SoundTable */
+     , (72443,   6, 0x040009B2) /* PaletteBase */
+     , (72443,   7, 0x100002B6) /* ClothingBase */
+     , (72443,   8, 0x06001FE2) /* Icon */
+     , (72443,  22, 0x3400002B) /* PhysicsEffectTable */;

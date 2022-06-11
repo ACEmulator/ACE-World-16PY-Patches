@@ -241,8 +241,8 @@ VALUES (0x75869032, 72434, 0x5869010D, 95.5352, -60, -18.063, 1, 0, 0, 0, False,
 /* @teleloc 0x5869010D [95.535202 -60.000000 -18.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75869033, 72685, 0x58690107, 84.5304, -71.5201, -17.945, 1, -0, -0, -0, False, '2021-11-06 12:10:52'); /* Hive Eviscerator Sprayer Gen */
-/* @teleloc 0x58690107 [84.530403 -71.520103 -17.945000] 1.000000 -0.000000 -0.000000 -0.000000 */
+VALUES (0x75869033, 72685, 0x58690107, 84.5304, -71.5201, -17.945, 1, 0, 0, 0, False, '2021-11-06 12:10:52'); /* Hive Eviscerator Sprayer Gen */
+/* @teleloc 0x58690107 [84.530403 -71.520103 -17.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x75869033, 0x75869028, '2021-06-24 14:20:20') /* Olthoi Hive Eviscerator (72418) */

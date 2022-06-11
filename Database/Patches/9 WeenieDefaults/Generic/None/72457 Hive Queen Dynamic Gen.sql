@@ -1,4 +1,4 @@
-DELETE FROM `weenie` WHERE `class_Id` = 72457; 
+DELETE FROM `weenie` WHERE `class_Id` = 72457;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (72457, 'ace72457-hivequeendynamicgen', 1, '2020-08-22 07:58:24') /* Generic */;
@@ -24,8 +24,8 @@ VALUES (72457,   1, 'Hive Queen Dynamic Gen') /* Name */
      , (72457,  34, 'HiveQueenDynamic') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72457,   1,   33555051) /* Setup */
-     , (72457,   8,  100667494) /* Icon */;
+VALUES (72457,   1, 0x0200026B) /* Setup */
+     , (72457,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72457, -1, 72428, 180, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Olthoi Hive Queen Dynamic (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (72457, -1, 72428, 180, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Olthoi Hive Queen (72428) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

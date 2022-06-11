@@ -71,14 +71,6 @@ VALUES (72425,   1, 0x02000F3D) /* Setup */
      , (72425,  30,         86) /* PhysicsScript - BreatheAcid */
      , (72425,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72425,  0,  4,100, 0.75,  275,  137,  137,  137,  137,  137,  137,  137,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (72425, 16,  4,  0,    0,  225,  112,  112,  112,  112,  112,  112,  112,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
-     , (72425, 18,  4,100, 0.75,  225,  112,  112,  112,  112,  112,  112,  112,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
-     , (72425, 19,  4,100,    0,  225,  112,  112,  112,  112,  112,  112,  112,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
-     , (72425, 20,  4,100, 0.75,  225,  112,  112,  112,  112,  112,  112,  112,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
-     , (72425, 22, 32,200,  0.5,  275,  137,  137,  137,  137,  137,  137,  137,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Breath */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72425,   1, 250, 0, 0) /* Strength */
      , (72425,   2, 250, 0, 0) /* Endurance */
@@ -90,21 +82,28 @@ VALUES (72425,   1, 250, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (72425,   1,  1530, 0, 0, 1655) /* MaxHealth */
      , (72425,   3,  2540, 0, 0, 2790) /* MaxStamina */
-     , (72425,   5,     0, 0, 0,  150) /* MaxMana */;
+     , (72425,   5,     0, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72425,  6, 0, 3, 0, 532, 0, 0) /* MeleeDefense         Specialized */
-     , (72425,  7, 0, 3, 0, 590, 0, 0) /* MissileDefense       Specialized */
-     , (72425, 15, 0, 3, 0, 363, 0, 0) /* MagicDefense         Specialized */
-     , (72425, 31, 0, 3, 0, 330, 0, 0) /* CreatureEnchantment  Specialized */
-     , (72425, 32, 0, 3, 0, 330, 0, 0) /* ItemEnchantment      Specialized */
-     , (72425, 33, 0, 3, 0, 330, 0, 0) /* LifeMagic            Specialized */
-     , (72425, 43, 0, 3, 0, 330, 0, 0) /* VoidMagic            Specialized */
-     , (72425, 45, 0, 3, 0, 184, 0, 0) /* LightWeapons         Specialized */;
+VALUES (72425,  6, 0, 3, 0, 532, 0, 0) /* MeleeDefense        Specialized */
+     , (72425,  7, 0, 3, 0, 590, 0, 0) /* MissileDefense      Specialized */
+     , (72425, 15, 0, 3, 0, 363, 0, 0) /* MagicDefense        Specialized */
+     , (72425, 31, 0, 3, 0, 330, 0, 0) /* CreatureEnchantment Specialized */
+     , (72425, 32, 0, 3, 0, 330, 0, 0) /* ItemEnchantment     Specialized */
+     , (72425, 33, 0, 3, 0, 330, 0, 0) /* LifeMagic           Specialized */
+     , (72425, 43, 0, 3, 0, 330, 0, 0) /* VoidMagic           Specialized */
+     , (72425, 45, 0, 3, 0, 184, 0, 0) /* LightWeapons        Specialized */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (72425,  0,  4, 100, 0.75,  275,  137,  137,  137,  137,  137,  137,  137,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+     , (72425, 16,  4,  0,    0,  225,  112,  112,  112,  112,  112,  112,  112,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
+     , (72425, 18,  4, 100, 0.75,  225,  112,  112,  112,  112,  112,  112,  112,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
+     , (72425, 19,  4, 100,    0,  225,  112,  112,  112,  112,  112,  112,  112,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
+     , (72425, 20,  4, 100, 0.75,  225,  112,  112,  112,  112,  112,  112,  112,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
+     , (72425, 22, 32, 200,  0.5,  275,  137,  137,  137,  137,  137,  137,  137,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72425,  3091,    2.2) /* Thin Skin */
-     , (72425,  4411,   2.25) /* Incantation of Lure Blade */
-     , (72425,  4483,    2.5) /* Incantation of Lightning Vulnerability Other */
-     , (72425,  4633,  2.333) /* Incantation of Vulnerability Other */;
-
+VALUES (72425,  3091,    2.2)  /* Thin Skin */
+     , (72425,  4411,   2.25)  /* Incantation of Lure Blade */
+     , (72425,  4483,    2.5)  /* Incantation of Lightning Vulnerability Other */
+     , (72425,  4633,  2.333)  /* Incantation of Vulnerability Other */;

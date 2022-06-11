@@ -75,14 +75,6 @@ VALUES (72715,   1, 0x02000AAA) /* Setup */
      , (72715,  30,         87) /* PhysicsScript - BreatheLightning */
      , (72715,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72715,  0,  4,   0,    0,  470,   85,   85,   85,   85,   85,   85,   85,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (72715, 16,  4,   0,    0,  450,  125,  125,  125,  125,  125,  125,  125,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
-     , (72715, 18,  4, 250,  0.5,  450,  100,  100,  100,  100,  100,  100,  100,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
-     , (72715, 19,  4,   0,    0,  450,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
-     , (72715, 20,  2, 250, 0.75,  420,  110,  110,  110,  110,  110,  110,  110,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
-     , (72715, 22, 64, 300,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72715,   1, 390, 0, 0) /* Strength */
      , (72715,   2, 390, 0, 0) /* Endurance */
@@ -94,13 +86,21 @@ VALUES (72715,   1, 390, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (72715,   1,  4555, 0, 0, 4750) /* MaxHealth */
      , (72715,   3,  3100, 0, 0, 3490) /* MaxStamina */
-     , (72715,   5,     0, 0, 0,  150) /* MaxMana */;
+     , (72715,   5,     0, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (72715,  6, 0, 2, 0, 380, 0, 0) /* MeleeDefense        Trained */
      , (72715,  7, 0, 2, 0, 400, 0, 0) /* MissileDefense      Trained */
      , (72715, 15, 0, 2, 0, 350, 0, 0) /* MagicDefense        Trained */
      , (72715, 45, 0, 2, 0, 440, 0, 0) /* LightWeapons        Trained */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (72715,  0,  4,  0,    0,  470,   85,   85,   85,   85,   85,   85,   85,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+     , (72715, 16,  4,  0,    0,  450,  125,  125,  125,  125,  125,  125,  125,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
+     , (72715, 18,  4, 250,  0.5,  450,  100,  100,  100,  100,  100,  100,  100,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
+     , (72715, 19,  4,  0,    0,  450,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
+     , (72715, 20,  2, 250, 0.75,  420,  110,  110,  110,  110,  110,  110,  110,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
+     , (72715, 22, 64, 300,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72715,  3 /* Death */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

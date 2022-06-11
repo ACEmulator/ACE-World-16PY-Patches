@@ -18,14 +18,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72439,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72439,  1, 'Queen''s Treasury') /* Name */
-     , (72439, 37, 'IDOQCompleted_0413') /* QuestRestrict */;
+VALUES (72439,   1, 'Queen''s Treasury') /* Name */
+     , (72439,  37, 'IDOQCompleted_0413') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72439,   1,   33556212) /* Setup */
-     , (72439,   2,  150994947) /* MotionTable */
-     , (72439,   8,  100667499) /* Icon */;
+VALUES (72439,   1, 0x020006F4) /* Setup */
+     , (72439,   2, 0x09000003) /* MotionTable */
+     , (72439,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72439, 2, 1483407622, 210.000000, -10.000000, -59.910000, 0.000000, 0.000000, 0.000000, -1.000000) /* Destination */
+VALUES (72439, 2, 0x586B0106, 210, -10, -59.91, 0, 0, 0, -1) /* Destination */
 /* @teleloc 0x586B0106 [210.000000 -10.000000 -59.910000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72448;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72448, 'ace72448-lockeddoor', 19, '2005-02-09 10:00:00') /* Door */;
+VALUES (72448, 'ace72448-door', 19, '2005-02-09 10:00:00') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72448,   1,        128) /* ItemType - Misc */
@@ -32,8 +32,8 @@ VALUES (72448,   1, 'Door') /* Name */
      , (72448,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72448,   1,   33555023) /* Setup */
-     , (72448,   2,  150994966) /* MotionTable */
-     , (72448,   3,  536870946) /* SoundTable */
-     , (72448,   8,  100668183) /* Icon */
-     , (72448,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72448,   1, 0x0200024F) /* Setup */
+     , (72448,   2, 0x09000016) /* MotionTable */
+     , (72448,   3, 0x20000022) /* SoundTable */
+     , (72448,   8, 0x06001317) /* Icon */
+     , (72448,  22, 0x3400002B) /* PhysicsEffectTable */;
