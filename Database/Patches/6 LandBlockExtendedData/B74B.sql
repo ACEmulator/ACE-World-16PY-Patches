@@ -25,3 +25,7 @@ VALUES (0x7B74B021, 0x7B74B01D, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (533
      , (0x7B74B021, 0x7B74B01E, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
      , (0x7B74B021, 0x7B74B01F, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */
      , (0x7B74B021, 0x7B74B020, '2021-11-01 00:00:00') /* Sath'tik Eyestalk (53375) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B74B022, 70846, 0xB74B0009, 24.18103, 14.77004, 116.055, 0.972942, 0, 0, 0.231048, False, '2022-06-07 16:30:20'); /* Viridian Outer Camp Gen */
+/* @teleloc 0xB74B0009 [24.181030 14.770040 116.055000] 0.972942 0.000000 0.000000 0.231048 */

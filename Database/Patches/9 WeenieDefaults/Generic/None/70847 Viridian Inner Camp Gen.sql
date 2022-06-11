@@ -14,8 +14,8 @@ VALUES (70847,   1, True ) /* Stuck */
      , (70847,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70847,  41,     180) /* RegenerationInterval */
-     , (70847,  43,      20) /* GeneratorRadius */;
+VALUES (70847,  41,     300) /* RegenerationInterval */
+     , (70847,  43,      15) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70847,   1, 'Viridian Inner Camp Gen') /* Name */;
