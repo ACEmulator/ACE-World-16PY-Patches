@@ -24,10 +24,13 @@ VALUES (87746,   1,        256) /* ItemType - MissileWeapon */
      , (87746,  60,        192) /* WeaponRange */
      , (87746,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87746, 106,        200) /* ItemSpellcraft */
-     , (87746, 107,        500) /* ItemCurMana */
+     , (87746, 107,          0) /* ItemCurMana */
      , (87746, 108,        500) /* ItemMaxMana */
      , (87746, 109,        100) /* ItemDifficulty */
      , (87746, 114,          1) /* Attuned - Attuned */
+     , (87746, 115,        170) /* ItemSkillLevelLimit */
+     , (87746, 150,        103) /* HookPlacement - Hook */
+     , (87746, 151,          2) /* HookType - Wall */
      , (87746, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,7 +57,8 @@ VALUES (87746,   1, 0x02001722) /* Setup */
      , (87746,   6, 0x04000FA5) /* PaletteBase */
      , (87746,   7, 0x100006E1) /* ClothingBase */
      , (87746,   8, 0x060066AA) /* Icon */
-     , (87746,  22, 0x3400002B) /* PhysicsEffectTable */;
+     , (87746,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (87746,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87746,   463,      2)  /* Missile Weapon Mastery Other III */

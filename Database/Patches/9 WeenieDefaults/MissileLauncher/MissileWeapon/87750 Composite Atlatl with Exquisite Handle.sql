@@ -21,10 +21,11 @@ VALUES (87750,   1,        256) /* ItemType - MissileWeapon */
      , (87750,  51,          2) /* CombatUse - Missile */
      , (87750,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87750, 106,        450) /* ItemSpellcraft */
-     , (87750, 107,       1200) /* ItemCurMana */
+     , (87750, 107,          0) /* ItemCurMana */
      , (87750, 108,       1200) /* ItemMaxMana */
      , (87750, 109,        250) /* ItemDifficulty */
      , (87750, 114,          1) /* Attuned - Attuned */
+     , (87750, 150,        103) /* HookPlacement - Hook */
      , (87750, 151,          2) /* HookType - Wall */
      , (87750, 158,          2) /* WieldRequirements - RawSkill */
      , (87750, 159,         47) /* WieldSkillType - MissileWeapons */
@@ -44,7 +45,8 @@ VALUES (87750,   5,   -0.05) /* ManaRate */
      , (87750,  62,     1.2) /* WeaponOffense */
      , (87750,  63,     2.7) /* DamageMod */
      , (87750, 136,       3) /* CriticalMultiplier */
-     , (87750, 155,    1.18) /* IgnoreArmor */;
+     , (87750, 155,    1.18) /* IgnoreArmor */
+     , (87750, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87750,   1, 'Composite Atlatl with Exquisite Handle') /* Name */;

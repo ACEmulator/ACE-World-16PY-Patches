@@ -28,9 +28,11 @@ VALUES (6998,   1,        256) /* ItemType - MissileWeapon */
      , (6998, 108,        500) /* ItemMaxMana */
      , (6998, 109,        170) /* ItemDifficulty */
      , (6998, 114,          1) /* Attuned - Attuned */
-     , (6998, 115,        240) /* ItemSkillLevelLimit */
      , (6998, 150,        103) /* HookPlacement - Hook */
      , (6998, 151,          2) /* HookType - Wall */
+     , (6998, 158,          2) /* WieldRequirements - RawSkill */
+     , (6998, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (6998, 160,        240) /* WieldDifficulty */
      , (6998, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,7 +47,9 @@ VALUES (6998,   5,   -0.05) /* ManaRate */
      , (6998,  29,    1.02) /* WeaponDefense */
      , (6998,  39,    1.25) /* DefaultScale */
      , (6998,  62,    1.06) /* WeaponOffense */
-     , (6998,  63,     2.2) /* DamageMod */;
+     , (6998,  63,     2.2) /* DamageMod */
+     , (6998, 155,    1.15) /* IgnoreArmor */
+     , (6998, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6998,   1, 'Composite Crossbow with Handle') /* Name */;
@@ -57,8 +61,11 @@ VALUES (6998,   1, 0x02000874) /* Setup */
      , (6998,   7, 0x10000224) /* ClothingBase */
      , (6998,   8, 0x06001CE3) /* Icon */
      , (6998,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6998,  37,          3) /* ItemSkillLimit - Crossbow */;
+     , (6998,  55,       1492) /* ProcSpell - Brittlemail VI */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6998,   489,      2)  /* Missile Weapon Mastery Other V */
-     , (6998,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (6998,  1605,      2)  /* Aura of Defender Self VI */
+     , (6998,  2058,      2)  /* Boon of Refinement */
+     , (6998,  2096,      2)  /* Aura of Infected Caress */
+     , (6998,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (6998,  2206,      2)  /* Missile Weapon Mastery Other VII */;

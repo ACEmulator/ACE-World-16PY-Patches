@@ -28,9 +28,11 @@ VALUES (6902,   1,        256) /* ItemType - MissileWeapon */
      , (6902, 108,        500) /* ItemMaxMana */
      , (6902, 109,        170) /* ItemDifficulty */
      , (6902, 114,          1) /* Attuned - Attuned */
-     , (6902, 115,        240) /* ItemSkillLevelLimit */
      , (6902, 150,        103) /* HookPlacement - Hook */
      , (6902, 151,          2) /* HookType - Wall */
+     , (6902, 158,          2) /* WieldRequirements - RawSkill */
+     , (6902, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (6902, 160,        240) /* WieldDifficulty */
      , (6902, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,7 +47,9 @@ VALUES (6902,   5,   -0.05) /* ManaRate */
      , (6902,  29,    1.02) /* WeaponDefense */
      , (6902,  39,     1.1) /* DefaultScale */
      , (6902,  62,    1.06) /* WeaponOffense */
-     , (6902,  63,     1.4) /* DamageMod */;
+     , (6902,  63,     1.4) /* DamageMod */
+     , (6902, 155,    1.15) /* IgnoreArmor */
+     , (6902, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6902,   1, 'Composite Bow with Handle') /* Name */;
@@ -57,8 +61,11 @@ VALUES (6902,   1, 0x02000878) /* Setup */
      , (6902,   7, 0x10000222) /* ClothingBase */
      , (6902,   8, 0x06001CCD) /* Icon */
      , (6902,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6902,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6902,  55,       1492) /* ProcSpell - Brittlemail VI */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6902,   465,      2)  /* Missile Weapon Mastery Other V */
-     , (6902,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (6902,  1605,      2)  /* Aura of Defender Self VI */
+     , (6902,  2058,      2)  /* Boon of Refinement */
+     , (6902,  2096,      2)  /* Aura of Infected Caress */
+     , (6902,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (6902,  2206,      2)  /* Missile Weapon Mastery Other VII */;
