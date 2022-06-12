@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7026;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7026, 'crossbowcompositedmg3def1spd3atk3', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (7026, 'crossbowcompositedmg3def1spd3atk3', 3, '2022-06-11 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7026,   1,        256) /* ItemType - MissileWeapon */
@@ -28,11 +28,9 @@ VALUES (7026,   1,        256) /* ItemType - MissileWeapon */
      , (7026, 108,        500) /* ItemMaxMana */
      , (7026, 109,        170) /* ItemDifficulty */
      , (7026, 114,          1) /* Attuned - Attuned */
+     , (7026, 115,        240) /* ItemSkillLevelLimit */
      , (7026, 150,        103) /* HookPlacement - Hook */
      , (7026, 151,          2) /* HookType - Wall */
-     , (7026, 158,          2) /* WieldRequirements - RawSkill */
-     , (7026, 159,         47) /* WieldSkillType - MissileWeapons */
-     , (7026, 160,        240) /* WieldDifficulty */
      , (7026, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,9 +45,7 @@ VALUES (7026,   5,   -0.05) /* ManaRate */
      , (7026,  29,    1.02) /* WeaponDefense */
      , (7026,  39,    1.25) /* DefaultScale */
      , (7026,  62,    1.06) /* WeaponOffense */
-     , (7026,  63,     2.4) /* DamageMod */
-     , (7026, 155,    1.15) /* IgnoreArmor */
-     , (7026, 156,    0.05) /* ProcSpellRate */;
+     , (7026,  63,     2.4) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7026,   1, 'Composite Crossbow with Handle') /* Name */;
@@ -61,11 +57,8 @@ VALUES (7026,   1, 0x02000874) /* Setup */
      , (7026,   7, 0x10000224) /* ClothingBase */
      , (7026,   8, 0x06001CE3) /* Icon */
      , (7026,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (7026,  55,       1492) /* ProcSpell - Brittlemail VI */;
+     , (7026,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7026,  1605,      2)  /* Aura of Defender Self VI */
-     , (7026,  2058,      2)  /* Boon of Refinement */
-     , (7026,  2096,      2)  /* Aura of Infected Caress */
-     , (7026,  2116,      2)  /* Aura of Atlan's Alacrity */
-     , (7026,  2206,      2)  /* Missile Weapon Mastery Other VII */;
+VALUES (7026,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (7026,   489,      2)  /* Missile Weapon Mastery Other V */;
