@@ -34,4 +34,5 @@ VALUES (5300, 33984 /* Fine Bone Handle */,  6895 /* Composite Bow */, '2021-11-
      , (5300, 33984 /* Fine Bone Handle */,  6951 /* Composite Bow */, '2021-11-17 16:56:08')
      , (5300, 33984 /* Fine Bone Handle */,  6955 /* Composite Bow */, '2021-11-17 16:56:08')
      , (5300, 33984 /* Fine Bone Handle */,  6959 /* Composite Bow */, '2021-11-17 16:56:08')
-     , (5300, 33984 /* Fine Bone Handle */,  6963 /* Composite Bow */, '2021-11-17 16:56:08');
+     , (5300, 33984 /* Fine Bone Handle */,  6963 /* Composite Bow */, '2021-11-17 16:56:08')
+     , (5300, 33984 /* Fine Bone Handle */, 33997 /* Composite Bow */, '2021-11-17 16:56:08');

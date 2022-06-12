@@ -34,4 +34,5 @@ VALUES (5303, 33984 /* Fine Bone Handle */,  6967 /* Composite Crossbow */, '202
      , (5303, 33984 /* Fine Bone Handle */,  7023 /* Composite Crossbow */, '2021-11-17 16:56:08')
      , (5303, 33984 /* Fine Bone Handle */,  7027 /* Composite Crossbow */, '2021-11-17 16:56:08')
      , (5303, 33984 /* Fine Bone Handle */,  7031 /* Composite Crossbow */, '2021-11-17 16:56:08')
-     , (5303, 33984 /* Fine Bone Handle */,  7035 /* Composite Crossbow */, '2021-11-17 16:56:08');
+     , (5303, 33984 /* Fine Bone Handle */,  7035 /* Composite Crossbow */, '2021-11-17 16:56:08')
+     , (5303, 33984 /* Fine Bone Handle */, 33999 /* Composite Crossbow */, '2021-11-17 16:56:08');
