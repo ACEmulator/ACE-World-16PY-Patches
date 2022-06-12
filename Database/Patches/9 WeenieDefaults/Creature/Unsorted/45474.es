@@ -1,16 +1,16 @@
 Refuse: Mastery Reset Certificate (46422)
     - InqIntStat: RangedMastery, 9 - 9
         TestSuccess:
-            - DirectBroadcast: You are already a Master of CrossCrossbows.
+            - DirectBroadcast: You are already a Master of Crossbows.
         TestFailure:
-            - InqYesNo: Would you like to change your mastery to CrossCrossbows?
+            - InqYesNo: Would you like to change your mastery to Crossbows?
                 TestSuccess:
                     - InqOwnsItems: Mastery Reset Certificate (46422)
                         TestSuccess:
                             - TakeItems: Mastery Reset Certificate (46422), 1
                             - Goto: DoMasteryChange
                 TestFailure:
-                    - DirectBroadcast: Give the Mastery Reset Certificate to the statue again if wish to change your mastery to CrossCrossbows.
+                    - DirectBroadcast: Give the Mastery Reset Certificate to the statue again if wish to change your mastery to Crossbows.
 
 Use:
     - InqIntStat: RangedMastery, 9 - 9
@@ -175,4 +175,4 @@ GotoSet: StampAndDoMasteryChange
 
 GotoSet: DoMasteryChange
     - SetIntStat: RangedMastery, 9
-    - DirectBroadcast: You are now a Master of CrossCrossbows.
+    - DirectBroadcast: You are now a Master of Crossbows.
