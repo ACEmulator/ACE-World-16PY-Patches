@@ -57,6 +57,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33997,   1, 0x02000878) /* Setup */
      , (33997,   3, 0x20000014) /* SoundTable */
      , (33997,   6, 0x04000FA5) /* PaletteBase */
+     , (33997,   7, 0x10000222) /* ClothingBase */
      , (33997,   8, 0x06001CCE) /* Icon */
      , (33997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33997,  55,       1492) /* ProcSpell - Brittlemail VI */;
