@@ -15,7 +15,7 @@ Refuse: Mastery Reset Certificate (46422)
 Use:
     - InqIntStat: MeleeMastery, 6 - 6
         TestSuccess:
-            - DirectBroadcast: You are already a Master of Swords.
+            - DirectBroadcast: You are already a Master of Daggers.
         TestFailure:
             - InqQuest: UsedFreeMeleeMasteryReset
                 QuestSuccess:
@@ -33,7 +33,7 @@ Use:
                                                         TestSuccess:
                                                             - InqInt64Stat: AvailableLuminance, 100,000 - 1,500,000
                                                                 TestSuccess:
-                                                                    - InqYesNo: Would you like to change your mastery to Swords for 10 MMDs and 100,000 luminance?
+                                                                    - InqYesNo: Would you like to change your mastery to Daggers for 10 MMDs and 100,000 luminance?
                                                                         TestSuccess:
                                                                             - InqOwnsItems: Trade Note (250,000) (20630), 10
                                                                                 TestSuccess:
@@ -59,7 +59,7 @@ Use:
                                                                 TestSuccess:
                                                                     - InqInt64Stat: AvailableLuminance, 200,000 - 1,500,000
                                                                         TestSuccess:
-                                                                            - InqYesNo: Would you like to change your mastery to Swords for 20 MMDs and 200,000 luminance?
+                                                                            - InqYesNo: Would you like to change your mastery to Daggers for 20 MMDs and 200,000 luminance?
                                                                                 TestSuccess:
                                                                                     - InqOwnsItems: Trade Note (250,000) (20630), 20
                                                                                         TestSuccess:
@@ -85,7 +85,7 @@ Use:
                                                                         TestSuccess:
                                                                             - InqInt64Stat: AvailableLuminance, 300,000 - 1,500,000
                                                                                 TestSuccess:
-                                                                                    - InqYesNo: Would you like to change your mastery to Swords for 30 MMDs and 300,000 luminance?
+                                                                                    - InqYesNo: Would you like to change your mastery to Daggers for 30 MMDs and 300,000 luminance?
                                                                                         TestSuccess:
                                                                                             - InqOwnsItems: Trade Note (250,000) (20630), 30
                                                                                                 TestSuccess:
@@ -111,7 +111,7 @@ Use:
                                                                                 TestSuccess:
                                                                                     - InqInt64Stat: AvailableLuminance, 400,000 - 1,500,000
                                                                                         TestSuccess:
-                                                                                            - InqYesNo: Would you like to change your mastery to Swords for 40 MMDs and 400,000 luminance?
+                                                                                            - InqYesNo: Would you like to change your mastery to Daggers for 40 MMDs and 400,000 luminance?
                                                                                                 TestSuccess:
                                                                                                     - InqOwnsItems: Trade Note (250,000) (20630), 40
                                                                                                         TestSuccess:
@@ -135,7 +135,7 @@ Use:
                                                                                 TestSuccess:
                                                                                     - InqInt64Stat: AvailableLuminance, 500,000 - 1,500,000
                                                                                         TestSuccess:
-                                                                                            - InqYesNo: Would you like to change your mastery to Swords for 50 MMDs and 500,000 luminance?
+                                                                                            - InqYesNo: Would you like to change your mastery to Daggers for 50 MMDs and 500,000 luminance?
                                                                                                 TestSuccess:
                                                                                                     - InqOwnsItems: Trade Note (250,000) (20630), 50
                                                                                                         TestSuccess:
@@ -159,7 +159,7 @@ Use:
                                 TestFailure:
                                     - DirectBroadcast: You must be at least level 200 to change your mastery again.
                 QuestFailure:
-                    - InqYesNo: Would you like to change your mastery to Swords? You only get one free mastery change per character.
+                    - InqYesNo: Would you like to change your mastery to Daggers? You only get one free mastery change per character.
                         TestSuccess:
                             - StampQuest: UsedFreeMeleeMasteryReset
                             - Goto: StampAndDoMasteryChange
@@ -167,7 +167,7 @@ Use:
                             - Goto: UseAgain
 
 GotoSet: UseAgain
-    - DirectBroadcast: Use the statue again if wish to change your mastery to Swords.
+    - DirectBroadcast: Use the statue again if wish to change your mastery to Daggers.
 
 GotoSet: StampAndDoMasteryChange
     - StampQuest: UsedMeleeMasteryReset
