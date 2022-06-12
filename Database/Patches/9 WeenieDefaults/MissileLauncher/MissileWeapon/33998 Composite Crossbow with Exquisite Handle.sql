@@ -49,7 +49,7 @@ VALUES (33998,   5,   -0.05) /* ManaRate */
      , (33998,  63,    2.75) /* DamageMod */
      , (33998, 136,       3) /* CriticalMultiplier */
      , (33998, 155,    1.18) /* IgnoreArmor */
-     , (33999, 156,    0.05) /* ProcSpellRate */;
+     , (33998, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33998,   1, 'Composite Crossbow with Exquisite Handle') /* Name */;
