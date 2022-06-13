@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7002;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7002, 'crossbowcompositedmg2def1spd3atk3', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (7002, 'crossbowcompositedmg2def1spd3atk3', 3, '2022-06-11 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7002,   1,        256) /* ItemType - MissileWeapon */
@@ -57,8 +57,8 @@ VALUES (7002,   1, 0x02000874) /* Setup */
      , (7002,   7, 0x10000224) /* ClothingBase */
      , (7002,   8, 0x06001CE3) /* Icon */
      , (7002,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (7002,  37,          3) /* ItemSkillLimit - Crossbow */;
+     , (7002,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7002,   489,      2)  /* Missile Weapon Mastery Other V */
-     , (7002,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (7002,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (7002,   489,      2)  /* Missile Weapon Mastery Other V */;

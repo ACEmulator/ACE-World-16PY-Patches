@@ -21,10 +21,11 @@ VALUES (35976,   1,        256) /* ItemType - MissileWeapon */
      , (35976,  51,          2) /* CombatUse - Missile */
      , (35976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35976, 106,        250) /* ItemSpellcraft */
-     , (35976, 107,        500) /* ItemCurMana */
+     , (35976, 107,          0) /* ItemCurMana */
      , (35976, 108,        500) /* ItemMaxMana */
      , (35976, 109,        170) /* ItemDifficulty */
      , (35976, 114,          1) /* Attuned - Attuned */
+     , (35976, 150,        103) /* HookPlacement - Hook */
      , (35976, 151,          2) /* HookType - Wall */
      , (35976, 158,          2) /* WieldRequirements - RawSkill */
      , (35976, 159,         47) /* WieldSkillType - MissileWeapons */
@@ -43,7 +44,8 @@ VALUES (35976,   5,   -0.05) /* ManaRate */
      , (35976,  29,    1.12) /* WeaponDefense */
      , (35976,  62,     1.1) /* WeaponOffense */
      , (35976,  63,     2.6) /* DamageMod */
-     , (35976, 155,    1.15) /* IgnoreArmor */;
+     , (35976, 155,    1.15) /* IgnoreArmor */
+     , (35976, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35976,   1, 'Composite Atlatl with Handle') /* Name */;

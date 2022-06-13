@@ -23,10 +23,11 @@ VALUES (87751,   1,        256) /* ItemType - MissileWeapon */
      , (87751,  53,          3) /* PlacementPosition - LeftHand */
      , (87751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87751, 106,        400) /* ItemSpellcraft */
-     , (87751, 107,       1000) /* ItemCurMana */
+     , (87751, 107,          0) /* ItemCurMana */
      , (87751, 108,       1000) /* ItemMaxMana */
      , (87751, 109,        225) /* ItemDifficulty */
      , (87751, 114,          1) /* Attuned - Attuned */
+     , (87751, 150,        103) /* HookPlacement - Hook */
      , (87751, 151,          2) /* HookType - Wall */
      , (87751, 158,          2) /* WieldRequirements - RawSkill */
      , (87751, 159,         47) /* WieldSkillType - MissileWeapons */
@@ -46,7 +47,8 @@ VALUES (87751,   5,   -0.05) /* ManaRate */
      , (87751,  62,     1.1) /* WeaponOffense */
      , (87751,  63,    2.75) /* DamageMod */
      , (87751, 136,       3) /* CriticalMultiplier */
-     , (87751, 155,    1.15) /* IgnoreArmor */;
+     , (87751, 155,    1.15) /* IgnoreArmor */
+     , (87751, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87751,   1, 'Composite Crossbow with Fine Handle') /* Name */;

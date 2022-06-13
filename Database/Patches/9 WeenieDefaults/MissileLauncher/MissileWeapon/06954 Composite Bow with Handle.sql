@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6954;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6954, 'bowcompositedmg3def1spd3atk3', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (6954, 'bowcompositedmg3def1spd3atk3', 3, '2022-06-11 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6954,   1,        256) /* ItemType - MissileWeapon */
@@ -57,8 +57,8 @@ VALUES (6954,   1, 0x02000878) /* Setup */
      , (6954,   7, 0x10000222) /* ClothingBase */
      , (6954,   8, 0x06001CCD) /* Icon */
      , (6954,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6954,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6954,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6954,   465,      2)  /* Missile Weapon Mastery Other V */
-     , (6954,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (6954,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (6954,   465,      2)  /* Missile Weapon Mastery Other V */;
