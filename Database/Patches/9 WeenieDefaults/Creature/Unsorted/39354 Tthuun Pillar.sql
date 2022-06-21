@@ -13,6 +13,7 @@ VALUES (39354,   1,         16) /* ItemType - Creature */
      , (39354,  81,          1) /* MaxGeneratedObjects */
      , (39354,  82,          1) /* InitGeneratedObjects */
      , (39354,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (39354, 103,          2) /* GeneratorDestructionType - Destroy */
      , (39354, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (39354, 146,    5000000) /* XpOverride */
      , (39354, 315,       9999) /* CritResistRating */;
