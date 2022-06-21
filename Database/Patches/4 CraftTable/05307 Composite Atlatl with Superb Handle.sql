@@ -9,10 +9,10 @@ VALUES (5307, True, 0, 0, 0, False, 0, 1, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 3,  38, 0, 4, 0) /* On Player.SuccessResult CopyFromSourceToTarget AllowedWielder to Result */;
+VALUES (@parent_id, 3,  38, 0, 4, 0) /* On Player.SuccessResult CopyFromSourceToResult AllowedWielder to Result */;
 
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 3,  25, NULL, 4, 0) /* On Player.SuccessResult CopyFromSourceToTarget CraftsmanName to Result */;
+VALUES (@parent_id, 3,  25, NULL, 4, 0) /* On Player.SuccessResult CopyFromSourceToResult CraftsmanName to Result */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 5307;
 

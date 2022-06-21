@@ -18,7 +18,7 @@ VALUES (5178,   1,         16) /* ItemType - Creature */
      , (5178, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5178, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (5178, 146,        516) /* XpOverride */
-     , (5178, 188,          2) /* HeritageGroup - Gharu''ndim */;
+     , (5178, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5178,   1, True ) /* Stuck */

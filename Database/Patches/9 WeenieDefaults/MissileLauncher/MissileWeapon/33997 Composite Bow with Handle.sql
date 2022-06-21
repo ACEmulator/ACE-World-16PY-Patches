@@ -65,6 +65,6 @@ VALUES (33997,   1, 0x02000878) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33997,  1605,      2)  /* Aura of Defender Self VI */
      , (33997,  2058,      2)  /* Boon of Refinement */
-     , (33997,  1627,      2)  /* Aura of Atlan's Alacrity */
+     , (33997,  1627,      2)  /* Aura of Swift Killer Self VI */
      , (33997,  2206,      2)  /* Missile Weapon Mastery Other VII */
      , (33997,  2096,      2)  /* Aura of Infected Caress */;
