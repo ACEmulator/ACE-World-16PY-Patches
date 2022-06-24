@@ -190,6 +190,29 @@ Refuse: A'nekshay Luminance Certificate (47158)
                     - AwardLuminance: 5,000
                     - StampQuest: AnekshayLuminanceCertificateCollectedInAMonth
 
+Give: Major Shivering Stone (6123)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.
+
+Give: Major Smoldering Stone (6124)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.
+
+Give: Major Sparking Stone (6125)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.
+
+Give: Major Stinging Stone (6126)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.
 Give: Pyreal Ingot (6330)
     - TurnToTarget
     - Tell: We need all the ingots we can get.  One day, you will be grateful we have such a stockpile.
