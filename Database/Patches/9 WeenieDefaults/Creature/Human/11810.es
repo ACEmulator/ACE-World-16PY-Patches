@@ -572,7 +572,7 @@ Give: Zharalim Foreman's Journal (25979)
 Give: Woven Tassel of Far Sight (25960)
     - Motion: Ready
     - TurnToTarget
-    - Delay: 1, AwardLevelProportionalXP: 33%
+    - Delay: 1, AwardLevelProportionalXP: 33%, Max: 2500000
     - Delay: 1, Tell: This came from the Shadow's Garb worn by Rayssid Ibn Alhath? Sadly I know little of the man save for his affinity for ranged weapons.
     - Delay: 1, Tell: It seems only fitting that the reward I give you should reflect that. Take this periapt. May it help guide your shots with accuracy and swiftness.
     - Delay: 1, Give: Periapt of Endless Sight (25971)
@@ -580,7 +580,7 @@ Give: Woven Tassel of Far Sight (25960)
 Give: Woven Tassel of Discord (25959)
     - Motion: Ready
     - TurnToTarget
-    - Delay: 1, AwardLevelProportionalXP: 33%
+    - Delay: 1, AwardLevelProportionalXP: 33%, Max: 2500000
     - Delay: 1, Tell: Ah, Tiyol's tassel, correct? I had no liking for that contemptuous man. In fact, it would not surprise me at all if he was the first to fall under the sway of the Raven Hand.
     - Delay: 1, Tell: You did the world a great justice by defeating him. And since he was such a vile man, I have no qualms about giving out his belongings.
     - Delay: 1, Tell: Before the group left for the library, many of them entrusted some of their belongings to my care. Primarily items that would be of no use to them in the grasslands and forests north of here.
@@ -599,7 +599,7 @@ Give: Woven Tassel of Sound Mind (25958)
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Tell: You say Rheth Al' Thok wore this upon his Shadow's Garb? He was a bright man, poised to enter the ranks of the Zaikhal Arcanum. Well... that was before my compatriots offered him a place within our ranks. A shame that he was so easily enticed.
-    - Delay: 1, AwardLevelProportionalXP: 33%
+    - Delay: 1, AwardLevelProportionalXP: 33%, Max: 2500000
     - Delay: 1, Tell: Since he joined the ranks of the Zharalim, he was striving to obtain the Shagraka- the casting focus used by many of the Zharalim's sorcerers.
     - Delay: 1, Tell: As he is no longer with us, the focus reserved for his use shall be passed on to you.
     - Delay: 1, Give: Shagraka (25973)
