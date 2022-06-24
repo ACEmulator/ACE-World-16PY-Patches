@@ -191,7 +191,7 @@ VALUES (9069, 30092 /* Infinite Ivory */,   314 /* Dagger */, '2021-11-01 00:00:
      , (9069, 30092 /* Infinite Ivory */,  6962 /* Composite Bow with Handle */, '2021-11-01 00:00:00')
      , (9069, 30092 /* Infinite Ivory */,  6964 /* Composite Bow with Handle */, '2021-11-01 00:00:00')
      , (9069, 30092 /* Infinite Ivory */,  6965 /* Composite Bow with Handle */, '2021-11-01 00:00:00')
-     , (9069, 30092 /* Infinite Ivory */,  6966 /* Composite Bow with Handle */, '2021-11-01 00:00:00')
+     , (9069, 30092 /* Infinite Ivory */,  6966 /* Composite Bow with Handle (pre-patch) */, '2024-06-24 13:42:13')
      , (9069, 30092 /* Infinite Ivory */,  6968 /* Composite Crossbow with Handle */, '2021-11-01 00:00:00')
      , (9069, 30092 /* Infinite Ivory */,  6969 /* Composite Crossbow with Handle */, '2021-11-01 00:00:00')
      , (9069, 30092 /* Infinite Ivory */,  6970 /* Composite Crossbow with Handle */, '2021-11-01 00:00:00')
@@ -715,4 +715,8 @@ VALUES (9069, 30092 /* Infinite Ivory */,   314 /* Dagger */, '2021-11-01 00:00:
      , (9069, 30092 /* Infinite Ivory */, 30676 /* Barren Bow */, '2021-11-01 00:00:00')
      , (9069, 30092 /* Infinite Ivory */, 30677 /* Anemic Atlatl */, '2021-11-01 00:00:00')
      , (9069, 30092 /* Infinite Ivory */, 30678 /* Insensate Axe */, '2021-11-01 00:00:00')
-     , (9069, 30092 /* Infinite Ivory */, 30679 /* Sterile Sword */, '2021-11-01 00:00:00');
+     , (9069, 30092 /* Infinite Ivory */, 30679 /* Sterile Sword */, '2021-11-01 00:00:00')
+     , (9069, 30092 /* Infinite Ivory */, 33990 /* Composite Bow with Superb Handle */, '2024-06-24 13:42:13')
+     , (9069, 30092 /* Infinite Ivory */, 33991 /* Composite Bow with Fine Handle */, '2024-06-24 13:42:13')
+     , (9069, 30092 /* Infinite Ivory */, 33996 /* Composite Bow with Exquisite Handle */, '2024-06-24 13:42:13')
+     , (9069, 30092 /* Infinite Ivory */, 33997 /* Composite Bow with Handle */, '2024-06-24 13:42:13');

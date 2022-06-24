@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33997;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33997, 'ace33997-compositebowwithhandle', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
+VALUES (33997, 'ace33997-compositebowwithhandle', 3, '2022-06-23 16:20:42') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33997,   1,        256) /* ItemType - MissileWeapon */
@@ -23,7 +23,7 @@ VALUES (33997,   1,        256) /* ItemType - MissileWeapon */
      , (33997,  60,        192) /* WeaponRange */
      , (33997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33997, 106,        250) /* ItemSpellcraft */
-     , (33997, 107,          0) /* ItemCurMana */
+     , (33997, 107,        500) /* ItemCurMana */
      , (33997, 108,        500) /* ItemMaxMana */
      , (33997, 109,        170) /* ItemDifficulty */
      , (33997, 114,          1) /* Attuned - Attuned */
@@ -31,7 +31,7 @@ VALUES (33997,   1,        256) /* ItemType - MissileWeapon */
      , (33997, 151,          2) /* HookType - Wall */
      , (33997, 158,          2) /* WieldRequirements - RawSkill */
      , (33997, 159,         47) /* WieldSkillType - MissileWeapons */
-     , (33997, 160,        250) /* WieldDifficulty */
+     , (33997, 160,        240) /* WieldDifficulty */
      , (33997, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,7 +43,7 @@ VALUES (33997,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33997,   5,   -0.05) /* ManaRate */
      , (33997,  26,    27.3) /* MaximumVelocity */
-     , (33997,  29,    1.29) /* WeaponDefense */
+     , (33997,  29,    1.12) /* WeaponDefense */
      , (33997,  39,     1.1) /* DefaultScale */
      , (33997,  62,       1) /* WeaponOffense */
      , (33997,  63,    2.35) /* DamageMod */

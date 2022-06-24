@@ -35,4 +35,6 @@ VALUES (5301, 33983 /* Superb Bone Handle */,  6895 /* Composite Bow */, '2022-0
      , (5301, 33983 /* Superb Bone Handle */,  6955 /* Composite Bow */, '2022-06-21 15:22:25')
      , (5301, 33983 /* Superb Bone Handle */,  6959 /* Composite Bow */, '2022-06-21 15:22:25')
      , (5301, 33983 /* Superb Bone Handle */,  6963 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5301, 33983 /* Superb Bone Handle */, 33991 /* Composite Bow with Fine Handle */, '2022-06-21 15:22:25');
+     , (5301, 33983 /* Superb Bone Handle */,  6966 /* Composite Bow with Handle (pre-patch) */, '2022-06-23 16:20:48')
+     , (5301, 33983 /* Superb Bone Handle */, 33991 /* Composite Bow with Fine Handle */, '2022-06-21 15:22:25')
+     , (5301, 33983 /* Superb Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-06-23 16:20:48');

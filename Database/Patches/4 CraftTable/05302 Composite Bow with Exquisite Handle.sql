@@ -35,4 +35,7 @@ VALUES (5302, 33982 /* Exquisite Bone Handle */,  6895 /* Composite Bow */, '202
      , (5302, 33982 /* Exquisite Bone Handle */,  6955 /* Composite Bow */, '2022-06-21 15:22:25')
      , (5302, 33982 /* Exquisite Bone Handle */,  6959 /* Composite Bow */, '2022-06-21 15:22:25')
      , (5302, 33982 /* Exquisite Bone Handle */,  6963 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5302, 33982 /* Exquisite Bone Handle */, 33990 /* Composite Bow with Superb Handle */, '2022-06-21 15:22:25');
+     , (5302, 33982 /* Exquisite Bone Handle */,  6966 /* Composite Bow with Handle (pre-patch) */, '2022-06-23 16:20:48')
+     , (5302, 33982 /* Exquisite Bone Handle */, 33990 /* Composite Bow with Superb Handle */, '2022-06-23 16:20:48')
+     , (5302, 33982 /* Exquisite Bone Handle */, 33991 /* Composite Bow with Fine Handle */, '2022-06-21 15:22:25')
+     , (5302, 33982 /* Exquisite Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-06-23 16:20:48');
