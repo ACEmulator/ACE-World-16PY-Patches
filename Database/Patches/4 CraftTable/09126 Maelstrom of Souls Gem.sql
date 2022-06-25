@@ -55,4 +55,8 @@ VALUES (9126, 35491 /* Maelstrom of Souls Gem */, 29259 /* Acid Sceptre */, '202
      , (9126, 35491 /* Maelstrom of Souls Gem */, 43382 /* Nether Baton */, '2022-05-10 03:49:02')
      , (9126, 35491 /* Maelstrom of Souls Gem */, 43383 /* Nether Staff */, '2022-05-10 03:49:02')
      , (9126, 35491 /* Maelstrom of Souls Gem */, 53318 /* Stormwood Wand */, '2022-05-10 03:49:02')
-     , (9126, 35491 /* Maelstrom of Souls Gem */, 53330 /* Stormwood Wand */, '2022-05-10 03:49:02');
+     , (9126, 35491 /* Maelstrom of Souls Gem */, 53330 /* Stormwood Wand */, '2022-05-10 03:49:02')
+     , (9126, 35491 /* Maelstrom of Souls Gem */, 53331 /* Derubloom Wand */, '2022-06-24 22:49:02')
+     , (9126, 35491 /* Maelstrom of Souls Gem */, 53332 /* Corrupted Heartwood Wand */, '2022-06-24 22:49:02')
+     , (9126, 35491 /* Maelstrom of Souls Gem */, 53333 /* Derubloom Wand */, '2022-06-24 22:49:02')
+     , (9126, 35491 /* Maelstrom of Souls Gem */, 53334 /* Corrupted Heartwood Wand */, '2022-06-24 22:49:02');

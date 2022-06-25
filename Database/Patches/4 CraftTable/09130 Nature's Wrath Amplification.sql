@@ -46,4 +46,8 @@ VALUES (9130, 52756 /* Nature's Wrath Amplification */, 29259 /* Acid Sceptre */
      , (9130, 52756 /* Nature's Wrath Amplification */, 43382 /* Nether Baton */, '2022-05-10 03:49:02')
      , (9130, 52756 /* Nature's Wrath Amplification */, 43383 /* Nether Staff */, '2022-05-10 03:49:02')
      , (9130, 52756 /* Nature's Wrath Amplification */, 53318 /* Stormwood Wand */, '2022-05-10 03:49:02')
-     , (9130, 52756 /* Nature's Wrath Amplification */, 53330 /* Stormwood Wand */, '2022-05-10 03:49:02');
+     , (9130, 52756 /* Nature's Wrath Amplification */, 53330 /* Stormwood Wand */, '2022-05-10 03:49:02')
+     , (9130, 52756 /* Nature's Wrath Amplification */, 53331 /* Derubloom Wand */, '2022-06-24 22:49:02')
+     , (9130, 52756 /* Nature's Wrath Amplification */, 53332 /* Corrupted Heartwood Wand */, '2022-06-24 22:49:02')
+     , (9130, 52756 /* Nature's Wrath Amplification */, 53333 /* Derubloom Wand */, '2022-06-24 22:49:02')
+     , (9130, 52756 /* Nature's Wrath Amplification */, 53334 /* Corrupted Heartwood Wand */, '2022-06-24 22:49:02');
