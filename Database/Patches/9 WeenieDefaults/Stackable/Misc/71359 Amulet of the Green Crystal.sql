@@ -5,13 +5,13 @@ VALUES (71359, 'ace71359-amuletofthegreencrystal', 51, '2021-11-01 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71359,   1,        128) /* ItemType - Misc */
-     , (71359,   5,          1) /* EncumbranceVal */
-     , (71359,  11,         30) /* MaxStackSize */
+     , (71359,   5,          2) /* EncumbranceVal */
+     , (71359,  11,         20) /* MaxStackSize */
      , (71359,  12,          1) /* StackSize */
-     , (71359,  13,          1) /* StackUnitEncumbrance */
-     , (71359,  15,          1) /* StackUnitValue */
+     , (71359,  13,          2) /* StackUnitEncumbrance */
+     , (71359,  15,          0) /* StackUnitValue */
      , (71359,  16,          1) /* ItemUseable - No */
-     , (71359,  19,          1) /* Value */
+     , (71359,  19,          0) /* Value */
      , (71359,  33,          1) /* Bonded - Bonded */
      , (71359,  65,        101) /* Placement - Resting */
      , (71359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
