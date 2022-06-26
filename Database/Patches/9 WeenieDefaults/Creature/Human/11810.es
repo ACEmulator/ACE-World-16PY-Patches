@@ -580,7 +580,7 @@ Give: Woven Tassel of Far Sight (25960)
 Give: Woven Tassel of Discord (25959)
     - Motion: Ready
     - TurnToTarget
-    - Delay: 1, AwardLevelProportionalXP: 0 - 2,500,000
+    - Delay: 1, AwardLevelProportionalXP: 33%, 0 - 2,500,000
     - Delay: 1, Tell: Ah, Tiyol's tassel, correct? I had no liking for that contemptuous man. In fact, it would not surprise me at all if he was the first to fall under the sway of the Raven Hand.
     - Delay: 1, Tell: You did the world a great justice by defeating him. And since he was such a vile man, I have no qualms about giving out his belongings.
     - Delay: 1, Tell: Before the group left for the library, many of them entrusted some of their belongings to my care. Primarily items that would be of no use to them in the grasslands and forests north of here.
