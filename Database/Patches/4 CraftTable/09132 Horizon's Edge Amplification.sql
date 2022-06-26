@@ -63,4 +63,10 @@ VALUES (9132, 53415 /* Horizon's Edge Amplification */,   306 /* Longbow */, '20
      , (9132, 53415 /* Horizon's Edge Amplification */, 31808 /* Electric Compound Crossbow */, '2022-05-10 03:49:02')
      , (9132, 53415 /* Horizon's Edge Amplification */, 31809 /* Fire Compound Crossbow */, '2022-05-10 03:49:02')
      , (9132, 53415 /* Horizon's Edge Amplification */, 31810 /* Frost Compound Crossbow */, '2022-05-10 03:49:02')
-     , (9132, 53415 /* Horizon's Edge Amplification */, 31811 /* Piercing Compound Crossbow */, '2022-05-10 03:49:02');
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31811 /* Piercing Compound Crossbow */, '2022-05-10 03:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53307 /* Stormwood Atlatl */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53309 /* Stormwood Bow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53310 /* Stormwood Crossbow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53321 /* Stormwood Bow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53322 /* Stormwood Crossbow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 72004 /* Stormwood Atlatl */, '2022-06-24 22:49:02');
