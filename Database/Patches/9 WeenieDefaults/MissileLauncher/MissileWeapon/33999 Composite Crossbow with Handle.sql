@@ -44,7 +44,7 @@ VALUES (33999,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33999,   5,   -0.05) /* ManaRate */
      , (33999,  26,    27.3) /* MaximumVelocity */
-     , (33999,  29,    1.12) /* WeaponDefense */
+     , (33999,  29,    1.14) /* WeaponDefense */
      , (33999,  39,     1.1) /* DefaultScale */
      , (33999,  62,       1) /* WeaponOffense */
      , (33999,  63,    2.35) /* DamageMod */
