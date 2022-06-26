@@ -715,7 +715,7 @@ VALUES (3977, 21055 /* Salvaged Ivory */,   314 /* Dagger */, '2005-02-09 10:00:
      , (3977, 21055 /* Salvaged Ivory */, 30676 /* Barren Bow */, '2005-02-09 10:00:00')
      , (3977, 21055 /* Salvaged Ivory */, 30677 /* Anemic Atlatl */, '2005-02-09 10:00:00')
      , (3977, 21055 /* Salvaged Ivory */, 30678 /* Insensate Axe */, '2005-02-09 10:00:00')
-     , (3977, 21055 /* Salvaged Ivory */, 30679 /* Sterile Sword */, '2005-02-09 10:00:00');
+     , (3977, 21055 /* Salvaged Ivory */, 30679 /* Sterile Sword */, '2005-02-09 10:00:00')
      , (3977, 21055 /* Infinite Ivory */, 33997 /* Composite Bow with Handle */, '2021-11-01 00:00:00')
      , (3977, 21055 /* Infinite Ivory */, 33999 /* Composite Crossbow with Handle */, '2021-11-01 00:00:00')
      , (3977, 21055 /* Infinite Ivory */, 35976 /* Composite Atlatl with Handle */, '2021-11-01 00:00:00')
