@@ -17,22 +17,4 @@ VALUES (@parent_id, 3,  25, NULL, 4, 0) /* On Player.SuccessResult CopyFromSourc
 DELETE FROM `cook_book` WHERE `recipe_Id` = 5305;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (5305, 33982 /* Exquisite Bone Handle */,  6967 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6971 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6975 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6979 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6983 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6987 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6991 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6995 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  6999 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7003 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7007 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7011 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7015 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7019 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7023 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7027 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7031 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */,  7035 /* Composite Crossbow */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */, 33993 /* Composite Crossbow with Superb Handle */, '2022-06-21 15:22:25');
+VALUES (5305, 33982 /* Exquisite Bone Handle */, 33993 /* Composite Crossbow with Superb Handle */, '2022-06-21 15:22:25');
