@@ -17,7 +17,7 @@ Refuse: 44298
 			- InqOwnsItems: 44298, 15
 				TestSuccess:
 					- TakeItems: 44298, 15
-					- Tell: Ahh, a full stack of 15 stone tablets. Thank you. Please, accept this reward for your service to the Arcanum."
+					- Tell: Ahh, a full stack of 15 stone tablets. Thank you. Please, accept this reward for your service to the Arcanum.
 					- StampQuest: DesertAreaCollectionTabletWait_0511
 					- EraseQuest: DesertAreaCollectionTabletStart_0511
 					- AwardNoShareXP: 15,000,000
