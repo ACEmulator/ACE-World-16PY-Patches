@@ -45,7 +45,7 @@ VALUES (39360,   1,       5) /* HeartbeatInterval */
      , (39360,  34,       1) /* PowerupTime */
      , (39360,  36,       1) /* ChargeSpeed */
      , (39360,  39,       2) /* DefaultScale */
-     , (39360,  41,     300) /* RegenerationInterval */
+     , (39360,  41,     120) /* RegenerationInterval */
      , (39360,  43,       5) /* GeneratorRadius */
      , (39360,  64,       1) /* ResistSlash */
      , (39360,  65,       1) /* ResistPierce */
