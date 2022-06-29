@@ -63,4 +63,11 @@ VALUES (9132, 53415 /* Horizon's Edge Amplification */,   306 /* Longbow */, '20
      , (9132, 53415 /* Horizon's Edge Amplification */, 31808 /* Electric Compound Crossbow */, '2022-05-10 03:49:02')
      , (9132, 53415 /* Horizon's Edge Amplification */, 31809 /* Fire Compound Crossbow */, '2022-05-10 03:49:02')
      , (9132, 53415 /* Horizon's Edge Amplification */, 31810 /* Frost Compound Crossbow */, '2022-05-10 03:49:02')
-     , (9132, 53415 /* Horizon's Edge Amplification */, 31811 /* Piercing Compound Crossbow */, '2022-05-10 03:49:02');
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31811 /* Piercing Compound Crossbow */, '2022-05-10 03:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31812 /* Slashing Slingshot */, '2022-05-10 03:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31813 /* Acid Slingshot */, '2022-06-28 22:53:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31814 /* Blunt Slingshot */, '2022-06-28 22:53:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31815 /* Electric Slingshot */, '2022-06-28 22:53:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31816 /* Fire Slingshot */, '2022-06-28 22:53:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31817 /* Frost Slingshot */, '2022-06-28 22:53:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31818 /* Piercing Slingshot */, '2022-06-28 22:53:02');
