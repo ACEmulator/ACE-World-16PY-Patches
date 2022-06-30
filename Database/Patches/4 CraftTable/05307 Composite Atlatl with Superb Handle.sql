@@ -17,6 +17,7 @@ VALUES (@parent_id, 3,  25, NULL, 4, 0) /* On Player.SuccessResult CopyFromSourc
 DELETE FROM `cook_book` WHERE `recipe_Id` = 5307;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (5307, 87738 /* Superb Atlatl Handle */, 87745 /* Composite Atlatl */, '2022-06-21 15:22:25')
-     , (5307, 87738 /* Superb Atlatl Handle */, 35976 /* Composite Atlatl with Handle */, '2022-06-21 15:22:25')
-     , (5307, 87738 /* Superb Atlatl Handle */, 87748 /* Composite Atlatl with Fine Handle */, '2022-06-21 15:22:25');
+VALUES (5307, 87738 /* Superb Atlatl Handle */, 35976 /* Composite Atlatl with Handle */, '2022-06-21 15:22:25')
+     , (5307, 87738 /* Superb Atlatl Handle */, 87745 /* Composite Atlatl */, '2022-06-21 15:22:25')
+     , (5307, 87738 /* Superb Atlatl Handle */, 87748 /* Composite Atlatl with Fine Handle */, '2022-06-21 15:22:25')
+     , (5307, 87739 /* Exquisite Atlatl Handle */, 35976 /* Composite Atlatl with Handle */, '2022-06-21 15:22:25');

@@ -18,6 +18,6 @@ DELETE FROM `cook_book` WHERE `recipe_Id` = 5305;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (5305, 33982 /* Exquisite Bone Handle */,  6963 /* Composite Bow */, '2022-06-21 15:22:25')
+     , (5305, 33982 /* Exquisite Bone Handle */, 33993 /* Composite Crossbow with Superb Handle */, '2022-06-21 15:22:25')
      , (5305, 33982 /* Exquisite Bone Handle */, 33999 /* Composite Crossbow with Handle */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */, 87751 /* Composite Crossbow with Fine Handle */, '2022-06-21 15:22:25')
-     , (5305, 33982 /* Exquisite Bone Handle */, 33993 /* Composite Crossbow with Superb Handle */, '2022-06-21 15:22:25');
+     , (5305, 33982 /* Exquisite Bone Handle */, 87751 /* Composite Crossbow with Fine Handle */, '2022-06-21 15:22:25');
