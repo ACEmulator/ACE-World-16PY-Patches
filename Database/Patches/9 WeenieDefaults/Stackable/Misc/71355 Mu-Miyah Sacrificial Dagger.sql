@@ -6,13 +6,13 @@ VALUES (71355, 'ace71355-mumiyahsacrificialdagger', 51, '2021-11-01 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71355,   1,        128) /* ItemType - Misc */
      , (71355,   3,          4) /* PaletteTemplate - Brown */
-     , (71355,   5,          1) /* EncumbranceVal */
-     , (71355,  11,         30) /* MaxStackSize */
+     , (71355,   5,          2) /* EncumbranceVal */
+     , (71355,  11,         20) /* MaxStackSize */
      , (71355,  12,          1) /* StackSize */
-     , (71355,  13,          1) /* StackUnitEncumbrance */
-     , (71355,  15,          1) /* StackUnitValue */
+     , (71355,  13,          2) /* StackUnitEncumbrance */
+     , (71355,  15,          0) /* StackUnitValue */
      , (71355,  16,          1) /* ItemUseable - No */
-     , (71355,  19,          1) /* Value */
+     , (71355,  19,          0) /* Value */
      , (71355,  33,          1) /* Bonded - Bonded */
      , (71355,  65,        101) /* Placement - Resting */
      , (71355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

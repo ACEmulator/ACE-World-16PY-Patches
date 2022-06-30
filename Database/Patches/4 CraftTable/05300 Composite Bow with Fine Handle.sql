@@ -17,22 +17,8 @@ VALUES (@parent_id, 3,  25, NULL, 4, 0) /* On Player.SuccessResult CopyFromSourc
 DELETE FROM `cook_book` WHERE `recipe_Id` = 5300;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (5300, 33984 /* Fine Bone Handle */,  6895 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6899 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6903 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6907 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6911 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6915 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6919 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6923 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6927 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6931 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6935 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6939 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6943 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6947 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6951 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6955 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6959 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5300, 33984 /* Fine Bone Handle */,  6963 /* Composite Bow */, '2022-06-21 15:22:25')
+VALUES (5300, 33984 /* Fine Bone Handle */, 6963 /* Composite Bow */, '2022-06-21 15:22:25')
      , (5300, 33984 /* Fine Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-06-21 15:22:25');
+
+
+

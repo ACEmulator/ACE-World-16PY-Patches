@@ -70,4 +70,10 @@ VALUES (9132, 53415 /* Horizon's Edge Amplification */,   306 /* Longbow */, '20
      , (9132, 53415 /* Horizon's Edge Amplification */, 31815 /* Electric Slingshot */, '2022-06-28 22:53:02')
      , (9132, 53415 /* Horizon's Edge Amplification */, 31816 /* Fire Slingshot */, '2022-06-28 22:53:02')
      , (9132, 53415 /* Horizon's Edge Amplification */, 31817 /* Frost Slingshot */, '2022-06-28 22:53:02')
-     , (9132, 53415 /* Horizon's Edge Amplification */, 31818 /* Piercing Slingshot */, '2022-06-28 22:53:02');
+     , (9132, 53415 /* Horizon's Edge Amplification */, 31818 /* Piercing Slingshot */, '2022-06-28 22:53:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53307 /* Stormwood Atlatl */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53309 /* Stormwood Bow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53310 /* Stormwood Crossbow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53321 /* Stormwood Bow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 53322 /* Stormwood Crossbow */, '2022-06-24 22:49:02')
+     , (9132, 53415 /* Horizon's Edge Amplification */, 72004 /* Stormwood Atlatl */, '2022-06-24 22:49:02');
