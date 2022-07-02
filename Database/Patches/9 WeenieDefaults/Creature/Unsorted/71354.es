@@ -1,26 +1,19 @@
-Refuse: Mu-Miyah Sacrificial Dagger (71355)
-    - Goto: UseAltar
-
 Use:
-    - Goto: UseAltar
-
-GotoSet: UseAltar
-    - InqIntStat: Level, 180 - 999
+    - InqOwnsItems: 71394
         TestSuccess:
-            - InqQuest: SandMiniTwo_Wait_0511
-                QuestSuccess:
-                    - Delay: 0.5, TextDirect: You have completed this task to recently.
-                    - DirectBroadcast: You may complete this quest again in %tqt.
-                QuestFailure:
-                    - InqOwnsItems: Mu-Miyah Sacrificial Dagger (71355), 20
-                        TestSuccess:
-                            - TakeItems: Mu-Miyah Sacrificial Dagger (71355), -1
-                            - Delay: 0.5, TextDirect: You place the bloodied blades upon the altar and they are destroyed with searing golden light.
-                            - Delay: 0.5, TextDirect: Sensing you have completed its test, the altar opens and a crystal sword is revealed.
-                            - StampQuest: SandMiniTwo_Wait_0511
-                            - EraseQuest: SandMiniTwo_CanEnter_0511
-                            - Give: Sword of the White Crystal (71394)
-                        TestFailure:
-                            - Delay: 0.1, TextDirect: You must return with more daggers.
+            - DirectBroadcast: The altar senses you have already completed your task. Return when time has passed.
         TestFailure:
-            - TextDirect: You are not powerful enough to dechipher the runes.
+            - InqOwnsItems: 71355, 20
+                TestSuccess:
+                    - TakeItems: 71355, -1
+                    - DirectBroadcast: You place the bloodied blades upon the altar and they are destroyed with searing golden light.
+                    - Delay: 1, DirectBroadcast: Sensing you have completed its test, the altar opens and a crystal sword is revealed.
+                    - EraseQuest: SandMiniTwo_CanEnter_0511
+                    - Give: 71394
+                TestFailure:
+                    - InqOwnsItems: 71355, 1
+                        TestSuccess:
+                            - DirectBroadcast: As if sensing you have not yet collected 20 daggers in this place the altar remains still and quiet.
+                        TestFailure:
+                            - DirectBroadcast: You decipher the hierglyphs using the writings and instructions from the ancient tablet.
+                            - DirectBroadcast: The writings say "Prove yourself by collecting 20 daggers within these catacombs."
