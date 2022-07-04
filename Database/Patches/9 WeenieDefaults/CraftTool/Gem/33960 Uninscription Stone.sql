@@ -19,7 +19,7 @@ VALUES (33960,   1,       2048) /* ItemType - Gem */
      , (33960,  94,      35215) /* TargetType - Jewelry, Misc, Gem, RedirectableItemEnchantmentTarget */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33960,   12,       0.5) /* Shade */
+VALUES (33960,   12,       0.5) /* Shade */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33960,  69, True ) /* IsSellable */;
