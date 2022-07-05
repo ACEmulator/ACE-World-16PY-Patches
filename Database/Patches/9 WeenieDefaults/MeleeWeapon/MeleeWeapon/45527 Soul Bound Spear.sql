@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45527;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45527, 'ace45527-soulboundspear', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (45527, 'ace45527-soulboundspear', 6, '2022-05-17 03:47:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45527,   1,          1) /* ItemType - MeleeWeapon */
@@ -46,7 +46,7 @@ VALUES (45527,   5,   -0.05) /* ManaRate */
      , (45527,  63,       1) /* DamageMod */
      , (45527,  76,     0.7) /* Translucency */
      , (45527, 136,       2) /* CriticalMultiplier */
-     , (45527, 138,       2) /* SlayerDamageBonus */
+     , (45527, 138,     1.5) /* SlayerDamageBonus */
      , (45527, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

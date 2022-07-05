@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70847;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70847, 'ace70847-viridianinnercampgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (70847, 'ace70847-viridianinnercampgen', 1, '2022-06-21 15:22:25') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70847,  81,          2) /* MaxGeneratedObjects */
@@ -14,8 +14,8 @@ VALUES (70847,   1, True ) /* Stuck */
      , (70847,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70847,  41,     180) /* RegenerationInterval */
-     , (70847,  43,      20) /* GeneratorRadius */;
+VALUES (70847,  41,     300) /* RegenerationInterval */
+     , (70847,  43,      15) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70847,   1, 'Viridian Inner Camp Gen') /* Name */;

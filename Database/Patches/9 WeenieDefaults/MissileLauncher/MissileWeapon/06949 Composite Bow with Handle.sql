@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6949, 'bowcompositedmg3def1spd2atk2', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (6949, 'bowcompositedmg3def1spd2atk2', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6949,   1,        256) /* ItemType - MissileWeapon */
@@ -57,7 +57,7 @@ VALUES (6949,   1, 0x02000878) /* Setup */
      , (6949,   7, 0x10000222) /* ClothingBase */
      , (6949,   8, 0x06001CCD) /* Icon */
      , (6949,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6949,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6949,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6949,   464,      2)  /* Missile Weapon Mastery Other IV */

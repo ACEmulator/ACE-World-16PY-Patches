@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33990;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33990, 'ace33990-compositebowwithsuperbhandle', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
+VALUES (33990, 'ace33990-compositebowwithsuperbhandle', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33990,   1,        256) /* ItemType - MissileWeapon */
@@ -23,10 +23,11 @@ VALUES (33990,   1,        256) /* ItemType - MissileWeapon */
      , (33990,  53,          3) /* PlacementPosition - LeftHand */
      , (33990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33990, 106,        400) /* ItemSpellcraft */
-     , (33990, 107,       1000) /* ItemCurMana */
+     , (33990, 107,          0) /* ItemCurMana */
      , (33990, 108,       1000) /* ItemMaxMana */
      , (33990, 109,        225) /* ItemDifficulty */
      , (33990, 114,          1) /* Attuned - Attuned */
+     , (33990, 150,        103) /* HookPlacement - Hook */
      , (33990, 151,          2) /* HookType - Wall */
      , (33990, 158,          2) /* WieldRequirements - RawSkill */
      , (33990, 159,         47) /* WieldSkillType - MissileWeapons */
@@ -47,7 +48,8 @@ VALUES (33990,   5,   -0.05) /* ManaRate */
      , (33990,  62,     1.1) /* WeaponOffense */
      , (33990,  63,     2.6) /* DamageMod */
      , (33990, 136,       3) /* CriticalMultiplier */
-     , (33990, 155,    1.16) /* IgnoreArmor */;
+     , (33990, 155,    1.16) /* IgnoreArmor */
+     , (33990, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33990,   1, 'Composite Bow with Superb Handle') /* Name */;

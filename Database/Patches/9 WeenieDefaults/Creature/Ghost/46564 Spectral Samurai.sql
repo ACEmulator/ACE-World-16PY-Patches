@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46564;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46564, 'ace46564-spectralsamurai', 10, '2021-11-08 06:01:47') /* Creature */;
+VALUES (46564, 'ace46564-spectralsamurai', 10, '2022-05-17 03:47:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46564,   1,         16) /* ItemType - Creature */
@@ -61,7 +61,8 @@ VALUES (46564,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46564,   1, 'Spectral Samurai') /* Name */
-     , (46564,  45, 'KillTaskSpectralSamurai0812') /* KillQuest */;
+     , (46564,  45, 'KillTaskSpectralSamurai0812') /* KillQuest */
+     , (46564,  49, 'SanctumGuardianKillTask') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46564,   1, 0x02001B97) /* Setup */

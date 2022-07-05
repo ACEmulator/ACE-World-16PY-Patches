@@ -13,6 +13,10 @@ Refuse: 48876
     - TakeItems: 48876, 1
     - StampQuest: DefeatHoshinoKeiCompleted_0113
     - EraseQuest: DefeatHoshinoKeiStarted_0113
+    - EraseQuest: HoshinoMnemosyne1
+    - EraseQuest: HoshinoMnemosyne2
+    - EraseQuest: HoshinoMnemosyne3
+    - EraseQuest: HoshinoMnemosynesDone
     - DirectBroadcast: The Spirit of Bist'elle studies the shard for a moment, and then it disappears in a small flash of light.
     - Tell: You have done very well. A great evil was sealed away, and we all have you and your companions to thank for it.
     - Tell: You've earned this. I found it in the adjacent room. I'll send you there now, if you wish.
