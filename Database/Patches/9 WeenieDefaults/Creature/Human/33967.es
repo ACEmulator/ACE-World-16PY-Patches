@@ -24,7 +24,30 @@ Use:
                             - Delay: 1, Tell: Okay, here is what I'd like of you, Please venture out and find Caustic, Synnast, Inferno, and Hyem. Fight twenty-five of these creatures and then return to me and tell me everything you learned about them.
                             - Delay: 1, Tell: I will also accept, and reward you for, anything you find that may be of value to my research.
                             - SetQuestCompletions: KilltaskElemental_0609, 0
-                            
+
+Give: Major Shivering Stone (6123)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.
+
+Give: Major Smoldering Stone (6124)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.
+
+Give: Major Sparking Stone (6125)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.
+
+Give: Major Stinging Stone (6126)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - Give: Writ of Refuge (11710)
+    - Tell: Here, take this as a reward.                            
 Give: Crystal of Acidic Elemental Essence (33956)
     - TurnToTarget
     - Tell: Very good, I can most certainly make use of this.
