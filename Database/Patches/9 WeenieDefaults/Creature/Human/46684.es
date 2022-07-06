@@ -30,3 +30,28 @@ Use:
                             - SetQuestCompletions: KillTaskSpectralNinjas0812, 0
         TestFailure:
             - Tell: I'm afraid the tasks I have are too difficult for you at this time, come back when you are more experienced.
+
+Refuse: Corrupted Mouryou Blade (90113)
+    - TakeItems: 90113, 1
+    - Tell: Found this you have? Hmmp... Reward you I shall!
+    - Give: Purified Mouryou Katana (46828)
+
+Refuse: Corrupted Mouryou Blade (90114)
+    - TakeItems: 90114, 1
+    - Tell: Found this you have? Hmmp... Reward you I shall!
+    - Give: Purified Mouryou Wakizashi (46831)
+
+Refuse: Corrupted Mouryou Blade (90115)
+    - TakeItems: 90115, 1
+    - Tell: Found this you have? Hmmp... Reward you I shall!
+    - Give: Purified Mouryou Nanjou-tachi (46829)
+
+Refuse: Corrupted Mouryou Blade (90116)
+    - TakeItems: 90116, 1
+    - Tell: Found this you have? Hmmp... Reward you I shall!
+    - Give: Purified Mouryou Nekode (46832)
+
+Refuse: Corrupted Mouryou Blade (90117)
+    - TakeItems: 90117, 1
+    - Tell: Found this you have? Hmmp... Reward you I shall!
+    - Give: Purified Mouryou Nodachi (46830)    

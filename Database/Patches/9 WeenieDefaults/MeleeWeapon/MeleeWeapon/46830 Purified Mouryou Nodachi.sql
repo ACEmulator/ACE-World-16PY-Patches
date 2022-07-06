@@ -20,7 +20,7 @@ VALUES (46830,   1,          1) /* ItemType - MeleeWeapon */
      , (46830,  51,          5) /* CombatUse - TwoHanded */
      , (46830,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (46830, 106,        475) /* ItemSpellcraft */
-     , (46830, 107,          0) /* ItemCurMana */
+     , (46830, 107,       3000) /* ItemCurMana */
      , (46830, 108,       3000) /* ItemMaxMana */
      , (46830, 114,          0) /* Attuned - Normal */
      , (46830, 151,          2) /* HookType - Wall */

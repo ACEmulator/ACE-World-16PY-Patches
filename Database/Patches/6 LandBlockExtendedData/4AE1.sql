@@ -182,3 +182,7 @@ VALUES (0x74AE1132, 46559, 0x4AE1011A, 131.904, 13.5535, 57.505, 1, 0, 0, 0, Fal
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE1133,  1542, 0x4AE10031, 159.34, 6.15765, 62.2587, 1, 0, 0, 0, False, '2022-06-21 15:22:25'); /* Linkable Item Generator */
 /* @teleloc 0x4AE10031 [159.339996 6.157650 62.258701] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74AE1134, 90110, 0x4AE1003A, 168.413, 25.9077, 60.2484, -0.729799, 0, 0, -0.683662, False, '2022-07-05 22:06:07'); /* Daimyo Idah Gen */
+/* @teleloc 0x4AE1003A [168.412994 25.907700 60.248402] -0.729799 0.000000 0.000000 -0.683662 */
