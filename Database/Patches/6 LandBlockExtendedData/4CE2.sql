@@ -65,3 +65,7 @@ VALUES (0x74CE20A8, 46531, 0x4CE20108, 89.9642, 178.543, 68.505, 1, 0, 0, 0,  Tr
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE20E8, 46501, 0x4CE20020, 87.3946, 175.015, 71.9538, 1, 0, 0, 0,  True, '2022-06-21 15:22:25'); /* Spectral Archer */
 /* @teleloc 0x4CE20020 [87.394600 175.014999 71.953796] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74CE20E9, 90109, 0x4CE20010, 44.1536, 184.54, 65.9201, 0.057257, 0, 0, -0.998359, False, '2022-07-05 22:07:23'); /* Daimyo Nobanuga Gen */
+/* @teleloc 0x4CE20010 [44.153599 184.539993 65.920097] 0.057257 0.000000 0.000000 -0.998359 */

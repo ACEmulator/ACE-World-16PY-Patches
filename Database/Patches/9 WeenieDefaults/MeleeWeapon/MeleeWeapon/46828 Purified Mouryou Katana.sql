@@ -5,7 +5,7 @@ VALUES (46828, 'ace46828-purifiedmouryoukatana', 6, '2021-11-01 00:00:00') /* Me
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46828,   1,          1) /* ItemType - MeleeWeapon */
-     , (46828,   5,        250) /* EncumbranceVal */
+     , (46828,   5,        220) /* EncumbranceVal */
      , (46828,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46828,  16,          1) /* ItemUseable - No */
      , (46828,  18,          1) /* UiEffects - Magical */
@@ -16,7 +16,7 @@ VALUES (46828,   1,          1) /* ItemType - MeleeWeapon */
      , (46828,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (46828,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (46828,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (46828,  49,         25) /* WeaponTime */
+     , (46828,  49,         35) /* WeaponTime */
      , (46828,  51,          1) /* CombatUse - Melee */
      , (46828,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (46828, 106,        475) /* ItemSpellcraft */
