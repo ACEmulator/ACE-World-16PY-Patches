@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6918;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6918, 'bowcompositedmg1def3spd3atk3', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (6918, 'bowcompositedmg1def3spd3atk3', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6918,   1,        256) /* ItemType - MissileWeapon */
@@ -30,8 +30,7 @@ VALUES (6918,   1,        256) /* ItemType - MissileWeapon */
      , (6918, 114,          1) /* Attuned - Attuned */
      , (6918, 115,        240) /* ItemSkillLevelLimit */
      , (6918, 150,        103) /* HookPlacement - Hook */
-     , (6918, 151,          2) /* HookType - Wall */
-     , (6918, 353,          8) /* WeaponType - Bow */;
+     , (6918, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6918,  22, True ) /* Inscribable */
@@ -57,8 +56,8 @@ VALUES (6918,   1, 0x02000878) /* Setup */
      , (6918,   7, 0x10000222) /* ClothingBase */
      , (6918,   8, 0x06001CCE) /* Icon */
      , (6918,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (6918,  37,          2) /* ItemSkillLimit - Bow */;
+     , (6918,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6918,   465,      2)  /* Missile Weapon Mastery Other V */
-     , (6918,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (6918,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (6918,   465,      2)  /* Missile Weapon Mastery Other V */;
