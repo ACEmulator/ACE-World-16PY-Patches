@@ -420,5 +420,5 @@ VALUES (0x700CC067, 88192, 0x00CC039F, 150.439, -9.56857, 48.055, 0.078135, 0, 0
 /* @teleloc 0x00CC039F [150.438995 -9.568570 48.055000] 0.078135 0.000000 0.000000 0.996943 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CC068, 88192, 0x00CC0381, 129.6044, -11.25727, 48.055, 0.036005, 0, 0, -0.999352, False, '2022-05-11 10:05:48'); /* Renegade Fortress Generator */
-/* @teleloc 0x00CC0381 [129.604401 -11.257270 48.055000] 0.036005 0.000000 0.000000 -0.999352 */
+VALUES (0x700CC068, 88192, 0x00CC0381, 129.604, -11.2573, 48.055, 0.036005, 0, 0, -0.999352, False, '2022-05-11 10:05:48'); /* Renegade Fortress Generator */
+/* @teleloc 0x00CC0381 [129.604004 -11.257300 48.055000] 0.036005 0.000000 0.000000 -0.999352 */
