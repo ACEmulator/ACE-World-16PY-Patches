@@ -425,6 +425,11 @@ Give: Soul Hunter's Untranslated Orders (34310)
     - Tell: What's this now? Oh mercy! What terrible things this note portends! Where did you get this? Never mind, it's not my purpose... Here, take this translation, and bring it to the proper authorities!
     - Give: Soul Hunter's Orders (34316)
 
+Give: Trade Note (250,000) (20630)
+    - TurnToTarget
+    - Tell: Here you go.
+    - Delay: 1, Give: Uninscription Stone (33960)
+
 Use:
     - Motion: Ready
     - TurnToTarget

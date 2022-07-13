@@ -82,7 +82,7 @@ Give: Complete Rune Transcription (5849)
     - Delay: 2, Give: Gelidite Standing Stone Translation (5883)
     - Tell: Be warned, though - you will need a substantial party to reach the Lost City, and should you die...
     - Tell: You will be unable to reenter the caves to recover your equipment. Be certain you are prepared before you ask Mairisa to cast the portal!
-    
+
 Give: An Ancient Book (5882)
     - Motion: Ready
     - TurnToTarget
@@ -449,6 +449,11 @@ Give: Ancient Journal (41931)
     - Delay: 1, Tell: This journal is written in the runic script of old Dericost, a language not used in well over 5000 years. A moment - I shall transcribe a copy for you into Roulean.
     - Give: Translated Tomb Writings (41930)
     - Tell: There you are. This sounds to me like more lore from that ancient graveyard. Did you find anything with this journal? Perhaps they are related.
+
+Give: Trade Note (250,000) (20630)
+    - TurnToTarget
+    - Tell: Here you go.
+    - Delay: 1, Give: Uninscription Stone (33960)
 
 Use:
     - Motion: Ready

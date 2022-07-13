@@ -768,7 +768,7 @@ Refuse: 53475
             - TakeItems: 53475, 1
             - Tell: Welcome back. It is good to know another blow has been dealt against the corruptions of the Book.
             - Tell: Now, for your efforts, this is for you.
-            - Give: 53185
+            - Give: 53186
             - StampQuest: ParagonWeapons
         QuestFailure:
             - Tell: I did not ask for this, small one.
@@ -780,7 +780,7 @@ Refuse: 52817
             - TakeItems: 52817, 1
             - Tell: Ah, you've succeeded. I hope you found it a worthy challenge, or at least a reprieve from all the corruption I've tasked you to fight.
             - Tell: Now, for your efforts, this is for you.
-            - Give: 53186
+            - Give: 53187
             - StampQuest: ParagonWeapons
         QuestFailure:
             - Tell: I did not ask for this, small one.
@@ -792,7 +792,7 @@ Refuse: 48876
             - TakeItems: 48876, 1
             - Tell: Welcome back.  It is good to know that such a great blow has been dealt against the corruptions of the Book and its Avatar.
             - Tell: Now, for your efforts, this is for you.
-            - Give: 53187
+            - Give: 53188
             - StampQuest: ParagonWeapons
         QuestFailure:
             - Tell: I did not ask for this, small one.
