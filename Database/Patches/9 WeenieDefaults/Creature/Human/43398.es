@@ -168,8 +168,7 @@ GotoSet: 43462_0
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
                     - Delay: 1, AwardTrainingCredits: 1
                     - Delay: 2, DirectBroadcast: You have gained a skill point!
-                #TestFailure:
-                    #- Tell: Come back when you are ready to make a decision.
+                TestFailure:
                     - DirectBroadcast: You decline to empower yourself with Luminance at this time.
         TestFailure:
             - Tell: You do not have enough Luminance.
@@ -447,7 +446,7 @@ Give: 43467
                 TestSuccess:
                     - SpendLuminance: 25,000
                     - DirectBroadcast: You feel a surge of energy pass through you as the Light flows into the pearls.
-                    - Give: 30211, 5
+                    - Give: 43476, 5
                 TestFailure:
                     - DirectBroadcast: You decline to empower the pearls with Luminance at this time.
         TestFailure:
