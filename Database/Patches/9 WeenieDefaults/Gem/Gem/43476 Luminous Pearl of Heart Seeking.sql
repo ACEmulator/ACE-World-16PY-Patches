@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43476;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43476, 'ace43476-luminouspearlofblooddrinking', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (43476, 'ace43476-luminouspearlofheartseeking', 38, '2021-11-01 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43476,   1,       2048) /* ItemType - Gem */
@@ -42,6 +42,6 @@ VALUES (43476,   1, 0x02000179) /* Setup */
      , (43476,   6, 0x04000BEF) /* PaletteBase */
      , (43476,   8, 0x06005B67) /* Icon */
      , (43476,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (43476,  28,       4405) /* Spell - Aura of Incantation of Blood Drinker Self */
+     , (43476,  28,       4405) /* Spell - Aura of Incantation of Heart Seeker Self */
      , (43476,  50, 0x06005B41) /* IconOverlay */
      , (43476,  52, 0x06006E89) /* IconUnderlay */;
