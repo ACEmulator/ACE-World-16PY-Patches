@@ -21,11 +21,11 @@ Give: Copper Knight Medallion (43025)
     - InqQuest: copperknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the copper insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA, 0x40
-                QuestFailure: 
+            - InqQuestBitsOn: 50to11BrokerContractsA@Copper, 0x40
+                QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x40
                     - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Silver Knight Medallion (43024)
     - TurnToTarget
     - Tell: An insignia taken from one of those vile Knights. I think a reward is in order for your work in slaying one of these monsters.
@@ -37,8 +37,8 @@ Give: Silver Knight Medallion (43024)
     - InqQuest: silverknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the silver insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA, 0x80
-                QuestFailure: 
+            - InqQuestBitsOn: 50to11BrokerContractsA@Silver, 0x80
+                QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x80
                     - StampQuest: ContractQuestcounter_0511
 
@@ -53,11 +53,11 @@ Give: Gold Knight Medallion (43026)
     - InqQuest: goldknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the gold insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA, 0x100
-                QuestFailure: 50to11BrokerContractsA
+            - InqQuestBitsOn: 50to11BrokerContractsA@Gold, 0x100
+                QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x100
                     - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Platinum Knight Medallion (43027)
     - TurnToTarget
     - Tell: An insignia taken from one of those vile Knights. I think a reward is in order for your work in slaying one of these monsters.
@@ -69,11 +69,11 @@ Give: Platinum Knight Medallion (43027)
     - InqQuest: platinumknightmedallion
         QuestSuccess:
             - Delay: 1, DirectBroadcast: You must wait %tqt to collect the platinum insignia again.
-            - InqQuestBitsOn: 50to11BrokerContractsA, 0x200
-                QuestFailure: 50to11BrokerContractsA
+            - InqQuestBitsOn: 50to11BrokerContractsA@Platinum, 0x200
+                QuestFailure:
                     - SetQuestBitsOn: 50to11BrokerContractsA, 0x200
                     - StampQuest: ContractQuestcounter_0511
-            
+
 Give: Shard of Corcima's Armor (30545)
     - TurnToTarget
     - Tell: A shard of the armor of Corcima himself! Truly, you are a hero. I can use this shard to make armor every bit as good as that which Corcima wore. Take this coat, with my gratitude.

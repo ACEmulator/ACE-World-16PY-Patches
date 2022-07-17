@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46830;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46830, 'ace46830-purifiedmouryounodachi', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46830, 'ace46830-purifiedmouryounodachi', 6, '2022-07-13 15:31:07') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46830,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,7 @@ VALUES (46830,   1,          1) /* ItemType - MeleeWeapon */
      , (46830,  51,          5) /* CombatUse - TwoHanded */
      , (46830,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (46830, 106,        475) /* ItemSpellcraft */
-     , (46830, 107,          0) /* ItemCurMana */
+     , (46830, 107,       3000) /* ItemCurMana */
      , (46830, 108,       3000) /* ItemMaxMana */
      , (46830, 114,          0) /* Attuned - Normal */
      , (46830, 151,          2) /* HookType - Wall */

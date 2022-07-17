@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51215;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51215, 'ace51215-olthoihivewarrior', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (51215, 'ace51215-olthoihivewarrior', 10, '2022-06-21 15:22:25') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51215,   1,         16) /* ItemType - Creature */
@@ -90,16 +90,13 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (51215,  6, 0, 2, 0, 480, 0, 0) /* MeleeDefense        Trained */
      , (51215,  7, 0, 2, 0, 460, 0, 0) /* MissileDefense      Trained */
      , (51215, 15, 0, 2, 0, 380, 0, 0) /* MagicDefense        Trained */
-     , (51215, 41, 0, 2, 0, 570, 0, 0) /* TwoHandedCombat     Trained */
-     , (51215, 44, 0, 2, 0, 570, 0, 0) /* HeavyWeapons        Trained */
      , (51215, 45, 0, 2, 0, 570, 0, 0) /* LightWeapons        Trained */
-     , (51215, 46, 0, 2, 0, 570, 0, 0) /* FinesseWeapons      Trained */
      , (51215, 51, 0, 2, 0, 570, 0, 0) /* SneakAttack         Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (51215,  0,  2, 450, 0.75,  700,  350,  350,  350,  350,  350,  350,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (51215, 16,  4,  0,    0,  700,  350,  350,  350,  350,  350,  350,  350,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
+     , (51215, 16,  4, 350,    0,  700,  350,  350,  350,  350,  350,  350,  350,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
      , (51215, 18,  1, 350,  0.5,  700,  350,  350,  350,  350,  350,  350,  350,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
-     , (51215, 19,  1,  0,    0,  700,  350,  350,  350,  350,  350,  350,  350,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
+     , (51215, 19,  1, 350,    0,  700,  350,  350,  350,  350,  350,  350,  350,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
      , (51215, 20,  1, 500, 0.75,  700,  350,  350,  350,  350,  350,  350,  350,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
      , (51215, 22, 64, 520,  0.5,  700,  350,  350,  350,  350,  350,  350,  350,    0, 0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Breath */;

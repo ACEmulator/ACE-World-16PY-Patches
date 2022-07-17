@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35982;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35982, 'ace35982-aegisofthegoldenflame', 1, '2022-03-31 06:02:40') /* Generic */;
+VALUES (35982, 'ace35982-aegisofthegoldenflame', 1, '2022-05-10 03:49:02') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35982,   1,          2) /* ItemType - Armor */
@@ -10,7 +10,7 @@ VALUES (35982,   1,          2) /* ItemType - Armor */
      , (35982,  16,          1) /* ItemUseable - No */
      , (35982,  18,         32) /* UiEffects - Fire */
      , (35982,  19,      10000) /* Value */
-     , (35982,  28,        430) /* ArmorLevel */
+     , (35982,  28,        190) /* ArmorLevel */
      , (35982,  33,          1) /* Bonded - Bonded */
      , (35982,  51,          4) /* CombatUse - Shield */
      , (35982,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
@@ -40,7 +40,7 @@ VALUES (35982,   5,  -0.033) /* ManaRate */
      , (35982,  17,       2) /* ArmorModVsFire */
      , (35982,  18,     0.8) /* ArmorModVsAcid */
      , (35982,  19,     1.2) /* ArmorModVsElectric */
-     , (35982, 159,    0.25) /* AbsorbMagicDamage */
+     , (35982, 159,     0.1) /* AbsorbMagicDamage */
      , (35982, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

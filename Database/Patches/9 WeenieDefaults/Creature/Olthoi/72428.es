@@ -1,0 +1,57 @@
+Death:
+    - StampQuest: HiveQueenKill
+    - WorldBroadcast: Deep within the winding tunnels of the Marescent Plateau, the party of the brave %s has slaughtered the Olthoi Hive Queen. As one, the Olthoi Hive swarms recoil from her final burst of terror, and slowly begin to withdraw back into their hives.
+    - StartEvent: MenhirDrummerN
+    - StopEvent: TumerokLeaderWar
+    - StartEvent: TumerokLeaderPeace
+    - StopEvent: MenhirBrokenN
+    - StartEvent: MenhirIntactN
+    - StopEvent: MenhirBrokenNE
+    - StartEvent: MenhirIntactNE
+    - StopEvent: MenhirBrokenSE
+    - StartEvent: MenhirIntactSE
+    - StopEvent: MenhirBrokenSW
+    - StartEvent: MenhirIntactSW
+    - StopEvent: MenhirBrokenNW
+    - StartEvent: MenhirIntactNW
+    - StopEvent: HiveQueenWeakGuards
+    - StopEvent: BroodNobleHive
+    - StopEvent: MaraeHighInvasion
+    - StopEvent: NorthLocalInvasion
+    - StopEvent: NorthHighSwarmA
+    - StopEvent: NorthHighSwarmB
+    - StopEvent: NorthHighSwarmC
+    - StopEvent: NorthHighSwarmD
+    - StartEvent: NorthPeace
+    - StopEvent: NorthEastLocalInvasion
+    - StopEvent: NorthEastHighSwarmA
+    - StopEvent: NorthEastHighSwarmB
+    - StopEvent: NorthEastHighSwarmC
+    - StopEvent: NorthEastHighSwarmD
+    - StartEvent: NorthEastPeace
+    - StopEvent: SouthEastLocalInvasion
+    - StopEvent: SouthEastHighSwarmA
+    - StopEvent: SouthEastHighSwarmB
+    - StopEvent: SouthEastHighSwarmC
+    - StopEvent: SouthEastHighSwarmD
+    - StartEvent: SouthEastPeace
+    - StopEvent: SouthWestLocalInvasion
+    - StopEvent: SouthWestHighSwarmA
+    - StopEvent: SouthWestHighSwarmB
+    - StopEvent: SouthWestHighSwarmC
+    - StopEvent: SouthWestHighSwarmD
+    - StartEvent: SouthWestPeace
+    - StopEvent: NorthWestLocalInvasion
+    - StopEvent: NorthWestHighSwarmA
+    - StopEvent: NorthWestHighSwarmB
+    - StopEvent: NorthWestHighSwarmC
+    - StopEvent: NorthWestHighSwarmD
+    - StartEvent: NorthWestPeace
+    - StopEvent: HiveEvisceratorSprayer
+    - StopEvent: HiveQueenDynamic
+
+HeartBeat: Style: HandCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch1
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch1

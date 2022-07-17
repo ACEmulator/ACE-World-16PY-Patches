@@ -328,7 +328,7 @@ Give: Aged Tome (24111)
     - TurnToTarget
     - Tell: He didn't seem to care much for the Emperor, though he still paid him some sort of respect.
     - Delay: 1, Give: 24110
-    
+
 Give: Weathered Tome (24107)
     - TurnToTarget
     - Tell: Now this was interesting it gives a little more insight to those Gromnatross things people talk about.
@@ -395,6 +395,11 @@ Give: 72798
     - Tell: Fascinating. You know, this book isn't as old as its location may lead you to believe. This appears to be penned by one of the Adjanites, which were an order of Empyreans from Asheron's time, only a few thousand years ago. The story itself seems far older, though. She refers to it as coming from a Falatacot tribe. Very strange...
     - Delay: 1, Tell: But I digress. You can see for yourself, and I won't keep you here any longer.
     - Give: 72799
+
+Give: Trade Note (250,000) (20630)
+    - TurnToTarget
+    - Tell: Here you go.
+    - Delay: 1, Give: Uninscription Stone (33960)
 
 Use:
     - Motion: Ready

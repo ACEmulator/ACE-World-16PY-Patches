@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4195;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4195, 'nekode', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (4195, 'nekode', 6, '2022-05-10 03:49:02') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4195,   1,          1) /* ItemType - MeleeWeapon */
@@ -12,7 +12,7 @@ VALUES (4195,   1,          1) /* ItemType - MeleeWeapon */
      , (4195,  16,          1) /* ItemUseable - No */
      , (4195,  19,         50) /* Value */
      , (4195,  44,          4) /* Damage */
-     , (4195,  45,          1) /* DamageType - Slash */
+     , (4195,  45,          3) /* DamageType - Slash, Pierce */
      , (4195,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (4195,  47,          1) /* AttackType - Punch */
      , (4195,  48,         44) /* WeaponSkill - HeavyWeapons */

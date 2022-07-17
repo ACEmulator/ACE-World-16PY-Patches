@@ -1,0 +1,2 @@
+Scream:
+    - Generate

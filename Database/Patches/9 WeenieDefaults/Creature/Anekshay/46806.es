@@ -7,6 +7,11 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
     - Motion: Twitch3
 
+Refuse: 72798
+    - TurnToTarget
+    - Tell: The whole legend... this is an amazing find. You should take this to Popkin of the Gate, near Cragstone. She's the one collating all of the lore. She'll reward you well for this, I'm sure.
+    - Tell: I'm stuck here dealing with angry Gromnies and even angrier miners...
+
 Use:
     - TurnToTarget
     - InqIntStat: Level, 150 - 999
@@ -20,6 +25,7 @@ Use:
                         QuestSuccess:
                             - StampQuest: BlessedCaveCompleted_0912
                             - EraseQuest: BlessedCaveStarted_0912
+                            - StampQuest: BulbofMornings_Flag
                             - DirectBroadcast: You explain to Shah-hi what you found in the depths of the temple.
                             - Tell: Wow! That's more than we could've hoped for.
                             - Tell: You actually found and helped one of the four Sisters mentioned in the lore we've been researching? That's unbelievable.
@@ -37,16 +43,13 @@ Use:
                                     - SetQuestBitsOn: LegendaryQuestsB, 0x80
                                     - StampQuest: LegendaryQuestCounter_0913
                         QuestFailure:
-                            - Tell: Welcome to my excavation site!
-                            - Tell: I wonder if you'd be interested in a little job.
-                            - Tell: My mistress, Popkin of the Gate, sent me here to manage this dig site. We've uncovered a very promising Light Falatacot temple, but it's entirely overrun with gromnies. If you'd be willing to go in there and bring back word of anything you find, it'd be greatly appreciated.
                             - InqQuest: BlessedCaveStarted_0912
+                                QuestSuccess:
+                                    - Tell: Have you found anything in the dig site? Please hurry.
                                 QuestFailure:
                                     - StampQuest: BlessedCaveStarted_0912
+                                    - Tell: Welcome to my excavation site!
+                                    - Tell: I wonder if you'd be interested in a little job.
+                                    - Tell: My mistress, Popkin of the Gate, sent me here to manage this dig site. We've uncovered a very promising Light Falatacot temple, but it's entirely overrun with gromnies. If you'd be willing to go in there and bring back word of anything you find, it'd be greatly appreciated.        
         TestFailure:
             - Tell: I'm afraid you're not powerful enough to aid me.
-
-Refuse: 72798
-    - TurnToTarget
-    - Tell: The whole legend... this is an amazing find. You should take this to Popkin of the Gate, near Cragstone. She's the one collating all of the lore. She'll reward you well for this, I'm sure.
-    - Tell: I'm stuck here dealing with angry Gromnies and even angrier miners...
