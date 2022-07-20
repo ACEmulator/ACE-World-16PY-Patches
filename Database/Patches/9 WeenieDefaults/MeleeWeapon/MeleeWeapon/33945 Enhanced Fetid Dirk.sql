@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33945;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33945, 'ace33945-enhancedfetiddirk', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (33945, 'ace33945-enhancedfetiddirk', 6, '2022-07-19 09:52:19') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33945,   1,          1) /* ItemType - MeleeWeapon */
@@ -13,6 +13,7 @@ VALUES (33945,   1,          1) /* ItemType - MeleeWeapon */
      , (33945,  45,         32) /* DamageType - Acid */
      , (33945,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33945,  47,          6) /* AttackType - Thrust, Slash */
+     , (33945,  48,         44) /* WeaponSkill */
      , (33945,  49,         35) /* WeaponTime */
      , (33945,  51,          1) /* CombatUse - Melee */
      , (33945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -56,8 +57,9 @@ VALUES (33945,   1, 0x02000EA8) /* Setup */
      , (33945,  55,         61) /* ProcSpell - Acid Stream IV */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33945,  1136,      2)  /* Piercing Protection Self IV */
-     , (33945,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (33945,  1603,      2)  /* Aura of Defender Self IV */
-     , (33945,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (33945,  1625,      2)  /* Aura of Swift Killer Self IV */;
+VALUES (33945,  1136,      2) /* Piercing Protection Self IV */
+     , (33945,  1590,      2) /* Aura of Heart Seeker Self IV */
+     , (33945,  1603,      2) /* Aura of Defender Self IV */
+     , (33945,  1615,      2) /* Aura of Blood Drinker Self V */
+     , (33945,  1625,      2) /* Aura of Swift Killer Self IV */;
+
