@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 90108;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (90108, 'ace90108-daimyoidah', 10, '2022-07-13 15:31:07') /* Creature */;
+VALUES (90108, 'ace90108-daimyoidah', 10, '2022-07-22 16:06:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (90108,   1,         16) /* ItemType - Creature */
@@ -134,7 +134,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Daimyo Idah says
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (90108, 2, 90111,  1, 0, 0, False) /* Create Corrupted Mouryou Nanjou-tachi (90111) for Wield */
      , (90108, 2, 90119,  1, 0, 0, False) /* Create Corrupted Mouryou Nekode (90119) for Wield */
-     , (90108, 9, 53475,  0, 0, 1, False) /* Create Daimyo Nobanuga's Shattered Helm (53475) for ContainTreasure */
+     , (90108, 9, 53476,  0, 0, 1, False) /* Create Daimyo Idah's Tattered Mask (53476) for ContainTreasure */
      , (90108, 9, 90115,  0, 0, 0.08, False) /* Create Corrupted Mouryou Blade (90115) for ContainTreasure */
      , (90108, 9, 90114,  0, 0, 0.04, False) /* Create Corrupted Mouryou Blade (90114) for ContainTreasure */
      , (90108, 9, 90116,  0, 0, 0.08, False) /* Create Corrupted Mouryou Blade (90116) for ContainTreasure */

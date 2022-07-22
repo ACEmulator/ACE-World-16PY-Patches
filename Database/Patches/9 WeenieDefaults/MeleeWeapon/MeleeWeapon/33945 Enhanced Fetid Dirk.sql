@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33945;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33945, 'ace33945-enhancedfetiddirk', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (33945, 'ace33945-enhancedfetiddirk', 6, '2022-07-22 16:06:17') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33945,   1,          1) /* ItemType - MeleeWeapon */
@@ -13,6 +13,7 @@ VALUES (33945,   1,          1) /* ItemType - MeleeWeapon */
      , (33945,  45,         32) /* DamageType - Acid */
      , (33945,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33945,  47,          6) /* AttackType - Thrust, Slash */
+     , (33945,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (33945,  49,         35) /* WeaponTime */
      , (33945,  51,          1) /* CombatUse - Melee */
      , (33945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
