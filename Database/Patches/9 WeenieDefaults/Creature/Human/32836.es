@@ -4,7 +4,7 @@ Refuse: The Sword of Bellenesse (32832)
             - TakeItems: The Sword of Bellenesse (32832)
             - Delay: 1, DirectBroadcast: Bhravarn examines the blade intently, handling it with the most loving care and grace.
             - Delay: 1, Tell: Ahh, truly the work of a Master. I've not seen its like ever come from Viamontian hands. Please, accept this gift with my blessing. It is a blade I created based on the stories and paintings I have seen of this blade. It is a humble replica, but is not warded against a non Bellenesse wielding it, as the true blade is.
-            - AwardLevelProportionalXP: 115%, 20,000,000 - 79,000,000
+            - AwardLevelProportionalXP: 115%, 0 - 79,000,000
             - Give: Replica Sword of Bellenesse (32769)
             - Delay: 1, Tell: If you do not wish this blade, return it to me, and I will reward you in another manner.
 
@@ -22,7 +22,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.2
 
 Give: Replica Sword of Bellenesse (32769)
     - Tell: You wish not this gift? Very well, I have other ways to reward you.
-    - AwardLevelProportionalXP: 3.5%, 1,000,000 - 2,500,000
+    - AwardLevelProportionalXP: 3.5%, 0 - 2,500,000
     - Delay: 1, Tell: I do hope that this gift is more to your liking.
 
 Give: Princely Runed Slashing Baton (32984)
