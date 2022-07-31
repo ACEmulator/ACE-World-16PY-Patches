@@ -15,13 +15,13 @@ Refuse: 32832
         TestSuccess:
             - TakeItems: 32832, 1
             - Delay: 1, Tell: Ahh, yes. This is the blade that was stolen. Allow me to reward you for your valor and loyalty to Sanamar and King Varicci.
-            - AwardLevelProportionalXP: 115%, 20,000,000 - 79,000,000
+            - AwardLevelProportionalXP: 115%, 0 - 79,000,000
             - Give: 32782
             - Delay: 1, Tell: If this shield is of no use to you, return it to me, and I will reward you in other ways.
 
 Give: 32782
     - Tell: Your returning your gift? I will reward you another way.
-    - AwardLevelProportionalXP: 3.5%, 1,000,000 - 2,500,000
+    - AwardLevelProportionalXP: 3.5%, 0 - 2,500,000
 
 Give: 33927
     - TurnToTarget
