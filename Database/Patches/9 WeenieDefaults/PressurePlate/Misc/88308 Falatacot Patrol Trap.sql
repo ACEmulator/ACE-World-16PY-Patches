@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88308;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88308, '88308-fptrap', 24, '2021-11-01 00:00:00') /* PressurePlate */;
+VALUES (88308, 'ace88308-falatacotpatroltrap', 24, '2021-11-01 00:00:00') /* PressurePlate */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88308,   1,        128) /* ItemType - Misc */

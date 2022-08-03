@@ -457,5 +457,5 @@ VALUES (0x700CB142, 88316, 0x00CB044A, 339.732, -66.2215, 6.055, 0.70082, 0, 0, 
 /* @teleloc 0x00CB044A [339.731995 -66.221497 6.055000] 0.700820 0.000000 0.000000 0.713338 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CB143, 88288, 0x00CB04CC, 339.239, -59.42289, 24.00975, 0.710382, 0, 0, 0.703817,  True, '2022-05-31 09:09:16'); /* Nivinizk's Raid Commander */
-/* @teleloc 0x00CB04CC [339.239014 -59.422890 24.009750] 0.710382 0.000000 0.000000 0.703817 */
+VALUES (0x700CB143, 88288, 0x00CB04CC, 339.239, -59.4229, 24.0098, 0.710382, 0, 0, 0.703817,  True, '2022-05-31 09:09:16'); /* Nivinizk's Raid Commander */
+/* @teleloc 0x00CB04CC [339.239014 -59.422901 24.009800] 0.710382 0.000000 0.000000 0.703817 */

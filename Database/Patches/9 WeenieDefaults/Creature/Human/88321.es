@@ -1,4 +1,4 @@
 Generation:
-	- Delay: 300, Motion: Wave
-	- StopEvent: SummoningTthuunEvent
-	- StopEvent: SummoningTthuunFinaleEvent
+    - Delay: 300, Motion: Wave
+    - StopEvent: SummoningTthuunEvent
+    - StopEvent: SummoningTthuunFinaleEvent
