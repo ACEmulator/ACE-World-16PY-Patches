@@ -78,7 +78,7 @@ VALUES (42799, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42799, 4, 46755, -1, 0, 0, False) /* Create Contract for Stipend: General (46755) for Shop */
      , (42799, 4, 51964, -1, 0, 0, False) /* Create Contract for Legendary Quests (51964) for Shop */
      , (42799, 4, 49569, -1, 0, 0, False) /* Create Contract for Buried Alive (49569) for Shop */
-     , (42799, 4, 44398, -1, 0, 0, False) /* Create  (44398) for Shop */
+     , (42799, 4, 44398, -1, 0, 0, False) /* Create Contract for Summoning T'thuun (44398) for Shop */
      , (42799, 4, 44400, -1, 0, 0, False) /* Create Contract for Empyrean Rescue (44400) for Shop */
      , (42799, 4, 44396, -1, 0, 0, False) /* Create Contract for Aug Gem: Luminance (44396) for Shop */
      , (42799, 4, 44654, -1, 0, 0, False) /* Create Contract for Vision Quest (44654) for Shop */

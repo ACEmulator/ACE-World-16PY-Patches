@@ -484,7 +484,17 @@ Gotoset: Check46
                     - Give: 53192
                     - StampQuest: ParagonWeapons
                 QuestFailure:
-                    - Tell: Go and prove yourself, small one.
+                    - InqQuestBitsOn: LegendaryQuestsA, 0xFFFFF
+                        QuestSuccess:
+                            - InqQuestBitsOn: LegendaryQuestsB, 0xFFFFF
+                                QuestSuccess:
+                                    - Tell: And I see you have already proven yourself in this challenge. Well done.
+                                    - Give: 53192
+                                    - StampQuest: ParagonWeapons
+                                QuestFailure:
+                                    - Tell: Go and prove yourself, small one.
+                        QuestFailure:
+                            - Tell: Go and prove yourself, small one.
 
 Gotoset: Check47
     - Delay: 0.01, InqQuestSolves: ParagonWeapons, 47 - 47

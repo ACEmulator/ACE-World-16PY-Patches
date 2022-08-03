@@ -17,13 +17,13 @@ Refuse: 32832
             - DirectBroadcast: Lucari carefully examines the blade you have given him. With a very sad expression, he sets the weapon gently aside and looks to you.
             - Delay: 1, Tell: Thank you... This is indeed the sword that was lost to us. All in Silyun thank you for returning this to us. It is a noble thing you have done.
             - Delay: 1, Tell: Please, accept this token as a gift from us, and know that you have our gratitude for the valor and nobility you have shown to us this day.
-            - AwardLevelProportionalXP: 115%, 20,000,000 - 79,000,000
+            - AwardLevelProportionalXP: 115%, 0 - 79,000,000
             - Give: 32783
             - Delay: 1, Tell: If you do not wish the shield, return it to me, and I will find another way to reward your kindness.
 
 Give: 32783
     - Tell: As you wish.
-    - AwardLevelProportionalXP: 3.5%, 1,000,000 - 2,500,000
+    - AwardLevelProportionalXP: 3.5%, 0 - 2,500,000
 
 Use:
     - TurnToTarget
