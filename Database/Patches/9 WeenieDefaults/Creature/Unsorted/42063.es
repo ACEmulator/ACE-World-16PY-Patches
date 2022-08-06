@@ -3,7 +3,7 @@ Use:
 
 Give: 52969
     - Give: 53474
-    
+
 GotoSet: PickReward, Probability: 0.33
     - Goto: Spell
 GotoSet: PickReward, Probability: 0.66
@@ -74,10 +74,10 @@ GotoSet: Portal, Probability: 0.125
     - CastSpellInstant: 5162
     - DeleteSelf
 GotoSet: Portal, Probability: 0.25
-    - TeleportTarget: 0x8C03036E [100.008820 -9.996875 0.005000] 0.707107 0 0 0.707107
+    - CastSpellInstant: 5169
     - DeleteSelf
 GotoSet: Portal, Probability: 0.375
-    - TeleportTarget: 0x472E0001 [12.000000 12.000000 200] 1.000000 0.000000 0.000000 0.000000
+    - CastSpellInstant: 5168
     - DeleteSelf
 GotoSet: Portal, Probability: 0.5
     - CastSpellInstant: 3216
@@ -86,7 +86,7 @@ GotoSet: Portal, Probability: 0.625
     - CastSpellInstant: 4717
     - DeleteSelf
 GotoSet: Portal, Probability: 0.75
-    - TeleportTarget: 4721
+    - CastSpellInstant: 4721
     - DeleteSelf
 GotoSet: Portal, Probability: 0.875
     - CastSpellInstant: 2942
@@ -94,7 +94,7 @@ GotoSet: Portal, Probability: 0.875
 GotoSet: Portal, Probability: 1
     - CastSpellInstant: 2422
     - DeleteSelf
-    
+
 GotoSet: Rare, Probability: 0.125
     - Give: 36021
     - DeleteSelf
