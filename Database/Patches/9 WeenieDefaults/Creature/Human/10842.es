@@ -46,7 +46,8 @@ Give: Worker Pincer (27591)
 Give: Soldier Pincer (10847)
     - TurnToTarget
     - Tell: I am most impressed!  You have accomplished much in a short time, traveler.
-    - AwardXP: 1,000,000
+    - AwardXP: 300,000
+    - AwardNoShareXP: 700,000
     - Give: A Bracelet of Piercing Protection (10841)
     - Give: Trade Note (50,000) (2626)
     - Give: Treated Healing Kit (9229)
@@ -58,7 +59,8 @@ Give: Soldier Pincer (10847)
 Give: Legionary Pincer (10846)
     - TurnToTarget
     - Tell: You're back?!?  I mean, welcome!  Of course you're back!  I had the utmost faith...well, perhaps that is too...I was relatively sure that I would see you again, and the fact that you are still alive as well is pure felicity.
-    - AwardXP: 2,500,000
+    - AwardXP: 830,000
+    - AwardNoShareXP: 1,670,000
     - Give: Glittering Necklace of Acid and Piercing Protection (27579)
     - Give: Trade Note (75,000) (7377)
     - Give: Treated Healing Kit (9229)
@@ -72,7 +74,8 @@ Give: Legionary Pincer (10846)
 Give: Eviscerator Pincer (10843)
     - TurnToTarget
     - Tell: You really are a savior!  Here is your reward.
-    - AwardXP: 5,000,000
+    - AwardXP: 1,600,000
+    - AwardNoShareXP: 3,400,000
     - Give: Sublime Necklace of Acid and Piercing Protection (27580)
     - Give: Trade Note (100,000) (2627)
     - Give: Treated Healing Kit (9229)
@@ -86,7 +89,8 @@ Give: Eviscerator Pincer (10843)
 Give: Warrior Pincer (27590)
     - TurnToTarget
     - Tell: This is really amazing. How did you manage to kill all of those nasty bugs?".
-    - AwardXP: 8,000,000
+    - AwardXP: 2,600,000
+    - AwardNoShareXP: 5,400,000
     - Give: Sublime Ring of Piercing Protection (27582)
     - Give: Trade Note (100,000) (2627)
     - Give: Treated Healing Kit (9229)
@@ -103,7 +107,8 @@ Give: Warrior Pincer (27590)
 Give: Mutilator Pincer (27589)
     - TurnToTarget
     - Tell: Thank goodness someone like you is out there looking out for us! Here is your reward.
-    - AwardXP: 11,000,000
+    - AwardXP: 3,600,000
+    - AwardNoShareXP: 7,400,000
     - Give: Sublime Bracelet of Acid Protection (27578)
     - Give: Trade Note (100,000) (2627), 2
     - Give: Treated Healing Kit (9229)
@@ -187,7 +192,7 @@ Give: Mutilator Token (27574)
     - AddCharacterTitle: Annihilator
 
 Use:
-    - UpdateQuest: HarvesterInitialQuest@3
+    - UpdateQuest: HarvesterInitialQuest
         QuestSuccess:
             - Motion: Ready
             - TurnToTarget
@@ -198,4 +203,3 @@ Use:
         QuestFailure:
             - Tell: What are you doing loitering about here?  Bring me proof of those nasty bugs' demise!
             - Delay: 1, Motion: ShakeFist
-
