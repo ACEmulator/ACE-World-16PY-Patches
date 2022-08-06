@@ -6,4 +6,4 @@ VALUES (9201, 0, 39 /* Cooking */, 300, 0, 34859 /* Roasted Tiriun Cap */, 1, 'Y
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9201;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (9201, 4767 /* Skewer */, 34855 /* Tiriun Mushroom Stalk */, '2022-08-03 00:00:00');
+VALUES (9201, 4767 /* Skewer */, 34855 /* Tiriun Mushroom Cap */, '2022-08-03 00:00:00');
