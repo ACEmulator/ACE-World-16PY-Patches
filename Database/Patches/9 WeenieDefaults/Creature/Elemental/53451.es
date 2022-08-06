@@ -906,7 +906,7 @@ Refuse: 52968
     - Goto: CheckStart
 
 Gotoset: CheckStart
-    - InqQuestSolves: ParagonStarted
+    - InqQuest: ParagonStarted
         QuestSuccess:
             - Goto: Amber0
         QuestFailure:
@@ -1063,7 +1063,7 @@ Gotoset: Amber45
             - Goto: Amber50
 
 Gotoset: Amber50
-    - InqQuestSolves: ParagonWeapons, 50 - 50
+    - InqQuestSolves: ParagonWeapons, 49 - 49
         QuestSuccess:
             - InqOwnsItems: 52968, 500
                 TestSuccess:
@@ -1073,7 +1073,8 @@ Gotoset: Amber50
                     - Give: 53195
                     - Tell: You have successfully empowered your weapon as far as it is able to contain. Congratulations.
                     - Tell: If you wish to empower another weapon, speak with me again, and we'll start anew.
-                    - SetQuestCompletions: ParagonWeapons, 0
+                    - EraseQuest: ParagonWeapons
+                    - EraseQuest: ParagonStarted
                 TestFailure:
                     - Tell: Come back when you have at least 500 Infused Amber Shards.
         QuestFailure:
