@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39369;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (39369, 'ace39369-packtthuun', 38, '2022-08-03 04:23:55') /* Gem */;
+VALUES (39369, 'ace39369-packtthuun', 64, '2022-08-03 04:23:55') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39369,   1,       2048) /* ItemType - Gem */
@@ -10,7 +10,9 @@ VALUES (39369,   1,       2048) /* ItemType - Gem */
      , (39369,  19,          0) /* Value */
      , (39369,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39369,  94,         16) /* TargetType - Creature */
-     , (39369, 151,          9) /* HookType - Floor, Yard */;
+     , (39369, 150,        103) /* HookPlacement - Hook */
+     , (39369, 151,          9) /* HookType - Floor, Yard */
+     , (39369, 197,          1) /* HookGroup - NoisemakingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39369,  22, True ) /* Inscribable */;
