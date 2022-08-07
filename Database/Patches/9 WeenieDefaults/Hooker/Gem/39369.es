@@ -1,3 +1,3 @@
 Use:
     - Motion: CastSpell
-    - Delay: 1, Motion: Ready
+    - Delay: 0.3, Motion: Ready
