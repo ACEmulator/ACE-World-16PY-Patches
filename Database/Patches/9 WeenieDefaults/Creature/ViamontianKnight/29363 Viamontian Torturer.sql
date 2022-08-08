@@ -157,8 +157,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29363, 2, 28632,  0, 19, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (29363, 2, 28618,  0, 19, 0, True) /* Create Diforsa Helm (28618) for Wield */
-     , (29363, 2, 28621,  0, 19, 0, True) /* Create Diforsa Leggings (28621) for Wield */
-     , (29363, 2, 30948,  0, 19, 0, True) /* Create Diforsa Hauberk (30948) for Wield */
-     , (29363, 2, 28625,  0, 19, 0, True) /* Create Diforsa Sollerets (28625) for Wield */;
+VALUES (29363, 2, 28632,  0, 19, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (29363, 2, 28618,  0, 19, 0, False) /* Create Diforsa Helm (28618) for Wield */
+     , (29363, 2, 28621,  0, 19, 0, False) /* Create Diforsa Leggings (28621) for Wield */
+     , (29363, 2, 30948,  0, 19, 0, False) /* Create Diforsa Hauberk (30948) for Wield */
+     , (29363, 2, 28625,  0, 19, 0, False) /* Create Diforsa Sollerets (28625) for Wield */;

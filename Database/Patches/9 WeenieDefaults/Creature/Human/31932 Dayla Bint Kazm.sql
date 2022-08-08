@@ -155,4 +155,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I speak for it.', NULL, NUL
      , (@parent_id,  3,  70 /* SetQuestCompletions */, 0, 1, NULL, 'shallowsgorgerkillcount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31932, 2, 12193,  1, 2, 0.5, True) /* Create Dho Vest and Robe (12193) for Wield */;
+VALUES (31932, 2, 12193,  1, 2, 0.5, False) /* Create Dho Vest and Robe (12193) for Wield */;

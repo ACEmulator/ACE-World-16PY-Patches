@@ -183,5 +183,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterSpawned', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35138, 2, 29974,  1, 0, 0.5, True) /* Create Partizan (29974) for Wield */
-     , (35138, 2, 34343,  1, 0, 0.5, True) /* Create Tachi (34343) for Wield */;
+VALUES (35138, 2, 29974,  1, 0, 0.5, False) /* Create Partizan (29974) for Wield */
+     , (35138, 2, 34343,  1, 0, 0.5, False) /* Create Tachi (34343) for Wield */;

@@ -97,15 +97,15 @@ VALUES (42374,  2139,   2.15)  /* Luminous Wrath */
      , (42374,  2172,   2.15)  /* Astyrrian's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42374, 2, 43132,  1, 0, 0, True) /* Create Gear Crossbow (43132) for Wield */
-     , (42374, 2, 15443, 15, 0, 0, True) /* Create Deadly Lightning Quarrel (15443) for Wield */
-     , (42374, 9, 41528,  1, 0, 0.35, True) /* Create Aetherium Power Core (41528) for ContainTreasure */
+VALUES (42374, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */
+     , (42374, 2, 15443, 15, 0, 0, False) /* Create Deadly Lightning Quarrel (15443) for Wield */
+     , (42374, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (42374, 9,     0,  1, 0, 0.65, False) /* Create nothing for ContainTreasure */
-     , (42374, 9, 42114,  1, 0, 0.05, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+     , (42374, 9, 42114,  1, 0, 0.05, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (42374, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (42374, 9, 41979,  1, 0, 0.05, True) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (42374, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (42374, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (42374, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (42374, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (42374, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (42374, 9, 51266,  1, 0, 0.3, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
      , (42374, 9,     0,  1, 0, 0.7, False) /* Create nothing for ContainTreasure */;

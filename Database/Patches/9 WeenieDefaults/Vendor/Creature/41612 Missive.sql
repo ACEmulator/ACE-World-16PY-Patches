@@ -193,7 +193,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Let us hope you don''t need to use those.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41612, 2,  5851,  1, 88, 0, True) /* Create Faran Robe with Hood (5851) for Wield */
+VALUES (41612, 2,  5851,  1, 88, 0, False) /* Create Faran Robe with Hood (5851) for Wield */
      , (41612, 4,  6062, -1, 0, 0, False) /* Create Faran Creature Apprentice Robe (6062) for Shop */
      , (41612, 4,  6068, -1, 0, 0, False) /* Create Faran Life Apprentice Robe (6068) for Shop */
      , (41612, 4,  6071, -1, 0, 0, False) /* Create Faran War Apprentice Robe (6071) for Shop */
@@ -323,15 +323,15 @@ VALUES (41612, 2,  5851,  1, 88, 0, True) /* Create Faran Robe with Hood (5851) 
      , (41612, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (41612, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */
      , (41612, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
-     , (41612, 4,  9359, -1, 0, 0, True) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
-     , (41612, 4,  9363, -1, 0, 0, True) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
-     , (41612, 4,  9362, -1, 0, 0, True) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
-     , (41612, 4,  9361, -1, 0, 0, True) /* Create Wrapped Bundle of Armor Piercing Arrowheads (9361) for Shop */
-     , (41612, 4,  9366, -1, 0, 0, True) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
-     , (41612, 4,  9377, -1, 0, 0, True) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
-     , (41612, 4,  9378, -1, 0, 0, True) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (41612, 4, 15296, -1, 0, 0, True) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
-     , (41612, 4, 15298, -1, 0, 0, True) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
-     , (41612, 4,  4586, -1, 0, 0, True) /* Create Bundle of Arrowheads (4586) for Shop */
-     , (41612, 4,  4585, -1, 0, 0, True) /* Create Bundle of Arrowshafts (4585) for Shop */
-     , (41612, 4,  5346, -1, 0, 0, True) /* Create Bundle of Frog Crotch Arrowheads (5346) for Shop */;
+     , (41612, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
+     , (41612, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
+     , (41612, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
+     , (41612, 4,  9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads (9361) for Shop */
+     , (41612, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
+     , (41612, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
+     , (41612, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
+     , (41612, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
+     , (41612, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
+     , (41612, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (41612, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (41612, 4,  5346, -1, 0, 0, False) /* Create Bundle of Frog Crotch Arrowheads (5346) for Shop */;

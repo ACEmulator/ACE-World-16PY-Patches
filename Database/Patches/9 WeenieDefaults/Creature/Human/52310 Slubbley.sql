@@ -269,8 +269,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 20630 /* Trade Note (250,000) */, 20, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52310, 2, 43833,  0, 85, 0.0345, True) /* Create Sedgemail Leather Sleeves (43833) for Wield */
-     , (52310, 2, 43828,  0, 85, 0.0345, True) /* Create Sedgemail Leather Vest (43828) for Wield */
-     , (52310, 2, 43830,  0, 85, 0.0345, True) /* Create Sedgemail Leather Gauntlets (43830) for Wield */
-     , (52310, 2, 43831,  0, 85, 0.0345, True) /* Create Sedgemail Leather Pants (43831) for Wield */
-     , (52310, 2, 43832,  0, 85, 0, True) /* Create Sedgemail Leather Shoes (43832) for Wield */;
+VALUES (52310, 2, 43833,  0, 85, 0.0345, False) /* Create Sedgemail Leather Sleeves (43833) for Wield */
+     , (52310, 2, 43828,  0, 85, 0.0345, False) /* Create Sedgemail Leather Vest (43828) for Wield */
+     , (52310, 2, 43830,  0, 85, 0.0345, False) /* Create Sedgemail Leather Gauntlets (43830) for Wield */
+     , (52310, 2, 43831,  0, 85, 0.0345, False) /* Create Sedgemail Leather Pants (43831) for Wield */
+     , (52310, 2, 43832,  0, 85, 0, False) /* Create Sedgemail Leather Shoes (43832) for Wield */;

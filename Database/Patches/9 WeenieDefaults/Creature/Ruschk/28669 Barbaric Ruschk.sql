@@ -161,5 +161,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28669, 9, 28744, -1, 0, 0.05, True) /* Create Imperfect Ice Shard (28744) for ContainTreasure */
+VALUES (28669, 9, 28744, -1, 0, 0.05, False) /* Create Imperfect Ice Shard (28744) for ContainTreasure */
      , (28669, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -168,12 +168,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32513, 2,   414,  0, 93, 0, True) /* Create Chainmail Breastplate (414) for Wield */
-     , (32513, 2, 25651,  0, 93, 0, True) /* Create Leather Sleeves (25651) for Wield */
-     , (32513, 2, 25646,  0, 93, 0, True) /* Create Long Leather Gauntlets (25646) for Wield */
-     , (32513, 2,   415,  0, 93, 0.9821, True) /* Create Chainmail Girth (415) for Wield */
-     , (32513, 2, 13241,  0, 93, 0, True) /* Create Leather Leggings (13241) for Wield */
-     , (32513, 2,  7897,  0, 93, 0, True) /* Create Steel Toed Boots (7897) for Wield */
-     , (32513, 2, 25640,  0, 93, 0, True) /* Create Leather Cowl (25640) for Wield */
-     , (32513, 2,   130,  0, 90, 0, True) /* Create Shirt (130) for Wield */
+VALUES (32513, 2,   414,  0, 93, 0, False) /* Create Chainmail Breastplate (414) for Wield */
+     , (32513, 2, 25651,  0, 93, 0, False) /* Create Leather Sleeves (25651) for Wield */
+     , (32513, 2, 25646,  0, 93, 0, False) /* Create Long Leather Gauntlets (25646) for Wield */
+     , (32513, 2,   415,  0, 93, 0.9821, False) /* Create Chainmail Girth (415) for Wield */
+     , (32513, 2, 13241,  0, 93, 0, False) /* Create Leather Leggings (13241) for Wield */
+     , (32513, 2,  7897,  0, 93, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (32513, 2, 25640,  0, 93, 0, False) /* Create Leather Cowl (25640) for Wield */
+     , (32513, 2,   130,  0, 90, 0, False) /* Create Shirt (130) for Wield */
      , (32513, 9, 32515,  0, 0, 1, False) /* Create Underminer Notes (32515) for ContainTreasure */;

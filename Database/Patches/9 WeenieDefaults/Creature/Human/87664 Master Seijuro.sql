@@ -132,9 +132,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You have fought well to come here. Why have you come?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87664, 2, 33973,  0, 0, 1, True) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (87664, 2, 33975,  0, 0, 1, True) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
-     , (87664, 2, 33974,  0, 0, 1, True) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (87664, 2, 33977,  0, 0, 1, True) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
-     , (87664, 2, 33976,  0, 0, 1, True) /* Create Shou-jen Shozoku Mask (33976) for Wield */
-     , (87664, 2,  4197,  0, 0, 1, True) /* Create Acid Nekode (4197) for Wield */;
+VALUES (87664, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
+     , (87664, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
+     , (87664, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
+     , (87664, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
+     , (87664, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
+     , (87664, 2,  4197,  0, 0, 1, False) /* Create Acid Nekode (4197) for Wield */;

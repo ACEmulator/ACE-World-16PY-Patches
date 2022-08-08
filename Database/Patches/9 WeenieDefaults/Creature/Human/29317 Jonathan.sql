@@ -250,5 +250,5 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  6,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29317, 2, 12309,  1, 2, 0, True) /* Create Society Explorer Hat (12309) for Wield */
-     , (29317, 2, 12310,  1, 2, 0, True) /* Create Explorer Society Robe (12310) for Wield */;
+VALUES (29317, 2, 12309,  1, 2, 0, False) /* Create Society Explorer Hat (12309) for Wield */
+     , (29317, 2, 12310,  1, 2, 0, False) /* Create Explorer Society Robe (12310) for Wield */;

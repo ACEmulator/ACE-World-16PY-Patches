@@ -154,6 +154,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80057, 2, 31823,  1, 4, 0.6, True) /* Create Fire Baton (31823) for Wield */
-     , (80057, 2, 28614,  0, 14, 0.1071, True) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (80057, 2, 28632,  0, 14, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */;
+VALUES (80057, 2, 31823,  1, 4, 0.6, False) /* Create Fire Baton (31823) for Wield */
+     , (80057, 2, 28614,  0, 14, 0.1071, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (80057, 2, 28632,  0, 14, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */;

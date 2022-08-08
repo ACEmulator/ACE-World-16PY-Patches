@@ -105,11 +105,11 @@ VALUES (32689,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (32689, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32689, 2, 25636,  0, 93, 0, True) /* Create Leather Helm (25636) for Wield */
-     , (32689, 2, 25638,  0, 93, 0, True) /* Create Leather Vest (25638) for Wield */
-     , (32689, 2, 25643,  0, 93, 0, True) /* Create Leather Girth (25643) for Wield */
-     , (32689, 2, 25651,  0, 93, 0, True) /* Create Leather Sleeves (25651) for Wield */
-     , (32689, 2, 32630,  0, 93, 0, True) /* Create Whispering Blade Gloves (32630) for Wield */
-     , (32689, 2, 25645,  0, 93, 0, True) /* Create Leather Leggings (25645) for Wield */
-     , (32689, 2, 32679,  0, 0, 0, True) /* Create Whispering Blade Boots (32679) for Wield */
+VALUES (32689, 2, 25636,  0, 93, 0, False) /* Create Leather Helm (25636) for Wield */
+     , (32689, 2, 25638,  0, 93, 0, False) /* Create Leather Vest (25638) for Wield */
+     , (32689, 2, 25643,  0, 93, 0, False) /* Create Leather Girth (25643) for Wield */
+     , (32689, 2, 25651,  0, 93, 0, False) /* Create Leather Sleeves (25651) for Wield */
+     , (32689, 2, 32630,  0, 93, 0, False) /* Create Whispering Blade Gloves (32630) for Wield */
+     , (32689, 2, 25645,  0, 93, 0, False) /* Create Leather Leggings (25645) for Wield */
+     , (32689, 2, 32679,  0, 0, 0, False) /* Create Whispering Blade Boots (32679) for Wield */
      , (32689, 10, 30946,  1, 0, 1, False) /* Create Poniard (30946) for WieldTreasure */;

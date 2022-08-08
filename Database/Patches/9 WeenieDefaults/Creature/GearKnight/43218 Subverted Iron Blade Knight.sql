@@ -101,12 +101,12 @@ VALUES (43218,  4450,   2.15)  /* Incantation of Lightning Blast */
      , (43218,  4483,   2.15)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43218, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+VALUES (43218, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (43218, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (43218, 10, 41237,  1, 0, 0.2, True) /* Create Gearknight Sword (41237) for WieldTreasure */
-     , (43218, 10, 41246,  1, 0, 0.2, True) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
-     , (43218, 10, 41247,  1, 0, 0.2, True) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
-     , (43218, 10, 41248,  1, 0, 0.2, True) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
-     , (43218, 10, 41249,  1, 0, 0.2, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */
-     , (43218, 10, 43130,  1, 0, 0.25, True) /* Create Iron Blade Aegis (43130) for WieldTreasure */
-     , (43218, 10, 43131,  1, 0, 0.25, True) /* Create Iron Blade Shield (43131) for WieldTreasure */;
+     , (43218, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
+     , (43218, 10, 41246,  1, 0, 0.2, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
+     , (43218, 10, 41247,  1, 0, 0.2, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
+     , (43218, 10, 41248,  1, 0, 0.2, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
+     , (43218, 10, 41249,  1, 0, 0.2, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */
+     , (43218, 10, 43130,  1, 0, 0.25, False) /* Create Iron Blade Aegis (43130) for WieldTreasure */
+     , (43218, 10, 43131,  1, 0, 0.25, False) /* Create Iron Blade Shield (43131) for WieldTreasure */;

@@ -110,7 +110,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'This statue marks the final resting place of Antius Blackmoor. He was a brave man who gave his life to protect the people of Dereth, and we shall not see his like again.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32397, 2, 32565,  1, 1, 1, True) /* Create Memorial Sword of Lost Light (32565) for Wield */
+VALUES (32397, 2, 32565,  1, 1, 1, False) /* Create Memorial Sword of Lost Light (32565) for Wield */
      , (32397, 2, 37189,  1, 27, 0, False) /* Create Olthoi Celdon Gauntlets (37189) for Wield */
      , (32397, 2, 37192,  1, 27, 0, False) /* Create Olthoi Celdon Girth (37192) for Wield */
      , (32397, 2, 37197,  1, 27, 0, False) /* Create Olthoi Celdon Helm (37197) for Wield */
@@ -118,5 +118,5 @@ VALUES (32397, 2, 32565,  1, 1, 1, True) /* Create Memorial Sword of Lost Light 
      , (32397, 2, 37205,  1, 27, 0, False) /* Create Olthoi Celdon Sleeves (37205) for Wield */
      , (32397, 2, 37209,  1, 27, 0, False) /* Create Olthoi Celdon Sollerets (37209) for Wield */
      , (32397, 2, 37214,  1, 27, 0, False) /* Create Olthoi Celdon Breastplate (37214) for Wield */
-     , (32397, 2,   130,  1, 84, 0, True) /* Create Shirt (130) for Wield */
-     , (32397, 2,   127,  1, 84, 0, True) /* Create Pants (127) for Wield */;
+     , (32397, 2,   130,  1, 84, 0, False) /* Create Shirt (130) for Wield */
+     , (32397, 2,   127,  1, 84, 0, False) /* Create Pants (127) for Wield */;

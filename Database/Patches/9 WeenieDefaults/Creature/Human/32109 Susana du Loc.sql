@@ -151,8 +151,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I wonder if you have come a
      , (@parent_id,  1,  70 /* SetQuestCompletions */, 0, 1, NULL, 'heawindreavekillcount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32109, 2, 30625,  1, 0, 0, True) /* Create War Bow (30625) for Wield */
-     , (32109, 2, 25639,  1, 7, 0, True) /* Create Leather Jerkin (25639) for Wield */
-     , (32109, 2, 25645,  1, 7, 0, True) /* Create Leather Leggings (25645) for Wield */
-     , (32109, 2, 25642,  1, 7, 0, True) /* Create Leather Gauntlets (25642) for Wield */
-     , (32109, 2, 28611,  1, 7, 0.25, True) /* Create Viamontian Laced Boots (28611) for Wield */;
+VALUES (32109, 2, 30625,  1, 0, 0, False) /* Create War Bow (30625) for Wield */
+     , (32109, 2, 25639,  1, 7, 0, False) /* Create Leather Jerkin (25639) for Wield */
+     , (32109, 2, 25645,  1, 7, 0, False) /* Create Leather Leggings (25645) for Wield */
+     , (32109, 2, 25642,  1, 7, 0, False) /* Create Leather Gauntlets (25642) for Wield */
+     , (32109, 2, 28611,  1, 7, 0.25, False) /* Create Viamontian Laced Boots (28611) for Wield */;

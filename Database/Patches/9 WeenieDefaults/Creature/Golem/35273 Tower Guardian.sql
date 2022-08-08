@@ -114,4 +114,4 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'TowerGuardianKill', N
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, '%tn strikes the killing blow to the Tower Guardian. Its crystaline form flies apart. Each piece vanishing in a purple flash as the golem returns to its lifestone.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35273, 10, 35297,  1, 0, 1, True) /* Create Greatsword of Flame and Light (35297) for WieldTreasure */;
+VALUES (35273, 10, 35297,  1, 0, 1, False) /* Create Greatsword of Flame and Light (35297) for WieldTreasure */;

@@ -163,6 +163,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32755, 2,  5850,  0, 93, 0.4727, True) /* Create Faran Robe (5850) for Wield */
-     , (32755, 2, 32630,  0, 39, 0, True) /* Create Whispering Blade Gloves (32630) for Wield */
-     , (32755, 2,  2547,  1, 0, 1, True) /* Create Staff (2547) for Wield */;
+VALUES (32755, 2,  5850,  0, 93, 0.4727, False) /* Create Faran Robe (5850) for Wield */
+     , (32755, 2, 32630,  0, 39, 0, False) /* Create Whispering Blade Gloves (32630) for Wield */
+     , (32755, 2,  2547,  1, 0, 1, False) /* Create Staff (2547) for Wield */;

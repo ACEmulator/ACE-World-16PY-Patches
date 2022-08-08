@@ -156,11 +156,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29362, 2, 28632,  0, 93, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (29362, 2, 28618,  0, 93, 0, True) /* Create Diforsa Helm (28618) for Wield */
-     , (29362, 2, 28621,  0, 93, 0, True) /* Create Diforsa Leggings (28621) for Wield */
-     , (29362, 2, 30948,  0, 93, 0, True) /* Create Diforsa Hauberk (30948) for Wield */
-     , (29362, 2, 28625,  0, 93, 0, True) /* Create Diforsa Sollerets (28625) for Wield */
+VALUES (29362, 2, 28632,  0, 93, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (29362, 2, 28618,  0, 93, 0, False) /* Create Diforsa Helm (28618) for Wield */
+     , (29362, 2, 28621,  0, 93, 0, False) /* Create Diforsa Leggings (28621) for Wield */
+     , (29362, 2, 30948,  0, 93, 0, False) /* Create Diforsa Hauberk (30948) for Wield */
+     , (29362, 2, 28625,  0, 93, 0, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (29362, 10, 29982,  0, 0, 0.25, False) /* Create Throwing Axe (29982) for WieldTreasure */
      , (29362, 10, 29977,  0, 0, 0.25, False) /* Create Spadone (29977) for WieldTreasure */
      , (29362, 10, 29972,  0, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */

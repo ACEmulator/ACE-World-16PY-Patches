@@ -102,6 +102,6 @@ VALUES (42607,    91,   2.15)  /* Force Bolt VI */
      , (42607,  1156,   2.15)  /* Piercing Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42607, 2, 15431, 15, 61, 0, True) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (42607, 10, 34343,  1, 20, 0.5, True) /* Create Tachi (34343) for WieldTreasure */
-     , (42607, 10, 34345,  1, 20, 0.5, True) /* Create Yumi (34345) for WieldTreasure */;
+VALUES (42607, 2, 15431, 15, 61, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (42607, 10, 34343,  1, 20, 0.5, False) /* Create Tachi (34343) for WieldTreasure */
+     , (42607, 10, 34345,  1, 20, 0.5, False) /* Create Yumi (34345) for WieldTreasure */;

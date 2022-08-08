@@ -111,9 +111,9 @@ VALUES (31877,   234,   2.02)  /* Vulnerability Other VI */
      , (31877,  2137,   2.02)  /* Sudden Frost */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31877, 9,  7045,  1, 0, 0.05, True) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
-     , (31877, 9,     0,  1, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (31877, 9,  9310,  1, 0, 0.1, True) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (31877, 9,     0,  1, 0, 0.9, True) /* Create nothing for ContainTreasure */
-     , (31877, 9, 23108,  1, 0, 0.02, True) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (31877, 9,     0,  1, 0, 0.98, True) /* Create nothing for ContainTreasure */;
+VALUES (31877, 9,  7045,  1, 0, 0.05, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (31877, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (31877, 9,  9310,  1, 0, 0.1, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (31877, 9,     0,  1, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (31877, 9, 23108,  1, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (31877, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */;

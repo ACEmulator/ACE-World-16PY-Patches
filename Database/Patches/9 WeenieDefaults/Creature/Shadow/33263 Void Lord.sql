@@ -143,9 +143,9 @@ VALUES (33263,    74,  2.032)  /* Frost Bolt VI */
      , (33263,  2084,  2.023)  /* Belly of Lead */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33263, 9, 30823,  1, 0, 0.01, True) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+VALUES (33263, 9, 30823,  1, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (33263, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (33263, 9,  6058,  1, 0, 0.02, True) /* Create Dark Shard (6058) for ContainTreasure */
+     , (33263, 9,  6058,  1, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (33263, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (33263, 9, 31383,  1, 0, 0.04, True) /* Create Scroll of Raven Fury (31383) for ContainTreasure */
+     , (33263, 9, 31383,  1, 0, 0.04, False) /* Create Scroll of Raven Fury (31383) for ContainTreasure */
      , (33263, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

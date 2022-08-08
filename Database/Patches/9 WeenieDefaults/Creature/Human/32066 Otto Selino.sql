@@ -64,6 +64,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0.2, 1, NULL, 'When I contemplate the vastness of existence... well, it makes me a little ill, it does.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32066, 2, 28606,  1, 4, 0.0179, True) /* Create Viamontian Pants (28606) for Wield */
-     , (32066, 2, 28608,  1, 2, 0.0116, True) /* Create Poet's Shirt (28608) for Wield */
-     , (32066, 2, 28610,  1, 5, 0.25, True) /* Create Loafers (28610) for Wield */;
+VALUES (32066, 2, 28606,  1, 4, 0.0179, False) /* Create Viamontian Pants (28606) for Wield */
+     , (32066, 2, 28608,  1, 2, 0.0116, False) /* Create Poet's Shirt (28608) for Wield */
+     , (32066, 2, 28610,  1, 5, 0.25, False) /* Create Loafers (28610) for Wield */;

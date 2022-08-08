@@ -294,8 +294,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 1, 1, NULL, 'Travel to the Singularity Caul, seek out the Order of the Raven Hand, and find what it is that now draws those Shadow-worshipping miscreants to that island and return to me with your findings. Reports from adventurers tell of cultist campsites in the southern, eastern, and western portions of the island.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31376, 2, 27221,  1, 39, 0.1111, True) /* Create Lorica Breastplate (27221) for Wield */
-     , (31376, 2, 27225,  1, 39, 0.1111, True) /* Create Lorica Sleeves (27225) for Wield */
-     , (31376, 2, 27222,  1, 39, 0, True) /* Create Lorica Gauntlets (27222) for Wield */
-     , (31376, 2, 27224,  1, 39, 0.1111, True) /* Create Lorica Leggings (27224) for Wield */
-     , (31376, 2, 27220,  1, 39, 0, True) /* Create Lorica Boots (27220) for Wield */;
+VALUES (31376, 2, 27221,  1, 39, 0.1111, False) /* Create Lorica Breastplate (27221) for Wield */
+     , (31376, 2, 27225,  1, 39, 0.1111, False) /* Create Lorica Sleeves (27225) for Wield */
+     , (31376, 2, 27222,  1, 39, 0, False) /* Create Lorica Gauntlets (27222) for Wield */
+     , (31376, 2, 27224,  1, 39, 0.1111, False) /* Create Lorica Leggings (27224) for Wield */
+     , (31376, 2, 27220,  1, 39, 0, False) /* Create Lorica Boots (27220) for Wield */;

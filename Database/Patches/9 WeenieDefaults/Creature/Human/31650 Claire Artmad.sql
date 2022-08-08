@@ -184,4 +184,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Hello, fellow Lugian killer! You itch to hunt the Lugians of Geth Tukora? Well, I am sorry to say those warriors would make short work of you. Go out and earn some experience, then come back to me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31650, 2, 12268,  1, 90, 0.0179, True) /* Create Virindi Shroud (12268) for Wield */;
+VALUES (31650, 2, 12268,  1, 90, 0.0179, False) /* Create Virindi Shroud (12268) for Wield */;

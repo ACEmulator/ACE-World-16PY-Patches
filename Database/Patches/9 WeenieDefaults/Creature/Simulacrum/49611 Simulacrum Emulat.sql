@@ -111,4 +111,4 @@ VALUES (49611,  4439,    2.1)  /* Incantation of Flame Bolt */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49611, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */
-     , (49611, 10,  5853,  1, 3, 0, True) /* Create Dho Vest and Robe (5853) for WieldTreasure */;
+     , (49611, 10,  5853,  1, 3, 0, False) /* Create Dho Vest and Robe (5853) for WieldTreasure */;

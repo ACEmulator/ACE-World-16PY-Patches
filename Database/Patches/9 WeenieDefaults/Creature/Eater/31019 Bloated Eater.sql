@@ -157,11 +157,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31019, 9, 28732,  1, 0, 0.01, True) /* Create Aluvian Leg (28732) for ContainTreasure */
-     , (31019, 9, 28733,  1, 0, 0.01, True) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
-     , (31019, 9, 28734,  1, 0, 0.01, True) /* Create Sho Brain (28734) for ContainTreasure */
-     , (31019, 9, 28735,  1, 0, 0.01, True) /* Create Viamontian Torso (28735) for ContainTreasure */
-     , (31019, 9, 28736,  1, 0, 0.01, True) /* Create Penguin Wing (28736) for ContainTreasure */
-     , (31019, 9, 28737,  1, 0, 0.01, True) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
-     , (31019, 9, 28738,  1, 0, 0.01, True) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
+VALUES (31019, 9, 28732,  1, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
+     , (31019, 9, 28733,  1, 0, 0.01, False) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
+     , (31019, 9, 28734,  1, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
+     , (31019, 9, 28735,  1, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
+     , (31019, 9, 28736,  1, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
+     , (31019, 9, 28737,  1, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
+     , (31019, 9, 28738,  1, 0, 0.01, False) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
      , (31019, 9,     0,  1, 0, 0.93, False) /* Create nothing for ContainTreasure */;

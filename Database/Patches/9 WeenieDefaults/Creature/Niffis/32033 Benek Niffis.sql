@@ -147,7 +147,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32033, 9, 10705,  0, 0, 0.01, True) /* Create Niffis Pearl (10705) for ContainTreasure */
+VALUES (32033, 9, 10705,  0, 0, 0.01, False) /* Create Niffis Pearl (10705) for ContainTreasure */
      , (32033, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (32033, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (32033, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (32033, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

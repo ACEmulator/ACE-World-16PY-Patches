@@ -134,12 +134,12 @@ VALUES (31408,   526,   2.02)  /* Acid Vulnerability Other VI */
      , (31408,  1327,   2.02)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31408, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for Wield */
-     , (31408, 2,   107,  0, 93, 0, True) /* Create Sollerets (107) for Wield */
+VALUES (31408, 2,    57,  0, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (31408, 2,   107,  0, 93, 0, False) /* Create Sollerets (107) for Wield */
      , (31408, 2,  6043,  1, 93, 0.25, False) /* Create Celdon Girth (6043) for Wield */
-     , (31408, 2,  6044,  0, 93, 0.25, True) /* Create Celdon Breastplate (6044) for Wield */
+     , (31408, 2,  6044,  0, 93, 0.25, False) /* Create Celdon Breastplate (6044) for Wield */
      , (31408, 2,  6045,  1, 93, 0.25, False) /* Create Celdon Leggings (6045) for Wield */
-     , (31408, 2,  6048,  0, 93, 0.25, True) /* Create Celdon Sleeves (6048) for Wield */
+     , (31408, 2,  6048,  0, 93, 0.25, False) /* Create Celdon Sleeves (6048) for Wield */
      , (31408, 9, 31393,  0, 0, 1, False) /* Create Mitts of the Hunter (31393) for ContainTreasure */
      , (31408, 9, 31393,  0, 0, 1, False) /* Create Mitts of the Hunter (31393) for ContainTreasure */
      , (31408, 9, 31393,  0, 0, 1, False) /* Create Mitts of the Hunter (31393) for ContainTreasure */

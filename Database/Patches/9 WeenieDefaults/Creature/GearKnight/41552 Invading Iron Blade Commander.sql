@@ -101,11 +101,11 @@ VALUES (41552,  4450,   2.15)  /* Incantation of Lightning Blast */
      , (41552,  4483,   2.15)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41552, 9, 42114,  1, 0, 0.05, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+VALUES (41552, 9, 42114,  1, 0, 0.05, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (41552, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (41552, 10, 41245,  1, 0, 0.2, True) /* Create Gearknight Greatsword (41245) for WieldTreasure */
-     , (41552, 10, 41237,  1, 0, 0.2, True) /* Create Gearknight Sword (41237) for WieldTreasure */
-     , (41552, 10, 41246,  1, 0, 0.15, True) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
-     , (41552, 10, 41247,  1, 0, 0.15, True) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
-     , (41552, 10, 41248,  1, 0, 0.15, True) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
-     , (41552, 10, 41249,  1, 0, 0.15, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+     , (41552, 10, 41245,  1, 0, 0.2, False) /* Create Gearknight Greatsword (41245) for WieldTreasure */
+     , (41552, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
+     , (41552, 10, 41246,  1, 0, 0.15, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
+     , (41552, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
+     , (41552, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
+     , (41552, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;

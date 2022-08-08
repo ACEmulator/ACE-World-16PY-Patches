@@ -118,6 +118,6 @@ VALUES (72621,  4447,   2.04)  /* Incantation of Frost Bolt */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (72621, 2, 72633,  1, 0, 0, False) /* Create Tachi (72633) for Wield */
-     , (72621, 10, 72629,  1, 0, 0.33, True) /* Create Acid Tachi (72629) for WieldTreasure */
-     , (72621, 10, 72630,  1, 0, 0.33, True) /* Create Lightning Tachi (72630) for WieldTreasure */
-     , (72621, 10, 72632,  1, 0, 0.34, True) /* Create Frost Tachi (72632) for WieldTreasure */;
+     , (72621, 10, 72629,  1, 0, 0.33, False) /* Create Acid Tachi (72629) for WieldTreasure */
+     , (72621, 10, 72630,  1, 0, 0.33, False) /* Create Lightning Tachi (72630) for WieldTreasure */
+     , (72621, 10, 72632,  1, 0, 0.34, False) /* Create Frost Tachi (72632) for WieldTreasure */;

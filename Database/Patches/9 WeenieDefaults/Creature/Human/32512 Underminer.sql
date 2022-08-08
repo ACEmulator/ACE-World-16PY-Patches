@@ -144,13 +144,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32512, 2,   414,  1, 93, 0, True) /* Create Chainmail Breastplate (414) for Wield */
-     , (32512, 2, 25648,  1, 93, 0, True) /* Create Leather Pauldrons (25648) for Wield */
-     , (32512, 2, 25646,  1, 93, 0, True) /* Create Long Leather Gauntlets (25646) for Wield */
-     , (32512, 2,   415,  1, 93, 0.9821, True) /* Create Chainmail Girth (415) for Wield */
-     , (32512, 2, 13241,  1, 93, 0, True) /* Create Leather Leggings (13241) for Wield */
-     , (32512, 2,  7897,  1, 93, 0, True) /* Create Steel Toed Boots (7897) for Wield */
-     , (32512, 2, 28612,  1, 93, 0, True) /* Create Bandana (28612) for Wield */
-     , (32512, 2,   130,  1, 90, 0, True) /* Create Shirt (130) for Wield */
-     , (32512, 2, 23135,  1, 0, 0, True) /* Create Kite Shield (23135) for Wield */
-     , (32512, 2, 23136,  1, 0, 0, True) /* Create Tachi (23136) for Wield */;
+VALUES (32512, 2,   414,  1, 93, 0, False) /* Create Chainmail Breastplate (414) for Wield */
+     , (32512, 2, 25648,  1, 93, 0, False) /* Create Leather Pauldrons (25648) for Wield */
+     , (32512, 2, 25646,  1, 93, 0, False) /* Create Long Leather Gauntlets (25646) for Wield */
+     , (32512, 2,   415,  1, 93, 0.9821, False) /* Create Chainmail Girth (415) for Wield */
+     , (32512, 2, 13241,  1, 93, 0, False) /* Create Leather Leggings (13241) for Wield */
+     , (32512, 2,  7897,  1, 93, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (32512, 2, 28612,  1, 93, 0, False) /* Create Bandana (28612) for Wield */
+     , (32512, 2,   130,  1, 90, 0, False) /* Create Shirt (130) for Wield */
+     , (32512, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
+     , (32512, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */;

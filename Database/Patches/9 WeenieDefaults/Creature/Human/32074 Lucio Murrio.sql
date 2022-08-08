@@ -63,8 +63,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Have you come across the beasts they call Tumeroks? Such fascinating savagery. I''ve never seen their like.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32074, 2, 25639,  1, 7, 0, True) /* Create Leather Jerkin (25639) for Wield */
-     , (32074, 2, 25645,  1, 7, 0, True) /* Create Leather Leggings (25645) for Wield */
-     , (32074, 2, 25642,  1, 7, 0, True) /* Create Leather Gauntlets (25642) for Wield */
-     , (32074, 2,   130,  1, 4, 0, True) /* Create Shirt (130) for Wield */
-     , (32074, 2,  2606,  1, 4, 0.25, True) /* Create Boots (2606) for Wield */;
+VALUES (32074, 2, 25639,  1, 7, 0, False) /* Create Leather Jerkin (25639) for Wield */
+     , (32074, 2, 25645,  1, 7, 0, False) /* Create Leather Leggings (25645) for Wield */
+     , (32074, 2, 25642,  1, 7, 0, False) /* Create Leather Gauntlets (25642) for Wield */
+     , (32074, 2,   130,  1, 4, 0, False) /* Create Shirt (130) for Wield */
+     , (32074, 2,  2606,  1, 4, 0.25, False) /* Create Boots (2606) for Wield */;

@@ -98,23 +98,23 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (70349,  3952,   2.15)  /* Shock Waves */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70349, 9, 41528,  1, 0, 0.8, True) /* Create Aetherium Power Core (41528) for ContainTreasure */
+VALUES (70349, 9, 41528,  1, 0, 0.8, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (70349, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (70349, 9, 42114,  1, 0, 0.8, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+     , (70349, 9, 42114,  1, 0, 0.8, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (70349, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (70349, 9, 41979,  1, 0, 0.05, True) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (70349, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (70349, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (70349, 9, 43142,  1, 0, 0.8, True) /* Create Ornate Gear Marker (43142) for ContainTreasure */
+     , (70349, 9, 43142,  1, 0, 0.8, False) /* Create Ornate Gear Marker (43142) for ContainTreasure */
      , (70349, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (70349, 9, 43142,  1, 0, 0.8, True) /* Create Ornate Gear Marker (43142) for ContainTreasure */
+     , (70349, 9, 43142,  1, 0, 0.8, False) /* Create Ornate Gear Marker (43142) for ContainTreasure */
      , (70349, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (70349, 9, 43142,  1, 0, 0.8, True) /* Create Ornate Gear Marker (43142) for ContainTreasure */
+     , (70349, 9, 43142,  1, 0, 0.8, False) /* Create Ornate Gear Marker (43142) for ContainTreasure */
      , (70349, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (70349, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (70349, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (70349, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (70349, 10, 41245,  1, 0, 0.2, True) /* Create Gearknight Greatsword (41245) for WieldTreasure */
-     , (70349, 10, 41237,  1, 0, 0.2, True) /* Create Gearknight Sword (41237) for WieldTreasure */
-     , (70349, 10, 41246,  1, 0, 0.15, True) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
-     , (70349, 10, 41247,  1, 0, 0.15, True) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
-     , (70349, 10, 41248,  1, 0, 0.15, True) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
-     , (70349, 10, 41249,  1, 0, 0.15, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+     , (70349, 10, 41245,  1, 0, 0.2, False) /* Create Gearknight Greatsword (41245) for WieldTreasure */
+     , (70349, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
+     , (70349, 10, 41246,  1, 0, 0.15, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
+     , (70349, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
+     , (70349, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
+     , (70349, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;

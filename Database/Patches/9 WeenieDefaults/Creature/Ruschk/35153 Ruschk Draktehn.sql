@@ -200,5 +200,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Stares into your soul as if looking to freeze by glare alone.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35153, 9, 31037, -1, 0, 0.18, True) /* Create Ruschk Scalp (31037) for ContainTreasure */
+VALUES (35153, 9, 31037, -1, 0, 0.18, False) /* Create Ruschk Scalp (31037) for ContainTreasure */
      , (35153, 9,     0,  0, 0, 0.82, False) /* Create nothing for ContainTreasure */;

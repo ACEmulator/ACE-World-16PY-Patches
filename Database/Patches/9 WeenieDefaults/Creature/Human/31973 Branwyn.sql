@@ -139,5 +139,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Oh sweet young one. Thank y
      , (@parent_id,  1,  18 /* DirectBroadcast */, 0.2, 1, NULL, 'Branwyn manages smile weakly at you, but her grief overwhelms her once again.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31973, 2, 14916,  1, 1, 0, True) /* Create Simple Flower Bouquet (14916) for Wield */
-     , (31973, 2, 14905,  1, 61, 0, True) /* Create Wedding Gown (14905) for Wield */;
+VALUES (31973, 2, 14916,  1, 1, 0, False) /* Create Simple Flower Bouquet (14916) for Wield */
+     , (31973, 2, 14905,  1, 61, 0, False) /* Create Wedding Gown (14905) for Wield */;

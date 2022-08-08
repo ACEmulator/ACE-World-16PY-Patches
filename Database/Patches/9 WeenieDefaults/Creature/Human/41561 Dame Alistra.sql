@@ -182,4 +182,4 @@ VALUES (41561, 2, 21150,  1, 21, 0.5, False) /* Create Covenant Sollerets (21150
      , (41561, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (41561, 2,   127,  1, 14, 0.4, False) /* Create Pants (127) for Wield */
      , (41561, 2,   130,  1, 14, 0.4, False) /* Create Shirt (130) for Wield */
-     , (41561, 2, 24611,  1, 0, 0, True) /* Create Sword of Lost Light (24611) for Wield */;
+     , (41561, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */;

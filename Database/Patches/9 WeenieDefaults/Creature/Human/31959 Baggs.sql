@@ -70,4 +70,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 0, 1, NULL, 'Viamontian dogs! If they hadn''t come while I was sleeping, I wouldn''t be here, let me tell you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31959, 10,  2593,  0, 4, 0, True) /* Create Tunic (2593) for WieldTreasure */;
+VALUES (31959, 10,  2593,  0, 4, 0, False) /* Create Tunic (2593) for WieldTreasure */;

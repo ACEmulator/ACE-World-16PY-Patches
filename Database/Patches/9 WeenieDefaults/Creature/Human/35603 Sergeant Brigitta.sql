@@ -278,13 +278,13 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Please return to me when yo
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35603, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
      , (35603, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
-     , (35603, 2, 21152,  1, 21, 0.5, True) /* Create Covenant Breastplate (21152) for Wield */
-     , (35603, 2,  2587,  1, 14, 0.4, True) /* Create Shirt (2587) for Wield */
-     , (35603, 2,   127,  1, 14, 0.4, True) /* Create Pants (127) for Wield */
-     , (35603, 2, 21157,  1, 21, 0.5, True) /* Create Covenant Pauldrons (21157) for Wield */
-     , (35603, 2, 21151,  1, 21, 0.5, True) /* Create Covenant Bracers (21151) for Wield */
-     , (35603, 2, 21154,  1, 21, 0.5, True) /* Create Covenant Girth (21154) for Wield */
-     , (35603, 2, 21155,  1, 21, 0.5, True) /* Create Covenant Greaves (21155) for Wield */
-     , (35603, 2, 21150,  1, 21, 0.5, True) /* Create Covenant Sollerets (21150) for Wield */
-     , (35603, 2, 21159,  1, 21, 0.5, True) /* Create Covenant Tassets (21159) for Wield */
-     , (35603, 2, 21153,  1, 21, 0.5, True) /* Create Covenant Gauntlets (21153) for Wield */;
+     , (35603, 2, 21152,  1, 21, 0.5, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (35603, 2,  2587,  1, 14, 0.4, False) /* Create Shirt (2587) for Wield */
+     , (35603, 2,   127,  1, 14, 0.4, False) /* Create Pants (127) for Wield */
+     , (35603, 2, 21157,  1, 21, 0.5, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (35603, 2, 21151,  1, 21, 0.5, False) /* Create Covenant Bracers (21151) for Wield */
+     , (35603, 2, 21154,  1, 21, 0.5, False) /* Create Covenant Girth (21154) for Wield */
+     , (35603, 2, 21155,  1, 21, 0.5, False) /* Create Covenant Greaves (21155) for Wield */
+     , (35603, 2, 21150,  1, 21, 0.5, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (35603, 2, 21159,  1, 21, 0.5, False) /* Create Covenant Tassets (21159) for Wield */
+     , (35603, 2, 21153,  1, 21, 0.5, False) /* Create Covenant Gauntlets (21153) for Wield */;

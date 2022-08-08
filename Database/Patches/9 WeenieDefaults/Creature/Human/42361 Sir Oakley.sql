@@ -192,4 +192,4 @@ VALUES (42361, 2, 21150,  1, 21, 0.5, False) /* Create Covenant Sollerets (21150
      , (42361, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (42361, 2,   127,  1, 14, 0.4, False) /* Create Pants (127) for Wield */
      , (42361, 2,   130,  1, 14, 0.4, False) /* Create Shirt (130) for Wield */
-     , (42361, 2,   351,  1, 20, 0, True) /* Create Long Sword (351) for Wield */;
+     , (42361, 2,   351,  1, 20, 0, False) /* Create Long Sword (351) for Wield */;

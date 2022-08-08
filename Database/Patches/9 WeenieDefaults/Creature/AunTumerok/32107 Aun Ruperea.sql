@@ -152,4 +152,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'With the arrival of the blu
      , (@parent_id,  2,  70 /* SetQuestCompletions */, 0, 1, NULL, 'VoraciousEaterKillcount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32107, 2, 11296,  0, 8, 0, True) /* Create Stave of Palenqual (11296) for Wield */;
+VALUES (32107, 2, 11296,  0, 8, 0, False) /* Create Stave of Palenqual (11296) for Wield */;

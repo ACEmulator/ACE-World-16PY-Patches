@@ -126,9 +126,9 @@ VALUES (87284,    85,   2.02)  /* Flame Bolt VI */
      , (87284,  1801,   2.02)  /* Flame Streak VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87284, 2,    57,  1, 93, 0, True) /* Create Platemail Gauntlets (57) for Wield */
-     , (87284, 2,   107,  1, 93, 0, True) /* Create Sollerets (107) for Wield */
-     , (87284, 2,  6046,  1, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
+VALUES (87284, 2,    57,  1, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (87284, 2,   107,  1, 93, 0, False) /* Create Sollerets (107) for Wield */
+     , (87284, 2,  6046,  1, 39, 0.232225, False) /* Create Amuli Coat (6046) for Wield */
      , (87284, 2,  6047,  1, 93, 0.25, False) /* Create Amuli Leggings (6047) for Wield */
      , (87284, 9, 34573,  0, 0, 0.2, False) /* Create Small Shadow Statue of the Hopeslayer (34573) for ContainTreasure */
      , (87284, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

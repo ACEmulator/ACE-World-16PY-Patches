@@ -132,7 +132,7 @@ VALUES (42605,    91,   2.15)  /* Force Bolt VI */
      , (42605,  1156,   2.15)  /* Piercing Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42605, 2,  6047,  0, 93, 0.25, True) /* Create Amuli Leggings (6047) for Wield */
-     , (42605, 2,  6046,  0, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
-     , (42605, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for Wield */
-     , (42605, 2,   107,  0, 93, 0, True) /* Create Sollerets (107) for Wield */;
+VALUES (42605, 2,  6047,  0, 93, 0.25, False) /* Create Amuli Leggings (6047) for Wield */
+     , (42605, 2,  6046,  0, 39, 0.232225, False) /* Create Amuli Coat (6046) for Wield */
+     , (42605, 2,    57,  0, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (42605, 2,   107,  0, 93, 0, False) /* Create Sollerets (107) for Wield */;

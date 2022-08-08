@@ -554,7 +554,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You''re not yet strong enough to do the quest I require. Ask one of the others.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42126, 2,   130,  0, 17, 1, True) /* Create Shirt (130) for Wield */
+VALUES (42126, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (42126, 2, 27228,  0, 20, 0.0135, False) /* Create Nariyid Gauntlets (27228) for Wield */
      , (42126, 2, 37198,  0, 20, 0.0135, False) /* Create Olthoi Koujia Kabuton (37198) for Wield */
      , (42126, 2, 37203,  0, 20, 0.0135, False) /* Create Olthoi Koujia Leggings (37203) for Wield */

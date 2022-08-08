@@ -126,24 +126,24 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000086 /* Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32299, 4, 32273, -1, 0, 0, True) /* Create The Zongo Papers (32273) for Shop */
-     , (32299, 4,  2453, -1, 0, 0, True) /* Create Cider (2453) for Shop */
-     , (32299, 4,  2462, -1, 0, 0, True) /* Create Mead (2462) for Shop */
-     , (32299, 4,  4746, -1, 0, 0, True) /* Create Water (4746) for Shop */
-     , (32299, 4,  2463, -1, 0, 0, True) /* Create Milk (2463) for Shop */
-     , (32299, 4,  2471, -1, 0, 0, True) /* Create Stout (2471) for Shop */
-     , (32299, 4,  4730, -1, 0, 0, True) /* Create Fried Fish Filet (4730) for Shop */
-     , (32299, 4,  4723, -1, 0, 0, True) /* Create Fish Kebab (4723) for Shop */
-     , (32299, 4,  4725, -1, 0, 0, True) /* Create Fish Pie (4725) for Shop */
-     , (32299, 4,   259, -1, 0, 0, True) /* Create Bread (259) for Shop */
-     , (32299, 4,  8378, -1, 0, 0, True) /* Create Beer Stein (8378) for Shop */
-     , (32299, 4,  2621, -1, 0, 0, True) /* Create Trade Note (100) (2621) for Shop */
-     , (32299, 4,  2622, -1, 0, 0, True) /* Create Trade Note (500) (2622) for Shop */
-     , (32299, 4,  2623, -1, 0, 0, True) /* Create Trade Note (1,000) (2623) for Shop */
-     , (32299, 4,  2624, -1, 0, 0, True) /* Create Trade Note (5,000) (2624) for Shop */
-     , (32299, 4,  2625, -1, 0, 0, True) /* Create Trade Note (10,000) (2625) for Shop */
-     , (32299, 4,  2626, -1, 0, 0, True) /* Create Trade Note (50,000) (2626) for Shop */
-     , (32299, 4,  2627, -1, 0, 0, True) /* Create Trade Note (100,000) (2627) for Shop */
-     , (32299, 4, 20628, -1, 0, 0, True) /* Create Trade Note (150,000) (20628) for Shop */
-     , (32299, 4, 20629, -1, 0, 0, True) /* Create Trade Note (200,000) (20629) for Shop */
+VALUES (32299, 4, 32273, -1, 0, 0, False) /* Create The Zongo Papers (32273) for Shop */
+     , (32299, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (32299, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (32299, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (32299, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (32299, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (32299, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (32299, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
+     , (32299, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (32299, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (32299, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (32299, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (32299, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (32299, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (32299, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (32299, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (32299, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (32299, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (32299, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (32299, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (32299, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

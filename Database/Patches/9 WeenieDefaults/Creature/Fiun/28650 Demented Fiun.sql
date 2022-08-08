@@ -145,7 +145,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000053 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28650, 9, 45875,  1, 0, 0.01, True) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (28650, 9,     0,  1, 0, 0.99, True) /* Create nothing for ContainTreasure */
-     , (28650, 9, 45876,  1, 0, 0.03, True) /* Create Scarlet Red Letter (45876) for ContainTreasure */
-     , (28650, 9,     0,  1, 0, 0.97, True) /* Create nothing for ContainTreasure */;
+VALUES (28650, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (28650, 9,     0,  1, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28650, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (28650, 9,     0,  1, 0, 0.97, False) /* Create nothing for ContainTreasure */;

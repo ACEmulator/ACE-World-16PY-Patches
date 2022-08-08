@@ -136,43 +136,43 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+VALUES (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 31983,  1, 0, 1, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
+     , (32007, 9, 32014,  1, 0, 1, False) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (32007, 10, 31997,  1, 0, 1, True) /* Create Vaikiakvi (31997) for WieldTreasure */;
+     , (32007, 10, 31997,  1, 0, 1, False) /* Create Vaikiakvi (31997) for WieldTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32007, -1, 32004, 0, 1, 1, 1, 4, 0, 0, 0, 0xD5DA001D, 74.4165, 98.4278, 116.005, 0.71436, 0, 0, -0.699779) /* Generate Shambling Adherent (32004) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */

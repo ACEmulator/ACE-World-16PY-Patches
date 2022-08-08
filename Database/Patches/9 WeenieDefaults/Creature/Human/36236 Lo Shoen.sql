@@ -158,9 +158,9 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Lo family has been hunt
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'The rats around here are really big. Perhaps you should talk to my brother Lo Raen back in the capital.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36236, 2, 27654,  0, 93, 0, True) /* Create Coarse Hide Shirt (27654) for Wield */
-     , (36236, 2,  2598,  0, 6, 0, True) /* Create Pants (2598) for Wield */
-     , (36236, 2,  9241,  0, 4, 0, True) /* Create Ursuin Boots (9241) for Wield */;
+VALUES (36236, 2, 27654,  0, 93, 0, False) /* Create Coarse Hide Shirt (27654) for Wield */
+     , (36236, 2,  2598,  0, 6, 0, False) /* Create Pants (2598) for Wield */
+     , (36236, 2,  9241,  0, 4, 0, False) /* Create Ursuin Boots (9241) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36236, -1, 36237, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lo Shoen's Pack (36237) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -189,8 +189,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'My crops! My livestock! Some vile creature has been ravaging my farm at night! Would you help me stop this terror? I have followed its tracks to a cave south of here, but I am too afraid to continue. Please help me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31365, 2,   109,  1, 4, 0, True) /* Create Leather Tassets (109) for Wield */
-     , (31365, 2,  8685,  1, 4, 0.6, True) /* Create A Pair Of Society Leather Bracers (8685) for Wield */
-     , (31365, 2,    60,  1, 4, 0.4727, True) /* Create Leather Girth (60) for Wield */
-     , (31365, 2,  7772,  1, 4, 14, True) /* Create Trident (7772) for Wield */
-     , (31365, 2,    45,  1, 4, 0, True) /* Create Leather Cap (45) for Wield */;
+VALUES (31365, 2,   109,  1, 4, 0, False) /* Create Leather Tassets (109) for Wield */
+     , (31365, 2,  8685,  1, 4, 0.6, False) /* Create A Pair Of Society Leather Bracers (8685) for Wield */
+     , (31365, 2,    60,  1, 4, 0.4727, False) /* Create Leather Girth (60) for Wield */
+     , (31365, 2,  7772,  1, 4, 14, False) /* Create Trident (7772) for Wield */
+     , (31365, 2,    45,  1, 4, 0, False) /* Create Leather Cap (45) for Wield */;

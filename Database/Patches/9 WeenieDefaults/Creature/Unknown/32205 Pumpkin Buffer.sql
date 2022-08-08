@@ -166,53 +166,53 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Pumpkin Buffer bursts open spraying treats.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32205, 9,   273,  0, 0, 0.05, True) /* Create Pyreal (273) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9,  4721,  0, 0, 0.05, True) /* Create Cookie (4721) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14763,  0, 0, 0.05, True) /* Create Peppermint Cookie (14763) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14759,  0, 0, 0.05, True) /* Create Chocolate Cookie (14759) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14864,  0, 0, 0.05, True) /* Create Peppermint Chocolate Cookie (14864) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9,  7830,  0, 0, 0.05, True) /* Create Bar of Dark Chocolate (7830) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9,  7832,  0, 0, 0.05, True) /* Create Bar of Milk Chocolate (7832) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 12233,  0, 0, 0.05, True) /* Create Dark Chocolate Candy Bar (12233) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 12234,  0, 0, 0.05, True) /* Create Milk Chocolate Candy Bar (12234) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14758,  0, 0, 0.05, True) /* Create Peppermint Chocolate Bar (14758) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9,   258,  0, 0, 0.05, True) /* Create Apple (258) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9,  5670,  0, 0, 0.05, True) /* Create Tempting Apple (5670) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 12227,  0, 0, 0.05, True) /* Create Candied Apple (12227) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9,  2453,  0, 0, 0.05, True) /* Create Cider (2453) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 13222,  0, 0, 0.2, True) /* Create Peppermint Stick (13222) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.8, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14772,  0, 0, 0.05, True) /* Create Peppermint Monougat Chew (14772) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14761,  0, 0, 0.05, True) /* Create Ginger Bread Lugian (14761) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14760,  0, 0, 0.05, True) /* Create Ginger Bread Drudge (14760) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 14762,  0, 0, 0.05, True) /* Create Ginger Bread Man (14762) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 32210,  0, 0, 0.05, True) /* Create Ginger Bread Pumpkin (32210) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 32201,  0, 0, 0.05, True) /* Create Pumpkin Cookie Cutter (32201) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 34089,  0, 0, 0.05, True) /* Create Floating Candle (34089) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 43242,  0, 0, 0.05, True) /* Create Wooden Scarecrow Guise (43242) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 32188,  0, 0, 0.05, True) /* Create Festival Shirt (32188) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
-     , (32205, 9, 36440,  0, 0, 0.05, True) /* Create Festival Shirt (36440) for ContainTreasure */
-     , (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */;
+VALUES (32205, 9,   273,  0, 0, 0.05, False) /* Create Pyreal (273) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9,  4721,  0, 0, 0.05, False) /* Create Cookie (4721) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14763,  0, 0, 0.05, False) /* Create Peppermint Cookie (14763) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14759,  0, 0, 0.05, False) /* Create Chocolate Cookie (14759) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14864,  0, 0, 0.05, False) /* Create Peppermint Chocolate Cookie (14864) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9,  7830,  0, 0, 0.05, False) /* Create Bar of Dark Chocolate (7830) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9,  7832,  0, 0, 0.05, False) /* Create Bar of Milk Chocolate (7832) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 12233,  0, 0, 0.05, False) /* Create Dark Chocolate Candy Bar (12233) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 12234,  0, 0, 0.05, False) /* Create Milk Chocolate Candy Bar (12234) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14758,  0, 0, 0.05, False) /* Create Peppermint Chocolate Bar (14758) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9,   258,  0, 0, 0.05, False) /* Create Apple (258) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9,  5670,  0, 0, 0.05, False) /* Create Tempting Apple (5670) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 12227,  0, 0, 0.05, False) /* Create Candied Apple (12227) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9,  2453,  0, 0, 0.05, False) /* Create Cider (2453) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 13222,  0, 0, 0.2, False) /* Create Peppermint Stick (13222) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14772,  0, 0, 0.05, False) /* Create Peppermint Monougat Chew (14772) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14761,  0, 0, 0.05, False) /* Create Ginger Bread Lugian (14761) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14760,  0, 0, 0.05, False) /* Create Ginger Bread Drudge (14760) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 14762,  0, 0, 0.05, False) /* Create Ginger Bread Man (14762) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 32210,  0, 0, 0.05, False) /* Create Ginger Bread Pumpkin (32210) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 32201,  0, 0, 0.05, False) /* Create Pumpkin Cookie Cutter (32201) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 34089,  0, 0, 0.05, False) /* Create Floating Candle (34089) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 43242,  0, 0, 0.05, False) /* Create Wooden Scarecrow Guise (43242) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 32188,  0, 0, 0.05, False) /* Create Festival Shirt (32188) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (32205, 9, 36440,  0, 0, 0.05, False) /* Create Festival Shirt (36440) for ContainTreasure */
+     , (32205, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

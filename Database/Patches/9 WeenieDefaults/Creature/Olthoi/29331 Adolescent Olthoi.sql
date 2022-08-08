@@ -137,13 +137,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+VALUES (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

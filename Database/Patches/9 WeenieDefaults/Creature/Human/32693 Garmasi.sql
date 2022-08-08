@@ -225,4 +225,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'So you''ve made contact with Hashina and been granted access to the Silyun Chapterhouse. I believe your orders were to proceed into the Whispering Blade compound and get the commander''s notes. Is there some reason you are dawdling?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32693, 2, 28615,  1, 14, 1, True) /* Create Vestiri Robe (28615) for Wield */;
+VALUES (32693, 2, 28615,  1, 14, 1, False) /* Create Vestiri Robe (28615) for Wield */;

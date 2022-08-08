@@ -142,27 +142,27 @@ VALUES (31282,    74,  2.032)  /* Frost Bolt VI */
      , (31282,  2084,  2.023)  /* Belly of Lead */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31282, 9,  6058,  1, 0, 0.02, True) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (31282, 9,  6058,  1, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31282, 9, 31378,  1, 0, 1, True) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31378,  1, 0, 1, False) /* Create Raven Fragment (31378) for ContainTreasure */
      , (31282, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

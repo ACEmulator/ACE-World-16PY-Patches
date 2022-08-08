@@ -118,5 +118,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000091 /* Cringe */, NULL, N
      , (@parent_id,  7,  22 /* StampQuest */, 0, 1, NULL, 'UlgrimsBookcaseFlag', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70995, 2,  5850,  0, 4, 0.5, True) /* Create Faran Robe (5850) for Wield */
-     , (70995, 2, 27808,  0, 0, 0, True) /* Create Great Elariwood Idol (27808) for Wield */;
+VALUES (70995, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (70995, 2, 27808,  0, 0, 0, False) /* Create Great Elariwood Idol (27808) for Wield */;

@@ -120,4 +120,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Come closer meatbag.', NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51288, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */
-     , (51288, 10,  5853,  1, 3, 0, True) /* Create Dho Vest and Robe (5853) for WieldTreasure */;
+     , (51288, 10,  5853,  1, 3, 0, False) /* Create Dho Vest and Robe (5853) for WieldTreasure */;

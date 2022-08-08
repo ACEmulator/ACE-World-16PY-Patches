@@ -98,22 +98,22 @@ VALUES (41530,  4450,   2.15)  /* Incantation of Lightning Blast */
      , (41530,  4483,   2.15)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41530, 9, 41528,  1, 0, 0.35, True) /* Create Aetherium Power Core (41528) for ContainTreasure */
+VALUES (41530, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (41530, 9,     0,  1, 0, 0.65, False) /* Create nothing for ContainTreasure */
-     , (41530, 9, 42114,  1, 0, 0.05, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+     , (41530, 9, 42114,  1, 0, 0.05, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (41530, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (41530, 9, 41979,  1, 0, 0.05, True) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (41530, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (41530, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (41530, 9, 43142,  1, 0, 0.03, True) /* Create Ornate Gear Marker (43142) for ContainTreasure */
+     , (41530, 9, 43142,  1, 0, 0.03, False) /* Create Ornate Gear Marker (43142) for ContainTreasure */
      , (41530, 9,     0,  1, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (41530, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (41530, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (41530, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (41530, 9, 51266,  1, 0, 0.95, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
      , (41530, 9,     0,  1, 0, 0.05, False) /* Create nothing for ContainTreasure */
-     , (41530, 10, 41237,  1, 0, 0.2, True) /* Create Gearknight Sword (41237) for WieldTreasure */
-     , (41530, 10, 41246,  1, 0, 0.2, True) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
-     , (41530, 10, 41247,  1, 0, 0.2, True) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
-     , (41530, 10, 41248,  1, 0, 0.2, True) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
-     , (41530, 10, 41249,  1, 0, 0.2, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */
-     , (41530, 10, 43130,  1, 0, 0.25, True) /* Create Iron Blade Aegis (43130) for WieldTreasure */
-     , (41530, 10, 43131,  1, 0, 0.25, True) /* Create Iron Blade Shield (43131) for WieldTreasure */;
+     , (41530, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
+     , (41530, 10, 41246,  1, 0, 0.2, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
+     , (41530, 10, 41247,  1, 0, 0.2, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
+     , (41530, 10, 41248,  1, 0, 0.2, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
+     , (41530, 10, 41249,  1, 0, 0.2, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */
+     , (41530, 10, 43130,  1, 0, 0.25, False) /* Create Iron Blade Aegis (43130) for WieldTreasure */
+     , (41530, 10, 43131,  1, 0, 0.25, False) /* Create Iron Blade Shield (43131) for WieldTreasure */;

@@ -65,4 +65,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'Welcome to Greenspire, friend. Don''t you just love this local color? Such a primitive little town. Reminds me much of those outlying settlements on the border of Aluvia and Viamont. I wonder how quickly it would burn.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32071, 2, 28613,  1, 8, 0.5, True) /* Create Tessera Gown (28613) for Wield */;
+VALUES (32071, 2, 28613,  1, 8, 0.5, False) /* Create Tessera Gown (28613) for Wield */;

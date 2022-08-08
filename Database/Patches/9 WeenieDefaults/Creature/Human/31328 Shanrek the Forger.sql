@@ -209,6 +209,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you need cheap Housing W
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, 'Shanrek the Forger wrings his hands anxiously.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31328, 2,  2587,  0, 4, 0.6364, True) /* Create Shirt (2587) for Wield */
-     , (31328, 2,  2601,  0, 9, 0.0179, True) /* Create Pants (2601) for Wield */
-     , (31328, 2,   133,  0, 9, 0.1667, True) /* Create Slippers (133) for Wield */;
+VALUES (31328, 2,  2587,  0, 4, 0.6364, False) /* Create Shirt (2587) for Wield */
+     , (31328, 2,  2601,  0, 9, 0.0179, False) /* Create Pants (2601) for Wield */
+     , (31328, 2,   133,  0, 9, 0.1667, False) /* Create Slippers (133) for Wield */;

@@ -120,6 +120,6 @@ VALUES (72803,  2176,   2.02)  /* Enervation */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (72803, 1, 72807,  1, 0, 1, False) /* Create Legendary Key (72807) for Contain */
-     , (72803, 10, 38928,  1, 0, 1, True) /* Create T'thuun Sword (38928) for WieldTreasure */
-     , (72803, 10, 40266,  1, 0, 0.5, True) /* Create T'thuun Aegis (40266) for WieldTreasure */
-     , (72803, 10, 38922,  1, 0, 0.5, True) /* Create T'thuun Shield (38922) for WieldTreasure */;
+     , (72803, 10, 38928,  1, 0, 1, False) /* Create T'thuun Sword (38928) for WieldTreasure */
+     , (72803, 10, 40266,  1, 0, 0.5, False) /* Create T'thuun Aegis (40266) for WieldTreasure */
+     , (72803, 10, 38922,  1, 0, 0.5, False) /* Create T'thuun Shield (38922) for WieldTreasure */;

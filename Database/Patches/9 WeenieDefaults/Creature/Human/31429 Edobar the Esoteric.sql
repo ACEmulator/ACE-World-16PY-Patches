@@ -174,4 +174,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Brave adventurer! Would you
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Seek the hideout of the Sclavus named Ssavish in the swamps at 23.2 S, 58.3 E, and win from him the knowledge of the archives where the books of Grael are kept. Find the books and bring them to me, and you shall have my gratitude and the gratitude of the realm.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31429, 2,  5850,  1, 2, 0.0139, True) /* Create Faran Robe (5850) for Wield */;
+VALUES (31429, 2,  5850,  1, 2, 0.0139, False) /* Create Faran Robe (5850) for Wield */;

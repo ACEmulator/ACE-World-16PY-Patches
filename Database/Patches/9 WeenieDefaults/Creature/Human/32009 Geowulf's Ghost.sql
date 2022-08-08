@@ -60,6 +60,6 @@ VALUES (32009,   1,   220, 0, 0, 310) /* MaxHealth */
      , (32009,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32009, 2,   127,  1, 9, 0.6786, True) /* Create Pants (127) for Wield */
-     , (32009, 2,   124,  1, 4, 0.5455, True) /* Create Jerkin (124) for Wield */
-     , (32009, 2,   132,  1, 4, 0.5, True) /* Create Shoes (132) for Wield */;
+VALUES (32009, 2,   127,  1, 9, 0.6786, False) /* Create Pants (127) for Wield */
+     , (32009, 2,   124,  1, 4, 0.5455, False) /* Create Jerkin (124) for Wield */
+     , (32009, 2,   132,  1, 4, 0.5, False) /* Create Shoes (132) for Wield */;

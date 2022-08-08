@@ -64,6 +64,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'I don''t know about this. I just want to go home. The Viamontians, they''re Isparians too. But Jed says we can''t, and Robert... whenever I try to talk to him, he just tells me to kill more Knights.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31952, 2, 25649,  1, 4, 0, True) /* Create Leather Shirt (25649) for Wield */
-     , (31952, 2, 13241,  1, 4, 0.75, True) /* Create Leather Leggings (13241) for Wield */
-     , (31952, 2,   311,  1, 0, 0, True) /* Create Heavy Crossbow (311) for Wield */;
+VALUES (31952, 2, 25649,  1, 4, 0, False) /* Create Leather Shirt (25649) for Wield */
+     , (31952, 2, 13241,  1, 4, 0.75, False) /* Create Leather Leggings (13241) for Wield */
+     , (31952, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */;

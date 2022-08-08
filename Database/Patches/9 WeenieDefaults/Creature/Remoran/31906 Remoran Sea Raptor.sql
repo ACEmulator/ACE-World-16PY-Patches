@@ -121,7 +121,7 @@ VALUES (31906,   234,   2.08)  /* Vulnerability Other VI */
      , (31906,  2146,   2.05)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31906, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+VALUES (31906, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (31906, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (31906, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (31906, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (31906, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

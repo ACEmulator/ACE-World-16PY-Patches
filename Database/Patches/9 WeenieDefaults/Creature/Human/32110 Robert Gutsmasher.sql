@@ -153,7 +153,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'When the Viamontians stole 
      , (@parent_id,  3,  70 /* SetQuestCompletions */, 0, 1, NULL, 'viamontianmanatarmskillcount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32110, 2, 25639,  1, 14, 0, True) /* Create Leather Jerkin (25639) for Wield */
-     , (32110, 2, 25645,  1, 14, 0, True) /* Create Leather Leggings (25645) for Wield */
-     , (32110, 2, 25642,  1, 14, 0, True) /* Create Leather Gauntlets (25642) for Wield */
-     , (32110, 2, 28611,  1, 14, 0.25, True) /* Create Viamontian Laced Boots (28611) for Wield */;
+VALUES (32110, 2, 25639,  1, 14, 0, False) /* Create Leather Jerkin (25639) for Wield */
+     , (32110, 2, 25645,  1, 14, 0, False) /* Create Leather Leggings (25645) for Wield */
+     , (32110, 2, 25642,  1, 14, 0, False) /* Create Leather Gauntlets (25642) for Wield */
+     , (32110, 2, 28611,  1, 14, 0.25, False) /* Create Viamontian Laced Boots (28611) for Wield */;

@@ -241,7 +241,7 @@ VALUES (30066, 2,   134,  0, 8, 0, False) /* Create Tunic (134) for Wield */
      , (30066, 2,   127,  0, 6, 0.6727, False) /* Create Pants (127) for Wield */
      , (30066, 2, 28612,  0, 2, 0, False) /* Create Bandana (28612) for Wield */
      , (30066, 2,   115,  0, 6, 0.25, False) /* Create Leather Boots (115) for Wield */
-     , (30066, 2,   312,  0, 0, 0, True) /* Create Light Crossbow (312) for Wield */
+     , (30066, 2,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for Wield */
      , (30066, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
      , (30066, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
      , (30066, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */

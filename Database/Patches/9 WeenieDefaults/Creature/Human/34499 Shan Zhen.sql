@@ -185,9 +185,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Please return to me once you are stronger.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34499, 2,   127,  1, 1, 1, True) /* Create Pants (127) for Wield */
-     , (34499, 2,   130,  1, 1, 1, True) /* Create Shirt (130) for Wield */
-     , (34499, 2, 25649,  1, 1, 1, True) /* Create Leather Shirt (25649) for Wield */
-     , (34499, 2, 25645,  1, 1, 1, True) /* Create Leather Leggings (25645) for Wield */
-     , (34499, 2, 25637,  1, 1, 1, True) /* Create Leather Bracers (25637) for Wield */
-     , (34499, 2, 25661,  1, 1, 1, True) /* Create Leather Boots (25661) for Wield */;
+VALUES (34499, 2,   127,  1, 1, 1, False) /* Create Pants (127) for Wield */
+     , (34499, 2,   130,  1, 1, 1, False) /* Create Shirt (130) for Wield */
+     , (34499, 2, 25649,  1, 1, 1, False) /* Create Leather Shirt (25649) for Wield */
+     , (34499, 2, 25645,  1, 1, 1, False) /* Create Leather Leggings (25645) for Wield */
+     , (34499, 2, 25637,  1, 1, 1, False) /* Create Leather Bracers (25637) for Wield */
+     , (34499, 2, 25661,  1, 1, 1, False) /* Create Leather Boots (25661) for Wield */;

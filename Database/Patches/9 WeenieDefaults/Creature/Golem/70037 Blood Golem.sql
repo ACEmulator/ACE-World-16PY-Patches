@@ -139,6 +139,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70037, 9, 70019,  1, 0, 0.325, True) /* Create Blue Blood Gem Fragment (70019) for ContainTreasure */
-     , (70037, 9, 70021,  1, 0, 0.325, True) /* Create Green Blood Gem Fragment (70021) for ContainTreasure */
-     , (70037, 9, 70022,  1, 0, 0.351, True) /* Create Red Blood Gem Fragment (70022) for ContainTreasure */;
+VALUES (70037, 9, 70019,  1, 0, 0.325, False) /* Create Blue Blood Gem Fragment (70019) for ContainTreasure */
+     , (70037, 9, 70021,  1, 0, 0.325, False) /* Create Green Blood Gem Fragment (70021) for ContainTreasure */
+     , (70037, 9, 70022,  1, 0, 0.351, False) /* Create Red Blood Gem Fragment (70022) for ContainTreasure */;

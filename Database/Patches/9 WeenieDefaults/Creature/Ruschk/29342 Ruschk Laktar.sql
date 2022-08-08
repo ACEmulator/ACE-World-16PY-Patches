@@ -191,5 +191,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Stares into your
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29342, 9, 34277, -1, 0, 0.06, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (29342, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (29342, 9, 31037, -1, 0, 0.2, True) /* Create Ruschk Scalp (31037) for ContainTreasure */
+     , (29342, 9, 31037, -1, 0, 0.2, False) /* Create Ruschk Scalp (31037) for ContainTreasure */
      , (29342, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

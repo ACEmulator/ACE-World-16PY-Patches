@@ -690,8 +690,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 33588 /* Noble Relic Sollerets of Speed */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33673, 2, 33584,  0, 21, 0, True) /* Create Noble Relic Coat of Brilliance (33584) for Wield */
+VALUES (33673, 2, 33584,  0, 21, 0, False) /* Create Noble Relic Coat of Brilliance (33584) for Wield */
      , (33673, 2, 33586,  0, 21, 0, False) /* Create Noble Relic Helm of Will (33586) for Wield */
-     , (33673, 2, 33587,  0, 21, 0, True) /* Create Noble Relic Leggings of Health (33587) for Wield */
-     , (33673, 2, 33585,  0, 21, 0, True) /* Create Noble Relic Gauntlets of Strength (33585) for Wield */
-     , (33673, 2, 33588,  0, 21, 0, True) /* Create Noble Relic Sollerets of Speed (33588) for Wield */;
+     , (33673, 2, 33587,  0, 21, 0, False) /* Create Noble Relic Leggings of Health (33587) for Wield */
+     , (33673, 2, 33585,  0, 21, 0, False) /* Create Noble Relic Gauntlets of Strength (33585) for Wield */
+     , (33673, 2, 33588,  0, 21, 0, False) /* Create Noble Relic Sollerets of Speed (33588) for Wield */;

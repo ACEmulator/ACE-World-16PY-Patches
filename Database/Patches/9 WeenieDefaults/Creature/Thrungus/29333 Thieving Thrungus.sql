@@ -136,5 +136,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000053 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29333, 9, 12710,  1, 0, 0.3, True) /* Create Bellows (12710) for ContainTreasure */
+VALUES (29333, 9, 12710,  1, 0, 0.3, False) /* Create Bellows (12710) for ContainTreasure */
      , (29333, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;

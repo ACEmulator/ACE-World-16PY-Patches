@@ -171,5 +171,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles s
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28668, 9,  6876,  0, 0, 0.08, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (28668, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (28668, 9, 28730,  0, 0, 0.05, True) /* Create Perfect Ice Shard (28730) for ContainTreasure */
+     , (28668, 9, 28730,  0, 0, 0.05, False) /* Create Perfect Ice Shard (28730) for ContainTreasure */
      , (28668, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

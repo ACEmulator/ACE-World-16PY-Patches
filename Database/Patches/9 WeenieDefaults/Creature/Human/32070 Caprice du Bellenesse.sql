@@ -65,4 +65,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'My husband led the invasion that took Marae Lassel. Such a brave, strong man. He has done well in distancing our house from his traitorous uncle. One day, the name Bellenesse will stand for courage and honor again.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32070, 2, 28613,  1, 14, 0.5, True) /* Create Tessera Gown (28613) for Wield */;
+VALUES (32070, 2, 28613,  1, 14, 0.5, False) /* Create Tessera Gown (28613) for Wield */;

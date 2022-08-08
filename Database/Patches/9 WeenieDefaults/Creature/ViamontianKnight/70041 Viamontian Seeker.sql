@@ -149,18 +149,18 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70041, 9, 70047,  1, 0, 1, True) /* Create Grazer Bug (70047) for ContainTreasure */
-     , (70041, 9,     0,  1, 0, 0, True) /* Create nothing for ContainTreasure */
-     , (70041, 9, 70047,  1, 0, 1, True) /* Create Grazer Bug (70047) for ContainTreasure */
-     , (70041, 9,     0,  1, 0, 0, True) /* Create nothing for ContainTreasure */
-     , (70041, 9, 70047,  1, 0, 1, True) /* Create Grazer Bug (70047) for ContainTreasure */
-     , (70041, 9,     0,  1, 0, 0, True) /* Create nothing for ContainTreasure */
-     , (70041, 9, 70047,  1, 0, 1, True) /* Create Grazer Bug (70047) for ContainTreasure */
-     , (70041, 9,     0,  1, 0, 0, True) /* Create nothing for ContainTreasure */
-     , (70041, 9, 70047,  1, 0, 1, True) /* Create Grazer Bug (70047) for ContainTreasure */
-     , (70041, 9,     0,  1, 0, 0, True) /* Create nothing for ContainTreasure */
-     , (70041, 9, 70047,  1, 0, 1, True) /* Create Grazer Bug (70047) for ContainTreasure */
-     , (70041, 9,     0,  1, 0, 0, True) /* Create nothing for ContainTreasure */
+VALUES (70041, 9, 70047,  1, 0, 1, False) /* Create Grazer Bug (70047) for ContainTreasure */
+     , (70041, 9,     0,  1, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (70041, 9, 70047,  1, 0, 1, False) /* Create Grazer Bug (70047) for ContainTreasure */
+     , (70041, 9,     0,  1, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (70041, 9, 70047,  1, 0, 1, False) /* Create Grazer Bug (70047) for ContainTreasure */
+     , (70041, 9,     0,  1, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (70041, 9, 70047,  1, 0, 1, False) /* Create Grazer Bug (70047) for ContainTreasure */
+     , (70041, 9,     0,  1, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (70041, 9, 70047,  1, 0, 1, False) /* Create Grazer Bug (70047) for ContainTreasure */
+     , (70041, 9,     0,  1, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (70041, 9, 70047,  1, 0, 1, False) /* Create Grazer Bug (70047) for ContainTreasure */
+     , (70041, 9,     0,  1, 0, 0, False) /* Create nothing for ContainTreasure */
      , (70041, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
      , (70041, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (70041, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */

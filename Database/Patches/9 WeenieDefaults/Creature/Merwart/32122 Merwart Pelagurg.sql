@@ -140,4 +140,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Help me, human! Before Angr
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'Go find Bloodmouth Remoran by the ruin of my house near the bay east of here. Kill them, and bring me back a Bloodmouth Maw! It may be difficult, because their wicked jaws are so well concealed inside their hateful little heads! But I will reward you with a weapon like the one I hold!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32122, 2, 32121,  1, 15, 0, True) /* Create Remoran Fist (32121) for Wield */;
+VALUES (32122, 2, 32121,  1, 15, 0, False) /* Create Remoran Fist (32121) for Wield */;

@@ -81,6 +81,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0.5, 1, NULL, 'Be warned, however, you must be at least 150th level to use the portal I crafted.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42618, 2,  5852,  1, 5, 0.0139, True) /* Create Dho Vest and Robe (5852) for Wield */
-     , (42618, 2,  5894,  1, 91, 0.0139, True) /* Create Fez (5894) for Wield */
-     , (42618, 2,    56,  1, 91, 0, True) /* Create Leather Gauntlets (56) for Wield */;
+VALUES (42618, 2,  5852,  1, 5, 0.0139, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (42618, 2,  5894,  1, 91, 0.0139, False) /* Create Fez (5894) for Wield */
+     , (42618, 2,    56,  1, 91, 0, False) /* Create Leather Gauntlets (56) for Wield */;

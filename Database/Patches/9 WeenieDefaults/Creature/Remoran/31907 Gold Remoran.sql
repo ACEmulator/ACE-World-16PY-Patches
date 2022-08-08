@@ -119,5 +119,5 @@ VALUES (31907,   234,   2.07)  /* Vulnerability Other VI */
      , (31907,  2146,   2.04)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31907, 9, 31905,  1, 0, 1, True) /* Create Gold Remoran Eggs (31905) for ContainTreasure */
+VALUES (31907, 9, 31905,  1, 0, 1, False) /* Create Gold Remoran Eggs (31905) for ContainTreasure */
      , (31907, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

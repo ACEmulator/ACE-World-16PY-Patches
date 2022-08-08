@@ -169,6 +169,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterSpawned', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35127, 2, 28614,  0, 7, 0.3929, True) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (35127, 2, 28632,  0, 8, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (35127, 2, 31820,  1, 4, 0.6, True) /* Create Acid Baton (31820) for Wield */;
+VALUES (35127, 2, 28614,  0, 7, 0.3929, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (35127, 2, 28632,  0, 8, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (35127, 2, 31820,  1, 4, 0.6, False) /* Create Acid Baton (31820) for Wield */;

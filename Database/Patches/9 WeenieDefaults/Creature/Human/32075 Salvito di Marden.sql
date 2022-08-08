@@ -63,7 +63,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Welcome to the Viamontian town of Bluespire. Watch your step.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32075, 2, 28622,  1, 20, 0.4054, True) /* Create Tenassa Leggings (28622) for Wield */
-     , (32075, 2, 31026,  1, 20, 0.4054, True) /* Create Tenassa Breastplate (31026) for Wield */
-     , (32075, 2, 28624,  1, 20, 0.4054, True) /* Create Tenassa Sleeves (28624) for Wield */
-     , (32075, 2, 28625,  1, 20, 0.4545, True) /* Create Diforsa Sollerets (28625) for Wield */;
+VALUES (32075, 2, 28622,  1, 20, 0.4054, False) /* Create Tenassa Leggings (28622) for Wield */
+     , (32075, 2, 31026,  1, 20, 0.4054, False) /* Create Tenassa Breastplate (31026) for Wield */
+     , (32075, 2, 28624,  1, 20, 0.4054, False) /* Create Tenassa Sleeves (28624) for Wield */
+     , (32075, 2, 28625,  1, 20, 0.4545, False) /* Create Diforsa Sollerets (28625) for Wield */;

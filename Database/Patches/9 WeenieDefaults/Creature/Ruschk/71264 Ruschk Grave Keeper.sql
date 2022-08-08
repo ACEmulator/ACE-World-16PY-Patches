@@ -169,5 +169,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles s
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71264, 1, 71272,  1, 0, 1, False) /* Create Ruschk Funerary Fetish (71272) for Contain */
-     , (71264, 9, 28729, -1, 0, 0.05, True) /* Create Augmented Ice Shard (28729) for ContainTreasure */
+     , (71264, 9, 28729, -1, 0, 0.05, False) /* Create Augmented Ice Shard (28729) for ContainTreasure */
      , (71264, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

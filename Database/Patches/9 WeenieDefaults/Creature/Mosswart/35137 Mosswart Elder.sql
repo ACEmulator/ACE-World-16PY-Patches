@@ -192,7 +192,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterSpawned', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35137, 2, 32123,  0, 0, 0.5, True) /* Create Acid Spear (32123) for Wield */
-     , (35137, 2, 32124,  0, 0, 0.5, True) /* Create Frost Spear (32124) for Wield */
+VALUES (35137, 2, 32123,  0, 0, 0.5, False) /* Create Acid Spear (32123) for Wield */
+     , (35137, 2, 32124,  0, 0, 0.5, False) /* Create Frost Spear (32124) for Wield */
      , (35137, 9, 31349,  0, 0, 0.02, False) /* Create Mosswart Armband (31349) for ContainTreasure */
      , (35137, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

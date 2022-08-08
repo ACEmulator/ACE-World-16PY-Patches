@@ -65,7 +65,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'When I heard that Varicci had invaded Marae Lassel, I knew that the resistance here would need help. I didn''t expect to find a bunch of kids hiding out in a valley, but they have spirit.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31949, 2, 28629,  0, 20, 0.1081, True) /* Create Alduressa Coat (28629) for Wield */
-     , (31949, 2, 28620,  0, 20, 0.1081, True) /* Create Alduressa Leggings (28620) for Wield */
-     , (31949, 2, 30951,  0, 20, 0.1429, True) /* Create Alduressa Gauntlets (30951) for Wield */
-     , (31949, 2, 30950,  0, 20, 0.1429, True) /* Create Alduressa Boots (30950) for Wield */;
+VALUES (31949, 2, 28629,  0, 20, 0.1081, False) /* Create Alduressa Coat (28629) for Wield */
+     , (31949, 2, 28620,  0, 20, 0.1081, False) /* Create Alduressa Leggings (28620) for Wield */
+     , (31949, 2, 30951,  0, 20, 0.1429, False) /* Create Alduressa Gauntlets (30951) for Wield */
+     , (31949, 2, 30950,  0, 20, 0.1429, False) /* Create Alduressa Boots (30950) for Wield */;

@@ -105,14 +105,14 @@ VALUES (32688,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (32688, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32688, 2, 25636,  0, 93, 0, True) /* Create Leather Helm (25636) for Wield */
+VALUES (32688, 2, 25636,  0, 93, 0, False) /* Create Leather Helm (25636) for Wield */
      , (32688, 2,    54,  0, 39, 0.9577, False) /* Create Yoroi Cuirass (54) for Wield */
      , (32688, 2,   106,  0, 39, 0.9577, False) /* Create Yoroi Sleeves (106) for Wield */
-     , (32688, 2, 25651,  0, 93, 0, True) /* Create Leather Sleeves (25651) for Wield */
-     , (32688, 2, 32630,  0, 93, 0, True) /* Create Whispering Blade Gloves (32630) for Wield */
-     , (32688, 2, 25645,  0, 93, 0, True) /* Create Leather Leggings (25645) for Wield */
-     , (32688, 2, 32679,  0, 0, 0, True) /* Create Whispering Blade Boots (32679) for Wield */
+     , (32688, 2, 25651,  0, 93, 0, False) /* Create Leather Sleeves (25651) for Wield */
+     , (32688, 2, 32630,  0, 93, 0, False) /* Create Whispering Blade Gloves (32630) for Wield */
+     , (32688, 2, 25645,  0, 93, 0, False) /* Create Leather Leggings (25645) for Wield */
+     , (32688, 2, 32679,  0, 0, 0, False) /* Create Whispering Blade Boots (32679) for Wield */
      , (32688, 2,   127,  0, 20, 0, False) /* Create Pants (127) for Wield */
      , (32688, 2,   130,  0, 20, 0, False) /* Create Shirt (130) for Wield */
-     , (32688, 2, 31137,  1, 0, 1, True) /* Create Broad Sword (31137) for Wield */
+     , (32688, 2, 31137,  1, 0, 1, False) /* Create Broad Sword (31137) for Wield */
      , (32688, 9, 70989,  0, 0, 1, False) /* Create Letter to Commander Jin Zo (70989) for ContainTreasure */;

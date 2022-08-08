@@ -166,11 +166,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Begone from here. And tell that jeweler that I''m sick of hearing her weeping!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31955, 2, 28612,  1, 14, 0, True) /* Create Bandana (28612) for Wield */
-     , (31955, 2,  2587,  1, 13, 0.5, True) /* Create Shirt (2587) for Wield */
-     , (31955, 2, 28606,  1, 13, 0.5, True) /* Create Viamontian Pants (28606) for Wield */
-     , (31955, 2, 31249,  1, 9, 0, True) /* Create Viamontian Laced Boots (31249) for Wield */
-     , (31955, 2, 10696,  1, 9, 0, True) /* Create Apron (10696) for Wield */
+VALUES (31955, 2, 28612,  1, 14, 0, False) /* Create Bandana (28612) for Wield */
+     , (31955, 2,  2587,  1, 13, 0.5, False) /* Create Shirt (2587) for Wield */
+     , (31955, 2, 28606,  1, 13, 0.5, False) /* Create Viamontian Pants (28606) for Wield */
+     , (31955, 2, 31249,  1, 9, 0, False) /* Create Viamontian Laced Boots (31249) for Wield */
+     , (31955, 2, 10696,  1, 9, 0, False) /* Create Apron (10696) for Wield */
      , (31955, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
      , (31955, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
      , (31955, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */

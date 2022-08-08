@@ -172,5 +172,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36960, 2, 32123,  0, 0, 0.5, True) /* Create Acid Spear (32123) for Wield */
-     , (36960, 2, 32124,  0, 0, 0.5, True) /* Create Frost Spear (32124) for Wield */;
+VALUES (36960, 2, 32123,  0, 0, 0.5, False) /* Create Acid Spear (32123) for Wield */
+     , (36960, 2, 32124,  0, 0, 0.5, False) /* Create Frost Spear (32124) for Wield */;
