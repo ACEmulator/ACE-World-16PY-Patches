@@ -32,10 +32,6 @@ Use:
                 QuestFailure:
                     - UpdateQuest: SpokeWithSharia
                         QuestSuccess:
-                            - Tell: Have you destroyed three of these invisible spirits and retrieved their hearts? If not you can find them in the rubble under Mhoire Castle now that it has risen into the sky.
-                            - Tell: If you have the hearts then hand one to me.
-                            - Goto: HasJewel
-                        QuestFailure:
                             - Tell: The recent unearthing of Mhoire Castle has left unusual paranormal disturbances in the rubble left behind. These unseen spirits corrupt the magic in this area. I need you to find and destroy the spirits there. Unfortunately the spirits are invisible and incorporeal.
                             - Tell: I have developed two pieces of arcane equipment to locate and banish these spirits.
                             - Give: Crystal of Spectral Blood (40344)
@@ -44,6 +40,10 @@ Use:
                             - Tell: The Skull of One Thousand Torments can destroy these spirits. The problem is you must be very close to a spirit for it to work. It alos takes a few seconds to recharge.
                             - Tell: You must figure out the location of these spirits using the crystal and destroy three of them. Nothing will be left except for their corrupted, spectral hearts.
                             - Tell: When you have obtained three hearts as proof that you have destroyed them hand one to me and I will reward you for your efforts.
+                        QuestFailure:
+                            - Tell: Have you destroyed three of these invisible spirits and retrieved their hearts? If not you can find them in the rubble under Mhoire Castle now that it has risen into the sky.
+                            - Tell: If you have the hearts then hand one to me.
+                            - Goto: HasJewel
 
 GotoSet: HasJewel
     - InqOwnsItems: Crystal of Spectral Blood (40344), Message: HasJewel
@@ -59,6 +59,6 @@ GotoSet: HasSkull
         #TestSuccess:
             #- Goto: HasSkull
         TestFailure:
-            - Tell: How did you manage to lose my Sjull? Here's another. Be careful not to lose it.
+            - Tell: How did you manage to lose my Skull? Here's another. Be careful not to lose it.
             - Give: Skull of One Thousand Torments (40340)
             #- Goto: HasSkull
