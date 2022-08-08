@@ -57,5 +57,5 @@ VALUES (0x7462E06C, 72227, 0x462E0034, 146.709, 94.7137, 0.28076, 0.809666, 0, 0
 /* @teleloc 0x462E0034 [146.709000 94.713699 0.280760] 0.809666 0.000000 0.000000 -0.586891 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7462E06D, 80231, 0x462E002C, 133, 75, 3, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* GY Night Wisp Wanderer Gen */
-/* @teleloc 0x462E0034 [146.709000 94.713699 0.280760] 0.809666 0.000000 0.000000 -0.586891 */
+VALUES (0x7462E06D, 80231, 0x462E002C, 133, 75, 3, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Ghost Hunter Master Generator */
+/* @teleloc 0x462E002C [133.000000 75.000000 3.000000] 1.000000 0.000000 0.000000 0.000000 */
