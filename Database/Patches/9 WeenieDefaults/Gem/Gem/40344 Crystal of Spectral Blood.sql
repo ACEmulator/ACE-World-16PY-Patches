@@ -30,7 +30,8 @@ VALUES (40344, 167,       3) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40344,   1, 'Crystal of Spectral Blood') /* Name */
-     , (40344,  16, 'This large clear crystal sometimes emits faint whispers. Use it to detect invisible ghosts under Mhoire Castle.') /* LongDesc */;
+     , (40344,  16, 'This large clear crystal sometimes emits faint whispers. Use it to detect invisible ghosts under Mhoire Castle.') /* LongDesc */
+     , (40344,  51, 'UseCrystalofSpectralBlood') /* UseSendsSignal */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40344,   1, 0x02000179) /* Setup */
