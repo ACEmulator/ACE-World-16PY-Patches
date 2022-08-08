@@ -2,31 +2,31 @@ Give: Northern Forge Essence (30476)
     - StampQuest: CraftingForgeCompleted0710
     - InqQuestBitsOn: 50to11BrokerContractsB@North, 0x20
         QuestSuccess:
-            - Goto: ForgeEssenceGiven
+            - Goto: NorthForgeEssenceGiven
         QuestFailure:
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x20
             - StampQuest: ContractQuestcounter_0511
-            - Goto: ForgeEssenceGiven
+            - Goto: NorthForgeEssenceGiven
 
 Give: Southern Forge Essence (30474)
     - StampQuest: CraftingForgeCompleted0710
     - InqQuestBitsOn: 50to11BrokerContractsB@South, 0x40
         QuestSuccess:
-            - Goto: ForgeEssenceGiven
+            - Goto: SouthForgeEssenceGiven
         QuestFailure:
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x40
             - StampQuest: ContractQuestcounter_0511
-            - Goto: ForgeEssenceGiven
+            - Goto: SouthForgeEssenceGiven
 
 Give: Western Forge Essence (30475)
     - StampQuest: CraftingForgeCompleted0710
     - InqQuestBitsOn: 50to11BrokerContractsB@West, 0x80
         QuestSuccess:
-            - Goto: ForgeEssenceGiven
+            - Goto: WestForgeEssenceGiven
         QuestFailure:
             - SetQuestBitsOn: 50to11BrokerContractsB, 0x80
             - StampQuest: ContractQuestcounter_0511
-            - Goto: ForgeEssenceGiven
+            - Goto: WestForgeEssenceGiven
 
 Use:
     - InqQuest: ForgeEssenceGiven1204@Use
@@ -64,3 +64,33 @@ GotoSet: ForgeEssenceGiven
             - TextDirect: You are commended for fueling the Lockpick Forge! From now on you shall obtain a longer-lasting boon from all crafting forges!
             - StampQuest: ForgeEssenceGiven1204
             - InqIntStat: Level, 1 - 125, Test_Level
+
+GotoSet: NorthForgeEssenceGiven
+    - InqQuest: ForgeEssenceGiven1204
+        QuestSuccess:
+            - TextDirect: You are commended for fueling the %mn!
+            - AwardLevelProportionalXP: 175%, 10,000 - 8,000,000
+        QuestFailure:
+            - TextDirect: You are commended for fueling the %mn! From now on you shall obtain a longer-lasting boon from all crafting forges!
+            - StampQuest: ForgeEssenceGiven1204
+            - AwardLevelProportionalXP: 175%, 10,000 - 8,000,000
+
+GotoSet: SouthForgeEssenceGiven
+    - InqQuest: ForgeEssenceGiven1204
+        QuestSuccess:
+            - TextDirect: You are commended for fueling the %mn!
+            - AwardLevelProportionalXP: 150%, 10,000 - 45,000,000
+        QuestFailure:
+            - TextDirect: You are commended for fueling the %mn! From now on you shall obtain a longer-lasting boon from all crafting forges!
+            - StampQuest: ForgeEssenceGiven1204
+            - AwardLevelProportionalXP: 150%, 10,000 - 45,000,000
+
+GotoSet: WestForgeEssenceGiven
+    - InqQuest: ForgeEssenceGiven1204
+        QuestSuccess:
+            - TextDirect: You are commended for fueling the %mn!
+            - AwardLevelProportionalXP: 100%, 10,000 - 70,000,000
+        QuestFailure:
+            - TextDirect: You are commended for fueling the %mn! From now on you shall obtain a longer-lasting boon from all crafting forges!
+            - StampQuest: ForgeEssenceGiven1204
+            - AwardLevelProportionalXP: 100%, 10,000 - 70,000,000
