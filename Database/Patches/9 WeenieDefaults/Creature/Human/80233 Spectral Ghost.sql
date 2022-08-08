@@ -105,4 +105,4 @@ VALUES (80233,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (80233,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80233, 1,  80330, 1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Contain */
+VALUES (80233, 1,  80330, 1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Contain */;
