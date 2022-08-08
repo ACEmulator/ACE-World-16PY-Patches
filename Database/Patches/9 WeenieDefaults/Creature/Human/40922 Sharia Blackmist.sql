@@ -32,8 +32,24 @@ VALUES (40922,   1, 0x0200004E) /* Setup */
      , (40922,   6, 0x0400007E) /* PaletteBase */
      , (40922,   8, 0x06001036) /* Icon */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (40922,   1, 140, 0, 0) /* Strength */
+     , (40922,   2, 200, 0, 0) /* Endurance */
+     , (40922,   3, 160, 0, 0) /* Quickness */
+     , (40922,   4, 160, 0, 0) /* Coordination */
+     , (40922,   5, 290, 0, 0) /* Focus */
+     , (40922,   6, 290, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40922,   1,     0, 0, 0, 30250) /* MaxHealth */;
+VALUES (40922,   1,   30150, 0, 0, 30250) /* MaxHealth */
+     , (40922,   3,   150, 0, 0, 350) /* MaxStamina */
+     , (40922,   5,   150, 0, 0, 440) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (40922,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (40922,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (40922, 20, 0, 3, 0, 999, 0, 0) /* Deception           Specialized */
+     , (40922, 45, 0, 2, 0,   1, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40922,  1 /* Refuse */,      1, 80230 /* Spectral Heart */, NULL, NULL, NULL, NULL, NULL, NULL);
