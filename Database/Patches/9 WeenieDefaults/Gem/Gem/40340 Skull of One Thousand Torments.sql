@@ -28,7 +28,8 @@ VALUES (40340, 167,      10) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40340,   1, 'Skull of One Thousand Torments') /* Name */
-     , (40340,  16, 'This darkened skull feels cold to the touch. Use it to destroy invisible ghosts under Mhoire Castle.') /* LongDesc */;
+     , (40340,  16, 'This darkened skull feels cold to the touch. Use it to destroy invisible ghosts under Mhoire Castle.') /* LongDesc */
+     , (40340,  51, 'UseSkullofOneThousandTorments') /* UseSendsSignal */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40340,   1, 0x02000179) /* Setup */
