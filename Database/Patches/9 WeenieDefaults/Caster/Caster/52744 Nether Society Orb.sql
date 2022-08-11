@@ -32,7 +32,7 @@ VALUES (52744,   5,   -0.05) /* ManaRate */
      , (52744, 144,    0.15) /* ManaConversionMod */
      , (52744, 150,   1.025) /* WeaponMagicDefense */
      , (52744, 152,     1.1) /* ElementalDamageMod */
-     , (52744, 157,    1.09) /* ResistanceModifier */
+     , (52744, 157,     .09) /* ResistanceModifier */
      , (52744, 159,     0.1) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
