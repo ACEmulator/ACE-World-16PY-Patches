@@ -378,6 +378,9 @@ Gotoset: Check36
             - Tell: Your next challenge is to complete 30 'Legendary Quests' and then return to me.
             - InqQuestSolves: LegendaryQuestCounter_0913, 30 - 999
                 QuestSuccess:
+                    - EraseQuest: LegendaryQuestCounter_0913
+                    - EraseQuest: LegendaryQuestsA
+                    - EraseQuest: LegendaryQuestsB
                     - Tell: And I see you have already proven yourself in this challenge. Well done.
                     - Give: 53182
                     - StampQuest: ParagonWeapons
@@ -480,6 +483,9 @@ Gotoset: Check46
             - Tell: Your next challenge is to complete 40 'Legendary Quests' and then return to me.
             - InqQuestSolves: LegendaryQuestCounter_0913, 40 - 999
                 QuestSuccess:
+                    - EraseQuest: LegendaryQuestCounter_0913
+                    - EraseQuest: LegendaryQuestsA
+                    - EraseQuest: LegendaryQuestsB
                     - Tell: And I see you have already proven yourself in this challenge. Well done.
                     - Give: 53192
                     - StampQuest: ParagonWeapons
@@ -488,6 +494,9 @@ Gotoset: Check46
                         QuestSuccess:
                             - InqQuestBitsOn: LegendaryQuestsB, 0xFFFFF
                                 QuestSuccess:
+                                    - EraseQuest: LegendaryQuestCounter_0913
+                                    - EraseQuest: LegendaryQuestsA
+                                    - EraseQuest: LegendaryQuestsB
                                     - Tell: And I see you have already proven yourself in this challenge. Well done.
                                     - Give: 53192
                                     - StampQuest: ParagonWeapons
