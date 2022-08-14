@@ -24,7 +24,7 @@ VALUES (30999,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30999,   1, 'Academy Library Key') /* Name */
      , (30999,  13, 'keydooracademya') /* KeyCode */
-     , (30999,  14, 'Double-click on this key, click on the locked door, then double-click on the door to open it. ') /* Use */
+     , (30999,  14, 'Double-click on this key, then click on the Library door to unlock it. Double-click on the door to open it.') /* Use */
      , (30999,  15, 'A key to the Academy Library.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

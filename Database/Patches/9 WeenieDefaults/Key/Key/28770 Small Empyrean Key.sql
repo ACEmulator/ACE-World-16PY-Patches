@@ -22,7 +22,7 @@ VALUES (28770,  11, True ) /* IgnoreCollisions */
      , (28770,  14, True ) /* GravityStatus */
      , (28770,  19, True ) /* Attackable */
      , (28770,  22, True ) /* Inscribable */
-     , (28770,  99, False) /* Ivoryable */;
+     , (28770,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28770,   1, 'Small Empyrean Key') /* Name */

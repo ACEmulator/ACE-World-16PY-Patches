@@ -26,7 +26,7 @@ VALUES (28772,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28772,   1, 'Torture Chamber Key') /* Name */
      , (28772,  13, 'torturechamber') /* KeyCode */
-     , (28772,  16, 'Use this key to open Torture Chamber Door. ') /* LongDesc */;
+     , (28772,  16, 'Use this key to open Torture Chamber Door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28772,   1, 0x02001276) /* Setup */

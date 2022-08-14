@@ -21,7 +21,7 @@ VALUES (31222,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31222,   1, 'K''nath Key') /* Name */
      , (31222,  13, 'masterkey') /* KeyCode */
-     , (31222,  16, 'This key reeks with the stench of the K''nath. ') /* LongDesc */;
+     , (31222,  16, 'This key reeks with the stench of the K''nath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31222,   1, 0x02000160) /* Setup */

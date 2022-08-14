@@ -28,7 +28,7 @@ VALUES (30258,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30258,   1, 'Shimmering Skeleton Key') /* Name */
-     , (30258,  16, 'It is thought that the great assassin Hamud ibn Rafik crafted this key to help him in the execution of his dark deeds. It will open any locked chest or door. ') /* LongDesc */;
+     , (30258,  16, 'It is thought that the great assassin Hamud ibn Rafik crafted this key to help him in the execution of his dark deeds.  It will open any locked chest or door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30258,   1, 0x02000160) /* Setup */
