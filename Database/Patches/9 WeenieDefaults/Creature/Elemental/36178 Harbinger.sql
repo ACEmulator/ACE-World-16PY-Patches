@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36178;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36178, 'ace36178-harbinger', 10, '2022-01-08 18:29:57') /* Creature */;
+VALUES (36178, 'ace36178-harbinger', 10, '2022-08-14 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36178,   1,         16) /* ItemType - Creature */
@@ -72,6 +72,10 @@ VALUES (36178,   1, 0x02001731) /* Setup */
      , (36178,   8, 0x060027CB) /* Icon */
      , (36178,  22, 0x34000063) /* PhysicsEffectTable */
      , (36178,  31,      87777) /* LinkedPortalOne - Surface */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36178, 12, 0x00BC0105, 23.17452, -30.9981, -35.995, 1, 0, 0, 0) /* PortalSummonLoc */
+/* @teleloc 0x00BC0105 [23.174520 -30.998137 -35.994999] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36178,   1, 800, 0, 0) /* Strength */

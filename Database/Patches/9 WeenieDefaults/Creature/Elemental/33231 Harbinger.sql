@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33231;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33231, 'ace33231-harbinger', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (33231, 'ace33231-harbinger', 10, '2022-08-14 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33231,   1,         16) /* ItemType - Creature */
@@ -74,6 +74,10 @@ VALUES (33231,   1, 0x02000DA7) /* Setup */
      , (33231,   8, 0x060027CB) /* Icon */
      , (33231,  22, 0x34000063) /* PhysicsEffectTable */
      , (33231,  31,      71240) /* LinkedPortalOne - Surface */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (33231, 12, 0x00700103, 9.9879, 1.204032, -35.995, 1, 0, 0, -0) /* PortalSummonLoc */
+/* @teleloc 0x00700103 [9.987953 1.204032 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33231,   1, 800, 0, 0) /* Strength */
@@ -194,23 +198,24 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"Another victim fallen into the stream that floods this world in form. You are no more. Not possible, I sense that your form returns. Perhaps the same will be of mine."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+VALUES (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
+     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
+
