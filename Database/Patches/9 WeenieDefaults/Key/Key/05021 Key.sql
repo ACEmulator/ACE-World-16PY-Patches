@@ -8,7 +8,7 @@ VALUES (5021,   1,      16384) /* ItemType - Key */
      , (5021,   5,         50) /* EncumbranceVal */
      , (5021,   8,         20) /* Mass */
      , (5021,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (5021,  19,         22) /* Value */
+     , (5021,  19,         25) /* Value */
      , (5021,  91,         10) /* MaxStructure */
      , (5021,  92,         10) /* Structure */
      , (5021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

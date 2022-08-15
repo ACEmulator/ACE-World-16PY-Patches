@@ -8,7 +8,7 @@ VALUES (1249,   1,      16384) /* ItemType - Key */
      , (1249,   5,         50) /* EncumbranceVal */
      , (1249,   8,         20) /* Mass */
      , (1249,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (1249,  19,         46) /* Value */
+     , (1249,  19,         70) /* Value */
      , (1249,  91,         10) /* MaxStructure */
      , (1249,  92,         10) /* Structure */
      , (1249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

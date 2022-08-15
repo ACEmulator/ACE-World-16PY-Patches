@@ -8,7 +8,7 @@ VALUES (1531,   1,      16384) /* ItemType - Key */
      , (1531,   5,         50) /* EncumbranceVal */
      , (1531,   8,         20) /* Mass */
      , (1531,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (1531,  19,         90) /* Value */
+     , (1531,  19,        100) /* Value */
      , (1531,  91,         20) /* MaxStructure */
      , (1531,  92,         20) /* Structure */
      , (1531,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
