@@ -76,8 +76,8 @@ VALUES (33231,   1, 0x02000DA7) /* Setup */
      , (33231,  31,      71240) /* LinkedPortalOne - Surface */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33231, 12, 0x00700103, 9.9879, 1.204032, -35.995, 1, 0, 0, -0) /* PortalSummonLoc */
-/* @teleloc 0x00700103 [9.987953 1.204032 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */;
+VALUES (33231, 12, 0x00700103, 9.9879, 1.20403, -35.995, 1, 0, 0, 0) /* PortalSummonLoc */
+/* @teleloc 0x00700103 [9.987900 1.204030 -35.994999] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33231,   1, 800, 0, 0) /* Strength */
@@ -218,4 +218,3 @@ VALUES (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) 
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
-

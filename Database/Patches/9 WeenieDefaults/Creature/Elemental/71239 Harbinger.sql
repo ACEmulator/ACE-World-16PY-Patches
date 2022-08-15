@@ -76,8 +76,8 @@ VALUES (71239,   1, 0x02000DA7) /* Setup */
      , (71239,  31,      71240) /* LinkedPortalOne - Surface */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (71239, 12, 0x005D0106, 16.3659, -2.7648, -35.995, 1, 0, 0, -0) /* PortalSummonLoc */
-/* @teleloc 0x005D0106 [16.365986 -2.764804 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */;
+VALUES (71239, 12, 0x005D0106, 16.3659, -2.7648, -35.995, 1, 0, 0, 0) /* PortalSummonLoc */
+/* @teleloc 0x005D0106 [16.365900 -2.764800 -35.994999] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (71239,   1, 800, 0, 0) /* Strength */
