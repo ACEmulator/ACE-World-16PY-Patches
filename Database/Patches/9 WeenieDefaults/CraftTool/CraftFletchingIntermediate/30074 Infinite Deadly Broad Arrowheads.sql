@@ -15,6 +15,7 @@ VALUES (30074,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (30074,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (30074,  17,        155) /* RareId */
      , (30074,  19,          0) /* Value */
+     , (30074,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30074,  33,         -1) /* Bonded - Slippery */
      , (30074,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30074,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
