@@ -6,4 +6,4 @@ VALUES (6192, 0, 37 /* Fletching */, 250, 0, 15436 /* Deadly Frog Crotch Arrow *
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6192;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6192, 30080 /* Infinite Deadly Frog Crotch Arrowheads */,  4585 /* Bundle of Arrowshafts */, '2021-11-01 00:00:00');
+VALUES (6192, 30080 /* Infinite Deadly Frog-Crotch Arrowheads */,  4585 /* Bundle of Arrowshafts */, '2021-11-01 00:00:00');
