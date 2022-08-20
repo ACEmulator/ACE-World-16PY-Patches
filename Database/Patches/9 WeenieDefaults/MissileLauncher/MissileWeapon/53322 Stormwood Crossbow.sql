@@ -14,7 +14,7 @@ VALUES (53322,   1,        256) /* ItemType - MissileWeapon */
      , (53322,  45,         64) /* DamageType - Electric */
      , (53322,  46,         32) /* DefaultCombatStyle - Crossbow */
      , (53322,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (53322,  49,         45) /* WeaponTime */
+     , (53322,  49,        120) /* WeaponTime */
      , (53322,  50,          2) /* AmmoType - Bolt */
      , (53322,  51,          2) /* CombatUse - Missile */
      , (53322,  52,          2) /* ParentLocation - LeftHand */
@@ -44,7 +44,7 @@ VALUES (53322,   5,  -0.025) /* ManaRate */
      , (53322,  29,    1.18) /* WeaponDefense */
      , (53322,  39,    1.25) /* DefaultScale */
      , (53322,  62,       1) /* WeaponOffense */
-     , (53322,  63,    2.37) /* DamageMod */
+     , (53322,  63,    2.63) /* DamageMod */
      , (53322, 149,    1.01) /* WeaponMissileDefense */
      , (53322, 150,    1.01) /* WeaponMagicDefense */;
 
