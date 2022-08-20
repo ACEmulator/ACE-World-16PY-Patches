@@ -5,7 +5,7 @@ VALUES (32358, 'ace32358-viamontstagingareakey', 22, '2021-11-01 00:00:00') /* K
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32358,   1,      16384) /* ItemType - Key */
-     , (32358,   5,         10) /* EncumbranceVal */
+     , (32358,   5,         50) /* EncumbranceVal */
      , (32358,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (32358,  19,          0) /* Value */
      , (32358,  33,          1) /* Bonded - Bonded */

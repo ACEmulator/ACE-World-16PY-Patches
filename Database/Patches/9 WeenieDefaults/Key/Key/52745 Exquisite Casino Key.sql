@@ -28,7 +28,7 @@ VALUES (52745,   1, 'Exquisite Casino Key') /* Name */
      , (52745,  16, 'A large golden key that opens the Exquisite Casino Chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52745,   1, 0x02000A0D) /* Setup */
+VALUES (52745,   1, 0x02000160) /* Setup */
      , (52745,   3, 0x20000014) /* SoundTable */
      , (52745,   8, 0x0600201F) /* Icon */
      , (52745,  22, 0x3400002B) /* PhysicsEffectTable */;
