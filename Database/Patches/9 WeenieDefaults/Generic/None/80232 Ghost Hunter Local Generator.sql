@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80232;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80232, 'ace80232-ghosthunterlocalgenerator', 1, '2022-05-10 03:49:02') /* Generic */;
+VALUES (80232, 'ace80232-ghosthunterlocalgenerator', 1, '2022-08-22 03:09:27') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80232,  81,          1) /* MaxGeneratedObjects */
