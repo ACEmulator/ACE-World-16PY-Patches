@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43410;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43410, 'ace43410-morathe', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (43410, 'ace43410-morathe', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43410,   1,         16) /* ItemType - Creature */
@@ -541,8 +541,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Visit Fiun Rehlyun on the Halaetan Islands if you have not already acquired one of these gems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43410, 2,  6003,  1, 91, 1, True) /* Create Koujia Breastplate (6003) for Wield */
-     , (43410, 2,  6004,  1, 21, 1, True) /* Create Koujia Leggings (6004) for Wield */
-     , (43410, 2,  6005,  1, 91, 1, True) /* Create Koujia Sleeves (6005) for Wield */
-     , (43410, 2,   107,  1, 21, 1, True) /* Create Sollerets (107) for Wield */
-     , (43410, 2,    57,  1, 21, 0.2, True) /* Create Platemail Gauntlets (57) for Wield */;
+VALUES (43410, 2,  6003,  1, 91, 1, False) /* Create Koujia Breastplate (6003) for Wield */
+     , (43410, 2,  6004,  1, 21, 1, False) /* Create Koujia Leggings (6004) for Wield */
+     , (43410, 2,  6005,  1, 91, 1, False) /* Create Koujia Sleeves (6005) for Wield */
+     , (43410, 2,   107,  1, 21, 1, False) /* Create Sollerets (107) for Wield */
+     , (43410, 2,    57,  1, 21, 0.2, False) /* Create Platemail Gauntlets (57) for Wield */;

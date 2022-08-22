@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30258;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30258, 'keyrarevolatileuniversal', 22, '2021-11-17 16:56:08') /* Key */;
+VALUES (30258, 'keyrarevolatileuniversal', 22, '2022-08-22 03:09:27') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30258,   1,      16384) /* ItemType - Key */
@@ -28,7 +28,7 @@ VALUES (30258,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30258,   1, 'Shimmering Skeleton Key') /* Name */
-     , (30258,  16, 'It is thought that the great assassin Hamud ibn Rafik crafted this key to help him in the execution of his dark deeds. It will open any locked chest or door. ') /* LongDesc */;
+     , (30258,  16, 'It is thought that the great assassin Hamud ibn Rafik crafted this key to help him in the execution of his dark deeds.  It will open any locked chest or door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30258,   1, 0x02000160) /* Setup */

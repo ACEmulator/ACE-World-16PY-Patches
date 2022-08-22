@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31328;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31328, 'ace31328-shanrektheforger', 10, '2022-03-19 04:04:39') /* Creature */;
+VALUES (31328, 'ace31328-shanrektheforger', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31328,   1,         16) /* ItemType - Creature */
@@ -118,7 +118,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'This is a fine piece of Blue Coral! One moment while I finish making your Fake Niffis Pearl.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, 'Shanrek the Forger leaves and returns carrying a small round object.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Here you go. Take this to any Agent of the Arcanum and trade it for a Housing Writ.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 31336 /* Fake Niffis Pearl */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  4,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 31336 /* Fake Niffis Pearl */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31328,  6 /* Give */,      1, 31661 /* Official Agents of the Arcanum Notice */, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -209,6 +209,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you need cheap Housing W
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, 'Shanrek the Forger wrings his hands anxiously.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31328, 2,  2587,  0, 4, 0.6364, True) /* Create Shirt (2587) for Wield */
-     , (31328, 2,  2601,  0, 9, 0.0179, True) /* Create Pants (2601) for Wield */
-     , (31328, 2,   133,  0, 9, 0.1667, True) /* Create Slippers (133) for Wield */;
+VALUES (31328, 2,  2587,  0, 4, 0.6364, False) /* Create Shirt (2587) for Wield */
+     , (31328, 2,  2601,  0, 9, 0.0179, False) /* Create Pants (2601) for Wield */
+     , (31328, 2,   133,  0, 9, 0.1667, False) /* Create Slippers (133) for Wield */;

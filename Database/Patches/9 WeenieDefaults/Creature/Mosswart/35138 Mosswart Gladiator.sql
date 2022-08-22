@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35138;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35138, 'ace35138-mosswartgladiator', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (35138, 'ace35138-mosswartgladiator', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35138,   1,         16) /* ItemType - Creature */
@@ -183,5 +183,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterSpawned', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35138, 2, 29974,  1, 0, 0.5, True) /* Create Partizan (29974) for Wield */
-     , (35138, 2, 34343,  1, 0, 0.5, True) /* Create Tachi (34343) for Wield */;
+VALUES (35138, 2, 29974,  1, 0, 0.5, False) /* Create Partizan (29974) for Wield */
+     , (35138, 2, 34343,  1, 0, 0.5, False) /* Create Tachi (34343) for Wield */;

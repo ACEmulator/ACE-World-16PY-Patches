@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70037;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70037, 'ace70037-bloodgolem', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70037, 'ace70037-bloodgolem', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70037,   1,         16) /* ItemType - Creature */
@@ -139,6 +139,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70037, 9, 70019,  1, 0, 0.325, True) /* Create Blue Blood Gem Fragment (70019) for ContainTreasure */
-     , (70037, 9, 70021,  1, 0, 0.325, True) /* Create Green Blood Gem Fragment (70021) for ContainTreasure */
-     , (70037, 9, 70022,  1, 0, 0.351, True) /* Create Red Blood Gem Fragment (70022) for ContainTreasure */;
+VALUES (70037, 9, 70019,  1, 0, 0.325, False) /* Create Blue Blood Gem Fragment (70019) for ContainTreasure */
+     , (70037, 9, 70021,  1, 0, 0.325, False) /* Create Green Blood Gem Fragment (70021) for ContainTreasure */
+     , (70037, 9, 70022,  1, 0, 0.351, False) /* Create Red Blood Gem Fragment (70022) for ContainTreasure */;

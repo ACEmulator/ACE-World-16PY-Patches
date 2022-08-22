@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28822;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28822, 'fiunmaddenedabayar', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (28822, 'fiunmaddenedabayar', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28822,   1,         16) /* ItemType - Creature */
@@ -154,4 +154,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000053 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28822, 9, 28818,  1, 1, 1, True) /* Create Abayar's Research Notes (28818) for ContainTreasure */;
+VALUES (28822, 9, 28818,  1, 1, 1, False) /* Create Abayar's Research Notes (28818) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31222;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31222, 'ace31222-knathkey', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (31222, 'ace31222-knathkey', 22, '2022-08-22 03:09:27') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31222,   1,      16384) /* ItemType - Key */
@@ -21,7 +21,7 @@ VALUES (31222,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31222,   1, 'K''nath Key') /* Name */
      , (31222,  13, 'masterkey') /* KeyCode */
-     , (31222,  16, 'This key reeks with the stench of the K''nath. ') /* LongDesc */;
+     , (31222,  16, 'This key reeks with the stench of the K''nath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31222,   1, 0x02000160) /* Setup */

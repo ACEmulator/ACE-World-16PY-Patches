@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32109;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32109, 'ace32109-susanaduloc', 10, '2022-03-19 04:04:39') /* Creature */;
+VALUES (32109, 'ace32109-susanaduloc', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32109,   1,         16) /* ItemType - Creature */
@@ -112,9 +112,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You do my heart much good. I will dream of blood and death tonight!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'HeaWindreaveKillTask', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'heawindreavekillcount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 260000, 3000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 260000, 3000000, NULL, NULL, NULL, False, NULL, NULL, NULL, 1.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 156 /* WindreaveStalker */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 32114 /* Windreave Stalker Plaque */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  5,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 32114 /* Windreave Stalker Plaque */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  6,  10 /* Tell */, 1, 1, NULL, 'You are a person of like mind to me. Let all who meet you know of it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
@@ -151,8 +151,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I wonder if you have come a
      , (@parent_id,  1,  70 /* SetQuestCompletions */, 0, 1, NULL, 'heawindreavekillcount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32109, 2, 30625,  1, 0, 0, True) /* Create War Bow (30625) for Wield */
-     , (32109, 2, 25639,  1, 7, 0, True) /* Create Leather Jerkin (25639) for Wield */
-     , (32109, 2, 25645,  1, 7, 0, True) /* Create Leather Leggings (25645) for Wield */
-     , (32109, 2, 25642,  1, 7, 0, True) /* Create Leather Gauntlets (25642) for Wield */
-     , (32109, 2, 28611,  1, 7, 0.25, True) /* Create Viamontian Laced Boots (28611) for Wield */;
+VALUES (32109, 2, 30625,  1, 0, 0, False) /* Create War Bow (30625) for Wield */
+     , (32109, 2, 25639,  1, 7, 0, False) /* Create Leather Jerkin (25639) for Wield */
+     , (32109, 2, 25645,  1, 7, 0, False) /* Create Leather Leggings (25645) for Wield */
+     , (32109, 2, 25642,  1, 7, 0, False) /* Create Leather Gauntlets (25642) for Wield */
+     , (32109, 2, 28611,  1, 7, 0.25, False) /* Create Viamontian Laced Boots (28611) for Wield */;

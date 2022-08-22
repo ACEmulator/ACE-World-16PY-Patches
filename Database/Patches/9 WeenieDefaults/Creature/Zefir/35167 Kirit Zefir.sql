@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35167;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35167, 'ace35167-kiritzefir', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (35167, 'ace35167-kiritzefir', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35167,   1,         16) /* ItemType - Creature */
@@ -176,5 +176,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterSpawned', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35167, 9, 31359,  1, 0, 0.1, True) /* Create Kirit Zefir Wing (31359) for ContainTreasure */
+VALUES (35167, 9, 31359,  1, 0, 0.1, False) /* Create Kirit Zefir Wing (31359) for ContainTreasure */
      , (35167, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

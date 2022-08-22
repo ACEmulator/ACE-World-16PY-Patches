@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31018, 'grievverviolatorhighyield', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (31018, 'grievverviolatorhighyield', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31018,   1,         16) /* ItemType - Creature */
@@ -161,7 +161,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31018, 9, 24477,  1, 0, 0.1, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (31018, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31018, 9,  9098,  1, 0, 0.18, True) /* Create Vial of Organic Acid (9098) for ContainTreasure */
+     , (31018, 9,  9098,  1, 0, 0.18, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
      , (31018, 9,     0,  0, 0, 0.82, False) /* Create nothing for ContainTreasure */
-     , (31018, 9, 31356,  1, 0, 0.1, True) /* Create Spiny Grievver Leg (31356) for ContainTreasure */
+     , (31018, 9, 31356,  1, 0, 0.1, False) /* Create Spiny Grievver Leg (31356) for ContainTreasure */
      , (31018, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

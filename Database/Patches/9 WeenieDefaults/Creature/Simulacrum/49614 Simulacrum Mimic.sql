@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49614;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49614, 'ace49614-simulacrummimic', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (49614, 'ace49614-simulacrummimic', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49614,   1,         16) /* ItemType - Creature */
@@ -120,4 +120,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Come closer meatbag.', NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49614, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */
-     , (49614, 10,  5853,  1, 3, 0, True) /* Create Dho Vest and Robe (5853) for WieldTreasure */;
+     , (49614, 10,  5853,  1, 3, 0, False) /* Create Dho Vest and Robe (5853) for WieldTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32073;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32073, 'ace32073-andreadilazo', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (32073, 'ace32073-andreadilazo', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32073,   1,         16) /* ItemType - Creature */
@@ -63,6 +63,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'We took this town in the dead of night. The people here put up little resistance. There were a great many wounded. My oaths as a chirurgeon bound me to tend to their wounds, but Commander Bellenesse forbade me to treat them. Yes, I understand that the Bloodless must be defeated, but that''s no reason to let them wail on in pain and misery when it is perfectly within our power to aid them.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32073, 2, 10696,  1, 9, 0.6667, True) /* Create Apron (10696) for Wield */
-     , (32073, 2,   130,  1, 4, 0.6364, True) /* Create Shirt (130) for Wield */
-     , (32073, 2,  2600,  1, 9, 0.0179, True) /* Create Pantaloons (2600) for Wield */;
+VALUES (32073, 2, 10696,  1, 9, 0.6667, False) /* Create Apron (10696) for Wield */
+     , (32073, 2,   130,  1, 4, 0.6364, False) /* Create Shirt (130) for Wield */
+     , (32073, 2,  2600,  1, 9, 0.0179, False) /* Create Pantaloons (2600) for Wield */;

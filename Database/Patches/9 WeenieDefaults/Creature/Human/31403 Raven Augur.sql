@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31403;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31403, 'ace31403-ravenaugur', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (31403, 'ace31403-ravenaugur', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31403,   1,         16) /* ItemType - Creature */
@@ -123,9 +123,9 @@ VALUES (31403,    85,   2.02)  /* Flame Bolt VI */
      , (31403,  1801,   2.02)  /* Flame Streak VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31403, 2,    57,  1, 93, 0, True) /* Create Platemail Gauntlets (57) for Wield */
-     , (31403, 2,   107,  1, 93, 0, True) /* Create Sollerets (107) for Wield */
-     , (31403, 2,  6046,  1, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
+VALUES (31403, 2,    57,  1, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (31403, 2,   107,  1, 93, 0, False) /* Create Sollerets (107) for Wield */
+     , (31403, 2,  6046,  1, 39, 0.232225, False) /* Create Amuli Coat (6046) for Wield */
      , (31403, 2,  6047,  1, 93, 0.25, False) /* Create Amuli Leggings (6047) for Wield */
      , (31403, 9, 32940,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32940) for ContainTreasure */
      , (31403, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */

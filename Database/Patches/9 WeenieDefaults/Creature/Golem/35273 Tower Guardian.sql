@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35273;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35273, 'ace35273-towerguardian', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (35273, 'ace35273-towerguardian', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35273,   1,         16) /* ItemType - Creature */
@@ -114,4 +114,4 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'TowerGuardianKill', N
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, '%tn strikes the killing blow to the Tower Guardian. Its crystaline form flies apart. Each piece vanishing in a purple flash as the golem returns to its lifestone.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35273, 10, 35297,  1, 0, 1, True) /* Create Greatsword of Flame and Light (35297) for WieldTreasure */;
+VALUES (35273, 10, 35297,  1, 0, 1, False) /* Create Greatsword of Flame and Light (35297) for WieldTreasure */;

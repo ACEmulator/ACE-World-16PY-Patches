@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32069;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32069, 'ace32069-pierocenizzi', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (32069, 'ace32069-pierocenizzi', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32069,   1,         16) /* ItemType - Creature */
@@ -63,7 +63,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'The climate is certainly warmer here than on our frigid isles. I say this was quite a fine idea our King had. Quite fine, indeed.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32069, 2, 28622,  1, 20, 0.4054, True) /* Create Tenassa Leggings (28622) for Wield */
-     , (32069, 2, 31026,  1, 20, 0.4054, True) /* Create Tenassa Breastplate (31026) for Wield */
-     , (32069, 2, 28624,  1, 20, 0.4054, True) /* Create Tenassa Sleeves (28624) for Wield */
-     , (32069, 2, 28625,  1, 20, 0.4545, True) /* Create Diforsa Sollerets (28625) for Wield */;
+VALUES (32069, 2, 28622,  1, 20, 0.4054, False) /* Create Tenassa Leggings (28622) for Wield */
+     , (32069, 2, 31026,  1, 20, 0.4054, False) /* Create Tenassa Breastplate (31026) for Wield */
+     , (32069, 2, 28624,  1, 20, 0.4054, False) /* Create Tenassa Sleeves (28624) for Wield */
+     , (32069, 2, 28625,  1, 20, 0.4545, False) /* Create Diforsa Sollerets (28625) for Wield */;

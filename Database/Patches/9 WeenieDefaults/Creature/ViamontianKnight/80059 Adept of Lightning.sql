@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80059;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80059, 'ace80059-adeptoflightning', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (80059, 'ace80059-adeptoflightning', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80059,   1,         16) /* ItemType - Creature */
@@ -155,6 +155,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80059, 2, 31822,  1, 4, 0.6, True) /* Create Electric Baton (31822) for Wield */
-     , (80059, 2, 28614,  0, 13, 0.1429, True) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (80059, 2, 28632,  0, 13, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */;
+VALUES (80059, 2, 31822,  1, 4, 0.6, False) /* Create Electric Baton (31822) for Wield */
+     , (80059, 2, 28614,  0, 13, 0.1429, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (80059, 2, 28632,  0, 13, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */;

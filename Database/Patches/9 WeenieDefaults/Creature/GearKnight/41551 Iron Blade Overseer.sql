@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41551;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41551, 'ace41551-ironbladeoverseer', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (41551, 'ace41551-ironbladeoverseer', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41551,   1,         16) /* ItemType - Creature */
@@ -111,17 +111,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41551, 9, 41528,  1, 0, 0.8, True) /* Create Aetherium Power Core (41528) for ContainTreasure */
+VALUES (41551, 9, 41528,  1, 0, 0.8, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (41551, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (41551, 9, 42114,  1, 0, 0.8, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+     , (41551, 9, 42114,  1, 0, 0.8, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (41551, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (41551, 9, 41979,  1, 0, 0.05, True) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (41551, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (41551, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (41551, 9, 43142,  1, 0, 0.8, True) /* Create Ornate Gear Marker (43142) for ContainTreasure */
+     , (41551, 9, 43142,  1, 0, 0.8, False) /* Create Ornate Gear Marker (43142) for ContainTreasure */
      , (41551, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (41551, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (41551, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (41551, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (41551, 10, 41611,  1, 0, 1, True) /* Create Greatsword of Iron Flame (41611) for WieldTreasure */;
+     , (41551, 10, 41611,  1, 0, 1, False) /* Create Greatsword of Iron Flame (41611) for WieldTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41551, 1, 70350, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Large Shattered Aetherium Core (70350) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;

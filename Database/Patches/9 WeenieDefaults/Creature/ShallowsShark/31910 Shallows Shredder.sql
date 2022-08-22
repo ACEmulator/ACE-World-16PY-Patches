@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31910;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31910, 'ace31910-shallowsshredder', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31910, 'ace31910-shallowsshredder', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31910,   1,         16) /* ItemType - Creature */
@@ -97,7 +97,7 @@ VALUES (31910,  0,  2, 110, 0.75,  300,  250,  200,  300,  200,  300,  200,  150
      , (31910, 16,  4, 10,    0,  300,  250,  200,  300,  200,  300,  200,  150,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31910, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+VALUES (31910, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (31910, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (31910, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (31910, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (31910, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

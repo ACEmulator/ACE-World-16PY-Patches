@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52745;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52745, 'ace52745-exquisitecasinokey', 22, '2022-03-31 06:02:40') /* Key */;
+VALUES (52745, 'ace52745-exquisitecasinokey', 22, '2022-08-22 03:09:27') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52745,   1,      16384) /* ItemType - Key */
@@ -28,7 +28,7 @@ VALUES (52745,   1, 'Exquisite Casino Key') /* Name */
      , (52745,  16, 'A large golden key that opens the Exquisite Casino Chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52745,   1, 0x02000A0D) /* Setup */
+VALUES (52745,   1, 0x02000160) /* Setup */
      , (52745,   3, 0x20000014) /* SoundTable */
      , (52745,   8, 0x0600201F) /* Icon */
      , (52745,  22, 0x3400002B) /* PhysicsEffectTable */;

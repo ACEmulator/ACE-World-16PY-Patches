@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31399;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31399, 'ace31399-greaterpenumbralhorror', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31399, 'ace31399-greaterpenumbralhorror', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31399,   1,         16) /* ItemType - Creature */
@@ -156,27 +156,27 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31399, 9,  6058,  1, 0, 0.02, True) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (31399, 9,  6058,  1, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31399, 9, 31380,  1, 0, 1, True) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 31380,  1, 0, 1, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
      , (31399, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

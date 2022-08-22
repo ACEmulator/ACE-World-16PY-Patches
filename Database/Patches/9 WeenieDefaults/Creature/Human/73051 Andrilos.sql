@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 73051;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (73051, 'ace73051-andrilos', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (73051, 'ace73051-andrilos', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (73051,   1,         16) /* ItemType - Creature */
@@ -205,13 +205,13 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, '', NULL, NULL, NULL
      , (@parent_id,  4,  22 /* StampQuest */, 0, 1, NULL, 'AndrilosAccused', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (73051, 2, 28815,  1, 0, 0, True) /* Create Kul'dir (28815) for Wield */
-     , (73051, 2, 28627,  1, 93, 0, True) /* Create Diforsa Bracers (28627) for Wield */
-     , (73051, 2, 28632,  1, 93, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (73051, 2, 32648,  1, 0, 0, True) /* Create Sickle (32648) for Wield */
-     , (73051, 2, 28606,  1, 14, 0, True) /* Create Viamontian Pants (28606) for Wield */
-     , (73051, 2, 28630,  1, 93, 0, True) /* Create Diforsa Cuirass (28630) for Wield */
-     , (73051, 2, 24260,  1, 85, 0, True) /* Create Miner's Hat (24260) for Wield */
-     , (73051, 2,  2587,  1, 14, 0, True) /* Create Shirt (2587) for Wield */
-     , (73051, 2, 28611,  1, 93, 0, True) /* Create Viamontian Laced Boots (28611) for Wield */
+VALUES (73051, 2, 28815,  1, 0, 0, False) /* Create Kul'dir (28815) for Wield */
+     , (73051, 2, 28627,  1, 93, 0, False) /* Create Diforsa Bracers (28627) for Wield */
+     , (73051, 2, 28632,  1, 93, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (73051, 2, 32648,  1, 0, 0, False) /* Create Sickle (32648) for Wield */
+     , (73051, 2, 28606,  1, 14, 0, False) /* Create Viamontian Pants (28606) for Wield */
+     , (73051, 2, 28630,  1, 93, 0, False) /* Create Diforsa Cuirass (28630) for Wield */
+     , (73051, 2, 24260,  1, 85, 0, False) /* Create Miner's Hat (24260) for Wield */
+     , (73051, 2,  2587,  1, 14, 0, False) /* Create Shirt (2587) for Wield */
+     , (73051, 2, 28611,  1, 93, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (73051, 9, 73052,  1, 0, 1, False) /* Create Worn Token  (73052) for ContainTreasure */;

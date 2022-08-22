@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70293;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70293, 'ace70293-mastermalsivir', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70293, 'ace70293-mastermalsivir', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70293,   1,         16) /* ItemType - Creature */
@@ -189,7 +189,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70293, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
+VALUES (70293, 2, 28614,  0, 11, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (70293, 8, 70289,  1, 0, 1, False) /* Create Void Crystal (70289) for Treasure */
      , (70293, 8, 32280,  1, 0, 1, False) /* Create Malsivir's Journal (32280) for Treasure */
      , (70293, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */;

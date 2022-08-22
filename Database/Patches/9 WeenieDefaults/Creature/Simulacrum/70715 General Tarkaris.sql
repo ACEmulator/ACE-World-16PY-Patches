@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70715;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70715, 'ace70715-generaltarkaris', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (70715, 'ace70715-generaltarkaris', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70715,   1,         16) /* ItemType - Creature */
@@ -102,7 +102,7 @@ VALUES (70715,    91,   2.15)  /* Force Bolt VI */
      , (70715,  1156,   2.15)  /* Piercing Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70715, 1, 70711,  1, 0, 1, True) /* Create Empty Skin (70711) for Contain */
-     , (70715, 2, 15431, 15, 61, 0, True) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (70715, 10, 34343,  1, 20, 0.5, True) /* Create Tachi (34343) for WieldTreasure */
-     , (70715, 10, 34345,  1, 20, 0.5, True) /* Create Yumi (34345) for WieldTreasure */;
+VALUES (70715, 1, 70711,  1, 0, 1, False) /* Create Empty Skin (70711) for Contain */
+     , (70715, 2, 15431, 15, 61, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (70715, 10, 34343,  1, 20, 0.5, False) /* Create Tachi (34343) for WieldTreasure */
+     , (70715, 10, 34345,  1, 20, 0.5, False) /* Create Yumi (34345) for WieldTreasure */;

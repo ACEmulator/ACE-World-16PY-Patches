@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31400;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31400, 'ace31400-ravenconscript', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (31400, 'ace31400-ravenconscript', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31400,   1,         16) /* ItemType - Creature */
@@ -121,12 +121,12 @@ VALUES (31400,   526,   2.02)  /* Acid Vulnerability Other VI */
      , (31400,  1327,   2.02)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31400, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for Wield */
-     , (31400, 2,   107,  0, 93, 0, True) /* Create Sollerets (107) for Wield */
+VALUES (31400, 2,    57,  0, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (31400, 2,   107,  0, 93, 0, False) /* Create Sollerets (107) for Wield */
      , (31400, 2,  6043,  1, 93, 0.25, False) /* Create Celdon Girth (6043) for Wield */
-     , (31400, 2,  6044,  0, 93, 0.25, True) /* Create Celdon Breastplate (6044) for Wield */
+     , (31400, 2,  6044,  0, 93, 0.25, False) /* Create Celdon Breastplate (6044) for Wield */
      , (31400, 2,  6045,  1, 93, 0.25, False) /* Create Celdon Leggings (6045) for Wield */
-     , (31400, 2,  6048,  0, 93, 0.25, True) /* Create Celdon Sleeves (6048) for Wield */
+     , (31400, 2,  6048,  0, 93, 0.25, False) /* Create Celdon Sleeves (6048) for Wield */
      , (31400, 9, 32940,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32940) for ContainTreasure */
      , (31400, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (31400, 9, 37088,  0, 0, 0.05, False) /* Create Invitation to the Battle Burrows (37088) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28772;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28772, 'keyviamontiantorturechamber', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (28772, 'keyviamontiantorturechamber', 22, '2022-08-22 03:09:27') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28772,   1,      16384) /* ItemType - Key */
@@ -26,7 +26,7 @@ VALUES (28772,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28772,   1, 'Torture Chamber Key') /* Name */
      , (28772,  13, 'torturechamber') /* KeyCode */
-     , (28772,  16, 'Use this key to open Torture Chamber Door. ') /* LongDesc */;
+     , (28772,  16, 'Use this key to open Torture Chamber Door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28772,   1, 0x02001276) /* Setup */

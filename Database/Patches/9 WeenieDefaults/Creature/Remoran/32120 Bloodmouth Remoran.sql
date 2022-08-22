@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32120;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32120, 'ace32120-bloodmouthremoran', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32120, 'ace32120-bloodmouthremoran', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32120,   1,         16) /* ItemType - Creature */
@@ -118,7 +118,7 @@ VALUES (32120,   234,   2.01)  /* Vulnerability Other VI */
      , (32120,  2088,   2.01)  /* Senescence */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32120, 9, 70051,  1, 0, 0.25, True) /* Create Bloodmouth Maw (70051) for ContainTreasure */
+VALUES (32120, 9, 70051,  1, 0, 0.25, False) /* Create Bloodmouth Maw (70051) for ContainTreasure */
      , (32120, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (32120, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (32120, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (32120, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

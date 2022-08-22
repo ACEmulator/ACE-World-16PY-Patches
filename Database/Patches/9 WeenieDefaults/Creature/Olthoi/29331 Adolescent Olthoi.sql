@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29331;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29331, 'olthoinewbieacademyboss', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (29331, 'olthoinewbieacademyboss', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29331,   1,         16) /* ItemType - Creature */
@@ -137,13 +137,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+VALUES (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

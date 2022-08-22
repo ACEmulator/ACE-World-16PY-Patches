@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28770;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28770, 'keysmallempvault', 22, '2021-11-17 16:56:08') /* Key */;
+VALUES (28770, 'keysmallempvault', 22, '2022-08-22 03:09:27') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28770,   1,      16384) /* ItemType - Key */
@@ -22,7 +22,7 @@ VALUES (28770,  11, True ) /* IgnoreCollisions */
      , (28770,  14, True ) /* GravityStatus */
      , (28770,  19, True ) /* Attackable */
      , (28770,  22, True ) /* Inscribable */
-     , (28770,  99, False) /* Ivoryable */;
+     , (28770,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28770,   1, 'Small Empyrean Key') /* Name */

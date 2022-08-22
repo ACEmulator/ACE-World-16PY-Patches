@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31915;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31915, 'ace31915-grimymoarsman', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31915, 'ace31915-grimymoarsman', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31915,   1,         16) /* ItemType - Creature */
@@ -111,6 +111,6 @@ VALUES (31915,  0,  4, 10,    0,  450,  400,  425,  425,  400,  425,  425,  375,
      , (31915, 22, 16, 650, 0.75,  450,  400,  425,  425,  400,  425,  425,  375,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31915, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (31915, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31915, 9, 32274,  1, 0, 0.2, True) /* Create Moarsmuck (32274) for ContainTreasure */;
+VALUES (31915, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (31915, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (31915, 9, 32274,  1, 0, 0.2, False) /* Create Moarsmuck (32274) for ContainTreasure */;

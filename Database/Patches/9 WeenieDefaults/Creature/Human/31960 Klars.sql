@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31960;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31960, 'ace31960-klars', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31960, 'ace31960-klars', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31960,   1,         16) /* ItemType - Creature */
@@ -70,4 +70,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 0, 1, NULL, 'Does Lam Yi cry for me? Please, tell her to be strong.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31960, 10,  2593,  0, 4, 0, True) /* Create Tunic (2593) for WieldTreasure */;
+VALUES (31960, 10,  2593,  0, 4, 0, False) /* Create Tunic (2593) for WieldTreasure */;

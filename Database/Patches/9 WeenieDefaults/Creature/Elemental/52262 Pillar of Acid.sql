@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52262;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52262, 'ace52262-pillarofacid', 10, '2022-05-17 03:47:03') /* Creature */;
+VALUES (52262, 'ace52262-pillarofacid', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52262,   1,         16) /* ItemType - Creature */
@@ -83,9 +83,9 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (52262,  6, 0, 3, 0, 457, 0, 0) /* MeleeDefense        Specialized */
      , (52262,  7, 0, 3, 0, 450, 0, 0) /* MissileDefense      Specialized */
      , (52262, 15, 0, 3, 0, 154, 0, 0) /* MagicDefense        Specialized */
-     , (52262, 31, 0, 3, 0, 215, 0, 0) /* CreatureEnchantment Specialized */
-     , (52262, 33, 0, 3, 0, 215, 0, 0) /* LifeMagic           Specialized */
-     , (52262, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */
+     , (52262, 31, 0, 3, 0, 450, 0, 0) /* CreatureEnchantment Specialized */
+     , (52262, 33, 0, 3, 0, 450, 0, 0) /* LifeMagic           Specialized */
+     , (52262, 34, 0, 3, 0, 450, 0, 0) /* WarMagic            Specialized */
      , (52262, 45, 0, 3, 0, 173, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

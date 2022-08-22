@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51285, 'ace51285-simulacrumshifter', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (51285, 'ace51285-simulacrumshifter', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51285,   1,         16) /* ItemType - Creature */
@@ -115,4 +115,4 @@ VALUES (51285,  4294,   2.06)  /* Incantation of Clumsiness Other */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51285, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */
      , (51285, 9, 72158,  0, 0, 0, False) /* Create Sealed Crackling Key (72158) for ContainTreasure */
-     , (51285, 10,  5853,  1, 3, 0, True) /* Create Dho Vest and Robe (5853) for WieldTreasure */;
+     , (51285, 10,  5853,  1, 3, 0, False) /* Create Dho Vest and Robe (5853) for WieldTreasure */;

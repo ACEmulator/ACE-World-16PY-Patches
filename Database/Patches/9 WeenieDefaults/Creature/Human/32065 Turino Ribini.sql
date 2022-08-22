@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32065;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32065, 'ace32065-turinoribini', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (32065, 'ace32065-turinoribini', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32065,   1,         16) /* ItemType - Creature */
@@ -63,6 +63,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'The King has commissioned me with the most important of tasks. I am to tax the life out of the Bloodless on this island. They have many pyreals squirreled away in chests and mattresses. But soon that will change. We will bleed these dogs dry.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32065, 2, 28606,  1, 4, 0.0179, True) /* Create Viamontian Pants (28606) for Wield */
-     , (32065, 2, 28607,  1, 8, 0, True) /* Create Lace Shirt (28607) for Wield */
-     , (32065, 2, 28610,  1, 4, 0.25, True) /* Create Loafers (28610) for Wield */;
+VALUES (32065, 2, 28606,  1, 4, 0.0179, False) /* Create Viamontian Pants (28606) for Wield */
+     , (32065, 2, 28607,  1, 8, 0, False) /* Create Lace Shirt (28607) for Wield */
+     , (32065, 2, 28610,  1, 4, 0.25, False) /* Create Loafers (28610) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31361, 'ace31361-hardheadedskeleton', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31361, 'ace31361-hardheadedskeleton', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31361,   1,         16) /* ItemType - Creature */
@@ -162,4 +162,4 @@ VALUES (31361, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) fo
      , (31361, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (31361, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */
      , (31361, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31361, 9, 31362,  1, 0, 1, True) /* Create Jacob's Axe (31362) for ContainTreasure */;
+     , (31361, 9, 31362,  1, 0, 1, False) /* Create Jacob's Axe (31362) for ContainTreasure */;

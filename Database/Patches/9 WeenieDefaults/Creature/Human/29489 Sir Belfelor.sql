@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29489;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29489, 'knightkarlunsirbelfelor', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (29489, 'knightkarlunsirbelfelor', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
@@ -176,9 +176,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (29489, 2, 28629,  1, 20, 0.726, False) /* Create Alduressa Coat (28629) for Wield */
      , (29489, 2, 28620,  1, 20, 0.726, False) /* Create Alduressa Leggings (28620) for Wield */
      , (29489, 2, 30950,  1, 20, 0.726, False) /* Create Alduressa Boots (30950) for Wield */
-     , (29489, 9, 29493, -1, 0, 1, True) /* Create Ring of Karlun (29493) for ContainTreasure */
+     , (29489, 9, 29493, -1, 0, 1, False) /* Create Ring of Karlun (29493) for ContainTreasure */
      , (29489, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29489, 10, 12083,  1, 0, 0.25, True) /* Create Bandit Yaoji (12083) for WieldTreasure */
+     , (29489, 10, 12083,  1, 0, 0.25, False) /* Create Bandit Yaoji (12083) for WieldTreasure */
      , (29489, 10, 12084,  1, 0, 0.25, False) /* Create Bandit Lightning Yaoji (12084) for WieldTreasure */
      , (29489, 10, 12085,  1, 0, 0.25, False) /* Create Bandit Flaming Yaoji (12085) for WieldTreasure */
      , (29489, 10, 12086,  1, 0, 0.25, False) /* Create Bandit Frost Yaoji (12086) for WieldTreasure */;

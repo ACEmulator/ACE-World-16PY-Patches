@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31040;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31040, 'ace31040-tursh', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (31040, 'ace31040-tursh', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31040,   1,         16) /* ItemType - Creature */
@@ -191,9 +191,9 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles s
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31040, 2, 48632, -1, 0, -1, False) /* Create Tursh's Spear (48632) for Wield */
-     , (31040, 9, 31038, -1, 0, 1, True) /* Create Tursh Scalp (31038) for ContainTreasure */
+     , (31040, 9, 31038, -1, 0, 1, False) /* Create Tursh Scalp (31038) for ContainTreasure */
      , (31040, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31040, 9, 31038, -1, 0, 1, True) /* Create Tursh Scalp (31038) for ContainTreasure */
+     , (31040, 9, 31038, -1, 0, 1, False) /* Create Tursh Scalp (31038) for ContainTreasure */
      , (31040, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31040, 9, 31038, -1, 0, 1, True) /* Create Tursh Scalp (31038) for ContainTreasure */
+     , (31040, 9, 31038, -1, 0, 1, False) /* Create Tursh Scalp (31038) for ContainTreasure */
      , (31040, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36928;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36928, 'ace36928-shadeofbaelzharon', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36928, 'ace36928-shadeofbaelzharon', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36928,   1,         16) /* ItemType - Creature */
@@ -66,6 +66,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36928,   1, 0x0200099E) /* Setup */
      , (36928,   2, 0x090000F3) /* MotionTable */
      , (36928,   3, 0x2000001E) /* SoundTable */
+     , (36928,   4, 0x3000002F) /* CombatTable */
      , (36928,   6, 0x04001071) /* PaletteBase */
      , (36928,   7, 0x1000027A) /* ClothingBase */
      , (36928,   8, 0x060016C2) /* Icon */

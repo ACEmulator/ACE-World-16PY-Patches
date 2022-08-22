@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31957;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31957, 'ace31957-elizaducurena', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (31957, 'ace31957-elizaducurena', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31957,   1,         16) /* ItemType - Creature */
@@ -112,4 +112,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Greetings. I suppose you''r
      , (@parent_id,  1,  10 /* Tell */, 0.2, 1, NULL, 'They say that there is a great white Mattekar that stalks the northern coast of this island. I understand that its coat can be crafted into a quite excellent robe. Bring one to me, and we''ll see if we can do business.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31957, 2, 28613,  1, 2, 1, True) /* Create Tessera Gown (28613) for Wield */;
+VALUES (31957, 2, 28613,  1, 2, 1, False) /* Create Tessera Gown (28613) for Wield */;

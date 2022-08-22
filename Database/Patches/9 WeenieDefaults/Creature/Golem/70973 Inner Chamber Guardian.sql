@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70973;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70973, 'ace70973-innerchamberguardian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70973, 'ace70973-innerchamberguardian', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70973,   1,         16) /* ItemType - Creature */
@@ -105,5 +105,5 @@ VALUES (70973,  0,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,
      , (70973,  8,  4, 120, 0.75,  150,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70973, 2, 32665,  0, 14, 0, True) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+VALUES (70973, 2, 32665,  0, 14, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (70973, 9, 32666,  0, 0, 1, False) /* Create Inner Chamber Key (32666) for ContainTreasure */;

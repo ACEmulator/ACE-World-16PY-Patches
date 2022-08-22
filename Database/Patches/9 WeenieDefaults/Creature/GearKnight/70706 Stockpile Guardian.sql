@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70706;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70706, 'ace70706-stockpileguardian', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (70706, 'ace70706-stockpileguardian', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70706,   1,         16) /* ItemType - Creature */
@@ -100,9 +100,9 @@ VALUES (70706,  4450,   2.15)  /* Incantation of Lightning Blast */
      , (70706,  4483,   2.15)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70706, 10, 41245,  1, 0, 0.2, True) /* Create Gearknight Greatsword (41245) for WieldTreasure */
-     , (70706, 10, 41237,  1, 0, 0.2, True) /* Create Gearknight Sword (41237) for WieldTreasure */
-     , (70706, 10, 41246,  1, 0, 0.15, True) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
-     , (70706, 10, 41247,  1, 0, 0.15, True) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
-     , (70706, 10, 41248,  1, 0, 0.15, True) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
-     , (70706, 10, 41249,  1, 0, 0.15, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+VALUES (70706, 10, 41245,  1, 0, 0.2, False) /* Create Gearknight Greatsword (41245) for WieldTreasure */
+     , (70706, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
+     , (70706, 10, 41246,  1, 0, 0.15, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
+     , (70706, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
+     , (70706, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
+     , (70706, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;

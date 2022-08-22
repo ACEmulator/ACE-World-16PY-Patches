@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28771;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28771, 'keyruschkiceberg', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (28771, 'keyruschkiceberg', 22, '2022-08-22 03:09:27') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28771,   1,      16384) /* ItemType - Key */
@@ -12,7 +12,7 @@ VALUES (28771,   1,      16384) /* ItemType - Key */
      , (28771,  91,          3) /* MaxStructure */
      , (28771,  92,          3) /* Structure */
      , (28771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28771,  94,     131072) /* TargetType - Lockable */
+     , (28771,  94,        640) /* TargetType - LockableMagicTarget */
      , (28771, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

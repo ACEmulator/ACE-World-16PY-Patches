@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31956;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31956, 'ace31956-lucarusmallonithearmorer', 12, '2021-11-17 16:56:08') /* Vendor */;
+VALUES (31956, 'ace31956-lucarusmallonithearmorer', 12, '2022-08-22 03:09:27') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31956,   1,         16) /* ItemType - Creature */
@@ -161,12 +161,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Go and run, run crying to your false Queen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31956, 2, 30571,  1, 0, 0, True) /* Create Spada (30571) for Wield */
-     , (31956, 2,  2596,  1, 86, 0, True) /* Create Doublet (2596) for Wield */
-     , (31956, 2,  2601,  1, 6, 0.5, True) /* Create Pants (2601) for Wield */
-     , (31956, 2, 28610,  1, 9, 0.1667, True) /* Create Loafers (28610) for Wield */
-     , (31956, 2, 28612,  1, 14, 0, True) /* Create Bandana (28612) for Wield */
-     , (31956, 2, 10696,  1, 4, 0, True) /* Create Apron (10696) for Wield */
+VALUES (31956, 2, 30571,  1, 0, 0, False) /* Create Spada (30571) for Wield */
+     , (31956, 2,  2596,  1, 86, 0, False) /* Create Doublet (2596) for Wield */
+     , (31956, 2,  2601,  1, 6, 0.5, False) /* Create Pants (2601) for Wield */
+     , (31956, 2, 28610,  1, 9, 0.1667, False) /* Create Loafers (28610) for Wield */
+     , (31956, 2, 28612,  1, 14, 0, False) /* Create Bandana (28612) for Wield */
+     , (31956, 2, 10696,  1, 4, 0, False) /* Create Apron (10696) for Wield */
      , (31956, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (31956, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (31956, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */

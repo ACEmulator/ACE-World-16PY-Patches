@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70712;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70712, 'ace70712-ironbladewarmaster', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (70712, 'ace70712-ironbladewarmaster', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70712,   1,         16) /* ItemType - Creature */
@@ -105,23 +105,23 @@ VALUES (70712,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'AtamarrIronDone', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x00000000, 0, 0, 0, 1, 0, 0, 0)
-     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, '%tn''s blow drops the Iron Blade Warmaster to his knees, sputtering sparks and fluid. He then collapses into a heap.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x00000000, 0, 0, 0, 1, 0, 0, 0);
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'AtamarrIronDone', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, '%tn''s blow drops the Iron Blade Warmaster to his knees, sputtering sparks and fluid. He then collapses into a heap.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70712, 9, 41528,  1, 0, 0.35, True) /* Create Aetherium Power Core (41528) for ContainTreasure */
+VALUES (70712, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (70712, 9,     0,  1, 0, 0.65, False) /* Create nothing for ContainTreasure */
-     , (70712, 9, 42114,  1, 0, 0.05, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+     , (70712, 9, 42114,  1, 0, 0.05, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (70712, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (70712, 9, 41979,  1, 0, 0.05, True) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (70712, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (70712, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (70712, 9, 43142,  1, 0, 0.03, True) /* Create Ornate Gear Marker (43142) for ContainTreasure */
+     , (70712, 9, 43142,  1, 0, 0.03, False) /* Create Ornate Gear Marker (43142) for ContainTreasure */
      , (70712, 9,     0,  1, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (70712, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (70712, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (70712, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (70712, 10, 41245,  1, 0, 0.2, True) /* Create Gearknight Greatsword (41245) for WieldTreasure */
-     , (70712, 10, 41237,  1, 0, 0.2, True) /* Create Gearknight Sword (41237) for WieldTreasure */
-     , (70712, 10, 41246,  1, 0, 0.15, True) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
-     , (70712, 10, 41247,  1, 0, 0.15, True) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
-     , (70712, 10, 41248,  1, 0, 0.15, True) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
-     , (70712, 10, 41249,  1, 0, 0.15, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+     , (70712, 10, 41245,  1, 0, 0.2, False) /* Create Gearknight Greatsword (41245) for WieldTreasure */
+     , (70712, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
+     , (70712, 10, 41246,  1, 0, 0.15, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
+     , (70712, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
+     , (70712, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
+     , (70712, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;

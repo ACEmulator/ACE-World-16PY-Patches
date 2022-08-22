@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28716;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28716, 'knightsirbellas', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (28716, 'knightsirbellas', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28716,   1,         16) /* ItemType - Creature */
@@ -189,7 +189,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28716, 0, 40523,  1, 0, 0.06, True) /* Create Contact Instructions (40523) for Undef */
+VALUES (28716, 0, 40523,  1, 0, 0.06, False) /* Create Contact Instructions (40523) for Undef */
      , (28716, 0,     0,  0, 0, 0.94, False) /* Create nothing for Undef */
      , (28716, 2, 31199,  1, 2, 1, False) /* Create The Fist of Bellenesse (31199) for Wield */
      , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */

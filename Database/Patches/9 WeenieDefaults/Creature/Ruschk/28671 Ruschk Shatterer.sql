@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28671;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28671, 'ruschkshatterer', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (28671, 'ruschkshatterer', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28671,   1,         16) /* ItemType - Creature */
@@ -166,5 +166,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles something incoherent...an icy chill comes over you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28671, 9, 28728,  1, 0, 0.05, True) /* Create Reinforced Ice Shard (28728) for ContainTreasure */
+VALUES (28671, 9, 28728,  1, 0, 0.05, False) /* Create Reinforced Ice Shard (28728) for ContainTreasure */
      , (28671, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

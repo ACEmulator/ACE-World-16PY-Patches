@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30080;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30080, 'arrowheadrareeternalfrogcrotch', 44, '2021-11-17 16:56:08') /* CraftTool */;
+VALUES (30080, 'arrowheadrareeternalfrogcrotch', 44, '2022-08-22 03:09:27') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30080,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
@@ -15,6 +15,7 @@ VALUES (30080,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (30080,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (30080,  17,        156) /* RareId */
      , (30080,  19,          0) /* Value */
+     , (30080,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30080,  33,         -1) /* Bonded - Slippery */
      , (30080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30080,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
@@ -27,9 +28,9 @@ VALUES (30080,  11, True ) /* IgnoreCollisions */
      , (30080,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30080,   1, 'Infinite Deadly Frog Crotch Arrowheads') /* Name */
+VALUES (30080,   1, 'Infinite Deadly Frog-Crotch Arrowheads') /* Name */
      , (30080,  14, 'This item is used in fletching.') /* Use */
-     , (30080,  16, 'A stack of deadly frog crotch arrowheads. No matter how many of these are used the number of arrowheads never diminishes.') /* LongDesc */;
+     , (30080,  16, 'A stack of deadly frog-crotch arrowheads. No matter how many of these are used the number of arrowheads never diminishes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30080,   1, 0x020005F6) /* Setup */

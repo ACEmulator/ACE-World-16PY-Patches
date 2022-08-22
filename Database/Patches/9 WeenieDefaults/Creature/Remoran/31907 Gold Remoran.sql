@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31907;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31907, 'ace31907-goldremoran', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31907, 'ace31907-goldremoran', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31907,   1,         16) /* ItemType - Creature */
@@ -119,5 +119,5 @@ VALUES (31907,   234,   2.07)  /* Vulnerability Other VI */
      , (31907,  2146,   2.04)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31907, 9, 31905,  1, 0, 1, True) /* Create Gold Remoran Eggs (31905) for ContainTreasure */
+VALUES (31907, 9, 31905,  1, 0, 1, False) /* Create Gold Remoran Eggs (31905) for ContainTreasure */
      , (31907, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

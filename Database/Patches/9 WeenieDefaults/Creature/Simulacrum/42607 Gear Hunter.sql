@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42607;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42607, 'ace42607-gearhunter', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (42607, 'ace42607-gearhunter', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42607,   1,         16) /* ItemType - Creature */
@@ -102,6 +102,6 @@ VALUES (42607,    91,   2.15)  /* Force Bolt VI */
      , (42607,  1156,   2.15)  /* Piercing Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42607, 2, 15431, 15, 61, 0, True) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (42607, 10, 34343,  1, 20, 0.5, True) /* Create Tachi (34343) for WieldTreasure */
-     , (42607, 10, 34345,  1, 20, 0.5, True) /* Create Yumi (34345) for WieldTreasure */;
+VALUES (42607, 2, 15431, 15, 61, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (42607, 10, 34343,  1, 20, 0.5, False) /* Create Tachi (34343) for WieldTreasure */
+     , (42607, 10, 34345,  1, 20, 0.5, False) /* Create Yumi (34345) for WieldTreasure */;

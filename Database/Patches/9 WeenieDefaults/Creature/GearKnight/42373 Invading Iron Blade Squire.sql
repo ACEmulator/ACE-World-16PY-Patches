@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42373;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42373, 'ace42373-invadingironbladesquire', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (42373, 'ace42373-invadingironbladesquire', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42373,   1,         16) /* ItemType - Creature */
@@ -97,19 +97,19 @@ VALUES (42373,  2139,   2.15)  /* Luminous Wrath */
      , (42373,  2172,   2.15)  /* Astyrrian's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42373, 9, 41528,  1, 0, 0.35, True) /* Create Aetherium Power Core (41528) for ContainTreasure */
+VALUES (42373, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (42373, 9,     0,  1, 0, 0.65, False) /* Create nothing for ContainTreasure */
-     , (42373, 9, 42114,  1, 0, 0.05, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+     , (42373, 9, 42114,  1, 0, 0.05, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (42373, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (42373, 9, 41979,  1, 0, 0.05, True) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (42373, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (42373, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (42373, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (42373, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (42373, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (42373, 9, 51266,  1, 0, 0.3, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
      , (42373, 9,     0,  1, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (42373, 10, 41245,  1, 0, 0.2, True) /* Create Gearknight Greatsword (41245) for WieldTreasure */
-     , (42373, 10, 41237,  1, 0, 0.2, True) /* Create Gearknight Sword (41237) for WieldTreasure */
-     , (42373, 10, 41246,  1, 0, 0.15, True) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
-     , (42373, 10, 41247,  1, 0, 0.15, True) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
-     , (42373, 10, 41248,  1, 0, 0.15, True) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
-     , (42373, 10, 41249,  1, 0, 0.15, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+     , (42373, 10, 41245,  1, 0, 0.2, False) /* Create Gearknight Greatsword (41245) for WieldTreasure */
+     , (42373, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
+     , (42373, 10, 41246,  1, 0, 0.15, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
+     , (42373, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
+     , (42373, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
+     , (42373, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;

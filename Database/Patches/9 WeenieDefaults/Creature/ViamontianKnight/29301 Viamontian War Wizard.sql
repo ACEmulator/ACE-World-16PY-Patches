@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29301;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29301, 'knightmagewarwizard', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (29301, 'knightmagewarwizard', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29301,   1,         16) /* ItemType - Creature */
@@ -188,8 +188,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29301, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (29301, 2, 28632,  0, 21, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
+VALUES (29301, 2, 28614,  0, 11, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (29301, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
      , (29301, 8, 34276,  0, 0, 0.007, False) /* Create Ancient Empyrean Trinket (34276) for Treasure */
      , (29301, 8,     0,  0, 0, 0.993, False) /* Create nothing for Treasure */
      , (29301, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */;

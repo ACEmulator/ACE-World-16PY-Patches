@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31398;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31398, 'ace31398-penumbralhorror', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31398, 'ace31398-penumbralhorror', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31398,   1,         16) /* ItemType - Creature */
@@ -155,5 +155,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31398, 9, 30823,  1, 0, 0.01, True) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+VALUES (31398, 9, 30823,  1, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (31398, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

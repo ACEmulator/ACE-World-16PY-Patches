@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34499;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34499, 'ace34499-shanzhen', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (34499, 'ace34499-shanzhen', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34499,   1,         16) /* ItemType - Creature */
@@ -66,7 +66,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'At last! The item we seek!'
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Yet I fear that it doesn''t have any new information. Still, you''ve done as I asked, so I shall assist you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  18 /* DirectBroadcast */, 1.5, 1, NULL, 'Shan Zhen touches your forehead and mutters a few words.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  10 /* Tell */, 2, 1, NULL, 'Now it will be possible to pass through Prince Borelean''s portal to Bur. You have my thanks, Queen Elysa''s thanks, and the thanks of my mistress, whom I should not name.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11500000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  6,  22 /* StampQuest */, 0, 1, NULL, 'AsheronsDepartureJournal', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  22 /* StampQuest */, 0, 1, NULL, 'BurFlagged(Permanent)', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  8,  31 /* EraseQuest */, 0, 1, NULL, 'RealaidainEasternVault', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
@@ -185,9 +185,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Please return to me once you are stronger.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34499, 2,   127,  1, 1, 1, True) /* Create Pants (127) for Wield */
-     , (34499, 2,   130,  1, 1, 1, True) /* Create Shirt (130) for Wield */
-     , (34499, 2, 25649,  1, 1, 1, True) /* Create Leather Shirt (25649) for Wield */
-     , (34499, 2, 25645,  1, 1, 1, True) /* Create Leather Leggings (25645) for Wield */
-     , (34499, 2, 25637,  1, 1, 1, True) /* Create Leather Bracers (25637) for Wield */
-     , (34499, 2, 25661,  1, 1, 1, True) /* Create Leather Boots (25661) for Wield */;
+VALUES (34499, 2,   127,  1, 1, 1, False) /* Create Pants (127) for Wield */
+     , (34499, 2,   130,  1, 1, 1, False) /* Create Shirt (130) for Wield */
+     , (34499, 2, 25649,  1, 1, 1, False) /* Create Leather Shirt (25649) for Wield */
+     , (34499, 2, 25645,  1, 1, 1, False) /* Create Leather Leggings (25645) for Wield */
+     , (34499, 2, 25637,  1, 1, 1, False) /* Create Leather Bracers (25637) for Wield */
+     , (34499, 2, 25661,  1, 1, 1, False) /* Create Leather Boots (25661) for Wield */;

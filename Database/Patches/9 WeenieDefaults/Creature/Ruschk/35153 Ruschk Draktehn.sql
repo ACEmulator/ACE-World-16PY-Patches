@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35153;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35153, 'ace35153-ruschkdraktehn', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (35153, 'ace35153-ruschkdraktehn', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35153,   1,         16) /* ItemType - Creature */
@@ -200,5 +200,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Stares into your soul as if looking to freeze by glare alone.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35153, 9, 31037, -1, 0, 0.18, True) /* Create Ruschk Scalp (31037) for ContainTreasure */
+VALUES (35153, 9, 31037, -1, 0, 0.18, False) /* Create Ruschk Scalp (31037) for ContainTreasure */
      , (35153, 9,     0,  0, 0, 0.82, False) /* Create nothing for ContainTreasure */;

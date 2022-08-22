@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32841;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32841, 'ace32841-lieutenantallandal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32841, 'ace32841-lieutenantallandal', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32841,   1,         16) /* ItemType - Creature */
@@ -193,13 +193,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I do not think you have enough experience to aid me in the matter of the vanished army. However, if you have ventured to the fortifications between here and Fort Tethana, I will accept any Viamontian banners you may have retrieved.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32841, 2, 21152,  1, 21, 0.5, True) /* Create Covenant Breastplate (21152) for Wield */
-     , (32841, 2,  2587,  1, 14, 0.4, True) /* Create Shirt (2587) for Wield */
-     , (32841, 2,   127,  1, 14, 0.4, True) /* Create Pants (127) for Wield */
-     , (32841, 2, 21157,  1, 21, 0.5, True) /* Create Covenant Pauldrons (21157) for Wield */
-     , (32841, 2, 21151,  1, 21, 0.5, True) /* Create Covenant Bracers (21151) for Wield */
-     , (32841, 2, 21154,  1, 21, 0.5, True) /* Create Covenant Girth (21154) for Wield */
-     , (32841, 2, 21155,  1, 21, 0.5, True) /* Create Covenant Greaves (21155) for Wield */
-     , (32841, 2, 21150,  1, 21, 0.5, True) /* Create Covenant Sollerets (21150) for Wield */
-     , (32841, 2, 21159,  1, 21, 0.5, True) /* Create Covenant Tassets (21159) for Wield */
-     , (32841, 2, 21153,  1, 21, 0.5, True) /* Create Covenant Gauntlets (21153) for Wield */;
+VALUES (32841, 2, 21152,  1, 21, 0.5, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (32841, 2,  2587,  1, 14, 0.4, False) /* Create Shirt (2587) for Wield */
+     , (32841, 2,   127,  1, 14, 0.4, False) /* Create Pants (127) for Wield */
+     , (32841, 2, 21157,  1, 21, 0.5, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (32841, 2, 21151,  1, 21, 0.5, False) /* Create Covenant Bracers (21151) for Wield */
+     , (32841, 2, 21154,  1, 21, 0.5, False) /* Create Covenant Girth (21154) for Wield */
+     , (32841, 2, 21155,  1, 21, 0.5, False) /* Create Covenant Greaves (21155) for Wield */
+     , (32841, 2, 21150,  1, 21, 0.5, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (32841, 2, 21159,  1, 21, 0.5, False) /* Create Covenant Tassets (21159) for Wield */
+     , (32841, 2, 21153,  1, 21, 0.5, False) /* Create Covenant Gauntlets (21153) for Wield */;

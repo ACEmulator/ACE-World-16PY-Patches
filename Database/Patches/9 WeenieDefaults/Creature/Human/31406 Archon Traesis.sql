@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31406;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31406, 'ace31406-archontraesis', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (31406, 'ace31406-archontraesis', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31406,   1,         16) /* ItemType - Creature */
@@ -129,12 +129,12 @@ VALUES (31406,   526,   2.02)  /* Acid Vulnerability Other VI */
      , (31406,  1327,   2.02)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31406, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for Wield */
-     , (31406, 2,   107,  0, 93, 0, True) /* Create Sollerets (107) for Wield */
+VALUES (31406, 2,    57,  0, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (31406, 2,   107,  0, 93, 0, False) /* Create Sollerets (107) for Wield */
      , (31406, 2,  6043,  1, 93, 0.25, False) /* Create Celdon Girth (6043) for Wield */
-     , (31406, 2,  6044,  0, 93, 0.25, True) /* Create Celdon Breastplate (6044) for Wield */
+     , (31406, 2,  6044,  0, 93, 0.25, False) /* Create Celdon Breastplate (6044) for Wield */
      , (31406, 2,  6045,  1, 93, 0.25, False) /* Create Celdon Leggings (6045) for Wield */
-     , (31406, 2,  6048,  0, 93, 0.25, True) /* Create Celdon Sleeves (6048) for Wield */
+     , (31406, 2,  6048,  0, 93, 0.25, False) /* Create Celdon Sleeves (6048) for Wield */
      , (31406, 9, 31396,  0, 0, 1, False) /* Create Caliginous Aegis (31396) for ContainTreasure */
      , (31406, 9, 31396,  0, 0, 1, False) /* Create Caliginous Aegis (31396) for ContainTreasure */
      , (31406, 9, 31396,  0, 0, 1, False) /* Create Caliginous Aegis (31396) for ContainTreasure */
