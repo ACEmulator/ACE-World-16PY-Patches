@@ -42,7 +42,7 @@ VALUES (88344,   1,       5) /* HeartbeatInterval */
      , (88344,  17,     0.3) /* ArmorModVsFire */
      , (88344,  18,       1) /* ArmorModVsAcid */
      , (88344,  19,       1) /* ArmorModVsElectric */
-     , (88344,  31,       5) /* VisualAwarenessRange */
+     , (88344,  31,      30) /* VisualAwarenessRange */
      , (88344,  34,       1) /* PowerupTime */
      , (88344,  36,       1) /* ChargeSpeed */
      , (88344,  39,     0.8) /* DefaultScale */
@@ -111,7 +111,7 @@ VALUES (88344,  0,  4,  0,    0,  300,  300,  300,  300,  210,  300,  300,  300,
      , (88344,  8,  4, 45, 0.75,  370,  370,  370,  370,  210,  370,  370,  370,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (88344,  2168,   2.22)  /* Gelidite's Gift */;
+VALUES (88344,  2168,   2.12)  /* Gelidite's Gift */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (88344,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
