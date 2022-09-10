@@ -19,7 +19,7 @@ VALUES (45722,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45722,   1, 'Cavernous Refuge') /* Name */
-     , (45722,  37, 'GerainesLibraryCompleted0312') /* QuestRestriction */;
+     , (45722,  37, 'CanEnterGeraineRefuge') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45722,   1, 0x020005D5) /* Setup */
