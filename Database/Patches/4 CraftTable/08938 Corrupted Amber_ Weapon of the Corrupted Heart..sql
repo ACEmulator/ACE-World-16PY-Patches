@@ -15,15 +15,6 @@ INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`
 VALUES (@parent_id, 0, 383, 1, 2, 1) /* On Source.SuccessTarget Add GearPKDamageRating 1 to Target */
      , (@parent_id, 0, 311, 8, 8, 1) /* On Source.SuccessTarget SetBitsOn ImbueStackingBits 8 to Target */;
 
-INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  50, 100689501, 1, 1) /* On Source.SuccessTarget SetValue IconOverlay to Target */;
-
-INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 3,  38, 0, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget AllowedWielder to Result */;
-
-INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 3,  25, NULL, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget CraftsmanName to Result */;
-
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8938;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
