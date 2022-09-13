@@ -4,3 +4,6 @@ ReceiveLocalSignal: OpenSantaDoor
 	- LocalSignal: ResetAll
 	- StopEvent: SclavusPresentsCompletedEvent
 	- StopEvent: SclavusPresentStartEvent
+
+ReceiveLocalSignal: ResetAll
+	- StopEvent: SclavusPresentStartEvent
