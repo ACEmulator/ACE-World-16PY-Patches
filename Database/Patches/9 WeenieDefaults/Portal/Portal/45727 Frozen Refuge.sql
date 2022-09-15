@@ -19,7 +19,7 @@ VALUES (45727,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45727,   1, 'Frozen Refuge') /* Name */
-     , (45727,  37, 'GerainesLibraryCompleted0312') /* QuestRestriction */;
+     , (45727,  37, 'CanEnterGeraineRefuge') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45727,   1, 0x020005D5) /* Setup */
