@@ -6,6 +6,7 @@ VALUES (43632, 'ace43632-olthoimatron', 12, '2021-11-01 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43632,   1,         16) /* ItemType - Creature */
      , (43632,   2,          1) /* CreatureType - Olthoi */
+     , (43632,   3,          2) /* PaletteTemplate - Brown */
      , (43632,   6,         -1) /* ItemsCapacity */
      , (43632,   7,         -1) /* ContainersCapacity */
      , (43632,  16,         32) /* ItemUseable - Remote */
@@ -23,7 +24,8 @@ VALUES (43632,   1, True ) /* Stuck */
      , (43632,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43632,  37,     0.8) /* BuyPrice */
+VALUES (43632,  12,     0.5) /* Shade */
+     , (43632,  37,     0.8) /* BuyPrice */
      , (43632,  38,       1) /* SellPrice */
      , (43632,  39,     0.8) /* DefaultScale */
      , (43632,  54,       3) /* UseRadius */
@@ -38,6 +40,7 @@ VALUES (43632,   1, 0x02000AAD) /* Setup */
      , (43632,   2, 0x090000BF) /* MotionTable */
      , (43632,   3, 0x2000007D) /* SoundTable */
      , (43632,   6, 0x04001148) /* PaletteBase */
+     , (43632,   7, 0x100006D7) /* ClothingBase */
      , (43632,   8, 0x060010E7) /* Icon */
      , (43632,  22, 0x34000093) /* PhysicsEffectTable */
      , (43632,  30,         86) /* PhysicsScript - BreatheAcid */
