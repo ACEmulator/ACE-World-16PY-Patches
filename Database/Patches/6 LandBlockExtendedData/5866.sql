@@ -309,7 +309,7 @@ VALUES (0x758660E0, 52248, 0x58660116, 25.017, -20, 0.005, 0, 0, 0, -1,  True, '
 /* @teleloc 0x58660116 [25.017000 -20.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758660E1, 87509, 0x58660134, 160.031, -244.389, 0, 0, 0, 0, 1, False, '2022-05-17 03:47:03');
+VALUES (0x758660E1, 87509, 0x58660134, 160.031, -244.389, 0, 0, 0, 0, 1, False, '2022-05-17 03:47:03'); /* Chorizite Chest */
 /* @teleloc 0x58660134 [160.031006 -244.389008 0.000000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

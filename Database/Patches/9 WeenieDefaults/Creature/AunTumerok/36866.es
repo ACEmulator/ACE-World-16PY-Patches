@@ -61,79 +61,79 @@ GotoSet: FirstTurnIn
 GotoSet: CheckLevel
     - InqIntStat: 25, 5 - 79
         TestSuccess:
-            - AwardNoShareXP: 1,000,000
+            - AwardXP: 1,000,000
             - Goto: CheckKill
         TestFailure:
             - InqIntStat: 25, 80 - 99
                 TestSuccess:
-                    - AwardNoShareXP: 2,000,000
+                    - AwardXP: 2,000,000
                     - Goto: CheckKill
                 TestFailure:
                     - InqIntStat: 25, 100 - 119
                         TestSuccess:
-                            - AwardNoShareXP: 2,667,000
+                            - AwardXP: 2,667,000
                             - Goto: CheckKill
                         TestFailure:
                             - InqIntStat: 25, 120 - 139
                                 TestSuccess:
-                                    - AwardNoShareXP: 3,333,000
+                                    - AwardXP: 3,333,000
                                     - Goto: CheckKill
                                 TestFailure:
                                     - InqIntStat: 25, 140 - 999
                                         TestSuccess:
-                                            - AwardNoShareXP: 5,000,000
+                                            - AwardXP: 5,000,000
                                             - Goto: CheckKill
 
 GotoSet: CheckHundredTurnIn
     - InqIntStat: 25, 5 - 79
         TestSuccess:
-            - AwardNoShareXP: 100,000,000
+            - AwardXP: 100,000,000
             - Goto: CheckKill
         TestFailure:
             - InqIntStat: 25, 80 - 99
                 TestSuccess:
-                    - AwardNoShareXP: 200,000,000
+                    - AwardXP: 200,000,000
                     - Goto: CheckKill
                 TestFailure:
                     - InqIntStat: 25, 100 - 119
                         TestSuccess:
-                            - AwardNoShareXP: 266,700,000
+                            - AwardXP: 266,700,000
                             - Goto: CheckKill
                         TestFailure:
                             - InqIntStat: 25, 120 - 139
                                 TestSuccess:
-                                    - AwardNoShareXP: 333,300,000
+                                    - AwardXP: 333,300,000
                                     - Goto: CheckKill
                                 TestFailure:
                                     - InqIntStat: 25, 140 - 999
                                         TestSuccess:
-                                            - AwardNoShareXP: 500,000,000
+                                            - AwardXP: 500,000,000
                                             - Goto: CheckKill
 
 GotoSet: CheckTenTurnIn
     - InqIntStat: 25, 5 - 79
         TestSuccess:
-            - AwardNoShareXP: 10,000,000
+            - AwardXP: 10,000,000
             - Goto: CheckKill
         TestFailure:
             - InqIntStat: 25, 80 - 99
                 TestSuccess:
-                    - AwardNoShareXP: 20,000,000
+                    - AwardXP: 20,000,000
                     - Goto: CheckKill
                 TestFailure:
                     - InqIntStat: 25, 100 - 119
                         TestSuccess:
-                            - AwardNoShareXP: 26,670,000
+                            - AwardXP: 26,670,000
                             - Goto: CheckKill
                         TestFailure:
                             - InqIntStat: 25, 120 - 139
                                 TestSuccess:
-                                    - AwardNoShareXP: 33,330,000
+                                    - AwardXP: 33,330,000
                                     - Goto: CheckKill
                                 TestFailure:
                                     - InqIntStat: 25, 140 - 999
                                         TestSuccess:
-                                            - AwardNoShareXP: 50,000,000
+                                            - AwardXP: 50,000,000
                                             - Goto: CheckKill
                                             
 GotoSet: CheckKill
