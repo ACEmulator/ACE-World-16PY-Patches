@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43632;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43632, 'ace43632-olthoimatron', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (43632, 'ace43632-olthoimatron', 12, '2022-09-20 00:15:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43632,   1,         16) /* ItemType - Creature */
      , (43632,   2,          1) /* CreatureType - Olthoi */
-     , (43632,   3,          2) /* PaletteTemplate - Brown */
+     , (43632,   3,          2) /* PaletteTemplate - Blue */
      , (43632,   6,         -1) /* ItemsCapacity */
      , (43632,   7,         -1) /* ContainersCapacity */
      , (43632,  16,         32) /* ItemUseable - Remote */
