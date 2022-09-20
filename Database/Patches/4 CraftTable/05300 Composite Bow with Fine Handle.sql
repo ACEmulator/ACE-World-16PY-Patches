@@ -15,11 +15,5 @@ INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `en
 VALUES (@parent_id, 3,  25, NULL, 4, 0) /* On Player.SuccessResult CopyFromSourceToResult CraftsmanName to Result */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 5300;
-
-INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (5300, 33982 /* Exquisite Bone Handle */,  6963 /* Composite Bow */, '2022-07-02 15:33:11')
-     , (5300, 33982 /* Exquisite Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-07-02 15:33:11')
-     , (5300, 33983 /* Superb Bone Handle */,  6963 /* Composite Bow */, '2022-07-02 15:33:11')
-     , (5300, 33983 /* Superb Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-07-02 15:33:11')
-     , (5300, 33984 /* Fine Bone Handle */,  6963 /* Composite Bow */, '2022-07-02 15:33:11')
-     , (5300, 33984 /* Fine Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-07-02 15:33:11');
+VALUES (5300, 33984 /* Fine Bone Handle */, 6963 /* Composite Bow */, '2022-06-21 15:22:25')
+     , (5300, 33984 /* Fine Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-06-21 15:22:25');
