@@ -414,3 +414,7 @@ VALUES (0x75768059, 88340, 0x57680307, 167.133, -262.818, 17.9957, -0.701613, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576805A, 88342, 0x57680307, 172.837, -259.655, 17.9957, -0.701613, 0, 0, -0.712559,  True, '2022-09-09 10:42:19'); /* Gumdrop */
 /* @teleloc 0x57680307 [172.837006 -259.654999 17.995701] -0.701613 0.000000 0.000000 -0.712559 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7576805B, 88328, 0x57680167, 138, -40, 6.165, 0.707107, 0, 0, -0.707107, False, '2022-09-21 10:15:12'); /* Sclavus Present Door Controller Generator */
+/* @teleloc 0x57680167 [138.000000 -40.000000 6.165000] 0.707107 0.000000 0.000000 -0.707107 */
