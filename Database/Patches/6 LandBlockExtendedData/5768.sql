@@ -245,31 +245,31 @@ VALUES (0x75768036, 88343, 0x57680245, 201.63, -209.386, 5.99567, 0.708701, 0, 0
 /* @teleloc 0x57680245 [201.630005 -209.386002 5.995670] 0.708701 0.000000 0.000000 -0.705509 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75768037, 88382, 0x57680312, 200, -216, 25.5, 0, 0, 0, 1, False, '2022-09-06 14:17:24'); /* Rolling Snowball of Death */
+VALUES (0x75768037, 88382, 0x57680312, 200, -216, 25.5, 0, 0, 0, 1, False, '2022-09-06 14:17:24'); /* A Rolling Snowball of Death */
 /* @teleloc 0x57680312 [200.000000 -216.000000 25.500000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75768038, 88382, 0x57680317, 210, -216, 25.5, 0, 0, 0, 1, False, '2022-09-06 16:31:16'); /* Rolling Snowball of Death */
+VALUES (0x75768038, 88382, 0x57680317, 210, -216, 25.5, 0, 0, 0, 1, False, '2022-09-06 16:31:16'); /* A Rolling Snowball of Death */
 /* @teleloc 0x57680317 [210.000000 -216.000000 25.500000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75768039, 88382, 0x57680320, 220, -264, 25.5, 1, 0, 0, 0, False, '2022-09-06 16:32:27'); /* Rolling Snowball of Death */
+VALUES (0x75768039, 88382, 0x57680320, 220, -264, 25.5, 1, 0, 0, 0, False, '2022-09-06 16:32:27'); /* A Rolling Snowball of Death */
 /* @teleloc 0x57680320 [220.000000 -264.000000 25.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576803A, 88382, 0x57680325, 230, -264, 25.5, 1, 0, 0, 0, False, '2022-09-07 10:25:04'); /* Rolling Snowball of Death */
+VALUES (0x7576803A, 88382, 0x57680325, 230, -264, 25.5, 1, 0, 0, 0, False, '2022-09-07 10:25:04'); /* A Rolling Snowball of Death */
 /* @teleloc 0x57680325 [230.000000 -264.000000 25.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576803B, 88382, 0x57680325, 240, -264, 25.5, 1, 0, 0, 0, False, '2022-09-07 10:25:10'); /* Rolling Snowball of Death */
+VALUES (0x7576803B, 88382, 0x57680325, 240, -264, 25.5, 1, 0, 0, 0, False, '2022-09-07 10:25:10'); /* A Rolling Snowball of Death */
 /* @teleloc 0x57680325 [240.000000 -264.000000 25.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576803C, 88382, 0x5768032B, 250, -216, 25.5, 0, 0, 0, 1, False, '2022-09-07 10:28:11'); /* Rolling Snowball of Death */
+VALUES (0x7576803C, 88382, 0x5768032B, 250, -216, 25.5, 0, 0, 0, 1, False, '2022-09-07 10:28:11'); /* A Rolling Snowball of Death */
 /* @teleloc 0x5768032B [250.000000 -216.000000 25.500000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576803D, 88382, 0x5768032B, 260, -216, 25.5, 0, 0, 0, 1, False, '2022-09-07 10:28:18'); /* Rolling Snowball of Death */
+VALUES (0x7576803D, 88382, 0x5768032B, 260, -216, 25.5, 0, 0, 0, 1, False, '2022-09-07 10:28:18'); /* A Rolling Snowball of Death */
 /* @teleloc 0x5768032B [260.000000 -216.000000 25.500000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

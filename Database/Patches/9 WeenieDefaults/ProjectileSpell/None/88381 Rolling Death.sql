@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88381;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88381, 'ace88381-rollingsnowballofdeath', 33, '2022-08-08 19:24:45') /* ProjectileSpell */;
+VALUES (88381, 'ace88381-rollingdeath', 33, '2022-08-08 19:24:45') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88381,   3,         61) /* PaletteTemplate - White */
@@ -34,4 +34,4 @@ VALUES (88381,   1, 0x02001B33) /* Setup */
      , (88381,   8, 0x06001066) /* Icon */
      , (88381,  22, 0x3400002B) /* PhysicsEffectTable */
      , (88381,  28,       5762) /* Spell - Rolling Death */
-     , (88381,  30,         90) /* PhysicsScript - Destroy */;
+     , (88381,  30,         90) /* PhysicsScript - ProjectileCollision */;
