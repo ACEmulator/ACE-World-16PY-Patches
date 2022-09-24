@@ -12,6 +12,7 @@ VALUES (88377,   1,        128) /* ItemType - Misc */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88377,   1, True ) /* Stuck */
      , (88377,   2, False) /* Open */
+     , (88377,  24, True ) /* UiHidden */
      , (88377,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -23,8 +24,8 @@ VALUES (88377,   1, 'Door') /* Name */
      , (88377,  14, 'This door cannot be activated from here.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (88377,   1, 0x0200024F) /* Setup */
-     , (88377,   2, 0x09000016) /* MotionTable */
-     , (88377,   3, 0x20000022) /* SoundTable */
+VALUES (88377,   1, 0x02001B40) /* Setup */
+     , (88377,   2, 0x0900013B) /* MotionTable */
+     , (88377,   3, 0x2000008D) /* SoundTable */
      , (88377,   8, 0x06001317) /* Icon */
      , (88377,  22, 0x3400002B) /* PhysicsEffectTable */;
