@@ -58,7 +58,7 @@ VALUES (88382,   1,       5) /* HeartbeatInterval */
      , (88382, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (88382,   1, 'Rolling Snowball of Death') /* Name */;
+VALUES (88382,   1, 'A Rolling Snowball of Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (88382,   1, 0x020000EB) /* Setup */
