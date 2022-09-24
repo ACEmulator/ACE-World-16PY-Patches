@@ -25,7 +25,7 @@ VALUES (88381,  26,       5) /* MaximumVelocity */
      , (88381,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (88381,   1, 'Rolling Snowball of Death') /* Name */;
+VALUES (88381,   1, 'Rolling Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (88381,   1, 0x02001B33) /* Setup */
@@ -34,4 +34,4 @@ VALUES (88381,   1, 0x02001B33) /* Setup */
      , (88381,   8, 0x06001066) /* Icon */
      , (88381,  22, 0x3400002B) /* PhysicsEffectTable */
      , (88381,  28,       5762) /* Spell - Rolling Death */
-     , (88381,  30,         89) /* PhysicsScript - Destroy */;
+     , (88381,  30,         90) /* PhysicsScript - Destroy */;
