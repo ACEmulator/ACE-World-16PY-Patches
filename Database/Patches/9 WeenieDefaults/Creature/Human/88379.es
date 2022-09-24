@@ -1,4 +1,4 @@
 Generation:
-	- Delay: 300, Motion: Wave
-	- LocalSignal: ResetAll
-	- StopEvent: SclavusPresentStartEvent
+    - Delay: 300, Motion: Wave
+    - LocalSignal: ResetAll
+    - StopEvent: SclavusPresentStartEvent

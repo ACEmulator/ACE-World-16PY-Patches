@@ -1,6 +1,5 @@
 ReceiveLocalSignal: OpenSantaDoor
-	- OpenMe
+    - OpenMe
 
 ReceiveLocalSignal: CloseSantaDoor
-	- CloseMe
-	
+    - CloseMe

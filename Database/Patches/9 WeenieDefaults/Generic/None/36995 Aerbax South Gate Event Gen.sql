@@ -20,7 +20,3 @@ VALUES (36995,   1, 0x020017B7) /* Setup */
      , (36995,   2, 0x090001E4) /* MotionTable */
      , (36995,   3, 0x20000060) /* SoundTable */
      , (36995,   8, 0x06001C20) /* Icon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36995, 8040, 0x2F2E002A, 132, 36, 12, 1, 0, 0, 0) /* PCAPRecordedLocation */
-/* @teleloc 0x2F2E002A [132.000000 36.000000 12.000000] 1.000000 0.000000 0.000000 0.000000 */;

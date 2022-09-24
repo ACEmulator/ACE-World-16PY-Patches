@@ -17,6 +17,6 @@ VALUES (@parent_id, 3,  25, NULL, 4, 0) /* On Player.SuccessResult CopyFromSourc
 DELETE FROM `cook_book` WHERE `recipe_Id` = 5301;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (5301, 33983 /* Superb Bone Handle */, 6963 /* Composite Bow */, '2022-06-21 15:22:25')
-     , (5301, 33983 /* Superb Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-06-21 15:22:25')
-     , (5301, 33983 /* Superb Bone Handle */, 33991 /* Composite Bow with Fine Handle */, '2022-06-21 15:22:25');
+VALUES (5301, 33983 /* Superb Bone Handle */,  6963 /* Composite Bow */, '2022-06-21 15:22:25')
+     , (5301, 33983 /* Superb Bone Handle */, 33991 /* Composite Bow with Fine Handle */, '2022-06-21 15:22:25')
+     , (5301, 33983 /* Superb Bone Handle */, 33997 /* Composite Bow with Handle */, '2022-06-21 15:22:25');
