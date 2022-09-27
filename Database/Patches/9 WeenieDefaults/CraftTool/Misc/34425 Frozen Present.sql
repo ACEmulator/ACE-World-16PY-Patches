@@ -17,13 +17,16 @@ VALUES (34425,   1,        128) /* ItemType - Misc */
      , (34425, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34425,  22, True ) /* Inscribable */;
+VALUES (34425,  22, True ) /* Inscribable */
+     , (34425,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34425,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34425,   1, 'Frozen Present') /* Name */
+     , (34425,  14, 'You can''t open the present while it''s frozen shut.') /* Use */
+     , (34425,  16, 'A present frozen in ice.') /* LongDesc */
      , (34425,  33, 'frozenpresentpickuptimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
