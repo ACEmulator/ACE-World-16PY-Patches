@@ -23,7 +23,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44656, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44656,   1, 'Contract for Jester Released') /* Name */;
+VALUES (44656,   1, 'Contract for Jester Released') /* Name */
+     , (44656,  14, 'Recommended Level: 150') /* Use */
+     , (44656,  16, 'You must try and return the Jester to his cell.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44656,   1, 0x02000C79) /* Setup */

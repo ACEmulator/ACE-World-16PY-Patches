@@ -25,6 +25,7 @@ VALUES (44586, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44586,   1, 'Contract for Harlune''s Diplomacy') /* Name */
+     , (44586,  14, 'Recommended Level: 180') /* Use */
      , (44586,  16, 'Deliver a message from Roderick to the Falatacot Matriarchs on behalf of Harlune.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

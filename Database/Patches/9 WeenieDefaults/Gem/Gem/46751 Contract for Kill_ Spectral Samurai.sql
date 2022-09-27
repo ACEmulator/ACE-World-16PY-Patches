@@ -35,7 +35,8 @@ VALUES (46751, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46751,   1, 'Contract for Kill: Spectral Samurai') /* Name */
-     , (46751,  14, 'Recommended Level: 200') /* Use */;
+     , (46751,  14, 'Recommended Level: 200') /* Use */
+     , (46751,  16, 'Kill 10 Spectral Samurai.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46751,   1, 0x02000C79) /* Setup */

@@ -27,6 +27,7 @@ VALUES (46908, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46908,   1, 'Contract for Unleash the Gearknights') /* Name */
+     , (46908,  14, 'Recommended Level: 150') /* Use */
      , (46908,  16, 'Investigate the Apostate Virindi Facility.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

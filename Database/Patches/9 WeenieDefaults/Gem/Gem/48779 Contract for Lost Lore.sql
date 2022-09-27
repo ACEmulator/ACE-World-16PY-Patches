@@ -28,6 +28,7 @@ VALUES (48779, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48779,   1, 'Contract for Lost Lore') /* Name */
+     , (48779,  14, 'Recommended Level: 150') /* Use */
      , (48779,  16, 'Find the Lost Lore of the Three Sisters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

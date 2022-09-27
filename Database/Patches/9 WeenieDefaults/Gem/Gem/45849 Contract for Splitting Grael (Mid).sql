@@ -28,6 +28,7 @@ VALUES (45849, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45849,   1, 'Contract for Splitting Grael (Mid)') /* Name */
+     , (45849,  14, 'Recommended Level: 100') /* Use */
      , (45849,  16, 'Assist Soju in splitting Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
