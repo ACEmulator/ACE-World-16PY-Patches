@@ -3,7 +3,7 @@ Use:
         QuestSuccess: 
             - Tell: You have done quite alot of work in helping uncover the Patriarch's plan. We must study the information we have and discern the Patriarch's next move.
         QuestFailure:
-            - InqQuestBitsOn: InvokingStoneTurnIn, 0x4095
+            - InqQuestBitsOn: InvokingStoneTurnIn, 0xFFF
                 QuestSuccess:
                     - AwardXP: 1,000,000,000
                     - Tell: You have helped us, and I thank you. The stones you have brought us have allowed us to confirm the intention of the Patriarchs. They seek to free their master T'thuun from his bonds.
