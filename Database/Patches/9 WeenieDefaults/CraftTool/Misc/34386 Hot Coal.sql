@@ -18,10 +18,12 @@ VALUES (34386,   1,        128) /* ItemType - Misc */
      , (34386, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34386,  22, True ) /* Inscribable */;
+VALUES (34386,  22, True ) /* Inscribable */
+     , (34386,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34386,   1, 'Hot Coal') /* Name */
+     , (34386,  16, 'A hot piece of coal.') /* LongDesc */
      , (34386,  33, 'hotcoalpickuptimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
