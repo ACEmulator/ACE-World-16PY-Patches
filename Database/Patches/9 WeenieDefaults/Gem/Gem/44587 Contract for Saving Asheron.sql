@@ -24,7 +24,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44587, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44587,   1, 'Contract for Saving Asheron') /* Name */;
+VALUES (44587,   1, 'Contract for Saving Asheron') /* Name */
+     , (44587,  14, 'Recommended Level: 150') /* Use */
+     , (44587,  16, 'Save Asheron by stopping the Falatacot rituals on Bur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44587,   1, 0x02000C79) /* Setup */

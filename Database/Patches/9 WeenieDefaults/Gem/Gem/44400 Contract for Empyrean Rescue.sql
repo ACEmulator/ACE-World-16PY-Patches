@@ -27,6 +27,7 @@ VALUES (44400, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44400,   1, 'Contract for Empyrean Rescue') /* Name */
+     , (44400,  14, 'Recommended Level: 180') /* Use */
      , (44400,  16, 'Asheron has found a group of trapped Empyreans and needs help in saving them.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

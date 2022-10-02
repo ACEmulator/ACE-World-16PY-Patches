@@ -35,7 +35,8 @@ VALUES (46747, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46747,   1, 'Contract for Kill: Spectral Archers') /* Name */
-     , (46747,  14, 'Recommended Level: 200') /* Use */;
+     , (46747,  14, 'Recommended Level: 200') /* Use */
+     , (46747,  16, 'Kill 15 Spectral Archers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46747,   1, 0x02000C79) /* Setup */
