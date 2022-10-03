@@ -10,7 +10,7 @@ Refuse: Phyntos Queen Abdomen (41816)
             - TakeItems: 41816, 1
             - Delay: 0.5, Tell: The Abdomen of the Phyntos Queen. This proves that you've done a lot to prevent the spread of the killer Phyntos breed.
             - Give: Eldrytch Web Commendation Ribbons (38229), 25
-            - AwardNoShareXP: 50,000,000
+            - AwardNoShareXP: 40,000,000
             - AwardLuminance: 1,500
             - Give: Eldrytch Web Trade Tokens (38237), 4
         TestFailure:

@@ -10,7 +10,7 @@ Refuse: Phyntos Queen Abdomen (41816)
             - TakeItems: 41816, 1
             - Delay: 0.5, Tell: The Abdomen of the Phyntos Queen. This proves that you've done a lot to prevent the spread of the killer Phyntos breed.
             - Give: Celestial Hand Commendation Ribbons (38228), 25
-            - AwardNoShareXP: 50,000,000
+            - AwardNoShareXP: 40,000,000
             - AwardLuminance: 1,500
             - Give: Celestial Hand Trade Tokens (38234), 4
         TestFailure:
