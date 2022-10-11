@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34095;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34095, 'ace34095-packpumpkinp', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (34095, 'ace34095-packpumpkinp', 1, '2022-10-10 09:54:03') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34095,   1,        128) /* ItemType - Misc */
@@ -18,10 +18,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34095,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34095,   1, 'Pack Pumpkin P.') /* Name */;
+VALUES (34095,   1, 'Pack Pumpkin P.') /* Name */
+     , (34095,  14, 'Pack Pumpkin P can be placed on floor and yard hooks.') /* Use */
+     , (34095,  16, 'A Mr. P. pack doll with a pumpkin mask on to celebrate the festival season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34095,   1, 0x0200162E) /* Setup */
      , (34095,   2, 0x09000199) /* MotionTable */
      , (34095,   8, 0x0600653C) /* Icon */
      , (34095,  22, 0x340000B2) /* PhysicsEffectTable */;
+
