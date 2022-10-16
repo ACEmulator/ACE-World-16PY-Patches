@@ -67,7 +67,7 @@ GotoSet: pick_coat_color, Probability: 0.8
     - Give: Academy Coat (13217)
     - Goto: finalize_exit
 
-GotoSet: Ppick_coat_color, robability: 0.9
+GotoSet: pick_coat_color, Probability: 0.9
     - Give: Academy Coat (13218)
     - Goto: finalize_exit
 

@@ -256,7 +256,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'finalize_exit', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29326, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'Ppick_coat_color, robability: 0.9', NULL, NULL, NULL);
+VALUES (29324, 32 /* GotoSet */,    0.9, NULL, NULL, NULL, 'pick_coat_color', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
