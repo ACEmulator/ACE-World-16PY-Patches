@@ -5,7 +5,7 @@ VALUES (34190, 'ace34190-packdarkremoran', 38, '2021-11-01 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34190,   1,       2048) /* ItemType - Gem */
-     , (34190,   3,         39) /* PaletteTemplate - DarkBlue */
+     , (34190,   3,         39) /* PaletteTemplate - Black */
      , (34190,   5,         10) /* EncumbranceVal */
      , (34190,  16,          1) /* ItemUseable - No */
      , (34190,  19,         10) /* Value */

@@ -27,4 +27,3 @@ VALUES (34095,   1, 0x0200162E) /* Setup */
      , (34095,   2, 0x09000199) /* MotionTable */
      , (34095,   8, 0x0600653C) /* Icon */
      , (34095,  22, 0x340000B2) /* PhysicsEffectTable */;
-
