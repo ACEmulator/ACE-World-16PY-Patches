@@ -178,7 +178,7 @@ VALUES (8014, 30106 /* Foolproof Zircon */,    35 /* Chainmail Basinet */, '2021
      , (8014, 30106 /* Foolproof Zircon */, 27230 /* Nariyid Helm */, '2021-11-01 00:00:00')
      , (8014, 30106 /* Foolproof Zircon */, 27231 /* Nariyid Leggings */, '2021-11-01 00:00:00')
      , (8014, 30106 /* Foolproof Zircon */, 27232 /* Nariyid Sleeves */, '2021-11-01 00:00:00')
-     , (8014, 30106 /* Foolproof Zircon */, 37291 /* Olthoi Shield */, '2021-11-01 00:00:00');
+     , (8014, 30106 /* Foolproof Zircon */, 37291 /* Olthoi Shield */, '2021-11-01 00:00:00')
      , (8014, 36636 /* Salvaged Peridot */,    35 /* Chainmail Basinet */, '2021-11-01 00:00:00')
      , (8014, 36636 /* Salvaged Peridot */,    36 /* Leather Bracers */, '2021-11-01 00:00:00')
      , (8014, 36636 /* Salvaged Peridot */,    37 /* Scalemail Bracers */, '2021-11-01 00:00:00')
