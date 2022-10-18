@@ -229,17 +229,18 @@ VALUES (0x7977B04E, 43066, 0x977B002F, 140.431, 149.259, 0.198001, -0.940774, 0,
 /* @teleloc 0x977B002F [140.431000 149.259003 0.198001] -0.940774 0.000000 0.000000 -0.339034 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B3FA, 37538, 0x977B0040, 178.506, 176.695, 0.005, -0.090255, 0, 0, -0.995919, False, '2021-11-01 00:00:00'); /* Royal Quartermaster */
+VALUES (0x7977B3FA, 37538, 0x977B0040, 178.506, 176.695, 0.005, -0.090255, 0, 0, -0.995919, False, '2021-11-01 00:00:00');
 /* @teleloc 0x977B0040 [178.505997 176.695007 0.005000] -0.090255 0.000000 0.000000 -0.995919 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B419, 37518, 0x977B000C, 34.4417, 92.3116, 0.005, -0.316255, 0, 0, -0.948674, False, '2021-11-01 00:00:00'); /* Royal Guard */
+VALUES (0x7977B3FB, 37518, 0x977B000C, 34.4417, 92.3116, 0.005, -0.316255, 0, 0, -0.948674, False, '2021-11-01 00:00:00'); /* Royal Guard */
 /* @teleloc 0x977B000C [34.441700 92.311600 0.005000] -0.316255 0.000000 0.000000 -0.948674 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B41C, 37518, 0x977B0038, 148.78, 182.922, 8.805, -0.715105, 0, 0, -0.699017, False, '2021-11-01 00:00:00'); /* Royal Guard */
+VALUES (0x7977B3FC, 37518, 0x977B0038, 148.78, 182.922, 8.805, -0.715105, 0, 0, -0.699017, False, '2021-11-01 00:00:00'); /* Royal Guard */
 /* @teleloc 0x977B0038 [148.779999 182.921997 8.805000] -0.715105 0.000000 0.000000 -0.699017 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B41D, 37518, 0x977B003F, 185.792, 152.635, 8.805, -0.683419, 0, 0, 0.730026, False, '2021-11-01 00:00:00'); /* Royal Guard */
+VALUES (0x7977B3FD, 37518, 0x977B003F, 185.792, 152.635, 8.805, -0.683419, 0, 0, 0.730026, False, '2021-11-01 00:00:00'); /* Royal Guard */
 /* @teleloc 0x977B003F [185.792007 152.634995 8.805000] -0.683419 0.000000 0.000000 0.730026 */
+
