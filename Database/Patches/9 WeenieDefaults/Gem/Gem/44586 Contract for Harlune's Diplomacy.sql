@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44586;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44586, 'ace44586-contractforharlunesdiplomacy', 38, '2022-01-20 04:53:49') /* Gem */;
+VALUES (44586, 'ace44586-contractforharlunesdiplomacy', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44586,   1,       2048) /* ItemType - Gem */
@@ -25,6 +25,7 @@ VALUES (44586, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44586,   1, 'Contract for Harlune''s Diplomacy') /* Name */
+     , (44586,  14, 'Recommended Level: 180') /* Use */
      , (44586,  16, 'Deliver a message from Roderick to the Falatacot Matriarchs on behalf of Harlune.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

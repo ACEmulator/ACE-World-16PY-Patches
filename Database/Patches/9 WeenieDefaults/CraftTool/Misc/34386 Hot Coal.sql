@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34386;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34386, 'ace34386-hotcoal', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (34386, 'ace34386-hotcoal', 44, '2022-10-19 15:43:32') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34386,   1,        128) /* ItemType - Misc */
@@ -18,10 +18,12 @@ VALUES (34386,   1,        128) /* ItemType - Misc */
      , (34386, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34386,  22, True ) /* Inscribable */;
+VALUES (34386,  22, True ) /* Inscribable */
+     , (34386,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34386,   1, 'Hot Coal') /* Name */
+     , (34386,  16, 'A hot piece of coal.') /* LongDesc */
      , (34386,  33, 'hotcoalpickuptimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46752;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46752, 'ace46752-contractforkillspectralsamuraigolems', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (46752, 'ace46752-contractforkillspectralsamuraigolems', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46752,   1,       2048) /* ItemType - Gem */
@@ -35,7 +35,8 @@ VALUES (46752, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46752,   1, 'Contract for Kill: Spectral Samurai Golems') /* Name */
-     , (46752,  14, 'Recommended Level: 200') /* Use */;
+     , (46752,  14, 'Recommended Level: 200') /* Use */
+     , (46752,  16, 'Kill 5 Spectral Samurai Golems.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46752,   1, 0x02000C79) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44656;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44656, 'ace44656-contractforjesterreleased', 38, '2021-11-29 06:19:28') /* Gem */;
+VALUES (44656, 'ace44656-contractforjesterreleased', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44656,   1,       2048) /* ItemType - Gem */
@@ -23,7 +23,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44656, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44656,   1, 'Contract for Jester Released') /* Name */;
+VALUES (44656,   1, 'Contract for Jester Released') /* Name */
+     , (44656,  14, 'Recommended Level: 150') /* Use */
+     , (44656,  16, 'You must try and return the Jester to his cell.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44656,   1, 0x02000C79) /* Setup */

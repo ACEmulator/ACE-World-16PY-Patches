@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36897;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36897, 'ace36897-present', 44, '2022-08-22 03:09:27') /* CraftTool */;
+VALUES (36897, 'ace36897-present', 44, '2022-10-19 15:43:32') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36897,   1,        128) /* ItemType - Misc */
@@ -24,7 +24,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36897,  39,    0.38) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36897,   1, 'Present') /* Name */;
+VALUES (36897,   1, 'Present') /* Name */
+     , (36897,  14, 'Open the present to see what''s inside.') /* Use */
+     , (36897,  16, 'This pack doll can be placed on floor and yard hooks.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36897,   1, 0x0200165B) /* Setup */
@@ -213,7 +215,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You unwrap the p
      , (@parent_id,  2,  77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36897,  7 /* Use */,   0.94, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36897,  7 /* Use */,   0.95, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -223,7 +225,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You unwrap the p
      , (@parent_id,  2,  77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36897,  7 /* Use */,   0.99, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36897,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

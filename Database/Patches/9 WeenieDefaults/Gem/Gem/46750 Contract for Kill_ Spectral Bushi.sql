@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46750;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46750, 'ace46750-contractforkillspectralbushi', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (46750, 'ace46750-contractforkillspectralbushi', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46750,   1,       2048) /* ItemType - Gem */
@@ -36,7 +36,8 @@ VALUES (46750, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46750,   1, 'Contract for Kill: Spectral Bushi') /* Name */
-     , (46750,  14, 'Recommended Level: 200') /* Use */;
+     , (46750,  14, 'Recommended Level: 200') /* Use */
+     , (46750,  16, 'Kill 10 Spectral Bushi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46750,   1, 0x02000C79) /* Setup */

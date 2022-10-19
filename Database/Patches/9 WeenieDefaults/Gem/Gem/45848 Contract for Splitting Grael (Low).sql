@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45848;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45848, 'ace45848-contractforsplittinggraellow', 38, '2021-11-17 16:56:08') /* Gem */;
+VALUES (45848, 'ace45848-contractforsplittinggraellow', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45848,   1,       2048) /* ItemType - Gem */
@@ -28,6 +28,7 @@ VALUES (45848, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45848,   1, 'Contract for Splitting Grael (Low)') /* Name */
+     , (45848,  14, 'Recommended Level: 80') /* Use */
      , (45848,  16, 'Assist Lamorda in splitting Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

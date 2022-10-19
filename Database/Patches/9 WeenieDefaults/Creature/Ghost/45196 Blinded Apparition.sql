@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45196;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45196, 'ace45196-blindedapparition', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (45196, 'ace45196-blindedapparition', 10, '2022-10-19 15:43:32') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45196,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,6 @@ VALUES (45196,   1,         16) /* ItemType - Creature */
      , (45196,   7,         -1) /* ContainersCapacity */
      , (45196,  16,          1) /* ItemUseable - No */
      , (45196,  25,        250) /* Level */
-     , (45196,  67,         64) /* Tolerance - Retaliate */
      , (45196,  68,          4) /* TargetingTactic - LastDamager */
      , (45196,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (45196, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +27,8 @@ VALUES (45196,  13,     0.8) /* ArmorModVsSlash */
      , (45196,  17,     0.9) /* ArmorModVsFire */
      , (45196,  18,     0.9) /* ArmorModVsAcid */
      , (45196,  19,       1) /* ArmorModVsElectric */
-     , (45196,  31,      16) /* VisualAwarenessRange */
+     , (45196,  31,     0.1) /* VisualAwarenessRange */
+     , (45196,  32,      16) /* AuralAwarenessRange */
      , (45196,  34,       1) /* PowerupTime */
      , (45196,  36,       1) /* ChargeSpeed */
      , (45196,  39,     1.1) /* DefaultScale */

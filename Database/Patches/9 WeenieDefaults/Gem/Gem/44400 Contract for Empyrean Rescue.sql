@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44400;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44400, 'ace44400-contractforempyreanrescue', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (44400, 'ace44400-contractforempyreanrescue', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44400,   1,       2048) /* ItemType - Gem */
@@ -27,6 +27,7 @@ VALUES (44400, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44400,   1, 'Contract for Empyrean Rescue') /* Name */
+     , (44400,  14, 'Recommended Level: 180') /* Use */
      , (44400,  16, 'Asheron has found a group of trapped Empyreans and needs help in saving them.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

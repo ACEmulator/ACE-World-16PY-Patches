@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44655;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44655, 'ace44655-contractforgearknightexcavation', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (44655, 'ace44655-contractforgearknightexcavation', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44655,   1,       2048) /* ItemType - Gem */
@@ -24,7 +24,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44655, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44655,   1, 'Contract for Gear Knight Excavation') /* Name */;
+VALUES (44655,   1, 'Contract for Gear Knight Excavation') /* Name */
+     , (44655,  14, 'Recommended Level: 150') /* Use */
+     , (44655,  16, 'Felizio Calmasi is intrested in what the Apostate Virindi have been working on.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44655,   1, 0x02000C79) /* Setup */
