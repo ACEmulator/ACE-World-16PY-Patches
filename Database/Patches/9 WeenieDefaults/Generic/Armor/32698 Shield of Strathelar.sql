@@ -13,15 +13,17 @@ VALUES (32698,   1,          2) /* ItemType - Armor */
      , (32698,  27,          2) /* ArmorType - Leather */
      , (32698,  28,        175) /* ArmorLevel */
      , (32698,  51,          4) /* CombatUse - Shield */
-     , (32698,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (32698,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32698, 151,          2) /* HookType - Wall */
+     , (32698, 158,          7) /* WieldRequirements - Level */
+     , (32698, 159,          1) /* WieldSkillType - Axe */
+     , (32698, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32698,   1, False) /* Stuck */
-     , (32698,  22, True ) /* Inscribable */;
+VALUES (32698,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32698,   5,   -0.05) /* ManaRate */
-     , (32698,  13,       1) /* ArmorModVsSlash */
+VALUES (32698,  13,       1) /* ArmorModVsSlash */
      , (32698,  14,     0.7) /* ArmorModVsPierce */
      , (32698,  15,     1.2) /* ArmorModVsBludgeon */
      , (32698,  16,     1.1) /* ArmorModVsCold */
