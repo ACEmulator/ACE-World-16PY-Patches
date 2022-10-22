@@ -105,8 +105,8 @@ VALUES (43490, 4, 43685, -1, 0, 0, False) /* Create  (43685) for Shop */
      , (43490, 4, 43625, -1, 0, 0, False) /* Create  (43625) for Shop */
      , (43490, 4, 43626, -1, 0, 0, False) /* Create  (43626) for Shop */
      , (43490, 4, 43732, -1, 0, 0, False) /* Create Enchanted Olthoi Egg (43732) for Shop */
-     , (43490, 4, 43633, -1, 0, 0, False) /* Create  (43633) for Shop */
+     , (43490, 4, 43633, -1, 0, 0, False) /* Create Acidic Rejuvenation (43633) for Shop */
      , (43490, 4, 43635, -1, 0, 0, False) /* Create Saliva Invigorator (43635) for Shop */
      , (43490, 4, 43634, -1, 0, 0, False) /* Create Acidic Infusion (43634) for Shop */
      , (43490, 4, 43701, -1, 0, 0, False) /* Create Olthoi Fibrous Healing Tissue (43701) for Shop */
-     , (43490, 4, 43819, -1, 0, 0, False) /* Create  (43819) for Shop */;
+     , (43490, 4, 43819, -1, 0, 0, False) /* Create Olthoi Coarse Healing Tissue (43819) for Shop */;
