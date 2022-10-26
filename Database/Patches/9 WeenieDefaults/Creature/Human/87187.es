@@ -1,6 +1,13 @@
-Generation:
-    - Delay: 7, Motion: KneelState
-    - Delay: 1, Say: Arggh!
-    - Delay: 36, Motion: Dead
-    - Sound: Wound1
-    - Delay: 20, DeleteSelf
+ReceiveLocalSignal: HoshinoKneel
+	- Motion: KneelState
+	- Delay: 1, Say: Arggh!, Extent: 40
+
+ReceiveLocalSignal: HoshinoReady
+	- Motion: Ready
+
+ReceiveLocalSignal: HoshinoDeath
+	- Motion: Dead
+	- Sound: Wound1
+
+ReceiveLocalSignal: HoshinoDelete
+	- Delay: 1, DeleteSelf
