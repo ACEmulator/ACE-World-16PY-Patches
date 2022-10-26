@@ -26,7 +26,7 @@ GotoSet: Intro
             InqQuest: NanjouStockadeStarted_1012
                 QuestSuccess:
                     - DirectBroadcast: Shorikan looks your way. You cannot see his face but you can feel the tension in the air.
-                    - Delay: 1: Tell: Impossible! This cannot be! We will not fail again.
+                    - Delay: 1, Tell: Impossible! This cannot be! We will not fail again.
                     - Delay: 1, DirectBroadcast: Shorikan reaches towards you and places a single finger on your shoulder.
                     - CastSpell: 6032
                 QuestFailure:
