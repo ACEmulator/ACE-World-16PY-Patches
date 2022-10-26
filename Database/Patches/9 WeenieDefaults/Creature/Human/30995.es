@@ -1,13 +1,8 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.045
 	- Say: Shoo, fly!, Extent: 0
-	- Motion: Twitch3
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.095
 	- Say: Double-click on me to hear what I have to say., Extent: 0
-	- Motion: Twitch2
-
-HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-	- Motion: Twitch1
 	
 Give: Carpenter Wasp Wing (13089)
 	- Motion: Ready
