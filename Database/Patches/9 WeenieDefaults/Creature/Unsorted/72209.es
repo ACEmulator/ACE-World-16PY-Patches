@@ -88,5 +88,5 @@ GotoSet: Pass
     - DirectBroadcast: You have chosen correctly. You must choose the next guardian.
 
 GotoSet: Fail
-    - - StampQuest: mhoireNWfail
+    - StampQuest: mhoireNWfail
     - Tell: You fail
