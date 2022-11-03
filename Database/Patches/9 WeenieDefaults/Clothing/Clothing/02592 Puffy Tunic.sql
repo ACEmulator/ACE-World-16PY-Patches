@@ -32,7 +32,7 @@ VALUES (2592,  12,     0.8) /* Shade */
      , (2592,  19,     0.2) /* ArmorModVsElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2592,   1, 'Tunic') /* Name */;
+VALUES (2592,   1, 'Puffy Tunic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2592,   1, 0x020001C3) /* Setup */
