@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8676,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8676,   1, 'A Book of Quests for New Explorers') /* Name */
+VALUES (8676,   1, 'A Book of Quests for Young Explorers') /* Name */
      , (8676,  15, 'A book listing Agents of the Society across the land of Dereth') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -24,7 +24,7 @@ VALUES (28758,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28758,   1, 'Brewmaster''s Bible') /* Name */
-     , (28758,  16, 'Herein lie the arcane secrets of that most magical craft known to all Isparian-kin as Brewing!.') /* LongDesc */;
+     , (28758,  16, 'Herein lie the arcane secrets of that most magical craft known to all Isparian-kind as Brewing!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28758,   1, 0x02000153) /* Setup */

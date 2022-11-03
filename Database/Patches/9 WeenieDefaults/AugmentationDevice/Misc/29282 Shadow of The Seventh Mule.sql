@@ -25,7 +25,7 @@ VALUES (29282,  11, True ) /* IgnoreCollisions */
      , (29282,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29282,   1, 'Shadow of The Seventh Mule') /* Name */
+VALUES (29282,   1, 'Shadow of the Seventh Mule') /* Name */
      , (29282,  16, 'Using this gem will grant you an extra, eighth pack slot to carry your treasure and equipment. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
