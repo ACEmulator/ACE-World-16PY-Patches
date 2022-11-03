@@ -37,8 +37,7 @@ VALUES (2601,  12,    0.33) /* Shade */
      , (2601, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2601,   1, 'Pants') /* Name */
-     , (2601,  16, 'Loose Pants') /* LongDesc */;
+VALUES (2601,   1, 'Loose Pants') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2601,   1, 0x020000DD) /* Setup */
