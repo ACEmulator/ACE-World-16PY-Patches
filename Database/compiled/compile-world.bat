@@ -11,13 +11,12 @@ echo. >> ACE-World-Database.sql
 IF EXIST *.zip (
     echo Found downloaded database zip file, skipping ACE-World-16PY Base compile...
     echo.
-    "C:\Program Files\7-Zip\7z" x ACE-World-16PY-*.zip
+    7z x ACE-World-16PY-*.zip
     copy /b ACE-World-Database.sql + ACE-World-16PY-*.sql ACE-World-Database.sql
     echo. >> ACE-World-Database.sql
 ) ELSE (
     echo Compiling ACE-World-16PY Base...
     call compile-base.bat
-pause
     @echo off
     copy /b ACE-World-Database.sql + ..\ACE-World-16PY\Database\compiled\*.sql ACE-World-Database.sql
     echo. >> ACE-World-Database.sql

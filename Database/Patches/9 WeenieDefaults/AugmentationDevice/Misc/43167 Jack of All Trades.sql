@@ -26,7 +26,7 @@ VALUES (43167,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43167,   1, 'Jack of All Trades') /* Name */
-     , (43167,  16, 'Your versatility is increased. All of your skills are increased by 5, This augmentation cannot be repeated.') /* LongDesc */;
+     , (43167,  16, 'Your versatility is increased. All of your skills are increased by 5. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43167,   1, 0x02000179) /* Setup */

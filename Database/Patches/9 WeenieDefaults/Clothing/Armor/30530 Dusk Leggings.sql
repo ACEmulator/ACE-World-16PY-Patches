@@ -56,7 +56,7 @@ VALUES (30530,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30530,   1, 'Dusk Leggings') /* Name */
-     , (30530,  16, 'It is said that every great craftsman has a moment of inspiration, If only for a short period of time, they are possessed by a divine spirit, and they are able to create as object of such beauty and quality that they can never in thier lifetime hope to surpass. These leggings, along with the Dusk Coat, are Leyrale Sharlorn''s master work. the great tailor hung up his needle and thread after finishing the set, sold them to a wealthy nobleman, and retired to a life of fishing') /* LongDesc */;
+     , (30530,  16, 'It is said that every great craftsman has a moment of inspiration. If only for a short period of time, they are possessed by a divine spirit, and they are able to create an object of such beauty and quality that they can never in their lifetime hope to surpass. These leggings, along with the Dusk Coat, are Leyrale Shalorn''s master work. The great tailor hung up his needle and thread after finishing the set, sold them to a wealthy nobleman, and retired to a life of fishing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30530,   1, 0x02001394) /* Setup */
