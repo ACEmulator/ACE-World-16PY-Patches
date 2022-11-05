@@ -1343,8 +1343,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  81 /* StampMyQuest */, 0, 1, NULL, 'GauntletArenaTwoWait', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52801, 2,  2588,  0, 92, 0, False) /* Create Shirt (2588) for Wield */
-     , (52801, 2,  2597,  0, 93, 0, False) /* Create Pants (2597) for Wield */
+VALUES (52801, 2,  2588,  0, 92, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (52801, 2,  2597,  0, 93, 0, False) /* Create Flared Pants (2597) for Wield */
      , (52801, 2, 38472,  0, 0, 0, False) /* Create Eldrytch Web Breastplate (38472) for Wield */
      , (52801, 2, 38473,  0, 0, 0, False) /* Create Eldrytch Web Gauntlets (38473) for Wield */
      , (52801, 2, 38474,  0, 0, 0, False) /* Create Eldrytch Web Girth (38474) for Wield */

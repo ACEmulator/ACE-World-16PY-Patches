@@ -166,7 +166,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (842, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
-     , (842, 2,  2602,  0, 13, 0.5, False) /* Create Breeches (2602) for Wield */
+     , (842, 2,  2602,  0, 13, 0.5, False) /* Create Loose Breeches (2602) for Wield */
      , (842, 2,   115,  0, 13, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (842, 2, 10696,  0, 1, 0.6, False) /* Create Apron (10696) for Wield */
      , (842, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */

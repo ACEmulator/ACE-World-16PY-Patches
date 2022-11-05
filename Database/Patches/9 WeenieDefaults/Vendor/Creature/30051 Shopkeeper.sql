@@ -237,7 +237,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Now leave me be.', NULL, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30051, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30051, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
-     , (30051, 2,  2597,  0, 2, 0.5, False) /* Create Pants (2597) for Wield */
+     , (30051, 2,  2597,  0, 2, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (30051, 2, 28611,  0, 6, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (30051, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30051, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */

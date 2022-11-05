@@ -1815,5 +1815,5 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3917, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
-     , (3917, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (3917, 2,  2604,  0, 9, 1, False) /* Create Wide Breeches (2604) for Wield */
      , (3917, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */;

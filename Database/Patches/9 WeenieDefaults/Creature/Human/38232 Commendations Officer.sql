@@ -1236,6 +1236,6 @@ VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-38229_2', 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38232, 2,  2587,  0, 92, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (38232, 2,  2597,  0, 93, 0.5, False) /* Create Pants (2597) for Wield */
+     , (38232, 2,  2597,  0, 93, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (38232, 2, 25661,  0, 93, 0, False) /* Create Leather Boots (25661) for Wield */
      , (38232, 2, 80304,  0, 0, 0, False) /* Create Eldrytch Web Tabard (80304) for Wield */;

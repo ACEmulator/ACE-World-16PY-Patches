@@ -112,8 +112,8 @@ VALUES (38631,  2074,   2.02)  /* Gossamer Flesh */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38631, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (38631, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
-     , (38631, 2,  2588,  0, 93, 0, False) /* Create Shirt (2588) for Wield */
-     , (38631, 2,  2597,  0, 93, 0, False) /* Create Pants (2597) for Wield */
+     , (38631, 2,  2588,  0, 93, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (38631, 2,  2597,  0, 93, 0, False) /* Create Flared Pants (2597) for Wield */
      , (38631, 2,    96,  0, 13, 1, False) /* Create Chainmail Shirt (96) for Wield */
      , (38631, 2,    85,  0, 39, 1, False) /* Create Chainmail Coif (85) for Wield */
      , (38631, 2, 25645,  0, 93, 0, False) /* Create Leather Leggings (25645) for Wield */

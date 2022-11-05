@@ -188,7 +188,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You are not powerful enough
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38278, 2,  2587,  0, 85, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (38278, 2,  2597,  0, 86, 0.3, False) /* Create Pants (2597) for Wield */
+     , (38278, 2,  2597,  0, 86, 0.3, False) /* Create Flared Pants (2597) for Wield */
      , (38278, 2,  2437,  0, 14, 0.3, False) /* Create Yoroi Leggings (2437) for Wield */
      , (38278, 2,   107,  0, 93, 0.3, False) /* Create Sollerets (107) for Wield */
      , (38278, 2, 80305,  0, 0, 0, False) /* Create Radiant Blood Tabard (80305) for Wield */;

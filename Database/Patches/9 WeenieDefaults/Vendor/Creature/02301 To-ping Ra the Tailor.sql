@@ -175,8 +175,8 @@ VALUES (2301, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (2301, 2,   118,  0, 17, 1, False) /* Create Cap (118) for Wield */
      , (2301, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (2301, 4,   118, -1, 5, 1, False) /* Create Cap (118) for Shop */
-     , (2301, 4,  2594, -1, 2, 1, False) /* Create Tunic (2594) for Shop */
-     , (2301, 4,  2602, -1, 9, 0.35, False) /* Create Breeches (2602) for Shop */
+     , (2301, 4,  2594, -1, 2, 1, False) /* Create Flared Tunic (2594) for Shop */
+     , (2301, 4,  2602, -1, 9, 0.35, False) /* Create Loose Breeches (2602) for Shop */
      , (2301, 4,   132, -1, 4, 0.5, False) /* Create Shoes (132) for Shop */
      , (2301, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (2301, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */

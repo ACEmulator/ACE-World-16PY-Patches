@@ -168,7 +168,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Hernd thinks you''re not st
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51861, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
-     , (51861, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */
+     , (51861, 2,  2601,  0, 14, 1, False) /* Create Loose Pants (2601) for Wield */
      , (51861, 2, 21150,  0, 93, 1, False) /* Create Covenant Sollerets (21150) for Wield */
      , (51861, 2, 21151,  0, 93, 1, False) /* Create Covenant Bracers (21151) for Wield */
      , (51861, 2, 21152,  0, 93, 1, False) /* Create Covenant Breastplate (21152) for Wield */

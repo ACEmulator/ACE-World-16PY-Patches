@@ -80,9 +80,9 @@ VALUES (31339,   1, 0x02000001) /* Setup */
                                    Wield Leather Boots (25661) | Palette: Brown (4) | Probability: 100%
                                    Wield Bandana (28612) | Palette: Blue (2) | Probability: 100%
                                    Wield Trousers (2599) | Palette: DeepGreen (7) | Probability: 100%
-                                   Wield Tunic (2594) | Palette: Purple (13) | Probability: 40%
-                                   Wield Tunic (2594) | Palette: Red (14) | Probability: 30.000002%
-                                   Wield Tunic (2594) | Palette: Yellow (17) | Probability: 30.000002%
+                                   Wield Flared Tunic (2594) | Palette: Purple (13) | Probability: 40%
+                                   Wield Flared Tunic (2594) | Palette: Red (14) | Probability: 30.000002%
+                                   Wield Flared Tunic (2594) | Palette: Yellow (17) | Probability: 30.000002%
                                    Wield Hollow Crossbow (31706) | Probability: 20%
                                    Wield 6x Deadly Chorizite Quarrel (21352) | Probability: 100%
                                    Wield Phantom Bow (31705) | Probability: 20%

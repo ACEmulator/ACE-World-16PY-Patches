@@ -134,7 +134,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000082 /* MimeDrink */, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38403, 2,   124,  0, 93, 0.5, False) /* Create Jerkin (124) for Wield */
-     , (38403, 2,  2597,  0, 93, 0.5, False) /* Create Pants (2597) for Wield */
+     , (38403, 2,  2597,  0, 93, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (38403, 2, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for Wield */
      , (38403, 2, 31705,  0, 0, 0, False) /* Create Phantom Bow (31705) for Wield */
      , (38403, 2, 21348, 100, 0, 0, False) /* Create Deadly Chorizite Arrow (21348) for Wield */

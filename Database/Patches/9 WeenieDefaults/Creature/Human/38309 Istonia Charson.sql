@@ -197,6 +197,6 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (38309, 2,  2587,  0, 92, 0.5, False) /* Create Shirt (2587) for Wield */
      , (38309, 2,   114,  0, 92, 0.5, False) /* Create Platemail Vambraces (114) for Wield */
      , (38309, 2,   416,  0, 92, 0.5, False) /* Create Chainmail Pauldrons (416) for Wield */
-     , (38309, 2,  2597,  0, 93, 0, False) /* Create Pants (2597) for Wield */
+     , (38309, 2,  2597,  0, 93, 0, False) /* Create Flared Pants (2597) for Wield */
      , (38309, 2,   115,  0, 93, 0.409, False) /* Create Leather Boots (115) for Wield */
      , (38309, 2, 80304,  0, 0, 0, False) /* Create Eldrytch Web Tabard (80304) for Wield */;

@@ -363,5 +363,5 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5197, 2,   124,  0, 4, 0.8, False) /* Create Jerkin (124) for Wield */
-     , (5197, 2,  2603,  0, 9, 1, False) /* Create Breeches (2603) for Wield */
+     , (5197, 2,  2603,  0, 9, 1, False) /* Create Baggy Breeches (2603) for Wield */
      , (5197, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */;

@@ -146,6 +146,6 @@ VALUES (87516, 2, 21159,  1, 93, 0, False) /* Create Covenant Tassets (21159) fo
      , (87516, 2, 21155,  1, 93, 0, False) /* Create Covenant Greaves (21155) for Wield */
      , (87516, 2, 21150,  1, 93, 0, False) /* Create Covenant Sollerets (21150) for Wield */
      , (87516, 2, 87038,  1, 93, 0, False) /* Create Helm of Isin Dule (87038) for Wield */
-     , (87516, 2,  2597,  1, 92, 0, False) /* Create Pants (2597) for Wield */
-     , (87516, 2,  2588,  1, 14, 0, False) /* Create Shirt (2588) for Wield */
+     , (87516, 2,  2597,  1, 92, 0, False) /* Create Flared Pants (2597) for Wield */
+     , (87516, 2,  2588,  1, 14, 0, False) /* Create Flared Shirt (2588) for Wield */
      , (87516, 9, 87513,  1, 0, 1, False) /* Create Middle Locked Gate Key (87513) for ContainTreasure */;

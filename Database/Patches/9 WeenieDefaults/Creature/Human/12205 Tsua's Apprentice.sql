@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12205;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12205, 'maskcollectorshoapprentice', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (12205, 'maskcollectorshoapprentice', 10, '2022-11-05 05:26:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12205,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12205,   1, 'Tsua''s Apprentice') /* Name */
      , (12205,   3, 'Female') /* Sex */
      , (12205,   4, 'Sho') /* HeritageGroup */
-     , (12205,   5, 'Apprentice') /* Template */;
+     , (12205,   5, 'Apprentice Mask Maker') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12205,   1, 0x0200004E) /* Setup */
@@ -389,5 +389,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12205, 2,  5894,  0, 14, 1, False) /* Create Fez (5894) for Wield */
      , (12205, 2,   130,  0, 10, 0.8, False) /* Create Shirt (130) for Wield */
-     , (12205, 2,  2604,  0, 9, 0.4, False) /* Create Breeches (2604) for Wield */
+     , (12205, 2,  2604,  0, 9, 0.4, False) /* Create Wide Breeches (2604) for Wield */
      , (12205, 2,   133,  0, 14, 1, False) /* Create Slippers (133) for Wield */;

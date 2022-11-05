@@ -158,6 +158,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I came here to be free of t
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'If you are another seeking the lost City of Frore, be warned - you will need a substantial party to survive. Should you die, you will be unable to reenter the caves to recover your equipment. Be certain you are prepared.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5874, 2,  2590,  0, 4, 0.5, False) /* Create Shirt (2590) for Wield */
+VALUES (5874, 2,  2590,  0, 4, 0.5, False) /* Create Baggy Shirt (2590) for Wield */
      , (5874, 2,  2600,  0, 1, 1, False) /* Create Pantaloons (2600) for Wield */
      , (5874, 2,  2606,  0, 9, 0.1, False) /* Create Boots (2606) for Wield */;

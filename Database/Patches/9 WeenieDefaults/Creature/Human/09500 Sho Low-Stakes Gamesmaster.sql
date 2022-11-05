@@ -977,6 +977,6 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9500, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
-     , (9500, 2,  2597,  0, 9, 0, False) /* Create Pants (2597) for Wield */
+     , (9500, 2,  2597,  0, 9, 0, False) /* Create Flared Pants (2597) for Wield */
      , (9500, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (9500, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;

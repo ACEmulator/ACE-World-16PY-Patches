@@ -99,7 +99,7 @@ VALUES (87543,  0,  4,  0,    0,  540,  470,  470,  470,  570,  270,  470,  470,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (87543, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (87543, 2,   130,  0, 9, 0.4, False) /* Create Shirt (130) for Wield */
-     , (87543, 2,  2597,  0, 9, 0.4, False) /* Create Pants (2597) for Wield */
+     , (87543, 2,  2597,  0, 9, 0.4, False) /* Create Flared Pants (2597) for Wield */
      , (87543, 2, 25639,  0, 93, 0, False) /* Create Leather Jerkin (25639) for Wield */
      , (87543, 2, 28612,  0, 8, 0, False) /* Create Bandana (28612) for Wield */
      , (87543, 2, 25645,  0, 93, 0, False) /* Create Leather Leggings (25645) for Wield */

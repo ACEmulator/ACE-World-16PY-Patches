@@ -167,7 +167,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1038, 2,   328,  0, 0, 0, False) /* Create Khanjar (328) for Wield */
      , (1038, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
-     , (1038, 2,  2603,  0, 7, 0.33, False) /* Create Breeches (2603) for Wield */
+     , (1038, 2,  2603,  0, 7, 0.33, False) /* Create Baggy Breeches (2603) for Wield */
      , (1038, 2,   133,  0, 17, 1, False) /* Create Slippers (133) for Wield */
      , (1038, 2,   128,  0, 14, 0, False) /* Create Qafiya (128) for Wield */
      , (1038, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */

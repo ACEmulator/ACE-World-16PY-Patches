@@ -174,8 +174,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You have not proven yourself worthy of the title of Adept.  Speak with the Commendations Officer if you wish to rise within our ranks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38643, 2,  2588,  0, 93, 0, False) /* Create Shirt (2588) for Wield */
-     , (38643, 2,  2597,  0, 93, 0, False) /* Create Pants (2597) for Wield */
+VALUES (38643, 2,  2588,  0, 93, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (38643, 2,  2597,  0, 93, 0, False) /* Create Flared Pants (2597) for Wield */
      , (38643, 2, 80304,  0, 0, 0, False) /* Create Eldrytch Web Tabard (80304) for Wield */
      , (38643, 2,   104,  0, 39, 1, False) /* Create Scalemail Sleeves (104) for Wield */
      , (38643, 2,    83,  0, 39, 1, False) /* Create Scalemail Leggings (83) for Wield */

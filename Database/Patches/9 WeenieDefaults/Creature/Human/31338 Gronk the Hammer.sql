@@ -106,7 +106,7 @@ VALUES (31338, 1, 31334,  0, 0, 1, False) /* Create Crate of Fake Niffis Pearls 
      , (31338, 2,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for Wield */
      , (31338, 2, 31838,  0, 0, 0, False) /* Create Hammer of Discipline (31838) for Wield */
      , (31338, 10,   133,  0, 9, 1, False) /* Create Slippers (133) for WieldTreasure */
-     , (31338, 10,  2601,  0, 9, 1, False) /* Create Pants (2601) for WieldTreasure */
+     , (31338, 10,  2601,  0, 9, 1, False) /* Create Loose Pants (2601) for WieldTreasure */
      , (31338, 10, 10701,  0, 14, 1, False) /* Create Niffis Shell Helm (10701) for WieldTreasure */
      , (31338, 10, 10702,  0, 0, 1, False) /* Create Niffis Shell (10702) for WieldTreasure */
      , (31338, 10,    40,  0, 14, 1, False) /* Create Platemail Breastplate (40) for WieldTreasure */;

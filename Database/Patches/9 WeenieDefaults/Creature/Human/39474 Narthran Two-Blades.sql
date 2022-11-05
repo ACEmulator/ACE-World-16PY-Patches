@@ -167,8 +167,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I collect certain rare trophies from our adversaries on Freebooter Isle and the Moarsman City dedicated to T''thuun. If you find one of these trophies, bring it to me and I will reward you for it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (39474, 2,  2588,  0, 2, 0, False) /* Create Shirt (2588) for Wield */
-     , (39474, 2,  2597,  0, 2, 0, False) /* Create Pants (2597) for Wield */
+VALUES (39474, 2,  2588,  0, 2, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (39474, 2,  2597,  0, 2, 0, False) /* Create Flared Pants (2597) for Wield */
      , (39474, 2, 38463,  0, 0, 0, False) /* Create Celestial Hand Breastplate (38463) for Wield */
      , (39474, 2, 38464,  0, 0, 0, False) /* Create Celestial Hand Gauntlets (38464) for Wield */
      , (39474, 2, 38465,  0, 0, 0, False) /* Create Celestial Hand Girth (38465) for Wield */

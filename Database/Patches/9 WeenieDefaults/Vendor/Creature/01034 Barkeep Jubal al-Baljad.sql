@@ -198,7 +198,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1034, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
-     , (1034, 2,  2598,  0, 17, 1, False) /* Create Pants (2598) for Wield */
+     , (1034, 2,  2598,  0, 17, 1, False) /* Create Baggy Pants (2598) for Wield */
      , (1034, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
      , (1034, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (1034, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */

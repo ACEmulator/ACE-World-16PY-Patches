@@ -575,7 +575,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 9479 /* Gan-Zo's Golden Key */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9494, 2,  2590,  0, 9, 0, False) /* Create Shirt (2590) for Wield */
-     , (9494, 2,  2597,  0, 3, 0.4, False) /* Create Pants (2597) for Wield */
+VALUES (9494, 2,  2590,  0, 9, 0, False) /* Create Baggy Shirt (2590) for Wield */
+     , (9494, 2,  2597,  0, 3, 0.4, False) /* Create Flared Pants (2597) for Wield */
      , (9494, 2,   115,  0, 4, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (9494, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;

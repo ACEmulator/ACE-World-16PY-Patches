@@ -147,6 +147,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Perhaps you can assist me. I am known as Miyako, the poet. I left a precious volume of my poetry in some pretty tunnels east of here when I was searching for inspiration. Were you to return the poems to me, I would reward you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6890, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
-     , (6890, 2,  2598,  0, 14, 0.6, False) /* Create Pants (2598) for Wield */
+VALUES (6890, 2,  2590,  0, 9, 0.5, False) /* Create Baggy Shirt (2590) for Wield */
+     , (6890, 2,  2598,  0, 14, 0.6, False) /* Create Baggy Pants (2598) for Wield */
      , (6890, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */;

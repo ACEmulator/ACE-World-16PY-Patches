@@ -1117,5 +1117,5 @@ VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'KilltaskOlthoiDroneWait
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3930, 2,  2606,  0, 6, 0, False) /* Create Boots (2606) for Wield */
-     , (3930, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
-     , (3930, 2,  2594,  0, 14, 0.5, False) /* Create Tunic (2594) for Wield */;
+     , (3930, 2,  2598,  0, 9, 1, False) /* Create Baggy Pants (2598) for Wield */
+     , (3930, 2,  2594,  0, 14, 0.5, False) /* Create Flared Tunic (2594) for Wield */;

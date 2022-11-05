@@ -173,7 +173,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28531, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
-     , (28531, 2,  2601,  0, 1, 0.67, False) /* Create Pants (2601) for Wield */
+     , (28531, 2,  2601,  0, 1, 0.67, False) /* Create Loose Pants (2601) for Wield */
      , (28531, 2,  5851,  0, 86, 0, False) /* Create Faran Robe with Hood (5851) for Wield */
      , (28531, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
      , (28531, 4, 41424, -1, 0, 0, False) /* Create Refining Polish (Mana) (41424) for Shop */

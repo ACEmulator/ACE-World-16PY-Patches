@@ -169,6 +169,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 1.5, 1, NULL, 'Ungrateful creatures.  The dungeon is to the east of here.  Look for the candles that mark the entrance.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5119, 2,  2591,  0, 14, 0.8, False) /* Create Shirt (2591) for Wield */
+VALUES (5119, 2,  2591,  0, 14, 0.8, False) /* Create Puffy Shirt (2591) for Wield */
      , (5119, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (5119, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */;

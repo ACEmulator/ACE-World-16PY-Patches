@@ -156,6 +156,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Gyah! Me Da''s mug. Ya foun
      , (@parent_id, 10,  31 /* EraseQuest */, 0, 1, NULL, 'RenaldMug', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28856, 2,  2593,  0, 8, 0, False) /* Create Tunic (2593) for Wield */
+VALUES (28856, 2,  2593,  0, 8, 0, False) /* Create Loose Tunic (2593) for Wield */
      , (28856, 2,  2599,  0, 4, 0, False) /* Create Trousers (2599) for Wield */
      , (28856, 2,  2606,  0, 90, 0, False) /* Create Boots (2606) for Wield */;

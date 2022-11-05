@@ -167,7 +167,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8495, 2,   130,  0, 9, 0.1, False) /* Create Shirt (130) for Wield */
      , (8495, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
-     , (8495, 2,  2597,  0, 8, 0.5, False) /* Create Pants (2597) for Wield */
+     , (8495, 2,  2597,  0, 8, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (8495, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
      , (8495, 2, 10696,  0, 3, 0.5, False) /* Create Apron (10696) for Wield */
      , (8495, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */

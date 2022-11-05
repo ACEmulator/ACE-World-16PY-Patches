@@ -166,8 +166,8 @@ VALUES (33163, 2, 21159,  1, 93, 0, False) /* Create Covenant Tassets (21159) fo
      , (33163, 2, 21155,  1, 93, 0, False) /* Create Covenant Greaves (21155) for Wield */
      , (33163, 2, 21150,  1, 93, 0, False) /* Create Covenant Sollerets (21150) for Wield */
      , (33163, 2, 87038,  1, 93, 0, False) /* Create Helm of Isin Dule (87038) for Wield */
-     , (33163, 2,  2597,  1, 92, 0, False) /* Create Pants (2597) for Wield */
-     , (33163, 2,  2588,  1, 14, 0, False) /* Create Shirt (2588) for Wield */;
+     , (33163, 2,  2597,  1, 92, 0, False) /* Create Flared Pants (2597) for Wield */
+     , (33163, 2,  2588,  1, 14, 0, False) /* Create Flared Shirt (2588) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33163, -1, 33185, 1, 1, 1, 1, 4, -1, 0, 0, 0x006F010D, 0, 0, 78.1649, 1, 0, 0, 0) /* Generate Spire's Head (33185) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

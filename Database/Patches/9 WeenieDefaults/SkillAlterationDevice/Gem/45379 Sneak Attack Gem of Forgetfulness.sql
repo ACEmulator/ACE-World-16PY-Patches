@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45379;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45379, 'ace45379-sneakattackgemofforgetfulness', 62, '2021-11-01 00:00:00') /* SkillAlterationDevice */;
+VALUES (45379, 'ace45379-sneakattackgemofforgetfulness', 62, '2022-11-05 05:26:30') /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45379,   1,       2048) /* ItemType - Gem */
@@ -21,7 +21,7 @@ VALUES (45379,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45379,   1, 'Sneak Attack Gem of Forgetfulness') /* Name */
-     , (45379,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return two skill credits when used to unspecialize or four skill credits when used to untrain the Sneak Attack skill.') /* Use */;
+     , (45379,  14, ' Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return two skill credits when used to unspecialize or four skill credits when used to untrain the Sneak Attack skill.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45379,   1, 0x02000E47) /* Setup */

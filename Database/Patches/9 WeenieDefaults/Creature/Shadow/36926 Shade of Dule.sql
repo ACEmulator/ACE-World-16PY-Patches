@@ -142,5 +142,5 @@ VALUES (36926, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) 
      , (36926, 2, 21155,  1, 93, 0, False) /* Create Covenant Greaves (21155) for Wield */
      , (36926, 2, 21150,  1, 93, 0, False) /* Create Covenant Sollerets (21150) for Wield */
      , (36926, 2, 87038,  1, 93, 0, False) /* Create Helm of Isin Dule (87038) for Wield */
-     , (36926, 2,  2597,  1, 92, 0, False) /* Create Pants (2597) for Wield */
-     , (36926, 2,  2588,  1, 14, 0, False) /* Create Shirt (2588) for Wield */;
+     , (36926, 2,  2597,  1, 92, 0, False) /* Create Flared Pants (2597) for Wield */
+     , (36926, 2,  2588,  1, 14, 0, False) /* Create Flared Shirt (2588) for Wield */;

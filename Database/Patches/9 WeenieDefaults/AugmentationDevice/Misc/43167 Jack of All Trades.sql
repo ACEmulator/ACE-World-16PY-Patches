@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43167;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43167, 'ace43167-jackofalltrades', 67, '2021-11-01 00:00:00') /* AugmentationDevice */;
+VALUES (43167, 'ace43167-jackofalltrades', 67, '2022-11-05 05:26:30') /* AugmentationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43167,   1,        128) /* ItemType - Misc */
@@ -26,7 +26,7 @@ VALUES (43167,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43167,   1, 'Jack of All Trades') /* Name */
-     , (43167,  16, 'Your versatility is increased. All of your skills are increased by 5, This augmentation cannot be repeated.') /* LongDesc */;
+     , (43167,  16, 'Your versatility is increased. All of your skills are increased by 5. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43167,   1, 0x02000179) /* Setup */

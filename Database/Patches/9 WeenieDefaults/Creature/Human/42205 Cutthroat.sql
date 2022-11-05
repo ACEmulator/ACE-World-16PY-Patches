@@ -110,32 +110,32 @@ VALUES (42205,   1, 0x02000001) /* Setup */
                                    Wield Shirt (130) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
                                    Wield Shirt (130) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
                                    Wield Shirt (130) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: Grey (9) | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Shirt (2590) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: Grey (9) | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Shirt (2588) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: Grey (9) | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Baggy Shirt (2590) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: Grey (9) | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Flared Shirt (2588) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
                                    Wield Shirt (2587) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
                                    Wield Shirt (2587) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
                                    Wield Shirt (2587) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
@@ -149,19 +149,19 @@ VALUES (42205,   1, 0x02000001) /* Setup */
                                    Wield Shirt (2587) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
                                    Wield Shirt (2587) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
                                    Wield Shirt (2587) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: Grey (9) | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Shirt (2591) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: Grey (9) | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Puffy Shirt (2591) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
                                    Wield Tunic (134) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
                                    Wield Tunic (134) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
                                    Wield Tunic (134) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
@@ -175,58 +175,58 @@ VALUES (42205,   1, 0x02000001) /* Setup */
                                    Wield Tunic (134) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
                                    Wield Tunic (134) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
                                    Wield Tunic (134) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: Grey (9) | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2595) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: Grey (9) | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2594) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: Grey (9) | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2593) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: Grey (9) | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
-                                   Wield Tunic (2592) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: Grey (9) | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Baggy Tunic (2595) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: Grey (9) | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Flared Tunic (2594) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: Grey (9) | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Loose Tunic (2593) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: Grey (9) | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.641%
+                                   Wield Puffy Tunic (2592) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.641%
                                    Wield Pantaloons (2600) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
                                    Wield Pantaloons (2600) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
                                    Wield Pantaloons (2600) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
@@ -253,45 +253,45 @@ VALUES (42205,   1, 0x02000001) /* Setup */
                                    Wield Pants (127) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
                                    Wield Pants (127) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
                                    Wield Pants (127) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: Grey (9) | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Pants (2597) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: Grey (9) | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Pants (2598) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: Grey (9) | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Pants (2601) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: Grey (9) | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Flared Pants (2597) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: Grey (9) | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Baggy Pants (2598) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: Grey (9) | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Loose Pants (2601) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
                                    Wield Breeches (117) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
                                    Wield Breeches (117) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
                                    Wield Breeches (117) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
@@ -305,45 +305,45 @@ VALUES (42205,   1, 0x02000001) /* Setup */
                                    Wield Breeches (117) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
                                    Wield Breeches (117) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
                                    Wield Breeches (117) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: Grey (9) | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Breeches (2603) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: Grey (9) | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Breeches (2602) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: Grey (9) | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
-                                   Wield Breeches (2604) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: Grey (9) | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Baggy Breeches (2603) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: Grey (9) | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Loose Breeches (2602) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: Brown (4) | Shade: 0.6 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: LightBlue (10) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: BluePurple (3) | Shade: 0.67 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: Grey (9) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: Grey (9) | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: Purple (13) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: DarkBlue (5) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: Blue (2) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: Grey (9) | Shade: 0.8 | Probability: 0.854%
+                                   Wield Wide Breeches (2604) | Palette: Maroon (11) | Shade: 0.5 | Probability: 0.854%
                                    Wield Soft Leather Gloves (122) | Palette: Grey (9) | Shade: 0.5 | Probability: 2%
                                    Wield Soft Leather Gloves (122) | Palette: YellowBrown (18) | Shade: 0.5 | Probability: 2%
                                    Wield Soft Leather Gloves (122) | Palette: Brown (4) | Shade: 0.8 | Probability: 2%
