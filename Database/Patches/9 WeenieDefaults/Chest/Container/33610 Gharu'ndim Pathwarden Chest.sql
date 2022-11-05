@@ -33,7 +33,7 @@ VALUES (33610,  11,       1) /* ResetInterval */
      , (33610,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33610,   1, 'Gharu''udim Pathwarden Chest') /* Name */
+VALUES (33610,   1, 'Gharu''ndim Pathwarden Chest') /* Name */
      , (33610,  12, 'pathwardenchestkey') /* LockCode */
      , (33610,  14, 'Use this item to open it and see its contents.') /* Use */;
 

@@ -21,7 +21,7 @@ VALUES (45383,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45383,   1, 'Shield Gem of Enlightenment') /* Name */
-     , (45383,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Shield Weapons skill.') /* Use */;
+     , (45383,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Shield skill.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45383,   1, 0x02000E48) /* Setup */

@@ -33,8 +33,7 @@ VALUES (29472,  41,      15) /* RegenerationInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29472,   1, 'Corpse') /* Name */
      , (29472,  14, 'Use this item to search it and see its possessions.') /* Use */
-     , (29472,  15, 'A corpse, bobbing gently near the surface of the water.') /* ShortDesc */
-     , (29472,  16, 'The corpse of Abmim ibn Ibsar, bobbing gently near the surface of the water.') /* LongDesc */;
+     , (29472,  16, 'The corpse of a recently killed Viamontian, with a clean dagger hole in the back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29472,   1, 0x0200037B) /* Setup */

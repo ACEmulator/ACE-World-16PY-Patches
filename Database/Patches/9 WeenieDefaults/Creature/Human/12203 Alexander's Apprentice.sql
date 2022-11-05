@@ -57,7 +57,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12203,   1, 'Alexander''s Apprentice') /* Name */
      , (12203,   3, 'Male') /* Sex */
      , (12203,   4, 'Aluvian') /* HeritageGroup */
-     , (12203,   5, 'Apprentice') /* Template */;
+     , (12203,   5, 'Apprentice Mask Maker') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12203,   1, 0x02000001) /* Setup */

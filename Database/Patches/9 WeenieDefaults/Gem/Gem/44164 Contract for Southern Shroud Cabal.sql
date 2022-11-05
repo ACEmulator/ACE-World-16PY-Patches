@@ -28,7 +28,7 @@ VALUES (44164, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44164,   1, 'Contract for Southern Shroud Cabal') /* Name */
      , (44164,  14, 'Recommended Level: 40') /* Use */
-     , (44164,  16, 'Find a way to enter the Southern Shroud Cabal and retrieve the Ley Leech'' s Medallion.') /* LongDesc */;
+     , (44164,  16, 'Find a way to enter the Southern Shroud Cabal and retrieve the Ley Leech''s Medallion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44164,   1, 0x02000C79) /* Setup */

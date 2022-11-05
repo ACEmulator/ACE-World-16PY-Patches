@@ -26,7 +26,7 @@ VALUES (44655, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44655,   1, 'Contract for Gear Knight Excavation') /* Name */
      , (44655,  14, 'Recommended Level: 150') /* Use */
-     , (44655,  16, 'Felizio Calmasi is intrested in what the Apostate Virindi have been working on.') /* LongDesc */;
+     , (44655,  16, 'Felizio Calmasi is interested in what the Apostate Virindi have been working on.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44655,   1, 0x02000C79) /* Setup */

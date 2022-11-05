@@ -20,7 +20,7 @@ VALUES (41739,  22, True ) /* Inscribable */
      , (41739,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41739,   1, 'Two Handed Gem of Forgetfulness') /* Name */
+VALUES (41739,   1, 'Two Handed Combat Gem of Forgetfulness') /* Name */
      , (41739,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return eight skill credits when used to unspecialize or untrain the Two Handed Combat skill.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

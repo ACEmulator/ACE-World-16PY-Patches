@@ -52,7 +52,7 @@ VALUES (42666,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42666,   1, 'Decapitator''s Blade') /* Name */
-     , (42666,  16, 'A blade once wielded by the royal decapitator. Is is said that this blade has seen the blood of more royals than any other sword in history, recorded or otherwise.') /* LongDesc */;
+     , (42666,  16, 'A blade once wielded by the royal decapitator. It is said that this blade has seen the blood of more royals than any other sword in history, recorded or otherwise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42666,   1, 0x02001A3C) /* Setup */

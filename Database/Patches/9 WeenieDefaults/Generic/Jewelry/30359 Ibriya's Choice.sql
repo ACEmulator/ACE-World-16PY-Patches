@@ -42,7 +42,7 @@ VALUES (30359,   5,  -0.033) /* ManaRate */
      , (30359, 111,       1) /* SizeMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30359,   1, 'Ibraya''s Choice') /* Name */
+VALUES (30359,   1, 'Ibriya''s Choice') /* Name */
      , (30359,  16, 'This necklace was commissioned by Mu''allim Fasair ibn Jambuz to commemorate Ibriya bint Raglan''s victory in the tournament to win his daughter''s hand in marriage. With her bravery and skill at arms, Ibriya defeated all the men in the tournament, thus securing her right to marry the daughter of Mu''allim Fasair ibn Jambuz. But to the surprise of all, she forfeited her right and let Lashanda bint Fasair choose her own husband. The full tale of this battle is a favorite among the women at court and can be purchased at any bookstore that carries volumes on Isparian Lore. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -21,7 +21,7 @@ VALUES (45379,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45379,   1, 'Sneak Attack Gem of Forgetfulness') /* Name */
-     , (45379,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return two skill credits when used to unspecialize or four skill credits when used to untrain the Sneak Attack skill.') /* Use */;
+     , (45379,  14, ' Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return two skill credits when used to unspecialize or four skill credits when used to untrain the Sneak Attack skill.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45379,   1, 0x02000E47) /* Setup */
