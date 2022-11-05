@@ -211,6 +211,6 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Lemme alone.  And keep my do
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4122, 2,  2587,  0, 4, 1, False) /* Create Shirt (2587) for Wield */
-     , (4122, 2,  2601,  0, 4, 1, False) /* Create Pants (2601) for Wield */
+     , (4122, 2,  2601,  0, 4, 1, False) /* Create Loose Pants (2601) for Wield */
      , (4122, 2,   118,  0, 2, 0.7, False) /* Create Cap (118) for Wield */
      , (4122, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

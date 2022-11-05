@@ -329,7 +329,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'So I''m sure you''ve noticed that I haven''t left this spot in nearly four years. Yeah it''s a tough life, standing here all day. Sure... sometimes people are nice enough to give me Shackles of Obedience. But I was wondering...Need a patron?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30064, 2,  2595,  0, 9, 1, False) /* Create Tunic (2595) for Wield */
-     , (30064, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
+VALUES (30064, 2,  2595,  0, 9, 1, False) /* Create Baggy Tunic (2595) for Wield */
+     , (30064, 2,  2598,  0, 9, 1, False) /* Create Baggy Pants (2598) for Wield */
      , (30064, 2, 28615,  0, 2, 0.5, False) /* Create Vestiri Robe (28615) for Wield */
      , (30064, 2,   121,  0, 93, 0, False) /* Create Gloves (121) for Wield */;

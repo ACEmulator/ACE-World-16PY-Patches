@@ -89,7 +89,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Good day to you!', NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38688, 2,  2587,  0, 12, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (38688, 2,  2597,  0, 9, 0.1, False) /* Create Pants (2597) for Wield */
+     , (38688, 2,  2597,  0, 9, 0.1, False) /* Create Flared Pants (2597) for Wield */
      , (38688, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (38688, 2, 80303,  0, 0, 0, False) /* Create Celestial Hand Tabard (80303) for Wield */
      , (38688, 4, 46743, -1, 0, 0, False) /* Create Contract for Stipend: Celestial Hand (46743) for Shop */

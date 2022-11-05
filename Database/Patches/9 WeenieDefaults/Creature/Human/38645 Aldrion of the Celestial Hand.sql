@@ -175,7 +175,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You have not proven yoursel
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38645, 2,  2587,  0, 12, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (38645, 2,  2597,  0, 9, 0.1, False) /* Create Pants (2597) for Wield */
+     , (38645, 2,  2597,  0, 9, 0.1, False) /* Create Flared Pants (2597) for Wield */
      , (38645, 2, 80303,  0, 0, 0, False) /* Create Celestial Hand Tabard (80303) for Wield */
      , (38645, 2,   103,  0, 12, 0.5, False) /* Create Platemail Sleeves (103) for Wield */
      , (38645, 2,    82,  0, 12, 0.5, False) /* Create Platemail Leggings (82) for Wield */

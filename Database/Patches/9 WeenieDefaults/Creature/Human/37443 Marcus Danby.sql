@@ -126,6 +126,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Warrior - come and help us 
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Can you wipe out their little holding?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37443, 2,  2588,  0, 8, 0, False) /* Create Shirt (2588) for Wield */
+VALUES (37443, 2,  2588,  0, 8, 0, False) /* Create Flared Shirt (2588) for Wield */
      , (37443, 2,  2600,  0, 8, 0, False) /* Create Pantaloons (2600) for Wield */
      , (37443, 2,   115,  0, 8, 0, False) /* Create Leather Boots (115) for Wield */;

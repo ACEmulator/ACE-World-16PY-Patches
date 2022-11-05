@@ -156,5 +156,5 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10922, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
-     , (10922, 2,  2604,  0, 4, 1, False) /* Create Breeches (2604) for Wield */
+     , (10922, 2,  2604,  0, 4, 1, False) /* Create Wide Breeches (2604) for Wield */
      , (10922, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */;

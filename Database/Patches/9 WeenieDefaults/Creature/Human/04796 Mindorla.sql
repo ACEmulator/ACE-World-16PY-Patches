@@ -195,6 +195,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 4792 /* Celcynd's Ring */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4796, 2,  2593,  0, 1, 0.67, False) /* Create Tunic (2593) for Wield */
-     , (4796, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
+VALUES (4796, 2,  2593,  0, 1, 0.67, False) /* Create Loose Tunic (2593) for Wield */
+     , (4796, 2,  2598,  0, 9, 1, False) /* Create Baggy Pants (2598) for Wield */
      , (4796, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;

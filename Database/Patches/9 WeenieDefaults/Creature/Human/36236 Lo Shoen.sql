@@ -159,7 +159,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Lo family has been hunt
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36236, 2, 27654,  0, 93, 0, False) /* Create Coarse Hide Shirt (27654) for Wield */
-     , (36236, 2,  2598,  0, 6, 0, False) /* Create Pants (2598) for Wield */
+     , (36236, 2,  2598,  0, 6, 0, False) /* Create Baggy Pants (2598) for Wield */
      , (36236, 2,  9241,  0, 4, 0, False) /* Create Ursuin Boots (9241) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -1023,7 +1023,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  30 /* InqQuestSolves */, 0, 1, NULL, 'StrongholdHumanBuilder@1', NULL, 0, 49, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24212, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+VALUES (24212, 2,  2591,  0, 9, 1, False) /* Create Puffy Shirt (2591) for Wield */
      , (24212, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (24212, 2,    72,  0, 14, 1, False) /* Create Platemail Hauberk (72) for Wield */
      , (24212, 2,    75,  0, 8, 1, False) /* Create Helmet (75) for Wield */

@@ -238,7 +238,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (44262, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
      , (44262, 2, 28498,  1, 0, 0, False) /* Create Noble Rapier (28498) for Wield */
      , (44262, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
-     , (44262, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */
+     , (44262, 2,  2601,  0, 14, 1, False) /* Create Loose Pants (2601) for Wield */
      , (44262, 2, 21150,  0, 93, 1, False) /* Create Covenant Sollerets (21150) for Wield */
      , (44262, 2, 21151,  0, 93, 1, False) /* Create Covenant Bracers (21151) for Wield */
      , (44262, 2, 21152,  0, 93, 1, False) /* Create Covenant Breastplate (21152) for Wield */

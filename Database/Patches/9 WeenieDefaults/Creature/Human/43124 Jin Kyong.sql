@@ -88,7 +88,7 @@ VALUES (43124,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43124, 2,  2587,  0, 91, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (43124, 2,  2597,  0, 4, 0.5, False) /* Create Pants (2597) for Wield */
+     , (43124, 2,  2597,  0, 4, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (43124, 2,   115,  0, 13, 0.3, False) /* Create Leather Boots (115) for Wield */
      , (43124, 2,    82,  0, 5, 0.6, False) /* Create Platemail Leggings (82) for Wield */
      , (43124, 2, 80303,  0, 0, 0, False) /* Create Celestial Hand Tabard (80303) for Wield */;

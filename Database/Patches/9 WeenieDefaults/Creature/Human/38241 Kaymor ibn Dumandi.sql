@@ -253,7 +253,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You are not powerful enough
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38241, 2,  2587,  0, 91, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (38241, 2,  2597,  0, 20, 0.3, False) /* Create Pants (2597) for Wield */
+     , (38241, 2,  2597,  0, 20, 0.3, False) /* Create Flared Pants (2597) for Wield */
      , (38241, 2,   104,  0, 20, 0.3, False) /* Create Scalemail Sleeves (104) for Wield */
      , (38241, 2,    83,  0, 20, 0.3, False) /* Create Scalemail Leggings (83) for Wield */
      , (38241, 2,   107,  0, 9, 0.3, False) /* Create Sollerets (107) for Wield */

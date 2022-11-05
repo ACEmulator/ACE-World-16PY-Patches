@@ -89,7 +89,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Good day to you!', NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38690, 2,  2587,  0, 92, 0.2, False) /* Create Shirt (2587) for Wield */
-     , (38690, 2,  2597,  0, 12, 0.2, False) /* Create Pants (2597) for Wield */
+     , (38690, 2,  2597,  0, 12, 0.2, False) /* Create Flared Pants (2597) for Wield */
      , (38690, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (38690, 2, 80304,  0, 0, 0, False) /* Create Eldrytch Web Tabard (80304) for Wield */
      , (38690, 4, 46744, -1, 0, 0, False) /* Create Contract for Stipend: Eldrytch Web (46744) for Shop */

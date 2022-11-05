@@ -182,7 +182,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12241, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
-     , (12241, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (12241, 2,  2602,  0, 9, 1, False) /* Create Loose Breeches (2602) for Wield */
      , (12241, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
      , (12241, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (12241, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */

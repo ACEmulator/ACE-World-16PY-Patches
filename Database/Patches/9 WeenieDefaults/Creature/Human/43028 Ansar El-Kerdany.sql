@@ -96,6 +96,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Greetings, Adventurer! We a
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Help her with her metallic menace and I shall reward you upon your return.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43028, 2,  2601,  0, 2, 0, False) /* Create Pants (2601) for Wield */
+VALUES (43028, 2,  2601,  0, 2, 0, False) /* Create Loose Pants (2601) for Wield */
      , (43028, 2,  2587,  0, 2, 1, False) /* Create Shirt (2587) for Wield */
      , (43028, 2,   133,  0, 4, 0.6667, False) /* Create Slippers (133) for Wield */;

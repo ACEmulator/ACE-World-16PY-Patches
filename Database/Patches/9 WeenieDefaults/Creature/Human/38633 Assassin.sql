@@ -109,7 +109,7 @@ VALUES (38633,  4394,   2.01)  /* Incantation of Blade Lure */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38633, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (38633, 2,  2597,  0, 92, 0, False) /* Create Pants (2597) for Wield */
+     , (38633, 2,  2597,  0, 92, 0, False) /* Create Flared Pants (2597) for Wield */
      , (38633, 2, 25639,  0, 93, 0, False) /* Create Leather Jerkin (25639) for Wield */
      , (38633, 2, 25640,  0, 93, 0, False) /* Create Leather Cowl (25640) for Wield */
      , (38633, 2, 25645,  0, 93, 0, False) /* Create Leather Leggings (25645) for Wield */

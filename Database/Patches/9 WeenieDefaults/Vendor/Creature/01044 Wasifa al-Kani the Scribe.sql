@@ -165,7 +165,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1044, 2,  2592,  0, 17, 1, False) /* Create Tunic (2592) for Wield */
+VALUES (1044, 2,  2592,  0, 17, 1, False) /* Create Puffy Tunic (2592) for Wield */
      , (1044, 2,   127,  0, 7, 0.33, False) /* Create Pants (127) for Wield */
      , (1044, 2,   133,  0, 7, 0.33, False) /* Create Slippers (133) for Wield */
      , (1044, 2,   135,  0, 14, 0.8, False) /* Create Turban (135) for Wield */

@@ -200,7 +200,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'I can help you by carving pieces of horn to go into the atlatl''s stave. Later, if your skills have outgrown your Composite Atlatl I might have a way to upgrade it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35962, 2,  2590,  0, 7, 1, False) /* Create Shirt (2590) for Wield */
-     , (35962, 2,  2597,  0, 7, 0.4909, False) /* Create Pants (2597) for Wield */
+VALUES (35962, 2,  2590,  0, 7, 1, False) /* Create Baggy Shirt (2590) for Wield */
+     , (35962, 2,  2597,  0, 7, 0.4909, False) /* Create Flared Pants (2597) for Wield */
      , (35962, 2,   115,  0, 4, 0.3333, False) /* Create Leather Boots (115) for Wield */
      , (35962, 2, 12463,  0, 0, 1, False) /* Create Atlatl (12463) for Wield */;

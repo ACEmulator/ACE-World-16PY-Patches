@@ -59,7 +59,7 @@ VALUES (42802,   1,   100, 0, 0, 140) /* MaxHealth */
      , (42802,   5,    60, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42802, 2,  2598,  0, 17, 0.9818, False) /* Create Pants (2598) for Wield */
+VALUES (42802, 2,  2598,  0, 17, 0.9818, False) /* Create Baggy Pants (2598) for Wield */
      , (42802, 2,   124,  0, 7, 0.3, False) /* Create Jerkin (124) for Wield */
      , (42802, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
      , (42802, 2, 10696,  0, 9, 0.3333, False) /* Create Apron (10696) for Wield */

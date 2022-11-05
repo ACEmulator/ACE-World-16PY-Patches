@@ -166,8 +166,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (836, 2,   341,  0, 0, 0, False) /* Create Shouyumi (341) for Wield */
-     , (836, 2,  2594,  0, 9, 1, False) /* Create Tunic (2594) for Wield */
-     , (836, 2,  2602,  0, 13, 0.5, False) /* Create Breeches (2602) for Wield */
+     , (836, 2,  2594,  0, 9, 1, False) /* Create Flared Tunic (2594) for Wield */
+     , (836, 2,  2602,  0, 13, 0.5, False) /* Create Loose Breeches (2602) for Wield */
      , (836, 2,   115,  0, 14, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (836, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (836, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */

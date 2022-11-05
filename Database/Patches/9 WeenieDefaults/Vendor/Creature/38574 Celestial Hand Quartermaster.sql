@@ -90,7 +90,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Good hunting to you out the
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38574, 2,  2587,  0, 91, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (38574, 2,  2597,  0, 4, 0.5, False) /* Create Pants (2597) for Wield */
+     , (38574, 2,  2597,  0, 4, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (38574, 2,   115,  0, 13, 0.3, False) /* Create Leather Boots (115) for Wield */
      , (38574, 2, 80303,  0, 0, 0, False) /* Create Celestial Hand Tabard (80303) for Wield */
      , (38574, 4, 38544, -1, 0, 0, False) /* Create Celestial Hand Armor Writ (38544) for Shop */

@@ -137,6 +137,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52181, 2,   124,  1, 93, 1, False) /* Create Jerkin (124) for Wield */
-     , (52181, 2,  2602,  1, 93, 0.4909, False) /* Create Breeches (2602) for Wield */
+     , (52181, 2,  2602,  1, 93, 0.4909, False) /* Create Loose Breeches (2602) for Wield */
      , (52181, 2,   129,  1, 4, 0.3333, False) /* Create Sandals (129) for Wield */
      , (52181, 2, 10696,  1, 90, 1, False) /* Create Apron (10696) for Wield */;

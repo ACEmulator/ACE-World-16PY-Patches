@@ -219,5 +219,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28836, 2, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for Wield */
      , (28836, 2,  9622,  0, 9, 0.6667, False) /* Create Chef's Hat (9622) for Wield */
      , (28836, 2,  2587,  0, 90, 0.0909, False) /* Create Shirt (2587) for Wield */
-     , (28836, 2,  2597,  0, 90, 0.0909, False) /* Create Pants (2597) for Wield */
+     , (28836, 2,  2597,  0, 90, 0.0909, False) /* Create Flared Pants (2597) for Wield */
      , (28836, 2,   132,  0, 18, 0.25, False) /* Create Shoes (132) for Wield */;

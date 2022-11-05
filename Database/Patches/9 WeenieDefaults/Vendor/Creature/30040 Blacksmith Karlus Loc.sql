@@ -236,7 +236,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Go now. But I''d watch my
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30040, 2, 28609,  0, 86, 0.5, False) /* Create Vest (28609) for Wield */
-     , (30040, 2,  2597,  0, 6, 0.5, False) /* Create Pants (2597) for Wield */
+     , (30040, 2,  2597,  0, 6, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (30040, 2,   132,  0, 93, 0, False) /* Create Shoes (132) for Wield */
      , (30040, 2, 28612,  0, 14, 0.5, False) /* Create Bandana (28612) for Wield */
      , (30040, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */

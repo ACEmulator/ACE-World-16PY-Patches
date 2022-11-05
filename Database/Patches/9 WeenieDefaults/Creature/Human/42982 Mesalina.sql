@@ -58,7 +58,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Do not bother me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42982, 2,  2602,  1, 4, 0.5, False) /* Create Breeches (2602) for Wield */
+VALUES (42982, 2,  2602,  1, 4, 0.5, False) /* Create Loose Breeches (2602) for Wield */
      , (42982, 2, 25649,  1, 4, 0, False) /* Create Leather Shirt (25649) for Wield */
      , (42982, 2, 37191,  1, 19, 0.27, False) /* Create Olthoi Gauntlets (37191) for Wield */
      , (42982, 2,   132,  1, 4, 0, False) /* Create Shoes (132) for Wield */;

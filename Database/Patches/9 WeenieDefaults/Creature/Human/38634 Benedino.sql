@@ -111,8 +111,8 @@ VALUES (38634,  2056,   2.02)  /* Ataxia */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38634, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (38634, 2,  2588,  0, 93, 0, False) /* Create Shirt (2588) for Wield */
-     , (38634, 2,  2597,  0, 92, 0, False) /* Create Pants (2597) for Wield */
+     , (38634, 2,  2588,  0, 93, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (38634, 2,  2597,  0, 92, 0, False) /* Create Flared Pants (2597) for Wield */
      , (38634, 2, 27221,  0, 93, 0, False) /* Create Lorica Breastplate (27221) for Wield */
      , (38634, 2, 27222,  0, 93, 0, False) /* Create Lorica Gauntlets (27222) for Wield */
      , (38634, 2, 27224,  0, 93, 0, False) /* Create Lorica Leggings (27224) for Wield */

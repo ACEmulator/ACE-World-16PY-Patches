@@ -179,5 +179,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5138, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
-     , (5138, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (5138, 2,  2604,  0, 9, 1, False) /* Create Wide Breeches (2604) for Wield */
      , (5138, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */;

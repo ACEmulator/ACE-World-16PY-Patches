@@ -516,6 +516,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'What are you doing loiterin
      , (@parent_id,  1,   5 /* Motion */, 1, 1, 0x13000079 /* ShakeFist */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10842, 2,  2588,  0, 14, 0.8, False) /* Create Shirt (2588) for Wield */
+VALUES (10842, 2,  2588,  0, 14, 0.8, False) /* Create Flared Shirt (2588) for Wield */
      , (10842, 2,   127,  0, 2, 0.8, False) /* Create Pants (127) for Wield */
      , (10842, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */;

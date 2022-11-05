@@ -1961,6 +1961,6 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9495, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
-     , (9495, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */
+     , (9495, 2,  2604,  0, 9, 0, False) /* Create Wide Breeches (2604) for Wield */
      , (9495, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (9495, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;

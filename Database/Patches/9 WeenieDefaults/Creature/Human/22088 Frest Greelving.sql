@@ -347,6 +347,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 1, 1, 0x4000001C /* Reading */, NULL, 
      , (@parent_id,  6,   2 /* AwardXP */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 143000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22088, 2,  2590,  0, 14, 1, False) /* Create Shirt (2590) for Wield */
-     , (22088, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+VALUES (22088, 2,  2590,  0, 14, 1, False) /* Create Baggy Shirt (2590) for Wield */
+     , (22088, 2,  2598,  0, 4, 0.8, False) /* Create Baggy Pants (2598) for Wield */
      , (22088, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */;

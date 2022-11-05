@@ -132,7 +132,7 @@ VALUES (35988, 2, 21159,  1, 93, 0, False) /* Create Covenant Tassets (21159) fo
      , (35988, 2, 21155,  1, 93, 0, False) /* Create Covenant Greaves (21155) for Wield */
      , (35988, 2, 21150,  1, 93, 0, False) /* Create Covenant Sollerets (21150) for Wield */
      , (35988, 2, 87038,  1, 93, 0, False) /* Create Helm of Isin Dule (87038) for Wield */
-     , (35988, 2,  2597,  1, 92, 0, False) /* Create Pants (2597) for Wield */
-     , (35988, 2,  2588,  1, 14, 0, False) /* Create Shirt (2588) for Wield */
+     , (35988, 2,  2597,  1, 92, 0, False) /* Create Flared Pants (2597) for Wield */
+     , (35988, 2,  2588,  1, 14, 0, False) /* Create Flared Shirt (2588) for Wield */
      , (35988, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (35988, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

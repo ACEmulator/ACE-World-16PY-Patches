@@ -342,4 +342,4 @@ VALUES (@parent_id,  0,  30 /* InqQuestSolves */, 0, 1, NULL, 'StipendTimer_0812
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46424, 2,   115,  1, 4, 1, False) /* Create Leather Boots (115) for Wield */
      , (46424, 2,  2600,  1, 9, 0.9818, False) /* Create Pantaloons (2600) for Wield */
-     , (46424, 2,  2590,  1, 4, 0.8, False) /* Create Shirt (2590) for Wield */;
+     , (46424, 2,  2590,  1, 4, 0.8, False) /* Create Baggy Shirt (2590) for Wield */;

@@ -975,7 +975,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you have already investigated the camps, and you have some trophy to prove it, I will gladly reward you. I also accept Tumerok insignia.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11811, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+VALUES (11811, 2,  2591,  0, 9, 1, False) /* Create Puffy Shirt (2591) for Wield */
      , (11811, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (11811, 2,  6003,  0, 21, 0.8, False) /* Create Koujia Breastplate (6003) for Wield */
      , (11811, 2,  6005,  0, 17, 0.8, False) /* Create Koujia Sleeves (6005) for Wield */

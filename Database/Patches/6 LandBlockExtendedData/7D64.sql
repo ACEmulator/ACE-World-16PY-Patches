@@ -275,7 +275,7 @@ VALUES (0x77D6405E, 0x77D64060, '2022-03-19 04:04:39') /* Ghaziyah (44896) */
      , (0x77D6405E, 0x77D6406B, '2022-03-19 04:04:39') /* Nawaf (42721) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D6405F, 33610, 0x7D640015, 61, 105, 12, 0.707107, 0, 0, -0.707107, False, '2022-03-19 04:04:39'); /* Gharu'udim Pathwarden Chest */
+VALUES (0x77D6405F, 33610, 0x7D640015, 61, 105, 12, 0.707107, 0, 0, -0.707107, False, '2022-03-19 04:04:39'); /* Gharu'ndim Pathwarden Chest */
 /* @teleloc 0x7D640015 [61.000000 105.000000 12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

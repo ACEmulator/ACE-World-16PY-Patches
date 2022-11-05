@@ -1960,7 +1960,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 37259 /* King of Eyes */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9496, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
-     , (9496, 2,  2598,  0, 9, 0, False) /* Create Pants (2598) for Wield */
+VALUES (9496, 2,  2588,  0, 9, 1, False) /* Create Flared Shirt (2588) for Wield */
+     , (9496, 2,  2598,  0, 9, 0, False) /* Create Baggy Pants (2598) for Wield */
      , (9496, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (9496, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;

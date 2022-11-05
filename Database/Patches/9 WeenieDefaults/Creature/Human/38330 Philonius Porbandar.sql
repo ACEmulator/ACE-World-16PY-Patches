@@ -191,7 +191,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You are not yet prepared fo
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38330, 2,   130,  0, 91, 0.5, False) /* Create Shirt (130) for Wield */
-     , (38330, 2,  2597,  0, 4, 0.5, False) /* Create Pants (2597) for Wield */
+     , (38330, 2,  2597,  0, 4, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (38330, 2,    83,  0, 90, 0, False) /* Create Scalemail Leggings (83) for Wield */
      , (38330, 2,   115,  0, 12, 0, False) /* Create Leather Boots (115) for Wield */
      , (38330, 2, 80303,  0, 0, 0, False) /* Create Celestial Hand Tabard (80303) for Wield */;

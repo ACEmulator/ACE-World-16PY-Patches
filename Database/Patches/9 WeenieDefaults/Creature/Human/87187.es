@@ -1,13 +1,13 @@
 ReceiveLocalSignal: HoshinoKneel
-	- Motion: KneelState
-	- Delay: 1, Say: Arggh!, Extent: 40
+    - Motion: KneelState
+    - Delay: 1, Say: Arggh!, Extent: 40
 
 ReceiveLocalSignal: HoshinoReady
-	- Motion: Ready
+    - Motion: Ready
 
 ReceiveLocalSignal: HoshinoDeath
-	- Motion: Dead
-	- Sound: Wound1
+    - Motion: Dead
+    - Sound: Wound1
 
 ReceiveLocalSignal: HoshinoDelete
-	- Delay: 1, DeleteSelf
+    - Delay: 1, DeleteSelf

@@ -682,6 +682,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'If you give me the hide of an armoredillo, gromnie, reedshark, or mattekar, I can make something with it that you may find useful.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4215, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+VALUES (4215, 2,  2591,  0, 9, 1, False) /* Create Puffy Shirt (2591) for Wield */
      , (4215, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (4215, 2,  2606,  0, 13, 0.5, False) /* Create Boots (2606) for Wield */;

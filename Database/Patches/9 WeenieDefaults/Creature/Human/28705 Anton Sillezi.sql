@@ -331,5 +331,5 @@ VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'RenaldRefusal', NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28705, 2, 28607,  0, 16, 0.9, False) /* Create Lace Shirt (28607) for Wield */
-     , (28705, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */
+     , (28705, 2,  2601,  0, 4, 0, False) /* Create Loose Pants (2601) for Wield */
      , (28705, 2, 31249,  0, 39, 0.9, False) /* Create Viamontian Laced Boots (31249) for Wield */;

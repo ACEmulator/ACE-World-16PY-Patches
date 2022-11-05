@@ -128,5 +128,5 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, ' ', NULL, NULL, NUL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32780, 2,   135,  0, 14, 0.1667, False) /* Create Turban (135) for Wield */
      , (32780, 2, 28608,  0, 14, 0.6047, False) /* Create Poet's Shirt (28608) for Wield */
-     , (32780, 2,  2597,  0, 14, 0.0179, False) /* Create Pants (2597) for Wield */
+     , (32780, 2,  2597,  0, 14, 0.0179, False) /* Create Flared Pants (2597) for Wield */
      , (32780, 2,   133,  0, 14, 0.1667, False) /* Create Slippers (133) for Wield */;

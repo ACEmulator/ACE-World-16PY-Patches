@@ -442,5 +442,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3931, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
-     , (3931, 2,  2601,  0, 14, 0.6, False) /* Create Pants (2601) for Wield */
+     , (3931, 2,  2601,  0, 14, 0.6, False) /* Create Loose Pants (2601) for Wield */
      , (3931, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */;

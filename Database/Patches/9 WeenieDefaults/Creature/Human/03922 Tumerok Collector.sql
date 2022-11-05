@@ -179,6 +179,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I am a collector of the golden insignia that can be found with the tumeroks.  Bring them to me as proof of your battles against them, and I will reward you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3922, 2,  2593,  0, 9, 0, False) /* Create Tunic (2593) for Wield */
-     , (3922, 2,  2598,  0, 9, 0, False) /* Create Pants (2598) for Wield */
+VALUES (3922, 2,  2593,  0, 9, 0, False) /* Create Loose Tunic (2593) for Wield */
+     , (3922, 2,  2598,  0, 9, 0, False) /* Create Baggy Pants (2598) for Wield */
      , (3922, 2,  2606,  0, 17, 1, False) /* Create Boots (2606) for Wield */;

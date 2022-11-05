@@ -187,6 +187,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You are not powerful enough
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38426, 2,  2587,  0, 92, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (38426, 2,  2597,  0, 93, 0.5, False) /* Create Pants (2597) for Wield */
+     , (38426, 2,  2597,  0, 93, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (38426, 2,   115,  0, 13, 0.3, False) /* Create Leather Boots (115) for Wield */
      , (38426, 2, 80304,  0, 0, 0, False) /* Create Eldrytch Web Tabard (80304) for Wield */;
