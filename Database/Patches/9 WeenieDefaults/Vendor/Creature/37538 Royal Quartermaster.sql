@@ -158,23 +158,23 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37538, 2, 28068,  0, 17, 0.7019, False) /* Create Guardian's Uniform (28068) for Wield */
-     , (37538, 4, 37532, -1, 0, 0, False) /* Create  (37532) for Shop */
-     , (37538, 4, 37536, -1, 0, 0, False) /* Create  (37536) for Shop */
-     , (37538, 4, 37533, -1, 0, 0, False) /* Create  (37533) for Shop */
-     , (37538, 4, 37534, -1, 0, 0, False) /* Create  (37534) for Shop */
-     , (37538, 4, 37535, -1, 0, 0, False) /* Create  (37535) for Shop */
-     , (37538, 4, 37520, -1, 0, 0, False) /* Create  (37520) for Shop */
-     , (37538, 4, 37521, -1, 0, 0, False) /* Create  (37521) for Shop */
-     , (37538, 4, 37522, -1, 0, 0, False) /* Create  (37522) for Shop */
-     , (37538, 4, 37523, -1, 0, 0, False) /* Create  (37523) for Shop */
-     , (37538, 4, 37524, -1, 0, 0, False) /* Create  (37524) for Shop */
-     , (37538, 4, 37525, -1, 0, 0, False) /* Create  (37525) for Shop */
-     , (37538, 4, 37526, -1, 0, 0, False) /* Create  (37526) for Shop */
-     , (37538, 4, 37528, -1, 0, 0, False) /* Create  (37528) for Shop */
-     , (37538, 4, 37529, -1, 0, 0, False) /* Create  (37529) for Shop */
-     , (37538, 4, 37560, -1, 0, 0, False) /* Create  (37560) for Shop */
-     , (37538, 4, 37527, -1, 0, 0, False) /* Create  (37527) for Shop */
-     , (37538, 4, 37530, -1, 0, 0, False) /* Create  (37530) for Shop */
-     , (37538, 4, 37531, -1, 0, 0, False) /* Create  (37531) for Shop */
-     , (37538, 4, 37537, -1, 0, 0, False) /* Create  (37537) for Shop */
-     , (37538, 4, 37519, -1, 0, 0, False) /* Create  (37519) for Shop */;
+     , (37538, 4, 37532, -1, 0, 0, False) /* Create Aerbax Pack Doll Orders (37532) for Shop */
+     , (37538, 4, 37536, -1, 0, 0, False) /* Create Experience Orders (37536) for Shop */
+     , (37538, 4, 37533, -1, 0, 0, False) /* Create Aluvian Casino Key Orders (37533) for Shop */
+     , (37538, 4, 37534, -1, 0, 0, False) /* Create Gharu'ndim Casino Key Orders (37534) for Shop */
+     , (37538, 4, 37535, -1, 0, 0, False) /* Create Sho Casino Key Orders (37535) for Shop */
+     , (37538, 4, 37520, -1, 0, 0, False) /* Create Foolproof Aquamarine Orders (37520) for Shop */
+     , (37538, 4, 37521, -1, 0, 0, False) /* Create Foolproof Black Garnet Orders (37521) for Shop */
+     , (37538, 4, 37522, -1, 0, 0, False) /* Create Foolproof Black Opal Orders (37522) for Shop */
+     , (37538, 4, 37523, -1, 0, 0, False) /* Create Foolproof Emerald Orders (37523) for Shop */
+     , (37538, 4, 37524, -1, 0, 0, False) /* Create Foolproof Fire Opal Orders (37524) for Shop */
+     , (37538, 4, 37525, -1, 0, 0, False) /* Create Foolproof Imperial Topaz Orders (37525) for Shop */
+     , (37538, 4, 37526, -1, 0, 0, False) /* Create Foolproof Jet Orders (37526) for Shop */
+     , (37538, 4, 37528, -1, 0, 0, False) /* Create Foolproof Red Garnet Orders (37528) for Shop */
+     , (37538, 4, 37529, -1, 0, 0, False) /* Create Foolproof Sunstone Orders (37529) for Shop */
+     , (37538, 4, 37560, -1, 0, 0, False) /* Create Foolproof White Sapphire Orders (37560) for Shop */
+     , (37538, 4, 37527, -1, 0, 0, False) /* Create Foolproof Peridot Orders (37527) for Shop */
+     , (37538, 4, 37530, -1, 0, 0, False) /* Create Foolproof Yellow Topaz Orders (37530) for Shop */
+     , (37538, 4, 37531, -1, 0, 0, False) /* Create Foolproof Zircon Orders (37531) for Shop */
+     , (37538, 4, 37537, -1, 0, 0, False) /* Create Enhanced Health Elixir Orders (37537) for Shop */
+     , (37538, 4, 37519, -1, 0, 0, False) /* Create Enhanced Mana Elixir Orders (37519) for Shop */;

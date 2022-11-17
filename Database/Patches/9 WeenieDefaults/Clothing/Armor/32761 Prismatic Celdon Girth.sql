@@ -6,10 +6,10 @@ VALUES (32761, 'ace32761-prismaticceldongirth', 2, '2022-09-03 00:00:00') /* Clo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32761,   1,          2) /* ItemType - Armor */
      , (32761,   3,         39) /* PaletteTemplate - Black */
-     , (32761,    4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (32761,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (32761,   5,       1375) /* EncumbranceVal */
      , (32761,   8,       1200) /* Mass */
-     , (32761,    9,       1024) /* ValidLocations - AbdomenArmor */
+     , (32761,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (32761,  16,          1) /* ItemUseable - No */
      , (32761,  18,          1) /* UiEffects - Magical */
      , (32761,  19,       4000) /* Value */

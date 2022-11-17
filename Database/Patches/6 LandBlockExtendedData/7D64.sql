@@ -339,14 +339,13 @@ VALUES (0x77D64074, 42737, 0x7D64010E, 86.6307, 139.512, 12.005, 0.170397, 0, 0,
 /* @teleloc 0x7D64010E [86.630699 139.511993 12.005000] 0.170397 0.000000 0.000000 0.985376 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64075, 37518, 0x7D640018, 66.1992, 183.29, 12.005, 0.999911, 0, 0, -0.013339,  False, '2019-02-10 00:00:00'); /* Royal Guard */
-/* @teleloc 0x7D640018 [66.199200 183.290000 12.005000] 0.999911 0.000000 0.000000 -0.013339 */
+VALUES (0x77D64075, 37518, 0x7D640018, 66.1992, 183.29, 12.005, 0.999911, 0, 0, -0.013339, False, '2019-02-10 00:00:00'); /* Royal Guard */
+/* @teleloc 0x7D640018 [66.199203 183.289993 12.005000] 0.999911 0.000000 0.000000 -0.013339 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64076, 37518, 0x7D64002C, 140.955, 87.8733, 15.4975, 0.759906, 0, 0, -0.650033,  False, '2019-02-10 00:00:00'); /* Royal Guard */
-/* @teleloc 0x7D64002C [140.955000 87.873300 15.497500] 0.759906 0.000000 0.000000 -0.650033 */
+VALUES (0x77D64076, 37518, 0x7D64002C, 140.955, 87.8733, 15.4975, 0.759906, 0, 0, -0.650033, False, '2019-02-10 00:00:00'); /* Royal Guard */
+/* @teleloc 0x7D64002C [140.955002 87.873299 15.497500] 0.759906 0.000000 0.000000 -0.650033 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64077, 37518, 0x7D640019, 83.6504, 4.37371, 12.005, 0.321405, 0, 0, -0.946942,  False, '2019-02-10 00:00:00'); /* Royal Guard */
-/* @teleloc 0x7D640019 [83.650400 4.373710 12.005000] 0.321405 0.000000 0.000000 -0.946942 */
-
+VALUES (0x77D64077, 37518, 0x7D640019, 83.6504, 4.37371, 12.005, 0.321405, 0, 0, -0.946942, False, '2019-02-10 00:00:00'); /* Royal Guard */
+/* @teleloc 0x7D640019 [83.650398 4.373710 12.005000] 0.321405 0.000000 0.000000 -0.946942 */

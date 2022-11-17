@@ -6,7 +6,7 @@ VALUES (32762, 'ace32762-prismaticceldonleggings', 2, '2022-09-03 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32762,   1,          2) /* ItemType - Armor */
      , (32762,   3,         39) /* PaletteTemplate - Black */
-     , (32762,    4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
+     , (32762,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (32762,   5,       3100) /* EncumbranceVal */
      , (32762,   8,       1200) /* Mass */
      , (32762,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
