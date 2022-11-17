@@ -437,3 +437,16 @@ VALUES (0x7A9B46AC, 42736, 0xA9B4012A, 61.1951, 135.937, 66.005, -0.730577, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B46AD, 39983, 0xA9B40032, 154.569, 36.2015, 96.005, 0.052418, 0, 0, -0.998625,  True, '2022-06-06 04:05:48'); /* Rand, Game Hunter */
 /* @teleloc 0xA9B40032 [154.569000 36.201500 96.004997] 0.052418 0.000000 0.000000 -0.998625 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B46AE, 37518, 0xA9B40021, 115.251, 6.48831, 94.005, -0.86921, 0, 0, -0.494442,  False, '2019-02-10 00:00:00'); /* Royal Guard */
+/* @teleloc 0xA9B40021 [115.251000 6.488310 94.005000] -0.869210 0.000000 0.000000 -0.494442 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B46AF, 37518, 0xA9B40005, 9.89043, 114.139, 66.98183, 0.707137, 0, 0, 0.707076,  False, '2019-02-10 00:00:00'); /* Royal Guard */
+/* @teleloc 0xA9B40005 [9.890430 114.139000 66.981830] 0.707137 0.000000 0.000000 0.707076 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B46B0, 37518, 0xA9B4003D, 176.73, 106.375, 65.2775, 0.643583, 0, 0, -0.765377,  False, '2019-02-10 00:00:00'); /* Royal Guard */
+/* @teleloc 0xA9B4003D [176.730000 106.375000 65.277500] 0.643583 0.000000 0.000000 -0.765377 */
+

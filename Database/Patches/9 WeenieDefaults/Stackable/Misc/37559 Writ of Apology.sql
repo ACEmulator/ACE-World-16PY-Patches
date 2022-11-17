@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37559;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37559, 'ace37559-writofapology', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (37559, 'ace37559-writofapology', 51, '2019-02-10 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37559,   1,        128) /* ItemType - Misc */
@@ -17,7 +17,8 @@ VALUES (37559,   1,        128) /* ItemType - Misc */
      , (37559, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37559,  69, False) /* IsSellable */;
+VALUES (37559,  23, True ) /* DestroyOnSell */
+     , (37559,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37559,  39,     2.5) /* DefaultScale */;
