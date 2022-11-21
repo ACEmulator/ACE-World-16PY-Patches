@@ -182,5 +182,5 @@ VALUES (0x74CE3185, 72479, 0x4CE30013, 57.6043, 64.5998, 63.0107, 1, 0, 0, 0, Fa
 /* @teleloc 0x4CE30013 [57.604301 64.599800 63.010700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74CE3188, 90109, 0x4CE30013, 70.7787, 53.9857, 60.055, 0.433359, 0, 0, 0.901221, False, '2022-11-14 16:07:59'); /* Daimyo Nobanuga Gen */
-/* @teleloc 0x4CE30013 [70.778702 53.985699 60.055000] 0.433359 0.000000 0.000000 0.901221 */
+VALUES (0x74CE3189, 90109, 0x4CE30013, 61.919, 49.73739, 60.055, -0.896437, 0, 0, 0.443171, False, '2022-11-20 22:16:56'); /* Daimyo Nobanuga Gen */
+/* @teleloc 0x4CE30013 [61.918999 49.737389 60.055000] -0.896437 0.000000 0.000000 0.443171 */
