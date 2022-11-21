@@ -18,7 +18,7 @@ VALUES (90109,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (90109,  41,    3600) /* RegenerationInterval */
-     , (90109,  43,      10) /* GeneratorRadius */;
+     , (90109,  43,      35) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (90109,   1, 'Daimyo Nobanuga Gen') /* Name */;
