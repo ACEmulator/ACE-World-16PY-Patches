@@ -10,3 +10,7 @@ VALUES (0x7462D04E, 0x7462D04F, '2021-11-01 00:00:00') /* Candrus Steady-Hand (3
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7462D04F, 37602, 0x462D0032, 148.356, 32.7238, 4.005, 0.229106, 0, 0, 0.973401,  True, '2021-11-01 00:00:00'); /* Candrus Steady-Hand */
 /* @teleloc 0x462D0032 [148.356003 32.723801 4.005000] 0.229106 0.000000 0.000000 0.973401 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7462D050, 41952, 0x462D0026, 101.832, 134.59, 67.7902, -0.526266, 0, 0, -0.85032, False, '2022-11-22 07:49:02'); /* Mhoire Castle Southeast Tower Portal */
+/* @teleloc 0x462D0026 [101.832001 134.589996 67.790199] -0.526266 0.000000 0.000000 -0.850320 */
