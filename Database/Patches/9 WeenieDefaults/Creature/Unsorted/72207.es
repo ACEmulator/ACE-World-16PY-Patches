@@ -86,6 +86,7 @@ GotoSet: CheckOrder4
 
 GotoSet: Pass
     - StampQuest: mhoireNWcounter
+    - StampQuest: mhoireNWportalflag
     - DirectBroadcast: You have chosen correctly. You must choose the next guardian.
 
 GotoSet: Fail
