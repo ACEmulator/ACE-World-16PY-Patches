@@ -53,6 +53,7 @@ GotoSet: CheckTrials
                             - Tell: I can grant you passage to the inner halls of Mhoire Castle. Make your way into the throne room and use this flame on the Mhoire Throne.
                             - Tell: The corruption will not be able to bear the purity and will reveal itself. Destroy it and bring one of its corrupt signet rings to me as proof of your deed.
                             - DirectBroadcast: The corrupted spirit is very powerful. You might want to bring a group.
+                            - StampQuest: MhoireGreatHall
                             - StampQuest: MhoireTrialsComplete
                         QuestFailure:
                             - Tell: You have not yet proved yourself in the test of the southeast tower.
