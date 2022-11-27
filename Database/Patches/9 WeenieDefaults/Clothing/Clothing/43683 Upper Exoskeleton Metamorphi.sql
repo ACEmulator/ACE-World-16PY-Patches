@@ -36,9 +36,10 @@ VALUES (43683,   1, 'Upper Exoskeleton Metamorphi') /* Name */
      , (43683,  16, 'When equipped, this Metamorphi will increase the Ripper''s Damage Rating.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43683,   1, 0x020000DD) /* Setup */
+VALUES (43683,   1, 0x020009D1) /* Setup */
      , (43683,   3, 0x20000014) /* SoundTable */
      , (43683,   6, 0x0400007E) /* PaletteBase */
+     , (43683,   7, 0x100007C3) /* ClothingBase */
      , (43683,   8, 0x06006EA7) /* Icon */
      , (43683,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43683,  52, 0x06006E9A) /* IconUnderlay */
