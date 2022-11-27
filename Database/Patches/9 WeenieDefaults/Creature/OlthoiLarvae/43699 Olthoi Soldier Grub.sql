@@ -14,7 +14,7 @@ VALUES (43699,   1,         16) /* ItemType - Creature */
      , (43699,  25,         20) /* Level */
      , (43699,  27,          0) /* ArmorType - None */
      , (43699,  40,          2) /* CombatMode - Melee */
-     , (43699,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (43699,  68,         64) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (43699,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43699, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (43699, 146,       3600) /* XpOverride */;
