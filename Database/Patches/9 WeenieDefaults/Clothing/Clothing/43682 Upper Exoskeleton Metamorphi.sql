@@ -14,11 +14,12 @@ VALUES (43682,   1,          4) /* ItemType - Clothing */
      , (43682,  33,          1) /* Bonded - Bonded */
      , (43682,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43682, 114,          1) /* Attuned - Attuned */
-     , (43682, 265,         45) /* EquipmentSetId - OlthoiArmorDRat */
+     , (43682, 265,         44) /* EquipmentSetId - OlthoiArmorDRat */
      , (43682, 324,         12) /* HeritageSpecificArmor - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43682,  22, True ) /* Inscribable */;
+VALUES (43682,  22, True ) /* Inscribable */
+     , (43682,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43682,  13,       1) /* ArmorModVsSlash */
