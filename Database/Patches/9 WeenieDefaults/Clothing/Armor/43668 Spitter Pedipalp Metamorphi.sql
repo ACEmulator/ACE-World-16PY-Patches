@@ -36,10 +36,10 @@ VALUES (43668,   1, 'Spitter Pedipalp Metamorphi') /* Name */
      , (43668,  16, 'When equipped, this Metamorphi will increase the Spitter''s Critical Damage Rating') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43668,   1, 0x020000DD) /* Setup */
+VALUES (43668,   1, 0x020009D1) /* Setup */
      , (43668,   3, 0x20000014) /* SoundTable */
      , (43668,   6, 0x0400007E) /* PaletteBase */
+     , (43668,   7, 0x100007C3) /* ClothingBase */
      , (43668,   8, 0x06006EA3) /* Icon */
      , (43668,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (43668,  52, 0x06006E9D) /* IconUnderlay */
-     , (43668, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
+     , (43668,  52, 0x06006E9D) /* IconUnderlay */;
