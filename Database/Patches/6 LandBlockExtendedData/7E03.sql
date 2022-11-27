@@ -502,8 +502,8 @@ VALUES (0x77E03143, 0x77E03144, '2021-11-01 00:00:00') /* Deewain Rock Jump Gene
      , (0x77E03143, 0x77E0318D, '2021-11-01 00:00:00') /* Energy Infused Rock (43792) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E03144, 86700, 0x7E030140, 100.460136, -252.399643, -5.995000, 0.016801, 0, 0, 0.999859,  True, '2021-11-01 00:00:00'); /* Deewain Rock Jump Generator */
-/* @teleloc 0x7E030140 [100.460136 -252.399643 -5.995000] 0.016801 0.000000 0.000000 0.999859 */
+VALUES (0x77E03144, 86700, 0x7E030140, 100.46, -252.4, -5.995, 0.016801, 0, 0, 0.999859,  True, '2021-11-01 00:00:00'); /* Deewain Rock Jump Generator */
+/* @teleloc 0x7E030140 [100.459999 -252.399994 -5.995000] 0.016801 0.000000 0.000000 0.999859 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E03155, 51586, 0x7E03087E, 422.499, -15.921, 6.209, 0.382925, 0, 0, -0.923779,  True, '2021-11-01 00:00:00'); /* Legendary Key */
