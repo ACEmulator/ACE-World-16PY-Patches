@@ -18,7 +18,8 @@ VALUES (43681,   1,          4) /* ItemType - Clothing */
      , (43681, 324,         12) /* HeritageSpecificArmor - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43681,  22, True ) /* Inscribable */;
+VALUES (43681,  22, True ) /* Inscribable */
+     , (43681,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43681,  13,       1) /* ArmorModVsSlash */
