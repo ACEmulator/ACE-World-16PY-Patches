@@ -33,7 +33,7 @@ VALUES (43600,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43600,   1, 'Soldier Pincer Metamorphi') /* Name */
-     , (43600,  16, 'When equipped, this Metamorphi will increase the Soldier''s Critical Damage Rating') /* LongDesc */;
+     , (43600,  16, 'When equipped, this Metamorphi will decrease the incoming Critical Strike damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43600,   1, 0x020009D1) /* Setup */
