@@ -36,9 +36,10 @@ VALUES (43672,   1, 'Lower Exoskeleton Metamorphi') /* Name */
      , (43672,  16, 'When equipped, this Metamorphi will decrease incoming damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43672,   1, 0x020000DD) /* Setup */
+VALUES (43672,   1, 0x020009D1) /* Setup */
      , (43672,   3, 0x20000014) /* SoundTable */
      , (43672,   6, 0x0400007E) /* PaletteBase */
+     , (43672,   7, 0x100007C3) /* ClothingBase */
      , (43672,   8, 0x06006EA6) /* Icon */
      , (43672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43672,  52, 0x06006E9B) /* IconUnderlay */
