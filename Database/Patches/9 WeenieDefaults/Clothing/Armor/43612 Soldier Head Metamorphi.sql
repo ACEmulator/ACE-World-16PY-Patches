@@ -14,7 +14,7 @@ VALUES (43612,   1,          2) /* ItemType - Armor */
      , (43612,  33,          1) /* Bonded - Bonded */
      , (43612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43612, 114,          1) /* Attuned - Attuned */
-     , (43612, 265,         44) /* EquipmentSetId - OlthoiArmorDRat */
+     , (43612, 265,         44) /* EquipmentSetId - OlthoiArmorCRed */
      , (43612, 324,         12) /* HeritageSpecificArmor - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,5 +42,4 @@ VALUES (43612,   1, 0x020009D1) /* Setup */
      , (43612,   7, 0x100007C3) /* ClothingBase */
      , (43612,   8, 0x06006E9F) /* Icon */
      , (43612,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (43612,  52, 0x06006E99) /* IconUnderlay */
-     , (43612, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
+     , (43612,  52, 0x06006E99) /* IconUnderlay */;
