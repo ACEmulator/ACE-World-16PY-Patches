@@ -21,19 +21,17 @@ Give: 51351
 Give: Male Tusker Tusk (22427)
     - TurnToTarget
     - Tell: Excellent work. Of course this is one of the lowliest of the tuskers, but you were brave and showed your dedication to my cause.
-    - AwardXP: 100,000
+    - AwardXP: 200,000
     - AddCharacterTitle: ResistanceFighter
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Female Tusker Tusk (22423)
     - TurnToTarget
     - Tell: Excellent work. Of course this is the lowliest of the tuskers, but you did show your dedication to my cause.
-    - AwardXP: 200,000
+    - AwardXP: 100,000
     - AddCharacterTitle: ResistanceRecruit
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Tusker Crimsonback Tusk (22421)
@@ -42,7 +40,6 @@ Give: Tusker Crimsonback Tusk (22421)
     - AwardXP: 350,000
     - AddCharacterTitle: RedFury
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Goldenback Tusker Tusk (22424)
@@ -51,7 +48,6 @@ Give: Goldenback Tusker Tusk (22424)
     - AwardXP: 500,000
     - AddCharacterTitle: GoldenGod
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Tusker Redeemer Tusk (22430)
@@ -60,7 +56,6 @@ Give: Tusker Redeemer Tusk (22430)
     - AwardXP: 750,000
     - AddCharacterTitle: Lightbringer
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Tusker Liberator Tusk (22426)
@@ -69,7 +64,6 @@ Give: Tusker Liberator Tusk (22426)
     - AwardXP: 850,000
     - AddCharacterTitle: Deliverer
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Tusker Slave Tusk (22432)
@@ -78,7 +72,6 @@ Give: Tusker Slave Tusk (22432)
     - AwardXP: 1,000,000
     - AddCharacterTitle: ChainBreaker
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Tusker Guard Tusk (22425)
@@ -87,7 +80,6 @@ Give: Tusker Guard Tusk (22425)
     - AwardXP: 2,500,000
     - AddCharacterTitle: MoraleSmasher
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Armored Tusker Tusk (22419)
@@ -96,7 +88,6 @@ Give: Armored Tusker Tusk (22419)
     - AwardXP: 3,500,000
     - AddCharacterTitle: Shredder
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Silver Tusker Tusk (22431)
@@ -105,7 +96,6 @@ Give: Silver Tusker Tusk (22431)
     - AwardXP: 5,000,000
     - AddCharacterTitle: SilverSerf
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Plated Tusker Tusk (22428)
@@ -114,7 +104,6 @@ Give: Plated Tusker Tusk (22428)
     - AwardXP: 6,500,000
     - AddCharacterTitle: Bloodletter
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Rampager Tusk (22429)
@@ -126,7 +115,6 @@ Give: Rampager Tusk (22429)
     - AwardXP: 8,000,000
     - AddCharacterTitle: HeartRipper
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Assailer Tusk (22420)
@@ -135,7 +123,6 @@ Give: Assailer Tusk (22420)
     - AwardXP: 11,000,000
     - AddCharacterTitle: MasterofSlaughter
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Devastator Tusk (22422)
@@ -145,7 +132,6 @@ Give: Devastator Tusk (22422)
     - AwardXP: 22,000,000
     - AddCharacterTitle: ParagonofDeath
     - Give: Aphus Lassel Portal Gem (22729)
-    - Delay: 2, Tell: Take these. If you want I can change your title to be more indicative of your rank within the resistance. All you need do is hand the token back.
     - Delay: 2, Tell: The portal gem will get you back here quickly, until you steal the scroll from the clutches of the mighty Bobo.
 
 Give: Tusker Title Token (22625)

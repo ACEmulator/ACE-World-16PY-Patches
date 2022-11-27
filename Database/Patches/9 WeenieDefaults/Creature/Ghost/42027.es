@@ -72,6 +72,7 @@ GotoSet: Reward
     - AddCharacterTitle: 696
     - DirectBroadcast: You have been awarded the title Champion of House Mhoire!
     - AwardLevelProportionalXP: 50%, 0 - 1,695,225,700
+    - AwardLuminance: 15,000
     - Give: 35383, 2
     - Give: 48748
     - Give: Trade Note (250,000) (20630), 6

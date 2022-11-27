@@ -95,7 +95,7 @@ VALUES (18,  6, 0, 3, 0,  30, 0, 0) /* MeleeDefense        Specialized */
      , (18, 45, 0, 3, 0,  30, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (18,  0,  2, 20, 0.75,   45,   13,   18,   32,   11,   32,   27,   18,    0, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+VALUES (18,  0,  2, 20, 0.75,   45,   13,   18,   31,   11,   31,   27,   18,    0, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
      , (18, 10,  2, 15,  0.5,   30,    8,   12,   21,    8,   21,   18,   12,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
      , (18, 13,  2, 15,  0.5,   30,    8,   12,   21,    8,   21,   18,   12,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
      , (18, 16,  4,  0,    0,   40,   11,   16,   28,   10,   28,   24,   16,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */;
