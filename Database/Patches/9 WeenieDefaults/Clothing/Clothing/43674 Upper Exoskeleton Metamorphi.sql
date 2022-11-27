@@ -36,9 +36,10 @@ VALUES (43674,   1, 'Upper Exoskeleton Metamorphi') /* Name */
      , (43674,  16, 'When equipped, this Metamorphi will decrease the incoming Critical Strike damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43674,   1, 0x020000DD) /* Setup */
+VALUES (43674,   1, 0x020009D1) /* Setup */
      , (43674,   3, 0x20000014) /* SoundTable */
      , (43674,   6, 0x0400007E) /* PaletteBase */
+     , (43674,   7, 0x100007C3) /* ClothingBase */
      , (43674,   8, 0x06006EA7) /* Icon */
      , (43674,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43674,  52, 0x06006E99) /* IconUnderlay */
