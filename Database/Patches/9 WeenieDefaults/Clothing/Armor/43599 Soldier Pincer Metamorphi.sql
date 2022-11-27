@@ -36,9 +36,10 @@ VALUES (43599,   1, 'Soldier Pincer Metamorphi') /* Name */
      , (43599,  16, 'When equipped, this Metamorphi will increase the Soldier''s Critical Damage Rating') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43599,   1, 0x020000DD) /* Setup */
+VALUES (43599,   1, 0x020009D1) /* Setup */
      , (43599,   3, 0x20000014) /* SoundTable */
      , (43599,   6, 0x0400007E) /* PaletteBase */
+     , (43599,   7, 0x100007C3) /* ClothingBase */
      , (43599,   8, 0x06006E98) /* Icon */
      , (43599,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43599,  52, 0x06006E9D) /* IconUnderlay */
