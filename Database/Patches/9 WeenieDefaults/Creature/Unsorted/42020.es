@@ -20,6 +20,7 @@ GotoSet: CheckStatus
                     - TakeItems: 42019, -1
                     - TakeItems: 42015, -1
                     - EraseQuest: mhoireSEgotsword
+                    - StampQuest: mhoireSEportalflag
                     - StampQuest: mhoireSEpass
                     - AddCharacterTitle: 692
                     - DirectBroadcast: You have been granted the title Knight of the Southeast Tower!
