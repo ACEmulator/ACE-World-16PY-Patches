@@ -68,42 +68,42 @@ VALUES (43632, 4, 43677, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi
      , (43632, 4, 43674, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43674) for Shop */
      , (43632, 4, 43675, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43675) for Shop */
      , (43632, 4, 43676, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43676) for Shop */
-     , (43632, 4, 43668, -1, 0, 0, False) /* Create  (43668) for Shop */
-     , (43632, 4, 43669, -1, 0, 0, False) /* Create  (43669) for Shop */
-     , (43632, 4, 43670, -1, 0, 0, False) /* Create  (43670) for Shop */
-     , (43632, 4, 43671, -1, 0, 0, False) /* Create  (43671) for Shop */
-     , (43632, 4, 43636, -1, 0, 0, False) /* Create  (43636) for Shop */
-     , (43632, 4, 43637, -1, 0, 0, False) /* Create  (43637) for Shop */
-     , (43632, 4, 43638, -1, 0, 0, False) /* Create  (43638) for Shop */
-     , (43632, 4, 43639, -1, 0, 0, False) /* Create  (43639) for Shop */
-     , (43632, 4, 43640, -1, 0, 0, False) /* Create  (43640) for Shop */
-     , (43632, 4, 43641, -1, 0, 0, False) /* Create  (43641) for Shop */
-     , (43632, 4, 43642, -1, 0, 0, False) /* Create  (43642) for Shop */
-     , (43632, 4, 43643, -1, 0, 0, False) /* Create  (43643) for Shop */
-     , (43632, 4, 43644, -1, 0, 0, False) /* Create  (43644) for Shop */
-     , (43632, 4, 43645, -1, 0, 0, False) /* Create  (43645) for Shop */
-     , (43632, 4, 43646, -1, 0, 0, False) /* Create  (43646) for Shop */
-     , (43632, 4, 43647, -1, 0, 0, False) /* Create  (43647) for Shop */
-     , (43632, 4, 43648, -1, 0, 0, False) /* Create  (43648) for Shop */
-     , (43632, 4, 43649, -1, 0, 0, False) /* Create  (43649) for Shop */
-     , (43632, 4, 43650, -1, 0, 0, False) /* Create  (43650) for Shop */
-     , (43632, 4, 43651, -1, 0, 0, False) /* Create  (43651) for Shop */
-     , (43632, 4, 43652, -1, 0, 0, False) /* Create  (43652) for Shop */
-     , (43632, 4, 43653, -1, 0, 0, False) /* Create  (43653) for Shop */
-     , (43632, 4, 43654, -1, 0, 0, False) /* Create  (43654) for Shop */
-     , (43632, 4, 43655, -1, 0, 0, False) /* Create  (43655) for Shop */
-     , (43632, 4, 43656, -1, 0, 0, False) /* Create  (43656) for Shop */
-     , (43632, 4, 43657, -1, 0, 0, False) /* Create  (43657) for Shop */
-     , (43632, 4, 43658, -1, 0, 0, False) /* Create  (43658) for Shop */
-     , (43632, 4, 43659, -1, 0, 0, False) /* Create  (43659) for Shop */
-     , (43632, 4, 43660, -1, 0, 0, False) /* Create  (43660) for Shop */
-     , (43632, 4, 43661, -1, 0, 0, False) /* Create  (43661) for Shop */
-     , (43632, 4, 43662, -1, 0, 0, False) /* Create  (43662) for Shop */
-     , (43632, 4, 43663, -1, 0, 0, False) /* Create  (43663) for Shop */
-     , (43632, 4, 43664, -1, 0, 0, False) /* Create  (43664) for Shop */
-     , (43632, 4, 43665, -1, 0, 0, False) /* Create  (43665) for Shop */
-     , (43632, 4, 43666, -1, 0, 0, False) /* Create  (43666) for Shop */
-     , (43632, 4, 43667, -1, 0, 0, False) /* Create  (43667) for Shop */
+     , (43632, 4, 43668, -1, 0, 0, False) /* Create Spitter Pedipalp Metamorphi (43668) for Shop */
+     , (43632, 4, 43669, -1, 0, 0, False) /* Create Spitter Pedipalp Metamorphi (43669) for Shop */
+     , (43632, 4, 43670, -1, 0, 0, False) /* Create Spitter Pedipalp Metamorphi (43670) for Shop */
+     , (43632, 4, 43671, -1, 0, 0, False) /* Create Spitter Pedipalp Metamorphi (43671) for Shop */
+     , (43632, 4, 43636, -1, 0, 0, False) /* Create Spitter Thorax Metamorphi (43636) for Shop */
+     , (43632, 4, 43637, -1, 0, 0, False) /* Create Spitter Thorax Metamorphi (43637) for Shop */
+     , (43632, 4, 43638, -1, 0, 0, False) /* Create Spitter Thorax Metamorphi (43638) for Shop */
+     , (43632, 4, 43639, -1, 0, 0, False) /* Create Spitter Thorax Metamorphi (43639) for Shop */
+     , (43632, 4, 43640, -1, 0, 0, False) /* Create Spitter Pincer Metamorphi (43640) for Shop */
+     , (43632, 4, 43641, -1, 0, 0, False) /* Create Spitter Pincer Metamorphi (43641) for Shop */
+     , (43632, 4, 43642, -1, 0, 0, False) /* Create Spitter Pincer Metamorphi (43642) for Shop */
+     , (43632, 4, 43643, -1, 0, 0, False) /* Create Spitter Pincer Metamorphi (43643) for Shop */
+     , (43632, 4, 43644, -1, 0, 0, False) /* Create Spitter Abdomen Metamorphi (43644) for Shop */
+     , (43632, 4, 43645, -1, 0, 0, False) /* Create Spitter Abdomen Metamorphi (43645) for Shop */
+     , (43632, 4, 43646, -1, 0, 0, False) /* Create Spitter Abdomen Metamorphi (43646) for Shop */
+     , (43632, 4, 43647, -1, 0, 0, False) /* Create Spitter Abdomen Metamorphi (43647) for Shop */
+     , (43632, 4, 43648, -1, 0, 0, False) /* Create Spitter Tibia Metamorphi (43648) for Shop */
+     , (43632, 4, 43649, -1, 0, 0, False) /* Create Spitter Tibia Metamorphi (43649) for Shop */
+     , (43632, 4, 43650, -1, 0, 0, False) /* Create Spitter Tibia Metamorphi (43650) for Shop */
+     , (43632, 4, 43651, -1, 0, 0, False) /* Create Spitter Tibia Metamorphi (43651) for Shop */
+     , (43632, 4, 43652, -1, 0, 0, False) /* Create Spitter Head Metamorphi (43652) for Shop */
+     , (43632, 4, 43653, -1, 0, 0, False) /* Create Spitter Head Metamorphi (43653) for Shop */
+     , (43632, 4, 43654, -1, 0, 0, False) /* Create Spitter Head Metamorphi (43654) for Shop */
+     , (43632, 4, 43655, -1, 0, 0, False) /* Create Spitter Head Metamorphi (43655) for Shop */
+     , (43632, 4, 43656, -1, 0, 0, False) /* Create Spitter Trochanter Metamorphi (43656) for Shop */
+     , (43632, 4, 43657, -1, 0, 0, False) /* Create Spitter Trochanter Metamorphi (43657) for Shop */
+     , (43632, 4, 43658, -1, 0, 0, False) /* Create Spitter Trochanter Metamorphi (43658) for Shop */
+     , (43632, 4, 43659, -1, 0, 0, False) /* Create Spitter Trochanter Metamorphi (43659) for Shop */
+     , (43632, 4, 43660, -1, 0, 0, False) /* Create Spitter Foot Metamorphi (43660) for Shop */
+     , (43632, 4, 43661, -1, 0, 0, False) /* Create Spitter Foot Metamorphi (43661) for Shop */
+     , (43632, 4, 43662, -1, 0, 0, False) /* Create Spitter Foot Metamorphi (43662) for Shop */
+     , (43632, 4, 43663, -1, 0, 0, False) /* Create Spitter Foot Metamorphi (43663) for Shop */
+     , (43632, 4, 43664, -1, 0, 0, False) /* Create Spitter Femur Metamorphi (43664) for Shop */
+     , (43632, 4, 43665, -1, 0, 0, False) /* Create Spitter Femur Metamorphi (43665) for Shop */
+     , (43632, 4, 43666, -1, 0, 0, False) /* Create Spitter Femur Metamorphi (43666) for Shop */
+     , (43632, 4, 43667, -1, 0, 0, False) /* Create Spitter Femur Metamorphi (43667) for Shop */
      , (43632, 4, 43732, -1, 0, 0, False) /* Create Enchanted Olthoi Egg (43732) for Shop */
      , (43632, 4, 43633, -1, 0, 0, False) /* Create Acidic Rejuvenation (43633) for Shop */
      , (43632, 4, 43635, -1, 0, 0, False) /* Create Saliva Invigorator (43635) for Shop */
