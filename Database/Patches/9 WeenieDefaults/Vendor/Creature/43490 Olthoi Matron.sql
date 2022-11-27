@@ -60,14 +60,14 @@ VALUES (43490,   1,  1500, 0, 0, 1710) /* MaxHealth */
      , (43490,   5,    10, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43490, 4, 43685, -1, 0, 0, False) /* Create  (43685) for Shop */
-     , (43490, 4, 43686, -1, 0, 0, False) /* Create  (43686) for Shop */
-     , (43490, 4, 43687, -1, 0, 0, False) /* Create  (43687) for Shop */
-     , (43490, 4, 43672, -1, 0, 0, False) /* Create  (43672) for Shop */
-     , (43490, 4, 43681, -1, 0, 0, False) /* Create  (43681) for Shop */
-     , (43490, 4, 43682, -1, 0, 0, False) /* Create  (43682) for Shop */
-     , (43490, 4, 43683, -1, 0, 0, False) /* Create  (43683) for Shop */
-     , (43490, 4, 43684, -1, 0, 0, False) /* Create  (43684) for Shop */
+VALUES (43490, 4, 43685, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43685) for Shop */
+     , (43490, 4, 43686, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43686) for Shop */
+     , (43490, 4, 43687, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43687) for Shop */
+     , (43490, 4, 43672, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43672) for Shop */
+     , (43490, 4, 43681, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43681) for Shop */
+     , (43490, 4, 43682, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43682) for Shop */
+     , (43490, 4, 43683, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43683) for Shop */
+     , (43490, 4, 43684, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43684) for Shop */
      , (43490, 4, 43627, -1, 0, 0, False) /* Create  (43627) for Shop */
      , (43490, 4, 43628, -1, 0, 0, False) /* Create  (43628) for Shop */
      , (43490, 4, 43629, -1, 0, 0, False) /* Create  (43629) for Shop */
