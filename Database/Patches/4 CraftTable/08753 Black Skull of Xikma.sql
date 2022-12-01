@@ -535,4 +535,8 @@ VALUES (8753, 34042 /* Black Skull of Xikma */,   141 /* Bowl */, '2022-05-10 03
      , (8753, 34042 /* Black Skull of Xikma */, 53329 /* Stormwood Claw */, '2022-05-10 03:49:02')
      , (8753, 34042 /* Black Skull of Xikma */, 53330 /* Stormwood Wand */, '2022-05-10 03:49:02')
      , (8753, 34042 /* Black Skull of Xikma */, 72005 /* Stormwood Staff */, '2022-05-10 03:49:02')
-     , (8753, 34042 /* Black Skull of Xikma */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02');
+     , (8753, 34042 /* Black Skull of Xikma */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02')
+     , (8753, 34042 /* Black Skull of Xikma */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
+     , (8753, 34042 /* Black Skull of Xikma */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
+     , (8753, 34042 /* Black Skull of Xikma */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
+     , (8753, 34042 /* Black Skull of Xikma */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00');

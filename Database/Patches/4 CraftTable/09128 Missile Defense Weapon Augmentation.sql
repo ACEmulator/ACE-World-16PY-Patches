@@ -541,4 +541,8 @@ VALUES (9128, 36633 /* Missile Defense Weapon Augmentation */,   141 /* Bowl */,
      , (9128, 36633 /* Missile Defense Weapon Augmentation */, 53334 /* Corrupted Heartwood Wand */, '2022-07-02 15:33:11')
      , (9128, 36633 /* Missile Defense Weapon Augmentation */, 72004 /* Stormwood Atlatl */, '2022-07-02 15:33:11')
      , (9128, 36633 /* Missile Defense Weapon Augmentation */, 72005 /* Stormwood Staff */, '2022-07-02 15:33:11')
-     , (9128, 36633 /* Missile Defense Weapon Augmentation */, 72006 /* Stormwood Dagger */, '2022-07-02 15:33:11');
+     , (9128, 36633 /* Missile Defense Weapon Augmentation */, 72006 /* Stormwood Dagger */, '2022-07-02 15:33:11')
+     , (9128, 36633 /* Missile Defense Weapon Augmentation */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
+     , (9128, 36633 /* Missile Defense Weapon Augmentation */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
+     , (9128, 36633 /* Missile Defense Weapon Augmentation */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
+     , (9128, 36633 /* Missile Defense Weapon Augmentation */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00');
