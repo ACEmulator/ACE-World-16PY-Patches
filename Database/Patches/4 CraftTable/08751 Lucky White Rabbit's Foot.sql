@@ -451,4 +451,8 @@ VALUES (8751, 32937 /* Lucky White Rabbit's Foot */,   301 /* Battle Axe */, '20
      , (8751, 32937 /* Lucky White Rabbit's Foot */, 53328 /* Stormwood Sword */, '2022-05-10 03:49:02')
      , (8751, 32937 /* Lucky White Rabbit's Foot */, 53329 /* Stormwood Claw */, '2022-05-10 03:49:02')
      , (8751, 32937 /* Lucky White Rabbit's Foot */, 72005 /* Stormwood Staff */, '2022-05-10 03:49:02')
-     , (8751, 32937 /* Lucky White Rabbit's Foot */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02');
+     , (8751, 32937 /* Lucky White Rabbit's Foot */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02')
+     , (8751, 32937 /* Lucky White Rabbit's Foot */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
+     , (8751, 32937 /* Lucky White Rabbit's Foot */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
+     , (8751, 32937 /* Lucky White Rabbit's Foot */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
+     , (8751, 32937 /* Lucky White Rabbit's Foot */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00');

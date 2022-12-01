@@ -450,4 +450,8 @@ VALUES (8934, 53305 /* Gem of Verdant Force */,   301 /* Battle Axe */, '2022-05
      , (8934, 53305 /* Gem of Verdant Force */, 53328 /* Stormwood Sword */, '2022-05-10 03:49:02')
      , (8934, 53305 /* Gem of Verdant Force */, 53329 /* Stormwood Claw */, '2022-05-10 03:49:02')
      , (8934, 53305 /* Gem of Verdant Force */, 72005 /* Stormwood Staff */, '2022-05-10 03:49:02')
-     , (8934, 53305 /* Gem of Verdant Force */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02');
+     , (8934, 53305 /* Gem of Verdant Force */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02')
+     , (8934, 53305 /* Gem of Verdant Force */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
+     , (8934, 53305 /* Gem of Verdant Force */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
+     , (8934, 53305 /* Gem of Verdant Force */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
+     , (8934, 53305 /* Gem of Verdant Force */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00');
