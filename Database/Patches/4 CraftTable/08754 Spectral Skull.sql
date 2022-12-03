@@ -503,6 +503,10 @@ VALUES (8754, 42038 /* Spectral Skull */,   141 /* Bowl */, '2022-05-10 03:49:02
      , (8754, 42038 /* Spectral Skull */, 45101 /* Lightning Epee */, '2022-05-10 03:49:02')
      , (8754, 42038 /* Spectral Skull */, 45102 /* Flaming Epee */, '2022-05-10 03:49:02')
      , (8754, 42038 /* Spectral Skull */, 45103 /* Frost Epee */, '2022-05-10 03:49:02')
+     , (8754, 42038 /* Spectral Skull */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
+     , (8754, 42038 /* Spectral Skull */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
+     , (8754, 42038 /* Spectral Skull */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
+     , (8754, 42038 /* Spectral Skull */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00')
      , (8754, 42038 /* Spectral Skull */, 45108 /* Schlager */, '2022-05-10 03:49:02')
      , (8754, 42038 /* Spectral Skull */, 45109 /* Acid Schlager */, '2022-05-10 03:49:02')
      , (8754, 42038 /* Spectral Skull */, 45110 /* Lightning Schlager */, '2022-05-10 03:49:02')
@@ -535,8 +539,4 @@ VALUES (8754, 42038 /* Spectral Skull */,   141 /* Bowl */, '2022-05-10 03:49:02
      , (8754, 42038 /* Spectral Skull */, 53329 /* Stormwood Claw */, '2022-05-10 03:49:02')
      , (8754, 42038 /* Spectral Skull */, 53330 /* Stormwood Wand */, '2022-05-10 03:49:02')
      , (8754, 42038 /* Spectral Skull */, 72005 /* Stormwood Staff */, '2022-05-10 03:49:02')
-     , (8754, 42038 /* Spectral Skull */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02')
-     , (8754, 42038 /* Spectral Skull */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
-     , (8754, 42038 /* Spectral Skull */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
-     , (8754, 42038 /* Spectral Skull */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
-     , (8754, 42038 /* Spectral Skull */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00');
+     , (8754, 42038 /* Spectral Skull */, 72006 /* Stormwood Dagger */, '2022-05-10 03:49:02');

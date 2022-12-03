@@ -409,6 +409,10 @@ VALUES (9129, 52757 /* Gauntlet Brutality Amplification */,   301 /* Battle Axe 
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 45101 /* Lightning Epee */, '2022-05-17 03:47:03')
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 45102 /* Flaming Epee */, '2022-05-17 03:47:03')
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 45103 /* Frost Epee */, '2022-05-17 03:47:03')
+     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
+     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
+     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
+     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00')
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 45108 /* Schlager */, '2022-05-17 03:47:03')
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 45109 /* Acid Schlager */, '2022-05-17 03:47:03')
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 45110 /* Lightning Schlager */, '2022-05-17 03:47:03')
@@ -439,8 +443,4 @@ VALUES (9129, 52757 /* Gauntlet Brutality Amplification */,   301 /* Battle Axe 
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 53328 /* Stormwood Sword */, '2022-05-17 03:47:03')
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 53329 /* Stormwood Claw */, '2022-05-17 03:47:03')
      , (9129, 52757 /* Gauntlet Brutality Amplification */, 72005 /* Stormwood Staff */, '2022-05-17 03:47:03')
-     , (9129, 52757 /* Gauntlet Brutality Amplification */, 72006 /* Stormwood Dagger */, '2022-05-17 03:47:03')
-     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
-     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
-     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
-     , (9129, 52757 /* Gauntlet Brutality Amplification */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00');
+     , (9129, 52757 /* Gauntlet Brutality Amplification */, 72006 /* Stormwood Dagger */, '2022-05-17 03:47:03');

@@ -418,6 +418,10 @@ VALUES (9125, 35492 /* Gem of Spectral Force */,   301 /* Battle Axe */, '2022-0
      , (9125, 35492 /* Gem of Spectral Force */, 45101 /* Lightning Epee */, '2022-05-17 03:47:03')
      , (9125, 35492 /* Gem of Spectral Force */, 45102 /* Flaming Epee */, '2022-05-17 03:47:03')
      , (9125, 35492 /* Gem of Spectral Force */, 45103 /* Frost Epee */, '2022-05-17 03:47:03')
+     , (9125, 35492 /* Gem of Spectral Force */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
+     , (9125, 35492 /* Gem of Spectral Force */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
+     , (9125, 35492 /* Gem of Spectral Force */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
+     , (9125, 35492 /* Gem of Spectral Force */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00')
      , (9125, 35492 /* Gem of Spectral Force */, 45108 /* Schlager */, '2022-05-17 03:47:03')
      , (9125, 35492 /* Gem of Spectral Force */, 45109 /* Acid Schlager */, '2022-05-17 03:47:03')
      , (9125, 35492 /* Gem of Spectral Force */, 45110 /* Lightning Schlager */, '2022-05-17 03:47:03')
@@ -448,8 +452,4 @@ VALUES (9125, 35492 /* Gem of Spectral Force */,   301 /* Battle Axe */, '2022-0
      , (9125, 35492 /* Gem of Spectral Force */, 53328 /* Stormwood Sword */, '2022-05-17 03:47:03')
      , (9125, 35492 /* Gem of Spectral Force */, 53329 /* Stormwood Claw */, '2022-05-17 03:47:03')
      , (9125, 35492 /* Gem of Spectral Force */, 72005 /* Stormwood Staff */, '2022-05-17 03:47:03')
-     , (9125, 35492 /* Gem of Spectral Force */, 72006 /* Stormwood Dagger */, '2022-05-17 03:47:03')
-     , (9125, 35492 /* Gem of Spectral Force */, 45104 /* Acid Rapier */, '2022-12-01 00:00:00')
-     , (9125, 35492 /* Gem of Spectral Force */, 45105 /* Lightning Rapier */, '2022-12-01 00:00:00')
-     , (9125, 35492 /* Gem of Spectral Force */, 45106 /* Flaming Rapier */, '2022-12-01 00:00:00')
-     , (9125, 35492 /* Gem of Spectral Force */, 45107 /* Frost Rapier */, '2022-12-01 00:00:00');
+     , (9125, 35492 /* Gem of Spectral Force */, 72006 /* Stormwood Dagger */, '2022-05-17 03:47:03');
