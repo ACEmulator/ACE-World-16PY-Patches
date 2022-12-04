@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14802;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14802, 'golemcrystalminion', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (14802, 'golemcrystalminion', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14802,   1,         16) /* ItemType - Creature */
@@ -100,10 +100,10 @@ VALUES (14802,  6, 0, 3, 0, 850, 0, 0) /* MeleeDefense        Specialized */
      , (14802, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (14802,  0,  2, 200, 0.75,  150,  120,   88,  104,   88,   48,   88,   75,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (14802, 16,  4,  0,    0,  150,  120,   88,  104,   88,   48,   88,   75,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (14802, 17,  1, 200, 0.75,  150,  120,   88,  104,   88,   48,   88,   75,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (14802, 21,  4,  0,    0,  150,  120,   88,  104,   88,   48,   88,   75,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (14802,  0,  2, 200, 0.75,  150,  120,   89,  103,   89,   48,   89,   75,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (14802, 16,  4,  0,    0,  150,  120,   89,  103,   89,   48,   89,   75,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (14802, 17,  1, 200, 0.75,  150,  120,   89,  103,   89,   48,   89,   75,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (14802, 21,  4,  0,    0,  150,  120,   89,  103,   89,   48,   89,   75,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14802,    63,   2.04)  /* Acid Stream VI */

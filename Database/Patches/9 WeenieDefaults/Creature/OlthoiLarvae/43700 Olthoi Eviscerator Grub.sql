@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43700;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43700, 'ace43700-olthoievisceratorgrub', 10, '2022-11-05 05:26:30') /* Creature */;
+VALUES (43700, 'ace43700-olthoievisceratorgrub', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43700,   1,         16) /* ItemType - Creature */
@@ -14,6 +14,7 @@ VALUES (43700,   1,         16) /* ItemType - Creature */
      , (43700,  25,         25) /* Level */
      , (43700,  27,          0) /* ArmorType - None */
      , (43700,  40,          2) /* CombatMode - Melee */
+     , (43700,  67,         64) /* Tolerance - Retaliate */
      , (43700,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (43700,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43700, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -98,7 +99,7 @@ VALUES (43700,  6, 0, 3, 0, 290, 0, 1612.92420371986) /* MeleeDefense        Spe
      , (43700, 45, 0, 3, 0, 240, 0, 1612.92420371986) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (43700,  0,  4, 75, 0.75,  350,  350,  350,  350,  350,  350,  438,  367,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+VALUES (43700,  0,  4, 75, 0.75,  350,  350,  350,  350,  350,  350,  438,  368,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
      , (43700, 16,  4,  0,    0,  275,  275,  275,  275,  275,  275,  344,  289,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
      , (43700, 18,  4, 75, 0.75,  275,  275,  275,  275,  275,  275,  344,  289,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
      , (43700, 19,  4, 75,    0,  275,  275,  275,  275,  275,  275,  344,  289,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */

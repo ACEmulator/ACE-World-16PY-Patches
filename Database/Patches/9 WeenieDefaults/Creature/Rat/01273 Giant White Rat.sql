@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1273;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1273, 'ratwhitegiant', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (1273, 'ratwhitegiant', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1273,   1,         16) /* ItemType - Creature */
@@ -99,7 +99,7 @@ VALUES (1273,  6, 0, 3, 0, 100, 0, 0) /* MeleeDefense        Specialized */
      , (1273, 45, 0, 3, 0, 110, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (1273,  0,  2, 20, 0.75,  150,   98,   98,  120,   79,   30,   79,  120,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
+VALUES (1273,  0,  2, 20, 0.75,  150,   98,   98,  120,   80,   30,   80,  120,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
      , (1273, 16,  4,  4, 0.75,  160,  104,  104,  128,   85,   32,   85,  128,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
      , (1273, 17,  4,  0,    0,  140,   91,   91,  112,   74,   28,   74,  112,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
      , (1273, 22, 32, 35,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;

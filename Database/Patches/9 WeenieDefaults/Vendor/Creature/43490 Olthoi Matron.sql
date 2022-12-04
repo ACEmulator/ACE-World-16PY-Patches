@@ -60,50 +60,50 @@ VALUES (43490,   1,  1500, 0, 0, 1710) /* MaxHealth */
      , (43490,   5,    10, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43490, 4, 43685, -1, 0, 0, False) /* Create  (43685) for Shop */
-     , (43490, 4, 43686, -1, 0, 0, False) /* Create  (43686) for Shop */
-     , (43490, 4, 43687, -1, 0, 0, False) /* Create  (43687) for Shop */
-     , (43490, 4, 43672, -1, 0, 0, False) /* Create  (43672) for Shop */
-     , (43490, 4, 43681, -1, 0, 0, False) /* Create  (43681) for Shop */
-     , (43490, 4, 43682, -1, 0, 0, False) /* Create  (43682) for Shop */
-     , (43490, 4, 43683, -1, 0, 0, False) /* Create  (43683) for Shop */
-     , (43490, 4, 43684, -1, 0, 0, False) /* Create  (43684) for Shop */
-     , (43490, 4, 43627, -1, 0, 0, False) /* Create  (43627) for Shop */
-     , (43490, 4, 43628, -1, 0, 0, False) /* Create  (43628) for Shop */
-     , (43490, 4, 43629, -1, 0, 0, False) /* Create  (43629) for Shop */
-     , (43490, 4, 43630, -1, 0, 0, False) /* Create  (43630) for Shop */
-     , (43490, 4, 43595, -1, 0, 0, False) /* Create  (43595) for Shop */
-     , (43490, 4, 43596, -1, 0, 0, False) /* Create  (43596) for Shop */
-     , (43490, 4, 43597, -1, 0, 0, False) /* Create  (43597) for Shop */
-     , (43490, 4, 43598, -1, 0, 0, False) /* Create  (43598) for Shop */
-     , (43490, 4, 43599, -1, 0, 0, False) /* Create  (43599) for Shop */
-     , (43490, 4, 43600, -1, 0, 0, False) /* Create  (43600) for Shop */
-     , (43490, 4, 43601, -1, 0, 0, False) /* Create  (43601) for Shop */
-     , (43490, 4, 43602, -1, 0, 0, False) /* Create  (43602) for Shop */
-     , (43490, 4, 43603, -1, 0, 0, False) /* Create  (43603) for Shop */
-     , (43490, 4, 43604, -1, 0, 0, False) /* Create  (43604) for Shop */
-     , (43490, 4, 43605, -1, 0, 0, False) /* Create  (43605) for Shop */
-     , (43490, 4, 43606, -1, 0, 0, False) /* Create  (43606) for Shop */
-     , (43490, 4, 43607, -1, 0, 0, False) /* Create  (43607) for Shop */
-     , (43490, 4, 43608, -1, 0, 0, False) /* Create  (43608) for Shop */
-     , (43490, 4, 43609, -1, 0, 0, False) /* Create  (43609) for Shop */
-     , (43490, 4, 43610, -1, 0, 0, False) /* Create  (43610) for Shop */
-     , (43490, 4, 43611, -1, 0, 0, False) /* Create  (43611) for Shop */
-     , (43490, 4, 43612, -1, 0, 0, False) /* Create  (43612) for Shop */
-     , (43490, 4, 43613, -1, 0, 0, False) /* Create  (43613) for Shop */
-     , (43490, 4, 43614, -1, 0, 0, False) /* Create  (43614) for Shop */
-     , (43490, 4, 43615, -1, 0, 0, False) /* Create  (43615) for Shop */
-     , (43490, 4, 43616, -1, 0, 0, False) /* Create  (43616) for Shop */
-     , (43490, 4, 43617, -1, 0, 0, False) /* Create  (43617) for Shop */
-     , (43490, 4, 43618, -1, 0, 0, False) /* Create  (43618) for Shop */
-     , (43490, 4, 43619, -1, 0, 0, False) /* Create  (43619) for Shop */
-     , (43490, 4, 43620, -1, 0, 0, False) /* Create  (43620) for Shop */
-     , (43490, 4, 43621, -1, 0, 0, False) /* Create  (43621) for Shop */
-     , (43490, 4, 43622, -1, 0, 0, False) /* Create  (43622) for Shop */
-     , (43490, 4, 43623, -1, 0, 0, False) /* Create  (43623) for Shop */
-     , (43490, 4, 43624, -1, 0, 0, False) /* Create  (43624) for Shop */
-     , (43490, 4, 43625, -1, 0, 0, False) /* Create  (43625) for Shop */
-     , (43490, 4, 43626, -1, 0, 0, False) /* Create  (43626) for Shop */
+VALUES (43490, 4, 43685, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43685) for Shop */
+     , (43490, 4, 43686, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43686) for Shop */
+     , (43490, 4, 43687, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43687) for Shop */
+     , (43490, 4, 43672, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi (43672) for Shop */
+     , (43490, 4, 43681, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43681) for Shop */
+     , (43490, 4, 43682, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43682) for Shop */
+     , (43490, 4, 43683, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43683) for Shop */
+     , (43490, 4, 43684, -1, 0, 0, False) /* Create Upper Exoskeleton Metamorphi (43684) for Shop */
+     , (43490, 4, 43627, -1, 0, 0, False) /* Create Soldier Pedipalp Metamorphi (43627) for Shop */
+     , (43490, 4, 43628, -1, 0, 0, False) /* Create Soldier Pedipalp Metamorphi (43628) for Shop */
+     , (43490, 4, 43629, -1, 0, 0, False) /* Create Soldier Pedipalp Metamorphi (43629) for Shop */
+     , (43490, 4, 43630, -1, 0, 0, False) /* Create Soldier Pedipalp Metamorphi (43630) for Shop */
+     , (43490, 4, 43595, -1, 0, 0, False) /* Create Soldier Thorax Metamorphi (43595) for Shop */
+     , (43490, 4, 43596, -1, 0, 0, False) /* Create Soldier Thorax Metamorphi (43596) for Shop */
+     , (43490, 4, 43597, -1, 0, 0, False) /* Create Soldier Thorax Metamorphi (43597) for Shop */
+     , (43490, 4, 43598, -1, 0, 0, False) /* Create Soldier Thorax Metamorphi (43598) for Shop */
+     , (43490, 4, 43599, -1, 0, 0, False) /* Create Soldier Pincer Metamorphi (43599) for Shop */
+     , (43490, 4, 43600, -1, 0, 0, False) /* Create Soldier Pincer Metamorphi (43600) for Shop */
+     , (43490, 4, 43601, -1, 0, 0, False) /* Create Soldier Pincer Metamorphi (43601) for Shop */
+     , (43490, 4, 43602, -1, 0, 0, False) /* Create Soldier Pincer Metamorphi (43602) for Shop */
+     , (43490, 4, 43603, -1, 0, 0, False) /* Create Soldier Abdomen Metamorphi (43603) for Shop */
+     , (43490, 4, 43604, -1, 0, 0, False) /* Create Soldier Abdomen Metamorphi (43604) for Shop */
+     , (43490, 4, 43605, -1, 0, 0, False) /* Create Soldier Abdomen Metamorphi (43605) for Shop */
+     , (43490, 4, 43606, -1, 0, 0, False) /* Create Soldier Abdomen Metamorphi (43606) for Shop */
+     , (43490, 4, 43607, -1, 0, 0, False) /* Create Soldier Tibia Metamorphi (43607) for Shop */
+     , (43490, 4, 43608, -1, 0, 0, False) /* Create Soldier Tibia Metamorphi (43608) for Shop */
+     , (43490, 4, 43609, -1, 0, 0, False) /* Create Soldier Tibia Metamorphi (43609) for Shop */
+     , (43490, 4, 43610, -1, 0, 0, False) /* Create Soldier Tibia Metamorphi (43610) for Shop */
+     , (43490, 4, 43611, -1, 0, 0, False) /* Create Soldier Head Metamorphi (43611) for Shop */
+     , (43490, 4, 43612, -1, 0, 0, False) /* Create Soldier Head Metamorphi (43612) for Shop */
+     , (43490, 4, 43613, -1, 0, 0, False) /* Create Soldier Head Metamorphi (43613) for Shop */
+     , (43490, 4, 43614, -1, 0, 0, False) /* Create Soldier Head Metamorphi (43614) for Shop */
+     , (43490, 4, 43615, -1, 0, 0, False) /* Create Soldier Trochanter Metamorphi (43615) for Shop */
+     , (43490, 4, 43616, -1, 0, 0, False) /* Create Soldier Trochanter Metamorphi (43616) for Shop */
+     , (43490, 4, 43617, -1, 0, 0, False) /* Create Soldier Trochanter Metamorphi (43617) for Shop */
+     , (43490, 4, 43618, -1, 0, 0, False) /* Create Soldier Trochanter Metamorphi (43618) for Shop */
+     , (43490, 4, 43619, -1, 0, 0, False) /* Create Soldier Foot Metamorphi (43619) for Shop */
+     , (43490, 4, 43620, -1, 0, 0, False) /* Create Soldier Foot Metamorphi (43620) for Shop */
+     , (43490, 4, 43621, -1, 0, 0, False) /* Create Soldier Foot Metamorphi (43621) for Shop */
+     , (43490, 4, 43622, -1, 0, 0, False) /* Create Soldier Foot Metamorphi (43622) for Shop */
+     , (43490, 4, 43623, -1, 0, 0, False) /* Create Soldier Femur Metamorphi (43623) for Shop */
+     , (43490, 4, 43624, -1, 0, 0, False) /* Create Soldier Femur Metamorphi (43624) for Shop */
+     , (43490, 4, 43625, -1, 0, 0, False) /* Create Soldier Femur Metamorphi (43625) for Shop */
+     , (43490, 4, 43626, -1, 0, 0, False) /* Create Soldier Femur Metamorphi (43626) for Shop */
      , (43490, 4, 43732, -1, 0, 0, False) /* Create Enchanted Olthoi Egg (43732) for Shop */
      , (43490, 4, 43633, -1, 0, 0, False) /* Create Acidic Rejuvenation (43633) for Shop */
      , (43490, 4, 43635, -1, 0, 0, False) /* Create Saliva Invigorator (43635) for Shop */

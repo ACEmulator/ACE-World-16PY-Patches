@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43697;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43697, 'ace43697-olthoigrub', 10, '2022-11-05 05:26:30') /* Creature */;
+VALUES (43697, 'ace43697-olthoigrub', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43697,   1,         16) /* ItemType - Creature */
@@ -14,6 +14,7 @@ VALUES (43697,   1,         16) /* ItemType - Creature */
      , (43697,  25,         20) /* Level */
      , (43697,  27,          0) /* ArmorType - None */
      , (43697,  40,          2) /* CombatMode - Melee */
+     , (43697,  67,         64) /* Tolerance - Retaliate */
      , (43697,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (43697,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43697, 133,          4) /* ShowableOnRadar - ShowAlways */
