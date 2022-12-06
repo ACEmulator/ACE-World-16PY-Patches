@@ -179,6 +179,6 @@ VALUES (@parent_id,  0, 106 /* SetQuestBitsOn */, 0, 1, NULL, '50to11BrokerContr
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'ContractQuestcounter_0511', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30509, 2,  2601,  0, 2, 0, False) /* Create Pants (2601) for Wield */
+VALUES (30509, 2,  2601,  0, 2, 0, False) /* Create Loose Pants (2601) for Wield */
      , (30509, 2,   115,  0, 13, 0, False) /* Create Leather Boots (115) for Wield */
      , (30509, 2,  2587,  0, 2, 0.6, False) /* Create Shirt (2587) for Wield */;

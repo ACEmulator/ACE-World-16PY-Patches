@@ -279,7 +279,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 29273 /* Charmed Smith */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28681,  6 /* Give */,      1, 29282 /* Shadow of The Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28681,  6 /* Give */,      1, 29282 /* Shadow of the Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -580,5 +580,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28681, 2, 25557,  0, 39, 0, False) /* Create Eye Patch (25557) for Wield */
      , (28681, 2,  2587,  0, 90, 0.8182, False) /* Create Shirt (2587) for Wield */
      , (28681, 2, 28861,  0, 92, 0, False) /* Create Pirate Hook (28861) for Wield */
-     , (28681, 2,  2597,  0, 4, 0, False) /* Create Pants (2597) for Wield */
+     , (28681, 2,  2597,  0, 4, 0, False) /* Create Flared Pants (2597) for Wield */
      , (28681, 2, 28868,  0, 0, 0, False) /* Create Right Peg Leg (28868) for Wield */;

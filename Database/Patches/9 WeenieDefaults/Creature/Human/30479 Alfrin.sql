@@ -348,6 +348,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Flinrala is always talking about this type of thing. Why don''t you show this to her?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30479, 2,  2590,  0, 4, 0.8, False) /* Create Shirt (2590) for Wield */
-     , (30479, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+VALUES (30479, 2,  2590,  0, 4, 0.8, False) /* Create Baggy Shirt (2590) for Wield */
+     , (30479, 2,  2604,  0, 9, 1, False) /* Create Wide Breeches (2604) for Wield */
      , (30479, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */;

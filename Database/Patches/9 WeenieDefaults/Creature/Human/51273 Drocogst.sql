@@ -129,6 +129,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Gearknights in the Dire
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51273, 2,  2587,  0, 85, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (51273, 2,  2597,  0, 86, 0.5, False) /* Create Pants (2597) for Wield */
+     , (51273, 2,  2597,  0, 86, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (51273, 2,   115,  0, 85, 0, False) /* Create Leather Boots (115) for Wield */
      , (51273, 2, 80305,  0, 0, 0, False) /* Create Radiant Blood Tabard (80305) for Wield */;

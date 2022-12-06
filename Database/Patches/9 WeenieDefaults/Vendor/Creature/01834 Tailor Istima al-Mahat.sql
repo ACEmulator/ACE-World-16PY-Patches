@@ -170,9 +170,9 @@ VALUES (1834, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (1834, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (1834, 2,   128,  0, 14, 0.8, False) /* Create Qafiya (128) for Wield */
      , (1834, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
-     , (1834, 4,  2598, -1, 17, 1, False) /* Create Pants (2598) for Shop */
-     , (1834, 4,  2598, -1, 14, 0, False) /* Create Pants (2598) for Shop */
-     , (1834, 4,  2598, -1, 16, 1, False) /* Create Pants (2598) for Shop */
+     , (1834, 4,  2598, -1, 17, 1, False) /* Create Baggy Pants (2598) for Shop */
+     , (1834, 4,  2598, -1, 14, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (1834, 4,  2598, -1, 16, 1, False) /* Create Baggy Pants (2598) for Shop */
      , (1834, 4,  2587, -1, 17, 1, False) /* Create Shirt (2587) for Shop */
      , (1834, 4,  2587, -1, 14, 0, False) /* Create Shirt (2587) for Shop */
      , (1834, 4,  2587, -1, 16, 1, False) /* Create Shirt (2587) for Shop */

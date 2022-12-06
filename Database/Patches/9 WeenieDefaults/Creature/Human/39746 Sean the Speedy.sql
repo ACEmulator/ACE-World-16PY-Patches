@@ -1051,6 +1051,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Let''s see what you''ve fou
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39746, 2, 12309,  0, 14, 0.7143, False) /* Create Society Explorer Hat (12309) for Wield */
-     , (39746, 2,  2590,  0, 7, 0.5455, False) /* Create Shirt (2590) for Wield */
-     , (39746, 2,  2598,  0, 85, 0.6071, False) /* Create Pants (2598) for Wield */
+     , (39746, 2,  2590,  0, 7, 0.5455, False) /* Create Baggy Shirt (2590) for Wield */
+     , (39746, 2,  2598,  0, 85, 0.6071, False) /* Create Baggy Pants (2598) for Wield */
      , (39746, 2,   115,  0, 6, 0.5, False) /* Create Leather Boots (115) for Wield */;

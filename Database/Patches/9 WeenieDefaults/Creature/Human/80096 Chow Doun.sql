@@ -157,7 +157,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'IHOPflag', NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (80096, 2,  2587,  1, 90, 0.0909, False) /* Create Shirt (2587) for Wield */
-     , (80096, 2,  2601,  1, 90, 0.0179, False) /* Create Pants (2601) for Wield */
+     , (80096, 2,  2601,  1, 90, 0.0179, False) /* Create Loose Pants (2601) for Wield */
      , (80096, 2,  9622,  1, 9, 0.6667, False) /* Create Chef's Hat (9622) for Wield */
      , (80096, 2,   133,  1, 18, 0.25, False) /* Create Slippers (133) for Wield */
      , (80096, 2, 35266,  1, 0, 0, False) /* Create Butter Knife of Slaying (35266) for Wield */;

@@ -70,8 +70,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Unless you have a letter of introduction from one of my scouts, I don''t have any time for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37600, 2,  2588,  0, 14, 0, False) /* Create Shirt (2588) for Wield */
-     , (37600, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
+VALUES (37600, 2,  2588,  0, 14, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (37600, 2,  2597,  0, 14, 0, False) /* Create Flared Pants (2597) for Wield */
      , (37600, 2, 30949,  0, 21, 0, False) /* Create Diforsa Sleeves (30949) for Wield */
      , (37600, 2, 28621,  0, 21, 0, False) /* Create Diforsa Leggings (28621) for Wield */
      , (37600, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */

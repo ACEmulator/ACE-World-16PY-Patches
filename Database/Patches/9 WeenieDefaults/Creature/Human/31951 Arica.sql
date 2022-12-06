@@ -63,7 +63,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'Count Tenera... he''s pretty handsome, don''t you think? And so brave!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31951, 2,  2591,  0, 14, 0.0909, False) /* Create Shirt (2591) for Wield */
+VALUES (31951, 2,  2591,  0, 14, 0.0909, False) /* Create Puffy Shirt (2591) for Wield */
      , (31951, 2, 21159,  0, 20, 0.375, False) /* Create Covenant Tassets (21159) for Wield */
      , (31951, 2, 21157,  0, 20, 0.375, False) /* Create Covenant Pauldrons (21157) for Wield */
      , (31951, 2,   107,  0, 20, 0.6667, False) /* Create Sollerets (107) for Wield */

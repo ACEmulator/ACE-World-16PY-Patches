@@ -165,8 +165,8 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  3,  30 /* InqQuestSolves */, 0, 1, NULL, 'SocietyMasterStipendCollectionCounter@52-52_2', NULL, 52, 52, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45873, 2,  2588,  0, 85, 0, False) /* Create Shirt (2588) for Wield */
-     , (45873, 2,  2597,  0, 85, 0, False) /* Create Pants (2597) for Wield */
+VALUES (45873, 2,  2588,  0, 85, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (45873, 2,  2597,  0, 85, 0, False) /* Create Flared Pants (2597) for Wield */
      , (45873, 2, 38481,  0, 0, 0, False) /* Create Radiant Blood Breastplate (38481) for Wield */
      , (45873, 2, 38482,  0, 0, 0, False) /* Create Radiant Blood Gauntlets (38482) for Wield */
      , (45873, 2, 38483,  0, 0, 0, False) /* Create Radiant Blood Girth (38483) for Wield */

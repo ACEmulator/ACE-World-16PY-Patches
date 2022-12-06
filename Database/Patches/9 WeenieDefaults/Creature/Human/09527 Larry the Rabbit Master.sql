@@ -239,7 +239,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9527, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
      , (9527, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */
-     , (9527, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (9527, 2,  2604,  0, 9, 1, False) /* Create Wide Breeches (2604) for Wield */
      , (9527, 2,    84,  0, 16, 1, False) /* Create Studded Leather Leggings (84) for Wield */
      , (9527, 2,  2596,  0, 2, 0.8, False) /* Create Doublet (2596) for Wield */
      , (9527, 2,    46,  0, 19, 0, False) /* Create Metal Cap (46) for Wield */

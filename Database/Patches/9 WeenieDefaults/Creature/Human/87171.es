@@ -1,3 +1,3 @@
 Generation:
-	- Delay: 295, Motion: Wave
-	- StopEvent: HaltDericostRitualEvent
+    - Delay: 295, Motion: Wave
+    - StopEvent: HaltDericostRitualEvent

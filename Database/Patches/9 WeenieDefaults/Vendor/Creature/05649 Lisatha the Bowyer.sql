@@ -182,7 +182,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5649, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (5649, 2,  2591,  0, 6, 0, False) /* Create Shirt (2591) for Wield */
+     , (5649, 2,  2591,  0, 6, 0, False) /* Create Puffy Shirt (2591) for Wield */
      , (5649, 2,  2600,  0, 6, 0, False) /* Create Pantaloons (2600) for Wield */
      , (5649, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
      , (5649, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */

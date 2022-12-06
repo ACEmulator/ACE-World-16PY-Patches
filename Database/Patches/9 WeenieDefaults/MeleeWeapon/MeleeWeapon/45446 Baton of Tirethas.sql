@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45446;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45446, 'ace45446-batonoftirethas', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45446, 'ace45446-batonoftirethas', 6, '2022-11-05 05:26:30') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45446,   1,          1) /* ItemType - MeleeWeapon */
@@ -55,7 +55,7 @@ VALUES (45446,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45446,   1, 'Baton of Tirethas') /* Name */
-     , (45446,  16, 'Tirethas, the City of Lore and site of the Imperial Academy of Magic, was once home to the greatest concentration of mages and scholars in all of Ispar. It seems the many students at the school were often unruly, causing havoc throughout the city. Unable to deal with the magical mayhem, the local guards petioned the academy council for help. The result was the creation of these batons, given out to the guards of the city. After many a bruised ego, order was once restored to Tirethas.') /* LongDesc */;
+     , (45446,  16, 'Tirethas, the City of Lore and site of the Imperial Academy of Magic, was once home to the greatest concentration of mages and scholars in all of Ispar. It seems the many students at the school were often unruly, causing havoc throughout the city. Unable to deal with the magical mayhem, the local guards petitioned the academy council for help. The result was the creation of these batons, given out to the guards of the city. After many a bruised ego, order was once again restored to Tirethas.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45446,   1, 0x02001350) /* Setup */

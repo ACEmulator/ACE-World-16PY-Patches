@@ -178,8 +178,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30009, 2,  5901,  0, 14, 0.58, False) /* Create Kasa (5901) for Wield */
-     , (30009, 2,  2588,  0, 16, 1, False) /* Create Shirt (2588) for Wield */
-     , (30009, 2,  2601,  0, 14, 0.27, False) /* Create Pants (2601) for Wield */
+     , (30009, 2,  2588,  0, 16, 1, False) /* Create Flared Shirt (2588) for Wield */
+     , (30009, 2,  2601,  0, 14, 0.27, False) /* Create Loose Pants (2601) for Wield */
      , (30009, 2,   132,  0, 4, 0.5, False) /* Create Shoes (132) for Wield */
      , (30009, 2, 10696,  0, 18, 0.8, False) /* Create Apron (10696) for Wield */
      , (30009, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */

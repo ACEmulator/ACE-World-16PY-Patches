@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29347;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29347, 'carenzipolar', 10, '2021-12-21 17:24:33') /* Creature */;
+VALUES (29347, 'carenzipolar', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29347,   1,         16) /* ItemType - Creature */
@@ -98,11 +98,11 @@ VALUES (29347,  6, 0, 3, 0,  40, 0, 0) /* MeleeDefense        Specialized */
      , (29347, 45, 0, 3, 0,  30, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (29347,  0,  2, 15, 0.75,   60,   55,   70,   45,   60,   35,   60,   60,   60, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (29347, 10,  2, 15, 0.75,   50,   45,   60,   40,   50,   30,   50,   50,   50, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (29347, 13,  2, 15, 0.75,   50,   45,   60,   40,   50,   30,   50,   50,   50, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
-     , (29347, 16,  2, 15, 0.75,   50,   45,   60,   40,  100,   60,  100,  100,  100, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.8,  0.6,  0.3,  0.8,  0.6,  0.3) /* Torso */
-     , (29347, 17,  2, 15, 0.75,   50,   45,   60,   40,   50,   30,   50,   50,   50, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
+VALUES (29347,  0,  2, 15, 0.75,   60,   54,   72,   48,   60,   36,   60,   36,    0, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (29347, 10,  2, 15, 0.75,   50,   45,   60,   40,   50,   30,   50,   30,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (29347, 13,  2, 15, 0.75,   50,   45,   60,   40,   50,   30,   50,   30,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+     , (29347, 16,  2, 15, 0.75,   50,   45,   60,   40,   50,   30,   50,   30,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.8,  0.6,  0.3,  0.8,  0.6,  0.3) /* Torso */
+     , (29347, 17,  2, 15, 0.75,   50,   45,   60,   40,   50,   30,   50,   30,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29347,  3 /* Death */,    0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

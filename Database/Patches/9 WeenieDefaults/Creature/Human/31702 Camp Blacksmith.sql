@@ -282,6 +282,6 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31702, 2,   359,  0, 0, 0, False) /* Create War Hammer (359) for Wield */
      , (31702, 2, 28612,  1, 14, 0, False) /* Create Bandana (28612) for Wield */
      , (31702, 2,   124,  0, 17, 0.77, False) /* Create Jerkin (124) for Wield */
-     , (31702, 2,  2601,  0, 4, 0.67, False) /* Create Pants (2601) for Wield */
+     , (31702, 2,  2601,  0, 4, 0.67, False) /* Create Loose Pants (2601) for Wield */
      , (31702, 2,   132,  0, 10, 0.1667, False) /* Create Shoes (132) for Wield */
      , (31702, 2, 10696,  0, 4, 0.3, False) /* Create Apron (10696) for Wield */;

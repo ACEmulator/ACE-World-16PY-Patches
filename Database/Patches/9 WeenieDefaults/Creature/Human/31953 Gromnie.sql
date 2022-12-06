@@ -68,5 +68,5 @@ VALUES (31953, 2,  6004,  1, 20, 0, False) /* Create Koujia Leggings (6004) for 
      , (31953, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */
      , (31953, 2,    59,  1, 4, 0.75, False) /* Create Studded Leather Gauntlets (59) for Wield */
      , (31953, 2,    76,  1, 20, 0.6667, False) /* Create Horned Helm (76) for Wield */
-     , (31953, 2,  2591,  1, 9, 0, False) /* Create Shirt (2591) for Wield */
+     , (31953, 2,  2591,  1, 9, 0, False) /* Create Puffy Shirt (2591) for Wield */
      , (31953, 2,   132,  1, 6, 0, False) /* Create Shoes (132) for Wield */;

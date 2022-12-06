@@ -626,8 +626,8 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'CarenziRaceBetterR1',
      , (@parent_id,  7,  31 /* EraseQuest */, 0, 1, NULL, 'CarenziRaceBetterR8', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38993, 2,  2590,  0, 7, 1, False) /* Create Shirt (2590) for Wield */
-     , (38993, 2,  2597,  0, 5, 0.8, False) /* Create Pants (2597) for Wield */
+VALUES (38993, 2,  2590,  0, 7, 1, False) /* Create Baggy Shirt (2590) for Wield */
+     , (38993, 2,  2597,  0, 5, 0.8, False) /* Create Flared Pants (2597) for Wield */
      , (38993, 2,   115,  0, 4, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (38993, 2, 10696,  0, 7, 0.5, False) /* Create Apron (10696) for Wield */
      , (38993, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;

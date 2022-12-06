@@ -178,9 +178,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30029, 2, 10696,  0, 18, 0.6, False) /* Create Apron (10696) for Wield */
-     , (30029, 2,  2601,  0, 7, 0.33, False) /* Create Pants (2601) for Wield */
+     , (30029, 2,  2601,  0, 7, 0.33, False) /* Create Loose Pants (2601) for Wield */
      , (30029, 2,   115,  0, 4, 0.68, False) /* Create Leather Boots (115) for Wield */
-     , (30029, 2,  2588,  0, 8, 1, False) /* Create Shirt (2588) for Wield */
+     , (30029, 2,  2588,  0, 8, 1, False) /* Create Flared Shirt (2588) for Wield */
      , (30029, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (30029, 4,  2763, -1, 0, 0, False) /* Create Scroll of Acid Bane III (2763) for Shop */
      , (30029, 4,  2768, -1, 0, 0, False) /* Create Scroll of Acid Lure III (2768) for Shop */

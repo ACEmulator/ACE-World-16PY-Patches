@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70370;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70370, 'ace70370-cageddreadmattekar', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (70370, 'ace70370-cageddreadmattekar', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70370,   1,         16) /* ItemType - Creature */
@@ -99,10 +99,10 @@ VALUES (70370,  6, 0, 3, 0, 120, 0, 0) /* MeleeDefense        Specialized */
      , (70370, 45, 0, 3, 0, 160, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (70370,  0,  2, 28, 0.75,  180,   83,  135,  126,   13,  126,  110,   13,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (70370, 10,  2, 21,  0.5,  140,   64,  105,   98,   10,   98,   85,   10,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (70370, 13,  2, 21,  0.5,  130,   60,   98,   91,    9,   91,   79,    9,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
-     , (70370, 16,  4,  0,    0,  160,   74,  120,  112,   11,  112,   98,   11,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
+VALUES (70370,  0,  2, 28, 0.75,  180,   83,  135,  124,   13,  124,  110,   13,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (70370, 10,  2, 21,  0.5,  140,   64,  105,   97,   10,   97,   85,   10,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (70370, 13,  2, 21,  0.5,  130,   60,   98,   90,    9,   90,   79,    9,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+     , (70370, 16,  4,  0,    0,  160,   74,  120,  110,   11,  110,   98,   11,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
      , (70370, 22, 16, 30,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

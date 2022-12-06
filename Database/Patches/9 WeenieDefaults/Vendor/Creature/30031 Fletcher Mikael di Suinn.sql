@@ -236,7 +236,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Leave my sight.', NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30031, 2, 28607,  0, 10, 0.5, False) /* Create Lace Shirt (28607) for Wield */
-     , (30031, 2,  2597,  0, 14, 0.5, False) /* Create Pants (2597) for Wield */
+     , (30031, 2,  2597,  0, 14, 0.5, False) /* Create Flared Pants (2597) for Wield */
      , (30031, 2,   132,  0, 4, 0.75, False) /* Create Shoes (132) for Wield */
      , (30031, 2,  9624,  0, 8, 0.3036, False) /* Create Fletcher's Cap (9624) for Wield */
      , (30031, 2, 48228,  0, 0, 0, False) /* Create War Bow (48228) for Wield */

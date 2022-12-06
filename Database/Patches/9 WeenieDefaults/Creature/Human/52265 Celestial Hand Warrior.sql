@@ -131,8 +131,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000080 /* Laugh */, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52265, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */
-     , (52265, 2,  2588,  0, 2, 0, False) /* Create Shirt (2588) for Wield */
-     , (52265, 2,  2597,  0, 2, 0, False) /* Create Pants (2597) for Wield */
+     , (52265, 2,  2588,  0, 2, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (52265, 2,  2597,  0, 2, 0, False) /* Create Flared Pants (2597) for Wield */
      , (52265, 2, 38463,  0, 0, 0, False) /* Create Celestial Hand Breastplate (38463) for Wield */
      , (52265, 2, 38464,  0, 0, 0, False) /* Create Celestial Hand Gauntlets (38464) for Wield */
      , (52265, 2, 38465,  0, 0, 0, False) /* Create Celestial Hand Girth (38465) for Wield */

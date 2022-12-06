@@ -182,7 +182,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'I can''t say I much like 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31224, 2, 28605,  0, 14, 0.5, False) /* Create Beret (28605) for Wield */
-     , (31224, 2,  2591,  0, 4, 0, False) /* Create Shirt (2591) for Wield */
+     , (31224, 2,  2591,  0, 4, 0, False) /* Create Puffy Shirt (2591) for Wield */
      , (31224, 2, 10696,  0, 2, 0, False) /* Create Apron (10696) for Wield */
      , (31224, 2, 28606,  0, 8, 0, False) /* Create Viamontian Pants (28606) for Wield */
      , (31224, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */

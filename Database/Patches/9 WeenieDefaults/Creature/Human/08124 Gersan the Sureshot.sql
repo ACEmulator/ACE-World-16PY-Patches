@@ -347,7 +347,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'If you can find a gem more 
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'I am not a crossbow maker, however, so if you need a crossbow you will have to attach a stock to the bow yourself.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8124, 2,  2593,  0, 14, 0, False) /* Create Tunic (2593) for Wield */
-     , (8124, 2,  2601,  0, 17, 1, False) /* Create Pants (2601) for Wield */
+VALUES (8124, 2,  2593,  0, 14, 0, False) /* Create Loose Tunic (2593) for Wield */
+     , (8124, 2,  2601,  0, 17, 1, False) /* Create Loose Pants (2601) for Wield */
      , (8124, 2,  7897,  0, 17, 1, False) /* Create Steel Toed Boots (7897) for Wield */
      , (8124, 2,   135,  0, 14, 0.6, False) /* Create Turban (135) for Wield */;

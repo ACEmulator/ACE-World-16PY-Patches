@@ -133,4 +133,4 @@ VALUES (37445, 2, 21152,  0, 21, 0.4286, False) /* Create Covenant Breastplate (
      , (37445, 2, 21155,  0, 21, 0.4286, False) /* Create Covenant Greaves (21155) for Wield */
      , (37445, 2, 21150,  0, 21, 0.4286, False) /* Create Covenant Sollerets (21150) for Wield */
      , (37445, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
-     , (37445, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */;
+     , (37445, 2,  2601,  0, 14, 1, False) /* Create Loose Pants (2601) for Wield */;

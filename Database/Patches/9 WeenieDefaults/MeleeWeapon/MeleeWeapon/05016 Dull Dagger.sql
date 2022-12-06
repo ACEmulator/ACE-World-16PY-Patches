@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5016;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5016, 'daggerfolthid', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (5016, 'daggerfolthid', 6, '2022-11-05 05:26:30') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5016,   1,          1) /* ItemType - MeleeWeapon */
@@ -43,7 +43,7 @@ VALUES (5016,  21,     0.4) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5016,   1, 'Dull Dagger') /* Name */
-     , (5016,  16, 'A dull dagger. The edge is horribly misshapen, this damaged edge could create viscous wounds.') /* LongDesc */;
+     , (5016,  16, 'A dull dagger. The edge is horribly misshapen, this damaged edge could create vicious wounds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5016,   1, 0x0200012F) /* Setup */

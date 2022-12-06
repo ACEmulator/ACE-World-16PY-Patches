@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8595;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8595, 'skeletoncursedbonesmeditate', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (8595, 'skeletoncursedbonesmeditate', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8595,   1,         16) /* ItemType - Creature */
@@ -101,7 +101,7 @@ VALUES (8595,  6, 0, 3, 0, 175, 0, 0) /* MeleeDefense        Specialized */
      , (8595, 47, 0, 3, 0, 230, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (8595,  0,  4,  0,    0,  150,   77,   63,   75,   44,   26,   54,   79,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+VALUES (8595,  0,  4,  0,    0,  150,   77,   63,   75,   44,   26,   54,   80,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (8595,  1,  4,  0,    0,  140,   71,   59,   70,   41,   24,   50,   74,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
      , (8595,  2,  4,  0,    0,  140,   71,   59,   70,   41,   24,   50,   74,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (8595,  3,  4,  0,    0,  140,   71,   59,   70,   41,   24,   50,   74,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
@@ -109,7 +109,7 @@ VALUES (8595,  0,  4,  0,    0,  150,   77,   63,   75,   44,   26,   54,   79, 
      , (8595,  5,  4, 15, 0.75,  140,   71,   59,   70,   41,   24,   50,   74,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (8595,  6,  4,  0,    0,  140,   71,   59,   70,   41,   24,   50,   74,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (8595,  7,  4,  0,    0,  140,   71,   59,   70,   41,   24,   50,   74,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (8595,  8,  4, 15, 0.75,  150,   77,   63,   75,   44,   26,   54,   79,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (8595,  8,  4, 15, 0.75,  150,   77,   63,   75,   44,   26,   54,   80,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8595,  94) /* ATTACK_NOTIFICATION_EVENT */

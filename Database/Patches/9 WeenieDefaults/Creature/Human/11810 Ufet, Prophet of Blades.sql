@@ -1246,4 +1246,4 @@ VALUES (11810, 2,   107,  0, 14, 0.2, False) /* Create Sollerets (107) for Wield
      , (11810, 2,  6046,  0, 14, 0.5, False) /* Create Amuli Coat (6046) for Wield */
      , (11810, 2,    85,  0, 14, 0.2, False) /* Create Chainmail Coif (85) for Wield */
      , (11810, 2,    55,  0, 14, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (11810, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */;
+     , (11810, 2,  2591,  0, 9, 1, False) /* Create Puffy Shirt (2591) for Wield */;

@@ -53,6 +53,7 @@ GotoSet: CheckTrials
                             - Tell: I can grant you passage to the inner halls of Mhoire Castle. Make your way into the throne room and use this flame on the Mhoire Throne.
                             - Tell: The corruption will not be able to bear the purity and will reveal itself. Destroy it and bring one of its corrupt signet rings to me as proof of your deed.
                             - DirectBroadcast: The corrupted spirit is very powerful. You might want to bring a group.
+                            - StampQuest: MhoireGreatHall
                             - StampQuest: MhoireTrialsComplete
                         QuestFailure:
                             - Tell: You have not yet proved yourself in the test of the southeast tower.
@@ -71,6 +72,7 @@ GotoSet: Reward
     - AddCharacterTitle: 696
     - DirectBroadcast: You have been awarded the title Champion of House Mhoire!
     - AwardLevelProportionalXP: 50%, 0 - 1,695,225,700
+    - AwardLuminance: 15,000
     - Give: 35383, 2
     - Give: 48748
     - Give: Trade Note (250,000) (20630), 6

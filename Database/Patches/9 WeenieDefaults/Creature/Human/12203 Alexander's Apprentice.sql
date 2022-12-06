@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12203;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12203, 'maskcollectoraluvianapprentice', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (12203, 'maskcollectoraluvianapprentice', 10, '2022-11-05 05:26:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12203,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12203,   1, 'Alexander''s Apprentice') /* Name */
      , (12203,   3, 'Male') /* Sex */
      , (12203,   4, 'Aluvian') /* HeritageGroup */
-     , (12203,   5, 'Apprentice') /* Template */;
+     , (12203,   5, 'Apprentice Mask Maker') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12203,   1, 0x02000001) /* Setup */
@@ -395,6 +395,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Alexander doesn''t know it yet, but I am working on a side project that I hope will pad my pockets a bit better once I get better at it. Give me your Sunstone Gauntlets and I''ll see about bringing out a nice orange color in them!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12203, 2,  2590,  0, 14, 1, False) /* Create Shirt (2590) for Wield */
-     , (12203, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+VALUES (12203, 2,  2590,  0, 14, 1, False) /* Create Baggy Shirt (2590) for Wield */
+     , (12203, 2,  2598,  0, 4, 0.8, False) /* Create Baggy Pants (2598) for Wield */
      , (12203, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */;

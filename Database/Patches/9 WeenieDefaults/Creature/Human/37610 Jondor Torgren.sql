@@ -278,6 +278,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0, 102 /* InqQuestBitsOn */, 0, 1, NULL, 'JondorTurnIn@4', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37610, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
-     , (37610, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+VALUES (37610, 2,  2588,  0, 9, 1, False) /* Create Flared Shirt (2588) for Wield */
+     , (37610, 2,  2597,  0, 9, 1, False) /* Create Flared Pants (2597) for Wield */
      , (37610, 2,  5850,  0, 5, 0, False) /* Create Faran Robe (5850) for Wield */;

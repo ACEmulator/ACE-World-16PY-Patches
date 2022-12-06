@@ -144,8 +144,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Greetings. My name is Kirin
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'Go, aid Jondor in his research and learn of the Societies. Once you have, return to me and I can set you to our initiation test. Or, if it suits you after learning of the Societies, speak with one of the other recruiters. We''ll be sad to lose you, but I''d rather recruit knowledgeable initiates than to recruit initiates who have not learned of the Societies and are unhappy with their choice afterwards.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38388, 2,  2588,  0, 2, 0, False) /* Create Shirt (2588) for Wield */
-     , (38388, 2,  2597,  0, 2, 0, False) /* Create Pants (2597) for Wield */
+VALUES (38388, 2,  2588,  0, 2, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (38388, 2,  2597,  0, 2, 0, False) /* Create Flared Pants (2597) for Wield */
      , (38388, 2,   106,  0, 91, 0, False) /* Create Yoroi Sleeves (106) for Wield */
      , (38388, 2,  2437,  0, 91, 0, False) /* Create Yoroi Leggings (2437) for Wield */
      , (38388, 2,    57,  0, 91, 0, False) /* Create Platemail Gauntlets (57) for Wield */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 90109;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (90109, 'ace90109-daimyonobanugagen', 1, '2022-07-13 15:31:07') /* Generic */;
+VALUES (90109, 'ace90109-daimyonobanugagen', 1, '2022-12-04 19:04:52') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (90109,  81,          1) /* MaxGeneratedObjects */
@@ -18,7 +18,7 @@ VALUES (90109,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (90109,  41,    3600) /* RegenerationInterval */
-     , (90109,  43,      10) /* GeneratorRadius */;
+     , (90109,  43,      35) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (90109,   1, 'Daimyo Nobanuga Gen') /* Name */;
