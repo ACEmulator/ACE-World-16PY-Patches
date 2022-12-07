@@ -2,21 +2,22 @@ Use:
     - TurnToTarget
     - InqQuest: GearknightInvasionHighSiphonWait_1009
         QuestSuccess:
+			- Tell: Thank you again for your assistance. If they get the device up and running again, I would be honored if you would assist me once again.
             - DirectBroadcast: You must wait %tqt before attempting this quest again.
         QuestFailure:
             - InqQuest: GearknightInvasionHighSiphonStart_1009
                 QuestSuccess:
                     - Tell: You've done it! That should slow them down, if nothing else. Here, in thanks for what you've done.
-                    - Give: Radiant Blood Commendation Ribbons (38230), 10
+                    - Give: 38229, 10
                     - AwardNoShareXP: 10,000,000
-                    - AwardLuminance: 1,000
-                    - Give: Radiant Blood Trade Tokens (38236), 4
+                    - AwardLuminance: 1000
+                    - Give: 38237, 4
                     - StampQuest: GearknightInvasionHighSiphonWait_1009
                     - EraseQuest: GearknightInvasionHighSiphonStart_1009
                 QuestFailure:
                     - InqOwnsItems: 41542
                         TestSuccess:
-                            - Tell: Ummm...  You may want to drop that Unstable Mana Stone into the Mana Siphon soonish. It's not the sort of thing I'd want to keep around, and the longer that Siphon runs, the more likely the Gear Knights can use it to strengthen their position here.                     
+                            - Tell: Ummm...  You may want to drop that Unstable Mana Stone into the Mana Siphon soonish. It's not the sort of thing I'd want to keep around, and the longer that Siphon runs, the more likely the Gear Knights can use it to strengthen their position here.
                         TestFailure:
                             - Tell: Greetings. I had been studying the strange devices the Gear Knights have been erecting since their arrival.
                             - Delay: 1, Tell: Of special concern to me is one that they have created using an Empyrean Beacon they've unearthed. They seem to be using it to siphon the ambient Mana Energy from the area, to who only knows what end.
