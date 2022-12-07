@@ -8,10 +8,10 @@ Use:
             - InqQuest: GearknightInvasionHighSiphonStart_1009
                 QuestSuccess:
                     - Tell: You've done it! That should slow them down, if nothing else. Here, in thanks for what you've done.
-                    - Give: 38229, 10
+                    - Give: Radiant Blood Commendation Ribbons (38230), 10
                     - AwardNoShareXP: 10,000,000
-                    - AwardLuminance: 1000
-                    - Give: 38237, 4
+                    - AwardLuminance: 1,000
+                    - Give: Radiant Blood Trade Tokens (38236), 4
                     - StampQuest: GearknightInvasionHighSiphonWait_1009
                     - EraseQuest: GearknightInvasionHighSiphonStart_1009
                 QuestFailure:

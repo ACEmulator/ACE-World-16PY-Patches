@@ -8,10 +8,10 @@ Use:
             - InqQuest: GearknightInvasionHighSiphonStart_1009
                 QuestSuccess:
                     - Tell: You've done it! That should slow them down, if nothing else. Here, in thanks for what you've done.
-                    - Give: 38229, 10
+                    - Give: Celestial Hand Commendation Ribbons (38228), 10
                     - AwardNoShareXP: 10,000,000
-                    - AwardLuminance: 1000
-                    - Give: 38237, 4
+                    - AwardLuminance: 1,000
+                    - Give: Celestial Hand Trade Tokens (38234), 4
                     - StampQuest: GearknightInvasionHighSiphonWait_1009
                     - EraseQuest: GearknightInvasionHighSiphonStart_1009
                 QuestFailure:
