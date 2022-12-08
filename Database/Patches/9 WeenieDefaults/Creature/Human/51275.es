@@ -2,7 +2,7 @@ Use:
     - TurnToTarget
     - InqQuest: GearknightInvasionHighSiphonWait_1009
         QuestSuccess:
-			- Tell: Thank you again for your assistance. If they get the device up and running again, I would be honored if you would assist me once again.
+            - Tell: Thank you again for your assistance. If they get the device up and running again, I would be honored if you would assist me once again.
             - DirectBroadcast: You must wait %tqt before attempting this quest again.
         QuestFailure:
             - InqQuest: GearknightInvasionHighSiphonStart_1009
