@@ -18,6 +18,9 @@ VALUES (@parent_id, 0, 311, 4, 8, 1) /* On Source.SuccessTarget SetBitsOn ImbueS
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 0, 152, 0.01, 2, 1) /* On Source.SuccessTarget Add ElementalDamageMod to Target */;
 
+INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 3,  39, '', 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget TinkerName to Result */;
+
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9130;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
