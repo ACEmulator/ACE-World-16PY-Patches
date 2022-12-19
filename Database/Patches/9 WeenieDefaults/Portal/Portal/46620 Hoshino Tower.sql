@@ -6,7 +6,9 @@ VALUES (46620, 'ace46620-hoshinotower', 7, '2021-11-01 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46620,   1,      65536) /* ItemType - Portal */
      , (46620,  16,         32) /* ItemUseable - Remote */
+     , (46620,  86,        200) /* MinLevel */
      , (46620,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (46620, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (46620, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
