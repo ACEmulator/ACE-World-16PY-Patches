@@ -7,6 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33018,   1,      65536) /* ItemType - Portal */
      , (33018,  16,         32) /* ItemUseable - Remote */
      , (33018,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (33018, 111,         16) /* PortalBitmask - NoSummon */
      , (33018, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -22,3 +23,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33018,   1, 0x020001B3) /* Setup */
      , (33018,   2, 0x09000003) /* MotionTable */
      , (33018,   8, 0x0600106B) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (33018, 2, 0x2C290037, 156, 155, 69, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x2C290037 [156.000000 155.999023 69.005081] 1.000000 0.000000 0.000000 0.000000 */;
