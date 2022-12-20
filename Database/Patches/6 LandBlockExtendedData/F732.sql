@@ -85,3 +85,7 @@ VALUES (0x7F732136, 38823, 0xF732003A, 185.615, 40.0534, 74.7838, -0.823867, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7321C5, 38823, 0xF732000E, 42.3505, 137.906, 61.0384, -0.038181, 0, 0, -0.999271,  True, '2021-11-01 00:00:00'); /* Eyestalk of T'thuun */
 /* @teleloc 0xF732000E [42.350498 137.906006 61.038399] -0.038181 0.000000 0.000000 -0.999271 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F7321C6, 87482, 0xF732002E, 136.044, 129.209, 84.9268, 0.639055, 0, 0, 0.769161, False, '2022-12-20 06:30:16'); /* Tchk'Tain the Tender Night Gen */
+/* @teleloc 0xF732002E [136.044006 129.209000 84.926804] 0.639055 0.000000 0.000000 0.769161 */
