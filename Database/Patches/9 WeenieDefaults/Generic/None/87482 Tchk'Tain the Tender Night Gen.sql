@@ -17,7 +17,7 @@ VALUES (87482,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87482,  41,     180) /* RegenerationInterval */
-     , (87482,  43,      50) /* GeneratorRadius */;
+     , (87482,  43,       5) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87482,   1, 'Tchk''Tain the Tender Night Gen') /* Name */;
