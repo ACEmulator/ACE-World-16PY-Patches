@@ -18,7 +18,6 @@ VALUES (30190,   1,       2048) /* ItemType - Gem */
      , (30190,  18,          1) /* UiEffects - Magical */
      , (30190,  19,          0) /* Value */
      , (30190,  33,         -1) /* Bonded - Slippery */
-     , (30190,  53,        101) /* PlacementPosition */
      , (30190,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30190,  94,         16) /* TargetType - Creature */
      , (30190, 106,        325) /* ItemSpellcraft */
@@ -50,4 +49,3 @@ VALUES (30190,   1, 0x02000179) /* Setup */
      , (30190,  28,       3686) /* Spell - Prodigal Blade Bane */
      , (30190,  50, 0x06005B2A) /* IconOverlay */
      , (30190,  52, 0x06005B0C) /* IconUnderlay */;
-
