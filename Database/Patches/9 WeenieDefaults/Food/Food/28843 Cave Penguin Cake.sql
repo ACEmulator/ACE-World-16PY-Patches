@@ -15,7 +15,10 @@ VALUES (28843,   1,         32) /* ItemType - Food */
      , (28843,  16,          8) /* ItemUseable - Contained */
      , (28843,  19,       1000) /* Value */
      , (28843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28843, 109,          0) /* ItemDifficulty */;
+     , (28843, 109,          0) /* ItemDifficulty */
+     , (28843, 106,        121) /* ItemSpellcraft */
+     , (28843, 107,        100) /* ItemCurMana */
+     , (28843, 108,        100) /* ItemMaxMana */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28843,  11, True ) /* IgnoreCollisions */
