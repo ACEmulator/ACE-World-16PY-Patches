@@ -507,4 +507,7 @@ VALUES (9070, 30093 /* Infinite Leather */,    35 /* Chainmail Basinet */, '2021
      , (9070, 30093 /* Infinite Leather */, 29262 /* Fire Sceptre */, '2021-11-01 00:00:00')
      , (9070, 30093 /* Infinite Leather */, 29263 /* Frost Sceptre */, '2021-11-01 00:00:00')
      , (9070, 30093 /* Infinite Leather */, 29264 /* Piercing Sceptre */, '2021-11-01 00:00:00')
-     , (9070, 30093 /* Infinite Leather */, 29265 /* Slashing Sceptre */, '2021-11-01 00:00:00');
+     , (9070, 30093 /* Infinite Leather */, 29265 /* Slashing Sceptre */, '2021-11-01 00:00:00')
+     , (9070, 30093 /* Infinite Leather */, 42635 /* Coalesced Aetheria */, '2005-02-09 10:00:00')
+     , (9070, 30093 /* Infinite Leather */, 42636 /* Coalesced Aetheria */, '2005-02-09 10:00:00')
+     , (9070, 30093 /* Infinite Leather */, 42637 /* Coalesced Aetheria */, '2005-02-09 10:00:00');
