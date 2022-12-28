@@ -508,6 +508,6 @@ VALUES (8003, 21073 /* Salvaged Sandstone */,    35 /* Chainmail Basinet */, '20
      , (8003, 21073 /* Salvaged Sandstone */, 29263 /* Frost Sceptre */, '2021-11-01 00:00:00')
      , (8003, 21073 /* Salvaged Sandstone */, 29264 /* Piercing Sceptre */, '2021-11-01 00:00:00')
      , (8003, 21073 /* Salvaged Sandstone */, 29265 /* Slashing Sceptre */, '2021-11-01 00:00:00')
-     , (8003, 21059 /* Salvaged Sandstone */, 42635 /* Coalesced Aetheria */, '2005-02-09 10:00:00')
-     , (8003, 21059 /* Salvaged Sandstone */, 42636 /* Coalesced Aetheria */, '2005-02-09 10:00:00')
-     , (8003, 21059 /* Salvaged Sandstone */, 42637 /* Coalesced Aetheria */, '2005-02-09 10:00:00');
+     , (8003, 21073 /* Salvaged Sandstone */, 42635 /* Coalesced Aetheria */, '2005-02-09 10:00:00')
+     , (8003, 21073 /* Salvaged Sandstone */, 42636 /* Coalesced Aetheria */, '2005-02-09 10:00:00')
+     , (8003, 21073 /* Salvaged Sandstone */, 42637 /* Coalesced Aetheria */, '2005-02-09 10:00:00');
