@@ -11,7 +11,6 @@ VALUES (51607,   1,         16) /* ItemType - Creature */
      , (51607,   7,         -1) /* ContainersCapacity */
      , (51607,  16,          1) /* ItemUseable - No */
      , (51607,  25,        240) /* Level */
-     , (51607,  65,          1) /* Placement - RightHandCombat */
      , (51607,  68,          3) /* TargetingTactic - Random, Focused */
      , (51607,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (51607, 133,          2) /* ShowableOnRadar - ShowMovement */

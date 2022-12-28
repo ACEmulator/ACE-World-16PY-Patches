@@ -12,7 +12,6 @@ VALUES (44879,   1,       2048) /* ItemType - Gem */
      , (44879,  15,         50) /* StackUnitValue */
      , (44879,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44879,  19,         50) /* Value */
-     , (44879,  65,        101) /* Placement - Resting */
      , (44879,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44879,  94,          6) /* TargetType - Vestements */;
 

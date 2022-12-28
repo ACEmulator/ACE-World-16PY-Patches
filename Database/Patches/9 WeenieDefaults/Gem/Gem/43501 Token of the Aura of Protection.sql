@@ -9,7 +9,6 @@ VALUES (43501,   1,       2048) /* ItemType - Gem */
      , (43501,  16,          1) /* ItemUseable - No */
      , (43501,  19,          0) /* Value */
      , (43501,  33,          1) /* Bonded - Bonded */
-     , (43501,  65,        101) /* Placement - Resting */
      , (43501,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43501, 114,          1) /* Attuned - Attuned */;
 

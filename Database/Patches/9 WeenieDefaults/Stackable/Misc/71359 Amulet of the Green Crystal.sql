@@ -13,7 +13,6 @@ VALUES (71359,   1,        128) /* ItemType - Misc */
      , (71359,  16,          1) /* ItemUseable - No */
      , (71359,  19,          0) /* Value */
      , (71359,  33,          1) /* Bonded - Bonded */
-     , (71359,  65,        101) /* Placement - Resting */
      , (71359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71359, 114,          1) /* Attuned - Attuned */;
 

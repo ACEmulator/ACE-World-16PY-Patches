@@ -12,7 +12,6 @@ VALUES (49485,   1,        128) /* ItemType - Misc */
      , (49485,  15,        500) /* StackUnitValue */
      , (49485,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (49485,  19,        500) /* Value */
-     , (49485,  65,        101) /* Placement - Resting */
      , (49485,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (49485,  94,        128) /* TargetType - Misc */;
 

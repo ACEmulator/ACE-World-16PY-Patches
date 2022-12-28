@@ -12,7 +12,6 @@ VALUES (46008,   1,          4) /* ItemType - Clothing */
      , (46008,  16,          1) /* ItemUseable - No */
      , (46008,  19,        100) /* Value */
      , (46008,  28,          0) /* ArmorLevel */
-     , (46008,  65,        101) /* Placement - Resting */
      , (46008,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46008, 106,        250) /* ItemSpellcraft */
      , (46008, 107,        148) /* ItemCurMana */

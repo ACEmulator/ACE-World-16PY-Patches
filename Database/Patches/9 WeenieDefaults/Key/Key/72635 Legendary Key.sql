@@ -10,7 +10,6 @@ VALUES (72635,   1,      16384) /* ItemType - Key */
      , (72635,  18,         64) /* UiEffects - Lightning */
      , (72635,  19,      10000) /* Value */
      , (72635,  33,          1) /* Bonded - Bonded */
-     , (72635,  65,        101) /* Placement - Resting */
      , (72635,  91,          3) /* MaxStructure */
      , (72635,  92,          3) /* Structure */
      , (72635,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -13,7 +13,6 @@ VALUES (36737,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (36737,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36737,  19,        500) /* Value */
      , (36737,  33,          1) /* Bonded - Bonded */
-     , (36737,  65,        101) /* Placement - Resting */
      , (36737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36737,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
      , (36737, 151,         11) /* HookType - Floor, Wall, Yard */;

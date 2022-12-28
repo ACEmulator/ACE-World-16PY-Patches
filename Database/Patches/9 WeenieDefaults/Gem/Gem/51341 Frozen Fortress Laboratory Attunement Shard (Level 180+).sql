@@ -12,7 +12,6 @@ VALUES (51341,   1,       2048) /* ItemType - Gem */
      , (51341,  15,          0) /* StackUnitValue */
      , (51341,  16,          8) /* ItemUseable - Contained */
      , (51341,  19,          0) /* Value */
-     , (51341,  65,        101) /* Placement - Resting */
      , (51341,  83,       2048) /* ActivationResponse - Emote */
      , (51341,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51341,  94,         16) /* TargetType - Creature */

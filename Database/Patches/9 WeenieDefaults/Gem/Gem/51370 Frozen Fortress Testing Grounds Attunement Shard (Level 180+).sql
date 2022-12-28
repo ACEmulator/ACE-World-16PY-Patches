@@ -12,7 +12,6 @@ VALUES (51370,   1,       2048) /* ItemType - Gem */
      , (51370,  15,          0) /* StackUnitValue */
      , (51370,  16,          8) /* ItemUseable - Contained */
      , (51370,  19,          0) /* Value */
-     , (51370,  65,        101) /* Placement - Resting */
      , (51370,  83,       2048) /* ActivationResponse - Emote */
      , (51370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51370,  94,         16) /* TargetType - Creature */

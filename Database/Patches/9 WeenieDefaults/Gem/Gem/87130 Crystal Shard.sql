@@ -15,7 +15,6 @@ VALUES (87130,   1,       2048) /* ItemType - Gem */
      , (87130,  18,          1) /* UiEffects - Magical */
      , (87130,  19,          0) /* Value */
      , (87130,  33,          1) /* Bonded - Bonded */
-     , (87130,  65,        101) /* Placement - Resting */
      , (87130,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (87130,  94,         16) /* TargetType - Creature */
      , (87130, 114,          1) /* Attuned - Attuned */;

@@ -11,7 +11,6 @@ VALUES (51727,   1,         16) /* ItemType - Creature */
      , (51727,   7,         -1) /* ContainersCapacity */
      , (51727,  16,          1) /* ItemUseable - No */
      , (51727,  25,        250) /* Level */
-     , (51727,  65,          1) /* Placement - RightHandCombat */
      , (51727,  68,          3) /* TargetingTactic - Random, Focused */
      , (51727,  81,          2) /* MaxGeneratedObjects */
      , (51727,  82,          0) /* InitGeneratedObjects */

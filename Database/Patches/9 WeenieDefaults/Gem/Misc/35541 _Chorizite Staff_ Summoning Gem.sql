@@ -13,7 +13,6 @@ VALUES (35541,   1,        128) /* ItemType - Misc */
      , (35541,  16,          8) /* ItemUseable - Contained */
      , (35541,  19,          1) /* Value */
      , (35541,  33,         -1) /* Bonded - Slippery */
-     , (35541,  65,        101) /* Placement - Resting */
      , (35541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35541,  94,         16) /* TargetType - Creature */
      , (35541, 269,          1) /* UseCreateQuantity */;

@@ -9,7 +9,6 @@ VALUES (34400,   1,       1024) /* ItemType - Useless */
      , (34400,   9,          0) /* ValidLocations - None */
      , (34400,  16,          1) /* ItemUseable - No */
      , (34400,  19,      10000) /* Value */
-     , (34400,  65,        101) /* Placement - Resting */
      , (34400,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34400, 150,        103) /* HookPlacement - Hook */
      , (34400, 151,          1) /* HookType - Floor */;

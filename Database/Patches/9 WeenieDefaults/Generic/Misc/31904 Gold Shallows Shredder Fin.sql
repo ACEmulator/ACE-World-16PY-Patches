@@ -9,7 +9,6 @@ VALUES (31904,   1,        128) /* ItemType - Misc */
      , (31904,  16,          1) /* ItemUseable - No */
      , (31904,  19,          0) /* Value */
      , (31904,  33,          0) /* Bonded - Normal */
-     , (31904,  65,        101) /* Placement - Resting */
      , (31904,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31904, 114,          0) /* Attuned - Normal */;
 

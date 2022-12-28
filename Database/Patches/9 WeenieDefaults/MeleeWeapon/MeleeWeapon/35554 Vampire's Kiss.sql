@@ -18,7 +18,6 @@ VALUES (35554,   1,          1) /* ItemType - MeleeWeapon */
      , (35554,  48,         45) /* WeaponSkill - LightWeapons */
      , (35554,  49,          1) /* WeaponTime */
      , (35554,  51,          1) /* CombatUse - Melee */
-     , (35554,  65,          1) /* Placement - RightHandCombat */
      , (35554,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35554, 106,        500) /* ItemSpellcraft */
      , (35554, 107,      10000) /* ItemCurMana */

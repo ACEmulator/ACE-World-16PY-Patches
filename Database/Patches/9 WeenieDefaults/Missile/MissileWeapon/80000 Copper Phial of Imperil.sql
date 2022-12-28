@@ -20,7 +20,6 @@ VALUES (80000,   1,        256) /* ItemType - MissileWeapon */
      , (80000,  48,         47) /* WeaponSkill - MissileWeapons */
      , (80000,  49,          5) /* WeaponTime */
      , (80000,  51,          2) /* CombatUse - Missile */
-     , (80000,  65,          1) /* Placement - RightHandCombat */
      , (80000,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (80000, 106,        160) /* ItemSpellcraft */
      , (80000, 107,        150) /* ItemCurMana */

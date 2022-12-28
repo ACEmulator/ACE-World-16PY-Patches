@@ -11,7 +11,6 @@ VALUES (51751,   1,         16) /* ItemType - Creature */
      , (51751,   7,         -1) /* ContainersCapacity */
      , (51751,  16,          1) /* ItemUseable - No */
      , (51751,  25,        265) /* Level */
-     , (51751,  65,          1) /* Placement - RightHandCombat */
      , (51751,  68,          3) /* TargetingTactic - Random, Focused */
      , (51751,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (51751, 133,          2) /* ShowableOnRadar - ShowMovement */

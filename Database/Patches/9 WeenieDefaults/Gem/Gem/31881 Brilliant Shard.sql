@@ -15,7 +15,6 @@ VALUES (31881,   1,       2048) /* ItemType - Gem */
      , (31881,  18,          1) /* UiEffects - Magical */
      , (31881,  19,          0) /* Value */
      , (31881,  33,          1) /* Bonded - Bonded */
-     , (31881,  65,        101) /* Placement - Resting */
      , (31881,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (31881,  94,         16) /* TargetType - Creature */
      , (31881, 114,          1) /* Attuned - Attuned */;

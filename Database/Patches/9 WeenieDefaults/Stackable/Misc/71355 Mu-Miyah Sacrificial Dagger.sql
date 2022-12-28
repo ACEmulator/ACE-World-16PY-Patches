@@ -14,7 +14,6 @@ VALUES (71355,   1,        128) /* ItemType - Misc */
      , (71355,  16,          1) /* ItemUseable - No */
      , (71355,  19,          0) /* Value */
      , (71355,  33,          1) /* Bonded - Bonded */
-     , (71355,  65,        101) /* Placement - Resting */
      , (71355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71355, 114,          1) /* Attuned - Attuned */
      , (71355, 151,          9) /* HookType - Floor, Yard */;

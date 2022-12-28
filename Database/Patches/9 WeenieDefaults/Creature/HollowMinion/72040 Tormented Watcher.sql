@@ -11,7 +11,6 @@ VALUES (72040,   1,         16) /* ItemType - Creature */
      , (72040,   7,         -1) /* ContainersCapacity */
      , (72040,  16,          1) /* ItemUseable - No */
      , (72040,  25,        220) /* Level */
-     , (72040,  65,          1) /* Placement - RightHandCombat */
      , (72040,  68,          3) /* TargetingTactic - Random, Focused */
      , (72040,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (72040, 133,          2) /* ShowableOnRadar - ShowMovement */

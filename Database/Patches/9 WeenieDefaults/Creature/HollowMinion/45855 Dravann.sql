@@ -11,7 +11,6 @@ VALUES (45855,   1,         16) /* ItemType - Creature */
      , (45855,   7,         -1) /* ContainersCapacity */
      , (45855,  16,          1) /* ItemUseable - No */
      , (45855,  25,        440) /* Level */
-     , (45855,  65,          1) /* Placement - RightHandCombat */
      , (45855,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (45855, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (45855, 146,    4000000) /* XpOverride */;

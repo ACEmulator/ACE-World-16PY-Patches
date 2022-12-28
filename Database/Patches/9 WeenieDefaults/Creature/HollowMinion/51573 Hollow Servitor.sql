@@ -11,7 +11,6 @@ VALUES (51573,   1,         16) /* ItemType - Creature */
      , (51573,   7,         -1) /* ContainersCapacity */
      , (51573,  16,          1) /* ItemUseable - No */
      , (51573,  25,        300) /* Level */
-     , (51573,  65,          1) /* Placement - RightHandCombat */
      , (51573,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51573, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (51573, 146,    3000000) /* XpOverride */;

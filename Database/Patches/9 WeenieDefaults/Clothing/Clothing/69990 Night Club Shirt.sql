@@ -13,7 +13,6 @@ VALUES (69990,   1,          4) /* ItemType - Clothing */
      , (69990,  19,       2449) /* Value */
      , (69990,  27,          1) /* ArmorType - Cloth */
      , (69990,  28,          0) /* ArmorLevel */
-     , (69990,  65,        101) /* Placement - Resting */
      , (69990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

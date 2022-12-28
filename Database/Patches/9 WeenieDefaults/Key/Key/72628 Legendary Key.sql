@@ -10,7 +10,6 @@ VALUES (72628,   1,      16384) /* ItemType - Key */
      , (72628,  18,         64) /* UiEffects - Lightning */
      , (72628,  19,      10000) /* Value */
      , (72628,  33,          1) /* Bonded - Bonded */
-     , (72628,  65,        101) /* Placement - Resting */
      , (72628,  91,          1) /* MaxStructure */
      , (72628,  92,          1) /* Structure */
      , (72628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

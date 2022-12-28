@@ -13,7 +13,6 @@ VALUES (52193,   1,          4) /* ItemType - Clothing */
      , (52193,  19,      50000) /* Value */
      , (52193,  33,          1) /* Bonded - Bonded */
      , (52193,  36,       9999) /* ResistMagic */
-     , (52193,  65,        101) /* Placement - Resting */
      , (52193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52193, 114,          1) /* Attuned - Attuned */
      , (52193, 158,          7) /* WieldRequirements - Level */

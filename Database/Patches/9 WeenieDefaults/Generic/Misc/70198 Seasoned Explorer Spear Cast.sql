@@ -9,7 +9,6 @@ VALUES (70198,   1,        128) /* ItemType - Misc */
      , (70198,  16,          1) /* ItemUseable - No */
      , (70198,  19,          0) /* Value */
      , (70198,  33,          1) /* Bonded - Bonded */
-     , (70198,  65,        101) /* Placement - Resting */
      , (70198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70198, 114,          1) /* Attuned - Attuned */;
 

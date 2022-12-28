@@ -14,7 +14,6 @@ VALUES (44267,   1,        128) /* ItemType - Misc */
      , (44267,  16,          1) /* ItemUseable - No */
      , (44267,  19,          1) /* Value */
      , (44267,  33,          1) /* Bonded - Bonded */
-     , (44267,  65,        101) /* Placement - Resting */
      , (44267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44267, 114,          1) /* Attuned - Attuned */
      , (44267, 151,          9) /* HookType - Floor, Yard */;

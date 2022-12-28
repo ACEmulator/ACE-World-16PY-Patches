@@ -13,7 +13,6 @@ VALUES (36741,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (36741,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36741,  19,        750) /* Value */
      , (36741,  33,          1) /* Bonded - Bonded */
-     , (36741,  65,        101) /* Placement - Resting */
      , (36741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36741,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
      , (36741, 151,         11) /* HookType - Floor, Wall, Yard */;

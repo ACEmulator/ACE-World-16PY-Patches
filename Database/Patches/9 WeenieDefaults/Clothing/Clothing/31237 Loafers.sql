@@ -13,7 +13,6 @@ VALUES (31237,   1,          4) /* ItemType - Clothing */
      , (31237,  19,         40) /* Value */
      , (31237,  27,          1) /* ArmorType - Cloth */
      , (31237,  28,         20) /* ArmorLevel */
-     , (31237,  65,        101) /* Placement - Resting */
      , (31237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31237, 150,        103) /* HookPlacement - Hook */
      , (31237, 151,          2) /* HookType - Wall */

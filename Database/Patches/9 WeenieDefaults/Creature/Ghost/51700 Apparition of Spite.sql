@@ -11,7 +11,6 @@ VALUES (51700,   1,         16) /* ItemType - Creature */
      , (51700,  16,          1) /* ItemUseable - No */
      , (51700,  25,        300) /* Level */
      , (51700,  27,          0) /* ArmorType - None */
-     , (51700,  65,          1) /* Placement - RightHandCombat */
      , (51700,  68,          3) /* TargetingTactic - Random, Focused */
      , (51700,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51700, 133,          2) /* ShowableOnRadar - ShowMovement */

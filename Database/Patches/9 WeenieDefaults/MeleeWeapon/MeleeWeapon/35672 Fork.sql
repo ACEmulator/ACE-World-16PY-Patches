@@ -11,7 +11,6 @@ VALUES (35672,   1,          1) /* ItemType - MeleeWeapon */
      , (35672,  19,          5) /* Value */
      , (35672,  37,       9999) /* ResistItemAppraisal */
      , (35672,  51,          1) /* CombatUse - Melee */
-     , (35672,  65,          1) /* Placement - RightHandCombat */
      , (35672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35672, 151,          2) /* HookType - Wall */;
 

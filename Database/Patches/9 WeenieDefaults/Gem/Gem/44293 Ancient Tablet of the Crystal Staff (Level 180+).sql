@@ -14,7 +14,6 @@ VALUES (44293,   1,       2048) /* ItemType - Gem */
      , (44293,  18,          2) /* UiEffects - Poisoned */
      , (44293,  19,          0) /* Value */
      , (44293,  33,          1) /* Bonded - Bonded */
-     , (44293,  65,        101) /* Placement - Resting */
      , (44293,  83,       2048) /* ActivationResponse - Emote */
      , (44293,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44293,  94,         16) /* TargetType - Creature */

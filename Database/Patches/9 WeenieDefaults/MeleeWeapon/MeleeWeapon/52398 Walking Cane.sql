@@ -17,7 +17,6 @@ VALUES (52398,   1,          1) /* ItemType - MeleeWeapon */
      , (52398,  48,         45) /* WeaponSkill - LightWeapons */
      , (52398,  49,         25) /* WeaponTime */
      , (52398,  51,          1) /* CombatUse - Melee */
-     , (52398,  65,        101) /* Placement - Resting */
      , (52398,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52398, 114,          1) /* Attuned - Attuned */
      , (52398, 150,        103) /* HookPlacement - Hook */

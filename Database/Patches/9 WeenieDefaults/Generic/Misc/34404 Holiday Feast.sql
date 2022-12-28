@@ -9,7 +9,6 @@ VALUES (34404,   1,        128) /* ItemType - Misc */
      , (34404,   9,          0) /* ValidLocations - None */
      , (34404,  16,          1) /* ItemUseable - No */
      , (34404,  19,       6000) /* Value */
-     , (34404,  65,        101) /* Placement - Resting */
      , (34404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34404, 150,        103) /* HookPlacement - Hook */
      , (34404, 151,          1) /* HookType - Floor */;

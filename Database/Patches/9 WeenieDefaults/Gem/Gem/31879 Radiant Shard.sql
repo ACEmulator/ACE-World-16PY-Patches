@@ -15,7 +15,6 @@ VALUES (31879,   1,       2048) /* ItemType - Gem */
      , (31879,  18,          1) /* UiEffects - Magical */
      , (31879,  19,          0) /* Value */
      , (31879,  33,          1) /* Bonded - Bonded */
-     , (31879,  65,        101) /* Placement - Resting */
      , (31879,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (31879,  94,         16) /* TargetType - Creature */
      , (31879, 114,          1) /* Attuned - Attuned */;

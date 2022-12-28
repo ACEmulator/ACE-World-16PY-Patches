@@ -13,7 +13,6 @@ VALUES (71356,   1,          4) /* ItemType - Clothing */
      , (71356,  19,       5336) /* Value */
      , (71356,  28,          0) /* ArmorLevel */
      , (71356,  36,       9999) /* ResistMagic */
-     , (71356,  65,        101) /* Placement - Resting */
      , (71356,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71356, 105,          8) /* ItemWorkmanship */
      , (71356, 131,          6) /* MaterialType - Silk */

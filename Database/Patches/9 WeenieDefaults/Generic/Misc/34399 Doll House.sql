@@ -9,7 +9,6 @@ VALUES (34399,   1,        128) /* ItemType - Misc */
      , (34399,   9,          0) /* ValidLocations - None */
      , (34399,  16,          1) /* ItemUseable - No */
      , (34399,  19,        100) /* Value */
-     , (34399,  65,        101) /* Placement - Resting */
      , (34399,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
      , (34399, 150,        103) /* HookPlacement - Hook */
      , (34399, 151,          9) /* HookType - Floor, Yard */;
