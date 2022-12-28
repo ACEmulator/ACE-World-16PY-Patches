@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51632;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51632, 'ace51632-corruptminionofrage', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (51632, 'ace51632-corruptminionofrage', 10, '2022-12-28 05:57:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51632,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,6 @@ VALUES (51632,   1,         16) /* ItemType - Creature */
      , (51632,   7,         -1) /* ContainersCapacity */
      , (51632,  16,          1) /* ItemUseable - No */
      , (51632,  25,        240) /* Level */
-     , (51632,  65,          1) /* Placement - RightHandCombat */
      , (51632,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (51632, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (51632, 146,    1850000) /* XpOverride */;

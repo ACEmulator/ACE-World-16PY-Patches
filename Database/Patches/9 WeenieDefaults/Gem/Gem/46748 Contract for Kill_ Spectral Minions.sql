@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46748;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46748, 'ace46748-contractforkillspectralminions', 38, '2022-10-19 15:43:32') /* Gem */;
+VALUES (46748, 'ace46748-contractforkillspectralminions', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46748,   1,       2048) /* ItemType - Gem */
@@ -14,7 +14,6 @@ VALUES (46748,   1,       2048) /* ItemType - Gem */
      , (46748,  18,          2) /* UiEffects - Poisoned */
      , (46748,  19,          0) /* Value */
      , (46748,  33,          1) /* Bonded - Bonded */
-     , (46748,  65,        101) /* Placement - Resting */
      , (46748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46748,  94,         16) /* TargetType - Creature */
      , (46748, 114,          1) /* Attuned - Attuned */

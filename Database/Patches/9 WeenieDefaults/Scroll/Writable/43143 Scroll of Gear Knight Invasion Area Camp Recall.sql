@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43143;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43143, 'ace43143-scrollofgearknightinvasionareacamprecall', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (43143, 'ace43143-scrollofgearknightinvasionareacamprecall', 34, '2022-12-28 05:57:21') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43143,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (43143,   1,       8192) /* ItemType - Writable */
      , (43143,  16,          8) /* ItemUseable - Contained */
      , (43143,  19,          5) /* Value */
      , (43143,  33,          1) /* Bonded - Bonded */
-     , (43143,  65,        101) /* Placement - Resting */
      , (43143,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43143, 114,          1) /* Attuned - Attuned */;
 

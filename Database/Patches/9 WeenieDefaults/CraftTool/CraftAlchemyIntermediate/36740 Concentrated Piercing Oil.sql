@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36740;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36740, 'ace36740-concentratedpiercingoil', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (36740, 'ace36740-concentratedpiercingoil', 44, '2022-12-28 05:57:21') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36740,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
@@ -13,7 +13,6 @@ VALUES (36740,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (36740,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36740,  19,        750) /* Value */
      , (36740,  33,          1) /* Bonded - Bonded */
-     , (36740,  65,        101) /* Placement - Resting */
      , (36740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36740,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
      , (36740, 151,         11) /* HookType - Floor, Wall, Yard */;

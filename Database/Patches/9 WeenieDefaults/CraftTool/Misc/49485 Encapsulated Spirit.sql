@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49485;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49485, 'ace49485-encapsulatedspirit', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (49485, 'ace49485-encapsulatedspirit', 44, '2022-12-28 05:57:21') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49485,   1,        128) /* ItemType - Misc */
@@ -12,7 +12,6 @@ VALUES (49485,   1,        128) /* ItemType - Misc */
      , (49485,  15,        500) /* StackUnitValue */
      , (49485,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (49485,  19,        500) /* Value */
-     , (49485,  65,        101) /* Placement - Resting */
      , (49485,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (49485,  94,        128) /* TargetType - Misc */;
 

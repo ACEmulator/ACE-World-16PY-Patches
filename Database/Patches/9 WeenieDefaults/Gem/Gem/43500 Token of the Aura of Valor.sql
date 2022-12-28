@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43500;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43500, 'ace43500-tokenoftheauraofvalor', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (43500, 'ace43500-tokenoftheauraofvalor', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43500,   1,       2048) /* ItemType - Gem */
@@ -9,7 +9,6 @@ VALUES (43500,   1,       2048) /* ItemType - Gem */
      , (43500,  16,          1) /* ItemUseable - No */
      , (43500,  19,          0) /* Value */
      , (43500,  33,          1) /* Bonded - Bonded */
-     , (43500,  65,        101) /* Placement - Resting */
      , (43500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43500, 114,          1) /* Attuned - Attuned */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35535;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35535, 'ace35535-doomhammersummoninggem', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (35535, 'ace35535-doomhammersummoninggem', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35535,   1,        128) /* ItemType - Misc */
@@ -13,7 +13,6 @@ VALUES (35535,   1,        128) /* ItemType - Misc */
      , (35535,  16,          8) /* ItemUseable - Contained */
      , (35535,  19,          1) /* Value */
      , (35535,  33,         -1) /* Bonded - Slippery */
-     , (35535,  65,        101) /* Placement - Resting */
      , (35535,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35535,  94,         16) /* TargetType - Creature */
      , (35535, 269,          1) /* UseCreateQuantity */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72040;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72040, 'ace72040-tormentedwatcher', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (72040, 'ace72040-tormentedwatcher', 10, '2022-12-28 05:57:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72040,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,6 @@ VALUES (72040,   1,         16) /* ItemType - Creature */
      , (72040,   7,         -1) /* ContainersCapacity */
      , (72040,  16,          1) /* ItemUseable - No */
      , (72040,  25,        220) /* Level */
-     , (72040,  65,          1) /* Placement - RightHandCombat */
      , (72040,  68,          3) /* TargetingTactic - Random, Focused */
      , (72040,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (72040, 133,          2) /* ShowableOnRadar - ShowMovement */

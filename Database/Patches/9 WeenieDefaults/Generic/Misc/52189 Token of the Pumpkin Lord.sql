@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52189;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52189, 'ace52189-tokenofthepumpkinlord', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (52189, 'ace52189-tokenofthepumpkinlord', 1, '2022-12-28 05:57:21') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52189,   1,        128) /* ItemType - Misc */
      , (52189,   5,         10) /* EncumbranceVal */
      , (52189,  16,          1) /* ItemUseable - No */
-     , (52189,  65,        101) /* Placement - Resting */
      , (52189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

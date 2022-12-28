@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45682;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45682, 'ace45682-nalicanastestlevel200', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (45682, 'ace45682-nalicanastestlevel200', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45682,   1,       2048) /* ItemType - Gem */
@@ -14,7 +14,6 @@ VALUES (45682,   1,       2048) /* ItemType - Gem */
      , (45682,  18,          2) /* UiEffects - Poisoned */
      , (45682,  19,          0) /* Value */
      , (45682,  33,          1) /* Bonded - Bonded */
-     , (45682,  65,        101) /* Placement - Resting */
      , (45682,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45682,  94,         16) /* TargetType - Creature */
      , (45682, 114,          1) /* Attuned - Attuned */

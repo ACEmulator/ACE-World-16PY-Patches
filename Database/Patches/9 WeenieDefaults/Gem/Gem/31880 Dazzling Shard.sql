@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31880;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31880, 'ace31880-dazzlingshard', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (31880, 'ace31880-dazzlingshard', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31880,   1,       2048) /* ItemType - Gem */
@@ -15,7 +15,6 @@ VALUES (31880,   1,       2048) /* ItemType - Gem */
      , (31880,  18,          1) /* UiEffects - Magical */
      , (31880,  19,          0) /* Value */
      , (31880,  33,          1) /* Bonded - Bonded */
-     , (31880,  65,        101) /* Placement - Resting */
      , (31880,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (31880,  94,         16) /* TargetType - Creature */
      , (31880, 114,          1) /* Attuned - Attuned */;
