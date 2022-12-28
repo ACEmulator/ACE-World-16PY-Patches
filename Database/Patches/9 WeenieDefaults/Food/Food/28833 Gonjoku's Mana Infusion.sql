@@ -17,6 +17,8 @@ VALUES (28833,   1,         32) /* ItemType - Food */
      , (28833,  19,          0) /* Value */
      , (28833,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28833, 106,        111) /* ItemSpellcraft */
+     , (28833, 107,        100) /* ItemCurMana */
+     , (28833, 108,        100) /* ItemMaxMana */
      , (28833, 150,        103) /* HookPlacement - Hook */
      , (28833, 151,         11) /* HookType - Floor, Wall, Yard */;
 
