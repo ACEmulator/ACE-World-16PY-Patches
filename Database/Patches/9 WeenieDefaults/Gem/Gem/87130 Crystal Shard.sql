@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87130;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87130, 'ace87130-crystalshard', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (87130, 'ace87130-crystalshard', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87130,   1,       2048) /* ItemType - Gem */
@@ -15,7 +15,6 @@ VALUES (87130,   1,       2048) /* ItemType - Gem */
      , (87130,  18,          1) /* UiEffects - Magical */
      , (87130,  19,          0) /* Value */
      , (87130,  33,          1) /* Bonded - Bonded */
-     , (87130,  65,        101) /* Placement - Resting */
      , (87130,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (87130,  94,         16) /* TargetType - Creature */
      , (87130, 114,          1) /* Attuned - Attuned */;

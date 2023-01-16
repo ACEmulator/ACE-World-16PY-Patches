@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52279;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52279, 'ace52279-rynthidslayer', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (52279, 'ace52279-rynthidslayer', 10, '2022-12-28 05:57:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52279,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,6 @@ VALUES (52279,   1,         16) /* ItemType - Creature */
      , (52279,   7,         -1) /* ContainersCapacity */
      , (52279,  16,          1) /* ItemUseable - No */
      , (52279,  25,        265) /* Level */
-     , (52279,  65,          1) /* Placement - RightHandCombat */
      , (52279,  68,          3) /* TargetingTactic - Random, Focused */
      , (52279,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (52279, 133,          2) /* ShowableOnRadar - ShowMovement */

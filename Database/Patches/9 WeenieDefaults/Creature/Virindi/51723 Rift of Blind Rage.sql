@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51723;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51723, 'ace51723-riftofblindrage', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (51723, 'ace51723-riftofblindrage', 10, '2022-12-28 05:57:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51723,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,6 @@ VALUES (51723,   1,         16) /* ItemType - Creature */
      , (51723,   7,         -1) /* ContainersCapacity */
      , (51723,  16,          1) /* ItemUseable - No */
      , (51723,  25,        250) /* Level */
-     , (51723,  65,          1) /* Placement - RightHandCombat */
      , (51723,  68,          3) /* TargetingTactic - Random, Focused */
      , (51723,  81,          2) /* MaxGeneratedObjects */
      , (51723,  82,          0) /* InitGeneratedObjects */

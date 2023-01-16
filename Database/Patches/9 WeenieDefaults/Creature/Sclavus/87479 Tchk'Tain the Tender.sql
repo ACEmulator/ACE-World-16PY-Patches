@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87479;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87479, 'ace87479-tchktainthetender', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (87479, 'ace87479-tchktainthetender', 10, '2022-12-28 05:57:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87479,   1,         16) /* ItemType - Creature */
@@ -125,7 +125,7 @@ VALUES (87479,  3126,   2.25)  /* Poison Health */
      , (87479,  4483,   2.02)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87479, 2, 41010,  1, 0, 0, False) /* Create Lightning T'thuun Bow (41010) for Wield */
-     , (87479, 2, 38849, 100, 0, 0, False) /* Create Raider Lightning Arrow (38849) for Wield */
-     , (87479, 9, 44982,  0, 0, 1, False) /* Create Creeping Blight Cloak (44982) for ContainTreasure */
+VALUES (87479, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */
+     , (87479, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
+     , (87479, 9, 44982,  0, 0, 0.01, False) /* Create Creeping Blight Cloak (44982) for ContainTreasure */
      , (87479, 9, 39467,  0, 0, 1, False) /* Create Tchk'Tain the Tender's Severed Head (39467) for ContainTreasure */;

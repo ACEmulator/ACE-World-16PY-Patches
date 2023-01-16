@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72669;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72669, 'ace72669-legendarykey', 22, '2022-01-08 18:29:57') /* Key */;
+VALUES (72669, 'ace72669-legendarykey', 22, '2022-12-28 05:57:21') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72669,   1,      16384) /* ItemType - Key */
@@ -10,7 +10,6 @@ VALUES (72669,   1,      16384) /* ItemType - Key */
      , (72669,  18,         64) /* UiEffects - Lightning */
      , (72669,  19,      10000) /* Value */
      , (72669,  33,          1) /* Bonded - Bonded */
-     , (72669,  65,        101) /* Placement - Resting */
      , (72669,  91,          1) /* MaxStructure */
      , (72669,  92,          1) /* Structure */
      , (72669,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

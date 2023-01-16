@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43507;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43507, 'ace43507-tokenoftheauraofpurity', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (43507, 'ace43507-tokenoftheauraofpurity', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43507,   1,       2048) /* ItemType - Gem */
@@ -9,7 +9,6 @@ VALUES (43507,   1,       2048) /* ItemType - Gem */
      , (43507,  16,          1) /* ItemUseable - No */
      , (43507,  19,          0) /* Value */
      , (43507,  33,          1) /* Bonded - Bonded */
-     , (43507,  65,        101) /* Placement - Resting */
      , (43507,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43507, 114,          1) /* Attuned - Attuned */;
 

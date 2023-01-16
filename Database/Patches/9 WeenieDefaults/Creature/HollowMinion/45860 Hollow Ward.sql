@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45860;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45860, 'ace45860-hollowward', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (45860, 'ace45860-hollowward', 10, '2022-12-28 05:57:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45860,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,6 @@ VALUES (45860,   1,         16) /* ItemType - Creature */
      , (45860,   7,         -1) /* ContainersCapacity */
      , (45860,  16,          1) /* ItemUseable - No */
      , (45860,  25,        210) /* Level */
-     , (45860,  65,          1) /* Placement - RightHandCombat */
      , (45860,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (45860, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (45860, 146,    1200000) /* XpOverride */;

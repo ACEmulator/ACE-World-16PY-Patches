@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70194;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70194, 'ace70194-seasonedexplorerdaggercast', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (70194, 'ace70194-seasonedexplorerdaggercast', 1, '2022-12-28 05:57:21') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70194,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (70194,   1,        128) /* ItemType - Misc */
      , (70194,  16,          1) /* ItemUseable - No */
      , (70194,  19,          0) /* Value */
      , (70194,  33,          1) /* Bonded - Bonded */
-     , (70194,  65,        101) /* Placement - Resting */
      , (70194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70194, 114,          1) /* Attuned - Attuned */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49613;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49613, 'ace49613-hollowreaver', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (49613, 'ace49613-hollowreaver', 10, '2022-12-28 05:57:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49613,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,6 @@ VALUES (49613,   1,         16) /* ItemType - Creature */
      , (49613,   7,         -1) /* ContainersCapacity */
      , (49613,  16,          1) /* ItemUseable - No */
      , (49613,  25,        220) /* Level */
-     , (49613,  65,          1) /* Placement - RightHandCombat */
      , (49613,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (49613, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (49613, 146,    1400000) /* XpOverride */;
