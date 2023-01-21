@@ -1,4 +1,5 @@
 Use:
+	- Motion: Twitch1
 	- StampQuest: ColoredPortalLeverPull
 	- InqQuestSolves: ColoredPortalLeverPull, 4 - 4
 		QuestSuccess:
