@@ -376,23 +376,23 @@ VALUES (0x7587A0D1, 88112, 0x587A01E3, 500, -230, 0.055, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x587A01E3 [500.000000 -230.000000 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0D3, 88115, 0x587A0124, 107.124, -230, 0.005, 0.707107, 0, 0, -0.707107, False, '2022-05-05 10:16:35'); /* Portal Energy */
+VALUES (0x7587A0D3, 88127, 0x587A0124, 107.124, -230, 0.005, 0.707107, 0, 0, -0.707107, False, '2022-05-05 10:16:35'); /* Gurog Test Green Portal Energy Generator */
 /* @teleloc 0x587A0124 [107.124001 -230.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0D4, 88115, 0x587A012B, 130.137, -253.468, 0.005, -0.014117, 0, 0, -0.9999, False, '2022-05-05 10:16:54'); /* Portal Energy */
+VALUES (0x7587A0D4, 88127, 0x587A012B, 130.137, -253.468, 0.005, -0.014117, 0, 0, -0.9999, False, '2022-05-05 10:16:54'); /* Gurog Test Green Portal Energy Generator */
 /* @teleloc 0x587A012B [130.136993 -253.468002 0.005000] -0.014117 0.000000 0.000000 -0.999900 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0D5, 88115, 0x587A012F, 150.278, -270.414, 0.005, 0.688163, 0, 0, -0.725556, False, '2022-05-05 10:17:06'); /* Portal Energy */
+VALUES (0x7587A0D5, 88127, 0x587A012F, 150.278, -270.414, 0.005, 0.688163, 0, 0, -0.725556, False, '2022-05-05 10:17:06'); /* Gurog Test Green Portal Energy Generator */
 /* @teleloc 0x587A012F [150.278000 -270.414001 0.005000] 0.688163 0.000000 0.000000 -0.725556 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0D6, 88115, 0x587A0149, 195.634, -230.367, 0.005, 0.708805, 0, 0, -0.705405, False, '2022-05-05 10:17:26'); /* Portal Energy */
+VALUES (0x7587A0D6, 88127, 0x587A0149, 195.634, -230.367, 0.005, 0.708805, 0, 0, -0.705405, False, '2022-05-05 10:17:26'); /* Gurog Test Green Portal Energy Generator */
 /* @teleloc 0x587A0149 [195.634003 -230.367004 0.005000] 0.708805 0.000000 0.000000 -0.705405 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0D7, 88115, 0x587A0141, 169.489, -251.569, 0.005, -0.014989, 0, 0, 0.999888, False, '2022-05-05 10:27:46'); /* Portal Energy */
+VALUES (0x7587A0D7, 88127, 0x587A0141, 169.489, -251.569, 0.005, -0.014989, 0, 0, 0.999888, False, '2022-05-05 10:27:46'); /* Gurog Test Green Portal Energy Generator */
 /* @teleloc 0x587A0141 [169.488998 -251.569000 0.005000] -0.014989 0.000000 0.000000 0.999888 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -400,15 +400,15 @@ VALUES (0x7587A0D8, 88112, 0x587A0159, 220.07, -230.18, 0.055, 0.707107, 0, 0, 0
 /* @teleloc 0x587A0159 [220.070007 -230.179993 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0DA, 88113, 0x587A015E, 270, -242.843, 0.005, -1, 0, 0, 0, False, '2022-05-05 10:41:08'); /* Portal Energy */
+VALUES (0x7587A0DA, 88126, 0x587A015E, 270, -242.843, 0.005, -1, 0, 0, 0, False, '2022-05-05 10:41:08'); /* Gurog Test Blue Portal Energy Generator */
 /* @teleloc 0x587A015E [270.000000 -242.843002 0.005000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0DB, 88113, 0x587A0169, 307.323, -213.386, 0.005, 0.692007, 0, 0, 0.721891, False, '2022-05-05 10:41:41'); /* Portal Energy */
-/* @teleloc 0x587A0169 [307.322998 -213.386002 0.005000] 0.692007 0.000000 0.000000 0.721891 */
+VALUES (0x7587A0DB, 88126, 0x587A016B, 310.314, -228.85, 0, 0.999751, 0, 0, -0.0223, False, '2022-05-05 10:41:41'); /* Gurog Test Blue Portal Energy Generator */
+/* @teleloc 0x587A016B [310.313995 -228.850006 0.000000] 0.999751 0.000000 0.000000 -0.022300 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0DC, 88113, 0x587A0171, 310.067, -287.081, 0.005, -0.000639, 0, 0, 1, False, '2022-05-05 10:41:53'); /* Portal Energy */
+VALUES (0x7587A0DC, 88126, 0x587A0171, 310.067, -287.081, 0.005, -0.000639, 0, 0, 1, False, '2022-05-05 10:41:53'); /* Gurog Test Blue Portal Energy Generator */
 /* @teleloc 0x587A0171 [310.066986 -287.080994 0.005000] -0.000639 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -470,3 +470,7 @@ VALUES (0x7587A0EC, 88155, 0x587A0262, 648.608, -50.3146, 0.055, -0.707107, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587A0ED, 88111, 0x587A0252, 629.795, -19.9711, 0.055, 0, 0, 0, 1, False, '2022-05-05 12:28:13'); /* Rynthid Test 2 Portal Generator */
 /* @teleloc 0x587A0252 [629.794983 -19.971100 0.055000] 0.000000 0.000000 0.000000 1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7587A0EE, 88126, 0x587A0168, 297.058, -209.615, 0.055, 0.729576, 0, 0, 0.6839, False, '2023-01-21 10:48:17'); /* Gurog Test Blue Portal Energy Generator */
+/* @teleloc 0x587A0168 [297.058014 -209.615005 0.055000] 0.729576 0.000000 0.000000 0.683900 */
