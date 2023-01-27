@@ -6,7 +6,7 @@ VALUES (38294, 'ace38294-spawnling', 10, '2022-12-04 19:04:52') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38294,   1,         16) /* ItemType - Creature */
      , (38294,   2,         34) /* CreatureType - Moarsman */
-     , (38294,   3,          7) /* PaletteTemplate - DeepGreen */
+     , (38294,   3,          8) /* PaletteTemplate - Green */
      , (38294,   6,         -1) /* ItemsCapacity */
      , (38294,   7,         -1) /* ContainersCapacity */
      , (38294,  16,          1) /* ItemUseable - No */
@@ -74,6 +74,7 @@ VALUES (38294,   1, 0x02000992) /* Setup */
      , (38294,   3, 0x2000006A) /* SoundTable */
      , (38294,   4, 0x30000023) /* CombatTable */
      , (38294,   6, 0x04000FA8) /* PaletteBase */
+     , (38294,   7, 0x10000276) /* ClothingBase */
      , (38294,   8, 0x06001ED1) /* Icon */
      , (38294,  22, 0x340000C8) /* PhysicsEffectTable */
      , (38294,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;

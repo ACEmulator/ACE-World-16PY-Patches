@@ -74,6 +74,7 @@ VALUES (38292,   1, 0x02000992) /* Setup */
      , (38292,   3, 0x2000006A) /* SoundTable */
      , (38292,   4, 0x30000023) /* CombatTable */
      , (38292,   6, 0x04000FA8) /* PaletteBase */
+     , (38292,   7, 0x10000276) /* ClothingBase */
      , (38292,   8, 0x06001ED1) /* Icon */
      , (38292,  22, 0x340000C8) /* PhysicsEffectTable */;
 
