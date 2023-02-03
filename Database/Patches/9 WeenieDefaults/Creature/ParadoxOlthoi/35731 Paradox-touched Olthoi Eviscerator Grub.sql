@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35731;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35731, 'ace35731-paradoxtouchedolthoievisceratorgrub', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (35731, 'ace35731-paradoxtouchedolthoievisceratorgrub', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35731,   1,         16) /* ItemType - Creature */
@@ -97,12 +97,12 @@ VALUES (35731,  6, 0, 3, 0, 220, 0, 0) /* MeleeDefense        Specialized */
      , (35731, 45, 0, 3, 0, 205, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35731,  0,  4, 55, 0.75,  275,  275,  275,  275,  275,  275,  344,  289,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (35731, 16,  4,  0,    0,  225,  225,  225,  225,  225,  225,  281,  236,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
-     , (35731, 18,  4, 55, 0.75,  225,  225,  225,  225,  225,  225,  281,  236,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
-     , (35731, 19,  4, 55,    0,  225,  225,  225,  225,  225,  225,  281,  236,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
-     , (35731, 20,  4, 55, 0.75,  225,  225,  225,  225,  225,  225,  281,  236,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
-     , (35731, 22, 32,  0,  0.5,  275,  275,  275,  275,  275,  275,  344,  289,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Breath */;
+VALUES (35731,  0,  4, 55, 0.75,  275,  619,  481,  308,  963,  963, 1100,  963,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+     , (35731, 16,  4,  0,    0,  225,  506,  394,  252,  788,  788,  900,  788,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
+     , (35731, 18,  4, 55, 0.75,  225,  506,  394,  252,  788,  788,  900,  788,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
+     , (35731, 19,  4, 55,    0,  225,  506,  394,  252,  788,  788,  900,  788,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
+     , (35731, 20,  4, 55, 0.75,  225,  506,  394,  252,  788,  788,  900,  788,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
+     , (35731, 22, 32,  0,  0.5,  275,  619,  481,  308,  963,  963, 1100,  963,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35731,  5 /* HeartBeat */,   0.15, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

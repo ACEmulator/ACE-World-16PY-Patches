@@ -8,7 +8,7 @@ Use:
         QuestSuccess:
             - Delay: 1, Tell: You'd better hurry up, time is ticking.
             # the following line is not retail
-            - Delay: 1, DirectBroadcast: You have %mxqt left to adjust your attributes.
+            - Delay: 1, DirectBroadcast: You have %tqt left to adjust your attributes.
         QuestFailure:
             - InqQuest: UsedFreeAttributeReset
                 QuestSuccess:

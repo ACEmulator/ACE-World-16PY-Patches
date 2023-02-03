@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43244;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43244, 'ace43244-weakenedempyrean', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43244, 'ace43244-weakenedempyrean', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43244,   1,         16) /* ItemType - Creature */
@@ -75,7 +75,7 @@ VALUES (43244,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  87 /* MoveToPos */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0xBB9D0038 /* @teleloc 0xBB9D0038 [160.042007 181.669006 34.946301] -0.502671 0.000000 0.000000 0.864478 */, 160.042, 181.669, 34.9463, -0.502671, 0, 0, 0.864478);
+VALUES (@parent_id,  0,  87 /* MoveToPos */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 160.042, 181.669, 34.9463, -0.502671, 0, 0, 0.864478);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (43244, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'PortalOut', NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87256;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87256, 'ace87256-silverscopeknight', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (87256, 'ace87256-silverscopeknight', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87256,   1,         16) /* ItemType - Creature */
@@ -88,15 +88,15 @@ VALUES (87256,  6, 0, 2, 0, 556, 0, 0) /* MeleeDefense        Trained */
      , (87256, 46, 0, 2, 0, 526, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (87256,  0,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (87256,  1,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (87256,  2,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (87256,  3,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (87256,  4,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (87256,  5,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (87256,  6,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (87256,  7,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (87256,  8,  4, 80,  0.5,  450,  380,  380,  380,  380,  380,  250,  280,    0, 2,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (87256,  0,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (87256,  1,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (87256,  2,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (87256,  3,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (87256,  4,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (87256,  5,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (87256,  6,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (87256,  7,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (87256,  8,  4, 80,  0.5,  450,  437,  441,  441,  446,  446,  248,  243,    0, 2,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87256,  4450,   2.15)  /* Incantation of Lightning Blast */
@@ -112,5 +112,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'GearknightKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87256, 10, 41240,  1, 0, 0.5, True) /* Create Gearknight Sword (41240) for WieldTreasure */
-     , (87256, 10, 41244,  1, 0, 0.5, True) /* Create Gearknight Greatsword (41244) for WieldTreasure */;
+VALUES (87256, 10, 41240,  1, 0, 0.5, False) /* Create Gearknight Sword (41240) for WieldTreasure */
+     , (87256, 10, 41244,  1, 0, 0.5, False) /* Create Gearknight Greatsword (41244) for WieldTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24961;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24961, 'olthoigrubeviscerator', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (24961, 'olthoigrubeviscerator', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24961,   1,         16) /* ItemType - Creature */
@@ -97,7 +97,7 @@ VALUES (24961,  6, 0, 3, 0, 290, 0, 1612.92420371986) /* MeleeDefense        Spe
      , (24961, 24, 0, 3, 0, 200, 0, 1612.92420371986) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (24961,  0,  4, 75, 0.75,  350,  350,  350,  350,  350,  350,  438,  367,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+VALUES (24961,  0,  4, 75, 0.75,  350,  350,  350,  350,  350,  350,  438,  368,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
      , (24961, 16,  4,  0,    0,  275,  275,  275,  275,  275,  275,  344,  289,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
      , (24961, 18,  4, 75, 0.75,  275,  275,  275,  275,  275,  275,  344,  289,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
      , (24961, 19,  4, 75,    0,  275,  275,  275,  275,  275,  275,  344,  289,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */

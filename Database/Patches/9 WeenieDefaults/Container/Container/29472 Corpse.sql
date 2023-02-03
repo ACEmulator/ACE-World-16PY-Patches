@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29472;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29472, 'corpseoswaldpatsy1', 21, '2021-11-01 00:00:00') /* Container */;
+VALUES (29472, 'corpseoswaldpatsy1', 21, '2022-11-05 05:26:30') /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29472,   1,        512) /* ItemType - Container */
@@ -33,8 +33,7 @@ VALUES (29472,  41,      15) /* RegenerationInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29472,   1, 'Corpse') /* Name */
      , (29472,  14, 'Use this item to search it and see its possessions.') /* Use */
-     , (29472,  15, 'A corpse, bobbing gently near the surface of the water.') /* ShortDesc */
-     , (29472,  16, 'The corpse of Abmim ibn Ibsar, bobbing gently near the surface of the water.') /* LongDesc */;
+     , (29472,  16, 'The corpse of a recently killed Viamontian, with a clean dagger hole in the back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29472,   1, 0x0200037B) /* Setup */

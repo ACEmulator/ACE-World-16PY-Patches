@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48954;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48954, 'ace48954-burningsandskeyring', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (48954, 'ace48954-burningsandskeyring', 44, '2022-12-28 05:57:21') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48954,   1,        128) /* ItemType - Misc */
@@ -16,7 +16,6 @@ VALUES (48954,   1,        128) /* ItemType - Misc */
      , (48954,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (48954,  19,        500) /* Value */
      , (48954,  33,          0) /* Bonded - Normal */
-     , (48954,  65,        101) /* Placement - Resting */
      , (48954,  91,         50) /* MaxStructure */
      , (48954,  92,         50) /* Structure */
      , (48954,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

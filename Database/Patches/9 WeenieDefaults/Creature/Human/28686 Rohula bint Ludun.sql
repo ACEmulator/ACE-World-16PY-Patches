@@ -269,7 +269,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 29270 /* Clutch of the Miser */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28686,  6 /* Give */,      1, 29282 /* Shadow of The Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28686,  6 /* Give */,      1, 29282 /* Shadow of the Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -555,6 +555,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28686, 2, 25953,  0, 4, 0, False) /* Create Cowl of the Sand (25953) for Wield */
-     , (28686, 2,  2601,  0, 4, 0.8036, False) /* Create Pants (2601) for Wield */
+     , (28686, 2,  2601,  0, 4, 0.8036, False) /* Create Loose Pants (2601) for Wield */
      , (28686, 2,   133,  0, 4, 0.25, False) /* Create Slippers (133) for Wield */
      , (28686, 2,  8788,  0, 0, 0, False) /* Create Obsidian Dagger (8788) for Wield */;

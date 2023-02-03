@@ -267,7 +267,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 29295 /* Blank Augmentation Gem */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44886,  6 /* Give */,      1, 29282 /* Shadow of The Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (44886,  6 /* Give */,      1, 29282 /* Shadow of the Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -543,6 +543,6 @@ VALUES (44886, 2, 27220,  0, 14, 0.2, False) /* Create Lorica Boots (27220) for 
      , (44886, 2, 27225,  0, 14, 0.2, False) /* Create Lorica Sleeves (27225) for Wield */
      , (44886, 2, 27224,  0, 14, 0.2, False) /* Create Lorica Leggings (27224) for Wield */
      , (44886, 2, 21156,  0, 14, 0.2, False) /* Create Covenant Helm (21156) for Wield */
-     , (44886, 2,  2588,  0, 14, 0, False) /* Create Shirt (2588) for Wield */
+     , (44886, 2,  2588,  0, 14, 0, False) /* Create Flared Shirt (2588) for Wield */
      , (44886, 2,    95,  0, 14, 0, False) /* Create Tower Shield (95) for Wield */
      , (44886, 2, 33064,  0, 14, 0, False) /* Create Red Rune Silveran Spear (33064) for Wield */;

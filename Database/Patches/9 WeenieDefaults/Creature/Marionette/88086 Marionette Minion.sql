@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88086;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88086, 'ace88086-marionetteminion', 10, '2022-05-10 03:49:02') /* Creature */;
+VALUES (88086, 'ace88086-marionetteminion', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88086,   1,         16) /* ItemType - Creature */
@@ -104,11 +104,11 @@ VALUES (88086,  6, 0, 3, 0, 470, 0, 0) /* MeleeDefense        Specialized */
      , (88086, 46, 0, 3, 0, 307, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (88086,  0, 64, 160, 0.75,  900,  750, 1475, 1475, 1475, 1475, 1475, 1475,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */
-     , (88086, 16, 64, 160,    0,  900,  750, 1475, 1475, 1475, 1475, 1475, 1475,    0, 2,  0.5, 0.48,  0.1,  0.5,  0.6,  0.1,  0.5, 0.48,  0.1,  0.5,  0.6, 0.22) /* Torso */
-     , (88086, 21, 64,  0,    0,  900,  750, 1475, 1475, 1475, 1475, 1475, 1475,    0, 2,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0, 0.28) /* Wings */
-     , (88086, 24, 64, 160,    0,  900,  750, 1475, 1475, 1475, 1475, 1475, 1475,    0, 2, 0.06, 0.22,  0.3,  0.1,  0.2,  0.3, 0.06, 0.22,  0.3,  0.1,  0.2, 0.22) /* UpperTentacle */
-     , (88086, 25, 64, 160, 0.75,  900,  750, 1475, 1475, 1475, 1475, 1475, 1475,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
+VALUES (88086,  0, 64, 160, 0.75,  900,  711,  612,  828,  675,  585,  585,  612,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */
+     , (88086, 16, 64, 160,    0,  900,  711,  612,  828,  675,  585,  585,  612,    0, 2,  0.5, 0.48,  0.1,  0.5,  0.6,  0.1,  0.5, 0.48,  0.1,  0.5,  0.6, 0.22) /* Torso */
+     , (88086, 21, 64,  0,    0,  900,  711,  612,  828,  675,  585,  585,  612,    0, 2,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0, 0.28) /* Wings */
+     , (88086, 24, 64, 160,    0,  900,  711,  612,  828,  675,  585,  585,  612,    0, 2, 0.06, 0.22,  0.3,  0.1,  0.2,  0.3, 0.06, 0.22,  0.3,  0.1,  0.2, 0.22) /* UpperTentacle */
+     , (88086, 25, 64, 160, 0.75,  900,  711,  612,  828,  675,  585,  585,  612,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (88086,  1788,   2.04)  /* Eye of the Storm */

@@ -1,5 +1,5 @@
 Use:
-    - InqQuest: MhoireTrialsComplete
+    - InqQuest: MhoireGreatHall
         QuestSuccess:
             - CastSpellInstant: 5161
         QuestFailure:

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29355;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29355, 'reedsharkfloe', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (29355, 'reedsharkfloe', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29355,   1,         16) /* ItemType - Creature */
@@ -96,10 +96,10 @@ VALUES (29355,  6, 0, 3, 0, 215, 0, 0) /* MeleeDefense        Specialized */
      , (29355, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (29355,  0,  2, 150,  0.1,  460,  425,  175,  425,  325,  375,  350,  350,  350, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (29355, 10,  2, 75,  0.4,  460,  425,  175,  425,  325,  375,  350,  350,  350, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (29355, 13,  2, 75,  0.4,  500,  425,  175,  425,  325,  375,  350,  350,  350, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
-     , (29355, 16,  4,  0,    0,  460,  425,  175,  425,  325,  375,  350,  350,  350, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */;
+VALUES (29355,  0,  2, 150,  0.1,  460,  368,  276,  322,  276,  322,  276,  368,    0, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (29355, 10,  2, 75,  0.4,  460,  368,  276,  322,  276,  322,  276,  368,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (29355, 13,  2, 75,  0.4,  500,  400,  300,  350,  300,  350,  300,  400,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+     , (29355, 16,  4,  0,    0,  460,  368,  276,  322,  276,  322,  276,  368,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (29355,  94) /* ATTACK_NOTIFICATION_EVENT */

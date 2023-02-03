@@ -58,6 +58,7 @@ GotoSet: CheckOrder4
     - InqQuest: mhoireNWw4
         QuestSuccess:
             - StampQuest: mhoireNWpass
+            - StampQuest: mhoireNWportalflag
             - EraseQuest: mhoireNWcounter
             - EraseQuest: mhoireNWn1
             - EraseQuest: mhoireNWn2
@@ -88,5 +89,5 @@ GotoSet: Pass
     - DirectBroadcast: You have chosen correctly. You must choose the next guardian.
 
 GotoSet: Fail
-    - - StampQuest: mhoireNWfail
+    - StampQuest: mhoireNWfail
     - Tell: You fail

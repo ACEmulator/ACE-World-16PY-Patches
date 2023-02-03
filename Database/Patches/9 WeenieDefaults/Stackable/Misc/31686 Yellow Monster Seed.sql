@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31686;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31686, 'ace31686-yellowmonsterseed', 51, '2021-11-17 16:56:08') /* Stackable */;
+VALUES (31686, 'ace31686-yellowmonsterseed', 51, '2022-09-20 00:15:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31686,   1,        128) /* ItemType - Misc */
@@ -30,5 +30,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31686,   1, 0x02001438) /* Setup */
      , (31686,   3, 0x20000014) /* SoundTable */
      , (31686,   6, 0x04001E7C) /* PaletteBase */
+     , (31686,   7, 0x10000622) /* ClothingBase */
      , (31686,   8, 0x06006039) /* Icon */
      , (31686,  22, 0x3400002B) /* PhysicsEffectTable */;

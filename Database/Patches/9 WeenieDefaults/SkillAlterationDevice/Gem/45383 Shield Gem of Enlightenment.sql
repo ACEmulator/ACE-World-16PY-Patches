@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45383;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45383, 'ace45383-shieldgemofenlightenment', 62, '2021-11-01 00:00:00') /* SkillAlterationDevice */;
+VALUES (45383, 'ace45383-shieldgemofenlightenment', 62, '2022-11-05 05:26:30') /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45383,   1,       2048) /* ItemType - Gem */
@@ -21,7 +21,7 @@ VALUES (45383,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45383,   1, 'Shield Gem of Enlightenment') /* Name */
-     , (45383,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Shield Weapons skill.') /* Use */;
+     , (45383,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Shield skill.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45383,   1, 0x02000E48) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43353;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43353, 'ace43353-grandmasterscrivenerofvoidmagic', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (43353, 'ace43353-grandmasterscrivenerofvoidmagic', 12, '2022-08-22 03:09:27') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43353,   1,         16) /* ItemType - Creature */
@@ -103,15 +103,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'No more components, or that dreaded research!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43353, 2,  2596,  0, 13, 0, True) /* Create Doublet (2596) for Wield */
-     , (43353, 2, 10696,  0, 93, 0, True) /* Create Apron (10696) for Wield */
-     , (43353, 4, 43173,  0, 0, 0, True) /* Create Foci of Shadow (43173) for Shop */
-     , (43353, 4, 43307,  0, 0, 0, True) /* Create Scroll of Nether Bolt VI (43307) for Shop */
-     , (43353, 4, 43299,  0, 0, 0, True) /* Create Scroll of Nether Arc VI (43299) for Shop */
-     , (43353, 4, 43315,  0, 0, 0, True) /* Create Scroll of Nether Streak VI (43315) for Shop */
-     , (43353, 4, 43283,  0, 0, 0, True) /* Create Scroll of Corrosion VI (43283) for Shop */
-     , (43353, 4, 43291,  0, 0, 0, True) /* Create Scroll of Corruption VI (43291) for Shop */
-     , (43353, 4, 43325,  0, 0, 0, True) /* Create Scroll of Destructive Curse VI (43325) for Shop */
-     , (43353, 4, 43334,  0, 0, 0, True) /* Create Scroll of Festering Curse VI (43334) for Shop */
-     , (43353, 4, 43343,  0, 0, 0, True) /* Create Scroll of Weakening Curse VI (43343) for Shop */
-     , (43353, 4, 44624,  0, 0, 0, True) /* Create Scroll of Nether Blast VI (44624) for Shop */;
+VALUES (43353, 2,  2596,  0, 13, 0, False) /* Create Doublet (2596) for Wield */
+     , (43353, 2, 10696,  0, 93, 0, False) /* Create Apron (10696) for Wield */
+     , (43353, 4, 43173,  0, 0, 0, False) /* Create Foci of Shadow (43173) for Shop */
+     , (43353, 4, 43307,  0, 0, 0, False) /* Create Scroll of Nether Bolt VI (43307) for Shop */
+     , (43353, 4, 43299,  0, 0, 0, False) /* Create Scroll of Nether Arc VI (43299) for Shop */
+     , (43353, 4, 43315,  0, 0, 0, False) /* Create Scroll of Nether Streak VI (43315) for Shop */
+     , (43353, 4, 43283,  0, 0, 0, False) /* Create Scroll of Corrosion VI (43283) for Shop */
+     , (43353, 4, 43291,  0, 0, 0, False) /* Create Scroll of Corruption VI (43291) for Shop */
+     , (43353, 4, 43325,  0, 0, 0, False) /* Create Scroll of Destructive Curse VI (43325) for Shop */
+     , (43353, 4, 43334,  0, 0, 0, False) /* Create Scroll of Festering Curse VI (43334) for Shop */
+     , (43353, 4, 43343,  0, 0, 0, False) /* Create Scroll of Weakening Curse VI (43343) for Shop */
+     , (43353, 4, 44624,  0, 0, 0, False) /* Create Scroll of Nether Blast VI (44624) for Shop */;

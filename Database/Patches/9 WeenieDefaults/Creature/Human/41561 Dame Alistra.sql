@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41561;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41561, 'ace41561-damealistra', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (41561, 'ace41561-damealistra', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41561,   1,         16) /* ItemType - Creature */
@@ -123,7 +123,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.2, 1, NULL, 'I see that you''ve destroyed six Lesser Lords. I shall reward you for your assistance to the Crown.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'GearknightLesserLordKillTask', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'GearknightLesserLordKillCount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0.1, 1, NULL, NULL, NULL, NULL, NULL, 0, 2000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0.1, 1, NULL, NULL, NULL, NULL, NULL, 0, 2000000, NULL, NULL, NULL, False, NULL, NULL, NULL, 0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  34 /* AddCharacterTitle */, 0.1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 687 /* AllforOne */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
@@ -182,4 +182,4 @@ VALUES (41561, 2, 21150,  1, 21, 0.5, False) /* Create Covenant Sollerets (21150
      , (41561, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (41561, 2,   127,  1, 14, 0.4, False) /* Create Pants (127) for Wield */
      , (41561, 2,   130,  1, 14, 0.4, False) /* Create Shirt (130) for Wield */
-     , (41561, 2, 24611,  1, 0, 0, True) /* Create Sword of Lost Light (24611) for Wield */;
+     , (41561, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */;

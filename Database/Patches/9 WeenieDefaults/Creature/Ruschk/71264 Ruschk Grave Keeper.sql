@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71264;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71264, 'ace71264-ruschkgravekeeper', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (71264, 'ace71264-ruschkgravekeeper', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71264,   1,         16) /* ItemType - Creature */
@@ -169,5 +169,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles s
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71264, 1, 71272,  1, 0, 1, False) /* Create Ruschk Funerary Fetish (71272) for Contain */
-     , (71264, 9, 28729, -1, 0, 0.05, True) /* Create Augmented Ice Shard (28729) for ContainTreasure */
+     , (71264, 9, 28729, -1, 0, 0.05, False) /* Create Augmented Ice Shard (28729) for ContainTreasure */
      , (71264, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

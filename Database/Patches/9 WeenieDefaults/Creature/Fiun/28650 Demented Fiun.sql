@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28650;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28650, 'fiundemented', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (28650, 'fiundemented', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28650,   1,         16) /* ItemType - Creature */
@@ -100,15 +100,15 @@ VALUES (28650,  6, 0, 3, 0, 320, 0, 0) /* MeleeDefense        Specialized */
      , (28650, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (28650,  0,  8,  0,    0,  280,  325,  350,  350,  350,  270,  350,  280,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (28650,  1,  4,  0,    0,  280,  325,  350,  350,  350,  270,  350,  280,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (28650,  2,  4,  0,    0,  280,  325,  350,  350,  350,  270,  350,  280,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (28650,  3,  1,  0,    0,  280,  325,  350,  350,  350,  270,  350,  280,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (28650,  4,  2,  0, 0.75,  280,  325,  350,  350,  350,  270,  350,  280,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (28650,  5,  4, 45, 0.75,  280,  325,  350,  350,  350,  270,  350,  280,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (28650,  6,  4,  0,    0,  280,  325,  350,  350,  350,  270,  350,  280,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (28650,  7,  4,  0,    0,  280,  325,  350,  350,  350,  270,  350,  280,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (28650,  8,  4, 45, 0.75,  280,  325,  350,  350,  350,  270,  350,  280,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (28650,  0,  8,  0,    0,  280,  364,  280,  308,  252,  168,  280,  196,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (28650,  1,  4,  0,    0,  280,  364,  280,  308,  252,  168,  280,  196,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (28650,  2,  4,  0,    0,  280,  364,  280,  308,  252,  168,  280,  196,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (28650,  3,  1,  0,    0,  280,  364,  280,  308,  252,  168,  280,  196,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (28650,  4,  2,  0, 0.75,  280,  364,  280,  308,  252,  168,  280,  196,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (28650,  5,  4, 45, 0.75,  280,  364,  280,  308,  252,  168,  280,  196,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (28650,  6,  4,  0,    0,  280,  364,  280,  308,  252,  168,  280,  196,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (28650,  7,  4,  0,    0,  280,  364,  280,  308,  252,  168,  280,  196,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (28650,  8,  4, 45, 0.75,  280,  364,  280,  308,  252,  168,  280,  196,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28650,    84,   2.09)  /* Flame Bolt V */
@@ -145,7 +145,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000053 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28650, 9, 45875,  1, 0, 0.01, True) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (28650, 9,     0,  1, 0, 0.99, True) /* Create nothing for ContainTreasure */
-     , (28650, 9, 45876,  1, 0, 0.03, True) /* Create Scarlet Red Letter (45876) for ContainTreasure */
-     , (28650, 9,     0,  1, 0, 0.97, True) /* Create nothing for ContainTreasure */;
+VALUES (28650, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (28650, 9,     0,  1, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28650, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (28650, 9,     0,  1, 0, 0.97, False) /* Create nothing for ContainTreasure */;

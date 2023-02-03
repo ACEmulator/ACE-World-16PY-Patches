@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72217;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72217, 'ace72217-gycorruptedgravestonegen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72217, 'ace72217-gycorruptedgravestonegen', 1, '2022-07-22 16:06:17') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72217,  81,          2) /* MaxGeneratedObjects */
@@ -26,4 +26,4 @@ VALUES (72217,   1, 0x0200026B) /* Setup */
      , (72217,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72217, -1, 52305, 0, 4, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Gravestone (52305) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (72217, -1, 52305, 60, 4, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Gravestone (52305) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

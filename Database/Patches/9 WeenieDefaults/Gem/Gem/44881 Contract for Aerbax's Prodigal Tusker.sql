@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44881;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44881, 'ace44881-contractforaerbaxsprodigaltusker', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (44881, 'ace44881-contractforaerbaxsprodigaltusker', 38, '2022-10-19 15:43:32') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44881,   1,       2048) /* ItemType - Gem */
@@ -24,7 +24,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44881, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44881,   1, 'Contract for Aerbax''s Prodigal Tusker') /* Name */;
+VALUES (44881,   1, 'Contract for Aerbax''s Prodigal Tusker') /* Name */
+     , (44881,  14, 'Recommended Level: 130') /* Use */
+     , (44881,  16, 'Defeat Dark Bobo and bring his token to Jilna Fullgood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44881,   1, 0x02000C79) /* Setup */

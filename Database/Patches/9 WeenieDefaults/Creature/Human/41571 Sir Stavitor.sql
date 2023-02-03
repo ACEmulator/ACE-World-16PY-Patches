@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41571;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41571, 'ace41571-sirstavitor', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (41571, 'ace41571-sirstavitor', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41571,   1,         16) /* ItemType - Creature */
@@ -132,7 +132,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Congratulations, you survived and succeeded. Here, allow me to reward you for your assistance to our Queen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'GoldGearTrooperKillTask', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'goldgeartrooperkillcount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  3,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1500000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (41571, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'GoldGearTrooperKillTask', NULL, NULL, NULL);
@@ -189,4 +189,4 @@ VALUES (41571, 2, 21150,  1, 21, 0.5, False) /* Create Covenant Sollerets (21150
      , (41571, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (41571, 2,   127,  1, 14, 0.4, False) /* Create Pants (127) for Wield */
      , (41571, 2,   130,  1, 14, 0.4, False) /* Create Shirt (130) for Wield */
-     , (41571, 2,   351,  1, 20, 0, True) /* Create Long Sword (351) for Wield */;
+     , (41571, 2,   351,  1, 20, 0, False) /* Create Long Sword (351) for Wield */;

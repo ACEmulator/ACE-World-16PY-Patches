@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43478;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43478, 'ace43478-luminouscrystalofvitality', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (43478, 'ace43478-luminouscrystalofvitality', 38, '2022-07-22 16:06:17') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43478,   1,       2048) /* ItemType - Gem */
@@ -14,7 +14,6 @@ VALUES (43478,   1,       2048) /* ItemType - Gem */
      , (43478,  18,          1) /* UiEffects - Magical */
      , (43478,  19,          0) /* Value */
      , (43478,  33,          1) /* Bonded - Bonded */
-     , (43478,  65,        101) /* Placement - Resting */
      , (43478,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43478,  94,         16) /* TargetType - Creature */
      , (43478, 106,        325) /* ItemSpellcraft */

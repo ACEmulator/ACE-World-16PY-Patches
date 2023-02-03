@@ -116,6 +116,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52266, 2,  2587,  0, 2, 0, False) /* Create Shirt (2587) for Wield */
-     , (52266, 2,  2597,  0, 2, 0, False) /* Create Pants (2597) for Wield */
+     , (52266, 2,  2597,  0, 2, 0, False) /* Create Flared Pants (2597) for Wield */
      , (52266, 2,   115,  0, 85, 0, False) /* Create Leather Boots (115) for Wield */
      , (52266, 2, 80303,  0, 0, 0, False) /* Create Celestial Hand Tabard (80303) for Wield */;

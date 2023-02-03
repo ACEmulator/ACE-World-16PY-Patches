@@ -378,6 +378,9 @@ Gotoset: Check36
             - Tell: Your next challenge is to complete 30 'Legendary Quests' and then return to me.
             - InqQuestSolves: LegendaryQuestCounter_0913, 30 - 999
                 QuestSuccess:
+                    - EraseQuest: LegendaryQuestCounter_0913
+                    - EraseQuest: LegendaryQuestsA
+                    - EraseQuest: LegendaryQuestsB
                     - Tell: And I see you have already proven yourself in this challenge. Well done.
                     - Give: 53182
                     - StampQuest: ParagonWeapons
@@ -480,11 +483,27 @@ Gotoset: Check46
             - Tell: Your next challenge is to complete 40 'Legendary Quests' and then return to me.
             - InqQuestSolves: LegendaryQuestCounter_0913, 40 - 999
                 QuestSuccess:
+                    - EraseQuest: LegendaryQuestCounter_0913
+                    - EraseQuest: LegendaryQuestsA
+                    - EraseQuest: LegendaryQuestsB
                     - Tell: And I see you have already proven yourself in this challenge. Well done.
                     - Give: 53192
                     - StampQuest: ParagonWeapons
                 QuestFailure:
-                    - Tell: Go and prove yourself, small one.
+                    - InqQuestBitsOn: LegendaryQuestsA, 0xFFFFF
+                        QuestSuccess:
+                            - InqQuestBitsOn: LegendaryQuestsB, 0xFFFFF
+                                QuestSuccess:
+                                    - EraseQuest: LegendaryQuestCounter_0913
+                                    - EraseQuest: LegendaryQuestsA
+                                    - EraseQuest: LegendaryQuestsB
+                                    - Tell: And I see you have already proven yourself in this challenge. Well done.
+                                    - Give: 53192
+                                    - StampQuest: ParagonWeapons
+                                QuestFailure:
+                                    - Tell: Go and prove yourself, small one.
+                        QuestFailure:
+                            - Tell: Go and prove yourself, small one.
 
 Gotoset: Check47
     - Delay: 0.01, InqQuestSolves: ParagonWeapons, 47 - 47
@@ -896,7 +915,7 @@ Refuse: 52968
     - Goto: CheckStart
 
 Gotoset: CheckStart
-    - InqQuestSolves: ParagonStarted
+    - InqQuest: ParagonStarted
         QuestSuccess:
             - Goto: Amber0
         QuestFailure:
@@ -1053,7 +1072,7 @@ Gotoset: Amber45
             - Goto: Amber50
 
 Gotoset: Amber50
-    - InqQuestSolves: ParagonWeapons, 50 - 50
+    - InqQuestSolves: ParagonWeapons, 49 - 49
         QuestSuccess:
             - InqOwnsItems: 52968, 500
                 TestSuccess:
@@ -1063,7 +1082,8 @@ Gotoset: Amber50
                     - Give: 53195
                     - Tell: You have successfully empowered your weapon as far as it is able to contain. Congratulations.
                     - Tell: If you wish to empower another weapon, speak with me again, and we'll start anew.
-                    - SetQuestCompletions: ParagonWeapons, 0
+                    - EraseQuest: ParagonWeapons
+                    - EraseQuest: ParagonStarted
                 TestFailure:
                     - Tell: Come back when you have at least 500 Infused Amber Shards.
         QuestFailure:

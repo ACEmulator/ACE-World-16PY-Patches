@@ -8,9 +8,9 @@ Use:
 
 GotoSet: RandomTeleport, Probability: 0.5
     - TeleportTarget: 0xB6480007 [13.722249 153.988464 116.005005] -0.707107 0 0 0.707107
-    
+
 GotoSet: RandomTeleport, Probability: 1.0
-    - TeleportTarget: 0xB7490018 [62.944798 174.076355 112.005005]  0.707107 0 0 0.707107
+    - TeleportTarget: 0xB7490018 [62.944798 174.076355 112.005005] 0.707107 0 0 0.707107
 
 Gotoset: Check1
     - InqSkillStat: Lockpick, 575 - 99999
@@ -59,7 +59,7 @@ Gotoset: Check4
                     - Goto: Fail
         TestFailure:
             - Goto: Check5
-        
+
 Gotoset: Check5
     - InqOwnsItems: 52970, 10
         TestSuccess:
@@ -71,6 +71,6 @@ Gotoset: Check5
 Gotoset: Pass
     - TakeItems: 52970, -1
     - LocalSignal: viridianportal5
-    
+
 Gotoset: Fail
     - DirectBroadcast: You approach, attempting to use the portal, but you are unable to activate it.

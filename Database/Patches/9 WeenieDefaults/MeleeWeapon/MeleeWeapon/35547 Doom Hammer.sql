@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35547;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35547, 'ace35547-doomhammer', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
+VALUES (35547, 'ace35547-doomhammer', 6, '2022-12-28 05:57:21') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35547,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,7 +18,6 @@ VALUES (35547,   1,          1) /* ItemType - MeleeWeapon */
      , (35547,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (35547,  49,         20) /* WeaponTime */
      , (35547,  51,          1) /* CombatUse - Melee */
-     , (35547,  65,          1) /* Placement - RightHandCombat */
      , (35547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35547, 114,          0) /* Attuned - Normal */
      , (35547, 263,          4) /* ResistanceModifierType - Bludgeon */

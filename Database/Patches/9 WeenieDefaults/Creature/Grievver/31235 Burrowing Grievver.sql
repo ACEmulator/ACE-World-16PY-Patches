@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31235;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31235, 'ace31235-burrowinggrievver', 10, '2021-12-14 05:15:31') /* Creature */;
+VALUES (31235, 'ace31235-burrowinggrievver', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31235,   1,         16) /* ItemType - Creature */
@@ -105,11 +105,11 @@ VALUES (31235,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (31235, 45, 0, 3, 0, 380, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (31235,  0,  4,  0,    0,  400,  240,  280,  376,  143,  143,  143,  143,    0, 1, 0.33, 0.23,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,  0.1,    0) /* Head */
-     , (31235, 16,  4,  0,    0,  400,  240,  280,  376,  143,  143,  143,  143,    0, 2, 0.34, 0.34,  0.1,  0.1,  0.1,  0.1, 0.45,  0.5, 0.45,  0.5,  0.5,  0.3) /* Torso */
-     , (31235, 18,  2, 120,  0.4,  400,  240,  280,  376,  143,  143,  143,  143,    0, 2, 0.23, 0.33, 0.35, 0.35, 0.35, 0.35,    0,    0,  0.1,    0,    0,  0.1) /* Arm */
-     , (31235, 19,  2,  0,    0,  400,  240,  280,  376,  143,  143,  143,  143,    0, 3,    0,    0, 0.35, 0.35, 0.35, 0.35, 0.45,  0.5, 0.45,  0.5,  0.4,  0.6) /* Leg */
-     , (31235, 20,  2, 120, 0.75,  400,  240,  280,  376,  143,  143,  143,  143,    0, 2,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,    0,    0,    0) /* Claw */
+VALUES (31235,  0,  4,  0,    0,  400,  240,  280,  376,  144,  144,  144,  144,    0, 1, 0.33, 0.23,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,  0.1,    0) /* Head */
+     , (31235, 16,  4,  0,    0,  400,  240,  280,  376,  144,  144,  144,  144,    0, 2, 0.34, 0.34,  0.1,  0.1,  0.1,  0.1, 0.45,  0.5, 0.45,  0.5,  0.5,  0.3) /* Torso */
+     , (31235, 18,  2, 120,  0.4,  400,  240,  280,  376,  144,  144,  144,  144,    0, 2, 0.23, 0.33, 0.35, 0.35, 0.35, 0.35,    0,    0,  0.1,    0,    0,  0.1) /* Arm */
+     , (31235, 19,  2,  0,    0,  400,  240,  280,  376,  144,  144,  144,  144,    0, 3,    0,    0, 0.35, 0.35, 0.35, 0.35, 0.45,  0.5, 0.45,  0.5,  0.4,  0.6) /* Leg */
+     , (31235, 20,  2, 120, 0.75,  400,  240,  280,  376,  144,  144,  144,  144,    0, 2,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,    0,    0,    0) /* Claw */
      , (31235, 22, 32, 120,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
@@ -155,7 +155,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31235, 9, 24477,  1, 0, 0.1, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (31235, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31235, 9,  9098,  1, 0, 0.18, True) /* Create Vial of Organic Acid (9098) for ContainTreasure */
+     , (31235, 9,  9098,  1, 0, 0.18, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
      , (31235, 9,     0,  0, 0, 0.82, False) /* Create nothing for ContainTreasure */
-     , (31235, 9, 31357,  1, 0, 0.1, True) /* Create Spiny Grievver Leg (31357) for ContainTreasure */
+     , (31235, 9, 31357,  1, 0, 0.1, False) /* Create Spiny Grievver Leg (31357) for ContainTreasure */
      , (31235, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

@@ -185,6 +185,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Oh, so the old Grand Knig
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29505, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
-     , (29505, 2,  2601,  0, 9, 1, False) /* Create Pants (2601) for Wield */
+     , (29505, 2,  2601,  0, 9, 1, False) /* Create Loose Pants (2601) for Wield */
      , (29505, 2, 28612,  0, 9, 0, False) /* Create Bandana (28612) for Wield */
      , (29505, 2,  2587,  0, 14, 0, False) /* Create Shirt (2587) for Wield */;

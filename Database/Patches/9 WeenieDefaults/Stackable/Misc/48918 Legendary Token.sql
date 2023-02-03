@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48918;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48918, 'ace48918-legendarytoken', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (48918, 'ace48918-legendarytoken', 51, '2022-12-28 05:57:21') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48918,   1,        128) /* ItemType - Misc */
@@ -13,7 +13,6 @@ VALUES (48918,   1,        128) /* ItemType - Misc */
      , (48918,  16,          1) /* ItemUseable - No */
      , (48918,  19,        100) /* Value */
      , (48918,  33,          1) /* Bonded - Bonded */
-     , (48918,  65,        101) /* Placement - Resting */
      , (48918,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48918, 114,          1) /* Attuned - Attuned */;
 

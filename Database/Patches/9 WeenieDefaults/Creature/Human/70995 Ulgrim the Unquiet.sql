@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70995;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70995, 'ace70995-ulgrimtheunquiet', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70995, 'ace70995-ulgrimtheunquiet', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70995,   1,         16) /* ItemType - Creature */
@@ -118,5 +118,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000091 /* Cringe */, NULL, N
      , (@parent_id,  7,  22 /* StampQuest */, 0, 1, NULL, 'UlgrimsBookcaseFlag', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70995, 2,  5850,  0, 4, 0.5, True) /* Create Faran Robe (5850) for Wield */
-     , (70995, 2, 27808,  0, 0, 0, True) /* Create Great Elariwood Idol (27808) for Wield */;
+VALUES (70995, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (70995, 2, 27808,  0, 0, 0, False) /* Create Great Elariwood Idol (27808) for Wield */;

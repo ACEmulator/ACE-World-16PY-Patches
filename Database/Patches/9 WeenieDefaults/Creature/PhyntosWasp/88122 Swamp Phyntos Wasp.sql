@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88122;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88122, 'ace88122-swampphyntoswasp', 10, '2022-06-21 15:22:25') /* Creature */;
+VALUES (88122, 'ace88122-swampphyntoswasp', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88122,   1,         16) /* ItemType - Creature */
@@ -94,10 +94,10 @@ VALUES (88122,  6, 0, 2, 0, 390, 0, 0) /* MeleeDefense        Trained */
      , (88122, 46, 0, 2, 0, 350, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (88122,  0,  2, 225,  0.5,  295,  250,  250,  250,  250,  250,  250,  250,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (88122, 16,  4,  0,    0,  295,  250,  250,  250,  250,  250,  250,  250,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (88122, 17,  1, 200, 0.75,  295,  250,  250,  250,  250,  250,  250,  250,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (88122, 21,  4,  0,    0,  295,  250,  250,  250,  250,  250,  250,  250,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (88122,  0,  2, 225,  0.5,  295,  266,  295,  266,  354,  354,  354,  295,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (88122, 16,  4,  0,    0,  295,  266,  295,  266,  354,  354,  354,  295,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (88122, 17,  1, 200, 0.75,  295,  266,  295,  266,  354,  354,  354,  295,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (88122, 21,  4,  0,    0,  295,  266,  295,  266,  354,  354,  354,  295,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (88122,  4432,   2.25)  /* Incantation of Acid Streak */

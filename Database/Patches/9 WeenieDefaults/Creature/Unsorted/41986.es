@@ -19,6 +19,7 @@ GotoSet: CheckStatus
                     - DirectBroadcast: The Brand of Mhoire burns with blue flame.
                     - TakeItems: 72204, -1
                     - EraseQuest: mhoireSWcounter
+                    - StampQuest: mhoireSWportalflag
                     - StampQuest: mhoireSWpass
                     - AddCharacterTitle: 693
                     - DirectBroadcast: You have been granted the title Knight of the Southwest Tower!

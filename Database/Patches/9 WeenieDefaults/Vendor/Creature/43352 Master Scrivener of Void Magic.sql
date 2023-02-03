@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43352;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43352, 'ace43352-masterscrivenerofvoidmagic', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (43352, 'ace43352-masterscrivenerofvoidmagic', 12, '2022-08-22 03:09:27') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43352,   1,         16) /* ItemType - Creature */
@@ -103,17 +103,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'No more components, or that dreaded research!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43352, 2,  2596,  0, 13, 0, True) /* Create Doublet (2596) for Wield */
-     , (43352, 2, 10696,  0, 93, 0, True) /* Create Apron (10696) for Wield */
-     , (43352, 2,   127,  0, 15, 1, True) /* Create Pants (127) for Wield */
-     , (43352, 2,   115,  0, 4, 0, True) /* Create Leather Boots (115) for Wield */
-     , (43352, 4, 43173,  0, 0, 0, True) /* Create Foci of Shadow (43173) for Shop */
-     , (43352, 4, 43306,  0, 0, 0, True) /* Create Scroll of Nether Bolt V (43306) for Shop */
-     , (43352, 4, 43298,  0, 0, 0, True) /* Create Scroll of Nether Arc V (43298) for Shop */
-     , (43352, 4, 43314,  0, 0, 0, True) /* Create Scroll of Nether Streak V (43314) for Shop */
-     , (43352, 4, 43282,  0, 0, 0, True) /* Create Scroll of Corrosion V (43282) for Shop */
-     , (43352, 4, 43290,  0, 0, 0, True) /* Create Scroll of Corruption V (43290) for Shop */
-     , (43352, 4, 43324,  0, 0, 0, True) /* Create Scroll of Destructive Curse V (43324) for Shop */
-     , (43352, 4, 43333,  0, 0, 0, True) /* Create Scroll of Festering Curse V (43333) for Shop */
-     , (43352, 4, 43342,  0, 0, 0, True) /* Create Scroll of Weakening Curse V (43342) for Shop */
-     , (43352, 4, 44623,  0, 0, 0, True) /* Create Scroll of Nether Blast V (44623) for Shop */;
+VALUES (43352, 2,  2596,  0, 13, 0, False) /* Create Doublet (2596) for Wield */
+     , (43352, 2, 10696,  0, 93, 0, False) /* Create Apron (10696) for Wield */
+     , (43352, 2,   127,  0, 15, 1, False) /* Create Pants (127) for Wield */
+     , (43352, 2,   115,  0, 4, 0, False) /* Create Leather Boots (115) for Wield */
+     , (43352, 4, 43173,  0, 0, 0, False) /* Create Foci of Shadow (43173) for Shop */
+     , (43352, 4, 43306,  0, 0, 0, False) /* Create Scroll of Nether Bolt V (43306) for Shop */
+     , (43352, 4, 43298,  0, 0, 0, False) /* Create Scroll of Nether Arc V (43298) for Shop */
+     , (43352, 4, 43314,  0, 0, 0, False) /* Create Scroll of Nether Streak V (43314) for Shop */
+     , (43352, 4, 43282,  0, 0, 0, False) /* Create Scroll of Corrosion V (43282) for Shop */
+     , (43352, 4, 43290,  0, 0, 0, False) /* Create Scroll of Corruption V (43290) for Shop */
+     , (43352, 4, 43324,  0, 0, 0, False) /* Create Scroll of Destructive Curse V (43324) for Shop */
+     , (43352, 4, 43333,  0, 0, 0, False) /* Create Scroll of Festering Curse V (43333) for Shop */
+     , (43352, 4, 43342,  0, 0, 0, False) /* Create Scroll of Weakening Curse V (43342) for Shop */
+     , (43352, 4, 44623,  0, 0, 0, False) /* Create Scroll of Nether Blast V (44623) for Shop */;

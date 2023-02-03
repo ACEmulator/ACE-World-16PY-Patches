@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44293;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44293, 'ace44293-ancienttabletofthecrystalstafflevel180', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (44293, 'ace44293-ancienttabletofthecrystalstafflevel180', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44293,   1,       2048) /* ItemType - Gem */
@@ -14,7 +14,6 @@ VALUES (44293,   1,       2048) /* ItemType - Gem */
      , (44293,  18,          2) /* UiEffects - Poisoned */
      , (44293,  19,          0) /* Value */
      , (44293,  33,          1) /* Bonded - Bonded */
-     , (44293,  65,        101) /* Placement - Resting */
      , (44293,  83,       2048) /* ActivationResponse - Emote */
      , (44293,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44293,  94,         16) /* TargetType - Creature */

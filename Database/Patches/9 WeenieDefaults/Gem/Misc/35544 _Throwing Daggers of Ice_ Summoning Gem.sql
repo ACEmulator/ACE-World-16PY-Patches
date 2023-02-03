@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35544;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35544, 'ace35544-throwingdaggersoficesummoninggem', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (35544, 'ace35544-throwingdaggersoficesummoninggem', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35544,   1,        128) /* ItemType - Misc */
@@ -13,7 +13,6 @@ VALUES (35544,   1,        128) /* ItemType - Misc */
      , (35544,  16,          8) /* ItemUseable - Contained */
      , (35544,  19,          1) /* Value */
      , (35544,  33,         -1) /* Bonded - Slippery */
-     , (35544,  65,        101) /* Placement - Resting */
      , (35544,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35544,  94,         16) /* TargetType - Creature */
      , (35544, 269,        250) /* UseCreateQuantity */;

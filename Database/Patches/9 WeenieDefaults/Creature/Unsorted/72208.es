@@ -58,6 +58,7 @@ GotoSet: CheckOrder4
     - InqQuest: mhoireNWe4
         QuestSuccess:
             - StampQuest: mhoireNWpass
+            - StampQuest: mhoireNWportalflag
             - EraseQuest: mhoireNWcounter
             - EraseQuest: mhoireNWn1
             - EraseQuest: mhoireNWn2

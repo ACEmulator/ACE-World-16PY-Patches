@@ -25,6 +25,7 @@ Refuse: 45680
         TestSuccess:
             - TakeItems: 45680, 1
             - StampQuest: GerainesLibraryCompleted0312
+            - StampQuest: CanEnterGeraineRefuge
             - EraseQuest: GerainesLibraryBook0312
             - Tell: What is this? 
             - Tell: I shouldn't be surprised his information is encoded. I am sure we will break the code with time.

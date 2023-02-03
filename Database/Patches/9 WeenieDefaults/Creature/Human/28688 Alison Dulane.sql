@@ -293,7 +293,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 29272 /* Innate Renewal */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28688,  6 /* Give */,      1, 29282 /* Shadow of The Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28688,  6 /* Give */,      1, 29282 /* Shadow of the Seventh Mule */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -581,7 +581,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28688, 2, 25702,  0, 14, 0, False) /* Create Bandit Mask (25702) for Wield */
-     , (28688, 2,  2591,  0, 7, 0.8182, False) /* Create Shirt (2591) for Wield */
+     , (28688, 2,  2591,  0, 7, 0.8182, False) /* Create Puffy Shirt (2591) for Wield */
      , (28688, 2,   127,  0, 4, 1, False) /* Create Pants (127) for Wield */
      , (28688, 2,   133,  0, 4, 0.5, False) /* Create Slippers (133) for Wield */
      , (28688, 2, 27178,  0, 0, 0, False) /* Create Bladed Bow of Impaling (27178) for Wield */;

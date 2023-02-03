@@ -214,6 +214,50 @@ Give: Major Stinging Stone (6126)
     - Give: Writ of Refuge (11710)
     - Tell: Here, take this as a reward.
 
+Give: Minor Sparking Stone (6318)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - UpdateQuest: MinorStoneWrit
+        QuestSuccess:
+            - Tell: Hand me another minor crystal like this one and I'll be able to reward you.
+        QuestFailure:
+            - Give: Writ of Refuge (11710)
+            - Tell: Here, take this as a reward.
+            - EraseQuest: MinorStoneWrit
+
+Give: Minor Stinging Stone (6319)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - UpdateQuest: MinorStoneWrit
+        QuestSuccess:
+            - Tell: Hand me another minor crystal like this one and I'll be able to reward you.
+        QuestFailure:
+            - Give: Writ of Refuge (11710)
+            - Tell: Here, take this as a reward.
+            - EraseQuest: MinorStoneWrit
+
+Give: Minor Smoldering Stone (6320)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - UpdateQuest: MinorStoneWrit
+        QuestSuccess:
+            - Tell: Hand me another minor crystal like this one and I'll be able to reward you.
+        QuestFailure:
+            - Give: Writ of Refuge (11710)
+            - Tell: Here, take this as a reward.
+            - EraseQuest: MinorStoneWrit
+
+Give: Minor Shivering Stone (6321)
+    - TurnToTarget
+    - Tell: These crystals have many alchemical uses. Ciandra has continued to research what allows these stones to tap into this worlds well of powerful magics.
+    - UpdateQuest: MinorStoneWrit
+        QuestSuccess:
+            - Tell: Hand me another minor crystal like this one and I'll be able to reward you.
+        QuestFailure:
+            - Give: Writ of Refuge (11710)
+            - Tell: Here, take this as a reward.
+            - EraseQuest: MinorStoneWrit
+
 Give: Pyreal Ingot (6330)
     - TurnToTarget
     - Tell: We need all the ingots we can get.  One day, you will be grateful we have such a stockpile.
@@ -847,7 +891,7 @@ Give: Gauntlet Gem of Knowledge (52748)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
     - AwardNoShareXP: 50,000,000
-    
+
 Give: Gauntlet Gem of Vast Knowledge (52749)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
@@ -867,7 +911,7 @@ Give: Radiant Blood Gauntlet Writ (53410)
     - TurnToTarget
     - Tell: I see you have proven yourself in the Gauntlet. Please take this in return.
     - Give: 38546
-    
+
 Use:
     - Motion: Ready
     - TurnToTarget

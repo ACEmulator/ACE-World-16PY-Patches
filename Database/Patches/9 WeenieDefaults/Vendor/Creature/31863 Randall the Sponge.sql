@@ -128,7 +128,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000054 /* Twitch4 */, NULL, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31863, 2,  2596,  0, 16, 1, False) /* Create Doublet (2596) for Wield */
-     , (31863, 2,  2602,  0, 16, 0.5, False) /* Create Breeches (2602) for Wield */
+     , (31863, 2,  2602,  0, 16, 0.5, False) /* Create Loose Breeches (2602) for Wield */
      , (31863, 2,   115,  0, 72, 0.12, False) /* Create Leather Boots (115) for Wield */
      , (31863, 2, 10696,  0, 9, 0.2, False) /* Create Apron (10696) for Wield */
      , (31863, 2, 31236,  1, 8, 0.9, False) /* Create Beret (31236) for Wield */

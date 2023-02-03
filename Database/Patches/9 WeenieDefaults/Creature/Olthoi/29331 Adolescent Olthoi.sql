@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29331;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29331, 'olthoinewbieacademyboss', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (29331, 'olthoinewbieacademyboss', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29331,   1,         16) /* ItemType - Creature */
@@ -101,11 +101,11 @@ VALUES (29331,  6, 0, 3, 0,  30, 0, 0) /* MeleeDefense        Specialized */
      , (29331, 45, 0, 3, 0,  40, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (29331,  0,  4,  0,    0,   50,   55,   40,   40,   50,   55,   55,   50,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (29331, 16,  4,  0,    0,   50,   55,   40,   40,   50,   55,   55,   50,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
-     , (29331, 18,  2, 10,  0.5,   50,   55,   40,   40,   50,   55,   55,   50,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
-     , (29331, 19,  4,  0,    0,   50,   55,   40,   40,   50,   55,   55,   50,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
-     , (29331, 20,  2, 10, 0.75,   50,   55,   40,   40,   50,   55,   55,   50,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
+VALUES (29331,  0,  4,  0,    0,   50,   32,   40,   30,   50,   50,   60,   50,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+     , (29331, 16,  4,  0,    0,   50,   32,   40,   30,   50,   50,   60,   50,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
+     , (29331, 18,  2, 10,  0.5,   50,   32,   40,   30,   50,   50,   60,   50,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
+     , (29331, 19,  4,  0,    0,   50,   32,   40,   30,   50,   50,   60,   50,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
+     , (29331, 20,  2, 10, 0.75,   50,   32,   40,   30,   50,   50,   60,   50,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
      , (29331, 22,  2, 10,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
@@ -137,13 +137,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+VALUES (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29331, 9, 29336,  1, 0, 1, True) /* Create Protection Orb (29336) for ContainTreasure */
+     , (29331, 9, 29336,  1, 0, 1, False) /* Create Protection Orb (29336) for ContainTreasure */
      , (29331, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

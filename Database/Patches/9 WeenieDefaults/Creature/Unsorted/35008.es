@@ -1,3 +1,6 @@
 Death:
-    - StartEvent: SavingAsheronsGlowingShardEvent
-    - WorldBroadcast: On faraway Bur, %tn has shattered the statue bound to Asheron's Essence into thousands of pieces!  The Falatacot Ritual collapses, and a portion of Asheron's Essence is restored.
+    - StartEvent: SavingAsheronsControllerEvent
+    - StartEvent: SavingAsheronsWave1Event
+    - StopEvent: SavingAsheronsStartEvent
+    - LocalBroadcast: As %tn goes to strike the final blow against the statue, it disappears!
+    - LocalBroadcast: Three voices echo in unison, "They are trying to disrupt the Ritual! Stop them!"

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31954;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31954, 'ace31954-matthiaseckhart', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (31954, 'ace31954-matthiaseckhart', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31954,   1,         16) /* ItemType - Creature */
@@ -64,6 +64,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'When Varicci''s men came, we were just able to get out of town before they raised those towers. We came here and we''ve been making attacks and raids when we can. We''re not going to just sit back and let them take over our homes! We call ourselves the Carenzi, because we''re fierce and quick!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31954, 2,   306,  1, 0, 0, True) /* Create Longbow (306) for Wield */
-     , (31954, 2,    71,  1, 14, 0.1111, True) /* Create Chainmail Hauberk (71) for Wield */
-     , (31954, 2,   115,  1, 4, 0.25, True) /* Create Leather Boots (115) for Wield */;
+VALUES (31954, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (31954, 2,    71,  1, 14, 0.1111, False) /* Create Chainmail Hauberk (71) for Wield */
+     , (31954, 2,   115,  1, 4, 0.25, False) /* Create Leather Boots (115) for Wield */;

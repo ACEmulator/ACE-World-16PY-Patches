@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46747;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46747, 'ace46747-contractforkillspectralarchers', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (46747, 'ace46747-contractforkillspectralarchers', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46747,   1,       2048) /* ItemType - Gem */
@@ -14,7 +14,6 @@ VALUES (46747,   1,       2048) /* ItemType - Gem */
      , (46747,  18,          2) /* UiEffects - Poisoned */
      , (46747,  19,          0) /* Value */
      , (46747,  33,          1) /* Bonded - Bonded */
-     , (46747,  65,        101) /* Placement - Resting */
      , (46747,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46747,  94,         16) /* TargetType - Creature */
      , (46747, 114,          1) /* Attuned - Attuned */
@@ -35,7 +34,8 @@ VALUES (46747, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46747,   1, 'Contract for Kill: Spectral Archers') /* Name */
-     , (46747,  14, 'Recommended Level: 200') /* Use */;
+     , (46747,  14, 'Recommended Level: 200') /* Use */
+     , (46747,  16, 'Kill 15 Spectral Archers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46747,   1, 0x02000C79) /* Setup */

@@ -177,7 +177,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4680, 2,   360, -1, 0, 0, False) /* Create Yag (360) for Wield */
-     , (4680, 2,  2595,  0, 18, 1, False) /* Create Tunic (2595) for Wield */
+     , (4680, 2,  2595,  0, 18, 1, False) /* Create Baggy Tunic (2595) for Wield */
      , (4680, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (4680, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */
      , (4680, 2,   135,  0, 7, 0.33, False) /* Create Turban (135) for Wield */

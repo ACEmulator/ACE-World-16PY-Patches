@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42361, 'ace42361-siroakley', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (42361, 'ace42361-siroakley', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42361,   1,         16) /* ItemType - Creature */
@@ -192,4 +192,4 @@ VALUES (42361, 2, 21150,  1, 21, 0.5, False) /* Create Covenant Sollerets (21150
      , (42361, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (42361, 2,   127,  1, 14, 0.4, False) /* Create Pants (127) for Wield */
      , (42361, 2,   130,  1, 14, 0.4, False) /* Create Shirt (130) for Wield */
-     , (42361, 2,   351,  1, 20, 0, True) /* Create Long Sword (351) for Wield */;
+     , (42361, 2,   351,  1, 20, 0, False) /* Create Long Sword (351) for Wield */;

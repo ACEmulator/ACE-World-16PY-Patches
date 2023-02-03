@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34404;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34404, 'ace34404-holidayfeast', 1, '2021-11-17 16:56:08') /* Generic */;
+VALUES (34404, 'ace34404-holidayfeast', 1, '2022-12-28 05:57:21') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34404,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (34404,   1,        128) /* ItemType - Misc */
      , (34404,   9,          0) /* ValidLocations - None */
      , (34404,  16,          1) /* ItemUseable - No */
      , (34404,  19,       6000) /* Value */
-     , (34404,  65,        101) /* Placement - Resting */
      , (34404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34404, 150,        103) /* HookPlacement - Hook */
      , (34404, 151,          1) /* HookType - Floor */;

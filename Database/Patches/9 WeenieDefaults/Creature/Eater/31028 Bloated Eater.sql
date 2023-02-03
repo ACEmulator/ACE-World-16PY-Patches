@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31028;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31028, 'eaterbloatedsnowlily', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (31028, 'eaterbloatedsnowlily', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31028,   1,         16) /* ItemType - Creature */
@@ -93,15 +93,15 @@ VALUES (31028,  6, 0, 3, 0, 350, 0, 0) /* MeleeDefense        Specialized */
      , (31028, 45, 0, 3, 0, 305, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (31028,  0,  2, 180,    0,  570,  470,  800,  800,  600,  600,  800,  800,  800, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (31028,  1,  2,  0,    0,  570,  470,  800,  800,  600,  600,  800,  800,  800, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (31028,  2,  2,  0,    0,  570,  470,  800,  800,  600,  600,  800,  800,  800, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (31028,  3,  2,  0,    0,  570,  470,  800,  800,  600,  600,  800,  800,  800, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (31028,  4,  2,  0,    0,  570,  470,  800,  800,  600,  600,  800,  800,  800, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (31028,  5,  1, 180,  0.4,  570,  470,  800,  800,  600,  600,  800,  800,  800, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (31028,  6,  2,  0,    0,  570,  470,  800,  800,  600,  600,  800,  800,  800, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (31028,  7,  2,  0,    0,  570,  470,  800,  800,  600,  600,  800,  800,  800, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (31028,  8,  4, 180,  0.4,  570,  470,  800,  800,  600,  600,  800,  800,  800, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
+VALUES (31028,  0,  2, 180,    0,  570,  513,  570,  570,  570,  570,  570,  570,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (31028,  1,  2,  0,    0,  570,  513,  570,  570,  570,  570,  570,  570,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (31028,  2,  2,  0,    0,  570,  513,  570,  570,  570,  570,  570,  570,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (31028,  3,  2,  0,    0,  570,  513,  570,  570,  570,  570,  570,  570,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (31028,  4,  2,  0,    0,  570,  513,  570,  570,  570,  570,  570,  570,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (31028,  5,  1, 180,  0.4,  570,  513,  570,  570,  570,  570,  570,  570,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (31028,  6,  2,  0,    0,  570,  513,  570,  570,  570,  570,  570,  570,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (31028,  7,  2,  0,    0,  570,  513,  570,  570,  570,  570,  570,  570,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (31028,  8,  4, 180,  0.4,  570,  513,  570,  570,  570,  570,  570,  570,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (31028, 22, 32, 155,  0.4,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
@@ -157,13 +157,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31028, 9, 28732,  1, 0, 0.01, True) /* Create Aluvian Leg (28732) for ContainTreasure */
-     , (31028, 9, 28733,  1, 0, 0.01, True) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
-     , (31028, 9, 28734,  1, 0, 0.01, True) /* Create Sho Brain (28734) for ContainTreasure */
-     , (31028, 9, 28735,  1, 0, 0.01, True) /* Create Viamontian Torso (28735) for ContainTreasure */
-     , (31028, 9, 28736,  1, 0, 0.01, True) /* Create Penguin Wing (28736) for ContainTreasure */
-     , (31028, 9, 28737,  1, 0, 0.01, True) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
-     , (31028, 9, 28738,  1, 0, 0.01, True) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
+VALUES (31028, 9, 28732,  1, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
+     , (31028, 9, 28733,  1, 0, 0.01, False) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
+     , (31028, 9, 28734,  1, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
+     , (31028, 9, 28735,  1, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
+     , (31028, 9, 28736,  1, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
+     , (31028, 9, 28737,  1, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
+     , (31028, 9, 28738,  1, 0, 0.01, False) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
      , (31028, 9,     0,  1, 0, 0.93, False) /* Create nothing for ContainTreasure */
      , (31028, 9, 30983,  1, 0, 0.35, False) /* Create Snow Lily (30983) for ContainTreasure */
      , (31028, 9,     0,  0, 0, 0.65, False) /* Create nothing for ContainTreasure */;

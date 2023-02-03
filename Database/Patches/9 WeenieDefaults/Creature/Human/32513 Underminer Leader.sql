@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32513;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32513, 'ace32513-underminerleader', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (32513, 'ace32513-underminerleader', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32513,   1,         16) /* ItemType - Creature */
@@ -117,15 +117,15 @@ VALUES (32513,  6, 0, 3, 0, 330, 0, 0) /* MeleeDefense        Specialized */
      , (32513, 47, 0, 3, 0, 250, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (32513,  0,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (32513,  1,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (32513,  2,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (32513,  3,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (32513,  4,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (32513,  5,  4, 100, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (32513,  6,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (32513,  7,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (32513,  8,  4, 100, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (32513,  0,  4,  0,    0,  475,  428,  475,  565,  233,  233,  475,  328,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (32513,  1,  4,  0,    0,  475,  428,  475,  565,  233,  233,  475,  328,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (32513,  2,  4,  0,    0,  475,  428,  475,  565,  233,  233,  475,  328,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (32513,  3,  4,  0,    0,  475,  428,  475,  565,  233,  233,  475,  328,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (32513,  4,  4,  0,    0,  475,  428,  475,  565,  233,  233,  475,  328,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (32513,  5,  4, 100, 0.75,  475,  428,  475,  565,  233,  233,  475,  328,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (32513,  6,  4,  0,    0,  475,  428,  475,  565,  233,  233,  475,  328,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (32513,  7,  4,  0,    0,  475,  428,  475,  565,  233,  233,  475,  328,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (32513,  8,  4, 100, 0.75,  475,  428,  475,  565,  233,  233,  475,  328,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32513,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
@@ -168,12 +168,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32513, 2,   414,  0, 93, 0, True) /* Create Chainmail Breastplate (414) for Wield */
-     , (32513, 2, 25651,  0, 93, 0, True) /* Create Leather Sleeves (25651) for Wield */
-     , (32513, 2, 25646,  0, 93, 0, True) /* Create Long Leather Gauntlets (25646) for Wield */
-     , (32513, 2,   415,  0, 93, 0.9821, True) /* Create Chainmail Girth (415) for Wield */
-     , (32513, 2, 13241,  0, 93, 0, True) /* Create Leather Leggings (13241) for Wield */
-     , (32513, 2,  7897,  0, 93, 0, True) /* Create Steel Toed Boots (7897) for Wield */
-     , (32513, 2, 25640,  0, 93, 0, True) /* Create Leather Cowl (25640) for Wield */
-     , (32513, 2,   130,  0, 90, 0, True) /* Create Shirt (130) for Wield */
+VALUES (32513, 2,   414,  0, 93, 0, False) /* Create Chainmail Breastplate (414) for Wield */
+     , (32513, 2, 25651,  0, 93, 0, False) /* Create Leather Sleeves (25651) for Wield */
+     , (32513, 2, 25646,  0, 93, 0, False) /* Create Long Leather Gauntlets (25646) for Wield */
+     , (32513, 2,   415,  0, 93, 0.9821, False) /* Create Chainmail Girth (415) for Wield */
+     , (32513, 2, 13241,  0, 93, 0, False) /* Create Leather Leggings (13241) for Wield */
+     , (32513, 2,  7897,  0, 93, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (32513, 2, 25640,  0, 93, 0, False) /* Create Leather Cowl (25640) for Wield */
+     , (32513, 2,   130,  0, 90, 0, False) /* Create Shirt (130) for Wield */
      , (32513, 9, 32515,  0, 0, 1, False) /* Create Underminer Notes (32515) for ContainTreasure */;

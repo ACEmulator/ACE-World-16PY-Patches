@@ -3,6 +3,7 @@ Death:
     - StopEvent: assaultonfrosthavenevent
     - StopEvent: HollyJollyHelperEvent
     - StopEvent: GiftGopherEvent
+    - StopEvent: SclavusSantaEvent
 
 Generation: Style: NonCombat, Substyle: Ready
     - Delay: 2, Motion: Wave
@@ -10,3 +11,4 @@ Generation: Style: NonCombat, Substyle: Ready
     - StartEvent: assaultonfrosthavenevent
     - StartEvent: HollyJollyHelperEvent
     - StartEvent: GiftGopherEvent
+    - StartEvent: SclavusSantaEvent

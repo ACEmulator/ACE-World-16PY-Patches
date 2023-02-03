@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42726;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42726, 'ace42726-armorlayeringtoolbottom', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (42726, 'ace42726-armorlayeringtoolbottom', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42726,   1,       2048) /* ItemType - Gem */
@@ -12,7 +12,6 @@ VALUES (42726,   1,       2048) /* ItemType - Gem */
      , (42726,  15,          1) /* StackUnitValue */
      , (42726,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (42726,  19,          1) /* Value */
-     , (42726,  65,        101) /* Placement - Resting */
      , (42726,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42726,  94,          6) /* TargetType - Vestements */;
 

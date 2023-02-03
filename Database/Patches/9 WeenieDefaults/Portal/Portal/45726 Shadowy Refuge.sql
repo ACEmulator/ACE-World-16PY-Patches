@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45726;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45726, 'ace45726-shadowyrefuge', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (45726, 'ace45726-shadowyrefuge', 7, '2022-09-20 00:15:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45726,   1,      65536) /* ItemType - Portal */
@@ -19,7 +19,7 @@ VALUES (45726,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45726,   1, 'Shadowy Refuge') /* Name */
-     , (45726,  37, 'GerainesLibraryCompleted0312') /* QuestRestriction */;
+     , (45726,  37, 'CanEnterGeraineRefuge') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45726,   1, 0x020005D5) /* Setup */

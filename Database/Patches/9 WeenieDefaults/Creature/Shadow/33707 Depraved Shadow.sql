@@ -137,7 +137,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (33707, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */
      , (33707, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (33707, 2,  2587,  0, 14, 0, False) /* Create Shirt (2587) for Wield */
-     , (33707, 2,  2601,  0, 14, 0, False) /* Create Pants (2601) for Wield */
+     , (33707, 2,  2601,  0, 14, 0, False) /* Create Loose Pants (2601) for Wield */
      , (33707, 2, 21150,  0, 21, 0, False) /* Create Covenant Sollerets (21150) for Wield */
      , (33707, 2, 21151,  0, 21, 0, False) /* Create Covenant Bracers (21151) for Wield */
      , (33707, 2, 21152,  0, 21, 0, False) /* Create Covenant Breastplate (21152) for Wield */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80002;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80002, 'ace80002-goldphialofimperil', 4, '2021-11-01 00:00:00') /* Missile */;
+VALUES (80002, 'ace80002-goldphialofimperil', 4, '2022-12-28 05:57:21') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80002,   1,        256) /* ItemType - MissileWeapon */
@@ -20,7 +20,6 @@ VALUES (80002,   1,        256) /* ItemType - MissileWeapon */
      , (80002,  48,         47) /* WeaponSkill - MissileWeapons */
      , (80002,  49,          5) /* WeaponTime */
      , (80002,  51,          2) /* CombatUse - Missile */
-     , (80002,  65,          1) /* Placement - RightHandCombat */
      , (80002,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (80002, 106,        270) /* ItemSpellcraft */
      , (80002, 107,        150) /* ItemCurMana */

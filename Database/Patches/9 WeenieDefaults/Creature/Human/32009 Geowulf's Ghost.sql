@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32009;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32009, 'ace32009-geowulfsghost', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (32009, 'ace32009-geowulfsghost', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32009,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,6 @@ VALUES (32009,   1,   220, 0, 0, 310) /* MaxHealth */
      , (32009,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32009, 2,   127,  1, 9, 0.6786, True) /* Create Pants (127) for Wield */
-     , (32009, 2,   124,  1, 4, 0.5455, True) /* Create Jerkin (124) for Wield */
-     , (32009, 2,   132,  1, 4, 0.5, True) /* Create Shoes (132) for Wield */;
+VALUES (32009, 2,   127,  1, 9, 0.6786, False) /* Create Pants (127) for Wield */
+     , (32009, 2,   124,  1, 4, 0.5455, False) /* Create Jerkin (124) for Wield */
+     , (32009, 2,   132,  1, 4, 0.5, False) /* Create Shoes (132) for Wield */;

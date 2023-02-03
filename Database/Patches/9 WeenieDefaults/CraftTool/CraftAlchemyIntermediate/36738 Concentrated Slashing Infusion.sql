@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36738;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36738, 'ace36738-concentratedslashinginfusion', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (36738, 'ace36738-concentratedslashinginfusion', 44, '2022-12-28 05:57:21') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36738,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
@@ -13,7 +13,6 @@ VALUES (36738,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (36738,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36738,  19,        500) /* Value */
      , (36738,  33,          1) /* Bonded - Bonded */
-     , (36738,  65,        101) /* Placement - Resting */
      , (36738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36738,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
      , (36738, 151,         11) /* HookType - Floor, Wall, Yard */;

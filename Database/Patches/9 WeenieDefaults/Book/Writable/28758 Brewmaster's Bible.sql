@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28758;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28758, 'bookbrewingbible', 8, '2021-11-17 16:56:08') /* Book */;
+VALUES (28758, 'bookbrewingbible', 8, '2022-11-05 05:26:30') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28758,   1,       8192) /* ItemType - Writable */
@@ -24,7 +24,7 @@ VALUES (28758,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28758,   1, 'Brewmaster''s Bible') /* Name */
-     , (28758,  16, 'Herein lie the arcane secrets of that most magical craft known to all Isparian-kin as Brewing!.') /* LongDesc */;
+     , (28758,  16, 'Herein lie the arcane secrets of that most magical craft known to all Isparian-kind as Brewing!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28758,   1, 0x02000153) /* Setup */

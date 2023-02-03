@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31953;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31953, 'ace31953-gromnie', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (31953, 'ace31953-gromnie', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31953,   1,         16) /* ItemType - Creature */
@@ -64,9 +64,9 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'Yeah, they call me Gromnie. It''s a long story.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31953, 2,  6004,  1, 20, 0, True) /* Create Koujia Leggings (6004) for Wield */
-     , (31953, 2,    95,  1, 0, 0, True) /* Create Tower Shield (95) for Wield */
-     , (31953, 2,    59,  1, 4, 0.75, True) /* Create Studded Leather Gauntlets (59) for Wield */
-     , (31953, 2,    76,  1, 20, 0.6667, True) /* Create Horned Helm (76) for Wield */
-     , (31953, 2,  2591,  1, 9, 0, True) /* Create Shirt (2591) for Wield */
+VALUES (31953, 2,  6004,  1, 20, 0, False) /* Create Koujia Leggings (6004) for Wield */
+     , (31953, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */
+     , (31953, 2,    59,  1, 4, 0.75, False) /* Create Studded Leather Gauntlets (59) for Wield */
+     , (31953, 2,    76,  1, 20, 0.6667, False) /* Create Horned Helm (76) for Wield */
+     , (31953, 2,  2591,  1, 9, 0, False) /* Create Puffy Shirt (2591) for Wield */
      , (31953, 2,   132,  1, 6, 0, False) /* Create Shoes (132) for Wield */;

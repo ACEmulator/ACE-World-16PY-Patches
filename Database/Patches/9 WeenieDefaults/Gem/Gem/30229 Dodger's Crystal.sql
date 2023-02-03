@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30229;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30229, 'gemrarevolatilemissiledefense', 38, '2021-11-17 16:56:08') /* Gem */;
+VALUES (30229, 'gemrarevolatilemissiledefense', 38, '2022-11-05 05:26:30') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30229,   1,       2048) /* ItemType - Gem */
@@ -38,7 +38,7 @@ VALUES (30229,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30229,   1, 'Dodger''s Crystal') /* Name */
-     , (30229,  16, 'Using this gem will increase your Missle Defense skill by 250 for 15 minutes.') /* LongDesc */
+     , (30229,  16, 'Using this gem will increase your Missile Defense skill by 250 for 15 minutes.') /* LongDesc */
      , (30229,  20, 'Dodger''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

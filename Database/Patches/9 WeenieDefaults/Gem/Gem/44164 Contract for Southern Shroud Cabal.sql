@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44164;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44164, 'ace44164-contractforsouthernshroudcabal', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (44164, 'ace44164-contractforsouthernshroudcabal', 38, '2022-11-05 05:26:30') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44164,   1,       2048) /* ItemType - Gem */
@@ -28,7 +28,7 @@ VALUES (44164, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44164,   1, 'Contract for Southern Shroud Cabal') /* Name */
      , (44164,  14, 'Recommended Level: 40') /* Use */
-     , (44164,  16, 'Find a way to enter the Southern Shroud Cabal and retrieve the Ley Leech'' s Medallion.') /* LongDesc */;
+     , (44164,  16, 'Find a way to enter the Southern Shroud Cabal and retrieve the Ley Leech''s Medallion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44164,   1, 0x02000C79) /* Setup */

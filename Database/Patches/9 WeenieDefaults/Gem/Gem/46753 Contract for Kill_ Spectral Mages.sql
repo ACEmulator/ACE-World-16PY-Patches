@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46753;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46753, 'ace46753-contractforkillspectralmages', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (46753, 'ace46753-contractforkillspectralmages', 38, '2022-12-28 05:57:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46753,   1,       2048) /* ItemType - Gem */
@@ -14,7 +14,6 @@ VALUES (46753,   1,       2048) /* ItemType - Gem */
      , (46753,  18,          2) /* UiEffects - Poisoned */
      , (46753,  19,          0) /* Value */
      , (46753,  33,          1) /* Bonded - Bonded */
-     , (46753,  65,        101) /* Placement - Resting */
      , (46753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46753,  94,         16) /* TargetType - Creature */
      , (46753, 114,          1) /* Attuned - Attuned */
@@ -35,7 +34,8 @@ VALUES (46753, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46753,   1, 'Contract for Kill: Spectral Mages') /* Name */
-     , (46753,  14, 'Recommended Level: 200') /* Use */;
+     , (46753,  14, 'Recommended Level: 200') /* Use */
+     , (46753,  16, 'Kill 5 Spectral Blood or Voidmages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46753,   1, 0x02000C79) /* Setup */

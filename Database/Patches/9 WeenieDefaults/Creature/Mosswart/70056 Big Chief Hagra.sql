@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70056;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70056, 'ace70056-bigchiefhagra', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70056, 'ace70056-bigchiefhagra', 10, '2022-08-22 03:09:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70056,   1,         16) /* ItemType - Creature */
@@ -207,5 +207,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'You! Human help Hagra! Bi
      , (@parent_id,  1,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 70007 /* Hagra's Treaty */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70056, 2, 23673,  1, 0, 0, True) /* Create Katar (23673) for Wield */
-     , (70056, 9, 70057,  1, 0, 0, True) /* Create Head of Big Chief Hagra (70057) for ContainTreasure */;
+VALUES (70056, 2, 23673,  1, 0, 0, False) /* Create Katar (23673) for Wield */
+     , (70056, 9, 70057,  1, 0, 0, False) /* Create Head of Big Chief Hagra (70057) for ContainTreasure */;

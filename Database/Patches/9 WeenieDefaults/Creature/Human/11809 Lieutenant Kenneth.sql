@@ -986,7 +986,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, '', NULL
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you have already investigated the camps, and you have some trophy to prove it, I will gladly reward you. I also accept Tumerok insignia.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11809, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+VALUES (11809, 2,  2591,  0, 9, 1, False) /* Create Puffy Shirt (2591) for Wield */
      , (11809, 2,    72,  0, 20, 1, False) /* Create Platemail Hauberk (72) for Wield */
      , (11809, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (11809, 2,    85,  0, 20, 1, False) /* Create Chainmail Coif (85) for Wield */

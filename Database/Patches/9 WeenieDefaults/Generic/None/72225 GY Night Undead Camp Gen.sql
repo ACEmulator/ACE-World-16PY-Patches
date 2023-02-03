@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72225;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72225, 'ace72225-gynightundeadcampgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72225, 'ace72225-gynightundeadcampgen', 1, '2022-07-22 16:06:17') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72225,  81,          5) /* MaxGeneratedObjects */
@@ -17,7 +17,7 @@ VALUES (72225,   1, True ) /* Stuck */
      , (72225,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72225,  41,     120) /* RegenerationInterval */
+VALUES (72225,  41,     180) /* RegenerationInterval */
      , (72225,  43,       8) /* GeneratorRadius */
      , (72225, 121,       1) /* GeneratorInitialDelay */;
 
@@ -29,6 +29,6 @@ VALUES (72225,   1, 0x0200026B) /* Setup */
      , (72225,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72225, -1, 46815, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Blade Sorcerer (46815) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72225, -1, 41968, 60, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (41968) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72225, -1, 41966, 60, 3, 3, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (41966) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (72225, -1, 46815, 120, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Blade Sorcerer (46815) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72225, -1, 41968, 120, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (41968) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72225, -1, 41966, 120, 3, 3, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (41966) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

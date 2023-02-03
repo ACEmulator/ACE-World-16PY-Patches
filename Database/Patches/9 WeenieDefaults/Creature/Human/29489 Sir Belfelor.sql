@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29489;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29489, 'knightkarlunsirbelfelor', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (29489, 'knightkarlunsirbelfelor', 10, '2022-12-04 19:04:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
@@ -103,15 +103,15 @@ VALUES (29489,  6, 0, 3, 0, 205, 0, 0) /* MeleeDefense        Specialized */
      , (29489, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (29489,  0,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (29489,  1,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (29489,  2,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (29489,  3,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (29489,  4,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (29489,  5,  4, 95,  0.4,  360,  432,  432,  360,  360,  288,  360,  288,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (29489,  6,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (29489,  7,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (29489,  8,  4, 95,  0.4,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (29489,  0,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (29489,  1,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (29489,  2,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (29489,  3,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (29489,  4,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (29489,  5,  4, 95,  0.4,  360,  630,  630,  576,  486,  486,  486,  432,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (29489,  6,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (29489,  7,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (29489,  8,  4, 95,  0.4,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (29489, 414) /* PLAYER_DEATH_EVENT */;
@@ -176,9 +176,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (29489, 2, 28629,  1, 20, 0.726, False) /* Create Alduressa Coat (28629) for Wield */
      , (29489, 2, 28620,  1, 20, 0.726, False) /* Create Alduressa Leggings (28620) for Wield */
      , (29489, 2, 30950,  1, 20, 0.726, False) /* Create Alduressa Boots (30950) for Wield */
-     , (29489, 9, 29493, -1, 0, 1, True) /* Create Ring of Karlun (29493) for ContainTreasure */
+     , (29489, 9, 29493, -1, 0, 1, False) /* Create Ring of Karlun (29493) for ContainTreasure */
      , (29489, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29489, 10, 12083,  1, 0, 0.25, True) /* Create Bandit Yaoji (12083) for WieldTreasure */
+     , (29489, 10, 12083,  1, 0, 0.25, False) /* Create Bandit Yaoji (12083) for WieldTreasure */
      , (29489, 10, 12084,  1, 0, 0.25, False) /* Create Bandit Lightning Yaoji (12084) for WieldTreasure */
      , (29489, 10, 12085,  1, 0, 0.25, False) /* Create Bandit Flaming Yaoji (12085) for WieldTreasure */
      , (29489, 10, 12086,  1, 0, 0.25, False) /* Create Bandit Frost Yaoji (12086) for WieldTreasure */;
