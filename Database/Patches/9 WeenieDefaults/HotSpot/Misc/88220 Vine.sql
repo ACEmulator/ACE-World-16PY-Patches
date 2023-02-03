@@ -21,14 +21,14 @@ VALUES (88220,   1, True ) /* Stuck */
      , (88220,  12, True ) /* ReportCollisions */
      , (88220,  13, True ) /* Ethereal */
      , (88220,  14, False) /* GravityStatus */
-     , (88220,  18, True ) /* Visibility */
      , (88220,  24, True ) /* UiHidden */
-     , (88220,  55, True ) /* IsHot */;
+     , (88220,  55, True ) /* IsHot */
+     , (88220,  57, False) /* AffectsAis */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (88220,  22,     0.5) /* DamageVariance */
-     , (88220,  39,       3) /* DefaultScale */
-     , (88220, 105,       0) /* HotspotCycleTime */
+     , (88220,  39,       1) /* DefaultScale */
+     , (88220, 105,       2) /* HotspotCycleTime */
      , (88220, 106,       0) /* HotspotCycleTimeVariance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -36,6 +36,6 @@ VALUES (88220,   1, 'Vine') /* Name */
      , (88220,  17, 'The razor-sharp thorns pierce you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (88220,   1, 0x02000638) /* Setup */
+VALUES (88220,   1, 0x02000BF5) /* Setup */
      , (88220,   3, 0x20000052) /* SoundTable */
      , (88220,   8, 0x06001049) /* Icon */;
