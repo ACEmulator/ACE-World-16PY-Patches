@@ -13,13 +13,16 @@ VALUES (88113,   1,         16) /* ItemType - Creature */
      , (88113,  25,         68) /* Level */
      , (88113,  27,          0) /* ArmorType - None */
      , (88113,  67,          1) /* Tolerance - NoAttack */
-     , (88113,  81,          5) /* MaxGeneratedObjects */
-     , (88113,  82,          0) /* InitGeneratedObjects */
+     , (88113,  81,         10) /* MaxGeneratedObjects */
+     , (88113,  82,          5) /* InitGeneratedObjects */
      , (88113,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (88113,  95,          8) /* RadarBlipColor - Yellow */
+     , (88113, 103,          2) /* GeneratorDestructionType - Destroy */
      , (88113, 133,          0) /* ShowableOnRadar - Undefined */
      , (88113, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (88113, 146,       4750) /* XpOverride */;
+     , (88113, 145,          2) /* GeneratorEndDestructionType - Destroy */
+     , (88113, 146,       4750) /* XpOverride */
+     , (88113, 267,         25) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88113,   1, True ) /* Stuck */
@@ -46,8 +49,8 @@ VALUES (88113,   1,      10) /* HeartbeatInterval */
      , (88113,  18,       1) /* ArmorModVsAcid */
      , (88113,  19,     0.6) /* ArmorModVsElectric */
      , (88113,  31,      40) /* VisualAwarenessRange */
-     , (88113,  41,       0) /* RegenerationInterval */
-     , (88113,  43,      15) /* GeneratorRadius */
+     , (88113,  41,       1) /* RegenerationInterval */
+     , (88113,  43,      25) /* GeneratorRadius */
      , (88113,  64,       1) /* ResistSlash */
      , (88113,  65,       1) /* ResistPierce */
      , (88113,  66,       1) /* ResistBludgeon */
@@ -108,16 +111,21 @@ VALUES (88113,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (88113,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (88113,  5 /* HeartBeat */,      1, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (88113,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4081 /* Eye of the Tempest */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  72 /* Generate */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (88113, -1, 88114, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Energy (88114) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

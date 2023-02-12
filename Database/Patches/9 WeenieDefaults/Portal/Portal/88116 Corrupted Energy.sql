@@ -9,8 +9,7 @@ VALUES (88116,   1,      65536) /* ItemType - Portal */
      , (88116,  86,        180) /* MinLevel */
      , (88116,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (88116, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
-     , (88116, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (88116, 267,         10) /* Lifespan */;
+     , (88116, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88116,   1, True ) /* Stuck */;
