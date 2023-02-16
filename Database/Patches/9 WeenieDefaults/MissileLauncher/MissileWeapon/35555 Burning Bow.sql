@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35555;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35555, 'ace35555-burningbow', 3, '2021-12-21 17:24:33') /* MissileLauncher */;
+VALUES (35555, 'ace35555-burningbow', 3, '2023-02-16 15:12:33') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35555,   1,        256) /* ItemType - MissileWeapon */
+     , (35555,   3,         14) /* PaletteTemplate - Red */
      , (35555,   5,        325) /* EncumbranceVal */
      , (35555,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (35555,  16,          1) /* ItemUseable - No */
@@ -55,6 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35555,   1, 0x02001474) /* Setup */
      , (35555,   3, 0x20000014) /* SoundTable */
      , (35555,   6, 0x04001E9C) /* PaletteBase */
+     , (35555,   7, 0x1000062D) /* ClothingBase */
      , (35555,   8, 0x060060B0) /* Icon */
      , (35555,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35555,  52, 0x060065FB) /* IconUnderlay */
