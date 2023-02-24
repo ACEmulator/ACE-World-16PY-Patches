@@ -8,6 +8,7 @@ VALUES (88119,   1,      65536) /* ItemType - Portal */
      , (88119,  16,         32) /* ItemUseable - Remote */
      , (88119,  86,        180) /* MinLevel */
      , (88119,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (88119, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (88119, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (88119, 267,        600) /* Lifespan */;
 

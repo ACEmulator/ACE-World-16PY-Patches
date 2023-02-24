@@ -1,72 +1,56 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52085;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52085, 'ace52085-trainingdummy', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (52085, 'ace52085-trainingdummy', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52085,   1,         16) /* ItemType - Creature */
      , (52085,   2,         31) /* CreatureType - Human */
+     , (52085,   5,        901) /* EncumbranceVal */
      , (52085,   6,         -1) /* ItemsCapacity */
      , (52085,   7,         -1) /* ContainersCapacity */
-     , (52085,   8,        120) /* Mass */
      , (52085,  16,          1) /* ItemUseable - No */
-     , (52085,  25,         79) /* Level */
-     , (52085,  27,          0) /* ArmorType - None */
-     , (52085,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (52085,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52085, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
-     , (52085, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (52085, 146,          0) /* XpOverride */;
+     , (52085,  44,          0) /* Damage */
+     , (52085,  45,          3) /* DamageType - Slash, Pierce */
+     , (52085,  47,        486) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
+     , (52085,  48,         46) /* WeaponSkill - FinesseWeapons */
+     , (52085,  49,         -1) /* WeaponTime */
+     , (52085,  68,          3) /* TargetingTactic - Random, Focused */
+     , (52085,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (52085, 307,        225) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52085,   1, True ) /* Stuck */
-     , (52085,   6, True ) /* AiUsesMana */
-     , (52085,  11, False) /* IgnoreCollisions */
+     , (52085,   6, False) /* AiUsesMana */
      , (52085,  12, True ) /* ReportCollisions */
-     , (52085,  13, False) /* Ethereal */;
+     , (52085,  13, False) /* Ethereal */
+     , (52085,  18, True ) /* Visibility */
+     , (52085,  19, False) /* Attackable */
+     , (52085,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (52085,  42, True ) /* AllowEdgeSlide */
+     , (52085,  52, True ) /* AiImmobile */
+     , (52085,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52085,   1,       5) /* HeartbeatInterval */
-     , (52085,   2,       0) /* HeartbeatTimestamp */
-     , (52085,   3,       2) /* HealthRate */
-     , (52085,   4,       5) /* StaminaRate */
-     , (52085,   5,       1) /* ManaRate */
-     , (52085,  13,     0.9) /* ArmorModVsSlash */
-     , (52085,  14,       1) /* ArmorModVsPierce */
-     , (52085,  15,     1.1) /* ArmorModVsBludgeon */
-     , (52085,  16,     0.4) /* ArmorModVsCold */
-     , (52085,  17,     0.4) /* ArmorModVsFire */
-     , (52085,  18,       1) /* ArmorModVsAcid */
-     , (52085,  19,     0.6) /* ArmorModVsElectric */
-     , (52085,  31,      15) /* VisualAwarenessRange */
-     , (52085,  64,    0.35) /* ResistSlash */
-     , (52085,  65,    0.35) /* ResistPierce */
-     , (52085,  66,    0.35) /* ResistBludgeon */
-     , (52085,  67,    0.35) /* ResistFire */
-     , (52085,  68,    0.35) /* ResistCold */
-     , (52085,  69,    0.35) /* ResistAcid */
-     , (52085,  70,    0.35) /* ResistElectric */
-     , (52085,  71,       1) /* ResistHealthBoost */
-     , (52085,  72,       1) /* ResistStaminaDrain */
-     , (52085,  73,       1) /* ResistStaminaBoost */
-     , (52085,  74,       1) /* ResistManaDrain */
-     , (52085,  75,       1) /* ResistManaBoost */
-     , (52085,  80,       2) /* AiUseMagicDelay */
-     , (52085, 104,      10) /* ObviousRadarRange */
-     , (52085, 117,     0.5) /* FocusedProbability */
-     , (52085, 122,       2) /* AiAcquireHealth */
-     , (52085, 125,       1) /* ResistHealthDrain */;
+VALUES (52085,  21,       0) /* WeaponLength */
+     , (52085,  22,       0) /* DamageVariance */
+     , (52085,  26,       0) /* MaximumVelocity */
+     , (52085,  54,       3) /* UseRadius */
+     , (52085,  62,       1) /* WeaponOffense */
+     , (52085,  63,       1) /* DamageMod */
+     , (52085,  80,       2) /* AiUseMagicDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52085,   1, 'Training Dummy') /* Name */;
+VALUES (52085,   1, 'Training Dummy') /* Name */
+     , (52085,   3, 'Male') /* Sex */
+     , (52085,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52085,   1, 0x02000001) /* Setup */
-     , (52085,   2, 0x09000001) /* MotionTable */
+     , (52085,   2, 0x090001C5) /* MotionTable */
      , (52085,   3, 0x20000001) /* SoundTable */
-     , (52085,   4, 0x30000000) /* CombatTable */
+     , (52085,   6, 0x0400007E) /* PaletteBase */
      , (52085,   8, 0x06001036) /* Icon */
-     , (52085,  22, 0x34000004) /* PhysicsEffectTable */
      , (52085,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
                                    Wield Leather Boots (115) | Probability: 30.000002%
@@ -398,47 +382,34 @@ VALUES (52085,   1, 0x02000001) /* Setup */
                                    Wield Bandit Yaoji (12083) | Probability: 2.77%
                                    Wield Bandit Lightning Yaoji (12084) | Probability: 2.77%
                                    Wield Bandit Flaming Yaoji (12085) | Probability: 2.77%
-                                   Wield Bandit Frost Yaoji (12086) | Probability: 2.77% */
-     , (52085,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (52085,   1, 300, 0, 0) /* Strength */
-     , (52085,   2, 260, 0, 0) /* Endurance */
-     , (52085,   3, 300, 0, 0) /* Quickness */
-     , (52085,   4, 300, 0, 0) /* Coordination */
-     , (52085,   5, 320, 0, 0) /* Focus */
-     , (52085,   6, 320, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52085,   1, 19870, 0, 0, 20000) /* MaxHealth */
-     , (52085,   3,  2940, 0, 0, 3200) /* MaxStamina */
-     , (52085,   5,  2880, 0, 0, 3200) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52085,  6, 0, 3, 0, 777, 0, 0) /* MeleeDefense        Specialized */
-     , (52085,  7, 0, 3, 0, 888, 0, 0) /* MissileDefense      Specialized */
-     , (52085, 15, 0, 3, 0, 888, 0, 0) /* MagicDefense        Specialized */
-     , (52085, 20, 0, 3, 0, 999, 0, 0) /* Deception           Specialized */
-     , (52085, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
-     , (52085, 31, 0, 3, 0, 100, 0, 0) /* CreatureEnchantment Specialized */
-     , (52085, 33, 0, 3, 0, 100, 0, 0) /* LifeMagic           Specialized */
-     , (52085, 34, 0, 3, 0, 500, 0, 0) /* WarMagic            Specialized */
-     , (52085, 44, 0, 3, 0, 500, 0, 0) /* HeavyWeapons        Specialized */
-     , (52085, 45, 0, 3, 0, 500, 0, 0) /* LightWeapons        Specialized */
-     , (52085, 46, 0, 3, 0, 500, 0, 0) /* FinesseWeapons      Specialized */;
+                                   Wield Bandit Frost Yaoji (12086) | Probability: 2.77% */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52085,  0,  4,  0,    0, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (52085,  1,  4,  0,    0, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (52085,  2,  4,  0,    0, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (52085,  3,  4,  0,    0, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (52085,  4,  4,  0,    0, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (52085,  5,  4,  2, 0.75, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (52085,  6,  4,  0,    0, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (52085,  7,  4,  0,    0, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (52085,  8,  4,  2, 0.75, 1000,  900, 1000, 1100,  400,  400, 1000,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (52085,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (52085,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (52085,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (52085,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (52085,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (52085,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (52085,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (52085,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (52085,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (52085,   1, 500, 0, 0) /* Strength */
+     , (52085,   2,   1, 0, 0) /* Endurance */
+     , (52085,   3,   1, 0, 0) /* Quickness */
+     , (52085,   4,   1, 0, 0) /* Coordination */
+     , (52085,   5, 300, 0, 0) /* Focus */
+     , (52085,   6, 300, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (52085,   1,  5000, 0, 0, 5001) /* MaxHealth */
+     , (52085,   3,     0, 0, 0, 1) /* MaxStamina */
+     , (52085,   5,     0, 0, 0, 500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (52085, 34, 0, 3, 0, 500, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52085,  4452,   2.99)  /* Incantation of Lightning Streak */
-     , (52085,  4453,   2.99)  /* Incantation of Lightning Volley */
-     , (52085,  1844,      3)  /* Os' Wall */;
+VALUES (52085,  4452,      3)  /* Incantation of Lightning Streak */;
