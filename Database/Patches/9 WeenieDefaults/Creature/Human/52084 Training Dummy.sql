@@ -23,7 +23,6 @@ VALUES (52084,   1, True ) /* Stuck */
      , (52084,   6, False) /* AiUsesMana */
      , (52084,  12, True ) /* ReportCollisions */
      , (52084,  13, False) /* Ethereal */
-     , (52084,  18, True ) /* Visibility */
      , (52084,  19, False) /* Attackable */
      , (52084,  41, True ) /* ReportCollisionsAsEnvironment */
      , (52084,  42, True ) /* AllowEdgeSlide */
