@@ -13,17 +13,17 @@ VALUES (46926,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46926,   1, True ) /* Stuck */
+     , (46926,  11, False) /* IgnoreCollisions */
      , (46926,  12, True ) /* ReportCollisions */
      , (46926,  13, True ) /* Ethereal */
-     , (46926,  14, True ) /* GravityStatus */
-     , (46926,  15, True ) /* LightsStatus */
-     , (46926,  19, True ) /* Attackable */;
+     , (46926,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46926,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46926,   1, 'Prismatic Devastation') /* Name */;
+VALUES (46926,   1, 'Prismatic Devastation') /* Name */
+     , (46926,  37, 'GaerlanPreamble') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46926,   1, 0x020006F4) /* Setup */
