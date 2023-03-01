@@ -163,9 +163,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000052 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4109, 9, 45876,  0, 0, 0.04, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
-     , (4109, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (4109, 9, 11687,  0, 0, 0.04, False) /* Create Little Green Seeds (11687) for ContainTreasure */
+VALUES (4109, 9, 11687,  0, 0, 0.04, False) /* Create Little Green Seeds (11687) for ContainTreasure */
      , (4109, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
