@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 296;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (296, 'crown', 2, '2021-11-01 00:00:00') /* Clothing */;
+VALUES (296, 'crown', 2, '2023-01-14 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (296,   1,          2) /* ItemType - Armor */
@@ -31,10 +31,10 @@ VALUES (296,  12,    0.66) /* Shade */
      , (296,  13,     1.3) /* ArmorModVsSlash */
      , (296,  14,       1) /* ArmorModVsPierce */
      , (296,  15,       1) /* ArmorModVsBludgeon */
-     , (296,  16,       0) /* ArmorModVsCold */
-     , (296,  17,       0) /* ArmorModVsFire */
+     , (296,  16,     0.4) /* ArmorModVsCold */
+     , (296,  17,     0.4) /* ArmorModVsFire */
      , (296,  18,     0.6) /* ArmorModVsAcid */
-     , (296,  19,       0) /* ArmorModVsElectric */
+     , (296,  19,     0.4) /* ArmorModVsElectric */
      , (296, 110,       1) /* BulkMod */
      , (296, 111,       1) /* SizeMod */;
 

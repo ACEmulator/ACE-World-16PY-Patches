@@ -70,7 +70,7 @@ Refuse: Energy Infused Rock (43792)
             - Delay: 0.5, Tell: Ah right, I should also reward you bringing me this
             - InqOwnsItems: 43792
                 TestSuccess:
-                    - TakeItems: 43792, -1
+                    - TakeItems: 43792, 1
                     - AwardLuminance: 30,000
                     - AwardLevelProportionalXP: 85%, Min: 0, Max: 500,000,000
                     - Give: 38920
