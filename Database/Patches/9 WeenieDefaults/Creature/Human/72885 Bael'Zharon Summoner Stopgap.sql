@@ -130,5 +130,5 @@ VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'StopRitual', NULL, N
      , (@parent_id,  1,  83 /* EraseMyQuest */, 0, 1, NULL, 'SummonerDead', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72885, -1, 72886, 180, 1, 1, 1, 4, 0, 0, 0, 0x57610153, 54, -132, -38, -1, 0, 0, 0) /* Generate Bael'Zharon Summoner (72838) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72885, -1, 72886, 180, 1, 1, 1, 4, 0, 0, 0, 0x57610149, 46, -132, -38, -1, 0, 0, 0) /* Generate Bael'Zharon Summoner (72838) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (72885, -1, 72886, 180, 1, 1, 1, 4, 0, 0, 0, 0x57610153, 54, -132, -40, -1, 0, 0, 0) /* Generate Bael'Zharon Summoner (72886) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72885, -1, 72886, 180, 1, 1, 1, 4, 0, 0, 0, 0x57610149, 46, -132, -40, -1, 0, 0, 0) /* Generate Bael'Zharon Summoner (72886) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

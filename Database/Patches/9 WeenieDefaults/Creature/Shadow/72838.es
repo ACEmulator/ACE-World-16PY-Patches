@@ -1,4 +1,6 @@
 Use:
+    - Motion: Ready
+    - TurnToTarget
     - InqMyQuest: GYColoRewardGiverInProgress
         QuestSuccess:
             - Tell: Defend me until the ritual is complete!

@@ -188,8 +188,8 @@ VALUES (0x7576102F,   269, 0x576101BB, 75.1917, -19.9303, -28.5, 0.707107, 0, 0,
 /* @teleloc 0x576101BB [75.191704 -19.930300 -28.500000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75761030, 72881, 0x57610153, 50.0528, -131.259, -41.7738, 0.999974, 0, 0, -0.007245, False, '2023-02-15 11:27:23'); /* Summoning Cave Shadows Gen */
-/* @teleloc 0x57610153 [50.052799 -131.259003 -41.773800] 0.999974 0.000000 0.000000 -0.007245 */
+VALUES (0x75761030, 72881, 0x57610153, 50.0528, -131.259, -40.77382, 0.999974, 0, 0, -0.007245, False, '2023-02-15 11:27:23'); /* Summoning Cave Shadows Gen */
+/* @teleloc 0x57610153 [50.052799 -131.259003 -40.773819] 0.999974 0.000000 0.000000 -0.007245 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75761031, 72885, 0x57610153, 50.0712, -130.092, -41.8238, 1, 0, 0, 0, False, '2023-02-19 13:57:38'); /* Bael'Zharon Summoner Stopgap */
