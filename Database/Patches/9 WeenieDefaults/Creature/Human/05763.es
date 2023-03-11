@@ -23,6 +23,7 @@ Give: 72958
     - Delay: 1, Tell: I must reward you greatly for this surprise gift!
     - AwardLevelProportionalXP: 26%, 0 - 172,500,000
     - Give: 38917
+    - Give: 20630, 10
 
 Use: Probability: 0.1
     - Motion: Ready
