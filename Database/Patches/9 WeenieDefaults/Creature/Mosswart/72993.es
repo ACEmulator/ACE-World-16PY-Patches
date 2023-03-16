@@ -1,7 +1,7 @@
 Death:
     - Activate
     - Extent: 20, Say: There is freedom in death, only shackles in life.
-    - LocalBroadcast: The door along the east wall swings open.
+    - LocalBroadcast: The door along the west wall swings open.
 
 HeartBeat: Style: HandCombat, Substyle: Ready, Probability: 0.045
     - Motion: Twitch3
@@ -29,4 +29,3 @@ Scream:
 
 Homesick:
     - Activate
-

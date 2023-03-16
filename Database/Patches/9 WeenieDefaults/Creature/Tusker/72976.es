@@ -8,7 +8,7 @@ Give: 72980
 Use:
     - InqMyQuest: DruggedMeat
         QuestSuccess:
-            - StampQuest: SavedBubba
+            - SetQuestBitsOn: Petsave, 0x2
             - Give: 72977
             - DeleteSelf
         QuestFailure:
