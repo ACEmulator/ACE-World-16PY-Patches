@@ -38,5 +38,5 @@ Use:
     - Delay: 1, Tell: Hail, traveler. It is pleasant to meet anyone here in the wastes.  Tell me, have you discovered a crypt in these regions called the Burial Temple?
     - Delay: 1, Tell: I have heard that the dead walk there, and one in particular always carries a certain black gem I seek for my research.
     - Delay: 1, Tell: Through my studies, I have found that the dreadful creature is named Kelannik.
-    - Delay: 1, Tell: Please retrieve this gem and reutn it to me.  Your courage will not go unrewarded.
+    - Delay: 1, Tell: Please retrieve this gem and return it to me.  Your courage will not go unrewarded.
 

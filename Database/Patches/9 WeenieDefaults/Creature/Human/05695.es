@@ -312,16 +312,19 @@ Give: Unreadable Text (9080)
     - TurnToTarget
     - Delay: 1, Tell: Hrm. Well, the letters of this are in the High Empyrean language of the Age of Lore. However, they don't seem to form any words.
     - Delay: 1, Give: Unreadable Text (9080)
+
 Give: Decoded Untranslated Text (9081)
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Decoded Untranslated Text (9081)
+
 Give: Scrawled Note (9194)
     - Motion: Ready
     - TurnToTarget
     - Tell: My apologies, but I cannot read this.  It appears to be the language of the ancient Falatacot.  You should bring this to Fanzen San, in Hebian-To.
     - Delay: 1, Give: Scrawled Note (9194)
+
 Give: Virindi Envoy's Obsidian Shard (9385)
     - Motion: Ready
     - TurnToTarget
@@ -333,6 +336,7 @@ Give: Sotiris Obsidian Shard (8261)
     - TurnToTarget
     - Tell: I do not recognize this language at all... Try talking to Diyas al-Yat, here in Zaikhal.  He's an odd man who spends his time studying the Virindi.
     - Delay: 1, Give: Sotiris Obsidian Shard (8261)
+
 Give: Tumideon Obsidian Shard (8263)
     - Motion: Ready
     - TurnToTarget
@@ -454,6 +458,18 @@ Give: Trade Note (250,000) (20630)
     - TurnToTarget
     - Tell: Here you go.
     - Delay: 1, Give: Uninscription Stone (33960)
+
+Give: 72996
+    - Motion: Ready
+    - TurnToTarget
+    - Motion: Reading
+    - Tell: Indeed, this is the runic script of old Dericost, a language not used in well over 5000 years... Save for this letter, which looks newly written...
+    - DirectBroadcast: Kuyiza bint Zayi looks slightly troubled.
+    - Delay: 1, Tell: This was found on Rytheran's Apprentice? It seems Rytheran is up to something involving that ancient graveyard and some book that was powerful enough to scare even the ancient Dericost into not using it.
+    - DirectBroadcast: Kuyiza bint Zayi shudders.
+    - Motion: Shiver
+    - Delay: 1, Tell: Here, see for yourself.
+    - Delay: 1, Give: 72997
 
 Use:
     - Motion: Ready

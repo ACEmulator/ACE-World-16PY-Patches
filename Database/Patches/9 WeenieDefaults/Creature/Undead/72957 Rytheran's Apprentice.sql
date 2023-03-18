@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72957;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72957, 'ace72957-rytheranapprentice', 10, '2023-03-11 04:04:43') /* Creature */;
+VALUES (72957, 'ace72957-rytheranapprentice', 10, '2023-03-18 03:38:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72957,   1,         16) /* ItemType - Creature */
@@ -62,7 +62,7 @@ VALUES (72957,   1,       5) /* HeartbeatInterval */
      , (72957, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72957,   1, 'Rytheran''Apprentice') /* Name */;
+VALUES (72957,   1, 'Rytheran''s Apprentice') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72957,   1, 0x02000197) /* Setup */
@@ -73,7 +73,7 @@ VALUES (72957,   1, 0x02000197) /* Setup */
      , (72957,   7, 0x10000066) /* ClothingBase */
      , (72957,   8, 0x06001226) /* Icon */
      , (72957,  22, 0x34000028) /* PhysicsEffectTable */
-     , (72957,  35,        420) /* DeathTreasureType - Loot Tier: 4 */;
+     , (72957,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72957,  0,  4,  0,    0,  210,  105,  105,  105,  105,  105,  105,  105,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -100,14 +100,14 @@ VALUES (72957,   1,  6000, 0, 0, 6175) /* MaxHealth */
      , (72957,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72957,  6, 0, 3, 0, 337, 0, 0) /* MeleeDefense         Specialized */
+VALUES (72957,  6, 0, 3, 0, 337, 0, 0) /* MeleeDefense        Specialized */
      , (72957,  7, 0, 3, 0, 350, 0, 0) /* MissileDefense      Specialized */
-     , (72957, 15, 0, 3, 0, 313, 0, 0) /* MagicDefense         Specialized */
-     , (72957, 20, 0, 3, 0, 200, 0, 0) /* Deception            Specialized */
-     , (72957, 31, 0, 3, 0, 160, 0, 0) /* CreatureEnchantment  Specialized */
-     , (72957, 33, 0, 3, 0, 160, 0, 0) /* LifeMagic            Specialized */
-     , (72957, 34, 0, 3, 0, 180, 0, 0) /* WarMagic             Specialized */
-     , (72957, 45, 0, 3, 0, 337, 0, 0) /* LightWeapons         Specialized */;
+     , (72957, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
+     , (72957, 20, 0, 3, 0, 200, 0, 0) /* Deception           Specialized */
+     , (72957, 31, 0, 3, 0, 160, 0, 0) /* CreatureEnchantment Specialized */
+     , (72957, 33, 0, 3, 0, 420, 0, 0) /* LifeMagic           Specialized */
+     , (72957, 34, 0, 3, 0, 380, 0, 0) /* WarMagic            Specialized */
+     , (72957, 45, 0, 3, 0, 445, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72957,  2088,  2.013) /* Senescence */
@@ -150,7 +150,7 @@ VALUES (72957, 3 /* Death */, 0.34, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'The Dericost lord''s body collapses into rot and dust, but a voice in your mind sneers, "Pathetic little wretch! I shall rise again soon enough."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'The Dericost undead''s body collapses into rot and dust, but a voice in your mind sneers, "Pathetic little wretch! I shall rise again soon enough."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72957, 3 /* Death */, 0.67, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -158,7 +158,7 @@ VALUES (72957, 3 /* Death */, 0.67, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'The Dericost lord''s body collapses into rot and dust, but a voice in your mind sneers, "I should like to see you test your mettle against my Lady, barbarian dog! She is a far more powerful magician than I."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'The Dericost undead''s body collapses into rot and dust, but a voice in your mind sneers, "I should like to see you test your mettle against my Master, barbarian dog! He is a far more powerful magician than I."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72957, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -166,7 +166,7 @@ VALUES (72957, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'The Dericost lord''s body collapses into rot and dust, but a voice in your mind sneers, "I trust my defeat makes you feel slightly more in control of your destiny ... less like a dog at the end of Asheron''s leash? Get you from my halls before I rise again!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'The Dericost undead''s body collapses into rot and dust, but a voice in your mind sneers, "I trust my defeat makes you feel slightly more in control of your destiny ... less like a dog at the end of Asheron''s leash? Get you from my Master''s halls before I rise again!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72957, 16 /* KillTaunt */, 0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -190,7 +190,7 @@ VALUES (72957, 16 /* KillTaunt */, 0.45, NULL, NULL, NULL, NULL, NULL, NULL, NUL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'A voice in your mind sneers, "You would not have lasted a halfbreath against my Lady, barbarian!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'A voice in your mind sneers, "You would not have lasted a halfbreath against my Master, barbarian!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72957, 16 /* KillTaunt */, 0.6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -305,10 +305,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'Rytheran''s Apprentice resists %s''s feeble spell. He shakes his head, muttering something about "the mages these days" under his foul breath.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72957, 8,  5666,  0, 0,    1, False) /* Create Letter (5666) for Treasure */
+VALUES (72957, 8,  72996,  0, 0,    1, False) /* Create Sheets of Paper (72996) for Treasure */
      , (72957, 9,  7410,  0, 0,    1, False) /* Create Rytheran's Key (7410) for ContainTreasure */
-     , (72957, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (72957, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (72957, 9,  7045,  0, 0, 0.02, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
      , (72957, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-

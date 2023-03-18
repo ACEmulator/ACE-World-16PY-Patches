@@ -21,7 +21,7 @@ VALUES (72958,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72958,   1, 'Lady Jaera''s Wand') /* Name */
      , (72958,  16, 'This wand once belonged to Lady Jaera. Its power has decayed with time.') /* LongDesc */
-     , (72958,  33, 'LadyJaeraWandPickup') /* Quest */;
+     , (72958,  33, 'TrophyMageAcademy_1110') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72958,   1, 0x020012BF) /* Setup */

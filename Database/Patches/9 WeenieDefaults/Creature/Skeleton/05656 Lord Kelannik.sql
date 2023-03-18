@@ -63,7 +63,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5656,   1, 'Lord Kelannik') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5656,   1, 0x02000408) /* Setup */
+VALUES (5656,   1, 0x020013EF) /* Setup */
      , (5656,   2, 0x09000025) /* MotionTable */
      , (5656,   3, 0x2000001E) /* SoundTable */
      , (5656,   4, 0x30000000) /* CombatTable */
@@ -71,19 +71,14 @@ VALUES (5656,   1, 0x02000408) /* Setup */
      , (5656,   7, 0x1000060F) /* ClothingBase */
      , (5656,   8, 0x060016C4) /* Icon */
      , (5656,  22, 0x34000025) /* PhysicsEffectTable */
-     , (5656,  32,        426) /* WieldedTreasureType */
+     , (5656,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30.000002%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30.000002%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (5656,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
-
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (5656,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (5656,  1,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (5656,  2,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (5656,  3,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (5656,  4,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (5656,  5,  4,200, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (5656,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (5656,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (5656,  8,  4,200, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5656,   1, 300, 0, 0) /* Strength */
@@ -103,34 +98,45 @@ VALUES (5656,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5656,  7, 0, 3, 0, 477, 0, 0) /* MissileDefense      Specialized */
      , (5656, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
      , (5656, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
-     , (5656, 31, 0, 3, 0, 230, 0, 0) /* CreatureEnchantment  Specialized */
-     , (5656, 34, 0, 3, 0, 250, 0, 0) /* WarMagic             Specialized */
+     , (5656, 31, 0, 3, 0, 230, 0, 0) /* CreatureEnchantment Specialized */
+     , (5656, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
      , (5656, 44, 0, 3, 0, 345, 0, 0) /* HeavyWeapons        Specialized */
      , (5656, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
      , (5656, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
      , (5656, 47, 0, 3, 0, 285, 0, 0) /* MissileWeapons      Specialized */
      , (5656, 48, 0, 3, 0, 345, 0, 0) /* Shield              Specialized */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (5656,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (5656,  1,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (5656,  2,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (5656,  3,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (5656,  4,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (5656,  5,  4, 200, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (5656,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (5656,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (5656,  8,  4, 200, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5656,  2056,   2.02) /* Ataxia */
-     , (5656,  2068,   2.03) /* Brittle Bones */
-     , (5656,  2084,   2.02) /* Belly of Lead */
-     , (5656,  2132,    2.1) /* The Spike */
-     , (5656,  2146,    2.1) /* Evisceration */
-     , (5656,  2088,   2.02) /* Senescence */;
+VALUES (5656,  2056,   2.02)  /* Ataxia */
+     , (5656,  2068,   2.03)  /* Brittle Bones */
+     , (5656,  2084,   2.02)  /* Belly of Lead */
+     , (5656,  2132,    2.1)  /* The Spike */
+     , (5656,  2146,    2.1)  /* Evisceration */
+     , (5656,  2088,   2.02)  /* Senescence */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (5656, 5 /* HeartBeat */, 0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (5656,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5656, 9,  3687,  0, 0,  0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
-     , (5656, 9,     0,  0, 0,  0.9, False) /* Create nothing for ContainTreasure */
-     , (5656, 9,  5654,  0, 0,    1, False) /* Create Cursed Key (5654) for ContainTreasure */
-     , (5656, 9,     0,  0, 0,    0, False) /* Create nothing for ContainTreasure */
-     , (5656, 9,  5655,  0, 0,    1, False) /* Create Black Gem (5655) for ContainTreasure */
-     , (5656, 9,     0,  0, 0,    0, False) /* Create nothing for ContainTreasure */;
+VALUES (5656, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (5656, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (5656, 9,  5654,  0, 0, 1, False) /* Create Cursed Key (5654) for ContainTreasure */
+     , (5656, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (5656, 9,  5655,  0, 0, 1, False) /* Create Black Gem (5655) for ContainTreasure */
+     , (5656, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

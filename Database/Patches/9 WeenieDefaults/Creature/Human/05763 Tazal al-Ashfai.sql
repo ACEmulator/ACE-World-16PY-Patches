@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5763;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5763, 'aljalimatazal', 10, '2023-03-11 05:08:54') /* Creature */;
+VALUES (5763, 'aljalimatazal', 10, '2023-03-18 03:49:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5763,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (5763,   1,         16) /* ItemType - Creature */
      , (5763,   7,         -1) /* ContainersCapacity */
      , (5763,   8,        120) /* Mass */
      , (5763,  16,         32) /* ItemUseable - Remote */
-     , (5763,  25,        100) /* Level */
+     , (5763,  25,        132) /* Level */
      , (5763,  27,          0) /* ArmorType - None */
      , (5763,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5763,  95,          8) /* RadarBlipColor - Yellow */
@@ -171,7 +171,7 @@ VALUES (@parent_id, 0, 5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL,
      , (@parent_id, 3, 10 /* Tell */, 1, 1, NULL, 'Hail, traveler. It is pleasant to meet anyone here in the wastes.  Tell me, have you discovered a crypt in these regions called the Burial Temple?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 4, 10 /* Tell */, 1, 1, NULL, 'I have heard that the dead walk there, and one in particular always carries a certain black gem I seek for my research.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 5, 10 /* Tell */, 1, 1, NULL, 'Through my studies, I have found that the dreadful creature is named Kelannik.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 6, 10 /* Tell */, 1, 1, NULL, 'Please retrieve this gem and reutn it to me.  Your courage will not go unrewarded.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 6, 10 /* Tell */, 1, 1, NULL, 'Please retrieve this gem and return it to me.  Your courage will not go unrewarded.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5763, 2,  5852,  0, 3,    0, False) /* Create Dho Vest and Robe (5852) for Wield */
