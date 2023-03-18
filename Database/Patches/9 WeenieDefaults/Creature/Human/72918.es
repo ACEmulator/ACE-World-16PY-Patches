@@ -10,6 +10,7 @@ Use:
                             - StampQuest: SaveFionaWait
                             - Tell: Thank you ever so much for releasing me and finding the antidote to the poison.
                             - Tell: I must leave here quickly and find my family, please take this reward as a small token of my appreciation.
+                            - Give: 38917
                 QuestFailure:
                     - Tell: I think I am dying, please save me!
         QuestFailure:
