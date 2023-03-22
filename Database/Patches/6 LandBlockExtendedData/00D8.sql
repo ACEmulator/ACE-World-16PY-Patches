@@ -1,10 +1,6 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00D8;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D8000, 87200, 0x00D8022C, 10.0661, -250.963, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x00D8022C [10.066100 -250.962997 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8001, 37179, 0x00D80223, 5.71065, -189.909, 0.00825, 0.012126, 0, 0, 0.999926,  True, '2021-11-01 00:00:00'); /* Imperial Guard */
 /* @teleloc 0x00D80223 [5.710650 -189.908997 0.008250] 0.012126 0.000000 0.000000 0.999926 */
 
@@ -70,7 +66,8 @@ VALUES (0x700D8005, 0x700D8001, '2021-11-01 00:00:00') /* Imperial Guard (37179)
      , (0x700D8005, 0x700D802C, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
      , (0x700D8005, 0x700D802D, '2021-11-01 00:00:00') /* Imperial Guard (37179) */
      , (0x700D8005, 0x700D802E, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
-     , (0x700D8005, 0x700D802F, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */;
+     , (0x700D8005, 0x700D802F, '2021-11-01 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700D8005, 0x700D803D, '2023-03-11 17:38:34') /* Celestial Illuminator (87201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8006, 37179, 0x00D80244, 95.7316, -177.036, 0.00825, 0.540311, 0, 0, 0.841466,  True, '2021-11-01 00:00:00'); /* Imperial Guard */
@@ -262,10 +259,6 @@ VALUES (0x700D8033, 37167, 0x00D80181, 308.062, -56.2242, -11.995, 0.906901, 0, 
 /* @teleloc 0x00D80181 [308.062012 -56.224201 -11.995000] 0.906901 0.000000 0.000000 0.421345 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D8034, 87212, 0x00D80182, 309.388, -70.134, -12, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Master's Lectern */
-/* @teleloc 0x00D80182 [309.388000 -70.134003 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8035, 87205, 0x00D8019F, 140, -105.25, -6, 0, 0, 0, 1, False, '2021-11-01 00:00:00'); /* North Cloister */
 /* @teleloc 0x00D8019F [140.000000 -105.250000 -6.000000] 0.000000 0.000000 0.000000 1.000000 */
 
@@ -278,9 +271,25 @@ VALUES (0x700D8037, 87206, 0x00D801EF, 184.75, -180, -6, -0.707107, 0, 0, -0.707
 /* @teleloc 0x00D801EF [184.750000 -180.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D8038, 87200, 0x00D80179, 288.207, -69.8438, -12.063, -0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x00D80179 [288.207001 -69.843803 -12.063000] -0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8039, 35929, 0x00D80102, 190.014, -179.911, -23.945, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Acid */
 /* @teleloc 0x00D80102 [190.014008 -179.910995 -23.945000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D803A, 87212, 0x00D80182, 309.999, -70, -12, 0.707107, 0, 0, -0.707107, False, '2023-03-11 17:23:21'); /* Master's Lectern */
+/* @teleloc 0x00D80182 [309.998993 -70.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D803B, 87200, 0x00D80179, 289.999, -70, -12.063, 0.707107, 0, 0, -0.707107, False, '2023-03-11 17:25:09'); /* Surface */
+/* @teleloc 0x00D80179 [289.998993 -70.000000 -12.063000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D803C, 87200, 0x00D8022C, 9.99939, -250, -0.063, 1, 0, 0, 0, False, '2023-03-11 17:25:40'); /* Surface */
+/* @teleloc 0x00D8022C [9.999390 -250.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D803D, 87201, 0x00D80142, 226.974, -349.841, -11.995, -0.701622, 0, 0, -0.71255,  True, '2023-03-11 17:38:34'); /* Celestial Illuminator */
+/* @teleloc 0x00D80142 [226.973999 -349.841003 -11.995000] -0.701622 0.000000 0.000000 -0.712550 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D803E, 72963, 0x00D80167, 256.993, -187.033, -12, 1, 0, 0, 0, False, '2023-03-11 17:56:59'); /* Ancient Chest */
+/* @teleloc 0x00D80167 [256.993011 -187.033005 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
