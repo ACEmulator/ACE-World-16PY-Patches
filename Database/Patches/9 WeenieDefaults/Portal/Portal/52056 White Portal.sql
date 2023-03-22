@@ -8,6 +8,7 @@ VALUES (52056,   1,      65536) /* ItemType - Portal */
      , (52056,  16,         32) /* ItemUseable - Remote */
      , (52056,  86,        180) /* MinLevel */
      , (52056,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (52056, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (52056, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52056, 267,        600) /* Lifespan */;
 
