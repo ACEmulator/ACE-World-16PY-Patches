@@ -11,6 +11,7 @@ VALUES (36732,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (36732,  15,      50000) /* StackUnitValue */
      , (36732,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36732,  19,      50000) /* Value */
+     , (36732,  33,          1) /* Bonded - Bonded */
      , (36732,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36732,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
 
