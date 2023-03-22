@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80026;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80026, 'ace80026-reinforceddoor', 19, '2021-11-01 00:00:00') /* Door */;
+VALUES (80026, 'ace80026-lockedgate', 19, '2021-11-01 00:00:00') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80026,   1,        128) /* ItemType - Misc */
@@ -27,7 +27,7 @@ VALUES (80026,  11,      60) /* ResetInterval */
      , (80026,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80026,   1, 'Reinforced Door') /* Name */
+VALUES (80026,   1, 'Locked Gate') /* Name */
      , (80026,  12, 'viamont_staging_area') /* LockCode */
      , (80026,  14, 'Use this item to open it.') /* Use */;
 
