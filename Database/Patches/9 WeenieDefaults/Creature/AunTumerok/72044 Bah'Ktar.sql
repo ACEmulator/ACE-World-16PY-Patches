@@ -12,8 +12,8 @@ VALUES (72044,   1,         16) /* ItemType - Creature */
      , (72044,  16,          1) /* ItemUseable - No */
      , (72044,  25,        240) /* Level */
      , (72044,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (72044,  81,          2) /* MaxGeneratedObjects */
-     , (72044,  82,          2) /* InitGeneratedObjects */
+     , (72044,  81,          1) /* MaxGeneratedObjects */
+     , (72044,  82,          1) /* InitGeneratedObjects */
      , (72044,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (72044, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (72044, 146,    1850000) /* XpOverride */
@@ -21,7 +21,7 @@ VALUES (72044,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72044,   1, True ) /* Stuck */
-     , (72044,   6, True ) /* AiUsesMana */
+     , (72044,   6, False) /* AiUsesMana */
      , (72044,  11, False) /* IgnoreCollisions */
      , (72044,  12, True ) /* ReportCollisions */
      , (72044,  13, False) /* Ethereal */
@@ -46,6 +46,8 @@ VALUES (72044,   1,       5) /* HeartbeatInterval */
      , (72044,  31,      16) /* VisualAwarenessRange */
      , (72044,  34,       1) /* PowerupTime */
      , (72044,  36,       1) /* ChargeSpeed */
+     , (72044,  41,     300) /* RegenerationInterval */
+     , (72044,  43,       5) /* GeneratorRadius */
      , (72044,  54,       3) /* UseRadius */
      , (72044,  64,     0.7) /* ResistSlash */
      , (72044,  65,     0.7) /* ResistPierce */

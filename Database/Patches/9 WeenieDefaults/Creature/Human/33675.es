@@ -24,7 +24,7 @@ Refuse: Corrupted Essence (44470)
                                                         TestSuccess:
                                                             - Goto: Has1
                                         QuestFailure:
-                                            - InqQuestSolves: CorruptedEssenceCount, 1 - 89
+                                            - InqQuestSolves: CorruptedEssenceCount, 0 - 89
                                                 QuestSuccess:
                                                     - InqOwnsItems: Corrupted Essence (44470), 10
                                                         TestSuccess:
@@ -111,7 +111,7 @@ Refuse: Lesser Corrupted Essence (44469)
                                                         TestSuccess:
                                                             - Goto: Has1LesserEssence
                                         QuestFailure:
-                                            - InqQuestSolves: CorruptedEssenceCount, 1 - 89
+                                            - InqQuestSolves: CorruptedEssenceCount, 0 - 89
                                                 QuestSuccess:
                                                     - InqOwnsItems: Lesser Corrupted Essence (44469), 10
                                                         TestSuccess:

@@ -209,10 +209,6 @@ VALUES (27893, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for C
      , (27893, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (27893, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (27893, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27893, 9, 45875,  0, 0, 0.02, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (27893, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27893, 9, 45876,  0, 0, 0.06, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
-     , (27893, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (27893, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
      , (27893, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (27893, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */

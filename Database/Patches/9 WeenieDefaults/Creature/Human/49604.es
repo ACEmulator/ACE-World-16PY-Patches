@@ -379,31 +379,53 @@ Give: Iasparailaun (21434)
             - InqIntStat: Level, 1 - 40, Message: Test_Level
                 TestSuccess:
                     - Delay: 1, Tell: I see that you have visited revenge upon the man that wanted to bring our race to an end. Nuhmudira thanks you for this. Here is your reward.
-                    - AwardLevelProportionalXP: 100%, 0 - 0
+                    - AwardLevelProportionalXP: 100%, 0 - 3,000,000
                     - StampQuest: GaerlanSwordTurnin
                     - Give: Trade Note (200,000) (20629), 2
-                    - Delay: 1, Give: Gaerlan Token (22198)
-                    - Delay: 1, Tell: If you hand the token back to me I will make sure that you are recognized for your efforts. The madness of his reign is over and now we can move forward.
+                    - Goto: GaerlanTitle
                 TestFailure:
                     - InqIntStat: Level, 41 - 79, Message: Test_Level_41-79
                         TestSuccess:
                             - Delay: 1, Tell: I see that you have visited revenge upon the man that wanted to bring our race to an end. Nuhmudira thanks you for this. Here is your reward.
-                            - AwardLevelProportionalXP: 60%, 0 - 0
+                            - AwardLevelProportionalXP: 60%, 0 - 20,000,000
                             - StampQuest: GaerlanSwordTurnin
                             - Give: Trade Note (200,000) (20629), 2
-                            - Delay: 1, Give: Gaerlan Token (22198)
-                            - Delay: 1, Tell: If you hand the token back to me I will make sure that you are recognized for your efforts. The madness of his reign is over and now we can move forward.
+                            - Goto: GaerlanTitle
                         TestFailure:
                             - Delay: 1, Tell: I see that you have visited revenge upon the man that wanted to bring our race to an end. Nuhmudira thanks you for this. Here is your reward.
                             - AwardNoShareXP: 22,000,000
                             - StampQuest: GaerlanSwordTurnin
                             - Give: Trade Note (200,000) (20629), 2
-                            - Delay: 1, Give: Gaerlan Token (22198)
-                            - Delay: 1, Tell: If you hand the token back to me I will make sure that you are recognized for your efforts. The madness of his reign is over and now we can move forward.
+                            - Goto: GaerlanTitle
 
-Give: Gaerlan Token (22198)
+Give: Modified Iasparailaun (46959)
     - TurnToTarget
-    - Delay: 1, LocalBroadcast: From this day forward %s shall be known as Gaerlan Slayer.
+    - InqQuest: GaerlanSwordTurnin
+        QuestSuccess:
+            - Delay: 1, Tell: I have recently rewarded you for visiting revenge up on that madman. Please come back to me in one day before asking for another reward.
+            - Delay: 1, Give: Modified Iasparailaun (46959)
+        QuestFailure:
+            - InqIntStat: Level, 80 - 149
+                TestSuccess:
+                    - Delay: 1, Tell: I see that you have visited revenge upon the man that wanted to bring our race to an end. Nuhmudira thanks you for this. Here is your reward.
+                    - AwardNoShareXP: 90,000,000
+                    - StampQuest: GaerlanSwordTurnin
+                    - Give: Trade Note (250,000) (20630), 5
+                    - Goto: GaerlanTitle
+                TestFailure:
+                    - InqIntStat: Level, 150 - 9999
+                        TestSuccess:
+                            - Delay: 1, Tell: I see that you have visited revenge upon the man that wanted to bring our race to an end. Nuhmudira thanks you for this. Here is your reward.
+                            - AwardNoShareXP: 100,000,000
+                            - StampQuest: GaerlanSwordTurnin
+                            - Give: Trade Note (250,000) (20630), 5
+                            - Goto: GaerlanTitle
+                        TestFailure:
+                            - Delay: 1, Tell: You are not powerful enough to receive the reward for this item, adventurer.
+                            - Delay: 1, Give: Modified Iasparailaun (46959)
+
+Gotoset: GaerlanTitle
+    - LocalBroadcast: From this day forward %s shall be known as Gaerlan Slayer.
     - AddCharacterTitle: GaerlanSlayer
 
 Give: Blood Fang Jewel (30801)

@@ -477,3 +477,7 @@ VALUES (0x7934B430, 42519, 0x934B012E, 33.52, 27.812, 17.205, -0.275855, 0, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7934B431, 42116, 0x934B000B, 32.5096, 51.1108, 14.2642, 1, 0, 0, 0, False, '2021-11-07 08:12:46'); /* Master Craftsman Takahume */
 /* @teleloc 0x934B000B [32.509602 51.110802 14.264200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7934B432, 41208, 0x934B000C, 30.4637, 75.1824, 19.605, 0.840612, 0, 0, -0.541638, False, '2023-03-05 15:47:22'); /* Nurino */
+/* @teleloc 0x934B000C [30.463699 75.182404 19.605000] 0.840612 0.000000 0.000000 -0.541638 */
