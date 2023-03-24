@@ -17,8 +17,8 @@ Give: Slimy Broad Sword (43417)
     - TurnToTarget
     - Tell: My God! It couldn't be, where did you find it?
 	- Tell: This brings me back, back to a better time when I was a young naive warrior who thought he could take on the world.
-    - Delay: 1, Tell: Thank you for bringing this back to me, it is rare to find something to smile about these days.
     - AwardNoShareXP: 8,800,000
+    - Delay: 1, Tell: Thank you for bringing this back to me, it is rare to find something to smile about these days.
 
 Use: Probability: 0.2
     - Motion: Ready
