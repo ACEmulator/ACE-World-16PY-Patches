@@ -28,7 +28,7 @@ VALUES (41810,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41810,   1, 'Damaged Eldrytch Web Commendation Ribbon') /* Name */
-     , (41810,  14, 'Return this ribbon to your society agent. ') /* Use */
+     , (41810,  14, 'Return this ribbon to your society agent.') /* Use */
      , (41810,  16, 'A damaged commendation ribbon lost by a Eldrytch Web agent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
