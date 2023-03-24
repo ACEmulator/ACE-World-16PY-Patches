@@ -203,7 +203,7 @@ VALUES (0x701CF030,   420, 0x01CF01A9, 78.7157, -67.2038, -12, -0.707107, 0, 0, 
 /* @teleloc 0x01CF01A9 [78.715698 -67.203796 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701CF031,  1610, 0x01CF01A9, 81.4157, -69.4755, -11.995, -0.985944, 0, 0, 0.167077, False, '2005-02-09 10:00:00'); /* Drudge Ravener */
+VALUES (0x701CF031,  1610, 0x01CF01A9, 81.4157, -69.4755, -11.995, -0.985944, 0, 0, 0.167077,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
 /* @teleloc 0x01CF01A9 [81.415703 -69.475502 -11.995000] -0.985944 0.000000 0.000000 0.167077 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -227,7 +227,7 @@ VALUES (0x701CF036,   553, 0x01CF01B5, 84.4089, -114.492, -12, 0.538678, 0, 0, -
 /* @teleloc 0x01CF01B5 [84.408897 -114.491997 -12.000000] 0.538678 0.000000 0.000000 -0.842512 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701CF037,  1610, 0x01CF01C0, 89.053, -11.05, -12, 0.786733, 0, 0, -0.617293, False, '2005-02-09 10:00:00'); /* Drudge Ravener */
+VALUES (0x701CF037,  1610, 0x01CF01C0, 89.053, -11.05, -12, 0.786733, 0, 0, -0.617293,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
 /* @teleloc 0x01CF01C0 [89.053001 -11.050000 -12.000000] 0.786733 0.000000 0.000000 -0.617293 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -373,9 +373,11 @@ VALUES (0x701CF055, 0x701CF001, '2005-02-09 10:00:00') /* Drudge Ravener (1610) 
      , (0x701CF055, 0x701CF027, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF028, '2005-02-09 10:00:00') /* Matted Drudge Ravener (1321) */
      , (0x701CF055, 0x701CF029, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701CF055, 0x701CF031, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF033, '2005-02-09 10:00:00') /* Malus Shreth (4255) */
      , (0x701CF055, 0x701CF034, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF035, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701CF055, 0x701CF037, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF039, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF03A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF03D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
@@ -401,6 +403,7 @@ VALUES (0x701CF055, 0x701CF001, '2005-02-09 10:00:00') /* Drudge Ravener (1610) 
      , (0x701CF055, 0x701CF05F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF060, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF061, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701CF055, 0x701CF062, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
      , (0x701CF055, 0x701CF063, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF064, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
      , (0x701CF055, 0x701CF065, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
@@ -465,7 +468,7 @@ VALUES (0x701CF061,  1610, 0x01CF0277, 28.1459, -68.0791, 18.0042, 0, 0, 0, -1, 
 /* @teleloc 0x01CF0277 [28.145901 -68.079102 18.004200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701CF062,  1609, 0x01CF0279, 10.7238, -69.9457, 24.2335, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Drudge Stalker */
+VALUES (0x701CF062,  1609, 0x01CF0279, 10.7238, -69.9457, 24.2335, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Stalker */
 /* @teleloc 0x01CF0279 [10.723800 -69.945702 24.233500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
