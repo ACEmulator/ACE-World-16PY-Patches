@@ -1,6 +1,6 @@
 Death:
-	- Generate
+    - Generate
 
 Generation:
-	- Delay: 30, Generate
-	- DeleteSelf
+    - Delay: 30, Generate
+    - DeleteSelf

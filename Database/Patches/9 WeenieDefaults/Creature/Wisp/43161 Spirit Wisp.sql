@@ -71,12 +71,6 @@ VALUES (43161,   1, 0x0200059A) /* Setup */
      , (43161,  22, 0x3400002A) /* PhysicsEffectTable */
      , (43161,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (43161,  0,  8,400,  0.5,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (43161, 16,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (43161, 17,  8,400, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (43161, 21,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43161,   1, 220, 0, 0) /* Strength */
      , (43161,   2, 250, 0, 0) /* Endurance */
@@ -94,18 +88,23 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (43161,  6, 0, 2, 0, 317, 0, 0) /* MeleeDefense        Trained */
      , (43161,  7, 0, 2, 0, 280, 0, 0) /* MissileDefense      Trained */
      , (43161, 15, 0, 2, 0, 170, 0, 0) /* MagicDefense        Trained */
-     , (43161, 31, 0, 2, 0, 155, 0, 0) /* CreatureEnchantment      Trained */
-     , (43161, 33, 0, 2, 0, 155, 0, 0) /* LifeMagic                Trained */
-     , (43161, 34, 0, 2, 0, 175, 0, 0) /* WarMagic                 Trained */
+     , (43161, 31, 0, 2, 0, 155, 0, 0) /* CreatureEnchantment Trained */
+     , (43161, 33, 0, 2, 0, 155, 0, 0) /* LifeMagic           Trained */
+     , (43161, 34, 0, 2, 0, 175, 0, 0) /* WarMagic            Trained */
      , (43161, 45, 0, 2, 0, 410, 0, 0) /* LightWeapons        Trained */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43161,   175,   2.02) /* Fester Other V */
-     , (43161,   198,   2.02) /* Exhaustion Other V */
-     , (43161,  2084,   2.02) /* Belly of Lead */
-     , (43161,  2136,   2.05) /* Icy Torment */
-     , (43161,  2140,   2.06) /* Alset's Coil */
-     , (43161,  2168,   2.04) /* Gelidite's Gift */
-     , (43161,  2172,   2.04) /* Astyrrian's Gift */
-     , (43161,  3916,   2.02) /* Flayed Flesh */;
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (43161,  0,  8, 400,  0.5,  400,  320,  400,  400, 4000,  400,  400,  400,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (43161, 16,  8,  0,    0,  400,  320,  400,  400, 4000,  400,  400,  400,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (43161, 17,  8, 400, 0.75,  400,  320,  400,  400, 4000,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (43161, 21,  8,  0,    0,  400,  320,  400,  400, 4000,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (43161,   175,   2.02)  /* Fester Other V */
+     , (43161,   198,   2.02)  /* Exhaustion Other V */
+     , (43161,  2084,   2.02)  /* Belly of Lead */
+     , (43161,  2136,   2.05)  /* Icy Torment */
+     , (43161,  2140,   2.06)  /* Alset's Coil */
+     , (43161,  2168,   2.04)  /* Gelidite's Gift */
+     , (43161,  2172,   2.04)  /* Astyrrian's Gift */
+     , (43161,  3916,   2.02)  /* Flayed Flesh */;

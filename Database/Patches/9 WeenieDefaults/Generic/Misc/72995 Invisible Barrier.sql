@@ -18,7 +18,7 @@ VALUES (72995,   1, True ) /* Stuck */
      , (72995,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72995,  76,     1) /* Translucency */;
+VALUES (72995,  76,       1) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72995,   1, 'Invisible Barrier') /* Name */;

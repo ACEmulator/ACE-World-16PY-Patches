@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46966;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46966, 'ace46966-modifiedcestusgaerlan', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46966, 'ace46966-gauraloi', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46966,   1,          1) /* ItemType - MeleeWeapon */
@@ -58,4 +58,4 @@ VALUES (46966,   1, 0x02000DC8) /* Setup */
      , (46966,  55,       2318) /* ProcSpell - Gravity Well */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46966,   4623,      2)  /* Heavy Weapon Mastery Other V */;
+VALUES (46966,  4623,      2)  /* Incantation of Heavy Weapon Mastery Other */;
