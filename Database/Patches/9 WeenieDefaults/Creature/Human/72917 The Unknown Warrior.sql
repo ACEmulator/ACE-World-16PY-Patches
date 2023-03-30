@@ -31,7 +31,8 @@ VALUES (72917,   1, True ) /* Stuck */
      , (72917,  13, False) /* Ethereal */
      , (72917,  14, True ) /* GravityStatus */
      , (72917,  19, True ) /* Attackable */
-     , (72917,  29, True ) /* NoCorpse */;
+     , (72917,  29, True ) /* NoCorpse */
+     , (72917,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72917,   1,       5) /* HeartbeatInterval */
