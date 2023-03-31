@@ -46,7 +46,7 @@ VALUES (41005,   1,       5) /* HeartbeatInterval */
      , (41005,  34,     1.5) /* PowerupTime */
      , (41005,  36,       1) /* ChargeSpeed */
      , (41005,  39,     1.4) /* DefaultScale */
-     , (41005,  41,       0) /* RegenerationInterval */
+     , (41005,  41,     300) /* RegenerationInterval */
      , (41005,  43,     2.5) /* GeneratorRadius */
      , (41005,  64,       1) /* ResistSlash */
      , (41005,  65,    0.75) /* ResistPierce */
@@ -76,7 +76,7 @@ VALUES (41005,   1, 0x02001879) /* Setup */
      , (41005,   7, 0x1000010F) /* ClothingBase */
      , (41005,   8, 0x060016C0) /* Icon */
      , (41005,  22, 0x34000030) /* PhysicsEffectTable */
-     , (41005,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (41005,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41005,   1, 420, 0, 0) /* Strength */
@@ -124,18 +124,45 @@ VALUES (41005,  3126,   2.25)  /* Poison Health */
      , (41005,  4451,   2.02)  /* Incantation of Lightning Bolt */
      , (41005,  4453,   2.02)  /* Incantation of Lightning Volley */;
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41005,  5 /* HeartBeat */,  0.025, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000052 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41005,  5 /* HeartBeat */,   0.03, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41005, 17 /* NewEnemy */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   8 /* Say */, 0, 20, NULL, 'More victimsss for our Massster. Sssoon, your blood ssshall feed the One!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,   8 /* Say */, 1, 20, NULL, 'Attack!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41005, 2, 41010,  1, 0, 0, False) /* Create Lightning T'thuun Bow (41010) for Wield */
      , (41005, 2, 38849, 100, 0, 0, False) /* Create Raider Lightning Arrow (38849) for Wield */
+     , (41005, 9, 38456,  0, 0, 1, False) /* Create Mana Forge Key (38456) for ContainTreasure */
      , (41005, 9, 44982,  0, 0, 1, False) /* Create Creeping Blight Cloak (44982) for ContainTreasure */
-     , (41005, 9, 70323,  0, 0, 0.5, False) /* Create Armored Sclavus Head (70323) for ContainTreasure */
-     , (41005, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (41005, 9,  9259,  0, 0, 0.5, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
-     , (41005, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (41005, 9, 20861,  0, 0, 0.5, False) /* Create Moons Stamp (20861) for ContainTreasure */
-     , (41005, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (41005, 9, 41979,  1, 0, 0.7, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
-     , (41005, 9,     0,  0, 0, 0.3, False) /* Create nothing for ContainTreasure */;
+     , (41005, 9, 70323,  0, 0, 0.3, False) /* Create Armored Sclavus Head (70323) for ContainTreasure */
+     , (41005, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
+     , (41005, 9,  9259,  0, 0, 0.3, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
+     , (41005, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
+     , (41005, 9, 20861,  0, 0, 0.3, False) /* Create Moons Stamp (20861) for ContainTreasure */
+     , (41005, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
+     , (41005, 9, 41979,  1, 0, 0.3, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (41005, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41005, -1, 41006, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Trained Great Devourer (41006) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (41005, -1, 41006, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Trained Great Devourer (41006) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (41005, -1, 41006, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Trained Great Devourer (41006) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
