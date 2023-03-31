@@ -112,6 +112,4 @@ VALUES (19435, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19435, 9,  3703,  0, 0, 0.15, False) /* Create Red Phyntos Wasp Wing (3703) for ContainTreasure */
-     , (19435, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (19435, 9, 45875,  0, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (19435, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     , (19435, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

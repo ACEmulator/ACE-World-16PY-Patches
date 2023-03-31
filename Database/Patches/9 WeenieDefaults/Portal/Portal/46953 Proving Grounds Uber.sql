@@ -12,17 +12,17 @@ VALUES (46953,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46953,   1, True ) /* Stuck */
+     , (46953,  11, False) /* IgnoreCollisions */
      , (46953,  12, True ) /* ReportCollisions */
      , (46953,  13, True ) /* Ethereal */
-     , (46953,  14, True ) /* GravityStatus */
-     , (46953,  15, True ) /* LightsStatus */
-     , (46953,  19, True ) /* Attackable */;
+     , (46953,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46953,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46953,   1, 'Proving Grounds Uber') /* Name */;
+VALUES (46953,   1, 'Proving Grounds Uber') /* Name */
+     , (46953,  37, 'ProvingGroundsRollingDeath') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46953,   1, 0x020005D5) /* Setup */

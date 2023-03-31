@@ -48,6 +48,8 @@ VALUES (80027,   1,       5) /* HeartbeatInterval */
      , (80027,  31,     0.3) /* VisualAwarenessRange */
      , (80027,  34,       1) /* PowerupTime */
      , (80027,  36,       1) /* ChargeSpeed */
+     , (80027,  41,       5) /* RegenerationInterval */
+     , (80027,  43,       5) /* GeneratorRadius */
      , (80027,  64,    0.75) /* ResistSlash */
      , (80027,  65,    0.75) /* ResistPierce */
      , (80027,  66,    0.75) /* ResistBludgeon */
@@ -105,4 +107,4 @@ VALUES (80027,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (80027,  8,  4,  1, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80027, -1, 22174, 1, 1, 1, 1, 4, -1, 0, 0, 0x005A012E, 64.7765, -40.165, -71.995, -0.716487, 0, 0, 0.6976) /* Generate Large LiveOp Wall (22174) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (80027, -1, 72995, 1, 1, 1, 1, 4, -1, 0, 0, 0x005A0134, 65.6578, -40, -71.945, 0.707107, 0, 0, 0.707107) /* Generate Invisible Barrier (72995) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

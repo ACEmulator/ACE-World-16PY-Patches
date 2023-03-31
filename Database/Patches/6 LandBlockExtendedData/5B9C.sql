@@ -75,3 +75,7 @@ VALUES (0x75B9C011, 42852, 0x5B9C002E, 123.944, 124.93, 14.198, 0.725315, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9C012, 37443, 0x5B9C001E, 85.3015, 122.469, 18.005, -0.689776, 0, 0, -0.724023, False, '2021-11-01 00:00:00'); /* Marcus Danby */
 /* @teleloc 0x5B9C001E [85.301498 122.469002 18.004999] -0.689776 0.000000 0.000000 -0.724023 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75B9C013, 47799, 0x5B9C001F, 87.4115, 149.268, 14.005, 0.015526, 0, 0, -0.99988, False, '2023-03-12 13:14:49'); /* Colton Reeyan */
+/* @teleloc 0x5B9C001F [87.411499 149.268005 14.005000] 0.015526 0.000000 0.000000 -0.999880 */
