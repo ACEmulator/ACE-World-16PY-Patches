@@ -4,7 +4,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (72850, 'ace72850-summoningcavesoldiersgen', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (72850,  81,          8) /* MaxGeneratedObjects */
+VALUES (72850,  81,          6) /* MaxGeneratedObjects */
      , (72850,  82,          6) /* InitGeneratedObjects */
      , (72850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72850, 142,          3) /* GeneratorTimeType - Event */
@@ -29,9 +29,11 @@ VALUES (72850,   1, 0x0200026B) /* Setup */
      , (72850,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72850, -1, 72839, 30, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72850, -1, 72839, 30, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72850, -1, 72839, 30, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72850, -1, 72839, 30, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72850, -1, 72839, 30, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72850, -1, 72839, 30, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, -3, 0, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, 3, 3, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, -3, -3, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, 3, -3, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72850, -1, 72839, 80, 1, 1, 1, 4, -1, 0, 0, 0, -3, 3, 0.2, 1, 0, 0, 0) /* Generate Soldier (72839) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

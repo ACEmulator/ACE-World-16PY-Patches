@@ -196,10 +196,6 @@ VALUES (0x7575E02F,   269, 0x575E01BB, 75.1917, -19.9303, -28.5, 0.707107, 0, 0,
 /* @teleloc 0x575E01BB [75.191704 -19.930300 -28.500000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7575E030, 72850, 0x575E0153, 49.9065, -131.0531, -40.7738, 0, 0, 0, -1, False, '2023-02-19 12:54:39'); /* Summoning Cave Soldiers Gen */
-/* @teleloc 0x575E0153 [49.906502 -131.053101 -40.773800] 0.000000 0.000000 0.000000 -1.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575E031, 72837, 0x575E0162, 56.2347, -138.271, -41.8255, 1, 0, 0, 0,  True, '2023-02-19 16:23:26'); /* Void Lord */
 /* @teleloc 0x575E0162 [56.234699 -138.270996 -41.825500] 1.000000 0.000000 0.000000 0.000000 */
 
@@ -334,3 +330,7 @@ VALUES (0x7575E051, 30764, 0x575E010A, 50, -120, -47.945, 1, 0, 0, 0, False, '20
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575E052, 30764, 0x575E0111, 60, -120, -47.945, 1, 0, 0, 0, False, '2023-02-24 14:01:39'); /* "Mag-Ma!" */
 /* @teleloc 0x575E0111 [60.000000 -120.000000 -47.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7575E053, 72850, 0x575E0153, 50.0541, -130.829, -41.7738, 1, 0, 0, 0, False, '2023-03-31 15:06:14'); /* Summoning Cave Soldiers Gen */
+/* @teleloc 0x575E0153 [50.054100 -130.828995 -41.773800] 1.000000 0.000000 0.000000 0.000000 */
