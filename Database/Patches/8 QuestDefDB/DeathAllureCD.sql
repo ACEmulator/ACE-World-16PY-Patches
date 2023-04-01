@@ -1,4 +1,3 @@
-DELETE FROM `quest` WHERE `name` = 'DeathAllureCD';
+/* This quest flag was removed and changed to match the Contract Flag: DeathsAllureQuestFinished */
 
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('DeathAllureCD', 72000, -1, 'Death''s Allure Timer Flag', '2021-11-01 00:00:00');
+DELETE FROM `quest` WHERE `name` = 'DeathAllureCD';
