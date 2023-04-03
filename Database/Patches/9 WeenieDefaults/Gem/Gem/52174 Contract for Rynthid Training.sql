@@ -19,7 +19,8 @@ VALUES (52174,   1,       2048) /* ItemType - Gem */
      , (52174, 349,        317) /* UseCreatesContractId - Contract_317_Rynthid_Training */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52174,  22, True ) /* Inscribable */;
+VALUES (52174,  22, True ) /* Inscribable */
+     , (52174,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52174, 167,       2) /* CooldownDuration */;
@@ -30,7 +31,7 @@ VALUES (52174,   1, 'Contract for Rynthid Training') /* Name */
      , (52174,  16, 'Complete the Rynthid Training facility.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52174,   1, 0x02000C79) /* Setup */
+VALUES (52174,   1, 0x02000155) /* Setup */
      , (52174,   3, 0x20000014) /* SoundTable */
      , (52174,   8, 0x06006FD8) /* Icon */
      , (52174,  22, 0x3400002B) /* PhysicsEffectTable */;
