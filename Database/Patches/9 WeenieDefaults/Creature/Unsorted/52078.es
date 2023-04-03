@@ -1,5 +1,5 @@
 Use:
-	- InqQuest: RynthidAssessmentCompleted_1013
+	- InqQuest: RynthidTrainingCompleted_1013
 		QuestSuccess: 
 			- Tell: Unauthorized access detected. Removal from facility commencing.
 			- TeleportTarget: 0x2C31002D [129.408112 109.744987 105.015007] 0.611371 0.000000 0.000000 -0.791344
@@ -42,8 +42,8 @@ Use:
 					- EraseQuest: ColoredPortal3Yellow
 					- EraseQuest: ColoredPortal4Yellow
 					- EraseQuest: ColoredPortalLeverPullCompleted
-					- EraseQuest: RynthidAssessmentStarted_1013
-					- StampQuest: RynthidAssessmentCompleted_1013
+					- EraseQuest: RynthidTrainingStarted_1013
+					- StampQuest: RynthidTrainingCompleted_1013
 					- InqQuestBitsOn: LegendaryQuestsA, 0x80
 						QuestFailure:
 							- SetQuestBitsOn: LegendaryQuestsA, 0x80

@@ -1,11 +1,11 @@
 Use:
 	- InqIntStat: 25, 180 - 999
 		TestSuccess:
-			- InqQuest: RynthidAssessmentCompleted_1013
+			- InqQuest: RynthidTrainingCompleted_1013
 				QuestSuccess:
 					- Tell: You have completed the training recently, return to me in a day.
 				QuestFailure:
-					- InqQuest: RynthidAssessmentStarted_1013
+					- InqQuest: RynthidTrainingStarted_1013
 						QuestSuccess:
 							- Goto: Reset
 						QuestFailure:
@@ -15,7 +15,7 @@ Use:
 							- Delay: 1, Tell: All unclaimed valuables left in the facility become property of the Curator of Torment.
 							- Delay: 1, Tell: NOTE: Observation and recollection skills will be tested as the final portion of the experiment.
 							- Delay: 1, Tell: Failure will not be tolerated. Discipline will be administered with extreme prejudice.
-							- StampQuest: RynthidAssessmentStarted_1013
+							- StampQuest: RynthidTrainingStarted_1013
 							- TeleportTarget: 0x587A017D [340 -180 0.005000] -0.707107 0.000000 0.000000 -0.707107
 		TestFailure:
 			- Tell: Unauthorized access detected. Removal from facility commencing.
