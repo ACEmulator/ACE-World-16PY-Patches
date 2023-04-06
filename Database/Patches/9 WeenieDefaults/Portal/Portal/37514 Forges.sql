@@ -15,7 +15,7 @@ VALUES (37514,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37514,  39,     1.2) /* DefaultScale */
-     , (37514,  54,       1) /* UseRadius */;
+     , (37514,  54,     0.5) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37514,   1, 'Forges') /* Name */;
