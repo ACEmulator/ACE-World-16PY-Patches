@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35378, 'ace35378-lordcynreftmhoire', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (35378, 'ace35378-lordcynreftmhoire', 10, '2023-04-07 04:57:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35378,   1,         16) /* ItemType - Creature */
@@ -12,8 +12,8 @@ VALUES (35378,   1,         16) /* ItemType - Creature */
      , (35378,  16,          1) /* ItemUseable - No */
      , (35378,  25,        300) /* Level */
      , (35378,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (35378,  81,          3) /* MaxGeneratedObjects */
-     , (35378,  82,          3) /* InitGeneratedObjects */
+     , (35378,  81,          4) /* MaxGeneratedObjects */
+     , (35378,  82,          0) /* InitGeneratedObjects */
      , (35378,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (35378, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (35378, 103,          3) /* GeneratorDestructionType - Kill */
@@ -47,7 +47,7 @@ VALUES (35378,   1,       5) /* HeartbeatInterval */
      , (35378,  34,       1) /* PowerupTime */
      , (35378,  36,       1) /* ChargeSpeed */
      , (35378,  39,     1.3) /* DefaultScale */
-     , (35378,  41,      20) /* RegenerationInterval */
+     , (35378,  41,       0) /* RegenerationInterval */
      , (35378,  55,      75) /* HomeRadius */
      , (35378,  64,    0.58) /* ResistSlash */
      , (35378,  65,    0.58) /* ResistPierce */
@@ -109,15 +109,15 @@ VALUES (35378,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
      , (35378, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35378,  0,  4,  0,    0,  450,  311,  311,  293,  383,  383,  338,  338,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (35378,  1,  4,  0,    0,  450,  311,  311,  293,  383,  383,  338,  338,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (35378,  2,  4,  0,    0,  450,  311,  311,  293,  383,  383,  338,  338,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (35378,  3,  4,  0,    0,  450,  311,  311,  293,  383,  383,  338,  338,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (35378,  4,  4,  0,    0,  450,  311,  311,  293,  383,  383,  338,  338,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (35378,  5,  4, 275, 0.75,  450,  311,  311,  293,  383,  383,  338,  338,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (35378,  6,  4,  0,    0,  450,  311,  311,  293,  383,  383,  338,  338,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (35378,  7,  4,  0,    0,  450,  311,  311,  293,  383,  383,  338,  338,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (35378,  8,  4, 275, 0.75,  450,  311,  311,  293,  383,  383,  338,  338,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (35378,  0,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (35378,  1,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (35378,  2,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (35378,  3,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (35378,  4,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (35378,  5,  4, 275, 0.75,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (35378,  6,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (35378,  7,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (35378,  8,  4, 275, 0.75,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35378,  2170,   2.05)  /* Inferno's Gift */
@@ -130,21 +130,74 @@ VALUES (35378,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'GYColoMobKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'GYColoWin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (35378,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (35378, 19 /* Homesick */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 1, NULL, 'Despoilers! You will not lure me from my resting place!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (35378, 20 /* ReceiveCritical */,    0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35378, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wield */
      , (35378, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */
      , (35378, 9, 35105,  1, 0, 0, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35378, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (35378, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (35378, 9, 35383,  1, 0, 0.2, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (35378, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
+     , (35378, 9, 35383,  1, 0, 0.8, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (35378, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (35378, 9, 35383,  1, 0, 0.8, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (35378, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (35378, 9, 35383,  1, 0, 0.8, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (35378, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (35378, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
+     , (35378, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (35378, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
+     , (35378, 9, 37248,  0, 0, 0.003, False) /* Create Two of Eyes (37248) for ContainTreasure */
+     , (35378, 9, 37249,  0, 0, 0.003, False) /* Create Three of Eyes (37249) for ContainTreasure */
+     , (35378, 9, 37250,  0, 0, 0.003, False) /* Create Four of Eyes (37250) for ContainTreasure */
+     , (35378, 9, 37251,  0, 0, 0.003, False) /* Create Five of Eyes (37251) for ContainTreasure */
+     , (35378, 9, 37252,  0, 0, 0.003, False) /* Create Six of Eyes (37252) for ContainTreasure */
+     , (35378, 9, 37253,  0, 0, 0.003, False) /* Create Seven of Eyes (37253) for ContainTreasure */
+     , (35378, 9, 37254,  0, 0, 0.003, False) /* Create Eight of Eyes (37254) for ContainTreasure */
+     , (35378, 9, 37255,  0, 0, 0.003, False) /* Create Nine of Eyes (37255) for ContainTreasure */
+     , (35378, 9, 37256,  0, 0, 0.003, False) /* Create Ten of Eyes (37256) for ContainTreasure */
+     , (35378, 9, 37257,  0, 0, 0.003, False) /* Create Jack of Eyes (37257) for ContainTreasure */
+     , (35378, 9, 37258,  0, 0, 0.003, False) /* Create Queen of Eyes (37258) for ContainTreasure */
+     , (35378, 9, 37259,  0, 0, 0.003, False) /* Create King of Eyes (37259) for ContainTreasure */
+     , (35378, 9, 37234,  0, 0, 0.003, False) /* Create Ace of Hands (37234) for ContainTreasure */
+     , (35378, 9, 37235,  0, 0, 0.003, False) /* Create Two of Hands (37235) for ContainTreasure */
+     , (35378, 9, 37236,  0, 0, 0.003, False) /* Create Three of Hands (37236) for ContainTreasure */
+     , (35378, 9, 37237,  0, 0, 0.003, False) /* Create Four of Hands (37237) for ContainTreasure */
+     , (35378, 9, 37238,  0, 0, 0.003, False) /* Create Five of Hands (37238) for ContainTreasure */
+     , (35378, 9, 37239,  0, 0, 0.003, False) /* Create Six of Hands (37239) for ContainTreasure */
+     , (35378, 9, 37240,  0, 0, 0.003, False) /* Create Seven of Hands (37240) for ContainTreasure */
+     , (35378, 9, 37241,  0, 0, 0.003, False) /* Create Eight of Hands (37241) for ContainTreasure */
+     , (35378, 9, 37242,  0, 0, 0.003, False) /* Create Nine of Hands (37242) for ContainTreasure */
+     , (35378, 9, 37243,  0, 0, 0.003, False) /* Create Ten of Hands (37243) for ContainTreasure */
+     , (35378, 9, 37244,  0, 0, 0.003, False) /* Create Jack of Hands (37244) for ContainTreasure */
+     , (35378, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
+     , (35378, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
+     , (35378, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35378, 0.16, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950113, 34, -44, -0.00334, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (35378, 0.32, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950111, 34, -16, -0.00334, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (35378, 0.48, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950109, 6, -41, -0.00334, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (35378, 0.62, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950107, 6, -16, -0.00334, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (35378, 0.77, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x0095010E, 16.7412, -36.8731, 0.005, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (35378, 1, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x0095010D, 20.2425, -27.3056, 0.005, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (35378, -1, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950113, 34, -44, -0.003343, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (35378, -1, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950109, 6, -41, -0.003343, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (35378, -1, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950111, 34, -16, -0.003343, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (35378, -1, 44695, 0, 1, 1, 1, 4, -1, 0, 0, 0x00950107, 6, -16, -0.003343, 1, 0, 0, 0) /* Generate Pillar of Fire (44695) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

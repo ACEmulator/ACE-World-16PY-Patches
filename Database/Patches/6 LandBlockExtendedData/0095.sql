@@ -653,24 +653,8 @@ VALUES (0x700950A3, 71143, 0x0095010B, 20, -9.44674, 0.061, 1, 0, 0, 0, False, '
 /* @teleloc 0x0095010B [20.000000 -9.446740 0.061000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700950A4, 71131, 0x0095010D, 22.3178, -31.7427, 0.055, 0.999928, 0, 0, -0.012009, False, '2021-11-01 00:00:00'); /* GYColoWave1 Gen */
+VALUES (0x700950A4, 71131, 0x0095010D, 22.3178, -31.7427, 0.055, 0.999928, 0, 0, -0.012009, False, '2021-11-01 00:00:00'); /* GYColoMaster Gen */
 /* @teleloc 0x0095010D [22.317801 -31.742701 0.055000] 0.999928 0.000000 0.000000 -0.012009 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700950A5, 71132, 0x0095010D, 23.4215, -31.7692, 0.055, 0.999928, 0, 0, -0.012009, False, '2021-11-01 00:00:00'); /* GYColoWave2 Gen */
-/* @teleloc 0x0095010D [23.421499 -31.769199 0.055000] 0.999928 0.000000 0.000000 -0.012009 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700950A6, 71133, 0x0095010D, 24.6703, -31.7992, 0.055, 0.999928, 0, 0, -0.012009, False, '2021-11-01 00:00:00'); /* GYColoWave3 Gen */
-/* @teleloc 0x0095010D [24.670300 -31.799200 0.055000] 0.999928 0.000000 0.000000 -0.012009 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700950A7, 71134, 0x00950112, 25.774, -31.8258, 0.055, 0.999928, 0, 0, -0.012009, False, '2021-11-01 00:00:00'); /* GYColoWave4 Gen */
-/* @teleloc 0x00950112 [25.774000 -31.825800 0.055000] 0.999928 0.000000 0.000000 -0.012009 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700950A8, 71135, 0x00950112, 27.1835, -31.8596, 0.055, 0.999928, 0, 0, -0.012009, False, '2021-11-01 00:00:00'); /* GYColoWave5 Gen */
-/* @teleloc 0x00950112 [27.183500 -31.859600 0.055000] 0.999928 0.000000 0.000000 -0.012009 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700950A9, 71136, 0x0095010D, 20.5, -27, 0.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* GYColoWin Gen */
