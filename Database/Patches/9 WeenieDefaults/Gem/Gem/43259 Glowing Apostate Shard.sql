@@ -17,11 +17,13 @@ VALUES (43259,   1,       2048) /* ItemType - Gem */
      , (43259,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43259,  94,         16) /* TargetType - Creature */
      , (43259, 114,          1) /* Attuned - Attuned */
-     , (43259, 267,       3600) /* Lifespan */;
+     , (43259, 267,       3600) /* Lifespan */
+     , (43259, 280,        500) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43259,  22, True ) /* Inscribable */
-     , (43259,  23, True ) /* DestroyOnSell */;
+     , (43259,  23, True ) /* DestroyOnSell */
+     , (43259,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43259, 167,      10) /* CooldownDuration */;
@@ -29,7 +31,8 @@ VALUES (43259, 167,      10) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43259,   1, 'Glowing Apostate Shard') /* Name */
      , (43259,  14, 'Use this item to search the immediate area for magical traces of its attuned target.') /* Use */
-     , (43259,  16, 'A shard of congealed energy, attuned to one of the Apostate Nexi.') /* LongDesc */;
+     , (43259,  16, 'A shard of congealed energy, attuned to one of the Apostate Nexi.') /* LongDesc */
+     , (43259,  51, 'sparkport') /* UseSendsSignal */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43259,   1, 0x02000179) /* Setup */
