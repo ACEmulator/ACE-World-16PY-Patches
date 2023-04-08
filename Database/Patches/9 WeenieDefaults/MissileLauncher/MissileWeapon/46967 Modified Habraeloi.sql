@@ -56,7 +56,7 @@ VALUES (46967,   1, 0x02000DC5) /* Setup */
      , (46967,   3, 0x20000014) /* SoundTable */
      , (46967,   8, 0x060027CC) /* Icon */
      , (46967,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (46967,  55,       2228) /* ProcSpell - DefenselessnessOther7 */;
+     , (46967,  55,       2228) /* ProcSpell - Broadside of a Barn */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46967,  4521,      2)  /* MissileWeaponsMasteryOther8 */;
+VALUES (46967,  4521,      2)  /* Incantation of Missile Weapon Mastery Other */;

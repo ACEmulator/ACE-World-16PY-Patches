@@ -17,7 +17,6 @@ VALUES (52305,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, True ) /* Stuck */
-     , (52305,  19, True ) /* Attackable */
      , (52305,  29, True ) /* NoCorpse */
      , (52305,  52, True ) /* AiImmobile */
      , (52305,  82, True ) /* DontTurnOrMoveWhenGiving */
@@ -26,9 +25,39 @@ VALUES (52305,   1, True ) /* Stuck */
      , (52305, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52305,  31,       2) /* VisualAwarenessRange */
+VALUES (52305,   1,       5) /* HeartbeatInterval */
+     , (52305,   2,       0) /* HeartbeatTimestamp */
+     , (52305,   3,       0) /* HealthRate */
+     , (52305,   4,       0) /* StaminaRate */
+     , (52305,   5,       0) /* ManaRate */
+     , (52305,  12,       0) /* Shade */
+     , (52305,  13,       1) /* ArmorModVsSlash */
+     , (52305,  14,       1) /* ArmorModVsPierce */
+     , (52305,  15,       1) /* ArmorModVsBludgeon */
+     , (52305,  16,       1) /* ArmorModVsCold */
+     , (52305,  17,       1) /* ArmorModVsFire */
+     , (52305,  18,       1) /* ArmorModVsAcid */
+     , (52305,  19,       1) /* ArmorModVsElectric */
+     , (52305,  31,       5) /* VisualAwarenessRange */
+     , (52305,  34,       1) /* PowerupTime */
+     , (52305,  36,       1) /* ChargeSpeed */
      , (52305,  39,     1.5) /* DefaultScale */
-     , (52305,  43,       0) /* GeneratorRadius */;
+     , (52305,  41,       5) /* RegenerationInterval */
+     , (52305,  43,       0) /* GeneratorRadius */
+     , (52305,  64,    0.75) /* ResistSlash */
+     , (52305,  65,    0.75) /* ResistPierce */
+     , (52305,  66,    0.75) /* ResistBludgeon */
+     , (52305,  67,    0.75) /* ResistFire */
+     , (52305,  68,    0.75) /* ResistCold */
+     , (52305,  69,    0.75) /* ResistAcid */
+     , (52305,  70,    0.75) /* ResistElectric */
+     , (52305,  71,       1) /* ResistHealthBoost */
+     , (52305,  72,       1) /* ResistStaminaDrain */
+     , (52305,  73,       1) /* ResistStaminaBoost */
+     , (52305,  74,       1) /* ResistManaDrain */
+     , (52305,  75,       1) /* ResistManaBoost */
+     , (52305, 104,      10) /* ObviousRadarRange */
+     , (52305, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, 'Corrupted Gravestone') /* Name */
@@ -52,9 +81,9 @@ VALUES (52305,   1, 400, 0, 0) /* Strength */
      , (52305,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52305,   1,     0, 0, 0, 1000) /* MaxHealth */
-     , (52305,   3,  5000, 0, 0, 5500) /* MaxStamina */
-     , (52305,   5,  5000, 0, 0, 5490) /* MaxMana */;
+VALUES (52305, 1, 7750, 0, 0, 8000) /* MaxHealth */
+     , (52305, 3, 5500, 0, 0, 5000) /* MaxStamina */
+     , (52305, 5, 5490, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52305,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
@@ -82,5 +111,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SpawnGuards', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52305, -1, 52307, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unknown (52307) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */
-     , (52305, -1, 72218, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gravestone Guards Gen (72218) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (52305, -1, 52307, 60, 1, 1, 1, 4,  0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0) /* Generate Uknown (52307) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (52305, -1, 72218, 60, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gravestone Guards Gen (72218) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

@@ -11,9 +11,9 @@ VALUES (72919,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72919,   1, True ) /* Stuck */
-     , (72919,   2, True) /* Open */
+     , (72919,   2, True ) /* Open */
      , (72919,  24, True ) /* UiHidden */
-     , (72919,  34, True) /* DefaultOpen */;
+     , (72919,  34, True ) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72919,  11,     300) /* ResetInterval */

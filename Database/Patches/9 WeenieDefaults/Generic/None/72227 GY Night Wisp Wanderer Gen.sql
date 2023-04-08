@@ -17,7 +17,7 @@ VALUES (72227,   1, True ) /* Stuck */
      , (72227,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72227,  41,     180) /* RegenerationInterval */
+VALUES (72227,  41,     600) /* RegenerationInterval */
      , (72227,  43,       8) /* GeneratorRadius */
      , (72227, 121,       1) /* GeneratorInitialDelay */;
 
@@ -29,6 +29,6 @@ VALUES (72227,   1, 0x0200026B) /* Setup */
      , (72227,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72227, 0.33, 35059, 120, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hatred Wisp (35059) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72227, 0.66, 35089, 120, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Despair Wisp (35089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72227, 1, 35090, 120, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sorrow Wisp (35090) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (72227, 0.33, 35059, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hatred Wisp (35059) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72227, 0.66, 35089, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Despair Wisp (35089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72227, 1, 35090, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sorrow Wisp (35090) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

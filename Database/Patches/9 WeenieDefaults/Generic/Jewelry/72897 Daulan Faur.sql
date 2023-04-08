@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72897;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72897, 'ace72897-modifiednecklacegaerlan', 1, '2023-02-26 11:04:47') /* Generic */;
+VALUES (72897, 'ace72897-daulanfaur', 1, '2023-02-26 11:04:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72897,   1,          8) /* ItemType - Jewelry */
@@ -19,9 +19,9 @@ VALUES (72897,   1,          8) /* ItemType - Jewelry */
      , (72897, 108,        500) /* ItemMaxMana */
      , (72897, 109,        150) /* ItemDifficulty */
      , (72897, 114,          1) /* Attuned - Attuned */
-     , (72897, 158,        150) /* WieldRequirements - Level */
+     , (72897, 158,          7) /* WieldRequirements - 150 */
      , (72897, 159,          1) /* WieldSkillType - Axe */
-     , (72897, 160,         30) /* WieldDifficulty */;
+     , (72897, 160,        150) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72897,  22, True ) /* Inscribable */
@@ -33,7 +33,7 @@ VALUES (72897,   5,  -0.033) /* ManaRate */
      , (72897,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72897,   1, 'Daulan Faur') /* Name */
+VALUES (72897,   1, 'Modified Daulan Faur') /* Name */
      , (72897,  15, 'A black necklace with a blue stone setting.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -45,6 +45,5 @@ VALUES (72897,   1, 0x02000101) /* Setup */
      , (72897,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72897,  4595,      2) /* Incantation of Magic Resistance Other */
-     , (72897,  4704,      2) /* Epic Magic Resistance */;
-
+VALUES (72897,  4595,      2)  /* Incantation of Magic Resistance Other */
+     , (72897,  4704,      2)  /* Epic Magic Resistance */;

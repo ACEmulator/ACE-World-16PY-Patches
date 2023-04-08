@@ -83,7 +83,7 @@ VALUES (42799, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42799, 4, 44396, -1, 0, 0, False) /* Create Contract for Aug Gem: Luminance (44396) for Shop */
      , (42799, 4, 44654, -1, 0, 0, False) /* Create Contract for Vision Quest (44654) for Shop */
      , (42799, 4, 44819, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Monouga (44819) for Shop */
-     , (42799, 4, 49570, -1, 0, 0, False) /* Create  (49570) for Shop */
+     , (42799, 4, 49570, -1, 0, 0, False) /* Create Contract for Protecting Picketed Pets (49570) for Shop */
      , (42799, 4, 51606, -1, 0, 0, False) /* Create Contract for Snow Tusker Leader Tusk (51606) for Shop */
      , (42799, 4, 51605, -1, 0, 0, False) /* Create Contract for Journey To Madness (51605) for Shop */
      , (42799, 4, 51679, -1, 0, 0, False) /* Create Contract for Visitors (51679) for Shop */;

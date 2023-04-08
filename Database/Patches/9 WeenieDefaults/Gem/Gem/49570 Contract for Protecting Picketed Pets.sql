@@ -16,7 +16,7 @@ VALUES (49570,   1,       2048) /* ItemType - Gem */
      , (49570,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (49570,  94,         16) /* TargetType - Creature */
      , (49570, 280,        100) /* SharedCooldown */
-     , (49570, 349,        273) /* UseCreatesContractId */;
+     , (49570, 349,        273) /* UseCreatesContractId - Contract_273_Protecting_Picketed_Pets */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49570,   1, False) /* Stuck */

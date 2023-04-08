@@ -71,31 +71,7 @@ VALUES (41966,   1, 0x020016A1) /* Setup */
      , (41966,   7, 0x10000066) /* ClothingBase */
      , (41966,   8, 0x06001226) /* Icon */
      , (41966,  22, 0x34000028) /* PhysicsEffectTable */
-     , (41966,  32,       2020) /* WieldedTreasureType - 
-                                   Wield Electric Crossbow (47856) | Probability: 5.7999997%
-                                   Wield 30x Lightning Quarrel (48067) | Probability: 100%
-                                   Wield Acid Crossbow (47854) | Probability: 5.7999997%
-                                   Wield 30x Acid Quarrel (48066) | Probability: 100%
-                                   Wield Heavy Crossbow (47858) | Probability: 5.7999997%
-                                   Wield 30x Quarrel (48065) | Probability: 100%
-                                   Wield Arbalest (47852) | Probability: 5.7999997%
-                                   Wield 30x Quarrel (48065) | Probability: 100%
-                                   Wield Lightning Silifi (48076) | Probability: 7.5000005%
-                                   Wield Lightning Nekode (48073) | Probability: 7.5000005%
-                                   Wield Acid Ono (48078) | Probability: 7.5000005%
-                                   Wield Silifi (48074) | Probability: 7.5000005%
-                                   Wield Nekode (48071) | Probability: 7.5000005%
-                                   Wield Katar (48069) | Probability: 7.5000005%
-                                   Wield Acid Silifi (48075) | Probability: 7.5000005%
-                                   Wield Lightning Ono (48079) | Probability: 7.5000005%
-                                   Wield Ono (48077) | Probability: 7.5000005%
-                                   Wield Lightning Katar (48070) | Probability: 7.5000005%
-                                   Wield Acid Nekode (48072) | Probability: 7.5000005%
-                                   Wield Acid Quarrel (48066) | Probability: 7.5000005%
-                                   Wield Acid Katar (48068) | Probability: 7.5000005%
-                                   Wield Kite Shield (91) | Probability: 30.000002%
-                                   Wield Round Shield (93) | Probability: 30.000002%
-                                   Wield Buckler (44) | Probability: 30.000002% */
+     , (41966,  32,       2020) /* WieldedTreasureType */
      , (41966,  35,       2101) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -112,17 +88,15 @@ VALUES (41966,   1,  2885, 0, 0, 3000) /* MaxHealth */
      , (41966,   5,  2000, 0, 0, 2255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (41966,  6, 0, 3, 0, 420, 0, 0) /* MeleeDefense        Specialized */
-     , (41966,  7, 0, 3, 0, 387, 0, 0) /* MissileDefense      Specialized */
-     , (41966, 15, 0, 3, 0, 365, 0, 0) /* MagicDefense        Specialized */
-     , (41966, 20, 0, 3, 0, 440, 0, 0) /* Deception           Specialized */
-     , (41966, 33, 0, 3, 0, 395, 0, 0) /* LifeMagic           Specialized */
-     , (41966, 34, 0, 3, 0, 400, 0, 0) /* WarMagic            Specialized */
-     , (41966, 41, 0, 3, 0, 465, 0, 0) /* TwoHandedCombat     Specialized */
-     , (41966, 44, 0, 3, 0, 465, 0, 0) /* HeavyWeapons        Specialized */
-     , (41966, 45, 0, 3, 0, 465, 0, 0) /* LightWeapons        Specialized */
-     , (41966, 46, 0, 3, 0, 465, 0, 0) /* FinesseWeapons      Specialized */
-     , (41966, 47, 0, 3, 0, 465, 0, 0) /* MissileWeapons      Specialized */;
+VALUES (41966,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
+     , (41966,  7, 0, 3, 0, 370, 0, 0) /* MissileDefense      Specialized */
+     , (41966, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
+     , (41966, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
+     , (41966, 41, 0, 3, 0, 560, 0, 0) /* TwoHandedCombat     Specialized */
+     , (41966, 44, 0, 3, 0, 560, 0, 0) /* HeavyWeapons        Specialized */
+     , (41966, 45, 0, 3, 0, 560, 0, 0) /* LightWeapons        Specialized */
+     , (41966, 46, 0, 3, 0, 560, 0, 0) /* FinesseWeapons      Specialized */
+     , (41966, 47, 0, 3, 0, 440, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (41966,  0,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -134,6 +108,46 @@ VALUES (41966,  0,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,
      , (41966,  6,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (41966,  7,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (41966,  8,  4, 155, 0.75,  275,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41966, 18 /* Scream */,    0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'You should not be here!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41966, 18 /* Scream */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'The lich took our lives, we shall take yours!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41966, 18 /* Scream */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'We shall brook no living presence!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41966, 18 /* Scream */,   0.25, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'I smell blood!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (41966, 18 /* Scream */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Intruders in our city!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41966, 9, 35105,  1, 0, 0.5, False) /* Create Pyre Shroud (35105) for ContainTreasure */
