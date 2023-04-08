@@ -9,7 +9,6 @@ VALUES (41929,   1,        128) /* ItemType - Misc */
      , (41929,  16,          1) /* ItemUseable - No */
      , (41929,  19,          0) /* Value */
      , (41929,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41929,  98, 1484537344) /* CreationTimestamp */
      , (41929, 267,       5420) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

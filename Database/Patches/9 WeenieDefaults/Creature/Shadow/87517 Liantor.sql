@@ -78,16 +78,21 @@ VALUES (87517,   1, 0x02000001) /* Setup */
      , (87517,  17, 0x04001F32) /* SkinPalette */
      , (87517,  22, 0x34000063) /* PhysicsEffectTable */
      , (87517,  32,       5920) /* WieldedTreasureType - 
-                                   Wield Shadow Blade (33080) | Probability: 10%
-                                   Wield Shield of Isin Dule (33105) | Probability: 100%
-                                   Wield Shadow Blade (33081) | Probability: 10%
-                                   Wield Shield of Isin Dule (33105) | Probability: 100%
-                                   Wield Shadow Blade (33082) | Probability: 10%
-                                   Wield Shield of Isin Dule (33105) | Probability: 100%
-                                   Wield Shadow Blade (33083) | Probability: 10%
-                                   Wield Shield of Isin Dule (33105) | Probability: 100%
-                                   Wield Shadow Blade (33084) | Probability: 60.000004%
-                                   Wield Shield of Isin Dule (33105) | Probability: 100% */
+                                   |  10.00% chance of Shadow Blade (33080)
+                                   |         with
+                                   |            100.00% chance of Shield of Isin Dule (33105)
+                                   |  10.00% chance of Shadow Blade (33081)
+                                   |         with
+                                   |            100.00% chance of Shield of Isin Dule (33105)
+                                   |  10.00% chance of Shadow Blade (33082)
+                                   |         with
+                                   |            100.00% chance of Shield of Isin Dule (33105)
+                                   |  10.00% chance of Shadow Blade (33083)
+                                   |         with
+                                   |            100.00% chance of Shield of Isin Dule (33105)
+                                   |  60.00% chance of Shadow Blade (33084)
+                                   |         with
+                                   |            100.00% chance of Shield of Isin Dule (33105) */
      , (87517,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

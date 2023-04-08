@@ -6,7 +6,7 @@ VALUES (71386, 'ace71386-mumiyahsoldier', 10, '2022-12-04 19:04:52') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71386,   1,         16) /* ItemType - Creature */
      , (71386,   2,         14) /* CreatureType - Undead */
-     , (71386,   3,         44) /* PaletteTemplate - Tanred */
+     , (71386,   3,         44) /* PaletteTemplate - TanRed */
      , (71386,   6,         -1) /* ItemsCapacity */
      , (71386,   7,         -1) /* ContainersCapacity */
      , (71386,  16,          1) /* ItemUseable - No */
@@ -75,10 +75,14 @@ VALUES (71386,   1, 0x02000001) /* Setup */
      , (71386,   8, 0x060016C2) /* Icon */
      , (71386,  22, 0x34000028) /* PhysicsEffectTable */
      , (71386,  32,       3001) /* WieldedTreasureType - 
-                                   Wield Tachi (47649) | Probability: 20%
-                                   Wield Burning Sands Blade (44266) | Probability: 20%
-                                   Wield Burning Sands Katar (44265) | Probability: 20%
-                                   Wield Corrupted Aegis (44264) | Probability: 50% */;
+                                   # Set: 1
+                                   |  20.00% chance of Tachi (47649)
+                                   |  20.00% chance of Burning Sands Blade (44266)
+                                   |  20.00% chance of Burning Sands Katar (44265)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  50.00% chance of Corrupted Aegis (44264)
+                                   |  50.00% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (71386,   1, 210, 0, 0) /* Strength */

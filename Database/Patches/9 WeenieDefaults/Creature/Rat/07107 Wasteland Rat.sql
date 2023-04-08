@@ -6,7 +6,7 @@ VALUES (7107, 'ratwasteland', 10, '2022-12-04 19:04:52') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7107,   1,         16) /* ItemType - Creature */
      , (7107,   2,         10) /* CreatureType - Rat */
-     , (7107,   3,         51) /* PaletteTemplate - MidgGey */
+     , (7107,   3,         51) /* PaletteTemplate - MidGrey */
      , (7107,   6,         -1) /* ItemsCapacity */
      , (7107,   7,         -1) /* ContainersCapacity */
      , (7107,  16,          1) /* ItemUseable - No */

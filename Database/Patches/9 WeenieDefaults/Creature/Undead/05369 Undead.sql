@@ -73,32 +73,35 @@ VALUES (5369,   1, 0x02000197) /* Setup */
      , (5369,   8, 0x06001226) /* Icon */
      , (5369,  22, 0x34000028) /* PhysicsEffectTable */
      , (5369,  32,        251) /* WieldedTreasureType - 
-                                   Wield Budiaq (308) | Probability: 5%
-                                   Wield Club (309) | Probability: 5%
-                                   Wield Dabus (313) | Probability: 5%
-                                   Wield Dagger (314) | Probability: 5%
-                                   Wield Hand Axe (303) | Probability: 5%
-                                   Wield Jambiya (319) | Probability: 5%
-                                   Wield Jitte (321) | Probability: 5%
-                                   Wield Kasrullah (325) | Probability: 5%
-                                   Wield Katar (326) | Probability: 5%
-                                   Wield Khanjar (328) | Probability: 5%
-                                   Wield Knife (329) | Probability: 5%
-                                   Wield Mace (331) | Probability: 5%
-                                   Wield Short Sword (352) | Probability: 5%
-                                   Wield Shou-ono (342) | Probability: 5%
-                                   Wield Simi (345) | Probability: 5%
-                                   Wield Spear (348) | Probability: 5%
-                                   Wield Tofun (356) | Probability: 5%
-                                   Wield Tungi (357) | Probability: 5%
-                                   Wield Yaoji (361) | Probability: 5%
-                                   Wield Yari (362) | Probability: 5%
-                                   Wield 10x Throwing Dart (316) | Probability: 5%
-                                   Wield 10x Shouken (343) | Probability: 5%
-                                   Wield 10x Throwing Dagger (315) | Probability: 8%
-                                   Wield 5x Javelin (320) | Probability: 8%
-                                   Wield 5x Djarid (317) | Probability: 8%
-                                   Wield 4x Throwing Club (310) | Probability: 8% */
+                                   # Set: 1
+                                   |   5.00% chance of Budiaq (308)
+                                   |   5.00% chance of Club (309)
+                                   |   5.00% chance of Dabus (313)
+                                   |   5.00% chance of Dagger (314)
+                                   |   5.00% chance of Hand Axe (303)
+                                   |   5.00% chance of Jambiya (319)
+                                   |   5.00% chance of Jitte (321)
+                                   |   5.00% chance of Kasrullah (325)
+                                   |   5.00% chance of Katar (326)
+                                   |   5.00% chance of Khanjar (328)
+                                   |   5.00% chance of Knife (329)
+                                   |   5.00% chance of Mace (331)
+                                   |   5.00% chance of Short Sword (352)
+                                   |   5.00% chance of Shou-ono (342)
+                                   |   5.00% chance of Simi (345)
+                                   |   5.00% chance of Spear (348)
+                                   |   5.00% chance of Tofun (356)
+                                   |   5.00% chance of Tungi (357)
+                                   |   5.00% chance of Yaoji (361)
+                                   |   5.00% chance of Yari (362)
+                                   # Set: 2
+                                   |   5.00% chance of 9x to 10x Throwing Dart (316) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
+                                   |   8.00% chance of 9x to 10x Throwing Dagger (315) | StackSizeVariance: 0.1
+                                   |   8.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+                                   |   8.00% chance of 5x Djarid (317) | StackSizeVariance: 0.1
+                                   |   8.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |  58.00% chance of nothing from this set */
      , (5369,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

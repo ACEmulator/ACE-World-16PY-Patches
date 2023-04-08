@@ -72,13 +72,27 @@ VALUES (35989,   1, 0x02001526) /* Setup */
      , (35989,   8, 0x060036FB) /* Icon */
      , (35989,  22, 0x34000025) /* PhysicsEffectTable */
      , (35989,  32,       3508) /* WieldedTreasureType - 
-                                   Wield Quadrelle (29969) | Probability: 34.5%
-                                   Wield Lightning Spadone (40615) | Probability: 34.5%
-                                   Wield Frost Spadone (40617) | Probability: 34.5%
-                                   Wield Throwing Axe (29964) | Probability: 34.5%
-                                   Wield Fire Spadone (40616) | Probability: 34.5%
-                                   Wield Acid Spadone (40614) | Probability: 34.5%
-                                   Wield Spadone (29979) | Probability: 34.5% */
+                                   # Set: 1
+                                   |  34.50% chance of Quadrelle (29969)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 2
+                                   |  34.50% chance of Lightning Spadone (40615)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 3
+                                   |  34.50% chance of Frost Spadone (40617)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 4
+                                   |  34.50% chance of Throwing Axe (29964)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 5
+                                   |  34.50% chance of Fire Spadone (40616)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 6
+                                   |  34.50% chance of Acid Spadone (40614)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 7
+                                   |  34.50% chance of Spadone (29979)
+                                   |  65.50% chance of nothing from this set */
      , (35989,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -7,8 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87494,  81,          2) /* MaxGeneratedObjects */
      , (87494,  82,          2) /* InitGeneratedObjects */
      , (87494,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87494, 103,          3) /* GeneratorDestructionType - Kill */
-     , (87494, 142,          3) /* GeneratorTimeType - Event */
      , (87494, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -17,13 +15,11 @@ VALUES (87494,   1, True ) /* Stuck */
      , (87494,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87494,  41,     360) /* RegenerationInterval */
-     , (87494,  43,       5) /* GeneratorRadius */
-     , (87494, 121,       1) /* GeneratorInitialDelay */;
+VALUES (87494,  41,     300) /* RegenerationInterval */
+     , (87494,  43,       5) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87494,   1, 'Empyrean Rescue Filinuvekta Gen') /* Name */
-     , (87494,  34, 'EmpyreanRescueFilinuvektaEvent') /* GeneratorEvent */;
+VALUES (87494,   1, 'Empyrean Rescue Filinuvekta Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87494,   1, 0x0200026B) /* Setup */

@@ -6,7 +6,7 @@ VALUES (30638, 'banderlingspiritdancer', 10, '2022-08-22 03:09:27') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30638,   1,         16) /* ItemType - Creature */
      , (30638,   2,          2) /* CreatureType - Banderling */
-     , (30638,   3,         44) /* PaletteTemplate - Tanred */
+     , (30638,   3,         44) /* PaletteTemplate - TanRed */
      , (30638,   6,         -1) /* ItemsCapacity */
      , (30638,   7,         -1) /* ContainersCapacity */
      , (30638,  16,          1) /* ItemUseable - No */
@@ -78,8 +78,9 @@ VALUES (30638,   1, 0x02000E08) /* Setup */
      , (30638,   8, 0x0600103D) /* Icon */
      , (30638,  22, 0x34000017) /* PhysicsEffectTable */
      , (30638,  32,        295) /* WieldedTreasureType - 
-                                   Wield 15x Frost Throwing Club (23663) | Probability: 50%
-                                   Wield Club (23648) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of 15x Frost Throwing Club (23663)
+                                   |  50.00% chance of Club (23648) */
      , (30638,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

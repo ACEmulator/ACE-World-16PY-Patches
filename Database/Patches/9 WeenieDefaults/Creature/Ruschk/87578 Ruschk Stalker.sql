@@ -78,11 +78,13 @@ VALUES (87578,   1, 0x02001240) /* Setup */
      , (87578,   8, 0x060036FD) /* Icon */
      , (87578,  22, 0x34000084) /* PhysicsEffectTable */
      , (87578,  32,        485) /* WieldedTreasureType - 
-                                   Wield Ice Shard (48601) | Probability: 17%
-                                   Wield Frigid Splinter (48602) | Probability: 17%
-                                   Wield Frozen Dagger (48600) | Probability: 17%
-                                   Wield Glacial Blade (48603) | Probability: 17%
-                                   Wield Icy Club (48599) | Probability: 17% */
+                                   # Set: 1
+                                   |  17.00% chance of Ice Shard (48601)
+                                   |  17.00% chance of Frigid Splinter (48602)
+                                   |  17.00% chance of Frozen Dagger (48600)
+                                   |  17.00% chance of Glacial Blade (48603)
+                                   |  17.00% chance of Icy Club (48599)
+                                   |  15.00% chance of nothing from this set */
      , (87578,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

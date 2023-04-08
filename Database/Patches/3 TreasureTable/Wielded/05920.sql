@@ -11,3 +11,20 @@ VALUES (5920, 33080,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0
      , (5920, 33105,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Shield of Isin Dule */
      , (5920, 33084,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Shadow Blade */
      , (5920, 33105,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Shield of Isin Dule */;
+/* 
+    |  10.00% chance of Shadow Blade (33080)
+    |         with
+    |            100.00% chance of Shield of Isin Dule (33105)
+    |  10.00% chance of Shadow Blade (33081)
+    |         with
+    |            100.00% chance of Shield of Isin Dule (33105)
+    |  10.00% chance of Shadow Blade (33082)
+    |         with
+    |            100.00% chance of Shield of Isin Dule (33105)
+    |  10.00% chance of Shadow Blade (33083)
+    |         with
+    |            100.00% chance of Shield of Isin Dule (33105)
+    |  60.00% chance of Shadow Blade (33084)
+    |         with
+    |            100.00% chance of Shield of Isin Dule (33105)
+*/

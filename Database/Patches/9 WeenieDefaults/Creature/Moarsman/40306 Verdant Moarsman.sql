@@ -70,7 +70,8 @@ VALUES (40306,   1, 0x02000992) /* Setup */
      , (40306,   7, 0x10000276) /* ClothingBase */
      , (40306,   8, 0x06001ED1) /* Icon */
      , (40306,  22, 0x34000069) /* PhysicsEffectTable */
-     , (40306,  30,         86) /* PhysicsScript - BreatheAcid */;
+     , (40306,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (40306,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40306,   1, 230, 0, 0) /* Strength */

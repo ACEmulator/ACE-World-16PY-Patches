@@ -1,3 +1,3 @@
 Generation:
-	- CastSpellInstant: 4081 - Eye of the Tempest
-	- Generate
+    - CastSpellInstant: 4081 - Eye of the Tempest
+    - Generate

@@ -5,3 +5,12 @@ VALUES (2017, 31391,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True,  True, False, 0
      , (2017, 15429,  0, 0,    0, 50, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Deadly Arrow */
      , (2017, 31385,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Raven Crossbow */
      , (2017, 15438,  0, 0,    0, 50, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Deadly Quarrel */;
+/* 
+    # Set: 1
+    |  50.00% chance of Raven Bow (31391)
+    |         with
+    |            100.00% chance of 50x Deadly Arrow (15429)
+    |  50.00% chance of Raven Crossbow (31385)
+    |         with
+    |            100.00% chance of 50x Deadly Quarrel (15438)
+*/

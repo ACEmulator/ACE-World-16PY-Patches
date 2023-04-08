@@ -79,10 +79,14 @@ VALUES (7372,   1, 0x020013E4) /* Setup */
      , (7372,  22, 0x34000025) /* PhysicsEffectTable */
      , (7372,  31,       7417) /* LinkedPortalOne - Aerfalle Keep Portal */
      , (7372,  32,        289) /* WieldedTreasureType - 
-                                   Wield Yumi (23736) | Probability: 50%
-                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
-                                   Wield Kite Shield (23686) | Probability: 50%
-                                   Wield Fire Tachi (23708) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of Yumi (23736)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Greater Fire Arrow (5305) | StackSizeVariance: 0.1
+                                   |  50.00% chance of Kite Shield (23686)
+                                   # Set: 2
+                                   |  50.00% chance of Fire Tachi (23708)
+                                   |  50.00% chance of nothing from this set */
      , (7372,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

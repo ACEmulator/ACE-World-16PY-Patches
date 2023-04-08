@@ -74,9 +74,11 @@ VALUES (25285,   1, 0x02000A0B) /* Setup */
      , (25285,   8, 0x06001037) /* Icon */
      , (25285,  22, 0x3400001E) /* PhysicsEffectTable */
      , (25285,  32,        321) /* WieldedTreasureType - 
-                                   Wield Rock (23745) | Probability: 100%
-                                   Wield Lugian Axe (23739) | Probability: 50%
-                                   Wield Lugian Morning Star (23763) | Probability: 50% */
+                                   # Set: 1
+                                   | 100.00% chance of Rock (23745)
+                                   # Set: 2
+                                   |  50.00% chance of Lugian Axe (23739)
+                                   |  50.00% chance of Lugian Morning Star (23763) */
      , (25285,  35,        320) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

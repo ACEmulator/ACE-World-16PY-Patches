@@ -74,10 +74,18 @@ VALUES (22898,   1, 0x02000E08) /* Setup */
      , (22898,   8, 0x0600103D) /* Icon */
      , (22898,  22, 0x34000017) /* PhysicsEffectTable */
      , (22898,  32,        423) /* WieldedTreasureType - 
-                                   Wield 25x Frost Throwing Club (23130) | Probability: 20%
-                                   Wield 25x Fire Throwing Club (23129) | Probability: 20%
-                                   Wield Flaming Club (23127) | Probability: 25%
-                                   Wield Frost Club (23128) | Probability: 25% */
+                                   # Set: 1
+                                   |  20.00% chance of 23x to 25x Frost Throwing Club (23130) | StackSizeVariance: 0.1
+                                   |  80.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  20.00% chance of 23x to 25x Fire Throwing Club (23129) | StackSizeVariance: 0.1
+                                   |  80.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  25.00% chance of Flaming Club (23127)
+                                   |         with
+                                   |             25.00% chance of Frost Club (23128)
+                                   |             75.00% chance of nothing from this subset
+                                   |  75.00% chance of nothing from this set */
      , (22898,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

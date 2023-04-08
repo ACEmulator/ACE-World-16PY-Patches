@@ -78,7 +78,7 @@ VALUES (11375,   1, 0x02001407) /* Setup */
      , (11375,   3, 0x20000013) /* SoundTable */
      , (11375,   4, 0x3000000C) /* CombatTable */
      , (11375,   6, 0x04001E51) /* PaletteBase */
-     , (11375,   7, 0x100000BF) /* ClothingBase */
+     , (11375,   7, 0x1000061E) /* ClothingBase */
      , (11375,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

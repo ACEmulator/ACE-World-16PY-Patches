@@ -72,10 +72,14 @@ VALUES (7401,   1, 0x02000409) /* Setup */
      , (7401,   8, 0x060016C4) /* Icon */
      , (7401,  22, 0x34000025) /* PhysicsEffectTable */
      , (7401,  32,        311) /* WieldedTreasureType - 
-                                   Wield Yumi (23736) | Probability: 50%
-                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
-                                   Wield Kite Shield (23686) | Probability: 50%
-                                   Wield Fire Tachi (23708) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of Yumi (23736)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Greater Fire Arrow (5305) | StackSizeVariance: 0.1
+                                   |  50.00% chance of Kite Shield (23686)
+                                   # Set: 2
+                                   |  50.00% chance of Fire Tachi (23708)
+                                   |  50.00% chance of nothing from this set */
      , (7401,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

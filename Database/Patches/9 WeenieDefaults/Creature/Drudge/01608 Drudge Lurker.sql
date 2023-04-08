@@ -6,7 +6,7 @@ VALUES (1608, 'drudgelurker', 10, '2022-08-22 03:09:27') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1608,   1,         16) /* ItemType - Creature */
      , (1608,   2,          3) /* CreatureType - Drudge */
-     , (1608,   3,         51) /* PaletteTemplate - MidgGey */
+     , (1608,   3,         51) /* PaletteTemplate - MidGrey */
      , (1608,   6,         -1) /* ItemsCapacity */
      , (1608,   7,         -1) /* ContainersCapacity */
      , (1608,  16,          1) /* ItemUseable - No */
@@ -78,9 +78,10 @@ VALUES (1608,   1, 0x020007DD) /* Setup */
      , (1608,   8, 0x06001035) /* Icon */
      , (1608,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1608,  32,         71) /* WieldedTreasureType - 
-                                   Wield Yari (23731) | Probability: 50%
-                                   Wield Tachi (23701) | Probability: 25%
-                                   Wield Spear (23697) | Probability: 25% */
+                                   # Set: 1
+                                   |  50.00% chance of Yari (23731)
+                                   |  25.00% chance of Tachi (23701)
+                                   |  25.00% chance of Spear (23697) */
      , (1608,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

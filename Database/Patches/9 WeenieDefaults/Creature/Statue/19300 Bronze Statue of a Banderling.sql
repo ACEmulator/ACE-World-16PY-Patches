@@ -73,8 +73,9 @@ VALUES (19300,   1, 0x02000031) /* Setup */
      , (19300,   8, 0x0600103D) /* Icon */
      , (19300,  22, 0x34000097) /* PhysicsEffectTable */
      , (19300,  32,        401) /* WieldedTreasureType - 
-                                   Wield Bronze Dagger (15876) | Probability: 50%
-                                   Wield Bronze Short Sword (15881) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of Bronze Dagger (15876)
+                                   |  50.00% chance of Bronze Short Sword (15881) */
      , (19300,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -77,15 +77,19 @@ VALUES (19282,   1, 0x02000059) /* Setup */
      , (19282,   8, 0x060016C4) /* Icon */
      , (19282,  22, 0x34000075) /* PhysicsEffectTable */
      , (19282,  32,        400) /* WieldedTreasureType - 
-                                   Wield Bronze Heavy Crossbow (15875) | Probability: 67%
-                                   Wield 20x Greater Acid Quarrel (5314) | Probability: 16%
-                                   Wield 20x Greater Lightning Quarrel (5316) | Probability: 16%
-                                   Wield 20x Greater Fire Quarrel (5317) | Probability: 17%
-                                   Wield 20x Greater Frost Quarrel (5315) | Probability: 17%
-                                   Wield 20x Greater Armor Piercing Quarrel (5318) | Probability: 17%
-                                   Wield 20x Frog Crotch Quarrel (3605) | Probability: 17%
-                                   Wield Bronze Cestus (15874) | Probability: 50%
-                                   Wield Bronze Battle Axe (15871) | Probability: 50% */
+                                   # Set: 1
+                                   |  67.00% chance of Bronze Heavy Crossbow (15875)
+                                   |         with
+                                   |             16.00% chance of 18x to 20x Greater Acid Quarrel (5314) | StackSizeVariance: 0.1
+                                   |             16.00% chance of 18x to 20x Greater Lightning Quarrel (5316) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Fire Quarrel (5317) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Frost Quarrel (5315) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Armor Piercing Quarrel (5318) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Frog Crotch Quarrel (3605) | StackSizeVariance: 0.1
+                                   |  33.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  50.00% chance of Bronze Cestus (15874)
+                                   |  50.00% chance of Bronze Battle Axe (15871) */
      , (19282,  35,        406) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

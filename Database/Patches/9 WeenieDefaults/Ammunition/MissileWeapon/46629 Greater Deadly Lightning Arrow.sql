@@ -6,25 +6,35 @@ VALUES (46629, 'ace46629-greaterdeadlylightningarrow', 5, '2021-11-07 08:12:46')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46629,   1,        256) /* ItemType - MissileWeapon */
      , (46629,   3,         82) /* PaletteTemplate - PinkPurple */
-     , (46629,   5,          1) /* EncumbranceVal */
+     , (46629,   5,          5) /* EncumbranceVal */
+     , (46629,   8,          2) /* Mass */
      , (46629,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (46629,  11,       2500) /* MaxStackSize */
+     , (46629,  11,       1000) /* MaxStackSize */
      , (46629,  12,          1) /* StackSize */
-     , (46629,  13,          1) /* StackUnitEncumbrance */
-     , (46629,  15,          1) /* StackUnitValue */
+     , (46629,  13,          5) /* StackUnitEncumbrance */
+     , (46629,  14,          2) /* StackUnitMass */
+     , (46629,  15,         11) /* StackUnitValue */
      , (46629,  16,          1) /* ItemUseable - No */
      , (46629,  18,         64) /* UiEffects - Lightning */
-     , (46629,  19,          1) /* Value */
-     , (46629,  33,         -2) /* Bonded - Destroy */
-     , (46629,  44,         40) /* Damage */
+     , (46629,  19,         11) /* Value */
+     , (46629,  44,        400) /* Damage */
      , (46629,  45,         64) /* DamageType - Electric */
      , (46629,  50,          1) /* AmmoType - Arrow */
      , (46629,  51,          3) /* CombatUse - Ammo */
      , (46629,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (46629, 151,          2) /* HookType - Wall */;
+     , (46629, 150,        103) /* HookPlacement - Hook */
+     , (46629, 151,          2) /* HookType - Wall */
+     , (46629, 158,          2) /* WieldRequirements - RawSkill */
+     , (46629, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (46629, 160,        230) /* WieldDifficulty */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46629,  17, True ) /* Inelastic */
+     , (46629,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46629,  22,     0.3) /* DamageVariance */
+     , (46629,  29,       1) /* WeaponDefense */
      , (46629,  39,     1.1) /* DefaultScale */
      , (46629,  76,     0.8) /* Translucency */
      , (46629,  78,       1) /* Friction */

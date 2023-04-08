@@ -10,3 +10,18 @@ VALUES (2018, 31391,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True,  True, False, 0
      , (2018, 31388,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Raven Sabra */
      , (2018, 31389,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Raven Sabra */
      , (2018, 31390,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Raven Sabra */;
+/* 
+    # Set: 1
+    |  50.00% chance of Raven Bow (31391)
+    |         with
+    |            100.00% chance of 27x to 30x Deadly Arrow (15429) | StackSizeVariance: 0.1
+    |  50.00% chance of Raven Crossbow (31385)
+    |         with
+    |            100.00% chance of 27x to 30x Deadly Quarrel (15438) | StackSizeVariance: 0.1
+    # Set: 2
+    |  20.00% chance of Raven Sabra (31386)
+    |  20.00% chance of Raven Sabra (31387)
+    |  20.00% chance of Raven Sabra (31388)
+    |  20.00% chance of Raven Sabra (31389)
+    |  20.00% chance of Raven Sabra (31390)
+*/

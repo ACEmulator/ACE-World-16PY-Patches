@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72901;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72901, 'ace72901-thughideoutcounter', 10, '2023-03-03 02:23:01') /* Creature */;
+VALUES (72901, 'ace72901-thughideoutcounter1', 10, '2023-03-03 02:23:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72901,   1,         16) /* ItemType - Creature */
@@ -81,6 +81,24 @@ VALUES (72901,   1, 0x02000001) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (72901,  16, 0x77E04159) /* ActivationTarget */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (72901,   1,  90, 0, 0) /* Strength */
+     , (72901,   2, 100, 0, 0) /* Endurance */
+     , (72901,   3,  75, 0, 0) /* Quickness */
+     , (72901,   4, 120, 0, 0) /* Coordination */
+     , (72901,   5, 140, 0, 0) /* Focus */
+     , (72901,   6, 130, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (72901,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (72901,   3,    10, 0, 0, 110) /* MaxStamina */
+     , (72901,   5,    10, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (72901,  6, 0, 2, 0,   1, 0, 633.3804321289062) /* MeleeDefense        Trained */
+     , (72901,  7, 0, 2, 0,   1, 0, 633.3804321289062) /* MissileDefense      Trained */
+     , (72901, 13, 0, 2, 0,   1, 0, 633.3804321289062) /* UnarmedCombat       Trained */;
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72901,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (72901,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
@@ -92,50 +110,32 @@ VALUES (72901,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (72901,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (72901,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (72901,   1,  90, 0, 0) /* Strength */
-     , (72901,   2, 100, 0, 0) /* Endurance */
-     , (72901,   3,  75, 0, 0) /* Quickness */
-     , (72901,   4, 120, 0, 0) /* Coordination */
-     , (72901,   5, 140, 0, 0) /* Focus */
-     , (72901,   6, 130, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (72901,   1,    10, 0, 0,   60) /* MaxHealth */
-     , (72901,   3,    10, 0, 0,  110) /* MaxStamina */
-     , (72901,   5,    10, 0, 0,  140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72901,  6, 0, 2, 0,   1, 0,633.3804321289062) /* MeleeDefense        Trained */
-     , (72901,  7, 0, 2, 0,   1, 0,633.3804321289062) /* MissileDefense      Trained */
-     , (72901, 13, 0, 2, 0,   1, 0,633.3804321289062) /* UnarmedCombat       Trained */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72901, 9 /* Generation */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (72901,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  81 /* StampMyQuest */, 0, 1, NULL, 'HoshinoDoorCounter', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  82 /* InqMyQuestSolves */, 0, 1, NULL, 'HoshinoDoorCounter@12-12', NULL, 12, 12, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72901, 8 /* Activation */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (72901,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 81 /* StampMyQuest */, 0, 1, NULL, 'HoshinoDoorCounter', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 1, 82 /* InqMyQuestSolves */, 0, 1, NULL, 'HoshinoDoorCounter@12-12', NULL, 12, 12, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72901, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'HoshinoDoorCounter@12-12', NULL, NULL, NULL);
+VALUES (72901, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'HoshinoDoorCounter@12-12', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 1, 83 /* EraseMyQuest */, 0, 1, NULL, 'HoshinoDoorCounter', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 2, 77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  83 /* EraseMyQuest */, 0, 1, NULL, 'HoshinoDoorCounter', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E0403EB, 189.956, -383.303, 0.005, 0, 0, 0, -1) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
@@ -144,7 +144,7 @@ VALUES (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E0403EB, 189.956, -383.30
      , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E040424, 214.963, -265.104, 0.005, 0.707107, 0, 0, 0.707107) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E0403CA, 189.9, -230.03, 0.005, 0, 0, 0, -1) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E04044B, 229.865, -236.649, 0.005, 0.707107, 0, 0, 0.707107) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E040352, 150.039, -230.012, 0.005, 0.707107, 0, 0, -0.707107) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */    
+     , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E040352, 150.039, -230.012, 0.005, 0.707107, 0, 0, -0.707107) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E04035F, 164.576, -199.073, 0.005, 0.707107, 0, 0, -0.707107) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E040431, 217.338, -199.384, 0.005, 0.707107, 0, 0, 0.707107) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72901, -1, 72902, 180, 1, 1, 1, 4, 0, 0, 0, 0x7E040349, 145.66, -94.2606, 0.005, 0.707107, 0, 0, -0.707107) /* Generate Thug Hideout Gen (72902) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */

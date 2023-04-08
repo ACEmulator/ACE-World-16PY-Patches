@@ -70,44 +70,57 @@ VALUES (2488,   1, 0x020013FE) /* Setup */
      , (2488,   8, 0x0600103C) /* Icon */
      , (2488,  22, 0x34000026) /* PhysicsEffectTable */
      , (2488,  32,        226) /* WieldedTreasureType - 
-                                   Wield 5x Javelin (320) | Probability: 10%
-                                   Wield 6x Djarid (317) | Probability: 10%
-                                   Wield 4x Throwing Club (310) | Probability: 5%
-                                   Wield 6x Throwing Axe (304) | Probability: 5%
-                                   Wield Yag (360) | Probability: 5%
-                                   Wield 23x Arrow (300) | Probability: 100%
-                                   Wield Shortbow (307) | Probability: 5%
-                                   Wield 25x Arrow (300) | Probability: 100%
-                                   Wield Shouyumi (341) | Probability: 5%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Light Crossbow (312) | Probability: 16%
-                                   Wield 15x Quarrel (305) | Probability: 100%
-                                   Wield Nayin (334) | Probability: 6%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Longbow (306) | Probability: 11%
-                                   Wield 22x Arrow (300) | Probability: 100%
-                                   Wield Yumi (363) | Probability: 6%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 16%
-                                   Wield 15x Quarrel (305) | Probability: 100%
-                                   Wield Battle Axe (301) | Probability: 6%
-                                   Wield Budiaq (308) | Probability: 6%
-                                   Wield Dabus (313) | Probability: 6%
-                                   Wield Kaskara (324) | Probability: 5%
-                                   Wield Long Sword (351) | Probability: 5%
-                                   Wield Mace (331) | Probability: 7%
-                                   Wield Ono (336) | Probability: 5%
-                                   Wield Scimitar (339) | Probability: 10%
-                                   Wield Shamshir (340) | Probability: 5%
-                                   Wield Silifi (344) | Probability: 5%
-                                   Wield Spear (348) | Probability: 7%
-                                   Wield Tachi (353) | Probability: 5%
-                                   Wield Tofun (356) | Probability: 6%
-                                   Wield War Hammer (359) | Probability: 10%
-                                   Wield Yari (362) | Probability: 10%
-                                   Wield Large Kite Shield (92) | Probability: 30.000002%
-                                   Wield Kite Shield (91) | Probability: 20%
-                                   Wield Large Round Shield (94) | Probability: 20% */
+                                   # Set: 1
+                                   |  10.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+                                   |  10.00% chance of 5x to 6x Djarid (317) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 5x to 6x Throwing Axe (304) | StackSizeVariance: 0.1
+                                   |   5.00% chance of Yag (360)
+                                   |         with
+                                   |            100.00% chance of 21x to 23x Arrow (300) | StackSizeVariance: 0.1
+                                   |   5.00% chance of Shortbow (307)
+                                   |         with
+                                   |            100.00% chance of 23x to 25x Arrow (300) | StackSizeVariance: 0.1
+                                   |   5.00% chance of Shouyumi (341)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  16.00% chance of Light Crossbow (312)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Nayin (334)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  11.00% chance of Longbow (306)
+                                   |         with
+                                   |            100.00% chance of 20x to 22x Arrow (300) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Yumi (363)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (300)
+                                   |  16.00% chance of Heavy Crossbow (311)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+                                   # Set: 2
+                                   |   6.00% chance of Battle Axe (301)
+                                   |   6.00% chance of Budiaq (308)
+                                   |   6.00% chance of Dabus (313)
+                                   |   5.00% chance of Kaskara (324)
+                                   |   5.00% chance of Long Sword (351)
+                                   |   7.00% chance of Mace (331)
+                                   |   5.00% chance of Ono (336)
+                                   |  10.00% chance of Scimitar (339)
+                                   |   5.00% chance of Shamshir (340)
+                                   |   5.00% chance of Silifi (344)
+                                   |   7.00% chance of Spear (348)
+                                   |   5.00% chance of Tachi (353)
+                                   |   6.00% chance of Tofun (356)
+                                   |  10.00% chance of War Hammer (359)
+                                   |  10.00% chance of Yari (362)
+                                   |   2.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  30.00% chance of Large Kite Shield (92)
+                                   |  20.00% chance of Kite Shield (91)
+                                   |  20.00% chance of Large Round Shield (94)
+                                   |  30.00% chance of nothing from this set */
      , (2488,  35,        227) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -73,8 +73,9 @@ VALUES (11875,   1, 0x02001402) /* Setup */
      , (11875,   8, 0x0600103C) /* Icon */
      , (11875,  22, 0x34000026) /* PhysicsEffectTable */
      , (11875,  32,        366) /* WieldedTreasureType - 
-                                   Wield Hafted Falcon Spear (11751) | Probability: 80%
-                                   Wield Reinforced Falcon Spear (11777) | Probability: 20% */
+                                   # Set: 1
+                                   |  80.00% chance of Hafted Falcon Spear (11751)
+                                   |  20.00% chance of Reinforced Falcon Spear (11777) */
      , (11875,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

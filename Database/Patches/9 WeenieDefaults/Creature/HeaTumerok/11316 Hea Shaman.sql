@@ -73,32 +73,45 @@ VALUES (11316,   1, 0x02001401) /* Setup */
      , (11316,   8, 0x0600103C) /* Icon */
      , (11316,  22, 0x34000026) /* PhysicsEffectTable */
      , (11316,  32,        373) /* WieldedTreasureType - 
-                                   Wield 5x Javelin (320) | Probability: 10%
-                                   Wield 5x Djarid (317) | Probability: 10%
-                                   Wield 4x Throwing Club (310) | Probability: 5%
-                                   Wield 6x Throwing Axe (304) | Probability: 5%
-                                   Wield Shortbow (307) | Probability: 3%
-                                   Wield 25x Arrow (300) | Probability: 100%
-                                   Wield Shouyumi (341) | Probability: 3%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Light Crossbow (312) | Probability: 11%
-                                   Wield 15x Quarrel (305) | Probability: 100%
-                                   Wield Balister of the Quiddity (11891) | Probability: 26%
-                                   Wield 20x Quarrel (305) | Probability: 100%
-                                   Wield Longbow (306) | Probability: 6%
-                                   Wield 22x Arrow (300) | Probability: 100%
-                                   Wield Yumi (363) | Probability: 4%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 14%
-                                   Wield 15x Quarrel (305) | Probability: 100%
-                                   Wield Blade of the Quiddity (11915) | Probability: 25%
-                                   Wield Lance of the Quiddity (11912) | Probability: 25%
-                                   Wield Mace of the Quiddity (11906) | Probability: 25%
-                                   Wield Kaskara (324) | Probability: 3%
-                                   Wield Long Sword (351) | Probability: 3%
-                                   Wield Silifi (344) | Probability: 5%
-                                   Wield Tachi (353) | Probability: 5%
-                                   Wield War Hammer (359) | Probability: 5% */
+                                   # Set: 1
+                                   |  10.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+                                   |  10.00% chance of 5x Djarid (317) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 5x to 6x Throwing Axe (304) | StackSizeVariance: 0.1
+                                   |  70.00% chance of nothing from this set
+                                   # Set: 2
+                                   |   3.00% chance of Shortbow (307)
+                                   |         with
+                                   |            100.00% chance of 23x to 25x Arrow (300) | StackSizeVariance: 0.1
+                                   |   3.00% chance of Shouyumi (341)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  11.00% chance of Light Crossbow (312)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+                                   |  26.00% chance of Balister of the Quiddity (11891)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Quarrel (305) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Longbow (306)
+                                   |         with
+                                   |            100.00% chance of 20x to 22x Arrow (300) | StackSizeVariance: 0.1
+                                   |   4.00% chance of Yumi (363)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (300)
+                                   |  14.00% chance of Heavy Crossbow (311)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+                                   |  33.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  25.00% chance of Blade of the Quiddity (11915)
+                                   |  25.00% chance of Lance of the Quiddity (11912)
+                                   |  25.00% chance of Mace of the Quiddity (11906)
+                                   |   3.00% chance of Kaskara (324)
+                                   |   3.00% chance of Long Sword (351)
+                                   |   5.00% chance of Silifi (344)
+                                   |   5.00% chance of Tachi (353)
+                                   |   5.00% chance of War Hammer (359)
+                                   |   4.00% chance of nothing from this set */
      , (11316,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

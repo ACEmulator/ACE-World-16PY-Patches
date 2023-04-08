@@ -31,7 +31,7 @@ VALUES (0x7565300F, 21409, 0x565301A4, 23.013, -6.763, 47.937, -1, 0, 0, -0.0007
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75653010, 21423, 0x565301A4, 17.86, -6.763, 47.937, -1, 0, 0, -0.000707, False, '2019-02-10 00:00:00'); /* Icy Demise */
-/* @teleloc 0x565301A4 [17.860000 -6.763000 47.937000] -1.000000 0.000000 0.000000 -0.000707 */
+/* @teleloc 0x565301A4 [17.860001 -6.763000 47.937000] -1.000000 0.000000 0.000000 -0.000707 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75653011, 21407, 0x565301A7, 32.041, -6.76276, 47.937, -0.999995, 0, 0, -0.003325, False, '2019-02-10 00:00:00'); /* Electric Destruction */

@@ -6,7 +6,7 @@ VALUES (1669, 'banderlingchief', 10, '2022-08-22 03:09:27') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1669,   1,         16) /* ItemType - Creature */
      , (1669,   2,          2) /* CreatureType - Banderling */
-     , (1669,   3,         44) /* PaletteTemplate - Tanred */
+     , (1669,   3,         44) /* PaletteTemplate - TanRed */
      , (1669,   6,         -1) /* ItemsCapacity */
      , (1669,   7,         -1) /* ContainersCapacity */
      , (1669,  16,          1) /* ItemUseable - No */
@@ -76,19 +76,21 @@ VALUES (1669,   1, 0x02000E08) /* Setup */
      , (1669,   8, 0x0600103D) /* Icon */
      , (1669,  22, 0x34000017) /* PhysicsEffectTable */
      , (1669,  32,         49) /* WieldedTreasureType - 
-                                   Wield Battle Axe (301) | Probability: 15.000001%
-                                   Wield Club (309) | Probability: 5%
-                                   Wield Dabus (313) | Probability: 10%
-                                   Wield Jo (322) | Probability: 3%
-                                   Wield Kasrullah (325) | Probability: 5%
-                                   Wield Mace (331) | Probability: 10%
-                                   Wield Morning Star (332) | Probability: 15.000001%
-                                   Wield Nabut (333) | Probability: 3%
-                                   Wield Shou-ono (342) | Probability: 10%
-                                   Wield Silifi (344) | Probability: 10%
-                                   Wield Tofun (356) | Probability: 10%
-                                   Wield 3x Throwing Axe (304) | Probability: 1%
-                                   Wield 3x Throwing Club (310) | Probability: 1% */
+                                   # Set: 1
+                                   |  15.00% chance of Battle Axe (301)
+                                   |   5.00% chance of Club (309)
+                                   |  10.00% chance of Dabus (313)
+                                   |   3.00% chance of Jo (322)
+                                   |   5.00% chance of Kasrullah (325)
+                                   |  10.00% chance of Mace (331)
+                                   |  15.00% chance of Morning Star (332)
+                                   |   3.00% chance of Nabut (333)
+                                   |  10.00% chance of Shou-ono (342)
+                                   |  10.00% chance of Silifi (344)
+                                   |  10.00% chance of Tofun (356)
+                                   |   1.00% chance of 3x Throwing Axe (304)
+                                   |   1.00% chance of 3x Throwing Club (310)
+                                   |   2.00% chance of nothing from this set */
      , (1669,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

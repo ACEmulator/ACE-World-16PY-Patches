@@ -73,8 +73,9 @@ VALUES (11879,   1, 0x02001402) /* Setup */
      , (11879,   8, 0x0600103C) /* Icon */
      , (11879,  22, 0x34000026) /* PhysicsEffectTable */
      , (11879,  32,        370) /* WieldedTreasureType - 
-                                   Wield Hafted Serpent Spear (11755) | Probability: 80%
-                                   Wield Reinforced Serpent Spear (11781) | Probability: 20% */
+                                   # Set: 1
+                                   |  80.00% chance of Hafted Serpent Spear (11755)
+                                   |  20.00% chance of Reinforced Serpent Spear (11781) */
      , (11879,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

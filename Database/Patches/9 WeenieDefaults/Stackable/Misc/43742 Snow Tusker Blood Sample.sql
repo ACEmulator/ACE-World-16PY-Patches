@@ -6,7 +6,7 @@ VALUES (43742, 'ace43742-snowtuskerbloodsample', 51, '2022-12-28 05:57:21') /* S
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43742,   1,        128) /* ItemType - Misc */
      , (43742,   5,          2) /* EncumbranceVal */
-     , (43742,  11,         10) /* MaxStackSize */
+     , (43742,  11,         20) /* MaxStackSize */
      , (43742,  12,          1) /* StackSize */
      , (43742,  13,          2) /* StackUnitEncumbrance */
      , (43742,  15,          0) /* StackUnitValue */

@@ -7,8 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87495,  81,          1) /* MaxGeneratedObjects */
      , (87495,  82,          1) /* InitGeneratedObjects */
      , (87495,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87495, 103,          3) /* GeneratorDestructionType - Kill */
-     , (87495, 142,          3) /* GeneratorTimeType - Event */
      , (87495, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -17,13 +15,11 @@ VALUES (87495,   1, True ) /* Stuck */
      , (87495,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87495,  41,    3600) /* RegenerationInterval */
-     , (87495,  43,       1) /* GeneratorRadius */
-     , (87495, 121,       1) /* GeneratorInitialDelay */;
+VALUES (87495,  41,     300) /* RegenerationInterval */
+     , (87495,  43,       0) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87495,   1, 'Empyrean Rescue Engorged Bloodstone Gen') /* Name */
-     , (87495,  34, 'EmpyreanRescueEngorgedBloodstoneEvent') /* GeneratorEvent */;
+VALUES (87495,   1, 'Empyrean Rescue Engorged Bloodstone Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87495,   1, 0x0200026B) /* Setup */

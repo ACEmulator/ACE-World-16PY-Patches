@@ -1,5 +1,5 @@
-HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.042
-    - Say: My Love, where have you gone?, Extent: 20
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.022
+    - Say: My Love, where have you gone?, Extent: 0
     
 Use:
     - TurnToTarget

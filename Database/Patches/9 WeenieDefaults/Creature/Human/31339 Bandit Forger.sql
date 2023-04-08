@@ -77,17 +77,25 @@ VALUES (31339,   1, 0x02000001) /* Setup */
      , (31339,  17, 0x040002B8) /* SkinPalette */
      , (31339,  22, 0x34000004) /* PhysicsEffectTable */
      , (31339,  32,       2014) /* WieldedTreasureType - 
-                                   Wield Leather Boots (25661) | Palette: Brown (4) | Probability: 100%
-                                   Wield Bandana (28612) | Palette: Blue (2) | Probability: 100%
-                                   Wield Trousers (2599) | Palette: DeepGreen (7) | Probability: 100%
-                                   Wield Flared Tunic (2594) | Palette: Purple (13) | Probability: 40%
-                                   Wield Flared Tunic (2594) | Palette: Red (14) | Probability: 30.000002%
-                                   Wield Flared Tunic (2594) | Palette: Yellow (17) | Probability: 30.000002%
-                                   Wield Hollow Crossbow (31706) | Probability: 20%
-                                   Wield 6x Deadly Chorizite Quarrel (21352) | Probability: 100%
-                                   Wield Phantom Bow (31705) | Probability: 20%
-                                   Wield 6x Deadly Chorizite Arrow (21348) | Probability: 100%
-                                   Wield Tachi (31704) | Probability: 40% */
+                                   # Set: 1
+                                   | 100.00% chance of Leather Boots (25661) | Palette: Brown (4)
+                                   # Set: 2
+                                   | 100.00% chance of Bandana (28612) | Palette: Blue (2)
+                                   # Set: 3
+                                   | 100.00% chance of Trousers (2599) | Palette: DeepGreen (7)
+                                   # Set: 4
+                                   |  40.00% chance of Flared Tunic (2594) | Palette: Purple (13)
+                                   |  30.00% chance of Flared Tunic (2594) | Palette: Red (14)
+                                   |  30.00% chance of Flared Tunic (2594) | Palette: Yellow (17)
+                                   # Set: 5
+                                   |  20.00% chance of Hollow Crossbow (31706)
+                                   |         with
+                                   |            100.00% chance of 3x to 6x Deadly Chorizite Quarrel (21352) | StackSizeVariance: 0.5
+                                   |  20.00% chance of Phantom Bow (31705)
+                                   |         with
+                                   |            100.00% chance of 3x to 6x Deadly Chorizite Arrow (21348) | StackSizeVariance: 0.5
+                                   |  40.00% chance of Tachi (31704)
+                                   |  20.00% chance of nothing from this set */
      , (31339,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

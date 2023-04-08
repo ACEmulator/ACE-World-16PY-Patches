@@ -74,10 +74,14 @@ VALUES (46411,   1, 0x02000001) /* Setup */
      , (46411,   8, 0x060016C2) /* Icon */
      , (46411,  22, 0x34000028) /* PhysicsEffectTable */
      , (46411,  32,       3001) /* WieldedTreasureType - 
-                                   Wield Tachi (47649) | Probability: 20%
-                                   Wield Burning Sands Blade (44266) | Probability: 20%
-                                   Wield Burning Sands Katar (44265) | Probability: 20%
-                                   Wield Corrupted Aegis (44264) | Probability: 50% */
+                                   # Set: 1
+                                   |  20.00% chance of Tachi (47649)
+                                   |  20.00% chance of Burning Sands Blade (44266)
+                                   |  20.00% chance of Burning Sands Katar (44265)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  50.00% chance of Corrupted Aegis (44264)
+                                   |  50.00% chance of nothing from this set */
      , (46411,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

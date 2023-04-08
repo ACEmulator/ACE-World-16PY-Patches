@@ -78,7 +78,9 @@ VALUES (35162,   1, 0x02000FA4) /* Setup */
      , (35162,   8, 0x06002CF5) /* Icon */
      , (35162,  22, 0x34000028) /* PhysicsEffectTable */
      , (35162,  32,        447) /* WieldedTreasureType - 
-                                   Wield Khopesh (25500) | Probability: 98% */
+                                   # Set: 1
+                                   |  98.00% chance of Khopesh (25500)
+                                   |   2.00% chance of nothing from this set */
      , (35162,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

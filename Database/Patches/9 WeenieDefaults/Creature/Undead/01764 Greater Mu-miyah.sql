@@ -6,7 +6,7 @@ VALUES (1764, 'mumiyahgreater', 10, '2022-08-22 03:09:27') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1764,   1,         16) /* ItemType - Creature */
      , (1764,   2,         14) /* CreatureType - Undead */
-     , (1764,   3,         44) /* PaletteTemplate - Tanred */
+     , (1764,   3,         44) /* PaletteTemplate - TanRed */
      , (1764,   6,         -1) /* ItemsCapacity */
      , (1764,   7,         -1) /* ContainersCapacity */
      , (1764,  16,          1) /* ItemUseable - No */
