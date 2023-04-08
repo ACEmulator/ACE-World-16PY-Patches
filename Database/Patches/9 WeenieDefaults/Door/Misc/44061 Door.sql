@@ -15,7 +15,8 @@ VALUES (44061,   1, True ) /* Stuck */
      , (44061,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44061,  54,       2) /* UseRadius */;
+VALUES (44061,  11,     300) /* ResetInterval */
+     , (44061,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44061,   1, 'Door') /* Name */
