@@ -7,3 +7,17 @@ VALUES (2092, 47518,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True, False, 0
      , (2092, 48239,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Fire Bow */
      , (2092, 48297,  0, 0,    0, 20, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Arrow */
      , (2092, 48494,  0, 0,    0, 0, 0,     0.6, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Flaming Katar */;
+/* 
+    # Set: 1
+    |  60.00% chance of Lightning Tachi (47518)
+    |         with
+    |            100.00% chance of Kite Shield (7969)
+    |             60.00% chance of Lightning Spear (47751)
+    |  40.00% chance of nothing from this set
+    # Set: 2
+    |  60.00% chance of Fire Bow (48239)
+    |         with
+    |            100.00% chance of 20x Arrow (48297)
+    |             60.00% chance of Flaming Katar (48494)
+    |  40.00% chance of nothing from this set
+*/

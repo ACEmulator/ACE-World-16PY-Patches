@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72897;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72897, 'ace72897-daulanfaur', 1, '2023-02-26 11:04:47') /* Generic */;
+VALUES (72897, 'ace72897-modifieddaulanfaur', 1, '2023-02-26 11:04:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72897,   1,          8) /* ItemType - Jewelry */
@@ -19,7 +19,7 @@ VALUES (72897,   1,          8) /* ItemType - Jewelry */
      , (72897, 108,        500) /* ItemMaxMana */
      , (72897, 109,        150) /* ItemDifficulty */
      , (72897, 114,          1) /* Attuned - Attuned */
-     , (72897, 158,          7) /* WieldRequirements - 150 */
+     , (72897, 158,          7) /* WieldRequirements - Level */
      , (72897, 159,          1) /* WieldSkillType - Axe */
      , (72897, 160,        150) /* WieldDifficulty */;
 

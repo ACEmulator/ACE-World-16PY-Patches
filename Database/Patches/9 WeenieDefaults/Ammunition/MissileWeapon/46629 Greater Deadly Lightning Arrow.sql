@@ -27,7 +27,7 @@ VALUES (46629,   1,        256) /* ItemType - MissileWeapon */
      , (46629, 158,          2) /* WieldRequirements - RawSkill */
      , (46629, 159,         47) /* WieldSkillType - MissileWeapons */
      , (46629, 160,        230) /* WieldDifficulty */;
-     
+
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46629,  17, True ) /* Inelastic */
      , (46629,  69, False) /* IsSellable */;

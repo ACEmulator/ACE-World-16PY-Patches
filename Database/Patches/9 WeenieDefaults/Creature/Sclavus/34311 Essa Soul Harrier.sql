@@ -76,12 +76,18 @@ VALUES (34311,   1, 0x02000498) /* Setup */
      , (34311,   8, 0x060016C0) /* Icon */
      , (34311,  22, 0x34000030) /* PhysicsEffectTable */
      , (34311,  32,       2092) /* WieldedTreasureType - 
-                                   Wield Lightning Tachi (47518) | Probability: 60.000004%
-                                   Wield Kite Shield (7969) | Probability: 100%
-                                   Wield Lightning Spear (47751) | Probability: 60.000004%
-                                   Wield Fire Bow (48239) | Probability: 60.000004%
-                                   Wield 20x Arrow (48297) | Probability: 100%
-                                   Wield Flaming Katar (48494) | Probability: 60.000004% */
+                                   # Set: 1
+                                   |  60.00% chance of Lightning Tachi (47518)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (7969)
+                                   |             60.00% chance of Lightning Spear (47751)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  60.00% chance of Fire Bow (48239)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (48297)
+                                   |             60.00% chance of Flaming Katar (48494)
+                                   |  40.00% chance of nothing from this set */
      , (34311,  35,         23) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

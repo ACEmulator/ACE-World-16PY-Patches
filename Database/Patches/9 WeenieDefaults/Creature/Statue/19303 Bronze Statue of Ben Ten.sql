@@ -76,7 +76,8 @@ VALUES (19303,   1, 0x0200004E) /* Setup */
      , (19303,   8, 0x06001036) /* Icon */
      , (19303,  22, 0x34000075) /* PhysicsEffectTable */
      , (19303,  32,        398) /* WieldedTreasureType - 
-                                   Wield Ben Ten's Tachi (15391) | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Ben Ten's Tachi (15391) */
      , (19303,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -6,7 +6,7 @@ VALUES (72992, 'ace72992-mosswartgrunt', 10, '2023-03-13 05:30:52') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72992,   1,         16) /* ItemType - Creature */
      , (72992,   2,          4) /* CreatureType - Mosswart */
-     , (72992,   3,         51) /* PaletteTemplate - MidgGey */
+     , (72992,   3,         51) /* PaletteTemplate - MidGrey */
      , (72992,   6,         -1) /* ItemsCapacity */
      , (72992,   7,         -1) /* ContainersCapacity */
      , (72992,  16,         32) /* ItemUseable - Remote */

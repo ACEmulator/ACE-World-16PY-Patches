@@ -6,7 +6,7 @@ VALUES (70014, 'ace70014-darayavaushthered', 10, '2022-12-04 19:04:52') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70014,   1,         16) /* ItemType - Creature */
      , (70014,   2,         14) /* CreatureType - Undead */
-     , (70014,   3,         44) /* PaletteTemplate - Tanred */
+     , (70014,   3,         44) /* PaletteTemplate - TanRed */
      , (70014,   6,         -1) /* ItemsCapacity */
      , (70014,   7,         -1) /* ContainersCapacity */
      , (70014,  16,          1) /* ItemUseable - No */

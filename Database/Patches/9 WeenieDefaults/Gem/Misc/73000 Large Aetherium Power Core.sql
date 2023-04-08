@@ -17,10 +17,10 @@ VALUES (73000,  22, True ) /* Inscribable */
      , (73000,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (73000,  1, 'Large Aetherium Power Core') /* Name */
-     , (73000, 14, 'Bring this to the Gold Gear Primus for a reward.') /* Use */
-     , (73000, 16, 'An Aetherium Power Core, dropped by the Gear Knight, Gearall the Shield, in the Gear Knight invasion area in the northern Direlands.') /* LongDesc */
-     , (73000, 33, 'GearallCorePickup') /* Quest */;
+VALUES (73000,   1, 'Large Aetherium Power Core') /* Name */
+     , (73000,  14, 'Bring this to the Gold Gear Primus for a reward.') /* Use */
+     , (73000,  16, 'An Aetherium Power Core, dropped by the Gear Knight, Gearall the Shield, in the Gear Knight invasion area in the northern Direlands.') /* LongDesc */
+     , (73000,  33, 'GearallCorePickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (73000,   1, 0x02001920) /* Setup */

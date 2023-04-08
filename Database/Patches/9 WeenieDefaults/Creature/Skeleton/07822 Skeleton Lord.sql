@@ -70,21 +70,25 @@ VALUES (7822,   1, 0x02000408) /* Setup */
      , (7822,   8, 0x060016C4) /* Icon */
      , (7822,  22, 0x34000025) /* PhysicsEffectTable */
      , (7822,  32,        466) /* WieldedTreasureType - 
-                                   Wield Broad Sword (350) | Probability: 8%
-                                   Wield Long Sword (351) | Probability: 8%
-                                   Wield Ken (327) | Probability: 8%
-                                   Wield Scimitar (339) | Probability: 8%
-                                   Wield Tachi (353) | Probability: 8%
-                                   Wield Takuba (354) | Probability: 8%
-                                   Wield Kaskara (324) | Probability: 8%
-                                   Wield Shamshir (340) | Probability: 8%
-                                   Wield Battle Axe (301) | Probability: 8%
-                                   Wield Silifi (344) | Probability: 8%
-                                   Wield Ono (336) | Probability: 8%
-                                   Wield Morning Star (332) | Probability: 8%
-                                   Wield Large Kite Shield (92) | Probability: 30.000002%
-                                   Wield Large Round Shield (94) | Probability: 30.000002%
-                                   Wield Kite Shield (91) | Probability: 20% */
+                                   # Set: 1
+                                   |   8.00% chance of Broad Sword (350)
+                                   |   8.00% chance of Long Sword (351)
+                                   |   8.00% chance of Ken (327)
+                                   |   8.00% chance of Scimitar (339)
+                                   |   8.00% chance of Tachi (353)
+                                   |   8.00% chance of Takuba (354)
+                                   |   8.00% chance of Kaskara (324)
+                                   |   8.00% chance of Shamshir (340)
+                                   |   8.00% chance of Battle Axe (301)
+                                   |   8.00% chance of Silifi (344)
+                                   |   8.00% chance of Ono (336)
+                                   |   8.00% chance of Morning Star (332)
+                                   |   4.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  30.00% chance of Large Kite Shield (92)
+                                   |  30.00% chance of Large Round Shield (94)
+                                   |  20.00% chance of Kite Shield (91)
+                                   |  20.00% chance of nothing from this set */
      , (7822,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

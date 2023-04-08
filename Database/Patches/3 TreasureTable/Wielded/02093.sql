@@ -10,3 +10,26 @@ VALUES (2093, 47514,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True, False, 0
      , (2093,  7969,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Kite Shield */
      , (2093, 47969,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Lightning Nekode */
      , (2093,  7969,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Kite Shield */;
+/* 
+    # Set: 1
+    |  60.00% chance of Lightning Tachi (47514)
+    |         with
+    |            100.00% chance of Kite Shield (7969)
+    |             60.00% chance of Spear (47731)
+    |  40.00% chance of nothing from this set
+    # Set: 2
+    |  60.00% chance of Electric Bow (48238)
+    |         with
+    |            100.00% chance of 20x Arrow (48277)
+    |  40.00% chance of nothing from this set
+    # Set: 3
+    |  60.00% chance of Katar (47965)
+    |         with
+    |            100.00% chance of Kite Shield (7969)
+    |  40.00% chance of nothing from this set
+    # Set: 4
+    |  60.00% chance of Lightning Nekode (47969)
+    |         with
+    |            100.00% chance of Kite Shield (7969)
+    |  40.00% chance of nothing from this set
+*/

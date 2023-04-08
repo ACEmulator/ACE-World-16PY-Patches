@@ -77,14 +77,18 @@ VALUES (2585,   1, 0x02000498) /* Setup */
      , (2585,   8, 0x060016C0) /* Icon */
      , (2585,  22, 0x34000030) /* PhysicsEffectTable */
      , (2585,  32,        169) /* WieldedTreasureType - 
-                                   Wield 5x Javelin (320) | Probability: 60.000004%
-                                   Wield 4x Djarid (317) | Probability: 40%
-                                   Wield Budiaq (308) | Probability: 25%
-                                   Wield Spear (348) | Probability: 50%
-                                   Wield Yari (362) | Probability: 50%
-                                   Wield Large Kite Shield (92) | Probability: 30.000002%
-                                   Wield Kite Shield (91) | Probability: 20%
-                                   Wield Large Round Shield (94) | Probability: 20% */
+                                   # Set: 1
+                                   |  60.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+                                   |  40.00% chance of 4x Djarid (317) | StackSizeVariance: 0.1
+                                   # Set: 2
+                                   |  25.00% chance of Budiaq (308)
+                                   |  50.00% chance of Spear (348)
+                                   |  25.00% chance of Yari (362) | Chance adjusted down from 50.00% due to overage for this set
+                                   # Set: 3
+                                   |  30.00% chance of Large Kite Shield (92)
+                                   |  20.00% chance of Kite Shield (91)
+                                   |  20.00% chance of Large Round Shield (94)
+                                   |  30.00% chance of nothing from this set */
      , (2585,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

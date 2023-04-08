@@ -16,7 +16,7 @@ Give: Broken Black Marrow Key (30823)
 Give: Slimy Broad Sword (43417)
     - TurnToTarget
     - Tell: My God! It couldn't be, where did you find it?
-	- Tell: This brings me back, back to a better time when I was a young naive warrior who thought he could take on the world.
+    - Tell: This brings me back, back to a better time when I was a young naive warrior who thought he could take on the world.
     - AwardNoShareXP: 8,800,000
     - Delay: 1, Tell: Thank you for bringing this back to me, it is rare to find something to smile about these days.
 
@@ -74,4 +74,3 @@ Use:
     - Delay: 1, DirectBroadcast: Samuel seems to slur his words.
     - Delay: 0.5, Tell: I was once Sam the brave, Sam the Cruel...now look at me. I'm Sam the can't even keep his gruel down.
     - Motion: Cry
-

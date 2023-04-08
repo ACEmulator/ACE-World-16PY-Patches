@@ -77,15 +77,21 @@ VALUES (2586,   1, 0x02000498) /* Setup */
      , (2586,   8, 0x060016C0) /* Icon */
      , (2586,  22, 0x34000030) /* PhysicsEffectTable */
      , (2586,  32,        168) /* WieldedTreasureType - 
-                                   Wield Yumi (23735) | Probability: 60.000004%
-                                   Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Katar (23675) | Probability: 10%
-                                   Wield Nekode (23681) | Probability: 10%
-                                   Wield Cestus (23638) | Probability: 10%
-                                   Wield Spear (23697) | Probability: 10%
-                                   Wield Tachi (23701) | Probability: 10%
-                                   Wield Yari (23731) | Probability: 50%
-                                   Wield Kite Shield (23685) | Probability: 70% */
+                                   # Set: 1
+                                   |  60.00% chance of Yumi (23735)
+                                   |         with
+                                   |            100.00% chance of 13x to 14x Arrow (300) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Katar (23675)
+                                   |  10.00% chance of Nekode (23681)
+                                   |  10.00% chance of Cestus (23638)
+                                   |  10.00% chance of Spear (23697)
+                                   # Set: 2
+                                   |  10.00% chance of Tachi (23701)
+                                   |  50.00% chance of Yari (23731)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  70.00% chance of Kite Shield (23685)
+                                   |  30.00% chance of nothing from this set */
      , (2586,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -78,31 +78,45 @@ VALUES (24325,   1, 0x02000197) /* Setup */
      , (24325,   8, 0x06001226) /* Icon */
      , (24325,  22, 0x34000028) /* PhysicsEffectTable */
      , (24325,  32,        199) /* WieldedTreasureType - 
-                                   Wield Yumi (23733) | Probability: 6%
-                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
-                                   Wield Yumi (23733) | Probability: 6%
-                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 6%
-                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 6%
-                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
-                                   Wield Yumi (23733) | Probability: 6%
-                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
-                                   Wield Yumi (23733) | Probability: 6%
-                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 6%
-                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 6%
-                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
-                                   Wield Katar (23673) | Probability: 12%
-                                   Wield Cestus (23636) | Probability: 12%
-                                   Wield Nekode (23679) | Probability: 12%
-                                   Wield Tachi (23699) | Probability: 12%
-                                   Wield Spear (23695) | Probability: 12%
-                                   Wield Fire Yaoji (23717) | Probability: 12%
-                                   Wield Yaoji (23709) | Probability: 12%
-                                   Wield Fire Tachi (23706) | Probability: 12%
-                                   Wield Kite Shield (23683) | Probability: 75% */
+                                   # Set: 1
+                                   |   6.00% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Armor Piercing Arrow (15431) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 15x to 17x Deadly Arrow (15429) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Quarrel (15438) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Deadly Armor Piercing Quarrel (15440) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Broadhead Arrow (15433) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 15x to 17x Deadly Blunt Arrow (15432) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Broadhead Quarrel (15442) | StackSizeVariance: 0.1
+                                   |   6.00% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Deadly Blunt Quarrel (15441) | StackSizeVariance: 0.1
+                                   |  52.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  12.00% chance of Katar (23673)
+                                   |  12.00% chance of Cestus (23636)
+                                   |  12.00% chance of Nekode (23679)
+                                   |  12.00% chance of Tachi (23699)
+                                   |  12.00% chance of Spear (23695)
+                                   |  12.00% chance of Fire Yaoji (23717)
+                                   |  12.00% chance of Yaoji (23709)
+                                   |  12.00% chance of Fire Tachi (23706)
+                                   |   4.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  75.00% chance of Kite Shield (23683)
+                                   |  25.00% chance of nothing from this set */
      , (24325,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

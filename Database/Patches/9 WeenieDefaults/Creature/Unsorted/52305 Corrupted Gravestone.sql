@@ -81,9 +81,9 @@ VALUES (52305,   1, 400, 0, 0) /* Strength */
      , (52305,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52305, 1, 7750, 0, 0, 8000) /* MaxHealth */
-     , (52305, 3, 5500, 0, 0, 5000) /* MaxStamina */
-     , (52305, 5, 5490, 0, 0, 5000) /* MaxMana */;
+VALUES (52305,   1,  7750, 0, 0, 8000) /* MaxHealth */
+     , (52305,   3,  5500, 0, 0, 5000) /* MaxStamina */
+     , (52305,   5,  5490, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52305,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
@@ -111,5 +111,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SpawnGuards', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52305, -1, 52307, 60, 1, 1, 1, 4,  0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0) /* Generate Uknown (52307) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (52305, -1, 52307, 60, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0) /* Generate Unknown (52307) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (52305, -1, 72218, 60, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gravestone Guards Gen (72218) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

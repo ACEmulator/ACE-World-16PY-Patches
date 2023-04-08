@@ -81,28 +81,40 @@ VALUES (4124,   1, 0x02000197) /* Setup */
      , (4124,   8, 0x06001226) /* Icon */
      , (4124,  22, 0x34000028) /* PhysicsEffectTable */
      , (4124,  32,        249) /* WieldedTreasureType - 
-                                   Wield 4x Throwing Club (23654) | Probability: 10%
-                                   Wield Yumi (23735) | Probability: 10%
-                                   Wield 18x Arrow (300) | Probability: 100%
-                                   Wield Yumi (23735) | Probability: 10%
-                                   Wield 20x Fire Arrow (1437) | Probability: 100%
-                                   Wield Yumi (23735) | Probability: 10%
-                                   Wield 10x Acid Arrow (4181) | Probability: 100%
-                                   Wield Heavy Crossbow (23666) | Probability: 10%
-                                   Wield 12x Quarrel (305) | Probability: 100%
-                                   Wield Heavy Crossbow (23666) | Probability: 10%
-                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
-                                   Wield Heavy Crossbow (23666) | Probability: 10%
-                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
-                                   Wield Katar (23675) | Probability: 15.000001%
-                                   Wield Cestus (23638) | Probability: 15.000001%
-                                   Wield Nekode (23681) | Probability: 15.000001%
-                                   Wield Spear (23697) | Probability: 15.000001%
-                                   Wield Tachi (23701) | Probability: 15.000001%
-                                   Wield Yari (23731) | Probability: 15.000001%
-                                   Wield Kite Shield (23685) | Probability: 50%
-                                   Wield Tower Shield (95) | Probability: 25% */
-     , (4124,  33, 0x000000EF) /* InventoryTreasureType */;
+                                   # Set: 1
+                                   |  10.00% chance of 4x Throwing Club (23654) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Yumi (23735)
+                                   |         with
+                                   |            100.00% chance of 16x to 18x Arrow (300) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Yumi (23735)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Fire Arrow (1437) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Yumi (23735)
+                                   |         with
+                                   |            100.00% chance of 9x to 10x Acid Arrow (4181) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Heavy Crossbow (23666)
+                                   |         with
+                                   |            100.00% chance of 11x to 12x Quarrel (305) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Heavy Crossbow (23666)
+                                   |         with
+                                   |            100.00% chance of 13x to 14x Fire Quarrel (4188) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Heavy Crossbow (23666)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Acid Quarrel (4185) | StackSizeVariance: 0.1
+                                   |  30.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  15.00% chance of Katar (23675)
+                                   |  15.00% chance of Cestus (23638)
+                                   |  15.00% chance of Nekode (23681)
+                                   |  15.00% chance of Spear (23697)
+                                   |  15.00% chance of Tachi (23701)
+                                   |  15.00% chance of Yari (23731)
+                                   |  10.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  50.00% chance of Kite Shield (23685)
+                                   |  25.00% chance of Tower Shield (95)
+                                   |  25.00% chance of nothing from this set */
+     , (4124,  33,        239) /* InventoryTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4124,   1, 161, 0, 0) /* Strength */

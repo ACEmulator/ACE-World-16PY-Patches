@@ -73,27 +73,36 @@ VALUES (32002,   1, 0x020014C0) /* Setup */
      , (32002,   8, 0x06001226) /* Icon */
      , (32002,  22, 0x34000028) /* PhysicsEffectTable */
      , (32002,  32,       2019) /* WieldedTreasureType - 
-                                   Wield Arbalest (47852) | Probability: 16%
-                                   Wield 20x Quarrel (48020) | Probability: 100%
-                                   Wield Acid Crossbow (47854) | Probability: 16%
-                                   Wield 20x Acid Quarrel (48021) | Probability: 100%
-                                   Wield Electric Crossbow (47856) | Probability: 16%
-                                   Wield 20x Lightning Quarrel (48022) | Probability: 100%
-                                   Wield Nekode (48026) | Probability: 4%
-                                   Wield Lightning Nekode (48028) | Probability: 4%
-                                   Wield Acid Nekode (48027) | Probability: 4%
-                                   Wield Katar (48024) | Probability: 4%
-                                   Wield Lightning Katar (48025) | Probability: 4%
-                                   Wield Acid Katar (48023) | Probability: 4%
-                                   Wield Silifi (48029) | Probability: 10.8%
-                                   Wield Lightning Silifi (48031) | Probability: 10.8%
-                                   Wield Acid Silifi (48030) | Probability: 10.8%
-                                   Wield Ono (48032) | Probability: 10.8%
-                                   Wield Lightning Ono (48034) | Probability: 10.8%
-                                   Wield Acid Ono (48033) | Probability: 10.8%
-                                   Wield Buckler (44) | Probability: 25%
-                                   Wield Kite Shield (91) | Probability: 25%
-                                   Wield Round Shield (93) | Probability: 25% */
+                                   # Set: 1
+                                   |  16.00% chance of Arbalest (47852)
+                                   |         with
+                                   |            100.00% chance of 15x to 20x Quarrel (48020) | StackSizeVariance: 0.25
+                                   |  16.00% chance of Acid Crossbow (47854)
+                                   |         with
+                                   |            100.00% chance of 15x to 20x Acid Quarrel (48021) | StackSizeVariance: 0.25
+                                   |  16.00% chance of Electric Crossbow (47856)
+                                   |         with
+                                   |            100.00% chance of 15x to 20x Lightning Quarrel (48022) | StackSizeVariance: 0.25
+                                   |  52.00% chance of nothing from this set
+                                   # Set: 2
+                                   |   4.00% chance of Nekode (48026)
+                                   |   4.00% chance of Lightning Nekode (48028)
+                                   |   4.00% chance of Acid Nekode (48027)
+                                   |   4.00% chance of Katar (48024)
+                                   |   4.00% chance of Lightning Katar (48025)
+                                   |   4.00% chance of Acid Katar (48023)
+                                   |  10.80% chance of Silifi (48029)
+                                   |  10.80% chance of Lightning Silifi (48031)
+                                   |  10.80% chance of Acid Silifi (48030)
+                                   |  10.80% chance of Ono (48032)
+                                   |  10.80% chance of Lightning Ono (48034)
+                                   |  10.80% chance of Acid Ono (48033)
+                                   |  11.20% chance of nothing from this set
+                                   # Set: 3
+                                   |  25.00% chance of Buckler (44)
+                                   |  25.00% chance of Kite Shield (91)
+                                   |  25.00% chance of Round Shield (93)
+                                   |  25.00% chance of nothing from this set */
      , (32002,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

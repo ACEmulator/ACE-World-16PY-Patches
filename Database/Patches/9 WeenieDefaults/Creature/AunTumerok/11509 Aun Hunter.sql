@@ -76,18 +76,25 @@ VALUES (11509,   1, 0x02000A7D) /* Setup */
      , (11509,   8, 0x0600210C) /* Icon */
      , (11509,  22, 0x34000026) /* PhysicsEffectTable */
      , (11509,  32,        378) /* WieldedTreasureType - 
-                                   Wield Shortbow (307) | Probability: 22%
-                                   Wield 25x Armor Piercing Arrow (3598) | Probability: 100%
-                                   Wield Shouyumi (341) | Probability: 23%
-                                   Wield 20x Acid Arrow (4181) | Probability: 100%
-                                   Wield Light Crossbow (312) | Probability: 11%
-                                   Wield 15x Frost Quarrel (4186) | Probability: 100%
-                                   Wield Longbow (306) | Probability: 16%
-                                   Wield 22x Fire Arrow (1437) | Probability: 100%
-                                   Wield Yumi (363) | Probability: 14%
-                                   Wield 20x Lightning Arrow (4183) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 14%
-                                   Wield 15x Armor Piercing Quarrel (3602) | Probability: 100% */
+                                   # Set: 1
+                                   |  22.00% chance of Shortbow (307)
+                                   |         with
+                                   |            100.00% chance of 23x to 25x Armor Piercing Arrow (3598) | StackSizeVariance: 0.1
+                                   |  23.00% chance of Shouyumi (341)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Acid Arrow (4181) | StackSizeVariance: 0.1
+                                   |  11.00% chance of Light Crossbow (312)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Frost Quarrel (4186) | StackSizeVariance: 0.1
+                                   |  16.00% chance of Longbow (306)
+                                   |         with
+                                   |            100.00% chance of 20x to 22x Fire Arrow (1437) | StackSizeVariance: 0.1
+                                   |  14.00% chance of Yumi (363)
+                                   |         with
+                                   |            100.00% chance of 20x Lightning Arrow (4183)
+                                   |  14.00% chance of Heavy Crossbow (311)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Armor Piercing Quarrel (3602) | StackSizeVariance: 0.1 */
      , (11509,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

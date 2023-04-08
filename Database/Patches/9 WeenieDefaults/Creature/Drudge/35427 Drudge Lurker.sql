@@ -6,7 +6,7 @@ VALUES (35427, 'ace35427-drudgelurker', 10, '2022-08-22 03:09:27') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35427,   1,         16) /* ItemType - Creature */
      , (35427,   2,          3) /* CreatureType - Drudge */
-     , (35427,   3,         51) /* PaletteTemplate - MidgGey */
+     , (35427,   3,         51) /* PaletteTemplate - MidGrey */
      , (35427,   6,         -1) /* ItemsCapacity */
      , (35427,   7,         -1) /* ContainersCapacity */
      , (35427,  16,          1) /* ItemUseable - No */

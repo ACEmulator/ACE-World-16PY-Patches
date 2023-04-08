@@ -75,7 +75,7 @@ VALUES (42801, 4, 45848, -1, 0, 0, False) /* Create Contract for Splitting Grael
      , (42801, 4, 51279, -1, 0, 0, False) /* Create  (51279) for Shop */
      , (42801, 4, 52171, -1, 0, 0, False) /* Create Contract for End of Days (52171) for Shop */
      , (42801, 4, 52172, -1, 0, 0, False) /* Create Contract for Lugian Assault (52172) for Shop */
-     , (42801, 4, 52174, -1, 0, 0, False) /* Create  (52174) for Shop */;
+     , (42801, 4, 52174, -1, 0, 0, False) /* Create Contract for Rynthid Training (52174) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42801, 67109558, 0, 24)

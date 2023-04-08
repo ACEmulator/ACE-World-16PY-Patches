@@ -77,12 +77,13 @@ VALUES (10710,   1, 0x020007DD) /* Setup */
      , (10710,  22, 0x3400001A) /* PhysicsEffectTable */
      , (10710,  31,      10714) /* LinkedPortalOne - Northern Black Claw Outpost Portal */
      , (10710,  32,         85) /* WieldedTreasureType - 
-                                   Wield Yari (362) | Probability: 40%
-                                   Wield Tachi (353) | Probability: 10%
-                                   Wield Spear (348) | Probability: 20%
-                                   Wield Shamshir (340) | Probability: 10%
-                                   Wield Scimitar (339) | Probability: 10%
-                                   Wield Budiaq (308) | Probability: 10% */
+                                   # Set: 1
+                                   |  40.00% chance of Yari (362)
+                                   |  10.00% chance of Tachi (353)
+                                   |  20.00% chance of Spear (348)
+                                   |  10.00% chance of Shamshir (340)
+                                   |  10.00% chance of Scimitar (339)
+                                   |  10.00% chance of Budiaq (308) */
      , (10710,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

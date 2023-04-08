@@ -76,14 +76,17 @@ VALUES (1619,   1, 0x02000B4F) /* Setup */
      , (1619,   8, 0x06001039) /* Icon */
      , (1619,  22, 0x34000020) /* PhysicsEffectTable */
      , (1619,  32,        139) /* WieldedTreasureType - 
-                                   Wield Budiaq (308) | Probability: 10%
-                                   Wield Scimitar (339) | Probability: 10%
-                                   Wield Shamshir (340) | Probability: 10%
-                                   Wield Spear (348) | Probability: 20%
-                                   Wield Tachi (353) | Probability: 10%
-                                   Wield Yari (362) | Probability: 40%
-                                   Wield 4x Javelin (320) | Probability: 5%
-                                   Wield Djarid (317) | Probability: 5% */
+                                   # Set: 1
+                                   |  10.00% chance of Budiaq (308)
+                                   |  10.00% chance of Scimitar (339)
+                                   |  10.00% chance of Shamshir (340)
+                                   |  20.00% chance of Spear (348)
+                                   |  10.00% chance of Tachi (353)
+                                   |  40.00% chance of Yari (362)
+                                   # Set: 2
+                                   |   5.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
+                                   |   5.00% chance of Djarid (317)
+                                   |  90.00% chance of nothing from this set */
      , (1619,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

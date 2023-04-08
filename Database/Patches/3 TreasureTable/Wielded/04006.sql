@@ -13,3 +13,26 @@ VALUES (4006, 46400,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True, False, 0
      , (4006, 38922,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* T'thuun Shield */
      , (4006, 46403,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0, '2021-11-01 00:00:00') /* T'thuun Mace */
      , (4006, 38922,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* T'thuun Shield */;
+/* 
+    # Set: 1
+    |  60.00% chance of T'thuun Bow (46400)
+    |         with
+    |            100.00% chance of 13x to 14x Arrow (47072) | StackSizeVariance: 0.1
+    |  10.00% chance of T'thuun Claw (46401)
+    |         with
+    |            100.00% chance of T'thuun Shield (38922)
+    |  10.00% chance of T'thuun Dagger (46402)
+    |         with
+    |            100.00% chance of T'thuun Shield (38922)
+    |  10.00% chance of T'thuun Spear (46404)
+    |         with
+    |            100.00% chance of T'thuun Shield (38922)
+    |  10.00% chance of T'thuun Sword (46405)
+    |         with
+    |            100.00% chance of T'thuun Shield (38922)
+    # Set: 2
+    |  60.00% chance of T'thuun Mace (46403)
+    |         with
+    |            100.00% chance of T'thuun Shield (38922)
+    |  40.00% chance of nothing from this set
+*/

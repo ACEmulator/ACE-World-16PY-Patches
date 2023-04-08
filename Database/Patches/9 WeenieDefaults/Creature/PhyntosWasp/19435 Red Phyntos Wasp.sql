@@ -72,7 +72,9 @@ VALUES (19435,   1, 0x02001121) /* Setup */
      , (19435,   8, 0x0600103A) /* Icon */
      , (19435,  22, 0x34000022) /* PhysicsEffectTable */
      , (19435,  35,        153) /* DeathTreasureType - 
-                                    Drop 5x Pyreal (273) | Probability: 20% */;
+                                   # Set: 1
+                                   |  20.00% chance of 1x to 5x Pyreal (273) | StackSizeVariance: 0.8
+                                   |  80.00% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19435,   1,  15, 0, 0) /* Strength */

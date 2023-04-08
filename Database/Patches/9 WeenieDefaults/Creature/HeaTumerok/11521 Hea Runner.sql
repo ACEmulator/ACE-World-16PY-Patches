@@ -73,18 +73,22 @@ VALUES (11521,   1, 0x02001401) /* Setup */
      , (11521,   8, 0x0600103C) /* Icon */
      , (11521,  22, 0x34000026) /* PhysicsEffectTable */
      , (11521,  32,        388) /* WieldedTreasureType - 
-                                   Wield Blade of the Quiddity (11915) | Probability: 25%
-                                   Wield Lance of the Quiddity (11912) | Probability: 25%
-                                   Wield Mace of the Quiddity (11906) | Probability: 25%
-                                   Wield Kaskara (324) | Probability: 3%
-                                   Wield Long Sword (351) | Probability: 3%
-                                   Wield Silifi (344) | Probability: 3%
-                                   Wield Tachi (353) | Probability: 2%
-                                   Wield War Hammer (359) | Probability: 2%
-                                   Wield 5x Javelin (320) | Probability: 3%
-                                   Wield 5x Djarid (317) | Probability: 3%
-                                   Wield 4x Throwing Club (310) | Probability: 3%
-                                   Wield 6x Throwing Axe (304) | Probability: 3% */
+                                   # Set: 1
+                                   |  25.00% chance of Blade of the Quiddity (11915)
+                                   |  25.00% chance of Lance of the Quiddity (11912)
+                                   |  25.00% chance of Mace of the Quiddity (11906)
+                                   |   3.00% chance of Kaskara (324)
+                                   |   3.00% chance of Long Sword (351)
+                                   |   3.00% chance of Silifi (344)
+                                   |   2.00% chance of Tachi (353)
+                                   |   2.00% chance of War Hammer (359)
+                                   |  12.00% chance of nothing from this set
+                                   # Set: 2
+                                   |   3.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+                                   |   3.00% chance of 5x Djarid (317) | StackSizeVariance: 0.1
+                                   |   3.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |   3.00% chance of 5x to 6x Throwing Axe (304) | StackSizeVariance: 0.1
+                                   |  88.00% chance of nothing from this set */
      , (11521,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

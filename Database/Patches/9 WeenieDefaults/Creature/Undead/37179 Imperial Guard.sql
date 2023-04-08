@@ -69,30 +69,46 @@ VALUES (37179,   1, 0x020016A1) /* Setup */
      , (37179,   8, 0x06001226) /* Icon */
      , (37179,  22, 0x34000028) /* PhysicsEffectTable */
      , (37179,  32,       4007) /* WieldedTreasureType - 
-                                   Wield Electric Crossbow (47856) | Probability: 5.7999997%
-                                   Wield 30x Lightning Quarrel (48037) | Probability: 100%
-                                   Wield Acid Crossbow (47854) | Probability: 5.7999997%
-                                   Wield 30x Acid Quarrel (48036) | Probability: 100%
-                                   Wield Heavy Crossbow (47858) | Probability: 5.7999997%
-                                   Wield 30x Quarrel (48035) | Probability: 100%
-                                   Wield Arbalest (47852) | Probability: 5.7999997%
-                                   Wield 30x Quarrel (48035) | Probability: 100%
-                                   Wield Lightning Silifi (48046) | Probability: 7.5000005%
-                                   Wield Lightning Nekode (48043) | Probability: 7.5000005%
-                                   Wield Acid Ono (48048) | Probability: 7.5000005%
-                                   Wield Silifi (48044) | Probability: 7.5000005%
-                                   Wield Nekode (48041) | Probability: 7.5000005%
-                                   Wield Katar (48039) | Probability: 7.5000005%
-                                   Wield Acid Silifi (48045) | Probability: 7.5000005%
-                                   Wield Lightning Ono (48049) | Probability: 7.5000005%
-                                   Wield Ono (48047) | Probability: 7.5000005%
-                                   Wield Lightning Katar (48040) | Probability: 7.5000005%
-                                   Wield Acid Nekode (48042) | Probability: 7.5000005%
-                                   Wield Acid Quarrel (48036) | Probability: 7.5000005%
-                                   Wield Acid Katar (48038) | Probability: 7.5000005%
-                                   Wield Kite Shield (91) | Probability: 30.000002%
-                                   Wield Round Shield (93) | Probability: 30.000002%
-                                   Wield Buckler (44) | Probability: 30.000002% */
+                                   # Set: 1
+                                   |   5.80% chance of Electric Crossbow (47856)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 2
+                                   | 100.00% chance of 23x to 30x Lightning Quarrel (48037) | StackSizeVariance: 0.25
+                                   # Set: 3
+                                   |   5.80% chance of Acid Crossbow (47854)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 4
+                                   | 100.00% chance of 23x to 30x Acid Quarrel (48036) | StackSizeVariance: 0.25
+                                   # Set: 5
+                                   |   5.80% chance of Heavy Crossbow (47858)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 6
+                                   | 100.00% chance of 23x to 30x Quarrel (48035) | StackSizeVariance: 0.25
+                                   # Set: 7
+                                   |   5.80% chance of Arbalest (47852)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 8
+                                   | 100.00% chance of 23x to 30x Quarrel (48035) | StackSizeVariance: 0.25
+                                   |         with
+                                   |              7.50% chance of Lightning Silifi (48046)
+                                   |              7.50% chance of Lightning Nekode (48043)
+                                   |              7.50% chance of Acid Ono (48048)
+                                   |              7.50% chance of Silifi (48044)
+                                   |              7.50% chance of Nekode (48041)
+                                   |              7.50% chance of Katar (48039)
+                                   |              7.50% chance of Acid Silifi (48045)
+                                   |              7.50% chance of Lightning Ono (48049)
+                                   |              7.50% chance of Ono (48047)
+                                   |              7.50% chance of Lightning Katar (48040)
+                                   |              7.50% chance of Acid Nekode (48042)
+                                   |              7.50% chance of Acid Quarrel (48036)
+                                   |              7.50% chance of Acid Katar (48038)
+                                   |              2.50% chance of nothing from this subset
+                                   # Set: 9
+                                   |  30.00% chance of Kite Shield (91)
+                                   |  30.00% chance of Round Shield (93)
+                                   |  30.00% chance of Buckler (44)
+                                   |  10.00% chance of nothing from this set */
      , (37179,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

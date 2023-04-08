@@ -79,11 +79,15 @@ VALUES (7433,   1, 0x02000197) /* Setup */
      , (7433,  22, 0x34000028) /* PhysicsEffectTable */
      , (7433,  31,       7341) /* LinkedPortalOne - Soul-Fearing Vestry Dungeon */
      , (7433,  32,        296) /* WieldedTreasureType - 
-                                   Wield Yumi (23735) | Probability: 50%
-                                   Wield 16x Acid Arrow (4181) | Probability: 100%
-                                   Wield Kite Shield (23685) | Probability: 50%
-                                   Wield Acid Spear (23689) | Probability: 25%
-                                   Wield Acid Yari (23723) | Probability: 25% */
+                                   # Set: 1
+                                   |  50.00% chance of Yumi (23735)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Acid Arrow (4181) | StackSizeVariance: 0.1
+                                   |  50.00% chance of Kite Shield (23685)
+                                   # Set: 2
+                                   |  25.00% chance of Acid Spear (23689)
+                                   |  25.00% chance of Acid Yari (23723)
+                                   |  50.00% chance of nothing from this set */
      , (7433,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

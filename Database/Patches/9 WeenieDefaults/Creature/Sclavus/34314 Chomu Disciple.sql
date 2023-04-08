@@ -76,19 +76,37 @@ VALUES (34314,   1, 0x02000498) /* Setup */
      , (34314,   8, 0x060016C0) /* Icon */
      , (34314,  22, 0x34000030) /* PhysicsEffectTable */
      , (34314,  32,       2094) /* WieldedTreasureType - 
-                                   Wield Flaming Tachi (47675) | Probability: 60.000004%
-                                   Wield Kite Shield (7969) | Probability: 100%
-                                   Wield Katar (47980) | Probability: 60.000004%
-                                   Wield Piercing Bow (48242) | Probability: 60.000004%
-                                   Wield 20x Arrow (48278) | Probability: 100%
-                                   Wield Electric Bow (48238) | Probability: 60.000004%
-                                   Wield 20x Arrow (48278) | Probability: 100%
-                                   Wield Acid Bow (48229) | Probability: 60.000004%
-                                   Wield 20x Arrow (48259) | Probability: 100%
-                                   Wield Flaming Katar (48494) | Probability: 60.000004%
-                                   Wield Kite Shield (7969) | Probability: 100%
-                                   Wield Lightning Katar (47981) | Probability: 60.000004%
-                                   Wield Kite Shield (7969) | Probability: 100% */
+                                   # Set: 1
+                                   |  60.00% chance of Flaming Tachi (47675)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (7969)
+                                   |             60.00% chance of Katar (47980)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  60.00% chance of Piercing Bow (48242)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (48278)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  60.00% chance of Electric Bow (48238)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (48278)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 4
+                                   |  60.00% chance of Acid Bow (48229)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (48259)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 5
+                                   |  60.00% chance of Flaming Katar (48494)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (7969)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 6
+                                   |  60.00% chance of Lightning Katar (47981)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (7969)
+                                   |  40.00% chance of nothing from this set */
      , (34314,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

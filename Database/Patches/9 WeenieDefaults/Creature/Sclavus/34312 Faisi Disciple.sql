@@ -76,15 +76,27 @@ VALUES (34312,   1, 0x02000498) /* Setup */
      , (34312,   8, 0x060016C0) /* Icon */
      , (34312,  22, 0x34000030) /* PhysicsEffectTable */
      , (34312,  32,       2093) /* WieldedTreasureType - 
-                                   Wield Lightning Tachi (47514) | Probability: 60.000004%
-                                   Wield Kite Shield (7969) | Probability: 100%
-                                   Wield Spear (47731) | Probability: 60.000004%
-                                   Wield Electric Bow (48238) | Probability: 60.000004%
-                                   Wield 20x Arrow (48277) | Probability: 100%
-                                   Wield Katar (47965) | Probability: 60.000004%
-                                   Wield Kite Shield (7969) | Probability: 100%
-                                   Wield Lightning Nekode (47969) | Probability: 60.000004%
-                                   Wield Kite Shield (7969) | Probability: 100% */
+                                   # Set: 1
+                                   |  60.00% chance of Lightning Tachi (47514)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (7969)
+                                   |             60.00% chance of Spear (47731)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  60.00% chance of Electric Bow (48238)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (48277)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  60.00% chance of Katar (47965)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (7969)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 4
+                                   |  60.00% chance of Lightning Nekode (47969)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (7969)
+                                   |  40.00% chance of nothing from this set */
      , (34312,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

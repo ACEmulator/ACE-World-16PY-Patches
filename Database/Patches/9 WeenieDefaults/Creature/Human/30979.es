@@ -68,11 +68,10 @@ Use:
                             - Give: Bag of Life Stone Chips (30972)
 
 GotoSet: Cleanup
-	- EraseQuest: ThrungusFeedings
+    - EraseQuest: ThrungusFeedings
     - EraseQuest: babythrungus1
     - EraseQuest: babythrungus2
     - EraseQuest: babythrungus3
     - EraseQuest: babythrungus4
     - EraseQuest: babythrungus5
     - EraseQuest: babythrungus6
-

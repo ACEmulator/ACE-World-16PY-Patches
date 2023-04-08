@@ -6,7 +6,7 @@ VALUES (39483, 'ace39483-petpolarursuincub', 69, '2021-12-21 17:24:33') /* Pet *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39483,   1,         16) /* ItemType - Creature */
      , (39483,   2,         46) /* CreatureType - Ursuin */
-     , (39483,   3,         51) /* PaletteTemplate - MidgGey */
+     , (39483,   3,         51) /* PaletteTemplate - MidGrey */
      , (39483,   6,         -1) /* ItemsCapacity */
      , (39483,   7,         -1) /* ContainersCapacity */
      , (39483,  16,          1) /* ItemUseable - No */

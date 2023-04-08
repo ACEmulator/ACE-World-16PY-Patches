@@ -63,10 +63,14 @@ VALUES (87542,   1, 0x02000001) /* Setup */
      , (87542,   8, 0x06001036) /* Icon */
      , (87542,  22, 0x34000004) /* PhysicsEffectTable */
      , (87542,  32,       3505) /* WieldedTreasureType - 
-                                   Wield Hollow Crossbow (31706) | Probability: 20%
-                                   Wield 6x Deadly Chorizite Quarrel (21352) | Probability: 100%
-                                   Wield Phantom Bow (31705) | Probability: 20%
-                                   Wield 6x Deadly Chorizite Arrow (21348) | Probability: 100% */
+                                   # Set: 1
+                                   |  20.00% chance of Hollow Crossbow (31706)
+                                   |         with
+                                   |            100.00% chance of 3x to 6x Deadly Chorizite Quarrel (21352) | StackSizeVariance: 0.5
+                                   |  20.00% chance of Phantom Bow (31705)
+                                   |         with
+                                   |            100.00% chance of 3x to 6x Deadly Chorizite Arrow (21348) | StackSizeVariance: 0.5
+                                   |  60.00% chance of nothing from this set */
      , (87542,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

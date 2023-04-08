@@ -78,14 +78,20 @@ VALUES (14426,   1, 0x02000001) /* Setup */
      , (14426,  17, 0x040004A7) /* SkinPalette */
      , (14426,  22, 0x34000095) /* PhysicsEffectTable */
      , (14426,  32,        396) /* WieldedTreasureType - 
-                                   Wield Bow of the Quiddity (9597) | Probability: 100%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Blade of the Quiddity (11916) | Probability: 34%
-                                   Wield Lance of the Quiddity (11913) | Probability: 33%
-                                   Wield Mace of the Quiddity (11907) | Probability: 33%
-                                   Wield Cap (118) | Palette: Red (14) | Shade: 1 | Probability: 100%
-                                   Wield Canescent Mattekar Robe (10870) | Palette: Yellow (17) | Shade: 0.7 | Probability: 100%
-                                   Wield Pants (12254) | Palette: Purple (13) | Shade: 0.8 | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Bow of the Quiddity (9597)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (300)
+                                   # Set: 2
+                                   |  34.00% chance of Blade of the Quiddity (11916)
+                                   |  33.00% chance of Lance of the Quiddity (11913)
+                                   |  33.00% chance of Mace of the Quiddity (11907)
+                                   # Set: 3
+                                   | 100.00% chance of Cap (118) | Palette: Red (14) | Shade: 1
+                                   # Set: 4
+                                   | 100.00% chance of Canescent Mattekar Robe (10870) | Palette: Yellow (17) | Shade: 0.7
+                                   # Set: 5
+                                   | 100.00% chance of Pants (12254) | Palette: Purple (13) | Shade: 0.8 */
      , (14426,  35,         86) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

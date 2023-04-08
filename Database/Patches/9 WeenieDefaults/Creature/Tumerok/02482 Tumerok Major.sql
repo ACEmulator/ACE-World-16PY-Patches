@@ -74,16 +74,24 @@ VALUES (2482,   1, 0x02001405) /* Setup */
      , (2482,   8, 0x0600103C) /* Icon */
      , (2482,  22, 0x34000026) /* PhysicsEffectTable */
      , (2482,  32,        195) /* WieldedTreasureType - 
-                                   Wield Yumi (23735) | Probability: 20%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (23666) | Probability: 40%
-                                   Wield 20x Quarrel (305) | Probability: 100%
-                                   Wield Katar (23675) | Probability: 14%
-                                   Wield Cestus (23638) | Probability: 7%
-                                   Wield Nekode (23681) | Probability: 6%
-                                   Wield Tachi (23701) | Probability: 6%
-                                   Wield Spear (23697) | Probability: 6%
-                                   Wield Kite Shield (23685) | Probability: 75% */
+                                   # Set: 1
+                                   |  20.00% chance of Yumi (23735)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  40.00% chance of Heavy Crossbow (23666)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Quarrel (305) | StackSizeVariance: 0.1
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  14.00% chance of Katar (23675)
+                                   |   7.00% chance of Cestus (23638)
+                                   |   6.00% chance of Nekode (23681)
+                                   |   6.00% chance of Tachi (23701)
+                                   |   6.00% chance of Spear (23697)
+                                   |  61.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  75.00% chance of Kite Shield (23685)
+                                   |  25.00% chance of nothing from this set */
      , (2482,  35,        201) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

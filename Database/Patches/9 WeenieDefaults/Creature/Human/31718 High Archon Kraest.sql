@@ -23,7 +23,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31718,   1, True ) /* Stuck */
      , (31718,   6, True ) /* AiUsesMana */
      , (31718,   7, True ) /* AiUseHumanMagicAnimations */
-     , (31718,  10, True ) /* AttackerAi */
      , (31718,  11, False) /* IgnoreCollisions */
      , (31718,  12, True ) /* ReportCollisions */
      , (31718,  13, False) /* Ethereal */
@@ -73,19 +72,27 @@ VALUES (31718,   1, 0x02000001) /* Setup */
      , (31718,   8, 0x06001036) /* Icon */
      , (31718,  22, 0x34000004) /* PhysicsEffectTable */
      , (31718,  32,       3500) /* WieldedTreasureType - 
-                                   Wield Sollerets (107) | Palette: DyeSpringBlack (93) | Probability: 100%
-                                   Wield Amuli Coat (6046) | Palette: Black (39) | Shade: 0.2254 | Probability: 50%
-                                   Wield Celdon Breastplate (6044) | Palette: Black (39) | Shade: 0.2254 | Probability: 50%
-                                   Wield Celdon Sleeves (6048) | Palette: Black (39) | Shade: 0.2254 | Probability: 100%
-                                   Wield Amuli Leggings (6047) | Palette: DyeSpringBlack (93) | Shade: 0.2364 | Probability: 50%
-                                   Wield Celdon Girth (6043) | Palette: Black (39) | Shade: 0.2254 | Probability: 50%
-                                   Wield Celdon Leggings (6045) | Palette: Black (39) | Shade: 0.2254 | Probability: 100%
-                                   Wield Raven Hand Aegis (31392) | Probability: 33%
-                                   Wield Raven Sabra (31386) | Probability: 22%
-                                   Wield Raven Sabra (31387) | Probability: 22%
-                                   Wield Raven Sabra (31388) | Probability: 22%
-                                   Wield Raven Sabra (31389) | Probability: 22%
-                                   Wield Raven Sabra (31390) | Probability: 22% */
+                                   # Set: 1
+                                   | 100.00% chance of Sollerets (107) | Palette: DyeSpringBlack (93)
+                                   # Set: 2
+                                   |  50.00% chance of Amuli Coat (6046) | Palette: Black (39) | Shade: 0.2254
+                                   |  50.00% chance of Celdon Breastplate (6044) | Palette: Black (39) | Shade: 0.2254
+                                   |         with
+                                   |            100.00% chance of Celdon Sleeves (6048) | Palette: Black (39) | Shade: 0.2254
+                                   # Set: 3
+                                   |  50.00% chance of Amuli Leggings (6047) | Palette: DyeSpringBlack (93) | Shade: 0.2364
+                                   |  50.00% chance of Celdon Girth (6043) | Palette: Black (39) | Shade: 0.2254
+                                   |         with
+                                   |            100.00% chance of Celdon Leggings (6045) | Palette: Black (39) | Shade: 0.2254
+                                   # Set: 4
+                                   |  33.00% chance of Raven Hand Aegis (31392)
+                                   |  67.00% chance of nothing from this set
+                                   # Set: 5
+                                   |  22.00% chance of Raven Sabra (31386)
+                                   |  22.00% chance of Raven Sabra (31387)
+                                   |  22.00% chance of Raven Sabra (31388)
+                                   |  22.00% chance of Raven Sabra (31389)
+                                   |  12.00% chance of Raven Sabra (31390) | Chance adjusted down from 22.00% due to overage for this set */
      , (31718,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

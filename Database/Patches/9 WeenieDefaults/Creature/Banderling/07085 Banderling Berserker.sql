@@ -6,7 +6,7 @@ VALUES (7085, 'banderlingberserker', 10, '2022-08-22 03:09:27') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7085,   1,         16) /* ItemType - Creature */
      , (7085,   2,          2) /* CreatureType - Banderling */
-     , (7085,   3,         44) /* PaletteTemplate - Tanred */
+     , (7085,   3,         44) /* PaletteTemplate - TanRed */
      , (7085,   6,         -1) /* ItemsCapacity */
      , (7085,   7,         -1) /* ContainersCapacity */
      , (7085,  16,          1) /* ItemUseable - No */
@@ -74,7 +74,9 @@ VALUES (7085,   1, 0x02000E08) /* Setup */
      , (7085,   8, 0x0600103D) /* Icon */
      , (7085,  22, 0x34000017) /* PhysicsEffectTable */
      , (7085,  32,        268) /* WieldedTreasureType - 
-                                   Wield Club (23651) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of Club (23651)
+                                   |  50.00% chance of nothing from this set */
      , (7085,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

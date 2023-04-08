@@ -73,10 +73,17 @@ VALUES (87753,   1, 0x02000001) /* Setup */
      , (87753,   8, 0x06001036) /* Icon */
      , (87753,  22, 0x34000004) /* PhysicsEffectTable */
      , (87753,  32,       3507) /* WieldedTreasureType - 
-                                   Wield Yaoji (34344) | Probability: 34.5%
-                                   Wield Tachi (34343) | Probability: 34.5%
-                                   Wield Yumi (34345) | Probability: 34.5%
-                                   Wield 100x Deadly Armor Piercing Arrow (15431) | Probability: 100% */
+                                   # Set: 1
+                                   |  34.50% chance of Yaoji (34344)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 2
+                                   |  34.50% chance of Tachi (34343)
+                                   |  65.50% chance of nothing from this set
+                                   # Set: 3
+                                   |  34.50% chance of Yumi (34345)
+                                   |         with
+                                   |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
+                                   |  65.50% chance of nothing from this set */
      , (87753,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

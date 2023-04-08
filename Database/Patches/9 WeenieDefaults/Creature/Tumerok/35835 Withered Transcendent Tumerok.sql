@@ -77,11 +77,17 @@ VALUES (35835,   1, 0x020013FF) /* Setup */
      , (35835,   8, 0x0600103C) /* Icon */
      , (35835,  22, 0x34000026) /* PhysicsEffectTable */
      , (35835,  32,        490) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30.000002%
-                                   Wield Yumi (23137) | Probability: 30.000002%
-                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
-                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+                                   # Set: 1
+                                   |  30.00% chance of Tachi (23136)
+                                   |  70.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  30.00% chance of Yumi (23137)
+                                   |         with
+                                   |            100.00% chance of 20x Deadly Arrow (15429)
+                                   |  30.00% chance of Heavy Crossbow (23131)
+                                   |         with
+                                   |            100.00% chance of 45x to 50x Deadly Quarrel (15438) | StackSizeVariance: 0.1
+                                   |  40.00% chance of nothing from this set */
      , (35835,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

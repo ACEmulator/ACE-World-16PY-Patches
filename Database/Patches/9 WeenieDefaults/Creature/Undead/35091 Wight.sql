@@ -69,7 +69,47 @@ VALUES (35091,   1, 0x020016A1) /* Setup */
      , (35091,   7, 0x10000066) /* ClothingBase */
      , (35091,   8, 0x06001226) /* Icon */
      , (35091,  22, 0x34000028) /* PhysicsEffectTable */
-     , (35091,  32,       2020) /* WieldedTreasureType */
+     , (35091,  32,       2020) /* WieldedTreasureType - 
+                                   # Set: 1
+                                   |   5.80% chance of Electric Crossbow (47856)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 2
+                                   | 100.00% chance of 23x to 30x Lightning Quarrel (48067) | StackSizeVariance: 0.25
+                                   # Set: 3
+                                   |   5.80% chance of Acid Crossbow (47854)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 4
+                                   | 100.00% chance of 23x to 30x Acid Quarrel (48066) | StackSizeVariance: 0.25
+                                   # Set: 5
+                                   |   5.80% chance of Heavy Crossbow (47858)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 6
+                                   | 100.00% chance of 23x to 30x Quarrel (48065) | StackSizeVariance: 0.25
+                                   # Set: 7
+                                   |   5.80% chance of Arbalest (47852)
+                                   |  94.20% chance of nothing from this set
+                                   # Set: 8
+                                   | 100.00% chance of 23x to 30x Quarrel (48065) | StackSizeVariance: 0.25
+                                   |         with
+                                   |              7.50% chance of Lightning Silifi (48076)
+                                   |              7.50% chance of Lightning Nekode (48073)
+                                   |              7.50% chance of Acid Ono (48078)
+                                   |              7.50% chance of Silifi (48074)
+                                   |              7.50% chance of Nekode (48071)
+                                   |              7.50% chance of Katar (48069)
+                                   |              7.50% chance of Acid Silifi (48075)
+                                   |              7.50% chance of Lightning Ono (48079)
+                                   |              7.50% chance of Ono (48077)
+                                   |              7.50% chance of Lightning Katar (48070)
+                                   |              7.50% chance of Acid Nekode (48072)
+                                   |              7.50% chance of Acid Quarrel (48066)
+                                   |              7.50% chance of Acid Katar (48068)
+                                   |              2.50% chance of nothing from this subset
+                                   # Set: 9
+                                   |  30.00% chance of Kite Shield (91)
+                                   |  30.00% chance of Round Shield (93)
+                                   |  30.00% chance of Buckler (44)
+                                   |  10.00% chance of nothing from this set */
      , (35091,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

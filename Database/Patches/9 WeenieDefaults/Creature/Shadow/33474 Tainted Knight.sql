@@ -75,11 +75,12 @@ VALUES (33474,   1, 0x02001255) /* Setup */
      , (33474,   8, 0x060036FB) /* Icon */
      , (33474,  22, 0x34000025) /* PhysicsEffectTable */
      , (33474,  32,       3506) /* WieldedTreasureType - 
-                                   Wield Spadone (87550) | Probability: 20%
-                                   Wield Acid Spadone (87551) | Probability: 20%
-                                   Wield Lightning Spadone (87552) | Probability: 20%
-                                   Wield Flaming Spadone (87553) | Probability: 20%
-                                   Wield Frost Spadone (87554) | Probability: 20% */
+                                   # Set: 1
+                                   |  20.00% chance of Spadone (87550)
+                                   |  20.00% chance of Acid Spadone (87551)
+                                   |  20.00% chance of Lightning Spadone (87552)
+                                   |  20.00% chance of Flaming Spadone (87553)
+                                   |  20.00% chance of Frost Spadone (87554) */
      , (33474,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

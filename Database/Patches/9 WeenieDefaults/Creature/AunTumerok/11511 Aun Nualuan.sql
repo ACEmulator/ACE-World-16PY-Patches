@@ -76,16 +76,18 @@ VALUES (11511,   1, 0x02000A7D) /* Setup */
      , (11511,   8, 0x0600210C) /* Icon */
      , (11511,  22, 0x34000026) /* PhysicsEffectTable */
      , (11511,  32,        381) /* WieldedTreasureType - 
-                                   Wield Palenqual's Tewhate (12111) | Probability: 17%
-                                   Wield Palenqual's Okane (12114) | Probability: 17%
-                                   Wield Palenqual's Waaika (12117) | Probability: 17%
-                                   Wield Palenqual's Taiaha (12120) | Probability: 17%
-                                   Wield Palenqual's Hoeroa (12123) | Probability: 17%
-                                   Wield Kaskara (324) | Probability: 3%
-                                   Wield Long Sword (351) | Probability: 3%
-                                   Wield Silifi (344) | Probability: 3%
-                                   Wield Tachi (353) | Probability: 3%
-                                   Wield War Hammer (359) | Probability: 3% */
+                                   # Set: 1
+                                   |  17.00% chance of Palenqual's Tewhate (12111)
+                                   |  17.00% chance of Palenqual's Okane (12114)
+                                   |  17.00% chance of Palenqual's Waaika (12117)
+                                   |  17.00% chance of Palenqual's Taiaha (12120)
+                                   |  17.00% chance of Palenqual's Hoeroa (12123)
+                                   |   3.00% chance of Kaskara (324)
+                                   |   3.00% chance of Long Sword (351)
+                                   |   3.00% chance of Silifi (344)
+                                   |   3.00% chance of Tachi (353)
+                                   |   3.00% chance of War Hammer (359)
+                                   |   1.00% chance of nothing from this set */
      , (11511,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

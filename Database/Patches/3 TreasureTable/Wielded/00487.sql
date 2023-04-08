@@ -6,3 +6,12 @@ VALUES (487, 48596,  0, 0,    0, 0, 0,    0.17, 0, 0, 0,  True, False, False, 0,
      , (487, 48595,  0, 0,    0, 0, 0,    0.17, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Frozen Dagger */
      , (487, 48598,  0, 0,    0, 0, 0,    0.17, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Glacial Blade */
      , (487, 48594,  0, 0,    0, 0, 0,    0.17, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Icy Club */;
+/* 
+    # Set: 1
+    |  17.00% chance of Ice Shard (48596)
+    |  17.00% chance of Frigid Splinter (48597)
+    |  17.00% chance of Frozen Dagger (48595)
+    |  17.00% chance of Glacial Blade (48598)
+    |  17.00% chance of Icy Club (48594)
+    |  15.00% chance of nothing from this set
+*/

@@ -7,3 +7,13 @@ VALUES (2016, 31392,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0
      , (2016, 31388,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Raven Sabra */
      , (2016, 31389,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Raven Sabra */
      , (2016, 31390,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Raven Sabra */;
+/* 
+    # Set: 1
+    | 100.00% chance of Raven Hand Aegis (31392)
+    # Set: 2
+    |  20.00% chance of Raven Sabra (31386)
+    |  20.00% chance of Raven Sabra (31387)
+    |  20.00% chance of Raven Sabra (31388)
+    |  20.00% chance of Raven Sabra (31389)
+    |  20.00% chance of Raven Sabra (31390)
+*/

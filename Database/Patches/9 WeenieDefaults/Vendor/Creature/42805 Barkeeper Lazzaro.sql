@@ -99,7 +99,7 @@ VALUES (42805, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (42805, 4, 44584, -1, 0, 0, False) /* Create Contract for Kill: Tenebrous Rifts (44584) for Shop */
      , (42805, 4, 44585, -1, 0, 0, False) /* Create Contract for Kill: Umbral Rifts (44585) for Shop */
      , (42805, 4, 44656, -1, 0, 0, False) /* Create Contract for Jester Released (44656) for Shop */
-     , (42805, 4, 44818, -1, 0, 0, False) /* Create  (44818) for Shop */
+     , (42805, 4, 44818, -1, 0, 0, False) /* Create Contract for Death's Allure (44818) for Shop */
      , (42805, 4, 45686, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Drudge (45686) for Shop */
      , (42805, 4, 45687, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Human (45687) for Shop */
      , (42805, 4, 45689, -1, 0, 0, False) /* Create Contract for Chasing Oswald (45689) for Shop */

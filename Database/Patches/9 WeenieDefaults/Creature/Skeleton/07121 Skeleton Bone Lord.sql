@@ -77,11 +77,15 @@ VALUES (7121,   1, 0x020013EE) /* Setup */
      , (7121,   8, 0x060016C4) /* Icon */
      , (7121,  22, 0x34000025) /* PhysicsEffectTable */
      , (7121,  32,        286) /* WieldedTreasureType - 
-                                   Wield Yumi (23736) | Probability: 50%
-                                   Wield 16x Greater Acid Arrow (5306) | Probability: 100%
-                                   Wield Kite Shield (23686) | Probability: 50%
-                                   Wield Acid Spear (23690) | Probability: 25%
-                                   Wield Acid Yari (23724) | Probability: 25% */
+                                   # Set: 1
+                                   |  50.00% chance of Yumi (23736)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Greater Acid Arrow (5306) | StackSizeVariance: 0.1
+                                   |  50.00% chance of Kite Shield (23686)
+                                   # Set: 2
+                                   |  25.00% chance of Acid Spear (23690)
+                                   |  25.00% chance of Acid Yari (23724)
+                                   |  50.00% chance of nothing from this set */
      , (7121,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

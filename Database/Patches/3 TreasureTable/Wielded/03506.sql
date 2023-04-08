@@ -6,3 +6,11 @@ VALUES (3506, 87550,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True, False, False, 0
      , (3506, 87552,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Lightning Spadone */
      , (3506, 87553,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Flaming Spadone */
      , (3506, 87554,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Frost Spadone */;
+/* 
+    # Set: 1
+    |  20.00% chance of Spadone (87550)
+    |  20.00% chance of Acid Spadone (87551)
+    |  20.00% chance of Lightning Spadone (87552)
+    |  20.00% chance of Flaming Spadone (87553)
+    |  20.00% chance of Frost Spadone (87554)
+*/

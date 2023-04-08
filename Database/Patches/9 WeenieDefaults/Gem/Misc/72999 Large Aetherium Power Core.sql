@@ -17,10 +17,10 @@ VALUES (72999,  22, True ) /* Inscribable */
      , (72999,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72999,  1, 'Large Aetherium Power Core') /* Name */
-     , (72999, 14, 'Bring this to the Gold Gear Primus for a reward.') /* Use */
-     , (72999, 16, 'An Aetherium Power Core, dropped by the Gear Knight, Turgos the Hunter, in the Gear Knight invasion area in the northern Direlands.') /* LongDesc */
-     , (72999, 33, 'TurgosCorePickup') /* Quest */;
+VALUES (72999,   1, 'Large Aetherium Power Core') /* Name */
+     , (72999,  14, 'Bring this to the Gold Gear Primus for a reward.') /* Use */
+     , (72999,  16, 'An Aetherium Power Core, dropped by the Gear Knight, Turgos the Hunter, in the Gear Knight invasion area in the northern Direlands.') /* LongDesc */
+     , (72999,  33, 'TurgosCorePickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72999,   1, 0x02001920) /* Setup */

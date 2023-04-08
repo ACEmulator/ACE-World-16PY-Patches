@@ -77,15 +77,19 @@ VALUES (7124,   1, 0x02000197) /* Setup */
      , (7124,   8, 0x06001226) /* Icon */
      , (7124,  22, 0x34000028) /* PhysicsEffectTable */
      , (7124,  32,        291) /* WieldedTreasureType - 
-                                   Wield 5x Frost Throwing Club (23663) | Probability: 40%
-                                   Wield 5x Throwing Club (23655) | Probability: 30.000002%
-                                   Wield Yumi (23736) | Probability: 30.000002%
-                                   Wield 18x Greater Arrow (5304) | Probability: 100%
-                                   Wield Frost Yari (23728) | Probability: 25%
-                                   Wield Yari (23732) | Probability: 25%
-                                   Wield Frost Spear (23694) | Probability: 15.000001%
-                                   Wield Spear (23698) | Probability: 15.000001%
-                                   Wield Tachi (23702) | Probability: 20% */
+                                   # Set: 1
+                                   |  40.00% chance of 5x Frost Throwing Club (23663) | StackSizeVariance: 0.1
+                                   |  30.00% chance of 5x Throwing Club (23655) | StackSizeVariance: 0.1
+                                   |  30.00% chance of Yumi (23736)
+                                   |         with
+                                   |            100.00% chance of 16x to 18x Greater Arrow (5304) | StackSizeVariance: 0.1
+                                   # Set: 2
+                                   |  25.00% chance of Frost Yari (23728)
+                                   |  25.00% chance of Yari (23732)
+                                   |  15.00% chance of Frost Spear (23694)
+                                   |  15.00% chance of Spear (23698)
+                                   |  20.00% chance of Tachi (23702)
+                                   |   1.00% chance of nothing from this set */
      , (7124,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

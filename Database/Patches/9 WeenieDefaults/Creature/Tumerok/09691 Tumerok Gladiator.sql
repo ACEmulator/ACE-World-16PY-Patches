@@ -72,12 +72,16 @@ VALUES (9691,   1, 0x02000040) /* Setup */
      , (9691,   8, 0x0600103C) /* Icon */
      , (9691,  22, 0x34000026) /* PhysicsEffectTable */
      , (9691,  32,        220) /* WieldedTreasureType - 
-                                   Wield Katar (23676) | Probability: 14%
-                                   Wield Cestus (23639) | Probability: 7%
-                                   Wield Nekode (23682) | Probability: 6%
-                                   Wield Tachi (23702) | Probability: 6%
-                                   Wield Spear (23698) | Probability: 6%
-                                   Wield Kite Shield (23686) | Probability: 75% */
+                                   # Set: 1
+                                   |  14.00% chance of Katar (23676)
+                                   |   7.00% chance of Cestus (23639)
+                                   |   6.00% chance of Nekode (23682)
+                                   |   6.00% chance of Tachi (23702)
+                                   |   6.00% chance of Spear (23698)
+                                   |  61.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  75.00% chance of Kite Shield (23686)
+                                   |  25.00% chance of nothing from this set */
      , (9691,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

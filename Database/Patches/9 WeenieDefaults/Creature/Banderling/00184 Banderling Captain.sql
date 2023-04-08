@@ -74,19 +74,21 @@ VALUES (184,   1, 0x02000E08) /* Setup */
      , (184,   8, 0x0600103D) /* Icon */
      , (184,  22, 0x34000017) /* PhysicsEffectTable */
      , (184,  32,         47) /* WieldedTreasureType - 
-                                   Wield 3x Throwing Axe (304) | Probability: 1%
-                                   Wield 3x Throwing Club (310) | Probability: 1%
-                                   Wield Battle Axe (301) | Probability: 15.000001%
-                                   Wield Club (309) | Probability: 5%
-                                   Wield Dabus (313) | Probability: 10%
-                                   Wield Jo (322) | Probability: 3%
-                                   Wield Kasrullah (325) | Probability: 5%
-                                   Wield Mace (331) | Probability: 10%
-                                   Wield Morning Star (332) | Probability: 15.000001%
-                                   Wield Nabut (333) | Probability: 3%
-                                   Wield Shou-ono (342) | Probability: 10%
-                                   Wield Silifi (344) | Probability: 10%
-                                   Wield Tofun (356) | Probability: 10% */
+                                   # Set: 1
+                                   |   1.00% chance of 3x Throwing Axe (304)
+                                   |   1.00% chance of 3x Throwing Club (310)
+                                   |  15.00% chance of Battle Axe (301)
+                                   |   5.00% chance of Club (309)
+                                   |  10.00% chance of Dabus (313)
+                                   |   3.00% chance of Jo (322)
+                                   |   5.00% chance of Kasrullah (325)
+                                   |  10.00% chance of Mace (331)
+                                   |  15.00% chance of Morning Star (332)
+                                   |   3.00% chance of Nabut (333)
+                                   |  10.00% chance of Shou-ono (342)
+                                   |  10.00% chance of Silifi (344)
+                                   |  10.00% chance of Tofun (356)
+                                   |   2.00% chance of nothing from this set */
      , (184,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -59,23 +59,36 @@ VALUES (46412,   1, 0x020016A1) /* Setup */
      , (46412,   8, 0x06001226) /* Icon */
      , (46412,  22, 0x34000028) /* PhysicsEffectTable */
      , (46412,  32,       2101) /* WieldedTreasureType - 
-                                   Wield Arbalest (47852) | Probability: 7.7%
-                                   Wield 30x Quarrel (48080) | Probability: 100%
-                                   Wield Arbalest (47852) | Probability: 7.7%
-                                   Wield 30x Quarrel (48080) | Probability: 100%
-                                   Wield Arbalest (47852) | Probability: 7.7%
-                                   Wield 30x Quarrel (48080) | Probability: 100%
-                                   Wield Acid Katar (48083) | Probability: 12.1%
-                                   Wield Katar (48084) | Probability: 12.1%
-                                   Wield Lightning Katar (48085) | Probability: 12.1%
-                                   Wield Nekode (48086) | Probability: 12.1%
-                                   Wield Lightning Nekode (48088) | Probability: 12.1%
-                                   Wield Silifi (48089) | Probability: 12.1%
-                                   Wield Lightning Silifi (48091) | Probability: 12.1%
-                                   Wield Ono (48092) | Probability: 12.1%
-                                   Wield Buckler (44) | Probability: 30.000002%
-                                   Wield Kite Shield (91) | Probability: 30.000002%
-                                   Wield Round Shield (93) | Probability: 30.000002% */
+                                   # Set: 1
+                                   |   7.70% chance of Arbalest (47852)
+                                   |  92.30% chance of nothing from this set
+                                   # Set: 2
+                                   | 100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
+                                   |         with
+                                   |              7.70% chance of Arbalest (47852)
+                                   |             92.30% chance of nothing from this subset
+                                   # Set: 3
+                                   | 100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
+                                   |         with
+                                   |              7.70% chance of Arbalest (47852)
+                                   |             92.30% chance of nothing from this subset
+                                   # Set: 4
+                                   | 100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
+                                   |         with
+                                   |             12.10% chance of Acid Katar (48083)
+                                   |             12.10% chance of Katar (48084)
+                                   |             12.10% chance of Lightning Katar (48085)
+                                   |             12.10% chance of Nekode (48086)
+                                   |             12.10% chance of Lightning Nekode (48088)
+                                   |             12.10% chance of Silifi (48089)
+                                   |             12.10% chance of Lightning Silifi (48091)
+                                   |             12.10% chance of Ono (48092)
+                                   |              3.20% chance of nothing from this subset
+                                   # Set: 5
+                                   |  30.00% chance of Buckler (44)
+                                   |  30.00% chance of Kite Shield (91)
+                                   |  30.00% chance of Round Shield (93)
+                                   |  10.00% chance of nothing from this set */
      , (46412,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
