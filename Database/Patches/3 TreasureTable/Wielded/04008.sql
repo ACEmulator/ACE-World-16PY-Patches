@@ -285,8 +285,8 @@ VALUES (4008, 25661,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False, False, 0
      , (4008, 21348,  0, 0,    0, 14, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Deadly Chorizite Arrow */
      , (4008, 31706,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Hollow Crossbow */
      , (4008, 21352,  0, 0,    0, 14, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Deadly Chorizite Quarrel */
-     , (4008, 31704,  0, 0,    0, 0, 0,     0.4, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Tachi */;
-/* 
+     , (4008, 31704,  0, 0,    0, 0, 0,     0.4, 0, 0, 0, True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Tachi */;
+/*
     # Set: 1
     |  50.00% chance of Leather Boots (25661)
     |  50.00% chance of Steel Toed Boots (7897)
