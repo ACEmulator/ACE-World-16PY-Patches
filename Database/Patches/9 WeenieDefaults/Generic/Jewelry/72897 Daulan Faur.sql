@@ -19,9 +19,9 @@ VALUES (72897,   1,          8) /* ItemType - Jewelry */
      , (72897, 108,        500) /* ItemMaxMana */
      , (72897, 109,        150) /* ItemDifficulty */
      , (72897, 114,          1) /* Attuned - Attuned */
-     , (72897, 158,        150) /* WieldRequirements - 150 */
+     , (72897, 158,          7) /* WieldRequirements - 150 */
      , (72897, 159,          1) /* WieldSkillType - Axe */
-     , (72897, 160,         30) /* WieldDifficulty */;
+     , (72897, 160,        150) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72897,  22, True ) /* Inscribable */
@@ -33,7 +33,7 @@ VALUES (72897,   5,  -0.033) /* ManaRate */
      , (72897,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72897,   1, 'Daulan Faur') /* Name */
+VALUES (72897,   1, 'Modified Daulan Faur') /* Name */
      , (72897,  15, 'A black necklace with a blue stone setting.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
