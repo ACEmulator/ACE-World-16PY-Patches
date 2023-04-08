@@ -20,7 +20,7 @@ VALUES (49421,   1,        128) /* ItemType - Misc */
      , (49421, 280,        213) /* SharedCooldown */
      , (49421, 362,          2) /* SummoningMastery - Necromancer */
      , (49421, 366,         54) /* UseRequiresSkill - Summoning */
-     , (49421, 367,        310) /* UseRequiresSkillLevel */
+     , (49421, 367,        320) /* UseRequiresSkillLevel */
      , (49421, 369,         40) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

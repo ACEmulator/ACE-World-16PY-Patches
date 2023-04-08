@@ -33,8 +33,8 @@ VALUES (49323,  39,     0.4) /* DefaultScale */
      , (49323, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49323,   1, 'Voltiac Wisp Essence') /* Name */
-     , (49323,  14, 'Use this essence to summon or dismiss your Voltiac Wisp.') /* Use */;
+VALUES (49323,   1, 'Voltaic Wisp Essence') /* Name */
+     , (49323,  14, 'Use this essence to summon or dismiss your Voltaic Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49323,   1, 0x02000181) /* Setup */
