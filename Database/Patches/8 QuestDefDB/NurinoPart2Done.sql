@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'NurinoPart2Done';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('NurinoPart2Done', 0, 1, 'quest timer', '2020-01-24 19:57:17');
+VALUES ('NurinoPart2Done', 0, 1, 'quest timer', '2023-03-23 00:00:00');
