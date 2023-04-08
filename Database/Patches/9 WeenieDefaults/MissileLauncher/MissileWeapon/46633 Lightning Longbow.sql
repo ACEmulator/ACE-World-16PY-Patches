@@ -10,35 +10,31 @@ VALUES (46633,   1,        256) /* ItemType - MissileWeapon */
      , (46633,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46633,  16,          1) /* ItemUseable - No */
      , (46633,  18,         64) /* UiEffects - Lightning */
+     , (46633,  19,          0) /* Value */
      , (46633,  33,         -2) /* Bonded - Destroy */
-     , (46633,  37,       9999) /* ResistItemAppraisal */
      , (46633,  45,         64) /* DamageType - Electric */
      , (46633,  46,         16) /* DefaultCombatStyle - Bow */
-     , (46633,  48,          2) /* WeaponSkill - Bow */
-     , (46633,  49,         45) /* WeaponTime */
+     , (46633,  48,         47) /* WeaponSkill - MissileWeapons */
+     , (46633,  49,         -1) /* WeaponTime */
      , (46633,  50,          1) /* AmmoType - Arrow */
      , (46633,  51,          2) /* CombatUse - Missile */
      , (46633,  52,          2) /* ParentLocation - LeftHand */
      , (46633,  53,          3) /* PlacementPosition - LeftHand */
-     , (46633,  60,        192) /* WeaponRange */
      , (46633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46633, 114,          1) /* Attuned - Attuned */
      , (46633, 151,          2) /* HookType - Wall */
-     , (46633, 158,          2) /* WieldRequirements - RawSkill */
-     , (46633, 159,          2) /* WieldSkillType - Bow */
-     , (46633, 204,         16) /* ElementalDamageBonus */;
+     , (46633, 204,         16) /* ElementalDamageBonus */
+     , (46633, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46633,  22, True ) /* Inscribable */
-     , (46633,  69, False) /* IsSellable */;
+VALUES (46633,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46633,   5,       0) /* ManaRate */
-     , (46633,  26,    27.3) /* MaximumVelocity */
-     , (46633,  29,    1.37) /* WeaponDefense */
+     , (46633,  26,    26.3) /* MaximumVelocity */
+     , (46633,  29,       1) /* WeaponDefense */
      , (46633,  39,     1.1) /* DefaultScale */
      , (46633,  62,       1) /* WeaponOffense */
-     , (46633,  63,    2.66) /* DamageMod */;
+     , (46633,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46633,   1, 'Lightning Longbow') /* Name */;
