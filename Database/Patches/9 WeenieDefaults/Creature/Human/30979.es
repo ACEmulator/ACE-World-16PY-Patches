@@ -21,14 +21,14 @@ Use:
         QuestSuccess:
             - Tell: Thanks to you I now have a means to put end to my torment and yet I now lack the courage to use it. Does my life mean so little that I can throw it away so carelessly? Was I put here on this land for a purpose? So many questions to be answered.
         QuestFailure:
-            - InqQuest: ThrungusFeedings@6
+            - InqQuest: ThrungusFeedings
                 QuestSuccess:
                     - Tell: Yes! This is it!
                     - Delay: 1, DirectBroadcast: Hermit carefully collects the Thrungus Dust from your clothes and then suddenly her smile turns to one of sadness.
                     - Delay: 1, Tell: You deserve to know the truth. It is my belief that this dust will sever my ties to the Life Stones so when next I die I will not be brought back. My heart aches for having to deceive you, but I feared you would not help me had I told you the truth.
                     - Delay: 1, Tell: But do not despair my friend. For while you were gone I started to have misgivings about my actions. Perhaps death is not the answer I should seek.
                     - Delay: 1, AwardNoShareXP: 150,000,000
-                    - Delay: 1, AwardLuminance
+                    - Delay: 1, AwardLuminance: 12,000
                     - Give: Trade Note (250,000) (20630), 5
                     - Delay: 1, Tell: I bestow upon you the title of "Thrungus Reaper".
                     - AddCharacterTitle: ThrungusReaper
@@ -47,7 +47,7 @@ Use:
                             - Give: Strengthened Mana Forge Key (38918)
                             - Goto: Cleanup
                 QuestFailure:
-                    - InqQuest: ThrungusFeedings@1-5
+                    - InqQuestSolves: ThrungusFeedings, 1 - 5
                         QuestSuccess:
                             - Tell: Please hurry! The pain I suffer is unbearable.
                             - Delay: 1, DirectBroadcast: Hermit removes her hood to reveal a face that is half melted away.
