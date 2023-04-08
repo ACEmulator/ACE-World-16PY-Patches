@@ -1,3 +1,3 @@
 Generation:
-	- LocalSignal: DeleteMe
-	- Delay: 1, DeleteSelf
+    - LocalSignal: DeleteMe
+    - Delay: 1, DeleteSelf
