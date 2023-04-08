@@ -420,27 +420,27 @@ VALUES (0x77E041A3, 72909, 0x7E0401D1, 63.5114, -217.198, -11.02, 0.707107, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041A4, 41197, 0x7E040259, 7.3, -75.7105, -5.075, 0.707107, 0, 0, 0.707107,  True, '2023-03-01 19:07:00'); /* Coat of Darkness */
-/* @teleloc 0x7E040259 [7.276230 -75.710503 -5.075000] 0.707107 0.000000 0.000000 0.707107 */
+/* @teleloc 0x7E040259 [7.300000 -75.710503 -5.075000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041A5, 41200, 0x7E040258, 7.4, -74.4352, -5.025, 0.707107, 0, 0, 0.707107,  True, '2023-03-01 19:07:15'); /* Leggings of Darkness */
-/* @teleloc 0x7E040258 [7.225450 -74.435204 -5.025000] 0.707107 0.000000 0.000000 0.707107 */
+/* @teleloc 0x7E040258 [7.400000 -74.435204 -5.025000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041A6, 41201, 0x7E040258, 7.4, -70.3676, -5.068, 0.707107, 0, 0, 0.707107,  True, '2023-03-01 19:07:59'); /* Sollerets of Darkness */
-/* @teleloc 0x7E040258 [7.307270 -70.367599 -5.068000] 0.707107 0.000000 0.000000 0.707107 */
+/* @teleloc 0x7E040258 [7.400000 -70.367599 -5.068000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041A8, 41199, 0x7E040258, 7.2, -71.5951, -5.00992, 0.707107, 0, 0, 0.707107,  True, '2023-03-01 19:09:24'); /* Helm of Darkness */
-/* @teleloc 0x7E040258 [7.111960 -71.595100 -5.009920] 0.707107 0.000000 0.000000 0.707107 */
+/* @teleloc 0x7E040258 [7.200000 -71.595100 -5.009920] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041A9, 41198, 0x7E040258, 7.4, -72.2135, -5.068, 0.707107, 0, 0, 0.707107,  True, '2023-03-01 19:10:19'); /* Gauntlets of Darkness */
-/* @teleloc 0x7E040258 [7.365710 -72.213501 -5.068000] 0.707107 0.000000 0.000000 0.707107 */
+/* @teleloc 0x7E040258 [7.400000 -72.213501 -5.068000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041AA, 41207, 0x7E0401CD, 50.2, -250.049, -10.8718, 0.707107, 0, 0, 0.707107,  True, '2023-03-01 19:24:08'); /* Pile of random parts */
-/* @teleloc 0x7E0401CD [50.039200 -250.048996 -10.871800] 0.707107 0.000000 0.000000 0.707107 */
+/* @teleloc 0x7E0401CD [50.200001 -250.048996 -10.871800] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041AB, 72919, 0x7E0402B6, 190, -173.3, -5.4, 1, 0, 0, 0,  True, '2023-03-01 20:05:19'); /* Walkway */

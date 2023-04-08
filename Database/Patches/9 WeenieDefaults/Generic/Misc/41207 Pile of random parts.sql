@@ -18,11 +18,11 @@ VALUES (41207,  22, True ) /* Inscribable */
      , (41207,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41207,  1, 'Pile of random parts') /* Name */
-     , (41207, 14, 'Bring this to Nurino in the Arcanum facility above Xarabydun.') /* Use */
-     , (41207, 16, 'A pile of old, abused-looking pieces of armor, or a golem, or something akin to that.') /* LongDesc */
-     , (41207, 33, 'PileOfRandomPartsPickup') /* Quest */
-     , (41207, 37, 'NurinoPart1Start') /* QuestRestriction */;
+VALUES (41207,   1, 'Pile of random parts') /* Name */
+     , (41207,  14, 'Bring this to Nurino in the Arcanum facility above Xarabydun.') /* Use */
+     , (41207,  16, 'A pile of old, abused-looking pieces of armor, or a golem, or something akin to that.') /* LongDesc */
+     , (41207,  33, 'PileOfRandomPartsPickup') /* Quest */
+     , (41207,  37, 'NurinoPart1Start') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41207,   1, 0x02001906) /* Setup */

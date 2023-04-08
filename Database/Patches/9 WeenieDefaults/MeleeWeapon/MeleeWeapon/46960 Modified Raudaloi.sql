@@ -15,8 +15,8 @@ VALUES (46960,   1,          1) /* ItemType - MeleeWeapon */
      , (46960,  36,       9999) /* ResistMagic */
      , (46960,  44,         80) /* Damage */
      , (46960,  45,          3) /* DamageType - Slash, Pierce */
-     , (46960,  47,          6) /* AttackType - Thrust, Slash */
      , (46960,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (46960,  47,          6) /* AttackType - Thrust, Slash */
      , (46960,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46960,  49,          1) /* WeaponTime */
      , (46960,  51,          1) /* CombatUse - Melee */

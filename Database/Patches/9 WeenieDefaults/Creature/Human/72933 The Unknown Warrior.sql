@@ -75,17 +75,6 @@ VALUES (72933,   1, 0x02000001) /* Setup */
      , (72933,  22, 0x34000004) /* PhysicsEffectTable */
      , (72933,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72933,  0,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (72933,  1,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (72933,  2,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (72933,  3,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (72933,  4,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (72933,  5,  4, 95,  0.4,  360,  180,  180,  180,  180,  180,  180,  180,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (72933,  6,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (72933,  7,  4,  0,    0,  360,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (72933,  8,  4, 95,  0.4,  360,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72933,   1, 340, 0, 0) /* Strength */
      , (72933,   2, 450, 0, 0) /* Endurance */
@@ -109,24 +98,34 @@ VALUES (72933,  6, 0, 3, 0, 205, 0, 0) /* MeleeDefense        Specialized */
      , (72933, 46, 0, 3, 0, 225, 0, 0) /* FinesseWeapons      Specialized */
      , (72933, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (72933,  0,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (72933,  1,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (72933,  2,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (72933,  3,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (72933,  4,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (72933,  5,  4, 95,  0.4,  360,  630,  630,  576,  486,  486,  486,  432,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (72933,  6,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (72933,  7,  4,  0,    0,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (72933,  8,  4, 95,  0.4,  360,  630,  630,  576,  486,  486,  486,  432,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72933, 9 /* Generation */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (72933,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 5 /* Motion */, 5, 1, 0x13000084 /* Point */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 1, 17 /* LocalBroadcast */, 5, 1, NULL, 'Enjoy your death.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 2, 77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 5, 1, 0x13000084 /* Point */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 5, 1, NULL, 'Enjoy your death.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72933, 2, 41197,  1,17,    0, False) /* Create Coat of Darkness (31026) for Wield */
-     , (72933, 2, 41198,  1,17,    0, False) /* Create Gauntlets of Darkness (28624) for Wield */
-     , (72933, 2, 41199,  1,17,    0, False) /* Create Helm of Darkness (28622) for Wield */
-     , (72933, 2, 41200,  1,17,    0, False) /* Create Leggings of Darkness (28625) for Wield */
-     , (72933, 2, 41201,  1,17,    0, False) /* Create Sollerets of Darkness (28625) for Wield */
-     , (72933, 2,   127,  1,39,    0, False) /* Create Diforsa Sollerets (28625) for Wield */
-     , (72933, 2,   130,  1,39,    0, False) /* Create Diforsa Sollerets (28625) for Wield */
-     , (72933,10, 29965,  1, 0,    1, False) /* Create Quadrelle (29965) for WieldTreasure */
-     , (72933,10, 33105,  1, 0,    1, False) /* Create Partizan (29972) for WieldTreasure */;
-
+VALUES (72933, 2, 41197,  1, 17, 0, False) /* Create Coat of Darkness (41197) for Wield */
+     , (72933, 2, 41198,  1, 17, 0, False) /* Create Gauntlets of Darkness (41198) for Wield */
+     , (72933, 2, 41199,  1, 17, 0, False) /* Create Helm of Darkness (41199) for Wield */
+     , (72933, 2, 41200,  1, 17, 0, False) /* Create Leggings of Darkness (41200) for Wield */
+     , (72933, 2, 41201,  1, 17, 0, False) /* Create Sollerets of Darkness (41201) for Wield */
+     , (72933, 2,   127,  1, 39, 0, False) /* Create Pants (127) for Wield */
+     , (72933, 2,   130,  1, 39, 0, False) /* Create Shirt (130) for Wield */
+     , (72933, 10, 29965,  1, 0, 1, False) /* Create Quadrelle (29965) for WieldTreasure */
+     , (72933, 10, 33105,  1, 0, 1, False) /* Create Shield of Isin Dule (33105) for WieldTreasure */;
