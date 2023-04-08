@@ -50,4 +50,3 @@ Use:
 							- StampQuest: LegendaryQuestCounter_0913
 				QuestFailure:
 					- Tell: You must use the levers in order to complete the training.
-					

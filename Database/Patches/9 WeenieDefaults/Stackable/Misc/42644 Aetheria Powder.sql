@@ -5,7 +5,7 @@ VALUES (42644, 'ace42644-aetheriapowder', 51, '2021-11-01 00:00:00') /* Stackabl
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42644,   1,        128) /* ItemType - Misc */
-     , (42644,   3,         14) /* PaletteTemplate - Red */
+     , (42644,   3,         17) /* PaletteTemplate - Yellow */
      , (42644,   5,          4) /* EncumbranceVal */
      , (42644,  11,        100) /* MaxStackSize */
      , (42644,  12,          1) /* StackSize */

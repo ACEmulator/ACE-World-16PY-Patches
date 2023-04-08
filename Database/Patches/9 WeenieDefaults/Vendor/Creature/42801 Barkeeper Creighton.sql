@@ -70,7 +70,7 @@ VALUES (42801, 4, 45848, -1, 0, 0, False) /* Create Contract for Splitting Grael
      , (42801, 4, 45847, -1, 0, 0, False) /* Create Contract for Splitting Grael (High) (45847) for Shop */
      , (42801, 4, 45846, -1, 0, 0, False) /* Create Contract for Geraine's Study (45846) for Shop */
      , (42801, 4, 45845, -1, 0, 0, False) /* Create Contract for Geraine's Hosts (45845) for Shop */
-     , (42801, 4, 48727, -1, 0, 0, False) /* Create  (48727) for Shop */
+     , (42801, 4, 48727, -1, 0, 0, False) /* Create Contract for Mage Academy (48727) for Shop */
      , (42801, 4, 48728, -1, 0, 0, False) /* Create Contract for Apostate Finale (48728) for Shop */
      , (42801, 4, 51279, -1, 0, 0, False) /* Create  (51279) for Shop */
      , (42801, 4, 52171, -1, 0, 0, False) /* Create Contract for End of Days (52171) for Shop */

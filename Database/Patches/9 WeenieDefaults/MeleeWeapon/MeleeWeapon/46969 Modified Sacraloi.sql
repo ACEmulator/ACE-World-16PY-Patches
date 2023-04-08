@@ -58,4 +58,4 @@ VALUES (46969,   1, 0x02000DC9) /* Setup */
      , (46969,  55,       2318) /* ProcSpell - Gravity Well */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46969,   4517,      2)  /* Light Weapon Mastery Other V */;
+VALUES (46969,  4517,      2)  /* Incantation of Light Weapon Mastery Other */;

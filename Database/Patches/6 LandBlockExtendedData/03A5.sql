@@ -105,9 +105,6 @@ INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `ori
 VALUES (0x703A5001,  5085, 0x03A50138, 32.0452, -10.5181, -41.995, 0.550632, 0, 0, -0.834748, False, '2021-11-01 00:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x03A50138 [32.045200 -10.518100 -41.994999] 0.550632 0.000000 0.000000 -0.834748 */
 
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A5001, 0x703A5009, '2021-11-01 00:00:00') /* Runic Door Guardian (31228) */;
-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A5002, 28789, 0x03A502E1, 269.908, -102.465, -0.063, -0.999229, 0, 0, -0.039265, False, '2021-11-01 00:00:00'); /* Surface */
 /* @teleloc 0x03A502E1 [269.907990 -102.464996 -0.063000] -0.999229 0.000000 0.000000 -0.039265 */
@@ -135,6 +132,9 @@ VALUES (0x703A5007,   568, 0x03A501B5, 145.25, -90, -36, -0.707107, 0, 0, -0.707
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A5008, 31227, 0x03A5014A, 45.508, -19.9371, -41.9198, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x03A5014A [45.507999 -19.937099 -41.919800] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x703A5008, 0x703A5009, '2021-11-01 00:00:00') /* Runic Door Guardian (31228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A5009, 31228, 0x03A5014A, 48.7971, -22.1886, -42, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Runic Door Guardian */

@@ -136,3 +136,7 @@ VALUES (0x70080030, 33486, 0x00800133, 92, -41.25, 0.9465, 0.707107, 0, 0, -0.70
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70080031, 33494, 0x00800133, 92, -40.75, 0.9465, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Silveran Atlatl Token */
 /* @teleloc 0x00800133 [92.000000 -40.750000 0.946500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70080032, 33451, 0x00800112, 16.5, -73.5, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Crystal of Life Protections */
+/* @teleloc 0x00800112 [16.500000 -73.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */

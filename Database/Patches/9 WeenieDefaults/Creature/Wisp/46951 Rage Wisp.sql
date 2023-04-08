@@ -72,12 +72,6 @@ VALUES (46951,   1, 0x02000A29) /* Setup */
      , (46951,   8, 0x0600207C) /* Icon */
      , (46951,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (46951,  0, 8, 200,  0.5,  400,  150,  150,  150,  150,  150,  150,  150,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (46951, 16, 8,   0,    0,  400,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (46951, 17, 8, 200, 0.75,  400,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (46951, 21, 8,   0,    0,  400,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46951,   1, 220, 0, 0) /* Strength */
      , (46951,   2, 250, 0, 0) /* Endurance */
@@ -87,7 +81,7 @@ VALUES (46951,   1, 220, 0, 0) /* Strength */
      , (46951,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46951,   1, 18000, 0, 0,18125) /* MaxHealth */
+VALUES (46951,   1, 18000, 0, 0, 18125) /* MaxHealth */
      , (46951,   3,  5000, 0, 0, 5250) /* MaxStamina */
      , (46951,   5,  6000, 0, 0, 6490) /* MaxMana */;
 
@@ -102,12 +96,17 @@ VALUES (46951,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
      , (46951, 34, 0, 3, 0, 345, 0, 0) /* WarMagic            Specialized */
      , (46951, 45, 0, 3, 0, 480, 0, 0) /* LightWeapons        Specialized */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46951,  3879,   2.06) /* Glacial Strike */
-     , (46951,  3884,   2.04) /* Glacial Ring */
-     , (46951,  3916,   2.04) /* Flayed Flesh */
-     , (46951,  4322,   2.05) /* Incantation of Slowness Other */
-     , (46951,  4447,   2.07) /* Incantation of Frost Bolt */
-     , (46951,  4477,   2.05) /* Incantation of Bludgeoning Vulnerability Other */
-     , (46951,  4479,   2.06) /* Incantation of Cold Vulnerability Other */;
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (46951,  0,  8, 200,  0.5,  400,  320,  320,  400,  400,  400,  400,  400,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (46951, 16,  8,  0,    0,  400,  320,  320,  400,  400,  400,  400,  400,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (46951, 17,  8, 200, 0.75,  400,  320,  320,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (46951, 21,  8,  0,    0,  400,  320,  320,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (46951,  3879,   2.06)  /* Glacial Strike */
+     , (46951,  3884,   2.04)  /* Glacial Ring */
+     , (46951,  3916,   2.04)  /* Flayed Flesh */
+     , (46951,  4322,   2.05)  /* Incantation of Slowness Other */
+     , (46951,  4447,   2.07)  /* Incantation of Frost Bolt */
+     , (46951,  4477,   2.05)  /* Incantation of Bludgeoning Vulnerability Other */
+     , (46951,  4479,   2.06)  /* Incantation of Cold Vulnerability Other */;

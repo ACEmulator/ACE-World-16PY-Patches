@@ -20,7 +20,7 @@ VALUES (49373,   1,        128) /* ItemType - Misc */
      , (49373, 280,        213) /* SharedCooldown */
      , (49373, 362,          3) /* SummoningMastery - Naturalist */
      , (49373, 366,         54) /* UseRequiresSkill - Summoning */
-     , (49373, 367,        310) /* UseRequiresSkillLevel */
+     , (49373, 367,        320) /* UseRequiresSkillLevel */
      , (49373, 369,         40) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -69,31 +69,7 @@ VALUES (35091,   1, 0x020016A1) /* Setup */
      , (35091,   7, 0x10000066) /* ClothingBase */
      , (35091,   8, 0x06001226) /* Icon */
      , (35091,  22, 0x34000028) /* PhysicsEffectTable */
-     , (35091,  32,       2020) /* WieldedTreasureType - 
-                                   Wield Electric Crossbow (47856) | Probability: 5.7999997%
-                                   Wield 30x Lightning Quarrel (48067) | Probability: 100%
-                                   Wield Acid Crossbow (47854) | Probability: 5.7999997%
-                                   Wield 30x Acid Quarrel (48066) | Probability: 100%
-                                   Wield Heavy Crossbow (47858) | Probability: 5.7999997%
-                                   Wield 30x Quarrel (48065) | Probability: 100%
-                                   Wield Arbalest (47852) | Probability: 5.7999997%
-                                   Wield 30x Quarrel (48065) | Probability: 100%
-                                   Wield Lightning Silifi (48076) | Probability: 7.5000005%
-                                   Wield Lightning Nekode (48073) | Probability: 7.5000005%
-                                   Wield Acid Ono (48078) | Probability: 7.5000005%
-                                   Wield Silifi (48074) | Probability: 7.5000005%
-                                   Wield Nekode (48071) | Probability: 7.5000005%
-                                   Wield Katar (48069) | Probability: 7.5000005%
-                                   Wield Acid Silifi (48075) | Probability: 7.5000005%
-                                   Wield Lightning Ono (48079) | Probability: 7.5000005%
-                                   Wield Ono (48077) | Probability: 7.5000005%
-                                   Wield Lightning Katar (48070) | Probability: 7.5000005%
-                                   Wield Acid Nekode (48072) | Probability: 7.5000005%
-                                   Wield Acid Quarrel (48066) | Probability: 7.5000005%
-                                   Wield Acid Katar (48068) | Probability: 7.5000005%
-                                   Wield Kite Shield (91) | Probability: 30.000002%
-                                   Wield Round Shield (93) | Probability: 30.000002%
-                                   Wield Buckler (44) | Probability: 30.000002% */
+     , (35091,  32,       2020) /* WieldedTreasureType */
      , (35091,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -110,17 +86,15 @@ VALUES (35091,   1,  2885, 0, 0, 3000) /* MaxHealth */
      , (35091,   5,  2000, 0, 0, 2255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35091,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
-     , (35091,  7, 0, 3, 0, 367, 0, 0) /* MissileDefense      Specialized */
+VALUES (35091,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
+     , (35091,  7, 0, 3, 0, 370, 0, 0) /* MissileDefense      Specialized */
      , (35091, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
-     , (35091, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
-     , (35091, 33, 0, 3, 0, 375, 0, 0) /* LifeMagic           Specialized */
-     , (35091, 34, 0, 3, 0, 375, 0, 0) /* WarMagic            Specialized */
-     , (35091, 41, 0, 3, 0, 445, 0, 0) /* TwoHandedCombat     Specialized */
-     , (35091, 44, 0, 3, 0, 445, 0, 0) /* HeavyWeapons        Specialized */
-     , (35091, 45, 0, 3, 0, 445, 0, 0) /* LightWeapons        Specialized */
-     , (35091, 46, 0, 3, 0, 445, 0, 0) /* FinesseWeapons      Specialized */
-     , (35091, 47, 0, 3, 0, 445, 0, 0) /* MissileWeapons      Specialized */;
+     , (35091, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
+     , (35091, 41, 0, 3, 0, 560, 0, 0) /* TwoHandedCombat     Specialized */
+     , (35091, 44, 0, 3, 0, 560, 0, 0) /* HeavyWeapons        Specialized */
+     , (35091, 45, 0, 3, 0, 560, 0, 0) /* LightWeapons        Specialized */
+     , (35091, 46, 0, 3, 0, 560, 0, 0) /* FinesseWeapons      Specialized */
+     , (35091, 47, 0, 3, 0, 440, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (35091,  0,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

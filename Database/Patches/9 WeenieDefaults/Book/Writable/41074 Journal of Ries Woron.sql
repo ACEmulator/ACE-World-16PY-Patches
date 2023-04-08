@@ -26,6 +26,5 @@ VALUES (41074,   1, 0x02000153) /* Setup */
      , (41074,   8, 0x060012D5) /* Icon */
      , (41074,  22, 0x3400002B) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41074, 8040, 0xDA3B011B, 158.203, 92.7836, 2.152, -0.999887, 0, 0, -0.015) /* PCAPRecordedLocation */
-/* @teleloc 0xDA3B011B [158.203000 92.783600 2.152000] -0.999887 0.000000 0.000000 -0.015000 */;
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (41074, 0, 1000);

@@ -1,9 +1,12 @@
 DELETE FROM `encounter` WHERE `landblock` = 0x2273;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (0x2273, 70341, 0, 2, '2021-11-01 00:00:00') /* Direlands Invasion Inner Gen */
-     , (0x2273, 70340, 0, 7, '2021-11-01 00:00:00') /* Direlands Invasion Outer Gen */
-     , (0x2273, 70340, 2, 6, '2021-11-01 00:00:00') /* Direlands Invasion Outer Gen */
-     , (0x2273, 70340, 4, 2, '2021-11-01 00:00:00') /* Direlands Invasion Outer Gen */
-     , (0x2273, 70340, 6, 0, '2021-11-01 00:00:00') /* Direlands Invasion Outer Gen */
-     , (0x2273, 70340, 5, 4, '2021-11-01 00:00:00') /* Direlands Invasion Outer Gen */;
+VALUES (0x2273, 70340, 0, 2, '2021-11-01 00:00:00') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 0, 7, '2021-11-01 00:00:00') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 1, 3, '2023-03-31 18:18:58') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 2, 0, '2023-04-01 11:23:44') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 2, 6, '2021-11-01 00:00:00') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 4, 2, '2021-11-01 00:00:00') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 5, 4, '2021-11-01 00:00:00') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 6, 0, '2021-11-01 00:00:00') /* Direlands Invasion Master Gen */
+     , (0x2273, 70340, 3, 4, '2023-04-01 11:24:31') /* Direlands Invasion Master Gen */;

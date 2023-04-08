@@ -5,7 +5,7 @@ VALUES (0x7008B000,  2609, 0x008B0100, 0, -50, 0, 0, 0, 0, -1,  True, '2021-11-2
 /* @teleloc 0x008B0100 [0.000000 -50.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B003,  2180, 0x008B0102, 4.74997, -50, 0, 0.707107, 0, 0, -0.707107, True, '2021-11-29 06:19:28'); /* Door */
+VALUES (0x7008B003,  2180, 0x008B0102, 4.74997, -50, 0, 0.707107, 0, 0, -0.707107,  True, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x008B0102 [4.749970 -50.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
