@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46941,   5,      -1) /* ManaRate */
      , (46941,  29,    1.15) /* WeaponDefense */
      , (46941, 144,     0.1) /* ManaConversionMod */
-     , (46941, 147,       1) /* CriticalFrequency */
+     , (46941, 147,    0.25) /* CriticalFrequency */
      , (46941, 152,     1.1) /* ElementalDamageMod */
      , (46941, 157,       1) /* ResistanceModifier */;
 
