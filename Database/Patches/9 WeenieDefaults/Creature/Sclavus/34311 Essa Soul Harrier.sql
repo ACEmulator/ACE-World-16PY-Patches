@@ -80,13 +80,17 @@ VALUES (34311,   1, 0x02000498) /* Setup */
                                    |  60.00% chance of Lightning Tachi (47518)
                                    |         with
                                    |            100.00% chance of Kite Shield (7969)
-                                   |             60.00% chance of Lightning Spear (47751)
                                    |  40.00% chance of nothing from this set
                                    # Set: 2
+                                   |  60.00% chance of Lightning Spear (47751)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 3
                                    |  60.00% chance of Fire Bow (48239)
                                    |         with
                                    |            100.00% chance of 20x Arrow (48297)
-                                   |             60.00% chance of Flaming Katar (48494)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 4
+                                   |  60.00% chance of Flaming Katar (48494)
                                    |  40.00% chance of nothing from this set */
      , (34311,  35,         23) /* DeathTreasureType - Loot Tier: 5 */;
 

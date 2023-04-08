@@ -61,30 +61,27 @@ VALUES (46412,   1, 0x020016A1) /* Setup */
      , (46412,  32,       2101) /* WieldedTreasureType - 
                                    # Set: 1
                                    |   7.70% chance of Arbalest (47852)
+                                   |         with
+                                   |            100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
                                    |  92.30% chance of nothing from this set
                                    # Set: 2
-                                   | 100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
+                                   |   7.70% chance of Arbalest (47852)
                                    |         with
-                                   |              7.70% chance of Arbalest (47852)
-                                   |             92.30% chance of nothing from this subset
+                                   |            100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
+                                   |  92.30% chance of nothing from this set
                                    # Set: 3
-                                   | 100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
+                                   |   7.70% chance of Arbalest (47852)
                                    |         with
-                                   |              7.70% chance of Arbalest (47852)
-                                   |             92.30% chance of nothing from this subset
+                                   |            100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
+                                   |  12.10% chance of Acid Katar (48083)
+                                   |  12.10% chance of Katar (48084)
+                                   |  12.10% chance of Lightning Katar (48085)
+                                   |  12.10% chance of Nekode (48086)
+                                   |  12.10% chance of Lightning Nekode (48088)
+                                   |  12.10% chance of Silifi (48089)
+                                   |  12.10% chance of Lightning Silifi (48091)
+                                   |   7.60% chance of Ono (48092) | Chance adjusted down from 12.10% due to overage for this set
                                    # Set: 4
-                                   | 100.00% chance of 23x to 30x Quarrel (48080) | StackSizeVariance: 0.25
-                                   |         with
-                                   |             12.10% chance of Acid Katar (48083)
-                                   |             12.10% chance of Katar (48084)
-                                   |             12.10% chance of Lightning Katar (48085)
-                                   |             12.10% chance of Nekode (48086)
-                                   |             12.10% chance of Lightning Nekode (48088)
-                                   |             12.10% chance of Silifi (48089)
-                                   |             12.10% chance of Lightning Silifi (48091)
-                                   |             12.10% chance of Ono (48092)
-                                   |              3.20% chance of nothing from this subset
-                                   # Set: 5
                                    |  30.00% chance of Buckler (44)
                                    |  30.00% chance of Kite Shield (91)
                                    |  30.00% chance of Round Shield (93)

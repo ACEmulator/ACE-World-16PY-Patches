@@ -80,29 +80,31 @@ VALUES (34314,   1, 0x02000498) /* Setup */
                                    |  60.00% chance of Flaming Tachi (47675)
                                    |         with
                                    |            100.00% chance of Kite Shield (7969)
-                                   |             60.00% chance of Katar (47980)
                                    |  40.00% chance of nothing from this set
                                    # Set: 2
+                                   |  60.00% chance of Katar (47980)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 3
                                    |  60.00% chance of Piercing Bow (48242)
                                    |         with
                                    |            100.00% chance of 20x Arrow (48278)
                                    |  40.00% chance of nothing from this set
-                                   # Set: 3
+                                   # Set: 4
                                    |  60.00% chance of Electric Bow (48238)
                                    |         with
                                    |            100.00% chance of 20x Arrow (48278)
                                    |  40.00% chance of nothing from this set
-                                   # Set: 4
+                                   # Set: 5
                                    |  60.00% chance of Acid Bow (48229)
                                    |         with
                                    |            100.00% chance of 20x Arrow (48259)
                                    |  40.00% chance of nothing from this set
-                                   # Set: 5
+                                   # Set: 6
                                    |  60.00% chance of Flaming Katar (48494)
                                    |         with
                                    |            100.00% chance of Kite Shield (7969)
                                    |  40.00% chance of nothing from this set
-                                   # Set: 6
+                                   # Set: 7
                                    |  60.00% chance of Lightning Katar (47981)
                                    |         with
                                    |            100.00% chance of Kite Shield (7969)

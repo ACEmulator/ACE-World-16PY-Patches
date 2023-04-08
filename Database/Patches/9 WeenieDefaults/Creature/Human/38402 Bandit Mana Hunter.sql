@@ -356,8 +356,10 @@ VALUES (38402,   1, 0x02000001) /* Setup */
                                    |  60.00% chance of Hollow Crossbow (31706)
                                    |         with
                                    |            100.00% chance of 13x to 14x Deadly Chorizite Quarrel (21352) | StackSizeVariance: 0.1
-                                   |             40.00% chance of Tachi (31704)
-                                   |  40.00% chance of nothing from this set */
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 8
+                                   |  40.00% chance of Tachi (31704)
+                                   |  60.00% chance of nothing from this set */
      , (38402,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

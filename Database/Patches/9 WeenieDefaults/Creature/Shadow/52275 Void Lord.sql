@@ -74,33 +74,28 @@ VALUES (52275,   1, 0x020013F1) /* Setup */
      , (52275,  32,       2030) /* WieldedTreasureType - 
                                    # Set: 1
                                    |   7.70% chance of Yumi (23735)
-                                   |  92.30% chance of nothing from this set
-                                   # Set: 2
-                                   | 100.00% chance of 23x to 30x Arrow (47072) | StackSizeVariance: 0.25
-                                   # Set: 3
-                                   |   7.70% chance of Fire Bow (48239)
-                                   |  92.30% chance of nothing from this set
-                                   # Set: 4
-                                   | 100.00% chance of 23x to 30x Arrow (48304) | StackSizeVariance: 0.25
-                                   # Set: 5
-                                   |   7.70% chance of Electric Bow (48238)
-                                   |  92.30% chance of nothing from this set
-                                   # Set: 6
-                                   | 100.00% chance of 23x to 30x Arrow (48285) | StackSizeVariance: 0.25
                                    |         with
-                                   |             12.10% chance of Lightning Tachi (47664)
-                                   |             12.10% chance of Acid Tachi (47630)
-                                   |             12.10% chance of Flaming Tachi (47682)
-                                   |             12.10% chance of Nekode (48086)
-                                   |             12.10% chance of Acid Katar (48083)
-                                   |             12.10% chance of Lightning Katar (48085)
-                                   |             12.10% chance of Flaming Katar (48501)
-                                   |             12.10% chance of Lightning Nekode (48073)
-                                   |              3.20% chance of nothing from this subset
-                                   # Set: 7
-                                   |  30.00% chance of Kite Shield (23685)
+                                   |            100.00% chance of 23x to 30x Arrow (47072) | StackSizeVariance: 0.25
+                                   |   7.70% chance of Fire Bow (48239)
+                                   |         with
+                                   |            100.00% chance of 23x to 30x Arrow (48304) | StackSizeVariance: 0.25
+                                   |   7.70% chance of Electric Bow (48238)
+                                   |         with
+                                   |            100.00% chance of 23x to 30x Arrow (48285) | StackSizeVariance: 0.25
+                                   |  12.10% chance of Lightning Tachi (47664)
+                                   |  12.10% chance of Acid Tachi (47630)
+                                   |  12.10% chance of Flaming Tachi (47682)
+                                   |  12.10% chance of Nekode (48086)
+                                   |  12.10% chance of Acid Katar (48083)
+                                   |  12.10% chance of Lightning Katar (48085)
+                                   |   4.30% chance of Flaming Katar (48501) | Chance adjusted down from 12.10% due to overage for this set
+                                   # Set: 2
+                                   |  12.10% chance of Lightning Nekode (48073)
+                                   |  87.90% chance of nothing from this set
+                                   # Set: 3
                                    |  30.00% chance of Kite Shield (23685)
                                    |  30.00% chance of Round Shield (93)
+                                   |  30.00% chance of Buckler (44)
                                    |  10.00% chance of nothing from this set */
      , (52275,  35,       2105) /* DeathTreasureType - Loot Tier: 8 */;
 

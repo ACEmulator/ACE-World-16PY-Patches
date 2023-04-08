@@ -80,19 +80,21 @@ VALUES (34312,   1, 0x02000498) /* Setup */
                                    |  60.00% chance of Lightning Tachi (47514)
                                    |         with
                                    |            100.00% chance of Kite Shield (7969)
-                                   |             60.00% chance of Spear (47731)
                                    |  40.00% chance of nothing from this set
                                    # Set: 2
+                                   |  60.00% chance of Spear (47731)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 3
                                    |  60.00% chance of Electric Bow (48238)
                                    |         with
                                    |            100.00% chance of 20x Arrow (48277)
                                    |  40.00% chance of nothing from this set
-                                   # Set: 3
+                                   # Set: 4
                                    |  60.00% chance of Katar (47965)
                                    |         with
                                    |            100.00% chance of Kite Shield (7969)
                                    |  40.00% chance of nothing from this set
-                                   # Set: 4
+                                   # Set: 5
                                    |  60.00% chance of Lightning Nekode (47969)
                                    |         with
                                    |            100.00% chance of Kite Shield (7969)
