@@ -47,7 +47,7 @@ VALUES (46966,   5,   -0.05) /* ManaRate */
      , (46966, 156,     0.1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46966,   1, 'Gauraloi') /* Name */
+VALUES (46966,   1, 'Modified Gauraloi') /* Name */
      , (46966,  15, 'A cestus constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
