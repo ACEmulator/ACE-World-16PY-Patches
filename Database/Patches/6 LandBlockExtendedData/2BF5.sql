@@ -147,5 +147,5 @@ VALUES (0x72BF501D, 88443, 0x2BF50129, 221.348, -350.304, 0, -0.299534, 0, 0, 0.
 /* @teleloc 0x2BF50129 [221.348007 -350.303986 0.000000] -0.299534 0.000000 0.000000 0.954086 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BF501E, 88443, 0x2BF5014D, 258.8187, -349.9026, 0, 0.389538, 0, 0, 0.921011,  True, '2023-03-29 14:40:25'); /* Blight Guardian */
-/* @teleloc 0x2BF5014D [258.818695 -349.902588 0.000000] 0.389538 0.000000 0.000000 0.921011 */
+VALUES (0x72BF501E, 88443, 0x2BF5014D, 258.819, -349.903, 0, 0.389538, 0, 0, 0.921011,  True, '2023-03-29 14:40:25'); /* Blight Guardian */
+/* @teleloc 0x2BF5014D [258.819000 -349.903015 0.000000] 0.389538 0.000000 0.000000 0.921011 */
