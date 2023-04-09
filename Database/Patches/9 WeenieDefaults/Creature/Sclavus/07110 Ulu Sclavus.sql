@@ -77,15 +77,21 @@ VALUES (7110,   1, 0x02000498) /* Setup */
      , (7110,   8, 0x060016C0) /* Icon */
      , (7110,  22, 0x34000030) /* PhysicsEffectTable */
      , (7110,  32,        285) /* WieldedTreasureType - 
-                                   Wield Yumi (23736) | Probability: 60.000004%
-                                   Wield 14x Greater Arrow (5304) | Probability: 100%
-                                   Wield Katar (23676) | Probability: 10%
-                                   Wield Nekode (23682) | Probability: 10%
-                                   Wield Cestus (23639) | Probability: 10%
-                                   Wield Spear (23698) | Probability: 10%
-                                   Wield Tachi (23702) | Probability: 10%
-                                   Wield Yari (23732) | Probability: 50%
-                                   Wield Kite Shield (23686) | Probability: 70% */
+                                   # Set: 1
+                                   |  60.00% chance of Yumi (23736)
+                                   |         with
+                                   |            100.00% chance of 13x to 14x Greater Arrow (5304) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Katar (23676)
+                                   |  10.00% chance of Nekode (23682)
+                                   |  10.00% chance of Cestus (23639)
+                                   |  10.00% chance of Spear (23698)
+                                   # Set: 2
+                                   |  10.00% chance of Tachi (23702)
+                                   |  50.00% chance of Yari (23732)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  70.00% chance of Kite Shield (23686)
+                                   |  30.00% chance of nothing from this set */
      , (7110,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46960;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46960, 'ace46960-modifiedraudaloi', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
+VALUES (46960, 'ace46960-modifiedraudaloi', 6, '2023-03-23 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46960,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,8 +15,8 @@ VALUES (46960,   1,          1) /* ItemType - MeleeWeapon */
      , (46960,  36,       9999) /* ResistMagic */
      , (46960,  44,         80) /* Damage */
      , (46960,  45,          3) /* DamageType - Slash, Pierce */
-     , (46960,  47,          6) /* AttackType - Thrust, Slash */
      , (46960,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (46960,  47,          6) /* AttackType - Thrust, Slash */
      , (46960,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46960,  49,          1) /* WeaponTime */
      , (46960,  51,          1) /* CombatUse - Melee */

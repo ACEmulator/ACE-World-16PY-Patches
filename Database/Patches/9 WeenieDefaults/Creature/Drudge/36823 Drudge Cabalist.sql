@@ -81,9 +81,10 @@ VALUES (36823,   1, 0x020007DD) /* Setup */
      , (36823,   8, 0x06001035) /* Icon */
      , (36823,  22, 0x3400001A) /* PhysicsEffectTable */
      , (36823,  32,        297) /* WieldedTreasureType - 
-                                   Wield Tachi (23699) | Probability: 33%
-                                   Wield Yaoji (23709) | Probability: 33%
-                                   Wield Acid Yari (23721) | Probability: 34% */
+                                   # Set: 1
+                                   |  33.00% chance of Tachi (23699)
+                                   |  33.00% chance of Yaoji (23709)
+                                   |  34.00% chance of Acid Yari (23721) */
      , (36823,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

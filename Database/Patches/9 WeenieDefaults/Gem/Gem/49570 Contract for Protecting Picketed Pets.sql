@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49570;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49570, 'ace49570-contractforprotectingpicketedpets', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (49570, 'ace49570-contractforprotectingpicketedpets', 38, '2023-03-23 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49570,   1,       2048) /* ItemType - Gem */
@@ -16,7 +16,7 @@ VALUES (49570,   1,       2048) /* ItemType - Gem */
      , (49570,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (49570,  94,         16) /* TargetType - Creature */
      , (49570, 280,        100) /* SharedCooldown */
-     , (49570, 349,        273) /* UseCreatesContractId */;
+     , (49570, 349,        273) /* UseCreatesContractId - Contract_273_Protecting_Picketed_Pets */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49570,   1, False) /* Stuck */

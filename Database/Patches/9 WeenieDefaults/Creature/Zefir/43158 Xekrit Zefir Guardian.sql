@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43158;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43158, 'ace43158-xekritzefirguardian', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (43158, 'ace43158-xekritzefirguardian', 10, '2023-03-23 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43158,   1,         16) /* ItemType - Creature */
@@ -98,7 +98,7 @@ VALUES (43158,  6, 0, 3, 0, 290, 0, 0) /* MeleeDefense        Specialized */
      , (43158, 31, 0, 3, 0, 195, 0, 0) /* CreatureEnchantment Specialized */
      , (43158, 33, 0, 3, 0, 195, 0, 0) /* LifeMagic           Specialized */
      , (43158, 34, 0, 3, 0, 195, 0, 0) /* WarMagic            Specialized */
-     , (43158, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons         Specialized */;
+     , (43158, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (43158,  0,  2, 250,  0.5,  425,  595,  340,  638,  255,  404,  319,  276,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -107,17 +107,17 @@ VALUES (43158,  0,  2, 250,  0.5,  425,  595,  340,  638,  255,  404,  319,  276
      , (43158, 21,  4,  0,    0,  425,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43158,  2144,   2.03) /* Crushing Shame */
-     , (43158,  2128,   2.03) /* Ilservian's Flame */
-     , (43158,  2132,   2.03) /* The Spike */
-     , (43158,  2146,   2.03) /* Evisceration */
-     , (43158,  2282,   2.02) /* Futility */
-     , (43158,  2073,   2.03) /* Adja's Intervention */
-     , (43158,  2070,   2.01) /* Heart Rend */
-     , (43158,  2328,      2) /* Vitality Siphon */
-     , (43158,   651,   2.01) /* War Magic Ineptitude Other V */
-     , (43158,  1372,   2.02) /* Frailty Other VI */
-     , (43158,  2084,   2.02) /* Belly of Lead */;
+VALUES (43158,  2144,   2.03)  /* Crushing Shame */
+     , (43158,  2128,   2.03)  /* Ilservian's Flame */
+     , (43158,  2132,   2.03)  /* The Spike */
+     , (43158,  2146,   2.03)  /* Evisceration */
+     , (43158,  2282,   2.02)  /* Futility */
+     , (43158,  2073,   2.03)  /* Adja's Intervention */
+     , (43158,  2070,   2.01)  /* Heart Rend */
+     , (43158,  2328,      2)  /* Vitality Siphon */
+     , (43158,   651,   2.01)  /* War Magic Ineptitude Other V */
+     , (43158,  1372,   2.02)  /* Frailty Other VI */
+     , (43158,  2084,   2.02)  /* Belly of Lead */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43158, 1,  5664,  0, 0, 0, False) /* Create Stone Key (5664) for Contain */;

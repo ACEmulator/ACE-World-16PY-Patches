@@ -6,7 +6,7 @@ VALUES (35343, 'ace35343-chieftaraash', 10, '2022-12-04 19:04:52') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35343,   1,         16) /* ItemType - Creature */
      , (35343,   2,          2) /* CreatureType - Banderling */
-     , (35343,   3,         44) /* PaletteTemplate - Tanred */
+     , (35343,   3,         44) /* PaletteTemplate - TanRed */
      , (35343,   6,         -1) /* ItemsCapacity */
      , (35343,   7,         -1) /* ContainersCapacity */
      , (35343,  16,         32) /* ItemUseable - Remote */

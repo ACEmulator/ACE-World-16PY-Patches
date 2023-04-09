@@ -74,20 +74,30 @@ VALUES (34043,   1, 0x02000498) /* Setup */
      , (34043,   8, 0x060016C0) /* Icon */
      , (34043,  22, 0x34000030) /* PhysicsEffectTable */
      , (34043,  32,        167) /* WieldedTreasureType - 
-                                   Wield Yumi (23733) | Probability: 80%
-                                   Wield 14x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Katar (23673) | Probability: 10%
-                                   Wield Kite Shield (23683) | Probability: 100%
-                                   Wield Nekode (23679) | Probability: 10%
-                                   Wield Kite Shield (23683) | Probability: 100%
-                                   Wield Cestus (23636) | Probability: 10%
-                                   Wield Kite Shield (23683) | Probability: 100%
-                                   Wield Spear (23695) | Probability: 10%
-                                   Wield Kite Shield (23683) | Probability: 100%
-                                   Wield Tachi (23699) | Probability: 10%
-                                   Wield Kite Shield (23683) | Probability: 100%
-                                   Wield Yari (23729) | Probability: 50%
-                                   Wield Kite Shield (23683) | Probability: 100% */
+                                   # Set: 1
+                                   |  80.00% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 13x to 14x Deadly Arrow (15429) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Katar (23673)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23683)
+                                   |  10.00% chance of Nekode (23679)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23683)
+                                   # Set: 2
+                                   |  10.00% chance of Cestus (23636)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23683)
+                                   |  10.00% chance of Spear (23695)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23683)
+                                   |  10.00% chance of Tachi (23699)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23683)
+                                   |  50.00% chance of Yari (23729)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23683)
+                                   |  20.00% chance of nothing from this set */
      , (34043,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

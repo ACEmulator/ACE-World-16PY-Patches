@@ -6,7 +6,7 @@ VALUES (88080, 'ace88080-mumiyahguardian', 10, '2022-12-04 19:04:52') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88080,   1,         16) /* ItemType - Creature */
      , (88080,   2,         14) /* CreatureType - Undead */
-     , (88080,   3,         44) /* PaletteTemplate - Tanred */
+     , (88080,   3,         44) /* PaletteTemplate - TanRed */
      , (88080,   6,         -1) /* ItemsCapacity */
      , (88080,   7,         -1) /* ContainersCapacity */
      , (88080,  16,          1) /* ItemUseable - No */
@@ -78,10 +78,14 @@ VALUES (88080,   1, 0x02000001) /* Setup */
      , (88080,   8, 0x060016C2) /* Icon */
      , (88080,  22, 0x34000028) /* PhysicsEffectTable */
      , (88080,  32,       3001) /* WieldedTreasureType - 
-                                   Wield Tachi (47649) | Probability: 20%
-                                   Wield Burning Sands Blade (44266) | Probability: 20%
-                                   Wield Burning Sands Katar (44265) | Probability: 20%
-                                   Wield Corrupted Aegis (44264) | Probability: 50% */
+                                   # Set: 1
+                                   |  20.00% chance of Tachi (47649)
+                                   |  20.00% chance of Burning Sands Blade (44266)
+                                   |  20.00% chance of Burning Sands Katar (44265)
+                                   |  40.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  50.00% chance of Corrupted Aegis (44264)
+                                   |  50.00% chance of nothing from this set */
      , (88080,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

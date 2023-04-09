@@ -74,18 +74,27 @@ VALUES (40311,   1, 0x02001813) /* Setup */
      , (40311,   8, 0x060016C0) /* Icon */
      , (40311,  22, 0x34000030) /* PhysicsEffectTable */
      , (40311,  32,       4006) /* WieldedTreasureType - 
-                                   Wield T'thuun Bow (46400) | Probability: 60.000004%
-                                   Wield 14x Arrow (47072) | Probability: 100%
-                                   Wield T'thuun Claw (46401) | Probability: 10%
-                                   Wield T'thuun Shield (38922) | Probability: 100%
-                                   Wield T'thuun Dagger (46402) | Probability: 10%
-                                   Wield T'thuun Shield (38922) | Probability: 100%
-                                   Wield T'thuun Spear (46404) | Probability: 10%
-                                   Wield T'thuun Shield (38922) | Probability: 100%
-                                   Wield T'thuun Sword (46405) | Probability: 10%
-                                   Wield T'thuun Shield (38922) | Probability: 100%
-                                   Wield T'thuun Mace (46403) | Probability: 60.000004%
-                                   Wield T'thuun Shield (38922) | Probability: 100% */
+                                   # Set: 1
+                                   |  60.00% chance of T'thuun Bow (46400)
+                                   |         with
+                                   |            100.00% chance of 13x to 14x Arrow (47072) | StackSizeVariance: 0.1
+                                   |  10.00% chance of T'thuun Claw (46401)
+                                   |         with
+                                   |            100.00% chance of T'thuun Shield (38922)
+                                   |  10.00% chance of T'thuun Dagger (46402)
+                                   |         with
+                                   |            100.00% chance of T'thuun Shield (38922)
+                                   |  10.00% chance of T'thuun Spear (46404)
+                                   |         with
+                                   |            100.00% chance of T'thuun Shield (38922)
+                                   |  10.00% chance of T'thuun Sword (46405)
+                                   |         with
+                                   |            100.00% chance of T'thuun Shield (38922)
+                                   # Set: 2
+                                   |  60.00% chance of T'thuun Mace (46403)
+                                   |         with
+                                   |            100.00% chance of T'thuun Shield (38922)
+                                   |  40.00% chance of nothing from this set */
      , (40311,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

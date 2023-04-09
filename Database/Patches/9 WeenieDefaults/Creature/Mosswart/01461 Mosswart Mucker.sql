@@ -178,4 +178,6 @@ VALUES (1461, 8,  1435,  0, 0, 1, False) /* Create Ice Tachi (1435) for Treasure
      , (1461, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1461, 1, 135, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 1x Ice Tachi (1435) from Wielded Treasure Table id: 135 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+VALUES (1461, 1, 135, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate something from one or more sets from Wielded Treasure Table id: 135
+                                   # Set: 1
+                                   | 100.00% chance of Ice Tachi (1435) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

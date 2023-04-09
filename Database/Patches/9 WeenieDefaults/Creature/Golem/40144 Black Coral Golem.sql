@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40144;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40144, 'ace40144-blackcoralgolem', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (40144, 'ace40144-blackcoralgolem', 10, '2023-03-23 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40144,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (40144,   1, 0x020007CA) /* Setup */
      , (40144,   7, 0x10000229) /* ClothingBase */
      , (40144,   8, 0x06001224) /* Icon */
      , (40144,  22, 0x3400005B) /* PhysicsEffectTable */
-     , (40144,  35,        420) /* DeathTreasureType - Loot Tier: 7 */;
+     , (40144,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40144,   1, 290, 0, 0) /* Strength */

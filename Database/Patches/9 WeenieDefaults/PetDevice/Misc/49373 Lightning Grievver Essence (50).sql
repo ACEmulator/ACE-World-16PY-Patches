@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49373;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49373, 'ace49373-lightninggrievveressence50', 70, '2021-11-01 00:00:00') /* PetDevice */;
+VALUES (49373, 'ace49373-lightninggrievveressence50', 70, '2023-04-09 17:44:47') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49373,   1,        128) /* ItemType - Misc */
@@ -20,7 +20,7 @@ VALUES (49373,   1,        128) /* ItemType - Misc */
      , (49373, 280,        213) /* SharedCooldown */
      , (49373, 362,          3) /* SummoningMastery - Naturalist */
      , (49373, 366,         54) /* UseRequiresSkill - Summoning */
-     , (49373, 367,        310) /* UseRequiresSkillLevel */
+     , (49373, 367,        320) /* UseRequiresSkillLevel */
      , (49373, 369,         40) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -79,9 +79,11 @@ VALUES (19270,   1, 0x02000001) /* Setup */
      , (19270,   8, 0x06001BBD) /* Icon */
      , (19270,  22, 0x34000075) /* PhysicsEffectTable */
      , (19270,  32,        399) /* WieldedTreasureType - 
-                                   Wield Bronze Tower Shield (15865) | Probability: 100%
-                                   Wield Bronze Spear (15879) | Probability: 50%
-                                   Wield Bronze Long Sword (15880) | Probability: 50% */
+                                   # Set: 1
+                                   | 100.00% chance of Bronze Tower Shield (15865)
+                                   # Set: 2
+                                   |  50.00% chance of Bronze Spear (15879)
+                                   |  50.00% chance of Bronze Long Sword (15880) */
      , (19270,  35,        407) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

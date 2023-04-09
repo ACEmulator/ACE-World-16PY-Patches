@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72898;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72898, 'ace72898-modifiedcrowngaerlan', 2, '2023-02-26 11:12:32') /* Clothing */;
+VALUES (72898, 'ace72898-modifiedcircletofsupremacy', 2, '2023-03-23 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72898,   1,          2) /* ItemType - Armor */
@@ -61,6 +61,5 @@ VALUES (72898,   1, 0x02000DEB) /* Setup */
      , (72898,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72898,  4232,      2) /* Epic Leadership */
-     , (72898,  4577,      2) /* Incantation of Leadership Mastery Other */;
-
+VALUES (72898,  4232,      2)  /* Epic Leadership */
+     , (72898,  4577,      2)  /* Incantation of Leadership Mastery Other */;

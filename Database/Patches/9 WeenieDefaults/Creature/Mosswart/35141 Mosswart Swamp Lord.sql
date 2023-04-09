@@ -76,16 +76,20 @@ VALUES (35141,   1, 0x02000B4F) /* Setup */
      , (35141,   8, 0x06001039) /* Icon */
      , (35141,  22, 0x34000020) /* PhysicsEffectTable */
      , (35141,  32,        282) /* WieldedTreasureType - 
-                                   Wield 5x Frost Throwing Club (23657) | Probability: 25%
-                                   Wield 4x Frost Throwing Club (23661) | Probability: 25%
-                                   Wield Acid Yari (23722) | Probability: 10%
-                                   Wield Yari (23730) | Probability: 20%
-                                   Wield Yaoji (23710) | Probability: 10%
-                                   Wield Fire Yaoji (23718) | Probability: 15.000001%
-                                   Wield Acid Spear (23688) | Probability: 10%
-                                   Wield Spear (23696) | Probability: 10%
-                                   Wield Fire Tachi (23707) | Probability: 10%
-                                   Wield Tachi (23700) | Probability: 10% */
+                                   # Set: 1
+                                   |  25.00% chance of 5x Frost Throwing Club (23657) | StackSizeVariance: 0.1
+                                   |  25.00% chance of 4x Frost Throwing Club (23661) | StackSizeVariance: 0.1
+                                   |  50.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  10.00% chance of Acid Yari (23722)
+                                   |  20.00% chance of Yari (23730)
+                                   |  10.00% chance of Yaoji (23710)
+                                   |  15.00% chance of Fire Yaoji (23718)
+                                   |  10.00% chance of Acid Spear (23688)
+                                   |  10.00% chance of Spear (23696)
+                                   |  10.00% chance of Fire Tachi (23707)
+                                   |  10.00% chance of Tachi (23700)
+                                   |   5.00% chance of nothing from this set */
      , (35141,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

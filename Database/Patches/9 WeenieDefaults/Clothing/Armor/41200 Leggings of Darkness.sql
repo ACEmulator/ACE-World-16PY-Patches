@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41200;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41200, 'ace41200-leggingsofdarkness', 2, '2019-02-10 00:00:00') /* Clothing */;
+VALUES (41200, 'ace41200-leggingsofdarkness', 2, '2023-03-23 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41200,   1,          2) /* ItemType - Armor */
@@ -39,9 +39,9 @@ VALUES (41200,   5,  -0.033) /* ManaRate */
      , (41200, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41200,  1, 'Leggings of Darkness') /* Name */
-     , (41200, 16, 'This piece of armor once belonged to the unknown warrior. Touching this armor fills your head with chaotic thoughts.') /* LongDesc */
-     , (41200, 33, 'ArmorOfDarknessPickup') /* Quest */;
+VALUES (41200,   1, 'Leggings of Darkness') /* Name */
+     , (41200,  16, 'This piece of armor once belonged to the unknown warrior. Touching this armor fills your head with chaotic thoughts.') /* LongDesc */
+     , (41200,  33, 'ArmorOfDarknessPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41200,   1, 0x02001321) /* Setup */

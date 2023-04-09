@@ -6,7 +6,7 @@ VALUES (7330, 'banderlingbasher', 10, '2022-08-22 03:09:27') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7330,   1,         16) /* ItemType - Creature */
      , (7330,   2,          2) /* CreatureType - Banderling */
-     , (7330,   3,         44) /* PaletteTemplate - Tanred */
+     , (7330,   3,         44) /* PaletteTemplate - TanRed */
      , (7330,   6,         -1) /* ItemsCapacity */
      , (7330,   7,         -1) /* ContainersCapacity */
      , (7330,  16,          1) /* ItemUseable - No */

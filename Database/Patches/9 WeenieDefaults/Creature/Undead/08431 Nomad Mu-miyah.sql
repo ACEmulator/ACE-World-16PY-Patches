@@ -79,13 +79,17 @@ VALUES (8431,   1, 0x02000001) /* Setup */
      , (8431,   8, 0x060016C2) /* Icon */
      , (8431,  22, 0x34000028) /* PhysicsEffectTable */
      , (8431,  32,        335) /* WieldedTreasureType - 
-                                   Wield Acid Yari (23722) | Probability: 20%
-                                   Wield Yari (23730) | Probability: 25%
-                                   Wield Acid Spear (23688) | Probability: 10%
-                                   Wield Spear (23696) | Probability: 10%
-                                   Wield Fire Tachi (23707) | Probability: 10%
-                                   Wield Tachi (23700) | Probability: 10%
-                                   Wield Kite Shield (23684) | Probability: 55% */
+                                   # Set: 1
+                                   |  20.00% chance of Acid Yari (23722)
+                                   |  25.00% chance of Yari (23730)
+                                   |  10.00% chance of Acid Spear (23688)
+                                   |  10.00% chance of Spear (23696)
+                                   |  10.00% chance of Fire Tachi (23707)
+                                   |  10.00% chance of Tachi (23700)
+                                   |  15.00% chance of nothing from this set
+                                   # Set: 2
+                                   |  55.00% chance of Kite Shield (23684)
+                                   |  45.00% chance of nothing from this set */
      , (8431,  35,        460) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

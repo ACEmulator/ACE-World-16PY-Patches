@@ -78,16 +78,18 @@ VALUES (22513,   1, 0x0200004E) /* Setup */
      , (22513,  17, 0x040002B8) /* SkinPalette */
      , (22513,  22, 0x34000004) /* PhysicsEffectTable */
      , (22513,  32,        417) /* WieldedTreasureType - 
-                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
-                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
-                                   Wield Bandit Dagger (22776) | Probability: 12.5%
-                                   Wield Jambiya (22779) | Probability: 12.5%
-                                   Wield Khanjar (22782) | Probability: 12.5%
-                                   Wield Knife (22785) | Probability: 12.5%
-                                   Wield Bandit Simi (22788) | Probability: 12.5%
-                                   Wield Bandit Rapier (22791) | Probability: 12.5%
-                                   Wield Bandit Short Sword (22794) | Probability: 12.5%
-                                   Wield Bandit Yaoji (22797) | Probability: 12.5% */
+                                   # Set: 1
+                                   |  50.00% chance of Clean, Dry Towel (10758) | Palette: Blue (2)
+                                   |  50.00% chance of Clean, Dry Towel (10758) | Palette: Green (8)
+                                   # Set: 2
+                                   |  12.50% chance of Bandit Dagger (22776)
+                                   |  12.50% chance of Jambiya (22779)
+                                   |  12.50% chance of Khanjar (22782)
+                                   |  12.50% chance of Knife (22785)
+                                   |  12.50% chance of Bandit Simi (22788)
+                                   |  12.50% chance of Bandit Rapier (22791)
+                                   |  12.50% chance of Bandit Short Sword (22794)
+                                   |  12.50% chance of Bandit Yaoji (22797) */
      , (22513,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

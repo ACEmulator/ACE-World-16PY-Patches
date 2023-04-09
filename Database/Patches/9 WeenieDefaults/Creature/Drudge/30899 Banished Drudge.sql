@@ -79,10 +79,11 @@ VALUES (30899,   1, 0x020007DD) /* Setup */
      , (30899,   8, 0x06001035) /* Icon */
      , (30899,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30899,  32,        274) /* WieldedTreasureType - 
-                                   Wield Fire Tachi (23708) | Probability: 25%
-                                   Wield Tachi (23702) | Probability: 25%
-                                   Wield Fire Yaoji (23720) | Probability: 25%
-                                   Wield Yaoji (23712) | Probability: 25% */
+                                   # Set: 1
+                                   |  25.00% chance of Fire Tachi (23708)
+                                   |  25.00% chance of Tachi (23702)
+                                   |  25.00% chance of Fire Yaoji (23720)
+                                   |  25.00% chance of Yaoji (23712) */
      , (30899,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

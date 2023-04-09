@@ -1,15 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5515;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5515, 'portalburialtemple', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (5515, 'portalburialtemple', 7, '2023-03-23 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5515,   1,   65536) /* ItemType - Portal */
-     , (5515,  16,      32) /* ItemUseable - Remote */
-     , (5515,  86,     150) /* MinLevel */
-     , (5515,  93,    3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (5515, 111,       1) /* PortalBitmask - Unrestricted */
-     , (5515, 133,       4) /* ShowableOnRadar - ShowAlways */;
+VALUES (5515,   1,      65536) /* ItemType - Portal */
+     , (5515,  16,         32) /* ItemUseable - Remote */
+     , (5515,  86,        150) /* MinLevel */
+     , (5515,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (5515, 111,          1) /* PortalBitmask - Unrestricted */
+     , (5515, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5515,   1, True ) /* Stuck */;

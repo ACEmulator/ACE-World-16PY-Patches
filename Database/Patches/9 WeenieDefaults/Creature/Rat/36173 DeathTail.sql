@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36173;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36173, 'ace36173-deathtail', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (36173, 'ace36173-deathtail', 10, '2023-03-23 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36173,   1,         16) /* ItemType - Creature */
@@ -145,7 +145,7 @@ VALUES (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for
      , (36173, 9, 37245,  0, 0, 0.0125, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (36173, 9, 37246,  0, 0, 0.0125, False) /* Create King of Hands (37246) for ContainTreasure */
      , (36173, 9,     0,  0, 0, 0.675, False) /* Create nothing for ContainTreasure */
-	 , (36173, 9, 44983,  0, 0, 0.2, False) /* Create House Mhoire Cloak (44983) for ContainTreasure */
+     , (36173, 9, 44983,  0, 0, 0.2, False) /* Create House Mhoire Cloak (44983) for ContainTreasure */
      , (36173, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

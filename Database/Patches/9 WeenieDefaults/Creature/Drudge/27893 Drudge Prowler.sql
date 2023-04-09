@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27893;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27893, 'drudgeprowlermosswartexodus', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (27893, 'drudgeprowlermosswartexodus', 10, '2023-03-23 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27893,   1,         16) /* ItemType - Creature */
@@ -72,22 +72,25 @@ VALUES (27893,   1, 0x020007DD) /* Setup */
      , (27893,   8, 0x06001035) /* Icon */
      , (27893,  22, 0x3400001A) /* PhysicsEffectTable */
      , (27893,  32,         74) /* WieldedTreasureType - 
-                                   Wield Club (309) | Probability: 5%
-                                   Wield Dabus (313) | Probability: 10%
-                                   Wield Dagger (314) | Probability: 5%
-                                   Wield Kasrullah (325) | Probability: 5%
-                                   Wield Khanjar (328) | Probability: 5%
-                                   Wield Mace (331) | Probability: 10%
-                                   Wield Short Sword (352) | Probability: 10%
-                                   Wield Simi (345) | Probability: 10%
-                                   Wield Tofun (356) | Probability: 10%
-                                   Wield Yaoji (361) | Probability: 10%
-                                   Wield Drudge Board with Nail (7767) | Probability: 15.000001%
-                                   Wield 10x Shouken (343) | Probability: 4%
-                                   Wield 6x Throwing Dagger (315) | Probability: 5%
-                                   Wield 4x Javelin (320) | Probability: 2%
-                                   Wield Djarid (317) | Probability: 1%
-                                   Wield 4x Throwing Club (310) | Probability: 1% */
+                                   # Set: 1
+                                   |   5.00% chance of Club (309)
+                                   |  10.00% chance of Dabus (313)
+                                   |   5.00% chance of Dagger (314)
+                                   |   5.00% chance of Kasrullah (325)
+                                   |   5.00% chance of Khanjar (328)
+                                   |  10.00% chance of Mace (331)
+                                   |  10.00% chance of Short Sword (352)
+                                   |  10.00% chance of Simi (345)
+                                   |  10.00% chance of Tofun (356)
+                                   |  10.00% chance of Yaoji (361)
+                                   |  15.00% chance of Drudge Board with Nail (7767)
+                                   |   4.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
+                                   |   1.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1 | Chance adjusted down from 5.00% due to overage for this set
+                                   # Set: 2
+                                   |   2.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
+                                   |   1.00% chance of Djarid (317)
+                                   |   1.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |  96.00% chance of nothing from this set */
      , (27893,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

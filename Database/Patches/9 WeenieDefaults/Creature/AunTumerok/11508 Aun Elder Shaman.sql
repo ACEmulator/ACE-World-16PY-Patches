@@ -77,7 +77,8 @@ VALUES (11508,   1, 0x02000AB7) /* Setup */
      , (11508,   8, 0x0600210C) /* Icon */
      , (11508,  22, 0x34000026) /* PhysicsEffectTable */
      , (11508,  32,        380) /* WieldedTreasureType - 
-                                   Wield Buadren (11971) | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Buadren (11971) */
      , (11508,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

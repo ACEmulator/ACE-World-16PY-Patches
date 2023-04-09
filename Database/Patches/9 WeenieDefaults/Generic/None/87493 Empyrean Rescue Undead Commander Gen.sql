@@ -1,14 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87493;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87493, 'ace87493-empyreanrescueundeadcommandergen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (87493, 'ace87493-empyreanrescueundeadcommandergen', 1, '2023-04-09 17:44:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87493,  81,          4) /* MaxGeneratedObjects */
      , (87493,  82,          4) /* InitGeneratedObjects */
      , (87493,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87493, 103,          3) /* GeneratorDestructionType - Kill */
-     , (87493, 142,          3) /* GeneratorTimeType - Event */
      , (87493, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -17,13 +15,11 @@ VALUES (87493,   1, True ) /* Stuck */
      , (87493,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87493,  41,    3600) /* RegenerationInterval */
-     , (87493,  43,       7) /* GeneratorRadius */
-     , (87493, 121,       1) /* GeneratorInitialDelay */;
+VALUES (87493,  41,     300) /* RegenerationInterval */
+     , (87493,  43,       7) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87493,   1, 'Empyrean Rescue Undead Commander Gen') /* Name */
-     , (87493,  34, 'EmpyreanRescueUndeadCommanderEvent') /* GeneratorEvent */;
+VALUES (87493,   1, 'Empyrean Rescue Undead Commander Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87493,   1, 0x0200026B) /* Setup */

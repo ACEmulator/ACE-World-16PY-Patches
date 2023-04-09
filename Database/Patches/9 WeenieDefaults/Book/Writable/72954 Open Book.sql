@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72954;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72954, 'ace72954-openbook', 8, '2023-03-04 02:56:00') /* Book */;
+VALUES (72954, 'ace72954-openbook', 8, '2023-03-23 00:00:00') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72954,   1,       8192) /* ItemType - Writable */
@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (72954, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (72954, 0, 4294967295, 'Unknown', 'prewritten', False, 'Items Needed:
+VALUES (72954, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Items Needed:
 
 Potion A
 Potion B

@@ -6,7 +6,7 @@ VALUES (44035, 'ace44035-mumiyahchampion', 10, '2022-12-04 19:04:52') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44035,   1,         16) /* ItemType - Creature */
      , (44035,   2,         14) /* CreatureType - Undead */
-     , (44035,   3,         44) /* PaletteTemplate - Tanred */
+     , (44035,   3,         44) /* PaletteTemplate - TanRed */
      , (44035,   6,         -1) /* ItemsCapacity */
      , (44035,   7,         -1) /* ContainersCapacity */
      , (44035,  16,          1) /* ItemUseable - No */

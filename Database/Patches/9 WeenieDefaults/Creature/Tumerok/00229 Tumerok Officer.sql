@@ -76,32 +76,41 @@ VALUES (229,   1, 0x02001403) /* Setup */
      , (229,   8, 0x0600103C) /* Icon */
      , (229,  22, 0x34000026) /* PhysicsEffectTable */
      , (229,  32,        215) /* WieldedTreasureType - 
-                                   Wield 6x Throwing Axe (304) | Probability: 10%
-                                   Wield Nayin (334) | Probability: 10%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Longbow (306) | Probability: 10%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Yumi (363) | Probability: 10%
-                                   Wield Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
-                                   Wield 15x Quarrel (305) | Probability: 100%
-                                   Wield Battle Axe (301) | Probability: 14%
-                                   Wield Broad Sword (350) | Probability: 7%
-                                   Wield Kaskara (324) | Probability: 6%
-                                   Wield Ken (327) | Probability: 6%
-                                   Wield Long Sword (351) | Probability: 6%
-                                   Wield Morning Star (332) | Probability: 10%
-                                   Wield Scimitar (339) | Probability: 6%
-                                   Wield Shamshir (340) | Probability: 6%
-                                   Wield Ono (336) | Probability: 13%
-                                   Wield Silifi (344) | Probability: 13%
-                                   Wield Tachi (353) | Probability: 6%
-                                   Wield Takuba (354) | Probability: 6%
-                                   Wield Large Kite Shield (92) | Probability: 10%
-                                   Wield Kite Shield (91) | Probability: 10%
-                                   Wield Large Round Shield (94) | Probability: 20%
-                                   Wield Round Shield (93) | Probability: 20%
-                                   Wield Tower Shield (95) | Probability: 15.000001% */
+                                   # Set: 1
+                                   |  10.00% chance of 5x to 6x Throwing Axe (304) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Nayin (334)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Longbow (306)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Yumi (363)
+                                   |         with
+                                   |            100.00% chance of Arrow (300) | StackSizeVariance: 0.1
+                                   |  60.00% chance of Heavy Crossbow (311)
+                                   |         with
+                                   |            100.00% chance of 15x Quarrel (305)
+                                   # Set: 2
+                                   |  14.00% chance of Battle Axe (301)
+                                   |   7.00% chance of Broad Sword (350)
+                                   |   6.00% chance of Kaskara (324)
+                                   |   6.00% chance of Ken (327)
+                                   |   6.00% chance of Long Sword (351)
+                                   |  10.00% chance of Morning Star (332)
+                                   |   6.00% chance of Scimitar (339)
+                                   |   6.00% chance of Shamshir (340)
+                                   |  13.00% chance of Ono (336)
+                                   |  13.00% chance of Silifi (344)
+                                   |   6.00% chance of Tachi (353)
+                                   |   6.00% chance of Takuba (354)
+                                   |   1.00% chance of nothing from this set
+                                   # Set: 3
+                                   |  10.00% chance of Large Kite Shield (92)
+                                   |  10.00% chance of Kite Shield (91)
+                                   |  20.00% chance of Large Round Shield (94)
+                                   |  20.00% chance of Round Shield (93)
+                                   |  15.00% chance of Tower Shield (95)
+                                   |  25.00% chance of nothing from this set */
      , (229,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

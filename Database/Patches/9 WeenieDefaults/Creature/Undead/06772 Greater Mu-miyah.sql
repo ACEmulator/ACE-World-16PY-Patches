@@ -6,7 +6,7 @@ VALUES (6772, 'mumiyahgreatercrimsonruby3', 10, '2022-08-22 03:09:27') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6772,   1,         16) /* ItemType - Creature */
      , (6772,   2,         14) /* CreatureType - Undead */
-     , (6772,   3,         44) /* PaletteTemplate - Tanred */
+     , (6772,   3,         44) /* PaletteTemplate - TanRed */
      , (6772,   6,         -1) /* ItemsCapacity */
      , (6772,   7,         -1) /* ContainersCapacity */
      , (6772,  16,          1) /* ItemUseable - No */

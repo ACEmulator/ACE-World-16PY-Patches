@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72921;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72921, 'ace72921-chest', 20, '2005-02-09 10:00:00') /* Chest */;
+VALUES (72921, 'ace72921-chest', 20, '2023-03-23 00:00:00') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72921,   1,        512) /* ItemType - Container */
@@ -49,4 +49,4 @@ VALUES (72921,   1, 0x0200007C) /* Setup */
      , (72921,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72921, -1, 72922, 100, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Second Gate Key (72921) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+VALUES (72921, -1, 72922, 100, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Second Gate Key (72922) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

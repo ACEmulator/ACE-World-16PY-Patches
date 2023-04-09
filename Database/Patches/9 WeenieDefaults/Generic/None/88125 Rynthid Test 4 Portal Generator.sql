@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88125;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88125, 'ace88125-rynthidtest4portalgen', 1, '2022-06-21 15:22:25') /* Generic */;
+VALUES (88125, 'ace88125-rynthidtest4portalgenerator', 1, '2023-04-09 17:44:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88125,  81,          1) /* MaxGeneratedObjects */
@@ -14,7 +14,7 @@ VALUES (88125,   1, True ) /* Stuck */
      , (88125,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (88125,  41,     600) /* RegenerationInterval */
+VALUES (88125,  41,       5) /* RegenerationInterval */
      , (88125,  43,       0) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

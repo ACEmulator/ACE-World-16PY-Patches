@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41810;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41810, 'ace41810-damagedeldrytchwebcommendationribbon', 51, '2021-11-17 16:56:08') /* Stackable */;
+VALUES (41810, 'ace41810-damagedeldrytchwebcommendationribbon', 51, '2023-04-09 17:44:47') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41810,   1,        128) /* ItemType - Misc */
@@ -28,7 +28,7 @@ VALUES (41810,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41810,   1, 'Damaged Eldrytch Web Commendation Ribbon') /* Name */
-     , (41810,  14, 'Return this ribbon to your society agent. ') /* Use */
+     , (41810,  14, 'Return this ribbon to your society agent.') /* Use */
      , (41810,  16, 'A damaged commendation ribbon lost by a Eldrytch Web agent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

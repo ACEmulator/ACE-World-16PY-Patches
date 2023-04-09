@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30393;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30393, 'girthflameprotection', 2, '2005-02-09 10:00:00') /* Clothing */;
+VALUES (30393, 'girthflameprotection', 2, '2023-03-23 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30393,   1,          2) /* ItemType - Armor */
      , (30393,   3,         14) /* PaletteTemplate - Red */
-     , (30393,   4,       2048) /* ClothingPriority - OuterwearUpperLegs, OuterwearAbdomen */
+     , (30393,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (30393,   5,        250) /* EncumbranceVal */
      , (30393,   8,         90) /* Mass */
      , (30393,   9,       1024) /* ValidLocations - AbdomenArmor */

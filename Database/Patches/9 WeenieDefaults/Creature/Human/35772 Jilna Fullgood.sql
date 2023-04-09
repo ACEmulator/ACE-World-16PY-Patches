@@ -36,16 +36,19 @@ VALUES (35772,   1, 0x0200004E) /* Setup */
      , (35772,   8, 0x06001036) /* Icon */
      , (35772,  22, 0x34000004) /* PhysicsEffectTable */
      , (35772,  32,        415) /* WieldedTreasureType - 
-                                   Wield Towel (10757) | Palette: Blue (2) | Probability: 50%
-                                   Wield Towel (10757) | Palette: Green (8) | Probability: 50%
-                                   Wield Bandit Dagger (12052) | Probability: 12.5%
-                                   Wield Bandit Jambiya (12057) | Probability: 12.5%
-                                   Wield Bandit Khanjar (12062) | Probability: 12.5%
-                                   Wield Bandit Knife (12067) | Probability: 12.5%
-                                   Wield Bandit Simi (12072) | Probability: 12.5%
-                                   Wield Bandit Rapier (12076) | Probability: 2.77%
-                                   Wield Bandit Short Sword (12078) | Probability: 12.5%
-                                   Wield Bandit Yaoji (12083) | Probability: 12.5% */;
+                                   # Set: 1
+                                   |  50.00% chance of Towel (10757) | Palette: Blue (2)
+                                   |  50.00% chance of Towel (10757) | Palette: Green (8)
+                                   # Set: 2
+                                   |  12.50% chance of Bandit Dagger (12052)
+                                   |  12.50% chance of Bandit Jambiya (12057)
+                                   |  12.50% chance of Bandit Khanjar (12062)
+                                   |  12.50% chance of Bandit Knife (12067)
+                                   |  12.50% chance of Bandit Simi (12072)
+                                   |   2.77% chance of Bandit Rapier (12076)
+                                   |  12.50% chance of Bandit Short Sword (12078)
+                                   |  12.50% chance of Bandit Yaoji (12083)
+                                   |   9.73% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35772,   1, 220, 0, 0) /* Strength */

@@ -77,8 +77,10 @@ VALUES (1465,   1, 0x02000197) /* Setup */
      , (1465,   8, 0x06001226) /* Icon */
      , (1465,  22, 0x34000028) /* PhysicsEffectTable */
      , (1465,  32,        237) /* WieldedTreasureType - 
-                                   Wield Fiery Shield (1517) | Probability: 100%
-                                   Wield Superior Helmet (1518) | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Fiery Shield (1517)
+                                   # Set: 2
+                                   | 100.00% chance of Superior Helmet (1518) */
      , (1465,  35,        236) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

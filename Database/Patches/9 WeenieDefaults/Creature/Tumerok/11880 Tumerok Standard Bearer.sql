@@ -74,8 +74,9 @@ VALUES (11880,   1, 0x02001402) /* Setup */
      , (11880,   8, 0x0600103C) /* Icon */
      , (11880,  22, 0x34000026) /* PhysicsEffectTable */
      , (11880,  32,        371) /* WieldedTreasureType - 
-                                   Wield Hafted Shreth Spear (11756) | Probability: 80%
-                                   Wield Reinforced Shreth Spear (11782) | Probability: 20% */
+                                   # Set: 1
+                                   |  80.00% chance of Hafted Shreth Spear (11756)
+                                   |  20.00% chance of Reinforced Shreth Spear (11782) */
      , (11880,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

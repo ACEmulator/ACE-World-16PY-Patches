@@ -1,11 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45853;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45853, 'ace45853-mouf', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (45853, 'ace45853-mouf', 10, '2023-04-09 17:44:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45853,   1,         16) /* ItemType - Creature */
      , (45853,   2,         80) /* CreatureType - Penguin */
+     , (45853,   3,         61) /* PaletteTemplate - White */
      , (45853,   6,         -1) /* ItemsCapacity */
      , (45853,   7,         -1) /* ContainersCapacity */
      , (45853,  16,         32) /* ItemUseable - Remote */
@@ -31,10 +32,21 @@ VALUES (45853,   1, 0x02001252) /* Setup */
      , (45853,   2, 0x0900017B) /* MotionTable */
      , (45853,   3, 0x200000BA) /* SoundTable */
      , (45853,   6, 0x0400197C) /* PaletteBase */
+     , (45853,   7, 0x10000599) /* ClothingBase */
      , (45853,   8, 0x060036F6) /* Icon */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (45853,   1,  20, 0, 0) /* Strength */
+     , (45853,   2,  30, 0, 0) /* Endurance */
+     , (45853,   3,  55, 0, 0) /* Quickness */
+     , (45853,   4,  50, 0, 0) /* Coordination */
+     , (45853,   5,  25, 0, 0) /* Focus */
+     , (45853,   6,  15, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45853,   1,     0, 0, 0, 30) /* MaxHealth */;
+VALUES (45853,   1,    15, 0, 0, 30) /* MaxHealth */
+     , (45853,   3,   110, 0, 0, 140) /* MaxStamina */
+     , (45853,   5,     0, 0, 0, 15) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (45853,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

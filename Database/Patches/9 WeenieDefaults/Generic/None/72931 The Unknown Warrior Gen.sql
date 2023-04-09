@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72931;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72931, 'ace72931-thughideouteventgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72931, 'ace72931-theunknownwarriorgen', 1, '2023-03-23 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72931,  81,          1) /* MaxGeneratedObjects */
@@ -30,6 +30,6 @@ VALUES (72931,   1, 0x0200026B) /* Setup */
      , (72931,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72931, -1, 72917, 600, 1, 1, 1, 4, 0, 0, 0, 0x7E0401AA, 19.951, -144.871, -11.953, 0, 0, 0, -1) /* Generate Hoshino Courtyard Gen (72482) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72931, -1, 72933, 600, 1, 1, 1, 4, 0, 0, 0, 0x7E0401A5, 20.0223, -113.128, -12, 1, 0, 0, 0) /* Generate Hoshino Courtyard Gen (72482) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72931, -1, 72932, 600, 1, 1, 1, 4, 0, 0, 0, 0x7E0401AA, 19.951, -144.871, -11.953, 0, 0, 0, -1) /* Generate Hoshino Courtyard Gen (72482) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (72931, -1, 72917, 600, 1, 1, 1, 4, 0, 0, 0, 0x7E0401AA, 19.951, -144.871, -11.953, 0, 0, 0, -1) /* Generate The Unknown Warrior (72917) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72931, -1, 72933, 600, 1, 1, 1, 4, 0, 0, 0, 0x7E0401A5, 20.0223, -113.128, -12, 1, 0, 0, 0) /* Generate The Unknown Warrior (72933) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72931, -1, 72932, 600, 1, 1, 1, 4, 0, 0, 0, 0x7E0401AA, 19.951, -144.871, -11.953, 0, 0, 0, -1) /* Generate Thug Hideout Counter 3 (72932) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

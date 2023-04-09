@@ -6,7 +6,7 @@ VALUES (9242, 'dollinnocent', 10, '2022-08-22 03:09:27') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9242,   1,         16) /* ItemType - Creature */
      , (9242,   2,         53) /* CreatureType - Doll */
-     , (9242,   3,         44) /* PaletteTemplate - Tanred */
+     , (9242,   3,         44) /* PaletteTemplate - TanRed */
      , (9242,   6,         -1) /* ItemsCapacity */
      , (9242,   7,         -1) /* ContainersCapacity */
      , (9242,  16,          1) /* ItemUseable - No */

@@ -79,13 +79,15 @@ VALUES (7091,   1, 0x020007DD) /* Setup */
      , (7091,   8, 0x06001035) /* Icon */
      , (7091,  22, 0x3400001A) /* PhysicsEffectTable */
      , (7091,  32,        273) /* WieldedTreasureType - 
-                                   Wield 10x Frost Throwing Club (23660) | Probability: 33%
-                                   Wield 10x Fire Throwing Club (23656) | Probability: 33%
-                                   Wield 10x Throwing Club (23652) | Probability: 34%
-                                   Wield Lightning Tachi (23703) | Probability: 25%
-                                   Wield Yaoji (23709) | Probability: 25%
-                                   Wield Fire Tachi (23706) | Probability: 25%
-                                   Wield Tachi (23699) | Probability: 25% */
+                                   # Set: 1
+                                   |  33.00% chance of 10x Frost Throwing Club (23660)
+                                   |  33.00% chance of 10x Fire Throwing Club (23656)
+                                   |  34.00% chance of 10x Throwing Club (23652)
+                                   # Set: 2
+                                   |  25.00% chance of Lightning Tachi (23703)
+                                   |  25.00% chance of Yaoji (23709)
+                                   |  25.00% chance of Fire Tachi (23706)
+                                   |  25.00% chance of Tachi (23699) */
      , (7091,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
