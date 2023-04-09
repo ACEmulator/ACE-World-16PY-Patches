@@ -1,3 +1,6 @@
+Use:
+	- DirectBroadcast: A voice whispers in your head, "Ashes for ashes, blood for blood... Give us the head of the desecrator and the Wheel shall turn anew."
+
 Give: 88427
 	- DirectBroadcast: You present the head of the Blight Lord to the Altar, and the device seems to absorb the foul, rotting head into itself with an unmistakable air of satisfaction. There is a flash of light, and you find that something has been dropped into your pack...
 	- Delay: 1, Give: 38456

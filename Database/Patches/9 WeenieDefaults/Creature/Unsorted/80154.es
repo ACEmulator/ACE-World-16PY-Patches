@@ -5,7 +5,7 @@ Use:
 		QuestFailure:
 			- InqOwnsItems: 38222, 20
 				TestSuccess:
-					- InqYesNo: Would you like to be teleported to the Blight Lords Lair?
+					- InqYesNo: Would you like to be teleported to the Blight Lord's Lair?
 						TestSuccess:
 							- TakeItems: 38222, 20
 							- DirectBroadcast: The Gatestone teleports you into the lair of the Halaetan Blight Lord!
