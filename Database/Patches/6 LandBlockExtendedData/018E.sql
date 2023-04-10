@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x018E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018E000, 24129, 0x018E037A, 26.721, -149.887, -5.995, 0.713819, 0, 0, -0.70033, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 2 Min.) */
-/* @teleloc 0x018E037A [26.721001 -149.886993 -5.995000] 0.713819 0.000000 0.000000 -0.700330 */
+VALUES (0x7018E000, 24129, 0x018E024C, 26.721, -149.887, -5.995, 0.713819, 0, 0, -0.70033, False, '2023-04-10 10:36:12'); /* Linkable Monster Generator ( 2 Min.) */
+/* @teleloc 0x018E024C [26.721001 -149.886993 -5.995000] 0.713819 0.000000 0.000000 -0.700330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7018E000, 0x7018E021, '2021-11-01 00:00:00') /* Frenzied Fiun (28644) */

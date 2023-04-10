@@ -277,8 +277,8 @@ VALUES (0x7019302F,  2571, 0x01930141, 0.090277, -49.9466, 0.005, 0.706652, 0, 0
 /* @teleloc 0x01930141 [0.090277 -49.946602 0.005000] 0.706652 0.000000 0.000000 -0.707562 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70193030,  1350, 0x01930119, 1.88466, -38.3127, 0, 0.72575, 0, 0, -0.687958, False, '2021-11-01 00:00:00'); /* Granite Golem Generator */
-/* @teleloc 0x01930119 [1.884660 -38.312698 0.000000] 0.725750 0.000000 0.000000 -0.687958 */
+VALUES (0x70193030,  1350, 0x01930140, 1.88466, -38.3127, 0, 0.72575, 0, 0, -0.687958, False, '2023-04-10 10:36:12'); /* Granite Golem Generator */
+/* @teleloc 0x01930140 [1.884660 -38.312698 0.000000] 0.725750 0.000000 0.000000 -0.687958 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70193031,  2572, 0x01930102, 60.0376, -39.9981, -11.995, -0.689373, 0, 0, -0.724406,  True, '2021-11-01 00:00:00'); /* K'nath D'Nob */
@@ -353,8 +353,8 @@ VALUES (0x70193042,  2571, 0x01930161, 60.2732, -20.0641, 0.005, -0.701877, 0, 0
 /* @teleloc 0x01930161 [60.273201 -20.064100 0.005000] -0.701877 0.000000 0.000000 -0.712298 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70193043,  1350, 0x01930146, 75.25, -20, 0, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Granite Golem Generator */
-/* @teleloc 0x01930146 [75.250000 -20.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x70193043,  1350, 0x0193016D, 75.25, -20, 0, -0.707107, 0, 0, -0.707107, False, '2023-04-10 10:36:12'); /* Granite Golem Generator */
+/* @teleloc 0x0193016D [75.250000 -20.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70193044, 31226, 0x01930119, 371.763, -30.0863, -11.995, -0.719537, 0, 0, 0.694454,  True, '2021-11-01 00:00:00'); /* Runic Skull */

@@ -109,8 +109,8 @@ VALUES (0x700CB0EB, 88308, 0x00CB01CA, 240, -310, -30, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x00CB01CA [240.000000 -310.000000 -30.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CB0EC, 88308, 0x00CB01CA, 180, -310, -30, 0.707107, 0, 0, -0.707107, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
-/* @teleloc 0x00CB01CA [180.000000 -310.000000 -30.000000] 0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x700CB0EC, 88308, 0x00CB0186, 180, -310, -30, 0.707107, 0, 0, -0.707107, False, '2023-04-10 10:36:12'); /* Falatacot Patrol Trap */
+/* @teleloc 0x00CB0186 [180.000000 -310.000000 -30.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CB0ED, 88308, 0x00CB01D4, 260, -260, -30, 0, 0, 0, -1, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
@@ -121,8 +121,8 @@ VALUES (0x700CB0EE, 88308, 0x00CB01D1, 260, -230, -30, 0, 0, 0, -1, False, '2022
 /* @teleloc 0x00CB01D1 [260.000000 -230.000000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CB0EF, 88308, 0x00CB01D9, 260, -290, -30, 0, 0, 0, -1, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
-/* @teleloc 0x00CB01D9 [260.000000 -290.000000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700CB0EF, 88308, 0x00CB01D8, 260, -290, -30, 0, 0, 0, -1, False, '2023-04-10 10:36:12'); /* Falatacot Patrol Trap */
+/* @teleloc 0x00CB01D8 [260.000000 -290.000000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CB0F0, 88308, 0x00CB019B, 210, -210, -30, 0.707107, 0, 0, 0.707107, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
@@ -177,8 +177,8 @@ VALUES (0x700CB0FC, 88308, 0x00CB016A, 100, -80, -30, 1, 0, 0, 0, False, '2022-0
 /* @teleloc 0x00CB016A [100.000000 -80.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CB0FD, 88308, 0x00CB0162, 100, -20, -30, 1, 0, 0, 0, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
-/* @teleloc 0x00CB0162 [100.000000 -20.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x700CB0FD, 88308, 0x00CB0163, 100, -20, -30, 1, 0, 0, 0, False, '2023-04-10 10:36:12'); /* Falatacot Patrol Trap */
+/* @teleloc 0x00CB0163 [100.000000 -20.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CB0FE, 88308, 0x00CB012D, 50, 0, -30, 0.707107, 0, 0, 0.707107, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
@@ -349,12 +349,12 @@ VALUES (0x700CB127, 88308, 0x00CB0242, 390, -60, -30, -1, 0, 0, 0, False, '2022-
 /* @teleloc 0x00CB0242 [390.000000 -60.000000 -30.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CB128, 88308, 0x00CB0245, 390, -90, -30, -1, 0, 0, 0, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
-/* @teleloc 0x00CB0245 [390.000000 -90.000000 -30.000000] -1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x700CB128, 88308, 0x00CB0246, 390, -90, -30, -1, 0, 0, 0, False, '2023-04-10 10:36:12'); /* Falatacot Patrol Trap */
+/* @teleloc 0x00CB0246 [390.000000 -90.000000 -30.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CB129, 88308, 0x00CB023E, 390, -30, -30, -1, 0, 0, 0, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
-/* @teleloc 0x00CB023E [390.000000 -30.000000 -30.000000] -1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x700CB129, 88308, 0x00CB023F, 390, -30, -30, -1, 0, 0, 0, False, '2023-04-10 10:36:12'); /* Falatacot Patrol Trap */
+/* @teleloc 0x00CB023F [390.000000 -30.000000 -30.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CB12A, 88308, 0x00CB0209, 340, -10, -30, 0.707107, 0, 0, 0.707107, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
@@ -377,8 +377,8 @@ VALUES (0x700CB12E, 88308, 0x00CB0385, 340, -100, -12, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x00CB0385 [340.000000 -100.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700CB12F, 88308, 0x00CB036C, 310, -100, -12, 0.707107, 0, 0, -0.707107, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */
-/* @teleloc 0x00CB036C [310.000000 -100.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x700CB12F, 88308, 0x00CB0366, 310, -100, -12, 0.707107, 0, 0, -0.707107, False, '2023-04-10 10:36:12'); /* Falatacot Patrol Trap */
+/* @teleloc 0x00CB0366 [310.000000 -100.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CB130, 88308, 0x00CB0399, 370, -100, -12, 0.707107, 0, 0, -0.707107, False, '2022-08-03 04:23:55'); /* Falatacot Patrol Trap */

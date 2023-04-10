@@ -173,8 +173,8 @@ VALUES (0x7002D3ED,  6122, 0x002D0103, 90, -220.051, -41.995, 1, 0, 0, 0, False,
 /* @teleloc 0x002D0103 [90.000000 -220.050995 -41.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002D3EE,  6122, 0x002D0101, 80, -230.051, -41.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x002D0101 [80.000000 -230.050995 -41.994999] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7002D3EE,  6122, 0x002D0102, 80, -230.051, -41.995, 1, 0, 0, 0, False, '2023-04-10 10:36:12'); /* Acid */
+/* @teleloc 0x002D0102 [80.000000 -230.050995 -41.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7002D3EF, 31009, 0x002D034F, 159.578, 0.060317, 0.005, 0.458137, 0, 0, -0.888881,  True, '2021-11-01 00:00:00'); /* Mosswart Worshipper */

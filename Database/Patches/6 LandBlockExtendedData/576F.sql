@@ -53,8 +53,8 @@ VALUES (0x7576F06A, 72371, 0x576F021E, 40.7936, -82.3361, 6.44101, 0.007017, 0, 
 /* @teleloc 0x576F021E [40.793598 -82.336098 6.441010] 0.007017 0.000000 0.000000 -0.999975 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576F06B, 72377, 0x576F010F, 35, -85, -23.945, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Twisted Refuge Booter Gen */
-/* @teleloc 0x576F010F [35.000000 -85.000000 -23.945000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7576F06B, 72377, 0x576F0109, 35, -85, -23.945, 1, 0, 0, 0, False, '2023-04-10 10:36:12'); /* Twisted Refuge Booter Gen */
+/* @teleloc 0x576F0109 [35.000000 -85.000000 -23.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576F06C, 72388, 0x576F021E, 39.2814, -82.321, 6.44101, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door Reset Stopgap Gen */
