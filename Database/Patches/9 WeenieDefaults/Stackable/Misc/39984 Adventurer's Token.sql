@@ -1,17 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39984;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (39984, 'ace39984-adventurerstoken', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (39984, 'ace39984-adventurerstoken', 51, '2023-04-09 17:44:47') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39984,   1,        128) /* ItemType - Misc */
-     , (39984,   5,          1) /* EncumbranceVal */
+     , (39984,   5,          5) /* EncumbranceVal */
      , (39984,  11,        100) /* MaxStackSize */
      , (39984,  12,          1) /* StackSize */
-     , (39984,  13,          1) /* StackUnitEncumbrance */
-     , (39984,  15,         25) /* StackUnitValue */
+     , (39984,  13,          5) /* StackUnitEncumbrance */
+     , (39984,  15,        100) /* StackUnitValue */
      , (39984,  16,          1) /* ItemUseable - No */
-     , (39984,  19,         25) /* Value */
+     , (39984,  19,        100) /* Value */
      , (39984,  33,          1) /* Bonded - Bonded */
      , (39984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39984, 114,          1) /* Attuned - Attuned */;

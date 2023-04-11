@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48727;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48727, 'ace48727-contractformageacademy', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (48727, 'ace48727-contractformageacademy', 38, '2023-03-23 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48727,   1,       2048) /* ItemType - Gem */
@@ -17,7 +17,7 @@ VALUES (48727,   1,       2048) /* ItemType - Gem */
      , (48727,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (48727,  94,         16) /* TargetType - Creature */
      , (48727, 280,        100) /* SharedCooldown */
-     , (48727, 349,        260) /* UseCreatesContractId */;
+     , (48727, 349,        260) /* UseCreatesContractId - Contract_260_Mage_Academy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48727,  22, True ) /* Inscribable */

@@ -78,15 +78,19 @@ VALUES (31408,   1, 0x02000001) /* Setup */
      , (31408,  17, 0x040002B8) /* SkinPalette */
      , (31408,  22, 0x34000004) /* PhysicsEffectTable */
      , (31408,  32,       2018) /* WieldedTreasureType - 
-                                   Wield Raven Bow (31391) | Probability: 50%
-                                   Wield 30x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Raven Crossbow (31385) | Probability: 50%
-                                   Wield 30x Deadly Quarrel (15438) | Probability: 100%
-                                   Wield Raven Sabra (31386) | Probability: 20%
-                                   Wield Raven Sabra (31387) | Probability: 20%
-                                   Wield Raven Sabra (31388) | Probability: 20%
-                                   Wield Raven Sabra (31389) | Probability: 20%
-                                   Wield Raven Sabra (31390) | Probability: 20% */
+                                   # Set: 1
+                                   |  50.00% chance of Raven Bow (31391)
+                                   |         with
+                                   |            100.00% chance of 27x to 30x Deadly Arrow (15429) | StackSizeVariance: 0.1
+                                   |  50.00% chance of Raven Crossbow (31385)
+                                   |         with
+                                   |            100.00% chance of 27x to 30x Deadly Quarrel (15438) | StackSizeVariance: 0.1
+                                   # Set: 2
+                                   |  20.00% chance of Raven Sabra (31386)
+                                   |  20.00% chance of Raven Sabra (31387)
+                                   |  20.00% chance of Raven Sabra (31388)
+                                   |  20.00% chance of Raven Sabra (31389)
+                                   |  20.00% chance of Raven Sabra (31390) */
      , (31408,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

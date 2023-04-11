@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46964;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46964, 'ace46964-modifiedpalauloi', 3, '2019-02-10 00:00:00') /* MissileLauncher */;
+VALUES (46964, 'ace46964-modifiedpalauloi', 3, '2023-04-09 17:44:47') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46964,   1,        256) /* ItemType - MissileWeapon */
@@ -20,6 +20,8 @@ VALUES (46964,   1,        256) /* ItemType - MissileWeapon */
      , (46964,  49,         70) /* WeaponTime */
      , (46964,  50,          2) /* AmmoType - Bolt */
      , (46964,  51,          2) /* CombatUse - Missile */
+     , (46964,  52,          2) /* ParentLocation - LeftHand */
+     , (46964,  53,          3) /* PlacementPosition - LeftHand */
      , (46964,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46964, 106,        450) /* ItemSpellcraft */
      , (46964, 107,       1000) /* ItemCurMana */
@@ -56,7 +58,7 @@ VALUES (46964,   1, 0x02000DD1) /* Setup */
      , (46964,   3, 0x20000014) /* SoundTable */
      , (46964,   8, 0x060027D8) /* Icon */
      , (46964,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (46964,  55,       2228) /* ProcSpell - DefenselessnessOther7 */;
+     , (46964,  55,       2228) /* ProcSpell - Broadside of a Barn */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46964,  4521,      2)  /* MissileWeaponsMasteryOther8 */;
+VALUES (46964,  4521,      2)  /* Incantation of Missile Weapon Mastery Other */;

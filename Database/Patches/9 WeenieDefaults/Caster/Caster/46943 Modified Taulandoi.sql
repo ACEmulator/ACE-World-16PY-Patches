@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46943;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46943, 'ace46943-modifiedtaulandoi', 35, '2019-02-10 00:00:00') /* Caster */;
+VALUES (46943, 'ace46943-modifiedtaulandoi', 35, '2023-04-09 17:44:47') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46943,   1,      32768) /* ItemType - Caster */
@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46943,   5,      -1) /* ManaRate */
      , (46943,  29,    1.15) /* WeaponDefense */
      , (46943, 144,     0.1) /* ManaConversionMod */
-     , (46943, 147,       1) /* CriticalFrequency */
+     , (46943, 147,    0.25) /* CriticalFrequency */
      , (46943, 152,     1.1) /* ElementalDamageMod */
      , (46943, 157,       1) /* ResistanceModifier */;
 

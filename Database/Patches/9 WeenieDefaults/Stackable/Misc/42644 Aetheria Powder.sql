@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42644;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42644, 'ace42644-aetheriapowder', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (42644, 'ace42644-aetheriapowder', 51, '2023-04-09 17:44:47') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42644,   1,        128) /* ItemType - Misc */
-     , (42644,   3,         14) /* PaletteTemplate - Red */
+     , (42644,   3,         17) /* PaletteTemplate - Yellow */
      , (42644,   5,          4) /* EncumbranceVal */
      , (42644,  11,        100) /* MaxStackSize */
      , (42644,  12,          1) /* StackSize */

@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46948;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46948, 'ace46948-modifiedelementalmasterrobe', 2, '2019-02-10 00:00:00') /* Clothing */;
+VALUES (46948, 'ace46948-modifiedelementalmasterrobe', 2, '2023-04-09 17:44:47') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46948,   1,          4) /* ItemType - Clothing */
+     , (46948,   3,         39) /* PaletteTemplate - Black */
      , (46948,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (46948,   5,        450) /* EncumbranceVal */
      , (46948,   9,      32513) /* ValidLocations - HeadWear, Armor */
@@ -47,6 +48,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46948,   1, 0x020001A6) /* Setup */
      , (46948,   3, 0x20000014) /* SoundTable */
      , (46948,   6, 0x0400007E) /* PaletteBase */
+     , (46948,   7, 0x100003EC) /* ClothingBase */
      , (46948,   8, 0x060027BE) /* Icon */
      , (46948,  22, 0x3400002B) /* PhysicsEffectTable */;
 

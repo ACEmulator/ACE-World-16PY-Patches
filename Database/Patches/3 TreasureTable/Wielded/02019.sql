@@ -22,3 +22,35 @@ VALUES (2019, 47852,  0, 0,    0, 0, 0,    0.16, 0, 0, 0,  True,  True, False, 0
      , (2019,    44,  0, 0,    0, 0, 0,    0.25, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Buckler */
      , (2019,    91,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Kite Shield */
      , (2019,    93,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Round Shield */;
+/* 
+    # Set: 1
+    |  16.00% chance of Arbalest (47852)
+    |         with
+    |            100.00% chance of 15x to 20x Quarrel (48020) | StackSizeVariance: 0.25
+    |  16.00% chance of Acid Crossbow (47854)
+    |         with
+    |            100.00% chance of 15x to 20x Acid Quarrel (48021) | StackSizeVariance: 0.25
+    |  16.00% chance of Electric Crossbow (47856)
+    |         with
+    |            100.00% chance of 15x to 20x Lightning Quarrel (48022) | StackSizeVariance: 0.25
+    |  52.00% chance of nothing from this set
+    # Set: 2
+    |   4.00% chance of Nekode (48026)
+    |   4.00% chance of Lightning Nekode (48028)
+    |   4.00% chance of Acid Nekode (48027)
+    |   4.00% chance of Katar (48024)
+    |   4.00% chance of Lightning Katar (48025)
+    |   4.00% chance of Acid Katar (48023)
+    |  10.80% chance of Silifi (48029)
+    |  10.80% chance of Lightning Silifi (48031)
+    |  10.80% chance of Acid Silifi (48030)
+    |  10.80% chance of Ono (48032)
+    |  10.80% chance of Lightning Ono (48034)
+    |  10.80% chance of Acid Ono (48033)
+    |  11.20% chance of nothing from this set
+    # Set: 3
+    |  25.00% chance of Buckler (44)
+    |  25.00% chance of Kite Shield (91)
+    |  25.00% chance of Round Shield (93)
+    |  25.00% chance of nothing from this set
+*/

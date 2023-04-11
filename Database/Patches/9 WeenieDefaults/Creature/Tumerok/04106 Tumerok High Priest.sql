@@ -76,14 +76,19 @@ VALUES (4106,   1, 0x02001401) /* Setup */
      , (4106,   8, 0x0600103C) /* Icon */
      , (4106,  22, 0x34000026) /* PhysicsEffectTable */
      , (4106,  32,        202) /* WieldedTreasureType - 
-                                   Wield Yumi (23734) | Probability: 25%
-                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
-                                   Wield Yumi (23734) | Probability: 25%
-                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23665) | Probability: 25%
-                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
-                                   Wield Heavy Crossbow (23665) | Probability: 25%
-                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100% */
+                                   # Set: 1
+                                   |  25.00% chance of Yumi (23734)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Armor Piercing Arrow (15431) | StackSizeVariance: 0.1
+                                   |  25.00% chance of Yumi (23734)
+                                   |         with
+                                   |            100.00% chance of 15x to 17x Deadly Arrow (15429) | StackSizeVariance: 0.1
+                                   |  25.00% chance of Heavy Crossbow (23665)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Quarrel (15438) | StackSizeVariance: 0.1
+                                   |  25.00% chance of Heavy Crossbow (23665)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Deadly Armor Piercing Quarrel (15440) | StackSizeVariance: 0.1 */
      , (4106,  35,        988) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

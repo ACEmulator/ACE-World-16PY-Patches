@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72968;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72968, 'ace72968-swordoftheunknownwarrior', 6, '2023-03-12 10:12:09') /* MeleeWeapon */;
+VALUES (72968, 'ace72968-swordoftheunknownwarrior', 6, '2023-03-23 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72968,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,14 +15,14 @@ VALUES (72968,   1,          1) /* ItemType - MeleeWeapon */
      , (72968,  45,          3) /* DamageType - Slash, Pierce */
      , (72968,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (72968,  47,          6) /* AttackType - Thrust, Slash */
-     , (72968,  48,         44) /* WeaponSkill - Sword */
+     , (72968,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (72968,  49,         40) /* WeaponTime */
      , (72968,  51,          1) /* CombatUse - Melee */
      , (72968,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72968, 106,        450) /* ItemSpellcraft */
      , (72968, 107,       3500) /* ItemCurMana */
      , (72968, 108,       3500) /* ItemMaxMana */
-     , (72968, 263,          1) /* ResistanceModifierType - Fire */
+     , (72968, 263,          1) /* ResistanceModifierType - Slash */
      , (72968, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,7 +31,7 @@ VALUES (72968,  13, True ) /* Ethereal */
      , (72968,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72968,   5,  -0.050) /* ManaRate */
+VALUES (72968,   5,   -0.05) /* ManaRate */
      , (72968,  21,     1.1) /* WeaponLength */
      , (72968,  22,   0.125) /* DamageVariance */
      , (72968,  29,    1.15) /* WeaponDefense */
@@ -51,13 +51,12 @@ VALUES (72968,   1, 0x02001873) /* Setup */
      , (72968,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72968,  2625,      2) /* Major Stamina Gain */
-     , (72968,  2309,      2) /* Heavy Weapon Mastery Self VII */
-     , (72968,  2572,      2) /* Major Coordination */
-     , (72968,  2576,      2) /* Major Strength */
-     , (72968,  2531,      2) /* Major Heavy Weapon Aptitude */
-     , (72968,  2087,      2) /* Might of the Lugians */
-     , (72968,  4395,      2) /* Aura of Incantation of Blood Drinker Self */
-     , (72968,  4400,      2) /* Aura of Incantation of Defender Self */
-     , (72968,  4405,      2) /* Aura of Incantation of Heart Seeker Self */;
-
+VALUES (72968,  2625,      2)  /* Major Stamina Gain */
+     , (72968,  2309,      2)  /* Heavy Weapon Mastery Self VII */
+     , (72968,  2572,      2)  /* Major Coordination */
+     , (72968,  2576,      2)  /* Major Strength */
+     , (72968,  2531,      2)  /* Major Heavy Weapon Aptitude */
+     , (72968,  2087,      2)  /* Might of the Lugians */
+     , (72968,  4395,      2)  /* Aura of Incantation of Blood Drinker Self */
+     , (72968,  4400,      2)  /* Aura of Incantation of Defender Self */
+     , (72968,  4405,      2)  /* Aura of Incantation of Heart Seeker Self */;

@@ -76,8 +76,9 @@ VALUES (11872,   1, 0x0200140B) /* Setup */
      , (11872,   8, 0x0600103C) /* Icon */
      , (11872,  22, 0x34000026) /* PhysicsEffectTable */
      , (11872,  32,        369) /* WieldedTreasureType - 
-                                   Wield Hafted Reedshark Spear (11754) | Probability: 80%
-                                   Wield Reinforced Reedshark Spear (11780) | Probability: 20% */
+                                   # Set: 1
+                                   |  80.00% chance of Hafted Reedshark Spear (11754)
+                                   |  20.00% chance of Reinforced Reedshark Spear (11780) */
      , (11872,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

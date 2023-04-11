@@ -76,20 +76,24 @@ VALUES (19315,   1, 0x02000001) /* Setup */
      , (19315,   8, 0x06001036) /* Icon */
      , (19315,  22, 0x34000075) /* PhysicsEffectTable */
      , (19315,  32,        404) /* WieldedTreasureType - 
-                                   Wield Bronze Longbow (15873) | Probability: 40%
-                                   Wield 20x Greater Fire Arrow (5305) | Probability: 25%
-                                   Wield 20x Greater Arrow (5304) | Probability: 25%
-                                   Wield 20x Greater Frost Arrow (5307) | Probability: 25%
-                                   Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 25%
-                                   Wield Bronze Atlatl (15870) | Probability: 60.000004%
-                                   Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 16%
-                                   Wield 20x Greater Fire Atlatl Dart (15293) | Probability: 16%
-                                   Wield 20x Greater Atlatl Dart (15287) | Probability: 17%
-                                   Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 17%
-                                   Wield 20x Greater Frost Atlatl Dart (15295) | Probability: 17%
-                                   Wield 20x Greater Lightning Atlatl Dart (15292) | Probability: 17%
-                                   Wield Bronze Zharalim Simi (15390) | Probability: 50%
-                                   Wield Bronze Quarter Staff (15878) | Probability: 50% */
+                                   # Set: 1
+                                   |  40.00% chance of Bronze Longbow (15873)
+                                   |         with
+                                   |             25.00% chance of 18x to 20x Greater Fire Arrow (5305) | StackSizeVariance: 0.1
+                                   |             25.00% chance of 18x to 20x Greater Arrow (5304) | StackSizeVariance: 0.1
+                                   |             25.00% chance of 18x to 20x Greater Frost Arrow (5307) | StackSizeVariance: 0.1
+                                   |             25.00% chance of 18x to 20x Greater Armor Piercing Arrow (5309) | StackSizeVariance: 0.1
+                                   |  60.00% chance of Bronze Atlatl (15870)
+                                   |         with
+                                   |             16.00% chance of 18x to 20x Armor Piercing Atlatl Dart (15280) | StackSizeVariance: 0.1
+                                   |             16.00% chance of 18x to 20x Greater Fire Atlatl Dart (15293) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Atlatl Dart (15287) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Armor Piercing Atlatl Dart (15280) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Frost Atlatl Dart (15295) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Lightning Atlatl Dart (15292) | StackSizeVariance: 0.1
+                                   # Set: 2
+                                   |  50.00% chance of Bronze Zharalim Simi (15390)
+                                   |  50.00% chance of Bronze Quarter Staff (15878) */
      , (19315,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

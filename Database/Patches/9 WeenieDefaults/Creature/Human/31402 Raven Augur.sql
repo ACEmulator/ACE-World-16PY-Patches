@@ -69,11 +69,12 @@ VALUES (31402,   1, 0x02000001) /* Setup */
      , (31402,   8, 0x06001036) /* Icon */
      , (31402,  22, 0x34000004) /* PhysicsEffectTable */
      , (31402,  32,       2015) /* WieldedTreasureType - 
-                                   Wield Raven Sabra (31386) | Probability: 20%
-                                   Wield Raven Sabra (31387) | Probability: 20%
-                                   Wield Raven Sabra (31388) | Probability: 20%
-                                   Wield Raven Sabra (31389) | Probability: 20%
-                                   Wield Raven Sabra (31390) | Probability: 20% */
+                                   # Set: 1
+                                   |  20.00% chance of Raven Sabra (31386)
+                                   |  20.00% chance of Raven Sabra (31387)
+                                   |  20.00% chance of Raven Sabra (31388)
+                                   |  20.00% chance of Raven Sabra (31389)
+                                   |  20.00% chance of Raven Sabra (31390) */
      , (31402,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

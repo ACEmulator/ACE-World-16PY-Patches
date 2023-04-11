@@ -4,3 +4,11 @@ INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`
 VALUES (92,    43,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True,  True, False, 0, 0, 0, 0, '2022-01-08 18:29:57') /* Yoroi Breastplate */
      , (92,   353,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True,  True, False, 0, 0, 0, 0, '2022-01-08 18:29:57') /* Tachi */
      , (92, 38047,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False,  True, 0, 0, 0, 0, '2022-01-08 18:29:57') /* Green Mire Yari */;
+/* 
+    # Set: 1
+    | 100.00% chance of Yoroi Breastplate (43)
+    |         with
+    |            100.00% chance of Tachi (353)
+    # Set: 2
+    | 100.00% chance of Green Mire Yari (38047)
+*/

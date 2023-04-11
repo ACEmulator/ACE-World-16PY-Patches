@@ -76,14 +76,19 @@ VALUES (4103,   1, 0x02001403) /* Setup */
      , (4103,   8, 0x0600103C) /* Icon */
      , (4103,  22, 0x34000026) /* PhysicsEffectTable */
      , (4103,  32,        216) /* WieldedTreasureType - 
-                                   Wield Nayin (334) | Probability: 25%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Longbow (306) | Probability: 25%
-                                   Wield 18x Arrow (300) | Probability: 100%
-                                   Wield Yumi (363) | Probability: 25%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 25%
-                                   Wield 15x Quarrel (305) | Probability: 100% */
+                                   # Set: 1
+                                   |  25.00% chance of Nayin (334)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  25.00% chance of Longbow (306)
+                                   |         with
+                                   |            100.00% chance of 16x to 18x Arrow (300) | StackSizeVariance: 0.1
+                                   |  25.00% chance of Yumi (363)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  25.00% chance of Heavy Crossbow (311)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1 */
      , (4103,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

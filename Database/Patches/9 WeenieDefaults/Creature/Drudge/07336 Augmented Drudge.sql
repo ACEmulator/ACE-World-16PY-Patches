@@ -78,7 +78,8 @@ VALUES (7336,   1, 0x020007DD) /* Setup */
      , (7336,   8, 0x06001035) /* Icon */
      , (7336,  22, 0x3400001A) /* PhysicsEffectTable */
      , (7336,  32,        298) /* WieldedTreasureType - 
-                                   Wield 15x Flaming Javelin (7311) | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of 15x Flaming Javelin (7311) */
      , (7336,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

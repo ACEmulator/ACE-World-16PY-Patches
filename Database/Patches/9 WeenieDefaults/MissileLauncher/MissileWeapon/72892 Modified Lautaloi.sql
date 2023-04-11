@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72892;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72892, 'ace72892-modifiedbowgaerlan', 3, '2021-11-17 16:56:08') /* MissileLauncher */;
+VALUES (72892, 'ace72892-modifiedlautaloi', 3, '2023-03-23 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72892,   1,        256) /* ItemType - MissileWeapon */
@@ -60,4 +60,4 @@ VALUES (72892,   1, 0x02000DC7) /* Setup */
      , (72892,  55,       2228) /* ProcSpell - Broadside of a Barn */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72892,  4521,      2)  /* Missile Weapon Mastery Other V */;
+VALUES (72892,  4521,      2)  /* Incantation of Missile Weapon Mastery Other */;

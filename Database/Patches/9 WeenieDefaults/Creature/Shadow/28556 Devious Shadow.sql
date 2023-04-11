@@ -90,22 +90,24 @@ VALUES (28556,   1, 0x02000001) /* Setup */
      , (28556,  17, 0x040002B9) /* SkinPalette */
      , (28556,  22, 0x34000063) /* PhysicsEffectTable */
      , (28556,  32,         84) /* WieldedTreasureType - 
-                                   Wield Club (309) | Probability: 15.000001%
-                                   Wield Dabus (313) | Probability: 3%
-                                   Wield Dagger (314) | Probability: 10%
-                                   Wield Kasrullah (325) | Probability: 15.000001%
-                                   Wield Khanjar (328) | Probability: 10%
-                                   Wield Mace (331) | Probability: 4%
-                                   Wield Short Sword (352) | Probability: 7%
-                                   Wield Simi (345) | Probability: 7%
-                                   Wield Tofun (356) | Probability: 3%
-                                   Wield Yaoji (361) | Probability: 6%
-                                   Wield 10x Throwing Dart (316) | Probability: 5%
-                                   Wield 10x Shouken (343) | Probability: 4%
-                                   Wield 6x Throwing Dagger (315) | Probability: 5%
-                                   Wield 4x Javelin (320) | Probability: 2%
-                                   Wield Djarid (317) | Probability: 1%
-                                   Wield 4x Throwing Club (310) | Probability: 1% */
+                                   # Set: 1
+                                   |  15.00% chance of Club (309)
+                                   |   3.00% chance of Dabus (313)
+                                   |  10.00% chance of Dagger (314)
+                                   |  15.00% chance of Kasrullah (325)
+                                   |  10.00% chance of Khanjar (328)
+                                   |   4.00% chance of Mace (331)
+                                   |   7.00% chance of Short Sword (352)
+                                   |   7.00% chance of Simi (345)
+                                   |   3.00% chance of Tofun (356)
+                                   |   6.00% chance of Yaoji (361)
+                                   |   5.00% chance of 9x to 10x Throwing Dart (316) | StackSizeVariance: 0.1
+                                   |   4.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1
+                                   |   2.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
+                                   |   1.00% chance of Djarid (317)
+                                   |   1.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |   2.00% chance of nothing from this set */
      , (28556,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

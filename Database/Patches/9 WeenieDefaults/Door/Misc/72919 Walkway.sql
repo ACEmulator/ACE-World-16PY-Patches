@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72919;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72919, 'ace72919-walkway', 19, '2005-02-09 10:00:00') /* Door */;
+VALUES (72919, 'ace72919-walkway', 19, '2023-03-23 00:00:00') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72919,   1,        128) /* ItemType - Misc */
@@ -11,9 +11,9 @@ VALUES (72919,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72919,   1, True ) /* Stuck */
-     , (72919,   2, True) /* Open */
+     , (72919,   2, True ) /* Open */
      , (72919,  24, True ) /* UiHidden */
-     , (72919,  34, True) /* DefaultOpen */;
+     , (72919,  34, True ) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72919,  11,     300) /* ResetInterval */

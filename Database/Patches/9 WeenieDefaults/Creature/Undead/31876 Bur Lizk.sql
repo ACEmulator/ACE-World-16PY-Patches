@@ -78,7 +78,9 @@ VALUES (31876,   1, 0x02000FA5) /* Setup */
      , (31876,  22, 0x34000028) /* PhysicsEffectTable */
      , (31876,  31,      70099) /* LinkedPortalOne - Water Island Access */
      , (31876,  32,        447) /* WieldedTreasureType - 
-                                   Wield Khopesh (25500) | Probability: 98% */;
+                                   # Set: 1
+                                   |  98.00% chance of Khopesh (25500)
+                                   |   2.00% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31876, 12, 0x003C0114, 90.1, -191.8, -72.063, 1, 0, 0, 0) /* PortalSummonLoc */

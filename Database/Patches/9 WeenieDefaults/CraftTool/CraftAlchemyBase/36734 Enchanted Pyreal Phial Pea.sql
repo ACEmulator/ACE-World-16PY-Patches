@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36734;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36734, 'ace36734-enchantedpyrealphialpea', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (36734, 'ace36734-enchantedpyrealphialpea', 44, '2023-04-09 17:44:47') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36734,   1,    8388608) /* ItemType - CraftAlchemyBase */
@@ -11,6 +11,7 @@ VALUES (36734,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (36734,  15,      20000) /* StackUnitValue */
      , (36734,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36734,  19,      20000) /* Value */
+     , (36734,  33,          1) /* Bonded - Bonded */
      , (36734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36734,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
 

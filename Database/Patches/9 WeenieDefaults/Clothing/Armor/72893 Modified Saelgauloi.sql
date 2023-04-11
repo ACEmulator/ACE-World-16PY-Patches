@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72893;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72893, 'ace72893-modifiedbreastplategaerlan', 2, '2023-02-26 09:13:33') /* Clothing */;
+VALUES (72893, 'ace72893-modifiedsaelgauloi', 2, '2023-03-23 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72893,   1,          2) /* ItemType - Armor */
@@ -58,12 +58,11 @@ VALUES (72893,   1, 0x020000D2) /* Setup */
      , (72893,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72893,  4290,      2) /* Incantation of Armor Other */
-     , (72893,  1574,      2) /* Piercing Bane VI */
-     , (72893,  2108,      2) /* Brogard's Defiance */
-     , (72893,  4911,      2) /* Epic Armor */
-     , (72893,  4557,      2) /* Incantation of Impregnability Other */
-     , (72893,  1562,      2) /* Blade Bane VI */
-     , (72893,  1498,      2) /* Acid Bane VI */
-     , (72893,  4695,      2) /* Epic Impregnability */;
-
+VALUES (72893,  4290,      2)  /* Incantation of Armor Other */
+     , (72893,  1574,      2)  /* Piercing Bane VI */
+     , (72893,  2108,      2)  /* Brogard's Defiance */
+     , (72893,  4911,      2)  /* Epic Armor */
+     , (72893,  4557,      2)  /* Incantation of Impregnability Other */
+     , (72893,  1562,      2)  /* Blade Bane VI */
+     , (72893,  1498,      2)  /* Acid Bane VI */
+     , (72893,  4695,      2)  /* Epic Impregnability */;

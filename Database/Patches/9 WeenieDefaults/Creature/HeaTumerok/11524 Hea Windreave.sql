@@ -74,20 +74,28 @@ VALUES (11524,   1, 0x02001401) /* Setup */
      , (11524,   8, 0x0600103C) /* Icon */
      , (11524,  22, 0x34000026) /* PhysicsEffectTable */
      , (11524,  32,        384) /* WieldedTreasureType - 
-                                   Wield Shortbow (307) | Probability: 5%
-                                   Wield 25x Arrow (300) | Probability: 100%
-                                   Wield Shouyumi (341) | Probability: 5%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Light Crossbow (312) | Probability: 10%
-                                   Wield 15x Quarrel (305) | Probability: 100%
-                                   Wield Balister of the Quiddity (11892) | Probability: 45%
-                                   Wield 20x Quarrel (305) | Probability: 100%
-                                   Wield Longbow (306) | Probability: 10%
-                                   Wield 22x Arrow (300) | Probability: 100%
-                                   Wield Yumi (363) | Probability: 10%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 15.000001%
-                                   Wield 15x Quarrel (305) | Probability: 100% */
+                                   # Set: 1
+                                   |   5.00% chance of Shortbow (307)
+                                   |         with
+                                   |            100.00% chance of 23x to 25x Arrow (300) | StackSizeVariance: 0.1
+                                   |   5.00% chance of Shouyumi (341)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Light Crossbow (312)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+                                   |  45.00% chance of Balister of the Quiddity (11892)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Quarrel (305) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Longbow (306)
+                                   |         with
+                                   |            100.00% chance of 20x to 22x Arrow (300) | StackSizeVariance: 0.1
+                                   |  10.00% chance of Yumi (363)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (300)
+                                   |  15.00% chance of Heavy Crossbow (311)
+                                   |         with
+                                   |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1 */
      , (11524,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

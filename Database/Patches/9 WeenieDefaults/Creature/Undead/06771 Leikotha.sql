@@ -6,7 +6,7 @@ VALUES (6771, 'mumiyahgreatercrimsonhaft', 10, '2022-12-04 19:04:52') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6771,   1,         16) /* ItemType - Creature */
      , (6771,   2,         14) /* CreatureType - Undead */
-     , (6771,   3,         44) /* PaletteTemplate - Tanred */
+     , (6771,   3,         44) /* PaletteTemplate - TanRed */
      , (6771,   6,         -1) /* ItemsCapacity */
      , (6771,   7,         -1) /* ContainersCapacity */
      , (6771,  16,         32) /* ItemUseable - Remote */

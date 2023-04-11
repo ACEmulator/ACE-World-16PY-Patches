@@ -83,13 +83,18 @@ VALUES (12020,   1, 0x02000498) /* Setup */
      , (12020,   8, 0x060016C0) /* Icon */
      , (12020,  22, 0x34000030) /* PhysicsEffectTable */
      , (12020,  32,        376) /* WieldedTreasureType - 
-                                   Wield 5x Javelin (8620) | Probability: 25%
-                                   Wield 4x Acid Javelin (8621) | Probability: 25%
-                                   Wield Serpent's Fang (12028) | Probability: 100%
-                                   Wield Large Kite Shield (92) | Probability: 10%
-                                   Wield Kite Shield (91) | Probability: 10%
-                                   Wield Large Round Shield (94) | Probability: 20%
-                                   Wield Tower Shield (95) | Probability: 15.000001% */
+                                   # Set: 1
+                                   |  25.00% chance of 5x Javelin (8620) | StackSizeVariance: 0.1
+                                   |  25.00% chance of 4x Acid Javelin (8621) | StackSizeVariance: 0.1
+                                   |  50.00% chance of nothing from this set
+                                   # Set: 2
+                                   | 100.00% chance of Serpent's Fang (12028)
+                                   # Set: 3
+                                   |  10.00% chance of Large Kite Shield (92)
+                                   |  10.00% chance of Kite Shield (91)
+                                   |  20.00% chance of Large Round Shield (94)
+                                   |  15.00% chance of Tower Shield (95)
+                                   |  45.00% chance of nothing from this set */
      , (12020,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

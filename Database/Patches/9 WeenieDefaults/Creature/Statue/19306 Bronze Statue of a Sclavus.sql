@@ -76,14 +76,18 @@ VALUES (19306,   1, 0x02000498) /* Setup */
      , (19306,   8, 0x060016C0) /* Icon */
      , (19306,  22, 0x34000075) /* PhysicsEffectTable */
      , (19306,  32,        402) /* WieldedTreasureType - 
-                                   Wield Bronze Longbow (15873) | Probability: 67%
-                                   Wield 20x Greater Acid Arrow (5306) | Probability: 16%
-                                   Wield 20x Greater Lightning Arrow (5308) | Probability: 16%
-                                   Wield 20x Greater Fire Arrow (5305) | Probability: 17%
-                                   Wield 20x Greater Frost Arrow (5307) | Probability: 17%
-                                   Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 17%
-                                   Wield 20x Greater Frog Crotch Arrow (5312) | Probability: 17%
-                                   Wield Bronze Morning Star (15877) | Probability: 100% */
+                                   # Set: 1
+                                   |  67.00% chance of Bronze Longbow (15873)
+                                   |         with
+                                   |             16.00% chance of 18x to 20x Greater Acid Arrow (5306) | StackSizeVariance: 0.1
+                                   |             16.00% chance of 18x to 20x Greater Lightning Arrow (5308) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Fire Arrow (5305) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Frost Arrow (5307) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Armor Piercing Arrow (5309) | StackSizeVariance: 0.1
+                                   |             17.00% chance of 18x to 20x Greater Frog Crotch Arrow (5312) | StackSizeVariance: 0.1
+                                   |  33.00% chance of nothing from this set
+                                   # Set: 2
+                                   | 100.00% chance of Bronze Morning Star (15877) */
      , (19306,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

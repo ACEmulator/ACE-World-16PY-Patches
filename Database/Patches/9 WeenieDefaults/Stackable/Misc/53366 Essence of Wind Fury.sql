@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53366;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53366, 'ace53366-essenceofwindfury', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (53366, 'ace53366-essenceofwindfury', 51, '2023-04-09 17:44:47') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53366,   1,        128) /* ItemType - Misc */
@@ -21,8 +21,8 @@ VALUES (53366,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53366,   1, 'Essence of Wind Fury') /* Name */
-     , (53366,  14, 'Kervim''telek of the Virindian Rise would be interested in this essence.') /* Use */
-     , (53366,  16, 'A powerful essence from a champion of the Virdian Rise.') /* LongDesc */
+     , (53366,  14, 'Kervim''telek of the Viridian Rise would be interested in this essence.') /* Use */
+     , (53366,  16, 'A powerful essence from a champion of the Viridian Rise.') /* LongDesc */
      , (53366,  33, 'pickupWindFuryEssence') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

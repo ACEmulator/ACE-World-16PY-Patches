@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33673;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33673, 'ace33673-tyrinaofarwic', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (33673, 'ace33673-tyrinaofarwic', 10, '2023-04-09 17:44:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33673,   1,         16) /* ItemType - Creature */
@@ -132,7 +132,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-44470_2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 44470 /* Corrupted Essence */, 10, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33673, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'CorruptedEssenceCount@1-89', NULL, NULL, NULL);
+VALUES (33673, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'CorruptedEssenceCount@0-89', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -172,7 +172,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-44469_2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 44469 /* Lesser Corrupted Essence */, 10, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33673, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'CorruptedEssenceCount@1-89_2', NULL, NULL, NULL);
+VALUES (33673, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'CorruptedEssenceCount@0-89_2', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

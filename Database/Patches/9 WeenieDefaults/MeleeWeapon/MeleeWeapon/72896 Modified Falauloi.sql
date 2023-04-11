@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72896;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72896, 'ace72896-modifiedstaffgaerlan', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (72896, 'ace72896-modifiedfalauloi', 6, '2023-03-23 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72896,   1,          1) /* ItemType - MeleeWeapon */
@@ -58,4 +58,4 @@ VALUES (72896,   1, 0x02000DCE) /* Setup */
      , (72896,  55,       2318) /* ProcSpell - Gravity Well */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72896,   4537,      2)  /* Finesse Weapon Mastery Other V */;
+VALUES (72896,  4537,      2)  /* Incantation of Finesse Weapon Mastery Other */;

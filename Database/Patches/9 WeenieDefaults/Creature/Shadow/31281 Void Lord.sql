@@ -70,12 +70,14 @@ VALUES (31281,   1, 0x020013F1) /* Setup */
      , (31281,   8, 0x06001BBE) /* Icon */
      , (31281,  22, 0x34000063) /* PhysicsEffectTable */
      , (31281,  32,       2016) /* WieldedTreasureType - 
-                                   Wield Raven Hand Aegis (31392) | Probability: 100%
-                                   Wield Raven Sabra (31386) | Probability: 20%
-                                   Wield Raven Sabra (31387) | Probability: 20%
-                                   Wield Raven Sabra (31388) | Probability: 20%
-                                   Wield Raven Sabra (31389) | Probability: 20%
-                                   Wield Raven Sabra (31390) | Probability: 20% */
+                                   # Set: 1
+                                   | 100.00% chance of Raven Hand Aegis (31392)
+                                   # Set: 2
+                                   |  20.00% chance of Raven Sabra (31386)
+                                   |  20.00% chance of Raven Sabra (31387)
+                                   |  20.00% chance of Raven Sabra (31388)
+                                   |  20.00% chance of Raven Sabra (31389)
+                                   |  20.00% chance of Raven Sabra (31390) */
      , (31281,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

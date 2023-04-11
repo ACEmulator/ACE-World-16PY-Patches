@@ -72,16 +72,17 @@ VALUES (1256,   1, 0x02000B4F) /* Setup */
      , (1256,   8, 0x06001039) /* Icon */
      , (1256,  22, 0x34000020) /* PhysicsEffectTable */
      , (1256,  32,        121) /* WieldedTreasureType - 
-                                   Wield Budiaq (308) | Probability: 15.000001%
-                                   Wield Scimitar (339) | Probability: 12%
-                                   Wield Shamshir (340) | Probability: 12%
-                                   Wield Spear (348) | Probability: 25%
-                                   Wield Tachi (353) | Probability: 11%
-                                   Wield 10x Throwing Dart (316) | Probability: 5%
-                                   Wield 10x Shouken (343) | Probability: 5%
-                                   Wield 6x Throwing Dagger (315) | Probability: 5%
-                                   Wield 4x Javelin (320) | Probability: 2%
-                                   Wield Djarid (317) | Probability: 10% */
+                                   # Set: 1
+                                   |  15.00% chance of Budiaq (308)
+                                   |  12.00% chance of Scimitar (339)
+                                   |  12.00% chance of Shamshir (340)
+                                   |  25.00% chance of Spear (348)
+                                   |  11.00% chance of Tachi (353)
+                                   |   5.00% chance of 9x to 10x Throwing Dart (316) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1
+                                   |   2.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
+                                   |   8.00% chance of Djarid (317) | Chance adjusted down from 10.00% due to overage for this set */
      , (1256,  35,        123) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

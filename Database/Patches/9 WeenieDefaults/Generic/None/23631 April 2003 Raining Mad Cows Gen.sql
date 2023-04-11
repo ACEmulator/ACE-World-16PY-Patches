@@ -1,15 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23631;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23631, 'eventmadcowgen', 1, '2022-08-03 04:23:55') /* Generic */;
+VALUES (23631, 'eventmadcowgen', 1, '2023-04-09 17:44:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23631,  81,          5) /* MaxGeneratedObjects */
      , (23631,  82,          0) /* InitGeneratedObjects */
      , (23631,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23631, 142,          1) /* GeneratorTimeType - RealTime */
-     , (23631, 143, 1680325260) /* GeneratorStartTime - 04/01/2023 05:01:00 */
-     , (23631, 144, 1680411540) /* GeneratorEndTime - 04/02/2023 04:59:00 */
+     , (23631, 143, 1711947660) /* GeneratorStartTime - 04/01/2024 05:01:00 */
+     , (23631, 144, 1712033940) /* GeneratorEndTime - 04/02/2024 04:59:00 */
      , (23631, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

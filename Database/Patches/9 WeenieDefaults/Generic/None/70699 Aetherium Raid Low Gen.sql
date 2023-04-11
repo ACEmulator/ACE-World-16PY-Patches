@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70699;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70699, 'ace70699-aetheriumraidlowgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (70699, 'ace70699-aetheriumraidlowgen', 1, '2023-04-09 17:44:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70699,  81,          1) /* MaxGeneratedObjects */
@@ -14,7 +14,7 @@ VALUES (70699,   1, True ) /* Stuck */
      , (70699,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70699,  41,     180) /* RegenerationInterval */
+VALUES (70699,  41,     300) /* RegenerationInterval */
      , (70699,  43,       5) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

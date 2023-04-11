@@ -75,12 +75,13 @@ VALUES (9252,   1, 0x020002FF) /* Setup */
      , (9252,   8, 0x060016BD) /* Icon */
      , (9252,  22, 0x34000019) /* PhysicsEffectTable */
      , (9252,  32,        119) /* WieldedTreasureType - 
-                                   Wield Club (3943) | Probability: 45%
-                                   Wield Dabus (3944) | Probability: 5%
-                                   Wield Kasrullah (3945) | Probability: 5%
-                                   Wield Mace (3947) | Probability: 10%
-                                   Wield Tofun (3946) | Probability: 5%
-                                   Wield 10x Throwing Club (310) | Probability: 30.000002% */
+                                   # Set: 1
+                                   |  45.00% chance of Club (3943)
+                                   |   5.00% chance of Dabus (3944)
+                                   |   5.00% chance of Kasrullah (3945)
+                                   |  10.00% chance of Mace (3947)
+                                   |   5.00% chance of Tofun (3946)
+                                   |  30.00% chance of 9x to 10x Throwing Club (310) | StackSizeVariance: 0.1 */
      , (9252,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

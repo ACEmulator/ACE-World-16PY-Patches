@@ -77,11 +77,12 @@ VALUES (26020,   1, 0x02001036) /* Setup */
      , (26020,   8, 0x060030B1) /* Icon */
      , (26020,  22, 0x340000AA) /* PhysicsEffectTable */
      , (26020,  32,        471) /* WieldedTreasureType - 
-                                   Wield Stone Axe (26026) | Probability: 20%
-                                   Wield Bone Dagger (27123) | Probability: 20%
-                                   Wield Stone Mace (26047) | Probability: 20%
-                                   Wield Stone Spear (27126) | Probability: 20%
-                                   Wield Bone Sword (27127) | Probability: 20% */
+                                   # Set: 1
+                                   |  20.00% chance of Stone Axe (26026)
+                                   |  20.00% chance of Bone Dagger (27123)
+                                   |  20.00% chance of Stone Mace (26047)
+                                   |  20.00% chance of Stone Spear (27126)
+                                   |  20.00% chance of Bone Sword (27127) */
      , (26020,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

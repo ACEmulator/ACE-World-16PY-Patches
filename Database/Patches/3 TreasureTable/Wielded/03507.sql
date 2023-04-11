@@ -5,3 +5,16 @@ VALUES (3507, 34344,  0, 0,    0, 0, 0,   0.345, 0, 0, 0,  True, False, False, 0
      , (3507, 34343,  0, 0,    0, 0, 0,   0.345, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Tachi */
      , (3507, 34345,  0, 0,    0, 0, 0,   0.345, 0, 0, 0,  True,  True, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Yumi */
      , (3507, 15431,  0, 0,    0, 100, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2021-11-01 00:00:00') /* Deadly Armor Piercing Arrow */;
+/* 
+    # Set: 1
+    |  34.50% chance of Yaoji (34344)
+    |  65.50% chance of nothing from this set
+    # Set: 2
+    |  34.50% chance of Tachi (34343)
+    |  65.50% chance of nothing from this set
+    # Set: 3
+    |  34.50% chance of Yumi (34345)
+    |         with
+    |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
+    |  65.50% chance of nothing from this set
+*/

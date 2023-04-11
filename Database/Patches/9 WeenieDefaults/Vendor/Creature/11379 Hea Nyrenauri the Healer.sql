@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11379;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11379, 'ahurengahealer-xp', 12, '2022-04-12 04:33:53') /* Vendor */;
+VALUES (11379, 'ahurengahealer-xp', 12, '2023-04-09 17:44:47') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11379,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (11379,   1, 0x02001401) /* Setup */
      , (11379,   3, 0x20000013) /* SoundTable */
      , (11379,   4, 0x3000000C) /* CombatTable */
      , (11379,   6, 0x04001E51) /* PaletteBase */
-     , (11379,   7, 0x100000BF) /* ClothingBase */
+     , (11379,   7, 0x1000061E) /* ClothingBase */
      , (11379,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

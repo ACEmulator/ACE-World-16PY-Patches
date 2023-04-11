@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45183;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45183, 'ace45183-sorrowwisp', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (45183, 'ace45183-sorrowwisp', 10, '2023-04-09 17:44:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45183,   1,         16) /* ItemType - Creature */
@@ -31,35 +31,35 @@ VALUES (45183,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45183,   1,       5) /* HeartbeatInterval */
      , (45183,   2,       0) /* HeartbeatTimestamp */
-     , (45183,   3,       3) /* HealthRate */
+     , (45183,   3,       5) /* HealthRate */
      , (45183,   4,       5) /* StaminaRate */
-     , (45183,   5,       5) /* ManaRate */
-     , (45183,  13,       1) /* ArmorModVsSlash */
+     , (45183,   5,       1) /* ManaRate */
+     , (45183,  13,     0.9) /* ArmorModVsSlash */
      , (45183,  14,       1) /* ArmorModVsPierce */
-     , (45183,  15,     0.5) /* ArmorModVsBludgeon */
-     , (45183,  16,     0.5) /* ArmorModVsCold */
-     , (45183,  17,      10) /* ArmorModVsFire */
-     , (45183,  18,    0.64) /* ArmorModVsAcid */
-     , (45183,  19,     0.5) /* ArmorModVsElectric */
+     , (45183,  15,     0.9) /* ArmorModVsBludgeon */
+     , (45183,  16,      10) /* ArmorModVsCold */
+     , (45183,  17,     0.9) /* ArmorModVsFire */
+     , (45183,  18,       1) /* ArmorModVsAcid */
+     , (45183,  19,       1) /* ArmorModVsElectric */
      , (45183,  31,      30) /* VisualAwarenessRange */
      , (45183,  34,       1) /* PowerupTime */
      , (45183,  36,       1) /* ChargeSpeed */
      , (45183,  39,     1.3) /* DefaultScale */
-     , (45183,  64,       1) /* ResistSlash */
-     , (45183,  65,       1) /* ResistPierce */
-     , (45183,  66,     0.7) /* ResistBludgeon */
-     , (45183,  67,     0.1) /* ResistFire */
-     , (45183,  68,     0.7) /* ResistCold */
-     , (45183,  69,    0.75) /* ResistAcid */
-     , (45183,  70,     0.7) /* ResistElectric */
+     , (45183,  64,     0.6) /* ResistSlash */
+     , (45183,  65,     0.4) /* ResistPierce */
+     , (45183,  66,     0.6) /* ResistBludgeon */
+     , (45183,  67,     0.6) /* ResistFire */
+     , (45183,  68,       0) /* ResistCold */
+     , (45183,  69,     0.4) /* ResistAcid */
+     , (45183,  70,     0.4) /* ResistElectric */
      , (45183,  71,       1) /* ResistHealthBoost */
-     , (45183,  72,       0) /* ResistStaminaDrain */
+     , (45183,  72,       1) /* ResistStaminaDrain */
      , (45183,  73,       1) /* ResistStaminaBoost */
-     , (45183,  74,       0) /* ResistManaDrain */
+     , (45183,  74,       1) /* ResistManaDrain */
      , (45183,  75,       1) /* ResistManaBoost */
+     , (45183,  80,       3) /* AiUseMagicDelay */
      , (45183, 104,      10) /* ObviousRadarRange */
-     , (45183, 122,       2) /* AiAcquireHealth */
-     , (45183, 125,       0) /* ResistHealthDrain */;
+     , (45183, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45183,   1, 'Sorrow Wisp') /* Name */
@@ -87,21 +87,20 @@ VALUES (45183,   1, 20000, 0, 0, 20125) /* MaxHealth */
      , (45183,   5,  5000, 0, 0, 5490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (45183,  6, 0, 3, 0, 383, 0, 0) /* MeleeDefense        Specialized */
-     , (45183,  7, 0, 3, 0, 270, 0, 0) /* MissileDefense      Specialized */
-     , (45183, 15, 0, 3, 0, 240, 0, 0) /* MagicDefense        Specialized */
+VALUES (45183,  6, 0, 3, 0, 398, 0, 0) /* MeleeDefense        Specialized */
+     , (45183,  7, 0, 3, 0, 500, 0, 0) /* MissileDefense      Specialized */
+     , (45183, 15, 0, 3, 0, 280, 0, 0) /* MagicDefense        Specialized */
      , (45183, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
-     , (45183, 24, 0, 2, 0, 600, 0, 0) /* Run                 Trained */
-     , (45183, 31, 0, 3, 0, 345, 0, 0) /* CreatureEnchantment Specialized */
-     , (45183, 33, 0, 3, 0, 345, 0, 0) /* LifeMagic           Specialized */
-     , (45183, 34, 0, 3, 0, 345, 0, 0) /* WarMagic            Specialized */
+     , (45183, 31, 0, 3, 0, 200, 0, 0) /* CreatureEnchantment Specialized */
+     , (45183, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */
+     , (45183, 34, 0, 3, 0, 220, 0, 0) /* WarMagic            Specialized */
      , (45183, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (45183,  0, 32, 150,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (45183, 16, 32,  0,    0,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (45183, 17, 32, 150, 0.75,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (45183, 21, 32,  0,    0,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (45183,  0, 32, 150,  0.5,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (45183, 16, 32,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (45183, 17, 32, 150, 0.75,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (45183, 21, 32,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45183,  2070,  2.067)  /* Heart Rend */

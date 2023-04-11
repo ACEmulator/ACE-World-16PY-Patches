@@ -75,8 +75,10 @@ VALUES (48763,   1, 0x020016A6) /* Setup */
      , (48763,   8, 0x060016C4) /* Icon */
      , (48763,  22, 0x34000025) /* PhysicsEffectTable */
      , (48763,  32,       2999) /* WieldedTreasureType - 
-                                   Wield Lightning Longbow (46633) | Probability: 100%
-                                   Wield 30x Greater Deadly Lightning Arrow (46629) | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Lightning Longbow (46633)
+                                   |         with
+                                   |            100.00% chance of 27x to 30x Greater Deadly Lightning Arrow (46629) | StackSizeVariance: 0.1 */
      , (48763,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -78,9 +78,10 @@ VALUES (8430,   1, 0x02000B4F) /* Setup */
      , (8430,   8, 0x06001039) /* Icon */
      , (8430,  22, 0x34000020) /* PhysicsEffectTable */
      , (8430,  32,        333) /* WieldedTreasureType - 
-                                   Wield Spear (23697) | Probability: 35%
-                                   Wield Tachi (23701) | Probability: 25%
-                                   Wield Yari (23731) | Probability: 40% */
+                                   # Set: 1
+                                   |  35.00% chance of Spear (23697)
+                                   |  25.00% chance of Tachi (23701)
+                                   |  40.00% chance of Yari (23731) */
      , (8430,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

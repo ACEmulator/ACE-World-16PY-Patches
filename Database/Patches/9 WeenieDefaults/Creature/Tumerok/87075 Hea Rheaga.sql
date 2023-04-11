@@ -80,8 +80,10 @@ VALUES (87075,   1, 0x02001410) /* Setup */
      , (87075,   8, 0x0600103C) /* Icon */
      , (87075,  22, 0x34000026) /* PhysicsEffectTable */
      , (87075,  32,       5900) /* WieldedTreasureType - 
-                                   Wield Yumi (23734) | Probability: 100%
-                                   Wield 20x Deadly Arrow (15429) | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Yumi (23734)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Arrow (15429) | StackSizeVariance: 0.1 */
      , (87075,  35,        317) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

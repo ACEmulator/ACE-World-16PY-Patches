@@ -81,22 +81,31 @@ VALUES (25967,   1, 0x02000001) /* Setup */
      , (25967,  17, 0x040002AE) /* SkinPalette */
      , (25967,  22, 0x34000004) /* PhysicsEffectTable */
      , (25967,  32,        198) /* WieldedTreasureType - 
-                                   Wield Yumi (23733) | Probability: 12.5%
-                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
-                                   Wield Yumi (23733) | Probability: 12.5%
-                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
-                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
-                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
-                                   Wield Yumi (23733) | Probability: 12.5%
-                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
-                                   Wield Yumi (23733) | Probability: 12.5%
-                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
-                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
-                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
-                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100% */
+                                   # Set: 1
+                                   |  12.50% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Armor Piercing Arrow (15431) | StackSizeVariance: 0.1
+                                   |  12.50% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 15x to 17x Deadly Arrow (15429) | StackSizeVariance: 0.1
+                                   |  12.50% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Quarrel (15438) | StackSizeVariance: 0.1
+                                   |  12.50% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Deadly Armor Piercing Quarrel (15440) | StackSizeVariance: 0.1
+                                   |  12.50% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Broadhead Arrow (15433) | StackSizeVariance: 0.1
+                                   |  12.50% chance of Yumi (23733)
+                                   |         with
+                                   |            100.00% chance of 15x to 17x Deadly Blunt Arrow (15432) | StackSizeVariance: 0.1
+                                   |  12.50% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Deadly Broadhead Quarrel (15442) | StackSizeVariance: 0.1
+                                   |  12.50% chance of Heavy Crossbow (23664)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Deadly Blunt Quarrel (15441) | StackSizeVariance: 0.1 */
      , (25967,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

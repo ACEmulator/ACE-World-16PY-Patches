@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49267;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49267, 'ace49267-causticknightessence', 70, '2021-11-01 00:00:00') /* PetDevice */;
+VALUES (49267, 'ace49267-causticknightessence', 70, '2023-04-09 17:44:47') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49267,   1,        128) /* ItemType - Misc */
@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49267,   1, 0x02000181) /* Setup */
      , (49267,   3, 0x20000014) /* SoundTable */
      , (49267,   6, 0x04000BEF) /* PaletteBase */
-     , (49267,   8, 0x06001C75) /* Icon */
+     , (49267,   8, 0x06002401) /* Icon */
      , (49267,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49267,  50, 0x06007428) /* IconOverlay */
      , (49267,  52, 0x06007420) /* IconUnderlay */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80028;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80028, 'ace80028-manabarrier', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (80028, 'ace80028-manabarrier', 10, '2023-03-23 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80028,   1,         16) /* ItemType - Creature */
@@ -14,15 +14,15 @@ VALUES (80028,   1,         16) /* ItemType - Creature */
      , (80028, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (80028,  1,    True) /* Stuck */
-     , (80028, 11,    True) /* IgnoreCollisions */
-     , (80028, 12,    True) /* ReportCollisions */
-     , (80028, 13,   False) /* Ethereal */
-     , (80028, 19,   False) /* Attackable */
-     , (80028, 29,    True) /* NoCorpse */
-     , (80028, 52,    True) /* AiImmobile */
-     , (80028, 82,    True) /* DontTurnOrMoveWhenGiving */
-     , (80028, 83,    True) /* NpcLooksLikeObject */;
+VALUES (80028,   1, True ) /* Stuck */
+     , (80028,  11, True ) /* IgnoreCollisions */
+     , (80028,  12, True ) /* ReportCollisions */
+     , (80028,  13, False) /* Ethereal */
+     , (80028,  19, False) /* Attackable */
+     , (80028,  29, True ) /* NoCorpse */
+     , (80028,  52, True ) /* AiImmobile */
+     , (80028,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (80028,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80028,  76,     0.7) /* Translucency */;

@@ -71,8 +71,9 @@ VALUES (11876,   1, 0x02001402) /* Setup */
      , (11876,   8, 0x0600103C) /* Icon */
      , (11876,  22, 0x34000026) /* PhysicsEffectTable */
      , (11876,  32,        367) /* WieldedTreasureType - 
-                                   Wield Hafted Gromnie Spear (11752) | Probability: 80%
-                                   Wield Reinforced Gromnie Spear (11778) | Probability: 20% */
+                                   # Set: 1
+                                   |  80.00% chance of Hafted Gromnie Spear (11752)
+                                   |  20.00% chance of Reinforced Gromnie Spear (11778) */
      , (11876,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

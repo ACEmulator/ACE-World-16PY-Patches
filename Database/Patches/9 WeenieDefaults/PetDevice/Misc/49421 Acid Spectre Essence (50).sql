@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49421;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49421, 'ace49421-acidspectreessence50', 70, '2021-11-01 00:00:00') /* PetDevice */;
+VALUES (49421, 'ace49421-acidspectreessence50', 70, '2023-04-09 17:44:47') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49421,   1,        128) /* ItemType - Misc */
@@ -20,7 +20,7 @@ VALUES (49421,   1,        128) /* ItemType - Misc */
      , (49421, 280,        213) /* SharedCooldown */
      , (49421, 362,          2) /* SummoningMastery - Necromancer */
      , (49421, 366,         54) /* UseRequiresSkill - Summoning */
-     , (49421, 367,        310) /* UseRequiresSkillLevel */
+     , (49421, 367,        320) /* UseRequiresSkillLevel */
      , (49421, 369,         40) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

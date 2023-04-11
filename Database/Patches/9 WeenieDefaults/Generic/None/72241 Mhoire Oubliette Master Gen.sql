@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72241;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72241, 'ace72241-mhoireoubliettemastergen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72241, 'ace72241-mhoireoubliettemastergen', 1, '2023-04-09 17:44:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72241,  81,          1) /* MaxGeneratedObjects */
@@ -14,7 +14,7 @@ VALUES (72241,   1, True ) /* Stuck */
      , (72241,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72241,  41,     120) /* RegenerationInterval */
+VALUES (72241,  41,     300) /* RegenerationInterval */
      , (72241,  43,       0) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

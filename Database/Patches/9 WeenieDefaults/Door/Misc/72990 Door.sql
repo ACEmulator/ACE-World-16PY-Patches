@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72990;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72990, 'ace72990-dooractivated', 19, '2005-02-09 10:00:00') /* Door */;
+VALUES (72990, 'ace72990-door', 19, '2023-03-23 00:00:00') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72990,   1,        128) /* ItemType - Misc */
@@ -13,12 +13,12 @@ VALUES (72990,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72990,   1, True ) /* Stuck */
-     , (72990,   2, True) /* Open */
+     , (72990,   2, True ) /* Open */
      , (72990,  12, True ) /* ReportCollisions */
      , (72990,  13, False) /* Ethereal */
      , (72990,  14, False) /* GravityStatus */
      , (72990,  33, False) /* ResetMessagePending */
-     , (72990,  34, True) /* DefaultOpen */;
+     , (72990,  34, True ) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72990,  11,     300) /* ResetInterval */

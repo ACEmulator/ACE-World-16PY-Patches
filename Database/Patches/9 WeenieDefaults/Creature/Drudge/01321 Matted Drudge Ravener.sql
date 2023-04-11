@@ -73,11 +73,13 @@ VALUES (1321,   1, 0x020007DD) /* Setup */
      , (1321,   8, 0x06001035) /* Icon */
      , (1321,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1321,  32,         80) /* WieldedTreasureType - 
-                                   Wield Jambiya (319) | Probability: 16%
-                                   Wield Knife (329) | Probability: 17%
-                                   Wield 10x Throwing Dart (316) | Probability: 5%
-                                   Wield 10x Shouken (343) | Probability: 4%
-                                   Wield 6x Throwing Dagger (315) | Probability: 5% */
+                                   # Set: 1
+                                   |  16.00% chance of Jambiya (319)
+                                   |  17.00% chance of Knife (329)
+                                   |   5.00% chance of 9x to 10x Throwing Dart (316) | StackSizeVariance: 0.1
+                                   |   4.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1
+                                   |  53.00% chance of nothing from this set */
      , (1321,  35,         81) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

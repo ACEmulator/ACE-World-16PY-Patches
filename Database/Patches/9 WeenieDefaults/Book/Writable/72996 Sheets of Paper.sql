@@ -1,18 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72996;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72996, 'ace72996-letterrytheran', 8, '2005-02-09 10:00:00') /* Book */;
+VALUES (72996, 'ace72996-sheetsofpaper', 8, '2023-03-23 00:00:00') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (72996,   1,    8192) /* ItemType - Writable */
-     , (72996,   5,      25) /* EncumbranceVal */
-     , (72996,   8,       5) /* Mass */
-     , (72996,   9,       0) /* ValidLocations - None */
-     , (72996,  16,       8) /* ItemUseable - Contained */
-     , (72996,  19,       3) /* Value */
-     , (72996,  33,       1) /* Bonded - Bonded*/
-     , (72996,  93,    1044) /* PhysicsState - Ethereal, IgnoreCollisions Gravity */
-     , (72996, 114,       1) /* Attuned */;
+VALUES (72996,   1,       8192) /* ItemType - Writable */
+     , (72996,   5,         25) /* EncumbranceVal */
+     , (72996,   8,          5) /* Mass */
+     , (72996,   9,          0) /* ValidLocations - None */
+     , (72996,  16,          8) /* ItemUseable - Contained */
+     , (72996,  19,          3) /* Value */
+     , (72996,  33,          1) /* Bonded - Bonded */
+     , (72996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (72996, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72996,  22, False) /* Inscribable */;

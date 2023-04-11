@@ -73,32 +73,37 @@ VALUES (4107,   1, 0x02001401) /* Setup */
      , (4107,   8, 0x0600103C) /* Icon */
      , (4107,  22, 0x34000026) /* PhysicsEffectTable */
      , (4107,  32,        229) /* WieldedTreasureType - 
-                                   Wield 10x Throwing Dart (316) | Probability: 10%
-                                   Wield 10x Shouken (343) | Probability: 5%
-                                   Wield 6x Throwing Dagger (315) | Probability: 10%
-                                   Wield 4x Javelin (320) | Probability: 10%
-                                   Wield 3x Djarid (317) | Probability: 10%
-                                   Wield 5x Throwing Club (310) | Probability: 25%
-                                   Wield 5x Throwing Axe (304) | Probability: 25%
-                                   Wield Budiaq (308) | Probability: 5%
-                                   Wield Tumerok Board with Nail (7766) | Probability: 5%
-                                   Wield Dabus (313) | Probability: 5%
-                                   Wield Dagger (314) | Probability: 5%
-                                   Wield Hand Axe (303) | Probability: 5%
-                                   Wield Jambiya (319) | Probability: 2%
-                                   Wield Jitte (321) | Probability: 5%
-                                   Wield Kasrullah (325) | Probability: 5%
-                                   Wield Katar (326) | Probability: 5%
-                                   Wield Khanjar (328) | Probability: 5%
-                                   Wield Knife (329) | Probability: 3%
-                                   Wield Mace (331) | Probability: 5%
-                                   Wield Short Sword (352) | Probability: 5%
-                                   Wield Shou-ono (342) | Probability: 5%
-                                   Wield Simi (345) | Probability: 5%
-                                   Wield Spear (348) | Probability: 5%
-                                   Wield Tofun (356) | Probability: 10%
-                                   Wield Yaoji (361) | Probability: 15.000001%
-                                   Wield Yari (362) | Probability: 5% */
+                                   # Set: 1
+                                   |  10.00% chance of 9x to 10x Throwing Dart (316) | StackSizeVariance: 0.1
+                                   |   5.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
+                                   |  10.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1
+                                   |  10.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
+                                   |  10.00% chance of 3x Djarid (317) | StackSizeVariance: 0.1
+                                   |  25.00% chance of 5x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |  25.00% chance of 5x Throwing Axe (304) | StackSizeVariance: 0.1
+                                   |   5.00% chance of nothing from this set
+                                   # Set: 2
+                                   |   5.00% chance of Budiaq (308)
+                                   |   5.00% chance of Tumerok Board with Nail (7766)
+                                   |   5.00% chance of Dabus (313)
+                                   |   5.00% chance of Dagger (314)
+                                   |   5.00% chance of Hand Axe (303)
+                                   |   2.00% chance of Jambiya (319)
+                                   |   5.00% chance of Jitte (321)
+                                   |   5.00% chance of Kasrullah (325)
+                                   |   5.00% chance of Katar (326)
+                                   |   5.00% chance of Khanjar (328)
+                                   |   3.00% chance of Knife (329)
+                                   |   5.00% chance of Mace (331)
+                                   |   5.00% chance of Short Sword (352)
+                                   |   5.00% chance of Shou-ono (342)
+                                   |   5.00% chance of Simi (345)
+                                   |   5.00% chance of Spear (348)
+                                   |  10.00% chance of Tofun (356)
+                                   |  15.00% chance of Yaoji (361)
+                                   # Set: 3
+                                   |   5.00% chance of Yari (362)
+                                   |  95.00% chance of nothing from this set */
      , (4107,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
