@@ -139,8 +139,13 @@ Use:
                 QuestSuccess:
                     - Delay: 0.1, InqQuest: MarauderLairComplete
                         QuestSuccess:
-                            - Delay: 1, Tell: You have earned my trust, brave adventurer. I would ask you, in the spirit of our alliance with Queen Elysa, to venture to Ayan Baqur and seek out a man named Mekhmet.
-                            - Delay: 1, Goto: ResetFacing
+                            - Delay: 0.1, InqQuest: VissFlagComplete
+                                QuestSuccess:
+                                    - Delay: 0.2, Tell: I see you have gained access to the isle of Vissidal. There is nothing more I might ask of you. Maintain a presence there. Remain alert. When more is required of you, you will know.
+                                    - Delay: 1, Goto: ResetFacing
+                                QuestFailure:
+                                    - Delay: 0.2, Tell: You have earned my trust, brave adventurer. I would ask you, in the spirit of our alliance with Queen Elysa, to venture to Ayan Baqur and seek out a man named Mekhmet.
+                                    - Delay: 1, Goto: ResetFacing
                         QuestFailure:
                             - Delay: 1, Tell: You, who have done so much for the people of Silyun, I now request a boon from you.
                             - Delay: 2, Tell: Not for the people. Not for the cause. But for ME!
