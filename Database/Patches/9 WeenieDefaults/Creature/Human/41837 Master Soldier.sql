@@ -111,4 +111,5 @@ VALUES (41837,  2074,   2.02)  /* Gossamer Flesh */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41837, 2, 38856,  1, 0, 0, False) /* Create Radiant Blood Blade (38856) for Wield */
-     , (41837, 2, 38853,  1, 0, 0, False) /* Create Radiant Blood Shield (38853) for Wield */;
+     , (41837, 2, 38853,  1, 0, 0, False) /* Create Radiant Blood Shield (38853) for Wield */
+     , (41837, 9, 88471,  0, 0, 1, False) /* Create Radiant Blood Supply Cage Key (88471) for ContainTreasure */;

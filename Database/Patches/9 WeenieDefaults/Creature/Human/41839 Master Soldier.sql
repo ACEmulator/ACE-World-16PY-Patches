@@ -110,4 +110,5 @@ VALUES (41839,  2074,   2.02)  /* Gossamer Flesh */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41839, 2, 38855,  1, 0, 0, False) /* Create Eldrytch Web Blade (38855) for Wield */
-     , (41839, 2, 38852,  1, 0, 0, False) /* Create Eldrytch Web Shield (38852) for Wield */;
+     , (41839, 2, 38852,  1, 0, 0, False) /* Create Eldrytch Web Shield (38852) for Wield */
+     , (41839, 9, 88470,  0, 0, 1, False) /* Create Eldrytch Web Supply Cage Key (88470) for ContainTreasure */;
