@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40088;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40088, 'ace40088-empoweredswordoflostlight', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (40088, 'ace40088-empoweredswordoflostlight', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40088,   1,          1) /* ItemType - MeleeWeapon */
@@ -13,7 +13,6 @@ VALUES (40088,   1,          1) /* ItemType - MeleeWeapon */
      , (40088,  33,          1) /* Bonded - Bonded */
      , (40088,  44,         73) /* Damage */
      , (40088,  45,          3) /* DamageType - Slash, Pierce */
-     , (40088,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (40088,  47,          6) /* AttackType - Thrust, Slash */
      , (40088,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40088,  49,         30) /* WeaponTime */
@@ -41,7 +40,7 @@ VALUES (40088,   5,  -0.033) /* ManaRate */
      , (40088,  39,     1.3) /* DefaultScale */
      , (40088,  62,    1.18) /* WeaponOffense */
      , (40088,  63,       1) /* DamageMod */
-     , (40088, 147,    0.34) /* CriticalFrequency */;
+     , (40088, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40088,   1, 'Empowered Sword of Lost Light') /* Name */
@@ -54,11 +53,11 @@ VALUES (40088,   1, 0x02000F90) /* Setup */
      , (40088,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40088,  2059,      2)  /* Honed Control */
+VALUES (40088,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (40088,  2059,      2)  /* Honed Control */
+     , (40088,  4624,      2)  /* Incantation of Heavy Weapon Mastery Self */
      , (40088,  2087,      2)  /* Might of the Lugians */
+     , (40088,  4712,      2)  /* Epic Heavy Weapon Aptitude */
      , (40088,  2096,      2)  /* Aura of Infected Caress */
      , (40088,  2101,      2)  /* Aura of Cragstone's Will */
-     , (40088,  2106,      2)  /* Aura of Elysa's Sight */
-     , (40088,  2116,      2)  /* Aura of Atlan's Alacrity */
-     , (40088,  4624,      2)  /* Incantation of Heavy Weapon Mastery Self */
-     , (40088,  4712,      2)  /* Epic Heavy Weapon Aptitude */;
+     , (40088,  2106,      2)  /* Aura of Elysa's Sight */;
