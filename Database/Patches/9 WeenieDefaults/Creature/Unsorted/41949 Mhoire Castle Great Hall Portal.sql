@@ -23,7 +23,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41949,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41949,   1, 'Mhoire Castle Great Hall Portal') /* Name */;
+VALUES (41949,   1, 'Mhoire Castle Great Hall Portal') /* Name */
+     , (41949,  16, 'A portal for the defenders of Mhoire Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41949,   1, 0x02001945) /* Setup */

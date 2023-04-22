@@ -37,7 +37,7 @@ VALUES (41971,   1,       5) /* HeartbeatInterval */
      , (41971,   5,       1) /* ManaRate */
      , (41971,  13,     0.9) /* ArmorModVsSlash */
      , (41971,  14,       1) /* ArmorModVsPierce */
-     , (41971,  15,     0.9) /* ArmorModVsBludgeon */
+     , (41971,  15,       1) /* ArmorModVsBludgeon */
      , (41971,  16,      10) /* ArmorModVsCold */
      , (41971,  17,     0.9) /* ArmorModVsFire */
      , (41971,  18,       1) /* ArmorModVsAcid */
@@ -46,10 +46,10 @@ VALUES (41971,   1,       5) /* HeartbeatInterval */
      , (41971,  34,       1) /* PowerupTime */
      , (41971,  36,       1) /* ChargeSpeed */
      , (41971,  39,     1.3) /* DefaultScale */
-     , (41971,  64,     0.6) /* ResistSlash */
-     , (41971,  65,     0.4) /* ResistPierce */
+     , (41971,  64,     0.8) /* ResistSlash */
+     , (41971,  65,     0.8) /* ResistPierce */
      , (41971,  66,     0.6) /* ResistBludgeon */
-     , (41971,  67,     0.6) /* ResistFire */
+     , (41971,  67,     0.8) /* ResistFire */
      , (41971,  68,       0) /* ResistCold */
      , (41971,  69,     0.4) /* ResistAcid */
      , (41971,  70,     0.4) /* ResistElectric */
@@ -98,21 +98,25 @@ VALUES (41971,  6, 0, 3, 0, 398, 0, 0) /* MeleeDefense        Specialized */
      , (41971, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (41971,  0, 32, 150,  0.5,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (41971, 16, 32,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (41971, 17, 32, 150, 0.75,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (41971, 21, 32,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (41971,  0, 8, 150,  0.5,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (41971, 16, 8,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (41971, 17, 8, 150, 0.75,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (41971, 21, 8,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41971,  2070,  2.067)  /* Heart Rend */
-     , (41971,  2073,  2.067)  /* Adja's Intervention */
-     , (41971,  2078,  2.067)  /* Void's Call */
-     , (41971,  2084,  2.067)  /* Belly of Lead */
-     , (41971,  2136,  2.067)  /* Icy Torment */
-     , (41971,  2328,      2)  /* Vitality Siphon */
-     , (41971,  3879,    2.3)  /* Glacial Strike */
-     , (41971,  3909,  2.067)  /* Mana Syphon */
-     , (41971,  3916,    2.3)  /* Flayed Flesh */;
+VALUES (41971,  2070,   2.05) /* Heart Rend */
+     , (41971,  2073,   2.03) /* Adja's Intervention */
+     , (41971,  2078,   2.03) /* Void's Call */
+     , (41971,  2084,   2.03) /* Belly of Lead */
+     , (41971,  2136,   2.07) /* Icy Torment */
+     , (41971,  2328,   2.06) /* Vitality Siphon */
+     , (41971,  3879,   2.08) /* Glacial Strike */
+     , (41971,  3909,   2.04) /* Mana Syphon */
+     , (41971,  3916,   2.08) /* Flayed Flesh */
+     , (41971,  2164,   2.08) /* Swordsman's Gift */
+     , (41971,  2166,   2.09) /* Tusker's Gift */
+     , (41971,  2168,    2.1) /* Gelidite's Gift */
+     , (41971,  3884,   2.13) /* Glacial Ring */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41971, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
