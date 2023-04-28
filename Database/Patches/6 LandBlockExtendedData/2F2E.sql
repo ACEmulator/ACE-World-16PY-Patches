@@ -12,12 +12,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x72F2E1AD, 0x72F2E1B1, '2021-11-01 00:00:00') /* South Gate (37051) */
      , (0x72F2E1AD, 0x72F2E1B2, '2021-11-01 00:00:00') /* Aerbax Beam (36977) */
      , (0x72F2E1AD, 0x72F2E1B3, '2021-11-01 00:00:00') /* South Gate (37051) */
-     , (0x72F2E1AD, 0x72F2E1B4, '2021-11-01 00:00:00') /* South Gate (37051) */
-     , (0x72F2E1AD, 0x72F2E1C2, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x72F2E1AD, 0x72F2E1C3, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x72F2E1AD, 0x72F2E1C4, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x72F2E1AD, 0x72F2E1C5, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */
-     , (0x72F2E1AD, 0x72F2E1C6, '2021-11-01 00:00:00') /* Aerbax Harm Hotspot (37056) */;
+     , (0x72F2E1AD, 0x72F2E1B4, '2021-11-01 00:00:00') /* South Gate (37051) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2E1B1, 37051, 0x2F2E002A, 129, 34.3, 13.225, -0.5, 0, 0, -0.866025,  True, '2021-11-01 00:00:00'); /* South Gate */
@@ -36,40 +31,9 @@ VALUES (0x72F2E1B4, 37051, 0x2F2E002A, 135, 34.3, 13.225, 0.5, 0, 0, -0.866025, 
 /* @teleloc 0x2F2E002A [135.000000 34.299999 13.225000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C2, 37056, 0x2F2E0032, 156, 36, 125.576, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aerbax Harm Hotspot */
-/* @teleloc 0x2F2E0032 [156.000000 36.000000 125.575996] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C3, 37056, 0x2F2E0022, 108, 36, 125.576, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aerbax Harm Hotspot */
-/* @teleloc 0x2F2E0022 [108.000000 36.000000 125.575996] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C4, 37056, 0x2F2E002B, 132, 60, 125.576, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aerbax Harm Hotspot */
-/* @teleloc 0x2F2E002B [132.000000 60.000000 125.575996] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C5, 37056, 0x2F2E0029, 132, 12, 125.576, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aerbax Harm Hotspot */
-/* @teleloc 0x2F2E0029 [132.000000 12.000000 125.575996] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C6, 37056, 0x2F2E002A, 132, 36, 125.576, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aerbax Harm Hotspot */
-/* @teleloc 0x2F2E002A [132.000000 36.000000 125.575996] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2E1C7, 87060, 0x2F2E002A, 132, 36, 125.631, 0.999958, 0, 0, -0.009137, False, '2021-11-01 00:00:00'); /* Aerbax's Shadow 5 Gen */
 /* @teleloc 0x2F2E002A [132.000000 36.000000 125.630997] 0.999958 0.000000 0.000000 -0.009137 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C8,  7924, 0x2F2E0030, 128.341, 170.086, 146.055, 0.999997, 0, 0, -0.00223, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x2F2E0030 [128.341003 170.085999 146.054993] 0.999997 0.000000 0.000000 -0.002230 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2E1C8, 0x72F2E1C9, '2021-11-01 00:00:00') /* AerbaxPortal Controller (87062) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C9, 87062, 0x2F2E0030, 128.334, 168.544, 146.005, 0.999997, 0, 0, -0.00223,  True, '2021-11-01 00:00:00'); /* AerbaxPortal Controller */
-/* @teleloc 0x2F2E0030 [128.334000 168.544006 146.005005] 0.999997 0.000000 0.000000 -0.002230 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1CA, 87148, 0x2F2E002B, 128.366, 67.7607, 125.63, -0.999236, 0, 0, 0.039083, False, '2021-11-01 00:00:00'); /* Aerbax's Shadow Booter Gen */
-/* @teleloc 0x2F2E002B [128.365997 67.760696 125.629997] -0.999236 0.000000 0.000000 0.039083 */
+VALUES (0x72F2E1CA, 87148, 0x2F2E002B, 128.366, 67.7607, 125.63, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Aerbax's Shadow Booter Gen */
+/* @teleloc 0x2F2E002B [128.365997 67.760696 125.629997] 1.000000 0.000000 0.000000 0.000000 */
