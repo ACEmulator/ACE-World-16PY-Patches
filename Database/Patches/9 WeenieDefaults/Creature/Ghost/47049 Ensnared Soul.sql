@@ -29,8 +29,7 @@ VALUES (47049,   1, True ) /* Stuck */
      , (47049,  29, True ) /* NoCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47049,  12,   0.069) /* Shade */
-     , (47049,  13,       1) /* ArmorModVsSlash */
+VALUES (47049,  13,       1) /* ArmorModVsSlash */
      , (47049,  14,     0.9) /* ArmorModVsPierce */
      , (47049,  15,    0.75) /* ArmorModVsBludgeon */
      , (47049,  16,       1) /* ArmorModVsCold */
