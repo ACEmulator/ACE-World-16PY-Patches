@@ -53,7 +53,6 @@ VALUES (47049,  12,   0.069) /* Shade */
      , (47049,  73,       1) /* ResistStaminaBoost */
      , (47049,  74,       1) /* ResistManaDrain */
      , (47049,  75,       1) /* ResistManaBoost */
-     , (47049,  76,       1) /* Translucency */
      , (47049,  80,       3) /* AiUseMagicDelay */
      , (47049, 104,      10) /* ObviousRadarRange */
      , (47049, 117,     0.5) /* FocusedProbability */
