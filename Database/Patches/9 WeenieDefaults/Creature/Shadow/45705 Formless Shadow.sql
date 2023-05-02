@@ -21,7 +21,7 @@ VALUES (45705,   1, True ) /* Stuck */
      , (45705,   6, True ) /* AiUsesMana */
      , (45705,  11, False) /* IgnoreCollisions */
      , (45705,  12, True ) /* ReportCollisions */
-     , (45705,  13, False) /* Ethereal */
+     , (45705,  13, True ) /* Ethereal */
      , (45705,  14, True ) /* GravityStatus */
      , (45705,  19, True ) /* Attackable */
      , (45705,  29, True ) /* NoCorpse */
