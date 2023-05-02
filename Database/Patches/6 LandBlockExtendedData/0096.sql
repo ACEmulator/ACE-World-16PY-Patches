@@ -86,8 +86,8 @@ VALUES (0x70096000, 0x70096005, '2021-11-01 00:00:00') /* Insatiable Eater (2863
      , (0x70096000, 0x70096053, '2021-11-01 00:00:00') /* Insatiable Eater (28635) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70096001, 24129, 0x00960309, 83.105, -36.2565, -23.995, 0.004128, 0, 0, 0.999992, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 2 Min.) */
-/* @teleloc 0x00960309 [83.105003 -36.256500 -23.995001] 0.004128 0.000000 0.000000 0.999992 */
+VALUES (0x70096001, 24129, 0x00960308, 83.105, -36.2565, -23.995, 0.004128, 0, 0, 0.999992, False, '2023-04-10 10:36:12'); /* Linkable Monster Generator ( 2 Min.) */
+/* @teleloc 0x00960308 [83.105003 -36.256500 -23.995001] 0.004128 0.000000 0.000000 0.999992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70096001, 0x70096054, '2021-11-01 00:00:00') /* Insatiable Eater (28848) */

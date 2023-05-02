@@ -742,8 +742,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7004D15E, 0x7004D15F, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D15F,  2131, 0x004D0590, 89.7738, -370.225, -12, -0.039774, 0, 0, -0.999209,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
-/* @teleloc 0x004D0590 [89.773804 -370.225006 -12.000000] -0.039774 0.000000 0.000000 -0.999209 */
+VALUES (0x7004D15F,  2131, 0x004D04A1, 89.7738, -370.225, -12, -0.039774, 0, 0, -0.999209,  True, '2023-04-10 10:36:12'); /* Pressure Plate */
+/* @teleloc 0x004D04A1 [89.773804 -370.225006 -12.000000] -0.039774 0.000000 0.000000 -0.999209 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D160, 24170, 0x004D0584, 75.132, -357.213, -9.476, -0.989997, 0, 0, -0.141087, False, '2021-11-01 00:00:00'); /* Lightning Trap */
@@ -760,8 +760,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7004D161, 0x7004D162, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D162,  2131, 0x004D0584, 80.4911, -359.963, -12, -0.728916, 0, 0, -0.684603,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
-/* @teleloc 0x004D0584 [80.491096 -359.963013 -12.000000] -0.728916 0.000000 0.000000 -0.684603 */
+VALUES (0x7004D162,  2131, 0x004D0445, 80.4911, -359.963, -12, -0.728916, 0, 0, -0.684603,  True, '2023-04-10 10:36:12'); /* Pressure Plate */
+/* @teleloc 0x004D0445 [80.491096 -359.963013 -12.000000] -0.728916 0.000000 0.000000 -0.684603 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D163, 24170, 0x004D058E, 87.0993, -345.142, -9.47599, -0.787444, 0, 0, -0.616386,  True, '2021-11-01 00:00:00'); /* Lightning Trap */
@@ -778,8 +778,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7004D164, 0x7004D163, '2021-11-01 00:00:00') /* Lightning Trap (24170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D165,  2131, 0x004D058E, 90.1124, -350.825, -12, -0.999924, 0, 0, 0.012294,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
-/* @teleloc 0x004D058E [90.112396 -350.825012 -12.000000] -0.999924 0.000000 0.000000 0.012294 */
+VALUES (0x7004D165,  2131, 0x004D0491, 90.1124, -350.825, -12, -0.999924, 0, 0, 0.012294,  True, '2023-04-10 10:36:12'); /* Pressure Plate */
+/* @teleloc 0x004D0491 [90.112396 -350.825012 -12.000000] -0.999924 0.000000 0.000000 0.012294 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D166, 24170, 0x004D059B, 104.799, -356.945, -9.44499, -0.937115, 0, 0, 0.349021,  True, '2021-11-01 00:00:00'); /* Lightning Trap */
@@ -796,8 +796,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7004D167, 0x7004D166, '2021-11-01 00:00:00') /* Lightning Trap (24170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D168,  2131, 0x004D059B, 99.186, -360.112, -12, -0.718588, 0, 0, 0.695436,  True, '2021-11-01 00:00:00'); /* Pressure Plate */
-/* @teleloc 0x004D059B [99.185997 -360.112000 -12.000000] -0.718588 0.000000 0.000000 0.695436 */
+VALUES (0x7004D168,  2131, 0x004D04D7, 99.186, -360.112, -12, -0.718588, 0, 0, 0.695436,  True, '2023-04-10 10:36:12'); /* Pressure Plate */
+/* @teleloc 0x004D04D7 [99.185997 -360.112000 -12.000000] -0.718588 0.000000 0.000000 0.695436 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D169, 25572, 0x004D0379, 98.5974, -359.851, -24, 0.72742, 0, 0, 0.686193, False, '2021-11-01 00:00:00'); /* Dispel All Trap */

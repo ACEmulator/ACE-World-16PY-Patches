@@ -51,8 +51,8 @@ VALUES (0x700443EA, 0x700443EC, '2023-03-23 00:00:00') /* Insatiable Eater (2863
      , (0x700443EA, 0x70044429, '2023-03-23 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700443EB, 32283, 0x00440201, 70.113, -149.918, 0.308, 0.031422, 0, 0, 0.999506, False, '2023-03-23 00:00:00'); /* Exit */
-/* @teleloc 0x00440201 [70.112999 -149.917999 0.308000] 0.031422 0.000000 0.000000 0.999506 */
+VALUES (0x700443EB, 32283, 0x004401FE, 70.113, -149.918, 0.308, 0.031422, 0, 0, 0.999506, False, '2023-04-10 10:36:12'); /* Exit */
+/* @teleloc 0x004401FE [70.112999 -149.917999 0.308000] 0.031422 0.000000 0.000000 0.999506 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700443EC, 28635, 0x004401DB, 16.0529, -200.483, 0.000185, 0.821896, 0, 0, -0.569638,  True, '2023-03-23 00:00:00'); /* Insatiable Eater */

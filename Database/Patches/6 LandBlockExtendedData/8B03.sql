@@ -17,8 +17,8 @@ VALUES (0x78B03003, 43202, 0x8B030333, 250, -106.305, -48.063, 1, 0, 0, 0, False
 /* @teleloc 0x8B030333 [250.000000 -106.305000 -48.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B03004, 43202, 0x8B03010D, 166.357, -59.978, -114.063, -0.707107, 0, 0, -0.707107, False, '2022-01-08 18:29:57'); /* Surface */
-/* @teleloc 0x8B03010D [166.356995 -59.978001 -114.063004] -0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x78B03004, 43202, 0x8B030100, 166.357, -59.978, -114.063, -0.707107, 0, 0, -0.707107, False, '2023-04-10 10:36:12'); /* Surface */
+/* @teleloc 0x8B030100 [166.356995 -59.978001 -114.063004] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B03006, 43219, 0x8B03022D, 60.5365, -0.018513, -71.992, 0.694806, 0, 0, -0.719197,  True, '2022-01-08 18:29:57'); /* Subverted Silver Scope Knight */
