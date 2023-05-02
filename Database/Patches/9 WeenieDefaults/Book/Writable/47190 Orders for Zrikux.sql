@@ -31,4 +31,7 @@ VALUES (47190,   1, 0x0200105C) /* Setup */
      , (47190,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (47190, 0, 1000);
+VALUES (47190, 1, 1000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (47190, 0, 0xFFFFFFFF, '', 'prewritten', True, '[You cannot translate this text]');
