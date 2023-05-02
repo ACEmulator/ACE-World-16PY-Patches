@@ -53,7 +53,7 @@ GotoSet: OwnsAB
             - StampQuest: NeftetFreeHatsheput
             - StampQuest: NeftetDeviceCrystalTurnInWait
             - AwardNoShareXP: 160,000,000
-            - AwardLuminance
+            - AwardLuminance: 10,000
 
 GotoSet: OwnsA
     - DirectBroadcast: You hear a faint clicking noise...
