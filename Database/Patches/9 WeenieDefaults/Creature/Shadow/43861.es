@@ -202,8 +202,7 @@ Gotoset: Check4
                 QuestFailure:
                     - InqQuest: KillTaskShadowVortexCompleted
                         QuestSuccess:
-                            - StampQuest: DuleMiddleMan
-                            - Tell: Excellent work soldier. I ask you to inform Asheron both of what is happening in Tou-Tou and the feat you achieved there. I think the time for action has arrived.
+                            - Tell: I ask you to inform Asheron both of what is happening in Tou-Tou and the feat you achieved there. I think the time for action has arrived.
                         QuestFailure:
                             - InqQuestSolves: KillTaskShadowVortex@KillTaskInProgress, 1 - 3
                                 QuestSuccess:
@@ -211,6 +210,7 @@ Gotoset: Check4
                                         QuestSuccess:
                                             - Tell: Excellent work soldier. I ask you to inform Asheron both of what is happening in Tou-Tou and the feat you achieved there. I think the time for action has arrived.
                                             - StampQuest: KillTaskShadowVortexCompleted
+                                            - StampQuest: DuleMiddleMan
                                             - EraseQuest: KillTaskShadowVortex
                                         QuestFailure:
                                             - DirectBroadcast: You've killed %tqc out of %tqm Shadow Vortexes.
@@ -356,13 +356,13 @@ Refuse: 72842
             - EraseQuest: SummoningCaveDule
             - EraseQuest: SpokeTerShen
             - Tell: The ritual has been stopped?
-            - Tell: That is good news, although I am sure the generals will not give up so easily.
+            - Delay: 0.5, Tell: That is good news, although I am sure the generals will not give up so easily.
             - AwardNoShareXP: 350,000,000
             - AwardLuminance: 30,000
             - AddCharacterTitle: 723
             - DirectBroadcast: You have been awarded the title of Hopebringer.
             - Give: 38919
-            - Tell: I thank you again for aiding in the prevention of Bael'Zharon's release. The world is a safer place... for now.
+            - Delay: 0.5, Tell: I thank you again for aiding in the prevention of Bael'Zharon's release. The world is a safer place... for now.
 
 Refuse: 43859
     - TurnToTarget
