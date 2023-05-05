@@ -13,6 +13,7 @@ VALUES (40517,   1,          1) /* ItemType - MeleeWeapon */
      , (40517,  33,          1) /* Bonded - Bonded */
      , (40517,  44,         72) /* Damage */
      , (40517,  45,          2) /* DamageType - Pierce */
+     , (40517,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (40517,  47,          2) /* AttackType - Thrust */
      , (40517,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40517,  49,         30) /* WeaponTime */

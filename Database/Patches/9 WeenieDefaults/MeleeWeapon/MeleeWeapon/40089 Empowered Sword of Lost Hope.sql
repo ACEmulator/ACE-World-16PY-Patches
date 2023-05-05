@@ -13,6 +13,7 @@ VALUES (40089,   1,          1) /* ItemType - MeleeWeapon */
      , (40089,  33,          1) /* Bonded - Bonded */
      , (40089,  44,         65) /* Damage */
      , (40089,  45,         32) /* DamageType - Acid */
+     , (40089,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (40089,  47,          6) /* AttackType - Thrust, Slash */
      , (40089,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40089,  49,         30) /* WeaponTime */

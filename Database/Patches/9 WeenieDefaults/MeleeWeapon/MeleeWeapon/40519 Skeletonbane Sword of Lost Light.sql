@@ -13,6 +13,7 @@ VALUES (40519,   1,          1) /* ItemType - MeleeWeapon */
      , (40519,  33,          1) /* Bonded - Bonded */
      , (40519,  44,         72) /* Damage */
      , (40519,  45,          1) /* DamageType - Slash */
+     , (40519,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (40519,  47,          4) /* AttackType - Slash */
      , (40519,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40519,  49,         30) /* WeaponTime */

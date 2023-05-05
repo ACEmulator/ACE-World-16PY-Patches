@@ -13,6 +13,7 @@ VALUES (40088,   1,          1) /* ItemType - MeleeWeapon */
      , (40088,  33,          1) /* Bonded - Bonded */
      , (40088,  44,         73) /* Damage */
      , (40088,  45,          3) /* DamageType - Slash, Pierce */
+     , (40088,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (40088,  47,          6) /* AttackType - Thrust, Slash */
      , (40088,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40088,  49,         30) /* WeaponTime */
