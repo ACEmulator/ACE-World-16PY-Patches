@@ -42,7 +42,7 @@ VALUES (40518,   5,  -0.033) /* ManaRate */
      , (40518,  39,     1.3) /* DefaultScale */
      , (40518,  62,    1.18) /* WeaponOffense */
      , (40518,  63,       1) /* DamageMod */
-     , (40518, 138,     3.4) /* SlayerDamageBonus */
+     , (40518, 138,     1.7) /* SlayerDamageBonus */
      , (40518, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
