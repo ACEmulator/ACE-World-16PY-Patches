@@ -9,9 +9,9 @@ VALUES (30939,   1,        128) /* ItemType - Misc */
      , (30939,   8,         10) /* Mass */
      , (30939,  16,          1) /* ItemUseable - No */
      , (30939,  19,          0) /* Value */
-     , (30939,  33,          1) /* Bonded */
+     , (30939,  33,          1) /* Bonded - Bonded */
      , (30939,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30939, 114,          1) /* Attuned */;
+     , (30939, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30939,  22, False) /* Inscribable */;
@@ -25,4 +25,3 @@ VALUES (30939,   1, 0x02000181) /* Setup */
      , (30939,   3, 0x20000014) /* SoundTable */
      , (30939,   8, 0x06005A22) /* Icon */
      , (30939,  22, 0x3400002B) /* PhysicsEffectTable */;
-

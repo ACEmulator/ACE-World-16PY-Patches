@@ -28,4 +28,3 @@ VALUES (28827,   1, 0x02000151) /* Setup */
      , (28827,   3, 0x20000014) /* SoundTable */
      , (28827,   8, 0x06005A0F) /* Icon */
      , (28827,  22, 0x3400002B) /* PhysicsEffectTable */;
-
