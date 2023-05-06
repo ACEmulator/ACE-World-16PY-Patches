@@ -83,7 +83,7 @@ VALUES (0x7584D0E5, 48742, 0x584D012B, 166.517, -46.9643, -24, 1, 0, 0, 0, False
 /* @teleloc 0x584D012B [166.516998 -46.964298 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D0E6,  1154, 0x584D0370, 160, -90, 6.00442, 0.696707, 0, 0, 0.717356, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7584D0E6,  4219, 0x584D0370, 160, -90, 6.00442, 0.696707, 0, 0, 0.717356, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x584D0370 [160.000000 -90.000000 6.004420] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -97,11 +97,9 @@ VALUES (0x7584D0E6, 0x7584D0E7, '2021-11-01 00:00:00') /* Uber Penguin (28661) *
      , (0x7584D0E6, 0x7584D0EE, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
      , (0x7584D0E6, 0x7584D0EF, '2021-11-01 00:00:00') /* Uber Penguin (28661) */
      , (0x7584D0E6, 0x7584D0F0, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D0F1, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
      , (0x7584D0E6, 0x7584D0F2, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
      , (0x7584D0E6, 0x7584D0F3, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
      , (0x7584D0E6, 0x7584D0F4, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D0F8, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
      , (0x7584D0E6, 0x7584D0FA, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
      , (0x7584D0E6, 0x7584D0FB, '2021-11-01 00:00:00') /* Wall of Ice (46303) */
      , (0x7584D0E6, 0x7584D0FC, '2021-11-01 00:00:00') /* Uber Penguin (28661) */
@@ -130,13 +128,9 @@ VALUES (0x7584D0E6, 0x7584D0E7, '2021-11-01 00:00:00') /* Uber Penguin (28661) *
      , (0x7584D0E6, 0x7584D116, '2021-11-01 00:00:00') /* Frigid Ice Golem (46305) */
      , (0x7584D0E6, 0x7584D117, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D118, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D11A, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
      , (0x7584D0E6, 0x7584D11E, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
      , (0x7584D0E6, 0x7584D11F, '2021-11-01 00:00:00') /* Wall of Ice (46303) */
-     , (0x7584D0E6, 0x7584D120, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
-     , (0x7584D0E6, 0x7584D121, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D123, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
-     , (0x7584D0E6, 0x7584D124, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
      , (0x7584D0E6, 0x7584D125, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D126, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D127, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
@@ -165,25 +159,62 @@ VALUES (0x7584D0E6, 0x7584D0E7, '2021-11-01 00:00:00') /* Uber Penguin (28661) *
      , (0x7584D0E6, 0x7584D13F, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
      , (0x7584D0E6, 0x7584D140, '2021-11-01 00:00:00') /* Frigid Ice Golem (46305) */
      , (0x7584D0E6, 0x7584D141, '2021-11-01 00:00:00') /* Frigid Ice Golem (46305) */
-     , (0x7584D0E6, 0x7584D142, '2021-11-01 00:00:00') /* Uber Penguin (28661) */
-     , (0x7584D0E6, 0x7584D143, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D147, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D149, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D14B, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D14C, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
      , (0x7584D0E6, 0x7584D14D, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
      , (0x7584D0E6, 0x7584D14E, '2021-11-01 00:00:00') /* Frigid Mist Golem (46306) */
      , (0x7584D0E6, 0x7584D14F, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D150, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
-     , (0x7584D0E6, 0x7584D151, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D152, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
-     , (0x7584D0E6, 0x7584D153, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D154, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D158, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
-     , (0x7584D0E6, 0x7584D159, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
      , (0x7584D0E6, 0x7584D15A, '2021-11-01 00:00:00') /* Baby Penguin (46143) */
      , (0x7584D0E6, 0x7584D15B, '2021-11-01 00:00:00') /* Uber Penguin (28659) */
-     , (0x7584D0E6, 0x7584D15C, '2021-11-01 00:00:00') /* Pillar of Frost (46300) */;
+     , (0x7584D0E6, 0x7584D15C, '2021-11-01 00:00:00') /* Pillar of Frost (46300) */
+     , (0x7584D0E6, 0x7584D162, '2023-04-29 13:03:49') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D163, '2023-04-29 13:05:02') /* Wall of Ice (46303) */
+     , (0x7584D0E6, 0x7584D164, '2023-04-29 13:13:09') /* Hoarfrost (42338) */
+     , (0x7584D0E6, 0x7584D165, '2023-04-29 13:38:18') /* Frigid Ice Golem (46305) */
+     , (0x7584D0E6, 0x7584D166, '2023-04-29 13:39:22') /* Frigid Ice Golem (46305) */
+     , (0x7584D0E6, 0x7584D167, '2023-04-29 13:40:29') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D168, '2023-04-29 13:40:51') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D169, '2023-04-29 13:41:51') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D16A, '2023-04-29 13:42:42') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D16B, '2023-04-29 13:45:41') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D16C, '2023-04-29 13:46:17') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D16E, '2023-04-29 13:58:01') /* Hoarfrost (42338) */
+     , (0x7584D0E6, 0x7584D16F, '2023-04-29 14:00:03') /* Frigid Ice Golem (46305) */
+     , (0x7584D0E6, 0x7584D170, '2023-04-29 14:03:30') /* Algid Warrior (73154) */
+     , (0x7584D0E6, 0x7584D172, '2023-04-29 14:50:55') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D173, '2023-04-29 14:51:07') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D176, '2023-04-29 15:02:02') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D177, '2023-04-29 15:02:26') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D178, '2023-04-29 15:02:39') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D17A, '2023-04-29 16:24:53') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D17B, '2023-04-29 16:25:26') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D17D, '2023-04-29 16:32:40') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D17F, '2023-04-29 16:34:30') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D180, '2023-04-29 16:35:47') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D181, '2023-04-29 16:37:14') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D182, '2023-04-29 16:58:20') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D183, '2023-04-29 17:01:07') /* Uber Penguin (28659) */
+     , (0x7584D0E6, 0x7584D184, '2023-04-29 17:06:48') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D185, '2023-04-29 17:13:07') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D188, '2023-04-30 08:45:25') /* Wall of Ice (46303) */
+     , (0x7584D0E6, 0x7584D189, '2023-04-30 08:46:42') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D18A, '2023-04-30 08:46:53') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D18B, '2023-04-30 08:47:10') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D18C, '2023-04-30 08:48:00') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D18E, '2023-04-30 08:56:03') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D18F, '2023-04-30 08:57:43') /* Uber Penguin (28659) */
+     , (0x7584D0E6, 0x7584D190, '2023-04-30 08:58:11') /* Uber Penguin (28659) */
+     , (0x7584D0E6, 0x7584D191, '2023-04-30 08:58:21') /* Uber Penguin (28659) */
+     , (0x7584D0E6, 0x7584D194, '2023-04-30 09:00:26') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D195, '2023-04-30 09:00:37') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D196, '2023-04-30 09:01:00') /* Baby Penguin (46143) */
+     , (0x7584D0E6, 0x7584D197, '2023-04-30 09:03:19') /* Frigid Mist Golem (46306) */
+     , (0x7584D0E6, 0x7584D198, '2023-04-30 09:10:27') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D199, '2023-04-30 09:10:36') /* Uber Penguin (28661) */
+     , (0x7584D0E6, 0x7584D19A, '2023-04-30 09:11:36') /* Frigid Ice Golem (46305) */
+     , (0x7584D0E6, 0x7584D19B, '2023-04-30 09:11:48') /* Frigid Ice Golem (46305) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D0E7, 28661, 0x584D0370, 160, -90, 6.00442, 0.696707, 0, 0, 0.717356,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
@@ -226,10 +257,6 @@ VALUES (0x7584D0F0, 46143, 0x584D033D, 120, -60, 6.00161, 0.930508, 0, 0, 0.3662
 /* @teleloc 0x584D033D [120.000000 -60.000000 6.001610] 0.930508 0.000000 0.000000 0.366272 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D0F1, 46143, 0x584D033C, 119.515, -45.6554, 6.00161, 0.659983, 0, 0, -0.75128,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D033C [119.514999 -45.655399 6.001610] 0.659983 0.000000 0.000000 -0.751280 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D0F2, 46143, 0x584D0352, 140, -60, 6.00161, -0.999862, 0, 0, 0.016592,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
 /* @teleloc 0x584D0352 [140.000000 -60.000000 6.001610] -0.999862 0.000000 0.000000 0.016592 */
 
@@ -240,10 +267,6 @@ VALUES (0x7584D0F3, 46306, 0x584D0351, 140, -48.5, 6.01, 1, 0, 0, 0,  True, '202
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D0F4, 46143, 0x584D036D, 160, -60, 6.00161, 0.988771, 0, 0, 0.149438,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
 /* @teleloc 0x584D036D [160.000000 -60.000000 6.001610] 0.988771 0.000000 0.000000 0.149438 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D0F8, 46143, 0x584D036B, 157.167, -44.9625, 6.00161, 0.335134, 0, 0, -0.942171,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D036B [157.167007 -44.962502 6.001610] 0.335134 0.000000 0.000000 -0.942171 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D0FA, 46143, 0x584D0350, 140, -40, 6.00161, 0.995004, 0, 0, 0.099833,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
@@ -358,10 +381,6 @@ VALUES (0x7584D118, 46143, 0x584D022A, 142.426, -60.8971, -5.99839, 0.014642, 0,
 /* @teleloc 0x584D022A [142.425995 -60.897099 -5.998390] 0.014642 0.000000 0.000000 -0.999893 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D11A, 46143, 0x584D022C, 135.292, -79.8032, -5.99839, -0.700421, 0, 0, -0.71373,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D022C [135.292007 -79.803200 -5.998390] -0.700421 0.000000 0.000000 -0.713730 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D11E, 46306, 0x584D0230, 145.573, -73.2671, -5.99, -0.009311, 0, 0, 0.999957,  True, '2021-11-01 00:00:00'); /* Frigid Mist Golem */
 /* @teleloc 0x584D0230 [145.572998 -73.267097 -5.990000] -0.009311 0.000000 0.000000 0.999957 */
 
@@ -370,20 +389,8 @@ VALUES (0x7584D11F, 46303, 0x584D0232, 150.001, -85.2332, -6.08175, 0.006073, 0,
 /* @teleloc 0x584D0232 [150.001007 -85.233200 -6.081750] 0.006073 0.000000 0.000000 0.999982 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D120, 28659, 0x584D0241, 164.454, -69.1554, -5.99518, 0.696409, 0, 0, -0.717645,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x584D0241 [164.453995 -69.155403 -5.995180] 0.696409 0.000000 0.000000 -0.717645 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D121, 28659, 0x584D0289, 186.585, -73.6561, -5.99518, -0.664851, 0, 0, -0.746976,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x584D0289 [186.585007 -73.656097 -5.995180] -0.664851 0.000000 0.000000 -0.746976 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D123, 46306, 0x584D0285, 190, -59, -5.99, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Frigid Mist Golem */
 /* @teleloc 0x584D0285 [190.000000 -59.000000 -5.990000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D124, 46143, 0x584D026A, 176.029, -64.1594, -5.99839, 0.801664, 0, 0, -0.597774,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D026A [176.029007 -64.159401 -5.998390] 0.801664 0.000000 0.000000 -0.597774 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D125, 28659, 0x584D0291, 200, -50, -5.99518, -0.583327, 0, 0, -0.812237,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
@@ -502,26 +509,6 @@ VALUES (0x7584D141, 46305, 0x584D0385, 175.431, -77.6489, 6.011, 0.714108, 0, 0,
 /* @teleloc 0x584D0385 [175.431000 -77.648903 6.011000] 0.714108 0.000000 0.000000 -0.700036 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D142, 28661, 0x584D0376, 165.542, -55.0514, 6.00442, 0.492119, 0, 0, -0.870528,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x584D0376 [165.542007 -55.051399 6.004420] 0.492119 0.000000 0.000000 -0.870528 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D143, 46143, 0x584D0365, 145.621, -60.1867, 6.00161, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D0365 [145.621002 -60.186699 6.001610] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D147, 46143, 0x584D036C, 157.788, -49.5979, 6.00161, -0.99518, 0, 0, -0.098063,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D036C [157.787994 -49.597900 6.001610] -0.995180 0.000000 0.000000 -0.098063 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D149, 46143, 0x584D0350, 139.433, -37.2009, 6.00161, 0.995004, 0, 0, 0.099833,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D0350 [139.432999 -37.200901 6.001610] 0.995004 0.000000 0.000000 0.099833 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D14B, 28659, 0x584D0234, 164.217, -29.5534, -5.99518, -0.712205, 0, 0, -0.701971,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x584D0234 [164.216995 -29.553400 -5.995180] -0.712205 0.000000 0.000000 -0.701971 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D14C, 46306, 0x584D027A, 189.792, -29.789, -5.99, 0.379232, 0, 0, -0.925302,  True, '2021-11-01 00:00:00'); /* Frigid Mist Golem */
 /* @teleloc 0x584D027A [189.792007 -29.789000 -5.990000] 0.379232 0.000000 0.000000 -0.925302 */
 
@@ -542,28 +529,12 @@ VALUES (0x7584D150, 28659, 0x584D0263, 179.292, -40.9178, -5.99518, 0.915692, 0,
 /* @teleloc 0x584D0263 [179.292007 -40.917801 -5.995180] 0.915692 0.000000 0.000000 -0.401881 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D151, 28659, 0x584D0295, 197.885, -57.6019, -5.99518, 0.992216, 0, 0, -0.12453,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x584D0295 [197.884995 -57.601898 -5.995180] 0.992216 0.000000 0.000000 -0.124530 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D152, 28659, 0x584D0299, 200, -70, -5.99518, -0.844372, 0, 0, -0.535758,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
 /* @teleloc 0x584D0299 [200.000000 -70.000000 -5.995180] -0.844372 0.000000 0.000000 -0.535758 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D153, 46143, 0x584D0285, 185.798, -64.2223, -5.99839, 0.947221, 0, 0, 0.320582,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
-/* @teleloc 0x584D0285 [185.798004 -64.222298 -5.998390] 0.947221 0.000000 0.000000 0.320582 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D154, 28659, 0x584D026A, 181.029, -62.1587, -5.99518, 0.947167, 0, 0, 0.320741,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x584D026A [181.029007 -62.158699 -5.995180] 0.947167 0.000000 0.000000 0.320741 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D158, 46143, 0x584D022C, 142.798, -78.9811, -5.99839, 0.850999, 0, 0, -0.525167,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
 /* @teleloc 0x584D022C [142.798004 -78.981102 -5.998390] 0.850999 0.000000 0.000000 -0.525167 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7584D159, 28659, 0x584D021A, 125.89, -69.9556, -5.99518, 0.673805, 0, 0, -0.738909,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x584D021A [125.889999 -69.955597 -5.995180] 0.673805 0.000000 0.000000 -0.738909 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D15A, 46143, 0x584D0230, 149.417, -70.0122, -5.99839, -0.699736, 0, 0, -0.714401,  True, '2021-11-01 00:00:00'); /* Baby Penguin */
@@ -587,3 +558,211 @@ VALUES (0x7584D15D, 0x7584D15E, '2021-11-01 00:00:00') /* Mouf (45853) */;
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7584D15E, 45853, 0x584D012C, 168.015, -60.8938, -23.9985, -0.897783, 0, 0, -0.440438,  True, '2021-11-01 00:00:00'); /* Mouf */
 /* @teleloc 0x584D012C [168.014999 -60.893799 -23.998501] -0.897783 0.000000 0.000000 -0.440438 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D162, 46306, 0x584D0393, 194.583, -145.633, 6.011, 0.707107, 0, 0, 0.707107,  True, '2023-04-29 13:03:49'); /* Frigid Mist Golem */
+/* @teleloc 0x584D0393 [194.582993 -145.632996 6.011000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D163, 46303, 0x584D03A2, 205.25, -150, 6, -0.707107, 0, 0, 0.707107,  True, '2023-04-29 13:05:02'); /* Wall of Ice */
+/* @teleloc 0x584D03A2 [205.250000 -150.000000 6.000000] -0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D164, 42338, 0x584D02BA, 229.936, -139.884, -5.992, 0, 0, 0, -1,  True, '2023-04-29 13:13:09'); /* Hoarfrost */
+/* @teleloc 0x584D02BA [229.936005 -139.884003 -5.992000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D165, 46305, 0x584D02A9, 205.194, -140.022, -5.989, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 13:38:18'); /* Frigid Ice Golem */
+/* @teleloc 0x584D02A9 [205.194000 -140.022003 -5.989000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D166, 46305, 0x584D02A5, 205.296, -129.919, -5.989, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 13:39:22'); /* Frigid Ice Golem */
+/* @teleloc 0x584D02A5 [205.296005 -129.919006 -5.989000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D167, 28661, 0x584D0290, 188.94, -139.94, -5.99558, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 13:40:29'); /* Uber Penguin */
+/* @teleloc 0x584D0290 [188.940002 -139.940002 -5.995580] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D168, 28661, 0x584D028F, 188.358, -130.416, -5.99558, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 13:40:51'); /* Uber Penguin */
+/* @teleloc 0x584D028F [188.358002 -130.416000 -5.995580] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D169, 28661, 0x584D02AB, 219.97, -100.002, -5.99558, 0, 0, 0, -1,  True, '2023-04-29 13:41:51'); /* Uber Penguin */
+/* @teleloc 0x584D02AB [219.970001 -100.001999 -5.995580] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D16A, 46306, 0x584D02B7, 229.943, -108.049, -5.989, 0.707107, 0, 0, 0.707107,  True, '2023-04-29 13:42:42'); /* Frigid Mist Golem */
+/* @teleloc 0x584D02B7 [229.942993 -108.049004 -5.989000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D16B, 28661, 0x584D02C1, 248.875, -128.788, -5.99558, 0.382684, 0, 0, -0.92388,  True, '2023-04-29 13:45:41'); /* Uber Penguin */
+/* @teleloc 0x584D02C1 [248.875000 -128.787994 -5.995580] 0.382684 0.000000 0.000000 -0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D16C, 28661, 0x584D02B9, 234.475, -130.031, -5.99558, 0.707107, 0, 0, 0.707107,  True, '2023-04-29 13:46:17'); /* Uber Penguin */
+/* @teleloc 0x584D02B9 [234.475006 -130.031006 -5.995580] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D16D, 73153, 0x584D02CC, 270.003, -126.822, -6, 1, 0, 0, 0, False, '2023-04-29 13:55:49'); /* Penguin's Friend */
+/* @teleloc 0x584D02CC [270.002991 -126.821999 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D16E, 42338, 0x584D02C6, 264.375, -105.969, -5.992, 0, 0, 0, -1,  True, '2023-04-29 13:58:01'); /* Hoarfrost */
+/* @teleloc 0x584D02C6 [264.375000 -105.969002 -5.992000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D16F, 46305, 0x584D02C9, 274.629, -105.797, -5.989, 0, 0, 0, -1,  True, '2023-04-29 14:00:03'); /* Frigid Ice Golem */
+/* @teleloc 0x584D02C9 [274.628998 -105.796997 -5.989000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D170, 73154, 0x584D02C8, 269.925, -98.6376, -5.99675, 0, 0, 0, -1,  True, '2023-04-29 14:03:30'); /* Algid Warrior */
+/* @teleloc 0x584D02C8 [269.924988 -98.637604 -5.996750] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D171, 73155, 0x584D02C8, 269.999, -96.4576, -6, 1, 0, 0, 0, False, '2023-04-29 14:39:25'); /* Chorizite Chest */
+/* @teleloc 0x584D02C8 [269.998993 -96.457603 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D172, 28661, 0x584D02C5, 259.983, -100.062, -5.99558, 0, 0, 0, -1,  True, '2023-04-29 14:50:55'); /* Uber Penguin */
+/* @teleloc 0x584D02C5 [259.983002 -100.061996 -5.995580] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D173, 28661, 0x584D02CD, 279.997, -99.9471, -5.99558, 0, 0, 0, -1,  True, '2023-04-29 14:51:07'); /* Uber Penguin */
+/* @teleloc 0x584D02CD [279.997009 -99.947098 -5.995580] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D176, 46143, 0x584D038A, 184.389, -149.836, 6.00161, 0.707107, 0, 0, 0.707107,  True, '2023-04-29 15:02:02'); /* Baby Penguin */
+/* @teleloc 0x584D038A [184.389008 -149.835999 6.001610] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D177, 46143, 0x584D0393, 188.218, -152.605, 6.00161, 0.382684, 0, 0, 0.92388,  True, '2023-04-29 15:02:26'); /* Baby Penguin */
+/* @teleloc 0x584D0393 [188.218002 -152.604996 6.001610] 0.382684 0.000000 0.000000 0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D178, 46143, 0x584D0393, 188.064, -146.012, 6.00161, -0.701967, 0, 0, 0.71221,  True, '2023-04-29 15:02:39'); /* Baby Penguin */
+/* @teleloc 0x584D0393 [188.063995 -146.011993 6.001610] -0.701967 0.000000 0.000000 0.712210 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D17A, 46143, 0x584D0364, 152.129, -48.2475, 6.00161, 0.753667, 0, 0, -0.657257,  True, '2023-04-29 16:24:53'); /* Baby Penguin */
+/* @teleloc 0x584D0364 [152.128998 -48.247501 6.001610] 0.753667 0.000000 0.000000 -0.657257 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D17B, 46143, 0x584D0347, 128.882, -46.3242, 6.00161, 0.918164, 0, 0, 0.396202,  True, '2023-04-29 16:25:26'); /* Baby Penguin */
+/* @teleloc 0x584D0347 [128.882004 -46.324200 6.001610] 0.918164 0.000000 0.000000 0.396202 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D17D, 46306, 0x584D01D0, 99.8989, -9.87575, -5.989, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 16:32:40'); /* Frigid Mist Golem */
+/* @teleloc 0x584D01D0 [99.898903 -9.875750 -5.989000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D17F, 46306, 0x584D0258, 179.273, -9.81963, -5.989, 0.707107, 0, 0, 0.707107,  True, '2023-04-29 16:34:30'); /* Frigid Mist Golem */
+/* @teleloc 0x584D0258 [179.272995 -9.819630 -5.989000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D180, 28661, 0x584D0243, 169.921, -19.9975, -5.99558, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 16:35:47'); /* Uber Penguin */
+/* @teleloc 0x584D0243 [169.921005 -19.997499 -5.995580] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D181, 28661, 0x584D0246, 169.876, -30.0212, -5.99558, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 16:37:14'); /* Uber Penguin */
+/* @teleloc 0x584D0246 [169.876007 -30.021200 -5.995580] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D182, 46143, 0x584D026A, 180.001, -60.1003, -5.99839, 0, 0, 0, -1,  True, '2023-04-29 16:58:20'); /* Baby Penguin */
+/* @teleloc 0x584D026A [180.001007 -60.100300 -5.998390] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D183, 28659, 0x584D0254, 170.023, -69.9742, -5.99518, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 17:01:07'); /* Uber Penguin */
+/* @teleloc 0x584D0254 [170.022995 -69.974197 -5.995180] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D184, 46306, 0x584D0385, 180.335, -79.9906, 6.011, 0.707107, 0, 0, 0.707107,  True, '2023-04-29 17:06:48'); /* Frigid Mist Golem */
+/* @teleloc 0x584D0385 [180.335007 -79.990601 6.011000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D185, 46143, 0x584D022B, 139.237, -69.7489, -5.99839, 0.707107, 0, 0, -0.707107,  True, '2023-04-29 17:13:07'); /* Baby Penguin */
+/* @teleloc 0x584D022B [139.237000 -69.748901 -5.998390] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D186, 73153, 0x584D014B, 149.951, -109.979, -21, 1, 0, 0, 0, False, '2023-04-29 17:15:09'); /* Penguin's Friend */
+/* @teleloc 0x584D014B [149.951004 -109.978996 -21.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D187, 73153, 0x584D0119, 133.007, -80.0002, -24, 1, 0, 0, 0, False, '2023-04-29 17:18:50'); /* Penguin's Friend */
+/* @teleloc 0x584D0119 [133.007004 -80.000198 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D188, 46303, 0x584D030D, 74.8008, -149.995, 6, 0.707107, 0, 0, -0.707107,  True, '2023-04-30 08:45:25'); /* Wall of Ice */
+/* @teleloc 0x584D030D [74.800797 -149.994995 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D189, 46143, 0x584D0322, 92.3045, -147.865, 6.00161, 0.92388, 0, 0, -0.382684,  True, '2023-04-30 08:46:42'); /* Baby Penguin */
+/* @teleloc 0x584D0322 [92.304497 -147.865005 6.001610] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D18A, 46143, 0x584D0322, 92.9394, -154.619, 6.00161, 0.382684, 0, 0, 0.92388,  True, '2023-04-30 08:46:53'); /* Baby Penguin */
+/* @teleloc 0x584D0322 [92.939400 -154.619003 6.001610] 0.382684 0.000000 0.000000 0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D18B, 46143, 0x584D0322, 88.6096, -151.339, 6.00161, 0.707107, 0, 0, 0.707107,  True, '2023-04-30 08:47:10'); /* Baby Penguin */
+/* @teleloc 0x584D0322 [88.609596 -151.339005 6.001610] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D18C, 46306, 0x584D0323, 85.518, -157.242, 6.011, 0.707107, 0, 0, -0.707107,  True, '2023-04-30 08:48:00'); /* Frigid Mist Golem */
+/* @teleloc 0x584D0323 [85.517998 -157.242004 6.011000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D18E, 46306, 0x584D017B, 30.0004, -120.167, -5.989, 1, 0, 0, 0,  True, '2023-04-30 08:56:03'); /* Frigid Mist Golem */
+/* @teleloc 0x584D017B [30.000401 -120.167000 -5.989000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D18F, 28659, 0x584D0198, 59.9238, -99.9892, -5.99518, 0.707107, 0, 0, 0.707107,  True, '2023-04-30 08:57:43'); /* Uber Penguin */
+/* @teleloc 0x584D0198 [59.923801 -99.989197 -5.995180] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D190, 28659, 0x584D01FC, 110.103, -129.941, -5.99518, 0.707107, 0, 0, 0.707107,  True, '2023-04-30 08:58:11'); /* Uber Penguin */
+/* @teleloc 0x584D01FC [110.102997 -129.940994 -5.995180] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D191, 28659, 0x584D01FA, 109.934, -109.955, -5.99518, 0.707107, 0, 0, 0.707107,  True, '2023-04-30 08:58:21'); /* Uber Penguin */
+/* @teleloc 0x584D01FA [109.933998 -109.955002 -5.995180] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D194, 46143, 0x584D01DF, 103.412, -113.451, -5.99839, 1, 0, 0, 0,  True, '2023-04-30 09:00:26'); /* Baby Penguin */
+/* @teleloc 0x584D01DF [103.412003 -113.450996 -5.998390] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D195, 46143, 0x584D01E1, 103.371, -126.421, -5.99839, 0, 0, 0, -1,  True, '2023-04-30 09:00:37'); /* Baby Penguin */
+/* @teleloc 0x584D01E1 [103.371002 -126.420998 -5.998390] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D196, 46143, 0x584D01E0, 98.0254, -120.179, -5.99839, 0.707107, 0, 0, 0.707107,  True, '2023-04-30 09:01:00'); /* Baby Penguin */
+/* @teleloc 0x584D01E0 [98.025398 -120.179001 -5.998390] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D197, 46306, 0x584D01B9, 79.9355, -109.868, -5.989, 0.707107, 0, 0, 0.707107,  True, '2023-04-30 09:03:19'); /* Frigid Mist Golem */
+/* @teleloc 0x584D01B9 [79.935501 -109.867996 -5.989000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D198, 28661, 0x584D018D, 53.1984, -121.299, -5.99558, 0, 0, 0, -1,  True, '2023-04-30 09:10:27'); /* Uber Penguin */
+/* @teleloc 0x584D018D [53.198399 -121.299004 -5.995580] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D199, 28661, 0x584D019D, 60.9627, -130.787, -5.99558, 0.707107, 0, 0, 0.707107,  True, '2023-04-30 09:10:36'); /* Uber Penguin */
+/* @teleloc 0x584D019D [60.962700 -130.787003 -5.995580] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D19A, 46305, 0x584D0160, -0.043952, -118.817, -5.989, 0.707107, 0, 0, -0.707107,  True, '2023-04-30 09:11:36'); /* Frigid Ice Golem */
+/* @teleloc 0x584D0160 [-0.043952 -118.817001 -5.989000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D19B, 46305, 0x584D0161, 7.61509, -101.361, -5.989, 0.707107, 0, 0, -0.707107,  True, '2023-04-30 09:11:48'); /* Frigid Ice Golem */
+/* @teleloc 0x584D0161 [7.615090 -101.361000 -5.989000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D19C, 73153, 0x584D0228, 143.165, -0.043909, -6, 1, 0, 0, 0, False, '2023-04-30 14:25:01'); /* Penguin's Friend */
+/* @teleloc 0x584D0228 [143.164993 -0.043909 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7584D19D, 73153, 0x584D0228, 136.665, 0.07162, -6, 1, 0, 0, 0, False, '2023-04-30 14:25:11'); /* Penguin's Friend */
+/* @teleloc 0x584D0228 [136.664993 0.071620 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
