@@ -104,7 +104,7 @@ Gotoset: Check1
 Gotoset: OnCooldown
     - InqQuestSolves: ShadowInvasion, 3 - 3
         QuestSuccess:
-            - Tell: Isin Dule's forces may have stopped our summoning of Bael'zharon, but what he doesn't realize is we never expected it to succeed.
+            - Tell: Isin Dule's forces may have stopped our summoning of Bael'Zharon, but what he doesn't realize is we never expected it to succeed.
             - Tell: It was mearly a test of a theory on how it could be accomplished and the test ran long enough for us to gain valuable information for the future.
         QuestFailure:
             - Tell: Perhaps you will be of use to me in the future. 
@@ -170,7 +170,7 @@ Refuse: 72842
             - StampQuest: ShadowInvasionWait
             - EraseQuest: SummoningCaveRhan
             - EraseQuest: SpokeTerShen
-            - Tell: Isin Dule's forces may have stopped our summoning of Bael'zharon, but what he doesn't realize is we never expected it to succeed.
+            - Tell: Isin Dule's forces may have stopped our summoning of Bael'Zharon, but what he doesn't realize is we never expected it to succeed.
             - Tell: It was mearly a test of a theory on how it could be accomplished and the test ran long enough for us to gain valuable information for the future.
             - AwardNoShareXP: 350,000,000
             - AwardLuminance: 30,000
