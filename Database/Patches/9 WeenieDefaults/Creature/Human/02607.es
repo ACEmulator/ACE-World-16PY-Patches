@@ -11,7 +11,7 @@ Give: Radiant Mana Infusion (40090)
     - TurnToTarget
     - Tell: Now this is an interesting vial indeed! Extreme power is contained within, thank you so much for brining me one.
     - AwardXP: 275,000,000
-	
+    
 Give: Auroch Horn (266)
     - TurnToTarget
     - Tell: Thank you for the Auroch horn. Let's see you must be tired from all that hunting, take these.
@@ -88,4 +88,3 @@ Use:
     - Delay: 1, Motion: WaveLow
     - Delay: 1, Tell: I use Auroch horns in the making of my potions. I discovered how to use Mattekar horns to produce health elixirs and Sunflowers to make Sunflower oil.
     - Delay: 1, Tell: If you give me a horn, I'll give you some of my potion in return. If you give me a Sunflower I'll give you some Sunflower oil.
-

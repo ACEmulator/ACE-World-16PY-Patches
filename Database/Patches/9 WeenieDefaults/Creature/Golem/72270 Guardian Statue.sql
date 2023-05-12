@@ -22,6 +22,8 @@ VALUES (72270,   1, True ) /* Stuck */
      , (72270,  11, False) /* IgnoreCollisions */
      , (72270,  12, True ) /* ReportCollisions */
      , (72270,  13, False) /* Ethereal */
+     , (72270,  52, True ) /* AiImmobile */
+     , (72270,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (72270,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -87,34 +89,34 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (72270,  6, 0, 3, 0, 340, 0, 0) /* MeleeDefense        Specialized */
      , (72270,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
      , (72270, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
-     , (72270, 31, 0, 3, 0, 200, 0, 0) /* CreatureEnchantment  Specialized */
-     , (72270, 32, 0, 3, 0, 200, 0, 0) /* ItemEnchantment      Specialized */
-     , (72270, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic            Specialized */
-     , (72270, 34, 0, 3, 0, 200, 0, 0) /* WarMagic             Specialized */
+     , (72270, 31, 0, 3, 0, 200, 0, 0) /* CreatureEnchantment Specialized */
+     , (72270, 32, 0, 3, 0, 200, 0, 0) /* ItemEnchantment     Specialized */
+     , (72270, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */
+     , (72270, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
      , (72270, 45, 0, 3, 0, 340, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72270,  0,  2,200, 0.75,  650,  325,  325,  325,  325,  325,  325,  325,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (72270, 10,  1,200, 0.75,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (72270, 13,  1,200, 0.75,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
-     , (72270, 16,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
-     , (72270, 22,  8,200,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+VALUES (72270,  0,  2, 200, 0.75,  650,  650,  650,  488,  650,  650,  650,  650,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (72270, 10,  1, 200, 0.75,  650,  650,  650,  488,  650,  650,  650,  650,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (72270, 13,  1, 200, 0.75,  650,  650,  650,  488,  650,  650,  650,  650,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+     , (72270, 16,  4,  0,    0,  650,  650,  650,  488,  650,  650,  650,  650,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
+     , (72270, 22,  8, 200,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72270,  2074,   2.02) /* Gossamer Flesh */
-     , (72270,  2166,   2.02) /* Tusker's Gift */
-     , (72270,  2212,   2.02) /* Wrath of Adja */
-     , (72270,  2264,   2.02) /* Wrath of Harlune */
-     , (72270,  2318,   2.02) /* Gravity Well */
-     , (72270,  2320,   2.02) /* Wrath of the Hieromancer */
-     , (72270,  4427,   2.05) /* Incantation of Shock Arc */
-     , (72270,  4455,   2.05) /* Incantation of Shock Wave */
-     , (72270,  4447,   2.05) /* Incantation of Frost Bolt */
-     , (72270,  4425,   2.05) /* Incantation of Frost Arc */
-     , (72270,  2168,   2.03) /* Gelidite's Gift */
-     , (72270,  2172,   2.03) /* Astyrrian's Gift */
-     , (72270,  4451,   2.06) /* Incantation of Lightning Bolt */
-     , (72270,  4426,   2.06) /* Incantation of Lightning Arc */;
+VALUES (72270,  2074,   2.02)  /* Gossamer Flesh */
+     , (72270,  2166,   2.02)  /* Tusker's Gift */
+     , (72270,  2212,   2.02)  /* Wrath of Adja */
+     , (72270,  2264,   2.02)  /* Wrath of Harlune */
+     , (72270,  2318,   2.02)  /* Gravity Well */
+     , (72270,  2320,   2.02)  /* Wrath of the Hieromancer */
+     , (72270,  4427,   2.05)  /* Incantation of Shock Arc */
+     , (72270,  4455,   2.05)  /* Incantation of Shock Wave */
+     , (72270,  4447,   2.05)  /* Incantation of Frost Bolt */
+     , (72270,  4425,   2.05)  /* Incantation of Frost Arc */
+     , (72270,  2168,   2.03)  /* Gelidite's Gift */
+     , (72270,  2172,   2.03)  /* Astyrrian's Gift */
+     , (72270,  4451,   2.06)  /* Incantation of Lightning Bolt */
+     , (72270,  4426,   2.06)  /* Incantation of Lightning Arc */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (72270, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */

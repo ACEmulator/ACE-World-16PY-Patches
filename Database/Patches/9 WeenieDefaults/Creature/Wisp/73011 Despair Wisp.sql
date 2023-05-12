@@ -74,12 +74,6 @@ VALUES (73011,   1, 0x02000A4C) /* Setup */
      , (73011,   8, 0x060020C3) /* Icon */
      , (73011,  35,       2105) /* DeathTreasureType - Loot Tier: 8 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (73011,  0, 32,150,  0.5,  300,  150,  150,  150,  150,  150,  150,  150,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (73011, 16, 32,  0,    0,  300,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (73011, 17, 32,150, 0.75,  300,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (73011, 21, 32,  0,    0,  300,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (73011,   1, 220, 0, 0) /* Strength */
      , (73011,   2, 250, 0, 0) /* Endurance */
@@ -89,7 +83,7 @@ VALUES (73011,   1, 220, 0, 0) /* Strength */
      , (73011,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (73011,   1, 20000, 0, 0,20125) /* MaxHealth */
+VALUES (73011,   1, 20000, 0, 0, 20125) /* MaxHealth */
      , (73011,   3,  5000, 0, 0, 5250) /* MaxStamina */
      , (73011,   5,  5000, 0, 0, 5490) /* MaxMana */;
 
@@ -103,14 +97,20 @@ VALUES (73011,  6, 0, 3, 0, 398, 0, 0) /* MeleeDefense        Specialized */
      , (73011, 34, 0, 3, 0, 220, 0, 0) /* WarMagic            Specialized */
      , (73011, 45, 0, 3, 0, 390, 0, 0) /* LightWeapons        Specialized */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (73011,  0, 32, 150,  0.5,  300,  270,  300,  300,  300,  300, 3000,  270,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (73011, 16, 32,  0,    0,  300,  270,  300,  300,  300,  300, 3000,  270,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (73011, 17, 32, 150, 0.75,  300,  270,  300,  300,  300,  300, 3000,  270,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (73011, 21, 32,  0,    0,  300,  270,  300,  300,  300,  300, 3000,  270,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (73011,  1161,   2.06) /* Heal Self VI */
-     , (73011,  2162,   2.09) /* Olthoi's Gift */
-     , (73011,  2328,   2.14) /* Vitality Siphon */
-     , (73011,  2329,   2.08) /* Essence Void */
-     , (73011,  3877,   2.18) /* Corrosive Strike */
-     , (73011,  3881,   2.14) /* Corrosive Ring */
-     , (73011,  2330,   2.17) /* Vigor Siphon */;
+VALUES (73011,  1161,   2.06)  /* Heal Self VI */
+     , (73011,  2162,   2.09)  /* Olthoi's Gift */
+     , (73011,  2328,   2.14)  /* Vitality Siphon */
+     , (73011,  2329,   2.08)  /* Essence Void */
+     , (73011,  3877,   2.18)  /* Corrosive Strike */
+     , (73011,  3881,   2.14)  /* Corrosive Ring */
+     , (73011,  2330,   2.17)  /* Vigor Siphon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (73011, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */

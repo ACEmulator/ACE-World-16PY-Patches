@@ -97,25 +97,25 @@ VALUES (45183,  6, 0, 3, 0, 398, 0, 0) /* MeleeDefense        Specialized */
      , (45183, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (45183,  0, 8, 150,  0.5,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (45183, 16, 8,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (45183, 17, 8, 150, 0.75,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (45183, 21, 8,  0,    0,  300,  270,  300,  270, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (45183,  0,  8, 150,  0.5,  300,  270,  300,  300, 3000,  270,  300,  300,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (45183, 16,  8,  0,    0,  300,  270,  300,  300, 3000,  270,  300,  300,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (45183, 17,  8, 150, 0.75,  300,  270,  300,  300, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (45183, 21,  8,  0,    0,  300,  270,  300,  300, 3000,  270,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45183,  2070,   2.05) /* Heart Rend */
-     , (45183,  2073,   2.03) /* Adja's Intervention */
-     , (45183,  2078,   2.03) /* Void's Call */
-     , (45183,  2084,   2.03) /* Belly of Lead */
-     , (45183,  2136,   2.07) /* Icy Torment */
-     , (45183,  2328,   2.06) /* Vitality Siphon */
-     , (45183,  3879,   2.08) /* Glacial Strike */
-     , (45183,  3909,   2.04) /* Mana Syphon */
-     , (45183,  3916,   2.08) /* Flayed Flesh */
-     , (45183,  2164,   2.08) /* Swordsman's Gift */
-     , (45183,  2166,   2.09) /* Tusker's Gift */
-     , (45183,  2168,    2.1) /* Gelidite's Gift */
-     , (45183,  3884,   2.13) /* Glacial Ring */;
+VALUES (45183,  2070,   2.05)  /* Heart Rend */
+     , (45183,  2073,   2.03)  /* Adja's Intervention */
+     , (45183,  2078,   2.03)  /* Void's Call */
+     , (45183,  2084,   2.03)  /* Belly of Lead */
+     , (45183,  2136,   2.07)  /* Icy Torment */
+     , (45183,  2328,   2.06)  /* Vitality Siphon */
+     , (45183,  3879,   2.08)  /* Glacial Strike */
+     , (45183,  3909,   2.04)  /* Mana Syphon */
+     , (45183,  3916,   2.08)  /* Flayed Flesh */
+     , (45183,  2164,   2.08)  /* Swordsman's Gift */
+     , (45183,  2166,   2.09)  /* Tusker's Gift */
+     , (45183,  2168,    2.1)  /* Gelidite's Gift */
+     , (45183,  3884,   2.13)  /* Glacial Ring */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45183, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */

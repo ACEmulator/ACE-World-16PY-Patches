@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 73018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (73018, 'ace73018-aerbaxwesthotspotgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (73018, 'ace73018-aerbaxnorthhotspotgen', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (73018,  81,         10) /* MaxGeneratedObjects */
@@ -31,9 +31,9 @@ VALUES (73018, -1, 37056, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0022, 108, 36, 125.57
      , (73018, -1, 37056, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0023, 108, 60, 125.576, 1, 0, 0, 0) /* Generate Aerbax Harm Hotspot (37056) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (73018, -1, 37056, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F002B, 132, 60, 125.576, 1, 0, 0, 0) /* Generate Aerbax Harm Hotspot (37056) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (73018, -1, 37056, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0024, 108, 84, 125.576, 1, 0, 0, 0) /* Generate Aerbax Harm Hotspot (37056) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (73018, -1, 37056, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F001B, 84, 60, 125.576, 1, 0, 0, 0) /* Generate Aerbax Harm Hotspot (37056) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */ 
-     , (73018, -1, 73016, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0023, 108, 60, 125.8, 1, 0, 0, 0) /* Generate Aerbax Hotspot (73016) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */     
-     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0022, 108, 36, 125.8, 1, 0, 0, 0) /* Generate Aerbax East Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F002B, 132, 60, 125.8, 1, 0, 0, 0) /* Generate Aerbax East Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0024, 108, 84, 125.8, 1, 0, 0, 0) /* Generate Aerbax East Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F001B, 84, 60, 125.8, 1, 0, 0, 0) /* Generate Aerbax East Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (73018, -1, 37056, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F001B, 84, 60, 125.576, 1, 0, 0, 0) /* Generate Aerbax Harm Hotspot (37056) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (73018, -1, 73016, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0023, 108, 60, 125.8, 1, 0, 0, 0) /* Generate Aerbax Hotspot (73016) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0022, 108, 36, 125.8, 1, 0, 0, 0) /* Generate Aerbax Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F002B, 132, 60, 125.8, 1, 0, 0, 0) /* Generate Aerbax Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F0024, 108, 84, 125.8, 1, 0, 0, 0) /* Generate Aerbax Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (73018, -1, 73015, 180, 1, 1, 1, 4, -1, 0, 0, 0x2E2F001B, 84, 60, 125.8, 1, 0, 0, 0) /* Generate Aerbax Hotspot Gen (73015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -5,7 +5,7 @@ VALUES (51436, 'ace51436-frozencoconut', 4, '2021-11-01 00:00:00') /* Missile */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51436,   1,        256) /* ItemType - MissileWeapon */
-     , (51436,   3,         61) /* PaletteTemplate - Maroon */
+     , (51436,   3,         61) /* PaletteTemplate - White */
      , (51436,   5,         20) /* EncumbranceVal */
      , (51436,   8,         20) /* Mass */
      , (51436,   9,    4194304) /* ValidLocations - MissileWeapon */

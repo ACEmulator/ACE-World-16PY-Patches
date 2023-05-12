@@ -6,4 +6,4 @@ VALUES (9213, 0, 0, 0, 0, 40089 /* Empowered Sword of Lost Hope */, 1, 'You appl
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9213;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (9213, 40090 /* Radiant Mana Infusion */,  24604 /* Sword of Lost Hope */, '2022-08-22 03:09:27');
+VALUES (9213, 40090 /* Radiant Mana Infusion */, 24604 /* Sword of Lost Hope */, '2022-08-22 03:09:27');

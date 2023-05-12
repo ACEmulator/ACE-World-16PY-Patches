@@ -6,4 +6,4 @@ VALUES (9212, 0, 0, 0, 0, 40518 /* Shadowfire Sword of Lost Light */, 1, 'You ap
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9212;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (9212, 40512 /* Empowered Shadowfire Infusion */,  40088 /* Empowered Sword of Lost Light */, '2022-08-22 03:09:27');
+VALUES (9212, 40512 /* Empowered Shadowfire Infusion */, 40088 /* Empowered Sword of Lost Light */, '2022-08-22 03:09:27');

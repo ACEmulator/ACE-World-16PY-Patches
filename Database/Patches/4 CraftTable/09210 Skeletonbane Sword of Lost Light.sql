@@ -6,4 +6,4 @@ VALUES (9210, 0, 0, 0, 0, 40519 /* Skeletonbane Sword of Lost Light */, 1, 'You 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9210;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (9210, 40513 /* Empowered Skeletonbane Infusion */,  40088 /* Empowered Sword of Lost Light */, '2022-08-22 03:09:27');
+VALUES (9210, 40513 /* Empowered Skeletonbane Infusion */, 40088 /* Empowered Sword of Lost Light */, '2022-08-22 03:09:27');

@@ -6,4 +6,4 @@ VALUES (9211, 0, 0, 0, 0, 40517 /* Olthoibane Sword of Lost Light */, 1, 'You ap
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9211;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (9211, 40511 /* Empowered Olthoibane Infusion */,  40088 /* Empowered Sword of Lost Light */, '2022-08-22 03:09:27');
+VALUES (9211, 40511 /* Empowered Olthoibane Infusion */, 40088 /* Empowered Sword of Lost Light */, '2022-08-22 03:09:27');
