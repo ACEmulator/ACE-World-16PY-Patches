@@ -27,7 +27,7 @@ VALUES (87017,   1, 0x0200026B) /* Setup */
      , (87017,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87017, -1, 87071, 1600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1) /* Generate Spawn 1 Generator (87071) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87017, -1, 87072, 1600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1) /* Generate Spawn 2 Generator (87072) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87017, -1, 87073, 1600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1) /* Generate Spawn 3 Generator (87073) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87017, -1, 87070, 1600, 1, 1, 1, 4, -1, 0, 0, 0x0B0C0027, 106.419, 153.249, 109.888, -0.997383, 0, 0, -0.072292) /* Generate Portal Controller (87070) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (87017, -1, 87071, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1) /* Generate Spawn 1 Generator (87071) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87017, -1, 87072, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1) /* Generate Spawn 2 Generator (87072) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87017, -1, 87073, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1) /* Generate Spawn 3 Generator (87073) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87017, -1, 87070, 1200, 1, 1, 1, 4, -1, 0, 0, 0x0B0C0027, 106.419, 153.249, 109.888, -0.997383, 0, 0, -0.072292) /* Generate Portal Controller (87070) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
