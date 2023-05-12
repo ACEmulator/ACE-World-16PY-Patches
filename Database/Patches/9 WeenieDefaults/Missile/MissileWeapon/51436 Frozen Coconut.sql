@@ -5,8 +5,9 @@ VALUES (51436, 'ace51436-frozencoconut', 4, '2021-11-01 00:00:00') /* Missile */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51436,   1,        256) /* ItemType - MissileWeapon */
+     , (51436,   3,         61) /* PaletteTemplate - Maroon */
      , (51436,   5,         20) /* EncumbranceVal */
-     , (51436,   8,        500) /* Mass */
+     , (51436,   8,         20) /* Mass */
      , (51436,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (51436,  11,         30) /* MaxStackSize */
      , (51436,  12,          1) /* StackSize */
@@ -24,7 +25,8 @@ VALUES (51436,   1,        256) /* ItemType - MissileWeapon */
      , (51436,  51,          2) /* CombatUse - Missile */
      , (51436,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (51436, 307,         35) /* DamageRating */
-     , (51436, 313,         30) /* CritRating */;
+     , (51436, 313,         30) /* CritRating */
+     , (51436, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51436,   1, True ) /* Stuck */
@@ -50,5 +52,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51436,   1, 0x020000ED) /* Setup */
      , (51436,   3, 0x20000095) /* SoundTable */
      , (51436,   6, 0x04000BF8) /* PaletteBase */
+     , (51436,   7, 0x1000041C) /* ClothingBase */
      , (51436,   8, 0x06002913) /* Icon */
      , (51436,  22, 0x3400002B) /* PhysicsEffectTable */;
