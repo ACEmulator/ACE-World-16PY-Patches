@@ -13,7 +13,7 @@ VALUES (0x7587A078, 52096, 0x587A01FD, 510, -114.75, 0, 1, 0, 0, 0, False, '2023
 /* @teleloc 0x587A01FD [510.000000 -114.750000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A079,  4219, 0x587A01A3, 443.803, -65.686, 0.0085, 0.707107, 0, 0, -0.707107, False, '2023-03-23 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x7587A079,  7924, 0x587A01A3, 443.803, -65.686, 0.0085, 0.707107, 0, 0, -0.707107, False, '2023-03-23 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x587A01A3 [443.803009 -65.685997 0.008500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -62,10 +62,14 @@ VALUES (0x7587A079, 0x7587A07A, '2023-03-23 00:00:00') /* Fiesty Mite (46705) */
      , (0x7587A079, 0x7587A0A7, '2023-03-23 00:00:00') /* Training Dummy (52085) */
      , (0x7587A079, 0x7587A0A8, '2023-03-23 00:00:00') /* Training Dummy (52086) */
      , (0x7587A079, 0x7587A0A9, '2023-03-23 00:00:00') /* Training Dummy (52085) */
-     , (0x7587A079, 0x7587A0DF, '2023-03-23 00:00:00') /* Gurog Bruiser (88145) */
-     , (0x7587A079, 0x7587A0E0, '2023-03-23 00:00:00') /* Gurog Bruiser (88145) */
      , (0x7587A079, 0x7587A0E1, '2023-03-23 00:00:00') /* Gurog Bruiser (88145) */
-     , (0x7587A079, 0x7587A0E2, '2023-03-23 00:00:00') /* Gurog Bruiser (88145) */;
+     , (0x7587A079, 0x7587A0E2, '2023-03-23 00:00:00') /* Gurog Bruiser (88145) */
+     , (0x7587A079, 0x7587A0EF, '2023-04-15 14:15:43') /* Gurog Bruiser (88145) */
+     , (0x7587A079, 0x7587A0F0, '2023-04-15 14:15:49') /* Gurog Bruiser (88145) */
+     , (0x7587A079, 0x7587A0F3, '2023-04-15 14:18:21') /* Gurog Bruiser (88145) */
+     , (0x7587A079, 0x7587A0F4, '2023-04-15 14:19:30') /* Gurog Bruiser (88145) */
+     , (0x7587A079, 0x7587A0F5, '2023-04-15 14:23:27') /* Gurog Bruiser (88145) */
+     , (0x7587A079, 0x7587A0F6, '2023-04-15 14:24:25') /* Gurog Bruiser (88145) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587A07A, 46705, 0x587A01A3, 443.803, -65.686, 0.0085, 0.707107, 0, 0, -0.707107,  True, '2023-03-23 00:00:00'); /* Fiesty Mite */
@@ -252,8 +256,8 @@ VALUES (0x7587A0AA,  1542, 0x587A0177, 328.7, -180, -0.063, 0.707107, 0, 0, -0.7
 /* @teleloc 0x587A0177 [328.700012 -180.000000 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0B0, 88100, 0x587A026B, 655.248, -90, 0.055, 0.707107, 0, 0, -0.707107, False, '2023-03-23 00:00:00'); /* Door */
-/* @teleloc 0x587A026B [655.247986 -90.000000 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x7587A0B0, 88100, 0x587A026B, 655.248, -90, 0.055, 0.707107, 0, 0, 0.707107, False, '2023-03-23 00:00:00'); /* Door */
+/* @teleloc 0x587A026B [655.247986 -90.000000 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587A0B1, 88100, 0x587A0260, 644.75, -50, 0.055, 0.707107, 0, 0, -0.707107, False, '2023-03-23 00:00:00'); /* Door */
@@ -264,8 +268,8 @@ VALUES (0x7587A0B2, 88100, 0x587A014A, 209.998, -44.7519, 0.055, 1, 0, 0, 0, Fal
 /* @teleloc 0x587A014A [209.998001 -44.751900 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0B3, 88100, 0x587A0270, 680, -64.75, 0.055, 1, 0, 0, 0, False, '2023-03-23 00:00:00'); /* Door */
-/* @teleloc 0x587A0270 [680.000000 -64.750000 0.055000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7587A0B3, 88100, 0x587A0270, 680, -64.75, 0.055, 0, 0, 0, -1, False, '2023-03-23 00:00:00'); /* Door */
+/* @teleloc 0x587A0270 [680.000000 -64.750000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587A0B4, 88100, 0x587A0150, 209.998, -94.75, 0.055, 1, 0, 0, 0, False, '2023-03-23 00:00:00'); /* Door */
@@ -416,14 +420,6 @@ VALUES (0x7587A0DD, 88112, 0x587A0179, 330.266, -310.003, 0.055, 0.707107, 0, 0,
 /* @teleloc 0x587A0179 [330.265991 -310.002991 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0DF, 88145, 0x587A0166, 276.838, -209.705, 0.0065, 0.664115, 0, 0, 0.74763,  True, '2023-03-23 00:00:00'); /* Gurog Bruiser */
-/* @teleloc 0x587A0166 [276.838013 -209.705002 0.006500] 0.664115 0.000000 0.000000 0.747630 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0E0, 88145, 0x587A016D, 309.685, -254.745, 0.0065, 0.992645, 0, 0, -0.121065,  True, '2023-03-23 00:00:00'); /* Gurog Bruiser */
-/* @teleloc 0x587A016D [309.684998 -254.744995 0.006500] 0.992645 0.000000 0.000000 -0.121065 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587A0E1, 88145, 0x587A0129, 129.831, -230.123, 0.0065, -0.633624, 0, 0, -0.773641,  True, '2023-03-23 00:00:00'); /* Gurog Bruiser */
 /* @teleloc 0x587A0129 [129.830994 -230.123001 0.006500] -0.633624 0.000000 0.000000 -0.773641 */
 
@@ -464,8 +460,8 @@ VALUES (0x7587A0EB, 88155, 0x587A0271, 679.893, -68.8304, 0.055, 0.031352, 0, 0,
 /* @teleloc 0x587A0271 [679.893005 -68.830399 0.055000] 0.031352 0.000000 0.000000 -0.999508 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587A0EC, 88155, 0x587A0262, 648.608, -50.3146, 0.055, -0.707107, 0, 0, 0.707107, False, '2023-03-23 00:00:00'); /* Drudge Test Master Generator */
-/* @teleloc 0x587A0262 [648.607971 -50.314602 0.055000] -0.707107 0.000000 0.000000 0.707107 */
+VALUES (0x7587A0EC, 88155, 0x587A0262, 649.608, -50.3146, 0.055, 0.707107, 0, 0, -0.707107, False, '2023-03-23 00:00:00'); /* Drudge Test Master Generator */
+/* @teleloc 0x587A0262 [649.607971 -50.314602 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587A0ED, 88111, 0x587A0252, 629.795, -19.9711, 0.055, 0, 0, 0, 1, False, '2023-03-23 00:00:00'); /* Rynthid Test 2 Portal Generator */
@@ -474,3 +470,27 @@ VALUES (0x7587A0ED, 88111, 0x587A0252, 629.795, -19.9711, 0.055, 0, 0, 0, 1, Fal
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587A0EE, 88126, 0x587A0168, 297.058, -209.615, 0.055, 0.729576, 0, 0, 0.6839, False, '2023-03-23 00:00:00'); /* Gurog Test Blue Portal Energy Generator */
 /* @teleloc 0x587A0168 [297.058014 -209.615005 0.055000] 0.729576 0.000000 0.000000 0.683900 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7587A0EF, 88145, 0x587A015D, 267.498, -228.929, 0.0065, 0, 0, 0, -1,  True, '2023-04-15 14:15:43'); /* Gurog Bruiser */
+/* @teleloc 0x587A015D [267.497986 -228.929001 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7587A0F0, 88145, 0x587A015D, 272.63, -229.133, 0.0065, 0, 0, 0, -1,  True, '2023-04-15 14:15:49'); /* Gurog Bruiser */
+/* @teleloc 0x587A015D [272.630005 -229.132996 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7587A0F3, 88145, 0x587A0169, 310.487, -208.296, 0.0065, 0.707107, 0, 0, 0.707107,  True, '2023-04-15 14:18:21'); /* Gurog Bruiser */
+/* @teleloc 0x587A0169 [310.487000 -208.296005 0.006500] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7587A0F4, 88145, 0x587A016B, 310.44, -226.464, 0.0065, 1, 0, 0, 0,  True, '2023-04-15 14:19:30'); /* Gurog Bruiser */
+/* @teleloc 0x587A016B [310.440002 -226.464005 0.006500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7587A0F5, 88145, 0x587A0172, 312.614, -299.885, 0.0065, 1, 0, 0, 0,  True, '2023-04-15 14:23:27'); /* Gurog Bruiser */
+/* @teleloc 0x587A0172 [312.614014 -299.885010 0.006500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7587A0F6, 88145, 0x587A0172, 307.408, -300.037, 0.0065, 1, 0, 0, 0,  True, '2023-04-15 14:24:25'); /* Gurog Bruiser */
+/* @teleloc 0x587A0172 [307.407990 -300.036987 0.006500] 1.000000 0.000000 0.000000 0.000000 */
