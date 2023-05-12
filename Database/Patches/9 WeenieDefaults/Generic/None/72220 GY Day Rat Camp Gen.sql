@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (72220, 'ace72220-gydayratcampgen', 1, '2023-04-09 17:44:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (72220,  81,          6) /* MaxGeneratedObjects */
-     , (72220,  82,          6) /* InitGeneratedObjects */
+VALUES (72220,  81,          8) /* MaxGeneratedObjects */
+     , (72220,  82,          8) /* InitGeneratedObjects */
      , (72220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72220, 103,          2) /* GeneratorDestructionType - Destroy */
      , (72220, 142,          5) /* GeneratorTimeType - Day */
@@ -30,6 +30,8 @@ VALUES (72220,   1, 0x0200026B) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (72220, -1, 35100, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grave Rat (35100) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72220, -1, 35100, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grave Rat (35100) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72220, -1, 35100, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grave Rat (35100) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (72220, -1, 35100, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grave Rat (35100) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (72220, -1, 35100, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grave Rat (35100) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (72220, -1, 35100, 300, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grave Rat (35100) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

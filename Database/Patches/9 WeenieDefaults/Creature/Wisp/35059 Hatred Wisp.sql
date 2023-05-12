@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35059;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35059, 'ace35059-hatredwisp', 10, '2023-04-09 17:44:47') /* Creature */;
+VALUES (35059, 'ace35059-hatredwisp', 10, '2023-04-21 05:54:44') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35059,   1,         16) /* ItemType - Creature */
@@ -37,7 +37,7 @@ VALUES (35059,   1,       5) /* HeartbeatInterval */
      , (35059,   5,       1) /* ManaRate */
      , (35059,  13,     0.9) /* ArmorModVsSlash */
      , (35059,  14,       1) /* ArmorModVsPierce */
-     , (35059,  15,     0.9) /* ArmorModVsBludgeon */
+     , (35059,  15,       1) /* ArmorModVsBludgeon */
      , (35059,  16,     0.9) /* ArmorModVsCold */
      , (35059,  17,      10) /* ArmorModVsFire */
      , (35059,  18,       1) /* ArmorModVsAcid */
@@ -46,11 +46,11 @@ VALUES (35059,   1,       5) /* HeartbeatInterval */
      , (35059,  34,       1) /* PowerupTime */
      , (35059,  36,       1) /* ChargeSpeed */
      , (35059,  39,     1.3) /* DefaultScale */
-     , (35059,  64,     0.6) /* ResistSlash */
-     , (35059,  65,       1) /* ResistPierce */
+     , (35059,  64,     0.8) /* ResistSlash */
+     , (35059,  65,     0.8) /* ResistPierce */
      , (35059,  66,     0.6) /* ResistBludgeon */
      , (35059,  67,       0) /* ResistFire */
-     , (35059,  68,     0.6) /* ResistCold */
+     , (35059,  68,     0.8) /* ResistCold */
      , (35059,  69,     0.4) /* ResistAcid */
      , (35059,  70,     0.4) /* ResistElectric */
      , (35059,  71,       1) /* ResistHealthBoost */
@@ -98,17 +98,17 @@ VALUES (35059,  6, 0, 3, 0, 398, 0, 0) /* MeleeDefense        Specialized */
      , (35059, 45, 0, 3, 0, 390, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35059,  0, 32, 150,  0.5,  300,  270,  300,  270,  270, 3000,  300,  300,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (35059, 16, 32,  0,    0,  300,  270,  300,  270,  270, 3000,  300,  300,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (35059, 17, 32, 150, 0.75,  300,  270,  300,  270,  270, 3000,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (35059, 21, 32,  0,    0,  300,  270,  300,  270,  270, 3000,  300,  300,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (35059,  0, 16, 150,  0.5,  300,  150,  150,  150,  150,  150,  150,  150,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (35059, 16, 16,  0,    0,  300,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (35059, 17, 16, 150, 0.75,  300,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (35059, 21, 16,  0,    0,  300,  150,  150,  150,  150,  150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35059,  1785,   2.01)  /* Cassius' Ring of Fire */
-     , (35059,  2127,  2.067)  /* Silencia's Scorn */
-     , (35059,  2128,    2.3)  /* Ilservian's Flame */
-     , (35059,  2129,  2.067)  /* Sizzling Fury */
-     , (35059,  2745,    2.3)  /* Flame Arc VII */;
+VALUES (35059,  1785,   2.12)  /* Cassius' Ring of Fire */
+     , (35059,  2127,   2.14)  /* Silencia's Scorn */
+     , (35059,  2128,   2.16)  /* Ilservian's Flame */
+     , (35059,  2129,   2.19)  /* Sizzling Fury */
+     , (35059,  2745,   2.23)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35059,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

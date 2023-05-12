@@ -48,7 +48,7 @@ VALUES (41938,   1,       5) /* HeartbeatInterval */
      , (41938,  31,      25) /* VisualAwarenessRange */
      , (41938,  34,       1) /* PowerupTime */
      , (41938,  36,       1) /* ChargeSpeed */
-     , (41938,  41,     180) /* RegenerationInterval */
+     , (41938,  41,       5) /* RegenerationInterval */
      , (41938,  43,       5) /* GeneratorRadius */
      , (41938,  64,    0.58) /* ResistSlash */
      , (41938,  65,    0.58) /* ResistPierce */
@@ -131,4 +131,5 @@ VALUES (41938, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (41938, 9, 41934,  1, 0, 0, False) /* Create Lord Trimere's Brand (41934) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41938, -1, 37458, 0, 4, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Minion (37458) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (41938, -1, 37458, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Minion (37458) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (41938, -1, 37458, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Minion (37458) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
