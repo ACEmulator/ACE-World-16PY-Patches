@@ -33,7 +33,7 @@ VALUES (0x7284203C, 40504, 0x28420183, 20, 0, 5.937, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x28420183 [20.000000 0.000000 5.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7284203D,  1154, 0x2842013F, 181.068, -670.012, 0.012, 0.695282, 0, 0, -0.718737, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7284203D,  7924, 0x2842013F, 181.068, -670.012, 0.012, 0.695282, 0, 0, -0.718737, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x2842013F [181.067993 -670.012024 0.012000] 0.695282 0.000000 0.000000 -0.718737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -87,8 +87,7 @@ VALUES (0x7284203D, 0x7284203E, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner
      , (0x7284203D, 0x7284206D, '2021-11-01 00:00:00') /* Apostate Master (40498) */
      , (0x7284203D, 0x7284206E, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
      , (0x7284203D, 0x7284206F, '2021-11-01 00:00:00') /* Apostate Servant (40499) */
-     , (0x7284203D, 0x72842071, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */
-     , (0x7284203D, 0x72842075, '2021-11-01 00:00:00') /* Dark Master (24319) */;
+     , (0x7284203D, 0x72842071, '2021-11-01 00:00:00') /* Gotrok Aetherium Miner (40492) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7284203E, 40492, 0x2842013F, 181.068, -670.012, 0.012, 0.695282, 0, 0, -0.718737,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */
@@ -293,7 +292,3 @@ VALUES (0x7284206F, 40499, 0x28420191, 26.3888, -19.6008, 6.029, 0.692567, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72842071, 40492, 0x28420150, 199.724, -535.02, 0.012, 0.258865, 0, 0, -0.965914,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */
 /* @teleloc 0x28420150 [199.723999 -535.020020 0.012000] 0.258865 0.000000 0.000000 -0.965914 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72842075, 24319, 0x28420038, 164.66, 169.939, 30.8948, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Dark Master */
-/* @teleloc 0x28420038 [164.660004 169.938995 30.894800] 0.707107 0.000000 0.000000 -0.707107 */
