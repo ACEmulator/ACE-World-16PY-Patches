@@ -1,9 +1,15 @@
 Use:
-    - InqOwnsItems: 88201
-        TestSuccess:
-            - DirectBroadcast: Attempting to pluck one of the seeds directly yields nothing... You think this has already given me a seed.
-        TestFailure:
-            - InqOwnsItems: 47012, 15
+    - InqQuest: BulbofMorningsSeedGiven
+        QuestSuccess:
+            - DirectBroadcast: You have already gathered a seed from the bulb.
+        QuestFailure:
+            - Goto: CheckPlants
+            
+Refuse: 47012
+    - Goto: CheckPlants
+    
+GotoSet: CheckPlants
+    - InqOwnsItems: 47012, 15
                 TestSuccess:
                     - TakeItems: 47012, -1
                     - DirectBroadcast: You offer up the Delicate Desert Flowers to the large plant. The flowers themselves glow momentarilly, and then are absorbed in the plant. A moment later, the plant releases a small glowing seed.

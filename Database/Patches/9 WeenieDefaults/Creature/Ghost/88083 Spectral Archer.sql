@@ -31,18 +31,18 @@ VALUES (88083,   1,       5) /* HeartbeatInterval */
      , (88083,   3,       2) /* HealthRate */
      , (88083,   4,       5) /* StaminaRate */
      , (88083,   5,       1) /* ManaRate */
-     , (88083,  13,       1) /* ArmorModVsSlash */
-     , (88083,  14,       1) /* ArmorModVsPierce */
-     , (88083,  15,       1) /* ArmorModVsBludgeon */
+     , (88083,  13,     0.8) /* ArmorModVsSlash */
+     , (88083,  14,     0.8) /* ArmorModVsPierce */
+     , (88083,  15,     0.8) /* ArmorModVsBludgeon */
      , (88083,  16,       1) /* ArmorModVsCold */
-     , (88083,  17,    0.95) /* ArmorModVsFire */
+     , (88083,  17,     0.6) /* ArmorModVsFire */
      , (88083,  18,       1) /* ArmorModVsAcid */
      , (88083,  19,       1) /* ArmorModVsElectric */
      , (88083,  31,      35) /* VisualAwarenessRange */
-     , (88083,  64,    0.45) /* ResistSlash */
-     , (88083,  65,    0.35) /* ResistPierce */
+     , (88083,  64,     0.6) /* ResistSlash */
+     , (88083,  65,     0.6) /* ResistPierce */
      , (88083,  66,     0.6) /* ResistBludgeon */
-     , (88083,  67,    0.65) /* ResistFire */
+     , (88083,  67,     0.8) /* ResistFire */
      , (88083,  68,     0.2) /* ResistCold */
      , (88083,  69,    0.35) /* ResistAcid */
      , (88083,  70,    0.35) /* ResistElectric */

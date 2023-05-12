@@ -14,8 +14,7 @@ VALUES (0x78A63002,  7924, 0x8A6304C1, 55.3969, 131.846, 9.755, -0.92661, 0, 0, 
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x78A63002, 0x78A63003, '2022-05-17 03:47:03') /* Kaltus (47020) */
-     , (0x78A63002, 0x78A63004, '2022-05-17 03:47:03') /* Sanctum Guardian Spirit (88210) */
-     , (0x78A63002, 0x78A63005, '2022-05-17 03:47:03') /* Bulb of Mornings (88208) */;
+     , (0x78A63002, 0x78A63004, '2022-05-17 03:47:03') /* Sanctum Guardian Spirit (88210) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A63003, 47020, 0x8A6304C1, 58.3627, 132.429, 9.705, -0.987147, 0, 0, -0.159813,  True, '2022-05-17 03:47:03'); /* Kaltus */
@@ -24,10 +23,6 @@ VALUES (0x78A63003, 47020, 0x8A6304C1, 58.3627, 132.429, 9.705, -0.987147, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A63004, 88210, 0x8A630438, -104.002, 209, -25.595, 1, 0, 0, 0,  True, '2022-05-17 03:47:03'); /* Sanctum Guardian Spirit */
 /* @teleloc 0x8A630438 [-104.001999 209.000000 -25.594999] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63005, 88208, 0x8A630116, 34.0996, 172.838, -85.545, 0.696707, 0, 0, 0.717356, False, '2022-05-17 03:47:03'); /* Bulb of Mornings */
-/* @teleloc 0x8A630116 [34.099602 172.837997 -85.544998] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A63006, 88206, 0x8A630488, 14.9271, 169.017, -25.545, -0.699055, 0, 0, 0.715068, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
@@ -42,60 +37,16 @@ VALUES (0x78A63008, 88206, 0x8A63045E, -14.5816, 209.864, -25.545, -0.741703, 0,
 /* @teleloc 0x8A63045E [-14.581600 209.863998 -25.545000] -0.741703 0.000000 0.000000 0.670728 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63009, 88206, 0x8A6303BA, -4.12718, 208.37, -37.545, -0.99997, 0, 0, 0.007781, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6303BA [-4.127180 208.369995 -37.544998] -0.999970 0.000000 0.000000 0.007781 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A6300A, 88206, 0x8A6303C7, -4.02412, 178.63, -37.545, 0.997884, 0, 0, 0.065022, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
 /* @teleloc 0x8A6303C7 [-4.024120 178.630005 -37.544998] 0.997884 0.000000 0.000000 0.065022 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6300B, 88206, 0x8A6303AC, -14.7069, 193.221, -37.545, 0.999267, 0, 0, -0.038281, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6303AC [-14.706900 193.220993 -37.544998] 0.999267 0.000000 0.000000 -0.038281 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6300C, 88206, 0x8A6303E9, 21.2461, 209.023, -37.545, -0.702927, 0, 0, -0.711262, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6303E9 [21.246099 209.022995 -37.544998] -0.702927 0.000000 0.000000 -0.711262 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6300D, 88206, 0x8A6302AC, 51.1109, 228.605, -49.545, -0.648756, 0, 0, -0.760996, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6302AC [51.110901 228.604996 -49.544998] -0.648756 0.000000 0.000000 -0.760996 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6300E, 88206, 0x8A6302BE, 51.0173, 169.106, -49.545, 0.701068, 0, 0, 0.713094, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6302BE [51.017300 169.106003 -49.544998] 0.701068 0.000000 0.000000 0.713094 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6300F, 88206, 0x8A6302B3, 55.8536, 198.752, -49.545, -0.69227, 0, 0, -0.721639, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6302B3 [55.853600 198.751999 -49.544998] -0.692270 0.000000 0.000000 -0.721639 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63010, 88206, 0x8A6302C4, 74.9013, 199.673, -49.545, 0.653372, 0, 0, 0.757037, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6302C4 [74.901299 199.673004 -49.544998] 0.653372 0.000000 0.000000 0.757037 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63011, 88206, 0x8A630286, -80.7207, 159.019, -49.545, -0.699678, 0, 0, 0.714458, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630286 [-80.720703 159.018997 -49.544998] -0.699678 0.000000 0.000000 0.714458 */
+VALUES (0x78A6300C, 88206, 0x8A6303E9, 21.2461, 209.023, -37.545, 0.707107, 0, 0, 0.707107, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6303E9 [21.246099 209.022995 -37.544998] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A63012, 88206, 0x8A63027E, -112.689, 159.221, -49.545, -0.699678, 0, 0, 0.714458, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
 /* @teleloc 0x8A63027E [-112.689003 159.220993 -49.544998] -0.699678 0.000000 0.000000 0.714458 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63013, 88206, 0x8A63026E, -150.699, 160.016, -49.545, -0.699678, 0, 0, 0.714458, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A63026E [-150.699005 160.016006 -49.544998] -0.699678 0.000000 0.000000 0.714458 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63014, 88206, 0x8A63026A, -154.927, 196.786, -49.545, 0.043312, 0, 0, 0.999062, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A63026A [-154.927002 196.785995 -49.544998] 0.043312 0.000000 0.000000 0.999062 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63015, 88206, 0x8A630265, -154.733, 249.39, -49.545, 0.00775, 0, 0, 0.99997, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630265 [-154.733002 249.389999 -49.544998] 0.007750 0.000000 0.000000 0.999970 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63016, 88206, 0x8A63026F, -144.05, 258.417, -49.545, -0.729589, 0, 0, 0.683886, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A63026F [-144.050003 258.416992 -49.544998] -0.729589 0.000000 0.000000 0.683886 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A63017, 88206, 0x8A630283, -88.8364, 258.43, -49.545, -0.664524, 0, 0, 0.747267, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
@@ -106,56 +57,16 @@ VALUES (0x78A63018, 88206, 0x8A630292, -53.7054, 252.091, -49.545, -0.034903, 0,
 /* @teleloc 0x8A630292 [-53.705399 252.091003 -49.544998] -0.034903 0.000000 0.000000 -0.999391 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63019, 88206, 0x8A630296, -54.034, 210.203, -49.6, -0.065152, 0, 0, -0.997875, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630296 [-54.034000 210.203003 -49.599998] -0.065152 0.000000 0.000000 -0.997875 */
+VALUES (0x78A63019, 88206, 0x8A630296, -54.034, 210.203, -49.6, 0, 0, 0, -1, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630296 [-54.034000 210.203003 -49.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6301A, 88206, 0x8A63031E, -89.9721, 189.156, -43.545, 0.69951, 0, 0, -0.714623, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A63031E [-89.972099 189.156006 -43.544998] 0.699510 0.000000 0.000000 -0.714623 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6301B, 88206, 0x8A63030F, -104.016, 188.553, -43.545, -0.003306, 0, 0, 0.999995, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A63030F [-104.015999 188.552994 -43.544998] -0.003306 0.000000 0.000000 0.999995 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6301C, 88206, 0x8A6302F7, -122.791, 168.612, -43.545, 0.710417, 0, 0, -0.703781, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6302F7 [-122.791000 168.612000 -43.544998] 0.710417 0.000000 0.000000 -0.703781 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6301D, 88206, 0x8A6302DE, -144.629, 178.167, -43.545, 0.99998, 0, 0, 0.006329, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6302DE [-144.628998 178.167007 -43.544998] 0.999980 0.000000 0.000000 0.006329 */
+VALUES (0x78A6301B, 88206, 0x8A63030F, -104.016, 188.553, -43.545, 1, 0, 0, 0, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63030F [-104.015999 188.552994 -43.544998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A6301E, 88206, 0x8A6302D9, -144.139, 228.811, -43.545, 0.999921, 0, 0, 0.012576, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
 /* @teleloc 0x8A6302D9 [-144.139008 228.811005 -43.544998] 0.999921 0.000000 0.000000 0.012576 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6301F, 88206, 0x8A6302E2, -132.663, 249.513, -43.545, 0.747283, 0, 0, -0.664506, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A6302E2 [-132.662994 249.513000 -43.544998] 0.747283 0.000000 0.000000 -0.664506 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63020, 88206, 0x8A630314, -89.5502, 249.276, -43.545, 0.688796, 0, 0, -0.724955, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630314 [-89.550201 249.276001 -43.544998] 0.688796 0.000000 0.000000 -0.724955 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63021, 88206, 0x8A63033B, -64.1422, 235.237, -43.545, 0.020886, 0, 0, -0.999782, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A63033B [-64.142197 235.237000 -43.544998] 0.020886 0.000000 0.000000 -0.999782 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63022, 88206, 0x8A630340, -63.7865, 189.241, -43.545, 0.071307, 0, 0, -0.997455, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630340 [-63.786499 189.240997 -43.544998] 0.071307 0.000000 0.000000 -0.997455 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63023, 88206, 0x8A630337, -78.5618, 168.876, -43.545, -0.701951, 0, 0, -0.712225, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630337 [-78.561798 168.876007 -43.544998] -0.701951 0.000000 0.000000 -0.712225 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63024, 88206, 0x8A630383, -94.1475, 195.28, -37.545, 0.017038, 0, 0, -0.999855, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630383 [-94.147499 195.279999 -37.544998] 0.017038 0.000000 0.000000 -0.999855 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63025, 88206, 0x8A630398, -73.723, 191.597, -37.545, 0.999991, 0, 0, -0.004256, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630398 [-73.723000 191.597000 -37.544998] 0.999991 0.000000 0.000000 -0.004256 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A63026, 88206, 0x8A630379, -102.789, 238.894, -37.545, 0.718405, 0, 0, 0.695625, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
@@ -170,113 +81,507 @@ VALUES (0x78A63028, 88206, 0x8A63037A, -101.662, 177.538, -37.545, -0.715953, 0,
 /* @teleloc 0x8A63037A [-101.662003 177.537994 -37.544998] -0.715953 0.000000 0.000000 0.698148 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63029, 88206, 0x8A630416, -94.1078, 214.294, -31.545, -0.015722, 0, 0, 0.999877, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630416 [-94.107803 214.294006 -31.545000] -0.015722 0.000000 0.000000 0.999877 */
+VALUES (0x78A63029, 88206, 0x8A630416, -94.1078, 214.294, -31.545, 0, 0, 0, -1, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630416 [-94.107803 214.294006 -31.545000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6302A, 88206, 0x8A630401, -123.689, 209.515, -31.545, 0.02226, 0, 0, 0.999752, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630401 [-123.689003 209.514999 -31.545000] 0.022260 0.000000 0.000000 0.999752 */
+VALUES (0x78A63045, 88206, 0x8A630474, 6.00473, 209.05, -25.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 09:24:20'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630474 [6.004730 209.050003 -25.545000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6302B, 88206, 0x8A630412, -103.682, 189.084, -31.545, -0.677995, 0, 0, 0.735066, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630412 [-103.681999 189.084000 -31.545000] -0.677995 0.000000 0.000000 0.735066 */
+VALUES (0x78A63046, 88206, 0x8A6303BF, -3.97823, 198.543, -37.545, 1, 0, 0, 0, False, '2023-04-28 09:25:56'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6303BF [-3.978230 198.542999 -37.544998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6302C, 88206, 0x8A630420, -83.9638, 210.126, -31.545, -0.999979, 0, 0, 0.006552, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A630420 [-83.963799 210.126007 -31.545000] -0.999979 0.000000 0.000000 0.006552 */
+VALUES (0x78A63047, 88206, 0x8A6303AC, -14.0997, 189.112, -37.545, 1, 0, 0, 0, False, '2023-04-28 09:27:02'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6303AC [-14.099700 189.112000 -37.544998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6302D, 88206, 0x8A63040B, -104.245, 229.324, -31.545, -0.698314, 0, 0, -0.715792, False, '2022-05-17 03:47:03'); /* Temple of Mornings Generator */
-/* @teleloc 0x8A63040B [-104.245003 229.324005 -31.545000] -0.698314 0.000000 0.000000 -0.715792 */
+VALUES (0x78A63049, 88206, 0x8A6303EE, 39.645, 199.056, -37.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 09:34:03'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6303EE [39.645000 199.056000 -37.544998] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6302E, 88207, 0x8A630208, -99.8285, 190.246, -67.545, -0.99644, 0, 0, 0.08431, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630208 [-99.828499 190.246002 -67.544998] -0.996440 0.000000 0.000000 0.084310 */
+VALUES (0x78A6304A, 88206, 0x8A6302AF, 56.1719, 209.176, -49.545, 1, 0, 0, 0, False, '2023-04-28 09:35:44'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302AF [56.171902 209.175995 -49.544998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6302F, 88207, 0x8A63020A, -99.6209, 172.31, -67.545, -0.99644, 0, 0, 0.08431, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63020A [-99.620903 172.309998 -67.544998] -0.996440 0.000000 0.000000 0.084310 */
+VALUES (0x78A6304B, 88206, 0x8A6302B7, 55.967, 188.927, -49.545, 0, 0, 0, -1, False, '2023-04-28 09:35:54'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302B7 [55.966999 188.927002 -49.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63030, 88207, 0x8A63021F, -88.1733, 159.949, -67.545, -0.99644, 0, 0, 0.08431, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63021F [-88.173302 159.949005 -67.544998] -0.996440 0.000000 0.000000 0.084310 */
+VALUES (0x78A6304E, 88206, 0x8A6302C4, 75.743, 199.027, -49.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 09:47:14'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302C4 [75.742996 199.026993 -49.544998] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63031, 88207, 0x8A630230, -75.1453, 153.298, -67.545, -0.999879, 0, 0, -0.01559, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630230 [-75.145302 153.298004 -67.544998] -0.999879 0.000000 0.000000 -0.015590 */
+VALUES (0x78A6304F, 88206, 0x8A630285, -81.7039, 169.019, -49.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 09:50:27'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630285 [-81.703903 169.018997 -49.544998] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63032, 88207, 0x8A630224, -76.1732, 188.779, -67.545, -0.723297, 0, 0, -0.690537, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630224 [-76.173203 188.779007 -67.544998] -0.723297 0.000000 0.000000 -0.690537 */
+VALUES (0x78A63051, 88206, 0x8A630272, -143.981, 186.81, -49.545, 0, 0, 0, -1, False, '2023-04-28 09:54:41'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630272 [-143.981003 186.809998 -49.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63033, 88207, 0x8A630222, -84.894, 128.714, -67.545, 0.673262, 0, 0, 0.739404, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630222 [-84.893997 128.714005 -67.544998] 0.673262 0.000000 0.000000 0.739404 */
+VALUES (0x78A63052, 88206, 0x8A63026E, -154.01, 158.951, -49.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 09:55:06'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63026E [-154.009995 158.951004 -49.544998] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63034, 88207, 0x8A630217, -92.8778, 119.251, -67.545, 0.665032, 0, 0, 0.746815, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630217 [-92.877800 119.250999 -67.544998] 0.665032 0.000000 0.000000 0.746815 */
+VALUES (0x78A63053, 88206, 0x8A63026A, -155.147, 196.704, -49.545, 0, 0, 0, -1, False, '2023-04-28 09:55:51'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63026A [-155.147003 196.703995 -49.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63035, 88207, 0x8A63019F, -134.706, 142.794, -73.545, 0.366832, 0, 0, -0.930287, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63019F [-134.705994 142.794006 -73.544998] 0.366832 0.000000 0.000000 -0.930287 */
+VALUES (0x78A63054, 88206, 0x8A63027B, -127.299, 249.021, -49.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 09:56:15'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63027B [-127.299004 249.020996 -49.544998] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63036, 88207, 0x8A63018C, -143.787, 168.613, -73.545, 0.021286, 0, 0, -0.999773, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63018C [-143.787003 168.613007 -73.544998] 0.021286 0.000000 0.000000 -0.999773 */
+VALUES (0x78A63055, 88206, 0x8A630277, -130.679, 249.001, -49.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 09:56:19'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630277 [-130.679001 249.001007 -49.544998] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63037, 88207, 0x8A6301B0, -112.695, 161.78, -73.545, -0.841657, 0, 0, -0.540013, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A6301B0 [-112.695000 161.779999 -73.544998] -0.841657 0.000000 0.000000 -0.540013 */
+VALUES (0x78A63056, 88206, 0x8A630264, -154.005, 258.94, -49.545, 0, 0, 0, -1, False, '2023-04-28 09:56:48'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630264 [-154.005005 258.940002 -49.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63038, 88207, 0x8A6301CD, -92.9353, 149.058, -73.545, 0.702212, 0, 0, -0.711968, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A6301CD [-92.935303 149.057999 -73.544998] 0.702212 0.000000 0.000000 -0.711968 */
+VALUES (0x78A63057, 88206, 0x8A63028E, -64.0023, 231.216, -49.545, 1, 0, 0, 0, False, '2023-04-28 09:58:20'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63028E [-64.002296 231.216003 -49.544998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63039, 88207, 0x8A6301CE, -89.3846, 139.032, -73.545, 0.717782, 0, 0, 0.696268, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A6301CE [-89.384598 139.031998 -73.544998] 0.717782 0.000000 0.000000 0.696268 */
+VALUES (0x78A63058, 88206, 0x8A63028C, -64.0253, 235.631, -49.545, 1, 0, 0, 0, False, '2023-04-28 09:58:37'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63028C [-64.025299 235.630997 -49.544998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6303A, 88207, 0x8A6301C8, -94.0141, 177.501, -73.545, 0.014536, 0, 0, -0.999894, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A6301C8 [-94.014099 177.501007 -73.544998] 0.014536 0.000000 0.000000 -0.999894 */
+VALUES (0x78A6305A, 88206, 0x8A630298, -52.8862, 187.951, -49.545, 0, 0, 0, -1, False, '2023-04-28 10:08:35'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630298 [-52.886200 187.951004 -49.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6303B, 88207, 0x8A630142, -48.5707, 196.618, -79.545, -0.076752, 0, 0, -0.99705, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630142 [-48.570702 196.617996 -79.544998] -0.076752 0.000000 0.000000 -0.997050 */
+VALUES (0x78A6305B, 88206, 0x8A630273, -144.013, 182.465, -49.545, 0, 0, 0, -1, False, '2023-04-28 10:10:19'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630273 [-144.013000 182.464996 -49.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6303C, 88207, 0x8A630147, -38.8119, 214.347, -79.545, 0.19361, 0, 0, 0.981079, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630147 [-38.811901 214.347000 -79.544998] 0.193610 0.000000 0.000000 0.981079 */
+VALUES (0x78A6305C, 88206, 0x8A63032C, -82.8332, 168.96, -43.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 10:13:58'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63032C [-82.833199 168.960007 -43.544998] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6303D, 88207, 0x8A63014C, -19.9364, 228.013, -79.545, 0.179912, 0, 0, 0.983683, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63014C [-19.936399 228.013000 -79.544998] 0.179912 0.000000 0.000000 0.983683 */
+VALUES (0x78A6305D, 88206, 0x8A6302F7, -125.172, 168.987, -43.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:14:35'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302F7 [-125.171997 168.987000 -43.544998] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6303E, 88207, 0x8A630168, -3.59068, 210.005, -79.545, 0.99828, 0, 0, 0.058633, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630168 [-3.590680 210.005005 -79.544998] 0.998280 0.000000 0.000000 0.058633 */
+VALUES (0x78A6305F, 88206, 0x8A630336, -74.0059, 179.089, -43.545, 0, 0, 0, -1, False, '2023-04-28 10:17:08'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630336 [-74.005898 179.089005 -43.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A6303F, 88207, 0x8A630171, -3.72217, 137.949, -79.545, 0.016956, 0, 0, 0.999856, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630171 [-3.722170 137.949005 -79.544998] 0.016956 0.000000 0.000000 0.999856 */
+VALUES (0x78A63060, 88206, 0x8A630340, -64.0206, 188.987, -43.545, 0, 0, 0, -1, False, '2023-04-28 10:17:52'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630340 [-64.020599 188.987000 -43.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63040, 88207, 0x8A63014F, -23.9541, 123.618, -79.545, 0.865799, 0, 0, 0.500392, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63014F [-23.954100 123.617996 -79.544998] 0.865799 0.000000 0.000000 0.500392 */
+VALUES (0x78A63061, 88206, 0x8A63033C, -64.0145, 230.043, -43.545, 0, 0, 0, -1, False, '2023-04-28 10:18:23'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63033C [-64.014503 230.042999 -43.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63041, 88207, 0x8A630144, -39.0196, 134.452, -79.545, 0.92384, 0, 0, 0.38278, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630144 [-39.019600 134.451996 -79.544998] 0.923840 0.000000 0.000000 0.382780 */
+VALUES (0x78A63062, 88206, 0x8A630330, -74.2126, 239.013, -43.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:18:47'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630330 [-74.212601 239.013000 -43.544998] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63042, 88207, 0x8A63013E, -49.981, 149.125, -79.545, 0.999777, 0, 0, -0.021129, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63013E [-49.980999 149.125000 -79.544998] 0.999777 0.000000 0.000000 -0.021129 */
+VALUES (0x78A63063, 88206, 0x8A630322, -83.9268, 249.055, -43.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:19:14'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630322 [-83.926804 249.054993 -43.544998] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63043, 88207, 0x8A630122, -73.8477, 146.91, -79.545, 0.999526, 0, 0, 0.030803, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A630122 [-73.847702 146.910004 -79.544998] 0.999526 0.000000 0.000000 0.030803 */
+VALUES (0x78A63064, 88206, 0x8A63030A, -103.982, 231.162, -43.545, 0, 0, 0, -1, False, '2023-04-28 10:19:37'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63030A [-103.982002 231.162003 -43.544998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A63044, 88207, 0x8A63012F, -64.4244, 178.407, -79.545, 0.998752, 0, 0, -0.049939, False, '2022-05-17 03:47:03'); /* Temple of Mornings Inside Generator */
-/* @teleloc 0x8A63012F [-64.424400 178.406998 -79.544998] 0.998752 0.000000 0.000000 -0.049939 */
+VALUES (0x78A63065, 88206, 0x8A6302ED, -123.95, 249.006, -43.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:20:27'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302ED [-123.949997 249.005997 -43.544998] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63066, 88206, 0x8A6302E3, -133.992, 238.825, -43.545, 1, 0, 0, 0, False, '2023-04-28 10:20:59'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302E3 [-133.992004 238.824997 -43.544998] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63067, 88206, 0x8A6302DD, -144.003, 187.795, -43.545, 1, 0, 0, 0, False, '2023-04-28 10:21:41'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302DD [-144.003006 187.794998 -43.544998] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63068, 88206, 0x8A6302E9, -133.778, 178.993, -43.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 10:21:59'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302E9 [-133.778000 178.992996 -43.544998] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63069, 88206, 0x8A630328, -81.743, 208.975, -43.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 10:22:32'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630328 [-81.742996 208.975006 -43.544998] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6306A, 88206, 0x8A6302F1, -126.207, 209.024, -43.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:23:12'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302F1 [-126.207001 209.024002 -43.544998] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6306B, 88206, 0x8A630288, -77.3157, 168.994, -49.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:25:34'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630288 [-77.315697 168.994003 -49.544998] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6306C, 88206, 0x8A63038F, -83.9017, 188.995, -37.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 10:29:32'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63038F [-83.901703 188.994995 -37.544998] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6306D, 88206, 0x8A630397, -74.0204, 198.981, -37.545, 0, 0, 0, -1, False, '2023-04-28 10:32:41'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630397 [-74.020401 198.981003 -37.544998] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6306E, 88206, 0x8A630394, -73.9555, 230.12, -37.545, 0, 0, 0, -1, False, '2023-04-28 10:33:21'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630394 [-73.955498 230.119995 -37.544998] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6306F, 88206, 0x8A63038D, -83.9839, 208.963, -37.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:34:10'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63038D [-83.983902 208.962997 -37.544998] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63070, 88206, 0x8A630410, -103.97, 199.06, -31.545, 1, 0, 0, 0, False, '2023-04-28 10:35:06'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630410 [-103.970001 199.059998 -31.545000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63079, 88206, 0x8A630406, -114.977, 228.995, -31.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 10:42:19'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630406 [-114.976997 228.994995 -31.545000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6307A, 88206, 0x8A630415, -92.8923, 229.121, -31.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:42:38'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630415 [-92.892303 229.121002 -31.545000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6307B, 88206, 0x8A63041F, -84.0207, 220.001, -31.545, 1, 0, 0, 0, False, '2023-04-28 10:42:54'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63041F [-84.020699 220.001007 -31.545000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6307C, 88206, 0x8A630421, -84.018, 198.01, -31.545, 0, 0, 0, -1, False, '2023-04-28 10:43:15'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630421 [-84.017998 198.009995 -31.545000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6307D, 88206, 0x8A63041B, -92.9629, 188.908, -31.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:43:35'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63041B [-92.962898 188.908005 -31.545000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6307E, 88206, 0x8A630408, -115.095, 188.897, -31.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 10:44:11'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630408 [-115.095001 188.897003 -31.545000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6307F, 88206, 0x8A630402, -124.081, 197.914, -31.545, 0, 0, 0, -1, False, '2023-04-28 10:44:25'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630402 [-124.081001 197.914001 -31.545000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63080, 88206, 0x8A630400, -124.025, 219.485, -31.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 10:45:10'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630400 [-124.025002 219.485001 -31.545000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63081, 88206, 0x8A63038A, -83.9921, 229.003, -37.545, 1, 0, 0, 0, False, '2023-04-28 16:42:50'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63038A [-83.992104 229.003006 -37.544998] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63082, 88206, 0x8A630366, -123.907, 228.974, -37.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 16:43:13'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A630366 [-123.906998 228.973999 -37.544998] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63083, 88206, 0x8A63036A, -124.044, 189.068, -37.545, 0, 0, 0, -1, False, '2023-04-28 16:48:10'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A63036A [-124.043999 189.067993 -37.544998] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63085, 88208, 0x8A630116, 34.0996, 172.838, -85.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 17:30:23'); /* Bulb of Mornings */
+/* @teleloc 0x8A630116 [34.099602 172.837997 -85.544998] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63086, 42940, 0x8A630016, 57.7695, 138.385, 10.005, 1, 0, 0, 0, False, '2023-04-28 18:14:41'); /* Royal Guard */
+/* @teleloc 0x8A630016 [57.769501 138.384995 10.005000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63087,  7924, 0x8A630252, -97.2204, 205.625, -61.545, 0, 0, 0, -1, False, '2023-04-28 18:21:35'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x8A630252 [-97.220398 205.625000 -61.544998] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x78A63087, 0x78A63088, '2023-04-28 18:22:29') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63089, '2023-04-28 18:24:50') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A6308A, '2023-04-28 18:27:44') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A6308B, '2023-04-28 18:29:13') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A6308C, '2023-04-28 18:33:03') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A6308D, '2023-04-28 18:34:54') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A6308E, '2023-04-28 18:36:27') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A6308F, '2023-04-28 18:37:49') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63090, '2023-04-28 18:39:05') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63091, '2023-04-28 18:39:24') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63092, '2023-04-28 18:40:52') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63093, '2023-04-28 18:41:34') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63094, '2023-04-28 18:44:37') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63095, '2023-04-28 18:45:20') /* Large Desert Flower (88202) */
+     , (0x78A63087, 0x78A63096, '2023-04-28 18:46:05') /* Large Desert Flower (88202) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63088, 88202, 0x8A630252, -95.8687, 207.101, -61.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:22:29'); /* Large Desert Flower */
+/* @teleloc 0x8A630252 [-95.868698 207.100998 -61.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63089, 88202, 0x8A63020C, -97.3138, 193.123, -67.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:24:50'); /* Large Desert Flower */
+/* @teleloc 0x8A63020C [-97.313797 193.123001 -67.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6308A, 88202, 0x8A63021E, -86.7465, 165.628, -67.6, 0.382684, 0, 0, 0.92388,  True, '2023-04-28 18:27:44'); /* Large Desert Flower */
+/* @teleloc 0x8A63021E [-86.746498 165.628006 -67.599998] 0.382684 0.000000 0.000000 0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6308B, 88202, 0x8A63022D, -72.6728, 156.518, -67.6, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 18:29:13'); /* Large Desert Flower */
+/* @teleloc 0x8A63022D [-72.672798 156.518005 -67.599998] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6308C, 88202, 0x8A630190, -144.044, 159.485, -73.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:33:03'); /* Large Desert Flower */
+/* @teleloc 0x8A630190 [-144.044006 159.485001 -73.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6308D, 88202, 0x8A6301BB, -103.467, 159.071, -73.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:34:54'); /* Large Desert Flower */
+/* @teleloc 0x8A6301BB [-103.467003 159.070999 -73.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6308E, 88202, 0x8A6301F2, -47.3568, 166.342, -73.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:36:27'); /* Large Desert Flower */
+/* @teleloc 0x8A6301F2 [-47.356800 166.341995 -73.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6308F, 88202, 0x8A6301F1, -46.1611, 181.581, -73.6, 0, 0, 0, -1,  True, '2023-04-28 18:37:49'); /* Large Desert Flower */
+/* @teleloc 0x8A6301F1 [-46.161098 181.580994 -73.599998] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63090, 88202, 0x8A630141, -43.0964, 209.086, -79.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:39:05'); /* Large Desert Flower */
+/* @teleloc 0x8A630141 [-43.096401 209.085999 -79.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63091, 88202, 0x8A630146, -31.2525, 225.295, -79.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:39:24'); /* Large Desert Flower */
+/* @teleloc 0x8A630146 [-31.252501 225.294998 -79.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63092, 88202, 0x8A630142, -46.901, 195.467, -79.6, 1, 0, 0, 0,  True, '2023-04-28 18:40:52'); /* Large Desert Flower */
+/* @teleloc 0x8A630142 [-46.901001 195.466995 -79.599998] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63093, 88202, 0x8A630152, -16.3042, 220.947, -79.6, 0, 0, 0, -1,  True, '2023-04-28 18:41:34'); /* Large Desert Flower */
+/* @teleloc 0x8A630152 [-16.304199 220.947006 -79.599998] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63094, 88202, 0x8A630161, -16.5791, 126.121, -79.6, 1, 0, 0, 0,  True, '2023-04-28 18:44:37'); /* Large Desert Flower */
+/* @teleloc 0x8A630161 [-16.579100 126.121002 -79.599998] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63095, 88202, 0x8A630149, -36.4203, 135.685, -79.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:45:20'); /* Large Desert Flower */
+/* @teleloc 0x8A630149 [-36.420300 135.684998 -79.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63096, 88202, 0x8A63013F, -50.8454, 143.337, -79.6, 0.92388, 0, 0, -0.382684,  True, '2023-04-28 18:46:05'); /* Large Desert Flower */
+/* @teleloc 0x8A63013F [-50.845402 143.337006 -79.599998] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63097,  7924, 0x8A630111, 24.9072, 182.863, -85.545, 0.707107, 0, 0, 0.707107, False, '2023-04-28 18:49:47'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x8A630111 [24.907200 182.863007 -85.544998] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x78A63097, 0x78A63098, '2023-04-28 18:54:13') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A6309B, '2023-04-28 19:08:06') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A6309C, '2023-04-28 19:08:31') /* Dune Reaper (88212) */
+     , (0x78A63097, 0x78A6309D, '2023-04-28 19:08:54') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630A0, '2023-04-28 19:13:42') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630A1, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630A2, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630A3, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630A4, '2023-04-28 20:22:33') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630A5, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630A6, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630A7, '2023-04-28 20:22:33') /* Dune Reaper (88212) */
+     , (0x78A63097, 0x78A630A8, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630A9, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630AA, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630AB, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630AC, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630AD, '2023-04-28 20:22:33') /* Dune Reaper (88212) */
+     , (0x78A63097, 0x78A630AE, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630AF, '2023-04-28 20:22:33') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630B0, '2023-04-28 20:22:33') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630B1, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630B4, '2023-04-28 20:22:33') /* Dune Reaper (88212) */
+     , (0x78A63097, 0x78A630B5, '2023-04-28 20:22:33') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630B6, '2023-04-28 20:22:33') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630B7, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630B8, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630BA, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630BB, '2023-04-28 20:22:33') /* Dune Reaper (88212) */
+     , (0x78A63097, 0x78A630BC, '2023-04-28 20:22:33') /* Dune Reaper (88212) */
+     , (0x78A63097, 0x78A630BF, '2023-04-28 20:22:33') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630C0, '2023-04-28 20:22:33') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630C5, '2023-04-28 20:22:33') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630C6, '2023-04-28 20:22:33') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630C7, '2023-04-28 20:32:15') /* Guardian Dune Reaper (88214) */
+     , (0x78A63097, 0x78A630C8, '2023-04-28 20:32:33') /* Dune Reaper (88212) */
+     , (0x78A63097, 0x78A630C9, '2023-04-28 20:33:49') /* Dune Hunter (88211) */
+     , (0x78A63097, 0x78A630CA, '2023-04-28 20:34:34') /* Dune Seeker (88213) */
+     , (0x78A63097, 0x78A630CB, '2023-04-28 20:35:29') /* Dune Reaper (88212) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A63098, 88213, 0x8A630208, -102.431, 186.357, -67.5975, 1, 0, 0, 0,  True, '2023-04-28 18:54:13'); /* Dune Seeker */
+/* @teleloc 0x8A630208 [-102.431000 186.356995 -67.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6309B, 88213, 0x8A63020E, -97.2181, 182.016, -67.5975, 0.999901, 0, 0, -0.014107,  True, '2023-04-28 19:08:06'); /* Dune Seeker */
+/* @teleloc 0x8A63020E [-97.218102 182.016006 -67.597504] 0.999901 0.000000 0.000000 -0.014107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6309C, 88212, 0x8A63020F, -97.4031, 170.614, -67.5975, 1, 0, 0, 0,  True, '2023-04-28 19:08:31'); /* Dune Reaper */
+/* @teleloc 0x8A63020F [-97.403099 170.613998 -67.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A6309D, 88214, 0x8A630210, -90.6557, 162.059, -67.5975, 1, 0, 0, 0,  True, '2023-04-28 19:08:54'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A630210 [-90.655701 162.059006 -67.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A0, 88213, 0x8A630221, -82.3188, 139.07, -67.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:13:42'); /* Dune Seeker */
+/* @teleloc 0x8A630221 [-82.318802 139.070007 -67.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A1, 88211, 0x8A630219, -84.0751, 184.423, -67.5975, 0, 0, 0, -1,  True, '2023-04-28 19:17:14'); /* Dune Hunter */
+/* @teleloc 0x8A630219 [-84.075104 184.423004 -67.597504] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A2, 88214, 0x8A63021A, -79.0336, 188.92, -67.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 19:17:41'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A63021A [-79.033600 188.919998 -67.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A3, 88214, 0x8A630222, -82.6209, 129.172, -67.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 19:18:41'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A630222 [-82.620903 129.171997 -67.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A4, 88213, 0x8A630223, -87.1439, 118.97, -67.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:19:55'); /* Dune Seeker */
+/* @teleloc 0x8A630223 [-87.143898 118.970001 -67.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A5, 88211, 0x8A63020B, -103.354, 119.037, -67.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:20:05'); /* Dune Hunter */
+/* @teleloc 0x8A63020B [-103.353996 119.037003 -67.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A6, 88214, 0x8A6301AA, -123.667, 138.796, -73.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:21:01'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A6301AA [-123.667000 138.796005 -73.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A7, 88212, 0x8A6301A0, -138.742, 138.894, -73.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:21:30'); /* Dune Reaper */
+/* @teleloc 0x8A6301A0 [-138.742004 138.893997 -73.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A8, 88214, 0x8A63018C, -143.982, 168.312, -73.5975, 0, 0, 0, -1,  True, '2023-04-28 19:22:04'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A63018C [-143.981995 168.311996 -73.597504] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630A9, 88214, 0x8A6301B0, -113.61, 159.137, -73.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 19:22:45'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A6301B0 [-113.610001 159.136993 -73.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630AA, 88211, 0x8A6301CC, -93.6727, 159.163, -73.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 19:24:04'); /* Dune Hunter */
+/* @teleloc 0x8A6301CC [-93.672699 159.162994 -73.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630AB, 88211, 0x8A6301CD, -94.5675, 148.973, -73.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:24:38'); /* Dune Hunter */
+/* @teleloc 0x8A6301CD [-94.567497 148.973007 -73.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630AC, 88211, 0x8A6301CE, -89.5924, 138.978, -73.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 19:25:31'); /* Dune Hunter */
+/* @teleloc 0x8A6301CE [-89.592400 138.977997 -73.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630AD, 88212, 0x8A6301E0, -74.0775, 148.101, -73.5975, 0, 0, 0, -1,  True, '2023-04-28 19:26:17'); /* Dune Reaper */
+/* @teleloc 0x8A6301E0 [-74.077499 148.100998 -73.597504] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630AE, 88211, 0x8A6301DF, -74.0691, 160.574, -73.5975, 0, 0, 0, -1,  True, '2023-04-28 19:26:28'); /* Dune Hunter */
+/* @teleloc 0x8A6301DF [-74.069099 160.574005 -73.597504] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630AF, 88213, 0x8A6301C8, -94.055, 179.003, -73.5975, 0, 0, 0, -1,  True, '2023-04-28 19:27:28'); /* Dune Seeker */
+/* @teleloc 0x8A6301C8 [-94.055000 179.003006 -73.597504] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630B0, 88213, 0x8A630143, -46.8211, 149.228, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:28:34'); /* Dune Seeker */
+/* @teleloc 0x8A630143 [-46.821098 149.227997 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630B1, 88211, 0x8A6301B7, -102.344, 188.915, -73.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:29:39'); /* Dune Hunter */
+/* @teleloc 0x8A6301B7 [-102.344002 188.914993 -73.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630B4, 88212, 0x8A63011B, -73.9388, 199.361, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:36:34'); /* Dune Reaper */
+/* @teleloc 0x8A63011B [-73.938797 199.360992 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630B5, 88213, 0x8A630147, -35.4315, 214.88, -79.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 19:37:48'); /* Dune Seeker */
+/* @teleloc 0x8A630147 [-35.431499 214.880005 -79.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630B6, 88213, 0x8A630167, -3.8642, 216.081, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:38:45'); /* Dune Seeker */
+/* @teleloc 0x8A630167 [-3.864200 216.080994 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630B7, 88214, 0x8A63013A, -51.4121, 205.23, -79.5975, 0, 0, 0, -1,  True, '2023-04-28 19:40:14'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A63013A [-51.412102 205.229996 -79.597504] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630B8, 88211, 0x8A630156, -14.0088, 188.941, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:42:14'); /* Dune Hunter */
+/* @teleloc 0x8A630156 [-14.008800 188.940994 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630BA, 88214, 0x8A630122, -73.9478, 149.365, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:44:31'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A630122 [-73.947800 149.365005 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630BB, 88212, 0x8A630130, -63.8355, 165.641, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:44:48'); /* Dune Reaper */
+/* @teleloc 0x8A630130 [-63.835499 165.641006 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630BC, 88212, 0x8A63012F, -63.8346, 179.934, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:44:56'); /* Dune Reaper */
+/* @teleloc 0x8A63012F [-63.834599 179.934006 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630BF, 88214, 0x8A630172, -3.82124, 133.5, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 19:49:13'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A630172 [-3.821240 133.500000 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630C0, 88213, 0x8A63014B, -29.829, 121.831, -79.5975, 0.707107, 0, 0, -0.707107,  True, '2023-04-28 19:49:47'); /* Dune Seeker */
+/* @teleloc 0x8A63014B [-29.829000 121.831001 -79.597504] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630C5, 88213, 0x8A6301E8, -50.2994, 181.027, -73.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 20:13:47'); /* Dune Seeker */
+/* @teleloc 0x8A6301E8 [-50.299400 181.026993 -73.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630C6, 88211, 0x8A63015D, -13.9151, 158.259, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 20:22:33'); /* Dune Hunter */
+/* @teleloc 0x8A63015D [-13.915100 158.259003 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630C7, 88214, 0x8A63010E, 14.5614, 166.5, -85.5975, 1, 0, 0, 0,  True, '2023-04-28 20:32:15'); /* Guardian Dune Reaper */
+/* @teleloc 0x8A63010E [14.561400 166.500000 -85.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630C8, 88212, 0x8A63010D, 15.4503, 179.484, -85.5975, 1, 0, 0, 0,  True, '2023-04-28 20:32:33'); /* Dune Reaper */
+/* @teleloc 0x8A63010D [15.450300 179.483994 -85.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630C9, 88211, 0x8A630145, -41.0047, 131.047, -79.5975, 1, 0, 0, 0,  True, '2023-04-28 20:33:49'); /* Dune Hunter */
+/* @teleloc 0x8A630145 [-41.004700 131.046997 -79.597504] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630CA, 88213, 0x8A6301EB, -51.5741, 168.008, -73.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 20:34:34'); /* Dune Seeker */
+/* @teleloc 0x8A6301EB [-51.574100 168.007996 -73.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630CB, 88212, 0x8A63014D, -23.4836, 220.919, -79.5975, 0.707107, 0, 0, 0.707107,  True, '2023-04-28 20:35:29'); /* Dune Reaper */
+/* @teleloc 0x8A63014D [-23.483601 220.919006 -79.597504] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630CC, 42939, 0x8A630016, 54.4997, 135.623, 10.005, 0.979067, 0, 0, 0.203538, False, '2023-04-28 23:34:14'); /* Royal Guard */
+/* @teleloc 0x8A630016 [54.499699 135.623001 10.005000] 0.979067 0.000000 0.000000 0.203538 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630CD, 42945, 0x8A630016, 64.6562, 126.53, 10.006, 0.382684, 0, 0, -0.92388, False, '2023-04-28 23:37:33'); /* Royal Guard */
+/* @teleloc 0x8A630016 [64.656197 126.529999 10.006000] 0.382684 0.000000 0.000000 -0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630CE, 88206, 0x8A6302A0, 8.52249, 198.995, -49.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 23:51:13'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302A0 [8.522490 198.994995 -49.544998] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78A630CF, 88206, 0x8A6302A1, 17.4452, 199.113, -49.545, 0.707107, 0, 0, -0.707107, False, '2023-04-28 23:52:20'); /* Temple of Mornings Generator */
+/* @teleloc 0x8A6302A1 [17.445200 199.113007 -49.544998] 0.707107 0.000000 0.000000 -0.707107 */

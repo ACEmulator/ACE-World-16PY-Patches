@@ -17,8 +17,7 @@ VALUES (88091,   1,         16) /* ItemType - Creature */
      , (88091, 146,    1400000) /* XpOverride */
      , (88091, 307,         10) /* DamageRating */
      , (88091, 308,         10) /* DamageResistRating */
-     , (88091, 313,          5) /* CritRating */
-     , (88091, 316,          5) /* CritDamageResistRating */;
+     , (88091, 315,          5) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88091,   1, True ) /* Stuck */

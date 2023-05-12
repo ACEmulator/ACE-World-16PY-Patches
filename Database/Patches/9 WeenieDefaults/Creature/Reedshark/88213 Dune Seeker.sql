@@ -32,10 +32,10 @@ VALUES (88213,   1,       5) /* HeartbeatInterval */
      , (88213,  12,     0.5) /* Shade */
      , (88213,  13,     0.6) /* ArmorModVsSlash */
      , (88213,  14,     0.5) /* ArmorModVsPierce */
-     , (88213,  15,    0.75) /* ArmorModVsBludgeon */
+     , (88213,  15,     0.7) /* ArmorModVsBludgeon */
      , (88213,  16,       1) /* ArmorModVsCold */
-     , (88213,  17,    0.95) /* ArmorModVsFire */
-     , (88213,  18,    0.95) /* ArmorModVsAcid */
+     , (88213,  17,     0.7) /* ArmorModVsFire */
+     , (88213,  18,    0.65) /* ArmorModVsAcid */
      , (88213,  19,       1) /* ArmorModVsElectric */
      , (88213,  31,      32) /* VisualAwarenessRange */
      , (88213,  34,       1) /* PowerupTime */
@@ -44,10 +44,10 @@ VALUES (88213,   1,       5) /* HeartbeatInterval */
      , (88213,  64,     0.7) /* ResistSlash */
      , (88213,  65,     0.8) /* ResistPierce */
      , (88213,  66,     0.5) /* ResistBludgeon */
-     , (88213,  67,     0.3) /* ResistFire */
-     , (88213,  68,     0.3) /* ResistCold */
-     , (88213,  69,     0.3) /* ResistAcid */
-     , (88213,  70,    0.67) /* ResistElectric */
+     , (88213,  67,     0.5) /* ResistFire */
+     , (88213,  68,     0.6) /* ResistCold */
+     , (88213,  69,     0.6) /* ResistAcid */
+     , (88213,  70,     0.5) /* ResistElectric */
      , (88213,  71,       1) /* ResistHealthBoost */
      , (88213,  72,       1) /* ResistStaminaDrain */
      , (88213,  73,       1) /* ResistStaminaBoost */
@@ -91,8 +91,6 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (88213,  6, 0, 3, 0, 440, 0, 0) /* MeleeDefense        Specialized */
      , (88213,  7, 0, 3, 0, 425, 0, 0) /* MissileDefense      Specialized */
      , (88213, 15, 0, 3, 0, 405, 0, 0) /* MagicDefense        Specialized */
-     , (88213, 22, 0, 3, 0,  25, 0, 0) /* Jump                Specialized */
-     , (88213, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */
      , (88213, 45, 0, 3, 0, 510, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

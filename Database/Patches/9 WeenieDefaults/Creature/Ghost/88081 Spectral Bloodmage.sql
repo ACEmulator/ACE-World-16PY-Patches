@@ -15,9 +15,9 @@ VALUES (88081,   1,         16) /* ItemType - Creature */
      , (88081,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (88081, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (88081, 146,    2500000) /* XpOverride */
-     , (88081, 307,         10) /* DamageRating */
-     , (88081, 308,         10) /* DamageResistRating */
-     , (88081, 313,          5) /* CritRating */;
+     , (88081, 307,         25) /* DamageRating */
+     , (88081, 308,         15) /* DamageResistRating */
+     , (88081, 315,         10) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88081,   1, True ) /* Stuck */
@@ -35,11 +35,11 @@ VALUES (88081,   1,       5) /* HeartbeatInterval */
      , (88081,   4,       5) /* StaminaRate */
      , (88081,   5,       1) /* ManaRate */
      , (88081,  12,       0) /* Shade */
-     , (88081,  13,    0.95) /* ArmorModVsSlash */
+     , (88081,  13,     0.9) /* ArmorModVsSlash */
      , (88081,  14,       1) /* ArmorModVsPierce */
      , (88081,  15,     0.9) /* ArmorModVsBludgeon */
      , (88081,  16,       1) /* ArmorModVsCold */
-     , (88081,  17,       1) /* ArmorModVsFire */
+     , (88081,  17,     0.9) /* ArmorModVsFire */
      , (88081,  18,       1) /* ArmorModVsAcid */
      , (88081,  19,       1) /* ArmorModVsElectric */
      , (88081,  31,      35) /* VisualAwarenessRange */
@@ -47,9 +47,9 @@ VALUES (88081,   1,       5) /* HeartbeatInterval */
      , (88081,  36,       1) /* ChargeSpeed */
      , (88081,  54,       5) /* UseRadius */
      , (88081,  64,     0.5) /* ResistSlash */
-     , (88081,  65,     0.4) /* ResistPierce */
+     , (88081,  65,     0.6) /* ResistPierce */
      , (88081,  66,     0.7) /* ResistBludgeon */
-     , (88081,  67,     0.5) /* ResistFire */
+     , (88081,  67,     0.6) /* ResistFire */
      , (88081,  68,     0.4) /* ResistCold */
      , (88081,  69,     0.2) /* ResistAcid */
      , (88081,  70,     0.4) /* ResistElectric */
@@ -79,7 +79,7 @@ VALUES (88081,   1, 350, 0, 0) /* Strength */
      , (88081,   3, 350, 0, 0) /* Quickness */
      , (88081,   4, 350, 0, 0) /* Coordination */
      , (88081,   5, 450, 0, 0) /* Focus */
-     , (88081,   6, 430, 0, 0) /* Self */;
+     , (88081,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (88081,   1,  5000, 0, 0, 5200) /* MaxHealth */
