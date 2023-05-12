@@ -1,0 +1,13 @@
+ReceiveLocalSignal: StartScene
+    - Motion: Kneel
+    - Delay: 2, Motion: Reading
+    - Delay: 2, Say: It has to be here somewhere, it just has to be...
+    - Delay: 1, LocalBroadcast: Borelean pours through copies of the Book, looking for something.
+    - Delay: 1, Motion: Ready
+    - Delay: 2, Motion: Kneel
+    - Delay: 2, Motion: Reading
+    - Delay: 2, Say: There just has to be a way in these copies to bring my wife back...
+    - Delay: 2, LocalBroadcast: A whisper of a female voice echoes through the room, "Seek the path, my love. You will find the way to me."
+    - Delay: 2, Say: I will not lose you, my love. No death in Dereth is permanent. There has to be a way...
+    - Motion: Ready
+    - Activate

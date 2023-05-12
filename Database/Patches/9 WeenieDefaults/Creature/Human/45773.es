@@ -1,0 +1,23 @@
+ReceiveLocalSignal: StartScene
+    - Motion: Kneel
+    - Delay: 2, Say: Why can't I find it?
+    - Delay: 2, Motion: Reading
+    - Delay: 1, LocalBroadcast: Borelean pours through book after book, lines of desperation etched deeply into his face.
+    - Delay: 2, LocalBroadcast: A whisper of a female voice echoes through the room, "Seek the path, my love. You will find the way to me. Do not lose hope."
+    - Delay: 1, Motion: Ready
+    - Delay: 2, Motion: Kneel
+    - Delay: 2, Motion: Reading
+    - Delay: 2, Say: With all of the powers in this world, there has to be a way to make this work...
+    - Delay: 2, LocalBroadcast: A whisper of a female voice echoes through the room, "You will find the path, my love. You will find your way to me."
+    - Delay: 2, Motion: Ready
+    - Delay: 1, Motion: ShakeFist
+    - Delay: 1, Say: Bah! These copies are useless. I must find the Book itself. I *need* the Book of Eibhil itself!
+    - Delay: 1, LocalSignal: spawnbook
+    - Delay: 4, LocalBroadcast: A seductive female voice echoes in your mind, "You have called to me, by despair and blood, and I have come. If you will pay my price and learn my secrets, that which you seek can be returned to you. But, with all your soul, you must desire this above all else, and you must be willing to do all that must be done. The road is long, but all things are achievable."
+    - Delay: 1, Turn: NE
+    - Delay: 2, Say: I could get her back? Bring her back to life?
+    - Delay: 1, LocalBroadcast: Borelean looks around the room, fear and hope both showing on his worn features.
+    - Delay: 2, LocalBroadcast: A seductive female voice echoes in your mind, "That and more, my love. That and much more."
+    - Delay: 2, Activate
+    - Delay: 1, Turn: W
+    - LocalSignal: deletebook
