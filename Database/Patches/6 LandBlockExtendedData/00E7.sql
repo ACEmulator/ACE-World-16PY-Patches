@@ -13,17 +13,11 @@ VALUES (0x700E703B, 43031, 0x00E7028C, 100.032, -84.094, 48, 0, 0, 0, -1, False,
 /* @teleloc 0x00E7028C [100.031998 -84.094002 48.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E703C,  4219, 0x00E70284, 80, -67, 48.0083, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x700E703C,  7924, 0x00E70284, 80, -67, 48.0083, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x00E70284 [80.000000 -67.000000 48.008301] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700E703C, 0x700E703D, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E703E, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E703F, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7040, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7041, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7042, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
-     , (0x700E703C, 0x700E7043, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
+VALUES (0x700E703C, 0x700E7043, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
      , (0x700E703C, 0x700E7044, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
      , (0x700E703C, 0x700E7045, '2021-11-01 00:00:00') /* Strange Pillar (38024) */
      , (0x700E703C, 0x700E7046, '2021-11-01 00:00:00') /* Lost Menilesh Denizen (38076) */
@@ -259,3 +253,19 @@ VALUES (0x700E706D, 38076, 0x00E70147, 18.005, -93.3292, 6.00825, -0.375168, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E706E, 38076, 0x00E70138, 3.0518, -106.554, 6.00825, 0.856227, 0, 0, -0.516599,  True, '2021-11-01 00:00:00'); /* Lost Menilesh Denizen */
 /* @teleloc 0x00E70138 [3.051800 -106.554001 6.008250] 0.856227 0.000000 0.000000 -0.516599 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E706F,  5086, 0x00E70284, 80.0359, -65.0187, 48.055, 0.707107, 0, 0, -0.707107, False, '2023-05-06 17:17:02'); /* Linkable Monster Gen - 30 sec. */
+/* @teleloc 0x00E70284 [80.035896 -65.018700 48.055000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700E706F, 0x700E703D, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E706F, 0x700E703E, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E706F, 0x700E703F, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E706F, 0x700E7040, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E706F, 0x700E7041, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */
+     , (0x700E706F, 0x700E7042, '2021-11-01 00:00:00') /* Menilesh Guard (38084) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E7070, 73160, 0x00E70288, 90, -74, 48.055, 1, 0, 0, 0, False, '2023-05-06 18:19:16'); /* Lady Aerfalle Gen */
+/* @teleloc 0x00E70288 [90.000000 -74.000000 48.055000] 1.000000 0.000000 0.000000 0.000000 */
