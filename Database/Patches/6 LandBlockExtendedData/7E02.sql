@@ -450,7 +450,7 @@ VALUES (0x77E02075, 30764, 0x7E020140, 130, -40, 0.055, 1, 0, 0, 0, False, '2023
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E02076, 43858, 0x7E0202D7, 79.9965, -31.012, 28, -0.004106, 0, 0, 0.999992, False, '2023-02-24 12:46:02'); /* Ler Rhan */
-/* @teleloc 0x7E0202D7 [79.996498 -31.011999 27.500000] -0.004106 0.000000 0.000000 0.999992 */
+/* @teleloc 0x7E0202D7 [79.996498 -31.011999 28.000000] -0.004106 0.000000 0.000000 0.999992 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E02077, 30764, 0x7E020147, 150, -130, 0.055, 1, 0, 0, 0, False, '2023-02-24 12:48:54'); /* "Mag-Ma!" */

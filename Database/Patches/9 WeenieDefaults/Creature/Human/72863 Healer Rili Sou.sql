@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72863;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72863, 'ace72863-toutouhealer', 10, '2005-02-09 10:00:00') /* Creature */;
+VALUES (72863, 'ace72863-healerrilisou', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72863,   1,         16) /* ItemType - Creature */
@@ -54,12 +54,12 @@ VALUES (72863,   1,       5) /* HeartbeatInterval */
      , (72863, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72863,  1, 'Healer Rili Sou') /* Name */
-     , (72863,  3, 'Male') /* Sex */
-     , (72863,  4, 'Sho') /* HeritageGroup */
-     , (72863,  5, 'Healer') /* Template */
-     , (72863, 24, 'Tou-Tou') /* TownName */
-     , (72863, 45, 'KillTaskTouTouTownsfolk') /* KillQuest */;
+VALUES (72863,   1, 'Healer Rili Sou') /* Name */
+     , (72863,   3, 'Male') /* Sex */
+     , (72863,   4, 'Sho') /* HeritageGroup */
+     , (72863,   5, 'Healer') /* Template */
+     , (72863,  24, 'Tou-Tou') /* TownName */
+     , (72863,  45, 'KillTaskTouTouTownsfolk') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72863,   1, 0x02000001) /* Setup */

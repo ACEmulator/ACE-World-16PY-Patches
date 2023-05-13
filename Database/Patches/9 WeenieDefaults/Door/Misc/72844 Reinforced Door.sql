@@ -22,9 +22,9 @@ VALUES (72844,  11,     120) /* ResetInterval */
      , (72844,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72844,  1, 'Reinforced Door') /* Name */
-     , (72844, 12, 'SummoningCave') /* LockCode */
-     , (72844, 14, 'Use this item to open it.') /* Use */;
+VALUES (72844,   1, 'Reinforced Door') /* Name */
+     , (72844,  12, 'SummoningCave') /* LockCode */
+     , (72844,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72844,   1, 0x02000281) /* Setup */

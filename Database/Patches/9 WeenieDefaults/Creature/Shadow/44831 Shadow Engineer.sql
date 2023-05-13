@@ -69,10 +69,10 @@ VALUES (44831,   1,       5) /* HeartbeatInterval */
      , (44831, 166,    0.85) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44831,  1, 'Shadow Engineer') /* Name */
-     , (44831,  3, 'Female') /* Sex */
-     , (44831,  4, 'Aluvian') /* HeritageGroup */
-     , (44831, 45, 'KillTaskEngineer2') /* KillQuest */;
+VALUES (44831,   1, 'Shadow Engineer') /* Name */
+     , (44831,   3, 'Female') /* Sex */
+     , (44831,   4, 'Aluvian') /* HeritageGroup */
+     , (44831,  45, 'KillTaskEngineer2') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44831,   1, 0x0200071B) /* Setup */
@@ -84,17 +84,6 @@ VALUES (44831,   1, 0x0200071B) /* Setup */
      , (44831,   8, 0x06001BBE) /* Icon */
      , (44831,  22, 0x34000063) /* PhysicsEffectTable */
      , (44831,  35,       2101) /* DeathTreasureType - Loot Tier: 8 */;
-
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (44831,  0,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (44831,  1,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (44831,  2,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (44831,  3,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (44831,  4,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (44831,  5,  4,260, 0.35,  375,  187,  187,  187,  187,  187,  187,  187,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (44831,  6,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (44831,  7,  4,  0,    0,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (44831,  8,  4,260, 0.35,  375,  187,  187,  187,  187,  187,  187,  187,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44831,   1, 350, 0, 0) /* Strength */
@@ -124,23 +113,34 @@ VALUES (44831,  6, 0, 3, 0, 532, 0, 0) /* MeleeDefense        Specialized */
      , (44831, 46, 0, 3, 0, 487, 0, 0) /* FinesseWeapons      Specialized */
      , (44831, 47, 0, 3, 0, 310, 0, 0) /* MissileWeapons      Specialized */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (44831,  0,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (44831,  1,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (44831,  2,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (44831,  3,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (44831,  4,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (44831,  5,  4, 260, 0.35,  375,  375,  525,  506,  525,  308,  638,  506,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (44831,  6,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (44831,  7,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (44831,  8,  4, 260, 0.35,  375,  375,  525,  506,  525,  308,  638,  506,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44831,  2264,   2.02) /* Wrath of Harlune */
-     , (44831,  2282,   2.02) /* Futility */
-     , (44831,  2328,   2.01) /* Vitality Siphon */
-     , (44831,  4302,   2.02) /* Incantation of Feeblemind Other */
-     , (44831,  4322,   2.02) /* Incantation of Slowness Other */
-     , (44831,  4436,   2.02) /* Incantation of Blade Volley */
-     , (44831,  4439,   2.02) /* Incantation of Flame Bolt */
-     , (44831,  4443,   2.02) /* Incantation of Force Bolt */
-     , (44831,  4447,   2.02) /* Incantation of Frost Bolt */
-     , (44831,  4451,   2.02) /* Incantation of Lightning Bolt */
-     , (44831,  4457,   2.02) /* Incantation of Whirling Blade */
-     , (44831,  4633,   2.02) /* Incantation of Vulnerability Other */
-     , (44831,  5344,   2.04) /* Destructive Curse VI */
-     , (44831,  5355,   2.06) /* Nether Bolt VII */
-     , (44831,  5367,   2.07) /* Nether Arc VII */
-     , (44831,  5377,   2.05) /* Festering Curse VII */
-     , (44831,  5385,   2.07) /* Weakening Curse VII */
-     , (44831,  5392,   2.09) /* Corrosion VI */
-     , (44831,  5401,   2.07) /* Corruption VII */;
+VALUES (44831,  2264,   2.02)  /* Wrath of Harlune */
+     , (44831,  2282,   2.02)  /* Futility */
+     , (44831,  2328,   2.01)  /* Vitality Siphon */
+     , (44831,  4302,   2.02)  /* Incantation of Feeblemind Other */
+     , (44831,  4322,   2.02)  /* Incantation of Slowness Other */
+     , (44831,  4436,   2.02)  /* Incantation of Blade Volley */
+     , (44831,  4439,   2.02)  /* Incantation of Flame Bolt */
+     , (44831,  4443,   2.02)  /* Incantation of Force Bolt */
+     , (44831,  4447,   2.02)  /* Incantation of Frost Bolt */
+     , (44831,  4451,   2.02)  /* Incantation of Lightning Bolt */
+     , (44831,  4457,   2.02)  /* Incantation of Whirling Blade */
+     , (44831,  4633,   2.02)  /* Incantation of Vulnerability Other */
+     , (44831,  5344,   2.04)  /* Destructive Curse VI */
+     , (44831,  5355,   2.06)  /* Nether Bolt VII */
+     , (44831,  5367,   2.07)  /* Nether Arc VII */
+     , (44831,  5377,   2.05)  /* Festering Curse VII */
+     , (44831,  5385,   2.07)  /* Weakening Curse VII */
+     , (44831,  5392,   2.09)  /* Corrosion VI */
+     , (44831,  5401,   2.07)  /* Corruption VII */;

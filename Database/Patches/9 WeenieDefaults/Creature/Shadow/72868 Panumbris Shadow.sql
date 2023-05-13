@@ -67,10 +67,10 @@ VALUES (72868,   1,       5) /* HeartbeatInterval */
      , (72868, 166,    0.85) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72868,  1, 'Panumbris Shadow') /* Name */
-     , (72868,  3, 'Female') /* Sex */
-     , (72868,  4, 'Aluvian') /* HeritageGroup */
-     , (72868, 45, 'KillTaskTouTouBlockade') /* KillQuest */;
+VALUES (72868,   1, 'Panumbris Shadow') /* Name */
+     , (72868,   3, 'Female') /* Sex */
+     , (72868,   4, 'Aluvian') /* HeritageGroup */
+     , (72868,  45, 'KillTaskTouTouBlockade') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72868,   1, 0x0200071B) /* Setup */
@@ -109,7 +109,7 @@ VALUES (72868,  6, 0, 3, 0, 532, 0, 0) /* MeleeDefense        Specialized */
      , (72868, 45, 0, 3, 0, 477, 0, 0) /* LightWeapons        Specialized */
      , (72868, 46, 0, 3, 0, 487, 0, 0) /* FinesseWeapons      Specialized */
      , (72868, 47, 0, 3, 0, 310, 0, 0) /* MissileWeapons      Specialized */;
-     
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72868,  0,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (72868,  1,  4,  0,    0,  375,  375,  525,  506,  525,  308,  638,  506,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */

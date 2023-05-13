@@ -56,8 +56,8 @@ VALUES (44629,   1,       5) /* HeartbeatInterval */
      , (44629, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44629,  1, 'Shadow Vortex') /* Name */
-     , (44629, 45, 'KillTaskShadowVortex') /* KillQuest */;
+VALUES (44629,   1, 'Shadow Vortex') /* Name */
+     , (44629,  45, 'KillTaskShadowVortex') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44629,   1, 0x020015AC) /* Setup */

@@ -12,8 +12,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45766,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45766,  54,       2) /* UseRadius */
-     , (45766,  11,     120) /* ResetInterval */;
+VALUES (45766,  11,     120) /* ResetInterval */
+     , (45766,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45766,   1, 'Door') /* Name */;

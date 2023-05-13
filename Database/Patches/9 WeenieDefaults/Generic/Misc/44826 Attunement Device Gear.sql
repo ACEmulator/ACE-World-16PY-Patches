@@ -4,13 +4,13 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (44826, 'ace44826-attunementdevicegear', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (44826,   1,     128) /* ItemType - Misc */
-     , (44826,   5,      10) /* EncumbranceVal */
-     , (44826,  16,       1) /* ItemUseable - No */
-     , (44826,  33,       1) /* Bonded - Bonded*/
-     , (44826,  93,    1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44826, 114,       1) /* Attuned */
-     , (44826, 279,       1) /* Unique */;
+VALUES (44826,   1,        128) /* ItemType - Misc */
+     , (44826,   5,         10) /* EncumbranceVal */
+     , (44826,  16,          1) /* ItemUseable - No */
+     , (44826,  33,          1) /* Bonded - Bonded */
+     , (44826,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44826, 114,          1) /* Attuned - Attuned */
+     , (44826, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44826,  22, True ) /* Inscribable */;

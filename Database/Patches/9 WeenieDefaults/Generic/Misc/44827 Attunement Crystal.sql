@@ -4,14 +4,14 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (44827, 'ace44827-attunementcrystal', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (44827,   1,     128) /* ItemType - Misc */
-     , (44827,   5,      10) /* EncumbranceVal */
-     , (44827,  16,       1) /* ItemUseable - No */
-     , (44827,  19,       0) /* Value */
-     , (44827,  33,       1) /* Bonded - Bonded*/
-     , (44827,  93,    1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44827, 114,       1) /* Attuned */
-     , (44827, 279,       1) /* Unique */;
+VALUES (44827,   1,        128) /* ItemType - Misc */
+     , (44827,   5,         10) /* EncumbranceVal */
+     , (44827,  16,          1) /* ItemUseable - No */
+     , (44827,  19,          0) /* Value */
+     , (44827,  33,          1) /* Bonded - Bonded */
+     , (44827,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44827, 114,          1) /* Attuned - Attuned */
+     , (44827, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44827,  22, True ) /* Inscribable */

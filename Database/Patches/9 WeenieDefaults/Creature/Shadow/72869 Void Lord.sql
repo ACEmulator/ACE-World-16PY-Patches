@@ -62,8 +62,8 @@ VALUES (72869,   1,       5) /* HeartbeatInterval */
      , (72869, 166,     0.9) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72869,  1, 'Void Lord') /* Name */
-     , (72869, 45, 'KillTaskTouTouBlockade') /* KillQuest */;
+VALUES (72869,   1, 'Void Lord') /* Name */
+     , (72869,  45, 'KillTaskTouTouBlockade') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72869,   1, 0x020013F1) /* Setup */
@@ -73,23 +73,31 @@ VALUES (72869,   1, 0x020013F1) /* Setup */
      , (72869,   8, 0x06001BBE) /* Icon */
      , (72869,  22, 0x34000063) /* PhysicsEffectTable */
      , (72869,  32,       2030) /* WieldedTreasureType - 
-                                   Wield Yumi (23735) | Probability: 7.7%
-                                   Wield 30x Arrow (47072) | Probability: 100%
-                                   Wield Fire Bow (48239) | Probability: 7.7%
-                                   Wield 30x Arrow (48304) | Probability: 100%
-                                   Wield Electric Bow (48238) | Probability: 7.7%
-                                   Wield 30x Arrow (48285) | Probability: 100%
-                                   Wield Lightning Tachi (47664) | Probability: 12.1%
-                                   Wield Acid Tachi (47630) | Probability: 12.1%
-                                   Wield Flaming Tachi (47682) | Probability: 12.1%
-                                   Wield Nekode (48086) | Probability: 12.1%
-                                   Wield Acid Katar (48083) | Probability: 12.1%
-                                   Wield Lightning Katar (48085) | Probability: 12.1%
-                                   Wield Flaming Katar (48501) | Probability: 12.1%
-                                   Wield Lightning Nekode (48073) | Probability: 12.1%
-                                   Wield Kite Shield (23685) | Probability: 30.000002%
-                                   Wield Kite Shield (23685) | Probability: 30.000002%
-                                   Wield Round Shield (93) | Probability: 30.000002% */
+                                   # Set: 1
+                                   |   7.70% chance of Yumi (23735)
+                                   |         with
+                                   |            100.00% chance of 23x to 30x Arrow (47072) | StackSizeVariance: 0.25
+                                   |   7.70% chance of Fire Bow (48239)
+                                   |         with
+                                   |            100.00% chance of 23x to 30x Arrow (48304) | StackSizeVariance: 0.25
+                                   |   7.70% chance of Electric Bow (48238)
+                                   |         with
+                                   |            100.00% chance of 23x to 30x Arrow (48285) | StackSizeVariance: 0.25
+                                   |  12.10% chance of Lightning Tachi (47664)
+                                   |  12.10% chance of Acid Tachi (47630)
+                                   |  12.10% chance of Flaming Tachi (47682)
+                                   |  12.10% chance of Nekode (48086)
+                                   |  12.10% chance of Acid Katar (48083)
+                                   |  12.10% chance of Lightning Katar (48085)
+                                   |   4.30% chance of Flaming Katar (48501) | Chance adjusted down from 12.10% due to overage for this set
+                                   # Set: 2
+                                   |  12.10% chance of Lightning Nekode (48073)
+                                   |  87.90% chance of nothing from this set
+                                   # Set: 3
+                                   |  30.00% chance of Kite Shield (23685)
+                                   |  30.00% chance of Round Shield (93)
+                                   |  30.00% chance of Buckler (44)
+                                   |  10.00% chance of nothing from this set */
      , (72869,  35,       2105) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

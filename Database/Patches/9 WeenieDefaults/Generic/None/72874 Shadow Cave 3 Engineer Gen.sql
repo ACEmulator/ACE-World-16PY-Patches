@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72874;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72874, 'ace72874-engineergen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72874, 'ace72874-shadowcave3engineergen', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72874,  81,          1) /* MaxGeneratedObjects */
@@ -25,6 +25,5 @@ VALUES (72874,   1, 0x0200026B) /* Setup */
      , (72874,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72874, 0.5, 72884, 180, 1, 1, 1, 4, -1, 0, 0, 0xF65D014D, 103.250938, 69.409431, 2.805000, -0.333185, 0.000000, 0.000000, -0.942861) /* Generate Chorizite Chest (51687) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72874, 1, 72884, 180, 1, 1, 1, 4, -1, 0, 0, 0xF65D0128, 1.260166, 44.858589, -3.195000, 0.455728, 0.000000, 0.000000, -0.890119) /* Generate Chorizite Chest (51687) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
-    
+VALUES (72874, 0.5, 72884, 180, 1, 1, 1, 4, -1, 0, 0, 0xF65D014D, 103.251, 69.4094, 2.805, -0.333185, 0, 0, -0.942861) /* Generate Shadow Engineer (72884) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72874, 1, 72884, 180, 1, 1, 1, 4, -1, 0, 0, 0xF65D0128, 1.26017, 44.8586, -3.195, 0.455728, 0, 0, -0.890119) /* Generate Shadow Engineer (72884) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

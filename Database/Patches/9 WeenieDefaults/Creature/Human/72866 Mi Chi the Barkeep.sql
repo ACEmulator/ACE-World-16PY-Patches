@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72866;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72866, 'ace72866-toutoubarkeeper', 10, '2005-02-09 10:00:00') /* Creature */;
+VALUES (72866, 'ace72866-michithebarkeep', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72866,   1,         16) /* ItemType - Creature */
@@ -54,12 +54,12 @@ VALUES (72866,   1,       5) /* HeartbeatInterval */
      , (72866, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72866,  1, 'Mi Chi the Barkeep') /* Name */
-     , (72866,  3, 'Female') /* Sex */
-     , (72866,  4, 'Sho') /* HeritageGroup */
-     , (72866,  5, 'Barkeeper') /* Template */
-     , (72866, 24, 'Tou-Tou') /* TownName */
-     , (72866, 45, 'KillTaskTouTouTownsfolk') /* KillQuest */;
+VALUES (72866,   1, 'Mi Chi the Barkeep') /* Name */
+     , (72866,   3, 'Female') /* Sex */
+     , (72866,   4, 'Sho') /* HeritageGroup */
+     , (72866,   5, 'Barkeeper') /* Template */
+     , (72866,  24, 'Tou-Tou') /* TownName */
+     , (72866,  45, 'KillTaskTouTouTownsfolk') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72866,   1, 0x0200004E) /* Setup */
@@ -92,12 +92,6 @@ VALUES (72866,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (72866,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (72866,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72866, 2,   134,  0, 5, 0, False) /* Create Tunic (134) for Wield */
-     , (72866, 2,   117,  0, 5, 0, False) /* Create Breeches (117) for Wield */
-     , (72866, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
-     , (72866, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72866,  5 /* HeartBeat */,  0.042, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
@@ -105,3 +99,9 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   8 /* Say */, 0, 20, NULL, 'The pain... the darkness...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (72866, 2,   134,  0, 5, 0, False) /* Create Tunic (134) for Wield */
+     , (72866, 2,   117,  0, 5, 0, False) /* Create Breeches (117) for Wield */
+     , (72866, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (72866, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;

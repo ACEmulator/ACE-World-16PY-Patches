@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72861;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72861, 'ace72861-toutoublacksmith', 10, '2005-02-09 10:00:00') /* Creature */;
+VALUES (72861, 'ace72861-bainurutheweaponsmith', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72861,   1,         16) /* ItemType - Creature */
@@ -54,12 +54,12 @@ VALUES (72861,   1,       5) /* HeartbeatInterval */
      , (72861, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72861,  1, 'Bai-Nu Ru the Weaponsmith') /* Name */
-     , (72861,  3, 'Female') /* Sex */
-     , (72861,  4, 'Sho') /* HeritageGroup */
-     , (72861,  5, 'Weaponsmith') /* Template */
-     , (72861, 24, 'Tou-Tou') /* TownName */
-     , (72861, 45, 'KillTaskTouTouTownsfolk') /* KillQuest */;
+VALUES (72861,   1, 'Bai-Nu Ru the Weaponsmith') /* Name */
+     , (72861,   3, 'Female') /* Sex */
+     , (72861,   4, 'Sho') /* HeritageGroup */
+     , (72861,   5, 'Weaponsmith') /* Template */
+     , (72861,  24, 'Tou-Tou') /* TownName */
+     , (72861,  45, 'KillTaskTouTouTownsfolk') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72861,   1, 0x0200004E) /* Setup */

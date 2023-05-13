@@ -72,5 +72,5 @@ VALUES (0x7F75B011, 44629, 0xF75B0008, 15.1899, 175.404, 20, 0.01037, 0, 0, 0.99
 /* @teleloc 0xF75B0008 [15.189900 175.404007 20.000000] 0.010370 0.000000 0.000000 0.999946 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F75B012, 72873, 0xF75B015B, 163.9122, 55.41029, 70.85501, -0.898958, 0, 0, 0.438036, False, '2023-02-24 16:43:17'); /* Shadow Cave 2 Engineer Gen */
-/* @teleloc 0xF75B015B [163.912201 55.410290 70.855011] -0.898958 0.000000 0.000000 0.438036 */
+VALUES (0x7F75B012, 72873, 0xF75B015B, 163.912, 55.4103, 70.855, -0.898958, 0, 0, 0.438036, False, '2023-02-24 16:43:17'); /* Shadow Cave 2 Engineer Gen */
+/* @teleloc 0xF75B015B [163.912003 55.410301 70.855003] -0.898958 0.000000 0.000000 0.438036 */
