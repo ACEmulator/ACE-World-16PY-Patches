@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72972;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72972, 'ace72972-mosswartworker', 10, '2023-04-09 17:44:47') /* Creature */;
+VALUES (72972, 'ace72972-mosswartworker', 10, '2023-05-07 03:34:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72972,   1,         16) /* ItemType - Creature */
@@ -36,24 +36,24 @@ VALUES (72972,   1,       5) /* HeartbeatInterval */
      , (72972,   4,       5) /* StaminaRate */
      , (72972,   5,       2) /* ManaRate */
      , (72972,  12,       1) /* Shade */
-     , (72972,  13,     1.3) /* ArmorModVsSlash */
-     , (72972,  14,     1.5) /* ArmorModVsPierce */
-     , (72972,  15,     1.4) /* ArmorModVsBludgeon */
-     , (72972,  16,       1) /* ArmorModVsCold */
+     , (72972,  13,    0.63) /* ArmorModVsSlash */
+     , (72972,  14,    0.84) /* ArmorModVsPierce */
+     , (72972,  15,    0.84) /* ArmorModVsBludgeon */
+     , (72972,  16,    0.46) /* ArmorModVsCold */
      , (72972,  17,     0.7) /* ArmorModVsFire */
-     , (72972,  18,     1.3) /* ArmorModVsAcid */
+     , (72972,  18,       1) /* ArmorModVsAcid */
      , (72972,  19,     0.9) /* ArmorModVsElectric */
      , (72972,  31,      18) /* VisualAwarenessRange */
      , (72972,  34,     0.9) /* PowerupTime */
      , (72972,  36,       1) /* ChargeSpeed */
      , (72972,  39,     1.2) /* DefaultScale */
-     , (72972,  64,     0.5) /* ResistSlash */
-     , (72972,  65,     0.8) /* ResistPierce */
-     , (72972,  66,     0.8) /* ResistBludgeon */
-     , (72972,  67,       1) /* ResistFire */
-     , (72972,  68,     0.4) /* ResistCold */
-     , (72972,  69,     0.7) /* ResistAcid */
-     , (72972,  70,     1.1) /* ResistElectric */
+     , (72972,  64,    0.45) /* ResistSlash */
+     , (72972,  65,     0.6) /* ResistPierce */
+     , (72972,  66,     0.6) /* ResistBludgeon */
+     , (72972,  67,     0.8) /* ResistFire */
+     , (72972,  68,    0.38) /* ResistCold */
+     , (72972,  69,     0.8) /* ResistAcid */
+     , (72972,  70,       1) /* ResistElectric */
      , (72972,  71,       1) /* ResistHealthBoost */
      , (72972,  72,       1) /* ResistStaminaDrain */
      , (72972,  73,       1) /* ResistStaminaBoost */
@@ -102,22 +102,22 @@ VALUES (72972,  6, 0, 3, 0, 420, 0, 0) /* MeleeDefense        Specialized */
      , (72972, 47, 0, 3, 0, 430, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72972,  0,  4,  0,    0,  340,  442,  510,  476,  340,  238,  442,  306,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (72972,  1,  4,  0,    0,  340,  442,  510,  476,  340,  238,  442,  306,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (72972,  2,  4,  0,    0,  340,  442,  510,  476,  340,  238,  442,  306,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (72972,  3,  4,  0,    0,  340,  442,  510,  476,  340,  238,  442,  306,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (72972,  4,  4,  0,    0,  340,  442,  510,  476,  340,  238,  442,  306,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (72972,  5,  4, 400, 0.75,  340,  442,  510,  476,  340,  238,  442,  306,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (72972,  6,  4,  0,    0,  340,  442,  510,  476,  340,  238,  442,  306,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (72972,  7,  4,  0,    0,  340,  442,  510,  476,  340,  238,  442,  306,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (72972,  8,  4, 400, 0.75,  340,  442,  510,  476,  340,  238,  442,  306,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (72972,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (72972,  1,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (72972,  2,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (72972,  3,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (72972,  4,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (72972,  5,  4, 400, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (72972,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (72972,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (72972,  8,  4, 400, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72972,  2172,   2.03)  /* Astyrrian's Gift */
-     , (72972,  2168,   2.03)  /* Gelidite's Gift */
-     , (72972,  2074,   2.02)  /* Gossamer Flesh */
-     , (72972,  2136,   2.05)  /* Icy Torment */
-     , (72972,  2140,   2.05)  /* Alset's Coil */;
+VALUES (72972,  2128,   2.04)  /* Ilservian's Flame */
+     , (72972,  2745,   2.04)  /* Flame Arc VII */
+     , (72972,  2122,   2.04)  /* Disintegration */
+     , (72972,  2717,   2.05)  /* Acid Arc VII */
+     , (72972,  2053,   2.02)  /* Executor's Blessing */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72972,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
@@ -176,4 +176,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72972, 9, 72991,  0, 0, 1, False) /* Create Mosswart Worker (72991) for ContainTreasure */;
+VALUES (72972, 2, 47717,  1, 0, 0.33, False) /* Create Acid Spear (47717) for Wield */
+     , (72972, 2, 47793,  1, 0, 0.33, False) /* Create Frost Spear (47793) for Wield */
+     , (72972, 9, 72991,  0, 0, 1, False) /* Create Mosswart Worker (72991) for ContainTreasure */;
