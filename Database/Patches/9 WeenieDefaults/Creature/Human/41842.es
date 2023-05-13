@@ -1,2 +1,2 @@
 Death:
-	LocalSignal: RBSoldierDead
+    LocalSignal: RBSoldierDead

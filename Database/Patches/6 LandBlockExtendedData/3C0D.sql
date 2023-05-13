@@ -94,5 +94,5 @@ VALUES (0x73C0D014, 88457, 0x3C0D0011, 64.3272, 14.8121, 0.055, -0.927979, 0, 0,
 /* @teleloc 0x3C0D0011 [64.327202 14.812100 0.055000] -0.927979 0.000000 0.000000 -0.372633 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73C0D015, 88457, 0x3C0D0011, 57.69749, 10.56556, 0.055, -0.927979, 0, 0, -0.372633, False, '2023-04-13 10:12:46'); /* EW Moarsman Attacker Event Gen */
-/* @teleloc 0x3C0D0011 [57.697491 10.565560 0.055000] -0.927979 0.000000 0.000000 -0.372633 */
+VALUES (0x73C0D015, 88457, 0x3C0D0011, 57.6975, 10.5656, 0.055, -0.927979, 0, 0, -0.372633, False, '2023-04-13 10:12:46'); /* EW Moarsman Attacker Event Gen */
+/* @teleloc 0x3C0D0011 [57.697498 10.565600 0.055000] -0.927979 0.000000 0.000000 -0.372633 */

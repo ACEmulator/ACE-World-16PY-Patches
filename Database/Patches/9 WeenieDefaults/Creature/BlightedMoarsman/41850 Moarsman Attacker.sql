@@ -19,7 +19,7 @@ VALUES (41850,   1,         16) /* ItemType - Creature */
      , (41850, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (41850, 140,          1) /* AiOptions - CanOpenDoors */
      , (41850, 146,    1100000) /* XpOverride */
-     , (41850, 281,         32) /* Faction1Bits - 12 */;
+     , (41850, 281,         32) /* Faction1Bits - 32 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41850,   1, True ) /* Stuck */;

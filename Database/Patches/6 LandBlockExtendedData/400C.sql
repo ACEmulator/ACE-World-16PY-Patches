@@ -99,5 +99,5 @@ VALUES (0x7400C014, 88464, 0x400C0022, 110.267, 45.2243, 0.055, -0.999834, 0, 0,
 /* @teleloc 0x400C0022 [110.266998 45.224300 0.055000] -0.999834 0.000000 0.000000 -0.018226 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7400C015, 88465, 0x400C0022, 101.5807, 45.66699, 0.055, -0.999834, 0, 0, -0.018226, False, '2023-04-13 14:29:26'); /* CH Sclavus Attacker Event Gen */
-/* @teleloc 0x400C0022 [101.580704 45.666988 0.055000] -0.999834 0.000000 0.000000 -0.018226 */
+VALUES (0x7400C015, 88465, 0x400C0022, 101.581, 45.667, 0.055, -0.999834, 0, 0, -0.018226, False, '2023-04-13 14:29:26'); /* CH Sclavus Attacker Event Gen */
+/* @teleloc 0x400C0022 [101.581001 45.667000 0.055000] -0.999834 0.000000 0.000000 -0.018226 */
