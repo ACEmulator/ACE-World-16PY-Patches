@@ -167,6 +167,8 @@ Use:
                                     - Goto: StampAndDoMasteryChange
                                 TestFailure:
                                     - Goto: UseAgain
+                TestFailure:
+                    - DirectBroadcast: You must be at least level 50 to change your mastery.
 
 GotoSet: UseAgain
     - DirectBroadcast: Use the statue again if wish to become a %mn.
