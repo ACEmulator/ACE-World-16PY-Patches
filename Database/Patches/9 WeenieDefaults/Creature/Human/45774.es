@@ -1,0 +1,14 @@
+ReceiveLocalSignal: StartScene
+    - LocalBroadcast: Borelean stares intently at the Book of Eibhil, seeming deep in thought.
+    - Motion: ScratchHead
+    - Delay: 2, Motion: Nod
+    - Delay: 2, Say: There has to be some way to perform this ritual without sacrificing another's life. There has to be.
+    - Delay: 3, LocalBroadcast: A seductive female voice echoes in your mind, "Without the spark of a fading spirit, her own spirit will be weakened, likely to the point where she cannot be revived. Would you let such a simple fear hold you back? What is the cost of one spirit compared to the return of your beloved wife?"
+    - Delay: 3, LocalBroadcast: Borelean thinks for a moment, seeming conflicted.
+    - Delay: 2, Motion: ShakeHead
+    - Delay: 1, Say: No. There must be another way. What if several each gave of themselves willingly? From what you've said, the life energy needed for this ritual need not come from a single spirit.
+    - Delay: 3, LocalBroadcast: A seductive female voice echoes in your mind, "You would offer willing sacrifice? From several, as opposed to the totality of one? Very well, but each must swear by blood and spirit to me, and to me alone. Only then will there be enough power to attempt this."
+    - Delay: 3, Say: It shall be done. I'll spread the word to my closest Knights and her Handmaidens. All will be sworn to secrecy, and those who volunteer willingly will join in the ritual.
+    - Delay: 1, Motion: HeartyLaugh
+    - Delay: 4, LocalBroadcast: You hear a whisper in your mind that Borelean does not seem to hear, "It is unorthodox, but done properly, and I will get to feast on the spirits of many. These fools know not what they offer, nor the totality of their price."
+    - Delay: 2, Activate

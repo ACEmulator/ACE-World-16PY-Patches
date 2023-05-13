@@ -23,3 +23,7 @@ VALUES (0x78965004, 71361, 0x8965000D, 45.9217, 113.657, 18.5722, 0.639864, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78965005, 44136, 0x89650016, 66.3072, 126.749, 58.117, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Temple */
 /* @teleloc 0x89650016 [66.307198 126.749001 58.117001] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78965006, 45799, 0x8965002D, 142.782, 110.278, 4.747166, -0.847951, 0, 0, -0.530075, False, '2023-05-11 10:47:49'); /* Deep Caves */
+/* @teleloc 0x8965002D [142.781998 110.278000 4.747166] -0.847951 0.000000 0.000000 -0.530075 */
