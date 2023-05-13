@@ -9,7 +9,7 @@ VALUES (0x73E0A001, 41819, 0x3E0A002C, 132.53, 77.461, 0.143463, -0.994257, 0, 0
 /* @teleloc 0x3E0A002C [132.529999 77.460999 0.143463] -0.994257 0.000000 0.000000 -0.107022 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E0A002,  1154, 0x3E0A002C, 135.792, 82.9005, 0.005, -0.938166, 0, 0, -0.346187, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x73E0A002,  7924, 0x3E0A002C, 135.792, 82.9005, 0.005, -0.938166, 0, 0, -0.346187, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x3E0A002C [135.792007 82.900497 0.005000] -0.938166 0.000000 0.000000 -0.346187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -60,7 +60,7 @@ VALUES (0x73E0A011, 38847, 0x3E0A002C, 130.029, 83.8517, 0.005, -0.995405, 0, 0,
 /* @teleloc 0x3E0A002C [130.029007 83.851700 0.005000] -0.995405 0.000000 0.000000 -0.095756 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E0A012,  1154, 0x3E0A002C, 126.34, 79.7049, 0.005, 0.744646, 0, 0, -0.66746, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x73E0A012,  7923, 0x3E0A002C, 126.34, 79.7049, 0.005, 0.744646, 0, 0, -0.66746, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x3E0A002C [126.339996 79.704903 0.005000] 0.744646 0.000000 0.000000 -0.667460 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -76,7 +76,7 @@ VALUES (0x73E0A014, 41838, 0x3E0A002C, 128.3, 78.3574, 0.005, -0.998345, 0, 0, 0
 /* @teleloc 0x3E0A002C [128.300003 78.357399 0.005000] -0.998345 0.000000 0.000000 0.057503 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E0A015,  1542, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0, -0.99418, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
+VALUES (0x73E0A015,  5085, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0, -0.99418, False, '2021-11-01 00:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x3E0A002C [131.884995 75.501999 0.143463] 0.107731 0.000000 0.000000 -0.994180 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -85,3 +85,19 @@ VALUES (0x73E0A015, 0x73E0A016, '2021-11-01 00:00:00') /* Radiant Blood Supplies
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0A016, 41831, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0, -0.99418,  True, '2021-11-01 00:00:00'); /* Radiant Blood Supplies */
 /* @teleloc 0x3E0A002C [131.884995 75.501999 0.143463] 0.107731 0.000000 0.000000 -0.994180 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0A017, 88448, 0x3E0A002C, 130.252, 96.6633, 0.055, 1, 0, 0, 0, False, '2023-04-10 13:40:30'); /* RB Reinforcement Soldiers Event Gen */
+/* @teleloc 0x3E0A002C [130.251999 96.663300 0.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0A018, 88449, 0x3E0A002D, 131.636, 105.747, 0.055, 0, 0, 0, -1, False, '2023-04-10 14:02:16'); /* RB Moarsman Attacker Event Gen */
+/* @teleloc 0x3E0A002D [131.636002 105.747002 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0A019, 88450, 0x3E0A002D, 125.822, 103.472, 0.055, 0, 0, 0, -1, False, '2023-04-10 14:03:59'); /* RB Sclavus Attacker Event Gen */
+/* @teleloc 0x3E0A002D [125.821999 103.472000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0A01A, 88453, 0x3E0A002C, 128.3, 78.3574, 0.06, -0.998345, 0, 0, 0.057503, False, '2023-04-10 15:18:43'); /* RB Fort Commander Reward Gen */
+/* @teleloc 0x3E0A002C [128.300003 78.357399 0.060000] -0.998345 0.000000 0.000000 0.057503 */

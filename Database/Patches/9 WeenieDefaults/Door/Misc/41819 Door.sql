@@ -22,6 +22,7 @@ VALUES (41819,  54,     0.5) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41819,   1, 'Door') /* Name */
+     , (41819,  12, 'rbsupplycagekey') /* LockCode */
      , (41819,  14, 'Use this door to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
