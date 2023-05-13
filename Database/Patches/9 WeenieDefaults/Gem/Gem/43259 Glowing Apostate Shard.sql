@@ -22,8 +22,7 @@ VALUES (43259,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43259,  22, True ) /* Inscribable */
-     , (43259,  23, True ) /* DestroyOnSell */
-     , (43259,  63, True ) /* UnlimitedUse */;
+     , (43259,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43259, 167,      10) /* CooldownDuration */;
