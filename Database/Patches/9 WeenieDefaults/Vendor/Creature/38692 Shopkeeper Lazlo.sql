@@ -111,7 +111,7 @@ VALUES (38692, 2,  2587,  0, 93, 1, False) /* Create Shirt (2587) for Wield */
      , (38692, 4, 44559, -1, 0, 0, False) /* Create Contract for Moar Glands (44559) for Shop */
      , (38692, 4, 44560, -1, 0, 0, False) /* Create Contract for Moarsman High Priest (44560) for Shop */
      , (38692, 4, 44561, -1, 0, 0, False) /* Create Contract for Moguth Moarsmen (44561) for Shop */
-     , (38692, 4, 44562, -1, 0, 0, False) /* Create  (44562) for Shop */
+     , (38692, 4, 44562, -1, 0, 0, False) /* Create Contract for Palm Fort (44562) for Shop */
      , (38692, 4, 44563, -1, 0, 0, False) /* Create Contract for Phyntos Hive Splinters (44563) for Shop */
      , (38692, 4, 44564, -1, 0, 0, False) /* Create Contract for Phyntos Honey (44564) for Shop */
      , (38692, 4, 44565, -1, 0, 0, False) /* Create Contract for Phyntos Larvae (44565) for Shop */
@@ -121,7 +121,7 @@ VALUES (38692, 2,  2587,  0, 93, 1, False) /* Create Shirt (2587) for Wield */
      , (38692, 4, 44569, -1, 0, 0, False) /* Create Contract for Shoguth Moarsmen (44569) for Shop */
      , (38692, 4, 44570, -1, 0, 0, False) /* Create Contract for Spawning Pools (44570) for Shop */
      , (38692, 4, 44571, -1, 0, 0, False) /* Create Contract for Stone Tracings (44571) for Shop */
-     , (38692, 4, 44572, -1, 0, 0, False) /* Create  (44572) for Shop */
+     , (38692, 4, 44572, -1, 0, 0, False) /* Create Contract for Supply Saboteur (44572) for Shop */
      , (38692, 4, 44573, -1, 0, 0, False) /* Create Contract for Undead Jaw Collection (44573) for Shop */
      , (38692, 4, 44574, -1, 0, 0, False) /* Create Contract for Vaeshok (44574) for Shop */
      , (38692, 4, 51333, -1, 0, 0, False) /* Create Contract for Soc: Mana Siphon Destruction (51333) for Shop */

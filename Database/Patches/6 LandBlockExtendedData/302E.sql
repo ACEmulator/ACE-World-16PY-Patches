@@ -1,5 +1,17 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x302E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7302E000, 87148, 0x302E0033, 155.307, 61.1064, 155.685, -0.999804, 0, 0, -0.019774, False, '2021-11-01 00:00:00'); /* Aerbax's Shadow Booter Gen */
-/* @teleloc 0x302E0033 [155.307007 61.106400 155.684998] -0.999804 0.000000 0.000000 -0.019774 */
+VALUES (0x7302E001, 87065, 0x302E002A, 131.998, 35.9912, 155.63, 0.707107, 0, 0, 0.707107, False, '2023-05-15 03:25:02'); /* Aerbax Protector Gen */
+/* @teleloc 0x302E002A [131.998001 35.991199 155.630005] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7302E002, 87065, 0x302E002B, 131.975, 60.0739, 155.63, 1, 0, 0, 0, False, '2023-05-15 03:25:02'); /* Aerbax Protector Gen */
+/* @teleloc 0x302E002B [131.975006 60.073898 155.630005] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7302E003, 87065, 0x302E0033, 155.917, 59.7864, 155.63, 1, 0, 0, 0, False, '2023-05-15 03:25:02'); /* Aerbax Protector Gen */
+/* @teleloc 0x302E0033 [155.917007 59.786400 155.630005] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7302E004, 87148, 0x302E0033, 152.24, 59.8977, 155.63, 1, 0, 0, 0, False, '2023-05-15 03:25:02'); /* Aerbax's Shadow Booter Gen */
+/* @teleloc 0x302E0033 [152.240005 59.897701 155.630005] 1.000000 0.000000 0.000000 0.000000 */

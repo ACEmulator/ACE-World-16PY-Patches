@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36953;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36953, 'ace36953-drudgeprotector', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (36953, 'ace36953-drudgeprotector', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36953,   1,         16) /* ItemType - Creature */
@@ -94,14 +94,11 @@ VALUES (36953,   1,  9850, 0, 0, 10000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (36953,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (36953,  7, 0, 3, 0, 220, 0, 0) /* MissileDefense      Specialized */
-     , (36953, 14, 0, 2, 0, 200, 0, 0) /* ArcaneLore          Trained */
      , (36953, 15, 0, 3, 0, 186, 0, 0) /* MagicDefense        Specialized */
-     , (36953, 20, 0, 2, 0, 120, 0, 0) /* Deception           Trained */
-     , (36953, 24, 0, 2, 0, 400, 0, 0) /* Run                 Trained */
+     , (36953, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
      , (36953, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
      , (36953, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
      , (36953, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
-     , (36953, 44, 0, 3, 0, 300, 0, 0) /* HeavyWeapons        Specialized */
      , (36953, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -116,15 +113,12 @@ VALUES (36953,  0,  4,  0,    0,  330,  238,  211,  224,   79,  257,  115,  162,
      , (36953,  8,  4, 95, 0.75,  330,  238,  211,  224,   79,  257,  115,  162,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36953,  2074,   2.03)  /* Gossamer Flesh */
-     , (36953,  2084,   2.03)  /* Belly of Lead */
-     , (36953,  2088,   2.03)  /* Senescence */
-     , (36953,  2170,   2.03)  /* Inferno's Gift */
-     , (36953,  2328,  2.008)  /* Vitality Siphon */
-     , (36953,  2764,   2.05)  /* Martyr's Hecatomb V */
-     , (36953,  4082,   2.03)  /* Big Fire */
-     , (36953,  4091,  2.075)  /* Spear */
-     , (36953,  4096,  2.008)  /* Flame Chain */;
+VALUES (36953,  2170,   2.02)  /* Inferno's Gift */
+     , (36953,  4082,   2.04)  /* Big Fire */
+     , (36953,  4091,   2.04)  /* Spear */
+     , (36953,  4096,   2.04)  /* Flame Chain */
+     , (36953,  2318,   2.02)  /* Gravity Well */
+     , (36953,  2282,   2.02)  /* Futility */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36953,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

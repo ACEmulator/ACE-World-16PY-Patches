@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47190;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47190, 'ace47190-ordersforzrikux', 8, '2021-12-14 05:15:31') /* Book */;
+VALUES (47190, 'ace47190-ordersforzrikux', 8, '2023-05-15 03:25:02') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47190,   1,       8192) /* ItemType - Writable */
@@ -31,4 +31,7 @@ VALUES (47190,   1, 0x0200105C) /* Setup */
      , (47190,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (47190, 0, 1000);
+VALUES (47190, 1, 1000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (47190, 0, 0xFFFFFFFF, '', 'prewritten', True, '[You cannot translate this text]');

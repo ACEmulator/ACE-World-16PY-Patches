@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72216, 'ace72216-shadeoflordrytheran', 10, '2023-04-09 17:44:47') /* Creature */;
+VALUES (72216, 'ace72216-shadeoflordrytheran', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72216,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,7 @@ VALUES (72216,   1,       5) /* HeartbeatInterval */
      , (72216,  34,       2) /* PowerupTime */
      , (72216,  36,       1) /* ChargeSpeed */
      , (72216,  39,     1.3) /* DefaultScale */
-     , (72216,  41,      60) /* RegenerationInterval */
+     , (72216,  41,       5) /* RegenerationInterval */
      , (72216,  43,      10) /* GeneratorRadius */
      , (72216,  64,    0.89) /* ResistSlash */
      , (72216,  65,     0.5) /* ResistPierce */
@@ -109,12 +109,14 @@ VALUES (72216,  0,  4,  0,    0,  480,  408,  432,  408,  432,  384,  408,  432,
      , (72216,  8,  4, 155, 0.75,  480,  408,  432,  408,  432,  384,  408,  432,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72216,  4422,  2.167)  /* Incantation of Blade Arc */
-     , (72216,  4435,    2.2)  /* Incantation of Blade Blast */
-     , (72216,  4436,   2.25)  /* Incantation of Blade Volley */
-     , (72216,  2074,  2.333)  /* Gossamer Flesh */
-     , (72216,  3947,    2.5)  /* Blade Wave */
-     , (72216,  3876,      3)  /* Curse of the Blades */;
+VALUES (72216,  4422,  2.125)  /* Incantation of Blade Arc */
+     , (72216,  4435,  2.143)  /* Incantation of Blade Blast */
+     , (72216,  4436,  2.167)  /* Incantation of Blade Volley */
+     , (72216,  2074,    2.2)  /* Gossamer Flesh */
+     , (72216,  3947,   2.25)  /* Blade Wave */
+     , (72216,  3876,  2.333)  /* Curse of the Blades */
+     , (72216,  1784,    2.5)  /* Horizon's Blades */
+     , (72216,  3935,      3)  /* Heavy Blade Ring */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (72216, 2, 72284,  1, 0, 0, False) /* Create Invisible Staff (72284) for Wield */
@@ -141,9 +143,9 @@ VALUES (72216, 2, 72284,  1, 0, 0, False) /* Create Invisible Staff (72284) for 
      , (72216, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72216, -1, 42026, 300, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Blade Sorcerer (42026) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72216, -1, 42026, 300, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Blade Sorcerer (42026) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72216, -1, 42025, 300, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72216, -1, 42025, 300, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72216, -1, 42025, 300, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72216, -1, 42025, 300, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (72216, -1, 42026, 90, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Blade Sorcerer (42026) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72216, -1, 42026, 90, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Blade Sorcerer (42026) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72216, -1, 42025, 90, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72216, -1, 42025, 90, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72216, -1, 42025, 90, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72216, -1, 42025, 90, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

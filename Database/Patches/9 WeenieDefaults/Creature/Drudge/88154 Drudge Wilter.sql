@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88154;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88154, 'ace88154-drudgewilter', 10, '2022-06-21 15:22:25') /* Creature */;
+VALUES (88154, 'ace88154-drudgewilter', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88154,   1,         16) /* ItemType - Creature */
@@ -25,6 +25,7 @@ VALUES (88154,   1, True ) /* Stuck */
      , (88154,  11, False) /* IgnoreCollisions */
      , (88154,  12, True ) /* ReportCollisions */
      , (88154,  13, False) /* Ethereal */
+     , (88154,  29, True ) /* NoCorpse */
      , (88154, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,7 +45,7 @@ VALUES (88154,   1,       5) /* HeartbeatInterval */
      , (88154,  31,      18) /* VisualAwarenessRange */
      , (88154,  34,       1) /* PowerupTime */
      , (88154,  36,       1) /* ChargeSpeed */
-     , (88154,  39,     1.3) /* DefaultScale */
+     , (88154,  39,     1.5) /* DefaultScale */
      , (88154,  64,    0.75) /* ResistSlash */
      , (88154,  65,    0.75) /* ResistPierce */
      , (88154,  66,    0.75) /* ResistBludgeon */
@@ -71,8 +72,7 @@ VALUES (88154,   1, 0x020007DD) /* Setup */
      , (88154,   6, 0x04000F6C) /* PaletteBase */
      , (88154,   7, 0x10000486) /* ClothingBase */
      , (88154,   8, 0x06001035) /* Icon */
-     , (88154,  22, 0x3400001A) /* PhysicsEffectTable */
-     , (88154,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (88154,  22, 0x3400001A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (88154,   1, 330, 0, 0) /* Strength */

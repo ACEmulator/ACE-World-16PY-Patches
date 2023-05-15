@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45194;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45194, 'ace45194-guliant', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (45194, 'ace45194-guliant', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45194,   1,         16) /* ItemType - Creature */
@@ -13,7 +13,8 @@ VALUES (45194,   1,         16) /* ItemType - Creature */
      , (45194,  25,        200) /* Level */
      , (45194,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (45194,  95,          8) /* RadarBlipColor - Yellow */
-     , (45194, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (45194, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (45194, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45194,   1, True ) /* Stuck */
@@ -24,7 +25,8 @@ VALUES (45194,  12,       0) /* Shade */
      , (45194,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45194,   1, 'Guliant') /* Name */;
+VALUES (45194,   1, 'Guliant') /* Name */
+     , (45194,   5, 'Alchemist of House Mhoire') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45194,   1, 0x020016A1) /* Setup */

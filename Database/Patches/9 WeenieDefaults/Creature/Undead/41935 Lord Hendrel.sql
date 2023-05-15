@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41935;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41935, 'ace41935-lordhendrel', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (41935, 'ace41935-lordhendrel', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41935,   1,         16) /* ItemType - Creature */
@@ -13,19 +13,18 @@ VALUES (41935,   1,         16) /* ItemType - Creature */
      , (41935,  25,        270) /* Level */
      , (41935,  40,          2) /* CombatMode - Melee */
      , (41935,  68,          3) /* TargetingTactic - Random, Focused */
-     , (41935,  81,          4) /* MaxGeneratedObjects */
-     , (41935,  82,          4) /* InitGeneratedObjects */
+     , (41935,  81,          2) /* MaxGeneratedObjects */
+     , (41935,  82,          2) /* InitGeneratedObjects */
      , (41935,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41935, 100,          1) /* GeneratorType - Relative */
      , (41935, 103,          2) /* GeneratorDestructionType - Destroy */
      , (41935, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (41935, 146,    1000000) /* XpOverride */
-     , (41935, 307,          4) /* DamageRating */;
+     , (41935, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41935,   1, True ) /* Stuck */
      , (41935,   6, True ) /* AiUsesMana */
-     , (41935,   7, True ) /* AiUseHumanMagicAnimations */
      , (41935,  11, False) /* IgnoreCollisions */
      , (41935,  12, True ) /* ReportCollisions */
      , (41935,  13, False) /* Ethereal */
@@ -49,7 +48,7 @@ VALUES (41935,   1,       5) /* HeartbeatInterval */
      , (41935,  34,       2) /* PowerupTime */
      , (41935,  36,       1) /* ChargeSpeed */
      , (41935,  39,     1.1) /* DefaultScale */
-     , (41935,  41,     180) /* RegenerationInterval */
+     , (41935,  41,       5) /* RegenerationInterval */
      , (41935,  43,       5) /* GeneratorRadius */
      , (41935,  64,    0.82) /* ResistSlash */
      , (41935,  65,     0.5) /* ResistPierce */
@@ -97,25 +96,24 @@ VALUES (41935,   1, 12000, 0, 0, 12175) /* MaxHealth */
      , (41935,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (41935,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
-     , (41935,  7, 0, 3, 0, 367, 0, 0) /* MissileDefense      Specialized */
+VALUES (41935,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
+     , (41935,  7, 0, 3, 0, 370, 0, 0) /* MissileDefense      Specialized */
      , (41935, 15, 0, 3, 0, 395, 0, 0) /* MagicDefense        Specialized */
-     , (41935, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
-     , (41935, 33, 0, 3, 0, 460, 0, 0) /* LifeMagic           Specialized */
-     , (41935, 34, 0, 3, 0, 395, 0, 0) /* WarMagic            Specialized */
-     , (41935, 45, 0, 3, 0, 445, 0, 0) /* LightWeapons        Specialized */
-     , (41935, 46, 0, 3, 0, 445, 0, 0) /* FinesseWeapons      Specialized */;
+     , (41935, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
+     , (41935, 33, 0, 3, 0, 240, 0, 0) /* LifeMagic           Specialized */
+     , (41935, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
+     , (41935, 45, 0, 3, 0, 500, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (41935,  0,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (41935,  1,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (41935,  2,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (41935,  3,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (41935,  4,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (41935,  5,  4, 400, 0.75,  225,  191,  214,  191,  214,  191,  203,  214,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (41935,  6,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (41935,  7,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (41935,  8,  4, 400, 0.75,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (41935,  0,  4,  0,    0,  400,  340,  380,  340,  380,  340,  360,  380,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (41935,  1,  4,  0,    0,  400,  340,  380,  340,  380,  340,  360,  380,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (41935,  2,  4,  0,    0,  400,  340,  380,  340,  380,  340,  360,  380,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (41935,  3,  4,  0,    0,  400,  340,  380,  340,  380,  340,  360,  380,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (41935,  4,  4,  0,    0,  400,  340,  380,  340,  380,  340,  360,  380,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (41935,  5,  4, 400, 0.75,  400,  340,  380,  340,  380,  340,  360,  380,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (41935,  6,  4,  0,    0,  400,  340,  380,  340,  380,  340,  360,  380,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (41935,  7,  4,  0,    0,  400,  340,  380,  340,  380,  340,  360,  380,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (41935,  8,  4, 400, 0.75,  400,  340,  380,  340,  380,  340,  360,  380,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41935,  1784,  2.143)  /* Horizon's Blades */
@@ -133,4 +131,5 @@ VALUES (41935, 2, 31822,  1, 0, 0, False) /* Create Electric Baton (31822) for W
      , (41935, 9, 41932,  1, 0, 0, False) /* Create Lord Hendrel's Brand (41932) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41935, -1, 37462, 0, 4, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (37462) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (41935, -1, 37462, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (37462) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (41935, -1, 37462, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (37462) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

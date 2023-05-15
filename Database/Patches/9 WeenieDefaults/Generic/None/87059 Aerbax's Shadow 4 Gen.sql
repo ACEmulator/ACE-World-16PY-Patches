@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87059;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87059, 'ace87059-aerbaxsshadow4gen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (87059, 'ace87059-aerbaxsshadow4gen', 1, '2023-05-15 03:25:02') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87059,  81,          1) /* MaxGeneratedObjects */
@@ -30,4 +30,4 @@ VALUES (87059,   1, 0x0200026B) /* Setup */
      , (87059,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87059, -1, 37381, 1, 1, 1, 1, 4, 0, 0, 0, 0x2E2F0023, 106.949, 60.9081, 125.576, 0.80578, 0, 0, -0.592215) /* Generate Aerbax's Shadow (37381) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (87059, -1, 37381, 1, 1, 1, 1, 4, 0, 0, 0, 0x2E2F0023, 108, 60, 125.576, -0.707107, 0, 0, 0.707107) /* Generate Aerbax's Shadow (37381) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

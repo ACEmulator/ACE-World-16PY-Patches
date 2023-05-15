@@ -121,8 +121,8 @@ VALUES (38688, 2,  2587,  0, 12, 0.5, False) /* Create Shirt (2587) for Wield */
      , (38688, 4, 44509, -1, 0, 0, False) /* Create Contract for Undead Jaw Collection (44509) for Shop */
      , (38688, 4, 44510, -1, 0, 0, False) /* Create Contract for Vaeshok (44510) for Shop */
      , (38688, 4, 44511, -1, 0, 0, False) /* Create Contract for Wight Blade Sorcerers (44511) for Shop */
-     , (38688, 4, 44512, -1, 0, 0, False) /* Create  (44512) for Shop */
-     , (38688, 4, 44513, -1, 0, 0, False) /* Create  (44513) for Shop */
+     , (38688, 4, 44512, -1, 0, 0, False) /* Create Contract for Palm Fort (44512) for Shop */
+     , (38688, 4, 44513, -1, 0, 0, False) /* Create Contract for Supply Saboteur (44513) for Shop */
      , (38688, 4, 44514, -1, 0, 0, False) /* Create  (44514) for Shop */
      , (38688, 4, 45564, -1, 0, 0, False) /* Create Contract for Soc: Mana Siphon Destruction (45564) for Shop */
      , (38688, 4, 51328, -1, 0, 0, False) /* Create Contract for Soc: Destroy the Phalanx (51328) for Shop */

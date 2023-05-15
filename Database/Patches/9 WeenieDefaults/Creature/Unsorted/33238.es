@@ -32,6 +32,7 @@ GotoSet: NormalOperation
                 EventSuccess:
                     - TeleportTarget: 0x64470240 [49.914 -66.38 0.005] 1 0 0 0
                 EventFailure:
-                    - Delay: 0.1, CastSpellInstant: 3920 - Tunnels to the Harbinger
+                    - Delay: 0.1, CastSpellInstant: 3923 - Tunnels to the Harbinger
         QuestFailure:
             - DirectBroadcast: You must complete a quest to interact with this portal.
+

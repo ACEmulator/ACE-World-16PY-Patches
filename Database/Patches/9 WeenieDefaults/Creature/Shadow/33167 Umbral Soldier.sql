@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33167;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33167, 'ace33167-umbralsoldier', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (33167, 'ace33167-umbralsoldier', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33167,   1,         16) /* ItemType - Creature */
@@ -71,22 +71,6 @@ VALUES (33167,   1, 0x02000001) /* Setup */
      , (33167,   6, 0x0400007E) /* PaletteBase */
      , (33167,   8, 0x06001BBE) /* Icon */
      , (33167,  22, 0x34000063) /* PhysicsEffectTable */
-     , (33167,  32,       5920) /* WieldedTreasureType - 
-                                   |  10.00% chance of Shadow Blade (33080)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  10.00% chance of Shadow Blade (33081)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  10.00% chance of Shadow Blade (33082)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  10.00% chance of Shadow Blade (33083)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  60.00% chance of Shadow Blade (33084)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105) */
      , (33167,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -159,4 +143,10 @@ VALUES (33167, 2, 21159,  1, 93, 0, False) /* Create Covenant Tassets (21159) fo
      , (33167, 2, 21150,  1, 93, 0, False) /* Create Covenant Sollerets (21150) for Wield */
      , (33167, 2, 87038,  1, 93, 0, False) /* Create Helm of Isin Dule (87038) for Wield */
      , (33167, 2,  2597,  1, 92, 0, False) /* Create Flared Pants (2597) for Wield */
-     , (33167, 2,  2588,  1, 14, 0, False) /* Create Flared Shirt (2588) for Wield */;
+     , (33167, 2,  2588,  1, 14, 0, False) /* Create Flared Shirt (2588) for Wield */
+     , (33167, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */
+     , (33167, 10, 33080,  1, 0, 0.2, False) /* Create Shadow Blade (33080) for WieldTreasure */
+     , (33167, 10, 33081,  1, 0, 0.2, False) /* Create Shadow Blade (33081) for WieldTreasure */
+     , (33167, 10, 33082,  1, 0, 0.2, False) /* Create Shadow Blade (33082) for WieldTreasure */
+     , (33167, 10, 33083,  1, 0, 0.2, False) /* Create Shadow Blade (33083) for WieldTreasure */
+     , (33167, 10, 33084,  1, 0, 0.2, False) /* Create Shadow Blade (33084) for WieldTreasure */;

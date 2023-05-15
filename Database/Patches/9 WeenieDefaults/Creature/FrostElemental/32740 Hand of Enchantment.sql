@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32740;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32740, 'ace32740-handofenchantment', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32740, 'ace32740-handofenchantment', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32740,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,6 @@ VALUES (32740,   1,       5) /* HeartbeatInterval */
      , (32740,  73,       1) /* ResistStaminaBoost */
      , (32740,  74,       0) /* ResistManaDrain */
      , (32740,  75,       1) /* ResistManaBoost */
-     , (32740,  76,     0.2) /* Translucency */
      , (32740,  80,       3) /* AiUseMagicDelay */
      , (32740, 104,      10) /* ObviousRadarRange */
      , (32740, 122,       2) /* AiAcquireHealth */
@@ -97,8 +96,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (32740,  6, 0, 3, 0,   1, 0, 0) /* MeleeDefense        Specialized */
      , (32740,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
      , (32740, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
-     , (32740, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (32740, 22, 0, 3, 0, 100, 0, 0) /* Jump                Specialized */
+     , (32740, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (32740, 31, 0, 3, 0,  49, 0, 0) /* CreatureEnchantment Specialized */
      , (32740, 32, 0, 3, 0,  49, 0, 0) /* ItemEnchantment     Specialized */
      , (32740, 33, 0, 3, 0,  49, 0, 0) /* LifeMagic           Specialized */
@@ -117,10 +115,10 @@ VALUES (32740,  0,  8,  0,    0,  300,  270,  300,  300,  600,  270,  450,  450,
      , (32740,  8,  8, 130, 0.75,  300,  270,  300,  300,  600,  270,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32740,  1787,   2.02)  /* Halo of Frost */
-     , (32740,  2056,   2.02)  /* Ataxia */
-     , (32740,  2136,   2.02)  /* Icy Torment */
-     , (32740,  2137,   2.02)  /* Sudden Frost */
-     , (32740,  2168,   2.02)  /* Gelidite's Gift */
-     , (32740,  2228,   2.02)  /* Broadside of a Barn */
-     , (32740,  2318,   2.02)  /* Gravity Well */;
+VALUES (32740,  1787,   2.03)  /* Halo of Frost */
+     , (32740,  2056,   2.03)  /* Ataxia */
+     , (32740,  2136,   2.03)  /* Icy Torment */
+     , (32740,  2137,   2.03)  /* Sudden Frost */
+     , (32740,  2168,   2.03)  /* Gelidite's Gift */
+     , (32740,  2228,   2.04)  /* Broadside of a Barn */
+     , (32740,  2318,   2.04)  /* Gravity Well */;

@@ -112,4 +112,4 @@ VALUES (36378, 2,  5852,  0, 5, 0, False) /* Create Dho Vest and Robe (5852) for
      , (36378, 4, 40139, -1, 0, 0, False) /* Create Tome of Caustics (40139) for Shop */
      , (36378, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
      , (36378, 4, 41919, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41919) for Shop */
-     , (36378, 4, 40514, -1, 0, 0, False) /* Create  (40514) for Shop */;
+     , (36378, 4, 40514, -1, 0, 0, False) /* Create Inert Olthoibane Infusion (40514) for Shop */;

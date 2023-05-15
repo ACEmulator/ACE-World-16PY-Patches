@@ -1,17 +1,22 @@
 DELETE FROM `weenie` WHERE `class_Id` = 81000;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (81000, 'ace81000-harbingerslair', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (81000, 'ace81000-harbingerslair', 7, '2023-05-15 03:25:02') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (81000,   1,      65536) /* ItemType - Portal */
      , (81000,  16,         32) /* ItemUseable - Remote */
-     , (81000,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (81000,  93,       2052) /* PhysicsState - Ethereal, LightingOn */
      , (81000, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (81000, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (81000,   1, True ) /* Stuck */;
+VALUES (81000,   1, True ) /* Stuck */
+     , (81000,  11, False) /* IgnoreCollisions */
+     , (81000,  12, False) /* ReportCollisions */
+     , (81000,  13, True ) /* Ethereal */
+     , (81000,  14, False) /* GravityStatus */
+     , (81000,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (81000,  54,    -0.1) /* UseRadius */;
@@ -21,7 +26,7 @@ VALUES (81000,   1, 'Harbinger''s Lair') /* Name */
      , (81000,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (81000,   1, 0x020001B3) /* Setup */
+VALUES (81000,   1, 0x020006F4) /* Setup */
      , (81000,   2, 0x09000003) /* MotionTable */
      , (81000,   8, 0x0600106B) /* Icon */;
 

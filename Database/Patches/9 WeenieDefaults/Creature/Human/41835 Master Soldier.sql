@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41835;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41835, 'ace41835-mastersoldier', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (41835, 'ace41835-mastersoldier', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41835,   1,         16) /* ItemType - Creature */
@@ -110,4 +110,5 @@ VALUES (41835,  2074,   2.02)  /* Gossamer Flesh */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41835, 2, 38851,  1, 0, 0, False) /* Create Celestial Hand Shield (38851) for Wield */
-     , (41835, 2, 38854,  1, 0, 0, False) /* Create Celestial Hand Blade (38854) for Wield */;
+     , (41835, 2, 38854,  1, 0, 0, False) /* Create Celestial Hand Blade (38854) for Wield */
+     , (41835, 9, 88469,  0, 0, 1, False) /* Create Celestial Hand Supply Cage Key (88469) for ContainTreasure */;

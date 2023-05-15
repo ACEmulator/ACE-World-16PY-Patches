@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41937;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41937, 'ace41937-ladysaliane', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (41937, 'ace41937-ladysaliane', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41937,   1,         16) /* ItemType - Creature */
      , (41937,   2,         77) /* CreatureType - Ghost */
-     , (41937,   3,          9) /* PaletteTemplate - Grey */
+     , (41937,   3,          8) /* PaletteTemplate - Green */
      , (41937,   6,         -1) /* ItemsCapacity */
      , (41937,   7,         -1) /* ContainersCapacity */
      , (41937,  16,          1) /* ItemUseable - No */
@@ -50,7 +50,7 @@ VALUES (41937,   1,       5) /* HeartbeatInterval */
      , (41937,  31,      18) /* VisualAwarenessRange */
      , (41937,  34,       1) /* PowerupTime */
      , (41937,  36,       1) /* ChargeSpeed */
-     , (41937,  41,      20) /* RegenerationInterval */
+     , (41937,  41,       5) /* RegenerationInterval */
      , (41937,  43,       5) /* GeneratorRadius */
      , (41937,  64,     0.8) /* ResistSlash */
      , (41937,  65,     0.8) /* ResistPierce */
@@ -79,6 +79,7 @@ VALUES (41937,   1, 0x02001120) /* Setup */
      , (41937,   3, 0x200000B6) /* SoundTable */
      , (41937,   4, 0x30000000) /* CombatTable */
      , (41937,   6, 0x040018F3) /* PaletteBase */
+     , (41937,   7, 0x10000563) /* ClothingBase */
      , (41937,   8, 0x06003447) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -107,16 +108,21 @@ VALUES (41937,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
      , (41937, 45, 0, 3, 0, 420, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (41937,  0,  1,  0,    0,  500,  320,  480,  480,  500,  320,  485,  375,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (41937,  1,  1,  0,    0,  500,  320,  480,  480,  500,  320,  485,  375,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (41937,  2,  1,  0,    0,  500,  320,  480,  480,  500,  320,  485,  375,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
-     , (41937,  3,  1,  0,    0,  500,  320,  480,  480,  500,  320,  485,  375,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (41937,  4,  1,  0,    0,  500,  320,  480,  480,  500,  320,  485,  375,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (41937,  5,  9, 230, 0.55,  500,  320,  480,  480,  500,  320,  485,  375,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
+VALUES (41937,  0,  1,  0,    0,  270,  173,  259,  259,  270,  173,  262,  203,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (41937,  1,  1,  0,    0,  270,  173,  259,  259,  270,  173,  262,  203,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (41937,  2,  1,  0,    0,  270,  173,  259,  259,  270,  173,  262,  203,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
+     , (41937,  3,  1,  0,    0,  270,  173,  259,  259,  270,  173,  262,  203,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (41937,  4,  1,  0,    0,  270,  173,  259,  259,  270,  173,  262,  203,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
+     , (41937,  5,  8, 230, 0.55,  270,  173,  259,  259,  270,  173,  262,  203,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41937,  2074,   2.02)  /* Gossamer Flesh */
-     , (41937,  2168,   2.02)  /* Gelidite's Gift */;
+VALUES (41937,  1787,   2.02)  /* Halo of Frost */
+     , (41937,  2074,   2.04)  /* Gossamer Flesh */
+     , (41937,  2135,   2.02)  /* Winter's Embrace */
+     , (41937,  2136,   2.05)  /* Icy Torment */
+     , (41937,  2138,   2.02)  /* Blizzard */
+     , (41937,  2168,   2.06)  /* Gelidite's Gift */
+     , (41937,  4447,   2.03)  /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41937, 9, 41933,  1, 0, 0, False) /* Create Lady Saliane's Brand (41933) for ContainTreasure */
@@ -124,4 +130,5 @@ VALUES (41937, 9, 41933,  1, 0, 0, False) /* Create Lady Saliane's Brand (41933)
      , (41937, 9, 41933,  1, 0, 0, False) /* Create Lady Saliane's Brand (41933) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41937, -1, 41936, 0, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Grave Frost (41936) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (41937, -1, 41936, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Grave Frost (41936) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (41937, -1, 41936, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Grave Frost (41936) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

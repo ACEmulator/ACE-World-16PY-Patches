@@ -1,6 +1,39 @@
+Refuse: Completed Signet (49583)
+    - TurnToTarget
+    - TakeItems: Completed Signet (49583)
+    - Tell: You did it! You found the 4 pieces of the Signet! Let's release the magic within and continue on our quest.
+    - Motion: Point
+    - Delay: 1, DirectBroadcast: El'Yst places the Signet against your forehead and begins chanting.
+    - Motion: Ready
+    - Delay: 1, Tell: The protections placed on the Sanctuary will no longer affect you. Journey deep within the Recluse's lair in the heart of the Lost City and find the Mu-miyah's Idol.
+    - EraseQuest: FourCornersStarted_1113
+    - StampQuest: FourCornersRecluseFlag_1113
+    - Delay: 1, Tell: There is so much to learn from this trinket.
+
+Refuse: Idol of the Recluse (52264)
+    - TurnToTarget
+    - InqQuest: FourCornersCompleted_1113
+        QuestSuccess:
+            - Tell: What? How did you get this?
+            - Tell: Perhaps return to me tomorrow as your assistance may be needed again.
+        QuestFailure:
+            - Tell: The Idol...can it really be?
+            - Delay: 1, Tell: At long last! We can't even begin to imagine what powers and knowledge this item contains.
+            - Delay: 1, DirectBroadcast: El'Yst presses the Idol against her head and begins to murmur softly.
+            - Delay: 1, Tell: I have channelled what power I could from the Idol into this device for you. I hope it serves you well.
+            - AwardLevelProportionalXP: 100%, 0 - 400,000,000
+            - AwardLuminance: 20,000
+            - Give: Trade Note (250,000) (20630), 20
+            - Give: Idol of the Recluse (52247)
+            - StampQuest: FourCornersCompleted_1113
+            - InqQuestBitsOn: LegendaryQuestsA, 0x4
+                QuestFailure:
+                    - SetQuestBitsOn: LegendaryQuestsA, 0x4
+                    - StampQuest: LegendaryQuestCounter_0913
+
 Use:
     - TurnToTarget
-    - InqIntStat: 25, 180 - 999
+    - InqIntStat: Level, 180 - 999
         TestSuccess:
             - InqQuest: FourCornersCompleted_1113
                 QuestSuccess:
@@ -24,30 +57,4 @@ Use:
                                     - StampQuest: FourCornersStarted_1113
         TestFailure:
             - Tell: Good day young one.
-            
-Refuse: Completed Signet (49583)
-    - TurnToTarget
-    - TakeItems: 49583, 1
-    - Tell: You did it! You found the 4 pieces of the Signet! Let's release the magic within and continue on our quest.
-    - Motion: Point
-    - Delay: 1, DirectBroadcast: El'Yst places the Signet against your forehead and begins chanting.
-    - Motion: Ready
-    - Delay: 1, Tell: The protections placed on the Sanctuary will no longer affect you. Journey deep within the Recluse's lair in the heart of the Lost City and find the Mu-miyah's Idol.
-    - EraseQuest: FourCornersStarted_1113
-    - StampQuest: FourCornersRecluseFlag_1113
-    - Delay: 1, Tell: There is so much to learn from this trinket.
-
-Give: Idol of the Recluse (52264)
-    - TurnToTarget
-    - Tell: The Idol...can it really be?
-    - Delay: 1, Tell: At long last! We can't even begin to imagine what powers and knowledge this item contains.
-    - Delay: 1, Tell: I have channelled what power I could from the Idol into this device for you. I hope it serves you well.
-    - AwardLevelProportionalXP: 100%, 0 - 400,000,000
-    - AwardLuminance: 20,000
-    - Give: 20630, 20
-    - Give: Idol of the Recluse (52247)
-    - StampQuest: FourCornersCompleted_1113
-    - InqQuestBitsOn: LegendaryQuestsA, 0x4 
-        QuestFailure:
-            - SetQuestBitsOn: LegendaryQuestsA, 0x4
-            - StampQuest: LegendaryQuestCounter_0913
+            - DirectBroadcast: El'Yst gently pats you on the head.

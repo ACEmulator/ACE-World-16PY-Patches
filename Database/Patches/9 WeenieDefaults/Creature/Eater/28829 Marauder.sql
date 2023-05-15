@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28829;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28829, 'eatermarauder', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (28829, 'eatermarauder', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28829,   1,         16) /* ItemType - Creature */
@@ -102,10 +102,6 @@ VALUES (28829,  0,  2, 130,    0,  530,  371,  371,  742,  530,  530,  742,  530
      , (28829,  8,  4, 130,  0.6,  530,  371,  371,  742,  530,  530,  742,  530,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (28829, 22, 32, 105,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
-INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (28829,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (28829, 414) /* PLAYER_DEATH_EVENT */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28829,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
@@ -170,4 +166,5 @@ VALUES (28829, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for C
      , (28829, 9, 28735,  0, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
      , (28829, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28829, 9, 28731,  0, 0, 0.01, False) /* Create Identification Plate (28731) for ContainTreasure */
-     , (28829, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     , (28829, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28829, 9, 28827,  1, 0, 1, False) /* Create Marauder's Jaw (28827) for ContainTreasure */;

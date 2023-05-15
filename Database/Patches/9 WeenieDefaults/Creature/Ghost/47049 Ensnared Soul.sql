@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47049;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47049, 'ace47049-ensnaredsoul', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (47049, 'ace47049-ensnaredsoul', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47049,   1,         16) /* ItemType - Creature */
@@ -29,8 +29,7 @@ VALUES (47049,   1, True ) /* Stuck */
      , (47049,  29, True ) /* NoCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47049,  12,   0.069) /* Shade */
-     , (47049,  13,       1) /* ArmorModVsSlash */
+VALUES (47049,  13,       1) /* ArmorModVsSlash */
      , (47049,  14,     0.9) /* ArmorModVsPierce */
      , (47049,  15,    0.75) /* ArmorModVsBludgeon */
      , (47049,  16,       1) /* ArmorModVsCold */
@@ -53,7 +52,6 @@ VALUES (47049,  12,   0.069) /* Shade */
      , (47049,  73,       1) /* ResistStaminaBoost */
      , (47049,  74,       1) /* ResistManaDrain */
      , (47049,  75,       1) /* ResistManaBoost */
-     , (47049,  76,       1) /* Translucency */
      , (47049,  80,       3) /* AiUseMagicDelay */
      , (47049, 104,      10) /* ObviousRadarRange */
      , (47049, 117,     0.5) /* FocusedProbability */

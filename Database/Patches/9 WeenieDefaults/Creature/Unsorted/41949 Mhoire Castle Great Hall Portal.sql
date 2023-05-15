@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41949, 'ace41949-mhoirecastlegreathallportal', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (41949, 'ace41949-mhoirecastlegreathallportal', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41949,   1,         16) /* ItemType - Creature */
@@ -23,7 +23,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41949,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41949,   1, 'Mhoire Castle Great Hall Portal') /* Name */;
+VALUES (41949,   1, 'Mhoire Castle Great Hall Portal') /* Name */
+     , (41949,  16, 'A portal for the defenders of Mhoire Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41949,   1, 0x02001945) /* Setup */

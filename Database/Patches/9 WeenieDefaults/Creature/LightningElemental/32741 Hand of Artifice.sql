@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32741;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32741, 'ace32741-handofartifice', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32741, 'ace32741-handofartifice', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32741,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,6 @@ VALUES (32741,   1,       5) /* HeartbeatInterval */
      , (32741,  73,       1) /* ResistStaminaBoost */
      , (32741,  74,       0) /* ResistManaDrain */
      , (32741,  75,       1) /* ResistManaBoost */
-     , (32741,  76,     0.2) /* Translucency */
      , (32741,  80,       3) /* AiUseMagicDelay */
      , (32741, 104,      10) /* ObviousRadarRange */
      , (32741, 122,       2) /* AiAcquireHealth */
@@ -94,11 +93,10 @@ VALUES (32741,   1, 19600, 0, 0, 19800) /* MaxHealth */
      , (32741,   5,   500, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32741,  6, 0, 3, 0,   1, 0, 0) /* MeleeDefense        Specialized */
+VALUES (32741,  6, 0, 3, 0,  51, 0, 0) /* MeleeDefense        Specialized */
      , (32741,  7, 0, 3, 0,  88, 0, 0) /* MissileDefense      Specialized */
      , (32741, 15, 0, 3, 0, 200, 0, 0) /* MagicDefense        Specialized */
-     , (32741, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (32741, 22, 0, 3, 0, 100, 0, 0) /* Jump                Specialized */
+     , (32741, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (32741, 31, 0, 3, 0, 251, 0, 0) /* CreatureEnchantment Specialized */
      , (32741, 32, 0, 3, 0, 251, 0, 0) /* ItemEnchantment     Specialized */
      , (32741, 33, 0, 3, 0, 251, 0, 0) /* LifeMagic           Specialized */
@@ -117,10 +115,10 @@ VALUES (32741,  0, 64,  0,    0,  300,  270,  300,  300,  450,  450,  270,  600,
      , (32741,  8, 64, 120, 0.75,  300,  270,  300,  300,  450,  450,  270,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32741,  2074,   2.02)  /* Gossamer Flesh */
-     , (32741,  2084,   2.02)  /* Belly of Lead */
-     , (32741,  2140,   2.02)  /* Alset's Coil */
-     , (32741,  2141,   2.02)  /* Lhen's Flare */
-     , (32741,  2172,   2.02)  /* Astyrrian's Gift */
-     , (32741,  2228,   2.02)  /* Broadside of a Barn */
-     , (32741,  2318,   2.02)  /* Gravity Well */;
+VALUES (32741,  2074,   2.03)  /* Gossamer Flesh */
+     , (32741,  2084,   2.03)  /* Belly of Lead */
+     , (32741,  2140,   2.03)  /* Alset's Coil */
+     , (32741,  2141,   2.03)  /* Lhen's Flare */
+     , (32741,  2172,   2.03)  /* Astyrrian's Gift */
+     , (32741,  2228,   2.04)  /* Broadside of a Barn */
+     , (32741,  2318,   2.04)  /* Gravity Well */;

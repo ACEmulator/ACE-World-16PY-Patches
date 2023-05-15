@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43259;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43259, 'ace43259-glowingapostateshard', 38, '2023-04-09 17:44:47') /* Gem */;
+VALUES (43259, 'ace43259-glowingapostateshard', 38, '2023-05-15 03:25:02') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43259,   1,       2048) /* ItemType - Gem */
@@ -22,8 +22,7 @@ VALUES (43259,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43259,  22, True ) /* Inscribable */
-     , (43259,  23, True ) /* DestroyOnSell */
-     , (43259,  63, True ) /* UnlimitedUse */;
+     , (43259,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43259, 167,      10) /* CooldownDuration */;

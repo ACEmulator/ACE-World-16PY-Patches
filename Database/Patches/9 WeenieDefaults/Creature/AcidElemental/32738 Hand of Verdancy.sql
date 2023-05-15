@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32738;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32738, 'ace32738-handofverdancy', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32738, 'ace32738-handofverdancy', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32738,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,6 @@ VALUES (32738,   1,       5) /* HeartbeatInterval */
      , (32738,  73,       1) /* ResistStaminaBoost */
      , (32738,  74,       0) /* ResistManaDrain */
      , (32738,  75,       1) /* ResistManaBoost */
-     , (32738,  76,     0.2) /* Translucency */
      , (32738,  80,       3) /* AiUseMagicDelay */
      , (32738, 104,      10) /* ObviousRadarRange */
      , (32738, 122,       2) /* AiAcquireHealth */
@@ -97,8 +96,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (32738,  6, 0, 3, 0, 118, 0, 0) /* MeleeDefense        Specialized */
      , (32738,  7, 0, 3, 0, 242, 0, 0) /* MissileDefense      Specialized */
      , (32738, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
-     , (32738, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (32738, 22, 0, 3, 0, 100, 0, 0) /* Jump                Specialized */
+     , (32738, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (32738, 31, 0, 3, 0, 248, 0, 0) /* CreatureEnchantment Specialized */
      , (32738, 32, 0, 3, 0, 248, 0, 0) /* ItemEnchantment     Specialized */
      , (32738, 33, 0, 3, 0, 248, 0, 0) /* LifeMagic           Specialized */
@@ -117,8 +115,8 @@ VALUES (32738,  0, 32,  0,    0,  300,  270,  300,  300,  450,  450,  600,  270,
      , (32738,  8, 32, 130, 0.75,  300,  270,  300,  300,  450,  450,  600,  270,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32738,  2074,   2.02)  /* Gossamer Flesh */
-     , (32738,  2162,   2.02)  /* Olthoi's Gift */
-     , (32738,  2178,   2.02)  /* Decrepitude's Grasp */
-     , (32738,  2228,   2.02)  /* Broadside of a Barn */
-     , (32738,  2318,   2.02)  /* Gravity Well */;
+VALUES (32738,  2074,   2.04)  /* Gossamer Flesh */
+     , (32738,  2162,   2.04)  /* Olthoi's Gift */
+     , (32738,  2178,   2.04)  /* Decrepitude's Grasp */
+     , (32738,  2228,   2.05)  /* Broadside of a Barn */
+     , (32738,  2318,   2.05)  /* Gravity Well */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32739;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32739, 'ace32739-handofstrife', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32739, 'ace32739-handofstrife', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32739,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,6 @@ VALUES (32739,   1,       5) /* HeartbeatInterval */
      , (32739,  73,       1) /* ResistStaminaBoost */
      , (32739,  74,       0) /* ResistManaDrain */
      , (32739,  75,       1) /* ResistManaBoost */
-     , (32739,  76,     0.2) /* Translucency */
      , (32739,  80,       3) /* AiUseMagicDelay */
      , (32739, 104,      10) /* ObviousRadarRange */
      , (32739, 122,       2) /* AiAcquireHealth */
@@ -97,8 +96,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (32739,  6, 0, 3, 0, 118, 0, 0) /* MeleeDefense        Specialized */
      , (32739,  7, 0, 3, 0, 242, 0, 0) /* MissileDefense      Specialized */
      , (32739, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
-     , (32739, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (32739, 22, 0, 3, 0, 100, 0, 0) /* Jump                Specialized */
+     , (32739, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (32739, 31, 0, 3, 0, 229, 0, 0) /* CreatureEnchantment Specialized */
      , (32739, 32, 0, 3, 0, 229, 0, 0) /* ItemEnchantment     Specialized */
      , (32739, 33, 0, 3, 0, 229, 0, 0) /* LifeMagic           Specialized */
@@ -117,9 +115,9 @@ VALUES (32739,  0, 16,  0,    0,  300,  270,  300,  300,  270,  600,  450,  450,
      , (32739,  8, 16, 130, 0.75,  300,  270,  300,  300,  270,  600,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32739,  2074,   2.02)  /* Gossamer Flesh */
-     , (32739,  2088,   2.02)  /* Senescence */
-     , (32739,  2128,   2.02)  /* Ilservian's Flame */
-     , (32739,  2170,   2.02)  /* Inferno's Gift */
-     , (32739,  2228,   2.02)  /* Broadside of a Barn */
-     , (32739,  2318,   2.02)  /* Gravity Well */;
+VALUES (32739,  2074,   2.03)  /* Gossamer Flesh */
+     , (32739,  2088,   2.03)  /* Senescence */
+     , (32739,  2128,   2.03)  /* Ilservian's Flame */
+     , (32739,  2170,   2.03)  /* Inferno's Gift */
+     , (32739,  2228,   2.03)  /* Broadside of a Barn */
+     , (32739,  2318,   2.04)  /* Gravity Well */;

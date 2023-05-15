@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36972;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36972, 'ace36972-virindiprotector', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (36972, 'ace36972-virindiprotector', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36972,   1,         16) /* ItemType - Creature */
@@ -38,7 +38,7 @@ VALUES (36972,   1,       5) /* HeartbeatInterval */
      , (36972,  31,      18) /* VisualAwarenessRange */
      , (36972,  34,       1) /* PowerupTime */
      , (36972,  36,       1) /* ChargeSpeed */
-     , (36972,  39,     1.3) /* DefaultScale */
+     , (36972,  39,       1) /* DefaultScale */
      , (36972,  64,    0.89) /* ResistSlash */
      , (36972,  65,    0.65) /* ResistPierce */
      , (36972,  66,    0.67) /* ResistBludgeon */
@@ -84,10 +84,8 @@ VALUES (36972,   1,  9850, 0, 0, 10000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (36972,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (36972,  7, 0, 3, 0, 220, 0, 0) /* MissileDefense      Specialized */
-     , (36972, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
      , (36972, 15, 0, 3, 0, 186, 0, 0) /* MagicDefense        Specialized */
-     , (36972, 20, 0, 3, 0, 250, 0, 0) /* Deception           Specialized */
-     , (36972, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */
+     , (36972, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (36972, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
      , (36972, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
      , (36972, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
@@ -103,18 +101,16 @@ VALUES (36972,  0,  1,  0,    0,  500,  395,  325,  335,  350,  395,  225,  350,
      , (36972, 17,  1,  0,    0,  500,  395,  325,  335,  350,  395,  225,  350,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36972,  2053,   2.04)  /* Executor's Blessing */
-     , (36972,  2054,   2.04)  /* Synaptic Misfire */
-     , (36972,  2068,   2.04)  /* Brittle Bones */
-     , (36972,  2073,   2.04)  /* Adja's Intervention */
+VALUES (36972,  2068,   2.04)  /* Brittle Bones */
      , (36972,  2074,   2.06)  /* Gossamer Flesh */
      , (36972,  2088,   2.04)  /* Senescence */
      , (36972,  2128,   2.06)  /* Ilservian's Flame */
      , (36972,  2146,   2.06)  /* Evisceration */
      , (36972,  2164,   2.04)  /* Swordsman's Gift */
      , (36972,  2170,   2.04)  /* Inferno's Gift */
-     , (36972,  2281,   2.04)  /* Aura of Resistance */
-     , (36972,  2328,   2.04)  /* Vitality Siphon */;
+     , (36972,  5972,   2.04)  /* Galvanic Bomb */
+     , (36972,  3970,   2.04)  /* Blade Bomb */
+     , (36972,  3974,   2.04)  /* Lightning Bomb */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36972,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

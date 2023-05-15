@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46303;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46303, 'ace46303-wallofice', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (46303, 'ace46303-wallofice', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46303,   1,         16) /* ItemType - Creature */
@@ -43,7 +43,6 @@ VALUES (46303,   1,       5) /* HeartbeatInterval */
      , (46303,  19,    0.89) /* ArmorModVsElectric */
      , (46303,  31,      10) /* VisualAwarenessRange */
      , (46303,  34,     3.3) /* PowerupTime */
-     , (46303,  39,     1.1) /* DefaultScale */
      , (46303,  64,     0.5) /* ResistSlash */
      , (46303,  65,     0.5) /* ResistPierce */
      , (46303,  66,    0.75) /* ResistBludgeon */
@@ -56,7 +55,6 @@ VALUES (46303,   1,       5) /* HeartbeatInterval */
      , (46303,  73,       1) /* ResistStaminaBoost */
      , (46303,  74,       1) /* ResistManaDrain */
      , (46303,  75,       1) /* ResistManaBoost */
-     , (46303,  76,     0.3) /* Translucency */
      , (46303,  80,       3) /* AiUseMagicDelay */
      , (46303, 104,      10) /* ObviousRadarRange */
      , (46303, 122,       2) /* AiAcquireHealth */

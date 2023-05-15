@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42017, 'ace42017-flameguardian', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (42017, 'ace42017-flameguardian', 10, '2023-05-15 03:25:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42017,   1,         16) /* ItemType - Creature */
@@ -87,7 +87,6 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (42017,  6, 0, 2, 0, 420, 0, 0) /* MeleeDefense        Trained */
      , (42017,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
      , (42017, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
-     , (42017, 16, 0, 2, 0, 250, 0, 0) /* ManaConversion      Trained */
      , (42017, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
      , (42017, 34, 0, 2, 0, 350, 0, 0) /* WarMagic            Trained */
      , (42017, 45, 0, 2, 0, 420, 0, 0) /* LightWeapons        Trained */;
@@ -104,11 +103,11 @@ VALUES (42017,  0, 16,  0,    0,  220,  183,  183,  183,  220, 22000,  189,  163
      , (42017,  8, 16, 55, 0.75,  220,  183,  183,  183,  220, 22000,  189,  163,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42017,  2128,    2.8)  /* Ilservian's Flame */
-     , (42017,  4312,   2.25)  /* Incantation of Imperil Other */
-     , (42017,  4481,  2.333)  /* Incantation of Fire Vulnerability Other */
-     , (42017,  2328,    2.5)  /* Vitality Siphon */
-     , (42017,  2073,      3)  /* Adja's Intervention */;
+VALUES (42017,  2128,    2.6)  /* Ilservian's Flame */
+     , (42017,  4312,   2.12)  /* Incantation of Imperil Other */
+     , (42017,  4481,   2.14)  /* Incantation of Fire Vulnerability Other */
+     , (42017,  2328,   2.17)  /* Vitality Siphon */
+     , (42017,  2073,    2.2)  /* Adja's Intervention */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42017, 9, 42016,  0, 0, 0, False) /* Create Fiery Remains (42016) for ContainTreasure */;

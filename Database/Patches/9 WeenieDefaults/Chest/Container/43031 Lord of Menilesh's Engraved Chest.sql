@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43031;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43031, 'ace43031-lordofmenileshsengravedchest', 20, '2021-11-01 00:00:00') /* Chest */;
+VALUES (43031, 'ace43031-lordofmenileshsengravedchest', 20, '2023-05-15 03:25:02') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43031,   1,        512) /* ItemType - Container */
@@ -12,8 +12,8 @@ VALUES (43031,   1,        512) /* ItemType - Container */
      , (43031,  16,         48) /* ItemUseable - ViewedRemote */
      , (43031,  19,       2500) /* Value */
      , (43031,  38,       9999) /* ResistLockpick */
-     , (43031,  81,          5) /* MaxGeneratedObjects */
-     , (43031,  82,          5) /* InitGeneratedObjects */
+     , (43031,  81,         11) /* MaxGeneratedObjects */
+     , (43031,  82,         11) /* InitGeneratedObjects */
      , (43031,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,7 +42,7 @@ VALUES (43031,   1, 0x02000F7A) /* Setup */
      , (43031,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43031, -1, 1012, 0, 1, 1, 2, 72, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 7 from Death Treasure Table id: 1012 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+VALUES (43031, -1, 1003, 0, 1, 1, 2, 72, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 7 from Death Treasure Table id: 1003 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (43031, -1, 38083, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Visage of Menilesh (38083) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (43031, -1, 38082, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Rytheran's Mnemosyne (38082) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (43031, -1, 35383, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
