@@ -57,6 +57,7 @@ VALUES (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */,    36 /
      , (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */, 30521 /* Pauldrons of Leikotha's Tears */, '2021-12-14 05:15:31')
      , (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */, 30522 /* Gelidite Pauldrons */, '2021-12-14 05:15:31')
      , (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */, 30949 /* Diforsa Sleeves */, '2021-12-14 05:15:31')
+     , (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */, 37204 /* Olthoi Pauldrons */, '2021-12-14 05:15:31')
      , (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */, 37205 /* Olthoi Celdon Sleeves */, '2021-12-14 05:15:31')
      , (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */, 37206 /* Olthoi Koujia Sleeves */, '2021-12-14 05:15:31')
      , (8907, 53294 /* Luminous Amber: Pauldrons of Thunderous Blows */, 38468 /* Celestial Hand Pauldrons */, '2021-12-14 05:15:31')

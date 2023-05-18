@@ -56,6 +56,7 @@ VALUES (8920, 53072 /* Empowered Amber: Pauldrons of Life */,    36 /* Leather B
      , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 30521 /* Pauldrons of Leikotha's Tears */, '2021-12-14 05:15:31')
      , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 30522 /* Gelidite Pauldrons */, '2021-12-14 05:15:31')
      , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 30949 /* Diforsa Sleeves */, '2021-12-14 05:15:31')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 37204 /* Olthoi Pauldrons */, '2021-12-14 05:15:31')
      , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 37205 /* Olthoi Celdon Sleeves */, '2021-12-14 05:15:31')
      , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 37206 /* Olthoi Koujia Sleeves */, '2021-12-14 05:15:31')
      , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 38468 /* Celestial Hand Pauldrons */, '2021-12-14 05:15:31')
