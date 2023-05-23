@@ -178,7 +178,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (33733,  34, 0, 2, 0, 197, 0, 0) /* WarMagic */
      , (33733,  33, 0, 2, 0, 197, 0, 0) /* LifeMagic */
      , (33733,  31, 0, 2, 0, 197, 0, 0) /* CreatureEnchantment */
-     , (33733,  32, 0, 2, 0, -142, 0, 0) /* ItemEnchantment */
+     , (33733,  32, 0, 2, 0, 142, 0, 0) /* ItemEnchantment */
      , (33733,  45, 0, 2, 0, 388, 0, 0) /* LightWeapons */
      , (33733,   6, 0, 2, 0, 185, 0, 0) /* MeleeDefense */
      , (33733,   7, 0, 2, 0, 526, 0, 0) /* MissileDefense */
