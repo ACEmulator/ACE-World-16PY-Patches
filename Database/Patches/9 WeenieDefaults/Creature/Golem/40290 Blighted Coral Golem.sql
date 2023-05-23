@@ -103,18 +103,18 @@ VALUES (40290,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (40290,  8,  4, 150, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40290,  2074,   2.15)  /* Gossamer Flesh */
-     , (40290,  2136,   2.18)  /* Icy Torment */
-     , (40290,  2138,   2.15)  /* Blizzard */
-     , (40290,  1839,   2.15)  /* Blistering Creeper */
-     , (40290,  1843,   2.15)  /* Foon-Ki's Glacial Floe */
-     , (40290,  2137,   2.03)  /* Sudden Frost */
-     , (40290,  2135,   2.15)  /* Winter's Embrace */
-     , (40290,  2123,   2.02)  /* Celdiseth's Searing */
-     , (40290,  2122,   2.15)  /* Disintegration */
-     , (40290,  2120,   2.02)  /* Dissolving Vortex */
-     , (40290,  2168,   2.15)  /* Gelidite's Gift */
-     , (40290,   526,   2.02)  /* Acid Vulnerability Other VI */;
+VALUES (40290,  2074,   2.03) /* Gossamer Flesh */
+     , (40290,  2136,   2.03) /* Icy Torment */
+     , (40290,  2138,   2.03) /* Blizzard */
+     , (40290,  1839,   2.03) /* Blistering Creeper */
+     , (40290,  1843,   2.03) /* Foon-Ki's Glacial Floe */
+     , (40290,  2137,   2.04) /* Sudden Frost */
+     , (40290,  2135,   2.04) /* Winter's Embrace */
+     , (40290,  2123,   2.04) /* Celdiseth's Searing */
+     , (40290,  2122,   2.04) /* Disintegration */
+     , (40290,  2120,   2.04) /* Dissolving Vortex */
+     , (40290,  2168,   2.04) /* Gelidite's Gift */
+     , (40290,   526,   2.04) /* Acid Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40290,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
