@@ -24,6 +24,7 @@ VALUES (45463,   1,          1) /* ItemType - MeleeWeapon */
      , (45463, 107,       2000) /* ItemCurMana */
      , (45463, 108,       2000) /* ItemMaxMana */
      , (45463, 109,          0) /* ItemDifficulty */
+     , (45463, 124,          2) /* Version */
      , (45463, 151,          2) /* HookType - Wall */
      , (45463, 179,         16) /* ImbuedEffect - PierceRending */
      , (45463, 265,         41) /* EquipmentSetId - RareDamageBoost */
