@@ -24,6 +24,7 @@ VALUES (45469,   1,          1) /* ItemType - MeleeWeapon */
      , (45469, 107,       1800) /* ItemCurMana */
      , (45469, 108,       1800) /* ItemMaxMana */
      , (45469, 109,          0) /* ItemDifficulty */
+     , (45469, 124,          2) /* Version */
      , (45469, 151,          2) /* HookType - Wall */
      , (45469, 166,         30) /* SlayerCreatureType - Skeleton */
      , (45469, 179,         16) /* ImbuedEffect - PierceRending */
