@@ -25,6 +25,7 @@ VALUES (45451,   1,          1) /* ItemType - MeleeWeapon */
      , (45451, 107,       2100) /* ItemCurMana */
      , (45451, 108,       2100) /* ItemMaxMana */
      , (45451, 109,          0) /* ItemDifficulty */
+     , (45451, 124,          2) /* Version */
      , (45451, 151,          2) /* HookType - Wall */
      , (45451, 179,         64) /* ImbuedEffect - AcidRending */
      , (45451, 265,         41) /* EquipmentSetId - RareDamageBoost */
