@@ -24,6 +24,7 @@ VALUES (45440,   1,          1) /* ItemType - MeleeWeapon */
      , (45440, 107,       2500) /* ItemCurMana */
      , (45440, 108,       2500) /* ItemMaxMana */
      , (45440, 109,          0) /* ItemDifficulty */
+     , (45440, 124,          2) /* Version */
      , (45440, 151,          2) /* HookType - Wall */
      , (45440, 166,          2) /* SlayerCreatureType - Banderling */
      , (45440, 179,          8) /* ImbuedEffect - SlashRending */
