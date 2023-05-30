@@ -25,6 +25,7 @@ VALUES (45450,   1,          1) /* ItemType - MeleeWeapon */
      , (45450, 107,       2200) /* ItemCurMana */
      , (45450, 108,       2200) /* ItemMaxMana */
      , (45450, 109,          0) /* ItemDifficulty */
+     , (45450, 124,          2) /* Version */
      , (45450, 151,          2) /* HookType - Wall */
      , (45450, 166,          5) /* SlayerCreatureType - Lugian */
      , (45450, 179,        256) /* ImbuedEffect - ElectricRending */
