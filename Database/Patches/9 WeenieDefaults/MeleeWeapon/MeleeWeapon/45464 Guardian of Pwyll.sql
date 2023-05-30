@@ -24,6 +24,7 @@ VALUES (45464,   1,          1) /* ItemType - MeleeWeapon */
      , (45464, 107,       2200) /* ItemCurMana */
      , (45464, 108,       2200) /* ItemMaxMana */
      , (45464, 109,          0) /* ItemDifficulty */
+     , (45464, 124,          2) /* Version */
      , (45464, 151,          2) /* HookType - Wall */
      , (45464, 166,          1) /* SlayerCreatureType - Olthoi */
      , (45464, 179,         16) /* ImbuedEffect - PierceRending */
