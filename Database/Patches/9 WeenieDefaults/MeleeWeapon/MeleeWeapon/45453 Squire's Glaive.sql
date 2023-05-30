@@ -24,6 +24,7 @@ VALUES (45453,   1,          1) /* ItemType - MeleeWeapon */
      , (45453, 107,       2500) /* ItemCurMana */
      , (45453, 108,       2500) /* ItemMaxMana */
      , (45453, 109,          0) /* ItemDifficulty */
+     , (45453, 124,          2) /* Version */
      , (45453, 151,          2) /* HookType - Wall */
      , (45453, 166,         77) /* SlayerCreatureType - Ghost */
      , (45453, 179,         16) /* ImbuedEffect - PierceRending */
