@@ -55,8 +55,7 @@ VALUES (33732,   1,       5) /* HeartbeatInterval */
      , (33732,  77,       1) /* PhysicsScriptIntensity */
      , (33732, 104,      10) /* ObviousRadarRange */
      , (33732, 117,     0.6) /* FocusedProbability */
-     , (33732, 125,       1) /* ResistHealthDrain */
-     , (33732, 166,       1) /* ResistNether */;
+     , (33732, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33732,   1, 'Degenerate Mukkir') /* Name */;
@@ -85,16 +84,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33732,   1,   416, 0, 0, 618) /* MaxHealth */
      , (33732,   3,   500, 0, 0, 905) /* MaxStamina */
      , (33732,   5,   220, 0, 0, 500) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33732,  6, 0, 3, 0, 160, 0, 0) /* MeleeDefense        Specialized */
-     , (33732,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
-     , (33732, 15, 0, 3, 0, 370, 0, 0) /* MagicDefense        Specialized */
-     , (33732, 20, 0, 2, 0,  40, 0, 0) /* Deception           Trained */
-     , (33732, 31, 0, 3, 0, 140, 0, 0) /* CreatureEnchantment Specialized */
-     , (33732, 33, 0, 3, 0, 300, 0, 0) /* LifeMagic           Specialized */
-     , (33732, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */
-     , (33732, 45, 0, 3, 0, 267, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (33732,  0,  4,  5,    0,  350,  245,  280,  210,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
@@ -184,3 +173,13 @@ VALUES (33732, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33732, -1, 33626, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Hellion Mukkir (33626) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (33732,  34, 0, 2, 0, 193, 0, 0) /* WarMagic */
+     , (33732,  33, 0, 2, 0, 193, 0, 0) /* LifeMagic */
+     , (33732,  31, 0, 2, 0, 140, 0, 0) /* CreatureEnchantment */
+     , (33732,  32, 0, 2, 0, 0, 0, 0) /* ItemEnchantment */
+     , (33732,  45, 0, 2, 0, 385, 0, 0) /* LightWeapons */
+     , (33732,   6, 0, 2, 0, 325, 0, 0) /* MeleeDefense */
+     , (33732,   7, 0, 2, 0, 404, 0, 0) /* MissileDefense */
+     , (33732,  15, 0, 2, 0, 300, 0, 0) /* MagicDefense */;

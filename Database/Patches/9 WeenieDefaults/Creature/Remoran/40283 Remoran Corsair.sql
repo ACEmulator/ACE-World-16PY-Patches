@@ -59,8 +59,7 @@ VALUES (40283,   1,       5) /* HeartbeatInterval */
      , (40283,  75,       1) /* ResistManaBoost */
      , (40283,  80,       2) /* AiUseMagicDelay */
      , (40283, 104,      10) /* ObviousRadarRange */
-     , (40283, 125,       1) /* ResistHealthDrain */
-     , (40283, 166,     0.3) /* ResistNether */;
+     , (40283, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40283,   1, 'Remoran Corsair') /* Name */
@@ -90,18 +89,6 @@ VALUES (40283,   1,   450, 0, 0, 610) /* MaxHealth */
      , (40283,   3,   300, 0, 0, 620) /* MaxStamina */
      , (40283,   5,   300, 0, 0, 640) /* MaxMana */;
 
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40283,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
-     , (40283,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
-     , (40283, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
-     , (40283, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
-     , (40283, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
-     , (40283, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
-     , (40283, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
-     , (40283, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
-     , (40283, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */
-     , (40283, 45, 0, 3, 0, 228, 0, 0) /* LightWeapons        Specialized */;
-
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40283,  0,  2, 130,  0.5,  625,  594,  469,  406,  594,  469,  594,  531,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (40283,  5,  4, 130,  0.4,  625,  594,  469,  406,  594,  469,  594,  531,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Hand */
@@ -126,3 +113,12 @@ VALUES (40283, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (40283, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (40283, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (40283, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (40283,  34, 0, 2, 0, 228, 0, 0) /* WarMagic */
+     , (40283,  33, 0, 2, 0, 228, 0, 0) /* LifeMagic */
+     , (40283,  31, 0, 2, 0, 228, 0, 0) /* CreatureEnchantment */
+     , (40283,  45, 0, 2, 0, 421, 0, 0) /* LightWeapons */
+     , (40283,   6, 0, 2, 0, 327, 0, 0) /* MeleeDefense */
+     , (40283,   7, 0, 2, 0, 230, 0, 0) /* MissileDefense */
+     , (40283,  15, 0, 2, 0, 291, 0, 0) /* MagicDefense */;
