@@ -24,6 +24,7 @@ VALUES (45462,   1,          1) /* ItemType - MeleeWeapon */
      , (45462, 107,       3000) /* ItemCurMana */
      , (45462, 108,       3000) /* ItemMaxMana */
      , (45462, 109,          0) /* ItemDifficulty */
+     , (45462, 124,          2) /* Version */
      , (45462, 151,          2) /* HookType - Wall */
      , (45462, 179,          8) /* ImbuedEffect - SlashRending */
      , (45462, 265,         41) /* EquipmentSetId - RareDamageBoost */
