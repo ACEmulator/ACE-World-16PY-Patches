@@ -24,6 +24,7 @@ VALUES (45458,   1,          1) /* ItemType - MeleeWeapon */
      , (45458, 107,       3000) /* ItemCurMana */
      , (45458, 108,       3000) /* ItemMaxMana */
      , (45458, 109,          0) /* ItemDifficulty */
+     , (45458, 124,          2) /* Version */
      , (45458, 151,          2) /* HookType - Wall */
      , (45458, 166,         14) /* SlayerCreatureType - Undead */
      , (45458, 179,         32) /* ImbuedEffect - BludgeonRending */
