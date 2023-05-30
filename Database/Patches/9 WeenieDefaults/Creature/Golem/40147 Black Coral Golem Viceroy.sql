@@ -113,18 +113,18 @@ VALUES (40147,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (40147,  8,  4, 250, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40147,  2074,   2.03) /* Gossamer Flesh */
-     , (40147,  2136,   2.03) /* Icy Torment */
-     , (40147,  2138,   2.03) /* Blizzard */
-     , (40147,  1839,   2.03) /* Blistering Creeper */
-     , (40147,  1843,   2.03) /* Foon-Ki's Glacial Floe */
-     , (40147,  2137,   2.04) /* Sudden Frost */
-     , (40147,  2135,   2.04) /* Winter's Embrace */
-     , (40147,  2123,   2.04) /* Celdiseth's Searing */
-     , (40147,  2122,   2.04) /* Disintegration */
-     , (40147,  2120,   2.04) /* Dissolving Vortex */
-     , (40147,  2168,   2.04) /* Gelidite's Gift */
-     , (40147,   526,   2.04) /* Acid Vulnerability Other VI */;
+VALUES (40147,  2074,   2.03)  /* Gossamer Flesh */
+     , (40147,  2136,   2.03)  /* Icy Torment */
+     , (40147,  2138,   2.03)  /* Blizzard */
+     , (40147,  1839,   2.03)  /* Blistering Creeper */
+     , (40147,  1843,   2.03)  /* Foon-Ki's Glacial Floe */
+     , (40147,  2137,   2.04)  /* Sudden Frost */
+     , (40147,  2135,   2.04)  /* Winter's Embrace */
+     , (40147,  2123,   2.04)  /* Celdiseth's Searing */
+     , (40147,  2122,   2.04)  /* Disintegration */
+     , (40147,  2120,   2.04)  /* Dissolving Vortex */
+     , (40147,  2168,   2.04)  /* Gelidite's Gift */
+     , (40147,   526,   2.04)  /* Acid Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40147,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
@@ -151,4 +151,4 @@ VALUES (40147, 9, 44469,  1, 0, 0, False) /* Create Lesser Corrupted Essence (44
      , (40147, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40147, -1, 40147, 4, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Black Coral Golem (40147) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40147, -1, 40147, 4, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Black Coral Golem Viceroy (40147) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

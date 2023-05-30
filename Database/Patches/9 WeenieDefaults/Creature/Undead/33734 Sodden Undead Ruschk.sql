@@ -88,16 +88,25 @@ VALUES (33734,   1,   850, 0, 0, 980) /* MaxHealth */
      , (33734,   3,  1000, 0, 0, 1260) /* MaxStamina */
      , (33734,   5,   200, 0, 0, 415) /* MaxMana */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (33734,  6, 0, 2, 0, 472, 0, 0) /* MeleeDefense        Trained */
+     , (33734,  7, 0, 2, 0, 504, 0, 0) /* MissileDefense      Trained */
+     , (33734, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (33734, 44, 0, 2, 0, 505, 0, 0) /* HeavyWeapons        Trained */
+     , (33734, 45, 0, 2, 0, 505, 0, 0) /* LightWeapons        Trained */
+     , (33734, 46, 0, 2, 0, 542, 0, 0) /* FinesseWeapons      Trained */
+     , (33734, 47, 0, 2, 0, 310, 0, 0) /* MissileWeapons      Trained */;
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (33734,  0,  4,  0,    0,  350,  405,  270,  495,  360,  248,  450,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (33734,  1,  4,  0,    0,  390,  405,  270,  495,  360,  248,  450,  360,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (33734,  2,  4,  0,    0,  390,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (33734,  3,  4,  0,    0,  300,  405,  270,  495,  360,  248,  450,  360,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (33734,  4,  4,  0,    0,  300,  405,  270,  495,  360,  248,  450,  360,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (33734,  5,  4, 60,  0.5,  350,  405,  270,  495,  360,  248,  450,  360,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (33734,  6,  4,  0,    0,  350,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (33734,  7,  4,  0,    0,  390,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (33734,  8,  4, 50,  0.4,  390,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (33734,  0,  4,  0,    0,  350,  315,  210,  385,  280,  193,  350,  280,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (33734,  1,  4,  0,    0,  390,  351,  234,  429,  312,  215,  390,  312,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (33734,  2,  4,  0,    0,  390,  351,  234,  429,  312,  215,  390,  312,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (33734,  3,  4,  0,    0,  300,  270,  180,  330,  240,  165,  300,  240,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (33734,  4,  4,  0,    0,  300,  270,  180,  330,  240,  165,  300,  240,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (33734,  5,  4, 60,  0.5,  350,  315,  210,  385,  280,  193,  350,  280,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (33734,  6,  4,  0,    0,  350,  315,  210,  385,  280,  193,  350,  280,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (33734,  7,  4,  0,    0,  390,  351,  234,  429,  312,  215,  390,  312,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (33734,  8,  4, 50,  0.4,  390,  351,  234,  429,  312,  215,  390,  312,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33734,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -120,12 +129,3 @@ VALUES (33734, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33734, -1, 33641, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Sodden Ruschk Chieftain (33641) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33734,  44, 0, 2, 0, 505, 0, 0) /* HeavyWeapons */
-     , (33734,  45, 0, 2, 0, 505, 0, 0) /* LightWeapons */
-     , (33734,  46, 0, 2, 0, 542, 0, 0) /* FinesseWeapons */
-     , (33734,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
-     , (33734,   6, 0, 2, 0, 472, 0, 0) /* MeleeDefense */
-     , (33734,   7, 0, 2, 0, 504, 0, 0) /* MissileDefense */
-     , (33734,  15, 0, 2, 0, 400, 0, 0) /* MagicDefense */;

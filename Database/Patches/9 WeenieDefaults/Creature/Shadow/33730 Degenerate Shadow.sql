@@ -84,17 +84,6 @@ VALUES (33730,   1, 0x0200071B) /* Setup */
      , (33730,  22, 0x34000063) /* PhysicsEffectTable */
      , (33730,  35,       1011) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (33730,  0,  4,  0,    0,  380,  190,  190,  190,  190,  190,  190,  190,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (33730,  1,  4,  0,    0,  310,  155,  155,  155,  155,  155,  155,  155,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (33730,  2,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (33730,  3,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (33730,  4,  4,  0,    0,  320,  160,  160,  160,  160,  160,  160,  160,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (33730,  5,  4, 50, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (33730,  6,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (33730,  7,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (33730,  8,  4, 60, 0.75,  420,  210,  210,  210,  210,  210,  210,  210,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33730,   1, 190, 0, 0) /* Strength */
      , (33730,   2, 210, 0, 0) /* Endurance */
@@ -104,7 +93,7 @@ VALUES (33730,   1, 190, 0, 0) /* Strength */
      , (33730,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33730,   1,   700, 0, 0,  805) /* MaxHealth */
+VALUES (33730,   1,   700, 0, 0, 805) /* MaxHealth */
      , (33730,   3,  1000, 0, 0, 1210) /* MaxStamina */
      , (33730,   5,  1000, 0, 0, 1140) /* MaxMana */;
 
@@ -117,28 +106,39 @@ VALUES (33730,  6, 0, 2, 0, 534, 0, 0) /* MeleeDefense        Trained */
      , (33730, 34, 0, 2, 0, 283, 0, 0) /* WarMagic            Trained */
      , (33730, 45, 0, 2, 0, 517, 0, 0) /* LightWeapons        Trained */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (33730,  0,  4,  0,    0,  380,  342,  380,  380,  418,  342,  380,  380,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (33730,  1,  4,  0,    0,  310,  279,  310,  310,  341,  279,  310,  310,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (33730,  2,  4,  0,    0,  350,  315,  350,  350,  385,  315,  350,  350,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (33730,  3,  4,  0,    0,  350,  315,  350,  350,  385,  315,  350,  350,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (33730,  4,  4,  0,    0,  320,  288,  320,  320,  352,  288,  320,  320,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (33730,  5,  4, 50, 0.75,  350,  315,  350,  350,  385,  315,  350,  350,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (33730,  6,  4,  0,    0,  350,  315,  350,  350,  385,  315,  350,  350,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (33730,  7,  4,  0,    0,  350,  315,  350,  350,  385,  315,  350,  350,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (33730,  8,  4, 60, 0.75,  420,  378,  420,  420,  462,  378,  420,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33730,  2074,   2.02) /* Gossamer Flesh */
-     , (33730,  2132,   2.02) /* The Spike */
-     , (33730,  2133,   2.02) /* Outlander's Insolence */
-     , (33730,  2136,   2.02) /* Icy Torment */
-     , (33730,  2137,   2.02) /* Sudden Frost */
-     , (33730,  2140,   2.02) /* Alset's Coil */
-     , (33730,  2141,   2.02) /* Lhen's Flare */
-     , (33730,  2164,   2.02) /* Swordsman's Gift */
-     , (33730,  2168,   2.02) /* Gelidite's Gift */
-     , (33730,  2172,   2.02) /* Astyrrian's Gift */
-     , (33730,  2174,   2.03) /* Archer's Gift */
-     , (33730,  2282,   2.03) /* Futility */
-     , (33730,  2318,   2.03) /* Gravity Well */;
+VALUES (33730,  2074,   2.02)  /* Gossamer Flesh */
+     , (33730,  2132,   2.02)  /* The Spike */
+     , (33730,  2133,   2.02)  /* Outlander's Insolence */
+     , (33730,  2136,   2.02)  /* Icy Torment */
+     , (33730,  2137,   2.02)  /* Sudden Frost */
+     , (33730,  2140,   2.02)  /* Alset's Coil */
+     , (33730,  2141,   2.02)  /* Lhen's Flare */
+     , (33730,  2164,   2.02)  /* Swordsman's Gift */
+     , (33730,  2168,   2.02)  /* Gelidite's Gift */
+     , (33730,  2172,   2.02)  /* Astyrrian's Gift */
+     , (33730,  2174,   2.03)  /* Archer's Gift */
+     , (33730,  2282,   2.03)  /* Futility */
+     , (33730,  2318,   2.03)  /* Gravity Well */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33730, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (33730,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33730, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */

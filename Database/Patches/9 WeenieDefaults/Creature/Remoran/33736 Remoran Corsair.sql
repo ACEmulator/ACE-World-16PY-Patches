@@ -92,6 +92,15 @@ VALUES (33736,   1,   450, 0, 0, 610) /* MaxHealth */
      , (33736,   3,   300, 0, 0, 620) /* MaxStamina */
      , (33736,   5,   300, 0, 0, 640) /* MaxMana */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (33736,  6, 0, 2, 0, 327, 0, 0) /* MeleeDefense        Trained */
+     , (33736,  7, 0, 2, 0, 230, 0, 0) /* MissileDefense      Trained */
+     , (33736, 15, 0, 2, 0, 291, 0, 0) /* MagicDefense        Trained */
+     , (33736, 31, 0, 2, 0, 228, 0, 0) /* CreatureEnchantment Trained */
+     , (33736, 33, 0, 2, 0, 228, 0, 0) /* LifeMagic           Trained */
+     , (33736, 34, 0, 2, 0, 228, 0, 0) /* WarMagic            Trained */
+     , (33736, 45, 0, 2, 0, 421, 0, 0) /* LightWeapons        Trained */;
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (33736,  0,  2, 130,  0.5,  625,  594,  469,  406,  594,  469,  594,  531,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (33736,  5,  4, 130,  0.4,  625,  594,  469,  406,  594,  469,  594,  531,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Hand */
@@ -127,12 +136,3 @@ VALUES (33736, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33736, -1, 33629, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Fouled Remoran (33629) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33736,  34, 0, 2, 0, 228, 0, 0) /* WarMagic */
-     , (33736,  33, 0, 2, 0, 228, 0, 0) /* LifeMagic */
-     , (33736,  31, 0, 2, 0, 228, 0, 0) /* CreatureEnchantment */
-     , (33736,  45, 0, 2, 0, 421, 0, 0) /* LightWeapons */
-     , (33736,   6, 0, 2, 0, 327, 0, 0) /* MeleeDefense */
-     , (33736,   7, 0, 2, 0, 230, 0, 0) /* MissileDefense */
-     , (33736,  15, 0, 2, 0, 291, 0, 0) /* MagicDefense */;

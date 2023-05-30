@@ -82,6 +82,16 @@ VALUES (40281,   1,   416, 0, 0, 618) /* MaxHealth */
      , (40281,   3,   500, 0, 0, 905) /* MaxStamina */
      , (40281,   5,   220, 0, 0, 500) /* MaxMana */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (40281,  6, 0, 2, 0, 325, 0, 0) /* MeleeDefense        Trained */
+     , (40281,  7, 0, 2, 0, 404, 0, 0) /* MissileDefense      Trained */
+     , (40281, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
+     , (40281, 31, 0, 2, 0, 140, 0, 0) /* CreatureEnchantment Trained */
+     , (40281, 32, 0, 2, 0,   0, 0, 0) /* ItemEnchantment     Trained */
+     , (40281, 33, 0, 2, 0, 193, 0, 0) /* LifeMagic           Trained */
+     , (40281, 34, 0, 2, 0, 193, 0, 0) /* WarMagic            Trained */
+     , (40281, 45, 0, 2, 0, 385, 0, 0) /* LightWeapons        Trained */;
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40281,  0,  4,  5,    0,  350,  245,  280,  210,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
      , (40281,  5,  1, 140, 0.75,  350,  245,  280,  210,  350,  350,  385,  350,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Hand */
@@ -159,13 +169,3 @@ VALUES (40281, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (40281, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (40281, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (40281, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40281,  34, 0, 2, 0, 193, 0, 0) /* WarMagic */
-     , (40281,  33, 0, 2, 0, 193, 0, 0) /* LifeMagic */
-     , (40281,  31, 0, 2, 0, 140, 0, 0) /* CreatureEnchantment */
-     , (40281,  32, 0, 2, 0, 0, 0, 0) /* ItemEnchantment */
-     , (40281,  45, 0, 2, 0, 385, 0, 0) /* LightWeapons */
-     , (40281,   6, 0, 2, 0, 325, 0, 0) /* MeleeDefense */
-     , (40281,   7, 0, 2, 0, 404, 0, 0) /* MissileDefense */
-     , (40281,  15, 0, 2, 0, 300, 0, 0) /* MagicDefense */;
