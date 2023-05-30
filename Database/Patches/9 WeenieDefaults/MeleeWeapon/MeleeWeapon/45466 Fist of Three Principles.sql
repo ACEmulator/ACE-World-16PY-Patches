@@ -26,6 +26,7 @@ VALUES (45466,   1,          1) /* ItemType - MeleeWeapon */
      , (45466, 108,       2000) /* ItemMaxMana */
      , (45466, 109,          0) /* ItemDifficulty */
      , (45466, 110,          0) /* ItemAllegianceRankLimit */
+     , (45466, 124,          2) /* Version */
      , (45466, 151,          2) /* HookType - Wall */
      , (45466, 169,  118162702) /* TsysMutationData */
      , (45466, 179,         16) /* ImbuedEffect - PierceRending */
