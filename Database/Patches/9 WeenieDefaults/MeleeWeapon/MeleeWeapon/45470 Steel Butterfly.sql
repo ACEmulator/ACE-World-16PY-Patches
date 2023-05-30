@@ -24,6 +24,7 @@ VALUES (45470,   1,          1) /* ItemType - MeleeWeapon */
      , (45470, 107,       2400) /* ItemCurMana */
      , (45470, 108,       2400) /* ItemMaxMana */
      , (45470, 109,          0) /* ItemDifficulty */
+     , (45470, 124,          2) /* Version */
      , (45470, 151,          2) /* HookType - Wall */
      , (45470, 166,         31) /* SlayerCreatureType - Human */
      , (45470, 179,          8) /* ImbuedEffect - SlashRending */
