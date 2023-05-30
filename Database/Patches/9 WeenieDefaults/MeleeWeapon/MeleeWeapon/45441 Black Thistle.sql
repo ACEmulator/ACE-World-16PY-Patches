@@ -26,6 +26,7 @@ VALUES (45441,   1,          1) /* ItemType - MeleeWeapon */
      , (45441, 108,       2100) /* ItemMaxMana */
      , (45441, 109,          0) /* ItemDifficulty */
      , (45441, 110,          0) /* ItemAllegianceRankLimit */
+     , (45441, 124,          2) /* Version */
      , (45441, 151,          2) /* HookType - Wall */
      , (45441, 166,         20) /* SlayerCreatureType - Wisp */
      , (45441, 169,  118162702) /* TsysMutationData */
