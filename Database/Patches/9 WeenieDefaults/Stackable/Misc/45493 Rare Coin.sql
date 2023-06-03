@@ -14,7 +14,7 @@ VALUES (45493,   1,        128) /* ItemType - Misc */
      , (45493,  19,          1) /* Value */
      , (45493,  33,          1) /* Bonded - Bonded */
      , (45493,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45493, 114,          1) /* Attuned - Normal */;
+     , (45493, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45493,  69, False) /* IsSellable */;
