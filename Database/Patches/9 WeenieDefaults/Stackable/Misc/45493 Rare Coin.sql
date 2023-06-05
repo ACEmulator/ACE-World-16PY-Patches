@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45493;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45493, 'ace45493-rarecoin', 51, '2022-06-06 04:05:48') /* Stackable */;
+VALUES (45493, 'ace45493-rarecoin', 51, '2023-06-05 00:31:03') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45493,   1,        128) /* ItemType - Misc */
@@ -14,7 +14,7 @@ VALUES (45493,   1,        128) /* ItemType - Misc */
      , (45493,  19,          1) /* Value */
      , (45493,  33,          1) /* Bonded - Bonded */
      , (45493,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45493, 114,          0) /* Attuned - Normal */;
+     , (45493, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45493,  69, False) /* IsSellable */;

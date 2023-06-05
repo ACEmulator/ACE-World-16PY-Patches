@@ -1,10 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35103;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35103, 'ace35103-corpseofaservitorofasheron', 10, '2021-11-07 08:12:46') /* Creature */;
+VALUES (35103, 'ace35103-corpseofaservitorofasheron', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35103,   1,         16) /* ItemType - Creature */
+     , (35103,   2,         13) /* CreatureType - Golem */
+     , (35103,   5,     100000) /* EncumbranceVal */
      , (35103,   6,         -1) /* ItemsCapacity */
      , (35103,   7,         -1) /* ContainersCapacity */
      , (35103,  16,         32) /* ItemUseable - Remote */
@@ -14,7 +16,10 @@ VALUES (35103,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35103,   1, True ) /* Stuck */
-     , (35103,  19, False) /* Attackable */;
+     , (35103,  19, False) /* Attackable */
+     , (35103,  52, True ) /* AiImmobile */
+     , (35103,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (35103,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35103,   1,       5) /* HeartbeatInterval */
@@ -47,7 +52,9 @@ VALUES (35103,   1,       5) /* HeartbeatInterval */
      , (35103, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35103,   1, 'Corpse of a Servitor of Asheron') /* Name */;
+VALUES (35103,   1, 'Corpse of a Servitor of Asheron') /* Name */
+     , (35103,  14, 'This corpse cannot be looted.') /* Use */
+     , (35103,  16, 'Killed by Infused Empyrean Blood Golem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35103,   1, 0x02000F5F) /* Setup */

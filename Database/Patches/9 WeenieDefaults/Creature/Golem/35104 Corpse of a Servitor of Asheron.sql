@@ -1,10 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35104;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35104, 'ace35104-corpseofaservitorofasheron', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (35104, 'ace35104-corpseofaservitorofasheron', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35104,   1,         16) /* ItemType - Creature */
+     , (35104,   2,         13) /* CreatureType - Golem */
+     , (35104,   5,     100000) /* EncumbranceVal */
      , (35104,   6,         -1) /* ItemsCapacity */
      , (35104,   7,         -1) /* ContainersCapacity */
      , (35104,  16,         32) /* ItemUseable - Remote */
@@ -51,8 +53,8 @@ VALUES (35104,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35104,   1, 'Corpse of a Servitor of Asheron') /* Name */
-     , (35104,  14, 'This corpse can not be looted') /* Use */
-     , (35104,  16, 'Killed by Infused Empyrium Blood Golem') /* LongDesc */;
+     , (35104,  14, 'This corpse cannot be looted.') /* Use */
+     , (35104,  16, 'Killed by Infused Empyrean Blood Golem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35104,   1, 0x02000F5F) /* Setup */

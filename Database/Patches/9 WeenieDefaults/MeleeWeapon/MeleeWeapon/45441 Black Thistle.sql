@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45441;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45441, 'ace45441-blackthistle', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45441, 'ace45441-blackthistle', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45441,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,6 +26,7 @@ VALUES (45441,   1,          1) /* ItemType - MeleeWeapon */
      , (45441, 108,       2100) /* ItemMaxMana */
      , (45441, 109,          0) /* ItemDifficulty */
      , (45441, 110,          0) /* ItemAllegianceRankLimit */
+     , (45441, 124,          2) /* Version */
      , (45441, 151,          2) /* HookType - Wall */
      , (45441, 166,         20) /* SlayerCreatureType - Wisp */
      , (45441, 169,  118162702) /* TsysMutationData */

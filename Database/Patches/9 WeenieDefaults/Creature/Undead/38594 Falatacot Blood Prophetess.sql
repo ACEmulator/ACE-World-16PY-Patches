@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38594;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38594, 'ace38594-falatacotbloodprophetess', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (38594, 'ace38594-falatacotbloodprophetess', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38594,   1,         16) /* ItemType - Creature */
@@ -88,19 +88,15 @@ VALUES (38594,   1,  2800, 0, 0, 3010) /* MaxHealth */
      , (38594,   5,  3080, 0, 0, 3570) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38594,  6, 0, 3, 0, 375, 0, 0) /* MeleeDefense        Specialized */
-     , (38594,  7, 0, 3, 0, 405, 0, 0) /* MissileDefense      Specialized */
-     , (38594, 14, 0, 3, 0, 240, 0, 0) /* ArcaneLore          Specialized */
-     , (38594, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
-     , (38594, 20, 0, 3, 0,  90, 0, 0) /* Deception           Specialized */
-     , (38594, 31, 0, 3, 0, 275, 0, 0) /* CreatureEnchantment Specialized */
-     , (38594, 33, 0, 3, 0, 275, 0, 0) /* LifeMagic           Specialized */
-     , (38594, 34, 0, 3, 0, 275, 0, 0) /* WarMagic            Specialized */
-     , (38594, 44, 0, 3, 0, 375, 0, 0) /* HeavyWeapons        Specialized */
-     , (38594, 45, 0, 3, 0, 375, 0, 0) /* LightWeapons        Specialized */
-     , (38594, 46, 0, 3, 0, 375, 0, 0) /* FinesseWeapons      Specialized */
-     , (38594, 47, 0, 3, 0, 175, 0, 0) /* MissileWeapons      Specialized */
-     , (38594, 48, 0, 3, 0, 300, 0, 0) /* Shield              Specialized */;
+VALUES (38594,  6, 0, 2, 0, 375, 0, 0) /* MeleeDefense        Trained */
+     , (38594,  7, 0, 2, 0, 405, 0, 0) /* MissileDefense      Trained */
+     , (38594, 15, 0, 2, 0, 320, 0, 0) /* MagicDefense        Trained */
+     , (38594, 31, 0, 2, 0,  78, 0, 0) /* CreatureEnchantment Trained */
+     , (38594, 33, 0, 2, 0,  78, 0, 0) /* LifeMagic           Trained */
+     , (38594, 34, 0, 2, 0,  78, 0, 0) /* WarMagic            Trained */
+     , (38594, 44, 0, 2, 0, 290, 0, 0) /* HeavyWeapons        Trained */
+     , (38594, 45, 0, 2, 0, 290, 0, 0) /* LightWeapons        Trained */
+     , (38594, 46, 0, 2, 0, 303, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38594,  0,  4,  0,    0,  425,  425,  553,  425,  553,  425,  425,  510,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -114,19 +110,19 @@ VALUES (38594,  0,  4,  0,    0,  425,  425,  553,  425,  553,  425,  425,  510,
      , (38594,  8,  4,  5, 0.75,  425,  425,  553,  425,  553,  425,  425,  510,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38594,  2144,   2.02)  /* Crushing Shame */
-     , (38594,  2170,   2.02)  /* Inferno's Gift */
-     , (38594,  3882,   2.02)  /* Incendiary Ring */
-     , (38594,  4441,   2.02)  /* Incantation of Flame Volley */;
+VALUES (38594,  2144,   2.05)  /* Crushing Shame */
+     , (38594,  2170,   2.05)  /* Inferno's Gift */
+     , (38594,  3882,   2.06)  /* Incendiary Ring */
+     , (38594,  4441,   2.06)  /* Incantation of Flame Volley */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38594, 2, 48101,  1, 0, 0, False) /* Create Sickle (48101) for Wield */
-     , (38594, 2, 48103,  1, 0, 0, False) /* Create Sickle (48103) for Wield */
-     , (38594, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+VALUES (38594, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (38594, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (38594, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (38594, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (38594, 9, 38614,  1, 0, 1, False) /* Create Falatacot Battle Report (38614) for ContainTreasure */;
+     , (38594, 9, 38614,  1, 0, 1, False) /* Create Falatacot Battle Report (38614) for ContainTreasure */
+     , (38594, 10, 48101,  1, 0, 0.5, False) /* Create Sickle (48101) for WieldTreasure */
+     , (38594, 10, 48103,  1, 0, 0.5, False) /* Create Sickle (48103) for WieldTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38594, -1, 34973, 4, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Falatacot Consort (34973) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

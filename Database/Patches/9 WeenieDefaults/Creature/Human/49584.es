@@ -18,6 +18,7 @@ Refuse: Idol of the Recluse (52264)
             - Tell: Perhaps return to me tomorrow as your assistance may be needed again.
         QuestFailure:
             - Tell: The Idol...can it really be?
+            - TakeItems: Idol of the Recluse (52264)
             - Delay: 1, Tell: At long last! We can't even begin to imagine what powers and knowledge this item contains.
             - Delay: 1, DirectBroadcast: El'Yst presses the Idol against her head and begins to murmur softly.
             - Delay: 1, Tell: I have channelled what power I could from the Idol into this device for you. I hope it serves you well.

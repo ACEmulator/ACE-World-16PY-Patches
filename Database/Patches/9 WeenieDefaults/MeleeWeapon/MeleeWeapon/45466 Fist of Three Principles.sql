@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45466;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45466, 'ace45466-fistofthreeprinciples', 6, '2022-11-05 05:26:30') /* MeleeWeapon */;
+VALUES (45466, 'ace45466-fistofthreeprinciples', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45466,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,6 +26,7 @@ VALUES (45466,   1,          1) /* ItemType - MeleeWeapon */
      , (45466, 108,       2000) /* ItemMaxMana */
      , (45466, 109,          0) /* ItemDifficulty */
      , (45466, 110,          0) /* ItemAllegianceRankLimit */
+     , (45466, 124,          2) /* Version */
      , (45466, 151,          2) /* HookType - Wall */
      , (45466, 169,  118162702) /* TsysMutationData */
      , (45466, 179,         16) /* ImbuedEffect - PierceRending */

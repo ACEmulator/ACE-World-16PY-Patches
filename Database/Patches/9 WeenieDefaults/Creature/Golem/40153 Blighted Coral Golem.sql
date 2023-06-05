@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40153;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40153, 'ace40153-blightedcoralgolem', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (40153, 'ace40153-blightedcoralgolem', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40153,   1,         16) /* ItemType - Creature */
@@ -89,15 +89,13 @@ VALUES (40153,   1,  1600, 0, 0, 1755) /* MaxHealth */
      , (40153,   5,  1100, 0, 0, 1300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40153,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
-     , (40153,  7, 0, 3, 0, 400, 0, 0) /* MissileDefense      Specialized */
-     , (40153, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
-     , (40153, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
-     , (40153, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (40153, 31, 0, 3, 0, 140, 0, 0) /* CreatureEnchantment Specialized */
-     , (40153, 33, 0, 3, 0, 450, 0, 0) /* LifeMagic           Specialized */
-     , (40153, 34, 0, 3, 0, 450, 0, 0) /* WarMagic            Specialized */
-     , (40153, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
+VALUES (40153,  6, 0, 2, 0, 556, 0, 0) /* MeleeDefense        Trained */
+     , (40153,  7, 0, 2, 0, 400, 0, 0) /* MissileDefense      Trained */
+     , (40153, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
+     , (40153, 31, 0, 2, 0, 255, 0, 0) /* CreatureEnchantment Trained */
+     , (40153, 33, 0, 2, 0, 255, 0, 0) /* LifeMagic           Trained */
+     , (40153, 34, 0, 2, 0, 255, 0, 0) /* WarMagic            Trained */
+     , (40153, 45, 0, 2, 0, 540, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40153,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -105,24 +103,24 @@ VALUES (40153,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (40153,  2,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (40153,  3,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (40153,  4,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (40153,  5, 12, 120, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (40153,  5,  4, 120, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (40153,  6,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (40153,  7,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (40153,  8, 20, 150, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (40153,  8,  4, 150, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40153,  2074,   2.15)  /* Gossamer Flesh */
-     , (40153,  2136,   2.18)  /* Icy Torment */
-     , (40153,  2138,   2.15)  /* Blizzard */
-     , (40153,  1839,   2.15)  /* Blistering Creeper */
-     , (40153,  1843,   2.15)  /* Foon-Ki's Glacial Floe */
-     , (40153,  2137,   2.03)  /* Sudden Frost */
-     , (40153,  2135,   2.15)  /* Winter's Embrace */
-     , (40153,  2123,   2.02)  /* Celdiseth's Searing */
-     , (40153,  2122,   2.15)  /* Disintegration */
-     , (40153,  2120,   2.02)  /* Dissolving Vortex */
-     , (40153,  2168,   2.15)  /* Gelidite's Gift */
-     , (40153,   526,   2.02)  /* Acid Vulnerability Other VI */;
+VALUES (40153,  2074,   2.03)  /* Gossamer Flesh */
+     , (40153,  2136,   2.03)  /* Icy Torment */
+     , (40153,  2138,   2.03)  /* Blizzard */
+     , (40153,  1839,   2.03)  /* Blistering Creeper */
+     , (40153,  1843,   2.03)  /* Foon-Ki's Glacial Floe */
+     , (40153,  2137,   2.04)  /* Sudden Frost */
+     , (40153,  2135,   2.04)  /* Winter's Embrace */
+     , (40153,  2123,   2.04)  /* Celdiseth's Searing */
+     , (40153,  2122,   2.04)  /* Disintegration */
+     , (40153,  2120,   2.04)  /* Dissolving Vortex */
+     , (40153,  2168,   2.04)  /* Gelidite's Gift */
+     , (40153,   526,   2.04)  /* Acid Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40153,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45450;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45450, 'ace45450-thunderhead', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45450, 'ace45450-thunderhead', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45450,   1,          1) /* ItemType - MeleeWeapon */
@@ -25,6 +25,7 @@ VALUES (45450,   1,          1) /* ItemType - MeleeWeapon */
      , (45450, 107,       2200) /* ItemCurMana */
      , (45450, 108,       2200) /* ItemMaxMana */
      , (45450, 109,          0) /* ItemDifficulty */
+     , (45450, 124,          2) /* Version */
      , (45450, 151,          2) /* HookType - Wall */
      , (45450, 166,          5) /* SlayerCreatureType - Lugian */
      , (45450, 179,        256) /* ImbuedEffect - ElectricRending */

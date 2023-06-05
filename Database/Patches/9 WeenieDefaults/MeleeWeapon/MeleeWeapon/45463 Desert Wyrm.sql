@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45463;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45463, 'ace45463-desertwyrm', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45463, 'ace45463-desertwyrm', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45463,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,6 +24,7 @@ VALUES (45463,   1,          1) /* ItemType - MeleeWeapon */
      , (45463, 107,       2000) /* ItemCurMana */
      , (45463, 108,       2000) /* ItemMaxMana */
      , (45463, 109,          0) /* ItemDifficulty */
+     , (45463, 124,          2) /* Version */
      , (45463, 151,          2) /* HookType - Wall */
      , (45463, 179,         16) /* ImbuedEffect - PierceRending */
      , (45463, 265,         41) /* EquipmentSetId - RareDamageBoost */

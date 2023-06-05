@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70082;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70082, 'ace70082-darkremoran', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (70082, 'ace70082-darkremoran', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70082,   1,         16) /* ItemType - Creature */
@@ -95,16 +95,13 @@ VALUES (70082,   1,  9000, 0, 0, 9160) /* MaxHealth */
      , (70082,   5,  3000, 0, 0, 3340) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (70082,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
-     , (70082,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
-     , (70082, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
-     , (70082, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
-     , (70082, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
-     , (70082, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
-     , (70082, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
-     , (70082, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
-     , (70082, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */
-     , (70082, 45, 0, 3, 0, 228, 0, 0) /* LightWeapons        Specialized */;
+VALUES (70082,  6, 0, 2, 0, 403, 0, 0) /* MeleeDefense        Trained */
+     , (70082,  7, 0, 2, 0, 532, 0, 0) /* MissileDefense      Trained */
+     , (70082, 15, 0, 2, 0, 311, 0, 0) /* MagicDefense        Trained */
+     , (70082, 31, 0, 2, 0, 234, 0, 0) /* CreatureEnchantment Trained */
+     , (70082, 33, 0, 2, 0, 234, 0, 0) /* LifeMagic           Trained */
+     , (70082, 34, 0, 2, 0, 234, 0, 0) /* WarMagic            Trained */
+     , (70082, 45, 0, 2, 0, 428, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (70082,  0,  2, 130,  0.5,  425,  404,  234,  191,  404,  319,  404,  361,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

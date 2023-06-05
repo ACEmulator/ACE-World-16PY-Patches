@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33739;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33739, 'ace33739-parfalsleech', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (33739, 'ace33739-parfalsleech', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33739,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,6 @@ VALUES (33739,   1,         16) /* ItemType - Creature */
      , (33739,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33739, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (33739, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33739, 140,          1) /* AiOptions - CanOpenDoors */
      , (33739, 146,     290000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -94,23 +93,19 @@ VALUES (33739,   1,   435, 0, 0, 615) /* MaxHealth */
      , (33739,   5,  1000, 0, 0, 1480) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33739,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
-     , (33739,  7, 0, 3, 0, 290, 0, 0) /* MissileDefense      Specialized */
-     , (33739, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
-     , (33739, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
-     , (33739, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
-     , (33739, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
-     , (33739, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
-     , (33739, 33, 0, 3, 0, 300, 0, 0) /* LifeMagic           Specialized */
-     , (33739, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */
-     , (33739, 45, 0, 3, 0, 210, 0, 0) /* LightWeapons        Specialized */;
+VALUES (33739,  6, 0, 2, 0, 458, 0, 0) /* MeleeDefense        Trained */
+     , (33739,  7, 0, 2, 0, 554, 0, 0) /* MissileDefense      Trained */
+     , (33739, 15, 0, 2, 0, 247, 0, 0) /* MagicDefense        Trained */
+     , (33739, 33, 0, 2, 0, 155, 0, 0) /* LifeMagic           Trained */
+     , (33739, 34, 0, 2, 0, 155, 0, 0) /* WarMagic            Trained */
+     , (33739, 45, 0, 2, 0, 435, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (33739,  0,  4, 200, 0.75,  650,  650,  618,  618,  650,  650,  650,  650,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */
-     , (33739, 16,  4,  0,    0,  650,  650,  618,  618,  650,  650,  650,  650,    0, 2,  0.5, 0.48,  0.1,  0.5,  0.6,  0.1,  0.5, 0.48,  0.1,  0.5,  0.6, 0.22) /* Torso */
-     , (33739, 21,  4,  0,    0,  650,  650,  618,  618,  650,  650,  650,  650,    0, 2,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0, 0.28) /* Wings */
-     , (33739, 24,  4,  0,    0,  650,  650,  618,  618,  650,  650,  650,  650,    0, 2, 0.06, 0.22,  0.3,  0.1,  0.2,  0.3, 0.06, 0.22,  0.3,  0.1,  0.2, 0.22) /* UpperTentacle */
-     , (33739, 25,  4, 200,  0.5,  650,  650,  618,  618,  650,  650,  650,  650,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
+VALUES (33739,  0,  4, 100, 0.75,  600,  600,  570,  570,  600,  600,  600,  600,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */
+     , (33739, 16,  4, 100,    0,  600,  600,  570,  570,  600,  600,  600,  600,    0, 2,  0.5, 0.48,  0.1,  0.5,  0.6,  0.1,  0.5, 0.48,  0.1,  0.5,  0.6, 0.22) /* Torso */
+     , (33739, 21,  4, 100,    0,  600,  600,  570,  570,  600,  600,  600,  600,    0, 2,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0, 0.28) /* Wings */
+     , (33739, 24,  4, 100,    0,  600,  600,  570,  570,  600,  600,  600,  600,    0, 2, 0.06, 0.22,  0.3,  0.1,  0.2,  0.3, 0.06, 0.22,  0.3,  0.1,  0.2, 0.22) /* UpperTentacle */
+     , (33739, 25,  4, 100,  0.5,  600,  600,  570,  570,  600,  600,  600,  600,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33739,  2074,   2.15)  /* Gossamer Flesh */

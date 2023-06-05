@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45457;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45457, 'ace45457-deathsgripstaff', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45457, 'ace45457-deathsgripstaff', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45457,   1,          1) /* ItemType - MeleeWeapon */
@@ -25,6 +25,7 @@ VALUES (45457,   1,          1) /* ItemType - MeleeWeapon */
      , (45457, 107,       3000) /* ItemCurMana */
      , (45457, 108,       3000) /* ItemMaxMana */
      , (45457, 109,          0) /* ItemDifficulty */
+     , (45457, 124,          2) /* Version */
      , (45457, 151,          2) /* HookType - Wall */
      , (45457, 179,        128) /* ImbuedEffect - ColdRending */
      , (45457, 265,         41) /* EquipmentSetId - RareDamageBoost */

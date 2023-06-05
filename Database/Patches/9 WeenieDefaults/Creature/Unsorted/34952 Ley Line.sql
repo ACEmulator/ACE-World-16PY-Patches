@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34952;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34952, 'ace34952-leyline', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (34952, 'ace34952-leyline', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34952,   1,         16) /* ItemType - Creature */
      , (34952,   6,         -1) /* ItemsCapacity */
      , (34952,   7,         -1) /* ContainersCapacity */
      , (34952,  16,         32) /* ItemUseable - Remote */
+     , (34952,  81,          1) /* MaxGeneratedObjects */
+     , (34952,  82,          1) /* InitGeneratedObjects */
      , (34952,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34952,  95,          3) /* RadarBlipColor - White */
      , (34952, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -21,6 +23,8 @@ VALUES (34952,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34952,  39,     1.5) /* DefaultScale */
+     , (34952,  41,      30) /* RegenerationInterval */
+     , (34952,  43,       0) /* GeneratorRadius */
      , (34952,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -173,3 +177,6 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You insert the m
      , (@parent_id,  7,  22 /* StampQuest */, 0, 1, NULL, 'EnhancingMucor_Repeat', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  8,  22 /* StampQuest */, 0, 1, NULL, 'EnhancingMucor_Wait', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  9,  31 /* EraseQuest */, 0, 1, NULL, 'EnhancingMucor_Start', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (34952, -1, 73167, 30, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ley Line (73167) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

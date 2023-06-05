@@ -42,6 +42,7 @@ Gotoset: Check4
         QuestSuccess:
             - InqQuest: KillTaskSoldierCompleted
                 QuestSuccess:
+                    - StampQuest: ShadowInvasion
                     - StampQuest: ShadowInvasionWait
                     - EraseQuest: TalkShadowCaptain
                     - EraseQuest: TalkShadowSoldier

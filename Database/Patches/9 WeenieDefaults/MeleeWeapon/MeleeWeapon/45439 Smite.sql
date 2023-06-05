@@ -1,16 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45439;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45439, 'ace45439-smite', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (45439, 'ace45439-smite', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45439,   1,          1) /* ItemType - MeleeWeapon */
      , (45439,   5,        750) /* EncumbranceVal */
+     , (45439,   8,         90) /* Mass */
      , (45439,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45439,  16,          1) /* ItemUseable - No */
      , (45439,  17,        282) /* RareId */
-     , (45439,  18,          1) /* UiEffects - Magical */
      , (45439,  19,      50000) /* Value */
+     , (45439,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (45439,  44,         72) /* Damage */
      , (45439,  45,          1) /* DamageType - Slash */
      , (45439,  46,          2) /* DefaultCombatStyle - OneHanded */
@@ -23,6 +24,7 @@ VALUES (45439,   1,          1) /* ItemType - MeleeWeapon */
      , (45439, 107,       3500) /* ItemCurMana */
      , (45439, 108,       3500) /* ItemMaxMana */
      , (45439, 109,          0) /* ItemDifficulty */
+     , (45439, 124,          2) /* Version */
      , (45439, 151,          2) /* HookType - Wall */
      , (45439, 179,          8) /* ImbuedEffect - SlashRending */
      , (45439, 265,         41) /* EquipmentSetId - RareDamageBoost */
@@ -39,15 +41,14 @@ VALUES (45439,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45439,   5,   -0.05) /* ManaRate */
-     , (45439,  21,       1) /* WeaponLength */
+     , (45439,  21,       0) /* WeaponLength */
      , (45439,  22,     0.4) /* DamageVariance */
      , (45439,  26,       0) /* MaximumVelocity */
      , (45439,  29,    1.18) /* WeaponDefense */
-     , (45439,  39,       1) /* DefaultScale */
+     , (45439,  39,     1.1) /* DefaultScale */
      , (45439,  62,    1.18) /* WeaponOffense */
      , (45439,  63,       1) /* DamageMod */
-     , (45439,  77,       1) /* PhysicsScriptIntensity */
-     , (45439, 136,       1) /* CriticalMultiplier */;
+     , (45439, 136,       3) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45439,   1, 'Smite') /* Name */
@@ -57,9 +58,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45439,   1, 0x0200131A) /* Setup */
      , (45439,   3, 0x20000014) /* SoundTable */
      , (45439,   6, 0x04000BEF) /* PaletteBase */
+     , (45439,   7, 0x10000860) /* ClothingBase */
      , (45439,   8, 0x06005BCD) /* Icon */
      , (45439,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (45439,  30,         88) /* PhysicsScript - Create */
+     , (45439,  36, 0x0E000012) /* MutateFilter */
+     , (45439,  46, 0x38000032) /* TsysMutationFilter */
      , (45439,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

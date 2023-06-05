@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45451;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45451, 'ace45451-championsdemise', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45451, 'ace45451-championsdemise', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45451,   1,          1) /* ItemType - MeleeWeapon */
@@ -25,6 +25,7 @@ VALUES (45451,   1,          1) /* ItemType - MeleeWeapon */
      , (45451, 107,       2100) /* ItemCurMana */
      , (45451, 108,       2100) /* ItemMaxMana */
      , (45451, 109,          0) /* ItemDifficulty */
+     , (45451, 124,          2) /* Version */
      , (45451, 151,          2) /* HookType - Wall */
      , (45451, 179,         64) /* ImbuedEffect - AcidRending */
      , (45451, 265,         41) /* EquipmentSetId - RareDamageBoost */

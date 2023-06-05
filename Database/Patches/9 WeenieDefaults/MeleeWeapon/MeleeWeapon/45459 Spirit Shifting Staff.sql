@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45459;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45459, 'ace45459-spiritshiftingstaff', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45459, 'ace45459-spiritshiftingstaff', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45459,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,6 +22,7 @@ VALUES (45459,   1,          1) /* ItemType - MeleeWeapon */
      , (45459, 107,       3600) /* ItemCurMana */
      , (45459, 108,       3600) /* ItemMaxMana */
      , (45459, 109,          0) /* ItemDifficulty */
+     , (45459, 124,          2) /* Version */
      , (45459, 151,          2) /* HookType - Wall */
      , (45459, 166,         31) /* SlayerCreatureType - Human */
      , (45459, 179,         32) /* ImbuedEffect - BludgeonRending */

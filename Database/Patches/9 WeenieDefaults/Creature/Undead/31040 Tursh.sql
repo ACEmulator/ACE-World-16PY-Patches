@@ -192,7 +192,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles something incoherent...an icy chill comes over you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31040, 2, 48632, -1, 0, -1, False) /* Create Tursh's Spear (48632) for Wield */
+VALUES (31040, 2, 48632, -1, 0, -1, False) /* Create Frigid Splinter (48632) for Wield */
      , (31040, 9, 31038, -1, 0, 1, False) /* Create Tursh Scalp (31038) for ContainTreasure */
      , (31040, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (31040, 9, 31038, -1, 0, 1, False) /* Create Tursh Scalp (31038) for ContainTreasure */

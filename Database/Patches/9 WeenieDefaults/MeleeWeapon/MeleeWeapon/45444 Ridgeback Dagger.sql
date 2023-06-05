@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45444;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45444, 'ace45444-ridgebackdagger', 6, '2022-06-06 04:05:48') /* MeleeWeapon */;
+VALUES (45444, 'ace45444-ridgebackdagger', 6, '2023-06-05 00:31:03') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45444,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,6 +24,7 @@ VALUES (45444,   1,          1) /* ItemType - MeleeWeapon */
      , (45444, 107,       2000) /* ItemCurMana */
      , (45444, 108,       2000) /* ItemMaxMana */
      , (45444, 109,          0) /* ItemDifficulty */
+     , (45444, 124,          2) /* Version */
      , (45444, 151,          2) /* HookType - Wall */
      , (45444, 179,         16) /* ImbuedEffect - PierceRending */
      , (45444, 265,         41) /* EquipmentSetId - RareDamageBoost */

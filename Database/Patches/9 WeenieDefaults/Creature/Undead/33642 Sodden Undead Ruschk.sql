@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33642;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33642, 'ace33642-soddenundeadruschk', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (33642, 'ace33642-soddenundeadruschk', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33642,   1,         16) /* ItemType - Creature */
@@ -58,8 +58,7 @@ VALUES (33642,   1,       5) /* HeartbeatInterval */
      , (33642,  74,     0.5) /* ResistManaDrain */
      , (33642,  75,       1) /* ResistManaBoost */
      , (33642, 104,      10) /* ObviousRadarRange */
-     , (33642, 125,     0.5) /* ResistHealthDrain */
-     , (33642, 166,     0.2) /* ResistNether */;
+     , (33642, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33642,   1, 'Sodden Undead Ruschk') /* Name */;
@@ -87,40 +86,32 @@ VALUES (33642,   1,   850, 0, 0, 980) /* MaxHealth */
      , (33642,   5,   200, 0, 0, 415) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33642,  6, 0, 3, 0, 375, 0, 0) /* MeleeDefense        Specialized */
-     , (33642,  7, 0, 3, 0, 370, 0, 0) /* MissileDefense      Specialized */
-     , (33642, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
-     , (33642, 15, 0, 3, 0, 400, 0, 0) /* MagicDefense        Specialized */
-     , (33642, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
-     , (33642, 31, 0, 3, 0, 275, 0, 0) /* CreatureEnchantment Specialized */
-     , (33642, 32, 0, 3, 0, 275, 0, 0) /* ItemEnchantment     Specialized */
-     , (33642, 33, 0, 3, 0, 275, 0, 0) /* LifeMagic           Specialized */
-     , (33642, 34, 0, 3, 0, 290, 0, 0) /* WarMagic            Specialized */
-     , (33642, 45, 0, 3, 0, 385, 0, 0) /* LightWeapons        Specialized */;
+VALUES (33642,  6, 0, 2, 0, 472, 0, 0) /* MeleeDefense        Trained */
+     , (33642,  7, 0, 2, 0, 504, 0, 0) /* MissileDefense      Trained */
+     , (33642, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (33642, 44, 0, 2, 0, 505, 0, 0) /* HeavyWeapons        Trained */
+     , (33642, 45, 0, 2, 0, 505, 0, 0) /* LightWeapons        Trained */
+     , (33642, 46, 0, 2, 0, 542, 0, 0) /* FinesseWeapons      Trained */
+     , (33642, 47, 0, 2, 0, 310, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (33642,  0,  4,  0,    0,  450,  405,  270,  495,  360,  248,  450,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (33642,  1,  4,  0,    0,  450,  405,  270,  495,  360,  248,  450,  360,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (33642,  2,  4,  0,    0,  450,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (33642,  3,  4,  0,    0,  450,  405,  270,  495,  360,  248,  450,  360,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (33642,  4,  4,  0,    0,  450,  405,  270,  495,  360,  248,  450,  360,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (33642,  5,  4, 60,  0.5,  450,  405,  270,  495,  360,  248,  450,  360,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (33642,  6,  4,  0,    0,  450,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (33642,  7,  4,  0,    0,  450,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (33642,  8,  4, 50,  0.4,  450,  405,  270,  495,  360,  248,  450,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33642,  2074,   2.02)  /* Gossamer Flesh */
-     , (33642,  2136,   2.02)  /* Icy Torment */
-     , (33642,  2168,   2.02)  /* Gelidite's Gift */;
+VALUES (33642,  0,  4,  0,    0,  350,  315,  210,  385,  280,  193,  350,  280,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (33642,  1,  4,  0,    0,  390,  351,  234,  429,  312,  215,  390,  312,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (33642,  2,  4,  0,    0,  390,  351,  234,  429,  312,  215,  390,  312,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (33642,  3,  4,  0,    0,  300,  270,  180,  330,  240,  165,  300,  240,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (33642,  4,  4,  0,    0,  300,  270,  180,  330,  240,  165,  300,  240,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (33642,  5,  4, 60,  0.5,  350,  315,  210,  385,  280,  193,  350,  280,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (33642,  6,  4,  0,    0,  350,  315,  210,  385,  280,  193,  350,  280,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (33642,  7,  4,  0,    0,  390,  351,  234,  429,  312,  215,  390,  312,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (33642,  8,  4, 50,  0.4,  390,  351,  234,  429,  312,  215,  390,  312,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33642, 2, 48585,  1, 0, 0, False) /* Create Frozen Dagger (48585) for Wield */
-     , (33642, 2, 48588,  1, 0, 0, False) /* Create Glacial Blade (48588) for Wield */
-     , (33642, 2, 48584,  1, 0, 0, False) /* Create Icy Club (48584) for Wield */
-     , (33642, 2, 48587,  1, 0, 0, False) /* Create Frigid Splinter (48587) for Wield */
-     , (33642, 2, 48586,  1, 0, 0, False) /* Create Ice Shard (48586) for Wield */
-     , (33642, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+VALUES (33642, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (33642, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (33642, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (33642, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (33642, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (33642, 10, 48585,  1, 0, 0.2, False) /* Create Frozen Dagger (48585) for WieldTreasure */
+     , (33642, 10, 48588,  1, 0, 0.2, False) /* Create Glacial Blade (48588) for WieldTreasure */
+     , (33642, 10, 48584,  1, 0, 0.2, False) /* Create Icy Club (48584) for WieldTreasure */
+     , (33642, 10, 48587,  1, 0, 0.2, False) /* Create Frigid Splinter (48587) for WieldTreasure */
+     , (33642, 10, 48586,  1, 0, 0.2, False) /* Create Ice Shard (48586) for WieldTreasure */;

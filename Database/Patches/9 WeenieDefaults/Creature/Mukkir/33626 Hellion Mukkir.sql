@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33626;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33626, 'ace33626-hellionmukkir', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (33626, 'ace33626-hellionmukkir', 10, '2023-06-05 00:31:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33626,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,7 @@ VALUES (33626,   1,       5) /* HeartbeatInterval */
      , (33626,  31,      17) /* VisualAwarenessRange */
      , (33626,  34,     0.5) /* PowerupTime */
      , (33626,  36,       1) /* ChargeSpeed */
+     , (33626,  41,      60) /* RegenerationInterval */
      , (33626,  43,       4) /* GeneratorRadius */
      , (33626,  64,    0.75) /* ResistSlash */
      , (33626,  65,     0.9) /* ResistPierce */
@@ -87,14 +88,14 @@ VALUES (33626,   1,  9001, 0, 0, 9203) /* MaxHealth */
      , (33626,   5,   220, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33626,  6, 0, 3, 0, 160, 0, 0) /* MeleeDefense        Specialized */
-     , (33626,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
-     , (33626, 15, 0, 3, 0, 370, 0, 0) /* MagicDefense        Specialized */
-     , (33626, 20, 0, 2, 0,  40, 0, 0) /* Deception           Trained */
-     , (33626, 31, 0, 3, 0, 140, 0, 0) /* CreatureEnchantment Specialized */
-     , (33626, 33, 0, 3, 0, 300, 0, 0) /* LifeMagic           Specialized */
-     , (33626, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */
-     , (33626, 45, 0, 3, 0, 267, 0, 0) /* LightWeapons        Specialized */;
+VALUES (33626,  6, 0, 2, 0, 378, 0, 0) /* MeleeDefense        Trained */
+     , (33626,  7, 0, 2, 0, 463, 0, 0) /* MissileDefense      Trained */
+     , (33626, 15, 0, 2, 0, 370, 0, 0) /* MagicDefense        Trained */
+     , (33626, 31, 0, 2, 0, 140, 0, 0) /* CreatureEnchantment Trained */
+     , (33626, 32, 0, 2, 0, 140, 0, 0) /* ItemEnchantment     Trained */
+     , (33626, 33, 0, 2, 0, 193, 0, 0) /* LifeMagic           Trained */
+     , (33626, 34, 0, 2, 0, 193, 0, 0) /* WarMagic            Trained */
+     , (33626, 45, 0, 2, 0, 385, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (33626,  0,  4,  5,    0,  350,  245,  280,  210,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
