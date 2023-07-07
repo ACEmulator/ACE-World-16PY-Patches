@@ -72,7 +72,7 @@ VALUES (43391,   1, 0x02001A2B) /* Setup */
      , (43391,   4, 0x30000000) /* CombatTable */
      , (43391,   8, 0x06002B2E) /* Icon */
      , (43391,  22, 0x340000CD) /* PhysicsEffectTable */
-     , (43391,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (43391,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43391,   1, 530, 0, 0) /* Strength */
