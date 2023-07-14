@@ -24,7 +24,7 @@ VALUES (46832,   1,          1) /* ItemType - MeleeWeapon */
      , (46832, 108,       3000) /* ItemMaxMana */
      , (46832, 114,          0) /* Attuned - Normal */
      , (46832, 151,          2) /* HookType - Wall */
-     , (46832, 158,          1) /* WieldRequirements - Skill */
+     , (46832, 158,          2) /* WieldRequirements - RawSkill */
      , (46832, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (46832, 160,        400) /* WieldDifficulty */
      , (46832, 166,         77) /* SlayerCreatureType - Ghost */
