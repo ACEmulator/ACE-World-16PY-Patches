@@ -15,8 +15,7 @@ VALUES (43396,   1,         16) /* ItemType - Creature */
      , (43396,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43396, 101,          2) /* AiAllowedCombatStyle - OneHanded */
      , (43396, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (43396, 146,    1400000) /* XpOverride */
-     , (43396, 332,         70) /* LuminanceAward */;
+     , (43396, 146,    1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43396,   1, True ) /* Stuck */
