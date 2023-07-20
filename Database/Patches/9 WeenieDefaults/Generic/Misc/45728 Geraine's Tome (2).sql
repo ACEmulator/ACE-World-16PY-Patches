@@ -7,8 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45728,   1,        128) /* ItemType - Misc */
      , (45728,   5,         50) /* EncumbranceVal */
      , (45728,  16,          1) /* ItemUseable - No */
-     , (45728,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
+     , (45728,  19,          0) /* Value */
+     , (45728,  33,          1) /* Bonded - Bonded */
+     , (45728,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45728, 114,          1) /* Attuned - Attuned */;
+     
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45728,  22, True ) /* Inscribable */;
 
