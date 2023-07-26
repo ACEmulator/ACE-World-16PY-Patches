@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46829;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46829, 'ace46829-purifiedmouryounanjoutachi', 6, '2022-07-13 15:31:07') /* MeleeWeapon */;
+VALUES (46829, 'ace46829-purifiedmouryounanjoutachi', 6, '2023-07-25 23:55:26') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46829,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,7 +24,7 @@ VALUES (46829,   1,          1) /* ItemType - MeleeWeapon */
      , (46829, 108,       3000) /* ItemMaxMana */
      , (46829, 114,          0) /* Attuned - Normal */
      , (46829, 151,          2) /* HookType - Wall */
-     , (46829, 158,          1) /* WieldRequirements - Skill */
+     , (46829, 158,          2) /* WieldRequirements - RawSkill */
      , (46829, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (46829, 160,        400) /* WieldDifficulty */
      , (46829, 166,         77) /* SlayerCreatureType - Ghost */

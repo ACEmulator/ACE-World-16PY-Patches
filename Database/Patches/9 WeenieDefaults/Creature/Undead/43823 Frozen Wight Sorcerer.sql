@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43823;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43823, 'ace43823-frozenwightsorcerer', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (43823, 'ace43823-frozenwightsorcerer', 10, '2023-07-25 23:55:26') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43823,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (43823,   1, 0x02001A36) /* Setup */
      , (43823,   7, 0x10000066) /* ClothingBase */
      , (43823,   8, 0x06001226) /* Icon */
      , (43823,  22, 0x34000028) /* PhysicsEffectTable */
-     , (43823,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (43823,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43823,   1, 240, 0, 0) /* Strength */

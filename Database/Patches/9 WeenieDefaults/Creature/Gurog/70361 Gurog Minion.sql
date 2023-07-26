@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70361, 'ace70361-gurogminion', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (70361, 'ace70361-gurogminion', 10, '2023-07-25 23:55:26') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70361,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (70361,   1, 0x02001A2B) /* Setup */
      , (70361,   4, 0x30000000) /* CombatTable */
      , (70361,   8, 0x06002B2E) /* Icon */
      , (70361,  22, 0x340000CD) /* PhysicsEffectTable */
-     , (70361,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (70361,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (70361,   1, 550, 0, 0) /* Strength */
