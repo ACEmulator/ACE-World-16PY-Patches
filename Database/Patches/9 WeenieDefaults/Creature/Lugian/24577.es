@@ -857,32 +857,32 @@ Give: Greater Gem of Knowledge (36509)
 Give: Gem of Knowledge (36510)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 100,000,000
+    - AwardXP: 100,000,000
 
 Give: Gem of Knowledge (43185)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 50,000,000
+    - AwardXP: 50,000,000
 
 Give: Gem of Knowledge (43186)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 1,000,000
+    - AwardXP: 1,000,000
 
 Give: Gem of Knowledge (43187)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 3,000,000
+    - AwardXP: 3,000,000
 
 Give: Gem of Knowledge (43188)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 9,000,000
+    - AwardXP: 9,000,000
 
 Give: Gem of Knowledge (43189)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 20,000,000
+    - AwardXP: 20,000,000
 
 Give: Gem of Lesser Luminance (44719)
     - TurnToTarget
@@ -912,12 +912,12 @@ Give: Gauntlet Gem of Luminance (52750)
 Give: Gauntlet Gem of Knowledge (52748)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 50,000,000
+    - AwardXP: 50,000,000
 
 Give: Gauntlet Gem of Vast Knowledge (52749)
     - TurnToTarget
     - Tell: Knowledge earned is a great gift. Use it wisely.
-    - AwardNoShareXP: 100,000,000
+    - AwardXP: 100,000,000
 
 Give: Celestial Hand Gauntlet Writ (53408)
     - TurnToTarget
