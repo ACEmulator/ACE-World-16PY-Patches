@@ -4,8 +4,13 @@ Use:
             - DirectBroadcast: You must wait %tqt before using this portal again.
         QuestFailure:
             - StampQuest: viridianRecharge
-            - TakeItems: Viridian Essence (52970), -1
-            - Goto: Reward
+            - InqOwnsItems: Viridian Essence (52970)
+                TestSuccess:
+                    - DirectBroadcast: Your Viridian Essence energies flare and burn up as you pass through the portal.
+                    - TakeItems: Viridian Essence (52970), -1
+                    - Goto: Reward
+                TestFailure:
+                    - Goto: Reward
 
 GotoSet: Reward
     - UpdateQuest: ViridianPortal3RewardWait

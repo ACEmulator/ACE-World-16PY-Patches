@@ -1,9 +1,10 @@
 Use:
     - InqIntStat: Level, 200 - 999
         TestSuccess:
-            - InqOwnsItems: 52970
+            - InqOwnsItems: Viridian Essence (52970)
                 TestSuccess:
-                    - TakeItems: 52970, -1
+                    - DirectBroadcast: Your Viridian Essence energies flare and burn up as you pass through the portal.
+                    - TakeItems: Viridian Essence (52970), -1
                     - Goto: Portal
                 TestFailure:
                     - Goto: Portal
