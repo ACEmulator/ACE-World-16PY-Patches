@@ -4,9 +4,9 @@ Use:
 Gotoset: Check1
     - InqSkillStat: Lockpick, 575 - 99999
         TestSuccess:
-            - InqOwnsItems: 52970, 10
+            - InqOwnsItems: Viridian Essence (52970), 10
                 TestSuccess:
-                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The amount required was reduced by your Lockpick skill.
+                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
                     - Goto: Fail
@@ -16,9 +16,9 @@ Gotoset: Check1
 Gotoset: Check2
     - InqSkillStat: Lockpick, 565 - 99999
         TestSuccess:
-            - InqOwnsItems: 52970, 12
+            - InqOwnsItems: Viridian Essence (52970), 12
                 TestSuccess:
-                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The amount required was reduced by your Lockpick skill.
+                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
                     - Goto: Fail
@@ -28,9 +28,9 @@ Gotoset: Check2
 Gotoset: Check3
     - InqSkillStat: Lockpick, 550 - 99999
         TestSuccess:
-            - InqOwnsItems: 52970, 13
+            - InqOwnsItems: Viridian Essence (52970), 13
                 TestSuccess:
-                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The amount required was reduced by your Lockpick skill.
+                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
                     - Goto: Fail
@@ -40,9 +40,9 @@ Gotoset: Check3
 Gotoset: Check4
     - InqSkillStat: Lockpick, 525 - 99999
         TestSuccess:
-            - InqOwnsItems: 52970, 14
+            - InqOwnsItems: Viridian Essence (52970), 14
                 TestSuccess:
-                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The amount required was reduced by your Lockpick skill.
+                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
                     - Goto: Fail
@@ -52,17 +52,17 @@ Gotoset: Check4
 Gotoset: Check5
     - InqSkillStat: Lockpick, 500 - 99999
         TestSuccess:
-            - InqOwnsItems: 52970, 15
+            - InqOwnsItems: Viridian Essence (52970), 15
                 TestSuccess:
-                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The amount required was reduced by your Lockpick skill.
+                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
                     - Goto: Fail
         TestFailure:
             - Goto: Check6
-        
+
 Gotoset: Check6
-    - InqOwnsItems: 52970, 20
+    - InqOwnsItems: Viridian Essence (52970), 20
         TestSuccess:
             - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal.
             - Goto: Pass
@@ -70,8 +70,8 @@ Gotoset: Check6
             - Goto: Fail
 
 Gotoset: Pass
-    - TakeItems: 52970, -1
+    - TakeItems: Viridian Essence (52970), -1
     - LocalSignal: viridianbridge
-    
+
 Gotoset: Fail
     - DirectBroadcast: You approach, attempting to use the portal, but you are unable to activate it.
