@@ -1,17 +1,25 @@
 Use:
     - InqQuest: viridianRecharge
-        QuestSuccess: 
+        QuestSuccess:
             - DirectBroadcast: You must wait %tqt before using this portal again.
-        QuestFailure: 
-            - InqOwnsItems: 52970
+        QuestFailure:
+            - StampQuest: viridianRecharge
+            - InqOwnsItems: Viridian Essence (52970)
                 TestSuccess:
-                    - TakeItems: 52970, -1
+                    - DirectBroadcast: Your Viridian Essence energies flare and burn up as you pass through the portal.
+                    - TakeItems: Viridian Essence (52970), -1
                     - Goto: Reward
                 TestFailure:
                     - Goto: Reward
 
 GotoSet: Reward
-    - StampQuest: viridianRecharge
-    - Give: 53480
-    - Give: 52968, 8
+    - UpdateQuest: ViridianPortal2RewardWait
+        QuestSuccess:
+            - Give: Viridian Key of the Second Portal (53480)
+            - Give: Infused Amber Shard (52968), 8
+            - Goto: Teleport
+        QuestFailure:
+            - Goto: Teleport
+
+GotoSet: Teleport
     - TeleportTarget: 0xB34B0031 [152.182 9.04844 110.687] -0.880964 0 0 0.473183

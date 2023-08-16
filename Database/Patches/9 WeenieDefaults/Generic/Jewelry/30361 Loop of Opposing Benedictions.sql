@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30361, 'ringrareopposingbenedictions', 1, '2021-11-17 16:56:08') /* Generic */;
+VALUES (30361, 'ringrareopposingbenedictions', 1, '2023-08-16 16:16:56') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30361,   1,          8) /* ItemType - Jewelry */
@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30361,   1, 0x02000103) /* Setup */
      , (30361,   3, 0x20000014) /* SoundTable */
      , (30361,   6, 0x04000BEF) /* PaletteBase */
-     , (30361,   8, 0x06005BEB) /* Icon */
+     , (30361,   8, 0x06005BE7) /* Icon */
      , (30361,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30361,  36, 0x0E000012) /* MutateFilter */
      , (30361,  46, 0x38000032) /* TsysMutationFilter */
