@@ -10,6 +10,7 @@ VALUES (44982,   1,          4) /* ItemType - Clothing */
      , (44982,   9,  134217728) /* ValidLocations - Cloak */
      , (44982,  16,          1) /* ItemUseable - No */
      , (44982,  19,         15) /* Value */
+     , (44982,  36,       9999) /* ResistMagic */
      , (44982,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44982, 158,          7) /* WieldRequirements - Level */
      , (44982, 159,          1) /* WieldSkillType - Axe */
