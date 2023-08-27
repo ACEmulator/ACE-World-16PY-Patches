@@ -59,5 +59,5 @@ VALUES (53314,  4395,      2)  /* Aura of Incantation of Blood Drinker Self */
      , (53314,  4400,      2)  /* Aura of Incantation of Defender Self */
      , (53314,  4405,      2)  /* Aura of Incantation of Heart Seeker Self */
      , (53314,  4417,      2)  /* Aura of Incantation of Swift Killer Self */
-     , (53314,  4624,      2)  /* Incantation of Heavy Weapon Mastery Self */
+     , (53314,  4518,      2)  /* Incantation of Light Weapon Mastery Self */
      , (53314,  6043,      2)  /* Legendary Light Weapon Aptitude */;
