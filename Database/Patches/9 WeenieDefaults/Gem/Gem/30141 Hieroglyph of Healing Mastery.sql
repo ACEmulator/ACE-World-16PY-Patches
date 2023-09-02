@@ -38,7 +38,7 @@ VALUES (30141, 167,       5) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30141,   1, 'Hieroglyph of Healing Mastery') /* Name */
-     , (30141,  16, 'Use this gem to cast Incantation of Heal Self. This gem does not run out of charges. It will not be destroyed upon use.') /* LongDesc */;
+     , (30141,  16, 'Use this gem to cast Incantation of Healing Mastery Self. This gem does not run out of charges. It will not be destroyed upon use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30141,   1, 0x020009A7) /* Setup */
@@ -47,6 +47,6 @@ VALUES (30141,   1, 0x020009A7) /* Setup */
      , (30141,   7, 0x1000010B) /* ClothingBase */
      , (30141,   8, 0x06005B22) /* Icon */
      , (30141,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (30141,  28,       4311) /* Spell - Incantation of Heal Self */
+     , (30141,  28,       4556) /* Spell - Incantation of Healing Mastery Self */
      , (30141,  50, 0x06005B3F) /* IconOverlay */
      , (30141,  52, 0x06005B0C) /* IconUnderlay */;
