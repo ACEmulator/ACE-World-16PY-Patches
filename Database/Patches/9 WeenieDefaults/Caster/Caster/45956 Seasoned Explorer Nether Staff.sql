@@ -55,4 +55,4 @@ VALUES (45956,  2560,      2)  /* Minor Mana Conversion Prowess */
      , (45956,  1605,      2)  /* Aura of Defender Self VI */
      , (45956,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (45956,  5427,      2)  /* Minor Void Magic Aptitude */
-     , (45956,  2158,      2)  /* Storm's Boon */;
+     , (45956,  3258,      2)  /* Aura of Spirit Drinker Self VI */;
