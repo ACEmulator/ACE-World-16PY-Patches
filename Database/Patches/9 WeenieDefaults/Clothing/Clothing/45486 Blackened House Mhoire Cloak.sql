@@ -11,7 +11,10 @@ VALUES (45486,   1,          4) /* ItemType - Clothing */
      , (45486,  16,          1) /* ItemUseable - No */
      , (45486,  19,         15) /* Value */
      , (45486,  36,       9999) /* ResistMagic */
-     , (45486,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45486,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45486, 158,          7) /* WieldRequirements - Level */
+     , (45486, 159,          1) /* WieldSkillType - Axe */
+     , (45486, 160,          1) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45486,  22, True ) /* Inscribable */;
