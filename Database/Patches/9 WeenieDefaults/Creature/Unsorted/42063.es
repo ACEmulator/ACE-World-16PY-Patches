@@ -3,6 +3,7 @@ Use:
 
 Give: 52969
     - Give: 53474
+    - DeleteSelf
 
 GotoSet: PickReward, Probability: 0.33
     - Goto: Spell
