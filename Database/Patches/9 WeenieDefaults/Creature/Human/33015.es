@@ -130,7 +130,7 @@ Give: 33126
 Give: 41083
     - Goto: WeaponTrading
     
-Give: 87534
+Give: 87555
     - Goto: WeaponTrading
     
 Gotoset: RossuMortaToken
