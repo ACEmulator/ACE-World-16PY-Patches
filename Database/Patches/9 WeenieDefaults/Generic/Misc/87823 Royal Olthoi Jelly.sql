@@ -10,9 +10,9 @@ VALUES (87823,   1,        128) /* ItemType - Misc */
      , (87823,   9,          0) /* ValidLocations - None */
      , (87823,  16,          1) /* ItemUseable - No */
      , (87823,  19,          0) /* Value */
-     , (87823,  33,          1) /* Bonded */
+     , (87823,  33,          1) /* Bonded - Bonded */
      , (87823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87823, 114,          1) /* Attuned */
+     , (87823, 114,          1) /* Attuned - Attuned */
      , (87823, 267,       3600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,4 +33,3 @@ VALUES (87823,   1, 0x020000A6) /* Setup */
      , (87823,   3, 0x20000014) /* SoundTable */
      , (87823,   8, 0x06002CEC) /* Icon */
      , (87823,  22, 0x3400002B) /* PhysicsEffectTable */;
-
