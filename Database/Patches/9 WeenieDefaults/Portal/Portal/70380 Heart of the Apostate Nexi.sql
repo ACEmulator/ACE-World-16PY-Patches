@@ -7,9 +7,9 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70380,   1,      65536) /* ItemType - Portal */
      , (70380,   3,         21) /* PaletteTemplate - Gold */
      , (70380,  16,         32) /* ItemUseable - Remote */
-     , (70380,  86,        150) /* MinLevel */
+     , (70380,  86,        120) /* MinLevel */
      , (70380,  93,       2052) /* PhysicsState - Ethereal, LightingOn */
-     , (70380, 111,          1) /* PortalBitmask - Unrestricted */
+     , (70380, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (70380, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
