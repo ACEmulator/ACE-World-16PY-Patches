@@ -15,12 +15,12 @@ GotoSet: RandomTeleport, Probability: 1.0
 Gotoset: Check1
     - InqSkillStat: Lockpick, 575 - 99999
         TestSuccess:
-            - InqOwnsItems: Viridian Essence (52970), 4
+            - InqOwnsItems: Viridian Essence (52970), 3
                 TestSuccess:
                     - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
-                    - Goto: Fail
+                    - DirectBroadcast: You manipulate the statue with your Lockpick skill of 575, but you are missing a power source.
         TestFailure:
             - Goto: Check2
 
