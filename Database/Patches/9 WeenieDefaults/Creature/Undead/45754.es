@@ -174,10 +174,6 @@ GotoSet: CompletePartial
                                             - Give: 38920
                                             - Give: Trade Note (250,000) (20630), 15
                                             - Tell: This will keep that despicable monster hidden away for some time I'm sure. I'm glad you're on our side.
-                                            - InqQuestBitsOn: LegendaryQuestsB, 0x80000
-                                                QuestFailure:
-                                                    - SetQuestBitsOn: LegendaryQuestsB, 0x80000
-                                                    - StampQuest: LegendaryQuestCounter_0913
                                         TestFailure:
                                              - Goto: NotEnoughTomes
                                 TestFailure:
@@ -221,10 +217,6 @@ GotoSet: CompleteFull
                                                                     - Give: Trade Note (250,000) (20630), 35
                                                                     - Tell: I am impressed. I did not think anyone would have the power to bring down all of his hosts.
                                                                     - Tell: This will keep that despicable monster hidden away for some time I'm sure. I'm glad you're on our side.
-                                                                    - InqQuestBitsOn: LegendaryQuestsB, 0x80000
-                                                                        QuestFailure:
-                                                                            - SetQuestBitsOn: LegendaryQuestsB, 0x80000
-                                                                            - StampQuest: LegendaryQuestCounter_0913
                                                                 TestFailure:
                                                                     - Goto: NotEnoughTomes
                                                         TestFailure:
