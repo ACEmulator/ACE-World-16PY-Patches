@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72005;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72005, 'ace72005-stormwoodstaff', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (72005, 'ace72005-stormwoodstaff', 6, '2023-09-08 17:32:38') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72005,   1,          1) /* ItemType - MeleeWeapon */
@@ -61,6 +61,6 @@ VALUES (72005,  4395,      2)  /* Aura of Incantation of Blood Drinker Self */
      , (72005,  4400,      2)  /* Aura of Incantation of Defender Self */
      , (72005,  4405,      2)  /* Aura of Incantation of Heart Seeker Self */
      , (72005,  4417,      2)  /* Aura of Incantation of Swift Killer Self */
-     , (72005,  4624,      2)  /* Incantation of Heavy Weapon Mastery Self */
+     , (72005,  4518,      2)  /* Incantation of Light Weapon Mastery Self */
      , (72005,  6043,      2)  /* Legendary Light Weapon Aptitude */
      , (72005,  6089,      2)  /* Legendary Blood Thirst */;

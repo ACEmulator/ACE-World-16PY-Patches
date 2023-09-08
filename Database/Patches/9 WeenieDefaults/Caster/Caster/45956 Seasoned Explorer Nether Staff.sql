@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45956;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45956, 'ace45956-seasonedexplorernetherstaff', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (45956, 'ace45956-seasonedexplorernetherstaff', 35, '2023-09-08 17:32:38') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45956,   1,      32768) /* ItemType - Caster */
@@ -55,4 +55,4 @@ VALUES (45956,  2560,      2)  /* Minor Mana Conversion Prowess */
      , (45956,  1605,      2)  /* Aura of Defender Self VI */
      , (45956,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (45956,  5427,      2)  /* Minor Void Magic Aptitude */
-     , (45956,  2158,      2)  /* Storm's Boon */;
+     , (45956,  3258,      2)  /* Aura of Spirit Drinker Self VI */;

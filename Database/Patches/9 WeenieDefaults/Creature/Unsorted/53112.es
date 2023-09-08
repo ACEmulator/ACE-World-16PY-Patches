@@ -9,11 +9,23 @@ Gotoset: Check1
                     - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
-                    - Goto: Fail
+                    - DirectBroadcast: You manipulate the statue with your Lockpick skill of 575, but you are missing a power source.
         TestFailure:
             - Goto: Check2
 
 Gotoset: Check2
+    - InqSkillStat: Lockpick, 570 - 99999
+        TestSuccess:
+            - InqOwnsItems: Viridian Essence (52970), 11
+                TestSuccess:
+                    - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
+                    - Goto: Pass
+                TestFailure:
+                    - DirectBroadcast: You manipulate the statue with your Lockpick skill of 570, but you are missing a power source.
+        TestFailure:
+            - Goto: Check3
+
+Gotoset: Check3
     - InqSkillStat: Lockpick, 565 - 99999
         TestSuccess:
             - InqOwnsItems: Viridian Essence (52970), 12
@@ -21,11 +33,11 @@ Gotoset: Check2
                     - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
-                    - Goto: Fail
+                    - DirectBroadcast: You manipulate the statue with your Lockpick skill of 565, but you are missing a power source.
         TestFailure:
-            - Goto: Check3
+            - Goto: Check4
 
-Gotoset: Check3
+Gotoset: Check4
     - InqSkillStat: Lockpick, 550 - 99999
         TestSuccess:
             - InqOwnsItems: Viridian Essence (52970), 13
@@ -33,11 +45,11 @@ Gotoset: Check3
                     - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
-                    - Goto: Fail
+                    - DirectBroadcast: You manipulate the statue with your Lockpick skill of 550, but you are missing a power source.
         TestFailure:
-            - Goto: Check4
+            - Goto: Check5
 
-Gotoset: Check4
+Gotoset: Check5
     - InqSkillStat: Lockpick, 525 - 99999
         TestSuccess:
             - InqOwnsItems: Viridian Essence (52970), 14
@@ -45,11 +57,11 @@ Gotoset: Check4
                     - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
-                    - Goto: Fail
+                    - DirectBroadcast: You manipulate the statue with your Lockpick skill of 525, but you are missing a power source.
         TestFailure:
-            - Goto: Check5
+            - Goto: Check6
 
-Gotoset: Check5
+Gotoset: Check6
     - InqSkillStat: Lockpick, 500 - 99999
         TestSuccess:
             - InqOwnsItems: Viridian Essence (52970), 15
@@ -57,11 +69,11 @@ Gotoset: Check5
                     - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal. The number of essences required was reduced by your Lockpick skill!
                     - Goto: Pass
                 TestFailure:
-                    - Goto: Fail
+                    - DirectBroadcast: You manipulate the statue with your Lockpick skill of 500, but you are missing a power source.
         TestFailure:
-            - Goto: Check6
+            - Goto: Check7
 
-Gotoset: Check6
+Gotoset: Check7
     - InqOwnsItems: Viridian Essence (52970), 20
         TestSuccess:
             - DirectBroadcast: The Viridian Essences you have gathered flare up and empower the portal.

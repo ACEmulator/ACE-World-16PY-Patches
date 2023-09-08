@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32992;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32992, 'ace32992-eddredthewolf', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (32992, 'ace32992-eddredthewolf', 10, '2023-09-08 17:32:38') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32992,   1,         16) /* ItemType - Creature */
@@ -284,7 +284,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  67 /* Goto */, 0, 1, NULL, 'WeaponTrading', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (32992,  6 /* Give */,      1, 87534 /* Binding Realm */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (32992,  6 /* Give */,      1, 87555 /* Red Rune Silveran Mace */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

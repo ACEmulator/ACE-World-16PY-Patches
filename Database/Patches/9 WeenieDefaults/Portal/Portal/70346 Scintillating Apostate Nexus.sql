@@ -1,15 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70346;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70346, 'ace70346-scintillatingapostatenexus', 7, '2021-11-17 16:56:08') /* Portal */;
+VALUES (70346, 'ace70346-scintillatingapostatenexus', 7, '2023-09-08 17:32:38') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70346,   1,      65536) /* ItemType - Portal */
      , (70346,   3,         21) /* PaletteTemplate - Gold */
      , (70346,  16,         32) /* ItemUseable - Remote */
-     , (70346,  86,        150) /* MinLevel */
+     , (70346,  86,        120) /* MinLevel */
      , (70346,  93,       2052) /* PhysicsState - Ethereal, LightingOn */
-     , (70346, 111,          1) /* PortalBitmask - Unrestricted */
+     , (70346, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (70346, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
