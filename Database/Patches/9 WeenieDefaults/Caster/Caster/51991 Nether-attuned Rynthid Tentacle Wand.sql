@@ -16,7 +16,7 @@ VALUES (51991,   1,      32768) /* ItemType - Caster */
      , (51991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51991,  94,         16) /* TargetType - Creature */
      , (51991, 106,        475) /* ItemSpellcraft */
-     , (51991, 107,       2172) /* ItemCurMana */
+     , (51991, 107,       3000) /* ItemCurMana */
      , (51991, 108,       3000) /* ItemMaxMana */
      , (51991, 114,          1) /* Attuned - Attuned */
      , (51991, 151,          2) /* HookType - Wall */
