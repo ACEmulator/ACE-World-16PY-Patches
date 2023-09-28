@@ -22,7 +22,7 @@ VALUES (51988,   1,        256) /* ItemType - MissileWeapon */
      , (51988,  53,          3) /* PlacementPosition - LeftHand */
      , (51988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51988, 106,        475) /* ItemSpellcraft */
-     , (51988, 107,       2452) /* ItemCurMana */
+     , (51988, 107,       3000) /* ItemCurMana */
      , (51988, 108,       3000) /* ItemMaxMana */
      , (51988, 114,          1) /* Attuned - Attuned */
      , (51988, 151,          2) /* HookType - Wall */
