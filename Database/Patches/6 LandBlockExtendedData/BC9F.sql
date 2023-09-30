@@ -216,7 +216,7 @@ VALUES (0x7BC9F034, 0x7BC9F051, '2021-12-14 05:15:31') /* Alec (28475) */
      , (0x7BC9F034, 0x7BC9F059, '2021-12-14 05:15:31') /* Guard Devon (29769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BC9F035, 69997, 0xBC9F003C, 181.605, 88.619, 32.005, 0.714421, 0, 0, 0.699716, False, '2021-12-14 05:15:31'); /* Night Club Attendant Generator */
+VALUES (0x7BC9F035, 69997, 0xBC9F003C, 180, 83.998047, 0, 0.714421, 0, 0, 0.699716, False, '2021-12-14 05:15:31'); /* Night Club Attendant Generator */
 /* @teleloc 0xBC9F003C [181.604996 88.619003 32.005001] 0.714421 0.000000 0.000000 0.699716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
