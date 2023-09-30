@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (69986,   1, 'Night Club Shirt') /* Name */
      , (69986,   7, 'I partied in the Night Club during Asheron''s Call''s (emulated) 24th Anniversary event.') /* Inscription */
      , (69986,   8, '-') /* ScribeName */
-     , (69986,  16, 'A limited-edition shirt made available in the Night Club dungeon for the (emulated) 23rd anniversary of Asheron''s Call.') /* LongDesc */;
+     , (69986,  16, 'A limited-edition shirt made available in the Night Club dungeon for the (emulated) 24th anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (69986,   1, 0x020001C3) /* Setup */
