@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51991;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51991, 'ace51991-netherattunedrynthidtentaclewand', 35, '2022-05-17 03:47:03') /* Caster */;
+VALUES (51991, 'ace51991-netherattunedrynthidtentaclewand', 35, '2023-10-25 01:13:07') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51991,   1,      32768) /* ItemType - Caster */
@@ -16,7 +16,7 @@ VALUES (51991,   1,      32768) /* ItemType - Caster */
      , (51991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51991,  94,         16) /* TargetType - Creature */
      , (51991, 106,        475) /* ItemSpellcraft */
-     , (51991, 107,       2172) /* ItemCurMana */
+     , (51991, 107,       3000) /* ItemCurMana */
      , (51991, 108,       3000) /* ItemMaxMana */
      , (51991, 114,          1) /* Attuned - Attuned */
      , (51991, 151,          2) /* HookType - Wall */

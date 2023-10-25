@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51967;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51967, 'ace51967-rynthidtentaclespear', 6, '2022-05-17 03:47:03') /* MeleeWeapon */;
+VALUES (51967, 'ace51967-rynthidtentaclespear', 6, '2023-10-25 01:13:07') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51967,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,7 @@ VALUES (51967,   1,          1) /* ItemType - MeleeWeapon */
      , (51967,  51,          1) /* CombatUse - Melee */
      , (51967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51967, 106,        475) /* ItemSpellcraft */
-     , (51967, 107,       2974) /* ItemCurMana */
+     , (51967, 107,       3000) /* ItemCurMana */
      , (51967, 108,       3000) /* ItemMaxMana */
      , (51967, 114,          1) /* Attuned - Attuned */
      , (51967, 151,          2) /* HookType - Wall */
