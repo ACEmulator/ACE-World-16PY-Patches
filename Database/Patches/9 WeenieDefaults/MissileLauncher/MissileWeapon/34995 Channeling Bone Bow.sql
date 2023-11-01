@@ -42,7 +42,8 @@ VALUES (34995,   5,   -0.05) /* ManaRate */
      , (34995,  29,    1.17) /* WeaponDefense */
      , (34995,  39,     1.1) /* DefaultScale */
      , (34995,  62,       1) /* WeaponOffense */
-     , (34995,  63,     3.4) /* DamageMod */;
+     , (34995,  63,     3.4) /* DamageMod */
+     , (34995, 156,     0.1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34995,   1, 'Channeling Bone Bow') /* Name */
