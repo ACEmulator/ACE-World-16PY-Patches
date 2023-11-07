@@ -63,8 +63,10 @@ GotoSet: OwnsA
 
 Refuse: Energy Infused Rock (43792)
     - TurnToTarget
-    - InqQuest: DeewainBossRoomFlag
+    - InqQuest: DeewainCompleted0211
         QuestSuccess:
+            - Tell: I am still examining the last sample you gave me.
+        QuestFailure:
             - Tell: What a magnificent sample! So light for such a large stone, truly amazing.
             - Delay: 0.5, Tell: I wonder if I could use this material to create something special.....
             - Delay: 0.5, Tell: Ah right, I should also reward you bringing me this
@@ -83,5 +85,3 @@ Refuse: Energy Infused Rock (43792)
                             - StampQuest: LegendaryQuestCounter_0913
                 TestFailure:
                     - Tell: This is not the correct sample!
-        QuestFailure:
-            - Tell: How did you come upon this without defeating Deewain!?
