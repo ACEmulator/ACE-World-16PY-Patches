@@ -24,7 +24,7 @@ Refuse: 38714
                     - AwardLuminance: 1,500
                     - Give: Eldrytch Web Trade Tokens (38237), 4
                 TestFailure:
-                    - Tell: I requested 8 jaw bones!
+                    - Tell: You still haven't gotten eight jawbones, have you? Get to it youngster! The Society waits for no one.
         QuestFailure:
             - InqIntStat: SocietyRankEldweb, 1 - 1001
                 TestSuccess:
