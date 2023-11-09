@@ -45,7 +45,7 @@ Use:
         TestSuccess:
             - InqQuest: TaskGrave1JawCollectStarted
                 QuestSuccess:
-                    - Tell: Haven't picked up any jaws yet? Get to it youngster! The Society waits for no one.
+                    - Tell: Haven't picked up any jaws yet? Get to it, youngster! The Society waits for no one.
                 QuestFailure:
                     - InqQuest: TaskGrave1JawCollectWait
                         QuestSuccess:
