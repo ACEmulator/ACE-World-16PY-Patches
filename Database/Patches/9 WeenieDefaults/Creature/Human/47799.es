@@ -11,12 +11,24 @@ Use:
                         QuestSuccess:
                             - InqQuestSolves: WorkersMotivated, 10 - 10
                                 QuestSuccess:
-                                    - Goto: CheckSaved
+                                    - InqQuestBitsOn: Petsave, 0x7
+                                        QuestSuccess:
+                                            - Goto: Rewards
+                                        QuestFailure:
+                                            - Tell: Please save my pets.
+                                            - TakeItems: 47831, -1
+                                            - Give: 47831
+                                            - TakeItems: 72980, -1
+                                            - Give: 72980, 3
                                 QuestFailure:
                                     - Tell: Please convince 10 of the workers to return to work.
                                     - TakeItems: 47831, -1
                                     - Give: 47831
-                                    - Goto: CheckSaved
+                                    - InqQuestBitsOn: Petsave, 0x7
+                                        QuestFailure:
+                                            - Tell: Please save my pets.
+                                            - TakeItems: 72980, -1
+                                            - Give: 72980, 3
                         QuestFailure:
                             - StampQuest: SaveAPetStarted_1212
                             - Tell: This can't be happening. No, this CAN'T be happening!
@@ -32,15 +44,6 @@ Use:
                             - Delay: 0.5,Tell: They aren't much for strangers but if you feed them this meat it should make them groggy enough to where you can safely place them back in their cages. I have added a special ingredient to the food to tranquilize them very quickly.
         TestFailure:
             - Tell: I apologize, but I have no time to talk. There is much on my mind.
-
-GotoSet: CheckSaved
-    - InqQuestBitsOn: Petsave, 0x7
-        QuestSuccess:
-            - Goto: Rewards
-        QuestFailure:
-            - Tell: Please save my pets.
-            - TakeItems: 72980, -1
-            - Give: 72980, 3
 
 GotoSet: Rewards
     - StampQuest: SaveAPetFinished_1212
