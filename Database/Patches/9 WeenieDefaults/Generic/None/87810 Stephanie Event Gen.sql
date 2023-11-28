@@ -23,7 +23,7 @@ VALUES (87810,  41,     300) /* RegenerationInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87810,   1, 'Stephanie Event Gen') /* Name */
-     , (87810,  34, 'HollyJollyHelperEvent') /* GeneratorEvent */;
+     , (87810,  34, 'GiftGopherEvent') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87810,   1, 0x0200026B) /* Setup */
