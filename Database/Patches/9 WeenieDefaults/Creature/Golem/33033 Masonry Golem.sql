@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33033, 'ace33033-masonrygolem', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (33033, 'ace33033-masonrygolem', 10, '2023-12-16 16:37:49') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33033,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (33033,   1, 0x02001496) /* Setup */
      , (33033,   2, 0x09000190) /* MotionTable */
      , (33033,   3, 0x20000015) /* SoundTable */
      , (33033,   4, 0x30000008) /* CombatTable */
-     , (33033,   6, 0x04000F47) /* PaletteBase */
+     , (33033,   6, 0x04001EC3) /* PaletteBase */
      , (33033,   7, 0x10000637) /* ClothingBase */
      , (33033,   8, 0x06001224) /* Icon */
      , (33033,  22, 0x34000064) /* PhysicsEffectTable */

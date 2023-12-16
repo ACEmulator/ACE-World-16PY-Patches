@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87810;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87810, 'ace87810-stephanieeventgen', 1, '2021-12-14 05:15:31') /* Generic */;
+VALUES (87810, 'ace87810-stephanieeventgen', 1, '2023-12-16 16:37:49') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87810,  81,          1) /* MaxGeneratedObjects */
@@ -23,7 +23,7 @@ VALUES (87810,  41,     300) /* RegenerationInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87810,   1, 'Stephanie Event Gen') /* Name */
-     , (87810,  34, 'HollyJollyHelperEvent') /* GeneratorEvent */;
+     , (87810,  34, 'GiftGopherEvent') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87810,   1, 0x0200026B) /* Setup */

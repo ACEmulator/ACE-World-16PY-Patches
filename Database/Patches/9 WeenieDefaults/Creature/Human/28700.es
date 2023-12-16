@@ -11,10 +11,10 @@ Refuse: Worn Token  (73052)
     - Tell: Hmmm, this bears further investigation. Thank you.
 
 Refuse: Eleonora's Note (31231)
-        - Delay: 0.5, DirectBroadcast: The Grand Knight looks carefully at the note. A look of rage slowly creeps across his face.
-        - Delay: 1.5, Tell: You dare to steal from the King?
-        - Delay: 0.5, DirectBroadcast: The Grand Knight places a hand on the hilt of his sword.
-        - Delay: 1.5, Tell: Be gone, filth. Be gone now.
+    - Delay: 0.5, DirectBroadcast: The Grand Knight looks carefully at the note. A look of rage slowly creeps across his face.
+    - Delay: 1.5, Tell: You dare to steal from the King?
+    - Delay: 0.5, DirectBroadcast: The Grand Knight places a hand on the hilt of his sword.
+    - Delay: 1.5, Tell: Be gone, filth. Be gone now.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
     - Motion: Twitch1
@@ -65,7 +65,7 @@ Give: Friend of Sanamar Token (28761)
 
 Give: Ancient Discoveries (28752)
     - TurnToTarget
-    - Delay: 0.1, InqQuest: SilyunFlagged@DericostTome
+    - Delay: 0.1, InqQuest: SilyunFlagged@AncientDiscoveries
         QuestSuccess:
             - Delay: 1, Tell: The King may be willing to deal with you rebels, but until I hear from His Majesty directly, I'll have nothing to do with your kind.
         QuestFailure:
@@ -105,8 +105,8 @@ Give: Maddened Fiun Heart (29508)
 
 Give: Hero of Sanamar Token (30939)
     - TurnToTarget
-            - Delay: 1, Tell: Your dedication to our King is commendable, and greatly to be praised. I will make it known that you have served us well.
-            - Delay: 1, AddCharacterTitle: HeroofSanamar
+    - Delay: 1, Tell: Your dedication to our King is commendable, and greatly to be praised. I will make it known that you have served us well.
+    - Delay: 1, AddCharacterTitle: HeroofSanamar
 
 Give: Tethana's Price (70005)
     - Tell: So, you are the Lieutenant Commander's messenger, are you? You have certainly done her a great service. The King will welcome this information.
@@ -115,13 +115,13 @@ Give: Tethana's Price (70005)
     - Give: Renlen's Grace (31291)
 
 Use:
-    - Delay: 0.1, InqQuest: SanamarFlagged
+    - Delay: 0.1, InqQuest: SanamarFlagged@2
         QuestSuccess:
-            - Delay: 0.1, InqQuest: KnightsOfKarlunComplete
+            - Delay: 0.1, InqQuest: KnightsOfKarlunComplete@2
                 QuestSuccess:
-                    - Delay: 0.1, InqQuest: RedBullComplete
+                    - Delay: 0.1, InqQuest: RedBullComplete@2
                         QuestSuccess:
-                            - Delay: 0.1, InqQuest: VissFlagComplete
+                            - Delay: 0.1, InqQuest: VissFlagComplete@2
                                 QuestSuccess:
                                     - Delay: 0.2, Tell: I see you have gained access to the isle they call Vissidal. The King has need of capable warriors on that island. Bide your time. Hunt and kill. When more is required of you, you will know.
                                 QuestFailure:
@@ -133,7 +133,7 @@ Use:
                     - Delay: 1, Tell: You have served us before, I see. There is another task for you, if you are strong enough for it. The King desires a bauble in the possession of a rogue group of Knights who have left our service. These so-called Knights of Karlun disdain the... physical gifts brought about by the transformation of our own Knights. But they distrust the rebels, too!
                     - Delay: 2, Tell: The leader of the Knights of Karlun possesses a ring that once belonged to the great Karlun, founder of the nation of Viamont. Do whatever you must to gain their trust and take the ring from their Grand Master, a fallen knight named Sir Belfelor. You will probably have to kill Belfelor. Seek them out at 89.0N, 67.6W
         QuestFailure:
-            - Delay: 0.1, InqQuest: SilyunFlagged
+            - Delay: 0.1, InqQuest: SilyunFlagged@2
                 QuestSuccess:
                     - Tell: The King may be willing to deal with you rebels, but until I hear from His Majesty directly, I'll have nothing to do with your kind.
                 QuestFailure:

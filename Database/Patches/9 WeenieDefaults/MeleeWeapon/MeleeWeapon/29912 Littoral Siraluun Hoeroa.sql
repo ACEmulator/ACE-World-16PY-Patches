@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29912;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29912, 'nabutsiraluunlittoral', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (29912, 'nabutsiraluunlittoral', 6, '2023-12-16 16:37:49') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29912,   1,          1) /* ItemType - MeleeWeapon */
@@ -56,6 +56,6 @@ VALUES (29912,   1, 0x02001242) /* Setup */
      , (29912,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29912,   390,      2)  /* Light Weapon Mastery Other III */
+VALUES (29912,   414,      2)  /* Heavy Weapon Mastery Other III */
      , (29912,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (29912,  1613,      2)  /* Aura of Blood Drinker Self III */;
