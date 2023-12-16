@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80394;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80394, 'ace80394-northwatchcelhansupplygen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (80394, 'ace80394-northwatchcelhansupplygen', 1, '2023-12-16 16:37:49') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80394,  66,          1) /* CheckpointStatus */
