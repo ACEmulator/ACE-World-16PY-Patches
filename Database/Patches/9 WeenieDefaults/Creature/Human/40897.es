@@ -1,4 +1,5 @@
 Use:
+    - TurnToTarget
     - InqIntStat: Level, 80 - 999
         TestSuccess:
             - InqEvent: StoryUnknownWarrior
@@ -24,3 +25,28 @@ Use:
         TestFailure:
             - Tell: You want to hear the story of the Unknown Warrior huh?
             - Tell: Well, come back when you're stronger, and I might share it.
+
+Refuse: 41197
+    - TakeItems: 41197, 1
+    - Give: 41197
+    - Tell: I don't see what the complaining is about, this armor looks fine to me. I think people were making trouble for the sake of making trouble.
+    
+Refuse: 41198
+    - TakeItems: 41198, 1
+    - Give: 41198
+    - Tell: I don't see what the complaining is about, this armor looks fine to me. I think people were making trouble for the sake of making trouble.
+
+Refuse: 41199
+    - TakeItems: 41199, 1
+    - Give: 41199
+    - Tell: I don't see what the complaining is about, this armor looks fine to me. I think people were making trouble for the sake of making trouble.
+
+Refuse: 41200
+    - TakeItems: 41200, 1
+    - Give: 41200
+    - Tell: I don't see what the complaining is about, this armor looks fine to me. I think people were making trouble for the sake of making trouble.
+
+Refuse: 41201
+    - TakeItems: 41201, 1
+    - Give: 41201
+    - Tell: I don't see what the complaining is about, this armor looks fine to me. I think people were making trouble for the sake of making trouble.

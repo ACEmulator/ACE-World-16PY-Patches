@@ -520,7 +520,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x77E041B5, 0x77E0419A, '2023-03-23 00:00:00') /* Gate (72916) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E041B6,   298, 0x7E0403BF, 189.998, -176.795, 0, 1, 0, 0, 0,  True, '2023-03-23 00:00:00'); /* Pressure Plate */
+VALUES (0x77E041B6, 72950, 0x7E0403BF, 189.998, -176.795, 0, 1, 0, 0, 0,  True, '2023-03-23 00:00:00'); /* Pressure Plate */
 /* @teleloc 0x7E0403BF [189.998001 -176.794998 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
