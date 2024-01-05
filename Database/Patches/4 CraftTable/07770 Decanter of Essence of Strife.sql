@@ -6,4 +6,4 @@ VALUES (7770, 0, 0, 0, 0, 32732 /* Decanter of Essence of Strife */, 1, 'The Cry
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7770;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7770, 19483 /* Decanter of Essence */, 32749 /* Crystallized Essence of Strife */, '2021-11-01 00:00:00');
+VALUES (7770, 19482 /* Enchanted Decanter */, 32749 /* Crystallized Essence of Strife */, '2021-11-01 00:00:00');
