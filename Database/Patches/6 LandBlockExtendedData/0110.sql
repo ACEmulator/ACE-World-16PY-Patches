@@ -49,63 +49,63 @@ VALUES (0x70110015,  2131, 0x01100133, 43, -133, -65.995, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x01100133 [43.000000 -133.000000 -65.995003] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110019,  4065, 0x01100192, 40, -130.016, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110019,  24170, 0x01100192, 40, -130.016, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.000000 -130.016006 -44.893299] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110019, 0x7011000D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011001A,  4065, 0x01100192, 40.034, -129.345, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011001A,  24170, 0x01100192, 40.034, -129.345, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.034000 -129.345001 -44.893299] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011001A, 0x7011000F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011001B,  4065, 0x01100192, 39.9759, -130.588, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011001B,  24170, 0x01100192, 39.9759, -130.588, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.975899 -130.587997 -44.893299] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011001B, 0x7011000E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011001C,  4065, 0x01100192, 39.29, -129.963, -44.8933, 0.998344, 0, 0, 0.057524, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011001C,  24170, 0x01100192, 39.29, -129.963, -44.8933, 0.998344, 0, 0, 0.057524, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.290001 -129.962997 -44.893299] 0.998344 0.000000 0.000000 0.057524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011001C, 0x70110011, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011001D,  4065, 0x01100192, 40.7154, -129.94, -44.8933, 0.772458, 0, 0, -0.635065, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011001D,  24170, 0x01100192, 40.7154, -129.94, -44.8933, 0.772458, 0, 0, -0.635065, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.715401 -129.940002 -44.893299] 0.772458 0.000000 0.000000 -0.635065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011001D, 0x70110010, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011001E,  4065, 0x01100192, 39.5244, -129.596, -44.8988, -0.950789, 0, 0, -0.309839, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011001E,  24170, 0x01100192, 39.5244, -129.596, -44.8988, -0.950789, 0, 0, -0.309839, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.524399 -129.595993 -44.898800] -0.950789 0.000000 0.000000 -0.309839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011001E, 0x70110012, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011001F,  4065, 0x01100192, 40.4433, -129.546, -44.9122, -0.95998, 0, 0, 0.280069, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011001F,  24170, 0x01100192, 40.4433, -129.546, -44.9122, -0.95998, 0, 0, 0.280069, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.443298 -129.546005 -44.912201] -0.959980 0.000000 0.000000 0.280069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011001F, 0x70110013, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110020,  4065, 0x01100192, 39.4785, -130.359, -44.8854, -0.919601, 0, 0, 0.392854, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110020,  24170, 0x01100192, 39.4785, -130.359, -44.8854, -0.919601, 0, 0, 0.392854, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.478500 -130.358994 -44.885399] -0.919601 0.000000 0.000000 0.392854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110020, 0x70110014, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110021,  4065, 0x01100192, 40.4672, -130.328, -44.9122, -0.663864, 0, 0, 0.747854, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110021,  24170, 0x01100192, 40.4672, -130.328, -44.9122, -0.663864, 0, 0, 0.747854, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.467201 -130.328003 -44.912201] -0.663864 0.000000 0.000000 0.747854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -148,63 +148,63 @@ VALUES (0x7011002B,  2131, 0x011001BD, 43, -133, -35.995, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x011001BD [43.000000 -133.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110036,  4065, 0x01100215, 39.2522, -130.101, -17.9178, 0.999834, 0, 0, -0.01822, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110036,  24170, 0x01100215, 39.2522, -130.101, -17.9178, 0.999834, 0, 0, -0.01822, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.252201 -130.100998 -17.917801] 0.999834 0.000000 0.000000 -0.018220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110036, 0x70110027, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110037,  4065, 0x01100215, 39.8198, -130.915, -17.9177, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110037,  24170, 0x01100215, 39.8198, -130.915, -17.9177, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.819801 -130.914993 -17.917700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110037, 0x70110024, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110038,  4065, 0x01100215, 39.9794, -130.222, -17.8642, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110038,  24170, 0x01100215, 39.9794, -130.222, -17.8642, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.979401 -130.222000 -17.864201] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110038, 0x70110023, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110039,  4065, 0x01100215, 40.0704, -129.438, -17.8509, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110039,  24170, 0x01100215, 40.0704, -129.438, -17.8509, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.070400 -129.438004 -17.850901] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110039, 0x70110025, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011003A,  4065, 0x01100215, 40.6287, -130.139, -17.8117, 0.999834, 0, 0, -0.01822, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011003A,  24170, 0x01100215, 40.6287, -130.139, -17.8117, 0.999834, 0, 0, -0.01822, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.628700 -130.139008 -17.811701] 0.999834 0.000000 0.000000 -0.018220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011003A, 0x70110026, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011003B,  4065, 0x01100215, 39.5626, -129.621, -17.927, -0.964117, 0, 0, -0.265476, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011003B,  24170, 0x01100215, 39.5626, -129.621, -17.927, -0.964117, 0, 0, -0.265476, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.562599 -129.621002 -17.927000] -0.964117 0.000000 0.000000 -0.265476 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011003B, 0x7011002A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011003C,  4065, 0x01100215, 40.5074, -129.705, -17.8468, -0.501663, 0, 0, 0.865063, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011003C,  24170, 0x01100215, 40.5074, -129.705, -17.8468, -0.501663, 0, 0, 0.865063, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.507401 -129.705002 -17.846800] -0.501663 0.000000 0.000000 0.865063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011003C, 0x70110028, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011003D,  4065, 0x01100215, 40.4308, -130.656, -17.9003, 0.542407, 0, 0, 0.840116, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011003D,  24170, 0x01100215, 40.4308, -130.656, -17.9003, 0.542407, 0, 0, 0.840116, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.430801 -130.656006 -17.900299] 0.542407 0.000000 0.000000 0.840116 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011003D, 0x70110029, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011003E,  4065, 0x01100215, 39.4119, -130.618, -17.8334, 0.762212, 0, 0, 0.647327, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011003E,  24170, 0x01100215, 39.4119, -130.618, -17.8334, 0.762212, 0, 0, 0.647327, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.411900 -130.617996 -17.833401] 0.762212 0.000000 0.000000 0.647327 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -251,63 +251,63 @@ VALUES (0x7011004F,  2131, 0x01100268, 43, -133, -5.995, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x01100268 [43.000000 -133.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110053,  4065, 0x01100284, 39.5402, -129.845, 9.59375, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110053,  24170, 0x01100284, 39.5402, -129.845, 9.59375, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [39.540199 -129.845001 9.593750] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110053, 0x70110047, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110054,  4065, 0x01100284, 40.8459, -129.942, 9.52688, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110054,  24170, 0x01100284, 40.8459, -129.942, 9.52688, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.845901 -129.942001 9.526880] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110054, 0x7011004A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110055,  4065, 0x01100284, 40.1783, -129.271, 9.52688, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110055,  24170, 0x01100284, 40.1783, -129.271, 9.52688, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.178299 -129.270996 9.526880] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110055, 0x70110049, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110056,  4065, 0x01100284, 40.1067, -130.45, 9.567, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110056,  24170, 0x01100284, 40.1067, -130.45, 9.567, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.106701 -130.449997 9.567000] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110056, 0x70110048, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110057,  4065, 0x01100284, 40.148, -129.789, 9.62049, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110057,  24170, 0x01100284, 40.148, -129.789, 9.62049, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.147999 -129.789001 9.620490] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110057, 0x7011004B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110058,  4065, 0x01100284, 39.6945, -129.489, 9.55944, 0.941437, 0, 0, 0.33719, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110058,  24170, 0x01100284, 39.6945, -129.489, 9.55944, 0.941437, 0, 0, 0.33719, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [39.694500 -129.488998 9.559440] 0.941437 0.000000 0.000000 0.337190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110058, 0x7011004C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70110059,  4065, 0x01100284, 40.7073, -129.495, 9.62631, 0.904038, 0, 0, -0.427453, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x70110059,  24170, 0x01100284, 40.7073, -129.495, 9.62631, 0.904038, 0, 0, -0.427453, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.707298 -129.494995 9.626310] 0.904038 0.000000 0.000000 -0.427453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70110059, 0x7011004D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011005A,  4065, 0x01100284, 39.6107, -130.237, 9.62632, 0.894133, 0, 0, -0.447801, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011005A,  24170, 0x01100284, 39.6107, -130.237, 9.62632, 0.894133, 0, 0, -0.447801, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [39.610699 -130.237000 9.626320] 0.894133 0.000000 0.000000 -0.447801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7011005A, 0x7011004E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011005B,  4065, 0x01100284, 40.5949, -130.257, 9.63969, 0.657206, 0, 0, -0.753711, False, '2005-02-09 10:00:00'); /* Lightning Trap */
+VALUES (0x7011005B,  24170, 0x01100284, 40.5949, -130.257, 9.63969, 0.657206, 0, 0, -0.753711, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.594898 -130.257004 9.639690] 0.657206 0.000000 0.000000 -0.753711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
