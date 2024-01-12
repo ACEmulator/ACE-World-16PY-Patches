@@ -447,7 +447,7 @@ VALUES (0x77E041AB, 72919, 0x7E0402B6, 190, -173.3, -5.4, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x7E0402B6 [190.000000 -173.300003 -5.400000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E041AB, 0x77E041B6, '2023-03-23 00:00:00') /* Pressure Plate (298) */;
+VALUES (0x77E041AB, 0x77E041B6, '2023-03-23 00:00:00') /* Pressure Plate (72950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E041AC, 72919, 0x7E0403BE, 190, -166.351, -5.4, 1, 0, 0, 0,  True, '2023-03-23 00:00:00'); /* Walkway */
