@@ -6,4 +6,4 @@ VALUES (7769, 0, 0, 0, 0, 32729 /* Decanter of Essence of Enchantment */, 1, 'Th
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7769;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7769, 19483 /* Decanter of Essence */, 32746 /* Crystallized Essence of Enchantment */, '2021-11-01 00:00:00');
+VALUES (7769, 19482 /* Enchanted Decanter */, 32746 /* Crystallized Essence of Enchantment */, '2021-11-01 00:00:00');
