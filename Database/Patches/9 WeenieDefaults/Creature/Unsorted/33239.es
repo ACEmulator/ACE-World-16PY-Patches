@@ -30,7 +30,7 @@ GotoSet: NormalOperation
         QuestSuccess:
             - InqEvent: WeakenedHarbingerPortal
                 EventSuccess:
-                    - TeleportTarget: 0x64470240 [49.914 -66.38 0.005] 1 0 0 0
+                    - TeleportTarget: 0x64460240 [49.914 -66.38 0.005] 1 0 0 0
                 EventFailure:
                     - Delay: 0.1, CastSpellInstant: 3920 - Tunnels to the Harbinger
         QuestFailure:
