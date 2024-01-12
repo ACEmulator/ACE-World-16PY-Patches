@@ -44,7 +44,8 @@ VALUES (87477,   5,  -0.033) /* ManaRate */
      , (87477,  62,    1.15) /* WeaponOffense */
      , (87477,  63,       1) /* DamageMod */
      , (87477, 136,    1.24) /* CriticalMultiplier */
-     , (87477, 147,    0.31) /* CriticalFrequency */;
+     , (87477, 147,    0.31) /* CriticalFrequency */
+     , (87477, 156,     0.1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87477,   1, 'Club of Remarkable Cunning') /* Name */
