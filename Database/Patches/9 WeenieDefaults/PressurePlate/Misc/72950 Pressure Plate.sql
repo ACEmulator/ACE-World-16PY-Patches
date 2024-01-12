@@ -20,6 +20,9 @@ VALUES (72950,   1, True ) /* Stuck */
      , (72950,  13, True ) /* Ethereal */
      , (72950,  18, True ) /* Visibility */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (72950,  11,     30) /* ResetInterval */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72950,   1, 'Pressure Plate') /* Name */;
 
