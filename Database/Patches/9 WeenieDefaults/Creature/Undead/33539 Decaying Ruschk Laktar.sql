@@ -37,7 +37,7 @@ VALUES (33539,   1,       5) /* HeartbeatInterval */
      , (33539,  13,     0.9) /* ArmorModVsSlash */
      , (33539,  14,     0.7) /* ArmorModVsPierce */
      , (33539,  15,     1.1) /* ArmorModVsBludgeon */
-     , (33539,  16,     0.9) /* ArmorModVsCold */
+     , (33539,  16,     0.8) /* ArmorModVsCold */
      , (33539,  17,     0.6) /* ArmorModVsFire */
      , (33539,  18,       1) /* ArmorModVsAcid */
      , (33539,  19,     0.8) /* ArmorModVsElectric */
@@ -45,21 +45,20 @@ VALUES (33539,   1,       5) /* HeartbeatInterval */
      , (33539,  34,       1) /* PowerupTime */
      , (33539,  36,       1) /* ChargeSpeed */
      , (33539,  39,     1.2) /* DefaultScale */
-     , (33539,  64,     0.1) /* ResistSlash */
-     , (33539,  65,     0.1) /* ResistPierce */
-     , (33539,  66,     0.3) /* ResistBludgeon */
-     , (33539,  67,     0.3) /* ResistFire */
-     , (33539,  68,     0.1) /* ResistCold */
-     , (33539,  69,     0.2) /* ResistAcid */
-     , (33539,  70,     0.1) /* ResistElectric */
+     , (33539,  64,     0.7) /* ResistSlash */
+     , (33539,  65,     0.7) /* ResistPierce */
+     , (33539,  66,     0.5) /* ResistBludgeon */
+     , (33539,  67,     0.8) /* ResistFire */
+     , (33539,  68,     0.5) /* ResistCold */
+     , (33539,  69,     0.4) /* ResistAcid */
+     , (33539,  70,     0.4) /* ResistElectric */
      , (33539,  71,       1) /* ResistHealthBoost */
      , (33539,  72,     0.5) /* ResistStaminaDrain */
      , (33539,  73,       1) /* ResistStaminaBoost */
      , (33539,  74,     0.5) /* ResistManaDrain */
      , (33539,  75,       1) /* ResistManaBoost */
      , (33539, 104,      10) /* ObviousRadarRange */
-     , (33539, 125,     0.5) /* ResistHealthDrain */
-     , (33539, 166,     0.2) /* ResistNether */;
+     , (33539, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33539,   1, 'Decaying Ruschk Laktar') /* Name */;
