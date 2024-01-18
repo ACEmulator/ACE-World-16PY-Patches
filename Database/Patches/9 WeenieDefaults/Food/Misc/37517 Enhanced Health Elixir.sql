@@ -10,7 +10,7 @@ VALUES (37517,   1,        128) /* ItemType - Misc */
      , (37517,   8,         45) /* Mass */
      , (37517,  11,        100) /* MaxStackSize */
      , (37517,  12,          1) /* StackSize */
-     , (37517,  13,        775) /* StackUnitEncumbrance */
+     , (37517,  13,         75) /* StackUnitEncumbrance */
      , (37517,  14,         45) /* StackUnitMass */
      , (37517,  15,       1000) /* StackUnitValue */
      , (37517,  16,          8) /* ItemUseable - Contained */
