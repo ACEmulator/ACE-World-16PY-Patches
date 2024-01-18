@@ -316,8 +316,7 @@ VALUES (0x7F93B15B, 0x7F93B192, '2023-04-09 17:44:47') /* Apostate Nexus Master 
      , (0x7F93B15B, 0x7F93B25C, '2023-04-09 17:44:47') /* Rock Wall (37569) */
      , (0x7F93B15B, 0x7F93B260, '2023-04-09 17:44:47') /* Rock Wall (37569) */
      , (0x7F93B15B, 0x7F93B26E, '2023-04-09 17:44:47') /* Rock Wall (37569) */
-     , (0x7F93B15B, 0x7F93B27C, '2023-04-09 17:44:47') /* Thick Rock Wall (51646) */
-     , (0x7F93B15B, 0x7F93B347, '2023-04-09 17:44:47') /* Visible Portalspace Anomaly (43248) */;
+     , (0x7F93B15B, 0x7F93B27C, '2023-04-09 17:44:47') /* Thick Rock Wall (51646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B192, 43260, 0xF93B0568, 101.268, 41.704, -33.971, 1, 0, 0, 0,  True, '2023-04-09 17:44:47'); /* Apostate Nexus Master */
@@ -382,10 +381,6 @@ VALUES (0x7F93B26E, 37569, 0xF93B018C, 154.13, 122.851, -88, -0.382683, 0, 0, -0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B27C, 51646, 0xF93B0127, 196.537, 165.258, -118, -0.382683, 0, 0, -0.92388,  True, '2023-04-09 17:44:47'); /* Thick Rock Wall */
 /* @teleloc 0xF93B0127 [196.537003 165.257996 -118.000000] -0.382683 0.000000 0.000000 -0.923880 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B347, 43248, 0xF93B0173, 161.541, 90.8996, -88.2098, -0.717658, 0, 0, -0.696396,  True, '2023-04-09 17:44:47'); /* Visible Portalspace Anomaly */
-/* @teleloc 0xF93B0173 [161.541000 90.899597 -88.209801] -0.717658 0.000000 0.000000 -0.696396 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B348, 15759, 0xF93B013A, 212.709, 189.185, -117.945, -0.384934, 0, 0, 0.922944, False, '2023-04-09 17:44:47'); /* Linkable Item Generator */
@@ -1174,7 +1169,7 @@ VALUES (0x7F93B42B, 87492, 0xF93B01A7, 188.84, 78.3727, -81.945, 0.04462, 0, 0, 
 /* @teleloc 0xF93B01A7 [188.839996 78.372704 -81.945000] 0.044620 0.000000 0.000000 0.999004 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B42C, 87492, 0xF93B0170, 177.809, 89.2336, -87.945, 0.661974, 0, 0, 0.749527, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B42C, 87500, 0xF93B0170, 177.809, 89.2336, -87.945, 0.661974, 0, 0, 0.749527, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B0170 [177.809006 89.233597 -87.945000] 0.661974 0.000000 0.000000 0.749527 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1198,31 +1193,31 @@ VALUES (0x7F93B431, 87492, 0xF93B017B, 165.048, 103.678, -87.945, -0.032737, 0, 
 /* @teleloc 0xF93B017B [165.048004 103.678001 -87.945000] -0.032737 0.000000 0.000000 0.999464 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B432, 87492, 0xF93B0173, 161.235, 90.7796, -87.945, 0.705155, 0, 0, 0.709053, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B432, 87500, 0xF93B0173, 161.235, 90.7796, -87.945, 0.705155, 0, 0, 0.709053, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B0173 [161.235001 90.779602 -87.945000] 0.705155 0.000000 0.000000 0.709053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B433, 87492, 0xF93B0177, 143.931, 85.31, -87.945, 0.998717, 0, 0, 0.050633, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B433, 87500, 0xF93B0177, 143.931, 85.31, -87.945, 0.998717, 0, 0, 0.050633, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B0177 [143.931000 85.309998 -87.945000] 0.998717 0.000000 0.000000 0.050633 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B434, 87492, 0xF93B0183, 144.439, 92.6186, -87.945, 0.877266, 0, 0, 0.480004, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B434, 87500, 0xF93B0183, 144.439, 92.6186, -87.945, 0.877266, 0, 0, 0.480004, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B0183 [144.438995 92.618599 -87.945000] 0.877266 0.000000 0.000000 0.480004 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B435, 87492, 0xF93B017A, 158.222, 98.3458, -87.945, -0.228683, 0, 0, -0.973501, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B435, 87500, 0xF93B017A, 158.222, 98.3458, -87.945, -0.228683, 0, 0, -0.973501, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B017A [158.222000 98.345802 -87.945000] -0.228683 0.000000 0.000000 -0.973501 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B436, 87492, 0xF93B0172, 157.679, 85.0245, -87.945, 0.997302, 0, 0, 0.073413, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B436, 87500, 0xF93B0172, 157.679, 85.0245, -87.945, 0.997302, 0, 0, 0.073413, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B0172 [157.679001 85.024498 -87.945000] 0.997302 0.000000 0.000000 0.073413 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B437, 87492, 0xF93B0185, 138.586, 107.294, -87.945, -0.37571, 0, 0, -0.926737, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B437, 87500, 0xF93B0185, 138.586, 107.294, -87.945, -0.37571, 0, 0, -0.926737, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B0185 [138.585999 107.293999 -87.945000] -0.375710 0.000000 0.000000 -0.926737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B438, 87492, 0xF93B018F, 124.068, 105.889, -87.945, 0.490295, 0, 0, -0.871557, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
+VALUES (0x7F93B438, 87500, 0xF93B018F, 124.068, 105.889, -87.945, 0.490295, 0, 0, -0.871557, False, '2023-04-09 17:44:47'); /* Gateway Gen */
 /* @teleloc 0xF93B018F [124.068001 105.889000 -87.945000] 0.490295 0.000000 0.000000 -0.871557 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1248,38 +1243,6 @@ VALUES (0x7F93B43D, 87497, 0xF93B03BF, 135.123, 102.435, -56.576, -0.382683, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B43E, 87498, 0xF93B03BF, 133.707, 103.851, -56.576, -0.382683, 0, 0, -0.92388, False, '2023-04-09 17:44:47'); /* Jester Hall Trap */
 /* @teleloc 0xF93B03BF [133.707001 103.850998 -56.576000] -0.382683 0.000000 0.000000 -0.923880 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B43F, 87500, 0xF93B03C9, 54.3196, 121.945, -57.94, 0.355594, 0, 0, 0.934641, False, '2023-04-09 17:44:47'); /* Gateway Gen */
-/* @teleloc 0xF93B03C9 [54.319599 121.945000 -57.939999] 0.355594 0.000000 0.000000 0.934641 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B445, 87492, 0xF93B0123, 160.749, 132.57, -117.945, 0.421442, 0, 0, 0.906856, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
-/* @teleloc 0xF93B0123 [160.748993 132.570007 -117.945000] 0.421442 0.000000 0.000000 0.906856 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B446, 87492, 0xF93B0124, 171.792, 136.829, -117.945, 0.403517, 0, 0, 0.914972, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
-/* @teleloc 0xF93B0124 [171.792007 136.828995 -117.945000] 0.403517 0.000000 0.000000 0.914972 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B447, 87492, 0xF93B0135, 166.903, 144.038, -117.945, 0.492846, 0, 0, 0.870117, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
-/* @teleloc 0xF93B0135 [166.903000 144.037994 -117.945000] 0.492846 0.000000 0.000000 0.870117 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B448, 87492, 0xF93B0125, 172.37, 147.443, -117.945, 0.414386, 0, 0, 0.910101, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
-/* @teleloc 0xF93B0125 [172.369995 147.442993 -117.945000] 0.414386 0.000000 0.000000 0.910101 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B449, 87492, 0xF93B0137, 181.61, 158.058, -117.945, -0.399229, 0, 0, -0.916851, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
-/* @teleloc 0xF93B0137 [181.610001 158.057999 -117.945000] -0.399229 0.000000 0.000000 -0.916851 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B44A, 87492, 0xF93B011D, 192.042, 146.65, -117.945, -0.442395, 0, 0, -0.89682, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
-/* @teleloc 0xF93B011D [192.042007 146.649994 -117.945000] -0.442395 0.000000 0.000000 -0.896820 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B44B, 87492, 0xF93B011B, 179.474, 136.034, -117.945, -0.39702, 0, 0, -0.91781, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Dungeon Bottom Generator */
-/* @teleloc 0xF93B011B [179.473999 136.033997 -117.945000] -0.397020 0.000000 0.000000 -0.917810 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B44C, 87055, 0xF93B0125, 179.581, 148.059, -117.945, -0.372136, 0, 0, -0.928178, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Master Gen */

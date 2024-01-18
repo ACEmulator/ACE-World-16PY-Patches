@@ -15,7 +15,7 @@ VALUES (87491,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87491,  41,     300) /* RegenerationInterval */
-     , (87491,  43,     1.5) /* GeneratorRadius */;
+     , (87491,  43,       1) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87491,   1, 'Empyrean Rescue Dungeon Lower Generator') /* Name */;
