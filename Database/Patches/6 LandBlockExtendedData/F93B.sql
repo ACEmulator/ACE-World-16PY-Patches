@@ -1169,7 +1169,7 @@ VALUES (0x7F93B42B, 87492, 0xF93B01A7, 188.84, 78.3727, -81.945, 0.04462, 0, 0, 
 /* @teleloc 0xF93B01A7 [188.839996 78.372704 -81.945000] 0.044620 0.000000 0.000000 0.999004 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B42C, 87500, 0xF93B0170, 177.809, 89.2336, -87.945, 0.661974, 0, 0, 0.749527, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B42C, 87500, 0xF93B0170, 177.809, 89.2336, -87.945, 0.661974, 0, 0, 0.749527, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B0170 [177.809006 89.233597 -87.945000] 0.661974 0.000000 0.000000 0.749527 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1193,31 +1193,31 @@ VALUES (0x7F93B431, 87492, 0xF93B017B, 165.048, 103.678, -87.945, -0.032737, 0, 
 /* @teleloc 0xF93B017B [165.048004 103.678001 -87.945000] -0.032737 0.000000 0.000000 0.999464 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B432, 87500, 0xF93B0173, 161.235, 90.7796, -87.945, 0.705155, 0, 0, 0.709053, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B432, 87500, 0xF93B0173, 161.235, 90.7796, -87.945, 0.705155, 0, 0, 0.709053, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B0173 [161.235001 90.779602 -87.945000] 0.705155 0.000000 0.000000 0.709053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B433, 87500, 0xF93B0177, 143.931, 85.31, -87.945, 0.998717, 0, 0, 0.050633, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B433, 87500, 0xF93B0177, 143.931, 85.31, -87.945, 0.998717, 0, 0, 0.050633, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B0177 [143.931000 85.309998 -87.945000] 0.998717 0.000000 0.000000 0.050633 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B434, 87500, 0xF93B0183, 144.439, 92.6186, -87.945, 0.877266, 0, 0, 0.480004, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B434, 87500, 0xF93B0183, 144.439, 92.6186, -87.945, 0.877266, 0, 0, 0.480004, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B0183 [144.438995 92.618599 -87.945000] 0.877266 0.000000 0.000000 0.480004 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B435, 87500, 0xF93B017A, 158.222, 98.3458, -87.945, -0.228683, 0, 0, -0.973501, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B435, 87500, 0xF93B017A, 158.222, 98.3458, -87.945, -0.228683, 0, 0, -0.973501, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B017A [158.222000 98.345802 -87.945000] -0.228683 0.000000 0.000000 -0.973501 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B436, 87500, 0xF93B0172, 157.679, 85.0245, -87.945, 0.997302, 0, 0, 0.073413, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B436, 87500, 0xF93B0172, 157.679, 85.0245, -87.945, 0.997302, 0, 0, 0.073413, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B0172 [157.679001 85.024498 -87.945000] 0.997302 0.000000 0.000000 0.073413 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B437, 87500, 0xF93B0185, 138.586, 107.294, -87.945, -0.37571, 0, 0, -0.926737, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B437, 87500, 0xF93B0185, 138.586, 107.294, -87.945, -0.37571, 0, 0, -0.926737, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B0185 [138.585999 107.293999 -87.945000] -0.375710 0.000000 0.000000 -0.926737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B438, 87500, 0xF93B018F, 124.068, 105.889, -87.945, 0.490295, 0, 0, -0.871557, False, '2023-04-09 17:44:47'); /* Gateway Gen */
+VALUES (0x7F93B438, 87500, 0xF93B018F, 124.068, 105.889, -87.945, 0.490295, 0, 0, -0.871557, False, '2023-04-09 17:44:47'); /* Empyrean Rescue Bottom Anomaly Gen */
 /* @teleloc 0xF93B018F [124.068001 105.889000 -87.945000] 0.490295 0.000000 0.000000 -0.871557 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
