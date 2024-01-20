@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72574;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72574, 'ace72574-sarcophagusguardsgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72574, 'ace72574-sarcophagusguardsgen', 1, '2024-01-20 19:21:17') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72574,  66,          1) /* CheckpointStatus */
@@ -36,9 +36,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72574, 0.2, 46499, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Archer (46499) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72574, 0.4, 46501, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Archer (46501) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72574, 0.6, 46503, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Archer (46503) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72574, 0.8, 46505, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Archer (46505) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72574, 0.9, 46511, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Bloodmage (46511) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (72574, 1, 46688, 180, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Voidmage (46688) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (72574, -1, 52292, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Voidmage (52292) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (72574, -1, 52293, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Bloodmage (52293) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

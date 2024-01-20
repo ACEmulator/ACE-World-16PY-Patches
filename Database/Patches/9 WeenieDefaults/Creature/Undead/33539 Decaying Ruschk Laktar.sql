@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33539;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33539, 'ace33539-decayingruschklaktar', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (33539, 'ace33539-decayingruschklaktar', 10, '2024-01-20 19:21:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33539,   1,         16) /* ItemType - Creature */
@@ -37,7 +37,7 @@ VALUES (33539,   1,       5) /* HeartbeatInterval */
      , (33539,  13,     0.9) /* ArmorModVsSlash */
      , (33539,  14,     0.7) /* ArmorModVsPierce */
      , (33539,  15,     1.1) /* ArmorModVsBludgeon */
-     , (33539,  16,     0.9) /* ArmorModVsCold */
+     , (33539,  16,     0.8) /* ArmorModVsCold */
      , (33539,  17,     0.6) /* ArmorModVsFire */
      , (33539,  18,       1) /* ArmorModVsAcid */
      , (33539,  19,     0.8) /* ArmorModVsElectric */
@@ -45,21 +45,20 @@ VALUES (33539,   1,       5) /* HeartbeatInterval */
      , (33539,  34,       1) /* PowerupTime */
      , (33539,  36,       1) /* ChargeSpeed */
      , (33539,  39,     1.2) /* DefaultScale */
-     , (33539,  64,     0.1) /* ResistSlash */
-     , (33539,  65,     0.1) /* ResistPierce */
-     , (33539,  66,     0.3) /* ResistBludgeon */
-     , (33539,  67,     0.3) /* ResistFire */
-     , (33539,  68,     0.1) /* ResistCold */
-     , (33539,  69,     0.2) /* ResistAcid */
-     , (33539,  70,     0.1) /* ResistElectric */
+     , (33539,  64,     0.7) /* ResistSlash */
+     , (33539,  65,     0.7) /* ResistPierce */
+     , (33539,  66,     0.5) /* ResistBludgeon */
+     , (33539,  67,     0.8) /* ResistFire */
+     , (33539,  68,     0.5) /* ResistCold */
+     , (33539,  69,     0.4) /* ResistAcid */
+     , (33539,  70,     0.4) /* ResistElectric */
      , (33539,  71,       1) /* ResistHealthBoost */
      , (33539,  72,     0.5) /* ResistStaminaDrain */
      , (33539,  73,       1) /* ResistStaminaBoost */
      , (33539,  74,     0.5) /* ResistManaDrain */
      , (33539,  75,       1) /* ResistManaBoost */
      , (33539, 104,      10) /* ObviousRadarRange */
-     , (33539, 125,     0.5) /* ResistHealthDrain */
-     , (33539, 166,     0.2) /* ResistNether */;
+     , (33539, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33539,   1, 'Decaying Ruschk Laktar') /* Name */;
@@ -111,15 +110,15 @@ VALUES (33539,  4, 0, 3, 0, 290, 0, 0) /* Dagger              Specialized */
      , (33539, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (33539,  0,  4,  0,    0,  450,  405,  315,  495,  405,  270,  450,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (33539,  1,  4,  0,    0,  450,  405,  315,  495,  405,  270,  450,  360,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (33539,  2,  4,  0,    0,  450,  405,  315,  495,  405,  270,  450,  360,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (33539,  3,  4,  0,    0,  450,  405,  315,  495,  405,  270,  450,  360,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (33539,  4,  4,  0,    0,  450,  405,  315,  495,  405,  270,  450,  360,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (33539,  5,  4, 60,  0.5,  450,  405,  315,  495,  405,  270,  450,  360,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (33539,  6,  4,  0,    0,  450,  405,  315,  495,  405,  270,  450,  360,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (33539,  7,  4,  0,    0,  450,  405,  315,  495,  405,  270,  450,  360,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (33539,  8,  4, 50,  0.4,  450,  405,  315,  495,  405,  270,  450,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (33539,  0,  4,  0,    0,  450,  405,  315,  495,  360,  270,  450,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (33539,  1,  4,  0,    0,  450,  405,  315,  495,  360,  270,  450,  360,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (33539,  2,  4,  0,    0,  450,  405,  315,  495,  360,  270,  450,  360,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (33539,  3,  4,  0,    0,  450,  405,  315,  495,  360,  270,  450,  360,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (33539,  4,  4,  0,    0,  450,  405,  315,  495,  360,  270,  450,  360,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (33539,  5,  4, 60,  0.5,  450,  405,  315,  495,  360,  270,  450,  360,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (33539,  6,  4,  0,    0,  450,  405,  315,  495,  360,  270,  450,  360,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (33539,  7,  4,  0,    0,  450,  405,  315,  495,  360,  270,  450,  360,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (33539,  8,  4, 50,  0.4,  450,  405,  315,  495,  360,  270,  450,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33539,  1053,   2.02)  /* Bludgeoning Vulnerability Other VI */

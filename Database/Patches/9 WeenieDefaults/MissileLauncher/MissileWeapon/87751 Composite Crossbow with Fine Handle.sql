@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87751;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87751, 'ace87751-compositecrossbowwithfinehandle', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
+VALUES (87751, 'ace87751-compositecrossbowwithfinehandle', 3, '2024-01-20 19:21:17') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87751,   1,        256) /* ItemType - MissileWeapon */
      , (87751,   3,         20) /* PaletteTemplate - Silver */
-     , (87751,   5,       1200) /* EncumbranceVal */
+     , (87751,   5,       1500) /* EncumbranceVal */
      , (87751,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (87751,  16,          1) /* ItemUseable - No */
      , (87751,  18,          1) /* UiEffects - Magical */
@@ -16,22 +16,22 @@ VALUES (87751,   1,        256) /* ItemType - MissileWeapon */
      , (87751,  45,          0) /* DamageType - Undef */
      , (87751,  46,         32) /* DefaultCombatStyle - Crossbow */
      , (87751,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (87751,  49,         60) /* WeaponTime */
+     , (87751,  49,         80) /* WeaponTime */
      , (87751,  50,          2) /* AmmoType - Bolt */
      , (87751,  51,          2) /* CombatUse - Missile */
      , (87751,  52,          2) /* ParentLocation - LeftHand */
      , (87751,  53,          3) /* PlacementPosition - LeftHand */
      , (87751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87751, 106,        400) /* ItemSpellcraft */
-     , (87751, 107,          0) /* ItemCurMana */
-     , (87751, 108,       1000) /* ItemMaxMana */
-     , (87751, 109,        225) /* ItemDifficulty */
+     , (87751, 106,        313) /* ItemSpellcraft */
+     , (87751, 107,        800) /* ItemCurMana */
+     , (87751, 108,        800) /* ItemMaxMana */
+     , (87751, 109,        190) /* ItemDifficulty */
      , (87751, 114,          1) /* Attuned - Attuned */
      , (87751, 150,        103) /* HookPlacement - Hook */
      , (87751, 151,          2) /* HookType - Wall */
      , (87751, 158,          2) /* WieldRequirements - RawSkill */
      , (87751, 159,         47) /* WieldSkillType - MissileWeapons */
-     , (87751, 160,        335) /* WieldDifficulty */
+     , (87751, 160,        305) /* WieldDifficulty */
      , (87751, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,7 +43,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87751,   5,   -0.05) /* ManaRate */
      , (87751,  12,     0.5) /* Shade */
      , (87751,  26,    27.3) /* MaximumVelocity */
-     , (87751,  29,    1.15) /* WeaponDefense */
+     , (87751,  29,   1.135) /* WeaponDefense */
      , (87751,  62,     1.1) /* WeaponOffense */
      , (87751,  63,    2.75) /* DamageMod */
      , (87751, 136,       3) /* CriticalMultiplier */
@@ -63,7 +63,7 @@ VALUES (87751,   1, 0x02000874) /* Setup */
      , (87751,  55,       2100) /* ProcSpell - Tattercoat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (87751,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (87751,  2101,      2)  /* Aura of Cragstone's Will */
      , (87751,  2058,      2)  /* Boon of Refinement */
      , (87751,  2096,      2)  /* Aura of Infected Caress */
      , (87751,  2116,      2)  /* Aura of Atlan's Alacrity */

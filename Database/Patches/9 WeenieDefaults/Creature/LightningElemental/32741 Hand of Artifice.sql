@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32741;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32741, 'ace32741-handofartifice', 10, '2023-05-15 03:25:02') /* Creature */;
+VALUES (32741, 'ace32741-handofartifice', 10, '2024-01-20 19:21:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32741,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,7 @@ VALUES (32741,   1, 0x02000D60) /* Setup */
      , (32741,   6, 0x0400007E) /* PaletteBase */
      , (32741,   7, 0x100003CF) /* ClothingBase */
      , (32741,   8, 0x06001C75) /* Icon */
-     , (32741,  22, 0x34000075) /* PhysicsEffectTable */
-     , (32741,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
+     , (32741,  22, 0x34000075) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32741,   1, 400, 0, 0) /* Strength */

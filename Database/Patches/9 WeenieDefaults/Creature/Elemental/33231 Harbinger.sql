@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33231;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33231, 'ace33231-harbinger', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (33231, 'ace33231-harbinger', 10, '2024-01-20 19:21:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33231,   1,         16) /* ItemType - Creature */
@@ -15,9 +15,11 @@ VALUES (33231,   1,         16) /* ItemType - Creature */
      , (33231,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (33231,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */
      , (33231,  72,         62) /* FriendType - Elemental */
+     , (33231,  81,          4) /* MaxGeneratedObjects */
+     , (33231,  82,          0) /* InitGeneratedObjects */
      , (33231,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33231, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
-     , (33231, 103,          0) /* GeneratorDestructionType - Undef */
+     , (33231, 103,          2) /* GeneratorDestructionType - Destroy */
      , (33231, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33231, 146,    4000000) /* XpOverride */;
 
@@ -44,6 +46,8 @@ VALUES (33231,   1,       5) /* HeartbeatInterval */
      , (33231,  34,     0.3) /* PowerupTime */
      , (33231,  36,       1) /* ChargeSpeed */
      , (33231,  39,       3) /* DefaultScale */
+     , (33231,  41,       0) /* RegenerationInterval */
+     , (33231,  43,       8) /* GeneratorRadius */
      , (33231,  64,    0.45) /* ResistSlash */
      , (33231,  65,    0.45) /* ResistPierce */
      , (33231,  66,    0.45) /* ResistBludgeon */
@@ -97,8 +101,8 @@ VALUES (33231,  6, 0, 3, 0,  19, 0, 0) /* MeleeDefense        Specialized */
      , (33231,  7, 0, 3, 0, 270, 0, 0) /* MissileDefense      Specialized */
      , (33231, 15, 0, 3, 0, 185, 0, 0) /* MagicDefense        Specialized */
      , (33231, 16, 0, 3, 0, 350, 0, 0) /* ManaConversion      Specialized */
-     , (33231, 22, 0, 3, 0, 100, 0, 0) /* Jump                Specialized */
-     , (33231, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
+     , (33231, 22, 0, 3, 0,  10, 0, 0) /* Jump                Specialized */
+     , (33231, 24, 0, 3, 0,  10, 0, 0) /* Run                 Specialized */
      , (33231, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
      , (33231, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
      , (33231, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
@@ -152,26 +156,16 @@ VALUES (33231,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  24 /* StopEvent */, 0, 1, NULL, 'EmpoweredEssencesGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  24 /* StopEvent */, 0, 1, NULL, 'EmpoweredHandsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1637 /* Summon Primary Portal III */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  17 /* LocalBroadcast */, 0, 0, NULL, '"It cannot be. I am the well of world blood given consciousness, your blades should not matter. It will not claim me. I am not of darkness borne. I will not fall to darkness. He means to cage me within his tomb of corruption. No! I will stand again, you cannot contain what I am!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1637 /* Summon Primary Portal III */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, '"It cannot be. I am the well of world blood given consciousness, your blades should not matter. It will not claim me. I am not of darkness borne. I will not fall to darkness. He means to cage me within his tomb of corruption. No! I will stand again, you cannot contain what I am!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33231, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.49, 0.5);
+VALUES (33231, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.45, 0.5);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'EmpoweredEssencesGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33231, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.99, 1);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'EmpoweredHandsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33231, 16 /* KillTaunt */,    0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -198,23 +192,29 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"Another victim fallen into the stream that floods this world in form. You are no more. Not possible, I sense that your form returns. Perhaps the same will be of mine."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+VALUES (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (33231, 9, 33228,  0, 0, 1, False) /* Create Harbinger Arm Token (33228) for ContainTreasure */
+     , (33231, 9, 33233,  0, 0, 1, False) /* Create Harbinger Arm Token (33233) for ContainTreasure */
      , (33231, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (33231, -1, 33219, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Enchantment (33219) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (33231, -1, 33222, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Strife (33222) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (33231, -1, 33220, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Artifice (33220) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (33231, -1, 33221, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Verdancy (33221) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

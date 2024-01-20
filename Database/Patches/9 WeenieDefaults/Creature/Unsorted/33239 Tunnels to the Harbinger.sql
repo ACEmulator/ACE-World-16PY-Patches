@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33239;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33239, 'ace33239-tunnelstotheharbinger', 10, '2023-08-16 16:16:56') /* Creature */;
+VALUES (33239, 'ace33239-tunnelstotheharbinger', 10, '2024-01-20 19:21:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33239,   1,         16) /* ItemType - Creature */
@@ -158,7 +158,7 @@ VALUES (33239, 27 /* EventSuccess */,      1, NULL, NULL, NULL, 'WeakenedHarbing
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  99 /* TeleportTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x64470240 /* @teleloc 0x64470240 [49.914001 -66.379997 0.005000] 1.000000 0.000000 0.000000 0.000000 */, 49.914, -66.38, 0.005, 1, 0, 0, 0);
+VALUES (@parent_id,  0,  99 /* TeleportTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x64460240 /* @teleloc 0x64460240 [49.914001 -66.379997 0.005000] 1.000000 0.000000 0.000000 0.000000 */, 49.914, -66.38, 0.005, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33239, 28 /* EventFailure */,      1, NULL, NULL, NULL, 'WeakenedHarbingerPortal', NULL, NULL, NULL);

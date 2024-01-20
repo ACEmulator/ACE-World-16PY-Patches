@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87490;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87490, 'ace87490-empyreanrescuedungeonuppergenerator', 1, '2022-10-19 15:43:32') /* Generic */;
+VALUES (87490, 'ace87490-empyreanrescuedungeonuppergenerator', 1, '2024-01-20 19:21:17') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87490,  81,          1) /* MaxGeneratedObjects */
@@ -15,7 +15,7 @@ VALUES (87490,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87490,  41,     300) /* RegenerationInterval */
-     , (87490,  43,       3) /* GeneratorRadius */;
+     , (87490,  43,       1) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87490,   1, 'Empyrean Rescue Dungeon Upper Generator') /* Name */;

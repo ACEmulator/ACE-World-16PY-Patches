@@ -108,7 +108,7 @@ GotoSet: Reward
     - Delay: 1, Tell: I hope this'll do for compensation for your skills and time.  If you're interested, I'll be able to reward you for your assistance again in a day.
     - Delay: 1, Tell: Also, one of my researchers, a female A'nekshay named Shah-hi, is camped out next to a dig site in the Vesayen Isles, at 77.7S, 97.0E.  She's sent me some disturbing reports of issues at her dig site, and I'm sure she'd appreciate the help.
     - StampQuest: LostLorePageCompleted_0712
-    - AwardXP: 190,000,000
+    - AwardNoShareXP: 190,000,000
     - AwardLuminance: 18,000
     - Give: 48747
     - Give: 20630, 6

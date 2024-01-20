@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87054;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87054, 'ace87054-empyreanrescuecontroller', 10, '2023-04-09 17:44:47') /* Creature */;
+VALUES (87054, 'ace87054-empyreanrescuecontroller', 10, '2024-01-20 19:21:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87054,   1,         16) /* ItemType - Creature */
@@ -46,7 +46,7 @@ VALUES (87054,   1,       5) /* HeartbeatInterval */
      , (87054,  31,      23) /* VisualAwarenessRange */
      , (87054,  34,       3) /* PowerupTime */
      , (87054,  36,       1) /* ChargeSpeed */
-     , (87054,  41,       5) /* RegenerationInterval */
+     , (87054,  41,      30) /* RegenerationInterval */
      , (87054,  43,       0) /* GeneratorRadius */
      , (87054,  64,    0.66) /* ResistSlash */
      , (87054,  65,    0.85) /* ResistPierce */
@@ -120,8 +120,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  77 /* DeleteSelf */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87054, -1, 87053, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Armored Guardian Gen (87053) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87054, -1, 87493, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Undead Commander Gen (87493) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87054, -1, 87494, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Filinuvekta Gen (87494) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87054, -1, 87495, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Engorged Bloodstone Gen (87495) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87054, -1, 87504, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Quest Stopgap (87504) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87054, -1, 87053, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Armored Guardian Gen (87053) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87054, -1, 87493, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Undead Commander Gen (87493) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87054, -1, 87494, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Filinuvekta Gen (87494) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87054, -1, 87495, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Engorged Bloodstone Gen (87495) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87054, -1, 87504, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Empyrean Rescue Quest Stopgap (87504) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
