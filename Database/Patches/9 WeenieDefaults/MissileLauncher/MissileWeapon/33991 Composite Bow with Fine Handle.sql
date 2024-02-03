@@ -11,7 +11,6 @@ VALUES (33991,   1,        256) /* ItemType - MissileWeapon */
      , (33991,  16,          1) /* ItemUseable - No */
      , (33991,  18,          1) /* UiEffects - Magical */
      , (33991,  19,        400) /* Value */
-     , (33991,  33,          1) /* Bonded - Bonded */
      , (33991,  44,          4) /* Damage */
      , (33991,  45,          0) /* DamageType - Undef */
      , (33991,  46,         16) /* DefaultCombatStyle - Bow */
