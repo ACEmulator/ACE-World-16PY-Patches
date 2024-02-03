@@ -26,7 +26,6 @@ VALUES (33990,   1,        256) /* ItemType - MissileWeapon */
      , (33990, 107,          0) /* ItemCurMana */
      , (33990, 108,       1000) /* ItemMaxMana */
      , (33990, 109,        225) /* ItemDifficulty */
-     , (33990, 114,          1) /* Attuned - Attuned */
      , (33990, 150,        103) /* HookPlacement - Hook */
      , (33990, 151,          2) /* HookType - Wall */
      , (33990, 158,          2) /* WieldRequirements - RawSkill */
@@ -36,8 +35,7 @@ VALUES (33990,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33990,  22, True ) /* Inscribable */
-     , (33990,  23, True ) /* DestroyOnSell */
-     , (33990,  99, True ) /* Ivoryable */;
+     , (33990,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33990,   5,   -0.05) /* ManaRate */
