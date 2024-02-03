@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87749;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87749, 'ace87749-compositeatlatlwithsuperbhandle', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
+VALUES (87749, 'ace87749-compositeatlatlwithsuperbhandle', 3, '2024-02-03 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87749,   1,        256) /* ItemType - MissileWeapon */
@@ -24,7 +24,6 @@ VALUES (87749,   1,        256) /* ItemType - MissileWeapon */
      , (87749, 107,          0) /* ItemCurMana */
      , (87749, 108,       1000) /* ItemMaxMana */
      , (87749, 109,        225) /* ItemDifficulty */
-     , (87749, 114,          1) /* Attuned - Attuned */
      , (87749, 150,        103) /* HookPlacement - Hook */
      , (87749, 151,          2) /* HookType - Wall */
      , (87749, 158,          2) /* WieldRequirements - RawSkill */
@@ -34,8 +33,7 @@ VALUES (87749,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87749,  22, True ) /* Inscribable */
-     , (87749,  23, True ) /* DestroyOnSell */
-     , (87749,  99, True ) /* Ivoryable */;
+     , (87749,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87749,   5,   -0.05) /* ManaRate */
