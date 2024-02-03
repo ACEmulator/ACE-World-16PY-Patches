@@ -11,7 +11,6 @@ VALUES (87750,   1,        256) /* ItemType - MissileWeapon */
      , (87750,  16,          1) /* ItemUseable - No */
      , (87750,  18,          1) /* UiEffects - Magical */
      , (87750,  19,        400) /* Value */
-     , (87750,  33,          1) /* Bonded - Bonded */
      , (87750,  44,         10) /* Damage */
      , (87750,  45,          0) /* DamageType - Undef */
      , (87750,  46,       1024) /* DefaultCombatStyle - Atlatl */
