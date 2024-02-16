@@ -56,6 +56,14 @@ Give: Monster Pitcher Plant (70030)
     - Delay: 1, Tell: There you are!
     - Delay: 1, Give: Fertilized Pitcher Plant (31757)
 
+Refuse: Pitcher Plant (31682)
+    - TurnToTarget
+    - Tell: Ahh ... the pure beauty of nature!
+
+Refuse: Small Pitcher Plant (88472)
+    - TurnToTarget
+    - Tell: Ahh ... the pure beauty of nature!
+
 Use:
     - TurnToTarget
     - Tell: If you bring me five of the yellow monster seeds, I will do my best to cultivate one of them for you. Then you can have your very own Pitcher Plant!

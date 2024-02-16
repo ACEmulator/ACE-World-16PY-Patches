@@ -49,6 +49,14 @@ Refuse: Yellow Monster Seed (31686)
     - TurnToTarget
     - Tell: Hmph. No, no, this is not what I want. I think my friend Sara Sen in Mayoi might be interested in this, though.
 
+Refuse: Sundew (31683)
+    - TurnToTarget
+    - Tell: Ahh ... the pure beauty of nature!
+
+Refuse: Small Sundew (88473)
+    - TurnToTarget
+    - Tell: Ahh ... the pure beauty of nature!
+
 Give: Monster Sundew (70029)
     - TurnToTarget
     - Tell: Look at that! What a beauty!

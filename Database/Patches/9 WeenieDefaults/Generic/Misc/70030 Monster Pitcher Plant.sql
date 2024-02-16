@@ -17,9 +17,6 @@ VALUES (70030,  11, True ) /* IgnoreCollisions */
      , (70030,  14, True ) /* GravityStatus */
      , (70030,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70030,  39,     0.5) /* DefaultScale */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70030,   1, 'Monster Pitcher Plant') /* Name */
      , (70030,  16, 'A *MONSTER* Pitcher Plant. It twitches gently as you watch it, but it seems ... sated. Thank goodness for that -- it could eat you whole!') /* LongDesc */;

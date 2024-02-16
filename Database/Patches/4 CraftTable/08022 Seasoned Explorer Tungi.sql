@@ -6,4 +6,4 @@ VALUES (8022, 0, 0, 0, 0, 70245 /* Seasoned Explorer Tungi */, 1, 'You place the
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8022;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8022, 45983 /* Explorer Finesse Weapons Gem */, 70192 /* Seasoned Explorer Axe Cast */, '2021-11-01 00:00:00');
+VALUES (8022, 45983 /* Explorer Finesse Weapons Gem */, 45982 /* Seasoned Explorer Axe Cast */, '2021-11-01 00:00:00');
