@@ -1,11 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9146;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9146, 'tumerokvanguardleadersouth', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (9146, 'tumerokvanguardleadersouth', 10, '2024-02-17 02:39:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9146,   1,         16) /* ItemType - Creature */
      , (9146,   2,          6) /* CreatureType - Tumerok */
+     , (9146,   3,         12) /* PaletteTemplate - Navy */
      , (9146,   6,         -1) /* ItemsCapacity */
      , (9146,   7,         -1) /* ContainersCapacity */
      , (9146,  16,          1) /* ItemUseable - No */
@@ -33,6 +34,7 @@ VALUES (9146,   1,       5) /* HeartbeatInterval */
      , (9146,   3,     0.5) /* HealthRate */
      , (9146,   4,     0.5) /* StaminaRate */
      , (9146,   5,       2) /* ManaRate */
+     , (9146,  12,   0.571) /* Shade */
      , (9146,  13,       1) /* ArmorModVsSlash */
      , (9146,  14,       1) /* ArmorModVsPierce */
      , (9146,  15,       1) /* ArmorModVsBludgeon */
@@ -69,30 +71,9 @@ VALUES (9146,   1, 0x02001401) /* Setup */
      , (9146,   3, 0x20000013) /* SoundTable */
      , (9146,   4, 0x3000000C) /* CombatTable */
      , (9146,   6, 0x04001E51) /* PaletteBase */
+     , (9146,   7, 0x1000061E) /* ClothingBase */
      , (9146,   8, 0x0600103C) /* Icon */
      , (9146,  22, 0x34000026) /* PhysicsEffectTable */
-     , (9146,  32,        203) /* WieldedTreasureType - 
-                                   # Set: 1
-                                   |  20.00% chance of Yumi (23734)
-                                   |         with
-                                   |            100.00% chance of 18x to 20x Deadly Arrow (15429) | StackSizeVariance: 0.1
-                                   |  40.00% chance of Heavy Crossbow (23665)
-                                   |         with
-                                   |            100.00% chance of 18x to 20x Deadly Quarrel (15438) | StackSizeVariance: 0.1
-                                   |  40.00% chance of nothing from this set
-                                   # Set: 2
-                                   |  12.00% chance of Katar (23674)
-                                   |  12.00% chance of Cestus (23637)
-                                   |  12.00% chance of Nekode (23680)
-                                   |  12.00% chance of Tachi (23700)
-                                   |  12.00% chance of Spear (23696)
-                                   |  12.00% chance of Fire Yaoji (23718)
-                                   |  12.00% chance of Yaoji (23710)
-                                   |  12.00% chance of Fire Tachi (23707)
-                                   |   4.00% chance of nothing from this set
-                                   # Set: 3
-                                   |  75.00% chance of Kite Shield (23684)
-                                   |  25.00% chance of nothing from this set */
      , (9146,  35,        204) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -124,15 +105,15 @@ VALUES (9146,  6, 0, 2, 0, 100, 0, 0) /* MeleeDefense        Trained */
      , (9146, 47, 0, 2, 0,  95, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (9146,  0,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (9146,  1,  4,  0,    0,  125,  125,  125,  125,  125,  125,  125,  125,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (9146,  2,  4,  0,    0,  125,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (9146,  3,  4,  0,    0,  125,  125,  125,  125,  125,  125,  125,  125,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (9146,  4,  4,  0,    0,  125,  125,  125,  125,  125,  125,  125,  125,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (9146,  5,  4,  5, 0.75,  125,  125,  125,  125,  125,  125,  125,  125,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (9146,  6,  4,  0,    0,  125,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (9146,  7,  4,  0,    0,  125,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (9146,  8,  4,  5, 0.75,  125,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (9146,  0,  4,  0,    0,  120,   60,   60,   60,   60,   60,   60,   60,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (9146,  1,  4,  0,    0,  125,   62,   62,   62,   62,   62,   62,   62,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (9146,  2,  4,  0,    0,  125,   62,   62,   62,   62,   62,   62,   62,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (9146,  3,  4,  0,    0,  125,   62,   62,   62,   62,   62,   62,   62,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (9146,  4,  4,  0,    0,  125,   62,   62,   62,   62,   62,   62,   62,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (9146,  5,  4,  5, 0.75,  125,   62,   62,   62,   62,   62,   62,   62,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (9146,  6,  4,  0,    0,  125,   62,   62,   62,   62,   62,   62,   62,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (9146,  7,  4,  0,    0,  125,   62,   62,   62,   62,   62,   62,   62,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (9146,  8,  4,  5, 0.75,  125,   62,   62,   62,   62,   62,   62,   62,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9146,    62,   2.04)  /* Acid Stream V */
@@ -165,12 +146,9 @@ VALUES (9146,    62,   2.04)  /* Acid Stream V */
      , (9146,  1199,  2.023)  /* Enfeeble Other V */
      , (9146,  1223,  2.023)  /* Mana Drain Other V */;
 
-INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (9146,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (9146, 414) /* PLAYER_DEATH_EVENT */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9146, 2,  9137,  0, 0, 1, False) /* Create Vanguard Leader's Crossbow (9137) for Wield */
-     , (9146, 2,   305,  1, 0, 1, False) /* Create Quarrel (305) for Wield */
+     , (9146, 2,  5315,  1, 0, 1, False) /* Create Greater Frost Quarrel (5315) for Wield */
      , (9146, 9,  9136,  0, 0, 1, False) /* Create Vanguard Leader's Amulet (9136) for ContainTreasure */
-     , (9146, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
+     , (9146, 9,  9137,  0, 0, 1, False) /* Create Vanguard Leader's Crossbow (9137) for ContainTreasure */
+     , (9146, 9, 43419,  0, 0, 1, False) /* Create  (43419) for ContainTreasure */;
