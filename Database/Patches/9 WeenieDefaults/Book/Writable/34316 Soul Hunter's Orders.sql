@@ -7,7 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34316,   1,       8192) /* ItemType - Writable */
      , (34316,   5,        100) /* EncumbranceVal */
      , (34316,  16,          8) /* ItemUseable - Contained */
-     , (34316,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34316,  19,          0) /* Value */
+     , (34316,  33,          1) /* Bonded - Bonded */
+     , (34316,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34316, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34316,  39,    1.22) /* DefaultScale */

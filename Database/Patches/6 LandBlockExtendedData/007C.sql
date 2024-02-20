@@ -89,7 +89,7 @@ VALUES (0x7007C049, 34320, 0x007C02B8, 108, -70, -0.063, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x007C02B8 [108.000000 -70.000000 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007C04A,  4219, 0x007C0239, 0.226816, -170.121, -6, 0.726231, 0, 0, -0.687451, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x7007C04A,  7924, 0x007C0239, 0.226816, -170.121, -6, 0.726231, 0, 0, -0.687451, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x007C0239 [0.226816 -170.121002 -6.000000] 0.726231 0.000000 0.000000 -0.687451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -114,7 +114,39 @@ VALUES (0x7007C04A, 0x7007C04B, '2021-11-01 00:00:00') /* Faisi Disciple (34312)
      , (0x7007C04A, 0x7007C05E, '2021-11-01 00:00:00') /* Chomu Disciple (34314) */
      , (0x7007C04A, 0x7007C05F, '2021-11-01 00:00:00') /* Soul Hunter (34315) */
      , (0x7007C04A, 0x7007C060, '2021-11-01 00:00:00') /* Essa Soul Harrier (34311) */
-     , (0x7007C04A, 0x7007C061, '2021-11-01 00:00:00') /* Essa Soul Harrier (34311) */;
+     , (0x7007C04A, 0x7007C061, '2021-11-01 00:00:00') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C072, '2024-01-27 10:00:26') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C073, '2024-01-27 10:01:12') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C074, '2024-01-27 10:01:56') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C075, '2024-01-27 10:02:57') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C076, '2024-01-27 10:03:12') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C077, '2024-01-27 10:04:13') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C078, '2024-01-27 10:05:10') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C079, '2024-01-27 10:07:23') /* Aste Soul Harrier (34313) */
+     , (0x7007C04A, 0x7007C07A, '2024-01-27 10:07:27') /* Aste Soul Harrier (34313) */
+     , (0x7007C04A, 0x7007C07B, '2024-01-27 10:08:19') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C07C, '2024-01-27 10:08:27') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C07D, '2024-01-27 10:08:34') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C07E, '2024-01-27 10:09:26') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C07F, '2024-01-27 10:09:35') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C081, '2024-01-27 10:10:56') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C082, '2024-01-27 10:11:15') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C083, '2024-01-27 10:12:21') /* Aste Soul Harrier (34313) */
+     , (0x7007C04A, 0x7007C084, '2024-01-27 10:13:45') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C085, '2024-01-27 10:14:12') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C087, '2024-01-27 10:15:22') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C08A, '2024-01-27 10:16:41') /* Aste Soul Harrier (34313) */
+     , (0x7007C04A, 0x7007C08B, '2024-01-27 10:16:49') /* Aste Soul Harrier (34313) */
+     , (0x7007C04A, 0x7007C08C, '2024-01-27 10:17:41') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C08D, '2024-01-27 10:18:33') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C08E, '2024-01-27 10:18:43') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C08F, '2024-01-27 10:19:14') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C090, '2024-01-27 10:19:19') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C091, '2024-01-27 10:19:45') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C092, '2024-01-27 10:19:50') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C093, '2024-01-27 10:20:30') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C094, '2024-01-27 10:21:44') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C095, '2024-01-27 10:24:12') /* Aste Soul Harrier (34313) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007C04B, 34312, 0x007C0239, 0.226816, -170.121, -6, 0.726231, 0, 0, -0.687451,  True, '2021-11-01 00:00:00'); /* Faisi Disciple */
@@ -223,3 +255,179 @@ VALUES (0x7007C064, 34307, 0x007C0134, 69, -30, -17.9, 0, 0, 0, -1,  True, '2021
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007C065, 34306, 0x007C0134, 72, -30, -18, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Altar of Urdhinivix */
 /* @teleloc 0x007C0134 [72.000000 -30.000000 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C066,  6122, 0x007C01E5, 150, -150, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:28:12'); /* Acid */
+/* @teleloc 0x007C01E5 [150.000000 -150.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C067,  6122, 0x007C01ED, 160, -150, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:28:35'); /* Acid */
+/* @teleloc 0x007C01ED [160.000000 -150.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C068,  6122, 0x007C01F5, 170, -150, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:29:01'); /* Acid */
+/* @teleloc 0x007C01F5 [170.000000 -150.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C069,  6122, 0x007C020B, 180, -150, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:29:14'); /* Acid */
+/* @teleloc 0x007C020B [180.000000 -150.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C06A,  6122, 0x007C01D5, 150, -130, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:29:42'); /* Acid */
+/* @teleloc 0x007C01D5 [150.000000 -130.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C06B,  6122, 0x007C01E6, 160, -130, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:29:52'); /* Acid */
+/* @teleloc 0x007C01E6 [160.000000 -130.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C06C,  6122, 0x007C01EE, 170, -130, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:30:13'); /* Acid */
+/* @teleloc 0x007C01EE [170.000000 -130.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C06D,  6122, 0x007C01FB, 180, -130, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:30:30'); /* Acid */
+/* @teleloc 0x007C01FB [180.000000 -130.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C06E,  6122, 0x007C0203, 180, -140, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:32:18'); /* Acid */
+/* @teleloc 0x007C0203 [180.000000 -140.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C06F,  6122, 0x007C01F4, 170, -140, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:32:47'); /* Acid */
+/* @teleloc 0x007C01F4 [170.000000 -140.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C070,  6122, 0x007C01EC, 160, -140, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:33:02'); /* Acid */
+/* @teleloc 0x007C01EC [160.000000 -140.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C071,  6122, 0x007C01DD, 150, -140, -11.945, 1, 0, 0, 0, False, '2024-01-25 09:33:13'); /* Acid */
+/* @teleloc 0x007C01DD [150.000000 -140.000000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C072, 34312, 0x007C019A, 170, -46.4846, -18, 1, 0, 0, 0,  True, '2024-01-27 10:00:26'); /* Faisi Disciple */
+/* @teleloc 0x007C019A [170.000000 -46.484600 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C073, 34311, 0x007C01A3, 179.892, -29.9179, -18, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:01:12'); /* Essa Soul Harrier */
+/* @teleloc 0x007C01A3 [179.891998 -29.917900 -18.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C074, 34314, 0x007C018C, 170.037, -12.3462, -18, 0, 0, 0, -1,  True, '2024-01-27 10:01:56'); /* Chomu Disciple */
+/* @teleloc 0x007C018C [170.037003 -12.346200 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C075, 34312, 0x007C0171, 149.943, -19.9891, -18, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:02:57'); /* Faisi Disciple */
+/* @teleloc 0x007C0171 [149.942993 -19.989100 -18.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C076, 34312, 0x007C0177, 149.719, -39.9911, -18, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:03:12'); /* Faisi Disciple */
+/* @teleloc 0x007C0177 [149.718994 -39.991100 -18.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C077, 34311, 0x007C0181, 157.731, -29.9724, -18, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:04:13'); /* Essa Soul Harrier */
+/* @teleloc 0x007C0181 [157.731003 -29.972401 -18.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C078, 34314, 0x007C0216, 223.762, -60.0133, -12, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:05:10'); /* Chomu Disciple */
+/* @teleloc 0x007C0216 [223.761993 -60.013302 -12.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C079, 34313, 0x007C01A3, 183.26, -31.0609, -18, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:07:23'); /* Aste Soul Harrier */
+/* @teleloc 0x007C01A3 [183.259995 -31.060900 -18.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C07A, 34313, 0x007C01A3, 183.152, -28.9024, -18, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:07:27'); /* Aste Soul Harrier */
+/* @teleloc 0x007C01A3 [183.151993 -28.902399 -18.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C07B, 34314, 0x007C0216, 216.159, -60.0049, -12, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:08:19'); /* Chomu Disciple */
+/* @teleloc 0x007C0216 [216.158997 -60.004902 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C07C, 34314, 0x007C0217, 216.088, -69.9704, -12, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:08:27'); /* Chomu Disciple */
+/* @teleloc 0x007C0217 [216.087997 -69.970398 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C07D, 34314, 0x007C0217, 223.836, -70.0417, -12, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:08:34'); /* Chomu Disciple */
+/* @teleloc 0x007C0217 [223.835999 -70.041702 -12.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C07E, 34311, 0x007C0234, 274.036, -110.034, -12, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:09:26'); /* Essa Soul Harrier */
+/* @teleloc 0x007C0234 [274.036011 -110.033997 -12.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C07F, 34311, 0x007C0235, 274.003, -120.089, -12, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:09:35'); /* Essa Soul Harrier */
+/* @teleloc 0x007C0235 [274.002991 -120.088997 -12.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C081, 34314, 0x007C0232, 256.315, -130.016, -12, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:10:56'); /* Chomu Disciple */
+/* @teleloc 0x007C0232 [256.315002 -130.016006 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C082, 34314, 0x007C0229, 250.045, -124.011, -12, 1, 0, 0, 0,  True, '2024-01-27 10:11:15'); /* Chomu Disciple */
+/* @teleloc 0x007C0229 [250.044998 -124.011002 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C083, 34313, 0x007C0236, 269.854, -129.931, -12, 1, 0, 0, 0,  True, '2024-01-27 10:12:21'); /* Aste Soul Harrier */
+/* @teleloc 0x007C0236 [269.854004 -129.931000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C084, 34314, 0x007C0222, 239.516, -140.058, -12, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:13:45'); /* Chomu Disciple */
+/* @teleloc 0x007C0222 [239.516006 -140.057999 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C085, 34311, 0x007C021C, 220.433, -139.993, -12, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:14:12'); /* Essa Soul Harrier */
+/* @teleloc 0x007C021C [220.432999 -139.992996 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C087, 34312, 0x007C0297, 180.033, -120.087, -6, 0, 0, 0, -1,  True, '2024-01-27 10:15:22'); /* Faisi Disciple */
+/* @teleloc 0x007C0297 [180.033005 -120.086998 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C08A, 34313, 0x007C028C, 150.009, -139.954, -6, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:16:41'); /* Aste Soul Harrier */
+/* @teleloc 0x007C028C [150.009003 -139.953995 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C08B, 34313, 0x007C029B, 180.185, -140.081, -6, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:16:49'); /* Aste Soul Harrier */
+/* @teleloc 0x007C029B [180.184998 -140.080994 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C08C, 34314, 0x007C0292, 164.771, -139.921, -6, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:17:41'); /* Chomu Disciple */
+/* @teleloc 0x007C0292 [164.770996 -139.921005 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C08D, 34314, 0x007C028E, 150.931, -158.966, -6, 1, 0, 0, 0,  True, '2024-01-27 10:18:33'); /* Chomu Disciple */
+/* @teleloc 0x007C028E [150.931000 -158.966003 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C08E, 34311, 0x007C028E, 149.132, -160.977, -6, 1, 0, 0, 0,  True, '2024-01-27 10:18:43'); /* Essa Soul Harrier */
+/* @teleloc 0x007C028E [149.132004 -160.977005 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C08F, 34314, 0x007C0288, 149.009, -121.399, -6, 0, 0, 0, -1,  True, '2024-01-27 10:19:14'); /* Chomu Disciple */
+/* @teleloc 0x007C0288 [149.009003 -121.399002 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C090, 34311, 0x007C0288, 150.998, -119.17, -6, 0, 0, 0, -1,  True, '2024-01-27 10:19:19'); /* Essa Soul Harrier */
+/* @teleloc 0x007C0288 [150.998001 -119.169998 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C091, 34311, 0x007C029D, 180.731, -158.23, -6, 1, 0, 0, 0,  True, '2024-01-27 10:19:45'); /* Essa Soul Harrier */
+/* @teleloc 0x007C029D [180.731003 -158.229996 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C092, 34314, 0x007C029D, 179.212, -160.515, -6, 1, 0, 0, 0,  True, '2024-01-27 10:19:50'); /* Chomu Disciple */
+/* @teleloc 0x007C029D [179.212006 -160.514999 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C093, 34311, 0x007C0286, 130.028, -140.012, -6, 0.707107, 0, 0, -0.707107,  True, '2024-01-27 10:20:30'); /* Essa Soul Harrier */
+/* @teleloc 0x007C0286 [130.028000 -140.011993 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C094, 34311, 0x007C021F, 234.254, -90.0035, -12, 0.707107, 0, 0, 0.707107,  True, '2024-01-27 10:21:44'); /* Essa Soul Harrier */
+/* @teleloc 0x007C021F [234.253998 -90.003502 -12.000000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7007C095, 34313, 0x007C022F, 264.485, -98.2892, -12, 0, 0, 0, -1,  True, '2024-01-27 10:24:12'); /* Aste Soul Harrier */
+/* @teleloc 0x007C022F [264.484985 -98.289200 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
