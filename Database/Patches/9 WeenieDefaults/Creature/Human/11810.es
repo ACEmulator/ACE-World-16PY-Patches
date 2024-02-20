@@ -604,6 +604,20 @@ Give: Woven Tassel of Sound Mind (25958)
     - Delay: 1, Tell: As he is no longer with us, the focus reserved for his use shall be passed on to you.
     - Delay: 1, Give: Shagraka (25973)
 
+Give: Southern Tumerok Insignia (43419)
+    - Motion: Ready
+    - TurnToTarget
+    - Delay: 1, Tell: Any blow against those wretched creatures is a win in my mind.
+    - Delay: 1, Tell: Keep up the good work soldier.
+    - AwardXP: 5,000,000
+
+Give: Northern Tumerok Insignia (90129)
+    - Motion: Ready
+    - TurnToTarget
+    - Delay: 1, Tell: Any blow against those wretched creatures is a win in my mind.
+    - Delay: 1, Tell: Keep up the good work soldier.
+    - AwardXP: 5,000,000
+
 Use:
     - Motion: Ready
     - TurnToTarget
