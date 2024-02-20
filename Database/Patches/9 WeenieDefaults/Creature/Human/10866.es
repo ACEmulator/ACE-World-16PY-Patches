@@ -2,24 +2,17 @@ Refuse: Pristine White Mattekar Hide (36703)
     - TurnToTarget
     - InqQuest: AllowBalorRobe
         QuestSuccess:
-            - TakeItems: 36703, -1
+            - TakeItems: Pristine White Mattekar Hide (36703), -1
             - DirectBroadcast: Yo-Jin holds the hide up reverently and looks a bit scared.
             - Delay: 1, Tell: Well, I have Kresovus' permission to craft this hide now, but I'm still not sure I want to. You must be pretty important for Kresovus to allow this.
-            - Delay: 1, DirectBroadcast: Yo-Jin hesitates and then begins his work, deftly cutting Balor's hide in the pattern for a robe. 
-            - Give: 36719
+            - Delay: 1, DirectBroadcast: Yo-Jin hesitates and then begins his work, deftly cutting Balor's hide in the pattern for a robe.
+            - Give: Balor's Robe (36719)
             - Delay: 1, Tell: Here you are. I don't mind saying that this is some of my best work. Be careful with this, I'm not sure Kresovus would be so giving if you let it come to harm. Oh, and be tactful, don't wear this around Kresovus.
         QuestFailure:
             - DirectBroadcast: Yi Yo-Jin rubs the fur between his fingers and peers closely at it.
             - Delay: 1, Tell: This is a rather unusual Mattekar hide. Hmm, the last time I saw fur like this was when I visited Linvak Tu...
             - Delay: 1, Tell: No, No, No! I am not going to be responsible for making a robe out of this hide.
             - Delay: 1, Tell: What are you doing, trying to get me killed?
-
-Give: Balor's Robe (36719)
-    - TurnToTarget
-    - DirectBroadcast: Yo-Jin holds the robe up reverently and looks a bit nervous. 
-    - Delay: 1, Tell: Good thing I left enough here to make alterations... I'll just be a moment.
-    - Give: 45030
-    - Delay: 1, Tell: Whew, here you go. It'll fit over other armor pieces now.
 
 Refuse: Small Niffis Shell (10704)
     - TurnToTarget
@@ -52,10 +45,17 @@ Refuse: Glowing Wisp Heart (8667)
     - Tell: This is a nice shiny bauble! I can't do anything with it though. Maybe one of the outlaws in Bandit Castle can help you.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.001
-    - Say: I can take the hides of certain creatures and turn them into items of value., Extent: 20
+    - Extent: 20, Say: I can take the hides of certain creatures and turn them into items of value.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.002
-    - Say: Have you the skins of armoredillos, gromnies, or reedsharks?    I can use them in my craft., Extent: 20
+    - Extent: 20, Say: Have you the skins of armoredillos, gromnies, or reedsharks?	I can use them in my craft.
+
+Give: Balor's Robe (36719)
+    - TurnToTarget
+    - DirectBroadcast: Yo-Jin holds the robe up reverently and looks a bit nervous.
+    - Delay: 1, Tell: Good thing I left enough here to make alterations... I'll just be a moment.
+    - Give: Balor's Over-robe (45030)
+    - Delay: 1, Tell: Whew, here you go. It'll fit over other armor pieces now.
 
 Give: Small Armoredillo Hide (4232)
     - TurnToTarget
@@ -173,7 +173,7 @@ Give: Dread Mattekar Paw (9413)
 
 Give: Hoary Mattekar Hide (5892)
     - TurnToTarget
-    - Tell: Yes, the Hoary Mattekars are now back. Given the strangeness of creature migrations that have occurred over this past year, I would not be surprised were the Hoary to be a more permanent fixture on Dereth.    Here is your robe.
+    - Tell: Yes, the Hoary Mattekars are now back. Given the strangeness of creature migrations that have occurred over this past year, I would not be surprised were the Hoary to be a more permanent fixture on Dereth.	Here is your robe.
     - AwardNoShareXP: 10,000
     - Give: Hoary Mattekar Robe (5893)
 
@@ -308,22 +308,20 @@ Give: Doomshark Hide (25901)
 
 Give: Enhanced Robe of the Tundra (33950)
     - TurnToTarget
-    - Tell: What is this? It seems to be a poorly modified robe made from the hide of a Tundra Mattekar... almost as if it was pulled directly off the creature with no care for crafting at all...
-    - Delay: 1, Give: Enhanced Robe of the Tundra (33952)
-	- Delay: 1, Tell: I believe it's much more suitable it looks like that.
+    - Tell: Interesting... but I think it would look better like this.
+    - Give: Enhanced Robe of the Tundra (33951)
 
-Give: Enhanced Robe of the Tundra (33951)
+Refuse: Enhanced Robe of the Tundra (33951)
     - TurnToTarget
-    - Tell: What is this? It seems to be a poorly modified robe made from the hide of a Tundra Mattekar... almost as if it was pulled directly off the creature with no care for crafting at all...
-    - Delay: 1, Give: Enhanced Robe of the Tundra (33952)
-	- Delay: 1, Tell: I believe it's much more suitable it looks like that.
+    - Tell: Yes, this is definitely an improvement on the original.
 
-Refuse: Enhanced Robe of the Tundra (33952)
+Give: Enhanced Robe of the Tundra (33952)
     - TurnToTarget
-    - Tell: That is a fine robe, indeed.
+    - Tell: Interesting... but I think it would look better like this.
+    - Give: Enhanced Robe of the Tundra (33951)
 
 Use:
     - Motion: Ready
     - TurnToTarget
-    - Delay: 1, Motion: Salute
-    - Delay: 1, Tell: Will miracles never cease?  The Hoary Mattekar has returned!    A beautiful and ferocious creature.     And most people looking at it see nothing but a robe.    Such a shame.  Give me the hide.
+    - Tell: Yes, I have agreed to help Britana in her quest to fashion a new Hoary Mattekar Robe.  I don't know where this new Mattekar is rumored to be, you would have to ask Britana.  I have to admit, I had never encountered a woman like Britana before back in my home village.  She is quite the woman.
+

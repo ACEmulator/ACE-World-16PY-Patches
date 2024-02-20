@@ -276,3 +276,7 @@ VALUES (0x7E922045, 32709, 0xE9220000, 109.474, 63.4949, 0.005, -0.130899, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E922046, 32709, 0xE9220000, 117.578, 71.1673, 0.005, -0.030188, 0, 0, -0.999544,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
 /* @teleloc 0xE9220000 [117.578003 71.167297 0.005000] -0.030188 0.000000 0.000000 -0.999544 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922047, 35213, 0xE9220000, 32.5722, 100.497, 0.005, 1, 0, 0, 0, False, '2024-02-15 18:45:30'); /* Guard Hrothgar */
+/* @teleloc 0xE9220000 [32.572201 100.497002 0.005000] 1.000000 0.000000 0.000000 0.000000 */
