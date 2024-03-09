@@ -97,7 +97,7 @@ VALUES (44096,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
      , (44096,  7, 0, 2, 0, 460, 0, 0) /* MissileDefense      Trained */
      , (44096, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
      , (44096, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44096, 31, 0, 2, 0, 200, 0, 0) /* CreatureEnchantment Trained */
+     , (44096, 31, 0, 2, 0, 245, 0, 0) /* CreatureEnchantment Trained */
      , (44096, 33, 0, 2, 0, 245, 0, 0) /* LifeMagic           Trained */
      , (44096, 34, 0, 2, 0, 270, 0, 0) /* WarMagic            Trained */
      , (44096, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
