@@ -17,6 +17,7 @@ VALUES (44031,   1,         16) /* ItemType - Creature */
      , (44031, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44031, 146,    4000000) /* XpOverride */
      , (44031, 307,         10) /* DamageRating */
+     , (44031, 315,       9999) /* CritResistRating */
      , (44031, 332,        300) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -88,15 +89,13 @@ VALUES (44031,   1,  9815, 0, 0, 10000) /* MaxHealth */
      , (44031,   5,  5000, 0, 0, 5260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44031,  6, 0, 2, 0, 425, 0, 0) /* MeleeDefense        Trained */
+VALUES (44031,  6, 0, 2, 0, 525, 0, 0) /* MeleeDefense        Trained */
      , (44031,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
-     , (44031, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
      , (44031, 15, 0, 2, 0, 390, 0, 0) /* MagicDefense        Trained */
      , (44031, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (44031, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
-     , (44031, 34, 0, 2, 0, 350, 0, 0) /* WarMagic            Trained */
-     , (44031, 45, 0, 3, 0, 480, 0, 0) /* LightWeapons        Specialized */
-     , (44031, 46, 0, 3, 0, 480, 0, 0) /* FinesseWeapons      Specialized */;
+     , (44031, 33, 0, 2, 0, 330, 0, 0) /* LifeMagic           Trained */
+     , (44031, 34, 0, 2, 0, 330, 0, 0) /* WarMagic            Trained */
+     , (44031, 45, 0, 3, 0, 615, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44031,  0,  4,  0,    0,  490,  490,  441,  490,  294,  490,  490,  490,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
