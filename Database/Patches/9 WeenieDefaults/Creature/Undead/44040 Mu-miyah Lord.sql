@@ -92,13 +92,13 @@ VALUES (44040,   1,  6870, 0, 0, 7000) /* MaxHealth */
      , (44040,   5,  2000, 0, 0, 2370) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44040,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
-     , (44040,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
-     , (44040, 15, 0, 2, 0, 450, 0, 0) /* MagicDefense        Trained */
+VALUES (44040,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (44040,  7, 0, 2, 0, 460, 0, 0) /* MissileDefense      Trained */
+     , (44040, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
      , (44040, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44040, 31, 0, 2, 0, 500, 0, 0) /* CreatureEnchantment Trained */
-     , (44040, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44040, 34, 0, 2, 0, 525, 0, 0) /* WarMagic            Trained */
+     , (44040, 31, 0, 2, 0, 245, 0, 0) /* CreatureEnchantment Trained */
+     , (44040, 33, 0, 2, 0, 245, 0, 0) /* LifeMagic           Trained */
+     , (44040, 34, 0, 2, 0, 270, 0, 0) /* WarMagic            Trained */
      , (44040, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
      , (44040, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -114,18 +114,27 @@ VALUES (44040,  0,  4,  0,    0,  470,  315,  423,  353,  470,  315,  315,  470,
      , (44040,  8,  4, 550, 0.75,  470,  315,  423,  353,  470,  315,  315,  470,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44040,  1832,   2.06)  /* Torrential Acid */
-     , (44040,  1841,   2.06)  /* Slithering Flames */
-     , (44040,  2042,   2.06)  /* Demon's Tongues */
-     , (44040,  2123,   2.06)  /* Celdiseth's Searing */
-     , (44040,  2130,   2.06)  /* Infernae */
-     , (44040,  2710,   2.06)  /* Volcanic Blast */
-     , (44040,  3119,   2.06)  /* Sear Flesh */
-     , (44040,  3883,   2.06)  /* Pyroclastic Explosion */
-     , (44040,  3886,   2.08)  /* Magic Disarmament */
+VALUES (44040,  1832,   2.04)  /* Torrential Acid */
+     , (44040,  1841,   2.03)  /* Slithering Flames */
+     , (44040,  2042,   2.04)  /* Demon's Tongues */
+     , (44040,  2123,   2.03)  /* Celdiseth's Searing */
+     , (44040,  2130,   2.03)  /* Infernae */
+     , (44040,  2710,   2.05)  /* Volcanic Blast */
+     , (44040,  3119,   2.05)  /* Sear Flesh */
+     , (44040,  3883,   2.05)  /* Pyroclastic Explosion */
+     , (44040,  3886,   2.06)  /* Magic Disarmament */
      , (44040,  3905,   2.06)  /* Essence's Fury */
      , (44040,  3908,   2.06)  /* Mana Blast */
-     , (44040,  5532,   2.06)  /* Incantation of Bloodstone Bolt */;
+     , (44040,  5532,   2.08)  /* Incantation of Bloodstone Bolt */
+     , (44040,  4421,   2.07)  /* Incantation of Acid Arc */
+     , (44040,  4423,   2.08)  /* Incantation of Flame Arc */
+     , (44040,  4431,   2.07)  /* Incantation of Acid Blast */
+     , (44040,  4433,   2.07)  /* Incantation of Acid Stream */
+     , (44040,  4434,   2.08)  /* Incantation of Acid Volley */
+     , (44040,  4438,   2.08)  /* Incantation of Flame Blast */
+     , (44040,  4441,   2.09)  /* Incantation of Flame Volley */
+     , (44040,  4473,    2.1)  /* Incantation of Acid Vulnerability Other */
+     , (44040,  4481,   2.11)  /* Incantation of Fire Vulnerability Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44040,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
