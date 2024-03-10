@@ -107,7 +107,7 @@ VALUES (9217, 31676 /* Red Monster Sprout */,  3722 /* Potion of Black Fire */, 
      , (9217, 31676 /* Red Monster Sprout */,  8244 /* Hearty Pumpkin Pie */, '2024-02-16 03:03:59')
      , (9217, 31676 /* Red Monster Sprout */,  8245 /* Hearty Pumpkin Soup */, '2024-02-16 03:03:59')
      , (9217, 31676 /* Red Monster Sprout */, 10958 /* Pouch of Dried Meat */, '2024-02-16 03:03:59')
-     , (6949, 31676 /* Red Monster Sprout */, 11140 /* Olthoi Egg */, '2021-11-01 00:00:00')
+     , (9217, 31676 /* Red Monster Sprout */, 11140 /* Olthoi Egg */, '2021-11-01 00:00:00')
      , (9217, 31676 /* Red Monster Sprout */, 12233 /* Dark Chocolate Candy Bar */, '2024-02-16 03:03:59')
      , (9217, 31676 /* Red Monster Sprout */, 12234 /* Milk Chocolate Candy Bar */, '2024-02-16 03:03:59')
      , (9217, 31676 /* Red Monster Sprout */, 14753 /* Cragstone Farms Mac&Cheese */, '2024-02-16 03:03:59')
