@@ -7,4 +7,4 @@ DELETE FROM `cook_book` WHERE `recipe_Id` = 6948;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (6948, 31676 /* Red Monster Sprout */,  5789 /* Brown Lump */, '2021-11-01 00:00:00')
-     , (6949, 31676 /* Red Monster Sprout */, 11140 /* Olthoi Egg */, '2021-11-01 00:00:00');
+     , (6948, 31676 /* Red Monster Sprout */, 11140 /* Olthoi Egg */, '2021-11-01 00:00:00');
