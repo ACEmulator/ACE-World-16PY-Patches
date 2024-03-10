@@ -16,7 +16,7 @@ VALUES (31681,  11, True ) /* IgnoreCollisions */
      , (31681,  13, True ) /* Ethereal */
      , (31681,  14, True ) /* GravityStatus */
      , (31681,  22, True ) /* Inscribable */;
-	 
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31681,  39,     0.5) /* DefaultScale */;
 

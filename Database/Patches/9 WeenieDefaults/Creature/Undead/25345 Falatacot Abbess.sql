@@ -78,17 +78,6 @@ VALUES (25345,   1, 0x02000FA5) /* Setup */
      , (25345,  22, 0x34000028) /* PhysicsEffectTable */
      , (25345,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (25345,  0,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (25345,  1,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (25345,  2,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (25345,  3,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (25345,  4,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (25345,  5,  4,200,  0.5,  650,  325,  325,  325,  325,  325,  325,  325,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (25345,  6,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (25345,  7,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (25345,  8,  4,250,  0.5,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25345,   1, 215, 0, 0) /* Strength */
      , (25345,   2, 320, 0, 0) /* Endurance */
@@ -117,36 +106,46 @@ VALUES (25345,  6, 0, 3, 0, 330, 0, 0) /* MeleeDefense        Specialized */
      , (25345, 47, 0, 3, 0, 100, 0, 0) /* MissileWeapons      Specialized */
      , (25345, 48, 0, 3, 0, 305, 0, 0) /* Shield              Specialized */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (25345,  0,  4,  0,    0,  650,  683,  845,  650,  845,  650,  683,  780,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (25345,  1,  4,  0,    0,  650,  683,  845,  650,  845,  650,  683,  780,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (25345,  2,  4,  0,    0,  650,  683,  845,  650,  845,  650,  683,  780,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (25345,  3,  4,  0,    0,  650,  683,  845,  650,  845,  650,  683,  780,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (25345,  4,  4,  0,    0,  650,  683,  845,  650,  845,  650,  683,  780,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (25345,  5,  4, 200,  0.5,  650,  683,  845,  650,  845,  650,  683,  780,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (25345,  6,  4,  0,    0,  650,  683,  845,  650,  845,  650,  683,  780,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (25345,  7,  4,  0,    0,  650,  683,  845,  650,  845,  650,  683,  780,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (25345,  8,  4, 250,  0.5,  650,  683,  845,  650,  845,  650,  683,  780,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25345,   176,  2.011) /* Fester Other VI */
-     , (25345,   526,  2.011) /* Acid Vulnerability Other VI */
-     , (25345,  1053,  2.011) /* Bludgeoning Vulnerability Other VI */
-     , (25345,  1065,  2.011) /* Cold Vulnerability Other VI */
-     , (25345,  1089,  2.011) /* Lightning Vulnerability Other VI */
-     , (25345,  1108,  2.011) /* Fire Vulnerability Other VI */
-     , (25345,  1132,  2.011) /* Blade Vulnerability Other VI */
-     , (25345,  1156,  2.011) /* Piercing Vulnerability Other VI */
-     , (25345,  1840,   2.01) /* Bed of Blades */
-     , (25345,  1842,   2.01) /* Spike Strafe */
-     , (25345,  2122,   2.01) /* Disintegration */
-     , (25345,  2128,   2.01) /* Ilservian's Flame */
-     , (25345,  2132,   2.01) /* The Spike */
-     , (25345,  2136,   2.01) /* Icy Torment */
-     , (25345,  2140,   2.01) /* Alset's Coil */
-     , (25345,  2144,   2.01) /* Crushing Shame */
-     , (25345,  2146,   2.01) /* Evisceration */;
+VALUES (25345,   176,  2.011)  /* Fester Other VI */
+     , (25345,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (25345,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (25345,  1065,  2.011)  /* Cold Vulnerability Other VI */
+     , (25345,  1089,  2.011)  /* Lightning Vulnerability Other VI */
+     , (25345,  1108,  2.011)  /* Fire Vulnerability Other VI */
+     , (25345,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (25345,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (25345,  1840,   2.01)  /* Bed of Blades */
+     , (25345,  1842,   2.01)  /* Spike Strafe */
+     , (25345,  2122,   2.01)  /* Disintegration */
+     , (25345,  2128,   2.01)  /* Ilservian's Flame */
+     , (25345,  2132,   2.01)  /* The Spike */
+     , (25345,  2136,   2.01)  /* Icy Torment */
+     , (25345,  2140,   2.01)  /* Alset's Coil */
+     , (25345,  2144,   2.01)  /* Crushing Shame */
+     , (25345,  2146,   2.01)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25345, 3 /* Death */, 0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (25345,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 8 /* Say */, 0, 0, NULL, 'Kikt viktia ti ikni liViliakti, Ij vaik zikt kta im iak, jakti im iakvi av tiu ikni likik ilkin akti.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Kikt viktia ti ikni liViliakti, Ij vaik zikt kta im iak, jakti im iakvi av tiu ikni likik ilkin akti.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25345, 9, 24477,  0, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (25345, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (25345, 9, 34028,  0, 0, 0.02, False) /* Create Falatacot Abbess Head (34028) for ContainTreasure */
      , (25345, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-

@@ -48,7 +48,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.001
     - Extent: 20, Say: I can take the hides of certain creatures and turn them into items of value.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.002
-    - Extent: 20, Say: Have you the skins of armoredillos, gromnies, or reedsharks?	I can use them in my craft.
+    - Extent: 20, Say: Have you the skins of armoredillos, gromnies, or reedsharks?    I can use them in my craft.
 
 Give: Balor's Robe (36719)
     - TurnToTarget
@@ -173,7 +173,7 @@ Give: Dread Mattekar Paw (9413)
 
 Give: Hoary Mattekar Hide (5892)
     - TurnToTarget
-    - Tell: Yes, the Hoary Mattekars are now back. Given the strangeness of creature migrations that have occurred over this past year, I would not be surprised were the Hoary to be a more permanent fixture on Dereth.	Here is your robe.
+    - Tell: Yes, the Hoary Mattekars are now back. Given the strangeness of creature migrations that have occurred over this past year, I would not be surprised were the Hoary to be a more permanent fixture on Dereth.    Here is your robe.
     - AwardNoShareXP: 10,000
     - Give: Hoary Mattekar Robe (5893)
 
@@ -324,4 +324,3 @@ Use:
     - Motion: Ready
     - TurnToTarget
     - Tell: Yes, I have agreed to help Britana in her quest to fashion a new Hoary Mattekar Robe.  I don't know where this new Mattekar is rumored to be, you would have to ask Britana.  I have to admit, I had never encountered a woman like Britana before back in my home village.  She is quite the woman.
-

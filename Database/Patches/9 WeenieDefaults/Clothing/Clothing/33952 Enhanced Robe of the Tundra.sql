@@ -5,7 +5,7 @@ VALUES (33952, 'ace33952-enhancedrobeofthetundra', 2, '2021-11-01 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33952,   1,          4) /* ItemType - Clothing */
-     , (33952,   3,          67) /* PaletteTemplate - Grey */
+     , (33952,   3,         67) /* PaletteTemplate - GreenSlime */
      , (33952,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (33952,   5,        500) /* EncumbranceVal */
      , (33952,   9,      32513) /* ValidLocations - HeadWear, Armor */

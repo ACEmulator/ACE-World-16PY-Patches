@@ -18,7 +18,7 @@ VALUES (88473,  11, True ) /* IgnoreCollisions */
      , (88473,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (88473,  39,     0.25) /* DefaultScale */;
+VALUES (88473,  39,    0.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (88473,   1, 'Small Sundew') /* Name */
@@ -29,4 +29,3 @@ VALUES (88473,   1, 0x02001436) /* Setup */
      , (88473,   3, 0x20000014) /* SoundTable */
      , (88473,   8, 0x06006031) /* Icon */
      , (88473,  22, 0x3400002B) /* PhysicsEffectTable */;
-

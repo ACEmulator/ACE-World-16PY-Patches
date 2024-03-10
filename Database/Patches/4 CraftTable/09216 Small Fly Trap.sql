@@ -205,7 +205,7 @@ VALUES (9216, 31676 /* Red Monster Sprout */,   258 /* Apple */, '2024-02-16 03:
      , (9216, 31676 /* Red Monster Sprout */, 29108 /* Tusker Pus */, '2024-02-16 03:03:59')
      , (9216, 31676 /* Red Monster Sprout */, 29111 /* Distasteful Lager */, '2024-02-16 03:03:59')
      , (9216, 31676 /* Red Monster Sprout */, 29118 /* Distasteful Stout */, '2024-02-16 03:03:59')
-     , (9216, 31676 /* Red Monster Sprout */, 29216 /* Distasteful Amber Ale */, '2024-02-16 03:03:59')
+     , (9216, 31676 /* Red Monster Sprout */, 29216 /* Tasty Amber Ale */, '2024-02-16 03:03:59')
      , (9216, 31676 /* Red Monster Sprout */, 30734 /* Bowl of Black-Eyed Peas */, '2024-02-16 03:03:59')
      , (9216, 31676 /* Red Monster Sprout */, 34550 /* Old Nectar */, '2024-02-16 03:03:59')
      , (9216, 31676 /* Red Monster Sprout */, 35360 /* Milk Chocolate Bunny */, '2024-02-16 03:03:59')

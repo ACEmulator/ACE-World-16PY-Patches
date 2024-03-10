@@ -92,12 +92,12 @@ VALUES (44033,   1,  9815, 0, 0, 10000) /* MaxHealth */
      , (44033,   5,  5000, 0, 0, 5260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44033,  6, 0, 3, 0, 575, 0, 0) /* MeleeDefense        Trained */
-     , (44033,  7, 0, 3, 0, 440, 0, 0) /* MissileDefense      Trained */
-     , (44033, 15, 0, 3, 0, 415, 0, 0) /* MagicDefense        Trained */
+VALUES (44033,  6, 0, 3, 0, 575, 0, 0) /* MeleeDefense        Specialized */
+     , (44033,  7, 0, 3, 0, 440, 0, 0) /* MissileDefense      Specialized */
+     , (44033, 15, 0, 3, 0, 415, 0, 0) /* MagicDefense        Specialized */
      , (44033, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (44033, 33, 0, 3, 0, 330, 0, 0) /* LifeMagic           Trained */
-     , (44033, 34, 0, 3, 0, 330, 0, 0) /* WarMagic            Trained */
+     , (44033, 33, 0, 3, 0, 330, 0, 0) /* LifeMagic           Specialized */
+     , (44033, 34, 0, 3, 0, 330, 0, 0) /* WarMagic            Specialized */
      , (44033, 45, 0, 3, 0, 615, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
