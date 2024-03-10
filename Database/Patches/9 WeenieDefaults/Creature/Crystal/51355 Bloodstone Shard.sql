@@ -18,7 +18,7 @@ VALUES (51355,   1,         16) /* ItemType - Creature */
      , (51355,  82,          0) /* InitGeneratedObjects */
      , (51355,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (51355, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (51355, 146,    1300000) /* XpOverride */;
+     , (51355, 146,    1850000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51355,   1, True ) /* Stuck */
@@ -68,8 +68,7 @@ VALUES (51355,   1,       5) /* HeartbeatInterval */
      , (51355, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51355,   1, 'Bloodstone Shard') /* Name */
-     , (51355,  45, 'FrozenFortressTestingGroundsKilltask_0513') /* KillQuest */;
+VALUES (51355,   1, 'Bloodstone Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51355,   1, 0x02001BD4) /* Setup */
@@ -96,22 +95,22 @@ VALUES (51355,   1,  4875, 0, 0, 5000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (51355,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
      , (51355,  7, 0, 3, 0, 460, 0, 0) /* MissileDefense      Specialized */
-     , (51355, 15, 0, 3, 0, 395, 0, 0) /* MagicDefense        Specialized */
-     , (51355, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
+     , (51355, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
+     , (51355, 20, 0, 3, 0,  90, 0, 0) /* Deception           Specialized */
      , (51355, 33, 0, 3, 0, 220, 0, 0) /* LifeMagic           Specialized */
      , (51355, 34, 0, 3, 0, 240, 0, 0) /* WarMagic            Specialized */
-     , (51355, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */;
+     , (51355, 45, 0, 3, 0, 445, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (51355,  0,  4, 500,    0,  225,  180,  113,   90,  180,  180,  180,  180,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (51355,  1,  4, 500,    0,  225,  180,  113,   90,  180,  180,  180,  180,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (51355,  2,  4, 500,    0,  225,  180,  113,   90,  180,  180,  180,  180,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (51355,  3,  4, 500,    0,  225,  180,  113,   90,  180,  180,  180,  180,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (51355,  4,  4, 500,    0,  225,  180,  113,   90,  180,  180,  180,  180,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (51355,  5,  4, 500, 0.75,  225,  180,  113,   90,  180,  180,  180,  180,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (51355,  6,  4, 500,    0,  225,  180,  113,   90,  180,  180,  180,  180,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (51355,  7,  4, 500,    0,  225,  180,  113,   90,  180,  180,  180,  180,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (51355,  8,  4, 500, 0.75,  225,  180,  113,   90,  180,  180,  180,  180,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (51355,  0,  4, 500, 0.75,  350,  320,  200,  160,  320,  320,  320,  320,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (51355,  1,  4,  0,    0,  350,  320,  200,  160,  320,  320,  320,  320,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (51355,  2,  4,  0,    0,  350,  320,  200,  160,  320,  320,  320,  320,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (51355,  3,  4,  0,    0,  350,  320,  200,  160,  320,  320,  320,  320,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (51355,  4,  4,  0,    0,  350,  320,  200,  160,  320,  320,  320,  320,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (51355,  5,  4, 500, 0.75,  350,  320,  200,  160,  320,  320,  320,  320,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (51355,  6,  4,  0,    0,  350,  320,  200,  160,  320,  320,  320,  320,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (51355,  7,  4,  0,    0,  350,  320,  200,  160,  320,  320,  320,  320,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (51355,  8,  4,  0,    0,  350,  320,  200,  160,  320,  320,  320,  320,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51355,  2162,   2.08)  /* Olthoi's Gift */
