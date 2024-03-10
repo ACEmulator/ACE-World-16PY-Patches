@@ -59,7 +59,35 @@ VALUES (0x7E92200D,  1154, 0xE9220126, 18.7139, 82.3475, -1.195, 0.605892, 0, 0,
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7E92200D, 0x7E922018, '2021-11-17 16:56:08') /* Zenzaburou Hensu (8441) */
      , (0x7E92200D, 0x7E922019, '2021-11-17 16:56:08') /* Leather Crafter (4213) */
-     , (0x7E92200D, 0x7E92201A, '2021-11-17 16:56:08') /* Ivory Crafter (3926) */;
+     , (0x7E92200D, 0x7E92201A, '2021-11-17 16:56:08') /* Ivory Crafter (3926) */
+     , (0x7E92200D, 0x7E92202B, '2024-02-15 18:48:27') /* Aluvian Spearman (32705) */
+     , (0x7E92200D, 0x7E92202C, '2024-02-15 18:48:27') /* Aluvian Spearman (32705) */
+     , (0x7E92200D, 0x7E92202D, '2024-02-15 18:48:27') /* Aluvian Spearman (32705) */
+     , (0x7E92200D, 0x7E92202E, '2024-02-15 18:48:27') /* Aluvian Spearman (32705) */
+     , (0x7E92200D, 0x7E92202F, '2024-02-15 18:48:27') /* Aluvian Spearman (32705) */
+     , (0x7E92200D, 0x7E922030, '2024-02-15 18:48:27') /* Aluvian Spearman (32705) */
+     , (0x7E92200D, 0x7E922031, '2024-02-15 18:48:27') /* Gharu'ndim War Mage (32706) */
+     , (0x7E92200D, 0x7E922032, '2024-02-15 18:48:27') /* Gharu'ndim War Mage (32706) */
+     , (0x7E92200D, 0x7E922033, '2024-02-15 18:48:27') /* Gharu'ndim War Mage (32706) */
+     , (0x7E92200D, 0x7E922034, '2024-02-15 18:48:27') /* Gharu'ndim War Mage (32706) */
+     , (0x7E92200D, 0x7E922035, '2024-02-15 18:48:27') /* Gharu'ndim War Mage (32706) */
+     , (0x7E92200D, 0x7E922036, '2024-02-15 18:48:27') /* Gharu'ndim War Mage (32706) */
+     , (0x7E92200D, 0x7E922037, '2024-02-15 18:48:27') /* Gharu'ndim War Mage (32706) */
+     , (0x7E92200D, 0x7E922038, '2024-02-15 18:48:27') /* Gharu'ndim Warrior (32707) */
+     , (0x7E92200D, 0x7E922039, '2024-02-15 18:48:27') /* Gharu'ndim Warrior (32707) */
+     , (0x7E92200D, 0x7E92203A, '2024-02-15 18:48:27') /* Gharu'ndim Warrior (32707) */
+     , (0x7E92200D, 0x7E92203B, '2024-02-15 18:48:27') /* Gharu'ndim Warrior (32707) */
+     , (0x7E92200D, 0x7E92203C, '2024-02-15 18:48:27') /* Gharu'ndim Warrior (32707) */
+     , (0x7E92200D, 0x7E92203D, '2024-02-15 18:48:27') /* Gharu'ndim Warrior (32707) */
+     , (0x7E92200D, 0x7E92203E, '2024-02-15 18:48:27') /* Gharu'ndim Warrior (32707) */
+     , (0x7E92200D, 0x7E92203F, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */
+     , (0x7E92200D, 0x7E922040, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */
+     , (0x7E92200D, 0x7E922041, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */
+     , (0x7E92200D, 0x7E922042, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */
+     , (0x7E92200D, 0x7E922043, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */
+     , (0x7E92200D, 0x7E922044, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */
+     , (0x7E92200D, 0x7E922045, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */
+     , (0x7E92200D, 0x7E922046, '2024-02-15 18:48:27') /* Sho Swordsman (32709) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92200E,  8435, 0xE9220126, 17.7115, 85.0731, -1.195, 0.565374, 0, 0, 0.824835, False, '2021-11-17 16:56:08'); /* Sharon the Skilled, Bowyer */
@@ -136,3 +164,119 @@ VALUES (0x7E922029, 35606, 0xE922000D, 31.827, 96.5109, 0.005, 0.102826, 0, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92202A, 35603, 0xE922000D, 29.4033, 99.9401, 0.005, 0.322158, 0, 0, 0.946686, False, '2021-11-17 16:56:08'); /* Sergeant Brigitta */
 /* @teleloc 0xE922000D [29.403299 99.940102 0.005000] 0.322158 0.000000 0.000000 0.946686 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92202B, 32705, 0xE9220000, 33.0459, 78.8557, 0.005, -0.686641, 0, 0, -0.726997,  True, '2024-02-15 18:45:30'); /* Aluvian Spearman */
+/* @teleloc 0xE9220000 [33.045898 78.855698 0.005000] -0.686641 0.000000 0.000000 -0.726997 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92202C, 32705, 0xE9220000, 39.9198, 101.683, 0.005, 0.214045, 0, 0, 0.976824,  True, '2024-02-15 18:45:30'); /* Aluvian Spearman */
+/* @teleloc 0xE9220000 [39.919800 101.682999 0.005000] 0.214045 0.000000 0.000000 0.976824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92202D, 32705, 0xE9220000, 32.0122, 102.709, 0.005, 0.214045, 0, 0, 0.976824,  True, '2024-02-15 18:45:30'); /* Aluvian Spearman */
+/* @teleloc 0xE9220000 [32.012199 102.709000 0.005000] 0.214045 0.000000 0.000000 0.976824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92202E, 32705, 0xE9220000, 67.0896, 75.6972, 0.005, -0.214374, 0, 0, -0.976752,  True, '2024-02-15 18:45:30'); /* Aluvian Spearman */
+/* @teleloc 0xE9220000 [67.089600 75.697197 0.005000] -0.214374 0.000000 0.000000 -0.976752 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92202F, 32705, 0xE9220000, 119.83, 73.3213, 0.005, -0.144578, 0, 0, -0.989493,  True, '2024-02-15 18:45:30'); /* Aluvian Spearman */
+/* @teleloc 0xE9220000 [119.830002 73.321297 0.005000] -0.144578 0.000000 0.000000 -0.989493 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922030, 32705, 0xE9220000, 96.1321, 63.7528, 0.005, -0.361696, 0, 0, -0.932296,  True, '2024-02-15 18:45:30'); /* Aluvian Spearman */
+/* @teleloc 0xE9220000 [96.132103 63.752800 0.005000] -0.361696 0.000000 0.000000 -0.932296 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922031, 32706, 0xE9220000, 38.8406, 77.6136, 0.005, 0.009846, 0, 0, -0.999952,  True, '2024-02-15 18:45:30'); /* Gharu'ndim War Mage */
+/* @teleloc 0xE9220000 [38.840599 77.613602 0.005000] 0.009846 0.000000 0.000000 -0.999952 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922032, 32706, 0xE9220000, 36.7332, 98.5741, 0.005, 0.214045, 0, 0, 0.976824,  True, '2024-02-15 18:45:30'); /* Gharu'ndim War Mage */
+/* @teleloc 0xE9220000 [36.733200 98.574097 0.005000] 0.214045 0.000000 0.000000 0.976824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922033, 32706, 0xE9220000, 48.7989, 77.8097, 0.005, 0.009846, 0, 0, -0.999952,  True, '2024-02-15 18:45:30'); /* Gharu'ndim War Mage */
+/* @teleloc 0xE9220000 [48.798901 77.809700 0.005000] 0.009846 0.000000 0.000000 -0.999952 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922034, 32706, 0xE9220000, 60.3862, 78.0379, 0.005, 0.009846, 0, 0, -0.999952,  True, '2024-02-15 18:45:30'); /* Gharu'ndim War Mage */
+/* @teleloc 0xE9220000 [60.386200 78.037903 0.005000] 0.009846 0.000000 0.000000 -0.999952 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922035, 32706, 0xE9220000, 80.0032, 71.1743, 0.005, -0.020571, 0, 0, -0.999788,  True, '2024-02-15 18:45:30'); /* Gharu'ndim War Mage */
+/* @teleloc 0xE9220000 [80.003197 71.174301 0.005000] -0.020571 0.000000 0.000000 -0.999788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922036, 32706, 0xE9220000, 104.379, 60.7491, 0.005, -0.046341, 0, 0, -0.998926,  True, '2024-02-15 18:45:30'); /* Gharu'ndim War Mage */
+/* @teleloc 0xE9220000 [104.378998 60.749100 0.005000] -0.046341 0.000000 0.000000 -0.998926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922037, 32706, 0xE9220000, 32.6001, 77.4907, 0.005, 0.009846, 0, 0, -0.999952,  True, '2024-02-15 18:45:30'); /* Gharu'ndim War Mage */
+/* @teleloc 0xE9220000 [32.600101 77.490700 0.005000] 0.009846 0.000000 0.000000 -0.999952 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922038, 32707, 0xE9220000, 42.6287, 80.8733, 0.005, 0.051325, 0, 0, -0.998682,  True, '2024-02-15 18:45:30'); /* Gharu'ndim Warrior */
+/* @teleloc 0xE9220000 [42.628700 80.873299 0.005000] 0.051325 0.000000 0.000000 -0.998682 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922039, 32707, 0xE9220000, 27.7768, 104.872, 0.005, 0.214045, 0, 0, 0.976824,  True, '2024-02-15 18:45:30'); /* Gharu'ndim Warrior */
+/* @teleloc 0xE9220000 [27.776800 104.872002 0.005000] 0.214045 0.000000 0.000000 0.976824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92203A, 32707, 0xE9220000, 53.979, 82.0431, 0.005, 0.051325, 0, 0, -0.998682,  True, '2024-02-15 18:45:30'); /* Gharu'ndim Warrior */
+/* @teleloc 0xE9220000 [53.979000 82.043098 0.005000] 0.051325 0.000000 0.000000 -0.998682 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92203B, 32707, 0xE9220000, 66.9351, 81.7496, 0.005, -0.189319, 0, 0, -0.981916,  True, '2024-02-15 18:45:30'); /* Gharu'ndim Warrior */
+/* @teleloc 0xE9220000 [66.935097 81.749603 0.005000] -0.189319 0.000000 0.000000 -0.981916 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92203C, 32707, 0xE9220000, 90.1372, 67.8664, 0.005, -0.345396, 0, 0, -0.938457,  True, '2024-02-15 18:45:30'); /* Gharu'ndim Warrior */
+/* @teleloc 0xE9220000 [90.137199 67.866402 0.005000] -0.345396 0.000000 0.000000 -0.938457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92203D, 32707, 0xE9220000, 101.962, 63.3037, 0.005, 0.005672, 0, 0, -0.999984,  True, '2024-02-15 18:45:30'); /* Gharu'ndim Warrior */
+/* @teleloc 0xE9220000 [101.961998 63.303699 0.005000] 0.005672 0.000000 0.000000 -0.999984 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92203E, 32707, 0xE9220000, 110.482, 60.0089, 0.005, -0.219554, 0, 0, -0.9756,  True, '2024-02-15 18:45:30'); /* Gharu'ndim Warrior */
+/* @teleloc 0xE9220000 [110.482002 60.008900 0.005000] -0.219554 0.000000 0.000000 -0.975600 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92203F, 32709, 0xE9220000, 42.6025, 78.1017, 0.005, -0.02365, 0, 0, -0.99972,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [42.602501 78.101700 0.005000] -0.023650 0.000000 0.000000 -0.999720 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922040, 32709, 0xE9220000, 34.6528, 80.0514, 0.005, 0.051325, 0, 0, -0.998682,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [34.652802 80.051399 0.005000] 0.051325 0.000000 0.000000 -0.998682 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922041, 32709, 0xE9220000, 33.8501, 108.419, 0.005, 0.214045, 0, 0, 0.976824,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [33.850101 108.418999 0.005000] 0.214045 0.000000 0.000000 0.976824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922042, 32709, 0xE9220000, 53.263, 78.934, 0.005, -0.089787, 0, 0, -0.995961,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [53.263000 78.933998 0.005000] -0.089787 0.000000 0.000000 -0.995961 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922043, 32709, 0xE9220000, 65.3939, 79.0886, 0.005, -0.084836, 0, 0, -0.996395,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [65.393898 79.088600 0.005000] -0.084836 0.000000 0.000000 -0.996395 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922044, 32709, 0xE9220000, 86.4491, 69.8338, 0.005, 0.027129, 0, 0, -0.999632,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [86.449097 69.833801 0.005000] 0.027129 0.000000 0.000000 -0.999632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922045, 32709, 0xE9220000, 109.474, 63.4949, 0.005, -0.130899, 0, 0, -0.991396,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [109.473999 63.494900 0.005000] -0.130899 0.000000 0.000000 -0.991396 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922046, 32709, 0xE9220000, 117.578, 71.1673, 0.005, -0.030188, 0, 0, -0.999544,  True, '2024-02-15 18:45:30'); /* Sho Swordsman */
+/* @teleloc 0xE9220000 [117.578003 71.167297 0.005000] -0.030188 0.000000 0.000000 -0.999544 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E922047, 35213, 0xE9220000, 32.5722, 100.497, 0.005, 1, 0, 0, 0, False, '2024-02-15 18:45:30'); /* Guard Hrothgar */
+/* @teleloc 0xE9220000 [32.572201 100.497002 0.005000] 1.000000 0.000000 0.000000 0.000000 */

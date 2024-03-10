@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25864;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25864, 'margulstalking', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (25864, 'margulstalking', 10, '2024-02-18 11:47:11') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25864,   1,         16) /* ItemType - Creature */
@@ -107,10 +107,10 @@ VALUES (25864,  6, 0, 3, 0, 313, 0, 0) /* MeleeDefense        Specialized */
      , (25864, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (25864,  0,  2, 120, 0.75,  500,  525,  500,  475,  475,  600,  600,  475,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (25864, 10,  1, 120, 0.75,  500,  525,  500,  475,  475,  600,  600,  475,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (25864, 13,  1, 120, 0.75,  500,  525,  500,  475,  475,  600,  600,  475,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
-     , (25864, 16,  4,  0,    0,  500,  525,  500,  475,  475,  600,  600,  475,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
+VALUES (25864,  0,  2, 120, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (25864, 10,  1, 120, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (25864, 13,  1, 120, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+     , (25864, 16,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
      , (25864, 22, 64, 100,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
@@ -125,10 +125,6 @@ VALUES (25864,    72,   2.04)  /* Frost Bolt IV */
      , (25864,  1630,  2.005)  /* Leaden Weapon III */
      , (25864,  2168,   2.02)  /* Gelidite's Gift */
      , (25864,  2728,   2.04)  /* Frost Arc IV */;
-
-INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (25864,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (25864, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25864,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
@@ -182,4 +178,6 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (25864, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (25864, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (25864, 9, 31511,  1, 0, 0.018, False) /* Create Butterscotch Suckling (31511) for ContainTreasure */
-     , (25864, 9,     0,  0, 0, 0.982, False) /* Create nothing for ContainTreasure */;
+     , (25864, 9,     0,  0, 0, 0.982, False) /* Create nothing for ContainTreasure */
+     , (25864, 9, 34030,  0, 0, 0.02, False) /* Create Vial of Margul Blood (34030) for ContainTreasure */
+     , (25864, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
