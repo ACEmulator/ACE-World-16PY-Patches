@@ -9,5 +9,4 @@ VALUES (0x2A93, 85000, 1, 6, '2021-11-01 00:00:00') /* Shadow March Generator */
      , (0x2A93, 85000, 5, 2, '2021-11-01 00:00:00') /* Shadow March Generator */
      , (0x2A93, 85000, 5, 8, '2021-11-01 00:00:00') /* Shadow March Generator */
      , (0x2A93, 85000, 6, 3, '2021-11-01 00:00:00') /* Shadow March Generator */
-     , (0x2A93, 85000, 6, 4, '2021-11-01 00:00:00') /* Shadow March Generator */
-     , (0x2A93, 85000, 7, 7, '2021-11-01 00:00:00') /* Shadow March Generator */;
+     , (0x2A93, 85000, 6, 4, '2021-11-01 00:00:00') /* Shadow March Generator */;
