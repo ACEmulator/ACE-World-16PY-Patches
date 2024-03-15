@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 69994;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (69994, 'ace69994-nightclubattendant', 10, '2023-11-17 05:21:40') /* Creature */;
+VALUES (69994, 'ace69994-nightclubattendant', 10, '2024-03-15 04:03:05') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (69994,   1,         16) /* ItemType - Creature */
@@ -155,6 +155,6 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (69994, 2,  5893,  0, 9, 1, False) /* Create Hoary Mattekar Robe (5893) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (69994, -1, 69985, 10, 1, 1, 2, 4, -1, 0, 0, 0, -0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 25th Anniversary Night Club Ticket (69987) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (69994, -1, 69985, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0) /* Generate 25th Anniversary Night Club Ticket (69987) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (69994, -1, 69985, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 25th Anniversary Night Club Ticket (69987) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;
+VALUES (69994, -1, 69985, 10, 1, 1, 2, 4, -1, 0, 0, 0, -0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 25th Anniversary Night Club Ticket (69985) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (69994, -1, 69985, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0) /* Generate 25th Anniversary Night Club Ticket (69985) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (69994, -1, 69985, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 25th Anniversary Night Club Ticket (69985) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;
