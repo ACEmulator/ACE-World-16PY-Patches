@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87750;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87750, 'ace87750-compositeatlatlwithexquisitehandle', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
+VALUES (87750, 'ace87750-compositeatlatlwithexquisitehandle', 3, '2024-03-15 04:03:05') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87750,   1,        256) /* ItemType - MissileWeapon */
@@ -11,7 +11,6 @@ VALUES (87750,   1,        256) /* ItemType - MissileWeapon */
      , (87750,  16,          1) /* ItemUseable - No */
      , (87750,  18,          1) /* UiEffects - Magical */
      , (87750,  19,        400) /* Value */
-     , (87750,  33,          1) /* Bonded - Bonded */
      , (87750,  44,         10) /* Damage */
      , (87750,  45,          0) /* DamageType - Undef */
      , (87750,  46,       1024) /* DefaultCombatStyle - Atlatl */
@@ -24,7 +23,6 @@ VALUES (87750,   1,        256) /* ItemType - MissileWeapon */
      , (87750, 107,          0) /* ItemCurMana */
      , (87750, 108,       1200) /* ItemMaxMana */
      , (87750, 109,        250) /* ItemDifficulty */
-     , (87750, 114,          1) /* Attuned - Attuned */
      , (87750, 150,        103) /* HookPlacement - Hook */
      , (87750, 151,          2) /* HookType - Wall */
      , (87750, 158,          2) /* WieldRequirements - RawSkill */
@@ -34,8 +32,7 @@ VALUES (87750,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87750,  22, True ) /* Inscribable */
-     , (87750,  23, True ) /* DestroyOnSell */
-     , (87750,  99, True ) /* Ivoryable */;
+     , (87750,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87750,   5,   -0.05) /* ManaRate */

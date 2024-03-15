@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44039;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44039, 'ace44039-mumiyahlord', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (44039, 'ace44039-mumiyahlord', 10, '2024-03-15 04:03:05') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44039,   1,         16) /* ItemType - Creature */
@@ -93,13 +93,13 @@ VALUES (44039,   1,  6870, 0, 0, 7000) /* MaxHealth */
      , (44039,   5,  2000, 0, 0, 2370) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44039,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
-     , (44039,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
-     , (44039, 15, 0, 2, 0, 450, 0, 0) /* MagicDefense        Trained */
+VALUES (44039,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (44039,  7, 0, 2, 0, 460, 0, 0) /* MissileDefense      Trained */
+     , (44039, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
      , (44039, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44039, 31, 0, 2, 0, 500, 0, 0) /* CreatureEnchantment Trained */
-     , (44039, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44039, 34, 0, 2, 0, 525, 0, 0) /* WarMagic            Trained */
+     , (44039, 31, 0, 2, 0, 245, 0, 0) /* CreatureEnchantment Trained */
+     , (44039, 33, 0, 2, 0, 245, 0, 0) /* LifeMagic           Trained */
+     , (44039, 34, 0, 2, 0, 270, 0, 0) /* WarMagic            Trained */
      , (44039, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
      , (44039, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -115,18 +115,27 @@ VALUES (44039,  0,  4,  0,    0,  470,  315,  423,  353,  470,  315,  315,  470,
      , (44039,  8,  4, 550, 0.75,  470,  315,  423,  353,  470,  315,  315,  470,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44039,  1832,   2.06)  /* Torrential Acid */
-     , (44039,  1841,   2.06)  /* Slithering Flames */
-     , (44039,  2042,   2.06)  /* Demon's Tongues */
-     , (44039,  2123,   2.06)  /* Celdiseth's Searing */
-     , (44039,  2130,   2.06)  /* Infernae */
-     , (44039,  2710,   2.06)  /* Volcanic Blast */
-     , (44039,  3119,   2.06)  /* Sear Flesh */
-     , (44039,  3883,   2.06)  /* Pyroclastic Explosion */
-     , (44039,  3886,   2.08)  /* Magic Disarmament */
+VALUES (44039,  1832,   2.04)  /* Torrential Acid */
+     , (44039,  1841,   2.03)  /* Slithering Flames */
+     , (44039,  2042,   2.04)  /* Demon's Tongues */
+     , (44039,  2123,   2.03)  /* Celdiseth's Searing */
+     , (44039,  2130,   2.03)  /* Infernae */
+     , (44039,  2710,   2.05)  /* Volcanic Blast */
+     , (44039,  3119,   2.05)  /* Sear Flesh */
+     , (44039,  3883,   2.05)  /* Pyroclastic Explosion */
+     , (44039,  3886,   2.06)  /* Magic Disarmament */
      , (44039,  3905,   2.06)  /* Essence's Fury */
      , (44039,  3908,   2.06)  /* Mana Blast */
-     , (44039,  5532,   2.06)  /* Incantation of Bloodstone Bolt */;
+     , (44039,  5532,   2.08)  /* Incantation of Bloodstone Bolt */
+     , (44039,  4421,   2.07)  /* Incantation of Acid Arc */
+     , (44039,  4423,   2.08)  /* Incantation of Flame Arc */
+     , (44039,  4431,   2.07)  /* Incantation of Acid Blast */
+     , (44039,  4433,   2.07)  /* Incantation of Acid Stream */
+     , (44039,  4434,   2.08)  /* Incantation of Acid Volley */
+     , (44039,  4438,   2.08)  /* Incantation of Flame Blast */
+     , (44039,  4441,   2.09)  /* Incantation of Flame Volley */
+     , (44039,  4473,    2.1)  /* Incantation of Acid Vulnerability Other */
+     , (44039,  4481,   2.11)  /* Incantation of Fire Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70029;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70029, 'ace70029-monstersundew', 1, '2021-11-17 16:56:08') /* Generic */;
+VALUES (70029, 'ace70029-monstersundew', 1, '2024-03-15 04:03:05') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70029,   1,        128) /* ItemType - Misc */
@@ -16,9 +16,6 @@ VALUES (70029,  11, True ) /* IgnoreCollisions */
      , (70029,  13, True ) /* Ethereal */
      , (70029,  14, True ) /* GravityStatus */
      , (70029,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70029,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70029,   1, 'Monster Sundew') /* Name */

@@ -1,13 +1,16 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34310;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34310, 'ace34310-soulhuntersuntranslatedorders', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (34310, 'ace34310-soulhuntersuntranslatedorders', 1, '2024-03-15 04:03:05') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34310,   1,        128) /* ItemType - Misc */
      , (34310,   5,        100) /* EncumbranceVal */
      , (34310,  16,          1) /* ItemUseable - No */
-     , (34310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34310,  19,          0) /* Value */
+     , (34310,  33,          1) /* Bonded - Bonded */
+     , (34310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34310, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34310,  22, True ) /* Inscribable */;

@@ -78,9 +78,9 @@ VALUES (42800, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42800, 4, 44883, -1, 0, 0, False) /* Create Contract for Killtask: Gurog Minions (44883) for Shop */
      , (42800, 4, 44884, -1, 0, 0, False) /* Create Contract for Killtask: Gurog Soldiers (44884) for Shop */
      , (42800, 4, 44882, -1, 0, 0, False) /* Create Contract for Killtask: Gurog Henchmen (44882) for Shop */
-     , (42800, 4, 45565, -1, 0, 0, False) /* Create  (45565) for Shop */
+     , (42800, 4, 45565, -1, 0, 0, False) /* Create Contract for Gurog Creation (45565) for Shop */
      , (42800, 4, 45566, -1, 0, 0, False) /* Create Contract for Wardley and the Wights (45566) for Shop */
-     , (42800, 4, 46904, -1, 0, 0, False) /* Create  (46904) for Shop */
+     , (42800, 4, 46904, -1, 0, 0, False) /* Create Contract for Jester Focuses (46904) for Shop */
      , (42800, 4, 46908, -1, 0, 0, False) /* Create Contract for Unleash the Gearknights (46908) for Shop */
      , (42800, 4, 46909, -1, 0, 0, False) /* Create Contract for Virindi Rescue (46909) for Shop */;
 

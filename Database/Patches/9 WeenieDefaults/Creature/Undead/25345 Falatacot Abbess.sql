@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25345;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25345, 'zombieundeadabbess', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (25345, 'zombieundeadabbess', 10, '2024-03-15 04:03:05') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25345,   1,         16) /* ItemType - Creature */
@@ -76,10 +76,6 @@ VALUES (25345,   1, 0x02000FA5) /* Setup */
      , (25345,   7, 0x100004C0) /* ClothingBase */
      , (25345,   8, 0x06002CF5) /* Icon */
      , (25345,  22, 0x34000028) /* PhysicsEffectTable */
-     , (25345,  32,        447) /* WieldedTreasureType - 
-                                   # Set: 1
-                                   |  98.00% chance of Khopesh (25500)
-                                   |   2.00% chance of nothing from this set */
      , (25345,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -140,10 +136,6 @@ VALUES (25345,   176,  2.011)  /* Fester Other VI */
      , (25345,  2144,   2.01)  /* Crushing Shame */
      , (25345,  2146,   2.01)  /* Evisceration */;
 
-INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (25345,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (25345, 414) /* PLAYER_DEATH_EVENT */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25345,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -154,4 +146,6 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Kikt viktia ti ikni liViliak
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25345, 9, 24477,  0, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (25345, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
+     , (25345, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (25345, 9, 34028,  0, 0, 0.02, False) /* Create Falatacot Abbess Head (34028) for ContainTreasure */
+     , (25345, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

@@ -306,6 +306,22 @@ Give: Doomshark Hide (25901)
     - Give: Doomshark Hide Coat (25839)
     - Tell: Be careful out there.
 
+Give: Enhanced Robe of the Tundra (33950)
+    - TurnToTarget
+    - Tell: What is this? It seems to be a poorly modified robe made from the hide of a Tundra Mattekar... almost as if it was pulled directly off the creature with no care for crafting at all...
+    - Delay: 1, Give: Enhanced Robe of the Tundra (33952)
+    - Delay: 1, Tell: I believe it's much more suitable it looks like that.
+
+Give: Enhanced Robe of the Tundra (33951)
+    - TurnToTarget
+    - Tell: What is this? It seems to be a poorly modified robe made from the hide of a Tundra Mattekar... almost as if it was pulled directly off the creature with no care for crafting at all...
+    - Delay: 1, Give: Enhanced Robe of the Tundra (33952)
+    - Delay: 1, Tell: I believe it's much more suitable it looks like that.
+
+Refuse: Enhanced Robe of the Tundra (33952)
+    - TurnToTarget
+    - Tell: That is a fine robe, indeed.
+
 Use:
     - Motion: Ready
     - TurnToTarget

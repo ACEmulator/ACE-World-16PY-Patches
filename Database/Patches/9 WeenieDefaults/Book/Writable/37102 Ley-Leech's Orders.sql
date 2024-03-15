@@ -1,12 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37102;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37102, 'ace37102-leyleechsorders', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (37102, 'ace37102-leyleechsorders', 8, '2024-03-15 04:03:05') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37102,   1,       8192) /* ItemType - Writable */
      , (37102,   5,          5) /* EncumbranceVal */
      , (37102,  16,          8) /* ItemUseable - Contained */
+     , (37102,  19,          0) /* Value */
      , (37102,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

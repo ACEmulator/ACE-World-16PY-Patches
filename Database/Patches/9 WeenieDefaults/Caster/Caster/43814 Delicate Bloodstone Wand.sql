@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43814;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43814, 'ace43814-delicatebloodstonewand', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (43814, 'ace43814-delicatebloodstonewand', 35, '2024-03-15 04:03:05') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43814,   1,      32768) /* ItemType - Caster */
@@ -38,7 +38,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43814,   5,   -0.03) /* ManaRate */
      , (43814,  29,    1.15) /* WeaponDefense */
      , (43814, 144,     0.2) /* ManaConversionMod */
-     , (43814, 147,    0.06) /* CriticalFrequency */
+     , (43814, 147,    0.25) /* CriticalFrequency */
      , (43814, 152,     1.1) /* ElementalDamageMod */
      , (43814, 157,       1) /* ResistanceModifier */;
 

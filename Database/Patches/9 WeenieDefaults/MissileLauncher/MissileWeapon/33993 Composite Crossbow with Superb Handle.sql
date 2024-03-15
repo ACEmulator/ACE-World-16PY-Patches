@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33993;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33993, 'ace33993-compositecrossbowwithsuperbhandle', 3, '2022-06-21 15:22:25') /* MissileLauncher */;
+VALUES (33993, 'ace33993-compositecrossbowwithsuperbhandle', 3, '2024-03-15 04:03:05') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33993,   1,        256) /* ItemType - MissileWeapon */
@@ -11,7 +11,6 @@ VALUES (33993,   1,        256) /* ItemType - MissileWeapon */
      , (33993,  16,          1) /* ItemUseable - No */
      , (33993,  18,          1) /* UiEffects - Magical */
      , (33993,  19,        375) /* Value */
-     , (33993,  33,          1) /* Bonded - Bonded */
      , (33993,  44,          8) /* Damage */
      , (33993,  45,          0) /* DamageType - Undef */
      , (33993,  46,         32) /* DefaultCombatStyle - Crossbow */
@@ -26,7 +25,6 @@ VALUES (33993,   1,        256) /* ItemType - MissileWeapon */
      , (33993, 107,          0) /* ItemCurMana */
      , (33993, 108,       1000) /* ItemMaxMana */
      , (33993, 109,        225) /* ItemDifficulty */
-     , (33993, 114,          1) /* Attuned - Attuned */
      , (33993, 150,        103) /* HookPlacement - Hook */
      , (33993, 151,          2) /* HookType - Wall */
      , (33993, 158,          2) /* WieldRequirements - RawSkill */
@@ -36,8 +34,7 @@ VALUES (33993,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33993,  22, True ) /* Inscribable */
-     , (33993,  23, True ) /* DestroyOnSell */
-     , (33993,  99, True ) /* Ivoryable */;
+     , (33993,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33993,   5,   -0.05) /* ManaRate */

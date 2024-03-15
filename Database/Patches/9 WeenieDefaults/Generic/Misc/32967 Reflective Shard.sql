@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32967;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32967, 'ace32967-reflectiveshard', 1, '2022-02-10 05:08:07') /* Generic */;
+VALUES (32967, 'ace32967-reflectiveshard', 1, '2024-03-15 04:03:05') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32967,   1,        128) /* ItemType - Misc */
@@ -27,5 +27,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32967,   1, 0x02000C02) /* Setup */
      , (32967,   3, 0x20000014) /* SoundTable */
      , (32967,   6, 0x04000F68) /* PaletteBase */
+     , (32967,   7, 0x10000363) /* ClothingBase */
      , (32967,   8, 0x060063E5) /* Icon */
      , (32967,  22, 0x3400002B) /* PhysicsEffectTable */;

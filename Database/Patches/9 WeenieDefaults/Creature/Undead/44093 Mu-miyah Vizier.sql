@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44093;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44093, 'ace44093-mumiyahvizier', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (44093, 'ace44093-mumiyahvizier', 10, '2024-03-15 04:03:05') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44093,   1,         16) /* ItemType - Creature */
@@ -93,14 +93,14 @@ VALUES (44093,   1,  4490, 0, 0, 4600) /* MaxHealth */
      , (44093,   5,  1550, 0, 0, 1880) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44093,  6, 0, 2, 0, 450, 0, 0) /* MeleeDefense        Trained */
+VALUES (44093,  6, 0, 2, 0, 520, 0, 0) /* MeleeDefense        Trained */
      , (44093,  7, 0, 2, 0, 390, 0, 0) /* MissileDefense      Trained */
-     , (44093, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (44093, 15, 0, 2, 0, 320, 0, 0) /* MagicDefense        Trained */
      , (44093, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44093, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44093, 34, 0, 2, 0, 480, 0, 0) /* WarMagic            Trained */
-     , (44093, 45, 0, 3, 0, 550, 0, 0) /* LightWeapons        Specialized */
-     , (44093, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */;
+     , (44093, 33, 0, 2, 0, 240, 0, 0) /* LifeMagic           Trained */
+     , (44093, 34, 0, 2, 0, 240, 0, 0) /* WarMagic            Trained */
+     , (44093, 45, 0, 3, 0, 610, 0, 0) /* LightWeapons        Specialized */
+     , (44093, 46, 0, 3, 0, 610, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44093,  0,  4,  0,    0,  460,  308,  414,  345,  460,  308,  308,  460,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -114,11 +114,13 @@ VALUES (44093,  0,  4,  0,    0,  460,  308,  414,  345,  460,  308,  308,  460,
      , (44093,  8,  4, 400, 0.75,  460,  308,  414,  345,  460,  308,  308,  460,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44093,  2174,   2.06)  /* Archer's Gift */
+VALUES (44093,  4477,   2.04)  /* Incantation of Bludgeoning Vulnerability Other */
+     , (44093,  4485,   2.04)  /* Incantation of Piercing Vulnerability Other */
+     , (44093,  4443,   2.05)  /* Incantation of Force Bolt */
      , (44093,  4424,   2.06)  /* Incantation of Force Arc */
      , (44093,  4442,   2.06)  /* Incantation of Force Blast */
-     , (44093,  4489,   2.06)  /* Incantation of Fester Other */
-     , (44093,  6192,   2.06)  /* Nuhmudira's Spines II */;
+     , (44093,  4489,   2.05)  /* Incantation of Fester Other */
+     , (44093,  1786,   2.05)  /* Nuhmudira's Spines */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44093, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
