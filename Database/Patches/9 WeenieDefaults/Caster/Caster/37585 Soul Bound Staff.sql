@@ -39,10 +39,10 @@ VALUES (37585,   5,   -0.05) /* ManaRate */
      , (37585,  29,     1.2) /* WeaponDefense */
      , (37585,  39,     0.7) /* DefaultScale */
      , (37585,  76,     0.7) /* Translucency */
-     , (37585, 136,       2) /* CriticalMultiplier */
+     , (37585, 136,     3.5) /* CriticalMultiplier */
      , (37585, 138,     1.5) /* SlayerDamageBonus */
      , (37585, 144,    0.15) /* ManaConversionMod */
-     , (37585, 147,     0.3) /* CriticalFrequency */
+     , (37585, 147,    0.15) /* CriticalFrequency */
      , (37585, 152,     1.2) /* ElementalDamageMod */
      , (37585, 157,       1) /* ResistanceModifier */;
 
