@@ -25,5 +25,5 @@ VALUES (87641,   1, 0x020001B3) /* Setup */
      , (87641,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87641, 2, 0xB82A0013, 71, 66.66, 308.47, -0.275590, 0.000000, 0.000000, -0.961275) /* Destination */
-/* @teleloc 0xB82A0013 [71 66.66 308.47] -0.275590 0.000000 0.000000 -0.961275 */
+VALUES (87641, 2, 0x007B011D, 40, -200, 0.005, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x007B011D [40.000000 -200.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
