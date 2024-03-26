@@ -48,5 +48,5 @@ VALUES (27387,   1, 0x02000921) /* Setup */
      , (27387,   8, 0x060013CC) /* Icon */
      , (27387,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27387,  28,        157) /* Spell - Summon Primary Portal I */
-     , (27387,  31,      27398) /* LinkedPortalOne - Dark Monolith */
+     , (27387,  31,      73126) /* LinkedPortalOne - Dark Monolith */
      , (27387,  50, 0x06003334) /* IconOverlay */;
