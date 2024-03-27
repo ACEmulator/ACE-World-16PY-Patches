@@ -25,8 +25,8 @@ VALUES (0x701CA005,   509, 0x01CA0106, 30, -60, -78, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x01CA0106 [30.000000 -60.000000 -78.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701CA006,  1027, 0x01CA010A, 32.959499, -100.053116, -77.993996, -0.732362, 0.000000, 0.000000, -0.680916, False, '2005-02-09 10:00:00'); /* destroyed Portal to Shoushi */
-/* @teleloc 0x01CA010A [32.959499 -100.053116 -77.993996] -0.732362 0.000000 0.000000 -0.680916 */
+VALUES (0x701CA006,  1027, 0x01CA010A, 34.541580, -99.947388, -78.209831, -0.717697, 0.000000, 0.000000, -0.696355, False, '2005-02-09 10:00:00'); /* destroyed Portal to Shoushi */
+/* @teleloc 0x01CA010A [34.541580 -99.947388 -78.209831] -0.717697 0.000000 0.000000 -0.696355 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CA007,   568, 0x01CA010A, 34.85, -99.99, -78, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
