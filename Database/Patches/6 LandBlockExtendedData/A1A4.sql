@@ -217,8 +217,8 @@ VALUES (0x7A1A4047, 19380, 0xA1A40000, 41.378, 105.798, 50.005, 0.362358, 0, 0, 
 /* @teleloc 0xA1A40000 [41.377998 105.797997 50.005001] 0.362358 0.000000 0.000000 -0.932039 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A1A4048, 19358, 0xA1A40000, 42.8926, 104.163, 50.005, 0.362358, 0, 0, -0.932039, False, '2021-12-14 05:15:31'); /* Atrium Residential Halls Portal */
-/* @teleloc 0xA1A40000 [42.892601 104.163002 50.005001] 0.362358 0.000000 0.000000 -0.932039 */
+VALUES (0x7A1A4048, 19358, 0xA1A4000D, 41.489007, 105.778056, 50.006001, 0.359937, 0.000000, 0.000000, -0.932976, False, '2024-02-26 20:00:00'); /* Atrium Residential Halls Portal */
+/* @teleloc 0xA1A4000D [41.489007 105.778056 50.006001] 0.359937 0.000000 0.000000 -0.932976 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A404D, 22074, 0xA1A40165, 86.3577, 80.7658, 55.705, -0.994861, 0, 0, 0.101248,  True, '2021-12-14 05:15:31'); /* Tiffany Comfore */
