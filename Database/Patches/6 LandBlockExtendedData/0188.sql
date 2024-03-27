@@ -475,3 +475,7 @@ VALUES (0x7018805F, 34913, 0x0188010B, 31.2728, -98.6926, -24, 0.946776, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70188060, 34913, 0x0188010B, 30.7328, -95.6046, -24, 0.427395, 0, 0, -0.904065,  True, '2021-11-01 00:00:00'); /* Empyrean Sun Stone */
 /* @teleloc 0x0188010B [30.732800 -95.604599 -24.000000] 0.427395 0.000000 0.000000 -0.904065 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70188061,  4054, 0x01880197, 110.017311, -60.139099, -17.994001, -0.710438, 0.000000, 0.000000, 0.703760, False, '2024-03-24 20:00:00'); /* Surface */
+/* @teleloc 0x01880197 [110.017311 -60.139099 -17.994001] -0.710438 0.000000 0.000000 0.703760 */
