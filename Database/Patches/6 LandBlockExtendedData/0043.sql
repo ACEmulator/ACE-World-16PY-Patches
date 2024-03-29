@@ -84,7 +84,7 @@ VALUES (0x700433E8, 0x700433EA, '2021-11-01 00:00:00') /* Viamontian Lord (28656
      , (0x700433E8, 0x70043437, '2021-11-01 00:00:00') /* Master Versario (32230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700433E9, 32240, 0x00430101, 0.085737, -325.252, -18.0627, -0.999718, 0, 0, -0.023732,  True, '2021-11-01 00:00:00'); /* Surface */
+VALUES (0x700433E9, 32240, 0x00430101, 0.085737, -325.252, -18.0627, -0.999718, 0, 0, -0.023732,  False, '2024-03-29 20:00:00'); /* Surface */
 /* @teleloc 0x00430101 [0.085737 -325.252014 -18.062700] -0.999718 0.000000 0.000000 -0.023732 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -392,7 +392,7 @@ VALUES (0x70043435, 35131, 0x0043032D, 257.103, -96.039, 0.006899, 0.999672, 0, 
 /* @teleloc 0x0043032D [257.102997 -96.039001 0.006899] 0.999672 0.000000 0.000000 -0.025619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70043436, 32240, 0x0043031B, 249.938, -7.58789, -0.062694, 0.999583, 0, 0, 0.028871,  True, '2021-11-01 00:00:00'); /* Surface */
+VALUES (0x70043436, 32240, 0x0043031B, 249.938, -7.58789, -0.062694, 0.999583, 0, 0, 0.028871,  False, '2024-03-29 20:00:00'); /* Surface */
 /* @teleloc 0x0043031B [249.938004 -7.587890 -0.062694] 0.999583 0.000000 0.000000 0.028871 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
