@@ -28,3 +28,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32678,   1, 0x020001B3) /* Setup */
      , (32678,   2, 0x09000003) /* MotionTable */
      , (32678,   8, 0x0600106B) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (32678, 2,  0xBE720015, 60.000000, 107.998047, 6.006000, 1.000000, 0.000000, 0.000000, 0.000000); /* Destination */
+/* @teleloc  0xBE720015 [60.000000 107.998047 6.006000] 1.000000 0.000000 0.000000 0.000000 */
+/* this matches world_objects exit portal data for landcell 00890150 that shows "Surface (10.3S, 50.3E)"
