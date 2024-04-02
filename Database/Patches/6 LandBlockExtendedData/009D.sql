@@ -123,3 +123,7 @@ VALUES (0x7009D01D, 87321, 0x009D018C, 75.9264, 0.591573, -23.945, -0.030943, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009D01E, 87322, 0x009D013C, 94.24, -69.9733, -30.2098, -0.691955, 0, 0, -0.72194, False, '2021-11-01 00:00:00'); /* Cavern Exit */
 /* @teleloc 0x009D013C [94.239998 -69.973297 -30.209801] -0.691955 0.000000 0.000000 -0.721940 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7009D01F, 87322, 0x009D02D2, 78.621826, -68.693359, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, False, '2024-04-01 20:00:00'); /* Cavern Exit */
+/* @teleloc 0x009D02D2 [78.621826 -68.693359 0.000000] 1.000000 0.000000 0.000000 0.000000 */
