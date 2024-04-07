@@ -162,6 +162,10 @@ VALUES (32329, 9, 45875,  0, 0, 0.01, False) /* Create Lucky Gold Letter (45875)
      , (32329, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (32329, 9, 45876,  0, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (32329, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (32329, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (32329, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (32329, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (32329, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (32329, 10, 29967,  1, 0, 0.25, False) /* Create Quadrelle (29967) for WieldTreasure */
      , (32329, 10, 29972,  1, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */
      , (32329, 10, 29977,  1, 0, 0.25, False) /* Create Spadone (29977) for WieldTreasure */

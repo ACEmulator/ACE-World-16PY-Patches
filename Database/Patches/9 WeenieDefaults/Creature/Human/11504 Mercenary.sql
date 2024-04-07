@@ -468,4 +468,8 @@ VALUES (11504, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) fo
      , (11504, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (11504, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (11504, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (11504, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     , (11504, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (11504, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (11504, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (11504, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (11504, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

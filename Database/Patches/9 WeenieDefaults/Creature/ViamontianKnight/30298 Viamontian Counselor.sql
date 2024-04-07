@@ -190,4 +190,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30298, 2, 28614,  0, 11, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (30298, 8, 34276,  0, 0, 0.007, False) /* Create Ancient Empyrean Trinket (34276) for Treasure */
      , (30298, 8,     0,  0, 0, 0.993, False) /* Create nothing for Treasure */
+     , (30298, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (30298, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (30298, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (30298, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (30298, 10, 30946,  1, 0, 1, False) /* Create Poniard (30946) for WieldTreasure */;
