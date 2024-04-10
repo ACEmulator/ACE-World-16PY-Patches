@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40630;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40630, 'ace40630-assassinsedge', 6, '2024-04-07 02:43:24') /* MeleeWeapon */;
+VALUES (40630, 'ace40630-assassinsedge', 6, '2024-04-09 08:02:34') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40630,   1,          1) /* ItemType - MeleeWeapon */
@@ -11,7 +11,7 @@ VALUES (40630,   1,          1) /* ItemType - MeleeWeapon */
      , (40630,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (40630,  16,          1) /* ItemUseable - No */
      , (40630,  18,          1) /* UiEffects - Magical */
-     , (40630,  19,        500) /* Value */
+     , (40630,  19,         30) /* Value */
      , (40630,  33,         -2) /* Bonded - Destroy */
      , (40630,  37,        999) /* ResistItemAppraisal */
      , (40630,  44,         10) /* Damage */

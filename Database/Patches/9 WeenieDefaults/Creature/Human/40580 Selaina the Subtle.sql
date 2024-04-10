@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40580;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40580, 'ace40580-selainathesubtle', 10, '2024-04-07 04:05:54') /* Creature */;
+VALUES (40580, 'ace40580-selainathesubtle', 10, '2024-04-08 08:09:19') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40580,   1,         16) /* ItemType - Creature */
@@ -330,14 +330,14 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''ll have nothing to do wi
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Creed may have something that will get you back in my good graces... but it''ll cost you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40580, 2, 40630,  1, 0, 0, False) /* Create Assassin's Edge (40630) for Wield */
+VALUES (40580, 2, 40630,  1, 14, 0, False) /* Create Assassin's Edge (40630) for Wield */
      , (40580, 2,   127,  0, 9, 0.9818, False) /* Create Pants (127) for Wield */
      , (40580, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
-     , (40580, 2, 40631,  0, 18, 0, False) /* Create Assassin's Cowl (40631) for Wield */
+     , (40580, 2, 81097,  0, 18, 0, False) /* Create Assassin's Cowl (81097) for Wield */
      , (40580, 2, 27218,  0, 19, 0.1111, False) /* Create Chiran Leggings (27218) for Wield */
      , (40580, 2, 25646,  0, 4, 0, False) /* Create Long Leather Gauntlets (25646) for Wield */
      , (40580, 2, 25661,  0, 4, 0, False) /* Create Leather Boots (25661) for Wield */
      , (40580, 2, 27218,  0, 19, 0.1111, False) /* Create Chiran Leggings (27218) for Wield */
-     , (40580, 8, 40630,  1, 14, 0.5, False) /* Create Assassin's Edge (40630) for Treasure */
-     , (40580, 8,     0,  0, 18, 0.5, False) /* Create nothing for Treasure */
+     , (40580, 8, 40630,  1, 14, 0.25, False) /* Create Assassin's Edge (40630) for Treasure */
+     , (40580, 8,     0,  0, 18, 0.75, False) /* Create nothing for Treasure */
      , (40580, 8, 40631,  1, 18, 1, False) /* Create Assassin's Cowl (40631) for Treasure */;

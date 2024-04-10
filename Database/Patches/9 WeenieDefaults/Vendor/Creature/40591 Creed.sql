@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40591;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40591, 'ace40591-creed', 12, '2024-04-02 02:40:05') /* Vendor */;
+VALUES (40591, 'ace40591-creed', 12, '2024-04-08 07:12:51') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40591,   1,         16) /* ItemType - Creature */
@@ -109,4 +109,4 @@ VALUES (40591, 2, 25642,  0, 4, 0, False) /* Create Leather Gauntlets (25642) fo
      , (40591, 4, 81095, -1, 0, 0, False) /* Create Assassin Title Writ (81095) for Shop */
      , (40591, 4, 81096, -1, 0, 0, False) /* Create Death Dealer Title Writ (81096) for Shop */
      , (40591, 4, 40629, -1, 0, 0, False) /* Create Assassin's Cowl (40629) for Shop */
-     , (40591, 4, 40632, -1, 0, 0, False) /* Create Assassin's Edge (40632) for Shop */;
+     , (40591, 4, 81091, -1, 0, 0, False) /* Create Assassin's Edge (81091) for Shop */;

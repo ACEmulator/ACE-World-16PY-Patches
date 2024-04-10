@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 81073;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (81073, 'ace81073-barrel', 10, '2024-04-07 03:36:44') /* Creature */;
+VALUES (81073, 'ace81073-barrel', 10, '2024-04-08 08:18:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (81073,   1,         16) /* ItemType - Creature */
@@ -72,15 +72,15 @@ VALUES (81073,   1, 0x02001888) /* Setup */
      , (81073,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (81073,   1,   1, 0, 0) /* Strength */
-     , (81073,   2,   1, 0, 0) /* Endurance */
-     , (81073,   3,   1, 0, 0) /* Quickness */
-     , (81073,   4,   1, 0, 0) /* Coordination */
-     , (81073,   5,   1, 0, 0) /* Focus */
-     , (81073,   6,   1, 0, 0) /* Self */;
+VALUES (81073,   1,  10, 0, 0) /* Strength */
+     , (81073,   2,  10, 0, 0) /* Endurance */
+     , (81073,   3,  10, 0, 0) /* Quickness */
+     , (81073,   4,  10, 0, 0) /* Coordination */
+     , (81073,   5,  10, 0, 0) /* Focus */
+     , (81073,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (81073,   1,  3000, 0, 0, 3001) /* MaxHealth */
+VALUES (81073,   1,   996, 0, 0, 1001) /* MaxHealth */
      , (81073,   3,   800, 0, 0, 801) /* MaxStamina */
      , (81073,   5,     0, 0, 0, 1) /* MaxMana */;
 
