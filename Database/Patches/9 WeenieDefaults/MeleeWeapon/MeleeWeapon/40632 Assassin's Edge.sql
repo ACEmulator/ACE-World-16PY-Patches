@@ -41,12 +41,11 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40632,   5,   -0.33) /* ManaRate */
      , (40632,  21,     0.4) /* WeaponLength */
      , (40632,  22,     0.9) /* DamageVariance */
-     , (40632,  26,       0) /* MaximumVelocity */
      , (40632,  29,     1.1) /* WeaponDefense */
      , (40632,  62,     1.2) /* WeaponOffense */
      , (40632,  63,       1) /* DamageMod */
      , (40632, 136,    1.75) /* CriticalMultiplier */
-     , (40632, 147,       1) /* CriticalFrequency */
+     , (40632, 147,    0.25) /* CriticalFrequency */
      , (40632, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
