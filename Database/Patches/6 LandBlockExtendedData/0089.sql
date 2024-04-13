@@ -173,3 +173,7 @@ VALUES (0x7008903B, 32751, 0x008902BD, 260, -260, -6, 1, 0, 0, 0,  True, '2021-1
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008903C, 32751, 0x00890262, 160, -260, -6, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Black Book of Salt and Ash */
 /* @teleloc 0x00890262 [160.000000 -260.000000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008903D, 32678, 0x00890113, 67.000122, -240, -12, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Surface (West)*/
+/* @teleloc 0x00890113 [67.000122 -240 -12] 1 0 0 0 */
