@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30834;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30834, 'portalbossinfiltration', 10, '2024-03-15 04:03:05') /* Creature */;
+VALUES (30834, 'portalbossinfiltration', 10, '2024-04-14 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30834,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,8 @@ VALUES (30834,   1, 'Shadow Lugian Portal') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30834,   1, 0x020012D3) /* Setup */
      , (30834,   2, 0x09000184) /* MotionTable */
-     , (30834,   3, 0x20000067) /* SoundTable */;
+     , (30834,   3, 0x20000067) /* SoundTable */
+     , (30834,  31,      30844) /* LinkedPortalOne - Purple Portal Template */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30834, 12, 0x1A8E0113, -198, -25, 88.405, 1, 0, 0, 0) /* PortalSummonLoc */
