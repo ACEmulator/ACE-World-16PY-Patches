@@ -190,8 +190,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (80049, 2, 28614,  0, 11, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (80049, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (80049, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
-     , (80049, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
-     , (80049, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
-     , (80049, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
+     , (80049, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */;

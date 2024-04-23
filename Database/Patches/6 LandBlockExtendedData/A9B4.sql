@@ -449,7 +449,3 @@ VALUES (0x7A9B46AF, 37518, 0xA9B40005, 9.89043, 114.139, 66.9818, 0.707137, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B46B0, 37518, 0xA9B4003D, 176.73, 106.375, 65.2775, 0.643583, 0, 0, -0.765377, False, '2022-12-04 19:04:52'); /* Royal Guard */
 /* @teleloc 0xA9B4003D [176.729996 106.375000 65.277496] 0.643583 0.000000 0.000000 -0.765377 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B46B1, 40526, 0xA9B40155, 108.273, 39.4582, 94, 0.085621, 0, 0, -0.996328, False, '2022-12-04 19:04:52'); /* Bottle */
-/* @teleloc 0xA9B40155 [108.273003 39.458199 94.000000] 0.085621 0.000000 0.000000 -0.996328 */

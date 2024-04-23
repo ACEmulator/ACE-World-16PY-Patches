@@ -140,8 +140,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (25709, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */
      , (25709, 2,   117,  0, 8, 1, False) /* Create Breeches (117) for Wield */
      , (25709, 2,  2591,  0, 14, 1, False) /* Create Puffy Shirt (2591) for Wield */
-     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
-     , (25709, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
-     , (25709, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
-     , (25709, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
-     , (25709, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
+     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */;

@@ -209,8 +209,4 @@ VALUES (28716, 0, 40523,  1, 0, 0.06, False) /* Create Contact Instructions (405
      , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
      , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
      , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
-     , (28716, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
-     , (28716, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
-     , (28716, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
-     , (28716, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */;

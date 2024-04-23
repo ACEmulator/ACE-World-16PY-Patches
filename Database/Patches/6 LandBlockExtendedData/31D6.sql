@@ -95,11 +95,3 @@ VALUES (0x731D602A, 31431, 0x31D60134, 52.0187, 145.175, 80.105, -0.999994, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x731D602B, 28700, 0x31D60134, 71.9016, 163.689, 80.105, 0.072391, 0, 0, -0.997376,  True, '2021-11-01 00:00:00'); /* Grand Knight */
 /* @teleloc 0x31D60134 [71.901604 163.688995 80.105003] 0.072391 0.000000 0.000000 -0.997376 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x731D602C, 40529, 0x31D60109, 111.964, 123.356, 90.003, 0.989022, 0, 0, -0.147769, False, '2024-03-17 00:00:00'); /* Skeleton */
-/* @teleloc 0x31D60109 [111.963997 123.356003 90.002998] 0.989022 0.000000 0.000000 -0.147769 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x731D602D, 81090, 0x31D60109, 110.5, 126.4, 90.005, 0.707107, 0, 0, -0.707107, False, '2024-03-17 00:00:00'); /* Lieutenant Dialossa */
-/* @teleloc 0x31D60109 [110.500000 126.400002 90.004997] 0.707107 0.000000 0.000000 -0.707107 */

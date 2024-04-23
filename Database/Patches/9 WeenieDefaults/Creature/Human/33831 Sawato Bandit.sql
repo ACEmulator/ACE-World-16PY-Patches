@@ -105,9 +105,5 @@ VALUES (33831, 2, 21352,  1, 20, 0, False) /* Create Deadly Chorizite Quarrel (2
      , (33831, 2,  6047,  1, 2, 0.4789, False) /* Create Amuli Leggings (6047) for Wield */
      , (33831, 2, 27226,  1, 39, 0, False) /* Create Nariyid Boots (27226) for Wield */
      , (33831, 2,  9392,  1, 2, 0.2, False) /* Create Helm of the Crag (9392) for Wield */
-     , (33831, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
-     , (33831, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
-     , (33831, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
-     , (33831, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (33831, 10, 31706,  1, 0, 0.5, False) /* Create Hollow Crossbow (31706) for WieldTreasure */
      , (33831, 10, 31704,  1, 0, 0.5, False) /* Create Tachi (31704) for WieldTreasure */;

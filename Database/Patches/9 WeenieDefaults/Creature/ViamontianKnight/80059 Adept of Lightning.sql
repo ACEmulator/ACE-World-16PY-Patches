@@ -157,8 +157,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (80059, 2, 31822,  1, 4, 0.6, False) /* Create Electric Baton (31822) for Wield */
      , (80059, 2, 28614,  0, 13, 0.1429, False) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (80059, 2, 28632,  0, 13, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (80059, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
-     , (80059, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
-     , (80059, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
-     , (80059, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
+     , (80059, 2, 28632,  0, 13, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */;

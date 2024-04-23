@@ -219,8 +219,4 @@ VALUES (30293, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for C
      , (30293, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
      , (30293, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (30293, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
-     , (30293, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (30293, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
-     , (30293, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
-     , (30293, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
      , (30293, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
