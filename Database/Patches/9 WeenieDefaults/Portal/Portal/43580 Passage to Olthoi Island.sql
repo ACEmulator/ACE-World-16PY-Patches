@@ -30,6 +30,6 @@ VALUES (43580,   1, 0x020001B3) /* Setup */
      , (43580,   6, 0x040001FA) /* PaletteBase */
      , (43580,   8, 0x0600106B) /* Icon */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`,`position_Type`,`obj_Cell_Id`,`origin_X`,`origin_Y`,`origin_Z`,`angles_W`,`angles_X`,`angles_Y`,`angles_Z`)
-VALUES (43580, 2, 0xE8D2002B, 132, 60, 42.006001, 1, 0, 0, 0); /* Destination (66.3N, 84.2E)*/
-/* @teleloc 0xE8D2002B [132 60 42.006001] 1 0 0 0 */
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (43580, 2, 0xE8D2002B, 132, 60, 42.006, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0xE8D2002B [132.000000 60.000000 42.006001] 1.000000 0.000000 0.000000 0.000000 */;

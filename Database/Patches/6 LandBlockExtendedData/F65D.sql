@@ -101,5 +101,5 @@ VALUES (0x7F65D46E, 72874, 0xF65D014D, 103.251, 69.4094, 2.855, -0.333186, 0, 0,
 /* @teleloc 0xF65D014D [103.250999 69.409401 2.855000] -0.333186 0.000000 0.000000 -0.942861 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES(0x7F65D46F, 43561, 0xF65D0102, 12.118717, 189.208969, 14.406000, 1, 0, 0, 0, False, '2024-04-15 20:00:00'); /* Olthoi Tunnel (From Tou-tou)*/
-/* @teleloc 0xF65D0102 [12.118717 189.208969 14.406000] 1 0 0 0 */
+VALUES (0x7F65D46F, 43561, 0xF65D0102, 12.1187, 189.209, 14.406, 1, 0, 0, 0, False, '2024-04-15 20:00:00'); /* Olthoi Tunnel */
+/* @teleloc 0xF65D0102 [12.118700 189.209000 14.406000] 1.000000 0.000000 0.000000 0.000000 */

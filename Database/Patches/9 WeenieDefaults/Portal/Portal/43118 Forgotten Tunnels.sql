@@ -25,6 +25,6 @@ VALUES (43118,   1, 0x020005D5) /* Setup */
      , (43118,   2, 0x09000003) /* MotionTable */
      , (43118,   8, 0x0600106B) /* Icon */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`,`position_Type`,`obj_Cell_Id`,`origin_X`,`origin_Y`,`origin_Z`,`angles_W`,`angles_X`,`angles_Y`,`angles_Z`)
-VALUES (43118, 2, 0x8B02026b, 0, -20, 18.004999160767, 0.70710700750351, 0, 0, -0.70710700750351); /* Destination W*/
-/* @teleloc 0x8B02026b [0 -20 18.004999160767] 0.70710700750351 0 0 -0.70710700750351 */
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (43118, 2, 0x8B02026B, 0, -20, 18.005, 0.707107, 0, 0, -0.707107) /* Destination */
+/* @teleloc 0x8B02026B [0.000000 -20.000000 18.004999] 0.707107 0.000000 0.000000 -0.707107 */;
