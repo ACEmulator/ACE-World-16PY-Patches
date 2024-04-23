@@ -37,7 +37,7 @@ VALUES (0x70030001, 31293, 0x003001AE, 8.70818, -128.822, 0.005, -0.926105, 0, 0
 /* @teleloc 0x003001AE [8.708180 -128.822006 0.005000] -0.926105 0.000000 0.000000 -0.377266 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70030002, 31293, 0x00300186, 120.762, -0.903507, -5.995, -0.352254, 0, 0, 0.935904, False, '2021-11-01 00:00:00'); /* Surface */
+VALUES (0x70030002, 19131, 0x00300186, 120.762, -0.903507, -5.995, -0.352254, 0, 0, 0.935904, False, '2024-04-13 00:00:00'); /* Portal to Fort Tethana */
 /* @teleloc 0x00300186 [120.762001 -0.903507 -5.995000] -0.352254 0.000000 0.000000 0.935904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
