@@ -10,6 +10,7 @@ VALUES (40522,   1,       8192) /* ItemType - Writable */
      , (40522,  19,          0) /* Value */
      , (40522,  33,          1) /* Bonded - Bonded */
      , (40522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (40522,  98, 1485368894) /* CreationTimestamp */
      , (40522, 114,          1) /* Attuned - Attuned */
      , (40522, 267,        600) /* Lifespan */;
 

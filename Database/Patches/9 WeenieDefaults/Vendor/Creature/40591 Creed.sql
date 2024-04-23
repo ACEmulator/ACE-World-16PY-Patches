@@ -23,7 +23,8 @@ VALUES (40591,   1, True ) /* Stuck */
      , (40591,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40591,  37,       0) /* BuyPrice */
+VALUES (40591,   0,       0) /* Undef */
+     , (40591,  37,       0) /* BuyPrice */
      , (40591,  38,       1) /* SellPrice */
      , (40591,  54,       3) /* UseRadius */;
 
@@ -32,7 +33,8 @@ VALUES (40591,   1, 'Creed') /* Name */
      , (40591,   2, 'Middle Man') /* Title */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40591,   1, 0x02000001) /* Setup */
+VALUES (40591,   0, 0x00000000) /* Undef */
+     , (40591,   1, 0x02000001) /* Setup */
      , (40591,   2, 0x09000001) /* MotionTable */
      , (40591,   3, 0x20000001) /* SoundTable */
      , (40591,   6, 0x0400007E) /* PaletteBase */
