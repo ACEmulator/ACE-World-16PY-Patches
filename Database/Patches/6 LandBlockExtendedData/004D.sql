@@ -872,13 +872,13 @@ VALUES (0x7004D177,  2131, 0x004D02D2, 94.9939, -359.827, -42, -0.710071, 0, 0, 
 /* @teleloc 0x004D02D2 [94.993896 -359.826996 -42.000000] -0.710071 0.000000 0.000000 -0.704130 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D179, 33295, 0x004D03D6, 61.631470, -58.274414, -18, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Temple of N'cthail */
-/* @teleloc 0x004D03D6 [61.631470 -58.274414 -18] 1 0 0 0 */
+VALUES (0x7004D178, 33295, 0x004D0131, 79.4257, -319.462, -78, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Temple of N'cthail */
+/* @teleloc 0x004D0131 [79.425697 -319.462006 -78.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7004D179, 33295, 0x004D03D6, 61.6315, -58.2744, -18, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Temple of N'cthail */
+/* @teleloc 0x004D03D6 [61.631500 -58.274399 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D180, 33295, 0x004D049E, 90, -360, -18, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Temple of N'cthail */
-/* @teleloc 0x004D049E [90 -360 -18] 1 0 0 0 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D178, 33295, 0x004D0131, 79.425659, -319.461914, -78, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Temple of N'cthail */
-/* @teleloc 0x004D0131 [79.425659 -319.461914 -78] 1 0 0 0 */
+/* @teleloc 0x004D049E [90.000000 -360.000000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */

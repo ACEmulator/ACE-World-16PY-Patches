@@ -84,8 +84,8 @@ VALUES (0x700433E8, 0x700433EA, '2021-11-01 00:00:00') /* Viamontian Lord (28656
      , (0x700433E8, 0x70043437, '2021-11-01 00:00:00') /* Master Versario (32230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700433E9, 32240, 0x00430101, 0, -328.000977, -18, 1, 0, 0, 0,  False, '2024-04-13 20:00:00'); /* Surface */
-/* @teleloc 0x00430101 [0 -328.000977 -18] 1 0 0 0 */
+VALUES (0x700433E9, 32240, 0x00430101, 0, -328.001, -18, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Surface */
+/* @teleloc 0x00430101 [0.000000 -328.001007 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700433EA, 28656, 0x0043010F, 25.0251, -359.211, -17.9936, -0.537582, 0, 0, 0.843211,  True, '2021-11-01 00:00:00'); /* Viamontian Lord */
@@ -392,8 +392,8 @@ VALUES (0x70043435, 35131, 0x0043032D, 257.103, -96.039, 0.006899, 0.999672, 0, 
 /* @teleloc 0x0043032D [257.102997 -96.039001 0.006899] 0.999672 0.000000 0.000000 -0.025619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70043436, 32240, 0x0043031B, 249.999390, -8.000977, 0, 1, 0, 0, 0,  False, '2024-04-13 20:00:00'); /* Surface */
-/* @teleloc @teleloc 0x0043031B [249.999390 -8.000977 0] 1 0 0 0 */
+VALUES (0x70043436, 32240, 0x0043031B, 249.999, -8.00098, 0, 1, 0, 0, 0, False, '2024-04-13 20:00:00'); /* Surface */
+/* @teleloc 0x0043031B [249.998993 -8.000980 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70043437, 32230, 0x0043010F, 27.1586, -360.402, -17.9926, -0.919448, 0, 0, 0.393211,  True, '2021-11-01 00:00:00'); /* Master Versario */
