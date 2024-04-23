@@ -29,3 +29,7 @@ VALUES (43536,   1, 0x020001B3) /* Setup */
      , (43536,   2, 0x09000003) /* MotionTable */
      , (43536,   6, 0x040001FA) /* PaletteBase */
      , (43536,   8, 0x0600106B) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`,`position_Type`,`obj_Cell_Id`,`origin_X`,`origin_Y`,`origin_Z`,`angles_W`,`angles_X`,`angles_Y`,`angles_Z`)
+VALUES (43536, 2, 0xE4D60014, 60, 83.996094, 8.006001, 1, 0, 0, 0); /* Destination (69.6N, 80.7E)*/
+/* @teleloc 0xE4D60014 [60 83.996094 8.006001] 1 0 0 0 */
