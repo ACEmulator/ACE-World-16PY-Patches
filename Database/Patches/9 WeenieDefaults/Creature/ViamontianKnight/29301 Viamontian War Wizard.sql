@@ -192,4 +192,8 @@ VALUES (29301, 2, 28614,  0, 11, 0.1786, False) /* Create Vestiri Robe with Hood
      , (29301, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
      , (29301, 8, 34276,  0, 0, 0.007, False) /* Create Ancient Empyrean Trinket (34276) for Treasure */
      , (29301, 8,     0,  0, 0, 0.993, False) /* Create nothing for Treasure */
+     , (29301, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (29301, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (29301, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (29301, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (29301, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */;

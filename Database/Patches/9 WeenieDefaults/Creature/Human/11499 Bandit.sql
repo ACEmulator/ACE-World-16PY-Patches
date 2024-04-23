@@ -461,3 +461,9 @@ VALUES (11499,  0,  4,  0,    0,   25,   23,   25,   28,   10,   10,   25,   15,
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11499,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11499, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11499, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (11499, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (11499, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (11499, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

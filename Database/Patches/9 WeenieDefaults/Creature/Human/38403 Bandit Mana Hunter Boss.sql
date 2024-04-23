@@ -139,4 +139,8 @@ VALUES (38403, 2,   124,  0, 93, 0.5, False) /* Create Jerkin (124) for Wield */
      , (38403, 2, 31705,  0, 0, 0, False) /* Create Phantom Bow (31705) for Wield */
      , (38403, 2, 21348, 100, 0, 0, False) /* Create Deadly Chorizite Arrow (21348) for Wield */
      , (38403, 2, 31706,  0, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */
-     , (38403, 2, 21352, 100, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */;
+     , (38403, 2, 21352, 100, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+     , (38403, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (38403, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (38403, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (38403, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

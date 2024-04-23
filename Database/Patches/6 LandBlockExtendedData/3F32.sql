@@ -143,3 +143,11 @@ VALUES (0x73F320AF, 38077, 0x3F320009, 40.5814, 9.06524, -0.095, 0.777291, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F320B0, 72372, 0x3F320133, 14.3484, 13.5913, -2.94, -0.382683, 0, 0, -0.92388, False, '2021-11-01 00:00:00'); /* Mhoire Lieutenant Gen */
 /* @teleloc 0x3F320133 [14.348400 13.591300 -2.940000] -0.382683 0.000000 0.000000 -0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73F320B1, 40527, 0x3F320129, 15.6124, 11.7693, 7.857, 0.718114, 0, 0, -0.695925, False, '2021-11-01 00:00:00'); /* Encrusted Scroll Case */
+/* @teleloc 0x3F320129 [15.612400 11.769300 7.857000] 0.718114 0.000000 0.000000 -0.695925 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73F320B2, 81081, 0x3F320129, 11, 17, 7.805, 0, 0, 0, 1, False, '2021-11-01 00:00:00'); /* Riordin Nightbane */
+/* @teleloc 0x3F320129 [11.000000 17.000000 7.805000] 0.000000 0.000000 0.000000 1.000000 */
