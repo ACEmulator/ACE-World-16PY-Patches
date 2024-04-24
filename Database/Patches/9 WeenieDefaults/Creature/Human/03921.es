@@ -96,23 +96,23 @@ Give: Dull Gem (3933)
     - Tell: You don't want it? Well, ok, take some coin instead.
     - Give: Pyreal (273), 1,000
     - Tell: It may look dull now, but wait till I'm through with it.
-	
+
 Give: Mud Golem Heart (11351)
     - TurnToTarget
-	- InqQuestBitsOn: RoostKnowledgeProgress_0904, 0x2
-		QuestSuccess:
-			- InqQuestBitsOn: RoostKnowledgeProgress_0904, 0x4
-				QuestSuccess:
-					- Goto: MudGolemHeart
-				QuestFailure:
-					- SetQuestBitsOn: RoostKnowledgeProgress_0904, 0x4
-					- Tell: Take this note to Kuyiza bint Zayi the Translator. She'll tell you what to do with it.
-					- Give: 81079
-					- Tell: I'll keep the bounty I usually pay for these.
-					- AwardNoShareXP: 1,000,000
-					- Tell: Yes, very good.			
-		QuestFailure:
-			- Goto: MudGolemHeart
+    - InqQuestBitsOn: RoostKnowledgeProgress_0904@4, 0x2
+        QuestSuccess:
+            - InqQuestBitsOn: RoostKnowledgeProgress_0904@5, 0x4
+                QuestSuccess:
+                    - Goto: MudGolemHeart
+                QuestFailure:
+                    - SetQuestBitsOn: RoostKnowledgeProgress_0904, 0x4
+                    - Tell: Take this note to Kuyiza bint Zayi the Translator. She'll tell you what to do with it.
+                    - Give: Mysterious Untranslated Scroll (81079)
+                    - Tell: I'll keep the bounty I usually pay for these.
+                    - AwardNoShareXP: 1,000,000
+                    - Tell: Yes, very good.
+        QuestFailure:
+            - Goto: MudGolemHeart
 
 GotoSet: MudGolemHeart
     - Tell: Yes, very good.
@@ -205,3 +205,4 @@ Use:
     - Delay: 1, Motion: WaveLow
     - Delay: 1, Tell: I will take a number of trophy stones and jewels, such as virindi jewels, swamp stones, iron, copper, and granite golem hearts.
     - Delay: 1, Tell: I'll also take banderling trophies.  But what I really specialize in are the rare black rocks and black stones.
+

@@ -4,7 +4,7 @@ Refuse: Sake (2468)
     - Tell: Ugh! I hate this stuff, but I have a friend who likes it. Maybe you should drop in on him.
     - Motion: TalktotheHandState
     - Delay: 1, Motion: Ready
-    - Turn: 0 0 0 -1
+    - Turn: S
     - CastSpell: 157 - Summon Primary Portal I
     - Delay: 1, Motion: Laugh
 
@@ -48,13 +48,13 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.08
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.09
     - Motion: Drink
-    - Delay: 1.5, Say: Aw! None Left!, Extent: 0
+    - Delay: 1.5, Say: Aw! None Left!
     - Delay: 1, Motion: Ready
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-    - Say: Nothing like an Ulgrim's Brew in the crisp mountain air., Extent: 0
+    - Say: Nothing like an Ulgrim's Brew in the crisp mountain air.
     - Motion: MimeDrink
-    - Say: Cold-brewed to warm the bones., Extent: 0
+    - Say: Cold-brewed to warm the bones.
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.105
     - Sound: Attack3
@@ -193,7 +193,7 @@ Give: Stout (2471), Probability: 0.6525
 
 Give: Stout (2471), Probability: 0.6825
     - Motion: Ready
-    - Turn: -0.948324, 0, 0, -0.317305
+    - Turn: N
     - Tell: Wish I could take my sword with me. I'd at the very least like to have it on my wall at home.
     - Delay: 2, Motion: Shrug
 
@@ -377,7 +377,7 @@ Give: Stout (2471), Probability: 0.9025
 Give: Stout (2471), Probability: 0.9075
     - TurnToTarget
     - Delay: 1, Tell: I've learned all the portal spells. I especially like the Tie to Ispar.
-    - Delay: 1, Say: Shurov Thispar!, Extent: 0
+    - Delay: 1, Say: Shurov Thispar!
     - Motion: CastSpell
     - Motion: Ready
     - Delay: 1, Motion: EnterPortal
@@ -522,7 +522,7 @@ Give: Stout (2471), Probability: 0.9625
 
 Give: Stout (2471), Probability: 0.965
     - TurnToTarget
-    - Turn: 1, 0, 0, 0
+    - Turn: N
     - Motion: MimeDrink
     - Delay: 4, TurnToTarget
     - Motion: Ready
@@ -530,7 +530,7 @@ Give: Stout (2471), Probability: 0.965
     - Tell: Hey, kid.
     - Delay: 1, Tell: Catch.
     - Motion: Shoo
-    - Give: Clean Dry Towel (10758)
+    - Give: Clean, Dry Towel (10758)
 
 Give: Stout (2471), Probability: 0.9675
     - TurnToTarget
@@ -567,7 +567,7 @@ Give: Stout (2471), Probability: 0.977499
 Give: Stout (2471), Probability: 0.979999
     - MoveHome
     - Tell: I don't trust that Virindi, Claude, he's hiding something from the rest of us.
-    - Turn: -0.991445, 0, 0, -0.130526
+    - Turn: N
     - Delay: 0.5, Tell: Late at night I hear noises and see blue flickering lights coming from his tent.
     - Delay: 2, Tell: What's he doing in there?
     - Delay: 1, Tell: What the heck is he doing in there?
@@ -651,7 +651,7 @@ Give: Casting Stein (23774)
     - Delay: 1, DirectBroadcast: Ulgrim examines the stein, eyes widening in horror.
     - Delay: 1, Tell: It's not even full of Stout!
     - Delay: 1, Tell: Well, I guess I can give you something, and I should get rid of this before he comes looking for me...
-    - Delay: 0.5, Give: 36352
+    - Delay: 0.5, Give: Asheron Mask (36352)
 
 Give: Ulgrim's Scroll (22253)
     - TurnToTarget
@@ -760,7 +760,7 @@ Give: Hot Chocolate (14769)
     - Motion: MimeDrink
     - Delay: 1, Tell: Well, it's nice and hot, but it's missing that little kick which makes it really good.
     - Delay: 1, Tell: Let's see, just a bit of this stuff...
-    - Turn: 0.707107, 0, 0, -0.707107
+    - Turn: N
     - Motion: Kneel
     - TurnToTarget
     - Motion: ClapHands
@@ -822,6 +822,34 @@ Give: Title Token: Guardian of the Dark (32941)
     - Tell: You found this in the same place you found the Dark Monolith? Here, you should have a new title.
     - AddCharacterTitle: GuardianoftheDark
 
+Give: Danby's Ale (81082)
+    - Motion: Ready
+    - TurnToTarget
+    - InqQuestBitsOn: RoostBottleProgress_0904, 0x4
+        QuestSuccess:
+            - EraseQuest: RoostBottleProgress_0904
+            - Goto: GiveSkippingStone
+        QuestFailure:
+            - InqQuestBitsOn: RoostSignProgress_0904, 0x4
+                QuestSuccess:
+                    - EraseQuest: RoostSignProgress_0904
+                    - Goto: GiveSkippingStone
+                QuestFailure:
+                    - InqQuestBitsOn: RoostKnowledgeProgress_0904@6, 0x4
+                        QuestSuccess:
+                            - EraseQuest: RoostKnowledgeProgress_0904
+                            - Goto: GiveSkippingStone
+                        QuestFailure:
+                            - Tell: Are you trying to poison me? This stuff is terrible!
+
+GotoSet: GiveSkippingStone
+    - Tell: Oh, you purchased me another ale.
+    - Delay: 0.5, Tell: How kind.
+    - Delay: 0.5, Tell: Kid, I don't know if you're trying to poison me or what but that's swill!
+    - Delay: 0.5, Tell: Tell ya what, why don't you go skip a rock.
+    - Give: Skipping Stone (40582)
+    - Delay: 2, Tell: And take your dirty skunk ale with you!"
+
 Use: Probability: 0.5
     - Motion: Ready
     - TurnToTarget
@@ -845,7 +873,7 @@ Give: Ulgrim's Contest Mug (34275)
     - TurnToTarget
     - LocalBroadcast: Ulgrim clears his throat and announces "Attention my avid fans! I have been challenged to a Drinking Contest by %tn! We shall begin in a few seconds."
     - Delay: 1, Tell: Make this look good kid, I have a reputation to keep here.
-    - Turn: 0 0 0 -1
+    - Turn: S
     - DirectBroadcast: Ulgrim opens a backpack and starts arranging a number of Mug in the Sand. He sits five before you and five before himself and carefully fills them each with a small keg labled "Ulgrim's Best". The keg has a image of Ulgrim giving a thumbs up painted on it.
     - Motion: Crouch
     - Delay: 5, Generate
@@ -885,35 +913,34 @@ Give: Ulgrim's Contest Mug (34275)
     - InqQuest: UlgrimsDrinkingContestDrinks
         QuestSuccess:
             - Goto: DrinkingWinner
+                GotoSet:
+                    - EraseQuest: UlgrimsDrinkingContestDrinks
+                    - StampQuest: UlgrimsDrinkingContestWins
+                    - InqQuest: UlgrimsDrinkingContestWins
+                        QuestSuccess:
+                            - Delay: 0.5, Tell: You have truly bested me. I bow to you in my humble defeat.
+                            - Delay: 0.5, Tell: My my, you really have been practicing! I believe this is the 10th time you've beaten me. I think... no.
+                            - Delay: 1, Tell: Yes, I think you are ready. You have achieved the coveted rank of "Master of the Mystical Mug". You are entrusted with the safekeeping of the Mystical Mug. Keep it well protected, for there are many dark forces that would love to get their claws on it.
+                            - Give: Mystical Mug (34267)
+                            - StampQuest: MysticalMugFlag
+                            - EraseQuest: UlgrimsDrinkingContestWins
+                            - AddCharacterTitle: MasteroftheMysticalMug
+                        QuestFailure:
+                            - InqQuestSolves: UlgrimsDrinkingContestWins@1-1, 1 - 1
+                                QuestSuccess:
+                                    - Delay: 0.5, Tell: You beat me! I can't believe I lost.
+                                    - Delay: 1, DirectBroadcast: Ulgrim really looks at you for the first time and smiles in admiration.
+                                    - Delay: 1, Tell: It's a pleasure to drink with you my friend!
+                                    - Delay: 1, Tell: For besting me at my own game I'm making you one of my Drinking Buddies. Come back and drink with me anytime!
+                                    - AddCharacterTitle: UlgrimsDrinkingBuddy
+                                QuestFailure:
+                                    - Delay: 0.5, Tell: You have truly bested me. I bow to you in my humble defeat.
         QuestFailure:
             - Goto: DrinkingLoser
+                GotoSet:
+                    - Delay: 0.5, Tell: Five! Haha! I win again!
+                    - Delay: 1, Tell: For coming in second place I award you a title befitting of your drinking prowess.
+                    - AddCharacterTitle: MasterofthePorcelainAltar
+                    - EraseQuest: UlgrimsDrinkingContestFlag
+                    - EraseQuest: UlgrimsDrinkingContestDrinks
 
-GotoSet: DrinkingLoser
-    - Delay: 0.5, Tell: Five! Haha! I win again!
-    - Delay: 1, Tell: For coming in second place I award you a title befitting of your drinking prowess.
-    - AddCharacterTitle: MasterofthePorcelainAltar
-    - EraseQuest: UlgrimsDrinkingContestFlag
-    - EraseQuest: UlgrimsDrinkingContestDrinks
-
-GotoSet: DrinkingWinner
-    - EraseQuest: UlgrimsDrinkingContestDrinks
-    - StampQuest: UlgrimsDrinkingContestWins
-    - InqQuest: UlgrimsDrinkingContestWins
-        QuestSuccess:
-            - Delay: 0.5, Tell: You have truly bested me. I bow to you in my humble defeat.
-            - Delay: 0.5, Tell: My my, you really have been practicing! I believe this is the 10th time you've beaten me. I think... no.
-            - Delay: 1, Tell: Yes, I think you are ready. You have achieved the coveted rank of "Master of the Mystical Mug". You are entrusted with the safekeeping of the Mystical Mug. Keep it well protected, for there are many dark forces that would love to get their claws on it.
-            - Give: Mystical Mug (34267)
-            - StampQuest: MysticalMugFlag
-            - EraseQuest: UlgrimsDrinkingContestWins
-            - AddCharacterTitle: MasteroftheMysticalMug
-        QuestFailure:
-            - InqQuestSolves: UlgrimsDrinkingContestWins, 1 - 1
-                QuestSuccess:
-                    - Delay: 0.5, Tell: You beat me! I can't believe I lost.
-                    - Delay: 1, DirectBroadcast: Ulgrim really looks at you for the first time and smiles in admiration.
-                    - Delay: 1, Tell: It's a pleasure to drink with you my friend!
-                    - Delay: 1, Tell: For besting me at my own game I'm making you one of my Drinking Buddies. Come back and drink with me anytime!
-                    - AddCharacterTitle: UlgrimsDrinkingBuddy
-                QuestFailure:
-                    - Delay: 0.5, Tell: You have truly bested me. I bow to you in my humble defeat.

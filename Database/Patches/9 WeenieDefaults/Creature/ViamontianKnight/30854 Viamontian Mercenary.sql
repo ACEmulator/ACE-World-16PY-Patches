@@ -5,7 +5,7 @@ VALUES (30854, 'knightmercenaryliveopspreactd', 10, '2005-02-09 10:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30854,   1,         16) /* ItemType - Creature */
-     , (30854,   2,         31) /* CreatureType - Human */
+     , (30854,   2,         83) /* CreatureType - ViamontianKnight */
      , (30854,   3,          6) /* PaletteTemplate - DeepBrown */
      , (30854,   6,         -1) /* ItemsCapacity */
      , (30854,   7,         -1) /* ContainersCapacity */

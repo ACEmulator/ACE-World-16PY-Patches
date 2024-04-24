@@ -89,6 +89,7 @@ Give: An Ancient Book (5882)
     - Tell: Ah, but this is not the language of Dericost.  Do you see the sharp, triangular shapes the characters are composed of? This is almost certainly the written word of the Falatacot, a far older, and far less understood culture.
     - Delay: 1, Give: An Ancient Book (5882)
     - Tell: Fanzen San, in Hebian-To, would be able to translate this for you.
+
 Give: An Old Book (5880)
     - Motion: Ready
     - TurnToTarget
@@ -96,21 +97,25 @@ Give: An Old Book (5880)
     - Delay: 1, Motion: Reading
     - Tell: This is... fascinating. This work seems to explain what the Gelidites were doing in their long exile.
     - Delay: 1, Give: Our Great Work (5879)
+
 Give: An Old Volume (5896)
     - Motion: Ready
     - TurnToTarget
     - Tell: My apologies, but I cannot read this.  It appears to be the script of ancient Empyrea.  You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: An Old Volume (5896)
+
 Give: Dusty Volume (5830)
     - Motion: Ready
     - TurnToTarget
     - Tell: My apologies, but I cannot read this.  It appears to be the script of ancient Empyrea.  You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Dusty Volume (5830)
+
 Give: Dark Note (5829)
     - Motion: Ready
     - TurnToTarget
     - Tell: My apologies, but I cannot read this.  It appears to be the language of the ancient Falatacot.  You should bring this to Fanzen San, in Hebian-To.
     - Delay: 1, Give: Dark Note (5829)
+
 Give: Slimy Note (5828)
     - Motion: Ready
     - TurnToTarget
@@ -119,60 +124,70 @@ Give: Slimy Note (5828)
     - Motion: ShakeHead
     - Tell: This doesn't bode well. No, not at all. Take a look for yourself.
     - Delay: 1, Give: Virindi's Note (5825)
+
 Give: Carefully Printed Note (6405)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Carefully Printed Note (6405)
+
 Give: Textbook (6407)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Textbook (6407)
+
 Give: Hastily Scrawled Note (6409)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Hastily Scrawled Note (6409)
+
 Give: Elaborate Scroll (6411)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Elaborate Scroll (6411)
+
 Give: Textbook (6413)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Textbook (6413)
+
 Give: Soiled Parchment (6415)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Soiled Parchment (6415)
+
 Give: Nexus Note (6809)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: This note seems to be written on cured skin... Not human skin, but something similar.  The contents of the note are quite disturbing, and written in an archaic dialect of ancient Dericostian.
     - Delay: 1, Give: Nexus orders (6808)
+
 Give: Singed Note (7379)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Singed Note (7379)
+
 Give: Charred Book (7382)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
     - Tell: I fear I cannot help you with this. You see that this writing style is like our own? It appears to be the script used by the High Empyrean culture of the Age of Lore. My specialty is the runic language of Dericost. You should bring this to Bretself the translator, in Cragstone.
     - Delay: 1, Give: Charred Book (7382)
+
 Give: Sheets of Paper (7380)
     - Motion: Ready
     - TurnToTarget
@@ -191,6 +206,7 @@ Give: Fleshy Lump (7902)
     - Delay: 1, Tell: Ew! What IS that?
     - Delay: 1, Tell: Take it to Bretslef in Cragstone. I don't want to touch it!
     - Delay: 1, Act: %n grabs a flask of water and hurriedly scrubs her hands.
+
 Give: Amorphous Lump (7906)
     - Motion: Ready
     - TurnToTarget
@@ -208,6 +224,7 @@ Give: Pulsing Lump (7914)
     - Delay: 1, Tell: Ew! What IS that?
     - Delay: 1, Tell: Take it to Bretslef in Cragstone. I don't want to touch it!
     - Delay: 1, Act: %n grabs a flask of water and hurriedly scrubs her hands.
+
 Give: Tattered Note (7898)
     - Motion: Ready
     - TurnToTarget
@@ -215,6 +232,7 @@ Give: Tattered Note (7898)
     - Tell: Ah yes, this is interesting. This came from a Mu-Miyah, you say. Curious. This would seem to be some sort of memoir.
     - Delay: 1, Give: Mu-Miyah Note Translation (7899)
     - Tell: I wonder what would provoke such soul searching? Although I have noted that the undead seem prone to rambling reminiscence... I suppose when one is that old, it becomes inevitable.
+
 Give: Sandy Note (7910)
     - Motion: Ready
     - TurnToTarget
@@ -262,6 +280,7 @@ Give: Oozing Lump (8085)
     - Delay: 1, Tell: Ew! What IS that?
     - Delay: 1, Tell: Take it to Bretslef in Cragstone. I don't want to touch it!
     - Delay: 1, Act: %n grabs a flask of water and hurriedly scrubs her hands.
+
 Give: Throbbing Lump (8083)
     - Motion: Ready
     - TurnToTarget
@@ -299,7 +318,7 @@ Give: Unreadable Scroll (9010)
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Tell: Ah, yes, this appears to be a unique teleport spell. Give me a moment, and I can teach it to you.
-    - TeachSpell: 2041
+    - TeachSpell: 2041 - Aerlinthe Recall
 
 Give: Slip of Paper (9063)
     - Motion: Ready
@@ -384,16 +403,19 @@ Give: Untranslated Note (25691)
     - TurnToTarget
     - Tell: This is a personal missive, written very recently. I'd be interested to see if there were more like it.
     - Delay: 1, Give: Missive to the World Shaper (25690)
+
 Give: Untranslated Note (25693)
     - Motion: Ready
     - TurnToTarget
     - Tell: A second note written in the same hand, and like the first a missive written recently. What are they working on?
     - Delay: 1, Give: Second Missive to the World Shaper (25692)
+
 Give: Untranslated Note (25695)
     - Motion: Ready
     - TurnToTarget
     - Tell: The World Shaper. I wonder what that title means? Keep bringing these to me as you find them, please.
     - Delay: 1, Give: Third Missive to the World Shaper (25694)
+
 Give: Untranslated Note (25697)
     - Motion: Ready
     - TurnToTarget
@@ -427,7 +449,7 @@ Give: Aerfalle's Embossed Token (40912)
     - Tell: I know people who would be interested in this. Please, allow me to reward you for bringing this to me.
     - AwardNoShareXP: 125,000,000
     - Give: Trade Note (250,000) (20630), 12
-    - Give: 38918
+    - Give: Strengthened Mana Forge Key (38918)
 
 Give: Aerfalle's Token (40913)
     - Motion: Ready
@@ -459,7 +481,7 @@ Give: Trade Note (250,000) (20630)
     - Tell: Here you go.
     - Delay: 1, Give: Uninscription Stone (33960)
 
-Give: 72996
+Give: Sheets of Paper (72996)
     - Motion: Ready
     - TurnToTarget
     - Motion: Reading
@@ -469,10 +491,22 @@ Give: 72996
     - DirectBroadcast: Kuyiza bint Zayi shudders.
     - Motion: Shiver
     - Delay: 1, Tell: Here, see for yourself.
-    - Delay: 1, Give: 72997
+    - Delay: 1, Give: Rytheran's Letter (72997)
+
+Give: Mysterious Untranslated Scroll (81079)
+    - TurnToTarget
+    - SetQuestBitsOn: RoostKnowledgeProgress_0904, 0x4
+    - Tell: It's not that I am unable to translate this note but rather that its text actually is not actually text at all.
+    - Tell: These notes are spread by the followers of a person of great power and skill.
+    - Tell: If you'd like to contact this person I'd suggest visting Danby's Outpost and getting Ulgrim some of the special ale they're selling there.
+
+Refuse: Mysterious Untranslated Scroll (81080)
+    - TurnToTarget
+    - Tell: My apologies, but I cannot read this.  You should bring this to Fanzen San, in Hebian-To.
 
 Use:
     - Motion: Ready
     - TurnToTarget
     - Motion: BowDeep
     - Tell: I am a scholar of a certain era of Empyrean history, the time of the Millennium War.  If your text is of Dericost, Haebrous, or early Yalain, I may be able to translate it.
+
