@@ -99,9 +99,9 @@ Give: Dull Gem (3933)
 
 Give: Mud Golem Heart (11351)
     - TurnToTarget
-    - InqQuestBitsOn: RoostKnowledgeProgress_0904@4, 0x2
+    - InqQuestBitsOn: RoostKnowledgeProgress_0904, 0x2
         QuestSuccess:
-            - InqQuestBitsOn: RoostKnowledgeProgress_0904@5, 0x4
+            - InqQuestBitsOn: RoostKnowledgeProgress_0904, 0x4
                 QuestSuccess:
                     - Goto: MudGolemHeart
                 QuestFailure:
