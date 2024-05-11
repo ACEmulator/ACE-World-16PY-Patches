@@ -413,4 +413,3 @@ Use:
     - TurnToTarget
     - Motion: BowDeep
     - Tell: I study Empyrean history of Lord Asheron's era, which we call the Empyrean Era of Lore.  If you have a text from that time, perhaps I may be of service.
-
