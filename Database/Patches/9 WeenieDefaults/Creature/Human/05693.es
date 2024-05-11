@@ -327,7 +327,7 @@ Give: Withered Tome (24109)
 Give: Aged Tome (24111)
     - TurnToTarget
     - Tell: He didn't seem to care much for the Emperor, though he still paid him some sort of respect.
-    - Delay: 1, Give: Personal Entry, Arrival of Kellin's Troops (24110)
+    - Delay: 1, Give: Personal Entry Arrival of Kellin's Troops (24110)
 
 Give: Weathered Tome (24107)
     - TurnToTarget
@@ -358,7 +358,7 @@ Give: Moldy Tome (24123)
     - TurnToTarget
     - DirectBroadcast: Bretself wipes a tear away from his eye.
     - Tell: I'm sorry this just made me so sad to think of all of them, and then...
-    - Delay: 1, Give: We, the Defenders of the Helm (24122)
+    - Delay: 1, Give: We the Defenders of the Helm (24122)
 
 Give: Inscribed Purple Gem (34348)
     - TurnToTarget
