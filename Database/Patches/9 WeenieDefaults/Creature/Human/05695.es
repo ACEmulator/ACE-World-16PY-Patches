@@ -509,4 +509,3 @@ Use:
     - TurnToTarget
     - Motion: BowDeep
     - Tell: I am a scholar of a certain era of Empyrean history, the time of the Millennium War.  If your text is of Dericost, Haebrous, or early Yalain, I may be able to translate it.
-
