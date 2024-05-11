@@ -205,4 +205,3 @@ Use:
     - Delay: 1, Motion: WaveLow
     - Delay: 1, Tell: I will take a number of trophy stones and jewels, such as virindi jewels, swamp stones, iron, copper, and granite golem hearts.
     - Delay: 1, Tell: I'll also take banderling trophies.  But what I really specialize in are the rare black rocks and black stones.
-
