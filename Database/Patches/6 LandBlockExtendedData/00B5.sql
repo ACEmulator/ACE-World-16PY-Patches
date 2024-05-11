@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00B5;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700B5000, 87733, 0x00B50129, 159.877, -48.4272, -23.9934, -0.022454, 0, 0, -0.999748, False, '2021-11-17 16:56:08'); /* Ahumba */
-/* @teleloc 0x00B50129 [159.876999 -48.427200 -23.993401] -0.022454 0.000000 0.000000 -0.999748 */
+VALUES (0x700B5000, 87733, 0x00B50129, 159.999390, -48, -24, 1, 0, 0, 0, False, '2024-04-28 12:00:00'); /* Ahumba */
+/* @teleloc 0x00B50129 [159.999390 -48 -24] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B5001, 87736, 0x00B5014F, 10.2489, -139.917, -5.945, 0.377102, 0, 0, -0.926172, False, '2021-11-17 16:56:08'); /* Mosswart Worship Cavern Generator */
@@ -87,3 +87,12 @@ VALUES (0x700B5014, 87736, 0x00B501D0, 129.888, -116.11, -5.945, 0.406319, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B5015, 87736, 0x00B501E2, 145.159, -69.9845, -5.945, -0.349515, 0, 0, -0.936931, False, '2021-11-17 16:56:08'); /* Mosswart Worship Cavern Generator */
 /* @teleloc 0x00B501E2 [145.158997 -69.984497 -5.945000] -0.349515 0.000000 0.000000 -0.936931 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B5016, 278, 0x00B5012B, 159.949951, -65.351562, -24, 1, 0, 0, 0, False, '2024-04-28 12:00:08'); /* Door */
+/* @teleloc 0x00B5012B [159.949951 -65.351562 -24] 1 0 0 0 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B5017, 90273, 0x00B50200, 9.992065, -195.851562, 0, 1, 0, 0, 0, False, '2024-04-28 12:00:08'); /* Surface */
+/* @teleloc 0x00B50200 [9.992065 -195.851562 0] 1 0 0 0 */
+
