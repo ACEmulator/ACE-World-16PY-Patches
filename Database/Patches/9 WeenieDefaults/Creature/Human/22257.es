@@ -188,20 +188,20 @@ Give: Fish (263)
     - DirectBroadcast: The fish plops into the water and slowly sinks to the bottom.
 
 Use:
-    - InqQuest: TalkedToTackleMaster@3
+    - InqQuest: TalkedToTackleMaster
         QuestSuccess:
-            - InqQuest: HaveFishingLicense@3
+            - InqQuest: HaveFishingLicense
                 QuestSuccess:
-                    - InqQuest: WieldingFishingPole@3
+                    - InqQuest: WieldingFishingPole
                         QuestSuccess:
-                            - InqQuest: FishingDelay@3
+                            - InqQuest: FishingDelay
                                 QuestSuccess:
                                     - DirectBroadcast: Your line isn't ready yet to cast.
                                 QuestFailure:
                                     - ForceMotion: Fishing
                                     - EraseQuest: FishingDelay
                                     - StampQuest: FishingDelay
-                                    - InqIntStat: FakeFishingSkill, 0 - 49
+                                    - InqIntStat: FakeFishingSkill, 0 - 49, FishingTest_1
                                         TestSuccess: Probability: 0.555
                                             - Goto: Nothing
                                         TestSuccess: Probability: 0.565
@@ -215,7 +215,7 @@ Use:
                                             - Delay: 4, DirectBroadcast: You pull a trinket from the water.
                                             - CreateTreasure: TreasureType: 1, TreasureClass: 3, WealthRating: 1
                                         TestFailure:
-                                            - InqIntStat: FakeFishingSkill, 50 - 124
+                                            - InqIntStat: FakeFishingSkill, 50 - 124, FishingTest_2
                                                 TestSuccess: Probability: 0.565
                                                     - Goto: Nothing
                                                 TestSuccess: Probability: 0.585
@@ -235,7 +235,7 @@ Use:
                                                     - Delay: 4, DirectBroadcast: You pull a trinket from the water.
                                                     - CreateTreasure: TreasureType: 2, TreasureClass: 3, WealthRating: 1
                                                 TestFailure:
-                                                    - InqIntStat: FakeFishingSkill, 125 - 224
+                                                    - InqIntStat: FakeFishingSkill, 125 - 224, FishingTest_3
                                                         TestSuccess: Probability: 0.565
                                                             - Goto: Nothing
                                                         TestSuccess: Probability: 0.585
@@ -257,7 +257,7 @@ Use:
                                                             - Delay: 4, DirectBroadcast: You pull a trinket from the water.
                                                             - CreateTreasure: TreasureType: 2, TreasureClass: 3, WealthRating: 1
                                                         TestFailure:
-                                                            - InqIntStat: FakeFishingSkill, 225 - 349
+                                                            - InqIntStat: FakeFishingSkill, 225 - 349, FishingTest_4
                                                                 TestSuccess: Probability: 0.565
                                                                     - Goto: Nothing
                                                                 TestSuccess: Probability: 0.585
@@ -281,7 +281,7 @@ Use:
                                                                     - Delay: 4, DirectBroadcast: You pull a trinket from the water.
                                                                     - CreateTreasure: TreasureType: 2, TreasureClass: 3, WealthRating: 1
                                                                 TestFailure:
-                                                                    - InqIntStat: FakeFishingSkill, 350 - 499
+                                                                    - InqIntStat: FakeFishingSkill, 350 - 499, FishingTest_5
                                                                         TestSuccess: Probability: 0.565
                                                                             - Goto: Nothing
                                                                         TestSuccess: Probability: 0.585
@@ -305,7 +305,7 @@ Use:
                                                                             - Delay: 4, DirectBroadcast: You pull a trinket from the water.
                                                                             - CreateTreasure: TreasureType: 2, TreasureClass: 3, WealthRating: 1
                                                                         TestFailure:
-                                                                            - InqIntStat: FakeFishingSkill, 500 - 700
+                                                                            - InqIntStat: FakeFishingSkill, 500 - 700, FishingTest_6
                                                                                 TestSuccess: Probability: 0.565
                                                                                     - Goto: Nothing
                                                                                 TestSuccess: Probability: 0.585
@@ -1110,5 +1110,3 @@ Give: Skipping Stone (40582)
     - DirectBroadcast: You reach out your hand and drop in the rock that Ulgrim gave you.
     - Delay: 2, DirectBroadcast: As the rock hits the water it begins to swirl oddly.
     - Delay: 2, CastSpellInstant: 4989 - Mysterious Portal
-    - DirectBroadcast: Fishing Hole teleports you with Mysterious Portal.
-
