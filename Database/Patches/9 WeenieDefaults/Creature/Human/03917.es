@@ -2,35 +2,35 @@ Refuse: Scarlet Red Letter (45876)
     - TurnToTarget
     - InqIntStat: Level, 40 - 999
         TestSuccess:
-            - InqQuest: RedLetterTurnInTimer@4
+            - InqQuest: RedLetterTurnInTimer
                 QuestSuccess:
-                    - InqQuestSolves: RedLetterTurnIns@100_4, 100
+                    - InqQuestSolves: RedLetterTurnIns, 100
                         QuestSuccess:
                             - Tell: I'm overflowing in Scarlet Letters right now. Check back later.
                         QuestFailure:
-                            - InqQuestSolves: RedLetterTurnIns@91-99_4, 91 - 99
+                            - InqQuestSolves: RedLetterTurnIns, 91 - 99
                                 QuestSuccess:
-                                    - InqOwnsItems: Scarlet Red Letter (45876)
+                                    - InqOwnsItems: Scarlet Red Letter (45876), 1
                                         TestSuccess:
                                             - Goto: 1Red
                                 QuestFailure:
-                                    - InqQuestSolves: RedLetterTurnIns@90_4, 90
+                                    - InqQuestSolves: RedLetterTurnIns, 90
                                         QuestSuccess:
                                             - InqOwnsItems: Scarlet Red Letter (45876), 10
                                                 TestSuccess:
                                                     - Goto: Stackof10Red
                                                 TestFailure:
-                                                    - InqOwnsItems: Scarlet Red Letter (45876)
+                                                    - InqOwnsItems: Scarlet Red Letter (45876), 1
                                                         TestSuccess:
                                                             - Goto: 1Red
                                         QuestFailure:
-                                            - InqQuestSolves: RedLetterTurnIns@1-89_4, 1 - 89
+                                            - InqQuestSolves: RedLetterTurnIns, 1 - 89
                                                 QuestSuccess:
                                                     - InqOwnsItems: Scarlet Red Letter (45876), 10
                                                         TestSuccess:
                                                             - Goto: Stackof10Red
                                                         TestFailure:
-                                                            - InqOwnsItems: Scarlet Red Letter (45876)
+                                                            - InqOwnsItems: Scarlet Red Letter (45876), 1
                                                                 TestSuccess:
                                                                     - Goto: 1Red
                 QuestFailure:
@@ -40,7 +40,7 @@ Refuse: Scarlet Red Letter (45876)
                             - StampQuest: RedLetterTurnInTimer
                             - Goto: Stackof10Red
                         TestFailure:
-                            - InqOwnsItems: Scarlet Red Letter (45876)
+                            - InqOwnsItems: Scarlet Red Letter (45876), 1
                                 TestSuccess:
                                     - EraseQuest: RedLetterTurnIns
                                     - StampQuest: RedLetterTurnInTimer
@@ -71,35 +71,35 @@ Refuse: Lucky Gold Letter (45875)
     - TurnToTarget
     - InqIntStat: Level, 40 - 999
         TestSuccess:
-            - InqQuest: GoldLetterTurnInTimer@4
+            - InqQuest: GoldLetterTurnInTimer
                 QuestSuccess:
-                    - InqQuestSolves: GoldLetterTurnIns@100_4, 100
+                    - InqQuestSolves: GoldLetterTurnIns, 100
                         QuestSuccess:
                             - Tell: I'm overflowing in Gold Letters right now. Check back later.
                         QuestFailure:
-                            - InqQuestSolves: GoldLetterTurnIns@91-99_4, 91 - 99
+                            - InqQuestSolves: GoldLetterTurnIns, 91 - 99
                                 QuestSuccess:
-                                    - InqOwnsItems: Lucky Gold Letter (45875)
+                                    - InqOwnsItems: Lucky Gold Letter (45875), 1
                                         TestSuccess:
                                             - Goto: 1Gold
                                 QuestFailure:
-                                    - InqQuestSolves: GoldLetterTurnIns@90_4, 90
+                                    - InqQuestSolves: GoldLetterTurnIns, 90
                                         QuestSuccess:
                                             - InqOwnsItems: Lucky Gold Letter (45875), 10
                                                 TestSuccess:
                                                     - Goto: Stackof10Gold
                                                 TestFailure:
-                                                    - InqOwnsItems: Lucky Gold Letter (45875)
+                                                    - InqOwnsItems: Lucky Gold Letter (45875), 1
                                                         TestSuccess:
                                                             - Goto: 1Gold
                                         QuestFailure:
-                                            - InqQuestSolves: GoldLetterTurnIns@1-89_4, 1 - 89
+                                            - InqQuestSolves: GoldLetterTurnIns, 1 - 89
                                                 QuestSuccess:
                                                     - InqOwnsItems: Lucky Gold Letter (45875), 10
                                                         TestSuccess:
                                                             - Goto: Stackof10Gold
                                                         TestFailure:
-                                                            - InqOwnsItems: Lucky Gold Letter (45875)
+                                                            - InqOwnsItems: Lucky Gold Letter (45875), 1
                                                                 TestSuccess:
                                                                     - Goto: 1Gold
                 QuestFailure:
@@ -109,7 +109,7 @@ Refuse: Lucky Gold Letter (45875)
                             - StampQuest: GoldLetterTurnInTimer
                             - Goto: Stackof10Gold
                         TestFailure:
-                            - InqOwnsItems: Lucky Gold Letter (45875)
+                            - InqOwnsItems: Lucky Gold Letter (45875), 1
                                 TestSuccess:
                                     - EraseQuest: GoldLetterTurnIns
                                     - StampQuest: GoldLetterTurnInTimer
@@ -420,9 +420,9 @@ Give: Plate Armoredillo Spine (22951)
 
 Give: Drudge Charm (3669)
     - TurnToTarget
-    - InqQuestBitsOn: RoostBottleProgress_0904@3, 0x2
+    - InqQuestBitsOn: RoostBottleProgress_0904, 0x2
         QuestSuccess:
-            - InqQuestBitsOn: RoostBottleProgress_0904@4, 0x4
+            - InqQuestBitsOn: RoostBottleProgress_0904, 0x4
                 QuestSuccess:
                     - Goto: DrudgeCharm
                 QuestFailure:
@@ -850,4 +850,3 @@ Use:
     - TurnToTarget
     - Delay: 1, Motion: Salute
     - Delay: 1, Tell: I'm interested in monster trophies from common rats,  red phyntos wasps, armoredillos, drudges, mosswarts and banderlings. If you give me such an item, I will reward you with money or an item. I don't deal in hides, however.
-
