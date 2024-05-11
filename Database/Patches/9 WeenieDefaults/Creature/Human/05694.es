@@ -3,16 +3,21 @@ Give: Complete Page of Lost Lore (46346)
     - Tell: An interesting page to translate. The text is Falatacot, but of a different dialect. Very strange.
     - Delay: 1, Tell: A pity the whole story isn't here. I'd be fascinated to see if there are any differences in their lore.
     - Goto: RollForBook
-        GotoSet: Probability: 0.2
-            - Give: The Story of the Lost Sisters (46360)
-        GotoSet: Probability: 0.4
-            - Give: The Story of the Lost Sisters (46361)
-        GotoSet: Probability: 0.6
-            - Give: The Story of the Lost Sisters (46362)
-        GotoSet: Probability: 0.8
-            - Give: The Story of the Lost Sisters (87467)
-        GotoSet:
-            - Give: The Story of the Lost Sisters (87468)
+
+GotoSet: RollForBook, Probability: 0.2
+    - Give: The Story of the Lost Sisters (46360)
+
+GotoSet: RollForBook, Probability: 0.4
+    - Give: The Story of the Lost Sisters (46361)
+
+GotoSet: RollForBook, Probability: 0.6
+    - Give: The Story of the Lost Sisters (46362)
+
+GotoSet: RollForBook, Probability: 0.8
+    - Give: The Story of the Lost Sisters (87467)
+
+GotoSet: RollForBook, Probability: 1
+    - Give: The Story of the Lost Sisters (87468)
 
 Refuse: Messenger's Collar (34268)
     - TurnToTarget
@@ -27,7 +32,7 @@ Refuse: Messenger's Collar (34268)
 
 Give: Falatacot Tome (87637)
     - TurnToTarget
-    - InqQuest: MessengersCollar_Repeat@3
+    - InqQuest: MessengersCollar_Repeat
         QuestSuccess:
             - Tell: Ah, another copy of the book you found in the Faltacot's Meeting Place. Thank you, I may be able to find more clues :about the High Matriarch in this.
             - AwardLevelProportionalXP: 28%, 0 - 45,000,000
@@ -65,16 +70,16 @@ Refuse: Amethyst Cradle (27765)
 
 Refuse: Aquamarine Prisms (27767)
     - TurnToTarget
-    - InqQuest: ReceivedToolOnyxCutting@3
+    - InqQuest: ReceivedToolOnyxCutting
         QuestSuccess:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
-            - Delay: 1, Tell
+            - Delay: 1, Tell: Message: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. . I did, at one point, possess an interesting cutting tool. Alas, I have already given it away. Come back to me in a few days and I might have found another one.
             - Delay: 1, Tell: But what you do if completely up to your decision.
         QuestFailure:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
-            - Delay: 1, Tell
+            - Delay: 1, Tell: Message: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. If you don't, I found an interesting cutting tool that you could use to break this cluster of prisms from each other.
             - Delay: 1, Tell: But what you do is completely up to your decision.
@@ -328,7 +333,7 @@ Give: Tumideon Obsidian Shard (8263)
 
 Give: Scroll of Dark Rain (12022)
     - TurnToTarget
-    - InqQuest: FalatacotMagicResistance@3
+    - InqQuest: FalatacotMagicResistance
         QuestSuccess:
             - DirectBroadcast: Fanzen San looks over the scroll, growing alarm in his features.
             - Delay: 1, Tell: How many of these are there?  Well, again, thank you for bringing it to me.  Unfortunately, I have nothing to give you this time...
@@ -439,4 +444,3 @@ Use:
     - TurnToTarget
     - Motion: BowDeep
     - Tell: I am a scholar of the Empyrean culture that lived in the ruins found throughout the swamps and even the desert.  They were apparently called the Falatacot.  If you have a text of that culture, I may be able to help you.
-
