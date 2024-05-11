@@ -189,6 +189,8 @@ Give: Fish (263)
 
 Use:
     - InqQuest: TalkedToTackleMaster
+        QuestFailure:
+            - DirectBroadcast: You think: Hey! I've never done this before. I might need to talk to that Tackle Master to learn how to do this.
         QuestSuccess:
             - InqQuest: HaveFishingLicense
                 QuestSuccess:
@@ -334,8 +336,6 @@ Use:
                             - DirectBroadcast: You must be wielding a fishing pole or rod to fish here.
                 QuestFailure:
                     - DirectBroadcast: You need a fishing license to fish here.
-        QuestFailure:
-            - DirectBroadcast: You think: Hey! I've never done this before. I might need to talk to that Tackle Master to learn how to do this.
 
 TestSuccess: SkillReward_1
     - DirectBroadcast: You have become as skilled as you can at this fishing hole.
