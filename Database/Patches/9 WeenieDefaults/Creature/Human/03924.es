@@ -18,7 +18,7 @@ Give: Green Phyntos Wasp Wing (3701)
     - TurnToTarget
     - InqQuestBitsOn: RoostSignProgress_0904, 0x2
         QuestSuccess:
-            - InqQuestBitsOn: RoostSignProgress_0904@2, 0x4
+            - InqQuestBitsOn: RoostSignProgress_0904, 0x4
                 QuestSuccess:
                     - Goto: GreenPhyntosWaspWing
                 QuestFailure:
@@ -95,4 +95,3 @@ Use:
     - TurnToTarget
     - Delay: 1, Motion: BowDeep
     - Delay: 1, Tell: I collect only phyntos wasp wings.  If you happen to have any, I'll pay you for them in pyreals.  If you get me a gold wasp wing, I will reward you with a little extra experience.
-
