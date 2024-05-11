@@ -340,3 +340,7 @@ VALUES (0x7C95B075, 87772, 0xC95B0027, 117.254, 150.587, 12.055, -0.04791, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95B076, 87772, 0xC95B0025, 103.326, 114.892, 12.055, 0.038602, 0, 0, -0.999255, False, '2021-12-14 05:15:31'); /* Mosswart Cynic Event Gen */
 /* @teleloc 0xC95B0025 [103.325996 114.891998 12.055000] 0.038602 0.000000 0.000000 -0.999255 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C95B077, 40528, 0xC95B0040, 190.284, 179.821, 12, -0.702329, 0, 0, -0.711853, False, '2021-12-14 05:15:31'); /* Sign */
+/* @teleloc 0xC95B0040 [190.283997 179.820999 12.000000] -0.702329 0.000000 0.000000 -0.711853 */

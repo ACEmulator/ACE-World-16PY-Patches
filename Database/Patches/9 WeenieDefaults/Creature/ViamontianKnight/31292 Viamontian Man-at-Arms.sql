@@ -162,6 +162,10 @@ VALUES (31292, 9, 31861,  1, 0, 1, False) /* Create Fort Tethana Portal Gem (318
      , (31292, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (31292, 9, 31286,  1, 0, 1, False) /* Create Tethana's Response (31286) for ContainTreasure */
      , (31292, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (31292, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (31292, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (31292, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (31292, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (31292, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
      , (31292, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (31292, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */

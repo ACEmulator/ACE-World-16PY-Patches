@@ -2,35 +2,35 @@ Refuse: Scarlet Red Letter (45876)
     - TurnToTarget
     - InqIntStat: Level, 40 - 999
         TestSuccess:
-            - InqQuest: RedLetterTurnInTimer
+            - InqQuest: RedLetterTurnInTimer@4
                 QuestSuccess:
-                    - InqQuestSolves: RedLetterTurnIns, 100
+                    - InqQuestSolves: RedLetterTurnIns@100_4, 100
                         QuestSuccess:
                             - Tell: I'm overflowing in Scarlet Letters right now. Check back later.
                         QuestFailure:
-                            - InqQuestSolves: RedLetterTurnIns, 91 - 99
+                            - InqQuestSolves: RedLetterTurnIns@91-99_4, 91 - 99
                                 QuestSuccess:
-                                    - InqOwnsItems: Scarlet Red Letter (45876), 1
+                                    - InqOwnsItems: Scarlet Red Letter (45876)
                                         TestSuccess:
                                             - Goto: 1Red
                                 QuestFailure:
-                                    - InqQuestSolves: RedLetterTurnIns, 90
+                                    - InqQuestSolves: RedLetterTurnIns@90_4, 90
                                         QuestSuccess:
                                             - InqOwnsItems: Scarlet Red Letter (45876), 10
                                                 TestSuccess:
                                                     - Goto: Stackof10Red
                                                 TestFailure:
-                                                    - InqOwnsItems: Scarlet Red Letter (45876), 1
+                                                    - InqOwnsItems: Scarlet Red Letter (45876)
                                                         TestSuccess:
                                                             - Goto: 1Red
                                         QuestFailure:
-                                            - InqQuestSolves: RedLetterTurnIns, 1 - 89
+                                            - InqQuestSolves: RedLetterTurnIns@1-89_4, 1 - 89
                                                 QuestSuccess:
                                                     - InqOwnsItems: Scarlet Red Letter (45876), 10
                                                         TestSuccess:
                                                             - Goto: Stackof10Red
                                                         TestFailure:
-                                                            - InqOwnsItems: Scarlet Red Letter (45876), 1
+                                                            - InqOwnsItems: Scarlet Red Letter (45876)
                                                                 TestSuccess:
                                                                     - Goto: 1Red
                 QuestFailure:
@@ -40,7 +40,7 @@ Refuse: Scarlet Red Letter (45876)
                             - StampQuest: RedLetterTurnInTimer
                             - Goto: Stackof10Red
                         TestFailure:
-                            - InqOwnsItems: Scarlet Red Letter (45876), 1
+                            - InqOwnsItems: Scarlet Red Letter (45876)
                                 TestSuccess:
                                     - EraseQuest: RedLetterTurnIns
                                     - StampQuest: RedLetterTurnInTimer
@@ -53,10 +53,10 @@ Refuse: Scarlet Red Letter (45876)
 
 GotoSet: 1Red
     - TakeItems: Scarlet Red Letter (45876)
-    - IncrementQuest: RedLetterTurnIns, 1
+    - IncrementQuest: RedLetterTurnIns
     - Tell: Hey! I remember my first Red Letter.
     - Delay: 1, AwardNoShareXP: 100,000
-    - Give: 44715, 2
+    - Give: Low-Stakes Gambling Token (44715), 2
     - Tell: This is yours in exchange.
 
 GotoSet: Stackof10Red
@@ -64,42 +64,42 @@ GotoSet: Stackof10Red
     - IncrementQuest: RedLetterTurnIns, 10
     - Tell: 10 Red Letters, nice work.
     - Delay: 1, AwardNoShareXP: 1,000,000
-    - Give: 44715, 20
+    - Give: Low-Stakes Gambling Token (44715), 20
     - Tell: Here, take these in exchange for the letters.
 
 Refuse: Lucky Gold Letter (45875)
     - TurnToTarget
     - InqIntStat: Level, 40 - 999
         TestSuccess:
-            - InqQuest: GoldLetterTurnInTimer
+            - InqQuest: GoldLetterTurnInTimer@4
                 QuestSuccess:
-                    - InqQuestSolves: GoldLetterTurnIns, 100
+                    - InqQuestSolves: GoldLetterTurnIns@100_4, 100
                         QuestSuccess:
                             - Tell: I'm overflowing in Gold Letters right now. Check back later.
                         QuestFailure:
-                            - InqQuestSolves: GoldLetterTurnIns, 91 - 99
+                            - InqQuestSolves: GoldLetterTurnIns@91-99_4, 91 - 99
                                 QuestSuccess:
-                                    - InqOwnsItems: Lucky Gold Letter (45875), 1
+                                    - InqOwnsItems: Lucky Gold Letter (45875)
                                         TestSuccess:
                                             - Goto: 1Gold
                                 QuestFailure:
-                                    - InqQuestSolves: GoldLetterTurnIns, 90
+                                    - InqQuestSolves: GoldLetterTurnIns@90_4, 90
                                         QuestSuccess:
                                             - InqOwnsItems: Lucky Gold Letter (45875), 10
                                                 TestSuccess:
                                                     - Goto: Stackof10Gold
                                                 TestFailure:
-                                                    - InqOwnsItems: Lucky Gold Letter (45875), 1
+                                                    - InqOwnsItems: Lucky Gold Letter (45875)
                                                         TestSuccess:
                                                             - Goto: 1Gold
                                         QuestFailure:
-                                            - InqQuestSolves: GoldLetterTurnIns, 1 - 89
+                                            - InqQuestSolves: GoldLetterTurnIns@1-89_4, 1 - 89
                                                 QuestSuccess:
                                                     - InqOwnsItems: Lucky Gold Letter (45875), 10
                                                         TestSuccess:
                                                             - Goto: Stackof10Gold
                                                         TestFailure:
-                                                            - InqOwnsItems: Lucky Gold Letter (45875), 1
+                                                            - InqOwnsItems: Lucky Gold Letter (45875)
                                                                 TestSuccess:
                                                                     - Goto: 1Gold
                 QuestFailure:
@@ -109,7 +109,7 @@ Refuse: Lucky Gold Letter (45875)
                             - StampQuest: GoldLetterTurnInTimer
                             - Goto: Stackof10Gold
                         TestFailure:
-                            - InqOwnsItems: Lucky Gold Letter (45875), 1
+                            - InqOwnsItems: Lucky Gold Letter (45875)
                                 TestSuccess:
                                     - EraseQuest: GoldLetterTurnIns
                                     - StampQuest: GoldLetterTurnInTimer
@@ -122,10 +122,10 @@ Refuse: Lucky Gold Letter (45875)
 
 GotoSet: 1Gold
     - TakeItems: Lucky Gold Letter (45875)
-    - IncrementQuest: GoldLetterTurnIns, 1
+    - IncrementQuest: GoldLetterTurnIns
     - Tell: An Explorer Society Gold Letter. A real collectors item.
     - Delay: 1, AwardNoShareXP: 200,000
-    - Give: 44716
+    - Give: Mid-Stakes Gambling Token (44716)
     - Tell: This should be a fair reward.
 
 GotoSet: Stackof10Gold
@@ -133,7 +133,7 @@ GotoSet: Stackof10Gold
     - IncrementQuest: GoldLetterTurnIns, 10
     - Tell: 10 Gold Letters, nice work.
     - Delay: 1, AwardNoShareXP: 2,000,000
-    - Give: 44716, 10
+    - Give: Mid-Stakes Gambling Token (44716), 10
     - Tell: This should be a fair reward.
 
 Refuse: Drudge Head (8145)
@@ -420,6 +420,22 @@ Give: Plate Armoredillo Spine (22951)
 
 Give: Drudge Charm (3669)
     - TurnToTarget
+    - InqQuestBitsOn: RoostBottleProgress_0904@3, 0x2
+        QuestSuccess:
+            - InqQuestBitsOn: RoostBottleProgress_0904@4, 0x4
+                QuestSuccess:
+                    - Goto: DrudgeCharm
+                QuestFailure:
+                    - SetQuestBitsOn: RoostBottleProgress_0904, 0x4
+                    - Tell: Take this note to Bretself the Translator. He'll tell you what to do with it.
+                    - Delay: 1, Give: Aged Mysterious Untranslated Scroll (40583)
+                    - Delay: 1, Tell: I'll keep the bounty I usually pay for these.
+                    - Delay: 1, AwardNoShareXP: 1,000,000
+                    - Tell: Good luck in your travels.
+        QuestFailure:
+            - Goto: DrudgeCharm
+
+GotoSet: DrudgeCharm
     - Tell: I really love these trinkets. I wonder what meaning they have for the drudges.
     - AwardNoShareXP: 500
     - Give: Pyreal (273), 200
@@ -834,3 +850,4 @@ Use:
     - TurnToTarget
     - Delay: 1, Motion: Salute
     - Delay: 1, Tell: I'm interested in monster trophies from common rats,  red phyntos wasps, armoredillos, drudges, mosswarts and banderlings. If you give me such an item, I will reward you with money or an item. I don't deal in hides, however.
+
