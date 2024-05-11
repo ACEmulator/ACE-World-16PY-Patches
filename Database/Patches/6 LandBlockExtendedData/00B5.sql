@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00B5;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700B5000, 87733, 0x00B50129, 159.999390, -48, -24, 1, 0, 0, 0, False, '2024-04-28 12:00:00'); /* Ahumba */
-/* @teleloc 0x00B50129 [159.999390 -48 -24] 1 0 0 0 */
+VALUES (0x700B5000, 87733, 0x00B50129, 159.999, -48, -24, 1, 0, 0, 0, False, '2024-04-28 12:00:00'); /* Ahumba */
+/* @teleloc 0x00B50129 [159.998993 -48.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B5001, 87736, 0x00B5014F, 10.2489, -139.917, -5.945, 0.377102, 0, 0, -0.926172, False, '2021-11-17 16:56:08'); /* Mosswart Worship Cavern Generator */
@@ -89,10 +89,9 @@ VALUES (0x700B5015, 87736, 0x00B501E2, 145.159, -69.9845, -5.945, -0.349515, 0, 
 /* @teleloc 0x00B501E2 [145.158997 -69.984497 -5.945000] -0.349515 0.000000 0.000000 -0.936931 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700B5016, 278, 0x00B5012B, 159.949951, -65.351562, -24, 1, 0, 0, 0, False, '2024-04-28 12:00:08'); /* Door */
-/* @teleloc 0x00B5012B [159.949951 -65.351562 -24] 1 0 0 0 */
+VALUES (0x700B5016,   278, 0x00B5012B, 159.95, -65.3516, -24, 1, 0, 0, 0, False, '2024-04-28 12:00:08'); /* Door */
+/* @teleloc 0x00B5012B [159.949997 -65.351601 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700B5017, 90273, 0x00B50200, 9.992065, -195.851562, 0, 1, 0, 0, 0, False, '2024-04-28 12:00:08'); /* Surface */
-/* @teleloc 0x00B50200 [9.992065 -195.851562 0] 1 0 0 0 */
-
+VALUES (0x700B5017, 90273, 0x00B50200, 9.99207, -195.852, 0, 1, 0, 0, 0, False, '2024-04-28 12:00:08'); /* Surface */
+/* @teleloc 0x00B50200 [9.992070 -195.852005 0.000000] 1.000000 0.000000 0.000000 0.000000 */

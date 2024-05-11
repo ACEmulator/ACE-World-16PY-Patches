@@ -77,8 +77,8 @@ VALUES (0x70031002, 31314, 0x003102FC, 151.119, -198.619, -29.995, -0.324846, 0,
 /* @teleloc 0x003102FC [151.119003 -198.619003 -29.995001] -0.324846 0.000000 0.000000 -0.945767 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70031003, 31314, 0x00310106, 193.639526, -151.292969, -90, 1, 0, 0, 0, False, '2024-04-28 00:00:00'); /* Surface */
-/* @teleloc 0x00310106 [193.639526 -151.292969 -90] 1 0 0 0 */
+VALUES (0x70031003, 31314, 0x00310106, 193.64, -151.293, -90, 1, 0, 0, 0, False, '2024-04-28 00:00:00'); /* Surface */
+/* @teleloc 0x00310106 [193.639999 -151.292999 -90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70031004, 31422, 0x003102FA, 149.438, -178.349, -29.695, -0.187513, 0, 0, 0.982262,  True, '2021-11-01 00:00:00'); /* Stomper */
