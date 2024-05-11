@@ -1110,3 +1110,4 @@ Give: Skipping Stone (40582)
     - DirectBroadcast: You reach out your hand and drop in the rock that Ulgrim gave you.
     - Delay: 2, DirectBroadcast: As the rock hits the water it begins to swirl oddly.
     - Delay: 2, CastSpellInstant: 4989 - Mysterious Portal
+    - DirectBroadcast: Fishing Hole teleports you with Mysterious Portal.
