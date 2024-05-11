@@ -193,8 +193,12 @@ Use:
             - DirectBroadcast: You think: Hey! I've never done this before. I might need to talk to that Tackle Master to learn how to do this.
         QuestSuccess:
             - InqQuest: HaveFishingLicense
+                QuestFailure:
+                    - DirectBroadcast: You need a fishing license to fish here.
                 QuestSuccess:
                     - InqQuest: WieldingFishingPole
+                        QuestFailure:
+                            - DirectBroadcast: You must be wielding a fishing pole or rod to fish here.
                         QuestSuccess:
                             - InqQuest: FishingDelay
                                 QuestSuccess:
@@ -332,10 +336,6 @@ Use:
                                                                                     - CreateTreasure: TreasureType: 2, TreasureClass: 3, WealthRating: 1
                                                                                 TestFailure:
                                                                                     - DirectBroadcast: Your fishing skill is outside the range of this fishing hole.
-                        QuestFailure:
-                            - DirectBroadcast: You must be wielding a fishing pole or rod to fish here.
-                QuestFailure:
-                    - DirectBroadcast: You need a fishing license to fish here.
 
 TestSuccess: SkillReward_1
     - DirectBroadcast: You have become as skilled as you can at this fishing hole.
