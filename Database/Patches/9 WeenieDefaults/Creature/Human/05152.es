@@ -122,13 +122,13 @@ Give: Stamped Yanshi Lucky Gold Letter (70311)
 Give: Muddy Towel (10759)
     - TurnToTarget
     - Tell: Ah, looks like you've found our agent's towel!  Hey, looks like it got rolled in the mud... Anyway, well done!  Here, take these as a reward.
-    - Delay: 1, Give: Clean, Dry Towel (10758)
+    - Delay: 1, Give: Clean Dry Towel (10758)
     - Delay: 1, Give: A Portal-Jumper's Guide to Dereth (11683)
 
 Give: Wet Towel (10760)
     - TurnToTarget
     - Tell: Ah, looks like you've found our agent's towel!  Looks like good old F.P. went swimming or something.  Here's your reward.
-    - Delay: 1, Give: Clean, Dry Towel (10758)
+    - Delay: 1, Give: Clean Dry Towel (10758)
     - Delay: 1, Give: A Portal-Jumper's Guide to Dereth (11683)
 
 Give: Guidebook Brochure (10761)
