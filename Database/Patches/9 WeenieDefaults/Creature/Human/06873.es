@@ -845,10 +845,12 @@ Give: Danby's Ale (81082)
 GotoSet: GiveSkippingStone
     - Tell: Oh, you purchased me another ale.
     - Delay: 0.5, Tell: How kind.
+    - Motion: MimeDrink
+    - Motion: Spit
     - Delay: 0.5, Tell: Kid, I don't know if you're trying to poison me or what but that's swill!
     - Delay: 0.5, Tell: Tell ya what, why don't you go skip a rock.
     - Give: Skipping Stone (40582)
-    - Delay: 2, Tell: And take your dirty skunk ale with you!"
+    - Delay: 2, Tell: And take your dirty skunk ale with you!
 
 Use: Probability: 0.5
     - Motion: Ready
