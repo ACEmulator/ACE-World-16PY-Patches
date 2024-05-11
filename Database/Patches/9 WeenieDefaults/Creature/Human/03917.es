@@ -53,7 +53,7 @@ Refuse: Scarlet Red Letter (45876)
 
 GotoSet: 1Red
     - TakeItems: Scarlet Red Letter (45876)
-    - IncrementQuest: RedLetterTurnIns
+    - IncrementQuest: RedLetterTurnIns, 1
     - Tell: Hey! I remember my first Red Letter.
     - Delay: 1, AwardNoShareXP: 100,000
     - Give: Low-Stakes Gambling Token (44715), 2
@@ -122,7 +122,7 @@ Refuse: Lucky Gold Letter (45875)
 
 GotoSet: 1Gold
     - TakeItems: Lucky Gold Letter (45875)
-    - IncrementQuest: GoldLetterTurnIns
+    - IncrementQuest: GoldLetterTurnIns, 1
     - Tell: An Explorer Society Gold Letter. A real collectors item.
     - Delay: 1, AwardNoShareXP: 200,000
     - Give: Mid-Stakes Gambling Token (44716)
