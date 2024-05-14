@@ -11,9 +11,11 @@ VALUES (88166,   1,         16) /* ItemType - Creature */
      , (88166,   7,         -1) /* ContainersCapacity */
      , (88166,  16,          1) /* ItemUseable - No */
      , (88166,  25,        220) /* Level */
+     , (88166,  27,          0) /* ArmorType - None */
+     , (88166,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (88166,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (88166, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (88166, 146,     500000) /* XpOverride */;
+     , (88166, 146,    1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88166,   1, True ) /* Stuck */
@@ -45,7 +47,7 @@ VALUES (88166,   1,       5) /* HeartbeatInterval */
      , (88166,  68,    0.75) /* ResistCold */
      , (88166,  69,    0.42) /* ResistAcid */
      , (88166,  70,    0.25) /* ResistElectric */
-     , (88166,  71,    0.25) /* ResistHealthBoost */
+     , (88166,  71,       1) /* ResistHealthBoost */
      , (88166,  72,       1) /* ResistStaminaDrain */
      , (88166,  73,       1) /* ResistStaminaBoost */
      , (88166,  74,       1) /* ResistManaDrain */
@@ -62,7 +64,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (88166,   1, 0x020014BD) /* Setup */
      , (88166,   2, 0x09000194) /* MotionTable */
      , (88166,   3, 0x200000C3) /* SoundTable */
-     , (88166,   4, 0x30000000) /* CombatTable */
+     , (88166,   4, 0x3000001B) /* CombatTable */
      , (88166,   6, 0x04001EE3) /* PaletteBase */
      , (88166,   7, 0x10000645) /* ClothingBase */
      , (88166,   8, 0x0600629E) /* Icon */
@@ -91,12 +93,16 @@ VALUES (88166,  6, 0, 3, 0, 410, 0, 0) /* MeleeDefense        Specialized */
      , (88166, 45, 0, 3, 0, 390, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (88166,  0,  4,  5,    0,  450,  315,  360,  270,  450,  450,  495,  450,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (88166,  5,  1, 140, 0.75,  450,  315,  360,  270,  450,  450,  495,  450,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Hand */
-     , (88166, 16,  4,  5,    0,  450,  315,  360,  270,  450,  450,  495,  450,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
-     , (88166, 18,  2, 140,  0.5,  450,  315,  360,  270,  450,  450,  495,  450,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
-     , (88166, 19,  2, 140, 0.75,  450,  315,  360,  270,  450,  450,  495,  450,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
-     , (88166, 22, 32, 140,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+VALUES (88166,  0,  4, 280, 0.75,  650,  241,  280,  210,  350,  350,  385,  350,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (88166,  1,  0,  0,    0,  650,  241,  280,  210,  350,  350,  385,  350,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (88166,  2,  0,  0,    0,  650,  241,  280,  210,  350,  350,  385,  350,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (88166,  3,  0,  0,    0,  650,  241,  280,  210,  350,  350,  385,  350,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (88166,  4,  0,  0,    0,  650,  241,  280,  210,  350,  350,  385,  350,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (88166,  5,  1, 280, 0.75,  650,  241,  280,  210,  350,  350,  385,  350,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (88166,  6,  0,  0,    0,  650,  241,  280,  210,  350,  350,  385,  350,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (88166,  7,  0,  0,    0,  650,  241,  280,  210,  350,  350,  385,  350,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (88166,  8,  0,  0,    0,  650,  241,  280,  210,  350,  350,  385,  350,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
+     , (88166, 22, 32, 280,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (88166,  5 /* HeartBeat */,  0.045, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
