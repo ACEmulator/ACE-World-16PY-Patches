@@ -1,39 +1,38 @@
-DELETE FROM `weenie` WHERE `class_Id` = 39369;
+DELETE FROM `weenie` WHERE `class_Id` = 33802;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (39369, 'ace39369-packtthuun', 64, '2024-05-16 12:50:39') /* Hooker */;
+VALUES (33802, 'ace33802-packgrael', 64, '2024-05-16 01:24:00') /* Hooker */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (39369,   1,       2048) /* ItemType - Gem */
-     , (39369,   5,         10) /* EncumbranceVal */
-     , (39369,  16,         32) /* ItemUseable - Remote */
-     , (39369,  19,          0) /* Value */
-     , (39369,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (39369,  94,         16) /* TargetType - Creature */
-     , (39369, 150,        103) /* HookPlacement - Hook */
-     , (39369, 151,          9) /* HookType - Floor, Yard */
-     , (39369, 197,          1) /* HookGroup - NoisemakingItems */;
+VALUES (33802,   1,       2048) /* ItemType - Gem */
+     , (33802,   5,         10) /* EncumbranceVal */
+     , (33802,  16,          1) /* ItemUseable - No */
+     , (33802,  19,          0) /* Value */
+     , (33802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33802,  94,         16) /* TargetType - Creature */
+     , (33802, 150,        103) /* HookPlacement - Hook */
+     , (33802, 151,          9) /* HookType - Floor, Yard */
+     , (33802, 197,          1) /* HookGroup - NoisemakingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39369,  22, True ) /* Inscribable */;
+VALUES (33802,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39369,  39,    0.25) /* DefaultScale */;
+VALUES (33802,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (39369,   1, 'Pack T''thuun') /* Name */
-     , (39369,  14, 'The Pack T''thuun can be placed on floor and yard hooks.') /* Use */
-     , (39369,  16, 'A miniature doll of what we have seen of T''thuun, the Whispering One.') /* LongDesc */;
+VALUES (33802,   1, 'Pack Grael') /* Name */
+     , (33802,  14, 'The Pack Grael can be placed on floor and yard hooks.') /* Use */
+     , (33802,  16, 'A miniature doll of Grael, the Heart-Render, Black Spear of the Kemeroi, Scourge of Haebrous, and Rage of Shadow.  You can turn this doll in to one of the Emissaries of Ulgrim, who will advance you one character level in exchange.  You can only turn in one doll.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39369,   1, 0x02001856) /* Setup */
-     , (39369,   2, 0x090001F4) /* MotionTable */
-     , (39369,   3, 0x20000067) /* SoundTable */
-     , (39369,   8, 0x06001ED2) /* Icon */
-     , (39369,  22, 0x34000064) /* PhysicsEffectTable */;
+VALUES (33802,   1, 0x020015FE) /* Setup */
+     , (33802,   2, 0x090001A9) /* MotionTable */
+     , (33802,   8, 0x060064BA) /* Icon */
+     , (33802,  22, 0x340000BB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (39369,  7 /* Use */,    0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (33802,  7 /* Use */,    0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -42,7 +41,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x400000D3 /* CastSpell */, NULL
      , (@parent_id,  1,   5 /* Motion */, 0.5, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (39369,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (33802,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
