@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36178;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36178, 'ace36178-harbinger', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (36178, 'ace36178-harbinger', 10, '2024-05-17 12:47:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36178,   1,         16) /* ItemType - Creature */
@@ -15,9 +15,11 @@ VALUES (36178,   1,         16) /* ItemType - Creature */
      , (36178,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (36178,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */
      , (36178,  72,         62) /* FriendType - Elemental */
+     , (36178,  81,          1) /* MaxGeneratedObjects */
+     , (36178,  82,          0) /* InitGeneratedObjects */
      , (36178,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36178, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
-     , (36178, 103,          0) /* GeneratorDestructionType - Undef */
+     , (36178, 103,          2) /* GeneratorDestructionType - Destroy */
      , (36178, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36178, 146,    4000000) /* XpOverride */;
 
@@ -43,6 +45,8 @@ VALUES (36178,   1,       5) /* HeartbeatInterval */
      , (36178,  34,     0.3) /* PowerupTime */
      , (36178,  36,       1) /* ChargeSpeed */
      , (36178,  39,       3) /* DefaultScale */
+     , (36178,  41,       0) /* RegenerationInterval */
+     , (36178,  43,      10) /* GeneratorRadius */
      , (36178,  64,    0.65) /* ResistSlash */
      , (36178,  65,    0.65) /* ResistPierce */
      , (36178,  66,    0.65) /* ResistBludgeon */
@@ -103,36 +107,52 @@ VALUES (36178,  6, 0, 3, 0,  19, 0, 0) /* MeleeDefense        Specialized */
      , (36178, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (36178,  0,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (36178,  1,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (36178,  2,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (36178,  3,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (36178,  4,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (36178,  5,  4, 400, 0.75,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (36178,  6,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (36178,  7,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (36178,  8,  4, 400, 0.75,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (36178,  0,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (36178,  1,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (36178,  2,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (36178,  3,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (36178,  4,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (36178,  5,  4, 400, 0.75,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (36178,  6,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (36178,  7,  4,  0,    0,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (36178,  8,  4, 400, 0.75,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36178,  1783,   2.02)  /* Searing Disc */
-     , (36178,  3927,   2.02)  /* Charge Flesh */
-     , (36178,  1785,   2.02)  /* Cassius' Ring of Fire */
-     , (36178,  2992,   2.02)  /* Depletion */
-     , (36178,  1787,   2.02)  /* Halo of Frost */
-     , (36178,  1788,   2.02)  /* Eye of the Storm */
-     , (36178,  2788,   2.02)  /* Essence Blight */
-     , (36178,  2996,   2.02)  /* Scourge */
-     , (36178,  3928,   2.02)  /* Disarmament */
-     , (36178,  2029,   2.02)  /* Stamina Blight */
-     , (36178,  3880,   2.02)  /* Galvanic Strike */
+VALUES (36178,  2788,   2.01)  /* Essence Blight */
+     , (36178,  2996,   2.01)  /* Scourge */
+     , (36178,  3928,   2.01)  /* Disarmament */
+     , (36178,  2029,   2.01)  /* Stamina Blight */
      , (36178,  3883,   2.02)  /* Pyroclastic Explosion */
-     , (36178,  3266,   2.02)  /* Spirit Pacification */
-     , (36178,  3882,   2.02)  /* Incendiary Ring */
      , (36178,  3041,   2.02)  /* Essence Dissolution */
-     , (36178,  3878,   2.02)  /* Incendiary Strike */
-     , (36178,  3904,   2.02)  /* Essence's Fury */
+     , (36178,  2791,  2.005)  /* Rolling Death */
+     , (36178,  2792,  2.005)  /* Rolling Death */
+     , (36178,  2793,  2.005)  /* Rolling Death */
+     , (36178,  2794,  2.005)  /* Rolling Death */
+     , (36178,  3460,   2.02)  /* Dissolving Vortex */
+     , (36178,  3462,   2.02)  /* Canker Flesh */
+     , (36178,  3463,   2.02)  /* Char Flesh */
+     , (36178,  3464,   2.02)  /* Numb Flesh */
+     , (36178,  3916,   2.02)  /* Flayed Flesh */
+     , (36178,  3927,   2.02)  /* Charge Flesh */
+     , (36178,  3904,   2.01)  /* Essence's Fury */
+     , (36178,  3905,   2.01)  /* Essence's Fury */
+     , (36178,  3906,   2.01)  /* Essence's Fury */
+     , (36178,  3907,   2.01)  /* Essence's Fury */
+     , (36178,  3951,   2.02)  /* Lightning Wave */
+     , (36178,  3946,   2.02)  /* Acid Wave */
+     , (36178,  3950,   2.02)  /* Frost Wave */
+     , (36178,  3948,   2.02)  /* Flame Wave */
+     , (36178,  3880,   2.02)  /* Galvanic Strike */
      , (36178,  3877,   2.02)  /* Corrosive Strike */
-     , (36178,  3884,   2.02)  /* Glacial Ring */;
+     , (36178,  3879,   2.02)  /* Glacial Strike */
+     , (36178,  3878,   2.02)  /* Incendiary Strike */
+     , (36178,  3885,   2.02)  /* Galvanic Ring */
+     , (36178,  3881,   2.02)  /* Corrosive Ring */
+     , (36178,  3884,   2.02)  /* Glacial Ring */
+     , (36178,  3882,   2.02)  /* Incendiary Ring */
+     , (36178,  3910,   2.01)  /* Brain Freeze */
+     , (36178,  3870,  2.005)  /* Syphon Creature Essence */
+     , (36178,  3871,  2.005)  /* Syphon Item Essence */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36178,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -146,36 +166,28 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'ProdigalHarbyKillShot
      , (@parent_id,  3,  17 /* LocalBroadcast */, 1, 1, NULL, '%tn has destroyed the Prodigal Harbinger!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36178, 14 /* Taunt */,   0.13, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36178, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.24, 0.27);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  14 /* CastSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2791 /* Rolling Death */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36178, 14 /* Taunt */,   0.14, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36178, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.74, 0.77);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  14 /* CastSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2792 /* Rolling Death */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36178, 14 /* Taunt */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36178, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.97, 1);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  14 /* CastSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2793 /* Rolling Death */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36178, 14 /* Taunt */,   0.16, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  14 /* CastSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2794 /* Rolling Death */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36178, 16 /* KillTaunt */,   0.75, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -194,4 +206,16 @@ VALUES (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (3
      , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
      , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
      , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
+     , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */
      , (36178, 9, 36184,  1, 0, 1, False) /* Create Corrupted Harbinger Blood (36184) for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36178, -1, 87778, 1, 1, 1, 1, 4, 0, 0, 0, 0x00BC0104, 20, -20, -35.985, 1, 0, 0, 0) /* Generate Prodigal Harby Creature Gen (87778) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
