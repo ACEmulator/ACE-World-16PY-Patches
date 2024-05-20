@@ -28,10 +28,7 @@ VALUES (23890,   1,      32768) /* ItemType - Caster */
      , (23890, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23890,  11, True ) /* IgnoreCollisions */
-     , (23890,  13, True ) /* Ethereal */
-     , (23890,  14, True ) /* GravityStatus */
-     , (23890,  15, True ) /* LightsStatus */
+VALUES (23890,  15, True ) /* LightsStatus */
      , (23890,  19, True ) /* Attackable */
      , (23890,  22, True ) /* Inscribable */
      , (23890,  23, True ) /* DestroyOnSell */;
@@ -52,12 +49,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23890,   1, 0x02000EC3) /* Setup */
      , (23890,   3, 0x20000014) /* SoundTable */
      , (23890,   6, 0x04000BEF) /* PaletteBase */
-     , (23890,   7, 0x100002E7) /* ClothingBase */
      , (23890,   8, 0x060020FD) /* Icon */
      , (23890,  19, 0x00000058) /* ActivationAnimation */
      , (23890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23890,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
-     , (23890,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (23890,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23890,   215,      2)  /* Mana Renewal Self IV */
