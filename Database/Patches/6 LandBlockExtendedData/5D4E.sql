@@ -784,6 +784,6 @@ VALUES (0x75D4E0A8, 0x75D4E045, '2005-02-09 10:00:00') /* Lich Oppressor (22905)
      , (0x75D4E0A8, 0x75D4E087, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D4E0A9,  46019, 0x5D4E0113, 75.250000, -40.819336, -54, 1, 0, 0, 0, False, '2024-05-18 12:00:00'); /* Surface Portal */
-/* @0x5D4E0113 [75.250000 -40.819336 -54] 1 0 0 0 */
+VALUES (0x75D4E0A9, 46019, 0x5D4E0113, 75.250000, -40.819336, -54, 1, 0, 0, 0, False, '2024-05-20 12:00:00'); /* Surface Portal */
+/* @teleloc 0x5D4E0113 [75.250000 -40.819336 -54] 1 0 0 0 */
 
