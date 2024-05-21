@@ -8,7 +8,9 @@ VALUES (88053,   1,       8192) /* ItemType - Writable */
      , (88053,   5,         50) /* EncumbranceVal */
      , (88053,  16,          8) /* ItemUseable - Contained */
      , (88053,  19,          5) /* Value */
-     , (88053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (88053,  33,          1) /* Bonded - Bonded */
+     , (88053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (88053, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88053,   1, False) /* Stuck */

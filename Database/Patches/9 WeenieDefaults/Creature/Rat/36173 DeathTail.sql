@@ -9,7 +9,7 @@ VALUES (36173,   1,         16) /* ItemType - Creature */
      , (36173,   6,         -1) /* ItemsCapacity */
      , (36173,   7,         -1) /* ContainersCapacity */
      , (36173,  16,          1) /* ItemUseable - No */
-     , (36173,  25,        135) /* Level */
+     , (36173,  25,        300) /* Level */
      , (36173,  40,          2) /* CombatMode - Melee */
      , (36173,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (36173,  81,          8) /* MaxGeneratedObjects */
@@ -65,10 +65,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36173,   1, 0x0200003D) /* Setup */
      , (36173,   2, 0x0900019C) /* MotionTable */
      , (36173,   3, 0x2000000F) /* SoundTable */
-     , (36173,   4, 0x30000009) /* CombatTable */
+     , (36173,   4, 0x30000013) /* CombatTable */
      , (36173,   8, 0x0600103B) /* Icon */
      , (36173,  22, 0x34000023) /* PhysicsEffectTable */
-     , (36173,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (36173,  30,         85) /* PhysicsScript - BreatheFrost */
      , (36173,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -85,18 +85,16 @@ VALUES (36173,   1, 200000, 0, 0, 200250) /* MaxHealth */
      , (36173,   5,  3500, 0, 0, 3690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36173,  6, 0, 2, 0, 360, 0, 0) /* MeleeDefense        Trained */
-     , (36173,  7, 0, 2, 0, 256, 0, 0) /* MissileDefense      Trained */
-     , (36173, 15, 0, 2, 0, 156, 0, 0) /* MagicDefense        Trained */
-     , (36173, 44, 0, 2, 0, 650, 0, 0) /* HeavyWeapons        Trained */
-     , (36173, 45, 0, 2, 0, 650, 0, 0) /* LightWeapons        Trained */
-     , (36173, 46, 0, 2, 0, 650, 0, 0) /* FinesseWeapons      Trained */;
+VALUES (36173,  6, 0, 2, 0, 330, 0, 0) /* MeleeDefense        Trained */
+     , (36173,  7, 0, 2, 0, 480, 0, 0) /* MissileDefense      Trained */
+     , (36173, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
+     , (36173, 45, 0, 2, 0, 380, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (36173,  0,  2, 320, 0.75,  430,  417,  413,  335,  413,  417,  417,  353,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
      , (36173, 16,  4, 320, 0.75,  430,  417,  413,  335,  413,  417,  417,  353,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
      , (36173, 17,  4, 300,    0,  430,  417,  413,  335,  413,  417,  417,  353,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
-     , (36173, 22, 32, 300,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+     , (36173, 22,  8, 300,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
