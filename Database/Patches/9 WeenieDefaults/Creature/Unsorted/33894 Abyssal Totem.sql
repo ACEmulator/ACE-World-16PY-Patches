@@ -104,4 +104,13 @@ VALUES (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (
      , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
      , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
      , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
      , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */;

@@ -9,7 +9,7 @@ VALUES (0x70098010, 33910, 0x009801BD, 10, -549, -0.063, 1, 0, 0, 0, False, '202
 /* @teleloc 0x009801BD [10.000000 -549.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098011,  4219, 0x009801D0, 61.6974, -511.147, 0, -0.854697, 0, 0, -0.519128, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x70098011,  7924, 0x009801D0, 61.6974, -511.147, 0, -0.854697, 0, 0, -0.519128, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x009801D0 [61.697399 -511.147003 0.000000] -0.854697 0.000000 0.000000 -0.519128 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -42,12 +42,7 @@ VALUES (0x70098011, 0x70098012, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) 
      , (0x70098011, 0x7009802C, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
      , (0x70098011, 0x7009802D, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
      , (0x70098011, 0x7009802E, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70098011, 0x7009802F, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70098011, 0x70098030, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70098011, 0x70098031, '2021-11-01 00:00:00') /* Abyssal Totem (33894) */
-     , (0x70098011, 0x70098032, '2021-11-01 00:00:00') /* Mukkir Draktehn (33133) */
-     , (0x70098011, 0x70098033, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
-     , (0x70098011, 0x70098034, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */;
+     , (0x70098011, 0x70098031, '2021-11-01 00:00:00') /* Abyssal Totem (33894) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70098012, 33131, 0x009801D0, 61.6974, -511.147, 0, -0.854697, 0, 0, -0.519128,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
@@ -166,40 +161,36 @@ VALUES (0x7009802E, 31898, 0x009801A9, 140, -120, -6, 0.04578, 0, 0, 0.998952,  
 /* @teleloc 0x009801A9 [140.000000 -120.000000 -6.000000] 0.045780 0.000000 0.000000 0.998952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009802F, 31898, 0x00980109, 108.155, -31.8653, -18, -0.012026, 0, 0, -0.999928,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x00980109 [108.154999 -31.865299 -18.000000] -0.012026 0.000000 0.000000 -0.999928 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098030, 31898, 0x00980109, 110.803, -32.6983, -18, -0.004204, 0, 0, -0.999991,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x00980109 [110.803001 -32.698299 -18.000000] -0.004204 0.000000 0.000000 -0.999991 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70098031, 33894, 0x00980107, 110, -10, -18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Abyssal Totem */
 /* @teleloc 0x00980107 [110.000000 -10.000000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098032, 33133, 0x00980106, 109.965, -1.51402, -18, -0.012027, 0, 0, -0.999928,  True, '2021-11-01 00:00:00'); /* Mukkir Draktehn */
-/* @teleloc 0x00980106 [109.964996 -1.514020 -18.000000] -0.012027 0.000000 0.000000 -0.999928 */
+VALUES (0x70098035,  7923, 0x00980103, 98.6927, -12.9305, -17.945, 0.707107, 0, 0, -0.707107, False, '2024-05-14 09:40:01'); /* Linkable Monster Generator ( 3 Min.) */
+/* @teleloc 0x00980103 [98.692703 -12.930500 -17.945000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x70098035, 0x70098036, '2024-05-14 09:40:56') /* Mukkir Kartak (33132) */
+     , (0x70098035, 0x70098037, '2024-05-14 09:41:24') /* Mukkir Laktar (33131) */
+     , (0x70098035, 0x70098038, '2024-05-14 09:41:49') /* Mukkir Draktehn (33133) */
+     , (0x70098035, 0x70098039, '2024-05-14 09:42:20') /* Umbral Mukkir (31898) */
+     , (0x70098035, 0x7009803A, '2024-05-14 09:42:45') /* Umbral Mukkir (31898) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098033, 33131, 0x0098010F, 126.869, -18.5703, -18, -0.691326, 0, 0, -0.722543,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x0098010F [126.869003 -18.570299 -18.000000] -0.691326 0.000000 0.000000 -0.722543 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098034, 33132, 0x00980101, 93.3459, -17.9993, -18, 0.542198, 0, 0, -0.840251,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
+VALUES (0x70098036, 33132, 0x00980101, 93.3459, -17.9993, -18, 0.542198, 0, 0, -0.840251,  True, '2024-05-14 09:40:56'); /* Mukkir Kartak */
 /* @teleloc 0x00980101 [93.345901 -17.999300 -18.000000] 0.542198 0.000000 0.000000 -0.840251 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098035, 87139, 0x00980107, 108.564, -9.25983, -17.945, 0.025898, 0, 0, -0.999665, False, '2021-11-01 00:00:00'); /* Shard of the Abyssal Totem Gen */
-/* @teleloc 0x00980107 [108.564003 -9.259830 -17.945000] 0.025898 0.000000 0.000000 -0.999665 */
+VALUES (0x70098037, 33131, 0x0098010F, 126.869, -18.5703, -18, -0.691326, 0, 0, -0.722543,  True, '2024-05-14 09:41:24'); /* Mukkir Laktar */
+/* @teleloc 0x0098010F [126.869003 -18.570299 -18.000000] -0.691326 0.000000 0.000000 -0.722543 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098036,  7924, 0x00980100, 93.2754, -10.8361, -17.945, 0.584034, 0, 0, -0.811729, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x00980100 [93.275398 -10.836100 -17.945000] 0.584034 0.000000 0.000000 -0.811729 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70098036, 0x70098037, '2021-11-01 00:00:00') /* Shard of the Abyssal Totem Controller (87140) */;
+VALUES (0x70098038, 33133, 0x00980106, 109.965, -1.51402, -18, -0.012027, 0, 0, -0.999928,  True, '2024-05-14 09:41:49'); /* Mukkir Draktehn */
+/* @teleloc 0x00980106 [109.964996 -1.514020 -18.000000] -0.012027 0.000000 0.000000 -0.999928 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098037, 87140, 0x00980103, 98.3965, -9.12703, -17.995, 0.693947, 0, 0, -0.720026,  True, '2021-11-01 00:00:00'); /* Shard of the Abyssal Totem Controller */
-/* @teleloc 0x00980103 [98.396500 -9.127030 -17.995001] 0.693947 0.000000 0.000000 -0.720026 */
+VALUES (0x70098039, 31898, 0x00980109, 110.803, -32.6983, -18, -0.004204, 0, 0, -0.999991,  True, '2024-05-14 09:42:20'); /* Umbral Mukkir */
+/* @teleloc 0x00980109 [110.803001 -32.698299 -18.000000] -0.004204 0.000000 0.000000 -0.999991 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7009803A, 31898, 0x00980109, 108.155, -31.8653, -18, -0.012026, 0, 0, -0.999928,  True, '2024-05-14 09:42:45'); /* Umbral Mukkir */
+/* @teleloc 0x00980109 [108.154999 -31.865299 -18.000000] -0.012026 0.000000 0.000000 -0.999928 */
