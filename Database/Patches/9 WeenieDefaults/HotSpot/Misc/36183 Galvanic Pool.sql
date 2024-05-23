@@ -13,7 +13,7 @@ VALUES (36183,   1,        128) /* ItemType - Misc */
      , (36183,  45,         64) /* DamageType - Electric */
      , (36183,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (36183, 119,          0) /* Active */
-     , (36183, 267,         90) /* Lifespan */;
+     , (36183, 267,        110) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36183,   1, True ) /* Stuck */
