@@ -61,7 +61,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43166,   1, 0x0200003D) /* Setup */
      , (43166,   2, 0x0900000E) /* MotionTable */
      , (43166,   3, 0x2000000F) /* SoundTable */
-     , (43166,   4, 0x30000009) /* CombatTable */
+     , (43166,   4, 0x30000013) /* CombatTable */
      , (43166,   6, 0x040001B4) /* PaletteBase */
      , (43166,   7, 0x100004FA) /* ClothingBase */
      , (43166,   8, 0x0600103B) /* Icon */
@@ -83,10 +83,10 @@ VALUES (43166,   1,  1200, 0, 0, 1350) /* MaxHealth */
      , (43166,   5,     0, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (43166,  6, 0, 2, 0, 522, 0, 0) /* MeleeDefense        Trained */
-     , (43166,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense      Trained */
-     , (43166, 15, 0, 2, 0, 170, 0, 0) /* MagicDefense        Trained */
-     , (43166, 45, 0, 2, 0, 553, 0, 0) /* LightWeapons        Trained */;
+VALUES (43166,  6, 0, 2, 0, 330, 0, 0) /* MeleeDefense        Trained */
+     , (43166,  7, 0, 2, 0, 480, 0, 0) /* MissileDefense      Trained */
+     , (43166, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
+     , (43166, 45, 0, 2, 0, 380, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (43166,  0,  2, 120, 0.75,  430,  421,  421,  280,  421,  421,  421,  280,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */

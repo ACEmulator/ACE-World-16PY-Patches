@@ -671,3 +671,7 @@ VALUES (0x7C4F2118, 40271, 0xC4F203F9, 166.836, 212.514, -9.93046, -0.886302, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4F2119, 40090, 0xC4F2012A, 197.509, 211.539, -50.9798, 0.99506, 0, 0, -0.099272,  True, '2023-05-15 03:25:02'); /* Radiant Mana Infusion */
 /* @teleloc 0xC4F2012A [197.509003 211.539001 -50.979801] 0.995060 0.000000 0.000000 -0.099272 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C4F211A, 73167, 0xC4F20128, 194.617, 218.25, -51.125, 1, 0, 0, 0, False, '2024-05-21 09:38:59'); /* Ley Line */
+/* @teleloc 0xC4F20128 [194.617004 218.250000 -51.125000] 1.000000 0.000000 0.000000 0.000000 */
