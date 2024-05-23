@@ -15,6 +15,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34947,   1, True ) /* Stuck */
      , (34947,  19, False) /* Attackable */
      , (34947,  52, True ) /* AiImmobile */
+     , (34947,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (34947,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
