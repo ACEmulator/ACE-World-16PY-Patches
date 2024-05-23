@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87841,   1, True ) /* Stuck */
      , (87841,  11, False) /* IgnoreCollisions */
      , (87841,  12, True ) /* ReportCollisions */
-     , (87841,  13, False) /* Ethereal */
+     , (87841,  13, True ) /* Ethereal */
      , (87841,  14, False) /* GravityStatus */
      , (87841,  18, True ) /* Visibility */;
 
