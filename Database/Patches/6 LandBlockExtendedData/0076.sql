@@ -60,33 +60,11 @@ VALUES (0x70076086, 0x70076087, '2021-11-01 00:00:00') /* Degenerate Mukkir (336
      , (0x70076086, 0x70076093, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
      , (0x70076086, 0x70076094, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
      , (0x70076086, 0x70076095, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
-     , (0x70076086, 0x70076096, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70076086, 0x70076097, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x70076098, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
-     , (0x70076086, 0x70076099, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
-     , (0x70076086, 0x7007609A, '2021-11-01 00:00:00') /* Mukkir Draktehn (33133) */
-     , (0x70076086, 0x7007609B, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x7007609C, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70076086, 0x7007609D, '2021-11-01 00:00:00') /* Mukkir Draktehn (33133) */
      , (0x70076086, 0x7007609E, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
      , (0x70076086, 0x7007609F, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
      , (0x70076086, 0x700760A0, '2021-11-01 00:00:00') /* Depraved Shadow (33634) */
-     , (0x70076086, 0x700760A1, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
      , (0x70076086, 0x700760A2, '2021-11-01 00:00:00') /* Depraved Shadow (33634) */
-     , (0x70076086, 0x700760A3, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x700760A4, '2021-11-01 00:00:00') /* Mukkir Draktehn (33133) */
-     , (0x70076086, 0x700760A5, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x700760A6, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x700760A7, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70076086, 0x700760A8, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
-     , (0x70076086, 0x700760A9, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x700760AA, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
-     , (0x70076086, 0x700760AB, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
-     , (0x70076086, 0x700760AC, '2021-11-01 00:00:00') /* Degenerate Mukkir (33624) */
-     , (0x70076086, 0x700760AD, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x700760AE, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
      , (0x70076086, 0x700760AF, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
-     , (0x70076086, 0x700760B0, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
      , (0x70076086, 0x700760B1, '2021-11-01 00:00:00') /* Vile Mukkir (33037) */
      , (0x70076086, 0x700760B2, '2021-11-01 00:00:00') /* Depraved Shadow (33634) */
      , (0x70076086, 0x700760B3, '2021-11-01 00:00:00') /* Depraved Shadow (33634) */
@@ -99,11 +77,9 @@ VALUES (0x70076086, 0x70076087, '2021-11-01 00:00:00') /* Degenerate Mukkir (336
      , (0x70076086, 0x700760BA, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
      , (0x70076086, 0x700760BB, '2021-11-01 00:00:00') /* Fanatical Mukkir (31901) */
      , (0x70076086, 0x700760BC, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
-     , (0x70076086, 0x700760BD, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
      , (0x70076086, 0x700760BE, '2021-11-01 00:00:00') /* Depraved Shadow (33634) */
      , (0x70076086, 0x700760BF, '2021-11-01 00:00:00') /* Depraved Shadow (33634) */
      , (0x70076086, 0x700760C0, '2021-11-01 00:00:00') /* Degenerate Shadow (33703) */
-     , (0x70076086, 0x700760C1, '2021-11-01 00:00:00') /* Degenerate Mukkir (33624) */
      , (0x70076086, 0x700760C2, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
      , (0x70076086, 0x700760C3, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
      , (0x70076086, 0x700760C4, '2021-11-01 00:00:00') /* Twisted Shadow (32791) */
@@ -121,16 +97,6 @@ VALUES (0x70076086, 0x70076087, '2021-11-01 00:00:00') /* Degenerate Mukkir (336
      , (0x70076086, 0x700760D0, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
      , (0x70076086, 0x700760D1, '2021-11-01 00:00:00') /* Barbaric Mukkir (31897) */
      , (0x70076086, 0x700760D2, '2021-11-01 00:00:00') /* Mukkir Aspect of Grael (33458) */
-     , (0x70076086, 0x700760D3, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
-     , (0x70076086, 0x700760D4, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70076086, 0x700760D5, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
-     , (0x70076086, 0x700760D6, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
-     , (0x70076086, 0x700760D7, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70076086, 0x700760D8, '2021-11-01 00:00:00') /* Mukkir Kartak (33132) */
-     , (0x70076086, 0x700760D9, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
-     , (0x70076086, 0x700760DA, '2021-11-01 00:00:00') /* Umbral Mukkir (31898) */
-     , (0x70076086, 0x700760DB, '2021-11-01 00:00:00') /* Depraved Shadow (33634) */
-     , (0x70076086, 0x700760DC, '2021-11-01 00:00:00') /* Mukkir Laktar (33131) */
      , (0x70076086, 0x700760DD, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
      , (0x70076086, 0x700760DE, '2021-11-01 00:00:00') /* Ruschk Draktehn (29343) */
      , (0x70076086, 0x700760DF, '2021-11-01 00:00:00') /* Depraved Mukkir (33625) */
@@ -199,38 +165,6 @@ VALUES (0x70076095, 29343, 0x007603A3, 90.5951, -59.8273, -29.9934, -0.720385, 0
 /* @teleloc 0x007603A3 [90.595100 -59.827301 -29.993401] -0.720385 0.000000 0.000000 0.693574 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70076096, 31898, 0x007603CD, 134.597, -67.8735, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x007603CD [134.597000 -67.873497 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70076097, 33132, 0x007603CD, 134.597, -66.1592, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x007603CD [134.597000 -66.159203 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70076098, 33131, 0x007603D3, 136.082, -67.0164, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x007603D3 [136.082001 -67.016403 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70076099, 33131, 0x0076034C, 132.749, -53.0298, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x0076034C [132.748993 -53.029800 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007609A, 33133, 0x0076034C, 132.749, -51.3155, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Draktehn */
-/* @teleloc 0x0076034C [132.748993 -51.315498 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007609B, 33132, 0x0076034C, 134.234, -52.1727, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x0076034C [134.233994 -52.172699 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007609C, 31898, 0x0076035C, 146.175, -49.9611, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x0076035C [146.175003 -49.961102 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007609D, 33133, 0x0076035C, 146.175, -48.2468, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Draktehn */
-/* @teleloc 0x0076035C [146.175003 -48.246799 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007609E, 33625, 0x00760355, 149.069, -21.6768, -36, -0.271064, 0, 0, 0.962561,  True, '2021-11-01 00:00:00'); /* Depraved Mukkir */
 /* @teleloc 0x00760355 [149.069000 -21.676800 -36.000000] -0.271064 0.000000 0.000000 0.962561 */
 
@@ -243,68 +177,12 @@ VALUES (0x700760A0, 33634, 0x0076032F, 98.3367, -10.9109, -47.9945, 0.724956, 0,
 /* @teleloc 0x0076032F [98.336700 -10.910900 -47.994499] 0.724956 0.000000 0.000000 -0.688795 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A1, 33131, 0x00760329, 90, -10, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x00760329 [90.000000 -10.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760A2, 33634, 0x0076032F, 102.536, -9.20842, -47.9945, 0.724956, 0, 0, -0.688795,  True, '2021-11-01 00:00:00'); /* Depraved Shadow */
 /* @teleloc 0x0076032F [102.536003 -9.208420 -47.994499] 0.724956 0.000000 0.000000 -0.688795 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A3, 33132, 0x00760329, 90, -8.28571, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x00760329 [90.000000 -8.285710 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A4, 33133, 0x00760326, 79.6731, -40.3364, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Draktehn */
-/* @teleloc 0x00760326 [79.673103 -40.336399 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A5, 33132, 0x00760326, 79.6731, -38.6221, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x00760326 [79.673103 -38.622101 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A6, 33132, 0x0076030F, 91.3145, -62.0698, -54, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x0076030F [91.314499 -62.069801 -54.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A7, 31898, 0x0076030F, 92.7991, -61.2127, -54, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x0076030F [92.799103 -61.212700 -54.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A8, 33131, 0x00760312, 98.8796, -56.7987, -54, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x00760312 [98.879601 -56.798698 -54.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760A9, 33132, 0x00760312, 99.4659, -55.1878, -54, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x00760312 [99.465897 -55.187801 -54.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760AA, 33131, 0x007602DF, 60.6422, -70.1504, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x007602DF [60.642200 -70.150398 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760AB, 33625, 0x007602DF, 60.6422, -68.6504, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Depraved Mukkir */
-/* @teleloc 0x007602DF [60.642200 -68.650398 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760AC, 33624, 0x007602DF, 61.8557, -69.2687, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Degenerate Mukkir */
-/* @teleloc 0x007602DF [61.855701 -69.268700 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760AD, 33132, 0x007602EC, 70.0265, -62.954, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x007602EC [70.026497 -62.953999 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760AE, 33625, 0x007602ED, 70.0265, -64.0969, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Depraved Mukkir */
-/* @teleloc 0x007602ED [70.026497 -64.096901 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760AF, 33625, 0x007602AC, 30.1816, -67.4074, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Depraved Mukkir */
 /* @teleloc 0x007602AC [30.181601 -67.407402 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760B0, 31898, 0x00760326, 79.6731, -40.3364, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x00760326 [79.673103 -40.336399 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760B1, 33037, 0x007602C2, 40.8451, -90.4748, -60, 0.747358, 0, 0, -0.664422,  True, '2021-11-01 00:00:00'); /* Vile Mukkir */
@@ -355,10 +233,6 @@ VALUES (0x700760BC, 33625, 0x0076028C, 17.8996, -40.6969, -66, -0.610068, 0, 0, 
 /* @teleloc 0x0076028C [17.899599 -40.696899 -66.000000] -0.610068 0.000000 0.000000 -0.792349 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760BD, 31898, 0x007602C9, 51.8077, -39.8811, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x007602C9 [51.807701 -39.881100 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760BE, 33634, 0x0076028E, 58.9661, -13.9306, -65.9945, 0.061379, 0, 0, -0.998115,  True, '2021-11-01 00:00:00'); /* Depraved Shadow */
 /* @teleloc 0x0076028E [58.966099 -13.930600 -65.994499] 0.061379 0.000000 0.000000 -0.998115 */
 
@@ -369,10 +243,6 @@ VALUES (0x700760BF, 33634, 0x0076028E, 61.2429, -13.6496, -65.9945, 0.061379, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760C0, 33703, 0x0076028D, 60.455, -12.1277, -65.995, -0.079455, 0, 0, -0.996838,  True, '2021-11-01 00:00:00'); /* Degenerate Shadow */
 /* @teleloc 0x0076028D [60.455002 -12.127700 -65.995003] -0.079455 0.000000 0.000000 -0.996838 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760C1, 33624, 0x007602C9, 53.2343, -39.4176, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Degenerate Mukkir */
-/* @teleloc 0x007602C9 [53.234299 -39.417599 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760C2, 31897, 0x0076022B, 67.4439, -39.4485, -78, 0.991283, 0, 0, -0.131753,  True, '2021-11-01 00:00:00'); /* Barbaric Mukkir */
@@ -443,46 +313,6 @@ VALUES (0x700760D2, 33458, 0x007604AA, 240, -180, 0, 0, 0, 0, -1,  True, '2021-1
 /* @teleloc 0x007604AA [240.000000 -180.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760D3, 33625, 0x00760329, 90, -10, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Depraved Mukkir */
-/* @teleloc 0x00760329 [90.000000 -10.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760D4, 31898, 0x00760329, 90, -8.85714, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x00760329 [90.000000 -8.857140 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760D5, 33131, 0x00760326, 81.1577, -39.4793, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x00760326 [81.157700 -39.479301 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760D6, 33625, 0x00760326, 79.6731, -38.8364, -48, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Depraved Mukkir */
-/* @teleloc 0x00760326 [79.673103 -38.836399 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760D7, 31898, 0x007602DF, 60.6422, -70.1504, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x007602DF [60.642200 -70.150398 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760D8, 33132, 0x007602DF, 62.1268, -69.2933, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Kartak */
-/* @teleloc 0x007602DF [62.126801 -69.293297 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760D9, 33131, 0x007602AC, 30.1816, -67.4074, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x007602AC [30.181601 -67.407402 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760DA, 31898, 0x007602A7, 31.7611, -54.0261, -60, 0.82613, 0, 0, -0.56348,  True, '2021-11-01 00:00:00'); /* Umbral Mukkir */
-/* @teleloc 0x007602A7 [31.761101 -54.026100 -60.000000] 0.826130 0.000000 0.000000 -0.563480 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760DB, 33634, 0x00760329, 85.1447, -11.8503, -47.9945, -0.699941, 0, 0, 0.7142,  True, '2021-11-01 00:00:00'); /* Depraved Shadow */
-/* @teleloc 0x00760329 [85.144699 -11.850300 -47.994499] -0.699941 0.000000 0.000000 0.714200 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700760DC, 33131, 0x007602C9, 51.8077, -39.8811, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */
-/* @teleloc 0x007602C9 [51.807701 -39.881100 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760DD, 29343, 0x00760285, 30.214, -70.5989, -71.9934, -0.001439, 0, 0, -0.999999,  True, '2021-11-01 00:00:00'); /* Ruschk Draktehn */
 /* @teleloc 0x00760285 [30.214001 -70.598900 -71.993401] -0.001439 0.000000 0.000000 -0.999999 */
 
@@ -533,3 +363,39 @@ VALUES (0x700760E8, 87137, 0x00760400, 24.15, -40.0295, -11.995, 0.706959, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700760E9, 87138, 0x00760402, 29.941, -34.4474, -11.995, -0.000329, 0, 0, 1, False, '2021-11-01 00:00:00'); /* Rock */
 /* @teleloc 0x00760402 [29.941000 -34.447399 -11.995000] -0.000329 0.000000 0.000000 1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760EA, 73171, 0x007603D3, 135, -67, -30, 1, 0, 0, 0, False, '2024-05-26 09:49:52'); /* Mukkir Spawn Trap */
+/* @teleloc 0x007603D3 [135.000000 -67.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760EB, 73171, 0x0076034C, 133.5, -52, -36, 1, 0, 0, 0, False, '2024-05-26 09:53:53'); /* Mukkir Spawn Trap */
+/* @teleloc 0x0076034C [133.500000 -52.000000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760EC, 73171, 0x00760329, 89.5, -10, -48, 1, 0, 0, 0, False, '2024-05-26 09:58:15'); /* Mukkir Spawn Trap */
+/* @teleloc 0x00760329 [89.500000 -10.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760ED, 73171, 0x00760326, 81, -40, -48, 1, 0, 0, 0, False, '2024-05-26 10:00:45'); /* Mukkir Spawn Trap */
+/* @teleloc 0x00760326 [81.000000 -40.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760EE, 73171, 0x00760312, 99, -56, -54, 1, 0, 0, 0, False, '2024-05-26 10:02:13'); /* Mukkir Spawn Trap */
+/* @teleloc 0x00760312 [99.000000 -56.000000 -54.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760EF, 73171, 0x0076030F, 92, -62, -54, 1, 0, 0, 0, False, '2024-05-26 10:02:25'); /* Mukkir Spawn Trap */
+/* @teleloc 0x0076030F [92.000000 -62.000000 -54.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760F0, 73171, 0x007602DF, 62, -70.25, -60, 1, 0, 0, 0, False, '2024-05-26 10:03:05'); /* Mukkir Spawn Trap */
+/* @teleloc 0x007602DF [62.000000 -70.250000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760F1, 73171, 0x007602ED, 70, -63.25, -60, 1, 0, 0, 0, False, '2024-05-26 10:05:47'); /* Mukkir Spawn Trap */
+/* @teleloc 0x007602ED [70.000000 -63.250000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700760F2, 73171, 0x007602C9, 52.5, -39.5, -60, 1, 0, 0, 0, False, '2024-05-26 10:11:07'); /* Mukkir Spawn Trap */
+/* @teleloc 0x007602C9 [52.500000 -39.500000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
