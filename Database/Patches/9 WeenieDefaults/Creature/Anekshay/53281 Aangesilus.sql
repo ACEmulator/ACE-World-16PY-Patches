@@ -6,6 +6,7 @@ VALUES (53281, 'ace53281-aangesilus', 10, '2022-08-22 03:09:27') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53281,   1,         16) /* ItemType - Creature */
      , (53281,   2,        101) /* CreatureType - Anekshay */
+     , (53281,   3,          8) /* PaletteTemplate - Green */
      , (53281,   6,         -1) /* ItemsCapacity */
      , (53281,   7,         -1) /* ContainersCapacity */
      , (53281,  16,         32) /* ItemUseable - Remote */
@@ -27,7 +28,8 @@ VALUES (53281,   1, True ) /* Stuck */
      , (53281,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53281,  13,       1) /* ArmorModVsSlash */
+VALUES (53281,  12,    0.16) /* Shade */
+     , (53281,  13,       1) /* ArmorModVsSlash */
      , (53281,  14,       1) /* ArmorModVsPierce */
      , (53281,  15,     0.8) /* ArmorModVsBludgeon */
      , (53281,  16,     0.6) /* ArmorModVsCold */
@@ -55,6 +57,7 @@ VALUES (53281,   1, 0x02001C18) /* Setup */
      , (53281,   2, 0x09000001) /* MotionTable */
      , (53281,   3, 0x20000015) /* SoundTable */
      , (53281,   6, 0x0400007E) /* PaletteBase */
+     , (53281,   7, 0x1000086B) /* ClothingBase */
      , (53281,   8, 0x06001B42) /* Icon */
      , (53281,  22, 0x34000025) /* PhysicsEffectTable */;
 
