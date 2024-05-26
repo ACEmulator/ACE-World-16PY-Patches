@@ -62,7 +62,7 @@ VALUES (72329,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72329,   1, 'Gurog Minion') /* Name */
-     , (72329,  45, 'gurogminionkillcount') /* KillQuest */;
+     , (72329,  45, 'KillTaskGurogMinion1110') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72329,   1, 0x02001A2B) /* Setup */
