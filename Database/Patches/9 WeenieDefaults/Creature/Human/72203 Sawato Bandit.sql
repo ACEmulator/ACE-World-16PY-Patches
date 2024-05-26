@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72203;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72203, 'ace72203-sawatobandit', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (72203, 'ace72203-sawatobandit', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72203,   1,         16) /* ItemType - Creature */
@@ -103,4 +103,8 @@ VALUES (72203, 1, 72201,  1, 0, 1, False) /* Create Sawato Bandit's Ledger (7220
      , (72203, 2, 27215,  1, 20, 1, False) /* Create Chiran Coat (27215) for Wield */
      , (72203, 2, 27218,  1, 20, 1, False) /* Create Chiran Leggings (27218) for Wield */
      , (72203, 2, 27219,  1, 21, 0, False) /* Create Chiran Sandals (27219) for Wield */
-     , (72203, 2,  9392,  1, 20, 0.4364, False) /* Create Helm of the Crag (9392) for Wield */;
+     , (72203, 2,  9392,  1, 20, 0.4364, False) /* Create Helm of the Crag (9392) for Wield */
+     , (72203, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (72203, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (72203, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (72203, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

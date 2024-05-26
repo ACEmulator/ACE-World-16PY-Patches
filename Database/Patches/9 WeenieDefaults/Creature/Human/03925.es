@@ -2,7 +2,8 @@ Refuse: Brass Knuckles (28215)
     - TurnToTarget
     - Delay: 1, Motion: Point
     - Tell: Very good, you may keep your cestus. A lady near Zaikhal named Devana bint Hamudi is looking for skilled hunters.
-    - Give: Introduction to Devana (6027)
+    - Delay:0.5, Give: Introduction to Devana (6027)
+    - Give: Contract for Hamud's Demise (44178)
     - Tell: Give this to her.
     - StampQuest: HamudsDemiseStarted_0511
 

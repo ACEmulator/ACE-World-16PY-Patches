@@ -99,6 +99,22 @@ Give: Dull Gem (3933)
 
 Give: Mud Golem Heart (11351)
     - TurnToTarget
+    - InqQuestBitsOn: RoostKnowledgeProgress_0904, 0x2
+        QuestSuccess:
+            - InqQuestBitsOn: RoostKnowledgeProgress_0904, 0x4
+                QuestSuccess:
+                    - Goto: MudGolemHeart
+                QuestFailure:
+                    - SetQuestBitsOn: RoostKnowledgeProgress_0904, 0x4
+                    - Tell: Take this note to Kuyiza bint Zayi the Translator. She'll tell you what to do with it.
+                    - Give: Mysterious Untranslated Scroll (81079)
+                    - Tell: I'll keep the bounty I usually pay for these.
+                    - AwardNoShareXP: 1,000,000
+                    - Tell: Yes, very good.
+        QuestFailure:
+            - Goto: MudGolemHeart
+
+GotoSet: MudGolemHeart
     - Tell: Yes, very good.
     - AwardNoShareXP: 500
     - Give: Pyreal (273), 1,000

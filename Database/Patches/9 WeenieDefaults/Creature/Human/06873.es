@@ -651,7 +651,7 @@ Give: Casting Stein (23774)
     - Delay: 1, DirectBroadcast: Ulgrim examines the stein, eyes widening in horror.
     - Delay: 1, Tell: It's not even full of Stout!
     - Delay: 1, Tell: Well, I guess I can give you something, and I should get rid of this before he comes looking for me...
-    - Delay: 0.5, Give: 36352
+    - Delay: 0.5, Give: Asheron Mask (36352)
 
 Give: Ulgrim's Scroll (22253)
     - TurnToTarget
@@ -821,6 +821,36 @@ Give: Title Token: Guardian of the Dark (32941)
     - TurnToTarget
     - Tell: You found this in the same place you found the Dark Monolith? Here, you should have a new title.
     - AddCharacterTitle: GuardianoftheDark
+
+Give: Danby's Ale (81082)
+    - Motion: Ready
+    - TurnToTarget
+    - InqQuestBitsOn: RoostBottleProgress_0904, 0x4
+        QuestSuccess:
+            - EraseQuest: RoostBottleProgress_0904
+            - Goto: GiveSkippingStone
+        QuestFailure:
+            - InqQuestBitsOn: RoostSignProgress_0904, 0x4
+                QuestSuccess:
+                    - EraseQuest: RoostSignProgress_0904
+                    - Goto: GiveSkippingStone
+                QuestFailure:
+                    - InqQuestBitsOn: RoostKnowledgeProgress_0904@6, 0x4
+                        QuestSuccess:
+                            - EraseQuest: RoostKnowledgeProgress_0904
+                            - Goto: GiveSkippingStone
+                        QuestFailure:
+                            - Tell: Are you trying to poison me? This stuff is terrible!
+
+GotoSet: GiveSkippingStone
+    - Tell: Oh, you purchased me another ale.
+    - Delay: 0.5, Tell: How kind.
+    - Motion: MimeDrink
+    - Motion: Spit
+    - Delay: 0.5, Tell: Kid, I don't know if you're trying to poison me or what but that's swill!
+    - Delay: 0.5, Tell: Tell ya what, why don't you go skip a rock.
+    - Give: Skipping Stone (40582)
+    - Delay: 2, Tell: And take your dirty skunk ale with you!
 
 Use: Probability: 0.5
     - Motion: Ready

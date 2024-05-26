@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11502;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11502, 'humancutthroat-xp', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (11502, 'humancutthroat-xp', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11502,   1,         16) /* ItemType - Creature */
@@ -458,3 +458,9 @@ VALUES (11502,  0,  4,  0,    0,  120,  108,  120,  132,   48,   48,  120,   72,
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11502,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11502, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11502, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (11502, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (11502, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (11502, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

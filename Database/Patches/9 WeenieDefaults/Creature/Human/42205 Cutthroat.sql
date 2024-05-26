@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42205;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42205, 'ace42205-cutthroat', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (42205, 'ace42205-cutthroat', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42205,   1,         16) /* ItemType - Creature */
@@ -446,3 +446,9 @@ VALUES (42205,  0,  4,  0,    0,  120,  108,  120,  132,   48,   48,  120,   72,
      , (42205,  6,  4,  0,    0,  120,  108,  120,  132,   48,   48,  120,   72,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (42205,  7,  4,  0,    0,  120,  108,  120,  132,   48,   48,  120,   72,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (42205,  8,  4,  2, 0.75,  120,  108,  120,  132,   48,   48,  120,   72,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42205, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (42205, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (42205, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (42205, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

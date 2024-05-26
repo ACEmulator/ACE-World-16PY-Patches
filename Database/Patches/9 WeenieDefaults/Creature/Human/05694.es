@@ -19,7 +19,7 @@ GotoSet: RollForBook, Probability: 0.8
 GotoSet: RollForBook, Probability: 1
     - Give: The Story of the Lost Sisters (87468)
 
-Refuse: Messengers Collar (34268)
+Refuse: Messenger's Collar (34268)
     - TurnToTarget
     - DirectBroadcast: Fanzen San examines the collar in fascination.
     - Delay: 1, Tell: This looks like Falatacot workmanship. This could be a pet's collar or something similar.
@@ -429,6 +429,15 @@ Give: Trade Note (250,000) (20630)
     - TurnToTarget
     - Tell: Here you go.
     - Delay: 1, Give: Uninscription Stone (33960)
+
+Refuse: Mysterious Untranslated Scroll (81079)
+    - TurnToTarget
+    - Tell: My apologies, but I cannot read this. Kuyiza bint Zayi, one of the scholars of Zaikhal, would be able to assist you.
+
+Give: Mysterious Untranslated Scroll (81080)
+    - TurnToTarget
+    - SetQuestBitsOn: RoostSignProgress_0904, 0x4
+    - Tell: I'll keep this simple. Visit Danby's outpost and buy one of their special ales for Ulgrim.
 
 Use:
     - Motion: Ready

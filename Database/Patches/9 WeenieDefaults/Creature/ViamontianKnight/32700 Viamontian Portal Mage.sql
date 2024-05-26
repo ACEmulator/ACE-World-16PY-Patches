@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32700;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32700, 'ace32700-viamontianportalmage', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (32700, 'ace32700-viamontianportalmage', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32700,   1,         16) /* ItemType - Creature */
@@ -158,4 +158,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (32700, 2, 28614,  0, 11, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (32700, 2, 28632,  0, 20, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
      , (32700, 9, 32703,  0, 0, 1, False) /* Create Bracelet of Passage (32703) for ContainTreasure */
+     , (32700, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (32700, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (32700, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (32700, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (32700, 10, 30946,  1, 0, 1, False) /* Create Poniard (30946) for WieldTreasure */;

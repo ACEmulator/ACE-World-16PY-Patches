@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30291;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30291, 'knighttribune-nofall', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (30291, 'knighttribune-nofall', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30291,   1,         16) /* ItemType - Creature */
@@ -156,6 +156,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30291, 9, 34276,  0, 0, 0.01, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
      , (30291, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (30291, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (30291, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (30291, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (30291, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (30291, 10, 29964,  0, 0, 0.25, False) /* Create Throwing Axe (29964) for WieldTreasure */
      , (30291, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (30291, 10, 29970,  0, 0, 0.25, False) /* Create Partizan (29970) for WieldTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72330;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72330, 'ace72330-gurogsoldier', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (72330, 'ace72330-gurogsoldier', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72330,   1,         16) /* ItemType - Creature */
@@ -62,7 +62,7 @@ VALUES (72330,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72330,   1, 'Gurog Soldier') /* Name */
-     , (72330,  45, 'gurogsoldierkillcount') /* KillQuest */;
+     , (72330,  45, 'KillTaskGurogSoldier1110') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72330,   1, 0x02001A2C) /* Setup */

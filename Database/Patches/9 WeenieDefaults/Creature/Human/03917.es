@@ -56,7 +56,7 @@ GotoSet: 1Red
     - IncrementQuest: RedLetterTurnIns, 1
     - Tell: Hey! I remember my first Red Letter.
     - Delay: 1, AwardNoShareXP: 100,000
-    - Give: 44715, 2
+    - Give: Low-Stakes Gambling Token (44715), 2
     - Tell: This is yours in exchange.
 
 GotoSet: Stackof10Red
@@ -64,7 +64,7 @@ GotoSet: Stackof10Red
     - IncrementQuest: RedLetterTurnIns, 10
     - Tell: 10 Red Letters, nice work.
     - Delay: 1, AwardNoShareXP: 1,000,000
-    - Give: 44715, 20
+    - Give: Low-Stakes Gambling Token (44715), 20
     - Tell: Here, take these in exchange for the letters.
 
 Refuse: Lucky Gold Letter (45875)
@@ -125,7 +125,7 @@ GotoSet: 1Gold
     - IncrementQuest: GoldLetterTurnIns, 1
     - Tell: An Explorer Society Gold Letter. A real collectors item.
     - Delay: 1, AwardNoShareXP: 200,000
-    - Give: 44716
+    - Give: Mid-Stakes Gambling Token (44716)
     - Tell: This should be a fair reward.
 
 GotoSet: Stackof10Gold
@@ -133,7 +133,7 @@ GotoSet: Stackof10Gold
     - IncrementQuest: GoldLetterTurnIns, 10
     - Tell: 10 Gold Letters, nice work.
     - Delay: 1, AwardNoShareXP: 2,000,000
-    - Give: 44716, 10
+    - Give: Mid-Stakes Gambling Token (44716), 10
     - Tell: This should be a fair reward.
 
 Refuse: Drudge Head (8145)
@@ -420,6 +420,22 @@ Give: Plate Armoredillo Spine (22951)
 
 Give: Drudge Charm (3669)
     - TurnToTarget
+    - InqQuestBitsOn: RoostBottleProgress_0904, 0x2
+        QuestSuccess:
+            - InqQuestBitsOn: RoostBottleProgress_0904, 0x4
+                QuestSuccess:
+                    - Goto: DrudgeCharm
+                QuestFailure:
+                    - SetQuestBitsOn: RoostBottleProgress_0904, 0x4
+                    - Tell: Take this note to Bretself the Translator. He'll tell you what to do with it.
+                    - Delay: 1, Give: Aged Mysterious Untranslated Scroll (40583)
+                    - Delay: 1, Tell: I'll keep the bounty I usually pay for these.
+                    - Delay: 1, AwardNoShareXP: 1,000,000
+                    - Tell: Good luck in your travels.
+        QuestFailure:
+            - Goto: DrudgeCharm
+
+GotoSet: DrudgeCharm
     - Tell: I really love these trinkets. I wonder what meaning they have for the drudges.
     - AwardNoShareXP: 500
     - Give: Pyreal (273), 200

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43160;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43160, 'ace43160-disgustwisp', 10, '2023-04-09 17:44:47') /* Creature */;
+VALUES (43160, 'ace43160-disgustwisp', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43160,   1,         16) /* ItemType - Creature */
@@ -92,7 +92,7 @@ VALUES (43160,  6, 0, 2, 0, 317, 0, 0) /* MeleeDefense        Trained */
      , (43160, 31, 0, 2, 0, 180, 0, 0) /* CreatureEnchantment Trained */
      , (43160, 33, 0, 2, 0, 180, 0, 0) /* LifeMagic           Trained */
      , (43160, 34, 0, 2, 0, 205, 0, 0) /* WarMagic            Trained */
-     , (43160, 45, 0, 2, 0, 410, 0, 0) /* LightWeapons        Trained */;
+     , (43160, 45, 0, 2, 0, 445, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (43160,  0, 32, 400,  0.5,  400,  340,  400,  400,  400,  400,  800,  340,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

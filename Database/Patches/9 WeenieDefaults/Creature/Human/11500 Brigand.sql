@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11500;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11500, 'humanbrigand-xp', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (11500, 'humanbrigand-xp', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11500,   1,         16) /* ItemType - Creature */
@@ -476,4 +476,8 @@ VALUES (11500,  94) /* ATTACK_NOTIFICATION_EVENT */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11500, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */
      , (11500, 9, 25557,  0, 0, 0.05, False) /* Create Eye Patch (25557) for ContainTreasure */
-     , (11500, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+     , (11500, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (11500, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (11500, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (11500, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (11500, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

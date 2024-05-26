@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72329;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72329, 'ace72329-gurogminion', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (72329, 'ace72329-gurogminion', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72329,   1,         16) /* ItemType - Creature */
@@ -62,7 +62,7 @@ VALUES (72329,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72329,   1, 'Gurog Minion') /* Name */
-     , (72329,  45, 'gurogminionkillcount') /* KillQuest */;
+     , (72329,  45, 'KillTaskGurogMinion1110') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72329,   1, 0x02001A2B) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41898;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41898, 'ace41898-enhancedassaultorb', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (41898, 'ace41898-enhancedassaultorb', 35, '2024-05-26 19:09:10') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41898,   1,      32768) /* ItemType - Caster */
@@ -28,7 +28,9 @@ VALUES (41898,   1,      32768) /* ItemType - Caster */
      , (41898, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41898,  22, True ) /* Inscribable */
+VALUES (41898,  15, True ) /* LightsStatus */
+     , (41898,  19, True ) /* Attackable */
+     , (41898,  22, True ) /* Inscribable */
      , (41898,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,7 +51,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41898,   1, 0x02000EC3) /* Setup */
      , (41898,   3, 0x20000014) /* SoundTable */
      , (41898,   6, 0x04000BEF) /* PaletteBase */
-     , (41898,   7, 0x100002E7) /* ClothingBase */
      , (41898,   8, 0x060020FD) /* Icon */
      , (41898,  19, 0x00000058) /* ActivationAnimation */
      , (41898,  22, 0x3400002B) /* PhysicsEffectTable */

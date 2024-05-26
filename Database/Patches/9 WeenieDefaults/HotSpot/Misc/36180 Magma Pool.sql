@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36180;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36180, 'ace36180-magmapool', 13, '2022-06-21 15:22:25') /* HotSpot */;
+VALUES (36180, 'ace36180-magmapool', 13, '2024-05-26 19:09:10') /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36180,   1,        128) /* ItemType - Misc */
@@ -13,7 +13,7 @@ VALUES (36180,   1,        128) /* ItemType - Misc */
      , (36180,  45,         16) /* DamageType - Fire */
      , (36180,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (36180, 119,          0) /* Active */
-     , (36180, 267,         90) /* Lifespan */;
+     , (36180, 267,        110) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36180,   1, True ) /* Stuck */

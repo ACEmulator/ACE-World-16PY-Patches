@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32678;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32678, 'ace32678-surface', 7, '2021-11-17 16:56:08') /* Portal */;
+VALUES (32678, 'ace32678-surface', 7, '2024-05-26 19:09:10') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32678,   1,      65536) /* ItemType - Portal */
@@ -28,3 +28,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32678,   1, 0x020001B3) /* Setup */
      , (32678,   2, 0x09000003) /* MotionTable */
      , (32678,   8, 0x0600106B) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (32678, 2, 0xBE720015, 60, 107.998, 6.006, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0xBE720015 [60.000000 107.998001 6.006000] 1.000000 0.000000 0.000000 0.000000 */;

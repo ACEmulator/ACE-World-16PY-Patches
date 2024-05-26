@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87843;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87843, 'ace87843-largepressureplate', 24, '2022-01-20 04:53:49') /* PressurePlate */;
+VALUES (87843, 'ace87843-largepressureplate', 24, '2024-05-26 19:09:10') /* PressurePlate */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87843,   1,        128) /* ItemType - Misc */
@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87843,   1, True ) /* Stuck */
      , (87843,  11, False) /* IgnoreCollisions */
      , (87843,  12, True ) /* ReportCollisions */
-     , (87843,  13, False) /* Ethereal */
+     , (87843,  13, True ) /* Ethereal */
      , (87843,  14, False) /* GravityStatus */
      , (87843,  18, True ) /* Visibility */;
 

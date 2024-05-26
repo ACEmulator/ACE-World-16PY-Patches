@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33894;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33894, 'ace33894-abyssaltotem', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (33894, 'ace33894-abyssaltotem', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33894,   1,         16) /* ItemType - Creature */
@@ -97,6 +97,15 @@ VALUES (33894,  0, 32, 150,  0.5,  300,  300,  300,  300,  300,  300,  330,  300
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
      , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
      , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
      , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80053;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80053, 'ace80053-viamontianwarwizard', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (80053, 'ace80053-viamontianwarwizard', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80053,   1,         16) /* ItemType - Creature */
@@ -184,4 +184,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (80053, 2, 28614,  0, 11, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (80053, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */;
+     , (80053, 2, 28632,  0, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (80053, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (80053, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (80053, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (80053, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

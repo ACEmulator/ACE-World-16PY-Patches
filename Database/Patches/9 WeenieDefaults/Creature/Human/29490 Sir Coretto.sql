@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29490;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29490, 'knightkarlunsircoretto', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (29490, 'knightkarlunsircoretto', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29490,   1,         16) /* ItemType - Creature */
@@ -180,6 +180,10 @@ VALUES (29490, 2, 31026,  1, 20, 0.5, False) /* Create Tenassa Breastplate (3102
      , (29490, 2, 28625,  1, 20, 0.5, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (29490, 9, 29495,  1, 0, 1, False) /* Create Testament of Sir Coretto (29495) for ContainTreasure */
      , (29490, 9,     0,  0, 0, 1, False) /* Create nothing for ContainTreasure */
+     , (29490, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (29490, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (29490, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (29490, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (29490, 10, 29965,  1, 0, 0.4, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (29490, 10, 29972,  1, 0, 0.4, False) /* Create Partizan (29972) for WieldTreasure */
      , (29490, 10, 29977,  1, 0, 0.2, False) /* Create Spadone (29977) for WieldTreasure */;

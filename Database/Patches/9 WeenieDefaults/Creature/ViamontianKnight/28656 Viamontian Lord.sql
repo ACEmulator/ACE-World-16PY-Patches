@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28656;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28656, 'knightlord', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (28656, 'knightlord', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28656,   1,         16) /* ItemType - Creature */
@@ -157,6 +157,10 @@ VALUES (28656, 9, 34277,  0, 0, 0.005, False) /* Create Ancient Falatacot Trinke
      , (28656, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
      , (28656, 9, 32924,  1, 0, 0.02, False) /* Create Mukkir Nest Portal Gem (32924) for ContainTreasure */
      , (28656, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (28656, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (28656, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (28656, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
+     , (28656, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (28656, 10, 29964,  0, 0, 0.25, False) /* Create Throwing Axe (29964) for WieldTreasure */
      , (28656, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (28656, 10, 29970,  0, 0, 0.25, False) /* Create Partizan (29970) for WieldTreasure */

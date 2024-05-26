@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28651;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28651, 'knightmercenary', 10, '2021-11-29 06:19:28') /* Creature */;
+VALUES (28651, 'knightmercenary', 10, '2024-05-26 19:09:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28651,   1,         16) /* ItemType - Creature */
@@ -156,6 +156,10 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28651, 9, 45875,  0, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
      , (28651, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28651, 9, 45876,  0, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (28651, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (28651, 9, 40522,  0, 0, 0.01, False) /* Create Contact Instructions (40522) for ContainTreasure */
+     , (28651, 9, 40523,  0, 0, 0.01, False) /* Create Contact Instructions (40523) for ContainTreasure */
+     , (28651, 9, 40524,  0, 0, 0.01, False) /* Create Contact Instructions (40524) for ContainTreasure */
      , (28651, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (28651, 10, 29967,  1, 0, 0.25, False) /* Create Quadrelle (29967) for WieldTreasure */
      , (28651, 10, 29972,  1, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */

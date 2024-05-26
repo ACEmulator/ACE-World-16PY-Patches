@@ -6,19 +6,19 @@ Give: Sticky Lump (33158)
     - Tell: Ugh... I really wish someone would teach these Shadows the use of proper paper...
     - Delay: 1, DirectBroadcast: Bretself shudders momentarily, and then begins to translate the lump.
     - Delay: 1, Tell: Fascinating... According to this, it looks like Isin Dule is trying to stop the Raven Hand from awakening Grael. Here, take a look.
-    - Give: 33159
+    - Give: Isin Dule's Instructions (33159)
 
-Give: 33182
+Give: Fleshy Lump (33182)
     - TurnToTarget
     - Tell: Ugh! Another of these lumps? Even worse, this ones still squirming! Still... this is fascinating.
     - Delay: 1, Tell: This seems to be orders to the Shadows under Isin Dule's command. Oh my, he raised a Shadow Spire? He's ordering his forces to stop some High Archon of the Raven Hand. Here, take a look.
-    - Give: 33183
+    - Give: Isin Dule's Orders (33183)
 
-Give: 32660
+Give: Empyrean Notebook (32660)
     - TurnToTarget
     - Tell: Hmmm... This seems to be written in some sort of Empyrean Code.
     - Delay: 1, Tell: I can translate it into recognizable characters, but I can't make heads or tails of it. Seems Atlan didn't want other people reading his notes.
-    - Delay: 1, Give: 70921
+    - Delay: 1, Give: Atlan's Coded Notebook (70921)
 
 Give: Letter (5666)
     - TurnToTarget
@@ -327,7 +327,7 @@ Give: Withered Tome (24109)
 Give: Aged Tome (24111)
     - TurnToTarget
     - Tell: He didn't seem to care much for the Emperor, though he still paid him some sort of respect.
-    - Delay: 1, Give: 24110
+    - Delay: 1, Give: Personal Entry Arrival of Kellin's Troops (24110)
 
 Give: Weathered Tome (24107)
     - TurnToTarget
@@ -358,7 +358,7 @@ Give: Moldy Tome (24123)
     - TurnToTarget
     - DirectBroadcast: Bretself wipes a tear away from his eye.
     - Tell: I'm sorry this just made me so sad to think of all of them, and then...
-    - Delay: 1, Give: 24122
+    - Delay: 1, Give: We the Defenders of the Helm (24122)
 
 Give: Inscribed Purple Gem (34348)
     - TurnToTarget
@@ -382,24 +382,31 @@ Give: Inscribed Purple Gem (34348)
             - StampQuest: BurFlagged(Gem)
             - Motion: Ready
 
-Give: 32586
+Give: Shriveled Lump (32586)
     - TurnToTarget
     - Delay: 1, Tell: Another of these lumps? Well, at least this one looks dried out...
     - Delay: 1, Tell: Fascinating. This seems to be a note from back before the Hopeslayer got freed. Here, take a look.
-    - Give: 32587
+    - Give: Instructions (32587)
 
-Give: 72798
+Give: Damaged Yalaini Tome (72798)
     - TurnToTarget
     - Tell: Well, what have we here? Where did you find this?
     - DirectBroadcast: You explain where you found the ancient tome.
     - Tell: Fascinating. You know, this book isn't as old as its location may lead you to believe. This appears to be penned by one of the Adjanites, which were an order of Empyreans from Asheron's time, only a few thousand years ago. The story itself seems far older, though. She refers to it as coming from a Falatacot tribe. Very strange...
     - Delay: 1, Tell: But I digress. You can see for yourself, and I won't keep you here any longer.
-    - Give: 72799
+    - Give: The Sisters of Light (72799)
 
 Give: Trade Note (250,000) (20630)
     - TurnToTarget
     - Tell: Here you go.
     - Delay: 1, Give: Uninscription Stone (33960)
+
+Give: Aged Mysterious Untranslated Scroll (40583)
+    - TurnToTarget
+    - SetQuestBitsOn: RoostBottleProgress_0904, 0x4
+    - Tell: There is no translation for this but I know what the intent is none the less.
+    - Tell: If you are sure this is the type of person you'd like to get involved with then I have a message for you to listen to.
+    - Tell: In Danby's Outpost you'll find a new bartender. He's got a special Ale. I think Ulgrim might be interested in having a taste.
 
 Use:
     - Motion: Ready
