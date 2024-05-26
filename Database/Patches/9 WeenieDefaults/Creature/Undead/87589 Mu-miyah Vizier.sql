@@ -64,7 +64,8 @@ VALUES (87589,   1,       5) /* HeartbeatInterval */
      , (87589, 166,     1.1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87589,   1, 'Mu-miyah Vizier') /* Name */;
+VALUES (87589,   1, 'Mu-miyah Vizier') /* Name */
+     , (87589,  45, 'SanctumGuardianKillTask') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87589,   1, 0x02000001) /* Setup */
