@@ -26,4 +26,4 @@ VALUES (88228,   1, 'Seed of Essence') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (88228,   1, 0x02001BA5) /* Setup */
      , (88228,   7, 0x10000841) /* ClothingBase */
-     , (88228,   8, 0x060073EF) /* Icon */;
+     , (88228,   8, 0x060073F4) /* Icon */;
