@@ -20,7 +20,6 @@ VALUES (45711,   1, True ) /* Stuck */
      , (45711,   6, False) /* AiUsesMana */
      , (45711,  12, True ) /* ReportCollisions */
      , (45711,  13, True ) /* Ethereal */
-     , (45711,  18, True ) /* Visibility */
      , (45711,  19, False) /* Attackable */
      , (45711,  41, True ) /* ReportCollisionsAsEnvironment */
      , (45711,  42, True ) /* AllowEdgeSlide */
