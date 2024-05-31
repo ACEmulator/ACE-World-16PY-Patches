@@ -22,6 +22,7 @@ VALUES (87339,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87339,   1, 'Harraag''s Lair') /* Name */
+     , (87339,  16, 'This portal seems to be warded against those who are not attuned to it.') /* LongDesc */;
      , (87339,  37, 'HarraagsLairFlag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
