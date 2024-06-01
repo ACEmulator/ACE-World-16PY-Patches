@@ -11,6 +11,7 @@ VALUES (40437,   1,         16) /* ItemType - Creature */
      , (40437,  16,          1) /* ItemUseable - No */
      , (40437,  25,        115) /* Level */
      , (40437,  40,          2) /* CombatMode - Melee */
+     , (40437,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (40437,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (40437, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40437, 146,     125000) /* XpOverride */;
@@ -86,16 +87,15 @@ VALUES (40437,   1,  1120, 0, 0, 1220) /* MaxHealth */
      , (40437,   5,   120, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40437,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
-     , (40437,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
-     , (40437, 14, 0, 3, 0, 217, 0, 0) /* ArcaneLore          Specialized */
-     , (40437, 15, 0, 3, 0, 350, 0, 0) /* MagicDefense        Specialized */
-     , (40437, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (40437, 24, 0, 3, 0, 320, 0, 0) /* Run                 Specialized */
-     , (40437, 31, 0, 3, 0, 275, 0, 0) /* CreatureEnchantment Specialized */
-     , (40437, 33, 0, 3, 0, 275, 0, 0) /* LifeMagic           Specialized */
-     , (40437, 34, 0, 3, 0, 275, 0, 0) /* WarMagic            Specialized */
-     , (40437, 45, 0, 3, 0, 117, 0, 0) /* LightWeapons        Specialized */;
+VALUES (40437,  6, 0, 3, 0, 270, 0, 0) /* MeleeDefense        Specialized */
+     , (40437,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
+     , (40437, 15, 0, 3, 0, 220, 0, 0) /* MagicDefense        Specialized */
+     , (40437, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
+     , (40437, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */
+     , (40437, 31, 0, 3, 0, 160, 0, 0) /* CreatureEnchantment Specialized */
+     , (40437, 33, 0, 3, 0, 160, 0, 0) /* LifeMagic           Specialized */
+     , (40437, 34, 0, 3, 0, 160, 0, 0) /* WarMagic            Specialized */
+     , (40437, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40437,  0, 16, 50,  0.5,  140,  140,  112,  140,  112,  280,  280,  280,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -104,14 +104,11 @@ VALUES (40437,  0, 16, 50,  0.5,  140,  140,  112,  140,  112,  280,  280,  280,
      , (40437, 21, 16,  0,    0,  110,  110,   88,  110,   88,  220,  220,  220,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40437,    85,   2.02)  /* Flame Bolt VI */
-     , (40437,   146,   2.02)  /* Flame Volley VI */
-     , (40437,  1160,      2)  /* Heal Self V */
-     , (40437,  1240,      2)  /* Drain Health Other IV */
-     , (40437,  1252,      2)  /* Drain Stamina Other IV */
-     , (40437,  1263,      2)  /* Drain Mana Other IV */;
+VALUES (40437,    85,   2.15)  /* Flame Bolt VI */
+     , (40437,   146,   2.18)  /* Flame Volley VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40437, 9,  6876,  0, 0, 0.33, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (40437, 9, 40100,  0, 0, 0.66, False) /* Create Crystalline Shard (40100) for ContainTreasure */
-     , (40437, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+VALUES (40437, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (40437, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (40437, 9, 40100,  0, 0, 0.2, False) /* Create Crystalline Shard (40100) for ContainTreasure */
+     , (40437, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
