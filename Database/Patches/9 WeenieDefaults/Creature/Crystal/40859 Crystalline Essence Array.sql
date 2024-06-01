@@ -45,8 +45,8 @@ VALUES (40859,   1,       5) /* HeartbeatInterval */
      , (40859,  39,       2) /* DefaultScale */
      , (40859,  41,      60) /* RegenerationInterval */
      , (40859,  43,      10) /* GeneratorRadius */
-     , (40859,  64,     0.3) /* ResistSlash */
-     , (40859,  65,     0.3) /* ResistPierce */
+     , (40859,  64,    0.75) /* ResistSlash */
+     , (40859,  65,    0.75) /* ResistPierce */
      , (40859,  66,    0.75) /* ResistBludgeon */
      , (40859,  67,     0.3) /* ResistFire */
      , (40859,  68,     0.3) /* ResistCold */
@@ -87,10 +87,10 @@ VALUES (40859,   1, 40000, 0, 0, 40050) /* MaxHealth */
      , (40859,   5, 30000, 0, 0, 30600) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40859,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
-     , (40859,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
-     , (40859, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
-     , (40859, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */
+VALUES (40859,  6, 0, 3, 0,  10, 0, 0) /* MeleeDefense        Specialized */
+     , (40859,  7, 0, 3, 0,  10, 0, 0) /* MissileDefense      Specialized */
+     , (40859, 15, 0, 3, 0, 175, 0, 0) /* MagicDefense        Specialized */
+     , (40859, 34, 0, 3, 0,  50, 0, 0) /* WarMagic            Specialized */
      , (40859, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

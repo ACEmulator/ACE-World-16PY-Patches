@@ -85,32 +85,28 @@ VALUES (40127,   1,   620, 0, 0, 720) /* MaxHealth */
      , (40127,   5,   120, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40127,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
-     , (40127,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
-     , (40127, 14, 0, 3, 0, 210, 0, 0) /* ArcaneLore          Specialized */
-     , (40127, 15, 0, 3, 0, 194, 0, 0) /* MagicDefense        Specialized */
-     , (40127, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (40127, 24, 0, 3, 0, 320, 0, 0) /* Run                 Specialized */
-     , (40127, 31, 0, 3, 0, 265, 0, 0) /* CreatureEnchantment Specialized */
-     , (40127, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
-     , (40127, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */
-     , (40127, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */;
+VALUES (40127,  6, 0, 3, 0, 270, 0, 0) /* MeleeDefense        Specialized */
+     , (40127,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
+     , (40127, 15, 0, 3, 0, 220, 0, 0) /* MagicDefense        Specialized */
+     , (40127, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
+     , (40127, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */
+     , (40127, 31, 0, 3, 0, 160, 0, 0) /* CreatureEnchantment Specialized */
+     , (40127, 33, 0, 3, 0, 160, 0, 0) /* LifeMagic           Specialized */
+     , (40127, 34, 0, 3, 0, 160, 0, 0) /* WarMagic            Specialized */
+     , (40127, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40127,  0,  4, 50,  0.5,  140,  112,  140,  112,  280,  112,  280,  280,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (40127, 16,  4,  0,    0,  140,  112,  140,  112,  280,  112,  280,  280,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (40127, 17,  4,  5, 0.75,  120,   96,  120,   96,  240,   96,  240,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40127, 21,  4,  0,    0,  110,   88,  110,   88,  220,   88,  220,  220,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+     , (40127, 16,  8,  0,    0,  140,  112,  140,  112,  280,  112,  280,  280,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (40127, 17,  8,  5, 0.75,  120,   96,  120,   96,  240,   96,  240,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (40127, 21,  8,  0,    0,  110,   88,  110,   88,  220,   88,  220,  220,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40127,    74,   2.02)  /* Frost Bolt VI */
-     , (40127,   138,   2.02)  /* Frost Volley VI */
-     , (40127,  1160,   2.01)  /* Heal Self V */
-     , (40127,  1240,      2)  /* Drain Health Other IV */
-     , (40127,  1252,      2)  /* Drain Stamina Other IV */
-     , (40127,  1263,      2)  /* Drain Mana Other IV */;
+VALUES (40127,    74,   2.15)  /* Frost Bolt VI */
+     , (40127,   138,   2.18)  /* Frost Volley VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40127, 9,  6876,  0, 0, 0.33, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (40127, 9, 40100,  0, 0, 0.66, False) /* Create Crystalline Shard (40100) for ContainTreasure */
-     , (40127, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+VALUES (40127, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (40127, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (40127, 9, 40100,  0, 0, 0.2, False) /* Create Crystalline Shard (40100) for ContainTreasure */
+     , (40127, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

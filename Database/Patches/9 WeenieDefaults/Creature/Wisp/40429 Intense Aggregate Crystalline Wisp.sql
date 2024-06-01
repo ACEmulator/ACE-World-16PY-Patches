@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40429;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40429, 'ace40429-intenseaggregatecrystallinewisp', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (40429, 'ace40429-intenseaggregatecrystallinewisp', 10, '2024-06-01 12:10:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40429,   1,         16) /* ItemType - Creature */
@@ -11,6 +11,7 @@ VALUES (40429,   1,         16) /* ItemType - Creature */
      , (40429,  16,          1) /* ItemUseable - No */
      , (40429,  25,        115) /* Level */
      , (40429,  40,          2) /* CombatMode - Melee */
+     , (40429,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (40429,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (40429, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40429, 146,     250000) /* XpOverride */;
@@ -85,30 +86,29 @@ VALUES (40429,   1,  2020, 0, 0, 2120) /* MaxHealth */
      , (40429,   5,  1200, 0, 0, 1550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40429,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
-     , (40429,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
-     , (40429, 14, 0, 3, 0, 217, 0, 0) /* ArcaneLore          Specialized */
-     , (40429, 15, 0, 3, 0, 350, 0, 0) /* MagicDefense        Specialized */
-     , (40429, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (40429, 24, 0, 3, 0, 320, 0, 0) /* Run                 Specialized */
-     , (40429, 31, 0, 3, 0, 275, 0, 0) /* CreatureEnchantment Specialized */
-     , (40429, 33, 0, 3, 0, 275, 0, 0) /* LifeMagic           Specialized */
-     , (40429, 34, 0, 3, 0, 275, 0, 0) /* WarMagic            Specialized */
-     , (40429, 45, 0, 3, 0, 117, 0, 0) /* LightWeapons        Specialized */;
+VALUES (40429,  6, 0, 3, 0, 270, 0, 0) /* MeleeDefense        Specialized */
+     , (40429,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
+     , (40429, 15, 0, 3, 0, 220, 0, 0) /* MagicDefense        Specialized */
+     , (40429, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
+     , (40429, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */
+     , (40429, 31, 0, 3, 0, 160, 0, 0) /* CreatureEnchantment Specialized */
+     , (40429, 33, 0, 3, 0, 160, 0, 0) /* LifeMagic           Specialized */
+     , (40429, 34, 0, 3, 0, 160, 0, 0) /* WarMagic            Specialized */
+     , (40429, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (40429,  0,  4, 50,  0.5,  140,  112,  140,  112,  280,  280,  280,  280,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (40429, 16,  4,  0,    0,  140,  112,  140,  112,  280,  280,  280,  280,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (40429, 17,  4,  5, 0.75,  120,   96,  120,   96,  240,  240,  240,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40429, 21,  4,  0,    0,  110,   88,  110,   88,  220,  220,  220,  220,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (40429,  0,  4, 50,  0.5,  140,   70,   70,   70,   70,   70,   70,   70,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (40429, 16,  4,  0,    0,  140,   70,   70,   70,   70,   70,   70,   70,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (40429, 17,  4,  5, 0.75,  120,   60,   60,   60,   60,   60,   60,   60,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (40429, 21,  4,  0,    0,  110,   55,   55,   55,   55,   55,   55,   55,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40429,   118,   2.17)  /* Flame Blast VI */
-     , (40429,  3882,   2.02)  /* Incendiary Ring */
-     , (40429,  1160,    2.1)  /* Heal Self V */
-     , (40429,  1240,      2)  /* Drain Health Other IV */
-     , (40429,  1252,      2)  /* Drain Stamina Other IV */
-     , (40429,  1263,      2)  /* Drain Mana Other IV */;
+VALUES (40429,  3881,   2.05)  /* Corrosive Ring */
+     , (40429,  3882,   2.05)  /* Incendiary Ring */
+     , (40429,  3884,   2.06)  /* Glacial Ring */
+     , (40429,  3885,   2.06)  /* Galvanic Ring */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40429, 9, 40432,  0, 0, 1, False) /* Create Large Aggregate Crystalline Shard (40432) for ContainTreasure */;
+VALUES (40429, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (40429, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (40429, 9, 40432,  0, 0, 1, False) /* Create Large Aggregate Crystalline Shard (40432) for ContainTreasure */;

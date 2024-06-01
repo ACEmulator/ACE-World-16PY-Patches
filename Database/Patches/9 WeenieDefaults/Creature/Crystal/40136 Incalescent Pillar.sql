@@ -6,18 +6,19 @@ VALUES (40136, 'ace40136-incalescentpillar', 10, '2021-11-01 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40136,   1,         16) /* ItemType - Creature */
      , (40136,   2,         47) /* CreatureType - Crystal */
+     , (40136,   3,         14) /* PaletteTemplate - Red */
      , (40136,   6,         -1) /* ItemsCapacity */
      , (40136,   7,         -1) /* ContainersCapacity */
      , (40136,  16,          1) /* ItemUseable - No */
      , (40136,  25,        100) /* Level */
-     , (40136,  67,         64) /* Tolerance - Retaliate */
+     , (40136,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (40136,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (40136, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (40136, 146,      88773) /* XpOverride */;
+     , (40136, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40136,   1, True ) /* Stuck */
-     , (40136,   6, True ) /* AiUsesMana */
+     , (40136,   6, False) /* AiUsesMana */
      , (40136,  11, False) /* IgnoreCollisions */
      , (40136,  12, True ) /* ReportCollisions */
      , (40136,  13, False) /* Ethereal */
@@ -29,9 +30,10 @@ VALUES (40136,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40136,   1,       5) /* HeartbeatInterval */
      , (40136,   2,       0) /* HeartbeatTimestamp */
-     , (40136,   3,     400) /* HealthRate */
+     , (40136,   3,      50) /* HealthRate */
      , (40136,   4,       5) /* StaminaRate */
      , (40136,   5,       1) /* ManaRate */
+     , (40136,  12,     0.5) /* Shade */
      , (40136,  13,       1) /* ArmorModVsSlash */
      , (40136,  14,       1) /* ArmorModVsPierce */
      , (40136,  15,       1) /* ArmorModVsBludgeon */
@@ -39,7 +41,7 @@ VALUES (40136,   1,       5) /* HeartbeatInterval */
      , (40136,  17,       1) /* ArmorModVsFire */
      , (40136,  18,       1) /* ArmorModVsAcid */
      , (40136,  19,       1) /* ArmorModVsElectric */
-     , (40136,  31,     0.3) /* VisualAwarenessRange */
+     , (40136,  31,      20) /* VisualAwarenessRange */
      , (40136,  34,       1) /* PowerupTime */
      , (40136,  36,       1) /* ChargeSpeed */
      , (40136,  39,     0.4) /* DefaultScale */
@@ -55,6 +57,7 @@ VALUES (40136,   1,       5) /* HeartbeatInterval */
      , (40136,  73,       1) /* ResistStaminaBoost */
      , (40136,  74,       1) /* ResistManaDrain */
      , (40136,  75,       1) /* ResistManaBoost */
+     , (40136,  80,       3) /* AiUseMagicDelay */
      , (40136, 104,      10) /* ObviousRadarRange */
      , (40136, 125,       1) /* ResistHealthDrain */;
 
@@ -66,6 +69,7 @@ VALUES (40136,   1, 0x020010A2) /* Setup */
      , (40136,   2, 0x0900015A) /* MotionTable */
      , (40136,   3, 0x20000059) /* SoundTable */
      , (40136,   6, 0x04001394) /* PaletteBase */
+     , (40136,   7, 0x100003DB) /* ClothingBase */
      , (40136,   8, 0x06003344) /* Icon */
      , (40136,  22, 0x3400009D) /* PhysicsEffectTable */;
 
@@ -84,7 +88,7 @@ VALUES (40136,   1,   400, 0, 0, 445) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (40136, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
-     , (40136, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */
+     , (40136, 34, 0, 3, 0, 400, 0, 0) /* WarMagic            Specialized */
      , (40136, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -99,4 +103,4 @@ VALUES (40136,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (40136,  8,  4,  1, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40136,    84,      3)  /* Flame Bolt V */;
+VALUES (40136,  2129,      3)  /* Sizzling Fury */;

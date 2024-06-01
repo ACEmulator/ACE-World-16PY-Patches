@@ -1594,16 +1594,12 @@ VALUES (0x78803308,  4219, 0x880302D1, 260, -190, -30, 1, 0, 0, 0, False, '2021-
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x7880330A, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x7880330B, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880330C, '2021-11-01 00:00:00') /* Intense Incalescent Pillar (40434) */
      , (0x78803308, 0x7880330D, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880330E, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880330F, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803310, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x78803311, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803312, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x78803313, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803314, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803315, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803316, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1611,13 +1607,8 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x78803318, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803319, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880331A, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x7880331B, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x7880331C, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880331D, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880331E, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x7880331F, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x78803320, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x78803321, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803322, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803323, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803324, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1655,7 +1646,6 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x78803344, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803345, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803346, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x78803347, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803348, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803349, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880334A, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1677,7 +1667,6 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x7880335A, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880335B, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880335C, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x7880335D, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880335E, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880335F, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803360, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1711,7 +1700,6 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x7880337C, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880337D, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x7880337E, '2021-11-01 00:00:00') /* Intense Incalescent Pillar (40434) */
-     , (0x78803308, 0x7880337F, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803380, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803381, '2021-11-01 00:00:00') /* Intense Incalescent Pillar (40434) */
      , (0x78803308, 0x78803382, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1753,8 +1741,6 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x788033A7, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033A8, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033A9, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033AA, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033AB, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033AC, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033AD, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033AE, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1766,36 +1752,24 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x788033B4, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033B5, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033B6, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033B7, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033B8, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033B9, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033BA, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033BB, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033BC, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033BD, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033BE, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033BF, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C0, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C1, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C2, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033C3, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C4, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C5, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033C6, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C7, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C8, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033C9, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033CA, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033CB, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033CC, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033CD, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033CE, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033CF, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033D0, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033D1, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033D2, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033D3, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033D4, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033D5, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033D6, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033D7, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1811,13 +1785,10 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x788033E1, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033E2, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033E3, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033E4, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033E5, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033E6, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033E7, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033E8, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033E9, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033EA, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033EB, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033EC, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033ED, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -1837,21 +1808,12 @@ VALUES (0x78803308, 0x78803309, '2021-11-01 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x788033FB, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033FC, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033FD, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x788033FE, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033FF, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x78803400, '2021-11-01 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803309, 40437, 0x880302D1, 260, -190, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x880302D1 [260.000000 -190.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880330A, 40437, 0x88030293, 240.67, -139.969, -30, -0.750145, 0, 0, -0.661273,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030293 [240.669998 -139.968994 -30.000000] -0.750145 0.000000 0.000000 -0.661273 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880330B, 40437, 0x880305FC, 230.616, -157.679, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880305FC [230.615997 -157.679001 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880330C, 40434, 0x880305FC, 232.267, -159.132, -24.0013, 0.850659, 0, 0, 0.525717,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Pillar */
@@ -1874,16 +1836,8 @@ VALUES (0x78803310, 40437, 0x8803068E, 260, -190, -24, 1, 0, 0, 0,  True, '2021-
 /* @teleloc 0x8803068E [260.000000 -190.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78803311, 40437, 0x880306DE, 285.25, -189.667, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880306DE [285.250000 -189.667007 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803312, 40437, 0x880305AF, 210, -150, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x880305AF [210.000000 -150.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78803313, 40437, 0x88030265, 230, -140, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030265 [230.000000 -140.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803314, 40437, 0x88030299, 240, -160, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -1914,32 +1868,12 @@ VALUES (0x7880331A, 40437, 0x880301C5, 180, -130, -30, 1, 0, 0, 0,  True, '2021-
 /* @teleloc 0x880301C5 [180.000000 -130.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880331B, 40437, 0x880305B9, 210.616, -167.679, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880305B9 [210.615997 -167.679001 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880331C, 40437, 0x880302CD, 260.139, -144.608, -30, 0.825635, 0, 0, -0.564204,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880302CD [260.139008 -144.608002 -30.000000] 0.825635 0.000000 0.000000 -0.564204 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880331D, 40437, 0x88030567, 191.081, -137.679, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030567 [191.080994 -137.679001 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880331E, 40437, 0x88030571, 190.662, -167.679, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030571 [190.662003 -167.679001 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880331F, 40437, 0x880302B4, 246.431, -146.098, -30, 0.505763, 0, 0, -0.862672,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880302B4 [246.431000 -146.098007 -30.000000] 0.505763 0.000000 0.000000 -0.862672 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78803320, 40437, 0x880302D0, 259.553, -172.807, -30, 0.997082, 0, 0, -0.076336,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880302D0 [259.553009 -172.807007 -30.000000] 0.997082 0.000000 0.000000 -0.076336 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78803321, 40437, 0x88030301, 279.12, -183.033, -30, 0.918293, 0, 0, 0.395901,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030301 [279.119995 -183.033005 -30.000000] 0.918293 0.000000 0.000000 0.395901 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803322, 40437, 0x88030311, 293.386, -150.723, -30, -0.360559, 0, 0, -0.932736,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2090,10 +2024,6 @@ VALUES (0x78803346, 40437, 0x88030458, 410, -140, -30, 1, 0, 0, 0,  True, '2021-
 /* @teleloc 0x88030458 [410.000000 -140.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78803347, 40437, 0x88030942, 445.25, -119.667, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030942 [445.250000 -119.667000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803348, 40437, 0x8803043A, 400, -90, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x8803043A [400.000000 -90.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
@@ -2176,10 +2106,6 @@ VALUES (0x7880335B, 40437, 0x880302F6, 280, -60, -30, 1, 0, 0, 0,  True, '2021-1
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880335C, 40437, 0x880302F2, 280, -50, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x880302F2 [280.000000 -50.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880335D, 40437, 0x8803031D, 300, -40, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803031D [300.000000 -40.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880335E, 40437, 0x880302C9, 260, -50, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2312,10 +2238,6 @@ VALUES (0x7880337D, 40437, 0x88030180, 130.483, -193.245, -30, 0.981816, 0, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880337E, 40434, 0x88030149, 80, -190, -30.0013, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Pillar */
 /* @teleloc 0x88030149 [80.000000 -190.000000 -30.001301] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880337F, 40437, 0x88030168, 108.694, -209.986, -30, 0.57357, 0, 0, -0.819157,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030168 [108.694000 -209.985992 -30.000000] 0.573570 0.000000 0.000000 -0.819157 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803380, 40437, 0x88030182, 129.777, -220.9, -30, 0.25866, 0, 0, -0.965968,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2482,14 +2404,6 @@ VALUES (0x788033A9, 40437, 0x880306C1, 284.135, -189.574, -24, 0.70512, 0, 0, -0
 /* @teleloc 0x880306C1 [284.135010 -189.574005 -24.000000] 0.705120 0.000000 0.000000 -0.709088 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033AA, 40437, 0x880307A1, 315.25, -169.667, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880307A1 [315.250000 -169.667007 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033AB, 40437, 0x8803070F, 300.808, -158.612, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803070F [300.808014 -158.612000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033AC, 40437, 0x88030375, 330, -150, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030375 [330.000000 -150.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
@@ -2534,32 +2448,12 @@ VALUES (0x788033B6, 40437, 0x8803034B, 310, -250, -30, 1, 0, 0, 0,  True, '2021-
 /* @teleloc 0x8803034B [310.000000 -250.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033B7, 40437, 0x880307C1, 334.016, -79.4962, -24, 0.538648, 0, 0, -0.842531,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880307C1 [334.015991 -79.496201 -24.000000] 0.538648 0.000000 0.000000 -0.842531 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033B8, 40437, 0x8803072F, 310.671, -55.1266, -24, 0.996121, 0, 0, 0.087992,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803072F [310.670990 -55.126598 -24.000000] 0.996121 0.000000 0.000000 0.087992 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033B9, 40437, 0x880306F6, 300.694, -66.4167, -24, 0.126709, 0, 0, -0.99194,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880306F6 [300.694000 -66.416702 -24.000000] 0.126709 0.000000 0.000000 -0.991940 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033BA, 40437, 0x8803031F, 296.675, -40.1337, -30, 0.809972, 0, 0, -0.586469,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x8803031F [296.674988 -40.133701 -30.000000] 0.809972 0.000000 0.000000 -0.586469 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033BB, 40437, 0x88030540, 184.102, -110.249, -24, 0.866723, 0, 0, -0.49879,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030540 [184.102005 -110.249001 -24.000000] 0.866723 0.000000 0.000000 -0.498790 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033BC, 40437, 0x88030168, 111.246, -212.071, -30, -0.859235, 0, 0, -0.511581,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030168 [111.246002 -212.070999 -30.000000] -0.859235 0.000000 0.000000 -0.511581 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033BD, 40437, 0x88030116, 14.868, -276.213, -27.4955, -0.995283, 0, 0, -0.097016,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030116 [14.868000 -276.213013 -27.495501] -0.995283 0.000000 0.000000 -0.097016 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033BE, 40437, 0x8803071D, 300, -230, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2582,20 +2476,12 @@ VALUES (0x788033C2, 40437, 0x880302D5, 260.621, -208.914, -30, -0.113285, 0, 0, 
 /* @teleloc 0x880302D5 [260.621002 -208.914001 -30.000000] -0.113285 0.000000 0.000000 -0.993563 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033C3, 40437, 0x88030757, 308.882, -169.248, -24, 0.917701, 0, 0, -0.397273,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030757 [308.881989 -169.248001 -24.000000] 0.917701 0.000000 0.000000 -0.397273 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033C4, 40437, 0x88030216, 209.878, -208.709, -30, 0.047186, 0, 0, -0.998886,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030216 [209.878006 -208.709000 -30.000000] 0.047186 0.000000 0.000000 -0.998886 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033C5, 40437, 0x880305BD, 209.08, -190.53, -24, 0.868194, 0, 0, -0.496225,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x880305BD [209.080002 -190.529999 -24.000000] 0.868194 0.000000 0.000000 -0.496225 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033C6, 40437, 0x88030570, 190.538, -166.376, -24, -0.043617, 0, 0, -0.999048,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030570 [190.537994 -166.376007 -24.000000] -0.043617 0.000000 0.000000 -0.999048 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033C7, 40437, 0x880305B8, 210.845, -166.623, -24, 0.146915, 0, 0, -0.989149,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2614,28 +2500,12 @@ VALUES (0x788033CA, 40437, 0x8803067F, 263.126, -98.9659, -24, 0.775698, 0, 0, -
 /* @teleloc 0x8803067F [263.126007 -98.965897 -24.000000] 0.775698 0.000000 0.000000 -0.631105 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033CB, 40437, 0x8803033A, 311.018, -94.7639, -30, 0.116891, 0, 0, -0.993145,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803033A [311.018005 -94.763901 -30.000000] 0.116891 0.000000 0.000000 -0.993145 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033CC, 40437, 0x8803033B, 311.861, -98.6644, -30, 0.141281, 0, 0, -0.989969,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803033B [311.860992 -98.664398 -30.000000] 0.141281 0.000000 0.000000 -0.989969 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033CD, 40437, 0x8803033B, 308.539, -100.353, -30, 0.65159, 0, 0, -0.758572,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803033B [308.539001 -100.352997 -30.000000] 0.651590 0.000000 0.000000 -0.758572 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033CE, 40437, 0x8803033E, 310.082, -96.7496, -30, -0.060108, 0, 0, -0.998192,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x8803033E [310.082001 -96.749603 -30.000000] -0.060108 0.000000 0.000000 -0.998192 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033CF, 40437, 0x8803036B, 330, -110, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x8803036B [330.000000 -110.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033D0, 40437, 0x88030338, 310, -90, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030338 [310.000000 -90.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033D1, 40437, 0x880308CF, 395.149, -140.498, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2648,10 +2518,6 @@ VALUES (0x788033D2, 40437, 0x88030855, 356.163, -90.9205, -24, -0.778572, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033D3, 40437, 0x880308EA, 405.194, -149.53, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x880308EA [405.194000 -149.529999 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033D4, 40437, 0x8803037C, 326.725, -170.313, -30, 0.8001, 0, 0, -0.599867,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803037C [326.725006 -170.313004 -30.000000] 0.800100 0.000000 0.000000 -0.599867 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033D5, 40437, 0x88030340, 310.342, -118.765, -30, -0.106333, 0, 0, -0.994331,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2714,16 +2580,8 @@ VALUES (0x788033E3, 40437, 0x88030294, 239.654, -144.545, -30, 0.984029, 0, 0, -
 /* @teleloc 0x88030294 [239.654007 -144.544998 -30.000000] 0.984029 0.000000 0.000000 -0.178010 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033E4, 40437, 0x8803026F, 231.454, -155.943, -30, 0.197493, 0, 0, -0.980304,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x8803026F [231.453995 -155.942993 -30.000000] 0.197493 0.000000 0.000000 -0.980304 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033E5, 40437, 0x88030269, 229.733, -154.917, -30, -0.051952, 0, 0, -0.99865,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030269 [229.733002 -154.917007 -30.000000] -0.051952 0.000000 0.000000 -0.998650 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033E6, 40437, 0x880301C5, 181.806, -127.862, -30, 0.999851, 0, 0, -0.017292,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880301C5 [181.806000 -127.862000 -30.000000] 0.999851 0.000000 0.000000 -0.017292 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033E7, 40437, 0x880301C7, 179.834, -126.922, -30, 0.50145, 0, 0, -0.865187,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2736,10 +2594,6 @@ VALUES (0x788033E8, 40437, 0x880302D0, 258.718, -170.585, -30, 0.172018, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033E9, 40437, 0x88030301, 276.416, -182.002, -30, 0.389437, 0, 0, -0.921053,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030301 [276.415985 -182.001999 -30.000000] 0.389437 0.000000 0.000000 -0.921053 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033EA, 40437, 0x88030300, 280.891, -171.829, -30, 0.717247, 0, 0, -0.696819,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x88030300 [280.890991 -171.828995 -30.000000] 0.717247 0.000000 0.000000 -0.696819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033EB, 40437, 0x880305FB, 230.78, -157.053, -24, -0.191174, 0, 0, -0.981556,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2816,10 +2670,6 @@ VALUES (0x788033FC, 40437, 0x880308EC, 410.068, -204.75, -24, 1, 0, 0, 0,  True,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033FD, 40437, 0x8803082E, 351.979, -68.181, -24, -0.987432, 0, 0, -0.158042,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x8803082E [351.979004 -68.181000 -24.000000] -0.987432 0.000000 0.000000 -0.158042 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x788033FE, 40437, 0x880303DE, 363.144, -240.144, -30, -0.569654, 0, 0, -0.821885,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
-/* @teleloc 0x880303DE [363.144012 -240.143997 -30.000000] -0.569654 0.000000 0.000000 -0.821885 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033FF, 40437, 0x88030935, 444.163, -120.334, -24, 0.759134, 0, 0, -0.650934,  True, '2021-11-01 00:00:00'); /* Intense Incalescent Crystalline Wisp */
