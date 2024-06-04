@@ -18,7 +18,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34576,  39,    0.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34576,   1, 'Decorative Stone Axe') /* Name */;
+VALUES (34576,   1, 'Decorative Stone Axe') /* Name */
+     , (34576,  16, 'A Stone Axe, taken from the Guruk on Bur and fitted with points to hook it to a wall. It is far too heavy to be weilded as a weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34576,   1, 0x02001673) /* Setup */

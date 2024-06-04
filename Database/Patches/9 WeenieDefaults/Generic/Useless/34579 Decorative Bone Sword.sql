@@ -18,7 +18,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34579,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34579,   1, 'Decorative Bone Sword') /* Name */;
+VALUES (34579,   1, 'Decorative Bone Sword') /* Name */
+     , (34579,  16, 'A Bone Sword, taken from the Guruk on Bur and fitted with points to hook it to a wall. It is far too heavy to be wielded as a weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34579,   1, 0x02001676) /* Setup */
