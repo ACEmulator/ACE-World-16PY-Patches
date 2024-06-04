@@ -42,8 +42,6 @@ VALUES (0x7009C043,  1154, 0x009C026D, 214.027, -86.7504, -18, 0.999242, 0, 0, -
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7009C043, 0x7009C044, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
-     , (0x7009C043, 0x7009C045, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
-     , (0x7009C043, 0x7009C046, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C047, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C048, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C049, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
@@ -77,11 +75,8 @@ VALUES (0x7009C043, 0x7009C044, '2021-11-01 00:00:00') /* Baby Thrungus (34868) 
      , (0x7009C043, 0x7009C065, '2021-11-01 00:00:00') /* Pallid Moarsman (27859) */
      , (0x7009C043, 0x7009C066, '2021-11-01 00:00:00') /* Pallid Moar (34869) */
      , (0x7009C043, 0x7009C067, '2021-11-01 00:00:00') /* Pallid Moar (34869) */
-     , (0x7009C043, 0x7009C068, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
-     , (0x7009C043, 0x7009C069, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C06A, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C06B, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
-     , (0x7009C043, 0x7009C06C, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C06D, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C06E, '2021-11-01 00:00:00') /* Baby Thrungus (34868) */
      , (0x7009C043, 0x7009C06F, '2021-11-01 00:00:00') /* Pallid Moar (34869) */
@@ -90,14 +85,6 @@ VALUES (0x7009C043, 0x7009C044, '2021-11-01 00:00:00') /* Baby Thrungus (34868) 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009C044, 34868, 0x009C026D, 214.027, -86.7504, -18, 0.999242, 0, 0, -0.038928,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
 /* @teleloc 0x009C026D [214.026993 -86.750397 -18.000000] 0.999242 0.000000 0.000000 -0.038928 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009C045, 34868, 0x009C0275, 226.637, -95.5518, -18, -0.058206, 0, 0, -0.998305,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
-/* @teleloc 0x009C0275 [226.636993 -95.551804 -18.000000] -0.058206 0.000000 0.000000 -0.998305 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009C046, 34868, 0x009C0159, 272.081, -74.4236, -24, -0.901371, 0, 0, -0.433048,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
-/* @teleloc 0x009C0159 [272.080994 -74.423599 -24.000000] -0.901371 0.000000 0.000000 -0.433048 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009C047, 34868, 0x009C0144, 275.582, -102.793, -30, 0.041373, 0, 0, 0.999144,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
@@ -232,24 +219,12 @@ VALUES (0x7009C067, 34869, 0x009C0240, 30.5502, -79.392, -17.982, 0.889789, 0, 0
 /* @teleloc 0x009C0240 [30.550200 -79.391998 -17.982000] 0.889789 0.000000 0.000000 -0.456372 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009C068, 34868, 0x009C0191, 325.812, -84.3765, -24, -0.940749, 0, 0, 0.339103,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
-/* @teleloc 0x009C0191 [325.812012 -84.376503 -24.000000] -0.940749 0.000000 0.000000 0.339103 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009C069, 34868, 0x009C0190, 333.954, -74.7402, -24, -0.840955, 0, 0, -0.541104,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
-/* @teleloc 0x009C0190 [333.954010 -74.740196 -24.000000] -0.840955 0.000000 0.000000 -0.541104 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009C06A, 34868, 0x009C0274, 226.546, -94.3666, -18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
 /* @teleloc 0x009C0274 [226.546005 -94.366600 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009C06B, 34868, 0x009C0184, 323.418, -61.0306, -24, -0.873738, 0, 0, -0.486396,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
 /* @teleloc 0x009C0184 [323.417999 -61.030602 -24.000000] -0.873738 0.000000 0.000000 -0.486396 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009C06C, 34868, 0x009C0193, 325.086, -85.0306, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
-/* @teleloc 0x009C0193 [325.085999 -85.030602 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009C06D, 34868, 0x009C0191, 333.732, -75.6611, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Baby Thrungus */
