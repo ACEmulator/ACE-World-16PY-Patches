@@ -327,3 +327,19 @@ VALUES (0x7A1A408C, 80022, 0xA1A40026, 107.398, 128.911, 50.005, 0.873799, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A408D, 87816, 0xA1A4001A, 91.6594, 34.8963, 69.555, 0.914465, 0, 0, 0.404665, False, '2021-12-14 05:15:31'); /* Joanne Event Gen */
 /* @teleloc 0xA1A4001A [91.659401 34.896301 69.555000] 0.914465 0.000000 0.000000 0.404665 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1A408E, 73174, 0xA1A40139, 80.9101, 28.87, 66.055, 1, 0, 0, 0, False, '2024-06-02 12:38:18'); /* Linkable Fall Festival Gen ( 5 Min.) */
+/* @teleloc 0xA1A40139 [80.910103 28.870001 66.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7A1A408E, 0x7A1A408F, '2024-06-02 12:39:55') /* Ungrim the Unpleasant Smelling (73172) */
+     , (0x7A1A408E, 0x7A1A4090, '2024-06-02 13:03:10') /* Hidden Jack o' Lantern (73175) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1A408F, 73172, 0xA1A40139, 84.5, 32.25, 66.005, 0.382683, 0, 0, 0.92388,  True, '2024-06-02 12:39:55'); /* Ungrim the Unpleasant Smelling */
+/* @teleloc 0xA1A40139 [84.500000 32.250000 66.004997] 0.382683 0.000000 0.000000 0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1A4090, 73175, 0xA1A40139, 85.747, 31.813, 66.943, 0.92388, 0, 0, -0.382684,  True, '2024-06-02 13:03:10'); /* Hidden Jack o' Lantern */
+/* @teleloc 0xA1A40139 [85.747002 31.813000 66.943001] 0.923880 0.000000 0.000000 -0.382684 */
