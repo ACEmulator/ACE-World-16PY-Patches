@@ -32,7 +32,7 @@ Give: Tusker Skull Helm (35938)
     - Delay: 1, Tell: How can Mudmouth call himself a Tusker and make helmets from the skulls of his own people? Is have my doubts if that evil paw licker is even a true Tusker. :Thank you for bringing this to me for destruction.
     - Delay: 1, Tell: In payment to your service to the Tusker King I am honored to give you this.
     - Delay: 1, DirectBroadcast: Jilna hits you over the head with a rock and smiles with pride. You feel a flood of awareness spread from the lump she made.
-    - AwardLevelProportionalXP: 20%, Max: 200,000,000
+    - AwardLevelProportionalXP: 20%, 0 - 200,000,000
 
 Give: Tusker Bone Sword (35949)
     - Motion: Ready
@@ -42,7 +42,7 @@ Give: Tusker Bone Sword (35949)
     - Delay: 1, Tell: Yes, better this be destroyed by me than allow it to trade hands.
     - Delay: 1, Tell: In payment to your service to the Tusker King I am honored to give you this.
     - Delay: 1, DirectBroadcast: Jilna hits you over the head with a rock and smiles with pride. You feel a flood of awareness spread from the lump she made.
-    - AwardLevelProportionalXP: 20%, Max: 200,000,000
+    - AwardLevelProportionalXP: 20%, 0 - 200,000,000
 
 Give: Tusker Paw Wand (35950)
     - Motion: Ready
@@ -52,4 +52,10 @@ Give: Tusker Paw Wand (35950)
     - Delay: 1, Tell: Well, I'll be glad to see the last of these.
     - Delay: 1, Tell: In payment to your service to the Tusker King I am honored to give you this.
     - Delay: 1, DirectBroadcast: Jilna hits you over the head with a rock and smiles with pride. You feel a flood of awareness spread from the lump she made.
-    - AwardLevelProportionalXP: 20%, Max: 200,000,000
+    - AwardLevelProportionalXP: 20%, 0 - 200,000,000
+
+Refuse: 73198
+    - Motion: Ready
+    - TurnToTarget
+    - Tell: It always amazes me how something so delicate and beautiful can also be so deadly.
+    - Tell: Take this to Kleeoh. She'll know what to do with it.
