@@ -29,7 +29,7 @@ Give: Tusker Skull Helm (35938)
     - Tell: I think I'm going to be sick.
     - Motion: Cringe
     - DirectBroadcast: Jilna looks momentarily green.
-    - Delay: 1, Tell: How can Mudmouth call himself a Tusker and make helmets from the skulls of his own people? Is have my doubts if that evil paw licker is even a true Tusker. :Thank you for bringing this to me for destruction.
+    - Delay: 1, Tell: How can Mudmouth call himself a Tusker and make helmets from the skulls of his own people? Is have my doubts if that evil paw licker is even a true Tusker. Thank you for bringing this to me for destruction.
     - Delay: 1, Tell: In payment to your service to the Tusker King I am honored to give you this.
     - Delay: 1, DirectBroadcast: Jilna hits you over the head with a rock and smiles with pride. You feel a flood of awareness spread from the lump she made.
     - AwardLevelProportionalXP: 20%, 0 - 200,000,000
