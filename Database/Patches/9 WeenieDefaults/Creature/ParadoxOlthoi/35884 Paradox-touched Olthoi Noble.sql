@@ -23,27 +23,27 @@ VALUES (35884,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35884,   1,       5) /* HeartbeatInterval */
      , (35884,   2,       0) /* HeartbeatTimestamp */
-     , (35884,   3,    0.65) /* HealthRate */
-     , (35884,   4,       4) /* StaminaRate */
-     , (35884,   5,       2) /* ManaRate */
-     , (35884,  13,    2.25) /* ArmorModVsSlash */
-     , (35884,  14,    1.75) /* ArmorModVsPierce */
-     , (35884,  15,    1.12) /* ArmorModVsBludgeon */
-     , (35884,  16,     3.5) /* ArmorModVsCold */
-     , (35884,  17,     3.5) /* ArmorModVsFire */
-     , (35884,  18,       4) /* ArmorModVsAcid */
-     , (35884,  19,     3.5) /* ArmorModVsElectric */
+     , (35884,   3,      15) /* HealthRate */
+     , (35884,   4,      12) /* StaminaRate */
+     , (35884,   5,       6) /* ManaRate */
+     , (35884,  13,    0.69) /* ArmorModVsSlash */
+     , (35884,  14,     0.8) /* ArmorModVsPierce */
+     , (35884,  15,     0.6) /* ArmorModVsBludgeon */
+     , (35884,  16,       1) /* ArmorModVsCold */
+     , (35884,  17,       1) /* ArmorModVsFire */
+     , (35884,  18,     1.1) /* ArmorModVsAcid */
+     , (35884,  19,       1) /* ArmorModVsElectric */
      , (35884,  31,      24) /* VisualAwarenessRange */
      , (35884,  34,       1) /* PowerupTime */
      , (35884,  36,       1) /* ChargeSpeed */
      , (35884,  39,     0.8) /* DefaultScale */
-     , (35884,  64,       1) /* ResistSlash */
-     , (35884,  65,    0.95) /* ResistPierce */
+     , (35884,  64,    0.75) /* ResistSlash */
+     , (35884,  65,       1) /* ResistPierce */
      , (35884,  66,       1) /* ResistBludgeon */
      , (35884,  67,    0.75) /* ResistFire */
-     , (35884,  68,     0.5) /* ResistCold */
-     , (35884,  69,     0.5) /* ResistAcid */
-     , (35884,  70,    0.75) /* ResistElectric */
+     , (35884,  68,    0.75) /* ResistCold */
+     , (35884,  69,    0.42) /* ResistAcid */
+     , (35884,  70,    0.25) /* ResistElectric */
      , (35884,  77,       1) /* PhysicsScriptIntensity */
      , (35884, 104,      10) /* ObviousRadarRange */
      , (35884, 125,       1) /* ResistHealthDrain */;
@@ -78,22 +78,19 @@ VALUES (35884,   1,  1390, 0, 0, 1570) /* MaxHealth */
      , (35884,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35884,  6, 0, 2, 0, 411, 0, 0) /* MeleeDefense        Trained */
-     , (35884,  7, 0, 2, 0, 390, 0, 0) /* MissileDefense      Trained */
-     , (35884, 15, 0, 2, 0, 398, 0, 0) /* MagicDefense        Trained */
-     , (35884, 41, 0, 2, 0, 347, 0, 0) /* TwoHandedCombat     Trained */
-     , (35884, 44, 0, 2, 0, 347, 0, 0) /* HeavyWeapons        Trained */
-     , (35884, 45, 0, 2, 0, 347, 0, 0) /* LightWeapons        Trained */
-     , (35884, 46, 0, 2, 0, 347, 0, 0) /* FinesseWeapons      Trained */;
+VALUES (35884,  6, 0, 2, 0, 410, 0, 0) /* MeleeDefense        Trained */
+     , (35884,  7, 0, 2, 0, 500, 0, 0) /* MissileDefense      Trained */
+     , (35884, 15, 0, 2, 0, 360, 0, 0) /* MagicDefense        Trained */
+     , (35884, 45, 0, 2, 0, 370, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35884,  0,  2, 125,  0.5,  325,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (35884, 10,  2, 125,  0.5,  325,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* FrontLeg */
-     , (35884, 13,  2, 125,  0.5,  325,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* RearLeg */
-     , (35884, 16,  2,  0,  0.5,  325,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 1, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
-     , (35884, 17,  2, 125,  0.5,  325,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Tail */
-     , (35884, 19,  2, 125,  0.5,  325,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Leg */
-     , (35884, 22, 32, 85,  0.5,  325,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Breath */;
+VALUES (35884,  0,  4, 125,  0.5,  350,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+     , (35884, 10,  4, 125,  0.5,  350,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* FrontLeg */
+     , (35884, 13,  4, 125,  0.5,  350,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* RearLeg */
+     , (35884, 16,  4,  0,  0.5,  350,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 1, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
+     , (35884, 17,  4, 125,  0.5,  350,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Tail */
+     , (35884, 19,  2, 125,  0.5,  350,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Leg */
+     , (35884, 22, 32, 85,  0.5,  350,  731,  569,  364, 1138, 1138, 1300, 1138,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35884, 9, 35876,  1, 0, 0.1, False) /* Create Coruscating Olthoi Scent Gland (35876) for ContainTreasure */
