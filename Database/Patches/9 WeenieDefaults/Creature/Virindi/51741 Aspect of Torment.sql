@@ -109,7 +109,7 @@ VALUES (51741,  0, 64,  0,    0,  500,  585,  650,  650,  650,  585,  585,  650,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51741,  2992,   2.08)  /* Depletion */
-     , (51741,  3941,   2.13)  /* Heavy Lightning Ring */
+     , (51741,  3997,   2.13)  /* Heavy Lightning Ring */
      , (51741,  3989,   2.15)  /* Dark Lightning */
      , (51741,  4292,  2.118)  /* Incantation of Bafflement Other */
      , (51741,  4312,  2.133)  /* Incantation of Imperil Other */
@@ -119,6 +119,6 @@ VALUES (51741,  2992,   2.08)  /* Depletion */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51741, 8, 51867,  1, 0, 0.05, False) /* Create Rynthid Energy Field (51867) for Treasure */
-     , (51741, 8, 51868,  1, 0, 0.05, False) /* Create Rynthid Energy Tentacles (51868) for Treasure */
      , (51741, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (51741, 8, 51868,  1, 0, 0.05, False) /* Create Rynthid Energy Tentacles (51868) for Treasure */
      , (51741, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

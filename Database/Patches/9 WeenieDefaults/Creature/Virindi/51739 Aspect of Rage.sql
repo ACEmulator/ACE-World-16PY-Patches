@@ -119,6 +119,6 @@ VALUES (51739,  2992,   2.05)  /* Depletion */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51739, 8, 51867,  1, 0, 0.05, False) /* Create Rynthid Energy Field (51867) for Treasure */
-     , (51739, 8, 51868,  1, 0, 0.05, False) /* Create Rynthid Energy Tentacles (51868) for Treasure */
      , (51739, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (51739, 8, 51868,  1, 0, 0.05, False) /* Create Rynthid Energy Tentacles (51868) for Treasure */     
      , (51739, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

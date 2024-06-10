@@ -107,7 +107,7 @@ VALUES (51759,  0, 64,  0,    0,  500,  585,  650,  650,  650,  585,  585,  650,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51759,  3940,   2.21)  /* Exsanguinating Wave */
-     , (51759,  3941,  2.266)  /* Heavy Lightning Ring */
+     , (51759,  3997,  2.266)  /* Heavy Lightning Ring */
      , (51759,  3989,  2.414)  /* Dark Lightning */
      , (51759,  4312,  2.206)  /* Incantation of Imperil Other */
      , (51759,  4483,  2.259)  /* Incantation of Lightning Vulnerability Other */;
