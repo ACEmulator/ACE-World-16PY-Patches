@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36645;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36645, 'ace36645-abyssalshadowlugian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36645, 'ace36645-abyssalshadowlugian', 10, '2024-06-10 05:13:11') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36645,   1,         16) /* ItemType - Creature */
@@ -71,13 +71,19 @@ VALUES (36645,   1, 'Abyssal Shadow Lugian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36645,   1, 0x02000A0B) /* Setup */
-     , (36645,   2, 0x090001DF) /* MotionTable */
+     , (36645,   2, 0x09000006) /* MotionTable */
      , (36645,   3, 0x2000000A) /* SoundTable */
      , (36645,   4, 0x30000003) /* CombatTable */
      , (36645,   6, 0x040010C6) /* PaletteBase */
      , (36645,   7, 0x1000059C) /* ClothingBase */
      , (36645,   8, 0x060036FE) /* Icon */
-     , (36645,  22, 0x3400001E) /* PhysicsEffectTable */;
+     , (36645,  22, 0x3400001E) /* PhysicsEffectTable */
+     , (36645,  32,        492) /* WieldedTreasureType - 
+                                   # Set: 1
+                                   | 100.00% chance of 10x Rock (31033)
+                                   # Set: 2
+                                   |  50.00% chance of Lugian Axe (24884)
+                                   |  50.00% chance of Lugian Mace (24886) */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36645,   1, 360, 0, 0) /* Strength */
@@ -93,29 +99,26 @@ VALUES (36645,   1,   592, 0, 0, 755) /* MaxHealth */
      , (36645,   5,   240, 0, 0, 600) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36645,  6, 0, 3, 0, 340, 0, 0) /* MeleeDefense        Specialized */
+VALUES (36645,  6, 0, 3, 0, 370, 0, 0) /* MeleeDefense        Specialized */
      , (36645,  7, 0, 3, 0, 355, 0, 0) /* MissileDefense      Specialized */
-     , (36645, 15, 0, 3, 0, 325, 0, 0) /* MagicDefense        Specialized */
+     , (36645, 15, 0, 3, 0, 220, 0, 0) /* MagicDefense        Specialized */
      , (36645, 20, 0, 2, 0,  80, 0, 0) /* Deception           Trained */
      , (36645, 22, 0, 2, 0,  80, 0, 0) /* Jump                Trained */
      , (36645, 24, 0, 2, 0,  45, 0, 0) /* Run                 Trained */
-     , (36645, 34, 0, 3, 0, 313, 0, 0) /* WarMagic            Specialized */
-     , (36645, 45, 0, 3, 0, 313, 0, 0) /* LightWeapons        Specialized */
+     , (36645, 34, 0, 3, 0,  80, 0, 0) /* WarMagic            Specialized */
+     , (36645, 45, 0, 3, 0, 333, 0, 0) /* LightWeapons        Specialized */
      , (36645, 47, 0, 3, 0, 240, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (36645,  0,  4,  2,  0.3,  450,  257,  257,  257,  162,   77,  387,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (36645,  1,  4, 40,  0.3,  450,  257,  257,  257,  162,   77,  387,  360,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (36645,  2,  4,  2,  0.3,  450,  257,  257,  257,  162,   77,  387,  360,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (36645,  3,  4,  2,  0.3,  450,  257,  257,  257,  162,   77,  387,  360,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (36645,  4,  4,  2,  0.3,  450,  257,  257,  257,  162,   77,  387,  360,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (36645,  5,  4, 100, 0.75,  450,  257,  257,  257,  162,   77,  387,  360,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (36645,  6,  4,  2,  0.3,  450,  257,  257,  257,  162,   77,  387,  360,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (36645,  7,  4, 25,  0.3,  450,  257,  257,  257,  162,   77,  387,  360,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (36645,  8,  4, 100, 0.75,  450,  257,  257,  257,  162,   77,  387,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (36645,  0,  4,  2,  0.3,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (36645,  1,  4, 40,  0.3,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (36645,  2,  4,  2,  0.3,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (36645,  3,  4,  2,  0.3,  450,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (36645,  4,  4,  2,  0.3,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (36645,  5,  4, 100, 0.75,  450,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (36645,  6,  4,  2,  0.3,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (36645,  7,  4, 25,  0.3,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (36645,  8,  4, 100, 0.75,  450,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36645,  3914,   2.37)  /* Dark Vortex */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36645, 2, 31033,  1, 0, 0, False) /* Create Rock (31033) for Wield */;
+VALUES (36645,  3914,   2.05)  /* Dark Vortex */;

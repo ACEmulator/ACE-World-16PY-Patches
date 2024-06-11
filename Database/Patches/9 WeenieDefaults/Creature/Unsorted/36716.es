@@ -1,8 +1,3 @@
-Generation:
-    - EraseMyQuest: GaveWhiteStone
-    - EraseMyQuest: GaveRedStone
-    - EraseMyQuest: GaveYellowStone
-
 Use:
     - InqQuestSolves: StoneBagComplete, 7
         QuestSuccess:
@@ -13,19 +8,19 @@ Use:
 Give: Red Stone (36672)
     - InqQuestSolves: StoneBagComplete, 7
         QuestSuccess:
-            - StampMyQuest: GaveRedStone
-                - InqMyQuestSolves: GaveRedStone, 3
+            - StampQuest: GaveSBucketRedStone
+                - InqQuestSolves: GaveSBucketRedStone, 3
                     QuestSuccess:
                         - DirectBroadcast: You drop the Red Stone in the Bucket. It pops out.
                         - Give: 36672
                         - Goto: CheckMessUps
                     QuestFailure:
-                        - InqMyQuestSolves: GaveRedStone, 2
+                        - InqQuestSolves: GaveSBucketRedStone, 2
                             QuestSuccess:
                                 - SetQuestBitsOn: BucketsBalancedComplete, 0x8
                                 - Goto: CheckRed
                             QuestFailure:
-                                - InqMyQuestSolves: GaveRedStone, 1
+                                - InqQuestSolves: GaveSBucketRedStone, 1
                                     QuestSuccess:
                                         - Goto: CheckRed
         QuestFailure:
@@ -45,19 +40,19 @@ Give: White Stone (36673)
 Give: Yellow Stone (36674)
     - InqQuestSolves: StoneBagComplete, 7
         QuestSuccess:
-            - StampMyQuest: GaveYellowStone
-                - InqMyQuestSolves: GaveYellowStone, 3
+            - StampQuest: GaveSBucketYellowStone
+                - InqQuestSolves: GaveSBucketYellowStone, 3
                     QuestSuccess:
                         - DirectBroadcast: You drop the Yellow Stone in the Bucket. It pops out.
                         - Give: 36674
                         - Goto: CheckMessUps
                     QuestFailure:
-                        - InqMyQuestSolves: GaveYellowStone, 2
+                        - InqQuestSolves: GaveSBucketYellowStone, 2
                             QuestSuccess:
                                 - SetQuestBitsOn: BucketsBalancedComplete, 0x10
                                 - Goto: CheckRed
                             QuestFailure:
-                                - InqMyQuestSolves: GaveYellowStone, 1
+                                - InqQuestSolves: GaveSBucketYellowStone, 1
                                     QuestSuccess:
                                         - Goto: CheckRed
         QuestFailure:
@@ -65,17 +60,17 @@ Give: Yellow Stone (36674)
             - DirectBroadcast: You must have solved the bags before balancing the scales.
                                 
 GotoSet: CheckRed
-    - InqMyQuestSolves: GaveRedStone, 3
+    - InqQuestSolves: GaveSBucketRedStone, 3
         QuestSuccess:
             - DirectBroadcast: There are 3 Red Stones in this Bucket.
             - Goto: CheckYellow
         QuestFailure:
-            - InqMyQuestSolves: GaveRedStone, 2
+            - InqQuestSolves: GaveSBucketRedStone, 2
                 QuestSuccess:
                     - DirectBroadcast: There are 2 Red Stones in this Bucket.
                     - Goto: CheckYellow
                 QuestFailure:
-                    - InqMyQuestSolves: GaveRedStone, 1
+                    - InqQuestSolves: GaveSBucketRedStone, 1
                         QuestSuccess:
                             - DirectBroadcast: There is 1 Red Stone in this Bucket.
                             - Goto: CheckYellow
@@ -84,17 +79,17 @@ GotoSet: CheckRed
                             - Goto: CheckYellow
 
 GotoSet: CheckYellow
-    - InqMyQuestSolves: GaveYellowStone, 3
+    - InqQuestSolves: GaveSBucketYellowStone, 3
         QuestSuccess:
             - DirectBroadcast: There are 3 Yellow Stones in this Bucket.
             - Goto: CheckWhite
         QuestFailure:
-            - InqMyQuestSolves: GaveYellowStone, 2
+            - InqQuestSolves: GaveSBucketYellowStone, 2
                 QuestSuccess:
                     - DirectBroadcast: There are 2 Yellow Stones in this Bucket.
                     - Goto: CheckWhite
                 QuestFailure:
-                    - InqMyQuestSolves: GaveYellowStone, 1
+                    - InqQuestSolves: GaveSBucketYellowStone, 1
                         QuestSuccess:
                             - DirectBroadcast: There is 1 Yellow Stone in this Bucket.
                             - Goto: CheckWhite
