@@ -18,7 +18,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34577,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34577,   1, 'Decorative Tree Trunk Club') /* Name */;
+VALUES (34577,   1, 'Decorative Tree Trunk Club') /* Name */
+     , (34577,  16, 'A Tree Trunk Club, taken from the Guruk on Bur and fitted with points to hook it to a wall. It is far too heavy to be wielded as a weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34577,   1, 0x02001674) /* Setup */
