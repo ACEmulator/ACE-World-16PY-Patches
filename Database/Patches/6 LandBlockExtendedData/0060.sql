@@ -5,7 +5,7 @@ VALUES (0x70060000, 87339, 0x006004BC, 111.353, -88.8736, -0.063, 0.950339, 0, 0
 /* @teleloc 0x006004BC [111.352997 -88.873596 -0.063000] 0.950339 0.000000 0.000000 -0.311216 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060001,  4219, 0x006004C0, 116.249, -80.4234, 0.055, 0.999967, 0, 0, 0.008165, False, '2021-11-08 06:01:47'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x70060001,  7924, 0x006004C0, 116.249, -80.4234, 0.055, 0.999967, 0, 0, 0.008165, False, '2021-11-08 06:01:47'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x006004C0 [116.249001 -80.423401 0.055000] 0.999967 0.000000 0.000000 0.008165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -242,11 +242,13 @@ VALUES (0x70060031, 87341, 0x0060010F, 134.303, -60.0262, -60.063, 0.710516, 0, 
 /* @teleloc 0x0060010F [134.302994 -60.026199 -60.063000] 0.710516 0.000000 0.000000 -0.703681 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060032,  7925, 0x0060040D, 107.529, -1.34097, -11.945, -0.764899, 0, 0, -0.64415, False, '2021-11-08 06:01:47'); /* Linkable Monster Generator ( 10 Min.) */
+VALUES (0x70060032,  7924, 0x0060040D, 107.529, -1.34097, -11.945, -0.764899, 0, 0, -0.64415, False, '2021-11-08 06:01:47'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x0060040D [107.528999 -1.340970 -11.945000] -0.764899 0.000000 0.000000 -0.644150 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70060032, 0x70060033, '2021-11-08 06:01:47') /* Harraag (87335) */;
+VALUES (0x70060032, 0x70060033, '2021-11-08 06:01:47') /* Harraag (87335) */
+     , (0x70060032, 0x7006003B, '2024-05-31 12:47:13') /* Schism (25882) */
+     , (0x70060032, 0x7006003C, '2024-05-31 12:48:58') /* Schism (25882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70060033, 87335, 0x006003F2, 100.877, -0.719873, -11.9918, -0.338863, 0, 0, 0.940836,  True, '2021-11-08 06:01:47'); /* Harraag */
@@ -269,13 +271,9 @@ VALUES (0x70060037, 87342, 0x00600421, 118.768, -1.49455, -12.063, 0.407022, 0, 
 /* @teleloc 0x00600421 [118.767998 -1.494550 -12.063000] 0.407022 0.000000 0.000000 0.913418 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060038, 87340, 0x0060040E, 110.222, -8.76431, -11.945, -0.299681, 0, 0, 0.95404, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
-/* @teleloc 0x0060040E [110.222000 -8.764310 -11.945000] -0.299681 0.000000 0.000000 0.954040 */
+VALUES (0x7006003B, 25882, 0x006003F2, 104.163, -0.768676, -11.9925, 0, 0, 0, 1,  True, '2024-05-31 12:47:13'); /* Schism */
+/* @teleloc 0x006003F2 [104.163002 -0.768676 -11.992500] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060039, 87340, 0x006003F3, 101.25, -11.1546, -11.945, -0.299681, 0, 0, 0.95404, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
-/* @teleloc 0x006003F3 [101.250000 -11.154600 -11.945000] -0.299681 0.000000 0.000000 0.954040 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7006003A, 87340, 0x00600423, 117.627, -18.2177, -11.945, 0.893579, 0, 0, 0.448907, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
-/* @teleloc 0x00600423 [117.626999 -18.217699 -11.945000] 0.893579 0.000000 0.000000 0.448907 */
+VALUES (0x7006003C, 25882, 0x006003F2, 101.005, -4.19144, -11.9925, 0.707107, 0, 0, -0.707107,  True, '2024-05-31 12:48:58'); /* Schism */
+/* @teleloc 0x006003F2 [101.004997 -4.191440 -11.992500] 0.707107 0.000000 0.000000 -0.707107 */
