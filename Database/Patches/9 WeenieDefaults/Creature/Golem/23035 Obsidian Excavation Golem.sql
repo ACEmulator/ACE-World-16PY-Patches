@@ -88,53 +88,42 @@ VALUES (23035,   1,   960, 0, 0, 1100) /* MaxHealth */
      , (23035,   5,   800, 0, 0, 980) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (23035,  6, 0, 3, 0, 215, 0, 0) /* MeleeDefense        Specialized */
-     , (23035,  7, 0, 3, 0, 320, 0, 0) /* MissileDefense      Specialized */
-     , (23035, 14, 0, 2, 0, 200, 0, 0) /* ArcaneLore          Trained */
-     , (23035, 15, 0, 3, 0, 157, 0, 0) /* MagicDefense        Specialized */
+VALUES (23035,  6, 0, 2, 0, 460, 0, 0) /* MeleeDefense        Trained */
+     , (23035,  7, 0, 2, 0, 281, 0, 0) /* MissileDefense      Trained */
+     , (23035, 15, 0, 2, 0, 219, 0, 0) /* MagicDefense        Trained */
      , (23035, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
-     , (23035, 22, 0, 2, 0,  10, 0, 0) /* Jump                Trained */
      , (23035, 24, 0, 2, 0,  10, 0, 0) /* Run                 Trained */
-     , (23035, 31, 0, 3, 0, 110, 0, 0) /* CreatureEnchantment Specialized */
-     , (23035, 33, 0, 3, 0, 110, 0, 0) /* LifeMagic           Specialized */
-     , (23035, 34, 0, 3, 0, 110, 0, 0) /* WarMagic            Specialized */
-     , (23035, 45, 0, 3, 0, 100, 0, 0) /* LightWeapons        Specialized */;
+     , (23035, 31, 0, 2, 0, 200, 0, 0) /* CreatureEnchantment Trained */
+     , (23035, 33, 0, 2, 0, 200, 0, 0) /* LifeMagic           Trained */
+     , (23035, 34, 0, 2, 0, 200, 0, 0) /* WarMagic            Trained */
+     , (23035, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (23035,  0,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (23035,  1,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (23035,  2,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (23035,  3,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (23035,  4,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (23035,  5,  4, 65, 0.75,  150,  212,  264,  180,   95,  263,  101,  263,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (23035,  6,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (23035,  7,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (23035,  8,  4, 65, 0.75,  150,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (23035,  0,  4,  0,    0,  360,  212,  264,  180,   95,  263,  101,  263,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (23035,  1,  4,  0,    0,  360,  212,  264,  180,   95,  263,  101,  263,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (23035,  2,  4,  0,    0,  360,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (23035,  3,  4,  0,    0,  360,  212,  264,  180,   95,  263,  101,  263,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (23035,  4,  4,  0,    0,  360,  212,  264,  180,   95,  263,  101,  263,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (23035,  5,  4, 130, 0.75,  360,  212,  264,  180,   95,  263,  101,  263,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (23035,  6,  4,  0,    0,  360,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (23035,  7,  4,  0,    0,  360,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (23035,  8,  4, 130, 0.75,  360,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23035,    67,  2.016)  /* Shock Wave IV */
-     , (23035,    68,  2.009)  /* Shock Wave V */
-     , (23035,    72,  2.016)  /* Frost Bolt IV */
-     , (23035,    73,  2.009)  /* Frost Bolt V */
-     , (23035,    78,  2.016)  /* Lightning Bolt IV */
-     , (23035,    79,  2.009)  /* Lightning Bolt V */
-     , (23035,    89,  2.016)  /* Force Bolt IV */
-     , (23035,    90,  2.009)  /* Force Bolt V */
-     , (23035,    95,  2.016)  /* Whirling Blade IV */
-     , (23035,    96,  2.009)  /* Whirling Blade V */
-     , (23035,   105,  2.009)  /* Shock Blast V */
-     , (23035,   141,  2.009)  /* Lightning Volley V */
-     , (23035,   169,   2.01)  /* Regeneration Self V */
-     , (23035,   233,  2.007)  /* Vulnerability Other V */
-     , (23035,  1240,   2.01)  /* Drain Health Other IV */
-     , (23035,  1252,   2.01)  /* Drain Stamina Other IV */
-     , (23035,  1263,   2.01)  /* Drain Mana Other IV */
-     , (23035,  1395,  2.007)  /* Clumsiness Other V */
-     , (23035,  1419,  2.007)  /* Slowness Other V */;
-
-INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (23035,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (23035, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (23035,  2144,  2.016)  /* Crushing Shame */
+     , (23035,  2136,  2.016)  /* Icy Torment */
+     , (23035,  2140,  2.016)  /* Alset's Coil */
+     , (23035,  2132,  2.016)  /* The Spike */
+     , (23035,  2146,  2.016)  /* Evisceration */
+     , (23035,  2143,  2.009)  /* Pummeling Storm */
+     , (23035,  2142,  2.009)  /* Tempest */
+     , (23035,   170,   2.01)  /* Regeneration Self VI */
+     , (23035,   234,  2.007)  /* Vulnerability Other VI */
+     , (23035,  1242,   2.01)  /* Drain Health Other VI */
+     , (23035,  1254,   2.01)  /* Drain Stamina Other VI */
+     , (23035,  1265,   2.01)  /* Drain Mana Other VI */
+     , (23035,  1396,  2.007)  /* Clumsiness Other VI */
+     , (23035,  1420,  2.007)  /* Slowness Other VI */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (23035,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
