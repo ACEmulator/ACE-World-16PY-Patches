@@ -297,5 +297,5 @@ VALUES (0x700D32EB, 35210, 0x00D30448, 51.3391, -221.363, -12.2098, 1, 0, 0, 0, 
 /* @teleloc 0x00D30448 [51.339100 -221.363007 -12.209800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D32EC, 87298, 0x00D3015B, 120, -124.7344, -30.20983, 1, 0, 0, 0, False, '2024-06-05 15:29:16'); /* Steamy Guruk Caverns */
-/* @teleloc 0x00D3015B [120.000000 -124.734398 -30.209829] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x700D32EC, 87298, 0x00D3015B, 120, -124.734, -30.2098, 1, 0, 0, 0, False, '2024-06-05 15:29:16'); /* Steamy Guruk Caverns */
+/* @teleloc 0x00D3015B [120.000000 -124.734001 -30.209801] 1.000000 0.000000 0.000000 0.000000 */

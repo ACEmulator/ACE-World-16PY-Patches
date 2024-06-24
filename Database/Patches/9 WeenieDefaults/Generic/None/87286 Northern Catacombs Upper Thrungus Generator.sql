@@ -30,6 +30,6 @@ VALUES (87286, 0.18, 28678, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /
      , (87286, 0.54, 29297, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Truffle Thrungus (29297) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (87286, 0.72, 28673, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Deathcap Thrungus (28673) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (87286, 0.91, 28675, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Portobello Thrungus (28675) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87286, 0.94, 34833, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Glow Mushroom (34833) (x1 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87286, 0.97, 34833, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Glow Mushroom (34833) (x1 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87286, 1, 34833, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Glow Mushroom (34833) (x1 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (87286, 0.94, 34833, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Glow Mushroom (34833) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87286, 0.97, 34833, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Glow Mushroom (34833) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87286, 1, 34833, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Glow Mushroom (34833) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
