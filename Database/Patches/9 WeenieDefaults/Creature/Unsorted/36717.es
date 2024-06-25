@@ -1,18 +1,15 @@
-Generation:
-    - EraseMyQuest: GaveWhiteStone
-
 Use:
     - DirectBroadcast: ... Checking bag for stones...
-        - InqMyQuestSolves: GaveWhiteStone, 2
+        - InqQuestSolves: GaveWhiteStone, 2
             QuestSuccess:
                 - DirectBroadcast: There are no Red Stones in this bag.
                 - DirectBroadcast: There are no Yellow Stones in this bag.
                 - DirectBroadcast: There are 3 White Stones in this bag.
             QuestFailure:
-                - InqMyQuestSolves: GaveWhiteStone, 1
+                - InqQuestSolves: GaveWhiteStone, 1
                     QuestSuccess:
                         - DirectBroadcast: There are no Red Stones in this bag.
-                        - DirectBroadcast: There are no Yellow Stone in this bag.
+                        - DirectBroadcast: There are no Yellow Stones in this bag.
                         - DirectBroadcast: There are 2 White Stones in this bag.
                     QuestFailure:
                         - DirectBroadcast: There are no Red Stones in this bag.
@@ -20,15 +17,15 @@ Use:
                         - DirectBroadcast: There is 1 White Stone in this bag.
                                     
 Give: White Stone (36673)
-    - StampMyQuest: GaveWhiteStone
-        - InqMyQuestSolves: GaveWhiteStone, 3
+    - StampQuest: GaveWhiteStone
+        - InqQuestSolves: GaveWhiteStone, 3
             QuestSuccess:
                 - StampQuest: GaveColoredStoneExcess
                 - DirectBroadcast: You drop the White Stone in the Bag. It pops out.
                 - Give: 36673
                 - Goto: CheckMessUps
             QuestFailure:
-                - InqMyQuestSolves: GaveWhiteStone, 2
+                - InqQuestSolves: GaveWhiteStone, 2
                     QuestSuccess:
                         - DirectBroadcast: There are no Red Stones in this bag.
                         - DirectBroadcast: There are no Yellow Stones in this bag.
@@ -36,7 +33,7 @@ Give: White Stone (36673)
                         - Give: 36674
                         - SetQuestBitsOn: StoneBagComplete, 0x1
                     QuestFailure:
-                        - InqMyQuestSolves: GaveWhiteStone, 1
+                        - InqQuestSolves: GaveWhiteStone, 1
                             QuestSuccess:
                                 - DirectBroadcast: There are no Red Stones in this bag.
                                 - DirectBroadcast: There are no Yellow Stones in this bag.

@@ -19,4 +19,4 @@ Use:
                             - DirectBroadcast: You place your hand on the chest, and it rumbles open, revealing the purple light of portalspace...
                             - TeleportTarget: 0x009F0235 [7.731152 -330.045227 0.005000] -0.707107 0.000000 0.000000 0.707107
                         QuestFailure:
-                            - DirectBroadcast: Nothing Happens.
+                            - DirectBroadcast: You place your hand on the chest, but nothing happens.

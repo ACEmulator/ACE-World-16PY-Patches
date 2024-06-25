@@ -763,9 +763,14 @@ Give: Spiny Grievver Leg (31357)
     - Tell: This leg is huge! I'm impressed that you could slay such a creature.
     - AwardNoShareXP: 1,050,000
 
+Give: Mosswart Armband (31349)
+    - TurnToTarget
+    - Tell: I haven't seen too many of these armbands before. Truly a rare find!
+    - AwardNoShareXP: 400,000
+
 Give: Mosswart Armband (31350)
     - TurnToTarget
-    - Tell: I haven't seen too many of these armbands before. Truly a rare find
+    - Tell: I haven't seen too many of these armbands before. Truly a rare find!
     - AwardNoShareXP: 600,000
 
 Give: Lugian Sentinel's Insignia (31348)

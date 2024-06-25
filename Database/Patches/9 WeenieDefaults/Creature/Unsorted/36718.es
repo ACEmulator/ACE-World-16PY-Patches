@@ -1,15 +1,12 @@
-Generation:
-    - EraseMyQuest: GaveYellowStone
-
 Use:
     - DirectBroadcast: ... Checking bag for stones...
-        - InqMyQuestSolves: GaveYellowStone, 2
+        - InqQuestSolves: GaveYellowStone, 2
             QuestSuccess:
                 - DirectBroadcast: There are no Red Stones in this bag.
                 - DirectBroadcast: There are 3 Yellow Stones in this bag.
                 - DirectBroadcast: There are no White Stones in this bag.
             QuestFailure:
-                - InqMyQuestSolves: GaveYellowStone, 1
+                - InqQuestSolves: GaveYellowStone, 1
                     QuestSuccess:
                         - DirectBroadcast: There are no Red Stones in this bag.
                         - DirectBroadcast: There are 2 Yellow Stones in this bag.
@@ -20,15 +17,15 @@ Use:
                         - DirectBroadcast: There is 1 White Stone in this bag.
             
 Give: Yellow Stone (36674)
-    - StampMyQuest: GaveYellowStone
-        - InqMyQuestSolves: GaveYellowStone, 3
+    - StampQuest: GaveYellowStone
+        - InqQuestSolves: GaveYellowStone, 3
             QuestSuccess:
                 - StampQuest: GaveColoredStoneExcess
                 - DirectBroadcast: You drop the Yellow Stone in the Bag. It pops out.
                 - Give: 36674
                 - Goto: CheckMessUps
             QuestFailure:
-                - InqMyQuestSolves: GaveYellowStone, 2
+                - InqQuestSolves: GaveYellowStone, 2
                     QuestSuccess:
                         - DirectBroadcast: There are no Red Stones in this bag.
                         - DirectBroadcast: There are 3 Yellow Stones in this bag.
@@ -37,7 +34,7 @@ Give: Yellow Stone (36674)
                         - Give: 36673
                         - SetQuestBitsOn: StoneBagComplete, 0x2
                     QuestFailure:
-                        - InqMyQuestSolves: GaveYellowStone, 1
+                        - InqQuestSolves: GaveYellowStone, 1
                             QuestSuccess:
                                 - DirectBroadcast: There are no Red Stones in this bag.
                                 - DirectBroadcast: There are 2 Yellow Stones in this bag.

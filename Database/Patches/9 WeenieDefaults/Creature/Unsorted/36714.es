@@ -1,34 +1,31 @@
-Generation:
-    - EraseMyQuest: GaveRedStone
-
 Use:
     - DirectBroadcast: ... Checking bag for stones...
-        - InqMyQuestSolves: GaveRedStone, 2
+        - InqQuestSolves: GaveRedStone, 2
             QuestSuccess:
                 - DirectBroadcast: There are 3 Red Stones in this bag.
                 - DirectBroadcast: There are no Yellow Stones in this bag.
                 - DirectBroadcast: There are no White Stones in this bag.
             QuestFailure:
-                - InqMyQuestSolves: GaveRedStone, 1
+                - InqQuestSolves: GaveRedStone, 1
                     QuestSuccess:
                         - DirectBroadcast: There are 2 Red Stones in this bag.
                         - DirectBroadcast: There is 1 Yellow Stone in this bag.
-                        - DirectBroadcast: There is 1 White Stones in this bag.
+                        - DirectBroadcast: There is 1 White Stone in this bag.
                     QuestFailure:
-                        - DirectBroadcast: There is 1 Red Stones in this bag.
-                        - DirectBroadcast: There are 2 Yellow Stone in this bag.
-                        - DirectBroadcast: There are 2 White Stone in this bag.
+                        - DirectBroadcast: There is 1 Red Stone in this bag.
+                        - DirectBroadcast: There are 2 Yellow Stones in this bag.
+                        - DirectBroadcast: There are 2 White Stones in this bag.
             
 Give: Red Stone (36672)
-    - StampMyQuest: GaveRedStone
-        - InqMyQuestSolves: GaveRedStone, 3
+    - StampQuest: GaveRedStone
+        - InqQuestSolves: GaveRedStone, 3
             QuestSuccess:
                 - StampQuest: GaveColoredStoneExcess
                 - DirectBroadcast: You drop the Red Stone in the Bag. It pops out.
                 - Give: 36672
                 - Goto: CheckMessUps
             QuestFailure:
-                - InqMyQuestSolves: GaveRedStone, 2
+                - InqQuestSolves: GaveRedStone, 2
                     QuestSuccess:
                         - DirectBroadcast: There are 3 Red Stones in this bag.
                         - DirectBroadcast: There are no Yellow Stones in this bag.
@@ -37,17 +34,17 @@ Give: Red Stone (36672)
                         - Give: 36674
                         - SetQuestBitsOn: StoneBagComplete, 0x4
                     QuestFailure:
-                        - InqMyQuestSolves: GaveRedStone, 1
+                        - InqQuestSolves: GaveRedStone, 1
                             QuestSuccess:
                                 - DirectBroadcast: There are 2 Red Stones in this bag.
-                                - DirectBroadcast: There is 1 Yellow Stones in this bag.
-                                - DirectBroadcast: There is 1 White Stones in this bag.
+                                - DirectBroadcast: There is 1 Yellow Stone in this bag.
+                                - DirectBroadcast: There is 1 White Stone in this bag.
                                 - Give: 36673
                                 - Give: 36674
                             QuestFailure:
-                                - DirectBroadcast: There is 1 Red Stones in this bag.
-                                - DirectBroadcast: There are 2 Yellow Stone in this bag.
-                                - DirectBroadcast: There are 2 White Stone in this bag.
+                                - DirectBroadcast: There is 1 Red Stone in this bag.
+                                - DirectBroadcast: There are 2 Yellow Stones in this bag.
+                                - DirectBroadcast: There are 2 White Stones in this bag.
 
 GotoSet: CheckMessUps
     - InqQuestSolves: GaveColoredStoneExcess, 3

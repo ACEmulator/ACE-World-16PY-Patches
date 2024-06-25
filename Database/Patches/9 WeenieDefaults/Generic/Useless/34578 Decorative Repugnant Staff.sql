@@ -18,7 +18,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34578,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34578,   1, 'Decorative Repugnant Staff') /* Name */;
+VALUES (34578,   1, 'Decorative Repugnant Staff') /* Name */
+     , (34578,  16, 'A Staff, carved to the likeness of those carried by the Buruun Kukuur on Bur and fitted with points to hook it to a wall. It is far too heavy to be wielded as a weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34578,   1, 0x02001675) /* Setup */

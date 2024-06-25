@@ -1,0 +1,2 @@
+NewEnemy:
+    - Generate
