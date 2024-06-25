@@ -58,39 +58,39 @@ VALUES (0x70060003, 25852, 0x006003FA, 103.609, -79.7628, -12, 0.993408, 0, 0, 0
 /* @teleloc 0x006003FA [103.609001 -79.762802 -12.000000] 0.993408 0.000000 0.000000 0.114632 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060004, 87340, 0x00600431, 128.987, -107.305, -11.945, -0.844259, 0, 0, -0.535936, False, '2021-11-08 06:01:47');
+VALUES (0x70060004, 87340, 0x00600431, 128.987, -107.305, -11.945, -0.844259, 0, 0, -0.535936, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x00600431 [128.987000 -107.305000 -11.945000] -0.844259 0.000000 0.000000 -0.535936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060005, 87340, 0x00600456, 145.932, -125.017, -11.945, -0.986317, 0, 0, -0.164859, False, '2021-11-08 06:01:47');
+VALUES (0x70060005, 87340, 0x00600456, 145.932, -125.017, -11.945, -0.986317, 0, 0, -0.164859, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x00600456 [145.932007 -125.016998 -11.945000] -0.986317 0.000000 0.000000 -0.164859 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060006, 87340, 0x0060046A, 167.45, -116.919, -11.945, -0.915836, 0, 0, -0.401553, False, '2021-11-08 06:01:47');
+VALUES (0x70060006, 87340, 0x0060046A, 167.45, -116.919, -11.945, -0.915836, 0, 0, -0.401553, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x0060046A [167.449997 -116.918999 -11.945000] -0.915836 0.000000 0.000000 -0.401553 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060007, 87340, 0x0060046B, 176.334, -93.7518, -11.945, -0.420978, 0, 0, -0.907071, False, '2021-11-08 06:01:47');
+VALUES (0x70060007, 87340, 0x0060046B, 176.334, -93.7518, -11.945, -0.420978, 0, 0, -0.907071, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x0060046B [176.334000 -93.751801 -11.945000] -0.420978 0.000000 0.000000 -0.907071 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060008, 87340, 0x00600448, 154.316, -73.2114, -11.945, -0.100224, 0, 0, -0.994965, False, '2021-11-08 06:01:47');
+VALUES (0x70060008, 87340, 0x00600448, 154.316, -73.2114, -11.945, -0.100224, 0, 0, -0.994965, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x00600448 [154.315994 -73.211403 -11.945000] -0.100224 0.000000 0.000000 -0.994965 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70060009, 87340, 0x0060034F, 143.037, -44.3148, -17.945, -0.440032, 0, 0, 0.897982, False, '2021-11-08 06:01:47');
+VALUES (0x70060009, 87340, 0x0060034F, 143.037, -44.3148, -17.945, -0.440032, 0, 0, 0.897982, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x0060034F [143.037003 -44.314800 -17.945000] -0.440032 0.000000 0.000000 0.897982 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7006000A, 87340, 0x00600401, 98.7189, -111.847, -11.945, 0.966982, 0, 0, -0.254844, False, '2021-11-08 06:01:47');
+VALUES (0x7006000A, 87340, 0x00600401, 98.7189, -111.847, -11.945, 0.966982, 0, 0, -0.254844, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x00600401 [98.718903 -111.847000 -11.945000] 0.966982 0.000000 0.000000 -0.254844 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7006000B, 87340, 0x006003D0, 70.869, -121.571, -11.945, 0.563161, 0, 0, -0.826347, False, '2021-11-08 06:01:47');
+VALUES (0x7006000B, 87340, 0x006003D0, 70.869, -121.571, -11.945, 0.563161, 0, 0, -0.826347, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x006003D0 [70.869003 -121.570999 -11.945000] 0.563161 0.000000 0.000000 -0.826347 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7006000C, 87340, 0x006003C8, 56.3763, -94.8577, -11.945, -0.380872, 0, 0, -0.924628, False, '2021-11-08 06:01:47');
+VALUES (0x7006000C, 87340, 0x006003C8, 56.3763, -94.8577, -11.945, -0.380872, 0, 0, -0.924628, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x006003C8 [56.376301 -94.857697 -11.945000] -0.380872 0.000000 0.000000 -0.924628 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -98,7 +98,7 @@ VALUES (0x7006000D, 25852, 0x0060042D, 119.839, -137.48, -12, 0.997395, 0, 0, 0.
 /* @teleloc 0x0060042D [119.838997 -137.479996 -12.000000] 0.997395 0.000000 0.000000 0.072140 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7006000E, 87340, 0x0060040A, 97.1922, -159.046, -11.945, 0.952131, 0, 0, 0.305689, False, '2021-11-08 06:01:47');
+VALUES (0x7006000E, 87340, 0x0060040A, 97.1922, -159.046, -11.945, 0.952131, 0, 0, 0.305689, False, '2021-11-08 06:01:47'); /* Harraag's Hideout Banderling Gen */
 /* @teleloc 0x0060040A [97.192200 -159.046005 -11.945000] 0.952131 0.000000 0.000000 0.305689 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
