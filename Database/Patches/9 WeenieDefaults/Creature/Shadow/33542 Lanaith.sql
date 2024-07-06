@@ -14,7 +14,6 @@ VALUES (33542,   1,         16) /* ItemType - Creature */
      , (33542,  25,        150) /* Level */
      , (33542,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33542,  95,          8) /* RadarBlipColor - Yellow */
-     , (33542, 113,          2) /* Gender - Female */
      , (33542, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (33542, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
@@ -136,6 +135,6 @@ VALUES (33542, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wie
      , (33542, 2, 21153,  0, 93, 1, False) /* Create Covenant Gauntlets (21153) for Wield */
      , (33542, 2, 21154,  0, 93, 1, False) /* Create Covenant Girth (21154) for Wield */
      , (33542, 2, 21155,  0, 93, 1, False) /* Create Covenant Greaves (21155) for Wield */
-     , (33542, 2, 33104,  0, 93, 1, False) /* Create Helm of Isin Dule (33104) for Wield */
+     , (33542, 2, 87038,  0, 93, 1, False) /* Create Helm of Isin Dule (87038) for Wield */
      , (33542, 2, 21157,  0, 93, 1, False) /* Create Covenant Pauldrons (21157) for Wield */
      , (33542, 2, 21159,  0, 93, 1, False) /* Create Covenant Tassets (21159) for Wield */;
