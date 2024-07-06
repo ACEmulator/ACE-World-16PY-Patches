@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87605;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87605, 'ace87605-shadowaspectofgrael', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (87605, 'ace87605-shadowaspectofgrael', 10, '2024-07-06 01:28:24') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87605,   1,         16) /* ItemType - Creature */
@@ -89,8 +89,8 @@ VALUES (87605,   1, 455, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (87605,   1, 49795, 0, 0, 50000) /* MaxHealth */
-     , (87605,   3,  4590, 0, 0, 5000) /* MaxStamina */
-     , (87605,   5,  4720, 0, 0, 5000) /* MaxMana */;
+     , (87605,   3,  9590, 0, 0, 10000) /* MaxStamina */
+     , (87605,   5,  9720, 0, 0, 10000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (87605,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
@@ -104,25 +104,25 @@ VALUES (87605,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
      , (87605, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (87605,  0,  4,  0,    0,  400,  320,  400,  400,  400,  276,  400,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (87605,  1,  4,  0,    0,  400,  320,  400,  400,  400,  276,  400,  400,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (87605,  2,  4,  0,    0,  400,  320,  400,  400,  400,  276,  400,  400,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (87605,  3,  4,  0,    0,  400,  320,  400,  400,  400,  276,  400,  400,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (87605,  4,  4,  0,    0,  400,  320,  400,  400,  400,  276,  400,  400,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (87605,  5,  4, 65,  0.5,  400,  320,  400,  400,  400,  276,  400,  400,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (87605,  6,  4,  0,    0,  400,  320,  400,  400,  400,  276,  400,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (87605,  7,  4,  0,    0,  400,  320,  400,  400,  400,  276,  400,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (87605,  8,  4, 50,  0.4,  400,  320,  400,  400,  400,  276,  400,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (87605,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (87605,  1,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (87605,  2,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (87605,  3,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (87605,  4,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (87605,  5,  4, 65,  0.5,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (87605,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (87605,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (87605,  8,  4, 50,  0.4,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (87605,  3807,   2.03)  /* Force Ring */
-     , (87605,  3931,   2.01)  /* Dark Vortex */
-     , (87605,  3988,   2.01)  /* Black Spear Strike */
-     , (87605,  3995,   2.03)  /* Heavy Force Ring */
-     , (87605,  3996,   2.03)  /* Heavy Frost Ring */
-     , (87605,  3999,   2.03)  /* Exsanguinating Wave */
-     , (87605,  4006,   2.03)  /* Blade Wave */
-     , (87605,  4011,   2.03)  /* Shock Waves */;
+VALUES (87605,  3931,   2.04)  /* Dark Vortex */
+     , (87605,  3988,   2.04)  /* Black Spear Strike */
+     , (87605,  2132,   2.04)  /* The Spike */
+     , (87605,  2174,   2.02)  /* Archer's Gift */
+     , (87605,  2074,   2.02)  /* Gossamer Flesh */
+     , (87605,  3989,   2.05)  /* Dark Lightning */
+     , (87605,  2140,   2.05)  /* Alset's Coil */
+     , (87605,  2172,   2.03)  /* Astyrrian's Gift */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (87605,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -204,7 +204,7 @@ VALUES (87605, 2, 87570,  0, 0, 1, False) /* Create Black Spear (87570) for Wiel
      , (87605, 9, 87603,  0, 0, 1, False) /* Create Shard of the Black Spear (87603) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87605, -1, 33844, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87605, -1, 33844, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87605, -1, 33844, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87605, -1, 33844, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87605, -1, 33844, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87605, -1, 33844, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87605, -1, 33844, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87605, -1, 33844, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Flame (33844) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -18,11 +18,10 @@ VALUES (87598,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87598,   1, 'Grael''s Chamber') /* Name */
-     , (87598,  16, 'This portal is warded against those who have not earned the right to access the chamber of the Ruschk Aspect of Grael.') /* LongDesc */
      , (87598,  33, 'GraelsChamberShadow_Flag') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87598,   1, 0x020001B3) /* Setup */
+VALUES (87598,   1, 0x020005D5) /* Setup */
      , (87598,   2, 0x09000003) /* MotionTable */
      , (87598,   8, 0x0600106B) /* Icon */;
 
