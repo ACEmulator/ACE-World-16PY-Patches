@@ -49,7 +49,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70712,   1, 'Iron Blade Warmaster') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (70712,   1, 0x02001909) /* Setup */
+VALUES (70712,   1, 0x02001919) /* Setup */
      , (70712,   2, 0x090001A8) /* MotionTable */
      , (70712,   3, 0x200000D3) /* SoundTable */
      , (70712,   4, 0x30000000) /* CombatTable */

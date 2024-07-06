@@ -13,7 +13,7 @@ VALUES (32833,   1,         16) /* ItemType - Creature */
      , (32833,  27,          0) /* ArmorType - None */
      , (32833,  40,          2) /* CombatMode - Melee */
      , (32833,  68,          9) /* TargetingTactic - Random, TopDamager */
-     , (32833,  72,         83) /* FriendType - ViamontianKnight */
+     , (32833,  72,         79) /* FriendType - Eater */
      , (32833,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32833, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (32833, 113,          1) /* Gender - Male */

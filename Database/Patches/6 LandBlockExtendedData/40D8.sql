@@ -49,10 +49,7 @@ VALUES (0x740D8006, 0x740D800B, '2021-11-01 00:00:00') /* Bane Grievver (7983) *
      , (0x740D8006, 0x740D802E, '2021-11-01 00:00:00') /* Ripper Grievver (30756) */
      , (0x740D8006, 0x740D802F, '2021-11-01 00:00:00') /* Ripper Grievver (30756) */
      , (0x740D8006, 0x740D8030, '2021-11-01 00:00:00') /* Ripper Grievver (30756) */
-     , (0x740D8006, 0x740D8031, '2021-11-01 00:00:00') /* Flare (5710) */
      , (0x740D8006, 0x740D8032, '2021-11-01 00:00:00') /* Inferno (5712) */
-     , (0x740D8006, 0x740D8033, '2021-11-01 00:00:00') /* Flamma (5711) */
-     , (0x740D8006, 0x740D8034, '2021-11-01 00:00:00') /* Flare (5710) */
      , (0x740D8006, 0x740D8035, '2021-11-01 00:00:00') /* Ripper Grievver (30756) */
      , (0x740D8006, 0x740D8036, '2021-11-01 00:00:00') /* Ripper Grievver (30756) */
      , (0x740D8006, 0x740D8037, '2021-11-01 00:00:00') /* Escaped Thief (32833) */
@@ -62,11 +59,7 @@ VALUES (0x740D8006, 0x740D800B, '2021-11-01 00:00:00') /* Bane Grievver (7983) *
      , (0x740D8006, 0x740D803B, '2021-11-01 00:00:00') /* Abhorrent Eater (28641) */
      , (0x740D8006, 0x740D8041, '2021-11-01 00:00:00') /* Bane Grievver (7983) */
      , (0x740D8006, 0x740D8042, '2021-11-01 00:00:00') /* Bane Grievver (7983) */
-     , (0x740D8006, 0x740D8043, '2021-11-01 00:00:00') /* Flamma (5711) */
-     , (0x740D8006, 0x740D8044, '2021-11-01 00:00:00') /* Flare (5710) */
      , (0x740D8006, 0x740D8045, '2021-11-01 00:00:00') /* Inferno (5712) */
-     , (0x740D8006, 0x740D8046, '2021-11-01 00:00:00') /* Flamma (5711) */
-     , (0x740D8006, 0x740D8047, '2021-11-01 00:00:00') /* Flare (5710) */
      , (0x740D8006, 0x740D8048, '2021-11-01 00:00:00') /* Ripper Grievver (30756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -182,20 +175,8 @@ VALUES (0x740D8030, 30756, 0x40D8012C, 92, 43, -43.6022, 1, 0, 0, 0,  True, '202
 /* @teleloc 0x40D8012C [92.000000 43.000000 -43.602200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8031,  5710, 0x40D80104, 68.1331, 87.52, -61.595, -0.398228, 0, 0, -0.917287,  True, '2021-11-01 00:00:00'); /* Flare */
-/* @teleloc 0x40D80104 [68.133102 87.519997 -61.595001] -0.398228 0.000000 0.000000 -0.917287 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D8032,  5712, 0x40D80105, 73.0032, 73.5359, -61.5915, 0.915959, 0, 0, -0.401273,  True, '2021-11-01 00:00:00'); /* Inferno */
 /* @teleloc 0x40D80105 [73.003197 73.535896 -61.591499] 0.915959 0.000000 0.000000 -0.401273 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8033,  5711, 0x40D80105, 70.0751, 68.624, -61.5935, 0.915959, 0, 0, -0.401273,  True, '2021-11-01 00:00:00'); /* Flamma */
-/* @teleloc 0x40D80105 [70.075104 68.624001 -61.593498] 0.915959 0.000000 0.000000 -0.401273 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8034,  5710, 0x40D80105, 67.48, 69.6209, -61.595, 0.915959, 0, 0, -0.401273,  True, '2021-11-01 00:00:00'); /* Flare */
-/* @teleloc 0x40D80105 [67.480003 69.620903 -61.595001] 0.915959 0.000000 0.000000 -0.401273 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D8035, 30756, 0x40D8011F, 82, 13, -43.6022, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Ripper Grievver */
@@ -234,24 +215,8 @@ VALUES (0x740D8042,  7983, 0x40D801E8, 62, 33, -19.6022, 0.731689, 0, 0, -0.6816
 /* @teleloc 0x40D801E8 [62.000000 33.000000 -19.602200] 0.731689 0.000000 0.000000 -0.681639 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8043,  5711, 0x40D80104, 68.9884, 85.7153, -61.5935, -0.398228, 0, 0, -0.917287,  True, '2021-11-01 00:00:00'); /* Flamma */
-/* @teleloc 0x40D80104 [68.988403 85.715302 -61.593498] -0.398228 0.000000 0.000000 -0.917287 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8044,  5710, 0x40D80107, 81.4853, 69.0319, -61.595, 0.915959, 0, 0, -0.401273,  True, '2021-11-01 00:00:00'); /* Flare */
-/* @teleloc 0x40D80107 [81.485298 69.031898 -61.595001] 0.915959 0.000000 0.000000 -0.401273 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D8045,  5712, 0x40D80106, 81.3355, 82.0503, -61.5915, -0.398228, 0, 0, -0.917287,  True, '2021-11-01 00:00:00'); /* Inferno */
 /* @teleloc 0x40D80106 [81.335503 82.050301 -61.591499] -0.398228 0.000000 0.000000 -0.917287 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8046,  5711, 0x40D80106, 79.3558, 80.7141, -61.5935, 0.915959, 0, 0, -0.401273,  True, '2021-11-01 00:00:00'); /* Flamma */
-/* @teleloc 0x40D80106 [79.355797 80.714104 -61.593498] 0.915959 0.000000 0.000000 -0.401273 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8047,  5710, 0x40D80106, 80.2736, 83.8487, -61.595, -0.398228, 0, 0, -0.917287,  True, '2021-11-01 00:00:00'); /* Flare */
-/* @teleloc 0x40D80106 [80.273598 83.848701 -61.595001] -0.398228 0.000000 0.000000 -0.917287 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D8048, 30756, 0x40D801A7, 81.4006, 38.619, -25.6022, 0.231985, 0, 0, -0.972719,  True, '2021-11-01 00:00:00'); /* Ripper Grievver */

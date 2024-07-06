@@ -7,7 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32515,   1,       8192) /* ItemType - Writable */
      , (32515,   5,          5) /* EncumbranceVal */
      , (32515,  16,          8) /* ItemUseable - Contained */
-     , (32515,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (32515,  19,          0) /* Value */
+     , (32515,  33,          1) /* Bonded - Bonded */
+     , (32515,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32515, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32515,  11, True ) /* IgnoreCollisions */
@@ -20,6 +23,7 @@ VALUES (32515,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32515,   1, 'Underminer Notes') /* Name */
+     , (32515,  16, 'A letter belonging to the leader of the Underminers at the quarry near Yanshi.') /* LongDesc */
      , (32515,  33, 'underminernotestimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
