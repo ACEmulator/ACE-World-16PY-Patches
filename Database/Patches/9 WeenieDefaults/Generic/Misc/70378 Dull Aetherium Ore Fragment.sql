@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70378, 'ace70378-dullaetheriumorefragment', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (70378, 'ace70378-dullaetheriumorefragment', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (70378,   1,       2048) /* ItemType - Gem */
+VALUES (70378,   1,        128) /* ItemType - Misc */
      , (70378,   5,        150) /* EncumbranceVal */
-     , (70378,  11,         10) /* MaxStackSize */
-     , (70378,  12,          1) /* StackSize */
+     , (70378,   9,          0) /* ValidLocations - None */
      , (70378,  16,          1) /* ItemUseable - No */
      , (70378,  19,          0) /* Value */
      , (70378,  33,          1) /* Bonded - Bonded */
@@ -15,11 +14,7 @@ VALUES (70378,   1,       2048) /* ItemType - Gem */
      , (70378, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (70378,  11, True ) /* IgnoreCollisions */
-     , (70378,  13, True ) /* Ethereal */
-     , (70378,  14, True ) /* GravityStatus */
-     , (70378,  19, True ) /* Attackable */
-     , (70378,  69, False) /* IsSellable */
+VALUES (70378,  69, False) /* IsSellable */
      , (70378,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

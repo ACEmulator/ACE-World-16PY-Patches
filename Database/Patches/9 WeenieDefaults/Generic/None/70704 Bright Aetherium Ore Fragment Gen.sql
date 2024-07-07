@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70704,  81,          9) /* MaxGeneratedObjects */
      , (70704,  82,          9) /* InitGeneratedObjects */
      , (70704,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (70704, 142,          3) /* GeneratorTimeType - Event */
-     , (70704, 145,          2) /* GeneratorEndDestructionType - Destroy */;
+     , (70704, 103,          2) /* GeneratorDestructionType - Destroy */
+     , (70704, 267,        180) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70704,   1, True ) /* Stuck */
@@ -20,8 +20,7 @@ VALUES (70704,  41,      25) /* RegenerationInterval */
      , (70704,  43,       3) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70704,   1, 'Bright Aetherium Ore Fragment Gen') /* Name */
-     , (70704,  34, 'brightstockpiledead') /* GeneratorEvent */;
+VALUES (70704,   1, 'Bright Aetherium Ore Fragment Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70704,   1, 0x0200026B) /* Setup */

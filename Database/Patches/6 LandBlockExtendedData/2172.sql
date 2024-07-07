@@ -165,10 +165,6 @@ VALUES (0x72172037, 42616, 0x21720283, 29.1654, 96.1059, 144.408, 0.675709, 0, 0
 /* @teleloc 0x21720283 [29.165400 96.105904 144.408005] 0.675709 0.000000 0.000000 0.737168 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72172038, 70704, 0x21720139, 68.0313, 176.761, 126.405, -0.614183, 0, 0, -0.789164, False, '2021-11-01 00:00:00'); /* Bright Aetherium Ore Fragment Gen */
-/* @teleloc 0x21720139 [68.031303 176.761002 126.404999] -0.614183 0.000000 0.000000 -0.789164 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72172039, 70707, 0x2172021B, 139.872, 168.887, 138.405, 0.637394, 0, 0, 0.770538, False, '2021-11-01 00:00:00'); /* Silver Scope Spymaster */
 /* @teleloc 0x2172021B [139.871994 168.886993 138.404999] 0.637394 0.000000 0.000000 0.770538 */
 
