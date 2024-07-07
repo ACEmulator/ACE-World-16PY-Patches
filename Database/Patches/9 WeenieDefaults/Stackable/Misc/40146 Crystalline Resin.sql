@@ -14,7 +14,6 @@ VALUES (40146,   1,        128) /* ItemType - Misc */
      , (40146,  19,          0) /* Value */
      , (40146,  33,          1) /* Bonded - Bonded */
      , (40146,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40146,  98, 1485833217) /* CreationTimestamp */
      , (40146, 114,          1) /* Attuned - Attuned */
      , (40146, 267,        300) /* Lifespan */;
 
@@ -38,7 +37,3 @@ VALUES (40146,   1, 0x02000C02) /* Setup */
      , (40146,   6, 0x04000F68) /* PaletteBase */
      , (40146,   8, 0x060069AC) /* Icon */
      , (40146,  22, 0x3400002B) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40146, 8040, 0x00C70390, 100, -70, 0.015, 1, 0, 0, 0) /* PCAPRecordedLocation */
-/* @teleloc 0x00C70390 [100.000000 -70.000000 0.015000] 1.000000 0.000000 0.000000 0.000000 */;
