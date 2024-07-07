@@ -1377,99 +1377,75 @@ VALUES (0x700C728A, 40107, 0x00C70100, 101.488, -78.1538, -41.95, 0.995649, 0, 0
 /* @teleloc 0x00C70100 [101.487999 -78.153801 -41.950001] 0.995649 0.000000 0.000000 0.093185 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C728B,  1542, 0x00C70390, 100, -70, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x00C70390 [100.000000 -70.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C728B, 0x700C728C, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C728D, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C728E, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C728F, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7290, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7291, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7292, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7293, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7294, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7295, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7296, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C7297, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C729D, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C729E, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C729F, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C72A0, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C72A1, '2021-11-01 00:00:00') /* Crystal Generator (80050) */
-     , (0x700C728B, 0x700C72A2, '2021-11-01 00:00:00') /* Crystal Generator (80050) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C728C, 80050, 0x00C70390, 100, -70, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C728C, 80050, 0x00C70390, 100, -70, 0, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C70390 [100.000000 -70.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C728D, 80050, 0x00C7033D, 50, -50, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C728D, 80050, 0x00C7033D, 50, -50, 0, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C7033D [50.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C728E, 80050, 0x00C70399, 100, -90, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C728E, 80050, 0x00C70399, 100, -90, 0, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C70399 [100.000000 -90.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C728F, 80050, 0x00C703E1, 150, -50, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C728F, 80050, 0x00C703E1, 150, -50, 0, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C703E1 [150.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7290, 80050, 0x00C70348, 50, -110, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7290, 80050, 0x00C70348, 50, -110, 0, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C70348 [50.000000 -110.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7291, 80050, 0x00C703EC, 150, -110, 0, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7291, 80050, 0x00C703EC, 150, -110, 0, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C703EC [150.000000 -110.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7292, 80050, 0x00C70235, 110, -80, -18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7292, 80050, 0x00C70235, 110, -80, -18, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C70235 [110.000000 -80.000000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7293, 80050, 0x00C7021A, 100, -90, -18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7293, 80050, 0x00C7021A, 100, -90, -18, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C7021A [100.000000 -90.000000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7294, 80050, 0x00C70218, 100, -70, -18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7294, 80050, 0x00C70218, 100, -70, -18, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C70218 [100.000000 -70.000000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7295, 80050, 0x00C701FD, 90, -80, -18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7295, 80050, 0x00C701FD, 90, -80, -18, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C701FD [90.000000 -80.000000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7296, 80050, 0x00C7013A, 84.5859, -158.065, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7296, 80050, 0x00C7013A, 84.5859, -158.065, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C7013A [84.585899 -158.065002 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7297, 80050, 0x00C7019D, 115.254, -158.144, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C7297, 80050, 0x00C7019D, 115.254, -158.144, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C7019D [115.253998 -158.143997 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C729D, 80050, 0x00C7018B, 115.132, -1.9824, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C729D, 80050, 0x00C7018B, 115.132, -1.9824, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C7018B [115.132004 -1.982400 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C729E, 80050, 0x00C70128, 84.8466, -2.01105, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C729E, 80050, 0x00C70128, 84.8466, -2.01105, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C70128 [84.846603 -2.011050 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C729F, 80050, 0x00C701B4, 197.528, -65.9645, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C729F, 80050, 0x00C701B4, 197.528, -65.9645, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C701B4 [197.528000 -65.964500 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C72A0, 80050, 0x00C701BC, 198.212, -96.3219, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C72A0, 80050, 0x00C701BC, 198.212, -96.3219, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C701BC [198.212006 -96.321899 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C72A1, 80050, 0x00C7010B, 1.78069, -65.5825, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C72A1, 80050, 0x00C7010B, 1.78069, -65.5825, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C7010B [1.780690 -65.582497 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C72A2, 80050, 0x00C70112, 1.76275, -95.2939, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Crystal Generator */
+VALUES (0x700C72A2, 80050, 0x00C70112, 1.76275, -95.2939, -24, 1, 0, 0, 0,  False, '2021-11-01 00:00:00'); /* Crystal Generator */
 /* @teleloc 0x00C70112 [1.762750 -95.293900 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
