@@ -102,8 +102,8 @@ VALUES (40787,  0, 32, 80,  0.5,  140,  112,  140,  112,  280,  280,  280,  140,
      , (40787, 21, 32,  0,    0,  110,   88,  110,   88,  220,  220,  220,  110,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40787,  2122,    2.15)  /* Disintegration */
-     , (40787,  2123,    2.18)  /* Celdiseth's Searing */;
+VALUES (40787,  2122,   2.15)  /* Disintegration */
+     , (40787,  2123,   2.18)  /* Celdiseth's Searing */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40787, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

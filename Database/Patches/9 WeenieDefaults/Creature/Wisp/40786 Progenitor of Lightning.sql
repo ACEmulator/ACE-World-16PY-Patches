@@ -102,8 +102,8 @@ VALUES (40786,  0, 64, 80,  0.5,  140,  112,  140,  112,  280,  280,  140,  280,
      , (40786, 21, 64,  0,    0,  110,   88,  110,   88,  220,  220,  110,  220,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40786,  2140,    2.15)  /* Alset's Coil */
-     , (40786,  2142,    2.18)  /* Tempest */;
+VALUES (40786,  2140,   2.15)  /* Alset's Coil */
+     , (40786,  2142,   2.18)  /* Tempest */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40786, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
