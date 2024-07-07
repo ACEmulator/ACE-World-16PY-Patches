@@ -251,4 +251,5 @@ VALUES (41545, 2, 32698,  0, 9, 0, False) /* Create Shield of Strathelar (32698)
      , (41545, 2, 33584,  0, 21, 0, False) /* Create Noble Relic Coat of Brilliance (33584) for Wield */
      , (41545, 2, 33587,  0, 21, 0, False) /* Create Noble Relic Leggings of Health (33587) for Wield */
      , (41545, 2, 33585,  0, 21, 0, False) /* Create Noble Relic Gauntlets of Strength (33585) for Wield */
-     , (41545, 2, 33588,  0, 21, 0, False) /* Create Noble Relic Sollerets of Speed (33588) for Wield */;
+     , (41545, 2, 33588,  0, 21, 0, False) /* Create Noble Relic Sollerets of Speed (33588) for Wield */
+     , (41545, 2, 44998,  0, 17, 1, False) /* Create Strathelar Royal Cloak (44998) for Wield */;

@@ -195,7 +195,13 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You must be at least level 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42360, 2, 32698,  0, 9, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (42360, 2, 31288,  0, 0, 0, False) /* Create Blade of the Realm (31288) for Wield */
-     , (42360, 2, 33584,  0, 21, 0, False) /* Create Noble Relic Coat of Brilliance (33584) for Wield */
-     , (42360, 2, 33587,  0, 21, 0, False) /* Create Noble Relic Leggings of Health (33587) for Wield */
-     , (42360, 2, 33585,  0, 21, 0, False) /* Create Noble Relic Gauntlets of Strength (33585) for Wield */
-     , (42360, 2, 33588,  0, 21, 0, False) /* Create Noble Relic Sollerets of Speed (33588) for Wield */;
+     , (42360, 2,  2587,  0, 14, 0, False) /* Create Shirt (2587) for Wield */
+     , (42360, 2,  2601,  0, 14, 0, False) /* Create Loose Pants (2601) for Wield */
+     , (42360, 2, 21150,  0, 21, 0.2857, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (42360, 2, 21151,  0, 21, 0.2857, False) /* Create Covenant Bracers (21151) for Wield */
+     , (42360, 2, 21152,  0, 21, 0.2857, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (42360, 2, 21153,  0, 21, 0.2857, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (42360, 2, 21154,  0, 21, 0.2857, False) /* Create Covenant Girth (21154) for Wield */
+     , (42360, 2, 21155,  0, 21, 0.2857, False) /* Create Covenant Greaves (21155) for Wield */
+     , (42360, 2, 21157,  0, 21, 0.2857, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (42360, 2, 21159,  0, 21, 0.2857, False) /* Create Covenant Tassets (21159) for Wield */;
