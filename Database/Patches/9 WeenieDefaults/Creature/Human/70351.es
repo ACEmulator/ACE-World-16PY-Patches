@@ -33,14 +33,14 @@ Use:
         QuestFailure:
             - InqQuest: GurogCreationStarted_1110
                 QuestSuccess:
-                    - DirectBroadcast: Please.. Please.. Let this horror end... Return to my any information you may find.
+                    - DirectBroadcast: Please.. Please.. Let this horror end... Return to me any information you may find.
                 QuestFailure:
                     - Tell: They tore them to shreds. Literally tore limbs from bodies!
                     - Tell: What did we do?!
                     - StampQuest: GurogCreationStarted_1110
 
 GotoSet: OwnsAB
-    - InqQuest: JournalNoteTurnInWait@2
+    - InqQuest: JournalNoteTurnInWait
         QuestSuccess:
             - DirectBroadcast: You may complete this quest again in %tqt.
         QuestFailure:
