@@ -5,6 +5,7 @@ VALUES (41583, 'ace41583-coppercoglesserlord', 10, '2022-12-04 19:04:52') /* Cre
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41583,   1,         16) /* ItemType - Creature */
+     , (41583,   2,         99) /* CreatureType - GearKnight */
      , (41583,   6,         -1) /* ItemsCapacity */
      , (41583,   7,         -1) /* ContainersCapacity */
      , (41583,  16,          1) /* ItemUseable - No */
