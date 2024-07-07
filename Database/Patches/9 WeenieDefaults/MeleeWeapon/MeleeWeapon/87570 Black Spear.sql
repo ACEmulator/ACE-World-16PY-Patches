@@ -12,7 +12,7 @@ VALUES (87570,   1,          1) /* ItemType - MeleeWeapon */
      , (87570,  19,          0) /* Value */
      , (87570,  33,         -2) /* Bonded - Destroy */
      , (87570,  37,       9999) /* ResistItemAppraisal */
-     , (87570,  44,         50) /* Damage */
+     , (87570,  44,        200) /* Damage */
      , (87570,  45,          2) /* DamageType - Pierce */
      , (87570,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (87570,  47,          2) /* AttackType - Thrust */
