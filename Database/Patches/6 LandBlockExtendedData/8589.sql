@@ -20,7 +20,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x78589003, 0x78589005, '2024-06-03 12:03:44') /* Town Crier (73186) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78589004, 73176, 0x8589003A, 183.208, 42.8943, 86.055, 0.382684, 0, 0, 0.92388,  False, '2024-06-02 20:05:38'); /* Zombie Incursion Gen */
+VALUES (0x78589004, 73176, 0x8589003A, 183.208, 42.8943, 86.055, 0.382684, 0, 0, 0.92388, False, '2024-06-02 20:05:38'); /* Zombie Incursion Gen */
 /* @teleloc 0x8589003A [183.207993 42.894299 86.055000] 0.382684 0.000000 0.000000 0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

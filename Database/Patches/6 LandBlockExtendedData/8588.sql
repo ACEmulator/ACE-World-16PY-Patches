@@ -183,27 +183,27 @@ VALUES (0x78588052, 73177, 0x8588000C, 44.1057, 85.0064, 94.9958, 0.92388, 0, 0,
 /* @teleloc 0x8588000C [44.105701 85.006401 94.995796] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78588053, 73176, 0x85880026, 98.1915, 124.005, 86.055, 0.707107, 0, 0, 0.707107,  False, '2024-06-02 15:23:02'); /* Zombie Incursion Gen */
+VALUES (0x78588053, 73176, 0x85880026, 98.1915, 124.005, 86.055, 0.707107, 0, 0, 0.707107, False, '2024-06-02 15:23:02'); /* Zombie Incursion Gen */
 /* @teleloc 0x85880026 [98.191498 124.004997 86.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78588054, 73176, 0x8588002F, 130.266, 148.294, 86.055, 0, 0, 0, 1,  False, '2024-06-02 15:24:12'); /* Zombie Incursion Gen */
+VALUES (0x78588054, 73176, 0x8588002F, 130.266, 148.294, 86.055, 0, 0, 0, 1, False, '2024-06-02 15:24:12'); /* Zombie Incursion Gen */
 /* @teleloc 0x8588002F [130.266006 148.294006 86.055000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78588055, 73176, 0x8588000E, 42.284, 122.614, 86.055, 0, 0, 0, 1,  False, '2024-06-02 15:24:48'); /* Zombie Incursion Gen */
+VALUES (0x78588055, 73176, 0x8588000E, 42.284, 122.614, 86.055, 0, 0, 0, 1, False, '2024-06-02 15:24:48'); /* Zombie Incursion Gen */
 /* @teleloc 0x8588000E [42.284000 122.613998 86.055000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78588056, 73176, 0x85880013, 64.5964, 67.8085, 86.055, 0.92388, 0, 0, -0.382684,  False, '2024-06-02 15:25:21'); /* Zombie Incursion Gen */
+VALUES (0x78588056, 73176, 0x85880013, 64.5964, 67.8085, 86.055, 0.92388, 0, 0, -0.382684, False, '2024-06-02 15:25:21'); /* Zombie Incursion Gen */
 /* @teleloc 0x85880013 [64.596397 67.808502 86.055000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78588057, 73176, 0x85880004, 7.37819, 88.8959, 86.055, 0.707107, 0, 0, -0.707107,  False, '2024-06-02 15:28:04'); /* Zombie Incursion Gen */
+VALUES (0x78588057, 73176, 0x85880004, 7.37819, 88.8959, 86.055, 0.707107, 0, 0, -0.707107, False, '2024-06-02 15:28:04'); /* Zombie Incursion Gen */
 /* @teleloc 0x85880004 [7.378190 88.895897 86.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78588058, 73176, 0x85880040, 177.313, 171.808, 86.055, 0.382684, 0, 0, 0.92388,  False, '2024-06-02 20:07:07'); /* Zombie Incursion Gen */
+VALUES (0x78588058, 73176, 0x85880040, 177.313, 171.808, 86.055, 0.382684, 0, 0, 0.92388, False, '2024-06-02 20:07:07'); /* Zombie Incursion Gen */
 /* @teleloc 0x85880040 [177.313004 171.807999 86.055000] 0.382684 0.000000 0.000000 0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
