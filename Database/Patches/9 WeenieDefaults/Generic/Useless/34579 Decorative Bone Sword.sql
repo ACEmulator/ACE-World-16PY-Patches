@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34579;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34579, 'ace34579-decorativebonesword', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (34579, 'ace34579-decorativebonesword', 1, '2024-07-15 02:34:18') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34579,   1,       1024) /* ItemType - Useless */
@@ -18,7 +18,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34579,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34579,   1, 'Decorative Bone Sword') /* Name */;
+VALUES (34579,   1, 'Decorative Bone Sword') /* Name */
+     , (34579,  16, 'A Bone Sword, taken from the Guruk on Bur and fitted with points to hook it to a wall. It is far too heavy to be wielded as a weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34579,   1, 0x02001676) /* Setup */

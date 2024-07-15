@@ -1,22 +1,22 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41590;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41590, 'ace41590-gearknightlordstower', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (41590, 'ace41590-gearknightlordstower', 7, '2024-07-15 02:34:18') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41590,   1,      65536) /* ItemType - Portal */
      , (41590,  16,         32) /* ItemUseable - Remote */
      , (41590,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (41590, 111,         16) /* PortalBitmask - NoSummon */
-     , (41590, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (41590, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
+     , (41590, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (41590, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41590,   1, True ) /* Stuck */
      , (41590,  12, True ) /* ReportCollisions */
      , (41590,  13, True ) /* Ethereal */
      , (41590,  14, True ) /* GravityStatus */
-     , (41590,  15, True ) /* LightsStatus */
-     , (41590,  19, True ) /* Attackable */;
+     , (41590,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41590,  54,    -0.1) /* UseRadius */;

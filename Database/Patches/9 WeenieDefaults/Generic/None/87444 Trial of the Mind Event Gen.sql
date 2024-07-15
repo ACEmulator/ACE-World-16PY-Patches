@@ -1,15 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87444;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87444, 'ace87444-trialofthemindeventgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (87444, 'ace87444-trialofthemindeventgen', 1, '2024-07-15 02:34:18') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (87444,  81,         16) /* MaxGeneratedObjects */
-     , (87444,  82,         16) /* InitGeneratedObjects */
+VALUES (87444,  81,         14) /* MaxGeneratedObjects */
+     , (87444,  82,         14) /* InitGeneratedObjects */
      , (87444,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87444, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (87444, 142,          3) /* GeneratorTimeType - Event */
-     , (87444, 145,          2) /* GeneratorEndDestructionType - Destroy */;
+     , (87444, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87444,   1, True ) /* Stuck */
@@ -17,13 +16,11 @@ VALUES (87444,   1, True ) /* Stuck */
      , (87444,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87444,  41,    2000) /* RegenerationInterval */
-     , (87444,  43,      10) /* GeneratorRadius */
-     , (87444, 121,       1) /* GeneratorInitialDelay */;
+VALUES (87444,  41,       5) /* RegenerationInterval */
+     , (87444,  43,      10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87444,   1, 'Trial of the Mind Event Gen') /* Name */
-     , (87444,  34, 'TrialoftheMindPuzzleEvent') /* GeneratorEvent */;
+VALUES (87444,   1, 'Trial of the Mind Event Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87444,   1, 0x0200026B) /* Setup */
@@ -43,6 +40,4 @@ VALUES (87444, -1, 36672, 1, 1, 1, 1, 4, 0, 0, 0, 0x009F0161, 85.017, -234.07, -
      , (87444, -1, 36718, 1, 1, 1, 1, 4, 0, 0, 0, 0x009F0160, 89.958, -223.02, -42.005, 0, 0, 0, -1) /* Generate Bag of Stones (36718) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (87444, -1, 36714, 1, 1, 1, 1, 4, 0, 0, 0, 0x009F0160, 91.9579, -223.003, -42.005, 0, 0, 0, -1) /* Generate Bag of Stones (36714) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (87444, -1, 36716, 1, 1, 1, 1, 4, 0, 0, 0, 0x009F016F, 96.6, -230.64, -41.2, -0.707107, 0, 0, -0.707107) /* Generate Bucket (36716) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (87444, -1, 36715, 1, 1, 1, 1, 4, 0, 0, 0, 0x009F016F, 96.6, -229.34, -41.2, -0.707107, 0, 0, -0.707107) /* Generate Bucket (36715) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (87444, -1, 87445, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Trial of the Mind Event Controller (87445) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87444, -1, 80007, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (87444, -1, 36715, 1, 1, 1, 1, 4, 0, 0, 0, 0x009F016F, 96.6, -229.34, -41.2, -0.707107, 0, 0, -0.707107) /* Generate Bucket (36715) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

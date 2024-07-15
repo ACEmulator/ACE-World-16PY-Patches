@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32833;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32833, 'ace32833-escapedthief', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (32833, 'ace32833-escapedthief', 10, '2024-07-15 02:34:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32833,   1,         16) /* ItemType - Creature */
@@ -13,7 +13,7 @@ VALUES (32833,   1,         16) /* ItemType - Creature */
      , (32833,  27,          0) /* ArmorType - None */
      , (32833,  40,          2) /* CombatMode - Melee */
      , (32833,  68,          9) /* TargetingTactic - Random, TopDamager */
-     , (32833,  72,         83) /* FriendType - ViamontianKnight */
+     , (32833,  72,         79) /* FriendType - Eater */
      , (32833,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32833, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (32833, 113,          1) /* Gender - Male */

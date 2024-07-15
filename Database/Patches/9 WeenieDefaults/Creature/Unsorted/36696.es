@@ -1,21 +1,47 @@
 Use:
-    - InqQuestSolves: BucketsBalancedComplete, 31
+    - InqQuest: TrialoftheHeart_Flag
         QuestSuccess:
-            - DirectBroadcast: You may continue to the Trial of the Heart.
-            - EraseQuest: BucketsBalancedComplete
-            - EraseQuest: TrialoftheMind_Attempts
-            - Activate
-        QuestFailure: 
-            - InqEvent: TrialoftheMindPuzzleEvent
-                EventSuccess:
-                    - DirectBroadcast: Someone else is attempting the Trial of the Mind. You must wait until the trial is available again.
-                EventFailure:
+            - DirectBroadcast: You have already completed this trial.
+        QuestFailure:
+            - InqQuestSolves: BucketsBalancedComplete, 31
+                QuestSuccess:
+                    - StampQuest: TrialoftheHeart_Flag
+                    - EraseQuest: BucketsBalancedComplete
+                    - EraseQuest: GaveColoredStoneExcess
+                    - EraseQuest: StoneBagComplete
+                    - EraseQuest: TotMBucketBalanced
+                    - EraseQuest: TrialoftheMind_Attempts
+                    - EraseQuest: GaveWhiteStone
+                    - EraseQuest: GaveYellowStone
+                    - EraseQuest: GaveRedStone
+                    - EraseQuest: GaveNBucketWhiteStone
+                    - EraseQuest: GaveNBucketYellowStone
+                    - EraseQuest: GaveNBucketRedStone
+                    - EraseQuest: GaveSBucketWhiteStone
+                    - EraseQuest: GaveSBucketYellowStone
+                    - EraseQuest: GaveSBucketRedStone
+                    - DirectBroadcast: You may continue to the Trial of the Heart.
+                    - Activate
+                QuestFailure: 
                     - InqQuestSolves: TrialoftheMind_Attempts, 3
                         QuestSuccess:
                             - TakeItems: 36672, -1
                             - TakeItems: 36673, -1
                             - TakeItems: 36674, -1
                             - EraseQuest: TrialoftheMind_Attempts
+                            - EraseQuest: BucketsBalancedComplete
+                            - EraseQuest: GaveColoredStoneExcess
+                            - EraseQuest: StoneBagComplete
+                            - EraseQuest: TotMBucketBalanced
+                            - EraseQuest: GaveWhiteStone
+                            - EraseQuest: GaveYellowStone
+                            - EraseQuest: GaveRedStone
+                            - EraseQuest: GaveNBucketWhiteStone
+                            - EraseQuest: GaveNBucketYellowStone
+                            - EraseQuest: GaveNBucketRedStone
+                            - EraseQuest: GaveSBucketWhiteStone
+                            - EraseQuest: GaveSBucketYellowStone
+                            - EraseQuest: GaveSBucketRedStone
                             - DirectBroadcast: You have failed. You must return to the Trial of the Arm.
                             - CastSpellInstant: 4219
                         QuestFailure:
@@ -24,22 +50,61 @@ Use:
                                     - TakeItems: 36672, -1
                                     - TakeItems: 36673, -1
                                     - TakeItems: 36674, -1
+                                    - EraseQuest: BucketsBalancedComplete
+                                    - EraseQuest: GaveColoredStoneExcess
+                                    - EraseQuest: StoneBagComplete
+                                    - EraseQuest: TotMBucketBalanced
+                                    - EraseQuest: GaveWhiteStone
+                                    - EraseQuest: GaveYellowStone
+                                    - EraseQuest: GaveRedStone
+                                    - EraseQuest: GaveNBucketWhiteStone
+                                    - EraseQuest: GaveNBucketYellowStone
+                                    - EraseQuest: GaveNBucketRedStone
+                                    - EraseQuest: GaveSBucketWhiteStone
+                                    - EraseQuest: GaveSBucketYellowStone
+                                    - EraseQuest: GaveSBucketRedStone
                                     - DirectBroadcast: You may attempt to solve the puzzle one last time.
                                     - StampQuest: TrialoftheMind_Attempts
-                                    - StartEvent: TrialoftheMindPuzzleEvent
+                                    - Generate
                                 QuestFailure: 
                                     - InqQuestSolves: TrialoftheMind_Attempts, 1
                                         QuestSuccess:
                                             - TakeItems: 36672, -1
                                             - TakeItems: 36673, -1
                                             - TakeItems: 36674, -1
+                                            - EraseQuest: BucketsBalancedComplete
+                                            - EraseQuest: GaveColoredStoneExcess
+                                            - EraseQuest: StoneBagComplete
+                                            - EraseQuest: TotMBucketBalanced
+                                            - EraseQuest: GaveWhiteStone
+                                            - EraseQuest: GaveYellowStone
+                                            - EraseQuest: GaveRedStone
+                                            - EraseQuest: GaveNBucketWhiteStone
+                                            - EraseQuest: GaveNBucketYellowStone
+                                            - EraseQuest: GaveNBucketRedStone
+                                            - EraseQuest: GaveSBucketWhiteStone
+                                            - EraseQuest: GaveSBucketYellowStone
+                                            - EraseQuest: GaveSBucketRedStone
                                             - DirectBroadcast: You may attempt to solve the puzzle another 2 times.
                                             - StampQuest: TrialoftheMind_Attempts
-                                            - StartEvent: TrialoftheMindPuzzleEvent
+                                            - Generate
                                         QuestFailure:
                                             - TakeItems: 36672, -1
                                             - TakeItems: 36673, -1
                                             - TakeItems: 36674, -1
+                                            - EraseQuest: BucketsBalancedComplete
+                                            - EraseQuest: GaveColoredStoneExcess
+                                            - EraseQuest: StoneBagComplete
+                                            - EraseQuest: TotMBucketBalanced
+                                            - EraseQuest: GaveWhiteStone
+                                            - EraseQuest: GaveYellowStone
+                                            - EraseQuest: GaveRedStone
+                                            - EraseQuest: GaveNBucketWhiteStone
+                                            - EraseQuest: GaveNBucketYellowStone
+                                            - EraseQuest: GaveNBucketRedStone
+                                            - EraseQuest: GaveSBucketWhiteStone
+                                            - EraseQuest: GaveSBucketYellowStone
+                                            - EraseQuest: GaveSBucketRedStone
                                             - DirectBroadcast: To prove your clarity of mind you must use the stones provided to make each bag contain one color and you must use the remaining stones to balance the scales correctly.
                                             - Delay: 1, DirectBroadcast: .   Red Stones weigh three stone.
                                             - Delay: 1, DirectBroadcast: .   Yellow Stones weigh two stone.
@@ -47,4 +112,4 @@ Use:
                                             - Delay: 1, DirectBroadcast: You have three attempts to accomplish the task.
                                             - Delay: 1, DirectBroadcast: You have five minutes to solve the puzzle. Speak to me again when you believe that you have solved the puzzle.
                                             - StampQuest: TrialoftheMind_Attempts
-                                            - StartEvent: TrialoftheMindPuzzleEvent
+                                            - Generate

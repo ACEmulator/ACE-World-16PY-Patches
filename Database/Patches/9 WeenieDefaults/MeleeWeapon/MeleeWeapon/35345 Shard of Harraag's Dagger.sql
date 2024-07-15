@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35345;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35345, 'ace35345-shardofharraagsdagger', 6, '2021-12-21 17:24:33') /* MeleeWeapon */;
+VALUES (35345, 'ace35345-shardofharraagsdagger', 6, '2024-07-15 02:34:18') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35345,   1,          1) /* ItemType - MeleeWeapon */
@@ -47,7 +47,8 @@ VALUES (35345,   5,   -0.05) /* ManaRate */
      , (35345,  62,    1.32) /* WeaponOffense */
      , (35345,  63,       1) /* DamageMod */
      , (35345, 136,       3) /* CriticalMultiplier */
-     , (35345, 149,     1.1) /* WeaponMissileDefense */;
+     , (35345, 149,     1.1) /* WeaponMissileDefense */
+     , (35345, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35345,   1, 'Shard of Harraag''s Dagger') /* Name */

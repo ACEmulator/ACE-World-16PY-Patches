@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32003;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32003, 'ace32003-wormfeast', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (32003, 'ace32003-wormfeast', 10, '2024-07-15 02:34:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32003,   1,         16) /* ItemType - Creature */
@@ -42,7 +42,7 @@ VALUES (32003,   1,       5) /* HeartbeatInterval */
      , (32003,  31,      18) /* VisualAwarenessRange */
      , (32003,  34,       1) /* PowerupTime */
      , (32003,  36,       1) /* ChargeSpeed */
-     , (32003,  39,     1.2) /* DefaultScale */
+     , (32003,  39,       1) /* DefaultScale */
      , (32003,  64,    0.75) /* ResistSlash */
      , (32003,  65,     0.5) /* ResistPierce */
      , (32003,  66,     0.7) /* ResistBludgeon */
@@ -88,29 +88,25 @@ VALUES (32003,   1,  3850, 0, 0, 4035) /* MaxHealth */
      , (32003,   5,  2000, 0, 0, 2400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32003,  6, 0, 3, 0, 203, 0, 0) /* MeleeDefense        Specialized */
+VALUES (32003,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
      , (32003,  7, 0, 3, 0, 245, 0, 0) /* MissileDefense      Specialized */
-     , (32003, 14, 0, 3, 0, 240, 0, 0) /* ArcaneLore          Specialized */
-     , (32003, 15, 0, 3, 0, 232, 0, 0) /* MagicDefense        Specialized */
+     , (32003, 15, 0, 3, 0, 220, 0, 0) /* MagicDefense        Specialized */
      , (32003, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
-     , (32003, 31, 0, 3, 0, 290, 0, 0) /* CreatureEnchantment Specialized */
-     , (32003, 33, 0, 3, 0, 258, 0, 0) /* LifeMagic           Specialized */
-     , (32003, 34, 0, 3, 0, 258, 0, 0) /* WarMagic            Specialized */
-     , (32003, 44, 0, 3, 0, 195, 0, 0) /* HeavyWeapons        Specialized */
-     , (32003, 45, 0, 3, 0, 195, 0, 0) /* LightWeapons        Specialized */
-     , (32003, 46, 0, 3, 0, 208, 0, 0) /* FinesseWeapons      Specialized */
-     , (32003, 47, 0, 3, 0,  10, 0, 0) /* MissileWeapons      Specialized */;
+     , (32003, 31, 0, 3, 0,  80, 0, 0) /* CreatureEnchantment Specialized */
+     , (32003, 33, 0, 3, 0,  80, 0, 0) /* LifeMagic           Specialized */
+     , (32003, 34, 0, 3, 0,  80, 0, 0) /* WarMagic            Specialized */
+     , (32003, 45, 0, 3, 0, 330, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (32003,  0,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (32003,  1,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (32003,  2,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (32003,  3,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (32003,  4,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (32003,  5,  4, 150, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (32003,  6,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (32003,  7,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (32003,  8,  4, 150, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (32003,  0,  4,  0,    0,  320,  320,  320,  320,  320,  320,  320,  320,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (32003,  1,  4,  0,    0,  330,  330,  330,  330,  330,  330,  330,  330,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (32003,  2,  4,  0,    0,  370,  370,  370,  370,  370,  370,  370,  370,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (32003,  3,  4,  0,    0,  340,  340,  340,  340,  340,  340,  340,  340,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (32003,  4,  4,  0,    0,  370,  370,  370,  370,  370,  370,  370,  370,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (32003,  5,  4, 150, 0.75,  350,  350,  350,  350,  350,  350,  350,  350,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (32003,  6,  4,  0,    0,  330,  330,  330,  330,  330,  330,  330,  330,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (32003,  7,  4,  0,    0,  370,  370,  370,  370,  370,  370,  370,  370,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (32003,  8,  4, 150, 0.75,  370,  370,  370,  370,  370,  370,  370,  370,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32003, 9, 32024,  1, 0, 0.1, False) /* Create Offering to Xik Minru (32024) for ContainTreasure */

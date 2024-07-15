@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87339;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87339, 'ace87339-harraagslair', 7, '2021-11-08 06:01:47') /* Portal */;
+VALUES (87339, 'ace87339-harraagslair', 7, '2024-07-15 02:34:18') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87339,   1,      65536) /* ItemType - Portal */
@@ -22,6 +22,7 @@ VALUES (87339,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87339,   1, 'Harraag''s Lair') /* Name */
+     , (87339,  16, 'This portal seems to be warded against those who are not attuned to it.') /* LongDesc */
      , (87339,  37, 'HarraagsLairFlag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

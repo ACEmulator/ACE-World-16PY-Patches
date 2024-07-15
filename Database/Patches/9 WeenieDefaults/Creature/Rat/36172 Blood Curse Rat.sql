@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36172;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36172, 'ace36172-bloodcurserat', 10, '2024-05-26 19:09:10') /* Creature */;
+VALUES (36172, 'ace36172-bloodcurserat', 10, '2024-07-15 02:34:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36172,   1,         16) /* ItemType - Creature */
@@ -82,19 +82,20 @@ VALUES (36172,   1,  1200, 0, 0, 1350) /* MaxHealth */
      , (36172,   5,  5000, 0, 0, 5190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36172,  6, 0, 2, 0, 330, 0, 0) /* MeleeDefense        Trained */
+VALUES (36172,  6, 0, 2, 0, 266, 0, 0) /* MeleeDefense        Trained */
      , (36172,  7, 0, 2, 0, 480, 0, 0) /* MissileDefense      Trained */
      , (36172, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
      , (36172, 33, 0, 2, 0, 450, 0, 0) /* LifeMagic           Trained */
      , (36172, 45, 0, 2, 0, 380, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (36172,  0,  2, 180, 0.75,  430,  421,  421,  310,  421,  421,  421,  310,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
-     , (36172, 16,  4, 180, 0.75,  430,  421,  421,  310,  421,  421,  421,  310,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
-     , (36172, 17,  4, 180,    0,  430,  421,  421,  310,  421,  421,  421,  310,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
+VALUES (36172,  0,  2, 180, 0.75,  300,  294,  294,  216,  294,  294,  294,  216,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
+     , (36172, 16,  4, 180, 0.75,  300,  294,  294,  216,  294,  294,  294,  216,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
+     , (36172, 17,  4, 180,    0,  300,  294,  294,  216,  294,  294,  294,  216,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
      , (36172, 22, 16, 180,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36172,  2074,   2.25)  /* Gossamer Flesh */
-     , (36172,  2070,   2.33)  /* Heart Rend */
-     , (36172,  2178,    2.5)  /* Decrepitude's Grasp */;
+VALUES (36172,  2074,    2.2)  /* Gossamer Flesh */
+     , (36172,  2070,   2.25)  /* Heart Rend */
+     , (36172,  2178,   2.33)  /* Decrepitude's Grasp */
+     , (36172,  2328,    2.5)  /* Vitality Siphon */;

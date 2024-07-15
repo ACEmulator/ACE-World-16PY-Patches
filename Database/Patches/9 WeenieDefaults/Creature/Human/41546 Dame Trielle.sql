@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41546;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41546, 'ace41546-dametrielle', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (41546, 'ace41546-dametrielle', 10, '2024-07-15 02:34:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41546,   1,         16) /* ItemType - Creature */
@@ -153,4 +153,5 @@ VALUES (41546, 2, 32698,  0, 9, 0, False) /* Create Shield of Strathelar (32698)
      , (41546, 2, 33586,  0, 21, 0, False) /* Create Noble Relic Helm of Will (33586) for Wield */
      , (41546, 2, 33587,  0, 21, 0, False) /* Create Noble Relic Leggings of Health (33587) for Wield */
      , (41546, 2, 33585,  0, 21, 0, False) /* Create Noble Relic Gauntlets of Strength (33585) for Wield */
-     , (41546, 2, 33588,  0, 21, 0, False) /* Create Noble Relic Sollerets of Speed (33588) for Wield */;
+     , (41546, 2, 33588,  0, 21, 0, False) /* Create Noble Relic Sollerets of Speed (33588) for Wield */
+     , (41546, 2, 44998,  0, 17, 1, False) /* Create Strathelar Royal Cloak (44998) for Wield */;

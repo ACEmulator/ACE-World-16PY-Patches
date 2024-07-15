@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72510;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72510, 'ace72510-materializedhoshinokei', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (72510, 'ace72510-materializedhoshinokei', 10, '2024-07-15 02:34:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72510,   1,         16) /* ItemType - Creature */
@@ -55,7 +55,7 @@ VALUES (72510,   1, 'Materialized Hoshino Kei') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72510,   1, 0x0200004E) /* Setup */
-     , (72510,   2, 0x09000001) /* MotionTable */
+     , (72510,   2, 0x0900020B) /* MotionTable */
      , (72510,   3, 0x20000002) /* SoundTable */
      , (72510,   4, 0x30000000) /* CombatTable */
      , (72510,   7, 0x10000824) /* ClothingBase */

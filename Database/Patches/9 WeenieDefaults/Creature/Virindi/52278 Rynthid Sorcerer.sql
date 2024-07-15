@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52278;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52278, 'ace52278-rynthidsorcerer', 10, '2022-12-28 05:57:21') /* Creature */;
+VALUES (52278, 'ace52278-rynthidsorcerer', 10, '2024-07-15 02:34:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52278,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,7 @@ VALUES (52278,   1,       5) /* HeartbeatInterval */
      , (52278,  80,       3) /* AiUseMagicDelay */
      , (52278, 104,      10) /* ObviousRadarRange */
      , (52278, 122,       2) /* AiAcquireHealth */
-     , (52278, 125,       1) /* ResistHealthDrain */
-     , (52278, 165,       1) /* ArmorModVsNether */
-     , (52278, 166,       1) /* ResistNether */;
+     , (52278, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52278,   1, 'Rynthid Sorcerer') /* Name */
@@ -88,32 +86,28 @@ VALUES (52278,   1,  7500, 0, 0, 7675) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52278,  6, 0, 2, 0, 550, 0, 0) /* MeleeDefense        Trained */
-     , (52278,  7, 0, 2, 0, 440, 0, 0) /* MissileDefense      Trained */
+     , (52278,  7, 0, 2, 0, 553, 0, 0) /* MissileDefense      Trained */
      , (52278, 15, 0, 2, 0, 370, 0, 0) /* MagicDefense        Trained */
-     , (52278, 16, 0, 2, 0, 430, 0, 0) /* ManaConversion      Trained */
-     , (52278, 31, 0, 2, 0, 430, 0, 0) /* CreatureEnchantment Trained */
-     , (52278, 33, 0, 2, 0, 430, 0, 0) /* LifeMagic           Trained */
-     , (52278, 34, 0, 2, 0, 430, 0, 0) /* WarMagic            Trained */
-     , (52278, 41, 0, 2, 0, 450, 0, 0) /* TwoHandedCombat     Trained */
-     , (52278, 43, 0, 2, 0, 430, 0, 0) /* VoidMagic           Trained */
-     , (52278, 44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons        Trained */
-     , (52278, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons        Trained */
-     , (52278, 46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons      Trained */;
+     , (52278, 31, 0, 2, 0, 275, 0, 0) /* CreatureEnchantment Trained */
+     , (52278, 33, 0, 2, 0, 275, 0, 0) /* LifeMagic           Trained */
+     , (52278, 34, 0, 2, 0, 275, 0, 0) /* WarMagic            Trained */
+     , (52278, 43, 0, 2, 0, 275, 0, 0) /* VoidMagic           Trained */
+     , (52278, 45, 0, 2, 0, 543, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52278,  0, 64,  0,    0,  650,  585,  650,  650,  650,  585,  585,  650,  650, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (52278,  1, 64,  0,    0,  650,  585,  650,  650,  650,  585,  585,  650,  650, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (52278,  2, 64,  0,    0,  650,  585,  650,  650,  650,  585,  585,  650,  650, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (52278,  3, 64,  0,    0,  650,  585,  650,  650,  650,  585,  585,  650,  650, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (52278,  4, 64,  0,    0,  650,  585,  650,  650,  650,  585,  585,  650,  650, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (52278,  5, 64, 200,  0.5,  650,  585,  650,  650,  650,  585,  585,  650,  650, 2,    0, 0.12,    0,    0, 0.12,    0,    0, 0.12,    0,    0, 0.12,    0) /* Hand */
-     , (52278,  6, 64,  0,    0,  650,  585,  650,  650,  650,  585,  585,  650,  650, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (52278,  7, 64,  0,    0,  650,  585,  650,  650,  650,  585,  585,  650,  650, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (52278,  8, 64, 200,  0.5,  650,  585,  650,  650,  650,  585,  585,  650,  650, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (52278,  0, 64,  0,    0,  500,  450,  500,  500,  500,  450,  450,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (52278,  1, 64,  0,    0,  500,  450,  500,  500,  500,  450,  450,  500,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (52278,  2, 64,  0,    0,  500,  450,  500,  500,  500,  450,  450,  500,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (52278,  3, 64,  0,    0,  500,  450,  500,  500,  500,  450,  450,  500,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (52278,  4, 64,  0,    0,  500,  450,  500,  500,  500,  450,  450,  500,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (52278,  5, 64, 200,  0.5,  500,  450,  500,  500,  500,  450,  450,  500,    0, 2,    0, 0.12,    0,    0, 0.12,    0,    0, 0.12,    0,    0, 0.12,    0) /* Hand */
+     , (52278,  6, 64,  0,    0,  500,  450,  500,  500,  500,  450,  450,  500,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (52278,  7, 64,  0,    0,  500,  450,  500,  500,  500,  450,  450,  500,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (52278,  8, 64, 200,  0.5,  500,  450,  500,  500,  500,  450,  450,  500,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52278,  3940,   2.21)  /* Exsanguinating Wave */
-     , (52278,  3941,  2.266)  /* Heavy Lightning Ring */
+     , (52278,  3997,  2.266)  /* Heavy Lightning Ring */
      , (52278,  3989,  2.414)  /* Dark Lightning */
      , (52278,  4312,  2.206)  /* Incantation of Imperil Other */
      , (52278,  4483,  2.259)  /* Incantation of Lightning Vulnerability Other */;

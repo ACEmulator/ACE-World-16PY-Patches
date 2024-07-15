@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70703;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70703, 'ace70703-dullaetheriumorefragmentgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (70703, 'ace70703-dullaetheriumorefragmentgen', 1, '2024-07-15 02:34:18') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70703,  81,          9) /* MaxGeneratedObjects */
      , (70703,  82,          9) /* InitGeneratedObjects */
      , (70703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (70703, 142,          3) /* GeneratorTimeType - Event */
-     , (70703, 145,          2) /* GeneratorEndDestructionType - Destroy */;
+     , (70703, 103,          2) /* GeneratorDestructionType - Destroy */
+     , (70703, 267,        180) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70703,   1, True ) /* Stuck */
@@ -20,8 +20,7 @@ VALUES (70703,  41,      25) /* RegenerationInterval */
      , (70703,  43,       3) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70703,   1, 'Dull Aetherium Ore Fragment Gen') /* Name */
-     , (70703,  34, 'dullstockpiledead') /* GeneratorEvent */;
+VALUES (70703,   1, 'Dull Aetherium Ore Fragment Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70703,   1, 0x0200026B) /* Setup */

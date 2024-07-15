@@ -1,12 +1,5 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x8850;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78850001,  7924, 0x88500030, 132.107, 180.053, 31.5189, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x88500030 [132.106995 180.052994 31.518900] 0.000000 0.000000 0.000000 -1.000000 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78850001, 0x78850002, '2021-11-01 00:00:00') /* Iron Blade Lesser Lord (41586) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78850002, 41586, 0x88500030, 132.107, 180.053, 31.5189, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Iron Blade Lesser Lord */
-/* @teleloc 0x88500030 [132.106995 180.052994 31.518900] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78850002, 73201, 0x88500030, 132.107, 180.053, 31.5724, 0, 0, 0, -1, False, '2024-07-15 02:34:18'); /* Iron Blade Lesser Lord Gen */
+/* @teleloc 0x88500030 [132.106995 180.052994 31.572399] 0.000000 0.000000 0.000000 -1.000000 */

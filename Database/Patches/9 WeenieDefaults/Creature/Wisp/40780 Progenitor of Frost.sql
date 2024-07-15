@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40780;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40780, 'ace40780-progenitoroffrost', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (40780, 'ace40780-progenitoroffrost', 10, '2024-07-15 02:34:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40780,   1,         16) /* ItemType - Creature */
@@ -59,7 +59,8 @@ VALUES (40780,   1,       5) /* HeartbeatInterval */
      , (40780, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40780,   1, 'Progenitor of Frost') /* Name */;
+VALUES (40780,   1, 'Progenitor of Frost') /* Name */
+     , (40780,  45, 'KillTaskCrystallineWisps10109') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40780,   1, 0x02000A29) /* Setup */
@@ -83,30 +84,27 @@ VALUES (40780,   1,  3020, 0, 0, 3120) /* MaxHealth */
      , (40780,   5,  1200, 0, 0, 1570) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40780,  6, 0, 3, 0, 243, 0, 0) /* MeleeDefense        Specialized */
-     , (40780,  7, 0, 3, 0, 194, 0, 0) /* MissileDefense      Specialized */
-     , (40780, 14, 0, 3, 0, 223, 0, 0) /* ArcaneLore          Specialized */
-     , (40780, 15, 0, 3, 0, 356, 0, 0) /* MagicDefense        Specialized */
-     , (40780, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (40780, 24, 0, 3, 0, 340, 0, 0) /* Run                 Specialized */
-     , (40780, 31, 0, 3, 0, 295, 0, 0) /* CreatureEnchantment Specialized */
-     , (40780, 33, 0, 3, 0, 295, 0, 0) /* LifeMagic           Specialized */
-     , (40780, 34, 0, 3, 0, 295, 0, 0) /* WarMagic            Specialized */
-     , (40780, 45, 0, 3, 0, 137, 0, 0) /* LightWeapons        Specialized */;
+VALUES (40780,  6, 0, 3, 0, 280, 0, 0) /* MeleeDefense        Specialized */
+     , (40780,  7, 0, 3, 0, 400, 0, 0) /* MissileDefense      Specialized */
+     , (40780, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
+     , (40780, 20, 0, 3, 0,  80, 0, 0) /* Deception           Specialized */
+     , (40780, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */
+     , (40780, 31, 0, 3, 0, 160, 0, 0) /* CreatureEnchantment Specialized */
+     , (40780, 33, 0, 3, 0, 160, 0, 0) /* LifeMagic           Specialized */
+     , (40780, 34, 0, 3, 0, 160, 0, 0) /* WarMagic            Specialized */
+     , (40780, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (40780,  0, 32, 50,  0.5,  140,  112,  140,  112,  280,  140,  280,  280,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (40780, 16, 32,  0,    0,  140,  112,  140,  112,  280,  140,  280,  280,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (40780, 17, 32,  5, 0.75,  120,   96,  120,   96,  240,  120,  240,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40780, 21, 32,  0,    0,  110,   88,  110,   88,  220,  110,  220,  220,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (40780,  0,  8, 80,  0.5,  140,  112,  140,  112,  280,  140,  280,  280,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (40780, 16,  8,  0,    0,  140,  112,  140,  112,  280,  140,  280,  280,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (40780, 17,  8, 40, 0.75,  120,   96,  120,   96,  240,  120,  240,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (40780, 21,  8,  0,    0,  110,   88,  110,   88,  220,  110,  220,  220,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40780,  2136,    2.2)  /* Icy Torment */
-     , (40780,  2138,    2.2)  /* Blizzard */
-     , (40780,  1160,    2.1)  /* Heal Self V */
-     , (40780,  1240,      2)  /* Drain Health Other IV */
-     , (40780,  1252,      2)  /* Drain Stamina Other IV */
-     , (40780,  1263,      2)  /* Drain Mana Other IV */;
+VALUES (40780,  2136,   2.15)  /* Icy Torment */
+     , (40780,  2138,   2.18)  /* Blizzard */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40780, 9, 40793,  1, 0, 0, False) /* Create Progenitor Crystal (40793) for ContainTreasure */;
+VALUES (40780, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (40780, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (40780, 9, 40793,  1, 0, 0, False) /* Create Progenitor Crystal (40793) for ContainTreasure */;
