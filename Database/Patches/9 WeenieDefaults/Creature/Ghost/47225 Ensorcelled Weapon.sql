@@ -15,7 +15,9 @@ VALUES (47225,   1,         16) /* ItemType - Creature */
      , (47225,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (47225, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
      , (47225, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (47225, 146,     800500) /* XpOverride */;
+     , (47225, 146,     800500) /* XpOverride */
+     , (47225, 307,         20) /* DamageRating */
+     , (47225, 316,         15) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47225,   1, True ) /* Stuck */
@@ -71,30 +73,25 @@ VALUES (47225,   1, 0x02001BA7) /* Setup */
      , (47225,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47225,   1, 300, 0, 0) /* Strength */
-     , (47225,   2, 220, 0, 0) /* Endurance */
-     , (47225,   3, 220, 0, 0) /* Quickness */
-     , (47225,   4, 220, 0, 0) /* Coordination */
-     , (47225,   5, 220, 0, 0) /* Focus */
-     , (47225,   6, 250, 0, 0) /* Self */;
+VALUES (47225,   1, 340, 0, 0) /* Strength */
+     , (47225,   2, 350, 0, 0) /* Endurance */
+     , (47225,   3, 310, 0, 0) /* Quickness */
+     , (47225,   4, 385, 0, 0) /* Coordination */
+     , (47225,   5, 410, 0, 0) /* Focus */
+     , (47225,   6, 310, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47225,   1,  9765, 0, 0, 9875) /* MaxHealth */
-     , (47225,   3,  3000, 0, 0, 3220) /* MaxStamina */
-     , (47225,   5,  2000, 0, 0, 2250) /* MaxMana */;
+VALUES (47225,   1,  9700, 0, 0, 9875) /* MaxHealth */
+     , (47225,   3,  7700, 0, 0, 8050) /* MaxStamina */
+     , (47225,   5,  5500, 0, 0, 5810) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (47225,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
-     , (47225,  7, 0, 2, 0, 350, 0, 0) /* MissileDefense      Trained */
+VALUES (47225,  6, 0, 2, 0, 483, 0, 0) /* MeleeDefense        Trained */
+     , (47225,  7, 0, 2, 0, 530, 0, 0) /* MissileDefense      Trained */
      , (47225, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
      , (47225, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (47225, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
-     , (47225, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
-     , (47225, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */
-     , (47225, 46, 0, 3, 0, 395, 0, 0) /* FinesseWeapons      Specialized */
-     , (47225, 48, 0, 3, 0, 395, 0, 0) /* Shield              Specialized */
-     , (47225, 49, 0, 3, 0, 395, 0, 0) /* DualWield           Specialized */
-     , (47225, 51, 0, 3, 0, 395, 0, 0) /* SneakAttack         Specialized */;
+     , (47225, 41, 0, 2, 0, 475, 0, 0) /* TwoHandedCombat     Trained */
+     , (47225, 51, 0, 2, 0, 485, 0, 0) /* SneakAttack         Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (47225,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

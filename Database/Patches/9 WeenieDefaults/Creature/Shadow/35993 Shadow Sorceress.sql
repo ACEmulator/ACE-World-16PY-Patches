@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35993;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35993, 'ace35993-shadowsorceress', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (35993, 'ace35993-shadowsorceress', 10, '2024-07-10 12:26:05') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35993,   1,         16) /* ItemType - Creature */
@@ -84,60 +84,46 @@ VALUES (35993,   1, 0x0200071B) /* Setup */
      , (35993,  35,       1011) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (35993,   1, 270, 0, 0) /* Strength */
+VALUES (35993,   1, 190, 0, 0) /* Strength */
      , (35993,   2, 210, 0, 0) /* Endurance */
-     , (35993,   3, 320, 0, 0) /* Quickness */
-     , (35993,   4, 310, 0, 0) /* Coordination */
-     , (35993,   5, 470, 0, 0) /* Focus */
-     , (35993,   6, 470, 0, 0) /* Self */;
+     , (35993,   3, 260, 0, 0) /* Quickness */
+     , (35993,   4, 240, 0, 0) /* Coordination */
+     , (35993,   5, 220, 0, 0) /* Focus */
+     , (35993,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35993,   1,  1895, 0, 0, 2000) /* MaxHealth */
-     , (35993,   3,   700, 0, 0, 910) /* MaxStamina */
-     , (35993,   5,  1530, 0, 0, 2000) /* MaxMana */;
+     , (35993,   3,  2000, 0, 0, 2210) /* MaxStamina */
+     , (35993,   5,  2000, 0, 0, 2140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35993,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
-     , (35993,  7, 0, 3, 0, 226, 0, 0) /* MissileDefense      Specialized */
-     , (35993, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
-     , (35993, 15, 0, 3, 0, 244, 0, 0) /* MagicDefense        Specialized */
-     , (35993, 31, 0, 3, 0, 335, 0, 0) /* CreatureEnchantment Specialized */
-     , (35993, 33, 0, 3, 0, 335, 0, 0) /* LifeMagic           Specialized */
-     , (35993, 34, 0, 3, 0, 335, 0, 0) /* WarMagic            Specialized */
-     , (35993, 44, 0, 3, 0, 293, 0, 0) /* HeavyWeapons        Specialized */
-     , (35993, 45, 0, 3, 0, 293, 0, 0) /* LightWeapons        Specialized */
-     , (35993, 46, 0, 3, 0, 293, 0, 0) /* FinesseWeapons      Specialized */
-     , (35993, 47, 0, 3, 0, 255, 0, 0) /* MissileWeapons      Specialized */;
+VALUES (35993,  6, 0, 3, 0, 367, 0, 0) /* MeleeDefense        Specialized */
+     , (35993,  7, 0, 3, 0, 205, 0, 0) /* MissileDefense      Specialized */
+     , (35993, 15, 0, 3, 0, 260, 0, 0) /* MagicDefense        Specialized */
+     , (35993, 31, 0, 3, 0, 226, 0, 0) /* CreatureEnchantment Specialized */
+     , (35993, 33, 0, 3, 0, 226, 0, 0) /* LifeMagic           Specialized */
+     , (35993, 34, 0, 3, 0, 226, 0, 0) /* WarMagic            Specialized */
+     , (35993, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35993,  0,  4,  0,    0,  400,  400,  320,  340,  440,  240,  280,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (35993,  1,  4,  0,    0,  400,  400,  320,  340,  440,  240,  280,  300,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (35993,  2,  4,  0,    0,  400,  400,  320,  340,  440,  240,  280,  300,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (35993,  3,  4,  0,    0,  400,  400,  320,  340,  440,  240,  280,  300,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (35993,  4,  4,  0,    0,  400,  400,  320,  340,  440,  240,  280,  300,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (35993,  5,  4, 50, 0.75,  400,  400,  320,  340,  440,  240,  280,  300,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (35993,  6,  4,  0,    0,  400,  400,  320,  340,  440,  240,  280,  300,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (35993,  7,  4,  0,    0,  400,  400,  320,  340,  440,  240,  280,  300,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (35993,  8,  4, 60, 0.75,  400,  400,  320,  340,  440,  240,  280,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (35993,  0,  4,  0,    0,  380,  190,  190,  190,  190,  190,  190,  190,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (35993,  1,  4,  0,    0,  310,  155,  155,  155,  155,  155,  155,  155,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (35993,  2,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (35993,  3,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (35993,  4,  4,  0,    0,  320,  160,  160,  160,  160,  160,  160,  160,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (35993,  5,  4, 60, 0.75,  350,  175,  175,  175,  175,  175,  175,  175,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (35993,  6,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (35993,  7,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (35993,  8,  4, 60, 0.75,  420,  210,  210,  210,  210,  210,  210,  210,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35993,  1161,  2.009)  /* Heal Self VI */
-     , (35993,  1265,  2.009)  /* Drain Mana Other VI */
-     , (35993,  2074,   2.01)  /* Gossamer Flesh */
-     , (35993,  2132,  2.005)  /* The Spike */
-     , (35993,  2133,  2.036)  /* Outlander's Insolence */
-     , (35993,  2136,  2.036)  /* Icy Torment */
-     , (35993,  2137,  2.005)  /* Sudden Frost */
-     , (35993,  2140,  2.036)  /* Alset's Coil */
-     , (35993,  2141,  2.036)  /* Lhen's Flare */
-     , (35993,  2164,   2.02)  /* Swordsman's Gift */
-     , (35993,  2168,   2.01)  /* Gelidite's Gift */
-     , (35993,  2172,  2.005)  /* Astyrrian's Gift */
-     , (35993,  2174,  2.005)  /* Archer's Gift */
-     , (35993,  2282,   2.02)  /* Futility */
-     , (35993,  2318,   2.01)  /* Gravity Well */
-     , (35993,  4452,  2.009)  /* Incantation of Lightning Streak */;
+VALUES (35993,  2170,   2.05)  /* Inferno's Gift */
+     , (35993,  2128,   2.58)  /* Ilservian's Flame */
+     , (35993,  2074,   2.12)  /* Gossamer Flesh */
+     , (35993,  2166,   2.14)  /* Tusker's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35993, 9, 23108,  1, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (35993, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+VALUES (35993, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (35993, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (35993, 9,  6058,  0, 0, 0.05, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (35993, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

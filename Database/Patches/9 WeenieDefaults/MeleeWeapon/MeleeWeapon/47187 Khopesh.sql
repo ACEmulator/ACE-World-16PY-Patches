@@ -12,11 +12,11 @@ VALUES (47187,   1,          1) /* ItemType - MeleeWeapon */
      , (47187,  19,        160) /* Value */
      , (47187,  33,         -2) /* Bonded - Destroy */
      , (47187,  37,       9999) /* ResistItemAppraisal */
-     , (47187,  44,         50) /* Damage */
+     , (47187,  44,         80) /* Damage */
      , (47187,  45,          3) /* DamageType - Slash, Pierce */
      , (47187,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (47187,  47,        486) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
-     , (47187,  48,         11) /* WeaponSkill - Sword */
+     , (47187,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (47187,  49,          1) /* WeaponTime */
      , (47187,  51,          1) /* CombatUse - Melee */
      , (47187,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
