@@ -132,9 +132,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You come for the meaningless souls of these desert beings? Their lifeforce serves so much more purpose infused into metal and wood. Eternal. The vision does not end on this day, not by the likes of you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47045, 10, 47044,  1, 0, 0.5, False) /* Create Khopesh (47044) for WieldTreasure */
-     , (47045, 10, 47046,  1, 0, 0.5, False) /* Create Sickle (47046) for WieldTreasure */
-     , (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */
+VALUES (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */
      , (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */
      , (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */
      , (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */
@@ -151,4 +149,6 @@ VALUES (47045, 10, 47044,  1, 0, 0.5, False) /* Create Khopesh (47044) for Wield
      , (47045, 9, 47152,  0, 0, 1, False) /* Create Ancient Falatacot Symbol (47152) for ContainTreasure */
      , (47045, 9, 47152,  0, 0, 1, False) /* Create Ancient Falatacot Symbol (47152) for ContainTreasure */
      , (47045, 9, 47152,  0, 0, 1, False) /* Create Ancient Falatacot Symbol (47152) for ContainTreasure */
-     , (47045, 9, 47152,  0, 0, 1, False) /* Create Ancient Falatacot Symbol (47152) for ContainTreasure */;
+     , (47045, 9, 47152,  0, 0, 1, False) /* Create Ancient Falatacot Symbol (47152) for ContainTreasure */
+     , (47045, 10, 47044,  1, 0, 0.5, False) /* Create Khopesh (47044) for WieldTreasure */
+     , (47045, 10, 47046,  1, 0, 0.5, False) /* Create Sickle (47046) for WieldTreasure */;
