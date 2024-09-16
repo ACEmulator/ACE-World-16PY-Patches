@@ -1,5 +1,6 @@
-NewEnemy:
-    - Say: I've been expecting you, Your painful demise awaits., Extent: 20
+Death:
+    - Extent: 20, Say: I have failed you my mistress. Forgive me!
 
-Death: 
-    - Say: I have failed you my mistress. Forgive me!, Extent: 20
+NewEnemy:
+    - Tell: I've been expecting you. Your painful demise awaits.
+

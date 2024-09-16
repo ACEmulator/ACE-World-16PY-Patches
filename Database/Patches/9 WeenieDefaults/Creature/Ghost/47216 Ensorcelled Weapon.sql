@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47216, 'ace47216-ensorcelledweapon', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (47216, 'ace47216-ensorcelledweapon', 10, '2024-09-16 04:28:34') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47216,   1,         16) /* ItemType - Creature */
@@ -15,7 +15,7 @@ VALUES (47216,   1,         16) /* ItemType - Creature */
      , (47216,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (47216, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
      , (47216, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (47216, 146,     800500) /* XpOverride */;
+     , (47216, 146,    1050000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47216,   1, True ) /* Stuck */
@@ -84,17 +84,14 @@ VALUES (47216,   1,  3355, 0, 0, 3465) /* MaxHealth */
      , (47216,   5,  2000, 0, 0, 2250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (47216,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
-     , (47216,  7, 0, 2, 0, 350, 0, 0) /* MissileDefense      Trained */
+VALUES (47216,  6, 0, 2, 0, 568, 0, 0) /* MeleeDefense        Trained */
+     , (47216,  7, 0, 2, 0, 581, 0, 0) /* MissileDefense      Trained */
      , (47216, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
      , (47216, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (47216, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
-     , (47216, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
-     , (47216, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */
-     , (47216, 46, 0, 3, 0, 395, 0, 0) /* FinesseWeapons      Specialized */
-     , (47216, 48, 0, 3, 0, 395, 0, 0) /* Shield              Specialized */
-     , (47216, 49, 0, 3, 0, 395, 0, 0) /* DualWield           Specialized */
-     , (47216, 51, 0, 3, 0, 395, 0, 0) /* SneakAttack         Specialized */;
+     , (47216, 45, 0, 2, 0, 544, 0, 0) /* LightWeapons        Trained */
+     , (47216, 46, 0, 2, 0, 570, 0, 0) /* FinesseWeapons      Trained */
+     , (47216, 49, 0, 2, 0, 570, 0, 0) /* DualWield           Trained */
+     , (47216, 51, 0, 2, 0, 570, 0, 0) /* SneakAttack         Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (47216,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -108,6 +105,6 @@ VALUES (47216,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,
      , (47216,  8,  4, 600, 0.75,  400,  400,  360,  300,  400,  400,  268,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47216, 2, 47219,  1, 0, 0.33, False) /* Create Ensorcelled Sword (47219) for Wield */
-     , (47216, 2, 47220,  1, 0, 0.33, False) /* Create Ensorcelled Dagger (47220) for Wield */
-     , (47216, 2, 47222,  1, 0, 0.33, False) /* Create Ensorcelled Mace (47222) for Wield */;
+VALUES (47216, 10, 47219,  1, 0, 0.33, False) /* Create Ensorcelled Sword (47219) for WieldTreasure */
+     , (47216, 10, 47220,  1, 0, 0.33, False) /* Create Ensorcelled Dagger (47220) for WieldTreasure */
+     , (47216, 10, 47222,  1, 0, 0.34, False) /* Create Ensorcelled Mace (47222) for WieldTreasure */;

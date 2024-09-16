@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35988;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35988, 'ace35988-shadowcommander', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (35988, 'ace35988-shadowcommander', 10, '2024-09-16 04:28:34') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35988,   1,         16) /* ItemType - Creature */
@@ -72,25 +72,9 @@ VALUES (35988,   1, 0x02000001) /* Setup */
      , (35988,   3, 0x20000001) /* SoundTable */
      , (35988,   4, 0x30000028) /* CombatTable */
      , (35988,   6, 0x0400007E) /* PaletteBase */
-     , (35988,   7, 0x1000059C) /* ClothingBase */
+     , (35988,   7, 0x100000B0) /* ClothingBase */
      , (35988,   8, 0x06001BBD) /* Icon */
      , (35988,  22, 0x34000063) /* PhysicsEffectTable */
-     , (35988,  32,       5920) /* WieldedTreasureType - 
-                                   |  10.00% chance of Shadow Blade (33080)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  10.00% chance of Shadow Blade (33081)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  10.00% chance of Shadow Blade (33082)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  10.00% chance of Shadow Blade (33083)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105)
-                                   |  60.00% chance of Shadow Blade (33084)
-                                   |         with
-                                   |            100.00% chance of Shield of Isin Dule (33105) */
      , (35988,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -107,37 +91,43 @@ VALUES (35988,   1,  1855, 0, 0, 2000) /* MaxHealth */
      , (35988,   5,  1240, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35988,  6, 0, 3, 0, 287, 0, 0) /* MeleeDefense        Specialized */
-     , (35988,  7, 0, 3, 0, 212, 0, 0) /* MissileDefense      Specialized */
-     , (35988, 15, 0, 3, 0, 210, 0, 0) /* MagicDefense        Specialized */
-     , (35988, 31, 0, 3, 0, 317, 0, 0) /* CreatureEnchantment Specialized */
-     , (35988, 33, 0, 3, 0, 317, 0, 0) /* LifeMagic           Specialized */
-     , (35988, 34, 0, 3, 0, 317, 0, 0) /* WarMagic            Specialized */
-     , (35988, 45, 0, 3, 0, 287, 0, 0) /* LightWeapons        Specialized */
-     , (35988, 46, 0, 3, 0, 287, 0, 0) /* FinesseWeapons      Specialized */;
+VALUES (35988,  6, 0, 2, 0, 393, 0, 0) /* MeleeDefense        Trained */
+     , (35988,  7, 0, 2, 0, 288, 0, 0) /* MissileDefense      Trained */
+     , (35988, 15, 0, 2, 0, 211, 0, 0) /* MagicDefense        Trained */
+     , (35988, 31, 0, 2, 0, 130, 0, 0) /* CreatureEnchantment Trained */
+     , (35988, 33, 0, 2, 0, 130, 0, 0) /* LifeMagic           Trained */
+     , (35988, 34, 0, 2, 0, 130, 0, 0) /* WarMagic            Trained */
+     , (35988, 44, 0, 2, 0, 420, 0, 0) /* HeavyWeapons        Trained */
+     , (35988, 45, 0, 2, 0, 420, 0, 0) /* LightWeapons        Trained */
+     , (35988, 46, 0, 2, 0, 420, 0, 0) /* FinesseWeapons      Trained */
+     , (35988, 48, 0, 2, 0, 300, 0, 0) /* Shield              Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35988,  0,  4,  0,    0,  390,  222,  222,  222,  140,   66,  335,  312,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (35988,  1,  4,  0,    0,  390,  222,  222,  222,  140,   66,  335,  312,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (35988,  2,  4,  0,    0,  390,  222,  222,  222,  140,   66,  335,  312,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (35988,  3,  4,  0,    0,  390,  222,  222,  222,  140,   66,  335,  312,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (35988,  4,  4,  0,    0,  390,  222,  222,  222,  140,   66,  335,  312,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (35988,  5,  4, 60, 0.75,  390,  222,  222,  222,  140,   66,  335,  312,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (35988,  6,  4,  0,    0,  390,  222,  222,  222,  140,   66,  335,  312,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (35988,  7,  4,  0,    0,  390,  222,  222,  222,  140,   66,  335,  312,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (35988,  8,  4, 60, 0.75,  390,  222,  222,  222,  140,   66,  335,  312,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (35988,  0,  4,  0,    0,  380,  217,  217,  217,  137,   65,  327,  304,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (35988,  1,  4,  0,    0,  310,  177,  177,  177,  112,   53,  267,  248,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (35988,  2,  4,  0,    0,  350,  199,  199,  199,  126,   60,  301,  280,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (35988,  3,  4,  0,    0,  350,  199,  199,  199,  126,   60,  301,  280,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (35988,  4,  4,  0,    0,  320,  182,  182,  182,  115,   54,  275,  256,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (35988,  5,  4, 150, 0.75,  350,  199,  199,  199,  126,   60,  301,  280,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (35988,  6,  4,  0,    0,  350,  199,  199,  199,  126,   60,  301,  280,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (35988,  7,  4,  0,    0,  350,  199,  199,  199,  126,   60,  301,  280,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (35988,  8,  4, 150, 0.75,  420,  239,  239,  239,  151,   71,  361,  336,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (35988,  2146,   2.05)  /* Evisceration */
+     , (35988,  2132,   2.05)  /* The Spike */
+     , (35988,  2318,   2.06)  /* Gravity Well */
+     , (35988,  2282,   2.06)  /* Futility */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35988, 2, 21159,  1, 93, 0, False) /* Create Covenant Tassets (21159) for Wield */
-     , (35988, 2, 21152,  1, 93, 0, False) /* Create Covenant Breastplate (21152) for Wield */
-     , (35988, 2, 21157,  1, 93, 0, False) /* Create Covenant Pauldrons (21157) for Wield */
-     , (35988, 2, 21151,  1, 93, 0, False) /* Create Covenant Bracers (21151) for Wield */
-     , (35988, 2, 21153,  1, 93, 0, False) /* Create Covenant Gauntlets (21153) for Wield */
-     , (35988, 2, 21154,  1, 93, 0, False) /* Create Covenant Girth (21154) for Wield */
-     , (35988, 2, 21155,  1, 93, 0, False) /* Create Covenant Greaves (21155) for Wield */
-     , (35988, 2, 21150,  1, 93, 0, False) /* Create Covenant Sollerets (21150) for Wield */
-     , (35988, 2, 87038,  1, 93, 0, False) /* Create Helm of Isin Dule (87038) for Wield */
-     , (35988, 2,  2597,  1, 92, 0, False) /* Create Flared Pants (2597) for Wield */
-     , (35988, 2,  2588,  1, 14, 0, False) /* Create Flared Shirt (2588) for Wield */
-     , (35988, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
-     , (35988, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+VALUES (35988, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (35988, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (35988, 10, 47679,  1, 0, 0.125, False) /* Create Flaming Tachi (47679) for WieldTreasure */
+     , (35988, 10, 48041,  1, 0, 0.125, False) /* Create Nekode (48041) for WieldTreasure */
+     , (35988, 10, 48040,  1, 0, 0.125, False) /* Create Lightning Katar (48040) for WieldTreasure */
+     , (35988, 10, 47646,  1, 0, 0.125, False) /* Create Tachi (47646) for WieldTreasure */
+     , (35988, 10, 47627,  1, 0, 0.125, False) /* Create Acid Tachi (47627) for WieldTreasure */
+     , (35988, 10, 48498,  1, 0, 0.125, False) /* Create Flaming Katar (48498) for WieldTreasure */
+     , (35988, 10, 47661,  1, 0, 0.125, False) /* Create Lightning Tachi (47661) for WieldTreasure */
+     , (35988, 10, 48038,  1, 0, 0.125, False) /* Create Acid Katar (48038) for WieldTreasure */
+     , (35988, 10, 23685,  1, 0, 0.5, False) /* Create Kite Shield (23685) for WieldTreasure */;

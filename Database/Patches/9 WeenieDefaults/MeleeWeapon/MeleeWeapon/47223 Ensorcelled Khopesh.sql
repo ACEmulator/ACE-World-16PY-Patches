@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47223;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47223, 'ace47223-ensorcelledkhopesh', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (47223, 'ace47223-ensorcelledkhopesh', 6, '2024-09-16 04:28:34') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47223,   1,          1) /* ItemType - MeleeWeapon */
@@ -13,7 +13,7 @@ VALUES (47223,   1,          1) /* ItemType - MeleeWeapon */
      , (47223,  19,       1150) /* Value */
      , (47223,  33,         -2) /* Bonded - Destroy */
      , (47223,  37,       9999) /* ResistItemAppraisal */
-     , (47223,  44,        400) /* Damage */
+     , (47223,  44,        100) /* Damage */
      , (47223,  45,          1) /* DamageType - Slash */
      , (47223,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (47223,  47,          4) /* AttackType - Slash */

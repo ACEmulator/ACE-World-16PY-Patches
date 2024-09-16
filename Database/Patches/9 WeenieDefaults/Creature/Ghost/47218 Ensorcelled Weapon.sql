@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47218;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47218, 'ace47218-ensorcelledweapon', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (47218, 'ace47218-ensorcelledweapon', 10, '2024-09-16 04:28:34') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47218,   1,         16) /* ItemType - Creature */
@@ -13,9 +13,11 @@ VALUES (47218,   1,         16) /* ItemType - Creature */
      , (47218,  27,          0) /* ArmorType - None */
      , (47218,  68,          3) /* TargetingTactic - Random, Focused */
      , (47218,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (47218, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (47218, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (47218, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (47218, 146,     800500) /* XpOverride */;
+     , (47218, 146,    1200000) /* XpOverride */
+     , (47218, 307,          5) /* DamageRating */
+     , (47218, 316,         15) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47218,   1, True ) /* Stuck */
@@ -71,31 +73,26 @@ VALUES (47218,   1, 0x02001BA8) /* Setup */
      , (47218,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47218,   1, 300, 0, 0) /* Strength */
-     , (47218,   2, 220, 0, 0) /* Endurance */
-     , (47218,   3, 220, 0, 0) /* Quickness */
-     , (47218,   4, 220, 0, 0) /* Coordination */
-     , (47218,   5, 220, 0, 0) /* Focus */
-     , (47218,   6, 250, 0, 0) /* Self */;
+VALUES (47218,   1, 330, 0, 0) /* Strength */
+     , (47218,   2, 330, 0, 0) /* Endurance */
+     , (47218,   3, 300, 0, 0) /* Quickness */
+     , (47218,   4, 380, 0, 0) /* Coordination */
+     , (47218,   5, 400, 0, 0) /* Focus */
+     , (47218,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47218,   1,  4755, 0, 0, 4865) /* MaxHealth */
-     , (47218,   3,  3000, 0, 0, 3220) /* MaxStamina */
-     , (47218,   5,  2000, 0, 0, 2250) /* MaxMana */;
+VALUES (47218,   1,  4700, 0, 0, 4865) /* MaxHealth */
+     , (47218,   3,  3290, 0, 0, 3620) /* MaxStamina */
+     , (47218,   5,  1500, 0, 0, 1790) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (47218,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
-     , (47218,  7, 0, 2, 0, 350, 0, 0) /* MissileDefense      Trained */
+VALUES (47218,  6, 0, 2, 0, 488, 0, 0) /* MeleeDefense        Trained */
+     , (47218,  7, 0, 2, 0, 533, 0, 0) /* MissileDefense      Trained */
      , (47218, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
      , (47218, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (47218, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
-     , (47218, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
-     , (47218, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */
-     , (47218, 46, 0, 3, 0, 395, 0, 0) /* FinesseWeapons      Specialized */
-     , (47218, 47, 0, 3, 0, 350, 0, 0) /* MissileWeapons      Specialized */
-     , (47218, 48, 0, 3, 0, 395, 0, 0) /* Shield              Specialized */
-     , (47218, 49, 0, 3, 0, 395, 0, 0) /* DualWield           Specialized */
-     , (47218, 51, 0, 3, 0, 395, 0, 0) /* SneakAttack         Specialized */;
+     , (47218, 45, 0, 2, 0, 480, 0, 0) /* LightWeapons        Trained */
+     , (47218, 47, 0, 2, 0, 350, 0, 0) /* MissileWeapons      Trained */
+     , (47218, 51, 0, 2, 0, 395, 0, 0) /* SneakAttack         Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (47218,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
