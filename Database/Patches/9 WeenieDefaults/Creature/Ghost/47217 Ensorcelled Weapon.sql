@@ -15,7 +15,9 @@ VALUES (47217,   1,         16) /* ItemType - Creature */
      , (47217,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (47217, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
      , (47217, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (47217, 146,     800500) /* XpOverride */;
+     , (47217, 146,    1550000) /* XpOverride */
+     , (47217, 307,          5) /* DamageRating */
+     , (47217, 316,         15) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47217,   1, True ) /* Stuck */
@@ -88,11 +90,8 @@ VALUES (47217,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (47217,  7, 0, 2, 0, 350, 0, 0) /* MissileDefense      Trained */
      , (47217, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
      , (47217, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (47217, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
-     , (47217, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (47217, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */
      , (47217, 46, 0, 3, 0, 395, 0, 0) /* FinesseWeapons      Specialized */
-     , (47217, 48, 0, 3, 0, 395, 0, 0) /* Shield              Specialized */
      , (47217, 49, 0, 3, 0, 395, 0, 0) /* DualWield           Specialized */
      , (47217, 51, 0, 3, 0, 395, 0, 0) /* SneakAttack         Specialized */;
 
@@ -108,6 +107,6 @@ VALUES (47217,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,
      , (47217,  8,  4, 600, 0.75,  400,  400,  360,  300,  400,  400,  268,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47217, 2, 47219,  1, 0, 0.33, False) /* Create Ensorcelled Sword (47219) for Wield */
-     , (47217, 2, 47220,  1, 0, 0.33, False) /* Create Ensorcelled Dagger (47220) for Wield */
-     , (47217, 2, 47222,  1, 0, 0.33, False) /* Create Ensorcelled Mace (47222) for Wield */;
+VALUES (47217, 10, 47219,  1, 0, 0.33, False) /* Create Ensorcelled Sword (47219) for WieldTreasure */
+     , (47217, 10, 47220,  1, 0, 0.33, False) /* Create Ensorcelled Dagger (47220) for WieldTreasure */
+     , (47217, 10, 47222,  1, 0, 0.34, False) /* Create Ensorcelled Mace (47222) for WieldTreasure */;

@@ -18,7 +18,7 @@ VALUES (47045,   1,         16) /* ItemType - Creature */
      , (47045, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (47045, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (47045, 140,          1) /* AiOptions - CanOpenDoors */
-     , (47045, 146,    1100000) /* XpOverride */;
+     , (47045, 146,    4000000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47045,   1, True ) /* Stuck */
@@ -92,19 +92,16 @@ VALUES (47045,   1, 19668, 0, 0, 19878) /* MaxHealth */
      , (47045,   5,  8560, 0, 0, 9050) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (47045,  6, 0, 3, 0, 395, 0, 0) /* MeleeDefense        Specialized */
-     , (47045,  7, 0, 3, 0, 405, 0, 0) /* MissileDefense      Specialized */
-     , (47045, 14, 0, 3, 0, 240, 0, 0) /* ArcaneLore          Specialized */
-     , (47045, 15, 0, 3, 0, 370, 0, 0) /* MagicDefense        Specialized */
-     , (47045, 20, 0, 3, 0, 555, 0, 0) /* Deception           Specialized */
-     , (47045, 31, 0, 3, 0, 275, 0, 0) /* CreatureEnchantment Specialized */
-     , (47045, 33, 0, 3, 0, 275, 0, 0) /* LifeMagic           Specialized */
-     , (47045, 34, 0, 3, 0, 275, 0, 0) /* WarMagic            Specialized */
-     , (47045, 44, 0, 3, 0, 375, 0, 0) /* HeavyWeapons        Specialized */
-     , (47045, 45, 0, 3, 0, 375, 0, 0) /* LightWeapons        Specialized */
-     , (47045, 46, 0, 3, 0, 375, 0, 0) /* FinesseWeapons      Specialized */
-     , (47045, 47, 0, 3, 0, 175, 0, 0) /* MissileWeapons      Specialized */
-     , (47045, 48, 0, 3, 0, 300, 0, 0) /* Shield              Specialized */;
+VALUES (47045,  6, 0, 2, 0, 447, 0, 0) /* MeleeDefense        Trained */
+     , (47045,  7, 0, 2, 0, 532, 0, 0) /* MissileDefense      Trained */
+     , (47045, 15, 0, 2, 0, 340, 0, 0) /* MagicDefense        Trained */
+     , (47045, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
+     , (47045, 31, 0, 2, 0, 253, 0, 0) /* CreatureEnchantment Trained */
+     , (47045, 33, 0, 2, 0, 253, 0, 0) /* LifeMagic           Trained */
+     , (47045, 34, 0, 2, 0, 253, 0, 0) /* WarMagic            Trained */
+     , (47045, 44, 0, 2, 0, 541, 0, 0) /* HeavyWeapons        Trained */
+     , (47045, 45, 0, 2, 0, 541, 0, 0) /* LightWeapons        Trained */
+     , (47045, 46, 0, 2, 0, 554, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (47045,  0,  4,  0,    0,  425,  425,  553,  425,  553,  425,  425,  510,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -135,8 +132,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You come for the meaningless souls of these desert beings? Their lifeforce serves so much more purpose infused into metal and wood. Eternal. The vision does not end on this day, not by the likes of you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47045, 2, 47044,  1, 0, 0.55, False) /* Create Khopesh (47044) for Wield */
-     , (47045, 2, 47046,  1, 0, 0.56, False) /* Create Sickle (47046) for Wield */
+VALUES (47045, 10, 47044,  1, 0, 0.5, False) /* Create Khopesh (47044) for WieldTreasure */
+     , (47045, 10, 47046,  1, 0, 0.5, False) /* Create Sickle (47046) for WieldTreasure */
      , (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */
      , (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */
      , (47045, 9, 48914,  0, 0, 1, False) /* Create Legendary Key (48914) for ContainTreasure */

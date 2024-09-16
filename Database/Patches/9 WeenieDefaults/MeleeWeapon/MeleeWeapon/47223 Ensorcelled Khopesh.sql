@@ -13,7 +13,7 @@ VALUES (47223,   1,          1) /* ItemType - MeleeWeapon */
      , (47223,  19,       1150) /* Value */
      , (47223,  33,         -2) /* Bonded - Destroy */
      , (47223,  37,       9999) /* ResistItemAppraisal */
-     , (47223,  44,        400) /* Damage */
+     , (47223,  44,        100) /* Damage */
      , (47223,  45,          1) /* DamageType - Slash */
      , (47223,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (47223,  47,          4) /* AttackType - Slash */
