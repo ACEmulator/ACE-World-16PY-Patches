@@ -11,7 +11,7 @@ VALUES (35857,   1,          2) /* ItemType - Armor */
      , (35857,  16,          1) /* ItemUseable - No */
      , (35857,  18,          1) /* UiEffects - Magical */
      , (35857,  19,       8000) /* Value */
-     , (35857,  28,        580) /* ArmorLevel */
+     , (35857,  28,        360) /* ArmorLevel */
      , (35857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35857, 106,        300) /* ItemSpellcraft */
      , (35857, 107,       3000) /* ItemCurMana */
