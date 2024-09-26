@@ -22,7 +22,7 @@ VALUES (87642,   1, 'Tanada House of Wind') /* Name */
      , (87642,  37, 'TanadaHouseofWind_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87642,   1, 0x020001B3) /* Setup */
+VALUES (87642,   1, 0x020005D5) /* Setup */
      , (87642,   2, 0x09000003) /* MotionTable */
      , (87642,   8, 0x0600106B) /* Icon */;
 
