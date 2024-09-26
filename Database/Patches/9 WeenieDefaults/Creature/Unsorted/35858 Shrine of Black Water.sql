@@ -8,12 +8,25 @@ VALUES (35858,   1,         16) /* ItemType - Creature */
      , (35858,   6,         -1) /* ItemsCapacity */
      , (35858,   7,         -1) /* ContainersCapacity */
      , (35858,  16,         32) /* ItemUseable - Remote */
+     , (35858,  25,        115) /* Level */
+     , (35858,  27,          0) /* ArmorType - None */
      , (35858,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (35858,  95,          3) /* RadarBlipColor - White */;
+     , (35858,  95,          3) /* RadarBlipColor - White */
+     , (35858, 133,          0) /* ShowableOnRadar - Undefined */
+     , (35858, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (35858, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35858,   1, True ) /* Stuck */
-     , (35858,  19, False) /* Attackable */;
+     , (35858,  11, False) /* IgnoreCollisions */
+     , (35858,  12, True ) /* ReportCollisions */
+     , (35858,  13, False) /* Ethereal */
+     , (35858,  19, False) /* Attackable */
+     , (35858,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (35858,  42, True ) /* AllowEdgeSlide */
+     , (35858,  52, True ) /* AiImmobile */
+     , (35858,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (35858,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35858,  54,       3) /* UseRadius */;

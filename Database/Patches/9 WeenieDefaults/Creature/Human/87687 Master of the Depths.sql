@@ -101,14 +101,16 @@ VALUES (87687,   1,   280, 0, 0, 400) /* MaxHealth */
      , (87687,   5,   140, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (87687,  6, 0, 3, 0, 255, 0, 0) /* MeleeDefense        Specialized */
-     , (87687,  7, 0, 3, 0, 194, 0, 0) /* MissileDefense      Specialized */
-     , (87687, 15, 0, 3, 0, 173, 0, 0) /* MagicDefense        Specialized */
+VALUES (87687,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
+     , (87687,  7, 0, 3, 0, 415, 0, 0) /* MissileDefense      Specialized */
+     , (87687, 15, 0, 3, 0, 179, 0, 0) /* MagicDefense        Specialized */
      , (87687, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */
-     , (87687, 33, 0, 3, 0, 210, 0, 0) /* LifeMagic           Specialized */
-     , (87687, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */
-     , (87687, 45, 0, 3, 0, 297, 0, 0) /* LightWeapons        Specialized */
-     , (87687, 47, 0, 3, 0, 220, 0, 0) /* MissileWeapons      Specialized */;
+     , (87687, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
+     , (87687, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
+     , (87687, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */
+     , (87687, 44, 0, 3, 0, 365, 0, 0) /* HeavyWeapons        Specialized */
+     , (87687, 45, 0, 3, 0, 365, 0, 0) /* LightWeapons        Specialized */
+     , (87687, 47, 0, 3, 0, 225, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (87687,  0,  4,  0,    0,  225,  200,  200,  200,  180,   90,   68,  135,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -116,16 +118,16 @@ VALUES (87687,  0,  4,  0,    0,  225,  200,  200,  200,  180,   90,   68,  135,
      , (87687,  2,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (87687,  3,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (87687,  4,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (87687,  5,  4,  4, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (87687,  5,  4, 40, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (87687,  6,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (87687,  7,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (87687,  8,  4,  8, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (87687,  8,  4, 80, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (87687,    97,  2.035)  /* Whirling Blade VI */
-     , (87687,   234,   2.04)  /* Vulnerability Other VI */
-     , (87687,   285,   2.04)  /* Magic Yield Other VI */
-     , (87687,  1327,  2.035)  /* Imperil Other VI */;
+VALUES (87687,  1327,   2.05)  /* Imperil Other VI */
+     , (87687,   234,   2.05)  /* Vulnerability Other VI */
+     , (87687,   285,   2.06)  /* Magic Yield Other VI */
+     , (87687,    97,   2.06)  /* Whirling Blade VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (87687, 1, 87688,  1, 0, 1, False) /* Create Jade Medallion of the Depths (87688) for Contain */;
