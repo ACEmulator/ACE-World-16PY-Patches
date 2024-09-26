@@ -47,7 +47,7 @@ VALUES (87646,   1,       5) /* HeartbeatInterval */
      , (87646,  17,     0.4) /* ArmorModVsFire */
      , (87646,  18,       1) /* ArmorModVsAcid */
      , (87646,  19,     0.6) /* ArmorModVsElectric */
-     , (87646,  39,     1.5) /* DefaultScale */
+     , (87646,  39,       1) /* DefaultScale */
      , (87646,  41,     300) /* RegenerationInterval */
      , (87646,  43,      10) /* GeneratorRadius */
      , (87646,  54,       3) /* UseRadius */
