@@ -6,6 +6,7 @@ VALUES (87651, 'ace87651-masterofbreath', 10, '2022-12-04 19:04:52') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87651,   1,         16) /* ItemType - Creature */
      , (87651,   2,         31) /* CreatureType - Human */
+     , (87651,   3,          9) /* PaletteTemplate - Grey */
      , (87651,   6,         -1) /* ItemsCapacity */
      , (87651,   7,         -1) /* ContainersCapacity */
      , (87651,  16,          1) /* ItemUseable - No */
@@ -72,6 +73,7 @@ VALUES (87651,   1, 0x02000001) /* Setup */
      , (87651,   2, 0x09000001) /* MotionTable */
      , (87651,   3, 0x20000001) /* SoundTable */
      , (87651,   4, 0x30000000) /* CombatTable */
+     , (87651,   7, 0x100006C7) /* ClothingBase */
      , (87651,   8, 0x06001036) /* Icon */
      , (87651,  22, 0x34000004) /* PhysicsEffectTable */
      , (87651,  32,       3507) /* WieldedTreasureType - 
@@ -85,8 +87,7 @@ VALUES (87651,   1, 0x02000001) /* Setup */
                                    |  34.50% chance of Yumi (34345)
                                    |         with
                                    |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
-                                   |  65.50% chance of nothing from this set */
-     , (87651,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
+                                   |  65.50% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (87651,   1, 220, 0, 0) /* Strength */
@@ -131,9 +132,4 @@ VALUES (87651,  1327,   2.05)  /* Imperil Other VI */
      , (87651,    97,   2.06)  /* Whirling Blade VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87651, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (87651, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
-     , (87651, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (87651, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
-     , (87651, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
-     , (87651, 9, 87652,  1, 0, 1, False) /* Create Medallion of Breath (87652) for ContainTreasure */;
+VALUES (87651, 9, 87652,  1, 0, 1, False) /* Create Medallion of Breath (87652) for ContainTreasure */;

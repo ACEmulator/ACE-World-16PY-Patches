@@ -6,6 +6,7 @@ VALUES (87653, 'ace87653-enlightenedmaster', 10, '2022-12-04 19:04:52') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87653,   1,         16) /* ItemType - Creature */
      , (87653,   2,         31) /* CreatureType - Human */
+     , (87653,   3,          9) /* PaletteTemplate - Grey */
      , (87653,   6,         -1) /* ItemsCapacity */
      , (87653,   7,         -1) /* ContainersCapacity */
      , (87653,   8,        120) /* Mass */
@@ -71,6 +72,7 @@ VALUES (87653,   1, 0x02000001) /* Setup */
      , (87653,   2, 0x09000001) /* MotionTable */
      , (87653,   3, 0x20000001) /* SoundTable */
      , (87653,   4, 0x30000000) /* CombatTable */
+     , (87653,   7, 0x100006C7) /* ClothingBase */
      , (87653,   8, 0x06001036) /* Icon */
      , (87653,  22, 0x34000004) /* PhysicsEffectTable */
      , (87653,  32,       3507) /* WieldedTreasureType - 
@@ -84,8 +86,7 @@ VALUES (87653,   1, 0x02000001) /* Setup */
                                    |  34.50% chance of Yumi (34345)
                                    |         with
                                    |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
-                                   |  65.50% chance of nothing from this set */
-     , (87653,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
+                                   |  65.50% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (87653,   1, 220, 0, 0) /* Strength */
@@ -130,9 +131,4 @@ VALUES (87653,  1327,   2.05)  /* Imperil Other VI */
      , (87653,    97,   2.06)  /* Whirling Blade VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87653, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (87653, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
-     , (87653, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (87653, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
-     , (87653, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
-     , (87653, 9, 87654,  1, 0, 1, False) /* Create Enlightened Master's Medallion (87654) for ContainTreasure */;
+VALUES (87653, 9, 87654,  1, 0, 1, False) /* Create Enlightened Master's Medallion (87654) for ContainTreasure */;

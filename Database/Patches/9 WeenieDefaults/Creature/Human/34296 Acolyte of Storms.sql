@@ -6,6 +6,7 @@ VALUES (34296, 'ace34296-acolyteofstorms', 10, '2022-12-04 19:04:52') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34296,   1,         16) /* ItemType - Creature */
      , (34296,   2,         31) /* CreatureType - Human */
+     , (34296,   3,          9) /* PaletteTemplate - Grey */
      , (34296,   6,         -1) /* ItemsCapacity */
      , (34296,   7,         -1) /* ContainersCapacity */
      , (34296,  16,          1) /* ItemUseable - No */
@@ -67,6 +68,7 @@ VALUES (34296,   1, 0x02000001) /* Setup */
      , (34296,   3, 0x20000001) /* SoundTable */
      , (34296,   4, 0x30000000) /* CombatTable */
      , (34296,   6, 0x0400007E) /* PaletteBase */
+     , (34296,   7, 0x100006C7) /* ClothingBase */
      , (34296,   8, 0x06001036) /* Icon */
      , (34296,  22, 0x34000004) /* PhysicsEffectTable */
      , (34296,  32,       3507) /* WieldedTreasureType - 
@@ -80,8 +82,7 @@ VALUES (34296,   1, 0x02000001) /* Setup */
                                    |  34.50% chance of Yumi (34345)
                                    |         with
                                    |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
-                                   |  65.50% chance of nothing from this set */
-     , (34296,  35,        454) /* DeathTreasureType - Loot Tier: 5 */;
+                                   |  65.50% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34296,   1, 220, 0, 0) /* Strength */
@@ -117,9 +118,3 @@ VALUES (34296,  0,  4,  0,    0,  225,  162,  162,  162,  144,   72,   54,  108,
      , (34296,  6,  4,  0,    0,  265,  162,  162,  162,  144,   72,   54,  108,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (34296,  7,  4,  0,    0,  265,  162,  162,  162,  144,   72,   54,  108,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (34296,  8,  4, 80, 0.75,  265,  162,  162,  162,  144,   72,   54,  108,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34296, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (34296, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
-     , (34296, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (34296, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */;

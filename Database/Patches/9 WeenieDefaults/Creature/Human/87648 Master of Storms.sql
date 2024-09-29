@@ -6,6 +6,7 @@ VALUES (87648, 'ace87648-masterofstorms', 10, '2022-12-04 19:04:52') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87648,   1,         16) /* ItemType - Creature */
      , (87648,   2,         31) /* CreatureType - Human */
+     , (87648,   3,          9) /* PaletteTemplate - Grey */
      , (87648,   6,         -1) /* ItemsCapacity */
      , (87648,   7,         -1) /* ContainersCapacity */
      , (87648,  16,          1) /* ItemUseable - No */
@@ -72,6 +73,7 @@ VALUES (87648,   1, 0x02000001) /* Setup */
      , (87648,   2, 0x09000001) /* MotionTable */
      , (87648,   3, 0x20000001) /* SoundTable */
      , (87648,   4, 0x30000000) /* CombatTable */
+     , (87648,   7, 0x100006C7) /* ClothingBase */
      , (87648,   8, 0x06001036) /* Icon */
      , (87648,  22, 0x34000004) /* PhysicsEffectTable */
      , (87648,  32,       3507) /* WieldedTreasureType - 
@@ -85,8 +87,7 @@ VALUES (87648,   1, 0x02000001) /* Setup */
                                    |  34.50% chance of Yumi (34345)
                                    |         with
                                    |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
-                                   |  65.50% chance of nothing from this set */
-     , (87648,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
+                                   |  65.50% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (87648,   1, 230, 0, 0) /* Strength */
@@ -124,9 +125,4 @@ VALUES (87648,  0,  4,  0,    0,  225,  200,  200,  200,  180,   90,   68,  135,
      , (87648,  8,  4, 80, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87648, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (87648, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
-     , (87648, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (87648, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
-     , (87648, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
-     , (87648, 9, 34287,  1, 0, 1, False) /* Create Medallion of Storms (34287) for ContainTreasure */;
+VALUES (87648, 9, 34287,  1, 0, 1, False) /* Create Medallion of Storms (34287) for ContainTreasure */;
