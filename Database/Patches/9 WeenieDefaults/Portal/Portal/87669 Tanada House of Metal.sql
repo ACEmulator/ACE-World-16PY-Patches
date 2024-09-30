@@ -22,7 +22,7 @@ VALUES (87669,   1, 'Tanada House of Metal') /* Name */
      , (87669,  37, 'TanadaHouseofMetal_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87669,   1, 0x020001B3) /* Setup */
+VALUES (87669,   1, 0x020005D5) /* Setup */
      , (87669,   2, 0x09000003) /* MotionTable */
      , (87669,   8, 0x0600106B) /* Icon */;
 

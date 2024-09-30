@@ -22,7 +22,7 @@ VALUES (87663,   1, 'Enlightened Master''s Chambers') /* Name */
      , (87663,  37, 'TanadaHouseofEarthMaster_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87663,   1, 0x020001B3) /* Setup */
+VALUES (87663,   1, 0x020005D5) /* Setup */
      , (87663,   2, 0x09000003) /* MotionTable */
      , (87663,   8, 0x0600106B) /* Icon */;
 
