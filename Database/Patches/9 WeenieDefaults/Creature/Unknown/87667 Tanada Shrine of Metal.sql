@@ -12,8 +12,11 @@ VALUES (87667,   1,         16) /* ItemType - Creature */
      , (87667,  16,         32) /* ItemUseable - Remote */
      , (87667,  25,         66) /* Level */
      , (87667,  27,          0) /* ArmorType - None */
+     , (87667,  81,          2) /* MaxGeneratedObjects */
+     , (87667,  82,          2) /* InitGeneratedObjects */
      , (87667,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87667,  95,          3) /* RadarBlipColor - White */
+     , (87667, 103,          2) /* GeneratorDestructionType - Destroy */
      , (87667, 133,          0) /* ShowableOnRadar - Undefined */
      , (87667, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (87667, 146,       4517) /* XpOverride */;
@@ -44,7 +47,9 @@ VALUES (87667,   1,       5) /* HeartbeatInterval */
      , (87667,  17,     0.4) /* ArmorModVsFire */
      , (87667,  18,       1) /* ArmorModVsAcid */
      , (87667,  19,     0.6) /* ArmorModVsElectric */
-     , (87667,  39,     1.5) /* DefaultScale */
+     , (87667,  39,       1) /* DefaultScale */
+     , (87667,  41,     300) /* RegenerationInterval */
+     , (87667,  43,      10) /* GeneratorRadius */
      , (87667,  54,       3) /* UseRadius */
      , (87667,  64,       1) /* ResistSlash */
      , (87667,  65,       1) /* ResistPierce */
@@ -63,7 +68,7 @@ VALUES (87667,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87667,   1, 'Tanada Shrine of Metal') /* Name */
-     , (87667,  16, 'The Tanada Shrine of Metal is an object of veneration for the Tanada students who are studying the arts of melee combat. It seems to have a slot built into it, as if to accept some small, disc-shaped object...') /* LongDesc */;
+     , (87667,  16, 'The Tanada Shrine of Metal is an object of veneration for the Tanada students who are studying the arts of magic. It seems to have a slot built into it, as if to accept some small, disc-shaped object...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87667,   1, 0x02000F48) /* Setup */
@@ -116,3 +121,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'The Tanada Shrine of Metal is made of polished Metal and scented wood. It weems to have a slot built into it, as if to accept some small, disc-shaped object...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (87667, -1, 73208, 600, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 1, 0, 0, 0) /* Generate Hidden Sho Festival Light (73208) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (87667, -1, 73208, 600, 1, 1, 1, 4, -1, 0, 0, 0, -4, 0, 0, 0, 0, 0, 1) /* Generate Hidden Sho Festival Light (73208) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

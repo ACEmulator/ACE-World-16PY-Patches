@@ -22,7 +22,7 @@ VALUES (87640,   1, 'Tanada House of Storms') /* Name */
      , (87640,  37, 'TanadaHouseofStormsStarted') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87640,   1, 0x020001B3) /* Setup */
+VALUES (87640,   1, 0x020005D5) /* Setup */
      , (87640,   2, 0x09000003) /* MotionTable */
      , (87640,   8, 0x0600106B) /* Icon */;
 

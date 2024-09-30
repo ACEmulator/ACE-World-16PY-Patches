@@ -22,7 +22,7 @@ VALUES (87668,   1, 'Tanada House of Stone') /* Name */
      , (87668,  37, 'TanadaHouseofStone_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87668,   1, 0x020001B3) /* Setup */
+VALUES (87668,   1, 0x020005D5) /* Setup */
      , (87668,   2, 0x09000003) /* MotionTable */
      , (87668,   8, 0x0600106B) /* Icon */;
 

@@ -12,8 +12,11 @@ VALUES (87646,   1,         16) /* ItemType - Creature */
      , (87646,  16,         32) /* ItemUseable - Remote */
      , (87646,  25,         66) /* Level */
      , (87646,  27,          0) /* ArmorType - None */
+     , (87646,  81,          2) /* MaxGeneratedObjects */
+     , (87646,  82,          2) /* InitGeneratedObjects */
      , (87646,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87646,  95,          3) /* RadarBlipColor - White */
+     , (87646, 103,          2) /* GeneratorDestructionType - Destroy */
      , (87646, 133,          0) /* ShowableOnRadar - Undefined */
      , (87646, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (87646, 146,       4517) /* XpOverride */;
@@ -44,7 +47,9 @@ VALUES (87646,   1,       5) /* HeartbeatInterval */
      , (87646,  17,     0.4) /* ArmorModVsFire */
      , (87646,  18,       1) /* ArmorModVsAcid */
      , (87646,  19,     0.6) /* ArmorModVsElectric */
-     , (87646,  39,     1.5) /* DefaultScale */
+     , (87646,  39,       1) /* DefaultScale */
+     , (87646,  41,     300) /* RegenerationInterval */
+     , (87646,  43,      10) /* GeneratorRadius */
      , (87646,  54,       3) /* UseRadius */
      , (87646,  64,       1) /* ResistSlash */
      , (87646,  65,       1) /* ResistPierce */
@@ -116,3 +121,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'The Tanada Shrine of Wind is made of polished stone and scented wood. It weems to have a slot built into it, as if to accept some small, disc-shaped object...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (87646, -1, 73208, 600, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 1, 0, 0, 0) /* Generate Hidden Sho Festival Light (73208) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (87646, -1, 73208, 600, 1, 1, 1, 4, -1, 0, 0, 0, -4, 0, 0, 0, 0, 0, 1) /* Generate Hidden Sho Festival Light (73208) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
