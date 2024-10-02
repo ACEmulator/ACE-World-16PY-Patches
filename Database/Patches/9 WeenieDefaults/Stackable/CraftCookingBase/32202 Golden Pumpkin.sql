@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32202;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32202, 'ace32202-goldenpumpkin', 1, '2021-11-17 16:56:08') /* Generic */;
+VALUES (32202, 'ace32202-goldenpumpkin', 51, '2021-11-17 16:56:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32202,   1,    4194304) /* ItemType - CraftCookingBase */
@@ -25,9 +25,8 @@ VALUES (32202,  12,       0) /* Shade */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32202,   1, 'Golden Pumpkin') /* Name */
-     , (32202,  16, 'This item is used in Jack o'' Lantern crafting.
-
-A beautiful golden pumpkin.') /* LongDesc */;
+     , (32202,  14, 'This item is used in Jack o'' Lantern crafting.') /* Use */
+     , (32202,  16, 'A beautiful golden pumpkin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32202,   1, 0x02000949) /* Setup */
