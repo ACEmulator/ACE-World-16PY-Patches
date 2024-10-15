@@ -8,13 +8,16 @@ VALUES (87467,   1,        128) /* ItemType - Misc */
      , (87467,   5,         25) /* EncumbranceVal */
      , (87467,  16,          8) /* ItemUseable - Contained */
      , (87467,  19,         20) /* Value */
-     , (87467,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (87467,  33,          1) /* Bonded - Bonded */
+     , (87467,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (87467, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87467,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87467,   1, 'The Story of the Lost Sisters') /* Name */;
+VALUES (87467,   1, 'The Story of the Lost Sisters') /* Name */
+     , (87467,  16, 'A translation of a Falatacot document found in the Vesayen Isles. It seems to be an excerpt from a longer story.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87467,   1, 0x02000155) /* Setup */
