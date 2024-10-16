@@ -17,10 +17,7 @@ VALUES (87196,   1,         16) /* ItemType - Creature */
      , (87196, 113,          1) /* Gender - Male */
      , (87196, 133,          1) /* ShowableOnRadar - ShowNever */
      , (87196, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (87196, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (87196, 188,          1) /* HeritageGroup - Aluvian */
-     , (87196, 290,          1) /* HearLocalSignals */
-     , (87196, 291,         50) /* HearLocalSignalsRadius */;
+     , (87196, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87196,   1, True ) /* Stuck */
@@ -111,8 +108,7 @@ VALUES (87196,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (87196,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87196, -1, 87195, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 1 Gen (87195) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87196, -1, 87197, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 2 Gen (87197) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87196, -1, 87198, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 3 Gen (87198) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87196, -1, 87199, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 4 Gen (87199) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87196, -1, 87166, 1600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hidden Treasury Gen (87166) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87196, -1, 87195, 3600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 1 Gen (87195) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87196, -1, 87197, 3600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 2 Gen (87197) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87196, -1, 87198, 3600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 3 Gen (87198) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87196, -1, 87199, 3600, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dericost Wave 4 Gen (87199) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

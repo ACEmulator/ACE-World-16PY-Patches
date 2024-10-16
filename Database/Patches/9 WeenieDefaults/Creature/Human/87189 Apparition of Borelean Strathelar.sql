@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87189;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87189, 'ace87189-apparitionofboreleanstrathelar', 10, '2022-11-05 05:26:30') /* Creature */;
+VALUES (87189, 'ace87189-apparitionofboreleanstrathelar', 10, '2024-10-16 01:18:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87189,   1,         16) /* ItemType - Creature */
@@ -9,6 +9,7 @@ VALUES (87189,   1,         16) /* ItemType - Creature */
      , (87189,   6,         -1) /* ItemsCapacity */
      , (87189,   7,         -1) /* ContainersCapacity */
      , (87189,  16,          1) /* ItemUseable - No */
+     , (87189,  25,        212) /* Level */
      , (87189,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87189,  95,          8) /* RadarBlipColor - Yellow */
      , (87189, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -31,6 +32,19 @@ VALUES (87189,   1, 0x02000001) /* Setup */
      , (87189,   3, 0x20000001) /* SoundTable */
      , (87189,   6, 0x0400007E) /* PaletteBase */
      , (87189,   8, 0x06001036) /* Icon */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (87189,   1, 290, 0, 0) /* Strength */
+     , (87189,   2, 200, 0, 0) /* Endurance */
+     , (87189,   3, 290, 0, 0) /* Quickness */
+     , (87189,   4, 290, 0, 0) /* Coordination */
+     , (87189,   5, 240, 0, 0) /* Focus */
+     , (87189,   6, 200, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (87189,   1,   198, 0, 0, 298) /* MaxHealth */
+     , (87189,   3,   196, 0, 0, 396) /* MaxStamina */
+     , (87189,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (87189, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'BoreleanKneel', NULL, NULL, NULL);
