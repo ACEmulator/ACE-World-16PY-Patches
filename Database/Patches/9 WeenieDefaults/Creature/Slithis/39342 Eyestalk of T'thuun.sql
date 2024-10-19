@@ -13,8 +13,6 @@ VALUES (39342,   1,         16) /* ItemType - Creature */
      , (39342,  27,          0) /* ArmorType - None */
      , (39342,  40,          2) /* CombatMode - Melee */
      , (39342,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (39342,  81,          4) /* MaxGeneratedObjects */
-     , (39342,  82,          4) /* InitGeneratedObjects */
      , (39342,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39342, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (39342, 146,     500000) /* XpOverride */;
@@ -47,8 +45,6 @@ VALUES (39342,   1,       5) /* HeartbeatInterval */
      , (39342,  34,     0.9) /* PowerupTime */
      , (39342,  36,       1) /* ChargeSpeed */
      , (39342,  39,       2) /* DefaultScale */
-     , (39342,  41,     300) /* RegenerationInterval */
-     , (39342,  43,     1.5) /* GeneratorRadius */
      , (39342,  64,    0.55) /* ResistSlash */
      , (39342,  65,    0.55) /* ResistPierce */
      , (39342,  66,    0.75) /* ResistBludgeon */
@@ -112,10 +108,3 @@ VALUES (39342,  2765,   2.02)  /* Martyr's Hecatomb VI */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39342, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;
-
-INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39342, 0.2, 39451, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tendril of T'thuun (39451) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (39342, 0.4, 39451, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tendril of T'thuun (39451) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (39342, 0.6, 39452, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tentacle of T'thuun (39452) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (39342, 0.8, 39452, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tentacle of T'thuun (39452) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (39342, 1, 39452, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tentacle of T'thuun (39452) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -5,18 +5,19 @@ VALUES (39360, 'ace39360-tthuunpillar', 10, '2022-12-04 19:04:52') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39360,   1,         16) /* ItemType - Creature */
+     , (39360,   2,         63) /* CreatureType - Statue */
      , (39360,   6,         -1) /* ItemsCapacity */
      , (39360,   7,         -1) /* ContainersCapacity */
      , (39360,  16,          1) /* ItemUseable - No */
+     , (39360,  25,        200) /* Level */
      , (39360,  40,          1) /* CombatMode - NonCombat */
      , (39360,  67,          1) /* Tolerance - NoAttack */
-     , (39360,  81,          1) /* MaxGeneratedObjects */
-     , (39360,  82,          1) /* InitGeneratedObjects */
+     , (39360,  81,          4) /* MaxGeneratedObjects */
+     , (39360,  82,          4) /* InitGeneratedObjects */
      , (39360,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39360, 103,          2) /* GeneratorDestructionType - Destroy */
      , (39360, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (39360, 146,    5000000) /* XpOverride */
-     , (39360, 315,       9999) /* CritResistRating */;
+     , (39360, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39360,   1, True ) /* Stuck */
@@ -26,7 +27,8 @@ VALUES (39360,   1, True ) /* Stuck */
      , (39360,  14, True ) /* GravityStatus */
      , (39360,  19, True ) /* Attackable */
      , (39360,  29, True ) /* NoCorpse */
-     , (39360, 103, True ) /* NonProjectileMagicImmune */;
+     , (39360,  52, True ) /* AiImmobile */
+     , (39360,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (39360,   1,       5) /* HeartbeatInterval */
@@ -81,9 +83,14 @@ VALUES (39360,   1, 190, 0, 0) /* Strength */
      , (39360,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (39360,   1,  9750, 0, 0, 10000) /* MaxHealth */
-     , (39360,   3, 10000, 0, 0, 10190) /* MaxStamina */
-     , (39360,   5, 30000, 0, 0, 30250) /* MaxMana */;
+VALUES (39360,   1, 49750, 0, 0, 50000) /* MaxHealth */
+     , (39360,   3,  7500, 0, 0, 8000) /* MaxStamina */
+     , (39360,   5,  3750, 0, 0, 4000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (39360,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (39360,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (39360, 15, 0, 2, 0,   1, 0, 0) /* MagicDefense        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (39360,  0,  4,  0,    0,  600,  600,  600,  480,  600,  600,  600,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -97,7 +104,7 @@ VALUES (39360,  0,  4,  0,    0,  600,  600,  600,  480,  600,  600,  600,  600,
      , (39360,  8,  4,  1, 0.75,  600,  600,  600,  480,  600,  600,  600,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39360, 0.25, 39342, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eyestalk of T'thuun (39342) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (39360, 0.5, 39344, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eyestalk of T'thuun (39344) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (39360, 0.75, 39345, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eyestalk of T'thuun (39345) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (39360, 1, 39450, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eyestalk of T'thuun (39450) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (39360, -1, 39451, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tendril of T'thuun (39451) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (39360, -1, 39452, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tentacle of T'thuun (39452) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (39360, -1, 39451, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tendril of T'thuun (39451) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (39360, -1, 39452, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tentacle of T'thuun (39452) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
