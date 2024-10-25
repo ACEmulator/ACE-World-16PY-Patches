@@ -137,8 +137,8 @@ VALUES (0x75F44021,  8580, 0x5F4401A1, 230.352, -79.5477, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x5F4401A1 [230.352005 -79.547699 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44022, 22500, 0x5F4401A2, 230, -91.5, 0.0132, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Oolutanga, the Tusker King */
-/* @teleloc 0x5F4401A2 [230.000000 -91.500000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F44022, 22500, 0x5F4401A2, 233.464, -93.5, 0.0242, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Oolutanga, the Tusker King */
+/* @teleloc 0x5F4401A2 [233.464005 -93.500000 0.024200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44023,  5086, 0x5F4401A3, 230.325, -97.5091, 0.005, 0.999993, 0, 0, 0.003737, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen - 30 sec. */
@@ -177,7 +177,8 @@ VALUES (0x75F44023, 0x75F44000, '2021-11-01 00:00:00') /* Statue of Swift Duelis
      , (0x75F44023, 0x75F4401D, '2021-11-01 00:00:00') /* Statue of Archmage's Wish (22488) */
      , (0x75F44023, 0x75F4401E, '2021-11-01 00:00:00') /* Statue of Cleaving Warrior's Wish (22494) */
      , (0x75F44023, 0x75F4401F, '2021-11-01 00:00:00') /* Statue of Life Giver's Wish (22483) */
-     , (0x75F44023, 0x75F44022, '2021-11-01 00:00:00') /* Oolutanga, the Tusker King (22500) */;
+     , (0x75F44023, 0x75F44022, '2021-11-01 00:00:00') /* Oolutanga, the Tusker King (22500) */
+     , (0x75F44023, 0x75F44029, '2024-10-17 19:30:21') /* Grunter (35777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44024,   278, 0x5F4401A6, 230, -125.25, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -198,3 +199,7 @@ VALUES (0x75F44027, 22684, 0x5F44019A, 61.6234, -50.0506, 0.005, -0.711512, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44028, 45522, 0x5F440104, -0.447715, -49.396, 0.005, -0.999496, 0, 0, 0.031732, False, '2021-11-01 00:00:00'); /* Statue of Void Caster's Wish */
 /* @teleloc 0x5F440104 [-0.447715 -49.396000 0.005000] -0.999496 0.000000 0.000000 0.031732 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75F44029, 35777, 0x5F4401A3, 231.071, -95.7679, 0.0044, 0.375221, 0, 0, -0.926935,  True, '2024-10-17 19:30:21'); /* Grunter */
+/* @teleloc 0x5F4401A3 [231.070999 -95.767899 0.004400] 0.375221 0.000000 0.000000 -0.926935 */
