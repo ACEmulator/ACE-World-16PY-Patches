@@ -15,7 +15,7 @@ VALUES (71374,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (71374,  41,     180) /* RegenerationInterval */
-     , (71374,  43,       2) /* GeneratorRadius */;
+     , (71374,  43,       7) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71374,   1, 'Inner Neftet Reedshark Camp Gen') /* Name */;
