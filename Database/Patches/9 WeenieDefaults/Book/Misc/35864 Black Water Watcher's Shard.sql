@@ -6,8 +6,8 @@ VALUES (35864, 'ace35864-blackwaterwatchersshard', 8, '2021-12-14 05:15:31') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35864,   1,        128) /* ItemType - Misc */
      , (35864,   5,         50) /* EncumbranceVal */
-     , (35864,  19,          0) /* Value */
      , (35864,  16,          8) /* ItemUseable - Contained */
+     , (35864,  19,          0) /* Value */
      , (35864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

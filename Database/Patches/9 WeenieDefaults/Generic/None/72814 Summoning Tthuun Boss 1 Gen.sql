@@ -30,7 +30,7 @@ VALUES (72814,   1, 0x0200026B) /* Setup */
      , (72814,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72814, -1, 39349, 3600, 1, 1, 1, 4, 0, 0, 0, 0x72C90024, 102, 86, 79.1772, -0.866025, 0, 0, -0.5) /* Generate Kazyk Ri T'thuunixis (39348) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72814, -1, 39351, 3600, 1, 1, 1, 4, 0, 0, 0, 0x72C9001C, 86, 91, 79.1772, 0.866025, 0, 0, -0.5) /* Generate Minik Ra T'thuunixis (39350) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72814, -1, 39353, 3600, 1, 1, 1, 4, 0, 0, 0, 0x72C9001D, 95.0102, 108.571, 78.8804, 0, 0, 0, -1) /* Generate Nivinizk T'thuunixis (39352) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (72814, -1, 39349, 3600, 1, 1, 1, 4, 0, 0, 0, 0x72C90024, 102, 86, 79.1772, -0.866025, 0, 0, -0.5) /* Generate Kazyk Ri T'thuunixis (39349) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72814, -1, 39351, 3600, 1, 1, 1, 4, 0, 0, 0, 0x72C9001C, 86, 91, 79.1772, 0.866025, 0, 0, -0.5) /* Generate Minik Ra T'thuunixis (39351) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72814, -1, 39353, 3600, 1, 1, 1, 4, 0, 0, 0, 0x72C9001D, 95.0102, 108.571, 78.8804, 0, 0, 0, -1) /* Generate Nivinizk T'thuunixis (39353) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72814, -1, 39342, 30, 1, 1, 1, 4, 0, 0, 0, 0x72C9001C, 95.9, 95.9, 79.9717, 1, 0, 0, 0) /* Generate Eyestalk of T'thuun (39342) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

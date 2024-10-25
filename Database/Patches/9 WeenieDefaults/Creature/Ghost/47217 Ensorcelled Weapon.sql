@@ -108,5 +108,5 @@ VALUES (47217,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47217, 10, 47222,  1, 0, 0.5, False) /* Create Ensorcelled Mace (47222) for WieldTreasure */
-     , (47217, 10, 47219,  1, 0, 0.5, False) /* Create Ensorcelled Dagger (47220) for WieldTreasure */
-     , (47217, 10, 47220,  1, 0, 0.5, False) /* Create Ensorcelled Sword (47219) for WieldTreasure */;
+     , (47217, 10, 47219,  1, 0, 0.5, False) /* Create Ensorcelled Sword (47219) for WieldTreasure */
+     , (47217, 10, 47220,  1, 0, 0.5, False) /* Create Ensorcelled Dagger (47220) for WieldTreasure */;
