@@ -1,7 +1,11 @@
 Use:
     - InqQuest: HoshinoMnemosynesDone
+        QuestSuccess:
+            - DirectBroadcast: You have already gathered information from all three mnemosynes.
         QuestFailure:
             - InqQuest: HoshinoMnemosyne2
+                QuestSuccess:
+                    - DirectBroadcast: You have already gained all you can from this mnemosyne.
                 QuestFailure:
                     - Motion: Twitch1
                     - StampQuest: HoshinoMnemosyne2

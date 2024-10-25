@@ -11,9 +11,9 @@ VALUES (46563,   1,         16) /* ItemType - Creature */
      , (46563,  16,          1) /* ItemUseable - No */
      , (46563,  25,        240) /* Level */
      , (46563,  40,          2) /* CombatMode - Melee */
-     , (46563,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46563,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (46563,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (46563, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (46563, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46563, 146,    1850000) /* XpOverride */
      , (46563, 307,         10) /* DamageRating */

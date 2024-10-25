@@ -6,7 +6,7 @@ VALUES (47219, 'ace47219-ensorcelledsword', 6, '2021-11-01 00:00:00') /* MeleeWe
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47219,   1,          1) /* ItemType - MeleeWeapon */
      , (47219,   5,        550) /* EncumbranceVal */
-     , (47219,   9,    2097152) /* ValidLocations - Shield */
+     , (47219,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47219,  16,          1) /* ItemUseable - No */
      , (47219,  18,          1) /* UiEffects - Magical */
      , (47219,  19,        340) /* Value */
@@ -15,7 +15,7 @@ VALUES (47219,   1,          1) /* ItemType - MeleeWeapon */
      , (47219,  44,        300) /* Damage */
      , (47219,  45,          3) /* DamageType - Slash, Pierce */
      , (47219,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (47219,  47,        130) /* AttackType - Thrust, DoubleThrust */
+     , (47219,  47,         34) /* AttackType - Thrust, DoubleSlash */
      , (47219,  48,         45) /* WeaponSkill - LightWeapons */
      , (47219,  49,          0) /* WeaponTime */
      , (47219,  51,          1) /* CombatUse - Melee */
