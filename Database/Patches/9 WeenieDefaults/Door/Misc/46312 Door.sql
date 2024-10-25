@@ -15,7 +15,7 @@ VALUES (46312,   1, True ) /* Stuck */
      , (46312,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46312,  11,     300) /* ResetInterval */
+VALUES (46312,  11,    1800) /* ResetInterval */
      , (46312,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
