@@ -6,6 +6,7 @@ VALUES (87648, 'ace87648-masterofstorms', 10, '2022-12-04 19:04:52') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87648,   1,         16) /* ItemType - Creature */
      , (87648,   2,         31) /* CreatureType - Human */
+     , (87648,   3,          9) /* PaletteTemplate - Grey */
      , (87648,   6,         -1) /* ItemsCapacity */
      , (87648,   7,         -1) /* ContainersCapacity */
      , (87648,  16,          1) /* ItemUseable - No */
@@ -72,6 +73,7 @@ VALUES (87648,   1, 0x02000001) /* Setup */
      , (87648,   2, 0x09000001) /* MotionTable */
      , (87648,   3, 0x20000001) /* SoundTable */
      , (87648,   4, 0x30000000) /* CombatTable */
+     , (87648,   7, 0x100006C7) /* ClothingBase */
      , (87648,   8, 0x06001036) /* Icon */
      , (87648,  22, 0x34000004) /* PhysicsEffectTable */
      , (87648,  32,       3507) /* WieldedTreasureType - 
@@ -85,8 +87,7 @@ VALUES (87648,   1, 0x02000001) /* Setup */
                                    |  34.50% chance of Yumi (34345)
                                    |         with
                                    |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
-                                   |  65.50% chance of nothing from this set */
-     , (87648,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
+                                   |  65.50% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (87648,   1, 230, 0, 0) /* Strength */
@@ -102,14 +103,15 @@ VALUES (87648,   1,   280, 0, 0, 400) /* MaxHealth */
      , (87648,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (87648,  6, 0, 3, 0, 267, 0, 0) /* MeleeDefense        Specialized */
-     , (87648,  7, 0, 3, 0, 198, 0, 0) /* MissileDefense      Specialized */
+VALUES (87648,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
+     , (87648,  7, 0, 3, 0, 415, 0, 0) /* MissileDefense      Specialized */
      , (87648, 15, 0, 3, 0, 179, 0, 0) /* MagicDefense        Specialized */
      , (87648, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */
      , (87648, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
      , (87648, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */
-     , (87648, 45, 0, 3, 0, 315, 0, 0) /* LightWeapons        Specialized */
-     , (87648, 47, 0, 3, 0, 245, 0, 0) /* MissileWeapons      Specialized */;
+     , (87648, 44, 0, 3, 0, 365, 0, 0) /* HeavyWeapons        Specialized */
+     , (87648, 45, 0, 3, 0, 365, 0, 0) /* LightWeapons        Specialized */
+     , (87648, 47, 0, 3, 0, 225, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (87648,  0,  4,  0,    0,  225,  200,  200,  200,  180,   90,   68,  135,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -117,21 +119,10 @@ VALUES (87648,  0,  4,  0,    0,  225,  200,  200,  200,  180,   90,   68,  135,
      , (87648,  2,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (87648,  3,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (87648,  4,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (87648,  5,  4,  4, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (87648,  5,  4, 40, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (87648,  6,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (87648,  7,  4,  0,    0,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (87648,  8,  4,  8, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (87648,    97,   2.02)  /* Whirling Blade VI */
-     , (87648,   234,   2.03)  /* Vulnerability Other VI */
-     , (87648,   285,   2.03)  /* Magic Yield Other VI */
-     , (87648,  1327,   2.03)  /* Imperil Other VI */;
+     , (87648,  8,  4, 80, 0.75,  265,  236,  236,  236,  212,  106,   80,  159,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87648, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (87648, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
-     , (87648, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (87648, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
-     , (87648, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
-     , (87648, 9, 34287,  1, 0, 1, False) /* Create Medallion of Storms (34287) for ContainTreasure */;
+VALUES (87648, 9, 34287,  1, 0, 1, False) /* Create Medallion of Storms (34287) for ContainTreasure */;

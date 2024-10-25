@@ -22,7 +22,7 @@ VALUES (87643,   1, 'Tanada House of Breath') /* Name */
      , (87643,  37, 'TanadaHouseofBreath_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87643,   1, 0x020001B3) /* Setup */
+VALUES (87643,   1, 0x020005D5) /* Setup */
      , (87643,   2, 0x09000003) /* MotionTable */
      , (87643,   8, 0x0600106B) /* Icon */;
 
