@@ -7,8 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87199,  81,          4) /* MaxGeneratedObjects */
      , (87199,  82,          4) /* InitGeneratedObjects */
      , (87199,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87199, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (87199, 145,          2) /* GeneratorEndDestructionType - Destroy */;
+     , (87199, 103,          2) /* GeneratorDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87199,   1, True ) /* Stuck */
@@ -16,7 +15,7 @@ VALUES (87199,   1, True ) /* Stuck */
      , (87199,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87199,  41,    1600) /* RegenerationInterval */
+VALUES (87199,  41,   99999) /* RegenerationInterval */
      , (87199,  43,      20) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

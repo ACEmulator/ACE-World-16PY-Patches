@@ -26,7 +26,7 @@ VALUES (87185,   1, True ) /* Stuck */
      , (87185,  14, True ) /* GravityStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87185,  39,     1.2) /* DefaultScale */
+VALUES (87185,  39,       1) /* DefaultScale */
      , (87185,  41,      30) /* RegenerationInterval */
      , (87185,  43,       1) /* GeneratorRadius */
      , (87185,  54,       1) /* UseRadius */;
