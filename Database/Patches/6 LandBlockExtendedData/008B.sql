@@ -729,8 +729,7 @@ VALUES (0x7008B132, 0x7008B133, '2023-03-23 00:00:00') /* Masonry Golem (33033) 
      , (0x7008B132, 0x7008B1A4, '2023-03-23 00:00:00') /* Masonry Golem (33033) */
      , (0x7008B132, 0x7008B1A8, '2023-03-23 00:00:00') /* Masonry Golem (33033) */
      , (0x7008B132, 0x7008B1A9, '2023-03-23 00:00:00') /* Masonry Golem (33033) */
-     , (0x7008B132, 0x7008B1AE, '2023-03-23 00:00:00') /* Wretched Architect (32955) */
-     , (0x7008B132, 0x7008B1AF, '2023-03-23 00:00:00') /* Masonry Golem (33033) */;
+     , (0x7008B132, 0x7008B1AE, '2023-03-23 00:00:00') /* Wretched Architect (32955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008B133, 33033, 0x008B0153, 50, -210, 0.011, 0, 0, 0, -1,  True, '2023-03-23 00:00:00'); /* Masonry Golem */
@@ -1135,10 +1134,6 @@ VALUES (0x7008B1A9, 33033, 0x008B01D0, 152.516, -118.041, 0.011, 0.449908, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008B1AE, 32955, 0x008B0219, 190.01, -231.123, 0.009, -0.999306, 0, 0, -0.037238,  True, '2023-03-23 00:00:00'); /* Wretched Architect */
 /* @teleloc 0x008B0219 [190.009995 -231.123001 0.009000] -0.999306 0.000000 0.000000 -0.037238 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1AF, 33033, 0x008B01C9, 143.777, -193.306, 0.011, 0.722279, 0, 0, -0.691602,  True, '2023-03-23 00:00:00'); /* Masonry Golem */
-/* @teleloc 0x008B01C9 [143.776993 -193.306000 0.011000] 0.722279 0.000000 0.000000 -0.691602 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008B1B0, 15759, 0x008B01C6, 125.143, -224.361, 0, 0.903067, 0, 0, 0.429499, False, '2023-03-23 00:00:00'); /* Linkable Item Generator */
