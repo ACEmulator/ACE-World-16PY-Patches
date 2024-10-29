@@ -65,7 +65,8 @@ VALUES (24324,   1,       5) /* HeartbeatInterval */
      , (24324, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24324,   1, 'Undead Sailor') /* Name */;
+VALUES (24324,   1, 'Undead Sailor') /* Name */
+     , (24324,  45, 'KillTaskMGHUndeadSailor') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24324,   1, 0x02000197) /* Setup */
