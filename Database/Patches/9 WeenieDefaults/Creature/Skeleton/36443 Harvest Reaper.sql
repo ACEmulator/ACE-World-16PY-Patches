@@ -60,7 +60,8 @@ VALUES (36443,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36443,   1, 'Harvest Reaper') /* Name */
-     , (36443,  45, 'KillTask-HarvestReaper') /* KillQuest */;
+     , (36443,  45, 'KillTask-HarvestReaper') /* KillQuest */
+     , (36443,  49, 'KillTaskMGHHarvestReaper') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36443,   1, 0x02001742) /* Setup */
