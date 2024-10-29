@@ -77,7 +77,7 @@ VALUES (24323,   1, 0x02000197) /* Setup */
      , (24323,   7, 0x10000492) /* ClothingBase */
      , (24323,   8, 0x06001226) /* Icon */
      , (24323,  22, 0x34000028) /* PhysicsEffectTable */
-     , (24323,  32,        203) /* WieldedTreasureType -
+     , (24323,  32,        203) /* WieldedTreasureType - 
                                    # Set: 1
                                    |  20.00% chance of Yumi (23734)
                                    |         with

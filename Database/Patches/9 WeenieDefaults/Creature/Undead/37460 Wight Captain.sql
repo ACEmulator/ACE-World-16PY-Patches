@@ -74,7 +74,7 @@ VALUES (37460,   1, 0x020016A1) /* Setup */
      , (37460,   6, 0x04000742) /* PaletteBase */
      , (37460,   8, 0x06001226) /* Icon */
      , (37460,  22, 0x34000028) /* PhysicsEffectTable */
-     , (37460,  32,       2020) /* WieldedTreasureType -
+     , (37460,  32,       2020) /* WieldedTreasureType - 
                                    # Set: 1
                                    |   5.80% chance of Electric Crossbow (47856)
                                    |         with
