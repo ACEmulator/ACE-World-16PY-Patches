@@ -57,7 +57,8 @@ VALUES (35092,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35092,   1, 'Wight Captain') /* Name */
-     , (35092,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */;
+     , (35092,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */
+     , (35092,  49, 'KillTaskMGHWightCaptain') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35092,   1, 0x020016A1) /* Setup */
@@ -68,7 +69,7 @@ VALUES (35092,   1, 0x020016A1) /* Setup */
      , (35092,   7, 0x10000066) /* ClothingBase */
      , (35092,   8, 0x06001226) /* Icon */
      , (35092,  22, 0x34000028) /* PhysicsEffectTable */
-     , (35092,  32,       2020) /* WieldedTreasureType - 
+     , (35092,  32,       2020) /* WieldedTreasureType -
                                    # Set: 1
                                    |   5.80% chance of Electric Crossbow (47856)
                                    |         with
