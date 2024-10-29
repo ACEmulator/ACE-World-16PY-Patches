@@ -65,7 +65,8 @@ VALUES (24323,   1,       5) /* HeartbeatInterval */
      , (24323, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24323,   1, 'Undead Sailor') /* Name */;
+VALUES (24323,   1, 'Undead Sailor') /* Name */
+     , (24323,  45, 'KillTaskMGHUndeadSailor') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24323,   1, 0x02000197) /* Setup */
@@ -76,7 +77,7 @@ VALUES (24323,   1, 0x02000197) /* Setup */
      , (24323,   7, 0x10000492) /* ClothingBase */
      , (24323,   8, 0x06001226) /* Icon */
      , (24323,  22, 0x34000028) /* PhysicsEffectTable */
-     , (24323,  32,        203) /* WieldedTreasureType - 
+     , (24323,  32,        203) /* WieldedTreasureType -
                                    # Set: 1
                                    |  20.00% chance of Yumi (23734)
                                    |         with
