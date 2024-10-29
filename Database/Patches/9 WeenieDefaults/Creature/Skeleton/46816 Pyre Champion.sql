@@ -66,7 +66,8 @@ VALUES (46816,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46816,   1, 'Pyre Champion') /* Name */
-     , (46816,  45, 'KilltaskGraveyardSkeleton_1309') /* KillQuest */;
+     , (46816,  45, 'KilltaskGraveyardSkeleton_1309') /* KillQuest */
+     , (46816,  49, 'KillTaskMGHPyreChampion') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46816,   1, 0x020016A5) /* Setup */
