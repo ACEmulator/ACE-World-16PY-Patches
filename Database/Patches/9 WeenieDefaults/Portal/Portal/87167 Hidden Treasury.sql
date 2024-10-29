@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87167;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87167, 'ace87167-hiddentreasury', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (87167, 'ace87167-hiddentreasury', 7, '2024-10-29 16:22:18') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87167,   1,      65536) /* ItemType - Portal */
      , (87167,  16,         32) /* ItemUseable - Remote */
      , (87167,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (87167, 111,         16) /* PortalBitmask - NoSummon */
+     , (87167, 111,         48) /* PortalBitmask - NoSummon, NoRecall */
      , (87167, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

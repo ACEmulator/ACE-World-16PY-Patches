@@ -1,12 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34299;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34299, 'ace34299-theriseandfallofthetanada', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (34299, 'ace34299-theriseandfallofthetanada', 8, '2024-10-29 16:22:18') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34299,   1,       8192) /* ItemType - Writable */
      , (34299,   5,        200) /* EncumbranceVal */
      , (34299,  16,          8) /* ItemUseable - Contained */
+     , (34299,  19,          0) /* Value */
      , (34299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34299, 151,          2) /* HookType - Wall */;
 
@@ -15,7 +16,8 @@ VALUES (34299,  39,    1.22) /* DefaultScale */
      , (34299,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34299,   1, 'The Rise and Fall of the Tanada') /* Name */;
+VALUES (34299,   1, 'The Rise and Fall of the Tanada') /* Name */
+     , (34299,  16, 'A book that outlines some of the history and practices of the secretive Tanada clan of the Nanjou Shou-Jen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34299,   1, 0x02000153) /* Setup */

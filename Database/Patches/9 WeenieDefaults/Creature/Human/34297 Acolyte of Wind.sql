@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34297;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34297, 'ace34297-acolyteofwind', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (34297, 'ace34297-acolyteofwind', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34297,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,7 @@ VALUES (34297,   1, 0x02000001) /* Setup */
                                    |  34.50% chance of Yumi (34345)
                                    |         with
                                    |            100.00% chance of 100x Deadly Armor Piercing Arrow (15431)
-                                   |  65.50% chance of nothing from this set */
-     , (34297,  35,        454) /* DeathTreasureType - Loot Tier: 5 */;
+                                   |  65.50% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34297,   1, 200, 0, 0) /* Strength */
@@ -97,26 +96,26 @@ VALUES (34297,   1,   120, 0, 0, 230) /* MaxHealth */
      , (34297,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (34297,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
-     , (34297,  7, 0, 3, 0, 194, 0, 0) /* MissileDefense      Specialized */
+VALUES (34297,  6, 0, 3, 0, 235, 0, 0) /* MeleeDefense        Specialized */
+     , (34297,  7, 0, 3, 0, 415, 0, 0) /* MissileDefense      Specialized */
      , (34297, 15, 0, 3, 0, 179, 0, 0) /* MagicDefense        Specialized */
      , (34297, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */
-     , (34297, 33, 0, 3, 0, 180, 0, 0) /* LifeMagic           Specialized */
-     , (34297, 34, 0, 3, 0, 180, 0, 0) /* WarMagic            Specialized */
-     , (34297, 44, 0, 3, 0, 297, 0, 0) /* HeavyWeapons        Specialized */
-     , (34297, 45, 0, 3, 0, 297, 0, 0) /* LightWeapons        Specialized */
+     , (34297, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
+     , (34297, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */
+     , (34297, 44, 0, 3, 0, 340, 0, 0) /* HeavyWeapons        Specialized */
+     , (34297, 45, 0, 3, 0, 340, 0, 0) /* LightWeapons        Specialized */
      , (34297, 47, 0, 3, 0, 225, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (34297,  0,  4,  0,    0,  180,  162,  162,  162,  144,   72,   54,  108,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (34297,  1,  4,  0,    0,  180,  162,  162,  162,  144,   72,   54,  108,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (34297,  2,  4,  0,    0,  180,  162,  162,  162,  144,   72,   54,  108,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (34297,  3,  4,  0,    0,  180,  162,  162,  162,  144,   72,   54,  108,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (34297,  4,  4,  0,    0,  180,  162,  162,  162,  144,   72,   54,  108,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (34297,  5,  4,  4, 0.75,  180,  162,  162,  162,  144,   72,   54,  108,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (34297,  6,  4,  0,    0,  180,  162,  162,  162,  144,   72,   54,  108,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (34297,  7,  4,  0,    0,  180,  162,  162,  162,  144,   72,   54,  108,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (34297,  8,  4,  8, 0.75,  180,  162,  162,  162,  144,   72,   54,  108,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (34297,  0,  4,  0,    0,  225,  203,  203,  203,  180,   90,   68,  135,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (34297,  1,  4,  0,    0,  265,  239,  239,  239,  212,  106,   80,  159,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (34297,  2,  4,  0,    0,  265,  239,  239,  239,  212,  106,   80,  159,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (34297,  3,  4,  0,    0,  265,  239,  239,  239,  212,  106,   80,  159,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (34297,  4,  4,  0,    0,  265,  239,  239,  239,  212,  106,   80,  159,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (34297,  5,  4, 40, 0.75,  265,  239,  239,  239,  212,  106,   80,  159,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (34297,  6,  4,  0,    0,  265,  239,  239,  239,  212,  106,   80,  159,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (34297,  7,  4,  0,    0,  265,  239,  239,  239,  212,  106,   80,  159,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (34297,  8,  4, 80, 0.75,  265,  239,  239,  239,  212,  106,   80,  159,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34297, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */

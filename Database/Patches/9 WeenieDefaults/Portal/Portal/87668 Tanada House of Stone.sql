@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87668;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87668, 'ace87668-tanadahouseofstone', 7, '2021-11-17 16:56:08') /* Portal */;
+VALUES (87668, 'ace87668-tanadahouseofstone', 7, '2024-10-29 16:22:18') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87668,   1,      65536) /* ItemType - Portal */
@@ -22,7 +22,7 @@ VALUES (87668,   1, 'Tanada House of Stone') /* Name */
      , (87668,  37, 'TanadaHouseofStone_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87668,   1, 0x020001B3) /* Setup */
+VALUES (87668,   1, 0x020005D5) /* Setup */
      , (87668,   2, 0x09000003) /* MotionTable */
      , (87668,   8, 0x0600106B) /* Icon */;
 

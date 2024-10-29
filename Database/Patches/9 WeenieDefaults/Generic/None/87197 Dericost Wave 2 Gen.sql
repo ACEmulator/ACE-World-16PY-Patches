@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87197;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87197, 'ace87197-dericostwave2gen', 1, '2022-11-05 05:26:30') /* Generic */;
+VALUES (87197, 'ace87197-dericostwave2gen', 1, '2024-10-29 16:22:18') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87197,  81,         10) /* MaxGeneratedObjects */
      , (87197,  82,         10) /* InitGeneratedObjects */
      , (87197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87197, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (87197, 145,          2) /* GeneratorEndDestructionType - Destroy */;
+     , (87197, 103,          2) /* GeneratorDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87197,   1, True ) /* Stuck */
@@ -16,7 +15,7 @@ VALUES (87197,   1, True ) /* Stuck */
      , (87197,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87197,  41,    1600) /* RegenerationInterval */
+VALUES (87197,  41,   99999) /* RegenerationInterval */
      , (87197,  43,      20) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

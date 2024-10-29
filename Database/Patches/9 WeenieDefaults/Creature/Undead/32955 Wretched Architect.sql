@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32955;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32955, 'ace32955-wretchedarchitect', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (32955, 'ace32955-wretchedarchitect', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32955,   1,         16) /* ItemType - Creature */
@@ -125,34 +125,33 @@ VALUES (32955,   1,  1250, 0, 0, 1345) /* MaxHealth */
      , (32955,   5,  1000, 0, 0, 1245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32955,  6, 0, 3, 0, 220, 0, 0) /* MeleeDefense        Specialized */
-     , (32955,  7, 0, 3, 0, 192, 0, 0) /* MissileDefense      Specialized */
-     , (32955, 15, 0, 3, 0, 189, 0, 0) /* MagicDefense        Specialized */
-     , (32955, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
-     , (32955, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
-     , (32955, 34, 0, 3, 0, 275, 0, 0) /* WarMagic            Specialized */
-     , (32955, 41, 0, 3, 0, 237, 0, 0) /* TwoHandedCombat     Specialized */
-     , (32955, 44, 0, 3, 0, 247, 0, 0) /* HeavyWeapons        Specialized */
-     , (32955, 45, 0, 3, 0, 259, 0, 0) /* LightWeapons        Specialized */
-     , (32955, 46, 0, 3, 0, 237, 0, 0) /* FinesseWeapons      Specialized */
-     , (32955, 47, 0, 3, 0, 258, 0, 0) /* MissileWeapons      Specialized */;
+VALUES (32955,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
+     , (32955,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
+     , (32955, 15, 0, 3, 0, 210, 0, 0) /* MagicDefense        Specialized */
+     , (32955, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
+     , (32955, 33, 0, 3, 0, 172, 0, 0) /* LifeMagic           Specialized */
+     , (32955, 34, 0, 3, 0, 172, 0, 0) /* WarMagic            Specialized */
+     , (32955, 44, 0, 3, 0, 398, 0, 0) /* HeavyWeapons        Specialized */
+     , (32955, 45, 0, 3, 0, 398, 0, 0) /* LightWeapons        Specialized */
+     , (32955, 46, 0, 3, 0, 398, 0, 0) /* FinesseWeapons      Specialized */
+     , (32955, 47, 0, 3, 0, 248, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (32955,  0,  4,  0,    0,  205,   76,   76,  103,   62,  123,   82,   68,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (32955,  1,  4,  0,    0,  205,   76,   76,  103,   62,  123,   82,   68,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (32955,  2,  4,  0,    0,  205,   76,   76,  103,   62,  123,   82,   68,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (32955,  3,  4,  0,    0,  205,   76,   76,  103,   62,  123,   82,   68,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (32955,  4,  4,  0,    0,  205,   76,   76,  103,   62,  123,   82,   68,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (32955,  5,  4,  5, 0.75,  205,   76,   76,  103,   62,  123,   82,   68,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (32955,  6,  4,  0,    0,  205,   76,   76,  103,   62,  123,   82,   68,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (32955,  7,  4,  0,    0,  205,   76,   76,  103,   62,  123,   82,   68,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (32955,  8,  4,  5, 0.75,  205,   76,   76,  103,   62,  123,   82,   68,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (32955,  0,  4,  0,    0,  320,  118,  118,  160,   96,  192,  128,  106,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (32955,  1,  4,  0,    0,  330,  122,  122,  165,   99,  198,  132,  109,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (32955,  2,  4,  0,    0,  370,  137,  137,  185,  111,  222,  148,  122,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (32955,  3,  4,  0,    0,  340,  126,  126,  170,  102,  204,  136,  112,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (32955,  4,  4,  0,    0,  370,  137,  137,  185,  111,  222,  148,  122,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (32955,  5,  4, 150, 0.75,  350,  130,  130,  175,  105,  210,  140,  116,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (32955,  6,  4,  0,    0,  330,  122,  122,  165,   99,  198,  132,  109,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (32955,  7,  4,  0,    0,  370,  137,  137,  185,  111,  222,  148,  122,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (32955,  8,  4, 200, 0.75,  370,  137,  137,  185,  111,  222,  148,  122,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32955,  2074,   2.01)  /* Gossamer Flesh */
-     , (32955,  2122,   2.01)  /* Disintegration */
-     , (32955,  2132,   2.01)  /* The Spike */
-     , (32955,  2174,   2.01)  /* Archer's Gift */;
+VALUES (32955,  1327,   2.05)  /* Imperil Other VI */
+     , (32955,  2128,   2.05)  /* Ilservian's Flame */
+     , (32955,  2144,   2.06)  /* Crushing Shame */
+     , (32955,  1053,   2.06)  /* Bludgeoning Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32955, 9,  9310,  1, 0, 0.04, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87647;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87647, 'ace87647-tanadashrineofbreath', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (87647, 'ace87647-tanadashrineofbreath', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87647,   1,         16) /* ItemType - Creature */
@@ -12,8 +12,11 @@ VALUES (87647,   1,         16) /* ItemType - Creature */
      , (87647,  16,         32) /* ItemUseable - Remote */
      , (87647,  25,         66) /* Level */
      , (87647,  27,          0) /* ArmorType - None */
+     , (87647,  81,          2) /* MaxGeneratedObjects */
+     , (87647,  82,          2) /* InitGeneratedObjects */
      , (87647,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87647,  95,          3) /* RadarBlipColor - White */
+     , (87647, 103,          2) /* GeneratorDestructionType - Destroy */
      , (87647, 133,          0) /* ShowableOnRadar - Undefined */
      , (87647, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (87647, 146,       4517) /* XpOverride */;
@@ -44,7 +47,9 @@ VALUES (87647,   1,       5) /* HeartbeatInterval */
      , (87647,  17,     0.4) /* ArmorModVsFire */
      , (87647,  18,       1) /* ArmorModVsAcid */
      , (87647,  19,     0.6) /* ArmorModVsElectric */
-     , (87647,  39,     1.5) /* DefaultScale */
+     , (87647,  39,       1) /* DefaultScale */
+     , (87647,  41,     300) /* RegenerationInterval */
+     , (87647,  43,      10) /* GeneratorRadius */
      , (87647,  54,       3) /* UseRadius */
      , (87647,  64,       1) /* ResistSlash */
      , (87647,  65,       1) /* ResistPierce */
@@ -116,3 +121,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'The Tanada Shrine of Breath is made of polished stone and scented wood. It weems to have a slot built into it, as if to accept some small, disc-shaped object...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (87647, -1, 73208, 600, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 1, 0, 0, 0) /* Generate Hidden Sho Festival Light (73208) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (87647, -1, 73208, 600, 1, 1, 1, 4, -1, 0, 0, 0, -4, 0, 0, 0, 0, 0, 1) /* Generate Hidden Sho Festival Light (73208) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

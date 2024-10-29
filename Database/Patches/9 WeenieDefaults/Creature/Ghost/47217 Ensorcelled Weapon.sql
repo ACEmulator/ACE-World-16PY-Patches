@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47217;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47217, 'ace47217-ensorcelledweapon', 10, '2024-09-16 04:28:34') /* Creature */;
+VALUES (47217, 'ace47217-ensorcelledweapon', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47217,   1,         16) /* ItemType - Creature */
@@ -107,6 +107,6 @@ VALUES (47217,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,
      , (47217,  8,  4, 600, 0.75,  400,  400,  360,  300,  400,  400,  268,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47217, 10, 47219,  1, 0, 0.33, False) /* Create Ensorcelled Sword (47219) for WieldTreasure */
-     , (47217, 10, 47220,  1, 0, 0.33, False) /* Create Ensorcelled Dagger (47220) for WieldTreasure */
-     , (47217, 10, 47222,  1, 0, 0.34, False) /* Create Ensorcelled Mace (47222) for WieldTreasure */;
+VALUES (47217, 10, 47222,  1, 0, 0.5, False) /* Create Ensorcelled Mace (47222) for WieldTreasure */
+     , (47217, 10, 47219,  1, 0, 0.5, False) /* Create Ensorcelled Sword (47219) for WieldTreasure */
+     , (47217, 10, 47220,  1, 0, 0.5, False) /* Create Ensorcelled Dagger (47220) for WieldTreasure */;

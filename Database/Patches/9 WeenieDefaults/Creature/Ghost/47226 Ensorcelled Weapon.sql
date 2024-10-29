@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47226;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47226, 'ace47226-ensorcelledweapon', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (47226, 'ace47226-ensorcelledweapon', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47226,   1,         16) /* ItemType - Creature */
@@ -88,11 +88,8 @@ VALUES (47226,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (47226,  7, 0, 2, 0, 350, 0, 0) /* MissileDefense      Trained */
      , (47226, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
      , (47226, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (47226, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
-     , (47226, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (47226, 45, 0, 3, 0, 395, 0, 0) /* LightWeapons        Specialized */
      , (47226, 46, 0, 3, 0, 395, 0, 0) /* FinesseWeapons      Specialized */
-     , (47226, 48, 0, 3, 0, 395, 0, 0) /* Shield              Specialized */
      , (47226, 49, 0, 3, 0, 395, 0, 0) /* DualWield           Specialized */
      , (47226, 51, 0, 3, 0, 395, 0, 0) /* SneakAttack         Specialized */;
 
@@ -108,6 +105,5 @@ VALUES (47226,  0,  4,  0,    0,  400,  400,  360,  300,  400,  400,  268,  400,
      , (47226,  8,  4, 600, 0.75,  400,  400,  360,  300,  400,  400,  268,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47226, 2, 47219,  1, 0, 0.33, False) /* Create Ensorcelled Sword (47219) for Wield */
-     , (47226, 2, 47220,  1, 0, 0.33, False) /* Create Ensorcelled Dagger (47220) for Wield */
-     , (47226, 2, 47222,  1, 0, 0.33, False) /* Create Ensorcelled Mace (47222) for Wield */;
+VALUES (47226, 10, 47219,  1, 0, 1, False) /* Create Ensorcelled Sword (47219) for WieldTreasure */
+     , (47226, 10, 47227,  1, 0, 0.5, False) /* Create Ensorcelled Mace (47227) for WieldTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36443;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36443, 'ace36443-harvestreaper', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (36443, 'ace36443-harvestreaper', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36443,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,8 @@ VALUES (36443,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36443,   1, 'Harvest Reaper') /* Name */
-     , (36443,  45, 'KillTask-HarvestReaper') /* KillQuest */;
+     , (36443,  45, 'KillTask-HarvestReaper') /* KillQuest */
+     , (36443,  49, 'KillTaskMGHHarvestReaper') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36443,   1, 0x02001742) /* Setup */

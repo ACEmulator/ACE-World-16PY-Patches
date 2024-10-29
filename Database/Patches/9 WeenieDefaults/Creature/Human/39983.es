@@ -13,8 +13,19 @@ Use:
     - Tell: As a game hunter I've tagged a variety of creatures to test your skills. Kill these creatures to test your skills and prove your abilities and I'll make it worth your while.
     - InqEvent: EventFallFestival
         EventSuccess:
+            # MGHGroupSix
+            - EraseQuest: KillTaskMGHVoraciousEater
+            - EraseQuest: KillTaskMGHAbhorrentEater
+            - EraseQuest: KillTaskMGHTumerok
+            - EraseQuest: KillTaskMGHRemoran
+            - EraseQuest: KillTaskMGHWasp
             - Goto: MGHGroupSeasonal
         EventFailure:
+            - EraseQuest: KillTaskMGHVScarecrows
+            - EraseQuest: KillTaskMGHUndeadSailor
+            - EraseQuest: KillTaskMGHPyreChampion
+            - EraseQuest: KillTaskMGHWightCaptain
+            - EraseQuest: KillTaskMGHHarvestReaper
             - InqEvent: MGHGroupOne
                 EventSuccess:
                     - Goto: MGHGroupOne
@@ -39,6 +50,11 @@ Use:
                                                         EventSuccess:
                                                             - Goto: MGHGroupSix
                                                         EventFailure:
+                                                            - EraseQuest: KillTaskMGHVoraciousEater
+                                                            - EraseQuest: KillTaskMGHAbhorrentEater
+                                                            - EraseQuest: KillTaskMGHTumerok
+                                                            - EraseQuest: KillTaskMGHRemoran
+                                                            - EraseQuest: KillTaskMGHWasp
                                                             - InqEvent: MGHGroupSeven
                                                                 EventSuccess:
                                                                     - Goto: MGHGroupSeven

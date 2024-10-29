@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45155;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45155, 'ace45155-pyrechampion', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (45155, 'ace45155-pyrechampion', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45155,   1,         16) /* ItemType - Creature */
@@ -64,7 +64,8 @@ VALUES (45155,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45155,   1, 'Pyre Champion') /* Name */
-     , (45155,  45, 'KilltaskGraveyardSkeleton_1309') /* KillQuest */;
+     , (45155,  45, 'KilltaskGraveyardSkeleton_1309') /* KillQuest */
+     , (45155,  49, 'KillTaskMGHPyreChampion') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45155,   1, 0x020016A5) /* Setup */

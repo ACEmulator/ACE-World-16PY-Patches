@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87192;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87192, 'ace87192-filinuvektahieromancer', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (87192, 'ace87192-filinuvektahieromancer', 10, '2024-10-29 16:22:18') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87192,   1,         16) /* ItemType - Creature */
@@ -41,7 +41,7 @@ VALUES (87192,   1,       5) /* HeartbeatInterval */
      , (87192,  55,      75) /* HomeRadius */
      , (87192,  64,    0.82) /* ResistSlash */
      , (87192,  65,     0.5) /* ResistPierce */
-     , (87192,  66,     0.5) /* ResistBludgeon */
+     , (87192,  66,    0.75) /* ResistBludgeon */
      , (87192,  67,    0.85) /* ResistFire */
      , (87192,  68,     0.5) /* ResistCold */
      , (87192,  69,     0.5) /* ResistAcid */
@@ -83,28 +83,25 @@ VALUES (87192,   1, 149800, 0, 0, 150000) /* MaxHealth */
      , (87192,   5,   500, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (87192,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
-     , (87192,  7, 0, 3, 0, 367, 0, 0) /* MissileDefense      Specialized */
-     , (87192, 15, 0, 3, 0, 395, 0, 0) /* MagicDefense        Specialized */
-     , (87192, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
-     , (87192, 33, 0, 3, 0, 460, 0, 0) /* LifeMagic           Specialized */
-     , (87192, 34, 0, 3, 0, 395, 0, 0) /* WarMagic            Specialized */
-     , (87192, 41, 0, 3, 0, 445, 0, 0) /* TwoHandedCombat     Specialized */
-     , (87192, 44, 0, 3, 0, 445, 0, 0) /* HeavyWeapons        Specialized */
-     , (87192, 45, 0, 3, 0, 445, 0, 0) /* LightWeapons        Specialized */
-     , (87192, 46, 0, 3, 0, 445, 0, 0) /* FinesseWeapons      Specialized */
-     , (87192, 47, 0, 3, 0, 445, 0, 0) /* MissileWeapons      Specialized */;
+VALUES (87192,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
+     , (87192,  7, 0, 3, 0, 397, 0, 0) /* MissileDefense      Specialized */
+     , (87192, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
+     , (87192, 20, 0, 3, 0,  90, 0, 0) /* Deception           Specialized */
+     , (87192, 31, 0, 3, 0, 248, 0, 0) /* CreatureEnchantment Specialized */
+     , (87192, 33, 0, 3, 0, 248, 0, 0) /* LifeMagic           Specialized */
+     , (87192, 34, 0, 3, 0, 248, 0, 0) /* WarMagic            Specialized */
+     , (87192, 45, 0, 3, 0, 312, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (87192,  0,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (87192,  1,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (87192,  2,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (87192,  3,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (87192,  4,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (87192,  5,  4, 400, 0.75,  225,  191,  214,  191,  214,  191,  203,  214,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (87192,  6,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (87192,  7,  4,  0,    0,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (87192,  8,  4, 400, 0.75,  225,  191,  214,  191,  214,  191,  203,  214,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (87192,  0,  4,  0,    0,  650,  553,  618,  553,  618,  553,  585,  618,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (87192,  1,  4,  0,    0,  650,  553,  618,  553,  618,  553,  585,  618,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (87192,  2,  4,  0,    0,  650,  553,  618,  553,  618,  553,  585,  618,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (87192,  3,  4,  0,    0,  650,  553,  618,  553,  618,  553,  585,  618,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (87192,  4,  4,  0,    0,  650,  553,  618,  553,  618,  553,  585,  618,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (87192,  5,  4, 400, 0.75,  650,  553,  618,  553,  618,  553,  585,  618,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (87192,  6,  4,  0,    0,  650,  553,  618,  553,  618,  553,  585,  618,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (87192,  7,  4,  0,    0,  650,  553,  618,  553,  618,  553,  585,  618,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (87192,  8,  4, 400, 0.75,  650,  553,  618,  553,  618,  553,  585,  618,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87192,  2042,    2.1)  /* Demon's Tongues */

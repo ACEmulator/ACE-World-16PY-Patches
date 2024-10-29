@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87663;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87663, 'ace87663-enlightenedmasterschambers', 7, '2021-11-17 16:56:08') /* Portal */;
+VALUES (87663, 'ace87663-enlightenedmasterschambers', 7, '2024-10-29 16:22:18') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87663,   1,      65536) /* ItemType - Portal */
@@ -22,7 +22,7 @@ VALUES (87663,   1, 'Enlightened Master''s Chambers') /* Name */
      , (87663,  37, 'TanadaHouseofEarthMaster_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87663,   1, 0x020001B3) /* Setup */
+VALUES (87663,   1, 0x020005D5) /* Setup */
      , (87663,   2, 0x09000003) /* MotionTable */
      , (87663,   8, 0x0600106B) /* Icon */;
 

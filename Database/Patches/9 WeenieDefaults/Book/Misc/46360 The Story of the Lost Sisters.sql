@@ -1,20 +1,23 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46360;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46360, 'ace46360-thestoryofthelostsisters', 8, '2021-11-08 06:01:47') /* Book */;
+VALUES (46360, 'ace46360-thestoryofthelostsisters', 8, '2024-10-29 16:22:18') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46360,   1,        128) /* ItemType - Misc */
      , (46360,   5,         25) /* EncumbranceVal */
      , (46360,  16,          8) /* ItemUseable - Contained */
      , (46360,  19,         20) /* Value */
-     , (46360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (46360,  33,          1) /* Bonded - Bonded */
+     , (46360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46360, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46360,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46360,   1, 'The Story of the Lost Sisters') /* Name */;
+VALUES (46360,   1, 'The Story of the Lost Sisters') /* Name */
+     , (46360,  16, 'A translation of a Falatacot document found in the Vesayen Isles. It seems to be an excerpt from a longer story.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46360,   1, 0x02000155) /* Setup */
