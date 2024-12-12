@@ -22,7 +22,7 @@ VALUES (73229,  19, False) /* Attackable */
      , (73229,  90, True ) /* NpcInteractsSilently */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (73229,   1, 'Holiday Present') /* Name */
+VALUES (73229,   1, 'Holiday Presents') /* Name */
      , (73229,  15, 'A pile of present boxes. All glued shut to preserve the mystery.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
