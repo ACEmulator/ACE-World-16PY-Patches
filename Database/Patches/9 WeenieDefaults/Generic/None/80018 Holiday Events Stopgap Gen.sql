@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (80018, 'ace80018-holidayeventsstopgapgen', 1, '2024-03-15 04:03:05') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (80018,  81,          1) /* MaxGeneratedObjects */
-     , (80018,  82,          1) /* InitGeneratedObjects */
+VALUES (80018,  81,          2) /* MaxGeneratedObjects */
+     , (80018,  82,          2) /* InitGeneratedObjects */
      , (80018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80018, 142,          1) /* GeneratorTimeType - RealTime */
      , (80018, 143, 1733288460) /* GeneratorStartTime - 12/04/2024 05:01:00 */
@@ -30,4 +30,5 @@ VALUES (80018,   1, 0x0200026B) /* Setup */
      , (80018,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80018, -1, 80017, 1, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Holiday Events Stopgap! (80017) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (80018, -1, 80017, 1, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Holiday Events Stopgap! (80017) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (80018, -1, 73224, 14400, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Present Raids Stopgap (73224) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
