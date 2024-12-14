@@ -84,5 +84,5 @@ VALUES (0x7866C023, 43066, 0x866C002F, 139.232, 162.06, 10.198, 0.928359, 0, 0, 
 /* @teleloc 0x866C002F [139.231995 162.059998 10.198000] 0.928359 0.000000 0.000000 -0.371686 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7866C024, 73219, 0x866C001F, 90.4732, 167.825, 14.055, 0.707107, 0, 0, -0.707107, False, '2024-12-11 16:10:13'); /* Gurog Present Raids Tufa Gen */
+VALUES (0x7866C024, 73219, 0x866C001F, 90.4732, 167.825, 14.055, 0.707107, 0, 0, -0.707107, False, '2024-12-11 16:10:13'); /* Present Raids Tufa Gen */
 /* @teleloc 0x866C001F [90.473198 167.824997 14.055000] 0.707107 0.000000 0.000000 -0.707107 */

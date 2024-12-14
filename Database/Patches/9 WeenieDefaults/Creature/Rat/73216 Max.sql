@@ -16,7 +16,7 @@ VALUES (73216,   1,         16) /* ItemType - Creature */
      , (73216,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (73216, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (73216, 146,    4000000) /* XpOverride */
-     , (73216, 281,         16) /* Faction1Bits - 8 */;
+     , (73216, 281,         16) /* Faction1Bits - 16 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (73216,   1, True ) /* Stuck */
@@ -87,9 +87,9 @@ VALUES (73216,  6, 0, 2, 0, 450, 0, 0) /* MeleeDefense        Trained */
      , (73216, 45, 0, 2, 0, 480, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (73216,  0,  2, 400, 0.75,  480,  421,  421,  280,  421,  421,  421,  280,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
-     , (73216, 16,  4, 400, 0.75,  480,  421,  421,  280,  421,  421,  421,  280,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
-     , (73216, 17,  4, 400,    0,  480,  421,  421,  280,  421,  421,  421,  280,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */;
+VALUES (73216,  0,  2, 400, 0.75,  480,  576,  480,  480,  576,  384,  480,  480,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
+     , (73216, 16,  4, 400, 0.75,  480,  576,  480,  480,  576,  384,  480,  480,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
+     , (73216, 17,  4, 400,    0,  480,  576,  480,  480,  576,  384,  480,  480,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (73216,  5 /* HeartBeat */,    0.1, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

@@ -351,5 +351,5 @@ VALUES (0x77D64077, 37518, 0x7D640019, 83.6504, 4.37371, 12.005, 0.321405, 0, 0,
 /* @teleloc 0x7D640019 [83.650398 4.373710 12.005000] 0.321405 0.000000 0.000000 -0.946942 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64078, 73230, 0x7D640033, 157.233, 53.5103, 15.1578, 0.707107, 0, 0, 0.707107, False, '2024-12-11 21:27:19'); /* Drudge Present Raids Yaraq Gen */
+VALUES (0x77D64078, 73230, 0x7D640033, 157.233, 53.5103, 15.1578, 0.707107, 0, 0, 0.707107, False, '2024-12-11 21:27:19'); /* Present Raids Yaraq Gen */
 /* @teleloc 0x7D640033 [157.233002 53.510300 15.157800] 0.707107 0.000000 0.000000 0.707107 */
