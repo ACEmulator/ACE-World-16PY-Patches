@@ -36,7 +36,7 @@ VALUES (73167,  22,     0.5) /* DamageVariance */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (73167,   1, 'Ley Line') /* Name */
-     , (73167,  17, 'You lose %i health to the turbulent mana currents.') /* ActivationTalk */;
+     , (73167,  17, 'The crawling energies drain %i of your health!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (73167,   1, 0x02000638) /* Setup */
