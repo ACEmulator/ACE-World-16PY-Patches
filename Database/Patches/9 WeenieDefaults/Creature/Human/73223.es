@@ -1,0 +1,3 @@
+Generation:
+    - LocalSignal: DeleteReceiver
+    - DeleteSelf

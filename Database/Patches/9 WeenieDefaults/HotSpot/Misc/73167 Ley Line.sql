@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 73167;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (73167, 'ace73167-leyline', 13, '2023-06-05 00:31:03') /* HotSpot */;
+VALUES (73167, 'ace73167-leyline', 13, '2024-12-15 01:16:43') /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (73167,   1,        128) /* ItemType - Misc */
@@ -36,7 +36,7 @@ VALUES (73167,  22,     0.5) /* DamageVariance */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (73167,   1, 'Ley Line') /* Name */
-     , (73167,  17, 'You lose %i health to the turbulent mana currents.') /* ActivationTalk */;
+     , (73167,  17, 'The crawling energies drain %i of your health!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (73167,   1, 0x02000638) /* Setup */
