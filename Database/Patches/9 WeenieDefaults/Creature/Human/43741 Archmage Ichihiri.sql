@@ -66,25 +66,25 @@ VALUES (43741,   1, 'Archmage Ichihiri') /* Name */
      , (43741,   5, 'Arcanum Investigator') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43741,   1, 0x0200004E) /* Setup */
+VALUES (43741,   1, 0x02000001) /* Setup */
      , (43741,   2, 0x09000001) /* MotionTable */
-     , (43741,   3, 0x20000002) /* SoundTable */
+     , (43741,   3, 0x20000001) /* SoundTable */
      , (43741,   4, 0x30000000) /* CombatTable */
      , (43741,   6, 0x0400007E) /* PaletteBase */
      , (43741,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (43741,   1, 120, 0, 0) /* Strength */
-     , (43741,   2, 112, 0, 0) /* Endurance */
-     , (43741,   3,  85, 0, 0) /* Quickness */
-     , (43741,   4,  85, 0, 0) /* Coordination */
-     , (43741,   5,  60, 0, 0) /* Focus */
-     , (43741,   6,  50, 0, 0) /* Self */;
+VALUES (43741,   1, 260, 0, 0) /* Strength */
+     , (43741,   2, 200, 0, 0) /* Endurance */
+     , (43741,   3, 200, 0, 0) /* Quickness */
+     , (43741,   4, 290, 0, 0) /* Coordination */
+     , (43741,   5, 290, 0, 0) /* Focus */
+     , (43741,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43741,   1,     0, 0, 0, 56) /* MaxHealth */
-     , (43741,   3,     0, 0, 0, 112) /* MaxStamina */
-     , (43741,   5,     0, 0, 0, 50) /* MaxMana */;
+VALUES (43741,   1,   196, 0, 0, 296) /* MaxHealth */
+     , (43741,   3,   196, 0, 0, 396) /* MaxStamina */
+     , (43741,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43741,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
