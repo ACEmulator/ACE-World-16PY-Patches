@@ -66,9 +66,9 @@ VALUES (43741,   1, 'Archmage Ichihiri') /* Name */
      , (43741,   5, 'Arcanum Investigator') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43741,   1, 0x0200004E) /* Setup */
+VALUES (43741,   1, 0x02000001) /* Setup */
      , (43741,   2, 0x09000001) /* MotionTable */
-     , (43741,   3, 0x20000002) /* SoundTable */
+     , (43741,   3, 0x20000001) /* SoundTable */
      , (43741,   4, 0x30000000) /* CombatTable */
      , (43741,   6, 0x0400007E) /* PaletteBase */
      , (43741,   8, 0x06001036) /* Icon */;
