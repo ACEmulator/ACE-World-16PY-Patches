@@ -115,7 +115,7 @@ Give: Stamped Samsur Lucky Gold Letter (70309)
     - Goto: RewardText
 
 Give: Stamped Yanshi Lucky Gold Letter (70311)
-    - Delay: 1, Give: Seasoned Explorer Axe Cast (70192)
+    - Delay: 1, Give: Seasoned Explorer Axe Cast (45982)
     - Goto: RewardText
     - Goto: GemReminder
 
