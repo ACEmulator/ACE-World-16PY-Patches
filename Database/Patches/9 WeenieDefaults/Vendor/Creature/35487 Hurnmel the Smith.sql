@@ -89,7 +89,7 @@ VALUES (35487, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (35487, 4, 35620, -1, 0, 0, False) /* Create Spectral Chill Bolt Bundle (35620) for Shop */
      , (35487, 4, 35491, -1, 0, 0, False) /* Create Maelstrom of Souls Gem (35491) for Shop */
      , (35487, 4, 35492, -1, 0, 0, False) /* Create Gem of Spectral Force (35492) for Shop */
-     , (35487, 4, 36629, -1, 0, 0, False) /* Create  (36629) for Shop */
+     , (35487, 4, 36629, -1, 0, 0, False) /* Create Spectral Shield Armor Augmentation (36629) for Shop */
      , (35487, 4, 36631, -1, 0, 0, False) /* Create Magic Defense Weapon Augmentation (36631) for Shop */
      , (35487, 4, 37539, -1, 0, 0, False) /* Create Spectral Binding Stone (37539) for Shop */
      , (35487, 4, 36013, -1, 0, 0, False) /* Create Spectral Light Weapon Mastery Crystal (36013) for Shop */
