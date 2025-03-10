@@ -19,11 +19,11 @@ Use:
                         QuestFailure:
                             - InqQuestSolves: TowerGuardianRepairs_Counter, 0-0
                                 QuestSuccess:
-                                    - Tell: If you still wish you may bring me Crystal and Pyreal that I can store for later use in repairing any damage the Guardian takes in Defense of the Castle.
-                                QuestFailure:
                                     - Tell: If you wish to help repair any damage the Guardian takes in defense of the castle there is a note on the table just there that lists the types of crystal and pyreal that are of use.
                                     - Delay: 1, Tell: You may test yourself against the Tower Guardian if you wish. It will learn a great deal by battling your best warriors and mages.
                                     - SetQuestCompletions: TowerGuardianRepairs_Counter, 0
+                                QuestFailure:
+                                    - Tell: If you still wish you may bring me Crystal and Pyreal that I can store for later use in repairing any damage the Guardian takes in Defense of the Castle.
                             
 Give: Pyreal Mote (6353)
     - TurnToTarget
