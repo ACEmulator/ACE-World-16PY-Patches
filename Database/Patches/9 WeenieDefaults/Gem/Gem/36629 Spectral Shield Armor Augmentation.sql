@@ -14,7 +14,6 @@ VALUES (36629,   1,       2048) /* ItemType - Gem */
      , (36629,  18,          1) /* UiEffects - Magical */
      , (36629,  19,         25) /* Value */
      , (36629,  33,          1) /* Bonded - Bonded */
-     , (36629,  53,        101) /* PlacementPosition - Resting */
      , (36629,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36629,  94,          2) /* TargetType - Armor */
      , (36629, 114,          1) /* Attuned - Attuned */;
