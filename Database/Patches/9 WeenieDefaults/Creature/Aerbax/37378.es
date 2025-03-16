@@ -5,15 +5,15 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 1
 NewEnemy: Probability: 1
     - Tell: Congratulations, you've made it this far, but I'm afraid that you underestimated my power. Soon I will sweep your empty husk off my platform. Leave now and I may spare you.
 
-WoundedTaunt: MinHealth: 0.86, MaxHealth: 0.90
+WoundedTaunt: MinHealth: 0.8, MaxHealth: 0.90
     - StartEvent: aerbaxmaster1
     - StopEvent: aerbaxmaster2
 
-WoundedTaunt: MinHealth: 0.70, MaxHealth: 0.75
+WoundedTaunt: MinHealth: 0.65, MaxHealth: 0.75
     - StartEvent: aerbaxmaster2
     - StopEvent: aerbaxmaster1
     
-WoundedTaunt: MinHealth: 0.20, MaxHealth: 0.25
+WoundedTaunt: MinHealth: 0.15, MaxHealth: 0.25
     - StartEvent: aerbaxmaster1
     - StopEvent: aerbaxmaster2
 

@@ -5,10 +5,10 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 1
 NewEnemy: Probability: 0.5
     - Tell: I am Aerbax. I am afraid that I must end some of you in a moment. Take comfort in the knowledge that you have facilitated a great awakening of all sentient races on Dereth.
 
-WoundedTaunt: MinHealth: 0.95, MaxHealth: 0.98
+WoundedTaunt: MinHealth: 0.91, MaxHealth: 0.98
     - StartEvent: aerbaxmaster1
 
-WoundedTaunt: MinHealth: 0.86, MaxHealth: 0.9
+WoundedTaunt: MinHealth: 0.01, MaxHealth: 0.9
     - StartEvent: aerbaxmaster2
     - StartEvent: aerbaxshadow2event
     - LocalBroadcast: Aerbax portals to the East Platform.
