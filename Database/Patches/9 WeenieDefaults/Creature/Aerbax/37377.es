@@ -5,7 +5,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 1
 Generation: Probability: 0.5
     - Generate
 
-WoundedTaunt: MinHealth: 0.74, MaxHealth: 0.77
+WoundedTaunt: MinHealth: 0.01, MaxHealth: 0.77
     - StartEvent: aerbaxmaster1
     - StartEvent: aerbaxshadow3event
     - LocalBroadcast: Aerbax portals to the North Platform.

@@ -1,15 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25650;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25650, 'shortsleathernew', 2, '2021-11-01 00:00:00') /* Clothing */;
+VALUES (25650, 'shortsleathernew', 2, '2025-03-16 03:42:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25650,   1,          2) /* ItemType - Armor */
      , (25650,   3,          4) /* PaletteTemplate - Brown */
-     , (25650,   4,       2304) /* ClothingPriority - OuterwearUpperLegs, OuterwearAbdomen */
+     , (25650,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (25650,   5,        270) /* EncumbranceVal */
      , (25650,   8,         90) /* Mass */
-     , (25650,   9,       9216) /* ValidLocations - AbdomenArmor, UpperLegArmor */
+     , (25650,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (25650,  16,          1) /* ItemUseable - No */
      , (25650,  19,         50) /* Value */
      , (25650,  27,          2) /* ArmorType - Leather */

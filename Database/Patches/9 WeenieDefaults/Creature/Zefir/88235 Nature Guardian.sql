@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88235;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88235, 'ace88235-natureguardian', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (88235, 'ace88235-natureguardian', 10, '2025-03-16 03:42:04') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88235,   1,         16) /* ItemType - Creature */
      , (88235,   2,         29) /* CreatureType - Zefir */
-     , (88235,   3,          8) /* PaletteTemplate - Green */
+     , (88235,   3,         19) /* PaletteTemplate - Copper */
      , (88235,   6,         -1) /* ItemsCapacity */
      , (88235,   7,         -1) /* ContainersCapacity */
      , (88235,  16,          1) /* ItemUseable - No */
@@ -16,9 +16,9 @@ VALUES (88235,   1,         16) /* ItemType - Creature */
      , (88235,  81,          1) /* MaxGeneratedObjects */
      , (88235,  82,          0) /* InitGeneratedObjects */
      , (88235,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (88235, 103,          3) /* GeneratorDestructionType - Kill */
      , (88235, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (88235, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (88235, 146,    1300000) /* XpOverride */;
+     , (88235, 146,    2500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (88235,   1, True ) /* Stuck */
@@ -46,8 +46,7 @@ VALUES (88235,   1,       5) /* HeartbeatInterval */
      , (88235,  31,      20) /* VisualAwarenessRange */
      , (88235,  34,     1.2) /* PowerupTime */
      , (88235,  36,       1) /* ChargeSpeed */
-     , (88235,  39,     1.2) /* DefaultScale */
-     , (88235,  41,      10) /* RegenerationInterval */
+     , (88235,  39,       1) /* DefaultScale */
      , (88235,  43,       2) /* GeneratorRadius */
      , (88235,  64,       1) /* ResistSlash */
      , (88235,  65,     0.8) /* ResistPierce */
@@ -74,7 +73,7 @@ VALUES (88235,   1, 0x0200049A) /* Setup */
      , (88235,   3, 0x2000003F) /* SoundTable */
      , (88235,   4, 0x3000001C) /* CombatTable */
      , (88235,   6, 0x040001B9) /* PaletteBase */
-     , (88235,   7, 0x10000163) /* ClothingBase */
+     , (88235,   7, 0x100004F9) /* ClothingBase */
      , (88235,   8, 0x060016C3) /* Icon */
      , (88235,  22, 0x3400002F) /* PhysicsEffectTable */
      , (88235,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
@@ -93,17 +92,16 @@ VALUES (88235,   1,  1975, 0, 0, 2100) /* MaxHealth */
      , (88235,   5,  4910, 0, 0, 5400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (88235,  6, 0, 3, 0, 417, 0, 0) /* MeleeDefense        Specialized */
-     , (88235,  7, 0, 3, 0, 472, 0, 0) /* MissileDefense      Specialized */
-     , (88235, 14, 0, 3, 0,  50, 0, 0) /* ArcaneLore          Specialized */
-     , (88235, 15, 0, 3, 0, 365, 0, 0) /* MagicDefense        Specialized */
-     , (88235, 20, 0, 3, 0, 700, 0, 0) /* Deception           Specialized */
+VALUES (88235,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
+     , (88235,  7, 0, 3, 0, 460, 0, 0) /* MissileDefense      Specialized */
+     , (88235, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
+     , (88235, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (88235, 22, 0, 3, 0,  70, 0, 0) /* Jump                Specialized */
      , (88235, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */
-     , (88235, 31, 0, 3, 0, 385, 0, 0) /* CreatureEnchantment Specialized */
-     , (88235, 33, 0, 3, 0, 385, 0, 0) /* LifeMagic           Specialized */
-     , (88235, 34, 0, 3, 0, 385, 0, 0) /* WarMagic            Specialized */
-     , (88235, 45, 0, 3, 0, 355, 0, 0) /* LightWeapons        Specialized */;
+     , (88235, 31, 0, 3, 0, 230, 0, 0) /* CreatureEnchantment Specialized */
+     , (88235, 33, 0, 3, 0, 230, 0, 0) /* LifeMagic           Specialized */
+     , (88235, 34, 0, 3, 0, 230, 0, 0) /* WarMagic            Specialized */
+     , (88235, 45, 0, 3, 0, 380, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (88235,  0,  2, 150,  0.5,  475,  380,  418,  233,  228,  261,  371,  337,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -112,12 +110,10 @@ VALUES (88235,  0,  2, 150,  0.5,  475,  380,  418,  233,  228,  261,  371,  337
      , (88235, 21,  4,  0,    0,  475,  380,  418,  233,  228,  261,  371,  337,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (88235,  4308,    2.2)  /* Incantation of Harm Other */
-     , (88235,  4483,   2.21)  /* Incantation of Lightning Vulnerability Other */
-     , (88235,  4312,    2.3)  /* Incantation of Imperil Other */
-     , (88235,  4451,   2.35)  /* Incantation of Lightning Bolt */
-     , (88235,  4426,   2.19)  /* Incantation of Lightning Arc */
-     , (88235,  1788,    2.4)  /* Eye of the Storm */;
+VALUES (88235,  4483,   2.15)  /* Incantation of Lightning Vulnerability Other */
+     , (88235,  4312,   2.18)  /* Incantation of Imperil Other */
+     , (88235,  4451,   2.29)  /* Incantation of Lightning Bolt */
+     , (88235,  1788,    2.3)  /* Eye of the Storm */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (88235,  5 /* HeartBeat */,   0.05, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
@@ -176,4 +172,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (88235, -1, 88236, 10, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Summoned Wisp (88236) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
+VALUES (88235, -1, 88236, 300, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Summoned Wisp (88236) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;

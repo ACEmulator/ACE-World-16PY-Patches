@@ -5,7 +5,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 1
 Generation: Probability: 0.5
     - Generate
 
-WoundedTaunt: MinHealth: 0.26, MaxHealth: 0.33
+WoundedTaunt: MinHealth: 0.01, MaxHealth: 0.33
     - StartEvent: aerbaxmaster2
     - StartEvent: aerbaxshadow6event
     - LocalBroadcast: Aerbax portals back to the Center Platform and heals some of his damage.

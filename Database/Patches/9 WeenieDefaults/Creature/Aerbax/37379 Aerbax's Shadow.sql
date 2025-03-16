@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37379;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37379, 'ace37379-aerbaxsshadow', 10, '2023-05-15 03:25:02') /* Creature */;
+VALUES (37379, 'ace37379-aerbaxsshadow', 10, '2025-03-16 03:42:04') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37379,   1,         16) /* ItemType - Creature */
@@ -237,7 +237,7 @@ VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0.25, 1, NULL, NULL, NULL, N
      , (@parent_id,  3,  17 /* LocalBroadcast */, 0, 1, NULL, 'Aerbax shifts his protection to shield Magic.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (37379, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.68, 0.72);
+VALUES (37379, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.01, 0.72);
 
 SET @parent_id = LAST_INSERT_ID();
 

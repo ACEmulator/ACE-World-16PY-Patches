@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40425;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40425, 'ace40425-renegadekalindanofthemountains', 3, '2022-07-13 15:31:07') /* MissileLauncher */;
+VALUES (40425, 'ace40425-renegadekalindanofthemountains', 3, '2025-03-16 03:42:04') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40425,   1,        256) /* ItemType - MissileWeapon */
@@ -49,7 +49,7 @@ VALUES (40425,   5,  -0.033) /* ManaRate */
      , (40425,  29,    1.15) /* WeaponDefense */
      , (40425,  62,     1.2) /* WeaponOffense */
      , (40425,  63,    2.65) /* DamageMod */
-     , (40425, 136,       1) /* CriticalMultiplier */
+     , (40425, 136,       3) /* CriticalMultiplier */
      , (40425, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

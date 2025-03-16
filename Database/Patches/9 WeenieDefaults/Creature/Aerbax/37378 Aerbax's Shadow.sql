@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37378, 'ace37378-aerbaxsshadow', 10, '2023-05-15 03:25:02') /* Creature */;
+VALUES (37378, 'ace37378-aerbaxsshadow', 10, '2025-03-16 03:42:04') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37378,   1,         16) /* ItemType - Creature */
@@ -240,7 +240,7 @@ VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0.25, 1, NULL, NULL, NULL, N
      , (@parent_id,  3,  17 /* LocalBroadcast */, 0, 1, NULL, 'Aerbax shifts his protection to shield Magic.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (37378, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.86, 0.9);
+VALUES (37378, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.8, 0.9);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -249,7 +249,7 @@ VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'aerbaxmaster1', NULL,
      , (@parent_id,  1,  24 /* StopEvent */, 0, 1, NULL, 'aerbaxmaster2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (37378, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.7, 0.75);
+VALUES (37378, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.65, 0.75);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -258,7 +258,7 @@ VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'aerbaxmaster2', NULL,
      , (@parent_id,  1,  24 /* StopEvent */, 0, 1, NULL, 'aerbaxmaster1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (37378, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.2, 0.25);
+VALUES (37378, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.15, 0.25);
 
 SET @parent_id = LAST_INSERT_ID();
 

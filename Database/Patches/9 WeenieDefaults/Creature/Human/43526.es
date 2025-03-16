@@ -75,7 +75,6 @@ Refuse: Energy Infused Rock (43792)
                     - TakeItems: 43792, 1
                     - AwardLuminance: 30,000
                     - AwardLevelProportionalXP: 85%, Min: 0, Max: 500,000,000
-                    - Give: 38920
                     - Give: 20630, 9
                     - EraseQuest: DeewainBossRoomFlag
                     - StampQuest: DeewainCompleted0211

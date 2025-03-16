@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88177;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88177, 'ace88177-renegadekalindanofthechase', 3, '2022-07-13 15:31:07') /* MissileLauncher */;
+VALUES (88177, 'ace88177-renegadekalindanofthechase', 3, '2025-03-16 03:42:04') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88177,   1,        256) /* ItemType - MissileWeapon */
@@ -49,7 +49,7 @@ VALUES (88177,   5,  -0.033) /* ManaRate */
      , (88177,  29,    1.15) /* WeaponDefense */
      , (88177,  62,     1.2) /* WeaponOffense */
      , (88177,  63,    2.65) /* DamageMod */
-     , (88177, 136,       1) /* CriticalMultiplier */
+     , (88177, 136,       3) /* CriticalMultiplier */
      , (88177, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

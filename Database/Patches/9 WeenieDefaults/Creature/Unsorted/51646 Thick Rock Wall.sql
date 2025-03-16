@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51646;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51646, 'ace51646-thickrockwall', 10, '2021-11-17 16:56:08') /* Creature */;
+VALUES (51646, 'ace51646-thickrockwall', 10, '2025-03-16 03:42:04') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51646,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (51646,   1,         16) /* ItemType - Creature */
      , (51646,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51646, 133,          1) /* ShowableOnRadar - ShowNever */
      , (51646, 290,          1) /* HearLocalSignals */
-     , (51646, 291,         40) /* HearLocalSignalsRadius */;
+     , (51646, 291,         60) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51646,   1, True ) /* Stuck */

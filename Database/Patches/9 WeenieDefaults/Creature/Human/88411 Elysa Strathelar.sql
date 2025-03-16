@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 88411;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (88411, 'ace88411-elysastrathelar', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (88411, 'ace88411-elysastrathelar', 10, '2025-03-16 03:42:04') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (88411,   1,         16) /* ItemType - Creature */
@@ -118,4 +118,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I apologize citizen. For your own safety, you MUST GO!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (88411, 2,  8891,  1, 6, 0, False) /* Create Elysa's Longbow (8891) for Wield */;
+VALUES (88411, 2,  8891,  0, 0, 0, False) /* Create Elysa's Longbow (8891) for Wield */;
