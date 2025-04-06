@@ -24,7 +24,7 @@ GotoSet: Spell, Probability: 0.4
     - DeleteSelf
 GotoSet: Spell, Probability: 0.6
     - DirectBroadcast: You sip the chill spectral water. You don't feel so good.
-    - CastSpellInstant: 5273
+    - CastSpellInstant: 5173
     - DeleteSelf
 GotoSet: Spell, Probability: 0.8
     - DirectBroadcast: You begin turning into a spirit of the dead!
