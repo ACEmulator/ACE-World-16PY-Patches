@@ -14,8 +14,7 @@ VALUES (51914,   1,       2048) /* ItemType - Gem */
      , (51914,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51914,  19,         50) /* Value */
      , (51914,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51914,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (51914, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (51914,  94,      33025) /* TargetType - WeaponOrCaster */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51914,  22, True ) /* Inscribable */;

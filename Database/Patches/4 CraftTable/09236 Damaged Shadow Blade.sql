@@ -33,7 +33,7 @@ VALUES (9236, 51914 /* Damaged Shadow Blade */,  3811 /* Lightning Kaskara */, '
      , (9236, 51914 /* Damaged Shadow Blade */, 30572 /* Lightning Spada */, '2025-04-16 23:45:11')
      , (9236, 51914 /* Damaged Shadow Blade */, 30580 /* Lightning Flamberge */, '2025-04-16 23:45:11')
      , (9236, 51914 /* Damaged Shadow Blade */, 31761 /* Lightning Dericost Blade */, '2025-04-16 23:45:11')
-     , (9236, 51914 /* Damaged Shadow Blade */, 45398, '2025-04-16 23:45:11')
-     , (9236, 51914 /* Damaged Shadow Blade */, 45403, '2025-04-16 23:45:11')
-     , (9236, 51914 /* Damaged Shadow Blade */, 45408, '2025-04-16 23:45:11')
+     , (9236, 51914 /* Damaged Shadow Blade */, 45398 /* Lightning Short Sword */, '2025-04-16 23:45:11')
+     , (9236, 51914 /* Damaged Shadow Blade */, 45403 /* Lightning Simi */, '2025-04-16 23:45:11')
+     , (9236, 51914 /* Damaged Shadow Blade */, 45408 /* Lightning Yaoji */, '2025-04-16 23:45:11')
      , (9236, 51914 /* Damaged Shadow Blade */, 45413 /* Lightning Spada */, '2025-04-16 23:45:11');

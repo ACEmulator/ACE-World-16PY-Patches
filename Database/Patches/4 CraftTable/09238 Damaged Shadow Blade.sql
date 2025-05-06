@@ -33,7 +33,7 @@ VALUES (9238, 51914 /* Damaged Shadow Blade */,  3813 /* Frost Kaskara */, '2025
      , (9238, 51914 /* Damaged Shadow Blade */, 30573 /* Frost Spada */, '2025-04-16 23:45:11')
      , (9238, 51914 /* Damaged Shadow Blade */, 30578 /* Frost Flamberge */, '2025-04-16 23:45:11')
      , (9238, 51914 /* Damaged Shadow Blade */, 31758 /* Frost Dericost Blade */, '2025-04-16 23:45:11')
-     , (9238, 51914 /* Damaged Shadow Blade */, 45400, '2025-04-16 23:45:11')
-     , (9238, 51914 /* Damaged Shadow Blade */, 45405, '2025-04-16 23:45:11')
-     , (9238, 51914 /* Damaged Shadow Blade */, 45410, '2025-04-16 23:45:11')
+     , (9238, 51914 /* Damaged Shadow Blade */, 45400 /* Frost Short Sword */, '2025-04-16 23:45:11')
+     , (9238, 51914 /* Damaged Shadow Blade */, 45405 /* Frost Simi */, '2025-04-16 23:45:11')
+     , (9238, 51914 /* Damaged Shadow Blade */, 45410 /* Frost Yaoji */, '2025-04-16 23:45:11')
      , (9238, 51914 /* Damaged Shadow Blade */, 45415 /* Frost Spada */, '2025-04-16 23:45:11');

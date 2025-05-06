@@ -33,7 +33,7 @@ VALUES (9237, 51914 /* Damaged Shadow Blade */,  3812 /* Flaming Kaskara */, '20
      , (9237, 51914 /* Damaged Shadow Blade */, 30574 /* Flaming Spada */, '2025-04-16 23:45:11')
      , (9237, 51914 /* Damaged Shadow Blade */, 30577 /* Flaming Flamberge */, '2025-04-16 23:45:11')
      , (9237, 51914 /* Damaged Shadow Blade */, 31762 /* Flaming Dericost Blade */, '2025-04-16 23:45:11')
-     , (9237, 51914 /* Damaged Shadow Blade */, 45399, '2025-04-16 23:45:11')
-     , (9237, 51914 /* Damaged Shadow Blade */, 45404, '2025-04-16 23:45:11')
-     , (9237, 51914 /* Damaged Shadow Blade */, 45409, '2025-04-16 23:45:11')
+     , (9237, 51914 /* Damaged Shadow Blade */, 45399 /* Flaming Short Sword */, '2025-04-16 23:45:11')
+     , (9237, 51914 /* Damaged Shadow Blade */, 45404 /* Flaming Simi */, '2025-04-16 23:45:11')
+     , (9237, 51914 /* Damaged Shadow Blade */, 45409 /* Flaming Yaoji */, '2025-04-16 23:45:11')
      , (9237, 51914 /* Damaged Shadow Blade */, 45414 /* Flaming Spada */, '2025-04-16 23:45:11');

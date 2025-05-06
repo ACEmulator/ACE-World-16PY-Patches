@@ -43,4 +43,3 @@ VALUES (46707,   1, 0x02000576) /* Setup */
      , (46707,   7, 0x10000155) /* ClothingBase */
      , (46707,   8, 0x060018DA) /* Icon */
      , (46707,  22, 0x3400002B) /* PhysicsEffectTable */;
-

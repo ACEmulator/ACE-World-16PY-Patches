@@ -33,7 +33,7 @@ VALUES (9235, 51914 /* Damaged Shadow Blade */,  3810 /* Acid Kaskara */, '2025-
      , (9235, 51914 /* Damaged Shadow Blade */, 30575 /* Acid Spada */, '2025-04-16 23:45:11')
      , (9235, 51914 /* Damaged Shadow Blade */, 30579 /* Acid Flamberge */, '2025-04-16 23:45:11')
      , (9235, 51914 /* Damaged Shadow Blade */, 31760 /* Acid Dericost Blade */, '2025-04-16 23:45:11')
-     , (9235, 51914 /* Damaged Shadow Blade */, 45397, '2025-04-16 23:45:11')
-     , (9235, 51914 /* Damaged Shadow Blade */, 45402, '2025-04-16 23:45:11')
-     , (9235, 51914 /* Damaged Shadow Blade */, 45407, '2025-04-16 23:45:11')
+     , (9235, 51914 /* Damaged Shadow Blade */, 45397 /* Acid Short Sword */, '2025-04-16 23:45:11')
+     , (9235, 51914 /* Damaged Shadow Blade */, 45402 /* Acid Simi */, '2025-04-16 23:45:11')
+     , (9235, 51914 /* Damaged Shadow Blade */, 45407 /* Acid Yaoji */, '2025-04-16 23:45:11')
      , (9235, 51914 /* Damaged Shadow Blade */, 45412 /* Acid Spada */, '2025-04-16 23:45:11');

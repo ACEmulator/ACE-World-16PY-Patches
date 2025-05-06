@@ -81,7 +81,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you again for barteri
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36378, 2,  5852,  0, 5, 0, False) /* Create Dho Vest and Robe (5852) for Wield */
      , (36378, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
-     , (36378, 4, 36632, -1, 0, 0, False) /* Create  (36632) for Shop */
+     , (36378, 4, 36632, -1, 0, 0, False) /* Create Olthoi Shield Armor Augmentation (36632) for Shop */
      , (36378, 4, 36633, -1, 0, 0, False) /* Create Missile Defense Weapon Augmentation (36633) for Shop */
      , (36378, 4, 36364, -1, 0, 0, False) /* Create Chimeric Atlatl of the Quiddity Summoning Gem (36364) for Shop */
      , (36378, 4, 36365, -1, 0, 0, False) /* Create Chimeric Axe of the Quiddity Summoning Gem (36365) for Shop */
