@@ -39,12 +39,14 @@ Refuse: Corrupted Essence (44470)
                         TestSuccess:
                             - InqYesNo: Would you like to turn in 100 Corrupted Essences?
                                 TestSuccess:
-                                    - TakeItems: Corrupted Essence (44470), 100
-                                    - IncrementQuest: CorruptedEssenceCount, 100
-                                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 100
-                                    - StampQuest: CorruptedEssenceTurnInTimer
-                                    - AwardLevelProportionalXP: 400%, 0 - 1,627,268,100
-                                    - Goto: CheckArmorTurnInCount
+                                    - InqOwnsItems: Corrupted Essence (44470), 100
+                                        TestSuccess:
+                                            - TakeItems: Corrupted Essence (44470), 100
+                                            - IncrementQuest: CorruptedEssenceCount, 100
+                                            - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 100
+                                            - StampQuest: CorruptedEssenceTurnInTimer
+                                            - AwardLevelProportionalXP: 400%, 0 - 1,627,268,100
+                                            - Goto: CheckArmorTurnInCount
                                 TestFailure:
                                     - Tell: Very well.
                         TestFailure:
@@ -66,24 +68,28 @@ GotoSet: Has10
         TestSuccess:
             - InqYesNo: Would you like to turn in 10 Corrupted Essences?
                 TestSuccess:
-                    - TakeItems: Corrupted Essence (44470), 10
-                    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
-                    - IncrementQuest: CorruptedEssenceCount, 10
-                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 10
-                    - AwardLevelProportionalXP: 40%, 0 - 162,726,810
-                    - Goto: CheckArmorTurnInCount
+                    - InqOwnsItems: Corrupted Essence (44470), 10
+                        TestSuccess:
+                            - TakeItems: Corrupted Essence (44470), 10
+                            - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
+                            - IncrementQuest: CorruptedEssenceCount, 10
+                            - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 10
+                            - AwardLevelProportionalXP: 40%, 0 - 162,726,810
+                            - Goto: CheckArmorTurnInCount
                 TestFailure:
                     - Goto: Has1
         TestFailure:
             - Goto: Has1
 
 GotoSet: Has1
-    - TakeItems: Corrupted Essence (44470)
-    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
-    - IncrementQuest: CorruptedEssenceCount, 1
-    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 1
-    - AwardLevelProportionalXP: 4%, 0 - 16,272,681
-    - Goto: CheckArmorTurnInCount
+    - InqOwnsItems: Corrupted Essence (44470), 1
+        TestSuccess:
+            - TakeItems: Corrupted Essence (44470)
+            - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
+            - IncrementQuest: CorruptedEssenceCount, 1
+            - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 1
+            - AwardLevelProportionalXP: 4%, 0 - 16,272,681
+            - Goto: CheckArmorTurnInCount
 
 Refuse: Lesser Corrupted Essence (44469)
     - TurnToTarget
@@ -126,12 +132,14 @@ Refuse: Lesser Corrupted Essence (44469)
                         TestSuccess:
                             - InqYesNo: Would you like to turn in 100 Corrupted Essences?
                                 TestSuccess:
-                                    - TakeItems: Lesser Corrupted Essence (44469), 100
-                                    - IncrementQuest: CorruptedEssenceCount, 100
-                                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 100
-                                    - StampQuest: CorruptedEssenceTurnInTimer
-                                    - AwardLevelProportionalXP: 400%, 0 - 1,300,000,000
-                                    - Goto: CheckArmorTurnInCount
+                                    - InqOwnsItems: Lesser Corrupted Essence (44469), 100
+                                        TestSuccess:
+                                            - TakeItems: Lesser Corrupted Essence (44469), 100
+                                            - IncrementQuest: CorruptedEssenceCount, 100
+                                            - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 100
+                                            - StampQuest: CorruptedEssenceTurnInTimer
+                                            - AwardLevelProportionalXP: 400%, 0 - 1,300,000,000
+                                            - Goto: CheckArmorTurnInCount
                                 TestFailure:
                                     - Tell: Very well.
                         TestFailure:
@@ -152,24 +160,28 @@ GotoSet: Has10LesserEssence
         TestSuccess:
             - InqYesNo: Would you like to turn in 10 Lesser Corrupted Essences?
                 TestSuccess:
-                    - TakeItems: Lesser Corrupted Essence (44469), 10
-                    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
-                    - IncrementQuest: CorruptedEssenceCount, 10
-                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 10
-                    - AwardLevelProportionalXP: 40%, 0 - 130,000,000
-                    - Goto: CheckArmorTurnInCount
+                    - InqOwnsItems: Lesser Corrupted Essence (44469), 10
+                        TestSuccess:
+                            - TakeItems: Lesser Corrupted Essence (44469), 10
+                            - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
+                            - IncrementQuest: CorruptedEssenceCount, 10
+                            - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 10
+                            - AwardLevelProportionalXP: 40%, 0 - 130,000,000
+                            - Goto: CheckArmorTurnInCount
                 TestFailure:
                     - Goto: Has1LesserEssence
         TestFailure:
             - Goto: Has1LesserEssence
 
 GotoSet: Has1LesserEssence
-    - TakeItems: Lesser Corrupted Essence (44469)
-    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
-    - IncrementQuest: CorruptedEssenceCount, 1
-    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 1
-    - AwardLevelProportionalXP: 4%, 0 - 13,000,000
-    - Goto: CheckArmorTurnInCount
+    - InqOwnsItems: Lesser Corrupted Essence (44469), 1
+        TestSuccess:
+            - TakeItems: Lesser Corrupted Essence (44469)
+            - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
+            - IncrementQuest: CorruptedEssenceCount, 1
+            - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 1
+            - AwardLevelProportionalXP: 4%, 0 - 13,000,000
+            - Goto: CheckArmorTurnInCount
 
 GotoSet: CheckArmorTurnInCount
     - InqQuestSolves: FrancoisCorruptedEssenceArmorCount, 100 - 300
