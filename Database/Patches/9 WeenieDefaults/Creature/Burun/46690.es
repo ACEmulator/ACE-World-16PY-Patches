@@ -15,8 +15,3 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.095
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
     - Motion: Twitch1
-
-Generation:
-    - Delay: 60, LocalBroadcast: The Guruk Grunt looks weakener from expending too much energy. Attack now while it is vulnerable!
-    - CastSpellInstant: 6323
-    - CastSpellInstant: 6324

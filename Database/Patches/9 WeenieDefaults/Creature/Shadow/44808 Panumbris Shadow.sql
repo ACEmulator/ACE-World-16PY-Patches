@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44808;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44808, 'ace44808-panumbrisshadow', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (44808, 'ace44808-panumbrisshadow', 10, '2025-05-11 01:41:51') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44808,   1,         16) /* ItemType - Creature */
@@ -150,3 +150,7 @@ VALUES (44808,  2264,   2.02)  /* Wrath of Harlune */
      , (44808,  5385,   2.07)  /* Weakening Curse VII */
      , (44808,  5392,   2.09)  /* Corrosion VI */
      , (44808,  5401,   2.07)  /* Corruption VII */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44808, 9, 51914,  1, 0, 0.01, False) /* Create Damaged Shadow Blade (51914) for ContainTreasure */
+     , (44808, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

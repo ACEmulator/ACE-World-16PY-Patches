@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52275;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52275, 'ace52275-voidlord', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (52275, 'ace52275-voidlord', 10, '2025-05-11 01:41:51') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52275,   1,         16) /* ItemType - Creature */
@@ -154,3 +154,7 @@ VALUES (52275,   234,   2.02)  /* Vulnerability Other VI */
      , (52275,  5385,   2.02)  /* Weakening Curse VII */
      , (52275,  5392,   2.02)  /* Corrosion VI */
      , (52275,  5401,   2.02)  /* Corruption VII */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52275, 9, 51914,  1, 0, 0.01, False) /* Create Damaged Shadow Blade (51914) for ContainTreasure */
+     , (52275, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

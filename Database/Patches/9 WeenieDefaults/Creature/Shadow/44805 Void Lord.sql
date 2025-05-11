@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44805;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44805, 'ace44805-voidlord', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (44805, 'ace44805-voidlord', 10, '2025-05-11 01:41:51') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44805,   1,         16) /* ItemType - Creature */
@@ -159,4 +159,6 @@ VALUES (44805,   234,   2.02)  /* Vulnerability Other VI */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44805, 9, 48908,  1, 0, 0.02, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
-     , (44805, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (44805, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (44805, 9, 51914,  1, 0, 0.01, False) /* Create Damaged Shadow Blade (51914) for ContainTreasure */
+     , (44805, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
