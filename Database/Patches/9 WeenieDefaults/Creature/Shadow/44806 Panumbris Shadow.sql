@@ -181,4 +181,6 @@ VALUES (44806,  2264,   2.02)  /* Wrath of Harlune */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44806, 9, 48908,  1, 0, 0.02, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
-     , (44806, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (44806, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (44806, 9, 51914,  1, 0, 0.01, False) /* Create Damaged Shadow Blade (51914) for ContainTreasure */
+     , (44806, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
