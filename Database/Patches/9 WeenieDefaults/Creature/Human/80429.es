@@ -19,10 +19,12 @@ GotoSet: AdvancementGem
                 TestSuccess:
                     - InqYesNo: Do you wish to exchange 75 MMD notes for a 200 million experience gem?
                         TestSuccess:
-                            - TakeItems: Trade Note MMD (20630), 75
-                            - Tell: There you go, kid. Bring that to the Master of the Black Market and he'll train you up.
-                            - Give: Black Market Advancement Gem (71770)
-                            - StampQuest: BlackMarketAdvancementWait
+                            - InqOwnsItems: Trade Note MMD (20630), 75
+                                TestSuccess:
+                                    - TakeItems: Trade Note MMD (20630), 75
+                                    - Tell: There you go, kid. Bring that to the Master of the Black Market and he'll train you up.
+                                    - Give: Black Market Advancement Gem (71770)
+                                    - StampQuest: BlackMarketAdvancementWait
                         TestFailure:
                             - Tell: I understand. Not everyone is willing to meet our price. Best of luck to you.
                 TestFailure:
