@@ -4,7 +4,7 @@ Refuse: Trade Note (100,000) (2627)
         TestSuccess:
             - InqYesNo: Would you like to buy 10 Low Stakes tokens?
                 TestSuccess:
-                    - InqOwnsItems: Trade Note (100,000) (2627), 10
+                     - InqOwnsItems: Trade Note (100,000) (2627), 10
                         TestSuccess:
                             - TakeItems: Trade Note (100,000) (2627), 10
                             - Give: Low-Stakes Gambling Token (44715), 10, Shade: 1
@@ -59,7 +59,7 @@ Give: Jester's Token (37290)
 
 Give: Mosswart Thanking Stone (27894)
     - TurnToTarget
-    - Delay: 1, DirectBroadcast: Monty grumbles under his breath. You make out a few words, "...stupid Ketnan." He smiles and adjusts his vest.
+    - Delay: 1, DirectBroadcast: Mi grumbles under her breath. You make out a few words, "...stupid Ketnan." She smiles and adjusts her vest.
     - Delay: 1, Tell: I don't know why I let myself get talked into this by Ketnan, but here goes. Round and round it goes!
     - Delay: 1, Goto: Thanking_Rewards
         GotoSet: Probability: 0.52
@@ -121,12 +121,12 @@ Give: Mosswart Thanking Stone (27894)
         GotoSet: Probability: 0.9975
             - Give: Sturdy Steel Key (24477)
         GotoSet:
-            - Give: Monty's Golden Key (9477)
+            - Give: Gan-Zo's Golden Key (9479)
 
 Use:
     - Motion: Ready
     - TurnToTarget
-    - Delay: 1, Tell: Hello, and welcome to my new house! Isn't this nicer than that terrible outdoor location? Boddry there sells a little pamphlet that will tell you our rules and sell you gambling tokens. Look it over, and if you think you have the favor of Dame Fortune, gamble with my Gamesmasters.
+    - Delay: 1, Tell: Welcome to my house of chance, now in a much more propitious location!  Will the Great Lady of Chance and Possibility favor you?  Haya Su Ka sells our rulebook and gambling tokens.  My Gamemasters will happily assist you in your quest to gamble tokens.
     - Delay: 1, Tell: A Low Stakes token will cost you an M note. Medium stakes an MM note. High stakes 2 MMD notes. Simply hand me the trade note for the level of token you desire.
     - Delay: 1, Tell: Best of luck to you.
 

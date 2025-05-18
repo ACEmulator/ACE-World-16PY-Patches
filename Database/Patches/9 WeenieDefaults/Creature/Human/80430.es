@@ -19,10 +19,12 @@ GotoSet: AdvancementGem
                 TestSuccess:
                     - InqYesNo: Do you wish to exchange 100 MMD notes for a 500 million experience gem?
                         TestSuccess:
-                            - TakeItems: Trade Note MMD (20630), 100
-                            - Tell: Righto, that'll serve you. Just bring it to the Master of the Black Market and he'll train you right. Littlefinger's honor.
-                            - Give: Freebooter Advancement Gem (51777)
-                            - StampQuest: FreebooterAdvancementWait
+                            - InqOwnsItems: Trade Note MMD (20630), 100
+                                TestSuccess:
+                                    - TakeItems: Trade Note MMD (20630), 100
+                                    - Tell: Righto, that'll serve you. Just bring it to the Master of the Black Market and he'll train you right. Littlefinger's honor.
+                                    - Give: Freebooter Advancement Gem (51777)
+                                    - StampQuest: FreebooterAdvancementWait
                         TestFailure:
                             - Tell: I understand. Not everyone is willing to meet our price. Best of luck to you.
                 TestFailure:
