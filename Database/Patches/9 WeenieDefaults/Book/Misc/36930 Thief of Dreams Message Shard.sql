@@ -27,4 +27,7 @@ VALUES (36930,   1, 0x020003BF) /* Setup */
      , (36930,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (36930, 0, 1000);
+VALUES (36930, 1, 1000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (36930, 0, 0xFFFFFFFF, '', 'prewritten', False, '[You cannot understand the writing on this.]');
