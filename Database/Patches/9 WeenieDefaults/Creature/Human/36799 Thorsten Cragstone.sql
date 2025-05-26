@@ -5,6 +5,7 @@ VALUES (36799, 'ace36799-thorstencragstone', 10, '2021-11-01 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36799,   1,         16) /* ItemType - Creature */
+     , (36799,   2,         31) /* CreatureType - Human */
      , (36799,   3,         20) /* PaletteTemplate - Silver */
      , (36799,   6,         -1) /* ItemsCapacity */
      , (36799,   7,         -1) /* ContainersCapacity */
@@ -12,7 +13,10 @@ VALUES (36799,   1,         16) /* ItemType - Creature */
      , (36799,  25,         87) /* Level */
      , (36799,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36799,  95,          8) /* RadarBlipColor - Yellow */
-     , (36799, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (36799, 113,          1) /* Gender - Male */
+     , (36799, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (36799, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (36799, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36799,   1, True ) /* Stuck */
@@ -23,7 +27,8 @@ VALUES (36799,  12,     0.8) /* Shade */
      , (36799,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36799,   1, 'Thorsten Cragstone') /* Name */;
+VALUES (36799,   1, 'Thorsten Cragstone') /* Name */
+     , (36799,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36799,   1, 0x02000001) /* Setup */
@@ -43,5 +48,4 @@ VALUES (36799,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  88 /* LocalSignal */, 20, 1, NULL, 'dropdetermination', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  77 /* DeleteSelf */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  77 /* DeleteSelf */, 22, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -39,8 +39,21 @@ VALUES (36790,   1, 0x0200004E) /* Setup */
      , (36790,   8, 0x06001036) /* Icon */
      , (36790,  22, 0x34000004) /* PhysicsEffectTable */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (36790,   1,  90, 0, 0) /* Strength */
+     , (36790,   2, 100, 0, 0) /* Endurance */
+     , (36790,   3, 220, 0, 0) /* Quickness */
+     , (36790,   4, 190, 0, 0) /* Coordination */
+     , (36790,   5, 150, 0, 0) /* Focus */
+     , (36790,   6, 150, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (36790,   1,   180, 0, 0, 230) /* MaxHealth */
+     , (36790,   3,   150, 0, 0, 250) /* MaxStamina */
+     , (36790,   5,    80, 0, 0, 230) /* MaxMana */;
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36790, 20, 0, 2, 0, 999, 0, 0) /* Deception           Trained */;
+VALUES (36790, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36790,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
