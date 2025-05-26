@@ -5,6 +5,7 @@ VALUES (36790, 'ace36790-elysastrathelar', 10, '2021-11-01 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36790,   1,         16) /* ItemType - Creature */
+     , (36790,   2,         31) /* CreatureType - Human */
      , (36790,   3,         14) /* PaletteTemplate - Red */
      , (36790,   6,         -1) /* ItemsCapacity */
      , (36790,   7,         -1) /* ContainersCapacity */
@@ -12,7 +13,10 @@ VALUES (36790,   1,         16) /* ItemType - Creature */
      , (36790,  25,         62) /* Level */
      , (36790,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36790,  95,          8) /* RadarBlipColor - Yellow */
-     , (36790, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (36790, 113,          2) /* Gender - Female */
+     , (36790, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (36790, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (36790, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36790,   1, True ) /* Stuck */
@@ -23,7 +27,8 @@ VALUES (36790,  12,       1) /* Shade */
      , (36790,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36790,   1, 'Elysa Strathelar') /* Name */;
+VALUES (36790,   1, 'Elysa Strathelar') /* Name */
+     , (36790,   5, 'Rebel Aluvian') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36790,   1, 0x0200004E) /* Setup */

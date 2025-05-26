@@ -5,6 +5,7 @@ VALUES (36796, 'ace36796-thorstencragstone', 10, '2022-08-22 03:09:27') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36796,   1,         16) /* ItemType - Creature */
+     , (36796,   2,         31) /* CreatureType - Human */
      , (36796,   3,         20) /* PaletteTemplate - Silver */
      , (36796,   6,         -1) /* ItemsCapacity */
      , (36796,   7,         -1) /* ContainersCapacity */
@@ -12,7 +13,10 @@ VALUES (36796,   1,         16) /* ItemType - Creature */
      , (36796,  25,         75) /* Level */
      , (36796,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36796,  95,          8) /* RadarBlipColor - Yellow */
-     , (36796, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (36796, 113,          1) /* Gender - Male */
+     , (36796, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (36796, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (36796, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36796,   1, True ) /* Stuck */
@@ -23,7 +27,8 @@ VALUES (36796,  12,   0.467) /* Shade */
      , (36796,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36796,   1, 'Thorsten Cragstone') /* Name */;
+VALUES (36796,   1, 'Thorsten Cragstone') /* Name */
+     , (36796,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36796,   1, 0x02000001) /* Setup */
@@ -52,5 +57,4 @@ VALUES (@parent_id,  0,   8 /* Say */, 5, 25, NULL, 'Lass...I brought ye some te
      , (@parent_id,  6,   8 /* Say */, 5, 25, NULL, 'I dinna think so...the magics that our people know do nothing against ''em, and wouldn''t this Asheron have fought the Olthoi off if he could''ve?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,   8 /* Say */, 5, 25, NULL, 'Ye mean this, lass?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  8,   8 /* Say */, 5, 25, NULL, 'Alright, lass. I''ll go with ye to visit this...Asheron.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  9,  88 /* LocalSignal */, 5, 1, NULL, 'startdrop', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 10,  77 /* DeleteSelf */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  9,  77 /* DeleteSelf */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
