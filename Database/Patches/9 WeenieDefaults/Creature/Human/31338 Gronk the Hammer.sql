@@ -15,8 +15,10 @@ VALUES (31338,   1,         16) /* ItemType - Creature */
      , (31338,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (31338,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31338, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (31338, 113,          1) /* Gender - Male */
      , (31338, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31338, 146,     500000) /* XpOverride */;
+     , (31338, 146,     500000) /* XpOverride */
+     , (31338, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31338,   1, True ) /* Stuck */
