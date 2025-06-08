@@ -5,6 +5,7 @@ VALUES (36797, 'ace36797-thorstencragstone', 10, '2021-11-01 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36797,   1,         16) /* ItemType - Creature */
+     , (36797,   2,         31) /* CreatureType - Human */
      , (36797,   3,         20) /* PaletteTemplate - Silver */
      , (36797,   6,         -1) /* ItemsCapacity */
      , (36797,   7,         -1) /* ContainersCapacity */
@@ -12,7 +13,10 @@ VALUES (36797,   1,         16) /* ItemType - Creature */
      , (36797,  25,         75) /* Level */
      , (36797,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36797,  95,          8) /* RadarBlipColor - Yellow */
-     , (36797, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (36797, 113,          1) /* Gender - Male */
+     , (36797, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (36797, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (36797, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36797,   1, True ) /* Stuck */
@@ -23,7 +27,8 @@ VALUES (36797,  12,   0.067) /* Shade */
      , (36797,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36797,   1, 'Thorsten Cragstone') /* Name */;
+VALUES (36797,   1, 'Thorsten Cragstone') /* Name */
+     , (36797,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36797,   1, 0x02000001) /* Setup */

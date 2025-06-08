@@ -5,6 +5,7 @@ VALUES (36793, 'ace36793-elysastrathelar', 10, '2021-11-01 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36793,   1,         16) /* ItemType - Creature */
+     , (36793,   2,         31) /* CreatureType - Human */
      , (36793,   3,         14) /* PaletteTemplate - Red */
      , (36793,   6,         -1) /* ItemsCapacity */
      , (36793,   7,         -1) /* ContainersCapacity */
@@ -12,7 +13,11 @@ VALUES (36793,   1,         16) /* ItemType - Creature */
      , (36793,  25,         89) /* Level */
      , (36793,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36793,  95,          8) /* RadarBlipColor - Yellow */
-     , (36793, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (36793, 113,          2) /* Gender - Female */
+     , (36793, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (36793, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (36793, 188,          1) /* HeritageGroup - Aluvian */
+     , (36793, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36793,   1, True ) /* Stuck */
@@ -23,7 +28,8 @@ VALUES (36793,  12,       1) /* Shade */
      , (36793,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36793,   1, 'Elysa Strathelar') /* Name */;
+VALUES (36793,   1, 'Elysa Strathelar') /* Name */
+     , (36793,   5, 'Rebel Leader') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36793,   1, 0x0200004E) /* Setup */
@@ -34,8 +40,32 @@ VALUES (36793,   1, 0x0200004E) /* Setup */
      , (36793,   8, 0x06001036) /* Icon */
      , (36793,  22, 0x34000004) /* PhysicsEffectTable */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (36793,   1,  90, 0, 0) /* Strength */
+     , (36793,   2, 100, 0, 0) /* Endurance */
+     , (36793,   3, 220, 0, 0) /* Quickness */
+     , (36793,   4, 190, 0, 0) /* Coordination */
+     , (36793,   5, 150, 0, 0) /* Focus */
+     , (36793,   6, 150, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (36793,   1,   180, 0, 0, 230) /* MaxHealth */
+     , (36793,   3,   150, 0, 0, 250) /* MaxStamina */
+     , (36793,   5,    80, 0, 0, 230) /* MaxMana */;
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36793, 20, 0, 2, 0, 999, 0, 0) /* Deception           Trained */;
+VALUES (36793, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (36793,  0,  4,  0,    0,  645,  322,  322,  322,  322,  322,  322,  322,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (36793,  1,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (36793,  2,  4,  0,    0,  660,  330,  330,  330,  330,  330,  330,  330,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (36793,  3,  4,  0,    0,  660,  330,  330,  330,  330,  330,  330,  330,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (36793,  4,  4,  0,    0,  660,  330,  330,  330,  330,  330,  330,  330,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (36793,  5,  4,  2, 0.75,  645,  322,  322,  322,  322,  322,  322,  322,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (36793,  6,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (36793,  7,  4,  0,    0,  650,  325,  325,  325,  325,  325,  325,  325,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (36793,  8,  4,  2, 0.75,  645,  322,  322,  322,  322,  322,  322,  322,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36793,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

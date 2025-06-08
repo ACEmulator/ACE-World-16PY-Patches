@@ -865,28 +865,6 @@ INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `ori
 VALUES (0x701E90D2,  7924, 0x01E90105, 72.4767, -162.536, -17.945, -0.0125, 0, 0, -0.999922, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x01E90105 [72.476700 -162.535995 -17.945000] -0.012500 0.000000 0.000000 -0.999922 */
 
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E90D2, 0x701E90D3, '2021-11-01 00:00:00') /* StrangeDeviceTwo Controller (87023) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701E90D3, 87023, 0x01E90105, 73.6756, -161.548, -17.995, -0.779425, 0, 0, -0.626495,  True, '2021-11-01 00:00:00'); /* StrangeDeviceTwo Controller */
-/* @teleloc 0x01E90105 [73.675598 -161.548004 -17.995001] -0.779425 0.000000 0.000000 -0.626495 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701E90D4, 87024, 0x01E90105, 68.4161, -159.586, -17.945, 0.397817, 0, 0, -0.917465, False, '2021-11-01 00:00:00'); /* ElysasResolve Gen */
-/* @teleloc 0x01E90105 [68.416100 -159.585999 -17.945000] 0.397817 0.000000 0.000000 -0.917465 */
-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E90D5,  7924, 0x01E904A7, 127.661, -67.0654, 6.055, 0.599587, 0, 0, -0.800309, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x01E904A7 [127.661003 -67.065399 6.055000] 0.599587 0.000000 0.000000 -0.800309 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E90D5, 0x701E90D6, '2021-11-01 00:00:00') /* StrangeDeviceFour Controller (87032) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701E90D6, 87032, 0x01E904A7, 127.874, -66.3376, 6.005, 0.599587, 0, 0, -0.800309,  True, '2021-11-01 00:00:00'); /* StrangeDeviceFour Controller */
-/* @teleloc 0x01E904A7 [127.874001 -66.337601 6.005000] 0.599587 0.000000 0.000000 -0.800309 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701E90D7, 87033, 0x01E904A7, 130.259, -69.8241, 6.005, 0.694666, 0, 0, -0.719333, False, '2021-11-01 00:00:00'); /* ElysasDetermination Gen */
-/* @teleloc 0x01E904A7 [130.259003 -69.824097 6.005000] 0.694666 0.000000 0.000000 -0.719333 */
