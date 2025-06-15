@@ -45,7 +45,7 @@ VALUES (73247,   1,       5) /* HeartbeatInterval */
      , (73247,  17,       1) /* ArmorModVsFire */
      , (73247,  18,       1) /* ArmorModVsAcid */
      , (73247,  19,       1) /* ArmorModVsElectric */
-     , (73247,  39,     1.4) /* DefaultScale */
+     , (73247,  39,       1) /* DefaultScale */
      , (73247,  54,       3) /* UseRadius */
      , (73247,  64,       1) /* ResistSlash */
      , (73247,  65,       1) /* ResistPierce */
