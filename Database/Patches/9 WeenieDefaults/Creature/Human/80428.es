@@ -17,11 +17,13 @@ GotoSet: AgedLegendaryKey
                 TestSuccess:
                     - InqYesNo: Do you wish to exchange 100 MMD notes for 2 Aged Legendary Keys?
                         TestSuccess:
-                            - TakeItems: Trade Note MMD (20630), 100
-                            - Tell: There you go, kid. Dont spend it all in one place.
-                            - Give: Aged Legendary Key (48746)
-                            - Give: Aged Legendary Key (48746)
-                            - StampQuest: BlackMarketAgedLegendaryKeyWait
+                            - InqOwnsItems: Trade Note MMD (20630), 100
+                                TestSuccess:
+                                    - TakeItems: Trade Note MMD (20630), 100
+                                    - Tell: There you go, kid. Dont spend it all in one place.
+                                    - Give: Aged Legendary Key (48746)
+                                    - Give: Aged Legendary Key (48746)
+                                    - StampQuest: BlackMarketAgedLegendaryKeyWait
                         TestFailure:
                             - Tell: Price to steep for you? I understand some of us got it, some of us don't.
                 TestFailure:

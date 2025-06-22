@@ -19,10 +19,12 @@ GotoSet: AdvancementGem
                 TestSuccess:
                     - InqYesNo: Do you wish to exchange 100 MMD notes for a 40,000 luminance gem?
                         TestSuccess:
-                            - TakeItems: Trade Note MMD (20630), 100
-                            - Tell: There you go, kid. Bring that to the Master of the Black Market and he'll convert it for you.
-                            - Give: Freebooter Luminance Gem (51778)
-                            - StampQuest: FreebooterLuminanceWait
+                            - InqOwnsItems: Trade Note MMD (20630), 100
+                                TestSuccess:
+                                    - TakeItems: Trade Note MMD (20630), 100
+                                    - Tell: There you go, kid. Bring that to the Master of the Black Market and he'll convert it for you.
+                                    - Give: Freebooter Luminance Gem (51778)
+                                    - StampQuest: FreebooterLuminanceWait
                         TestFailure:
                             - Tell: I understand. Not everyone is willing to meet our price. Best of luck to you.
                 TestFailure:
