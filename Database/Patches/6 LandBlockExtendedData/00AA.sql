@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00AA;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AA000, 73244, 0x00AA010A, 100, -380, -35.945, 1, 0, 0, 0, False, '2025-06-15 15:00:23');
+VALUES (0x700AA000, 73244, 0x00AA010A, 100, -380, -35.945, 1, 0, 0, 0, False, '2025-06-15 15:00:23'); /* Vat of Olthoi Jelly */
 /* @teleloc 0x00AA010A [100.000000 -380.000000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -193,7 +193,7 @@ VALUES (0x700AA02F,  5627, 0x00AA0169, 54.9994, -230.002, -23.945, 0.707107, 0, 
 /* @teleloc 0x00AA0169 [54.999401 -230.001999 -23.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AA030, 73245, 0x00AA0268, 39.787, -24.1777, -0.063, 1, 0, 0, 0, False, '2025-06-15 15:22:27');
+VALUES (0x700AA030, 73245, 0x00AA0268, 39.787, -24.1777, -0.063, 1, 0, 0, 0, False, '2025-06-15 15:22:27'); /* Exit */
 /* @teleloc 0x00AA0268 [39.786999 -24.177700 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

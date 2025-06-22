@@ -12,9 +12,9 @@ VALUES (73249,   1,        128) /* ItemType - Misc */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (73249,   1, True ) /* Stuck */
      , (73249,   2, False) /* Open */
-     , (73249,   3, False ) /* Locked */
+     , (73249,   3, False) /* Locked */
      , (73249,  34, False) /* DefaultOpen */
-     , (73249,  35, False ) /* DefaultLocked */;
+     , (73249,  35, False) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (73249,  54,       2) /* UseRadius */;

@@ -11,7 +11,7 @@ VALUES (73246,   1,        128) /* ItemType - Misc */
      , (73246,  13,       1000) /* StackUnitEncumbrance */
      , (73246,  15,       1000) /* StackUnitValue */
      , (73246,  16,          1) /* ItemUseable - No */
-     , (73246,  18,        256) /* UiEffects - Poisoned */
+     , (73246,  18,        256) /* UiEffects - Acid */
      , (73246,  19,       1000) /* Value */
      , (73246,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
