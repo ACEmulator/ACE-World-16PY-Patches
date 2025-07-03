@@ -216,7 +216,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9018, 2,  5907,  0, 0, 1, False) /* Create Dho Life Master Robe (5907) for Wield */
+VALUES (9018, 2,  5907,  0, 0, 0, False) /* Create Dho Life Master Robe (5907) for Wield */
      , (9018, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
      , (9018, 4, 41424, -1, 0, 0, False) /* Create Refining Polish (Mana) (41424) for Shop */
      , (9018, 4, 41425, -1, 0, 0, False) /* Create Refining Polish (Stamina) (41425) for Shop */
