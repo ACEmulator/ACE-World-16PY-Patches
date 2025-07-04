@@ -12,7 +12,7 @@ Build status: [![GitHub last commit (master)](https://img.shields.io/github/last
 ***
 **ACE-World-16PY-Patches is the World Database for ACEmulator, an emulator of the Asheron's Call game server**
  * MySQL and MariaDB are used as the database engine.
- * Developement of world data, post Febuary 2005 is ongoing.
+ * Development of world data, post February 2005 is ongoing.
  
 ***
 ## Recommended Tools

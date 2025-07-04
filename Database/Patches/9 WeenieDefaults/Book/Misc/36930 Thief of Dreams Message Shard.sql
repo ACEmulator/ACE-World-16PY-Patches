@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36930;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36930, 'ace36930-thiefofdreamsmessageshard', 8, '2021-12-14 05:15:31') /* Book */;
+VALUES (36930, 'ace36930-thiefofdreamsmessageshard', 8, '2025-06-22 19:05:31') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36930,   1,        128) /* ItemType - Misc */
@@ -27,4 +27,7 @@ VALUES (36930,   1, 0x020003BF) /* Setup */
      , (36930,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (36930, 0, 1000);
+VALUES (36930, 1, 1000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (36930, 0, 0xFFFFFFFF, '', 'prewritten', False, '[You cannot understand the writing on this.]');

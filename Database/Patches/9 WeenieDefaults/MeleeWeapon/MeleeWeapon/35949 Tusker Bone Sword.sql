@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35949, 'ace35949-tuskerbonesword', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (35949, 'ace35949-tuskerbonesword', 6, '2025-06-22 19:05:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35949,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,7 +26,8 @@ VALUES (35949,   1,          1) /* ItemType - MeleeWeapon */
      , (35949, 151,          2) /* HookType - Wall */
      , (35949, 158,          2) /* WieldRequirements - RawSkill */
      , (35949, 159,         46) /* WieldSkillType - FinesseWeapons */
-     , (35949, 160,        400) /* WieldDifficulty */;
+     , (35949, 160,        400) /* WieldDifficulty */
+     , (35949, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35949,  19, True ) /* Attackable */
