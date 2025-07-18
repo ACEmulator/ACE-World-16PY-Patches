@@ -6,4 +6,5 @@ VALUES (7864, 0, 0, 0, 0, 71278 /* Eight Cards from the Deck of Hands */, 1, 'Yo
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7864;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7864, 37241 /* Eight of Hands */, 37284 /* Seven Cards from the Deck of Hands */, '2021-11-01 00:00:00');
+VALUES (7864, 37241 /* Eight of Hands */, 37284 /* Seven Cards from the Deck of Hands */, '2021-11-01 00:00:00')
+     , (7864, 37260 /* The Jester */, 37284 /* Seven Cards from the Deck of Hands */, '2021-11-01 00:00:00');
