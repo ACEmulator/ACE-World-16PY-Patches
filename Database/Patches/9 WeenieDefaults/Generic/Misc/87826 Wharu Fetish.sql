@@ -27,5 +27,5 @@ VALUES (87826,   1, 'Wharu Fetish') /* Name */
      , (87826,  16, 'A fetish of Wharu, crafted by Aun Kimintari from the Royal Olthoi Jelly, a Corrupted Mana Shard, and wood from Timaru''s Akiekie Fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87826,   1, 0x020004B9) /* Setup */
+VALUES (87826,   1, 0x0200186E) /* Setup */
      , (87826,   8, 0x0600697A) /* Icon */;
