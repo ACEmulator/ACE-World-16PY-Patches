@@ -51,3 +51,20 @@ Give: Tanada House of Water Orders (87680)
     - EraseQuest: TanadaHouseofWaterStarted
     - StampQuest: TanadaTempleofBlackWaterQuest_Flag
     - Give: 35310
+
+Give: 73258
+    - TurnToTarget
+    - StampQuest: TanadaDirectives
+    - Tell: A letter for me?
+    - DirectBroadcast: Meshenq reads over the letter.
+    - Tell: Where did you get this?
+    - DirectBroadcast: You explain that you found the letter on the corpse of a Tanada from the House of Water, and that the corpse was in the Black Death Catacombs.
+    - Tell: First Chaos Virindi, and now this? I'll send this along with what you've told me. In the meanwhile, I thank you for your excellent service.
+    - InqQuestSolves: TanadaDirectives, 1 - 1
+        QuestSuccess:
+            - AwardLevelProportionalXP: 30%, 0 - 20,648,006
+        QuestFailure:
+            - AwardLevelProportionalXP: 10%, 0 - 6,882,669
+    - Give: 73259
+    - Tell: Also, take a copy of this letter for yourself. It may prove useful information to have.
+    - Tell: This may be related to the Olthoi activity being investigated at 43.8N, 54.9E. If you're curious, it may be worth a look for yourself.
