@@ -77,27 +77,5 @@ VALUES (0x7A3A4011,  5422, 0xA3A40108, 106.934, 106.198, 80.005, -0.310832, 0, 0
 /* @teleloc 0xA3A40108 [106.933998 106.197998 80.004997] -0.310832 0.000000 0.000000 0.950465 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A3A43E8, 15274, 0xA3A40031, 155.472, 16.9896, 98, 0.469091, 0, 0, 0.88315, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen (1 min.) */
-/* @teleloc 0xA3A40031 [155.472000 16.989599 98.000000] 0.469091 0.000000 0.000000 0.883150 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A43E8, 0x7A3A43E9, '2021-11-01 00:00:00') /* Famished Eater (32315) */
-     , (0x7A3A43E8, 0x7A3A43EA, '2021-11-01 00:00:00') /* Famished Eater (32315) */
-     , (0x7A3A43E8, 0x7A3A43EB, '2021-11-01 00:00:00') /* Viamontian Mercenary (32329) */
-     , (0x7A3A43E8, 0x7A3A43EC, '2021-11-01 00:00:00') /* Eater (32316) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A3A43E9, 32315, 0xA3A40032, 152.622, 28.023, 97.6647, -0.861019, 0, 0, -0.508573,  True, '2021-11-01 00:00:00'); /* Famished Eater */
-/* @teleloc 0xA3A40032 [152.621994 28.023001 97.664703] -0.861019 0.000000 0.000000 -0.508573 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A3A43EA, 32315, 0xA3A40032, 152.622, 28.023, 97.6647, -0.861019, 0, 0, -0.508573,  True, '2021-11-01 00:00:00'); /* Famished Eater */
-/* @teleloc 0xA3A40032 [152.621994 28.023001 97.664703] -0.861019 0.000000 0.000000 -0.508573 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A3A43EB, 32329, 0xA3A40031, 147.626, 20.2245, 98.0063, -0.997836, 0, 0, -0.065747,  True, '2021-11-01 00:00:00'); /* Viamontian Mercenary */
-/* @teleloc 0xA3A40031 [147.626007 20.224501 98.006302] -0.997836 0.000000 0.000000 -0.065747 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A3A43EC, 32316, 0xA3A40029, 140.155, 19.2357, 98, -0.997836, 0, 0, -0.065747,  True, '2021-11-01 00:00:00'); /* Eater */
-/* @teleloc 0xA3A40029 [140.154999 19.235701 98.000000] -0.997836 0.000000 0.000000 -0.065747 */
+VALUES (0x7A3A43ED, 73257, 0xA3A40032, 163.958, 29.5341, 97.5938, 0.92388, 0, 0, 0.382684, False, '2025-07-24 14:17:39'); /* Glenden Wood Invasion Gen */
+/* @teleloc 0xA3A40032 [163.957993 29.534100 97.593803] 0.923880 0.000000 0.000000 0.382684 */
