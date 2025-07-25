@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35580;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35580, 'ace35580-drudgeballoon', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (35580, 'ace35580-drudgeballoon', 10, '2025-07-24 06:08:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35580,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,7 @@ VALUES (35580,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35580,   1, True ) /* Stuck */
-     , (35580,   6, True ) /* AiUsesMana */
+     , (35580,   6, False ) /* AiUsesMana */
      , (35580,  11, False) /* IgnoreCollisions */
      , (35580,  12, True ) /* ReportCollisions */
      , (35580,  13, False) /* Ethereal */
@@ -89,32 +89,28 @@ VALUES (35580,   1,   500, 0, 0, 603) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35580,  6, 0, 3, 0, 280, 0, 0) /* MeleeDefense        Specialized */
-     , (35580,  7, 0, 3, 0, 215, 0, 0) /* MissileDefense      Specialized */
-     , (35580, 14, 0, 3, 0, 350, 0, 0) /* ArcaneLore          Specialized */
-     , (35580, 15, 0, 3, 0, 249, 0, 0) /* MagicDefense        Specialized */
-     , (35580, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
-     , (35580, 24, 0, 3, 0,  55, 0, 0) /* Run                 Specialized */
-     , (35580, 31, 0, 3, 0, 100, 0, 0) /* CreatureEnchantment Specialized */
+     , (35580,  7, 0, 3, 0, 380, 0, 0) /* MissileDefense      Specialized */
+     , (35580, 15, 0, 3, 0, 240, 0, 0) /* MagicDefense        Specialized */
+     , (35580, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
+     , (35580, 31, 0, 3, 0, 180, 0, 0) /* CreatureEnchantment Specialized */
      , (35580, 33, 0, 3, 0, 180, 0, 0) /* LifeMagic           Specialized */
      , (35580, 34, 0, 3, 0, 180, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35580,  0,  4,  0,    0,  340,  279,  150,  282,  245,  282,  245,  306,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (35580,  1,  4,  0,    0,  345,  283,  152,  286,  248,  286,  248,  311,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (35580,  2,  4,  0,    0,  345,  283,  152,  286,  248,  286,  248,  311,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (35580,  3,  4,  0,    0,  345,  283,  152,  286,  248,  286,  248,  311,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (35580,  4,  4,  0,    0,  340,  279,  150,  282,  245,  282,  245,  306,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (35580,  5,  4, 35, 0.75,  340,  279,  150,  282,  245,  282,  245,  306,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (35580,  6,  4,  0,    0,  340,  279,  150,  282,  245,  282,  245,  306,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (35580,  7,  4,  0,    0,  340,  279,  150,  282,  245,  282,  245,  306,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (35580,  8,  4, 35, 0.75,  340,  279,  150,  282,  245,  282,  245,  306,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (35580,  0,  4,  0,    0,  340,  170,  170,  170,  170,  170,  170,  170,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (35580,  1,  4,  0,    0,  345,  172,  172,  172,  172,  172,  172,  172,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (35580,  2,  4,  0,    0,  345,  172,  172,  172,  172,  172,  172,  172,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (35580,  3,  4,  0,    0,  345,  172,  172,  172,  172,  172,  172,  172,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (35580,  4,  4,  0,    0,  340,  170,  170,  170,  170,  170,  170,  170,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (35580,  5,  4, 35, 0.75,  340,  170,  170,  170,  170,  170,  170,  170,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (35580,  6,  4,  0,    0,  340,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (35580,  7,  4,  0,    0,  340,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (35580,  8,  4, 35, 0.75,  340,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35580,    80,      3)  /* Lightning Bolt VI */
-     , (35580,  1089,      3)  /* Lightning Vulnerability Other VI */
-     , (35580,  1161,   2.98)  /* Heal Self VI */
-     , (35580,  1242,    2.8)  /* Drain Health Other VI */
-     , (35580,  1327,   2.73)  /* Imperil Other VI */
-     , (35580,  1343,   2.73)  /* Weakness Other VI */
-     , (35580,  1396,   2.73)  /* Clumsiness Other VI */
-     , (35580,  1420,   2.73)  /* Slowness Other VI */;
+VALUES (35580,  4092,    2.2)  /* Flame Grenade */
+     , (35580,  4091,   2.25)  /* Spear */
+     , (35580,  2282,   2.25)  /* Futility */
+     , (35580,  2129,   2.33)  /* Sizzling Fury */
+     , (35580,  2128,    2.5)  /* Ilservian's Flame */
+     , (35580,  2074,      3)  /* Gossamer Flesh */;
