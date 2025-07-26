@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32699;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32699, 'ace32699-mercenarymage', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (32699, 'ace32699-mercenarymage', 10, '2025-07-26 09:18:38') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32699,   1,         16) /* ItemType - Creature */
@@ -18,7 +18,8 @@ VALUES (32699,   1,         16) /* ItemType - Creature */
      , (32699, 113,          1) /* Gender - Male */
      , (32699, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (32699, 146,      30000) /* XpOverride */
-     , (32699, 188,          1) /* HeritageGroup - Aluvian */;
+     , (32699, 188,          1) /* HeritageGroup - Aluvian */
+     , (32699, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32699,   1, True ) /* Stuck */
@@ -438,50 +439,45 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (32699,  6, 0, 3, 0, 210, 0, 0) /* MeleeDefense        Specialized */
      , (32699,  7, 0, 3, 0, 315, 0, 0) /* MissileDefense      Specialized */
      , (32699, 15, 0, 3, 0, 210, 0, 0) /* MagicDefense        Specialized */
-     , (32699, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
+     , (32699, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
      , (32699, 24, 0, 3, 0,   5, 0, 0) /* Run                 Specialized */
-     , (32699, 31, 0, 3, 0,  95, 0, 0) /* CreatureEnchantment Specialized */
-     , (32699, 33, 0, 3, 0,  95, 0, 0) /* LifeMagic           Specialized */
-     , (32699, 34, 0, 3, 0,  95, 0, 0) /* WarMagic            Specialized */
-     , (32699, 44, 0, 3, 0, 160, 0, 0) /* HeavyWeapons        Specialized */
-     , (32699, 45, 0, 3, 0, 160, 0, 0) /* LightWeapons        Specialized */
-     , (32699, 46, 0, 3, 0, 160, 0, 0) /* FinesseWeapons      Specialized */
+     , (32699, 31, 0, 3, 0, 125, 0, 0) /* CreatureEnchantment Specialized */
+     , (32699, 33, 0, 3, 0, 125, 0, 0) /* LifeMagic           Specialized */
+     , (32699, 34, 0, 3, 0, 125, 0, 0) /* WarMagic            Specialized */
+     , (32699, 44, 0, 3, 0, 220, 0, 0) /* HeavyWeapons        Specialized */
+     , (32699, 45, 0, 3, 0, 220, 0, 0) /* LightWeapons        Specialized */
+     , (32699, 46, 0, 3, 0, 220, 0, 0) /* FinesseWeapons      Specialized */
      , (32699, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (32699,  0,  4,  0,    0,  260,  231,  260,  286,  104,  104,  260,  156,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (32699,  1,  4,  0,    0,  250,  223,  250,  275,  100,  100,  250,  150,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (32699,  2,  4,  0,    0,  250,  223,  250,  275,  100,  100,  250,  150,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (32699,  3,  4,  0,    0,  240,  214,  240,  264,   96,   96,  240,  144,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (32699,  4,  4,  0,    0,  240,  214,  240,  264,   96,   96,  240,  144,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (32699,  5,  4,  2, 0.75,  240,  214,  240,  264,   96,   96,  240,  144,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (32699,  6,  4,  0,    0,  260,  231,  260,  286,  104,  104,  260,  156,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (32699,  7,  4,  0,    0,  250,  223,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (32699,  8,  4,  2, 0.75,  245,  218,  245,  270,   98,   98,  245,  147,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (32699,  0,  4,  0,    0,  260,  130,  130,  130,  130,  130,  130,  130,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (32699,  1,  4,  0,    0,  250,  125,  125,  125,  125,  125,  125,  125,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (32699,  2,  4,  0,    0,  250,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (32699,  3,  4,  0,    0,  240,  120,  120,  120,  120,  120,  120,  120,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (32699,  4,  4,  0,    0,  240,  120,  120,  120,  120,  120,  120,  120,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (32699,  5,  4,  2, 0.75,  240,  120,  120,  120,  120,  120,  120,  120,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (32699,  6,  4,  0,    0,  260,  130,  130,  130,  130,  130,  130,  130,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (32699,  7,  4,  0,    0,  250,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (32699,  8,  4,  2, 0.75,  245,  122,  122,  122,  122,  122,  122,  122,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32699,    61,   2.01)  /* Acid Stream IV */
-     , (32699,    67,   2.01)  /* Shock Wave IV */
-     , (32699,    72,   2.01)  /* Frost Bolt IV */
-     , (32699,    78,   2.01)  /* Lightning Bolt IV */
-     , (32699,    83,   2.01)  /* Flame Bolt IV */
-     , (32699,    89,   2.01)  /* Force Bolt IV */
-     , (32699,    95,   2.01)  /* Whirling Blade IV */
-     , (32699,   128,   2.01)  /* Acid Volley IV */
-     , (32699,   136,   2.01)  /* Frost Volley IV */
-     , (32699,   140,   2.01)  /* Lightning Volley IV */
-     , (32699,   144,   2.01)  /* Flame Volley IV */
-     , (32699,   168,  2.025)  /* Regeneration Self IV */
-     , (32699,   174,  2.011)  /* Fester Other IV */
-     , (32699,  1240,  2.025)  /* Drain Health Other IV */
-     , (32699,  1252,  2.025)  /* Drain Stamina Other IV */
-     , (32699,  1263,  2.025)  /* Drain Mana Other IV */
-     , (32699,  1341,  2.011)  /* Weakness Other IV */
-     , (32699,  1370,  2.011)  /* Frailty Other IV */
-     , (32699,  1394,  2.011)  /* Clumsiness Other IV */
-     , (32699,  1418,  2.011)  /* Slowness Other IV */
-     , (32699,  1442,  2.011)  /* Bafflement Other IV */
-     , (32699,  1466,  2.011)  /* Feeblemind Other IV */;
+VALUES (32699,    61,   2.04)  /* Acid Stream IV */
+     , (32699,    67,   2.04)  /* Shock Wave IV */
+     , (32699,    72,   2.04)  /* Frost Bolt IV */
+     , (32699,    78,   2.05)  /* Lightning Bolt IV */
+     , (32699,    83,   2.05)  /* Flame Bolt IV */
+     , (32699,    89,   2.05)  /* Force Bolt IV */
+     , (32699,    95,   2.05)  /* Whirling Blade IV */
+     , (32699,   524,   2.04)  /* Acid Vulnerability Other IV */
+     , (32699,  1051,   2.04)  /* Bludgeoning Vulnerability Other IV */
+     , (32699,  1325,   2.05)  /* Imperil Other IV */
+     , (32699,   232,   2.04)  /* Vulnerability Other IV */
+     , (32699,  1106,   2.05)  /* Fire Vulnerability Other IV */
+     , (32699,   283,   2.05)  /* Magic Yield Other IV */
+     , (32699,  1087,   2.06)  /* Lightning Vulnerability Other IV */
+     , (32699,  1154,   2.06)  /* Piercing Vulnerability Other IV */
+     , (32699,  1130,   2.07)  /* Blade Vulnerability Other IV */
+     , (32699,  1063,   2.07)  /* Cold Vulnerability Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32699, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
