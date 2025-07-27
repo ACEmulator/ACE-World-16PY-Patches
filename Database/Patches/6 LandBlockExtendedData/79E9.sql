@@ -691,12 +691,11 @@ VALUES (0x779E9095, 43396, 0x79E90187, -161.031, -5.31611, 120.407, 0.403744, 0,
 /* @teleloc 0x79E90187 [-161.031006 -5.316110 120.406998] 0.403744 0.000000 0.000000 -0.914872 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E9096,  7926, 0x79E90129, -142.644, 4.29587, 90.456, 0.223518, 0, 0, 0.9747, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 20 Min.) */
+VALUES (0x779E9096,  7924, 0x79E90129, -142.644, 4.29587, 90.456, 0.223518, 0, 0, 0.9747, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x79E90129 [-142.643997 4.295870 90.456001] 0.223518 0.000000 0.000000 0.974700 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x779E9096, 0x779E909A, '2021-11-01 00:00:00') /* Bloodstone Shard (51354) */
-     , (0x779E9096, 0x779E90A8, '2021-11-01 00:00:00') /* Bloodstone Crystal Stockpile Gen (80067) */
      , (0x779E9096, 0x779E90C5, '2021-11-01 00:00:00') /* Frozen Wight Captain (43821) */
      , (0x779E9096, 0x779E90C6, '2021-11-01 00:00:00') /* Bloodstone Shard (51354) */
      , (0x779E9096, 0x779E90C7, '2021-11-01 00:00:00') /* Gurog Henchman (43394) */
@@ -711,7 +710,7 @@ VALUES (0x779E90A0, 70367, 0x79E90128, -136.464, 16.7587, 90.4, -0.116387, 0, 0,
 /* @teleloc 0x79E90128 [-136.464005 16.758699 90.400002] -0.116387 0.000000 0.000000 0.993204 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E90A8, 80067, 0x79E90128, -136.464, 16.7587, 90.4, -0.116387, 0, 0, 0.993204,  True, '2021-11-01 00:00:00'); /* Bloodstone Crystal Stockpile Gen */
+VALUES (0x779E90A8, 80067, 0x79E90128, -136.464, 16.7587, 90.4, -0.116387, 0, 0, 0.993204, False, '2021-11-01 00:00:00'); /* Bloodstone Crystal Stockpile Gen */
 /* @teleloc 0x79E90128 [-136.464005 16.758699 90.400002] -0.116387 0.000000 0.000000 0.993204 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

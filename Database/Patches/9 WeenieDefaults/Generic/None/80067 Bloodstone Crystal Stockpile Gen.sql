@@ -18,7 +18,8 @@ VALUES (80067,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80067,  41,       5) /* RegenerationInterval */
-     , (80067,  43,       3) /* GeneratorRadius */;
+     , (80067,  43,       3) /* GeneratorRadius */
+     , (80067, 121,     300) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80067,   1, 'Bloodstone Crystal Stockpile Gen') /* Name */
