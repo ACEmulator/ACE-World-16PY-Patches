@@ -9,7 +9,7 @@ VALUES (80067,  81,          1) /* MaxGeneratedObjects */
      , (80067,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80067, 103,          2) /* GeneratorDestructionType - Destroy */
      , (80067, 142,          3) /* GeneratorTimeType - Event */
-     , (80067, 145,          0) /* GeneratorEndDestructionType - Undef */;
+     , (80067, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80067,   1, True ) /* Stuck */
@@ -18,8 +18,7 @@ VALUES (80067,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80067,  41,       5) /* RegenerationInterval */
-     , (80067,  43,       3) /* GeneratorRadius */
-     , (80067, 121,     300) /* GeneratorInitialDelay */;
+     , (80067,  43,       3) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80067,   1, 'Bloodstone Crystal Stockpile Gen') /* Name */

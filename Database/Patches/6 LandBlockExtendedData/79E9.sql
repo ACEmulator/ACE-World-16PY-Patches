@@ -710,7 +710,7 @@ VALUES (0x779E90A0, 70367, 0x79E90128, -136.464, 16.7587, 90.4, -0.116387, 0, 0,
 /* @teleloc 0x79E90128 [-136.464005 16.758699 90.400002] -0.116387 0.000000 0.000000 0.993204 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E90A8, 80067, 0x79E90128, -136.464, 16.7587, 90.4, -0.116387, 0, 0, 0.993204, False, '2021-11-01 00:00:00'); /* Bloodstone Crystal Stockpile Gen */
+VALUES (0x779E90A8, 80067, 0x79E90128, -136.464, 16.7587, 90.4, -0.116387, 0, 0, 0.993204,  True, '2021-11-01 00:00:00'); /* Bloodstone Crystal Stockpile Gen */
 /* @teleloc 0x79E90128 [-136.464005 16.758699 90.400002] -0.116387 0.000000 0.000000 0.993204 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -852,3 +852,10 @@ VALUES (0x779E90CA, 43395, 0x79E90179, 22.4941, 46.5, 114.407, 1, 0, 0, 0,  True
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779E90CB, 70364, 0x79E9016D, 12.0203, 45.5235, 114.407, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lord Kastellar */
 /* @teleloc 0x79E9016D [12.020300 45.523499 114.406998] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x779E90CC,  3955, 0x79E90129, -141.286, 3.60902, 90.455, 0, 0, 0, 1, False, '2025-07-27 15:36:28'); /* Linkable Monster Gen (15 min.) */
+/* @teleloc 0x79E90129 [-141.285995 3.609020 90.455002] 0.000000 0.000000 0.000000 1.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x779E90CC, 0x779E90A8, '2021-11-01 00:00:00') /* Bloodstone Crystal Stockpile Gen (80067) */;
