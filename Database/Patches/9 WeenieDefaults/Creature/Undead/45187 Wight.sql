@@ -53,8 +53,7 @@ VALUES (45187,   1,       5) /* HeartbeatInterval */
      , (45187,  70,     0.5) /* ResistElectric */
      , (45187,  80,       3) /* AiUseMagicDelay */
      , (45187, 104,      10) /* ObviousRadarRange */
-     , (45187, 125,       1) /* ResistHealthDrain */
-     , (45187, 166,     0.9) /* ResistNether */;
+     , (45187, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45187,   1, 'Wight') /* Name */
@@ -122,23 +121,23 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (45187,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
      , (45187,  7, 0, 3, 0, 370, 0, 0) /* MissileDefense      Specialized */
      , (45187, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
-     , (45187, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
+     , (45187, 20, 0, 3, 0,  80, 0, 0) /* Deception           Specialized */
      , (45187, 41, 0, 3, 0, 560, 0, 0) /* TwoHandedCombat     Specialized */
      , (45187, 44, 0, 3, 0, 560, 0, 0) /* HeavyWeapons        Specialized */
      , (45187, 45, 0, 3, 0, 560, 0, 0) /* LightWeapons        Specialized */
-     , (45187, 46, 0, 3, 0, 560, 0, 0) /* FinesseWeapons      Specialized */
+     , (45187, 46, 0, 3, 0, 570, 0, 0) /* FinesseWeapons      Specialized */
      , (45187, 47, 0, 3, 0, 440, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (45187,  0,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (45187,  1,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (45187,  2,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (45187,  3,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (45187,  4,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (45187,  5,  4, 150, 0.75,  275,  234,  261,  234,  261,  234,  248,  261,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (45187,  6,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (45187,  7,  4,  0,    0,  275,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (45187,  8,  4, 155, 0.75,  275,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (45187,  0,  4,  0,    0,  350,  234,  261,  234,  261,  234,  248,  261,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (45187,  1,  4,  0,    0,  360,  234,  261,  234,  261,  234,  248,  261,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (45187,  2,  4,  0,    0,  400,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (45187,  3,  4,  0,    0,  370,  234,  261,  234,  261,  234,  248,  261,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (45187,  4,  4,  0,    0,  400,  234,  261,  234,  261,  234,  248,  261,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (45187,  5,  4, 150, 0.75,  380,  234,  261,  234,  261,  234,  248,  261,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (45187,  6,  4,  0,    0,  360,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (45187,  7,  4,  0,    0,  400,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (45187,  8,  4, 155, 0.75,  400,  234,  261,  234,  261,  234,  248,  261,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (45187, 18 /* Scream */,    0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -217,7 +216,8 @@ VALUES (45187, 9, 35105,  1, 0, 0.5, False) /* Create Pyre Shroud (35105) for Co
      , (45187, 9, 37244,  0, 0, 0.003, False) /* Create Jack of Hands (37244) for ContainTreasure */
      , (45187, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (45187, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
-     , (45187, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */
+     , (45187, 9, 37260,  0, 0, 0.003, False) /* Create The Jester (37260) for ContainTreasure */
+     , (45187, 9,     0,  0, 0, 0.919, False) /* Create nothing for ContainTreasure */
      , (45187, 9, 45151,  0, 0, 0.8, False) /* Create Mhoire Oubliette Portal Glyph (45151) for ContainTreasure */
      , (45187, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
      , (45187, 9, 45193,  0, 0, 0.8, False) /* Create Red Veined Grub (45193) for ContainTreasure */

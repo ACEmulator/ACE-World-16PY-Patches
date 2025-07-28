@@ -6,4 +6,5 @@ VALUES (7869, 0, 0, 0, 0, 37287 /* Deck of Hands */, 1, 'You combine the cards.'
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7869;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7869, 37246 /* King of Hands */, 71282 /* Twelve Cards from the Deck of Hands */, '2021-11-01 00:00:00');
+VALUES (7869, 37246 /* King of Hands */, 71282 /* Twelve Cards from the Deck of Hands */, '2021-11-01 00:00:00')
+     , (7869, 37260 /* The Jester */, 71282 /* Twelve Cards from the Deck of Hands */, '2021-11-01 00:00:00');

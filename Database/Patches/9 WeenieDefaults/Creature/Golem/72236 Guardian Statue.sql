@@ -22,8 +22,6 @@ VALUES (72236,   1, True ) /* Stuck */
      , (72236,  11, False) /* IgnoreCollisions */
      , (72236,  12, True ) /* ReportCollisions */
      , (72236,  13, False) /* Ethereal */
-     , (72236,  52, True ) /* AiImmobile */
-     , (72236,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (72236,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -88,11 +86,11 @@ VALUES (72236,   1,  1880, 0, 0, 2130) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (72236,  6, 0, 3, 0, 340, 0, 0) /* MeleeDefense        Specialized */
      , (72236,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (72236, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
-     , (72236, 31, 0, 3, 0, 200, 0, 0) /* CreatureEnchantment Specialized */
-     , (72236, 32, 0, 3, 0, 200, 0, 0) /* ItemEnchantment     Specialized */
-     , (72236, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */
-     , (72236, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
+     , (72236, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+     , (72236, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
+     , (72236, 32, 0, 3, 0, 150, 0, 0) /* ItemEnchantment     Specialized */
+     , (72236, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
+     , (72236, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */
      , (72236, 45, 0, 3, 0, 340, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -117,3 +115,7 @@ VALUES (72236,  2074,   2.02)  /* Gossamer Flesh */
      , (72236,  2172,   2.03)  /* Astyrrian's Gift */
      , (72236,  4451,   2.06)  /* Incantation of Lightning Bolt */
      , (72236,  4426,   2.06)  /* Incantation of Lightning Arc */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (72236, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (72236, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
