@@ -58,7 +58,8 @@ VALUES (38827,   1,       5) /* HeartbeatInterval */
      , (38827, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38827,   1, 'Tendril of T''thuun') /* Name */;
+VALUES (38827,   1, 'Tendril of T''thuun') /* Name */
+     , (38827,  45, 'KillTaskTentacleofTthuun_0908') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38827,   1, 0x02001855) /* Setup */
@@ -83,32 +84,27 @@ VALUES (38827,   1,   650, 0, 0, 810) /* MaxHealth */
      , (38827,   5,   550, 0, 0, 910) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38827,  6, 0, 2, 0, 330, 0, 0) /* MeleeDefense        Trained */
-     , (38827,  7, 0, 2, 0, 400, 0, 0) /* MissileDefense      Trained */
-     , (38827, 15, 0, 2, 0, 250, 0, 0) /* MagicDefense        Trained */
-     , (38827, 16, 0, 2, 0, 235, 0, 0) /* ManaConversion      Trained */
+VALUES (38827,  6, 0, 2, 0, 430, 0, 0) /* MeleeDefense        Trained */
+     , (38827,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
+     , (38827, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
      , (38827, 31, 0, 2, 0, 235, 0, 0) /* CreatureEnchantment Trained */
      , (38827, 33, 0, 2, 0, 235, 0, 0) /* LifeMagic           Trained */
      , (38827, 34, 0, 2, 0, 235, 0, 0) /* WarMagic            Trained */
-     , (38827, 41, 0, 2, 0, 300, 0, 0) /* TwoHandedCombat     Trained */
-     , (38827, 43, 0, 2, 0, 235, 0, 0) /* VoidMagic           Trained */
-     , (38827, 44, 0, 2, 0, 320, 0, 0) /* HeavyWeapons        Trained */
-     , (38827, 45, 0, 2, 0, 320, 0, 0) /* LightWeapons        Trained */
-     , (38827, 46, 0, 2, 0, 320, 0, 0) /* FinesseWeapons      Trained */
-     , (38827, 47, 0, 2, 0, 260, 0, 0) /* MissileWeapons      Trained */;
+     , (38827, 45, 0, 2, 0, 340, 0, 0) /* LightWeapons        Trained */
+     , (38827, 47, 0, 2, 0, 210, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (38827,  0, 16, 20, 0.75,  150,  128,  128,  150,  135,  150,  143,   75,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (38827, 23,  4,  0,    0,  160,  136,  136,  160,  144,  160,  152,   80,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
-     , (38827, 24,  4,  0,    0,  160,  136,  136,  160,  144,  160,  152,   80,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
-     , (38827, 25,  4, 10, 0.75,  180,  153,  153,  180,  162,  180,  171,   90,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
+VALUES (38827,  0, 16, 200, 0.75,  470,  128,  128,  150,  135,  150,  143,   75,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (38827, 23,  4,  0,    0,  470,  136,  136,  160,  144,  160,  152,   80,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
+     , (38827, 24,  4,  0,    0,  470,  136,  136,  160,  144,  160,  152,   80,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
+     , (38827, 25,  4, 200, 0.75,  470,  153,  153,  180,  162,  180,  171,   90,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38827,  2070,   2.02)  /* Heart Rend */
-     , (38827,  2178,   2.02)  /* Decrepitude's Grasp */
-     , (38827,  2328,   2.02)  /* Vitality Siphon */
-     , (38827,  2329,   2.02)  /* Essence Void */
-     , (38827,  2764,   2.02)  /* Martyr's Hecatomb V */;
+VALUES (38827,  2070,   2.04)  /* Heart Rend */
+     , (38827,  2178,   2.04)  /* Decrepitude's Grasp */
+     , (38827,  2328,   2.04)  /* Vitality Siphon */
+     , (38827,  2329,   2.05)  /* Essence Void */
+     , (38827,  2764,   2.05)  /* Martyr's Hecatomb V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38827, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;
