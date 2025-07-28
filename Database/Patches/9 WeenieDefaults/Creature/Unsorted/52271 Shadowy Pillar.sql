@@ -10,7 +10,10 @@ VALUES (52271,   1,         16) /* ItemType - Creature */
      , (52271,  16,          1) /* ItemUseable - No */
      , (52271,  40,          1) /* CombatMode - NonCombat */
      , (52271,  67,          1) /* Tolerance - NoAttack */
+     , (52271,  81,          1) /* MaxGeneratedObjects */
+     , (52271,  82,          1) /* InitGeneratedObjects */
      , (52271,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (52271, 103,          2) /* GeneratorDestructionType - Destroy */
      , (52271, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52271, 146,    5000000) /* XpOverride */
      , (52271, 315,       9999) /* CritResistRating */;
@@ -24,6 +27,7 @@ VALUES (52271,   1, True ) /* Stuck */
      , (52271,  14, True ) /* GravityStatus */
      , (52271,  19, True ) /* Attackable */
      , (52271,  29, True ) /* NoCorpse */
+     , (52271,  83, True ) /* NpcLooksLikeObject */
      , (52271, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -43,7 +47,8 @@ VALUES (52271,   1,       5) /* HeartbeatInterval */
      , (52271,  34,       1) /* PowerupTime */
      , (52271,  36,       1) /* ChargeSpeed */
      , (52271,  39,     2.5) /* DefaultScale */
-     , (52271,  41,       0) /* RegenerationInterval */
+     , (52271,  41,      60) /* RegenerationInterval */
+     , (52271,  43,       0) /* GeneratorRadius */
      , (52271,  64,       1) /* ResistSlash */
      , (52271,  65,       1) /* ResistPierce */
      , (52271,  66,       1) /* ResistBludgeon */
@@ -94,3 +99,6 @@ VALUES (52271,  0,  4,  0,    0,  600,  600,  600,  480,  600,  600,  600,  600,
      , (52271,  6,  4,  0,    0,  600,  600,  600,  480,  600,  600,  600,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (52271,  7,  4,  0,    0,  600,  600,  600,  480,  600,  600,  600,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (52271,  8,  4,  1, 0.75,  600,  600,  600,  480,  600,  600,  600,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (52271, -1, 52270, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 10, 1, 0, 0, 0) /* Generate  (52270) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

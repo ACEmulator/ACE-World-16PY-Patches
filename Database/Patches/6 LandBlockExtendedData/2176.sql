@@ -117,41 +117,40 @@ VALUES (0x7217602A,  7924, 0x21760126, 81.9185, 126.794, 90.405, 0.999983, 0, 0,
 /* @teleloc 0x21760126 [81.918503 126.793999 90.404999] 0.999983 0.000000 0.000000 -0.005784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7217602A, 0x7217600C, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x7217600D, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x7217600E, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x7217600F, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x72176010, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x72176011, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x7217602A, 0x72176012, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x72176013, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x72176014, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x72176015, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x7217602A, 0x72176016, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x72176018, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x72176019, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x7217601A, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x7217601B, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x7217602A, 0x7217601C, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x7217601D, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x7217601E, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x7217602A, 0x7217601F, '2021-11-01 00:00:00') /* Mysterious Portal (43201) */
-     , (0x7217602A, 0x72176021, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x72176022, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x72176023, '2021-11-01 00:00:00') /* Gear Hunter (42607) */
-     , (0x7217602A, 0x72176024, '2021-11-01 00:00:00') /* Gear Hunter (42605) */
-     , (0x7217602A, 0x72176025, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x7217602A, 0x72176026, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x7217602A, 0x72176027, '2021-11-01 00:00:00') /* Gear Hunter Mage (42606) */
-     , (0x7217602A, 0x72176028, '2021-11-01 00:00:00') /* General Tarkaris (70715) */
-     , (0x7217602A, 0x72176029, '2021-11-01 00:00:00') /* Apostate Overseer (70716) */;
+VALUES (0x7217602A, 0x7217600C, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x7217600D, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x7217600E, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x7217600F, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x72176010, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x72176011, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter Mage (42606) */
+     , (0x7217602A, 0x72176012, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x72176013, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x72176014, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x72176015, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter Mage (42606) */
+     , (0x7217602A, 0x72176016, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x72176018, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x72176019, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x7217601A, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x7217601B, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter Mage (42606) */
+     , (0x7217602A, 0x7217601C, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x7217601D, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x7217601E, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter Mage (42606) */
+     , (0x7217602A, 0x72176021, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x72176022, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x72176023, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42607) */
+     , (0x7217602A, 0x72176024, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter (42605) */
+     , (0x7217602A, 0x72176025, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter Mage (42606) */
+     , (0x7217602A, 0x72176026, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter Mage (42606) */
+     , (0x7217602A, 0x72176027, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Gear Hunter Mage (42606) */
+     , (0x7217602A, 0x72176028, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), General Tarkaris (70715) */
+     , (0x7217602A, 0x72176029, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Apostate Overseer (70716) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217602B, 15759, 0x2176017C, 86.6252, 110.273, 102.419, -0.012537, 0, 0, -0.999921, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2176017C [86.625198 110.273003 102.418999] -0.012537 0.000000 0.000000 -0.999921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7217602B, 0x7217602C, '2021-11-01 00:00:00') /* Apostate Message Shard (42614) */;
+VALUES (0x7217602B, 0x7217602C, '2021-11-01 00:00:00') /* Linkable Item Generator (15759), Apostate Message Shard (42614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217602C, 42614, 0x2176017C, 86.6252, 110.273, 102.419, -0.012537, 0, 0, -0.999921,  True, '2021-11-01 00:00:00'); /* Apostate Message Shard */
