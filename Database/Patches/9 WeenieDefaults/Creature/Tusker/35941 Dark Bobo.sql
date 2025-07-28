@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35941;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35941, 'ace35941-darkbobo', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (35941, 'ace35941-darkbobo', 10, '2025-07-24 08:26:10') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35941,   1,         16) /* ItemType - Creature */
@@ -14,6 +14,7 @@ VALUES (35941,   1,         16) /* ItemType - Creature */
      , (35941,  27,          0) /* ArmorType - None */
      , (35941,  40,          2) /* CombatMode - Melee */
      , (35941,  68,          9) /* TargetingTactic - Random, TopDamager */
+     , (35941,  72,         59) /* FriendType - Simulacrum */
      , (35941,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35941, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35941, 146,   10000000) /* XpOverride */;
@@ -35,13 +36,13 @@ VALUES (35941,   1,       5) /* HeartbeatInterval */
      , (35941,   4,     0.8) /* StaminaRate */
      , (35941,   5,       2) /* ManaRate */
      , (35941,  12,       0) /* Shade */
-     , (35941,  13,    0.88) /* ArmorModVsSlash */
+     , (35941,  13,     0.8) /* ArmorModVsSlash */
      , (35941,  14,     0.6) /* ArmorModVsPierce */
-     , (35941,  15,    0.62) /* ArmorModVsBludgeon */
-     , (35941,  16,    0.62) /* ArmorModVsCold */
-     , (35941,  17,     0.4) /* ArmorModVsFire */
-     , (35941,  18,    0.81) /* ArmorModVsAcid */
-     , (35941,  19,    0.81) /* ArmorModVsElectric */
+     , (35941,  15,     0.8) /* ArmorModVsBludgeon */
+     , (35941,  16,     0.8) /* ArmorModVsCold */
+     , (35941,  17,     0.6) /* ArmorModVsFire */
+     , (35941,  18,     0.8) /* ArmorModVsAcid */
+     , (35941,  19,     0.8) /* ArmorModVsElectric */
      , (35941,  31,      22) /* VisualAwarenessRange */
      , (35941,  34,     2.5) /* PowerupTime */
      , (35941,  36,       1) /* ChargeSpeed */
@@ -49,7 +50,7 @@ VALUES (35941,   1,       5) /* HeartbeatInterval */
      , (35941,  64,     0.5) /* ResistSlash */
      , (35941,  65,     0.7) /* ResistPierce */
      , (35941,  66,     0.3) /* ResistBludgeon */
-     , (35941,  67,    0.92) /* ResistFire */
+     , (35941,  67,     0.8) /* ResistFire */
      , (35941,  68,     0.3) /* ResistCold */
      , (35941,  69,     0.3) /* ResistAcid */
      , (35941,  70,     0.4) /* ResistElectric */
@@ -58,7 +59,8 @@ VALUES (35941,   1,       5) /* HeartbeatInterval */
      , (35941,  73,       1) /* ResistStaminaBoost */
      , (35941,  74,       1) /* ResistManaDrain */
      , (35941, 104,      10) /* ObviousRadarRange */
-     , (35941, 125,       1) /* ResistHealthDrain */;
+     , (35941, 125,       1) /* ResistHealthDrain */
+     , (35941, 151,       1) /* IgnoreShield */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35941,   1, 'Dark Bobo') /* Name */
@@ -88,29 +90,24 @@ VALUES (35941,   1, 199600, 0, 0, 200000) /* MaxHealth */
      , (35941,   5, 199200, 0, 0, 200000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35941,  6, 0, 3, 0, 359, 0, 0) /* MeleeDefense        Specialized */
-     , (35941,  7, 0, 3, 0, 258, 0, 0) /* MissileDefense      Specialized */
+VALUES (35941,  6, 0, 3, 0, 150, 0, 0) /* MeleeDefense        Specialized */
+     , (35941,  7, 0, 3, 0, 350, 0, 0) /* MissileDefense      Specialized */
      , (35941, 15, 0, 3, 0, 220, 0, 0) /* MagicDefense        Specialized */
      , (35941, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (35941, 22, 0, 3, 0, 120, 0, 0) /* Jump                Specialized */
-     , (35941, 24, 0, 3, 0, 500, 0, 0) /* Run                 Specialized */
-     , (35941, 34, 0, 3, 0, 450, 0, 0) /* WarMagic            Specialized */
-     , (35941, 45, 0, 3, 0, 470, 0, 0) /* LightWeapons        Specialized */
-     , (35941, 46, 0, 3, 0, 470, 0, 0) /* FinesseWeapons      Specialized */;
+     , (35941, 22, 0, 3, 0,  10, 0, 0) /* Jump                Specialized */
+     , (35941, 24, 0, 3, 0,  10, 0, 0) /* Run                 Specialized */
+     , (35941, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35941,  0,  4,  0,    0,  500,  440,  300,  310,  310,  200,  405,  405,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (35941,  1,  4,  0,    0,  500,  440,  300,  310,  310,  200,  405,  405,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (35941,  2,  4,  0,    0,  500,  440,  300,  310,  310,  200,  405,  405,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (35941,  3,  4,  0,    0,  500,  440,  300,  310,  310,  200,  405,  405,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (35941,  4,  4,  0,    0,  500,  440,  300,  310,  310,  200,  405,  405,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (35941,  5,  4, 400, 0.75,  500,  440,  300,  310,  310,  200,  405,  405,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (35941,  6,  4,  0,    0,  500,  440,  300,  310,  310,  200,  405,  405,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (35941,  7,  4,  0,    0,  500,  440,  300,  310,  310,  200,  405,  405,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (35941,  8,  4, 400, 0.75,  500,  440,  300,  310,  310,  200,  405,  405,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35941,  4124,   2.01)  /* Dark Nanners */;
+VALUES (35941,  0,  4,  0,    0,  600,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (35941,  1,  4,  0,    0,  600,  250,  250,  250,  250,  250,  250,  250,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (35941,  2,  4,  0,    0,  600,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (35941,  3,  4,  0,    0,  600,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (35941,  4,  4,  0,    0,  600,  250,  250,  250,  250,  250,  250,  250,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (35941,  5,  4, 400, 0.75,  600,  250,  250,  250,  250,  250,  250,  250,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (35941,  6,  4,  0,    0,  600,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (35941,  7,  4,  0,    0,  600,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (35941,  8,  4, 400, 0.75,  600,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35941,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

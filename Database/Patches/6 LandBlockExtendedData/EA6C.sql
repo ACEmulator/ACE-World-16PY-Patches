@@ -96,7 +96,3 @@ VALUES (0x7EA6C038, 35939, 0xEA6C0133, 156.684, 257.351, -35.1857, 0.113366, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA6C03B, 35946, 0xEA6C015B, 192.236, 143.991, -11.263, 0.976296, 0, 0, -0.21644, False, '2021-11-01 00:00:00'); /* Whispering Caverns */
 /* @teleloc 0xEA6C015B [192.235992 143.990997 -11.263000] 0.976296 0.000000 0.000000 -0.216440 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C03C, 87271, 0xEA6C0103, 201.63, 250.841, -47.145, -0.999751, 0, 0, -0.02231, False, '2021-11-01 00:00:00'); /* Imp Gen */
-/* @teleloc 0xEA6C0103 [201.630005 250.841003 -47.145000] -0.999751 0.000000 0.000000 -0.022310 */

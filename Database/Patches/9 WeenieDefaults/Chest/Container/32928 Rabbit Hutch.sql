@@ -21,12 +21,12 @@ VALUES (32928,   1, True ) /* Stuck */
      , (32928,   2, False) /* Open */
      , (32928,   3, True ) /* Locked */
      , (32928,  34, False) /* DefaultOpen */
-     , (32928,  35, True ) /* DefaultLocked */;
+     , (32928,  35, True ) /* DefaultLocked */
+     , (32928,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32928,  11,      60) /* ResetInterval */
      , (32928,  39,     0.6) /* DefaultScale */
-     , (32928,  41,      60) /* RegenerationInterval */
      , (32928,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
