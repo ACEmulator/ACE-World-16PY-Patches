@@ -564,15 +564,3 @@ VALUES (0x70088096, 0x70088080, '2021-11-01 00:00:00') /* Paradox-touched Olthoi
      , (0x70088096, 0x70088087, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
      , (0x70088096, 0x70088088, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
      , (0x70088096, 0x70088089, '2021-11-01 00:00:00') /* Paradox-touched Olthoi Egg (35814) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088097, 72093, 0x00880134, 60.0129, -25.3467, -71.945, -0.999646, 0, 0, 0.026614, False, '2021-11-01 00:00:00'); /* Sealed Passage Guard Gen */
-/* @teleloc 0x00880134 [60.012901 -25.346701 -71.945000] -0.999646 0.000000 0.000000 0.026614 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008809A, 72093, 0x00880112, 54.3207, -20.0656, -71.945, 0.712081, 0, 0, -0.702098, False, '2021-11-01 00:00:00'); /* Sealed Passage Guard Gen */
-/* @teleloc 0x00880112 [54.320702 -20.065599 -71.945000] 0.712081 0.000000 0.000000 -0.702098 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008809B, 72093, 0x00880148, 65.6828, -19.9399, -71.945, -0.713894, 0, 0, -0.700254, False, '2021-11-01 00:00:00'); /* Sealed Passage Guard Gen */
-/* @teleloc 0x00880148 [65.682800 -19.939899 -71.945000] -0.713894 0.000000 0.000000 -0.700254 */
