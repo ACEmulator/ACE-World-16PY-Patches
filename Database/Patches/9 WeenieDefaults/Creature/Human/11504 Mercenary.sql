@@ -18,7 +18,8 @@ VALUES (11504,   1,         16) /* ItemType - Creature */
      , (11504, 113,          1) /* Gender - Male */
      , (11504, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11504, 146,      30000) /* XpOverride */
-     , (11504, 188,          1) /* HeritageGroup - Aluvian */;
+     , (11504, 188,          1) /* HeritageGroup - Aluvian */
+     , (11504, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11504,   1, True ) /* Stuck */

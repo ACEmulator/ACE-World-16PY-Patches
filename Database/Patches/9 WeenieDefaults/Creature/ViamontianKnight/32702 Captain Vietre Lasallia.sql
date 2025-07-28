@@ -19,7 +19,8 @@ VALUES (32702,   1,         16) /* ItemType - Creature */
      , (32702, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (32702, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (32702, 140,          1) /* AiOptions - CanOpenDoors */
-     , (32702, 146,      30000) /* XpOverride */;
+     , (32702, 146,      30000) /* XpOverride */
+     , (32702, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32702,   1, True ) /* Stuck */
