@@ -21,7 +21,7 @@ VALUES (43135,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43135,  39,     1.5) /* DefaultScale */
-     , (43135, 159,     0.25) /* AbsorbMagicDamage */;
+     , (43135, 159,    0.25) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43135,   1, 'Atamarr''s Aetherium Aegis') /* Name */;

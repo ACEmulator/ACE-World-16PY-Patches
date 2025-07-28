@@ -70,7 +70,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'As you touch the
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4725 /* The Pit of Heretics */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87827, -1, 73255, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wharu Fetish (87826) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (87827, -1, 73255, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wharu Fetish (73255) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (87827, -1, 87832, 10, 1, 1, 1, 4, -1, 0, 0, 0x24C00126, -12, 23, 94.455, 1, 0, 0, 0) /* Generate Roots of Skuld Generator (87832) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (87827, -1, 87832, 10, 1, 1, 1, 4, -1, 0, 0, 0x24C00117, -35, 35, 94.455, 1, 0, 0, 0) /* Generate Roots of Skuld Generator (87832) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (87827, -1, 87832, 10, 1, 1, 1, 4, -1, 0, 0, 0x24C00119, -35, 10, 94.455, 1, 0, 0, 0) /* Generate Roots of Skuld Generator (87832) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

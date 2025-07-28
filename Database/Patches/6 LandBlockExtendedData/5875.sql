@@ -129,40 +129,40 @@ VALUES (0x7587503D, 51629, 0x587501AD, 210, -115.25, 0, -1, 0, 0, 0, False, '202
 /* @teleloc 0x587501AD [210.000000 -115.250000 0.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587503D, 0x75875018, '2021-11-01 00:00:00') /* Door (51629), Lever (14565) */
-     , (0x7587503D, 0x75875124, '2021-11-01 00:00:00') /* Door (51629), Pressure Plate (2131) */;
+VALUES (0x7587503D, 0x75875018, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x7587503D, 0x75875124, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587503E, 51629, 0x58750196, 185.25, -140, 0, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x58750196 [185.250000 -140.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587503E, 0x75875016, '2021-11-01 00:00:00') /* Door (51629), Lever (14565) */
-     , (0x7587503E, 0x75875122, '2021-11-01 00:00:00') /* Door (51629), Pressure Plate (2131) */;
+VALUES (0x7587503E, 0x75875016, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x7587503E, 0x75875122, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587503F, 51629, 0x587501AA, 210, -104.75, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x587501AA [210.000000 -104.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587503F, 0x75875019, '2021-11-01 00:00:00') /* Door (51629), Lever (14565) */
-     , (0x7587503F, 0x75875123, '2021-11-01 00:00:00') /* Door (51629), Pressure Plate (2131) */;
+VALUES (0x7587503F, 0x75875019, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x7587503F, 0x75875123, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75875040, 51629, 0x58750176, 174.75, -140, 0, -0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x58750176 [174.750000 -140.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75875040, 0x75875017, '2021-11-01 00:00:00') /* Door (51629), Lever (14565) */
-     , (0x75875040, 0x75875121, '2021-11-01 00:00:00') /* Door (51629), Pressure Plate (2131) */;
+VALUES (0x75875040, 0x75875017, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x75875040, 0x75875121, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75875041, 51629, 0x587501E3, 270, -125.25, 0, -1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x587501E3 [270.000000 -125.250000 0.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75875041, 0x7587501A, '2021-11-01 00:00:00') /* Door (51629), Lever (14565) */
-     , (0x75875041, 0x75875125, '2021-11-01 00:00:00') /* Door (51629), Pressure Plate (2131) */;
+VALUES (0x75875041, 0x7587501A, '2021-11-01 00:00:00') /* Lever (14565) */
+     , (0x75875041, 0x75875125, '2021-11-01 00:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75875045, 51611, 0x587501E8, 270, -197.723, 0.029, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Corrupt Sorcerer */
@@ -761,85 +761,85 @@ VALUES (0x75875117,  7924, 0x5875016D, 170, -30, 0.029, 0, 0, 0, -1, False, '202
 /* @teleloc 0x5875016D [170.000000 -30.000000 0.029000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75875117, 0x75875005, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Raging Corrupt Sorcerer (51612) */
-     , (0x75875117, 0x75875006, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Raging Corrupt Sorcerer (51612) */
-     , (0x75875117, 0x75875007, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Raging Corrupt Sorcerer (51612) */
-     , (0x75875117, 0x75875008, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Raging Corrupt Sorcerer (51612) */
-     , (0x75875117, 0x75875009, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Raging Corrupt Sorcerer (51612) */
-     , (0x75875117, 0x75875045, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x7587504A, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x7587504B, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x7587504C, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x7587504D, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x7587504E, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x7587504F, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x75875056, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875057, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875058, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875059, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x7587505D, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875061, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875062, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875063, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875064, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875065, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875066, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875067, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875068, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875069, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875072, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875073, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875074, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875075, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875076, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875077, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875078, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875085, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x75875086, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x75875087, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x75875088, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x75875089, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x7587508A, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x75875098, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion (51607) */
-     , (0x75875117, 0x75875099, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion (51607) */
-     , (0x75875117, 0x758750A5, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Bulwark (51613) */
-     , (0x75875117, 0x75875126, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875127, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875128, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion (51607) */
-     , (0x75875117, 0x75875129, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x7587512B, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x7587512C, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion of Rage (51608) */
-     , (0x75875117, 0x7587512D, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Raging Corrupt Sorcerer (51612) */
-     , (0x75875117, 0x7587512E, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x7587512F, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Sorcerer (51611) */
-     , (0x75875117, 0x75875130, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Raging Corrupt Sorcerer (51612) */
-     , (0x75875117, 0x75875133, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Slayer (51609) */
-     , (0x75875117, 0x75875134, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Rager (51610) */
-     , (0x75875117, 0x75875135, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Corrupt Minion (51607) */;
+VALUES (0x75875117, 0x75875005, '2021-11-01 00:00:00') /* Raging Corrupt Sorcerer (51612) */
+     , (0x75875117, 0x75875006, '2021-11-01 00:00:00') /* Raging Corrupt Sorcerer (51612) */
+     , (0x75875117, 0x75875007, '2021-11-01 00:00:00') /* Raging Corrupt Sorcerer (51612) */
+     , (0x75875117, 0x75875008, '2021-11-01 00:00:00') /* Raging Corrupt Sorcerer (51612) */
+     , (0x75875117, 0x75875009, '2021-11-01 00:00:00') /* Raging Corrupt Sorcerer (51612) */
+     , (0x75875117, 0x75875045, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x7587504A, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x7587504B, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x7587504C, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x7587504D, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x7587504E, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x7587504F, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x75875056, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875057, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875058, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875059, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x7587505D, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875061, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875062, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875063, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875064, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875065, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875066, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875067, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875068, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875069, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875072, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875073, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875074, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875075, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875076, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875077, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875078, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875085, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x75875086, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x75875087, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x75875088, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x75875089, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x7587508A, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x75875098, '2021-11-01 00:00:00') /* Corrupt Minion (51607) */
+     , (0x75875117, 0x75875099, '2021-11-01 00:00:00') /* Corrupt Minion (51607) */
+     , (0x75875117, 0x758750A5, '2021-11-01 00:00:00') /* Corrupt Bulwark (51613) */
+     , (0x75875117, 0x75875126, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875127, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875128, '2021-11-01 00:00:00') /* Corrupt Minion (51607) */
+     , (0x75875117, 0x75875129, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x7587512B, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x7587512C, '2021-11-01 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75875117, 0x7587512D, '2021-11-01 00:00:00') /* Raging Corrupt Sorcerer (51612) */
+     , (0x75875117, 0x7587512E, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x7587512F, '2021-11-01 00:00:00') /* Corrupt Sorcerer (51611) */
+     , (0x75875117, 0x75875130, '2021-11-01 00:00:00') /* Raging Corrupt Sorcerer (51612) */
+     , (0x75875117, 0x75875133, '2021-11-01 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75875117, 0x75875134, '2021-11-01 00:00:00') /* Corrupt Rager (51610) */
+     , (0x75875117, 0x75875135, '2021-11-01 00:00:00') /* Corrupt Minion (51607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75875118, 72050, 0x5875023D, 360, -215.25, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Event Gen */
 /* @teleloc 0x5875023D [360.000000 -215.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75875118, 0x7587501B, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Weapon Chest (48744) */
-     , (0x75875118, 0x7587501C, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Weapon Chest (48744) */
-     , (0x75875118, 0x7587501D, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Weapon Chest (48744) */
-     , (0x75875118, 0x7587501E, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Weapon Chest (48744) */
-     , (0x75875118, 0x7587501F, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Weapon Chest (48744) */
-     , (0x75875118, 0x75875020, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Weapon Chest (48744) */
-     , (0x75875118, 0x75875021, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Magic Chest (48742) */
-     , (0x75875118, 0x75875022, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Magic Chest (48742) */
-     , (0x75875118, 0x75875023, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Magic Chest (48742) */
-     , (0x75875118, 0x75875024, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Magic Chest (48742) */
-     , (0x75875118, 0x75875025, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Magic Chest (48742) */
-     , (0x75875118, 0x75875026, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Magic Chest (48742) */
-     , (0x75875118, 0x75875027, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Armor Chest (48741) */
-     , (0x75875118, 0x75875028, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Armor Chest (48741) */
-     , (0x75875118, 0x75875029, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Armor Chest (48741) */
-     , (0x75875118, 0x7587502A, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Armor Chest (48741) */
-     , (0x75875118, 0x7587502B, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Armor Chest (48741) */
-     , (0x75875118, 0x7587502C, '2021-11-01 00:00:00') /* Linkable Event Gen (72050), Legendary Armor Chest (48741) */;
+VALUES (0x75875118, 0x7587501B, '2021-11-01 00:00:00') /* Legendary Weapon Chest (48744) */
+     , (0x75875118, 0x7587501C, '2021-11-01 00:00:00') /* Legendary Weapon Chest (48744) */
+     , (0x75875118, 0x7587501D, '2021-11-01 00:00:00') /* Legendary Weapon Chest (48744) */
+     , (0x75875118, 0x7587501E, '2021-11-01 00:00:00') /* Legendary Weapon Chest (48744) */
+     , (0x75875118, 0x7587501F, '2021-11-01 00:00:00') /* Legendary Weapon Chest (48744) */
+     , (0x75875118, 0x75875020, '2021-11-01 00:00:00') /* Legendary Weapon Chest (48744) */
+     , (0x75875118, 0x75875021, '2021-11-01 00:00:00') /* Legendary Magic Chest (48742) */
+     , (0x75875118, 0x75875022, '2021-11-01 00:00:00') /* Legendary Magic Chest (48742) */
+     , (0x75875118, 0x75875023, '2021-11-01 00:00:00') /* Legendary Magic Chest (48742) */
+     , (0x75875118, 0x75875024, '2021-11-01 00:00:00') /* Legendary Magic Chest (48742) */
+     , (0x75875118, 0x75875025, '2021-11-01 00:00:00') /* Legendary Magic Chest (48742) */
+     , (0x75875118, 0x75875026, '2021-11-01 00:00:00') /* Legendary Magic Chest (48742) */
+     , (0x75875118, 0x75875027, '2021-11-01 00:00:00') /* Legendary Armor Chest (48741) */
+     , (0x75875118, 0x75875028, '2021-11-01 00:00:00') /* Legendary Armor Chest (48741) */
+     , (0x75875118, 0x75875029, '2021-11-01 00:00:00') /* Legendary Armor Chest (48741) */
+     , (0x75875118, 0x7587502A, '2021-11-01 00:00:00') /* Legendary Armor Chest (48741) */
+     , (0x75875118, 0x7587502B, '2021-11-01 00:00:00') /* Legendary Armor Chest (48741) */
+     , (0x75875118, 0x7587502C, '2021-11-01 00:00:00') /* Legendary Armor Chest (48741) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75875119, 72051, 0x58750265, 535.083, -175.164, 0.055, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Rynthid Genesis Wave 1 Gen */

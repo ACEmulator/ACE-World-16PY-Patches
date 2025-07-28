@@ -5,30 +5,30 @@ VALUES (0x73FF4000,  7924, 0x3FF40027, 114.392, 152.562, 104.005, 0.608998, 0, 0
 /* @teleloc 0x3FF40027 [114.391998 152.561996 104.004997] 0.608998 0.000000 0.000000 -0.793172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FF4000, 0x73FF4001, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF4002, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Bloated Eater (31019) */
-     , (0x73FF4000, 0x73FF4003, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Bloated Eater (31019) */
-     , (0x73FF4000, 0x73FF4004, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Bloated Eater (31019) */
-     , (0x73FF4000, 0x73FF4005, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Bloated Eater (31019) */
-     , (0x73FF4000, 0x73FF4006, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF4007, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Lord (28656) */
-     , (0x73FF4000, 0x73FF4008, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Lord (28656) */
-     , (0x73FF4000, 0x73FF4009, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Lord (28656) */
-     , (0x73FF4000, 0x73FF400A, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Lord (28656) */
-     , (0x73FF4000, 0x73FF400B, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Lord (28656) */
-     , (0x73FF4000, 0x73FF400C, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Lord (28656) */
-     , (0x73FF4000, 0x73FF400D, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Hand (28655) */
-     , (0x73FF4000, 0x73FF400E, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF400F, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Hand (28655) */
-     , (0x73FF4000, 0x73FF4010, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF4011, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF4012, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF4013, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Lord (28656) */
-     , (0x73FF4000, 0x73FF4014, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Viamontian Hand (28655) */
-     , (0x73FF4000, 0x73FF4015, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Bloated Eater (31019) */
-     , (0x73FF4000, 0x73FF4016, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF4017, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */
-     , (0x73FF4000, 0x73FF4018, '2021-11-01 00:00:00') /* Linkable Monster Generator ( 5 Min.) (7924), Royal Inquisitor (32295) */;
+VALUES (0x73FF4000, 0x73FF4001, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF4002, '2021-11-01 00:00:00') /* Bloated Eater (31019) */
+     , (0x73FF4000, 0x73FF4003, '2021-11-01 00:00:00') /* Bloated Eater (31019) */
+     , (0x73FF4000, 0x73FF4004, '2021-11-01 00:00:00') /* Bloated Eater (31019) */
+     , (0x73FF4000, 0x73FF4005, '2021-11-01 00:00:00') /* Bloated Eater (31019) */
+     , (0x73FF4000, 0x73FF4006, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF4007, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF4000, 0x73FF4008, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF4000, 0x73FF4009, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF4000, 0x73FF400A, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF4000, 0x73FF400B, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF4000, 0x73FF400C, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF4000, 0x73FF400D, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x73FF4000, 0x73FF400E, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF400F, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x73FF4000, 0x73FF4010, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF4011, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF4012, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF4013, '2021-11-01 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF4000, 0x73FF4014, '2021-11-01 00:00:00') /* Viamontian Hand (28655) */
+     , (0x73FF4000, 0x73FF4015, '2021-11-01 00:00:00') /* Bloated Eater (31019) */
+     , (0x73FF4000, 0x73FF4016, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF4017, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */
+     , (0x73FF4000, 0x73FF4018, '2021-11-01 00:00:00') /* Royal Inquisitor (32295) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FF4001, 32295, 0x3FF40037, 159.467, 164.672, 104.005, 0.995966, 0, 0, -0.089727,  True, '2021-11-01 00:00:00'); /* Royal Inquisitor */
