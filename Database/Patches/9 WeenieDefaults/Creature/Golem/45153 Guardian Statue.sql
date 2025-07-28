@@ -22,8 +22,6 @@ VALUES (45153,   1, True ) /* Stuck */
      , (45153,  11, False) /* IgnoreCollisions */
      , (45153,  12, True ) /* ReportCollisions */
      , (45153,  13, False) /* Ethereal */
-     , (45153,  52, True ) /* AiImmobile */
-     , (45153,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (45153,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
