@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35960;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35960, 'ace35960-darknanner', 33, '2021-11-01 00:00:00') /* ProjectileSpell */;
+VALUES (35960, 'ace35960-darknanner', 33, '2019-02-10 00:00:00') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35960,   1,          0) /* ItemType - None */
@@ -12,7 +12,7 @@ VALUES (35960,   1, True ) /* Stuck */
      , (35960,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35960,  26,       5) /* MaximumVelocity */
+VALUES (35960,  26,       4) /* MaximumVelocity */
      , (35960,  39,       2) /* DefaultScale */
      , (35960,  78,       1) /* Friction */
      , (35960,  79,       0) /* Elasticity */;
