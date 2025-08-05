@@ -13,10 +13,10 @@ VALUES (52587,   1,         16) /* ItemType - Creature */
      , (52587,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (52587,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (52587, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (52587, 140,          1) /* AiOptions - CanOpenDoors */
      , (52587, 146,    4000000) /* XpOverride */
      , (52587, 332,        188) /* LuminanceAward */
-     , (52587, 386,         10) /* Overpower */
-     , (52587, 140,          1) /* AiOptions - CanOpenDoors */;
+     , (52587, 386,         10) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52587,   1, True ) /* Stuck */
