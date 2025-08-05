@@ -16,7 +16,8 @@ VALUES (52585,   1,         16) /* ItemType - Creature */
      , (52585, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (52585, 146,    4000000) /* XpOverride */
      , (52585, 332,        200) /* LuminanceAward */
-     , (52585, 386,         10) /* Overpower */;
+     , (52585, 386,         10) /* Overpower */
+     , (52585, 140,          1) /* AiOptions - CanOpenDoors */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52585,   1, True ) /* Stuck */
