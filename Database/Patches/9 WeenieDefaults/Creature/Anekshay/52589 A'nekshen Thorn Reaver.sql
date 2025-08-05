@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52589;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52589, 'ace52589-anekshenthornreaver', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (52589, 'ace52589-anekshenthornreaver', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52589,   1,         16) /* ItemType - Creature */
@@ -15,6 +15,7 @@ VALUES (52589,   1,         16) /* ItemType - Creature */
      , (52589,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (52589, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
      , (52589, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (52589, 140,          1) /* AiOptions - CanOpenDoors */
      , (52589, 146,    4000000) /* XpOverride */
      , (52589, 332,        188) /* LuminanceAward */
      , (52589, 386,         10) /* Overpower */;

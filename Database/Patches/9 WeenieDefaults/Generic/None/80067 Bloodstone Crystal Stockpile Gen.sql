@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80067;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80067, 'ace80067-bloodstonecrystalstockpilegen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (80067, 'ace80067-bloodstonecrystalstockpilegen', 1, '2025-08-05 05:31:31') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80067,  81,          1) /* MaxGeneratedObjects */
@@ -9,7 +9,7 @@ VALUES (80067,  81,          1) /* MaxGeneratedObjects */
      , (80067,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80067, 103,          2) /* GeneratorDestructionType - Destroy */
      , (80067, 142,          3) /* GeneratorTimeType - Event */
-     , (80067, 145,          0) /* GeneratorEndDestructionType - Undef */;
+     , (80067, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80067,   1, True ) /* Stuck */

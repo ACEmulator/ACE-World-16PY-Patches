@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72269;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72269, 'ace72269-guardianstatue', 10, '2023-05-15 03:25:02') /* Creature */;
+VALUES (72269, 'ace72269-guardianstatue', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72269,   1,         16) /* ItemType - Creature */
@@ -24,8 +24,6 @@ VALUES (72269,   1, True ) /* Stuck */
      , (72269,  11, False) /* IgnoreCollisions */
      , (72269,  12, True ) /* ReportCollisions */
      , (72269,  13, False) /* Ethereal */
-     , (72269,  52, True ) /* AiImmobile */
-     , (72269,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (72269,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -91,11 +89,7 @@ VALUES (72269,   1,  7750, 0, 0, 8000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (72269,  6, 0, 3, 0, 340, 0, 0) /* MeleeDefense        Specialized */
      , (72269,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (72269, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
-     , (72269, 31, 0, 3, 0, 200, 0, 0) /* CreatureEnchantment Specialized */
-     , (72269, 32, 0, 3, 0, 200, 0, 0) /* ItemEnchantment     Specialized */
-     , (72269, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */
-     , (72269, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
+     , (72269, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
      , (72269, 45, 0, 3, 0, 340, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

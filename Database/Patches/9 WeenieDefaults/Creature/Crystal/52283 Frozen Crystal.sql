@@ -1,19 +1,21 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52283;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52283, 'ace52283-frozencrystal', 10, '2022-08-22 03:09:27') /* Creature */;
+VALUES (52283, 'ace52283-frozencrystal', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52283,   1,         16) /* ItemType - Creature */
+     , (52283,   2,         47) /* CreatureType - Crystal */
      , (52283,   6,         -1) /* ItemsCapacity */
      , (52283,   7,         -1) /* ContainersCapacity */
      , (52283,  16,          1) /* ItemUseable - No */
      , (52283,  25,          1) /* Level */
      , (52283,  27,          0) /* ArmorType - None */
      , (52283,  72,         13) /* FriendType - Golem */
-     , (52283,  81,          3) /* MaxGeneratedObjects */
-     , (52283,  82,          0) /* InitGeneratedObjects */
+     , (52283,  81,          2) /* MaxGeneratedObjects */
+     , (52283,  82,          2) /* InitGeneratedObjects */
      , (52283,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (52283, 103,          2) /* GeneratorDestructionType - Destroy */
      , (52283, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52283, 146,          0) /* XpOverride */
      , (52283, 315,       9999) /* CritResistRating */;
@@ -44,6 +46,7 @@ VALUES (52283,   1,       5) /* HeartbeatInterval */
      , (52283,  34,       1) /* PowerupTime */
      , (52283,  36,       1) /* ChargeSpeed */
      , (52283,  39,    1.75) /* DefaultScale */
+     , (52283,  41,     300) /* RegenerationInterval */
      , (52283,  43,       5) /* GeneratorRadius */
      , (52283,  64,    0.75) /* ResistSlash */
      , (52283,  65,    0.75) /* ResistPierce */
@@ -108,8 +111,7 @@ VALUES (52283, 17 /* NewEnemy */,      1, NULL, NULL, NULL, NULL, NULL, 0, 1);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 10, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, 'The Crystal resonates with energy, attracting nearby frost golems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SpawnGuards', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52283, 18 /* Scream */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -117,8 +119,8 @@ VALUES (52283, 18 /* Scream */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, 'The Crystal resonates with energy, attracting nearby frost golems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SpawnGuards', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52283, 1, 43163, 300, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Frost Golem (43163) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (52283, -1, 52282, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 5, 1, 0, 0, 0) /* Generate Unknown (52282) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (52283, -1, 70359, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Frozen Crystal Guards Gen (70359) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

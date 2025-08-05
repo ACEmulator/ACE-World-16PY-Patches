@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38826;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38826, 'ace38826-eyestalkoftthuun', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (38826, 'ace38826-eyestalkoftthuun', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38826,   1,         16) /* ItemType - Creature */
@@ -62,7 +62,8 @@ VALUES (38826,   1,       5) /* HeartbeatInterval */
      , (38826, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38826,   1, 'Eyestalk of T''thuun') /* Name */;
+VALUES (38826,   1, 'Eyestalk of T''thuun') /* Name */
+     , (38826,  45, 'KillTaskTentacleofTthuun_0908') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38826,   1, 0x02001855) /* Setup */
@@ -87,35 +88,31 @@ VALUES (38826,   1,  1050, 0, 0, 1230) /* MaxHealth */
      , (38826,   5,   950, 0, 0, 1350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38826,  6, 0, 2, 0, 380, 0, 0) /* MeleeDefense        Trained */
-     , (38826,  7, 0, 2, 0, 480, 0, 0) /* MissileDefense      Trained */
-     , (38826, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
-     , (38826, 16, 0, 2, 0, 350, 0, 0) /* ManaConversion      Trained */
-     , (38826, 31, 0, 2, 0, 280, 0, 0) /* CreatureEnchantment Trained */
-     , (38826, 33, 0, 2, 0, 280, 0, 0) /* LifeMagic           Trained */
-     , (38826, 34, 0, 2, 0, 280, 0, 0) /* WarMagic            Trained */
-     , (38826, 41, 0, 2, 0, 406, 0, 0) /* TwoHandedCombat     Trained */
-     , (38826, 43, 0, 2, 0, 280, 0, 0) /* VoidMagic           Trained */
-     , (38826, 44, 0, 2, 0, 406, 0, 0) /* HeavyWeapons        Trained */
-     , (38826, 45, 0, 2, 0, 406, 0, 0) /* LightWeapons        Trained */
-     , (38826, 46, 0, 2, 0, 433, 0, 0) /* FinesseWeapons      Trained */
-     , (38826, 47, 0, 2, 0, 260, 0, 0) /* MissileWeapons      Trained */;
+VALUES (38826,  6, 0, 2, 0, 440, 0, 0) /* MeleeDefense        Trained */
+     , (38826,  7, 0, 2, 0, 430, 0, 0) /* MissileDefense      Trained */
+     , (38826, 15, 0, 2, 0, 340, 0, 0) /* MagicDefense        Trained */
+     , (38826, 31, 0, 2, 0, 245, 0, 0) /* CreatureEnchantment Trained */
+     , (38826, 33, 0, 2, 0, 245, 0, 0) /* LifeMagic           Trained */
+     , (38826, 34, 0, 2, 0, 245, 0, 0) /* WarMagic            Trained */
+     , (38826, 45, 0, 2, 0, 350, 0, 0) /* LightWeapons        Trained */
+     , (38826, 47, 0, 2, 0, 220, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (38826,  0, 16, 20, 0.75,  150,  128,  128,  150,  135,  150,  143,   75,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (38826, 23,  4,  0,    0,  160,  136,  136,  160,  144,  160,  152,   80,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
-     , (38826, 24,  4,  0,    0,  160,  136,  136,  160,  144,  160,  152,   80,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
-     , (38826, 25,  4, 10, 0.75,  180,  153,  153,  180,  162,  180,  171,   90,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
+VALUES (38826,  0, 16, 200, 0.75,  470,  400,  400,  470,  423,  470,  447,  235,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (38826, 23,  4,  0,    0,  470,  400,  400,  470,  423,  470,  447,  235,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
+     , (38826, 24,  4,  0,    0,  470,  400,  400,  470,  423,  470,  447,  235,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
+     , (38826, 25,  4, 200, 0.75,  470,  400,  400,  470,  423,  470,  447,  235,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38826,  2765,   2.02)  /* Martyr's Hecatomb VI */
-     , (38826,  2790,   2.02)  /* Weight of the World */
-     , (38826,  4489,   2.02)  /* Incantation of Fester Other */;
+VALUES (38826,  4308,   2.04)  /* Incantation of Harm Other */
+     , (38826,  4489,   2.04)  /* Incantation of Fester Other */
+     , (38826,  4643,   2.04)  /* Incantation of Drain Health Other */
+     , (38826,  4644,   2.05)  /* Incantation of Drain Mana Other */
+     , (38826,  2765,   2.05)  /* Martyr's Hecatomb VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38826, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38826, 0.24, 38827, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tendril of T'thuun (38827) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (38826, 0.77, 38828, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tentacle of T'thuun (38828) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (38826, 0.24, 39040, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tendril of T'thuun (39040) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (38826, -1, 38828, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tentacle of T'thuun (38828) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (38826, -1, 38827, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tendril of T'thuun (38827) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

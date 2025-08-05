@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45161;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45161, 'ace45161-wightbladesorcerer', 10, '2023-04-09 17:44:47') /* Creature */;
+VALUES (45161, 'ace45161-wightbladesorcerer', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45161,   1,         16) /* ItemType - Creature */
@@ -59,8 +59,7 @@ VALUES (45161,   1,       5) /* HeartbeatInterval */
      , (45161,  80,       2) /* AiUseMagicDelay */
      , (45161, 104,      10) /* ObviousRadarRange */
      , (45161, 122,       2) /* AiAcquireHealth */
-     , (45161, 125,       1) /* ResistHealthDrain */
-     , (45161, 166,     0.9) /* ResistNether */;
+     , (45161, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45161,   1, 'Wight Blade Sorcerer') /* Name */
@@ -92,23 +91,23 @@ VALUES (45161,   1,  3390, 0, 0, 3500) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (45161,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
-     , (45161,  7, 0, 3, 0, 370, 0, 0) /* MissileDefense      Specialized */
-     , (45161, 15, 0, 3, 0, 395, 0, 0) /* MagicDefense        Specialized */
+     , (45161,  7, 0, 3, 0, 390, 0, 0) /* MissileDefense      Specialized */
+     , (45161, 15, 0, 3, 0, 375, 0, 0) /* MagicDefense        Specialized */
      , (45161, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (45161, 33, 0, 3, 0, 240, 0, 0) /* LifeMagic           Specialized */
-     , (45161, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
+     , (45161, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
+     , (45161, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
      , (45161, 45, 0, 3, 0, 500, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (45161,  0,  4,  0,    0,  425,  361,  404,  361,  404,  361,  383,  404,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (45161,  1,  4,  0,    0,  425,  361,  404,  361,  404,  361,  383,  404,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (45161,  2,  4,  0,    0,  425,  361,  404,  361,  404,  361,  383,  404,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (45161,  3,  4,  0,    0,  425,  361,  404,  361,  404,  361,  383,  404,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (45161,  4,  4,  0,    0,  425,  361,  404,  361,  404,  361,  383,  404,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (45161,  5,  4, 400, 0.75,  425,  361,  404,  361,  404,  361,  383,  404,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (45161,  6,  4,  0,    0,  425,  361,  404,  361,  404,  361,  383,  404,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (45161,  7,  4,  0,    0,  425,  361,  404,  361,  404,  361,  383,  404,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (45161,  8,  4, 400, 0.75,  425,  361,  404,  361,  404,  361,  383,  404,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (45161,  0,  4,  0,    0,  330,  281,  314,  281,  314,  281,  297,  314,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (45161,  1,  4,  0,    0,  340,  289,  323,  289,  323,  289,  306,  323,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (45161,  2,  4,  0,    0,  380,  323,  361,  323,  361,  323,  342,  361,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (45161,  3,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (45161,  4,  4,  0,    0,  380,  323,  361,  323,  361,  323,  342,  361,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (45161,  5,  4, 400, 0.75,  360,  306,  342,  306,  342,  306,  324,  342,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (45161,  6,  4,  0,    0,  340,  289,  323,  289,  323,  289,  306,  323,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (45161,  7,  4,  0,    0,  380,  323,  361,  323,  361,  323,  342,  361,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (45161,  8,  4, 400, 0.75,  380,  323,  361,  323,  361,  323,  342,  361,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45161,  1786,    2.1)  /* Nuhmudira's Spines */
@@ -173,6 +172,7 @@ VALUES (45161, 9, 35105,  0, 0, 1, False) /* Create Pyre Shroud (35105) for Cont
      , (45161, 9, 37244,  0, 0, 0.003, False) /* Create Jack of Hands (37244) for ContainTreasure */
      , (45161, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (45161, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
-     , (45161, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */
+     , (45161, 9, 37260,  0, 0, 0.003, False) /* Create The Jester (37260) for ContainTreasure */
+     , (45161, 9,     0,  0, 0, 0.919, False) /* Create nothing for ContainTreasure */
      , (45161, 9, 45193,  0, 0, 0.8, False) /* Create Red Veined Grub (45193) for ContainTreasure */
      , (45161, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;

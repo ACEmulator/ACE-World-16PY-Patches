@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87827;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87827, 'ace87827-altaroftthuun', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (87827, 'ace87827-altaroftthuun', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87827,   1,         16) /* ItemType - Creature */
      , (87827,   6,         -1) /* ItemsCapacity */
      , (87827,   7,         -1) /* ContainersCapacity */
      , (87827,  16,         32) /* ItemUseable - Remote */
-     , (87827,  81,         10) /* MaxGeneratedObjects */
+     , (87827,  81,          4) /* MaxGeneratedObjects */
      , (87827,  82,          0) /* InitGeneratedObjects */
      , (87827,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87827,  95,          3) /* RadarBlipColor - White */;
@@ -70,5 +70,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'As you touch the
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4725 /* The Pit of Heretics */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87827, -1, 87829, 1, 5, 5, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sclavus Acolyte of T'thuun (87829) (x5 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87827, -1, 87830, 1, 5, 5, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Olthoi Slasher (87830) (x5 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87827, -1, 73255, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wharu Fetish (73255) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (87827, -1, 87832, 10, 1, 1, 1, 4, -1, 0, 0, 0x24C00126, -12, 23, 94.455, 1, 0, 0, 0) /* Generate Roots of Skuld Generator (87832) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (87827, -1, 87832, 10, 1, 1, 1, 4, -1, 0, 0, 0x24C00117, -35, 35, 94.455, 1, 0, 0, 0) /* Generate Roots of Skuld Generator (87832) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (87827, -1, 87832, 10, 1, 1, 1, 4, -1, 0, 0, 0x24C00119, -35, 10, 94.455, 1, 0, 0, 0) /* Generate Roots of Skuld Generator (87832) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

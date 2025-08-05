@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41965;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41965, 'ace41965-pyreminion', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (41965, 'ace41965-pyreminion', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41965,   1,         16) /* ItemType - Creature */
@@ -60,8 +60,7 @@ VALUES (41965,   1,       5) /* HeartbeatInterval */
      , (41965,  80,       3) /* AiUseMagicDelay */
      , (41965, 104,      10) /* ObviousRadarRange */
      , (41965, 122,       2) /* AiAcquireHealth */
-     , (41965, 125,       1) /* ResistHealthDrain */
-     , (41965, 166,    0.82) /* ResistNether */;
+     , (41965, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41965,   1, 'Pyre Minion') /* Name */
@@ -92,27 +91,22 @@ VALUES (41965,   1,  2301, 0, 0, 2500) /* MaxHealth */
      , (41965,   5,  2700, 0, 0, 3042) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (41965,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
-     , (41965,  7, 0, 3, 0, 377, 0, 0) /* MissileDefense      Specialized */
+VALUES (41965,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
+     , (41965,  7, 0, 3, 0, 410, 0, 0) /* MissileDefense      Specialized */
      , (41965, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
-     , (41965, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
-     , (41965, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
-     , (41965, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
-     , (41965, 44, 0, 3, 0, 520, 0, 0) /* HeavyWeapons        Specialized */
-     , (41965, 45, 0, 3, 0, 520, 0, 0) /* LightWeapons        Specialized */
-     , (41965, 46, 0, 3, 0, 520, 0, 0) /* FinesseWeapons      Specialized */
-     , (41965, 47, 0, 3, 0, 520, 0, 0) /* MissileWeapons      Specialized */;
+     , (41965, 20, 0, 3, 0,  80, 0, 0) /* Deception           Specialized */
+     , (41965, 45, 0, 3, 0, 580, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (41965,  0,  4,  0,    0,  350,  241,  241,  228,  298,  298,  263,  263,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (41965,  1,  4,  0,    0,  350,  241,  241,  228,  298,  298,  263,  263,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (41965,  2,  4,  0,    0,  350,  241,  241,  228,  298,  298,  263,  263,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (41965,  3,  4,  0,    0,  350,  241,  241,  228,  298,  298,  263,  263,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (41965,  4,  4,  0,    0,  350,  241,  241,  228,  298,  298,  263,  263,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (41965,  5,  4, 185, 0.75,  350,  241,  241,  228,  298,  298,  263,  263,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (41965,  6,  4,  0,    0,  350,  241,  241,  228,  298,  298,  263,  263,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (41965,  7,  4,  0,    0,  350,  241,  241,  228,  298,  298,  263,  263,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (41965,  8,  4, 185, 0.75,  350,  241,  241,  228,  298,  298,  263,  263,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (41965,  0,  4,  0,    0,  375,  259,  259,  244,  319,  319,  281,  281,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (41965,  1,  4,  0,    0,  370,  255,  255,  241,  315,  315,  278,  278,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (41965,  2,  4,  0,    0,  340,  235,  235,  221,  289,  289,  255,  255,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (41965,  3,  4,  0,    0,  375,  259,  259,  244,  319,  319,  281,  281,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (41965,  4,  4,  0,    0,  375,  259,  259,  244,  319,  319,  281,  281,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (41965,  5,  4, 185, 0.75,  340,  235,  235,  221,  289,  289,  255,  255,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (41965,  6,  4,  0,    0,  340,  235,  235,  221,  289,  289,  255,  255,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (41965,  7,  4,  0,    0,  340,  235,  235,  221,  289,  289,  255,  255,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (41965,  8,  4, 185, 0.75,  340,  235,  235,  221,  289,  289,  255,  255,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41965, 9, 38714,  0, 0, 0.4, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
@@ -153,4 +147,5 @@ VALUES (41965, 9, 38714,  0, 0, 0.4, False) /* Create Pyre Skeleton Jaw (38714) 
      , (41965, 9, 37244,  0, 0, 0.003, False) /* Create Jack of Hands (37244) for ContainTreasure */
      , (41965, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (41965, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
-     , (41965, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */;
+     , (41965, 9, 37260,  0, 0, 0.003, False) /* Create The Jester (37260) for ContainTreasure */
+     , (41965, 9,     0,  0, 0, 0.919, False) /* Create nothing for ContainTreasure */;

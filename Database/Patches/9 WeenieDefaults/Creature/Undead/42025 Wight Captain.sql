@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42025;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42025, 'ace42025-wightcaptain', 10, '2024-10-29 16:22:18') /* Creature */;
+VALUES (42025, 'ace42025-wightcaptain', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42025,   1,         16) /* ItemType - Creature */
@@ -52,8 +52,7 @@ VALUES (42025,   1,       5) /* HeartbeatInterval */
      , (42025,  70,     0.5) /* ResistElectric */
      , (42025,  80,       3) /* AiUseMagicDelay */
      , (42025, 104,      10) /* ObviousRadarRange */
-     , (42025, 125,       1) /* ResistHealthDrain */
-     , (42025, 166,     0.9) /* ResistNether */;
+     , (42025, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42025,   1, 'Wight Captain') /* Name */
@@ -120,27 +119,27 @@ VALUES (42025,   1,  4000, 0, 0, 4120) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (42025,  6, 0, 3, 0, 540, 0, 0) /* MeleeDefense        Specialized */
-     , (42025,  7, 0, 3, 0, 400, 0, 0) /* MissileDefense      Specialized */
-     , (42025, 15, 0, 3, 0, 415, 0, 0) /* MagicDefense        Specialized */
+     , (42025,  7, 0, 3, 0, 425, 0, 0) /* MissileDefense      Specialized */
+     , (42025, 15, 0, 3, 0, 400, 0, 0) /* MagicDefense        Specialized */
      , (42025, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (42025, 33, 0, 3, 0, 245, 0, 0) /* LifeMagic           Specialized */
+     , (42025, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
      , (42025, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
-     , (42025, 41, 0, 3, 0, 580, 0, 0) /* TwoHandedCombat     Specialized */
-     , (42025, 44, 0, 3, 0, 580, 0, 0) /* HeavyWeapons        Specialized */
-     , (42025, 45, 0, 3, 0, 580, 0, 0) /* LightWeapons        Specialized */
+     , (42025, 41, 0, 3, 0, 570, 0, 0) /* TwoHandedCombat     Specialized */
+     , (42025, 44, 0, 3, 0, 570, 0, 0) /* HeavyWeapons        Specialized */
+     , (42025, 45, 0, 3, 0, 570, 0, 0) /* LightWeapons        Specialized */
      , (42025, 46, 0, 3, 0, 580, 0, 0) /* FinesseWeapons      Specialized */
-     , (42025, 47, 0, 3, 0, 380, 0, 0) /* MissileWeapons      Specialized */;
+     , (42025, 47, 0, 3, 0, 370, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (42025,  0,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (42025,  1,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (42025,  2,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (42025,  3,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (42025,  4,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (42025,  5,  4, 250, 0.75,  350,  298,  333,  298,  333,  298,  315,  333,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (42025,  6,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (42025,  7,  4,  0,    0,  350,  298,  333,  298,  333,  298,  315,  333,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (42025,  8,  4, 255, 0.75,  350,  298,  333,  298,  333,  298,  315,  333,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (42025,  0,  4,  0,    0,  370,  315,  352,  315,  352,  315,  333,  352,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (42025,  1,  4,  0,    0,  380,  323,  361,  323,  361,  323,  342,  361,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (42025,  2,  4,  0,    0,  450,  383,  428,  383,  428,  383,  405,  428,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (42025,  3,  4,  0,    0,  390,  332,  371,  332,  371,  332,  351,  371,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (42025,  4,  4,  0,    0,  420,  357,  399,  357,  399,  357,  378,  399,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (42025,  5,  4, 250, 0.75,  400,  340,  380,  340,  380,  340,  360,  380,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (42025,  6,  4,  0,    0,  390,  332,  371,  332,  371,  332,  351,  371,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (42025,  7,  4,  0,    0,  420,  357,  399,  357,  399,  357,  378,  399,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (42025,  8,  4, 255, 0.75,  420,  357,  399,  357,  399,  357,  378,  399,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42025,  1784,   2.05)  /* Horizon's Blades */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41959;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41959, 'ace41959-guardianstatue', 10, '2023-05-15 03:25:02') /* Creature */;
+VALUES (41959, 'ace41959-guardianstatue', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41959,   1,         16) /* ItemType - Creature */
@@ -9,12 +9,12 @@ VALUES (41959,   1,         16) /* ItemType - Creature */
      , (41959,   6,         -1) /* ItemsCapacity */
      , (41959,   7,         -1) /* ContainersCapacity */
      , (41959,  16,          1) /* ItemUseable - No */
-     , (41959,  25,        265) /* Level */
+     , (41959,  25,        220) /* Level */
      , (41959,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (41959,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41959,  95,          8) /* RadarBlipColor - Yellow */
      , (41959, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (41959, 146,    1500000) /* XpOverride */
+     , (41959, 146,    1400000) /* XpOverride */
      , (41959, 332,         60) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,8 +23,6 @@ VALUES (41959,   1, True ) /* Stuck */
      , (41959,  11, False) /* IgnoreCollisions */
      , (41959,  12, True ) /* ReportCollisions */
      , (41959,  13, False) /* Ethereal */
-     , (41959,  52, True ) /* AiImmobile */
-     , (41959,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (41959,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -90,11 +88,11 @@ VALUES (41959,   1,  7750, 0, 0, 8000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (41959,  6, 0, 3, 0, 340, 0, 0) /* MeleeDefense        Specialized */
      , (41959,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (41959, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
-     , (41959, 31, 0, 3, 0, 200, 0, 0) /* CreatureEnchantment Specialized */
-     , (41959, 32, 0, 3, 0, 200, 0, 0) /* ItemEnchantment     Specialized */
-     , (41959, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */
-     , (41959, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
+     , (41959, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+     , (41959, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
+     , (41959, 32, 0, 3, 0, 150, 0, 0) /* ItemEnchantment     Specialized */
+     , (41959, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
+     , (41959, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */
      , (41959, 45, 0, 3, 0, 340, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

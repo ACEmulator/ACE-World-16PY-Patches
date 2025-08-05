@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87826;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87826, 'ace87826-wharufetish', 1, '2022-01-08 18:29:57') /* Generic */;
+VALUES (87826, 'ace87826-wharufetish', 1, '2025-08-05 05:31:31') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87826,   1,        128) /* ItemType - Misc */
@@ -27,5 +27,5 @@ VALUES (87826,   1, 'Wharu Fetish') /* Name */
      , (87826,  16, 'A fetish of Wharu, crafted by Aun Kimintari from the Royal Olthoi Jelly, a Corrupted Mana Shard, and wood from Timaru''s Akiekie Fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87826,   1, 0x020004B9) /* Setup */
+VALUES (87826,   1, 0x0200186E) /* Setup */
      , (87826,   8, 0x0600697A) /* Icon */;

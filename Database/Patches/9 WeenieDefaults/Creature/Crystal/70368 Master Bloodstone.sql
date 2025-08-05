@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70368;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70368, 'ace70368-masterbloodstone', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (70368, 'ace70368-masterbloodstone', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70368,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,7 @@ VALUES (70368,   1,         16) /* ItemType - Creature */
      , (70368,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (70368, 103,          2) /* GeneratorDestructionType - Destroy */
      , (70368, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (70368, 146,    1000000) /* XpOverride */;
+     , (70368, 146,    2500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70368,   1, True ) /* Stuck */
@@ -49,7 +49,7 @@ VALUES (70368,   1,       5) /* HeartbeatInterval */
      , (70368,  34,       2) /* PowerupTime */
      , (70368,  36,       1) /* ChargeSpeed */
      , (70368,  39,     1.3) /* DefaultScale */
-     , (70368,  41,     180) /* RegenerationInterval */
+     , (70368,  41,       5) /* RegenerationInterval */
      , (70368,  43,       5) /* GeneratorRadius */
      , (70368,  64,     0.4) /* ResistSlash */
      , (70368,  65,     0.4) /* ResistPierce */
@@ -92,7 +92,7 @@ VALUES (70368,   1, 220, 0, 0) /* Strength */
      , (70368,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (70368,   1, 140875, 0, 0, 150000) /* MaxHealth */
+VALUES (70368,   1, 149875, 0, 0, 150000) /* MaxHealth */
      , (70368,   3,  5000, 0, 0, 5250) /* MaxStamina */
      , (70368,   5,  5000, 0, 0, 5490) /* MaxMana */;
 
@@ -100,7 +100,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (70368,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
      , (70368,  7, 0, 3, 0, 460, 0, 0) /* MissileDefense      Specialized */
      , (70368, 15, 0, 3, 0, 395, 0, 0) /* MagicDefense        Specialized */
-     , (70368, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
+     , (70368, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (70368, 33, 0, 3, 0, 240, 0, 0) /* LifeMagic           Specialized */
      , (70368, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
      , (70368, 45, 0, 3, 0, 415, 0, 0) /* LightWeapons        Specialized */;
@@ -154,4 +154,7 @@ VALUES (70368, 9, 72635,  0, 0, 1, False) /* Create Legendary Key (72635) for Co
      , (70368, 9, 43826,  0, 0, 1, False) /* Create Shattered Master Bloodstone Shard (43826) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (70368, 1, 72636, 0, 4, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unstable Master Bloodstone Satellite (72636) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (70368, -1, 72636, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unstable Master Bloodstone Satellite (72636) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (70368, -1, 72636, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unstable Master Bloodstone Satellite (72636) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (70368, -1, 72636, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unstable Master Bloodstone Satellite (72636) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (70368, -1, 72636, 30, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unstable Master Bloodstone Satellite (72636) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32768;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32768, 'ace32768-viamontianfootman', 10, '2024-05-26 19:09:10') /* Creature */;
+VALUES (32768, 'ace32768-viamontianfootman', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32768,   1,         16) /* ItemType - Creature */
@@ -19,13 +19,15 @@ VALUES (32768,   1,         16) /* ItemType - Creature */
      , (32768, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (32768, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (32768, 140,          1) /* AiOptions - CanOpenDoors */
-     , (32768, 146,      30000) /* XpOverride */;
+     , (32768, 146,      30000) /* XpOverride */
+     , (32768, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32768,   1, True ) /* Stuck */
      , (32768,  12, True ) /* ReportCollisions */
      , (32768,  14, True ) /* GravityStatus */
-     , (32768,  19, True ) /* Attackable */;
+     , (32768,  19, True ) /* Attackable */
+     , (32768,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32768,   1,       5) /* HeartbeatInterval */
@@ -91,22 +93,22 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (32768,  6, 0, 3, 0, 195, 0, 0) /* MeleeDefense        Specialized */
      , (32768,  7, 0, 2, 0, 320, 0, 0) /* MissileDefense      Trained */
      , (32768, 15, 0, 3, 0, 234, 0, 0) /* MagicDefense        Specialized */
-     , (32768, 41, 0, 3, 0, 225, 0, 0) /* TwoHandedCombat     Specialized */
-     , (32768, 44, 0, 3, 0, 225, 0, 0) /* HeavyWeapons        Specialized */
-     , (32768, 45, 0, 3, 0, 225, 0, 0) /* LightWeapons        Specialized */
-     , (32768, 46, 0, 3, 0, 239, 0, 0) /* FinesseWeapons      Specialized */
+     , (32768, 41, 0, 3, 0, 190, 0, 0) /* TwoHandedCombat     Specialized */
+     , (32768, 44, 0, 3, 0, 190, 0, 0) /* HeavyWeapons        Specialized */
+     , (32768, 45, 0, 3, 0, 190, 0, 0) /* LightWeapons        Specialized */
+     , (32768, 46, 0, 3, 0, 200, 0, 0) /* FinesseWeapons      Specialized */
      , (32768, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (32768,  0,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (32768,  1,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (32768,  2,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (32768,  3,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (32768,  4,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (32768,  5,  4, 50,  0.4,  360,  432,  432,  360,  360,  288,  360,  288,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (32768,  6,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (32768,  7,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (32768,  8,  4, 50,  0.4,  360,  432,  432,  360,  360,  288,  360,  288,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (32768,  0,  4,  0,    0,  250,  300,  300,  250,  250,  200,  250,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (32768,  1,  4,  0,    0,  250,  300,  300,  250,  250,  200,  250,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (32768,  2,  4,  0,    0,  250,  300,  300,  250,  250,  200,  250,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (32768,  3,  4,  0,    0,  250,  300,  300,  250,  250,  200,  250,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (32768,  4,  4,  0,    0,  250,  300,  300,  250,  250,  200,  250,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (32768,  5,  4, 50,  0.4,  250,  300,  300,  250,  250,  200,  250,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (32768,  6,  4,  0,    0,  250,  300,  300,  250,  250,  200,  250,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (32768,  7,  4,  0,    0,  250,  300,  300,  250,  250,  200,  250,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (32768,  8,  4, 50,  0.4,  250,  300,  300,  250,  250,  200,  250,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32768,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
