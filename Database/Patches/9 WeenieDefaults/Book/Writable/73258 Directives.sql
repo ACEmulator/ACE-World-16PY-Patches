@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 73258;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (73258, 'ace73258-directives', 8, '2025-07-24 04:03:44') /* Book */;
+VALUES (73258, 'ace73258-directives', 8, '2025-08-05 05:31:31') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (73258,   1,       8192) /* ItemType - Writable */

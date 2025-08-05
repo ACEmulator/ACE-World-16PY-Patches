@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35813;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35813, 'ace35813-paradoxtouchedolthoinoblenymph', 10, '2025-07-26 10:35:38') /* Creature */;
+VALUES (35813, 'ace35813-paradoxtouchedolthoinoblenymph', 10, '2025-08-05 05:31:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35813,   1,         16) /* ItemType - Creature */
