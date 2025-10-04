@@ -9,7 +9,7 @@ VALUES (38342,   1,         16) /* ItemType - Creature */
      , (38342,   7,         -1) /* ContainersCapacity */
      , (38342,  16,         32) /* ItemUseable - Remote */
      , (38342,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (38342,  95,          1) /* RadarBlipColor - LifeStone */
+     , (38342,  95,          1) /* RadarBlipColor - Blue */
      , (38342, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
