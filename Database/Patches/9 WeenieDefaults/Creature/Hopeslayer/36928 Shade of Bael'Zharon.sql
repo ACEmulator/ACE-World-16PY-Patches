@@ -15,7 +15,7 @@ VALUES (36928,   1,         16) /* ItemType - Creature */
      , (36928,  67,         64) /* Tolerance - Retaliate */
      , (36928,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36928, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36928, 134,         32) /* PlayerKillerStatus - Baelzharon */
+     , (36928, 134,         32) /* PlayerKillerStatus - Free */
      , (36928, 146,     503834) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
