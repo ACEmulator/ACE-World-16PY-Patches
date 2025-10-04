@@ -179,7 +179,7 @@ Give: White Rabbit Carcass (12128)
 Give: Undead Sailor Mask (36353)
     - TurnToTarget
     - Tell: You want this separate from the mask?
-    - Tell: Very well, here you goVery well, here you go.
+    - Tell: Very well, here you go.
     - Give: Bandana with Eyepatch (36357)
     - Give: Zombie Mask (12211)
 
