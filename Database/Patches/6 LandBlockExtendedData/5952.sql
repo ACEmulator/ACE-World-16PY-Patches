@@ -283,10 +283,6 @@ VALUES (0x759521E7, 52027, 0x5952027D, 255.976, -98.02, 0.005, -0.043043, 0, 0, 
 /* @teleloc 0x5952027D [255.975998 -98.019997 0.005000] -0.043043 0.000000 0.000000 0.999073 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x759521EB, 72042, 0x59520204, 107.247, -42.7145, 0.055, 0.921143, 0, 0, -0.389224, False, '2021-11-01 00:00:00'); /* Tower Gateway Gen */
-/* @teleloc 0x59520204 [107.247002 -42.714500 0.055000] 0.921143 0.000000 0.000000 -0.389224 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759521EC, 72044, 0x595201F2, 29.9047, -129.581, 0.005, -0.004204, 0, 0, 0.999991,  True, '2021-11-01 00:00:00'); /* Bah'Ktar */
 /* @teleloc 0x595201F2 [29.904699 -129.580994 0.005000] -0.004204 0.000000 0.000000 0.999991 */
 
