@@ -624,3 +624,7 @@ VALUES (0x7E74E204, 40322, 0xE74E001F, 96, 160, 32.005, 0, 0, 0, -1, False, '202
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E205, 72934, 0xE74E001C, 85.8667, 80.4778, 32.055, 1, 0, 0, 0, False, '2023-03-23 00:00:00'); /* Thug Hideout Stopgap Gen */
 /* @teleloc 0xE74E001C [85.866699 80.477798 32.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E74E206, 87403, 0xE74E0024, 97.1558, 88.7998, 32.055, 1, 0, 0, 0, False, '2025-11-07 10:25:10'); /* Mana Barrier Controller Gen */
+/* @teleloc 0xE74E0024 [97.155800 88.799797 32.055000] 1.000000 0.000000 0.000000 0.000000 */
