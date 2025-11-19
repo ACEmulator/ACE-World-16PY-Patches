@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (87403, 'ace87403-manabarriercontrollergen', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (87403,  81,          2) /* MaxGeneratedObjects */
-     , (87403,  82,          2) /* InitGeneratedObjects */
+VALUES (87403,  81,          1) /* MaxGeneratedObjects */
+     , (87403,  82,          1) /* InitGeneratedObjects */
      , (87403,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87403, 103,          2) /* GeneratorDestructionType - Destroy */
      , (87403, 142,          3) /* GeneratorTimeType - Event */
@@ -30,5 +30,4 @@ VALUES (87403,   1, 0x0200026B) /* Setup */
      , (87403,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87403, -1, 87404, 1, 1, 1, 1, 4, 0, 0, 0, 0x00CE0531, 110.014, -114.418, 48.0176, 1, 0, 0, 0) /* Generate Mana Barrier Controller (87404) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (87403, -1, 80007, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87403, -1, 87404, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mana Barrier Controller (87404) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
