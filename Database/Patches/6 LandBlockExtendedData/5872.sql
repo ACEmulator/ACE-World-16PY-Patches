@@ -105,13 +105,13 @@ VALUES (0x75872042, 0x75872043, '2021-11-01 00:00:00') /* Virindi Confer (51555)
      , (0x75872042, 0x75872050, '2021-11-01 00:00:00') /* Pillar of Lightning (51599) */
      , (0x75872042, 0x75872051, '2021-11-01 00:00:00') /* Pillar of Lightning (51599) */
      , (0x75872042, 0x75872052, '2021-11-01 00:00:00') /* Virindi Confer (51555) */
+     , (0x75872042, 0x75872054, '2021-11-01 00:00:00') /* Door (51575) */
      , (0x75872042, 0x75872057, '2021-11-01 00:00:00') /* Virindi Confer (51555) */
      , (0x75872042, 0x75872058, '2021-11-01 00:00:00') /* Virindi Confer (51555) */
      , (0x75872042, 0x75872059, '2021-11-01 00:00:00') /* Disciple of Misery (51551) */
      , (0x75872042, 0x7587205A, '2021-11-01 00:00:00') /* Virindi Confer (51555) */
      , (0x75872042, 0x7587205B, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
      , (0x75872042, 0x7587205C, '2021-11-01 00:00:00') /* Hollow Servant (51349) */
-     , (0x75872042, 0x7587205D, '2021-11-01 00:00:00') /* Hollow Servitor (51573) */
      , (0x75872042, 0x7587205E, '2021-11-01 00:00:00') /* Virindi Confer (51555) */
      , (0x75872042, 0x75872070, '2021-11-01 00:00:00') /* Virindi Confer (51555) */
      , (0x75872042, 0x75872071, '2021-11-01 00:00:00') /* Virindi Confer (51555) */;
@@ -209,10 +209,6 @@ VALUES (0x7587205C, 51349, 0x5872018D, 180, -220, 0.0025, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x5872018D [180.000000 -220.000000 0.002500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587205D, 51573, 0x58720178, 120, -170, 0.00275, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Hollow Servitor */
-/* @teleloc 0x58720178 [120.000000 -170.000000 0.002750] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587205E, 51555, 0x58720178, 119.996, -166.513, 0.029, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Virindi Confer */
 /* @teleloc 0x58720178 [119.996002 -166.513000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
@@ -223,10 +219,3 @@ VALUES (0x75872070, 51555, 0x58720178, 116.482, -169.749, 0.029, 1, 0, 0, 0,  Tr
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75872071, 51555, 0x58720178, 123.976, -169.816, 0.029, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Virindi Confer */
 /* @teleloc 0x58720178 [123.975998 -169.815994 0.029000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872072, 72107, 0x58720179, 121.153, -175.365, 0.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Local Signal Gen */
-/* @teleloc 0x58720179 [121.153000 -175.365005 0.055000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75872072, 0x75872054, '2021-11-01 00:00:00') /* Door (51575) */;
