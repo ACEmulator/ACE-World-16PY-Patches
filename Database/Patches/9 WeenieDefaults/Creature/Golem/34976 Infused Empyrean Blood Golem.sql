@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34976;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34976, 'ace34976-infusedempyreanbloodgolem', 10, '2023-06-05 00:31:03') /* Creature */;
+VALUES (34976, 'ace34976-infusedempyreanbloodgolem', 10, '2025-11-22 19:44:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34976,   1,         16) /* ItemType - Creature */
@@ -137,7 +137,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34976, 9,  6353,  0, 0, 0.25, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (34976, 9,     0,  1, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (34976, 9, 34962,  1, 0, 0.25, False) /* Create Infused Blood Golem Heart (34962) for ContainTreasure */
-     , (34976, 9,     0,  1, 0, 0.75, False) /* Create nothing for ContainTreasure */;
+VALUES (34976, 9, 34962,  0, 0, 0.05, False) /* Create Infused Blood Golem Heart (34962) for ContainTreasure */
+     , (34976, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (34976, 9, 34963,  0, 0, 0.2, False) /* Create Misshapen Bone Fragment (34963) for ContainTreasure */
+     , (34976, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (34976, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (34976, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

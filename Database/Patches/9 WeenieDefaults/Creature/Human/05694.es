@@ -401,7 +401,7 @@ Give: Filthy Tome (27789)
     - Tell: Finally! Something with substance. As much as I enjoyed reading about the Moarsmen, those tomes pale compared to this one. This looks to be a history of the Moarsmen on Dereth. Hmm... this also seems to only be one part of the history. A second tome may contain the conclusion of the account.
     - Delay: 1, Tell: Sadly, the pages dissolve as I attempt to read them, so I was only able to construct a high level summary. The finer details of the text were gone before I could transcribe them.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-    - Give: History of the Moars on Dereth, Part I (27788)
+    - Give: History of the Moars on Dereth Part I (27788)
     - AwardXP: 4,000,000
 
 Give: Rotting Tome (27785)
@@ -409,7 +409,7 @@ Give: Rotting Tome (27785)
     - Tell: Had I not seen the first piece of this text, I would have had difficult understanding the context of it. This is the second part of history of the moarsmen on Dereth. Very interesting indeed.
     - Delay: 1, Tell: It is a shame that there were no better reproductions of this tome where ever it was you procured this. I will do my best to summarize it, but the text is very difficult to read through the mud caked pages.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-    - Give: History of the Moars on Dereth, Part II (27784)
+    - Give: History of the Moars on Dereth Part II (27784)
     - AwardXP: 8,000,000
 
 Give: Blackened Tome (27783)

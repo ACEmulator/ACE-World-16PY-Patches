@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72040;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72040, 'ace72040-tormentedwatcher', 10, '2022-12-28 05:57:21') /* Creature */;
+VALUES (72040, 'ace72040-tormentedwatcher', 10, '2025-11-22 19:44:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72040,   1,         16) /* ItemType - Creature */
@@ -12,6 +12,8 @@ VALUES (72040,   1,         16) /* ItemType - Creature */
      , (72040,  16,          1) /* ItemUseable - No */
      , (72040,  25,        220) /* Level */
      , (72040,  68,          3) /* TargetingTactic - Random, Focused */
+     , (72040,  81,          1) /* MaxGeneratedObjects */
+     , (72040,  82,          0) /* InitGeneratedObjects */
      , (72040,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (72040, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (72040, 146,    1400000) /* XpOverride */;
@@ -39,7 +41,7 @@ VALUES (72040,   1,       5) /* HeartbeatInterval */
      , (72040,  34,       1) /* PowerupTime */
      , (72040,  36,       1) /* ChargeSpeed */
      , (72040,  39,     1.1) /* DefaultScale */
-     , (72040,  55,      60) /* HomeRadius */
+     , (72040,  41,       0) /* RegenerationInterval */
      , (72040,  64,     0.5) /* ResistSlash */
      , (72040,  65,     0.5) /* ResistPierce */
      , (72040,  66,    0.33) /* ResistBludgeon */
@@ -88,19 +90,16 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (72040,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
      , (72040,  7, 0, 2, 0, 440, 0, 0) /* MissileDefense      Trained */
      , (72040, 15, 0, 2, 0, 340, 0, 0) /* MagicDefense        Trained */
-     , (72040, 41, 0, 2, 0, 420, 0, 0) /* TwoHandedCombat     Trained */
-     , (72040, 44, 0, 2, 0, 420, 0, 0) /* HeavyWeapons        Trained */
-     , (72040, 45, 0, 2, 0, 420, 0, 0) /* LightWeapons        Trained */
-     , (72040, 46, 0, 2, 0, 420, 0, 0) /* FinesseWeapons      Trained */;
+     , (72040, 45, 0, 2, 0, 420, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72040,  0,  4,  0,    0,  290,  220,  220,  197,  244,  186,  220,  186,  290, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (72040,  1,  4,  0,    0,  290,  220,  220,  197,  244,  186,  220,  186,  290, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (72040,  2,  4,  0,    0,  290,  220,  220,  197,  244,  186,  220,  186,  290, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
-     , (72040,  3,  4,  0,    0,  290,  220,  220,  197,  244,  186,  220,  186,  290, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (72040,  4,  4,  0,    0,  290,  220,  220,  197,  244,  186,  220,  186,  290, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (72040,  5,  4, 40, 0.75,  290,  220,  220,  197,  244,  186,  220,  186,  290, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (72040, 17,  4,  0,    0,  290,  220,  220,  197,  244,  186,  220,  186,  290, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
+VALUES (72040,  0,  4,  0,    0,  350,  266,  266,  238,  294,  224,  266,  224,  350, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (72040,  1,  4,  0,    0,  350,  266,  266,  238,  294,  224,  266,  224,  350, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (72040,  2,  4,  0,    0,  350,  266,  266,  238,  294,  224,  266,  224,  350, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
+     , (72040,  3,  4,  0,    0,  350,  266,  266,  238,  294,  224,  266,  224,  350, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (72040,  4,  4,  0,    0,  350,  266,  266,  238,  294,  224,  266,  224,  350, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
+     , (72040,  5,  4, 40, 0.75,  350,  266,  266,  238,  294,  224,  266,  224,  350, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (72040, 17,  4,  0,    0,  350,  266,  266,  238,  294,  224,  266,  224,  350, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72040,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -108,4 +107,7 @@ VALUES (72040,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'OpenTowerGateway', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (72040, -1, 72041, 1, 1, 1, 1, 4, 0, 0, 0, 0x59520204, 107.247, -42.7145, 0.055, 0.921143, 0, 0, -0.389224) /* Generate Swirling Portal (72041) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

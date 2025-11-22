@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87404;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87404, 'ace87404-manabarriercontroller', 10, '2022-12-04 19:04:52') /* Creature */;
+VALUES (87404, 'ace87404-manabarriercontroller', 10, '2025-11-22 19:44:27') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87404,   1,         16) /* ItemType - Creature */
@@ -15,9 +15,7 @@ VALUES (87404,   1,         16) /* ItemType - Creature */
      , (87404,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87404,  95,          8) /* RadarBlipColor - Yellow */
      , (87404, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (87404, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (87404, 290,          1) /* HearLocalSignals */
-     , (87404, 291,         60) /* HearLocalSignalsRadius */;
+     , (87404, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87404,   1, True ) /* Stuck */
