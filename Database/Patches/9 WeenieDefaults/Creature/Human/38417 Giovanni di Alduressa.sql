@@ -82,7 +82,6 @@ VALUES (38417,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (38417,  7,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (38417,  8,  4,  8, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38417, 2,  2587,  0, 91, 0.5, False) /* Create Shirt (2587) for Wield */
      , (38417, 2,  2597,  0, 4, 0.5, False) /* Create Flared Pants (2597) for Wield */
