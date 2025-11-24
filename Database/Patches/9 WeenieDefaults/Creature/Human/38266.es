@@ -20,13 +20,13 @@ Use:
                             QuestSuccess:
                                 - InqQuest: KilltaskMagshuthMoarsman@KillTaskCompleted
                                     QuestSuccess:
+                                        - StampQuest: KilltaskMagshuthMoarsmanWait
+                                        - EraseQuest: KilltaskMagshuthMoarsman
                                         - Tell: Well done! Here, allow me to reward you for your assistance to our Society.
                                         - Give: Celestial Hand Commendation Ribbons (38228), 25
                                         - AwardNoShareXP: 20,000,000
                                         - AwardLuminance: 4,000
                                         - Give: Celestial Hand Trade Tokens (38234), 4
-                                        - StampQuest: KilltaskMagshuthMoarsmanWait
-                                        - EraseQuest: KilltaskMagshuthMoarsman
                                     QuestFailure:
                                         - DirectBroadcast: You've killed %tqc out of %tqm Magshuth Moarsman.
                                         - Delay: 1, Tell: Once you've killed 20 Magshuth Moarsman, I will reward you. Keep up the good work.
