@@ -20,20 +20,20 @@ Use:
                             QuestSuccess:
                                 - InqQuest: TaskFreebooterBanditBossKill@KillTaskCompleted
                                     QuestSuccess:
+                                        - StampQuest: TaskFreebooterBanditBossKillWait
+                                        - EraseQuest: TaskFreebooterBanditBossKill
                                         - Delay: 0.5, Tell: I see from your eyes that you have taught the Bandits a lesson, and a poignant one. Here, take these in recognition of your service to our Society.
                                         - Give: Radiant Blood Commendation Ribbons (38230), 20
                                         - AwardNoShareXP: 40,000,000
                                         - AwardLuminance: 3,000
                                         - Give: Radiant Blood Trade Tokens (38236), 4
-                                        - StampQuest: TaskFreebooterBanditBossKillWait
-                                        - EraseQuest: TaskFreebooterBanditBossKill
                                     QuestFailure:
                                         - DirectBroadcast: You've killed %tqc out of %tqm Bandit Mana Hunter Boss.
                                         - Delay: 1, Tell: Once you've killed the Bandit Mana Hunter Boss, I will reward you.
                             QuestFailure:
                                 - Tell: I have an assignment for you, one important to our Society."
                                 - Delay: 0.5, Tell: The Bandits that hide in the tunnels around the volcano on the north end of Freebooter Keep Isle have been harassing our supply lines and our researchers.
-                                - Delay: 0.5, Tell: I want you to go teach them a lesson. Go, kill the leader of the Bandits. Send them a message they will not soon forget. Do this, and I'll ensure that your efforts do not go unnoticed by our leadership.                               
+                                - Delay: 0.5, Tell: I want you to go teach them a lesson. Go, kill the leader of the Bandits. Send them a message they will not soon forget. Do this, and I'll ensure that your efforts do not go unnoticed by our leadership.
                                 - SetQuestCompletions: TaskFreebooterBanditBossKill, 0
             TestFailure:
                 - Tell: You are not powerful enough to assist me, climb the ranks to knight or above and I may have a task for you.
