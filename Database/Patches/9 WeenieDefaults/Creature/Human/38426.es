@@ -20,13 +20,13 @@ Use:
                             QuestSuccess:
                                 - InqQuest: TaskFreebooterMoarsmanKilltask@KillTaskCompleted
                                     QuestSuccess:
+                                        - StampQuest: TaskFreebooterMoarsmanKilltaskWait
+                                        - EraseQuest: TaskFreebooterMoarsmanKilltask
                                         - Tell: Congratulations, you survived and succeeded. Here, allow me to reward you for your assistance to our Society.
                                         - Give: Eldrytch Web Commendation Ribbons (38229), 20
                                         - AwardNoShareXP: 20,000,000
                                         - AwardLuminance: 3,000
                                         - Give: Eldrytch Web Trade Tokens (38237), 4
-                                        - StampQuest: TaskFreebooterMoarsmanKilltaskWait
-                                        - EraseQuest: TaskFreebooterMoarsmanKilltask
                                     QuestFailure:
                                         - DirectBroadcast: You've killed %tqc out of %tqm Blessed Moarsman.
                                         - Delay: 1, Tell: Once you've killed 50 Blessed Moarsman, I will reward you. Keep up the good work.
