@@ -6,13 +6,13 @@ Use:
         QuestFailure:
             - InqQuest: TaskDIDelivery
                 QuestSuccess:
+                    - StampQuest: TaskDIDeliveryWait
+                    - EraseQuest: TaskDIDelivery
                     - Tell: Well done...and sorry about the little trip. This should set back those who would support the Deep a little, cause a little confusion. We can't hope to damage the Deep permanently in such a fashion, but every little bit of chaos helps.
                     - Give: Radiant Blood Commendation Ribbons (38230), 10
                     - AwardNoShareXP: 10,000,000
                     - AwardLuminance: 1,000
                     - Give: Radiant Blood Trade Tokens (38236), 4
-                    - StampQuest: TaskDIDeliveryWait
-                    - EraseQuest: TaskDIDelivery
                 QuestFailure:
                     - Give: Altered Dark Remoran Fin (38612)
                     - Tell: Would you like to help me with a task? I assure you, your aid will be rewarded.
