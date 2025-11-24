@@ -55,10 +55,10 @@ GotoSet: BroodMothersRemain
 GotoSet: BroodMothersDestroyed
     - InqQuest: TaskSpawnPoolsStarted
         QuestSuccess:
-            - Tell: Well done, I know that was nasty work, but we have to ensure that we keep the Blighted Moarsmen population under control. Allow me to reward you for your service to our Society.
-            - Delay: 0.5 Tell: Those Brood Mothers you described will surely refill the Spawning Pools. Return to me in a day or so when I will require your help again.
             - StampQuest: TaskSpawnPoolsWait
             - EraseQuest: TaskSpawnPoolsStarted
+            - Tell: Well done, I know that was nasty work, but we have to ensure that we keep the Blighted Moarsmen population under control. Allow me to reward you for your service to our Society.
+            - Delay: 0.5 Tell: Those Brood Mothers you described will surely refill the Spawning Pools. Return to me in a day or so when I will require your help again.
             - Give: Celestial Hand Commendation Ribbons (38228), 25
             - AwardNoShareXP: 20,000,000
             - AwardLuminance: 4,000

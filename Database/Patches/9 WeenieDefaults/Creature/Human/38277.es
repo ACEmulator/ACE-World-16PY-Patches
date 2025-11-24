@@ -20,13 +20,13 @@ Use:
                             QuestSuccess:
                                 - InqQuest: KilltaskMoguthMoarsman@KillTaskCompleted
                                     QuestSuccess:
+                                        - StampQuest: KilltaskMoguthMoarsmanWait
+                                        - EraseQuest: KilltaskMoguthMoarsman
                                         - Tell: Well done! Here, allow me to reward you for your assistance to our Society.
                                         - Give: Radiant Blood Commendation Ribbons (38230), 25
                                         - AwardNoShareXP: 20,000,000
                                         - AwardLuminance: 4,000
                                         - Give: Radiant Blood Trade Tokens (38236), 4
-                                        - StampQuest: KilltaskMoguthMoarsmanWait
-                                        - EraseQuest: KilltaskMoguthMoarsman
                                     QuestFailure:
                                         - DirectBroadcast: You've killed %tqc out of %tqm Moguth Moarsman.
                                         - Delay: 1, Tell: Once you've killed 60 Moguth Moarsman, I will reward you. Keep up the good work.
