@@ -31,7 +31,7 @@ Use:
                             - EraseQuest: CoralTowerBlueDead
         TestFailure:
             - Tell: Only a Lord may assist me in this task. Return when you have invested effort in yourself.
-                        
+
 GotoSet: CheckCoralTowersDead
     - InqQuest: CoralTowerBlackDead
         QuestSuccess:
@@ -61,10 +61,10 @@ GotoSet: CoralTowersRemain
 GotoSet: CoralTowersDestroyed
     - InqQuest: TaskCoralTowersStarted
         QuestSuccess:
-            - Tell: Congratulations! You destroyed all 5 of the Coral Towers. That is no small feat. Allow me to reward you for your service to our Society.
-            - Delay: 0.5 Tell: The Coral Towers grow extremely fast. Return to me in a day or so when I will require your help again.
             - StampQuest: TaskCoralTowersWait
             - EraseQuest: TaskCoralTowersStarted
+            - Tell: Congratulations! You destroyed all 5 of the Coral Towers. That is no small feat. Allow me to reward you for your service to our Society.
+            - Delay: 0.5 Tell: The Coral Towers grow extremely fast. Return to me in a day or so when I will require your help again.
             - Give: Radiant Blood Commendation Ribbons (38230), 20
             - AwardNoShareXP: 20,000,000
             - AwardLuminance: 4,000
