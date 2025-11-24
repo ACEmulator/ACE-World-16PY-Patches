@@ -20,13 +20,13 @@ Use:
                             QuestSuccess:
                                 - InqQuest: KilltaskMagshuthMoarsman@KillTaskCompleted
                                     QuestSuccess:
+                                        - StampQuest: KilltaskMagshuthMoarsmanWait
+                                        - EraseQuest: KilltaskMagshuthMoarsman
                                         - Tell: Well done! Here, allow me to reward you for your assistance to our Society.
                                         - Give: Radiant Blood Commendation Ribbons (38230), 25
                                         - AwardNoShareXP: 20,000,000
                                         - AwardLuminance: 4,000
                                         - Give: Radiant Blood Trade Tokens (38236), 4
-                                        - StampQuest: KilltaskMagshuthMoarsmanWait
-                                        - EraseQuest: KilltaskMagshuthMoarsman
                                     QuestFailure:
                                         - DirectBroadcast: You've killed %tqc out of %tqm Magshuth Moarsman.
                                         - Delay: 1, Tell: Once you've killed 20 Magshuth Moarsman, I will reward you. Keep up the good work.
