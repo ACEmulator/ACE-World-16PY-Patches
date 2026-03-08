@@ -114,7 +114,7 @@ GotoSet: Found_40x
                     - SetQuestBitsOn: ExplorationMarkersGroups, 0x8
                     #- Tell: Let's see what you've found so far..
                     #- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
-                    - Tell: Congratulations! You've found 40 Exploration Markers! You've gained much experience in exploring Dereth. This will best acknowledge your experience as an Exploere of Dereth!
+                    - Tell: Congratulations! You've found 40 Exploration Markers! You've gained much experience in exploring Dereth. This will best acknowledge your experience as an Explorer of Dereth!
                     - AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
                     - AddCharacterTitle: ExperiencedExplorer
                     - DirectBroadcast: You have earned the title, "Experienced Explorer".
