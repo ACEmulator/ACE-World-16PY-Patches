@@ -35,7 +35,7 @@ Use:
                                     - Goto: Warriors
                                 QuestFailure:
                                     - DirectBroadcast: You've killed %tqc out of %tqm Snow Tuskers.
-                                    - Tell: Return to me after you have killed %tqm Snow Tuskers and I will reward you.
+                                    - Tell: Once you've killed %tqm Snow Tuskers, I will reward you. Keep up the good work.
                                     - Goto: Warriors
                         QuestFailure:
                             - Tell: Those furry beasts must die! Mutated forms of another vile creature... and they have thumbs!! That is just plain unnatural.
@@ -66,7 +66,7 @@ GotoSet: Warriors
                             - Goto: Leaders
                         QuestFailure:
                             - DirectBroadcast: You've killed %tqc out of %tqm Snow Tusker Warriors.
-                            - Tell: Return to me after you have killed %tqm Snow Tusker Warriors and I will reward you.
+                            - Tell: Once you've killed %tqm Snow Tusker Warriors, I will reward you. Keep up the good work.
                             - Goto: Leaders
                 QuestFailure:
                     - Tell: Kill 20 Snow Tusker Warriors and I will reward you for your efforts.
@@ -83,7 +83,7 @@ GotoSet: Leaders
                 QuestSuccess:
                     - InqQuest: snowtuskerkillleadercount@KillTaskCompleted
                         QuestSuccess:
-                            - Tell: Amazing that you survived, those tusks can spear a man all the way through.
+                            - Tell: Amazing that you survived. Those tusks can spear a man all the way through.
                             - StampQuest: SnowTuskerKillLeaderTask
                             - EraseQuest: snowtuskerkillleadercount
                             - AwardNoShareXP: 80,000,000
@@ -92,7 +92,7 @@ GotoSet: Leaders
                             - Give: Trade Note (250,000) (20630)
                         QuestFailure:
                             - DirectBroadcast: You've killed %tqc out of %tqm Snow Tusker Leaders.
-                            - Tell: Return to me after you have killed %tqmSnow Tusker Leaders and I will reward you.
+                            - Tell: Once you've killed %tqm Snow Tusker Leaders, I will reward you. Keep up the good work.
                 QuestFailure:
                     - Tell: Kill 10 Snow Tusker Leaders and I will reward you for your efforts.
                     - SetQuestCompletions: snowtuskerkillleadercount, 0
