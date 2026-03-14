@@ -95,7 +95,7 @@ Refuse: Empowered Breastplate of the Perfect Light (36748)
 
 Give: Quiddity Ingot (36942)
     - Tell: Ah Yes, I see that you have broken the hold Aerbax had on the memories of poor Ilservian.
-    - Give: Trade Note (250,000) (20630), 8
+    - Give: Trade Note 250,000 (20630), 8
 
 Use:
     - TurnToTarget
