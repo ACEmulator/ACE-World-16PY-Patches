@@ -193,7 +193,7 @@ Give: Stout (2471), Probability: 0.6525
 
 Give: Stout (2471), Probability: 0.6825
     - Motion: Ready
-    - Turn: -0.948324, 0, 0, -0.317305
+    - Turn: -0.948324 0 0 -0.317305
     - Tell: Wish I could take my sword with me. I'd at the very least like to have it on my wall at home.
     - Delay: 2, Motion: Shrug
 
@@ -522,7 +522,7 @@ Give: Stout (2471), Probability: 0.9625
 
 Give: Stout (2471), Probability: 0.965
     - TurnToTarget
-    - Turn: 1, 0, 0, 0
+    - Turn: 1 0 0 0
     - Motion: MimeDrink
     - Delay: 4, TurnToTarget
     - Motion: Ready
@@ -567,7 +567,7 @@ Give: Stout (2471), Probability: 0.977499
 Give: Stout (2471), Probability: 0.979999
     - MoveHome
     - Tell: I don't trust that Virindi, Claude, he's hiding something from the rest of us.
-    - Turn: -0.991445, 0, 0, -0.130526
+    - Turn: -0.991445 0 0 -0.130526
     - Delay: 0.5, Tell: Late at night I hear noises and see blue flickering lights coming from his tent.
     - Delay: 2, Tell: What's he doing in there?
     - Delay: 1, Tell: What the heck is he doing in there?
@@ -760,7 +760,7 @@ Give: Hot Chocolate (14769)
     - Motion: MimeDrink
     - Delay: 1, Tell: Well, it's nice and hot, but it's missing that little kick which makes it really good.
     - Delay: 1, Tell: Let's see, just a bit of this stuff...
-    - Turn: 0.707107, 0, 0, -0.707107
+    - Turn: 0.707107 0 0 -0.707107
     - Motion: Kneel
     - TurnToTarget
     - Motion: ClapHands
@@ -947,3 +947,11 @@ GotoSet: DrinkingWinner
                     - AddCharacterTitle: UlgrimsDrinkingBuddy
                 QuestFailure:
                     - Delay: 0.5, Tell: You have truly bested me. I bow to you in my humble defeat.
+
+Give: Spring Cleaner Title Token (27249)
+    - Motion: Ready
+    - TurnToTarget
+    - Tell: So, you run around bopping little animals on the head and you expect to be rewarded for it? You've fallen over Fort Teth one too many times.
+    - Delay: 1, Tell: What's one more then eh? Oh, and here's a Title more fitting your unique abilities.
+    - AddCharacterTitle: AprilsFool
+    - CastSpellInstant: Portal to Teth
