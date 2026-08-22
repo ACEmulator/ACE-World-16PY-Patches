@@ -23,6 +23,7 @@ VALUES (70096,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70096,   1, 'Offering to Xik Minru') /* Name */
+     , (70096,  14, 'Bring this to a Shrine of Xik Minru.') /* Use */
      , (70096,  16, 'An offering brought by the undead to pay tribute to High Priestess Xik Minru.') /* LongDesc */
      , (70096,  33, 'offeringxikminru') /* Quest */;
 

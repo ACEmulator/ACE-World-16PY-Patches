@@ -17,7 +17,7 @@ VALUES (31830,   1,         16) /* ItemType - Creature */
      , (31830, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (31830, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31830, 140,          1) /* AiOptions - CanOpenDoors */
-     , (31830, 146,     380000) /* XpOverride */;
+     , (31830, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31830,   1, True ) /* Stuck */
@@ -43,13 +43,13 @@ VALUES (31830,   1,       5) /* HeartbeatInterval */
      , (31830,  34,       1) /* PowerupTime */
      , (31830,  36,       1) /* ChargeSpeed */
      , (31830,  39,     1.3) /* DefaultScale */
-     , (31830,  64,   0.445) /* ResistSlash */
-     , (31830,  65,   0.556) /* ResistPierce */
-     , (31830,  66,   0.556) /* ResistBludgeon */
+     , (31830,  64,    0.45) /* ResistSlash */
+     , (31830,  65,    0.55) /* ResistPierce */
+     , (31830,  66,    0.55) /* ResistBludgeon */
      , (31830,  67,       0) /* ResistFire */
      , (31830,  68,       1) /* ResistCold */
-     , (31830,  69,   0.678) /* ResistAcid */
-     , (31830,  70,   0.668) /* ResistElectric */
+     , (31830,  69,    0.65) /* ResistAcid */
+     , (31830,  70,    0.65) /* ResistElectric */
      , (31830,  71,       1) /* ResistHealthBoost */
      , (31830,  72,       1) /* ResistStaminaDrain */
      , (31830,  73,       1) /* ResistStaminaBoost */
@@ -75,40 +75,44 @@ VALUES (31830,   1, 0x02001484) /* Setup */
      , (31830,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (31830,   1, 250, 0, 0) /* Strength */
-     , (31830,   2, 260, 0, 0) /* Endurance */
-     , (31830,   3, 250, 0, 0) /* Quickness */
-     , (31830,   4, 250, 0, 0) /* Coordination */
-     , (31830,   5, 350, 0, 0) /* Focus */
-     , (31830,   6, 350, 0, 0) /* Self */;
+VALUES (31830,   1, 170, 0, 0) /* Strength */
+     , (31830,   2, 180, 0, 0) /* Endurance */
+     , (31830,   3, 160, 0, 0) /* Quickness */
+     , (31830,   4, 160, 0, 0) /* Coordination */
+     , (31830,   5, 270, 0, 0) /* Focus */
+     , (31830,   6, 270, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31830,   1,  6000, 0, 0, 6130) /* MaxHealth */
-     , (31830,   3,  5000, 0, 0, 5260) /* MaxStamina */
-     , (31830,   5,  5000, 0, 0, 5350) /* MaxMana */;
+VALUES (31830,   1,  1910, 0, 0, 2000) /* MaxHealth */
+     , (31830,   3,  2500, 0, 0, 2680) /* MaxStamina */
+     , (31830,   5,  2000, 0, 0, 2270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31830,  6, 0, 3, 0, 267, 0, 0) /* MeleeDefense        Specialized */
-     , (31830,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
-     , (31830, 14, 0, 3, 0, 170, 0, 0) /* ArcaneLore          Specialized */
-     , (31830, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
-     , (31830, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (31830, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
-     , (31830, 31, 0, 3, 0, 275, 0, 0) /* CreatureEnchantment Specialized */
-     , (31830, 33, 0, 3, 0, 170, 0, 0) /* LifeMagic           Specialized */
-     , (31830, 34, 0, 3, 0, 275, 0, 0) /* WarMagic            Specialized */
-     , (31830, 45, 0, 3, 0, 306, 0, 0) /* LightWeapons        Specialized */;
+VALUES (31830,  6, 0, 2, 0, 393, 0, 0) /* MeleeDefense        Trained */
+     , (31830,  7, 0, 2, 0, 486, 0, 0) /* MissileDefense      Trained */
+     , (31830, 15, 0, 2, 0, 223, 0, 0) /* MagicDefense        Trained */
+     , (31830, 20, 0, 2, 0,  80, 0, 0) /* Deception           Trained */
+     , (31830, 24, 0, 2, 0,  40, 0, 0) /* Run                 Trained */
+     , (31830, 31, 0, 2, 0, 165, 0, 0) /* CreatureEnchantment Trained */
+     , (31830, 33, 0, 2, 0, 165, 0, 0) /* LifeMagic           Trained */
+     , (31830, 34, 0, 2, 0, 165, 0, 0) /* WarMagic            Trained */
+     , (31830, 45, 0, 2, 0, 420, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (31830,  0, 16,  0,    0,  390,  390,  390,  390,  390,  780,  585,  585,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (31830,  1, 16,  0,    0,  390,  390,  390,  390,  390,  780,  585,  585,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (31830,  2, 16,  0,    0,  390,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (31830,  3, 16,  0,    0,  390,  390,  390,  390,  390,  780,  585,  585,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (31830,  4, 16,  0,    0,  390,  390,  390,  390,  390,  780,  585,  585,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (31830,  5, 16, 45, 0.75,  390,  390,  390,  390,  390,  780,  585,  585,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (31830,  6, 16,  0,    0,  390,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (31830,  7, 16,  0,    0,  390,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (31830,  8, 16, 45, 0.75,  390,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (31830,  0, 16,  0,    0,  300,  390,  390,  390,  390,  780,  585,  585,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (31830,  1, 16,  0,    0,  300,  390,  390,  390,  390,  780,  585,  585,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (31830,  2, 16,  0,    0,  300,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (31830,  3, 16,  0,    0,  300,  390,  390,  390,  390,  780,  585,  585,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (31830,  4, 16,  0,    0,  300,  390,  390,  390,  390,  780,  585,  585,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (31830,  5, 16, 45, 0.75,  300,  390,  390,  390,  390,  780,  585,  585,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (31830,  6, 16,  0,    0,  300,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (31830,  7, 16,  0,    0,  300,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (31830,  8, 16, 45, 0.75,  300,  390,  390,  390,  390,  780,  585,  585,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31830,  2128,  2.004)  /* Ilservian's Flame */;
+VALUES (31830,  2074,   2.05)  /* Gossamer Flesh */
+     , (31830,  5393,  2.053)  /* Corrosion VII */
+     , (31830,  5401,  2.056)  /* Corruption VII */
+     , (31830,  5355,  2.118)  /* Nether Bolt VII */
+     , (31830,  5367,  2.133)  /* Nether Arc VII */
+     , (31830,  5361,  2.077)  /* Clouded Soul */;
