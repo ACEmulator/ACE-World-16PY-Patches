@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70096;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70096, 'ace70096-offeringtoxikminru', 38, '2021-11-17 16:56:08') /* Gem */;
+VALUES (70096, 'ace70096-offeringtoxikminru', 38, '2026-09-17 05:26:45') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70096,   1,       2048) /* ItemType - Gem */
@@ -23,6 +23,7 @@ VALUES (70096,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70096,   1, 'Offering to Xik Minru') /* Name */
+     , (70096,  14, 'Bring this to a Shrine of Xik Minru.') /* Use */
      , (70096,  16, 'An offering brought by the undead to pay tribute to High Priestess Xik Minru.') /* LongDesc */
      , (70096,  33, 'offeringxikminru') /* Quest */;
 
