@@ -793,21 +793,24 @@ Give: Half Empty Cider (24142)
 Give: Splinter of Wood (26467)
     - Motion: Ready
     - TurnToTarget
-    - Tell: Thank you. This must be an extra piece.
-    - InqQuestSolves: SplintersGivenUlgrim@Test, 0 - 7
-        QuestSuccess:
-            - IncrementQuest: SplintersGivenUlgrim
-        QuestFailure:
-            - InqQuestSolves: SplintersGivenUlgrim@Done, 8 - 8
-                QuestSuccess:
-                    - Delay: 1, Tell: I don't need these splinters anymore, but seeing as you went to all that work.
-                    - Delay: 2, Tell: I bestow upon you the Robe of Extraordinary Comfort!
-                    - Motion: PointState
-                    - Give: Bathrobe (26452)
-                    - Motion: Ready
-                    - IncrementQuest: SplintersGivenUlgrim
-                QuestFailure:
-                    - Tell: Thanks, but I don't need anymore splinters.
+    - Delay: 1, Tell: People keep finding these things. There couldn't have been that many. Well, I'm all out of the old bathrobes, but I do have a bunch of these ugly ones.
+    - Delay: 2, Tell: I bestow upon you the Bathrobe of Ordinary Comfort!
+    - Give: Bathrobe of Ordinary Comfort (32152)
+    #- Tell: Thank you. This must be an extra piece.
+    #- InqQuestSolves: SplintersGivenUlgrim@Test, 0 - 7
+    #    QuestSuccess:
+    #        - IncrementQuest: SplintersGivenUlgrim
+    #    QuestFailure:
+    #        - InqQuestSolves: SplintersGivenUlgrim@Done, 8 - 8
+    #            QuestSuccess:
+    #                - Delay: 1, Tell: I don't need these splinters anymore, but seeing as you went to all that work.
+    #                - Delay: 2, Tell: I bestow upon you the Robe of Extraordinary Comfort!
+    #                - Motion: PointState
+    #                - Give: Bathrobe (26452)
+    #                - Motion: Ready
+    #                - IncrementQuest: SplintersGivenUlgrim
+    #            QuestFailure:
+    #                - Tell: Thanks, but I don't need anymore splinters.
 
 Give: Dark Monolith (27437)
     - Motion: Ready
