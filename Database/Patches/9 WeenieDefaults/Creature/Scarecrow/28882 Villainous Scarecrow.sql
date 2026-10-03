@@ -158,6 +158,8 @@ VALUES (28882, 2,  8395, 12, 0, 0, False) /* Create Jack o' Lantern (8395) for W
      , (28882, 9, 28873,  0, 0, 0.05, False) /* Create Scarecrow Arm  (28873) for ContainTreasure */
      , (28882, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (28882, 9, 12215,  0, 0, 0.05, False) /* Create Pumpkin Head (12215) for ContainTreasure */
+     , (28882, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (28882, 9, 26467,  0, 0, 0.05, False) /* Create Pumpkin Head (12215) for ContainTreasure */
      , (28882, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
