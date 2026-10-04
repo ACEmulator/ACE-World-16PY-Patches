@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80531;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80531, 'holiday2002decorationoct', 1, '2005-02-09 10:00:00') /* Generic */;
+VALUES (80531, 'ace80531-festivallights', 1, '2005-02-09 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80531,   1,        128) /* ItemType - Misc */
@@ -17,8 +17,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80531,   1, True ) /* Stuck */
      , (80531,  14, False) /* GravityStatus */
      , (80531,  22, True ) /* Inscribable */
-     , (80531,  24, True) /* UiHidden */
-     , (80531,  23, True ) /* DestroyOnSell */;
+     , (80531,  23, True ) /* DestroyOnSell */
+     , (80531,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80531,  12,     0.5) /* Shade */
