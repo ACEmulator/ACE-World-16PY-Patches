@@ -334,7 +334,8 @@ VALUES (0x7A1A408E, 73174, 0xA1A40139, 80.9101, 28.87, 66.055, 1, 0, 0, 0, False
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7A1A408E, 0x7A1A408F, '2024-07-15 02:34:18') /* Ungrim the Unpleasant Smelling (73172) */
-     , (0x7A1A408E, 0x7A1A4090, '2024-07-15 02:34:18') /* Hidden Jack o' Lantern (73175) */;
+     , (0x7A1A408E, 0x7A1A4090, '2024-07-15 02:34:18') /* Hidden Jack o' Lantern (73175) */
+     , (0x7A1A408E, 0x7A1A4091, '2024-07-15 02:34:18') /* Hidden Jack o' Lantern (73175) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A408F, 73172, 0xA1A40139, 84.5, 32.25, 66.005, 0.382683, 0, 0, 0.92388,  True, '2024-07-15 02:34:18'); /* Ungrim the Unpleasant Smelling */
@@ -343,3 +344,7 @@ VALUES (0x7A1A408F, 73172, 0xA1A40139, 84.5, 32.25, 66.005, 0.382683, 0, 0, 0.92
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A4090, 73175, 0xA1A40139, 85.747, 31.813, 66.943, 0.92388, 0, 0, -0.382684,  True, '2024-07-15 02:34:18'); /* Hidden Jack o' Lantern */
 /* @teleloc 0xA1A40139 [85.747002 31.813000 66.943001] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1A4091, 80531, 0xA1A40139, 84.132683, 34.403160, 69.282242, 1, 0, 0, 0,  True, '2024-07-15 02:34:18'); /* Hidden Jack o' Lantern */
+/* @teleloc 0xA1A40139 [84.132683 34.403160 69.282242] 1.000000 0.000000 0.000000 0.000000 */
